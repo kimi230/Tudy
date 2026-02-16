@@ -231,7 +231,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
         </div>
       ) : (step !== undefined && step >= 1 && step <= 5) ? (
         <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
-          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
+          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" preventFocus={step === 5} />
           <div>{renderStep()}</div>
         </div>
       ) : (
