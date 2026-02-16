@@ -230,7 +230,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             목록으로 돌아가기
           </Link>
         </div>
-      ) : (step !== undefined && step >= 1 && step <= 5) ? (
+      ) : (step === 1 || step === 2 || step === 3 || step === 5) ? (
         <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
           <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
           <div>{renderStep()}</div>
