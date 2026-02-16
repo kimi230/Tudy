@@ -30,12 +30,9 @@ export default function Home() {
         </p>
         <button
           onClick={() => document.getElementById('videos')?.scrollIntoView({ behavior: 'smooth' })}
-          className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
+          className="group px-8 py-3.5 bg-indigo-600 text-white rounded-full text-sm font-semibold hover:bg-indigo-700 active:scale-95 transition-all shadow-lg shadow-indigo-200/50"
         >
           학습 시작하기
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-          </svg>
         </button>
       </section>
 

@@ -91,7 +91,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
   const renderStep = () => {
     switch (step) {
       case 1:
-        return <Step1_Listen onComplete={() => completeStep(1)} />;
+        return <Step1_Listen onComplete={() => { playerRef.current?.seekTo(0); completeStep(1); }} />;
       case 2:
         return (
           <Step2_Notes
