@@ -4,8 +4,6 @@ import MobileNav from './MobileNav';
 
 const navLinks = [
   { to: '/', label: '홈' },
-  { to: '/library', label: '내 학습' },
-  { to: '/error-notes', label: '오답노트' },
   { to: '/vocabulary', label: '어휘장' },
   { to: '/request', label: 'URL 신청' },
   { to: '/about', label: '학습법 소개' },

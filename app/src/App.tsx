@@ -4,8 +4,6 @@ import Home from './pages/Home';
 import Category from './pages/Category';
 import Study from './pages/Study';
 import Request from './pages/Request';
-import Library from './pages/Library';
-import ErrorNote from './pages/ErrorNote';
 import Vocabulary from './pages/Vocabulary';
 import About from './pages/About';
 
@@ -20,8 +18,6 @@ export default function App() {
             <Route path="/category/:categoryId" element={<Category />} />
             <Route path="/study/:videoId" element={<Study />} />
             <Route path="/request" element={<Request />} />
-            <Route path="/library" element={<Library />} />
-            <Route path="/error-notes" element={<ErrorNote />} />
             <Route path="/vocabulary" element={<Vocabulary />} />
             <Route path="/about" element={<About />} />
           </Routes>
