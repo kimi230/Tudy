@@ -2,6 +2,12 @@ import { useState, useCallback, useEffect } from 'react';
 import EtymologyView from '../vocabulary/EtymologyView';
 import type { Segment, VocabularyItem, GrammarPattern, ConnectedSpeech } from '../../types';
 
+interface PlayerControl {
+  play: () => void;
+  pause: () => void;
+  seekTo: (seconds: number) => void;
+}
+
 interface Props {
   currentTime: number;
   segments: Segment[];
@@ -11,6 +17,7 @@ interface Props {
   reviewNeeded: number[];
   onReviewChange: (indices: number[]) => void;
   onComplete: () => void;
+  player?: PlayerControl | null;
 }
 
 export default function Step5_Analyze({
@@ -21,6 +28,7 @@ export default function Step5_Analyze({
   reviewNeeded,
   onReviewChange,
   onComplete,
+  player,
 }: Props) {
   const [currentSegIdx, setCurrentSegIdx] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -51,28 +59,32 @@ export default function Step5_Analyze({
     goToSegment(Math.min(currentSegIdx + 1, segments.length - 1));
   }, [currentSegIdx, segments.length, isReviewNeeded, reviewNeeded, onReviewChange, goToSegment]);
 
-  // Keyboard shortcuts: Space/Enter = reveal or understood+next, ArrowLeft = 모르겠음+next
+  // Keyboard shortcuts: Space = pause+reveal / understood+play, ArrowLeft = 모르겠음+play
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       if (e.key === ' ' || e.key === 'Enter') {
         e.preventDefault();
         if (!revealed) {
+          player?.pause();
           setRevealed(true);
         } else {
           markAndNext(true);
+          player?.play();
         }
       } else if (e.key === 'ArrowLeft' && revealed) {
         e.preventDefault();
         markAndNext(false);
+        player?.play();
       } else if (e.key === 'ArrowRight' && revealed) {
         e.preventDefault();
         markAndNext(true);
+        player?.play();
       }
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [revealed, markAndNext]);
+  }, [revealed, markAndNext, player]);
 
   return (
     <div className="space-y-4 max-h-[80vh] overflow-y-auto pr-1">

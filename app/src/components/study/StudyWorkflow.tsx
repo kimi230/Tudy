@@ -136,6 +136,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             reviewNeeded={session.reviewNeeded}
             onReviewChange={updateReviewNeeded}
             onComplete={() => completeStep(5)}
+            player={playerRef.current}
           />
         );
       case 6:
