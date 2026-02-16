@@ -71,12 +71,16 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
     ]).finally(() => setDataLoading(false));
   }, [videoId]);
 
-  // Pause YouTube & scroll to top on step change
+  // Pause YouTube & reset to 00:00 on step change
   const step = session?.currentStep;
   useEffect(() => {
-    playerRef.current?.pause();
-    playerRef.current?.seekTo(0);
+    const player = playerRef.current;
+    if (!player) return;
+    player.pause();
+    // Delay seekTo so the iframe processes pause first
+    const timer = setTimeout(() => player.seekTo(0), 150);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    return () => clearTimeout(timer);
   }, [step]);
 
   if (sessionLoading || dataLoading) {
