@@ -27,7 +27,7 @@ let dbPromise: Promise<IDBPDatabase<StudyDB>> | null = null;
 
 function getDB() {
   if (!dbPromise) {
-    dbPromise = openDB<StudyDB>('stdyeng-db', 1, {
+    dbPromise = openDB<StudyDB>('tudy-db', 1, {
       upgrade(db) {
         // Sessions store
         const sessionStore = db.createObjectStore('sessions', { keyPath: 'id' });

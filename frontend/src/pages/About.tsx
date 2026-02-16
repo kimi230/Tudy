@@ -197,15 +197,15 @@ export default function About() {
           </p>
           <p className="text-gray-700 leading-relaxed mt-3">
             이 방법이 효과적이라는 건 알겠는데, <strong>분석 과정이 너무 고통스러워서 포기하는 사람이 대부분</strong>입니다.
-            바로 이 지점이 stdyEng가 태어난 이유입니다.
+            바로 이 지점이 Tudy가 태어난 이유입니다.
           </p>
         </section>
 
-        {/* Section 5: What stdyEng Does */}
+        {/* Section 5: What Tudy Does */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">그래서 stdyEng가 하는 일</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">그래서 Tudy가 하는 일</h2>
           <p className="text-gray-700 leading-relaxed">
-            <strong>stdyEng는 분석 단계를 자동화합니다.</strong>{' '}
+            <strong>Tudy는 분석 단계를 자동화합니다.</strong>{' '}
             사람이 해야 할 듣기·쉐도잉·아웃풋에 집중할 수 있도록, 기계적 분석을 대신합니다.
           </p>
 
@@ -214,7 +214,7 @@ export default function About() {
               <thead>
                 <tr className="border-b-2 border-gray-200">
                   <th className="text-left py-3 pr-4 text-gray-500 font-medium">학습법 단계</th>
-                  <th className="text-left py-3 pr-4 text-gray-500 font-medium">stdyEng 자동화</th>
+                  <th className="text-left py-3 pr-4 text-gray-500 font-medium">Tudy 자동화</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
@@ -353,7 +353,7 @@ export default function About() {
 
           <p className="text-gray-500 text-sm mt-8 text-center">
             이 학습법은 TED 강연을 기반으로 하지만,
-            stdyEng에서는 TED뿐만 아니라 모든 YouTube 영상에 동일한 10단계를 적용할 수 있습니다.
+            Tudy에서는 TED뿐만 아니라 모든 YouTube 영상에 동일한 10단계를 적용할 수 있습니다.
           </p>
         </section>
       </div>

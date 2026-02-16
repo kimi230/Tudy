@@ -18,9 +18,9 @@ export default function Home() {
 
   const handleRequest = () => {
     if (!requestUrl.trim()) return;
-    const requests = JSON.parse(localStorage.getItem('stdyeng-requests') || '[]');
+    const requests = JSON.parse(localStorage.getItem('tudy-requests') || '[]');
     requests.push({ url: requestUrl, createdAt: new Date().toISOString(), status: 'pending' });
-    localStorage.setItem('stdyeng-requests', JSON.stringify(requests));
+    localStorage.setItem('tudy-requests', JSON.stringify(requests));
     setRequestUrl('');
     alert('신청이 완료되었습니다!');
   };
