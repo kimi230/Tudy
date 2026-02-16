@@ -117,14 +117,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
           />
         );
       case 4:
-        return (
-          <Step4_Compare
-            segments={segments}
-            notes={session.cornellNotes}
-            structure={structure}
-            onComplete={() => completeStep(4)}
-          />
-        );
+        return null;
       case 5:
         return (
           <Step5_Analyze
@@ -230,6 +223,36 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             목록으로 돌아가기
           </Link>
         </div>
+      ) : step === 4 ? (
+        <>
+          <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
+            <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
+            <div className="space-y-3">
+              <div className="flex items-start justify-between">
+                <h3 className="text-lg font-semibold text-gray-900">Step 4: 자막 비교</h3>
+                <button
+                  onClick={() => completeStep(4)}
+                  className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+                >
+                  다음 →
+                </button>
+              </div>
+              <div>
+                <p className="text-xs font-medium text-yellow-700 mb-1">내 노트</p>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 max-h-[50vh] overflow-y-auto">
+                  <p className="text-sm text-gray-700 whitespace-pre-wrap">
+                    {(() => {
+                      const n = session.cornellNotes;
+                      if (typeof n === 'string') return n || '(노트 없음)';
+                      return [n.cues, n.notes, n.summary].filter(Boolean).join('\n\n') || '(노트 없음)';
+                    })()}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <Step4_Compare segments={segments} structure={structure} />
+        </>
       ) : (step === 1 || step === 2 || step === 3 || step === 5) ? (
         <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
           <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />

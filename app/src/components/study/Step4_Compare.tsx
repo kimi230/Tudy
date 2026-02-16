@@ -1,11 +1,9 @@
 import { useState } from 'react';
-import type { Segment, SpeechStructure, CornellNotes } from '../../types';
+import type { Segment, SpeechStructure } from '../../types';
 
 interface Props {
   segments: Segment[];
-  notes: string | CornellNotes;
   structure?: SpeechStructure;
-  onComplete: () => void;
 }
 
 const SECTION_COLORS = [
@@ -33,98 +31,61 @@ const TYPE_COLORS: Record<string, string> = {
   restatement: 'bg-violet-100 text-violet-700',
 };
 
-function freeTextToDisplay(notes: string | CornellNotes): string {
-  if (typeof notes === 'string') return notes;
-  const parts = [];
-  if (notes.cues) parts.push(notes.cues);
-  if (notes.notes) parts.push(notes.notes);
-  if (notes.summary) parts.push(notes.summary);
-  return parts.join('\n\n') || '';
-}
-
 function getSectionTitle(sec: { section?: string; title?: string; type?: string }): string {
   return sec.section || sec.title || sec.type || 'Section';
 }
 
-export default function Step4_Compare({ segments, notes, structure, onComplete }: Props) {
+export default function Step4_Compare({ segments, structure }: Props) {
   const [popupSegment, setPopupSegment] = useState<number | null>(null);
   const popupSeg = popupSegment !== null ? segments.find(s => s.index === popupSegment) : null;
-  const freeText = freeTextToDisplay(notes);
+
+  if (!structure) return null;
 
   return (
-    <div className="space-y-5">
-      {/* Header */}
-      <div className="flex items-start justify-between">
-        <div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 4: 자막 비교</h3>
-          <p className="text-sm text-gray-500">노트와 실제 구조를 비교하세요.</p>
-        </div>
-        <button
-          onClick={onComplete}
-          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-        >
-          다음 →
-        </button>
-      </div>
-
-      {/* 내 노트 */}
-      <div>
-        <p className="text-xs font-medium text-yellow-700 mb-1">내 노트</p>
-        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-          <p className="text-sm text-gray-700 whitespace-pre-wrap">{freeText || '(노트 없음)'}</p>
-        </div>
-      </div>
-
-      {/* 스피치 구조 + 시그널 표현 — 다단 병기 */}
+    <>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* 스피치 구조 */}
         <div>
           <p className="text-xs font-medium text-gray-700 mb-2">스피치 구조</p>
-          {structure ? (
-            <>
-              {/* Proportional bar */}
-              <div className="flex gap-0.5 h-2.5 rounded overflow-hidden mb-3">
-                {structure.sections.map((sec, i) => {
-                  const width = ((sec.endSegment - sec.startSegment + 1) / segments.length) * 100;
-                  const bgOnly = SECTION_COLORS[i % SECTION_COLORS.length].split(' ')[0];
-                  return (
-                    <div
-                      key={i}
-                      className={`${bgOnly} rounded-sm`}
-                      style={{ width: `${Math.max(width, 3)}%` }}
-                      title={getSectionTitle(sec)}
-                    />
-                  );
-                })}
-              </div>
-              <div className="space-y-2">
-                {structure.sections.map((sec, i) => {
-                  const colorClass = SECTION_COLORS[i % SECTION_COLORS.length];
-                  return (
-                    <div key={i} className={`border rounded-lg px-3 py-2 ${colorClass}`}>
-                      <p className="text-sm font-semibold">{getSectionTitle(sec)}</p>
-                      <p className="text-xs mt-0.5">{sec.summary}</p>
-                      {sec.keyPoints && sec.keyPoints.length > 0 && (
-                        <div className="mt-1.5 flex flex-wrap gap-1">
-                          {sec.keyPoints.map((kp, j) => (
-                            <span key={j} className="text-[10px] bg-white/50 rounded px-1 py-0.5">{kp}</span>
-                          ))}
-                        </div>
-                      )}
+          {/* Proportional bar */}
+          <div className="flex gap-0.5 h-2.5 rounded overflow-hidden mb-3">
+            {structure.sections.map((sec, i) => {
+              const width = ((sec.endSegment - sec.startSegment + 1) / segments.length) * 100;
+              const bgOnly = SECTION_COLORS[i % SECTION_COLORS.length].split(' ')[0];
+              return (
+                <div
+                  key={i}
+                  className={`${bgOnly} rounded-sm`}
+                  style={{ width: `${Math.max(width, 3)}%` }}
+                  title={getSectionTitle(sec)}
+                />
+              );
+            })}
+          </div>
+          <div className="space-y-2">
+            {structure.sections.map((sec, i) => {
+              const colorClass = SECTION_COLORS[i % SECTION_COLORS.length];
+              return (
+                <div key={i} className={`border rounded-lg px-3 py-2 ${colorClass}`}>
+                  <p className="text-sm font-semibold">{getSectionTitle(sec)}</p>
+                  <p className="text-xs mt-0.5">{sec.summary}</p>
+                  {sec.keyPoints && sec.keyPoints.length > 0 && (
+                    <div className="mt-1.5 flex flex-wrap gap-1">
+                      {sec.keyPoints.map((kp, j) => (
+                        <span key={j} className="text-[10px] bg-white/50 rounded px-1 py-0.5">{kp}</span>
+                      ))}
                     </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            <p className="text-sm text-gray-400 text-center py-8">(구조 데이터 없음)</p>
-          )}
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {/* 시그널 표현 */}
         <div>
           <p className="text-xs font-medium text-indigo-700 mb-2">시그널 표현</p>
-          {structure?.signalExpressions && structure.signalExpressions.length > 0 ? (
+          {structure.signalExpressions && structure.signalExpressions.length > 0 ? (
             <div className="space-y-2">
               {structure.signalExpressions.map((sig, i) => (
                 <div key={i} className="bg-white border border-gray-200 rounded-lg px-3 py-2">
@@ -175,7 +136,7 @@ export default function Step4_Compare({ segments, notes, structure, onComplete }
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
