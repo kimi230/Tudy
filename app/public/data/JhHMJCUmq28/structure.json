@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "section": "intro",
+      "section": "Computing's Exponential Growth Hits Physical Limits",
       "startSegment": 0,
       "endSegment": 5,
       "summary": "The narrator introduces the history of computing and how exponential growth in processing power is now hitting physical limits as components approach atomic scale.",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "section": "body",
+      "section": "How Traditional Computers Work",
       "startSegment": 6,
       "endSegment": 16,
       "summary": "Explains the basic building blocks of traditional computers: transistors, logic gates, and modules. Uses the analogy of seven-year-olds doing simple math to show how simple operations combine into complex computing.",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "section": "body",
+      "section": "The Quantum Problem: Tunneling at Atomic Scale",
       "startSegment": 17,
       "endSegment": 24,
       "summary": "Explains why miniaturization causes problems at the quantum level. Quantum tunneling allows electrons to bypass barriers, breaking traditional computing. Scientists respond by developing quantum computers.",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "section": "body",
+      "section": "Qubits and Superposition",
       "startSegment": 25,
       "endSegment": 37,
       "summary": "Introduces qubits and the concept of superposition. Unlike classical bits, qubits can exist in multiple states simultaneously, allowing exponential growth in parallel computation.",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "section": "body",
+      "section": "Entanglement and Quantum Gates",
       "startSegment": 38,
       "endSegment": 47,
       "summary": "Covers entanglement, quantum gates, and how quantum computing works in practice. Entangled qubits react to each other instantaneously, and quantum gates manipulate superpositions to perform massive parallel calculations.",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "section": "body",
+      "section": "Applications: Databases, Encryption, and Drug Discovery",
       "startSegment": 48,
       "endSegment": 61,
       "summary": "Presents practical applications of quantum computers: database searching with Grover's algorithm, breaking encryption systems, and simulating quantum physics for drug discovery and materials science.",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "section": "conclusion",
+      "section": "The Uncertain but Exciting Future",
       "startSegment": 62,
       "endSegment": 64,
       "summary": "The narrator concludes by acknowledging that the future of quantum computing is uncertain — it may be a specialized tool or a transformative revolution — and emphasizes the spirit of exploration.",

@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "type": "intro",
+      "section": "Personal Story: IQ Isn't Everything",
       "startSegment": 0,
       "endSegment": 9,
       "summary": "Opening: Personal story about teaching 7th grade math and discovering IQ isn't everything",
@@ -12,7 +12,7 @@
       "signalExpressions": ["When I was 27 years old", "What struck me was that"]
     },
     {
-      "type": "body",
+      "section": "From Classroom to Graduate School",
       "startSegment": 10,
       "endSegment": 22,
       "summary": "Transition: From classroom observation to graduate school — reframing the question from IQ to motivation",
@@ -24,7 +24,7 @@
       "signalExpressions": ["And that got me thinking", "I came to the conclusion that", "But what if"]
     },
     {
-      "type": "body",
+      "section": "Research Across Extreme Environments",
       "startSegment": 23,
       "endSegment": 38,
       "summary": "Research journey: Studies across West Point, Spelling Bee, schools, and companies — all pointing to one factor",
@@ -36,7 +36,7 @@
       "signalExpressions": ["I started studying", "My research team and I", "In all those very different contexts"]
     },
     {
-      "type": "body",
+      "section": "Defining Grit: Passion and Perseverance",
       "startSegment": 39,
       "endSegment": 54,
       "summary": "Core concept: Defining grit and presenting evidence from Chicago public schools",
@@ -49,7 +49,7 @@
       "signalExpressions": ["It was grit", "Grit is", "Turns out that"]
     },
     {
-      "type": "body",
+      "section": "The Gap: How to Build Grit",
       "startSegment": 55,
       "endSegment": 75,
       "summary": "The gap: We know little about building grit — growth mindset as the best lead so far",
@@ -62,7 +62,7 @@
       "signalExpressions": ["The most shocking thing", "The honest answer is", "So far, the best idea"]
     },
     {
-      "type": "conclusion",
+      "section": "Call to Action: Be Gritty About Building Grit",
       "startSegment": 76,
       "endSegment": 88,
       "summary": "Call to action: We need to be gritty about making kids grittier",

@@ -70,7 +70,7 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
   }, [emitChange, sections]);
 
   const addSection = useCallback((type: 'intro' | 'body' | 'conclusion') => {
-    const newSection: NoteSection = { id: genId(), type, content: '- ' };
+    const newSection: NoteSection = { id: genId(), type, content: '' };
     const next = [...sections, newSection];
     setSections(next);
     emitChange(text, next);
@@ -88,53 +88,12 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
     emitChange(text, next);
   }, [emitChange, sections, text]);
 
-  const makeBulletHandler = useCallback((onChange: (v: string) => void) => {
-    return (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-      if (e.key === 'Enter' && !e.nativeEvent.isComposing) {
-        e.preventDefault();
-        const textarea = e.currentTarget;
-        const { selectionStart, value } = textarea;
-
-        // Empty textarea: just start with a bullet (no leading newline)
-        if (!value) {
-          onChange('- ');
-          requestAnimationFrame(() => {
-            textarea.selectionStart = textarea.selectionEnd = 2;
-          });
-          return;
-        }
-
-        const lineStart = value.lastIndexOf('\n', selectionStart - 1) + 1;
-        const currentLine = value.slice(lineStart, selectionStart);
-
-        // Empty bullet line: remove it instead of adding another
-        if (/^\s*-\s*$/.test(currentLine)) {
-          const cutFrom = lineStart > 0 ? lineStart - 1 : 0;
-          const newValue = value.slice(0, cutFrom) + value.slice(selectionStart);
-          onChange(newValue || '');
-          requestAnimationFrame(() => {
-            textarea.selectionStart = textarea.selectionEnd = cutFrom;
-          });
-          return;
-        }
-
-        const prefix = currentLine.match(/^(\s*- )/)?.[1] || '- ';
-        const insert = `\n${prefix}`;
-        const newValue = value.slice(0, selectionStart) + insert + value.slice(selectionStart);
-        onChange(newValue);
-        requestAnimationFrame(() => {
-          textarea.selectionStart = textarea.selectionEnd = selectionStart + insert.length;
-        });
-      }
-    };
-  }, []);
-
   return (
     <div className="space-y-4">
       <div className="flex items-start justify-between">
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 2: 노트테이킹</h3>
-          <p className="text-sm text-gray-500">다시 들으면서 중심 내용을 메모하세요. 엔터를 누르면 자동으로 불릿이 추가됩니다.</p>
+          <p className="text-sm text-gray-500">다시 들으면서 중심 내용을 자유롭게 메모하세요.</p>
         </div>
         <button
           onClick={() => setShowGuide(true)}
@@ -150,8 +109,7 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
         <textarea
           value={text}
           onChange={(e) => handleTextChange(e.target.value)}
-          onKeyDown={makeBulletHandler(handleTextChange)}
-          placeholder="- 들리는 내용을 적으세요..."
+          placeholder="들리는 내용을 자유롭게 적으세요..."
           className="w-full min-h-[100px] p-3 border border-gray-300 rounded-lg text-sm resize-y focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
         />
       </div>
@@ -196,7 +154,6 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
                 <textarea
                   value={sec.content}
                   onChange={(e) => updateSection(sec.id, e.target.value)}
-                  onKeyDown={makeBulletHandler((v) => updateSection(sec.id, v))}
                   placeholder={style.placeholder}
                   className={`w-full min-h-[100px] p-3 border ${style.border} rounded-lg text-sm resize-y focus:ring-2 ${style.ring} bg-white`}
                   autoFocus
