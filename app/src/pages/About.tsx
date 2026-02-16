@@ -219,7 +219,6 @@ export default function About() {
               </thead>
               <tbody className="divide-y divide-gray-100">
                 {[
-                  { step: '1단계: 전체 듣기', auto: '음성 자동 전사 (STT)' },
                   { step: '4단계: 자막 대조 + 구조 분석', auto: '한국어 번역 + 스피치 구조 분석' },
                   { step: '5단계: 어휘 분석', auto: '핵심 단어, 어원, 용례 자동 추출' },
                   { step: '5단계: 문법 분석', auto: '구어체 문법, 관용 표현 분석' },
