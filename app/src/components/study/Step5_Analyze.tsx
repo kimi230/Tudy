@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import EtymologyView from '../vocabulary/EtymologyView';
 import type { Segment, VocabularyItem, GrammarPattern, ConnectedSpeech } from '../../types';
 
@@ -45,6 +45,38 @@ export default function Step5_Analyze({
     setRevealed(false);
   }, []);
 
+  const markAndNext = useCallback((understood: boolean) => {
+    if (understood) {
+      if (isReviewNeeded) onReviewChange(reviewNeeded.filter((i) => i !== currentSegIdx));
+    } else {
+      if (!isReviewNeeded) onReviewChange([...reviewNeeded, currentSegIdx]);
+    }
+    goToSegment(Math.min(currentSegIdx + 1, segments.length - 1));
+  }, [currentSegIdx, segments.length, isReviewNeeded, reviewNeeded, onReviewChange, goToSegment]);
+
+  // Keyboard shortcuts: Space/Enter = reveal or understood+next, ArrowLeft = 모르겠음+next
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault();
+        if (!revealed) {
+          setRevealed(true);
+        } else {
+          markAndNext(true);
+        }
+      } else if (e.key === 'ArrowLeft' && revealed) {
+        e.preventDefault();
+        markAndNext(false);
+      } else if (e.key === 'ArrowRight' && revealed) {
+        e.preventDefault();
+        markAndNext(true);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [revealed, markAndNext]);
+
   return (
     <div className="space-y-6">
       <div>
@@ -75,61 +107,50 @@ export default function Step5_Analyze({
             >
               다음 →
             </button>
-            {revealed && (
-              <>
-                <div className="flex-1" />
-                <button
-                  onClick={() => {
-                    if (isReviewNeeded) onReviewChange(reviewNeeded.filter((i) => i !== currentSegIdx));
-                    goToSegment(Math.min(currentSegIdx + 1, segments.length - 1));
-                  }}
-                  className="px-3 py-2 rounded-lg text-sm font-medium bg-green-100 text-green-700 border border-green-300 hover:bg-green-200 transition-colors"
-                >
-                  이해됨
-                </button>
-                <button
-                  onClick={() => {
-                    if (!isReviewNeeded) onReviewChange([...reviewNeeded, currentSegIdx]);
-                    goToSegment(Math.min(currentSegIdx + 1, segments.length - 1));
-                  }}
-                  className="px-3 py-2 rounded-lg text-sm font-medium bg-red-100 text-red-700 border border-red-300 hover:bg-red-200 transition-colors"
-                >
-                  모르겠음
-                </button>
-              </>
-            )}
           </div>
 
-          {/* 직청직해 mode: Listen → Pause → Check */}
+          {/* 직청직해: tap card to reveal, then mark */}
           {currentSeg && (
-            <div className="bg-gray-50 rounded-lg p-4">
+            <div
+              onClick={() => { if (!revealed) setRevealed(true); }}
+              className={`rounded-lg p-4 transition-colors ${
+                !revealed
+                  ? 'bg-indigo-50 border-2 border-dashed border-indigo-300 cursor-pointer hover:bg-indigo-100'
+                  : 'bg-gray-50'
+              }`}
+            >
               {!revealed ? (
-                <div className="text-center py-4">
-                  <p className="text-base text-gray-700 mb-3">이 문장, 무슨 내용이었나요?</p>
-                  <p className="text-sm text-gray-400 mb-4">문장을 재생한 뒤, 내용을 떠올려보세요</p>
-                  <button
-                    onClick={() => setRevealed(true)}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700"
-                  >
-                    답 확인하기
-                  </button>
+                <div className="text-center py-6">
+                  <p className="text-base text-gray-700">이 문장, 무슨 내용이었나요?</p>
+                  <p className="text-sm text-indigo-500 mt-2">탭하거나 <kbd className="px-1.5 py-0.5 bg-white border border-gray-300 rounded text-xs">Space</kbd>를 눌러 확인</p>
                 </div>
               ) : (
-                <>
+                <div>
                   <p className="text-base text-gray-900 leading-relaxed">{currentSeg.textEn}</p>
                   <p className="text-sm text-gray-500 mt-2">{currentSeg.textKo}</p>
-                </>
+                  <div className="flex items-center gap-2 mt-4">
+                    <button
+                      onClick={(e) => { e.stopPropagation(); markAndNext(true); }}
+                      className="flex-1 py-2 rounded-lg text-sm font-medium bg-green-100 text-green-700 border border-green-300 hover:bg-green-200 transition-colors"
+                    >
+                      이해됨 →
+                    </button>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); markAndNext(false); }}
+                      className="flex-1 py-2 rounded-lg text-sm font-medium bg-red-100 text-red-700 border border-red-300 hover:bg-red-200 transition-colors"
+                    >
+                      모르겠음 →
+                    </button>
+                  </div>
+                  <p className="text-center text-xs text-gray-400 mt-2">
+                    <kbd className="px-1 py-0.5 bg-white border border-gray-300 rounded">Space</kbd> 이해됨
+                    <span className="mx-2">·</span>
+                    <kbd className="px-1 py-0.5 bg-white border border-gray-300 rounded">←</kbd> 모르겠음
+                  </p>
+                </div>
               )}
             </div>
           )}
-
-          {/* Tip */}
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-            <p className="text-xs text-yellow-800">
-              <span className="font-medium">이해 안 되는 원인 3가지:</span>{' '}
-              1) 단어 — 핵심 단어만 학습 (하루 10개) 2) 문법 — 실제 말하는 문법은 교과서와 다름 3) 연음 — 직접 말해봐야 해결
-            </p>
-          </div>
         </div>
 
         {/* Analysis panel */}
