@@ -8,6 +8,7 @@ interface Props {
   showKorean: boolean;
   highlightWords?: boolean;
   markedSegments?: MarkedSegment[];
+  maxHeight?: string;
   onSegmentClick: (segment: Segment) => void;
   onMark?: (segmentIndex: number, color: 'blue' | 'red') => void;
 }
@@ -18,6 +19,7 @@ export default function TranscriptPanel({
   showKorean,
   highlightWords,
   markedSegments,
+  maxHeight = '60vh',
   onSegmentClick,
   onMark,
 }: Props) {
@@ -51,7 +53,7 @@ export default function TranscriptPanel({
   };
 
   return (
-    <div ref={containerRef} className="overflow-y-auto space-y-1" style={{ maxHeight: '60vh' }}>
+    <div ref={containerRef} className="overflow-y-auto space-y-1" style={{ maxHeight }}>
       {segments.map((seg) => (
         <div key={seg.index} ref={seg.index === activeIndex ? activeRef : undefined}>
           <SegmentRow

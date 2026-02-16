@@ -1,29 +1,18 @@
 import { useCallback } from 'react';
 import TranscriptPanel from '../transcript/TranscriptPanel';
-import type { Segment, MarkedSegment, CornellNotes } from '../../types';
+import type { Segment, MarkedSegment } from '../../types';
 
 interface Props {
   currentTime: number;
   segments: Segment[];
-  notes: string | CornellNotes;
   markedSegments: MarkedSegment[];
   onMarkedChange: (marks: MarkedSegment[]) => void;
   onComplete: () => void;
 }
 
-function notesToString(notes: string | CornellNotes): string {
-  if (typeof notes === 'string') return notes;
-  const parts = [];
-  if (notes.cues) parts.push(`[큐] ${notes.cues}`);
-  if (notes.notes) parts.push(`[노트] ${notes.notes}`);
-  if (notes.summary) parts.push(`[요약] ${notes.summary}`);
-  return parts.join('\n\n') || '';
-}
-
 export default function Step3_Mark({
   currentTime,
   segments,
-  notes,
   markedSegments,
   onMarkedChange,
   onComplete,
@@ -58,38 +47,19 @@ export default function Step3_Mark({
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2">
-          <TranscriptPanel
-            segments={segments}
-            currentTime={currentTime}
-            showKorean={false}
-            markedSegments={markedSegments}
-            onSegmentClick={() => {}}
-            onMark={handleMark}
-          />
-        </div>
+      <TranscriptPanel
+        segments={segments}
+        currentTime={currentTime}
+        showKorean={false}
+        markedSegments={markedSegments}
+        onSegmentClick={() => {}}
+        onMark={handleMark}
+        maxHeight="340px"
+      />
 
-        <div className="space-y-4">
-          <div className="bg-gray-50 rounded-lg p-4">
-            <h4 className="text-sm font-medium text-gray-700 mb-2">마킹 현황</h4>
-            <div className="space-y-2 text-sm">
-              <div className="flex justify-between">
-                <span className="text-blue-600">이해됨/새로 캐치</span>
-                <span>{blueCount}개</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-red-600">여전히 안 들림</span>
-                <span>{redCount}개</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-gray-50 rounded-lg p-4">
-            <h4 className="text-sm font-medium text-gray-700 mb-2">내 노트</h4>
-            <p className="text-sm text-gray-600 whitespace-pre-wrap">{notesToString(notes) || '(노트 없음)'}</p>
-          </div>
-        </div>
+      <div className="flex gap-4 text-sm text-gray-500">
+        <span><span className="inline-block w-2.5 h-2.5 bg-blue-200 rounded mr-1" />{blueCount}개 캐치</span>
+        <span><span className="inline-block w-2.5 h-2.5 bg-red-200 rounded mr-1" />{redCount}개 안 들림</span>
       </div>
 
       <button
