@@ -12,12 +12,10 @@ interface Props {
   onTimeUpdate?: (time: number) => void;
   onReady?: () => void;
   className?: string;
-  /** Overlay the iframe to prevent it from capturing keyboard focus */
-  preventFocus?: boolean;
 }
 
 const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer(
-  { youtubeId, onTimeUpdate, onReady, className, preventFocus },
+  { youtubeId, onTimeUpdate, onReady, className },
   ref
 ) {
   const containerId = `yt-player-${youtubeId}`;
@@ -37,14 +35,8 @@ const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePla
 
   return (
     <div className={className}>
-      <div className="aspect-video bg-black rounded-lg overflow-hidden relative">
+      <div className="aspect-video bg-black rounded-lg overflow-hidden">
         <div id={containerId} className="w-full h-full" />
-        {preventFocus && (
-          <div
-            className="absolute inset-0 cursor-pointer z-10"
-            onClick={() => (state.isPlaying ? pause() : play())}
-          />
-        )}
       </div>
       <div className="flex items-center gap-3 mt-3">
         <button
