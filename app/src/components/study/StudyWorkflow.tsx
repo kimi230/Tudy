@@ -215,29 +215,32 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
         </div>
       </div>
 
-      {/* YouTube player */}
-      <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="max-w-4xl" />
-
-      {/* Step content */}
-      <div>
-        {session.completedAt ? (
-          <div className="text-center py-12 space-y-4">
-            <p className="text-4xl">🎉</p>
-            <h3 className="text-xl font-bold text-gray-900">학습 완료!</h3>
-            <p className="text-sm text-gray-500">
-              총 {Math.floor(session.totalStudyTimeSec / 60)}분 학습 | 이해도 {session.selfScore}%
-            </p>
-            <Link
-              to={`/category/${meta.categoryId}`}
-              className="inline-block mt-4 px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
-            >
-              목록으로 돌아가기
-            </Link>
-          </div>
-        ) : (
-          renderStep()
-        )}
-      </div>
+      {/* Main content: side-by-side for steps 1-2 on PC, stacked otherwise */}
+      {session.completedAt ? (
+        <div className="text-center py-12 space-y-4">
+          <p className="text-4xl">🎉</p>
+          <h3 className="text-xl font-bold text-gray-900">학습 완료!</h3>
+          <p className="text-sm text-gray-500">
+            총 {Math.floor(session.totalStudyTimeSec / 60)}분 학습 | 이해도 {session.selfScore}%
+          </p>
+          <Link
+            to={`/category/${meta.categoryId}`}
+            className="inline-block mt-4 px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+          >
+            목록으로 돌아가기
+          </Link>
+        </div>
+      ) : (step === 1 || step === 2) ? (
+        <div className="lg:grid lg:grid-cols-2 lg:gap-6 space-y-4 lg:space-y-0">
+          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} />
+          <div>{renderStep()}</div>
+        </div>
+      ) : (
+        <>
+          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="max-w-4xl" />
+          <div>{renderStep()}</div>
+        </>
+      )}
     </div>
   );
 }
