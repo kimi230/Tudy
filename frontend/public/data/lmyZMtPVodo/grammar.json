@@ -1,0 +1,108 @@
+[
+  {
+    "pattern": "There's + noun phrase (existential 'there')",
+    "explanation": "Used to introduce the existence of something or someone new into a conversation. It draws attention to the subject that follows.",
+    "explanationKo": "'There's + 명사구'는 대화에서 새로운 존재를 소개할 때 사용해요. 뒤에 오는 주어에 청중의 관심을 끌어요. '~이 있어요'라는 의미예요.",
+    "examples": [
+      "There's a man by the name of Captain William Swenson.",
+      "There's a love there."
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "Who/that + relative clause (defining relative clause)",
+    "explanation": "Relative clauses beginning with 'who' or 'that' provide essential information about the noun they modify. They define or identify the person or thing being talked about.",
+    "explanationKo": "'who/that + 관계절'은 수식하는 명사에 대한 필수적인 정보를 제공해요. 말하고 있는 사람이나 사물을 정의하거나 식별해요.",
+    "examples": [
+      "Who recently was awarded the Congressional Medal of Honor.",
+      "Who are willing to sacrifice themselves so that others may gain.",
+      "People who are at the bottoms of organizations who have no authority."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "So that + clause (purpose clause)",
+    "explanation": "Used to express the purpose or reason for an action. It answers the question 'why?' and connects the action to its intended result.",
+    "explanationKo": "'so that + 절'은 행동의 목적이나 이유를 표현할 때 사용해요. '~하기 위해서'라는 의미로, 행동과 의도된 결과를 연결해요.",
+    "examples": [
+      "Who are willing to sacrifice themselves so that others may gain.",
+      "They sacrificed their people to protect their own interests.",
+      "So that their people may be safe and protected."
+    ],
+    "segmentIndex": 25
+  },
+  {
+    "pattern": "What + clause as subject (nominal/noun clause)",
+    "explanation": "A 'what' clause functions as the subject or complement of a sentence, replacing a noun. It adds emphasis and creates a dramatic or reflective tone.",
+    "explanationKo": "'What + 절'이 문장의 주어나 보어 역할을 해요. 명사를 대신하며, 강조와 극적인 느낌 또는 사색적인 톤을 만들어요.",
+    "examples": [
+      "What is that? That is some deep, deep emotion.",
+      "What I learned is that it's the environment.",
+      "This is what so offends us, not the numbers."
+    ],
+    "segmentIndex": 21
+  },
+  {
+    "pattern": "If + present simple, present simple (zero conditional)",
+    "explanation": "The zero conditional expresses general truths or habitual situations. When the 'if' condition is met, the result always happens.",
+    "explanationKo": "영 조건문(zero conditional)은 일반적인 사실이나 습관적인 상황을 표현해요. 'if' 조건이 충족되면 결과가 항상 일어나요.",
+    "examples": [
+      "If you get the environment right, every single one of us has the capacity to do these remarkable things.",
+      "If we don't trust each other, that means you won't watch for danger.",
+      "If I don't follow the rules, I could get in trouble or lose my job."
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "Would + verb (hypothetical / narrative past future)",
+    "explanation": "Used to express willingness, hypothetical situations, or future-in-the-past. In narrative context, it describes what someone was going to do or what would happen.",
+    "explanationKo": "'would + 동사'는 의지, 가정 상황, 또는 과거 시점에서 본 미래를 표현해요. 이야기 맥락에서 누군가가 하려던 것이나 일어날 일을 설명해요.",
+    "examples": [
+      "Why would you do it?",
+      "Because they would have done it for me.",
+      "Would anybody be offended if we gave a 150 million dollar bonus to Gandhi?"
+    ],
+    "segmentIndex": 36
+  },
+  {
+    "pattern": "The reason (why) + clause + is that + clause",
+    "explanation": "A structure used to clearly state a cause-and-effect relationship. It frames the explanation by first identifying the reason, then providing it.",
+    "explanationKo": "'The reason + 절 + is that + 절'은 인과 관계를 명확하게 설명하는 구조예요. 먼저 이유를 식별하고, 그 다음에 이유를 제공해요.",
+    "examples": [
+      "The reason we like flying Southwest Airlines is not because they necessarily hire better people.",
+      "This is the reason so many people have such a visceral hatred."
+    ],
+    "segmentIndex": 91
+  },
+  {
+    "pattern": "Comparative structure: It's better that... than...",
+    "explanation": "Used to compare two options, expressing a preference for one over the other. Often used in persuasive or moral arguments.",
+    "explanationKo": "'It's better that... than...'은 두 가지 선택지를 비교하며 하나를 선호한다고 표현할 때 사용해요. 설득이나 도덕적 논증에서 자주 쓰여요.",
+    "examples": [
+      "It's better that we should all suffer a little than any of us should have to suffer a lot."
+    ],
+    "segmentIndex": 147
+  },
+  {
+    "pattern": "Not A but B (contrast/correction structure)",
+    "explanation": "Used to correct a potential assumption by negating one idea and presenting the true alternative. It creates a strong rhetorical contrast.",
+    "explanationKo": "'Not A but B' 구조는 잘못된 가정을 부정하고 진짜 대안을 제시할 때 사용해요. 강한 수사적 대비를 만들어요. 'A가 아니라 B'로 해석해요.",
+    "examples": [
+      "But that's completely wrong. What I learned is that it's the environment.",
+      "It's not the numbers. It's that they have violated the very definition of leadership.",
+      "Leadership is a choice. It is not a rank."
+    ],
+    "segmentIndex": 30
+  },
+  {
+    "pattern": "We call them... because + clause (parallel repetition)",
+    "explanation": "A rhetorical device using repetition to build emphasis and rhythm. The repeated structure reinforces the speaker's key point through accumulated examples.",
+    "explanationKo": "반복을 통해 강조와 리듬을 만드는 수사적 기법이에요. 반복되는 구조가 축적된 예시를 통해 화자의 핵심 요점을 강화해요.",
+    "examples": [
+      "We call them leaders because they go first.",
+      "We call them leaders because they take the risk before anybody else does.",
+      "We call them leaders because they will choose to sacrifice."
+    ],
+    "segmentIndex": 173
+  }
+]

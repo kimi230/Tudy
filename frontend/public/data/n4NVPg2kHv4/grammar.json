@@ -1,0 +1,129 @@
+[
+  {
+    "pattern": "Present Simple for Facts",
+    "explanation": "The present simple tense is used to state general truths and facts. In this video, it describes how languages and sounds work.",
+    "explanationKo": "현재 시제는 일반적인 진실과 사실을 설명할 때 사용됩니다. 이 영상에서는 언어와 소리가 어떻게 작동하는지를 설명하는 데 쓰입니다.",
+    "examples": [
+      "Each letter represents only one sound.",
+      "Every sound has a unique symbol.",
+      "There are 44 different sounds."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Contractions (it's, don't, I'm, won't, they're)",
+    "explanation": "Contractions combine two words into one shorter form. They are essential in spoken English and very common in casual speech.",
+    "explanationKo": "축약형은 두 단어를 하나의 짧은 형태로 결합한 것입니다. 구어 영어에서 필수적이며 일상 대화에서 매우 흔합니다.",
+    "examples": [
+      "It's easy to try and pronounce words.",
+      "Don't worry, I'm going to tell you all about it.",
+      "They won't always be pronounced the same way.",
+      "They're pronounced very differently."
+    ],
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "Imperative for Instructions",
+    "explanation": "The imperative mood is used to give commands, instructions, or advice. The subject 'you' is implied and omitted.",
+    "explanationKo": "명령법은 명령, 지시, 또는 조언을 할 때 사용됩니다. 주어 'you'는 암시되어 생략됩니다.",
+    "examples": [
+      "Take the letter C for example.",
+      "Don't freak out!",
+      "Let's look at vowels first.",
+      "Make sure you subscribe by clicking the red button."
+    ],
+    "segmentIndex": 13
+  },
+  {
+    "pattern": "be going to (Future Plans)",
+    "explanation": "The structure 'be going to + verb' is used to talk about planned future actions or intentions.",
+    "explanationKo": "'be going to + 동사' 구조는 계획된 미래 행동이나 의도에 대해 말할 때 사용됩니다.",
+    "examples": [
+      "I'm going to tell you all about it in just a minute.",
+      "We're going to go through the International Phonetic Alphabet together."
+    ],
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "Tag Questions (aren't there? right?)",
+    "explanation": "Tag questions are short questions added to the end of a statement to confirm information or seek agreement.",
+    "explanationKo": "부가 의문문은 문장 끝에 추가되는 짧은 질문으로, 정보를 확인하거나 동의를 구할 때 사용됩니다.",
+    "examples": [
+      "There are five English vowels, aren't there?",
+      "There's 26 letters in the English alphabet, right?"
+    ],
+    "segmentIndex": 42
+  },
+  {
+    "pattern": "Passive Voice",
+    "explanation": "The passive voice is formed with 'be + past participle' and is used when the focus is on the action rather than who does it.",
+    "explanationKo": "수동태는 'be + 과거분사'로 구성되며 행위자보다 행동 자체에 초점을 맞출 때 사용됩니다.",
+    "examples": [
+      "They won't always be pronounced the same way.",
+      "In the word cup, it's pronounced...",
+      "The sound is made by air moving from the back of your mouth."
+    ],
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "Comparative with 'more...than'",
+    "explanation": "Used to compare two things. 'Way more than' adds emphasis to show a big difference.",
+    "explanationKo": "두 가지를 비교할 때 사용됩니다. 'Way more than'은 큰 차이를 강조합니다.",
+    "examples": [
+      "Way more than there are letters.",
+      "There are way more English vowel sounds."
+    ],
+    "segmentIndex": 39
+  },
+  {
+    "pattern": "Present Continuous for Current Activities",
+    "explanation": "The present continuous (be + -ing) describes actions happening now or around the present time.",
+    "explanationKo": "현재 진행형(be + -ing)은 지금 또는 현재 시점 주변에 일어나는 행동을 설명합니다.",
+    "examples": [
+      "When I'm teaching pronunciation lessons.",
+      "When they're studying English pronunciation.",
+      "Watch my mouth position change as I make each of these sounds."
+    ],
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "Conditional 'when' Clauses",
+    "explanation": "When-clauses describe situations that happen at a particular time or under certain conditions.",
+    "explanationKo": "when절은 특정 시간이나 조건에서 발생하는 상황을 설명합니다.",
+    "examples": [
+      "When you see letters in an English word, they won't always be pronounced the same way.",
+      "When a C is next to a H, it's often like in chocolate.",
+      "When you read it, you know exactly how to pronounce the English word."
+    ],
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "This is why... (Cause and Result)",
+    "explanation": "The phrase 'This is why...' connects a reason or cause to its result or consequence.",
+    "explanationKo": "'This is why...' 구문은 이유나 원인을 결과에 연결합니다.",
+    "examples": [
+      "This is why the International Phonetic Alphabet is such a great tool.",
+      "That's why I use the IPA to help my students."
+    ],
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "some...some...some (Parallel Structure)",
+    "explanation": "Repeating 'some' creates a parallel structure to list different categories or types within a group.",
+    "explanationKo": "'some'을 반복하면 그룹 내의 다른 범주나 유형을 나열하는 병렬 구조를 만듭니다.",
+    "examples": [
+      "Some of them are long, some of them are short, and some of them are just lazy."
+    ],
+    "segmentIndex": 46
+  },
+  {
+    "pattern": "Make sure you... (Strong Advice)",
+    "explanation": "The phrase 'Make sure you...' is used to give strong recommendations or reminders.",
+    "explanationKo": "'Make sure you...'는 강한 권고나 당부를 할 때 사용됩니다.",
+    "examples": [
+      "Make sure you go to my website.",
+      "Make sure you subscribe by clicking the red button."
+    ],
+    "segmentIndex": 77
+  }
+]

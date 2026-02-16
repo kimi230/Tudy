@@ -1,0 +1,165 @@
+# ==============================================================================
+# stdyEng Bootstrap
+# ==============================================================================
+# Claude Code 에이전틱 시스템의 마스터 정의 파일.
+# 모든 세션 시작 시 이 파일을 참조하여 시스템 동작 방식을 결정합니다.
+
+system:
+  name: stdyEng
+  description: "YouTube 영상 기반 영어 학습 콘텐츠 자동 생성 시스템"
+  version: "2.0"
+
+# ==============================================================================
+# 핵심 원칙
+# ==============================================================================
+principles:
+  - id: claude_is_the_model
+    rule: "Claude Code 자체가 LLM이다. 번역, 분석, 평가 등 지능이 필요한 작업은 Claude Code가 직접 수행한다."
+    forbidden:
+      - "translator.py 호출 (Anthropic API / Ollama 호출됨)"
+      - "analyzer.py 호출 (Ollama 호출됨)"
+      - "외부 LLM API를 통한 번역/분석"
+
+  - id: tools_are_mechanical
+    rule: "도구(bash)는 기계적 작업에만 사용한다: 다운로드, STT, 파일 정리, 인덱스 업데이트."
+    allowed:
+      - "process_video.py --mechanical-only (다운로드 + STT)"
+      - "process_video.py --finalize (meta.json + 인덱스)"
+      - "video_search.py (YouTube 검색 + 필터링 + 랭킹)"
+
+  - id: direct_file_io
+    rule: "Claude Code는 JSON 파일을 직접 읽고 쓴다. 분석 결과를 파일로 저장할 때 Python 스크립트를 거치지 않는다."
+
+# ==============================================================================
+# 도구 정의 (bash로 실행하는 기계적 명령)
+# ==============================================================================
+tools:
+  download_and_transcribe:
+    command: >
+      python3 scripts/process_video.py
+      --url "{url}"
+      --category "{category}"
+      --mechanical-only
+    description: "Phase 1: 메타데이터 추출 → 오디오 다운로드 → Whisper STT → 세그먼트 정제"
+    output:
+      - "frontend/public/data/{videoId}/_raw_metadata.json"
+      - "frontend/public/data/{videoId}/_clean_segments.json"
+
+  finalize:
+    command: >
+      python3 scripts/process_video.py
+      --video-id "{videoId}"
+      --finalize
+      --category "{category}"
+      --difficulty "{difficulty}"
+    description: "Phase 3: meta.json 생성 + videos.json 인덱스 업데이트 + 중간 파일 정리"
+    output:
+      - "frontend/public/data/{videoId}/meta.json"
+      - "frontend/public/data/videos.json (업데이트)"
+
+  search_youtube:
+    command: >
+      python3 scripts/video_search.py
+      --level "{level}"
+      --category "{category}"
+      --topics "{topics}"
+    description: "YouTube 영상 검색 + 프리필터 + 기초 분석"
+    output:
+      - "scripts/.tmp/candidates.json"
+
+  rank_candidates:
+    command: >
+      python3 scripts/video_search.py
+      --rank
+      --evaluated "scripts/.tmp/evaluated.json"
+      --count {count}
+    description: "평가된 후보 중복 제거 + 종합 랭킹"
+    output:
+      - "scripts/.tmp/recommendations.json"
+
+# ==============================================================================
+# Claude Code 직접 수행 작업 (도구가 아님 — Claude Code 자체 능력)
+# ==============================================================================
+claude_tasks:
+  description: >
+    아래 작업들은 Claude Code가 파일을 읽고, 자체 지능으로 분석하고,
+    결과를 JSON 파일로 직접 작성한다. 외부 모델 호출 없음.
+
+  translate:
+    input: "{videoId}/_clean_segments.json"
+    output: "{videoId}/segments.json"
+    action: "각 세그먼트의 textEn을 자연스러운 한국어로 번역하여 textKo 추가"
+
+  estimate_difficulty:
+    input: "{videoId}/segments.json"
+    output: "(difficulty 값 → finalize에 전달)"
+    action: "WPM, 어휘 복잡도, 문장 구조로 난이도 판단 (beginner/intermediate/advanced)"
+
+  extract_vocabulary:
+    input: "{videoId}/segments.json"
+    output: "{videoId}/vocabulary.json"
+    action: "학습 가치 높은 어휘 15~30개 추출 (정의, IPA, 어원, 품사, 한국어 뜻)"
+
+  analyze_grammar:
+    input: "{videoId}/segments.json"
+    output: "{videoId}/grammar.json"
+    action: "주요 문법 패턴 8~15개 분석 (패턴명, 설명, 예시, 세그먼트 위치)"
+
+  analyze_connected_speech:
+    input: "{videoId}/segments.json"
+    output: "{videoId}/connected_speech.json"
+    action: "연음/탈락/축약/동화 현상 분석 (원래 발음 vs 실제 발음, 한국어 가이드)"
+
+  analyze_structure:
+    input: "{videoId}/segments.json"
+    output: "{videoId}/structure.json"
+    action: "스피치 구조 분석 (섹션 구분, 전환 표현 추출)"
+
+  evaluate_candidates:
+    input: "scripts/.tmp/candidates.json"
+    output: "scripts/.tmp/evaluated.json"
+    action: "후보 영상의 자막을 읽고 구조/콘텐츠/명료도/흥미도 평가 (1~10점)"
+
+# ==============================================================================
+# 워크플로우 참조
+# ==============================================================================
+workflows:
+  process:
+    file: "scripts/workflow.yaml"
+    description: "YouTube URL → 학습 콘텐츠 생성 (3-Phase)"
+    trigger: "사용자가 URL을 제공하거나 영상 처리 요청 시"
+
+  search:
+    file: "scripts/search_workflow.yaml"
+    description: "카테고리/난이도 기반 영상 검색 → 추천"
+    trigger: "사용자가 '영상 찾아줘' 등 검색 요청 시"
+
+# ==============================================================================
+# 경로
+# ==============================================================================
+paths:
+  project_root: "/Users/lindong/stdyEng"
+  data_dir: "frontend/public/data"
+  index_file: "frontend/public/data/videos.json"
+  temp_dir: "scripts/.tmp"
+  scripts_dir: "scripts"
+
+# ==============================================================================
+# 카테고리 / 난이도
+# ==============================================================================
+categories:
+  - pronunciation
+  - business
+  - daily
+  - academic
+  - travel
+  - tech
+  - current
+  - culture
+  - science
+  - motivation
+
+difficulties:
+  - beginner
+  - intermediate
+  - advanced

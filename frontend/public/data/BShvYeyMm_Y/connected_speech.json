@@ -1,0 +1,152 @@
+[
+  {
+    "type": "linking",
+    "originalText": "usher in an era",
+    "phonetic": "/ˈʌʃər ɪn ən ˈɪrə/",
+    "koreanPhonetic": "어셔 리너 네라",
+    "explanation": "The /r/ at the end of 'usher' links smoothly to the vowel /ɪ/ at the start of 'in', and 'in' links to 'an' and then to 'era' through consonant-vowel linking.",
+    "explanationKo": "'usher'의 끝 /r/ 소리가 'in'의 시작 모음 /ɪ/와 자연스럽게 연결되며, 'in'이 'an'으로 그리고 'era'로 자음-모음 연결을 통해 이어집니다.",
+    "practiceGuide": "'어셔-리-너-네라'로 끊지 않고 부드럽게 한 호흡으로 연결하여 발음하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "reduction",
+    "originalText": "you have to go back",
+    "phonetic": "/jə hæftə ɡoʊ bæk/",
+    "koreanPhonetic": "유 해프터 고 백",
+    "explanation": "'Have to' is reduced to /hæftə/ in natural speech, with 'have' losing its /v/ sound and merging with 'to'. 'You' is often reduced to /jə/.",
+    "explanationKo": "'have to'는 자연스러운 대화에서 /hæftə/로 축소되며, 'have'가 /v/ 소리를 잃고 'to'와 합쳐집니다. 'You'는 종종 /jə/로 축소됩니다.",
+    "practiceGuide": "'해브 투'가 아니라 '해프터'로 빠르게 발음하세요. 'have'의 'v'를 발음하지 않는 것이 핵심입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "elision",
+    "originalText": "United States",
+    "phonetic": "/juːˈnaɪɾɪd steɪts/",
+    "koreanPhonetic": "유나이리드 스테이츠",
+    "explanation": "The /t/ in 'United' is often pronounced as a flap /ɾ/ (sounds like a quick /d/) in American English because it occurs between two vowels. The final /d/ may be partially elided before /s/ in 'States'.",
+    "explanationKo": "'United'의 /t/는 두 모음 사이에 있기 때문에 미국 영어에서 종종 플랩 /ɾ/(빠른 /d/ 소리)로 발음됩니다. 'States'의 /s/ 앞에서 마지막 /d/가 부분적으로 탈락될 수 있습니다.",
+    "practiceGuide": "'유나이티드'보다는 '유나이리드'에 가깝게 발음하세요. 't'를 혀끝으로 가볍게 한 번 튕기듯 발음합니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/ə lɒɾə/",
+    "koreanPhonetic": "어 라러",
+    "explanation": "In rapid speech, 'a lot of' often reduces dramatically: 'lot' flaps to /lɒɾ/ and 'of' reduces to /ə/, creating a smooth three-syllable unit.",
+    "explanationKo": "빠른 말에서 'a lot of'는 크게 축소됩니다: 'lot'이 /lɒɾ/로 플랩되고 'of'가 /ə/로 축소되어 부드러운 3음절 단위가 됩니다.",
+    "practiceGuide": "'어 랏 오브'가 아니라 '어 라러'로 자연스럽게 연결하여 발음하세요.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "linking",
+    "originalText": "power on earth",
+    "phonetic": "/ˈpaʊər ɒn ɜːrθ/",
+    "koreanPhonetic": "파워 로너스",
+    "explanation": "The /r/ sound at the end of 'power' links to the vowel /ɒ/ in 'on', and 'on' links to 'earth' through consonant-vowel linking, creating a smooth flow.",
+    "explanationKo": "'power' 끝의 /r/ 소리가 'on'의 모음 /ɒ/와 연결되고, 'on'이 자음-모음 연결을 통해 'earth'와 이어져 부드러운 흐름을 만듭니다.",
+    "practiceGuide": "'파워-로-너스'로 끊김 없이 연결하여 발음하세요. R 소리가 다음 모음에 연결되는 것에 주의하세요.",
+    "segmentIndex": 58
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in the",
+    "phonetic": "/ɪn ðə/ → /ɪnə/",
+    "koreanPhonetic": "이너",
+    "explanation": "In rapid speech, 'in the' often undergoes assimilation where the /ð/ of 'the' is weakened or dropped entirely, making it sound like /ɪnə/.",
+    "explanationKo": "빠른 말에서 'in the'는 동화가 일어나 'the'의 /ð/가 약해지거나 완전히 탈락하여 /ɪnə/처럼 들립니다.",
+    "practiceGuide": "'인 더'가 아닌 '이너'에 가깝게 자연스럽게 발음하세요. 'the'의 'th' 소리가 거의 들리지 않습니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "would have",
+    "phonetic": "/wʊdəv/",
+    "koreanPhonetic": "우더브",
+    "explanation": "'Would have' contracts to 'would've' /wʊdəv/ in speech, with 'have' reduced to just /əv/. This is why it's sometimes mistakenly written as 'would of'.",
+    "explanationKo": "'would have'는 말할 때 'would've' /wʊdəv/로 축약되며, 'have'가 /əv/로 줄어듭니다. 이것이 때때로 'would of'로 잘못 쓰이는 이유입니다.",
+    "practiceGuide": "'우드 해브'가 아니라 '우더브'로 빠르게 발음하세요. 'have'가 'of'처럼 들리는 것이 자연스럽습니다.",
+    "segmentIndex": 15
+  },
+  {
+    "type": "linking",
+    "originalText": "weigh in on",
+    "phonetic": "/weɪ ɪn ɒn/",
+    "koreanPhonetic": "웨이 이논",
+    "explanation": "The diphthong /eɪ/ at the end of 'weigh' glides into the /ɪ/ of 'in', and the /n/ of 'in' links directly to the vowel /ɒ/ of 'on', creating smooth consonant-vowel linking.",
+    "explanationKo": "'weigh' 끝의 이중모음 /eɪ/가 'in'의 /ɪ/로 자연스럽게 이어지고, 'in'의 /n/이 'on'의 모음 /ɒ/에 직접 연결되어 부드러운 자음-모음 연결을 만듭니다.",
+    "practiceGuide": "'웨이-이-논'으로 끊기지 않게 연결하세요. 특히 'in on'이 '이논'처럼 들리도록 연습하세요.",
+    "segmentIndex": 35
+  },
+  {
+    "type": "elision",
+    "originalText": "post-war",
+    "phonetic": "/ˈpoʊs(t)wɔːr/",
+    "koreanPhonetic": "포스워",
+    "explanation": "The /t/ in 'post' is commonly elided before the /w/ in 'war' because both sounds require different mouth positions, and dropping the /t/ makes the transition smoother.",
+    "explanationKo": "'post'의 /t/는 'war'의 /w/ 앞에서 흔히 탈락되는데, 두 소리가 다른 입 모양을 필요로 하기 때문에 /t/를 생략하면 전환이 더 부드러워집니다.",
+    "practiceGuide": "'포스트워'가 아닌 '포스워'로 발음하세요. /t/ 소리를 생략하는 것이 자연스럽습니다.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "reduction",
+    "originalText": "better off",
+    "phonetic": "/ˈbeɾər ɒf/",
+    "koreanPhonetic": "베러 오프",
+    "explanation": "The /tt/ in 'better' becomes a flap /ɾ/ in American English, sounding almost like a /d/. The /r/ then links to the vowel in 'off'.",
+    "explanationKo": "'better'의 /tt/는 미국 영어에서 플랩 /ɾ/이 되어 거의 /d/ 소리처럼 들립니다. 그 다음 /r/이 'off'의 모음에 연결됩니다.",
+    "practiceGuide": "'베터'가 아닌 '베러'로 발음하세요. 가운데 't'를 혀끝으로 가볍게 튕기듯 발음합니다.",
+    "segmentIndex": 67
+  },
+  {
+    "type": "assimilation",
+    "originalText": "didn't",
+    "phonetic": "/ˈdɪdnt/ → /ˈdɪdən/",
+    "koreanPhonetic": "디든",
+    "explanation": "In natural speech, the final /t/ in 'didn't' is often replaced by a glottal stop or dropped entirely, resulting in /ˈdɪdən/ or /ˈdɪdnʔ/.",
+    "explanationKo": "자연스러운 말에서 'didn't'의 마지막 /t/는 종종 성문 폐쇄음으로 대체되거나 완전히 탈락되어 /ˈdɪdən/ 또는 /ˈdɪdnʔ/가 됩니다.",
+    "practiceGuide": "'디든트'가 아닌 '디든'으로 마지막 't'를 거의 발음하지 않습니다. 목에서 살짝 멈추는 느낌을 주세요.",
+    "segmentIndex": 43
+  },
+  {
+    "type": "linking",
+    "originalText": "far-flung",
+    "phonetic": "/ˈfɑːr flʌŋ/",
+    "koreanPhonetic": "파아 플렁",
+    "explanation": "The /r/ at the end of 'far' can link to the /f/ of 'flung', but since both are consonants, the /r/ may be softened. The compound adjective flows as one unit.",
+    "explanationKo": "'far' 끝의 /r/이 'flung'의 /f/에 연결될 수 있지만, 둘 다 자음이므로 /r/이 부드럽게 처리됩니다. 복합 형용사가 하나의 단위로 흐릅니다.",
+    "practiceGuide": "'파-플렁'처럼 하나의 단어처럼 연결하여 발음하세요. 'far'와 'flung' 사이에 쉼을 두지 마세요.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "고나",
+    "explanation": "'Going to' is reduced to 'gonna' /ˈɡɒnə/ in casual speech. The /ɪŋ/ and /t/ sounds are dropped entirely.",
+    "explanationKo": "'going to'는 일상 대화에서 'gonna' /ˈɡɒnə/로 축소됩니다. /ɪŋ/과 /t/ 소리가 완전히 탈락합니다.",
+    "practiceGuide": "'고잉 투'가 아닌 '고나'로 발음하세요. 비격식 상황에서 가장 자연스러운 발음입니다.",
+    "segmentIndex": 68
+  },
+  {
+    "type": "elision",
+    "originalText": "months",
+    "phonetic": "/mʌn(t)s/",
+    "koreanPhonetic": "먼스",
+    "explanation": "The /t/ in the consonant cluster /nθs/ is commonly elided in natural speech, simplifying the difficult cluster to /ns/ or /nθs/ without the explicit /t/.",
+    "explanationKo": "자음 군집 /nθs/에서 /t/는 자연스러운 말에서 흔히 탈락되어, 어려운 군집을 명시적인 /t/ 없이 /ns/ 또는 /nθs/로 단순화합니다.",
+    "practiceGuide": "'먼스'로 발음하세요. 't' 소리를 따로 넣으려고 하지 않아도 됩니다.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "linking",
+    "originalText": "an era of",
+    "phonetic": "/ən ˈɪrə əv/",
+    "koreanPhonetic": "어네러러브",
+    "explanation": "The /n/ of 'an' links to the vowel /ɪ/ of 'era', then the final /ə/ of 'era' links to the /ə/ of 'of', creating a continuous flow of connected sounds.",
+    "explanationKo": "'an'의 /n/이 'era'의 모음 /ɪ/에 연결되고, 'era'의 마지막 /ə/가 'of'의 /ə/에 연결되어 연속적인 연결음의 흐름을 만듭니다.",
+    "practiceGuide": "'언 에라 오브'가 아닌 '어-네러-러브'로 끊김 없이 연결하세요.",
+    "segmentIndex": 1
+  }
+]

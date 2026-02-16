@@ -1,0 +1,522 @@
+[
+  {
+    "word": "rewarding",
+    "phonetic": "/rɪˈwɔːrdɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "providing satisfaction; gratifying",
+    "meaningKo": "보람 있는, 만족스러운",
+    "etymology": "From Old French 'regarder' (to regard), via Anglo-Norman French 'rewarder'",
+    "rootBreakdown": {
+      "prefix": "re-",
+      "root": "ward",
+      "suffix": "-ing"
+    },
+    "relatedWords": [
+      "reward",
+      "unrewarding",
+      "rewardingly"
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career."
+  },
+  {
+    "word": "gorgeous",
+    "phonetic": "/ˈɡɔːrdʒəs/",
+    "partOfSpeech": "adjective",
+    "definition": "beautiful; very attractive",
+    "meaningKo": "아주 멋진, 매우 아름다운",
+    "etymology": "From Old French 'gorgias' (elegant, fashionable)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "gorge",
+      "suffix": "-ous"
+    },
+    "relatedWords": [
+      "gorgeously",
+      "gorgeousness"
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career."
+  },
+  {
+    "word": "blessed",
+    "phonetic": "/blɛst/",
+    "partOfSpeech": "adjective",
+    "definition": "favored by God or fortune; fortunate",
+    "meaningKo": "축복받은, 행운의",
+    "etymology": "From Old English 'blētsian' (to consecrate with blood)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "bless",
+      "suffix": "-ed"
+    },
+    "relatedWords": [
+      "blessing",
+      "bless",
+      "unblessed"
+    ],
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "And she's always posting about how blessed she is."
+  },
+  {
+    "word": "destructive",
+    "phonetic": "/dɪˈstrʌktɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "causing great damage or harm",
+    "meaningKo": "파괴적인, 해로운",
+    "etymology": "From Latin 'destructivus', from 'destruere' (to tear down)",
+    "rootBreakdown": {
+      "prefix": "de-",
+      "root": "struct",
+      "suffix": "-ive"
+    },
+    "relatedWords": [
+      "destruction",
+      "destroy",
+      "constructive"
+    ],
+    "isEssential": true,
+    "segmentIndex": 24,
+    "contextSentence": "There's three kinds of destructive beliefs."
+  },
+  {
+    "word": "magnify",
+    "phonetic": "/ˈmæɡnɪfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "to make something appear larger or more important than it is",
+    "meaningKo": "확대하다, 과장하다",
+    "etymology": "From Latin 'magnificare' (to esteem greatly), from 'magnus' (great)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "magn-",
+      "suffix": "-ify"
+    },
+    "relatedWords": [
+      "magnification",
+      "magnificent",
+      "magnitude"
+    ],
+    "isEssential": true,
+    "segmentIndex": 29,
+    "contextSentence": "It's when you start to magnify your misfortune."
+  },
+  {
+    "word": "misfortune",
+    "phonetic": "/mɪsˈfɔːrtʃuːn/",
+    "partOfSpeech": "noun",
+    "definition": "bad luck; an unfortunate event or circumstance",
+    "meaningKo": "불행, 불운",
+    "etymology": "From Old French 'mesfortune', from 'mes-' (bad) + 'fortune'",
+    "rootBreakdown": {
+      "prefix": "mis-",
+      "root": "fortune",
+      "suffix": null
+    },
+    "relatedWords": [
+      "fortune",
+      "unfortunate",
+      "misfortunate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 29,
+    "contextSentence": "It's when you start to magnify your misfortune."
+  },
+  {
+    "word": "self-pity",
+    "phonetic": "/ˌsɛlfˈpɪti/",
+    "partOfSpeech": "noun",
+    "definition": "excessive concern with and unhappiness over one's own troubles",
+    "meaningKo": "자기연민, 자기 불쌍히 여김",
+    "etymology": "Compound of 'self' (Old English) + 'pity' (Old French 'pité')",
+    "rootBreakdown": {
+      "prefix": "self-",
+      "root": "pity",
+      "suffix": null
+    },
+    "relatedWords": [
+      "self-pitying",
+      "pitiful",
+      "pitiable"
+    ],
+    "isEssential": true,
+    "segmentIndex": 29,
+    "contextSentence": "Self-pity goes beyond that."
+  },
+  {
+    "word": "consequences",
+    "phonetic": "/ˈkɑːnsɪkwɛnsɪz/",
+    "partOfSpeech": "noun",
+    "definition": "results or effects of an action or condition",
+    "meaningKo": "결과, 영향",
+    "etymology": "From Latin 'consequentia', from 'consequi' (to follow closely)",
+    "rootBreakdown": {
+      "prefix": "con-",
+      "root": "sequ",
+      "suffix": "-ence"
+    },
+    "relatedWords": [
+      "consequential",
+      "consequently",
+      "inconsequential"
+    ],
+    "isEssential": true,
+    "segmentIndex": 41,
+    "contextSentence": "Yeah, maybe there'll be consequences if you don't work late."
+  },
+  {
+    "word": "cosmic",
+    "phonetic": "/ˈkɑːzmɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the universe; infinitely great",
+    "meaningKo": "우주적인, 광대한",
+    "etymology": "From Greek 'kosmikos', from 'kosmos' (world, universe)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "cosm-",
+      "suffix": "-ic"
+    },
+    "relatedWords": [
+      "cosmos",
+      "cosmology",
+      "cosmopolitan"
+    ],
+    "isEssential": false,
+    "segmentIndex": 50,
+    "contextSentence": "But expecting success to fall into your lap like some sort of cosmic reward."
+  },
+  {
+    "word": "muster",
+    "phonetic": "/ˈmʌstər/",
+    "partOfSpeech": "verb",
+    "definition": "to summon up or gather (a feeling, attitude, or response)",
+    "meaningKo": "끌어모으다, 소집하다",
+    "etymology": "From Old French 'mostrer' (to show), from Latin 'monstrare'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "muster",
+      "suffix": null
+    },
+    "relatedWords": [
+      "mustering",
+      "muster up"
+    ],
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "Where you need all the mental strength that you can muster."
+  },
+  {
+    "word": "therapist",
+    "phonetic": "/ˈθɛrəpɪst/",
+    "partOfSpeech": "noun",
+    "definition": "a person skilled in a particular kind of therapy",
+    "meaningKo": "치료사, 상담사",
+    "etymology": "From Greek 'therapeutes' (one who serves or attends)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "therap-",
+      "suffix": "-ist"
+    },
+    "relatedWords": [
+      "therapy",
+      "therapeutic",
+      "therapize"
+    ],
+    "isEssential": true,
+    "segmentIndex": 57,
+    "contextSentence": "I landed my first big job as a therapist."
+  },
+  {
+    "word": "unresponsive",
+    "phonetic": "/ˌʌnrɪˈspɑːnsɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "not responding to stimulation or treatment; unconscious",
+    "meaningKo": "반응이 없는, 의식이 없는",
+    "etymology": "From 'un-' (not) + 'responsive' (Latin 'respondere')",
+    "rootBreakdown": {
+      "prefix": "un-",
+      "root": "respons-",
+      "suffix": "-ive"
+    },
+    "relatedWords": [
+      "responsive",
+      "response",
+      "respond"
+    ],
+    "isEssential": true,
+    "segmentIndex": 62,
+    "contextSentence": "She said that our mother was found unresponsive."
+  },
+  {
+    "word": "aneurysm",
+    "phonetic": "/ˈænjʊrɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "a bulge in a blood vessel caused by weakness in the vessel wall",
+    "meaningKo": "동맥류",
+    "etymology": "From Greek 'aneurysma' (a widening), from 'aneurynein' (to dilate)",
+    "rootBreakdown": {
+      "prefix": "an-",
+      "root": "eurys-",
+      "suffix": "-m"
+    },
+    "relatedWords": [
+      "aneurysmal"
+    ],
+    "isEssential": false,
+    "segmentIndex": 66,
+    "contextSentence": "Doctors explained she'd had a brain aneurysm."
+  },
+  {
+    "word": "devastating",
+    "phonetic": "/ˈdɛvəsteɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "causing severe shock, distress, or destruction",
+    "meaningKo": "충격적인, 엄청난 타격을 주는",
+    "etymology": "From Latin 'devastare' (to lay waste), from 'de-' + 'vastare' (to empty)",
+    "rootBreakdown": {
+      "prefix": "de-",
+      "root": "vast-",
+      "suffix": "-ating"
+    },
+    "relatedWords": [
+      "devastate",
+      "devastation",
+      "devastated"
+    ],
+    "isEssential": true,
+    "segmentIndex": 69,
+    "contextSentence": "That news was devastating to me."
+  },
+  {
+    "word": "intellectual",
+    "phonetic": "/ˌɪntəˈlɛktʃuəl/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the intellect; involving mental rather than emotional processes",
+    "meaningKo": "지적인, 지성의",
+    "etymology": "From Latin 'intellectualis', from 'intellegere' (to understand)",
+    "rootBreakdown": {
+      "prefix": "intel-",
+      "root": "lect-",
+      "suffix": "-ual"
+    },
+    "relatedWords": [
+      "intellect",
+      "intellectually",
+      "intelligence"
+    ],
+    "isEssential": true,
+    "segmentIndex": 70,
+    "contextSentence": "I knew on an intellectual level how to go through grief."
+  },
+  {
+    "word": "grief",
+    "phonetic": "/ɡriːf/",
+    "partOfSpeech": "noun",
+    "definition": "deep sorrow, especially caused by someone's death",
+    "meaningKo": "깊은 슬픔, 비탄",
+    "etymology": "From Old French 'grief' (hardship, suffering), from 'grever' (to burden)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "grief",
+      "suffix": null
+    },
+    "relatedWords": [
+      "grieve",
+      "grievance",
+      "grieving"
+    ],
+    "isEssential": true,
+    "segmentIndex": 70,
+    "contextSentence": "I knew on an intellectual level how to go through grief."
+  },
+  {
+    "word": "coincidentally",
+    "phonetic": "/koʊˌɪnsɪˈdɛntəli/",
+    "partOfSpeech": "adverb",
+    "definition": "in a way that results from coincidence; by chance",
+    "meaningKo": "우연히, 공교롭게도",
+    "etymology": "From Latin 'co-' (together) + 'incidere' (to fall upon)",
+    "rootBreakdown": {
+      "prefix": "co-",
+      "root": "incid-",
+      "suffix": "-ent-ally"
+    },
+    "relatedWords": [
+      "coincidence",
+      "coincide",
+      "coincidental"
+    ],
+    "isEssential": false,
+    "segmentIndex": 75,
+    "contextSentence": "Coincidentally, it was being played at the same auditorium where I had last seen my mother."
+  },
+  {
+    "word": "understatement",
+    "phonetic": "/ˈʌndərsteɪtmənt/",
+    "partOfSpeech": "noun",
+    "definition": "a statement that represents something as less than it is",
+    "meaningKo": "과소표현, 절제된 표현",
+    "etymology": "From 'under-' + 'statement'",
+    "rootBreakdown": {
+      "prefix": "under-",
+      "root": "state",
+      "suffix": "-ment"
+    },
+    "relatedWords": [
+      "understate",
+      "overstatement",
+      "overstate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 93,
+    "contextSentence": "To describe that as a painful period in my life feels like an understatement."
+  },
+  {
+    "word": "terminal",
+    "phonetic": "/ˈtɜːrmɪnəl/",
+    "partOfSpeech": "adjective",
+    "definition": "predicted to lead to death; incurable",
+    "meaningKo": "말기의, 불치의",
+    "etymology": "From Latin 'terminalis', from 'terminus' (end, boundary)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "termin-",
+      "suffix": "-al"
+    },
+    "relatedWords": [
+      "terminate",
+      "terminal",
+      "terminology"
+    ],
+    "isEssential": true,
+    "segmentIndex": 103,
+    "contextSentence": "I got the news that Steve's dad had terminal cancer."
+  },
+  {
+    "word": "gratitude",
+    "phonetic": "/ˈɡrætɪtuːd/",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being thankful; readiness to show appreciation",
+    "meaningKo": "감사, 고마움",
+    "etymology": "From Medieval Latin 'gratitudo', from Latin 'gratus' (thankful, pleasing)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "grat-",
+      "suffix": "-itude"
+    },
+    "relatedWords": [
+      "grateful",
+      "gratify",
+      "ingratitude"
+    ],
+    "isEssential": true,
+    "segmentIndex": 117,
+    "contextSentence": "You need good habits like practicing gratitude."
+  },
+  {
+    "word": "resenting",
+    "phonetic": "/rɪˈzɛntɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "feeling bitterness or indignation toward someone or something",
+    "meaningKo": "원망하는, 분개하는",
+    "etymology": "From French 'ressentir' (to feel strongly), from Latin 're-' + 'sentire' (to feel)",
+    "rootBreakdown": {
+      "prefix": "re-",
+      "root": "sent-",
+      "suffix": "-ing"
+    },
+    "relatedWords": [
+      "resentment",
+      "resentful",
+      "resent"
+    ],
+    "isEssential": true,
+    "segmentIndex": 118,
+    "contextSentence": "You also have to give up bad habits like resenting somebody else's success."
+  },
+  {
+    "word": "liberating",
+    "phonetic": "/ˈlɪbəreɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "freeing from restriction or oppression",
+    "meaningKo": "해방감을 주는, 자유롭게 하는",
+    "etymology": "From Latin 'liberare' (to set free), from 'liber' (free)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "liber-",
+      "suffix": "-ating"
+    },
+    "relatedWords": [
+      "liberate",
+      "liberation",
+      "liberty"
+    ],
+    "isEssential": true,
+    "segmentIndex": 142,
+    "contextSentence": "And that can be liberating."
+  },
+  {
+    "word": "doomed",
+    "phonetic": "/duːmd/",
+    "partOfSpeech": "adjective",
+    "definition": "destined to an unhappy or unfortunate fate",
+    "meaningKo": "운명에 처한, 파멸할",
+    "etymology": "From Old English 'dōm' (judgment, fate)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "doom",
+      "suffix": "-ed"
+    },
+    "relatedWords": [
+      "doom",
+      "doomsday",
+      "doomful"
+    ],
+    "isEssential": true,
+    "segmentIndex": 149,
+    "contextSentence": "So he just believed he was doomed."
+  },
+  {
+    "word": "complications",
+    "phonetic": "/ˌkɑːmplɪˈkeɪʃənz/",
+    "partOfSpeech": "noun",
+    "definition": "secondary diseases or conditions that worsen an existing one",
+    "meaningKo": "합병증, 복잡한 사태",
+    "etymology": "From Latin 'complicatio', from 'complicare' (to fold together)",
+    "rootBreakdown": {
+      "prefix": "com-",
+      "root": "plic-",
+      "suffix": "-ation"
+    },
+    "relatedWords": [
+      "complicate",
+      "complicated",
+      "complexity"
+    ],
+    "isEssential": true,
+    "segmentIndex": 148,
+    "contextSentence": "His mother had died from complications of diabetes at a young age."
+  },
+  {
+    "word": "diabetic",
+    "phonetic": "/ˌdaɪəˈbɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "having or relating to diabetes",
+    "meaningKo": "당뇨병의, 당뇨가 있는",
+    "etymology": "From Greek 'diabētikos', from 'diabētēs' (siphon, one who straddles)",
+    "rootBreakdown": {
+      "prefix": "dia-",
+      "root": "bet-",
+      "suffix": "-ic"
+    },
+    "relatedWords": [
+      "diabetes",
+      "prediabetic"
+    ],
+    "isEssential": false,
+    "segmentIndex": 146,
+    "contextSentence": "I once worked with this man who had been diabetic for years."
+  }
+]

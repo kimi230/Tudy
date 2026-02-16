@@ -1,0 +1,12 @@
+[
+  { "id": "pronunciation", "name": "발음교정", "icon": "mic", "description": "발음/억양 교정에 좋은 영상", "order": 1 },
+  { "id": "business", "name": "비즈니스영어", "icon": "briefcase", "description": "비즈니스 회의/이메일/프레젠테이션", "order": 2 },
+  { "id": "daily", "name": "일상회화", "icon": "chat", "description": "일상 대화, 생활 영어", "order": 3 },
+  { "id": "academic", "name": "학술영어", "icon": "graduation", "description": "학술 발표, 논문 영어", "order": 4 },
+  { "id": "travel", "name": "여행영어", "icon": "plane", "description": "여행/공항/호텔 상황 영어", "order": 5 },
+  { "id": "tech", "name": "IT·Tech", "icon": "code", "description": "기술/IT 관련 영어", "order": 6 },
+  { "id": "current", "name": "시사토론", "icon": "newspaper", "description": "시사 이슈, 토론, 뉴스", "order": 7 },
+  { "id": "culture", "name": "문화·예술", "icon": "palette", "description": "문화, 예술, 엔터테인먼트", "order": 8 },
+  { "id": "science", "name": "과학·교양", "icon": "flask", "description": "과학, 교양, 다큐멘터리", "order": 9 },
+  { "id": "motivation", "name": "동기부여", "icon": "fire", "description": "동기부여, 자기계발, 성장", "order": 10 }
+]

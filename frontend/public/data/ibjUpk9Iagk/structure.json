@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 11,
+      "summary": "The speech opens by emphasizing chocolate's historical significance, contrasting modern perceptions with its origins in Mesoamerica. It highlights the cultural and religious importance of cacao to ancient civilizations.",
+      "summaryKo": "발표는 초콜릿의 역사적 중요성을 강조하며, 현대의 인식과 마eso아메리카에서의 출처를 대비합니다. 고대 문명에서 초콜릿의 문화적·종교적 중요성을 강조합니다.",
+      "keyPoints": [
+        "Chocolate's origins in Mesoamerica before the 16th century",
+        "Cacao's sacred status as a gift from gods",
+        "Cacao's use as currency and in rituals",
+        "Contrast between ancient and modern chocolate consumption"
+      ]
+    },
+    {
+      "section": "Historical Development",
+      "startSegment": 12,
+      "endSegment": 33,
+      "summary": "The speech details the spread of cacao from Mesoamerica to Europe, including its adoption by Spanish colonists and the invention of the cocoa press in 1828, which revolutionized chocolate production.",
+      "summaryKo": "초콜릿이 마eso아메리카에서 유럽으로 확산되며, 스페인 식민지인들이 채택하고 1828년 코코아 프레스 발명으로 생산 방식이 혁신되었다는 점을 설명합니다.",
+      "keyPoints": [
+        "Cacao's journey from Mesoamerica to Europe",
+        "Spanish adaptation of cacao into sweetened chocolate",
+        "Cocoa press invention in 1828",
+        "Industrialization of chocolate production"
+      ]
+    },
+    {
+      "section": "Modern Issues and Ethics",
+      "startSegment": 34,
+      "endSegment": 55,
+      "summary": "The speech addresses contemporary problems in the chocolate industry, including child labor and slavery in West African cocoa production, and the industry's ongoing efforts to address these issues.",
+      "summaryKo": "현대 초콜릿 산업에서의 문제, 서아프리카 코코아 재배에서의 어린이 노동과 노예 문제, 그리고 산업의 해결을 위한 노력에 대해 다룹니다.",
+      "keyPoints": [
+        "Child labor and slavery in West African cocoa farms",
+        "Estimates of over 2 million affected children",
+        "Industry partnerships to combat labor abuses",
+        "Persistent ethical challenges despite efforts"
+      ]
+    },
+    {
+      "section": "Conclusion",
+      "startSegment": 56,
+      "endSegment": 68,
+      "summary": "The speech concludes by reflecting on chocolate's cultural significance and urging listeners to consider its complex history, ending with repeated 'FINALLY' phrases to emphasize the message.",
+      "summaryKo": "초콜릿의 문화적 의미를 반성하며, 청중이 초콜릿의 복잡한 역사에 대해 고민하도록 호소하고, 'FINALLY' 반복으로 메시지를 강조합니다.",
+      "keyPoints": [
+        "Chocolate's enduring cultural associations",
+        "Reflection on its historical and ethical complexities",
+        "Call to consider the 'not everything about chocolate is sweet' message",
+        "Repetition of 'FINALLY' as a closing emphasis"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "The The The",
+      "type": "hook",
+      "segmentIndex": 0,
+      "role": "발표의 시작을 강조하고 청중의 주의를 끌어당김"
+    },
+    {
+      "expression": "Yet knowing more about its fascinating and often cruel history",
+      "type": "emphasis",
+      "segmentIndex": 61,
+      "role": "핵심 메시지 강조 — 역사적 맥락이 현대 연관성에 미치는 영향을 강조"
+    },
+    {
+      "expression": "So as you unwrap your next bar of chocolate",
+      "type": "conclusion",
+      "segmentIndex": 63,
+      "role": "종결적 호소 — 청중에게 사고를 유도하는 마무리"
+    },
+    {
+      "expression": "FINALLY",
+      "type": "conclusion",
+      "segmentIndex": 64,
+      "role": "강한 마무리 강조 — 메시지의 중요성을 반복 강조"
+    },
+    {
+      "expression": "The world of chocolate would change forever",
+      "type": "transition",
+      "segmentIndex": 33,
+      "role": "새로운 주제로 전환 — 기술적 혁신으로 이어짐"
+    },
+    {
+      "expression": "The key is",
+      "type": "emphasis",
+      "segmentIndex": 61,
+      "role": "핵심 메시지 요약 — 역사적 맥락이 현대 연관성에 미치는 영향을 강조"
+    }
+  ]
+}

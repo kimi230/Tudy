@@ -1,0 +1,152 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "you're",
+    "phonetic": "/jʊr/ → /jər/",
+    "koreanPhonetic": "유어 → 여",
+    "explanation": "The word 'you're' is reduced in fast speech, with the vowel becoming a schwa sound.",
+    "explanationKo": "'you're'는 빠른 말에서 축약되며, 모음이 슈와 소리로 변합니다.",
+    "practiceGuide": "'유어'를 빠르게 '여'처럼 발음해 보세요. 강세가 없는 위치에서 자연스럽게 줄어듭니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "keen to",
+    "phonetic": "/kiːn.tə/ → /kiːntə/",
+    "koreanPhonetic": "킨 투 → 킨터",
+    "explanation": "The final 'n' of 'keen' links directly to the 't' of 'to', creating a smooth connection.",
+    "explanationKo": "'keen'의 마지막 'n'이 'to'의 't'와 직접 연결되어 매끄러운 연결을 만듭니다.",
+    "practiceGuide": "'킨'과 '투'를 끊지 말고 '킨터'처럼 자연스럽게 연결하세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡoʊɪŋ tuː/ → /ˈɡɒnə/",
+    "koreanPhonetic": "고잉 투 → 거나",
+    "explanation": "'Going to' is commonly reduced to 'gonna' in spoken English, especially in informal contexts.",
+    "explanationKo": "'going to'는 구어 영어에서 흔히 'gonna'로 축약되며, 특히 비격식적인 상황에서 그렇습니다.",
+    "practiceGuide": "'고잉 투' 대신 '거나'로 발음해 보세요. 일상 대화에서 매우 자연스럽습니다.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'm going to tell you",
+    "phonetic": "/aɪm ˈɡoʊɪŋ tə tɛl juː/ → /aɪmənə tɛljə/",
+    "koreanPhonetic": "아임 고잉 투 텔 유 → 아이머나 텔여",
+    "explanation": "The entire phrase reduces significantly in fast speech. 'I'm going to' becomes 'I'm gonna' and 'tell you' links together.",
+    "explanationKo": "전체 구문이 빠른 말에서 크게 축약됩니다. 'I'm going to'는 'I'm gonna'가 되고 'tell you'는 연결됩니다.",
+    "practiceGuide": "전체 문장을 한 호흡에 자연스럽게 '아이머나 텔여'로 말해 보세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "elision",
+    "originalText": "lots of",
+    "phonetic": "/lɒts ɒv/ → /lɒtsəv/",
+    "koreanPhonetic": "랏츠 오브 → 랏써브",
+    "explanation": "The 'o' in 'of' is reduced to a schwa and the phrase is pronounced as one unit.",
+    "explanationKo": "'of'의 'o'가 슈와로 축약되고 구문이 한 단위로 발음됩니다.",
+    "practiceGuide": "'랏츠'와 '오브'를 분리하지 말고 '랏써브'처럼 한 덩어리로 발음하세요.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "linking",
+    "originalText": "it's easy",
+    "phonetic": "/ɪts ˈiːzi/ → /ɪtsˈiːzi/",
+    "koreanPhonetic": "잇츠 이지 → 잇시지",
+    "explanation": "The final 's' of 'it's' links smoothly into the initial vowel of 'easy'.",
+    "explanationKo": "'it's'의 마지막 's'가 'easy'의 첫 모음과 매끄럽게 연결됩니다.",
+    "practiceGuide": "'잇츠'와 '이지' 사이에 멈추지 말고 '잇시지'처럼 연결하세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't worry",
+    "phonetic": "/doʊnt ˈwʌri/ → /doʊn ˈwʌri/",
+    "koreanPhonetic": "돈트 워리 → 돈 워리",
+    "explanation": "The 't' at the end of 'don't' is often dropped or unreleased before the 'w' sound.",
+    "explanationKo": "'don't'의 끝에 있는 't'는 'w' 소리 앞에서 종종 탈락하거나 불파음이 됩니다.",
+    "practiceGuide": "'돈트' 대신 '돈'으로 끝내고 바로 '워리'로 이어가세요. 't' 소리를 완전히 내지 않아도 됩니다.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "linking",
+    "originalText": "look at",
+    "phonetic": "/lʊk æt/ → /lʊkæt/",
+    "koreanPhonetic": "룩 앳 → 루캣",
+    "explanation": "The final 'k' of 'look' connects directly to the vowel 'a' in 'at', creating a smooth link.",
+    "explanationKo": "'look'의 마지막 'k'가 'at'의 모음 'a'와 직접 연결되어 매끄러운 연결이 됩니다.",
+    "practiceGuide": "'룩'과 '앳'을 끊지 말고 '루캣'처럼 하나의 단어처럼 발음하세요.",
+    "segmentIndex": 41
+  },
+  {
+    "type": "reduction",
+    "originalText": "for example",
+    "phonetic": "/fɔːr ɪɡˈzæmpəl/ → /frɪɡˈzæmpəl/",
+    "koreanPhonetic": "포 이그잼플 → 프리그잼플",
+    "explanation": "The word 'for' is reduced to /fr/ in fast speech, losing its vowel sound.",
+    "explanationKo": "'for'는 빠른 말에서 모음을 잃고 /fr/로 축약됩니다.",
+    "practiceGuide": "'포'를 완전히 발음하지 말고 '프'로 빠르게 지나가면서 바로 '이그잼플'로 연결하세요.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "elision",
+    "originalText": "different to",
+    "phonetic": "/ˈdɪfərənt tuː/ → /ˈdɪfrənt tə/",
+    "koreanPhonetic": "디퍼런트 투 → 디프런 터",
+    "explanation": "The middle vowel in 'different' is dropped, making it two syllables instead of three. 'To' reduces to /tə/.",
+    "explanationKo": "'different'의 가운데 모음이 탈락하여 세 음절 대신 두 음절이 됩니다. 'to'는 /tə/로 축약됩니다.",
+    "practiceGuide": "'디퍼런트' 대신 '디프런'으로 발음하고, 'to'도 '투' 대신 '터'로 가볍게 발음하세요.",
+    "segmentIndex": 15
+  },
+  {
+    "type": "linking",
+    "originalText": "all about it",
+    "phonetic": "/ɔːl əˈbaʊt ɪt/ → /ɔːləˈbaʊtɪt/",
+    "koreanPhonetic": "올 어바웃 잇 → 올러바우딧",
+    "explanation": "The words link together: 'all' links to 'about' via the vowel, and the 't' of 'about' links to 'it'.",
+    "explanationKo": "단어들이 서로 연결됩니다: 'all'이 모음을 통해 'about'에 연결되고, 'about'의 't'가 'it'에 연결됩니다.",
+    "practiceGuide": "세 단어를 한 덩어리로 '올러바우딧'처럼 끊지 않고 발음하세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "assimilation",
+    "originalText": "next to",
+    "phonetic": "/nɛkst tuː/ → /nɛks tə/",
+    "koreanPhonetic": "넥스트 투 → 넥스터",
+    "explanation": "The 't' at the end of 'next' merges with the 't' of 'to', and 'to' reduces to /tə/.",
+    "explanationKo": "'next'의 끝에 있는 't'가 'to'의 't'와 합쳐지고, 'to'는 /tə/로 축약됩니다.",
+    "practiceGuide": "'넥스트 투' 대신 't'를 한 번만 발음하여 '넥스터'처럼 말하세요.",
+    "segmentIndex": 16
+  },
+  {
+    "type": "reduction",
+    "originalText": "them",
+    "phonetic": "/ðɛm/ → /ðəm/ or /əm/",
+    "koreanPhonetic": "뎀 → 덤 또는 엄",
+    "explanation": "The pronoun 'them' is frequently reduced in unstressed position, with the vowel becoming a schwa.",
+    "explanationKo": "대명사 'them'은 강세가 없는 위치에서 자주 축약되며, 모음이 슈와로 변합니다.",
+    "practiceGuide": "'뎀'을 완전히 발음하지 말고 '덤' 또는 '엄'으로 가볍게 발음하세요.",
+    "segmentIndex": 46
+  },
+  {
+    "type": "linking",
+    "originalText": "freak out",
+    "phonetic": "/friːk aʊt/ → /friːkaʊt/",
+    "koreanPhonetic": "프릭 아웃 → 프리카웃",
+    "explanation": "The final 'k' of 'freak' links directly to the opening vowel of 'out'.",
+    "explanationKo": "'freak'의 마지막 'k'가 'out'의 첫 모음과 직접 연결됩니다.",
+    "practiceGuide": "'프릭'과 '아웃'을 끊지 말고 '프리카웃'처럼 연결하세요.",
+    "segmentIndex": 35
+  },
+  {
+    "type": "reduction",
+    "originalText": "and",
+    "phonetic": "/ænd/ → /ən/ or /n/",
+    "koreanPhonetic": "앤드 → 언 또는 ㄴ",
+    "explanation": "The word 'and' is almost always reduced in connected speech, losing the 'd' and often the vowel too.",
+    "explanationKo": "'and'는 연결 발화에서 거의 항상 축약되며, 'd'를 잃고 종종 모음도 잃습니다.",
+    "practiceGuide": "'앤드'를 완전히 발음하지 말고 '언' 또는 'ㄴ'으로 가볍게 연결하세요.",
+    "segmentIndex": 1
+  }
+]

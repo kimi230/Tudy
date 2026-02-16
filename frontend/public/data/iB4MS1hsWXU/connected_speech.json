@@ -1,0 +1,82 @@
+[
+  {
+    "type": "linking",
+    "originalText": "had one in",
+    "phonetic": "/hædˈwʌnɪn/",
+    "koreanPhonetic": "해드워닌",
+    "explanation": "The /d/ at the end of 'had' links to the /w/ of 'one,' and the /n/ of 'one' links directly to the /ɪ/ of 'in,' creating a smooth three-word chain.",
+    "explanationKo": "'had'의 /d/가 'one'의 /w/와 연결되고, 'one'의 /n/이 'in'의 /ɪ/와 이어져 세 단어가 자연스러운 연쇄를 이뤄요.",
+    "practiceGuide": "'해드 원 인'이 아니라 '해드워닌'처럼 세 단어를 끊김 없이 이어서 발음해 보세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɒtə/",
+    "koreanPhonetic": "얼라러",
+    "explanation": "The word 'of' is reduced to schwa /ə/, and the /t/ of 'lot' flaps to a soft /ɾ/ between vowels. 'A lot of' sounds like 'a lotta' in natural speech.",
+    "explanationKo": "'of'가 /ə/로 축약되고, 'lot'의 /t/가 모음 사이에서 가벼운 탄설음 /ɾ/로 변해서 '얼라러'처럼 들려요.",
+    "practiceGuide": "'어 랏 오브'라고 또박또박 발음하지 말고, '얼라러'처럼 'of'를 가볍게 /ə/로만 발음하고 /t/도 부드럽게 해 보세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "elision",
+    "originalText": "just worked",
+    "phonetic": "/dʒʌs wɜːrkt/",
+    "koreanPhonetic": "저스 워크트 → 저스워크트",
+    "explanation": "The /t/ at the end of 'just' is often elided before the /w/ of 'worked.' When a stop consonant meets another consonant, the first is frequently dropped.",
+    "explanationKo": "'just'의 마지막 /t/가 'worked'의 /w/ 앞에서 탈락해요. 파열음이 다른 자음을 만나면 첫 번째가 자주 생략돼요.",
+    "practiceGuide": "'저스트 워크트'에서 /t/ 소리를 생략하고 '저스워크트'처럼 자연스럽게 이어 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't have",
+    "phonetic": "/doʊnt hæv/ → /doʊn(t) hæv/",
+    "koreanPhonetic": "돈 해브",
+    "explanation": "The /t/ in 'don't' becomes unreleased or silent before the /h/ of 'have.' The nasal /n/ carries the rhythm while the /t/ is barely articulated.",
+    "explanationKo": "'don't'의 /t/가 'have'의 /h/ 앞에서 거의 발음되지 않아요. 비음 /n/이 리듬을 유지하면서 /t/는 약하게 처리돼요.",
+    "practiceGuide": "'돈트 해브'라고 강하게 발음하지 말고, '돈 해브'처럼 /t/를 거의 발음하지 않고 넘어가 보세요.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "linking",
+    "originalText": "broken open",
+    "phonetic": "/ˈbroʊkən ˈoʊpən/",
+    "koreanPhonetic": "브로우크노우픈",
+    "explanation": "The /n/ at the end of 'broken' links smoothly to the /oʊ/ of 'open,' creating a nasal-to-vowel connection that binds the phrase into one unit.",
+    "explanationKo": "'broken'의 /n/이 'open'의 /oʊ/와 자연스럽게 연결되어 비음에서 모음으로의 매끄러운 연결이 이루어져요.",
+    "practiceGuide": "'브로우큰 오우픈'이 아니라 '브로우크노우픈'처럼 /n/과 /oʊ/를 끊지 않고 이어 보세요.",
+    "segmentIndex": 66
+  },
+  {
+    "type": "reduction",
+    "originalText": "sort of",
+    "phonetic": "/ˈsɔːrtə/",
+    "koreanPhonetic": "소러",
+    "explanation": "The phrase 'sort of' is commonly reduced in casual speech. 'Of' becomes a schwa /ə/, and the /t/ flaps, making it sound like 'sorta.'",
+    "explanationKo": "'sort of'는 일상 대화에서 흔히 축약돼요. 'of'가 /ə/로 약화되고 /t/가 탄설음으로 변해서 '소러'처럼 들려요.",
+    "practiceGuide": "'소트 오브'라고 정확히 발음하지 말고, '소러'처럼 빠르고 가볍게 발음해 보세요.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "linking",
+    "originalText": "reach in and",
+    "phonetic": "/riːtʃ ɪn ænd/",
+    "koreanPhonetic": "리치내느",
+    "explanation": "The /tʃ/ of 'reach' links to the /ɪ/ of 'in,' and the /n/ of 'in' links to the /æ/ of 'and.' The phrase flows as a single connected unit.",
+    "explanationKo": "'reach'의 /tʃ/가 'in'의 /ɪ/와 연결되고, 'in'의 /n/이 'and'의 /æ/와 이어져서 전체가 하나의 덩어리처럼 흘러가요.",
+    "practiceGuide": "'리치 인 앤드'가 아니라 '리치내느'처럼 자음과 모음을 이어 붙여서 발음해 보세요.",
+    "segmentIndex": 115
+  },
+  {
+    "type": "elision",
+    "originalText": "lost a lot",
+    "phonetic": "/lɒs ə lɒt/",
+    "koreanPhonetic": "로서랏",
+    "explanation": "The /t/ at the end of 'lost' is elided before the schwa /ə/ of 'a,' and then 'a lot' connects with the flapped /t/ sounding like /ɾ/. The whole phrase simplifies.",
+    "explanationKo": "'lost'의 마지막 /t/가 'a'의 /ə/ 앞에서 약해지고, 'a lot'이 연결되면서 전체 구절이 단순화돼요.",
+    "practiceGuide": "'로스트 어 랏'이라고 각각 끊어 말하지 말고, '로서랏'처럼 자연스럽게 이어서 발음해 보세요.",
+    "segmentIndex": 4
+  }
+]

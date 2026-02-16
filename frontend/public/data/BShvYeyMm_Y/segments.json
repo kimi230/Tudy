@@ -1,0 +1,8456 @@
+{
+  "videoId": "BShvYeyMm_Y",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.84,
+      "end": 8.84,
+      "textEn": "The modern United States is the most powerful country in human history, with over 800 military bases and 37% of global military spending.",
+      "textKo": "현대 미국은 인류 역사상 가장 강력한 국가로, 800개 이상의 군사 기지와 전 세계 군사비의 37%를 차지하고 있습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.84,
+          "end": 1.28
+        },
+        {
+          "word": "modern",
+          "start": 1.28,
+          "end": 1.52
+        },
+        {
+          "word": "United",
+          "start": 1.52,
+          "end": 1.8
+        },
+        {
+          "word": "States",
+          "start": 1.8,
+          "end": 2.12
+        },
+        {
+          "word": "is",
+          "start": 2.12,
+          "end": 2.32
+        },
+        {
+          "word": "the",
+          "start": 2.32,
+          "end": 2.42
+        },
+        {
+          "word": "most",
+          "start": 2.42,
+          "end": 2.56
+        },
+        {
+          "word": "powerful",
+          "start": 2.56,
+          "end": 2.94
+        },
+        {
+          "word": "country",
+          "start": 2.94,
+          "end": 3.28
+        },
+        {
+          "word": "in",
+          "start": 3.28,
+          "end": 3.44
+        },
+        {
+          "word": "human",
+          "start": 3.44,
+          "end": 3.64
+        },
+        {
+          "word": "history,",
+          "start": 3.64,
+          "end": 4.0
+        },
+        {
+          "word": "with",
+          "start": 4.28,
+          "end": 4.56
+        },
+        {
+          "word": "over",
+          "start": 4.56,
+          "end": 4.74
+        },
+        {
+          "word": "800",
+          "start": 4.74,
+          "end": 5.14
+        },
+        {
+          "word": "military",
+          "start": 5.14,
+          "end": 5.54
+        },
+        {
+          "word": "bases",
+          "start": 5.54,
+          "end": 6.06
+        },
+        {
+          "word": "and",
+          "start": 6.06,
+          "end": 6.44
+        },
+        {
+          "word": "37",
+          "start": 6.44,
+          "end": 6.98
+        },
+        {
+          "word": "%",
+          "start": 6.98,
+          "end": 7.6
+        },
+        {
+          "word": "of",
+          "start": 7.6,
+          "end": 7.88
+        },
+        {
+          "word": "global",
+          "start": 7.88,
+          "end": 8.1
+        },
+        {
+          "word": "military",
+          "start": 8.1,
+          "end": 8.48
+        },
+        {
+          "word": "spending.",
+          "start": 8.48,
+          "end": 8.84
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 9.5,
+      "end": 17.4,
+      "textEn": "The U. S. has become the leader of a vast interconnected global system that has helped usher in an era of unprecedented prosperity and low levels of conflict.",
+      "textKo": "미국은 전례 없는 번영과 낮은 수준의 분쟁 시대를 여는 데 기여한 거대한 상호 연결된 글로벌 시스템의 리더가 되었습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 9.5,
+          "end": 9.94
+        },
+        {
+          "word": "U",
+          "start": 9.94,
+          "end": 10.08
+        },
+        {
+          "word": ".S.",
+          "start": 10.08,
+          "end": 10.2
+        },
+        {
+          "word": "has",
+          "start": 10.34,
+          "end": 10.34
+        },
+        {
+          "word": "become",
+          "start": 10.34,
+          "end": 10.58
+        },
+        {
+          "word": "the",
+          "start": 10.58,
+          "end": 10.74
+        },
+        {
+          "word": "leader",
+          "start": 10.74,
+          "end": 10.96
+        },
+        {
+          "word": "of",
+          "start": 10.96,
+          "end": 11.18
+        },
+        {
+          "word": "a",
+          "start": 11.18,
+          "end": 11.28
+        },
+        {
+          "word": "vast",
+          "start": 11.28,
+          "end": 11.7
+        },
+        {
+          "word": "interconnected",
+          "start": 11.7,
+          "end": 12.18
+        },
+        {
+          "word": "global",
+          "start": 12.18,
+          "end": 12.6
+        },
+        {
+          "word": "system",
+          "start": 12.6,
+          "end": 13.0
+        },
+        {
+          "word": "that",
+          "start": 13.0,
+          "end": 13.22
+        },
+        {
+          "word": "has",
+          "start": 13.22,
+          "end": 13.34
+        },
+        {
+          "word": "helped",
+          "start": 13.34,
+          "end": 13.56
+        },
+        {
+          "word": "usher",
+          "start": 13.56,
+          "end": 13.9
+        },
+        {
+          "word": "in",
+          "start": 13.9,
+          "end": 14.02
+        },
+        {
+          "word": "an",
+          "start": 14.02,
+          "end": 14.14
+        },
+        {
+          "word": "era",
+          "start": 14.14,
+          "end": 14.34
+        },
+        {
+          "word": "of",
+          "start": 14.34,
+          "end": 14.5
+        },
+        {
+          "word": "unprecedented",
+          "start": 14.5,
+          "end": 15.24
+        },
+        {
+          "word": "prosperity",
+          "start": 15.24,
+          "end": 16.04
+        },
+        {
+          "word": "and",
+          "start": 16.04,
+          "end": 16.46
+        },
+        {
+          "word": "low",
+          "start": 16.46,
+          "end": 16.62
+        },
+        {
+          "word": "levels",
+          "start": 16.62,
+          "end": 16.86
+        },
+        {
+          "word": "of",
+          "start": 16.86,
+          "end": 17.0
+        },
+        {
+          "word": "conflict.",
+          "start": 17.0,
+          "end": 17.4
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 18.56,
+      "end": 28.16,
+      "textEn": "To understand America's position in the world, and why it's so pivotal for world politics as we know it, you have to go back to the country's founding, back to when America wasn't a global power in any sense of the word.",
+      "textKo": "세계에서 미국의 위치와, 그것이 왜 우리가 아는 세계 정치에 그토록 중요한지 이해하려면, 미국이 어떤 의미에서도 세계 강국이 아니었던 건국 시절로 돌아가야 합니다.",
+      "words": [
+        {
+          "word": "To",
+          "start": 18.56,
+          "end": 19.0
+        },
+        {
+          "word": "understand",
+          "start": 19.0,
+          "end": 19.38
+        },
+        {
+          "word": "America's",
+          "start": 19.38,
+          "end": 19.82
+        },
+        {
+          "word": "position",
+          "start": 19.82,
+          "end": 20.1
+        },
+        {
+          "word": "in",
+          "start": 20.1,
+          "end": 20.26
+        },
+        {
+          "word": "the",
+          "start": 20.26,
+          "end": 20.32
+        },
+        {
+          "word": "world,",
+          "start": 20.32,
+          "end": 20.6
+        },
+        {
+          "word": "and",
+          "start": 20.66,
+          "end": 20.98
+        },
+        {
+          "word": "why",
+          "start": 20.98,
+          "end": 21.22
+        },
+        {
+          "word": "it's",
+          "start": 21.22,
+          "end": 21.58
+        },
+        {
+          "word": "so",
+          "start": 21.58,
+          "end": 21.74
+        },
+        {
+          "word": "pivotal",
+          "start": 21.74,
+          "end": 22.14
+        },
+        {
+          "word": "for",
+          "start": 22.14,
+          "end": 22.34
+        },
+        {
+          "word": "world",
+          "start": 22.34,
+          "end": 22.56
+        },
+        {
+          "word": "politics",
+          "start": 22.56,
+          "end": 22.94
+        },
+        {
+          "word": "as",
+          "start": 22.94,
+          "end": 23.1
+        },
+        {
+          "word": "we",
+          "start": 23.1,
+          "end": 23.22
+        },
+        {
+          "word": "know",
+          "start": 23.22,
+          "end": 23.36
+        },
+        {
+          "word": "it,",
+          "start": 23.36,
+          "end": 23.56
+        },
+        {
+          "word": "you",
+          "start": 23.7,
+          "end": 23.84
+        },
+        {
+          "word": "have",
+          "start": 23.84,
+          "end": 23.92
+        },
+        {
+          "word": "to",
+          "start": 23.92,
+          "end": 24.0
+        },
+        {
+          "word": "go",
+          "start": 24.0,
+          "end": 24.1
+        },
+        {
+          "word": "back",
+          "start": 24.1,
+          "end": 24.28
+        },
+        {
+          "word": "to",
+          "start": 24.28,
+          "end": 24.4
+        },
+        {
+          "word": "the",
+          "start": 24.4,
+          "end": 24.5
+        },
+        {
+          "word": "country's",
+          "start": 24.5,
+          "end": 24.82
+        },
+        {
+          "word": "founding,",
+          "start": 24.82,
+          "end": 25.14
+        },
+        {
+          "word": "back",
+          "start": 25.38,
+          "end": 25.56
+        },
+        {
+          "word": "to",
+          "start": 25.56,
+          "end": 25.68
+        },
+        {
+          "word": "when",
+          "start": 25.68,
+          "end": 25.8
+        },
+        {
+          "word": "America",
+          "start": 25.8,
+          "end": 26.12
+        },
+        {
+          "word": "wasn't",
+          "start": 26.12,
+          "end": 26.46
+        },
+        {
+          "word": "a",
+          "start": 26.46,
+          "end": 26.52
+        },
+        {
+          "word": "global",
+          "start": 26.52,
+          "end": 26.74
+        },
+        {
+          "word": "power",
+          "start": 26.74,
+          "end": 27.08
+        },
+        {
+          "word": "in",
+          "start": 27.08,
+          "end": 27.24
+        },
+        {
+          "word": "any",
+          "start": 27.24,
+          "end": 27.46
+        },
+        {
+          "word": "sense",
+          "start": 27.46,
+          "end": 27.72
+        },
+        {
+          "word": "of",
+          "start": 27.72,
+          "end": 27.84
+        },
+        {
+          "word": "the",
+          "start": 27.84,
+          "end": 27.94
+        },
+        {
+          "word": "word.",
+          "start": 27.94,
+          "end": 28.16
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 28.78,
+      "end": 41.74,
+      "textEn": "During the first 70 years of its existence, the United States expanded in both territory and influence in North America, eventually reaching the Pacific Ocean, in a wave of expansionism that resulted in the wholesale slaughter of the indigenous people who populated the continent.",
+      "textKo": "존재의 첫 70년 동안, 미국은 북미에서 영토와 영향력 모두를 확장하여 결국 태평양에 도달했으며, 이 팽창주의의 물결은 대륙에 살던 원주민들의 대량 학살을 초래했습니다.",
+      "words": [
+        {
+          "word": "During",
+          "start": 28.78,
+          "end": 29.3
+        },
+        {
+          "word": "the",
+          "start": 29.3,
+          "end": 29.44
+        },
+        {
+          "word": "first",
+          "start": 29.44,
+          "end": 29.64
+        },
+        {
+          "word": "70",
+          "start": 29.64,
+          "end": 29.92
+        },
+        {
+          "word": "years",
+          "start": 29.92,
+          "end": 30.12
+        },
+        {
+          "word": "of",
+          "start": 30.12,
+          "end": 30.24
+        },
+        {
+          "word": "its",
+          "start": 30.24,
+          "end": 30.34
+        },
+        {
+          "word": "existence,",
+          "start": 30.34,
+          "end": 30.8
+        },
+        {
+          "word": "the",
+          "start": 31.3,
+          "end": 31.34
+        },
+        {
+          "word": "United",
+          "start": 31.34,
+          "end": 31.48
+        },
+        {
+          "word": "States",
+          "start": 31.48,
+          "end": 31.74
+        },
+        {
+          "word": "expanded",
+          "start": 31.74,
+          "end": 32.2
+        },
+        {
+          "word": "in",
+          "start": 32.2,
+          "end": 32.38
+        },
+        {
+          "word": "both",
+          "start": 32.38,
+          "end": 32.54
+        },
+        {
+          "word": "territory",
+          "start": 32.54,
+          "end": 32.98
+        },
+        {
+          "word": "and",
+          "start": 32.98,
+          "end": 33.24
+        },
+        {
+          "word": "influence",
+          "start": 33.24,
+          "end": 33.74
+        },
+        {
+          "word": "in",
+          "start": 33.74,
+          "end": 33.94
+        },
+        {
+          "word": "North",
+          "start": 33.94,
+          "end": 34.1
+        },
+        {
+          "word": "America,",
+          "start": 34.1,
+          "end": 34.52
+        },
+        {
+          "word": "eventually",
+          "start": 34.84,
+          "end": 35.12
+        },
+        {
+          "word": "reaching",
+          "start": 35.12,
+          "end": 35.4
+        },
+        {
+          "word": "the",
+          "start": 35.4,
+          "end": 35.52
+        },
+        {
+          "word": "Pacific",
+          "start": 35.52,
+          "end": 35.8
+        },
+        {
+          "word": "Ocean,",
+          "start": 35.8,
+          "end": 36.16
+        },
+        {
+          "word": "in",
+          "start": 36.3,
+          "end": 36.66
+        },
+        {
+          "word": "a",
+          "start": 36.66,
+          "end": 36.74
+        },
+        {
+          "word": "wave",
+          "start": 36.74,
+          "end": 36.92
+        },
+        {
+          "word": "of",
+          "start": 36.92,
+          "end": 37.04
+        },
+        {
+          "word": "expansionism",
+          "start": 37.04,
+          "end": 37.68
+        },
+        {
+          "word": "that",
+          "start": 37.68,
+          "end": 37.88
+        },
+        {
+          "word": "resulted",
+          "start": 37.88,
+          "end": 38.22
+        },
+        {
+          "word": "in",
+          "start": 38.22,
+          "end": 38.4
+        },
+        {
+          "word": "the",
+          "start": 38.4,
+          "end": 38.48
+        },
+        {
+          "word": "wholesale",
+          "start": 38.48,
+          "end": 38.9
+        },
+        {
+          "word": "slaughter",
+          "start": 38.9,
+          "end": 39.46
+        },
+        {
+          "word": "of",
+          "start": 39.46,
+          "end": 39.9
+        },
+        {
+          "word": "the",
+          "start": 39.9,
+          "end": 40.0
+        },
+        {
+          "word": "indigenous",
+          "start": 40.0,
+          "end": 40.3
+        },
+        {
+          "word": "people",
+          "start": 40.3,
+          "end": 40.68
+        },
+        {
+          "word": "who",
+          "start": 40.68,
+          "end": 40.84
+        },
+        {
+          "word": "populated",
+          "start": 40.84,
+          "end": 41.28
+        },
+        {
+          "word": "the",
+          "start": 41.28,
+          "end": 41.44
+        },
+        {
+          "word": "continent.",
+          "start": 41.44,
+          "end": 41.74
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 42.48,
+      "end": 47.56,
+      "textEn": "But early Americans were deeply divided as to whether the country should expand beyond the Pacific and Atlantic oceans.",
+      "textKo": "그러나 초기 미국인들은 국가가 태평양과 대서양 너머로 확장해야 하는지에 대해 깊이 분열되어 있었습니다.",
+      "words": [
+        {
+          "word": "But",
+          "start": 42.48,
+          "end": 42.9
+        },
+        {
+          "word": "early",
+          "start": 42.9,
+          "end": 43.12
+        },
+        {
+          "word": "Americans",
+          "start": 43.12,
+          "end": 43.5
+        },
+        {
+          "word": "were",
+          "start": 43.5,
+          "end": 43.68
+        },
+        {
+          "word": "deeply",
+          "start": 43.68,
+          "end": 43.98
+        },
+        {
+          "word": "divided",
+          "start": 43.98,
+          "end": 44.34
+        },
+        {
+          "word": "as",
+          "start": 44.34,
+          "end": 44.52
+        },
+        {
+          "word": "to",
+          "start": 44.52,
+          "end": 44.6
+        },
+        {
+          "word": "whether",
+          "start": 44.6,
+          "end": 44.76
+        },
+        {
+          "word": "the",
+          "start": 44.76,
+          "end": 44.92
+        },
+        {
+          "word": "country",
+          "start": 44.92,
+          "end": 45.16
+        },
+        {
+          "word": "should",
+          "start": 45.16,
+          "end": 45.34
+        },
+        {
+          "word": "expand",
+          "start": 45.34,
+          "end": 45.7
+        },
+        {
+          "word": "beyond",
+          "start": 45.7,
+          "end": 46.06
+        },
+        {
+          "word": "the",
+          "start": 46.06,
+          "end": 46.24
+        },
+        {
+          "word": "Pacific",
+          "start": 46.24,
+          "end": 46.6
+        },
+        {
+          "word": "and",
+          "start": 46.6,
+          "end": 46.8
+        },
+        {
+          "word": "Atlantic",
+          "start": 46.8,
+          "end": 47.14
+        },
+        {
+          "word": "oceans.",
+          "start": 47.14,
+          "end": 47.56
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 47.88,
+      "end": 56.1,
+      "textEn": "This became a major debate after the Civil War, when some leaders, like post-war Secretary of State Seward, argued that America should push to become a global power.",
+      "textKo": "이것은 남북전쟁 이후 주요 논쟁이 되었는데, 전후 국무장관 수어드 같은 일부 지도자들이 미국이 세계 강국이 되어야 한다고 주장했기 때문입니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 47.88,
+          "end": 48.26
+        },
+        {
+          "word": "became",
+          "start": 48.26,
+          "end": 48.48
+        },
+        {
+          "word": "a",
+          "start": 48.48,
+          "end": 48.64
+        },
+        {
+          "word": "major",
+          "start": 48.64,
+          "end": 48.9
+        },
+        {
+          "word": "debate",
+          "start": 48.9,
+          "end": 49.22
+        },
+        {
+          "word": "after",
+          "start": 49.22,
+          "end": 49.5
+        },
+        {
+          "word": "the",
+          "start": 49.5,
+          "end": 49.64
+        },
+        {
+          "word": "Civil",
+          "start": 49.64,
+          "end": 49.86
+        },
+        {
+          "word": "War,",
+          "start": 49.86,
+          "end": 50.18
+        },
+        {
+          "word": "when",
+          "start": 50.3,
+          "end": 50.5
+        },
+        {
+          "word": "some",
+          "start": 50.5,
+          "end": 50.7
+        },
+        {
+          "word": "leaders,",
+          "start": 50.7,
+          "end": 51.0
+        },
+        {
+          "word": "like",
+          "start": 51.2,
+          "end": 51.38
+        },
+        {
+          "word": "post",
+          "start": 51.38,
+          "end": 51.66
+        },
+        {
+          "word": "-war",
+          "start": 51.66,
+          "end": 51.84
+        },
+        {
+          "word": "Secretary",
+          "start": 51.84,
+          "end": 52.2
+        },
+        {
+          "word": "of",
+          "start": 52.2,
+          "end": 52.54
+        },
+        {
+          "word": "State",
+          "start": 52.54,
+          "end": 52.76
+        },
+        {
+          "word": "Seward,",
+          "start": 52.76,
+          "end": 53.12
+        },
+        {
+          "word": "argued",
+          "start": 53.38,
+          "end": 53.9
+        },
+        {
+          "word": "that",
+          "start": 53.9,
+          "end": 54.04
+        },
+        {
+          "word": "America",
+          "start": 54.04,
+          "end": 54.4
+        },
+        {
+          "word": "should",
+          "start": 54.4,
+          "end": 54.64
+        },
+        {
+          "word": "push",
+          "start": 54.64,
+          "end": 54.94
+        },
+        {
+          "word": "to",
+          "start": 54.94,
+          "end": 55.12
+        },
+        {
+          "word": "become",
+          "start": 55.12,
+          "end": 55.36
+        },
+        {
+          "word": "a",
+          "start": 55.36,
+          "end": 55.48
+        },
+        {
+          "word": "global",
+          "start": 55.48,
+          "end": 55.72
+        },
+        {
+          "word": "power.",
+          "start": 55.72,
+          "end": 56.1
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 56.64,
+      "end": 65.3,
+      "textEn": "Seward succeeded in pushing a plan to purchase Alaska from Russia, but his attempts to buy Greenland and Iceland, as well as annexed territory in the Caribbean, were all blocked by Congress.",
+      "textKo": "수어드는 러시아로부터 알래스카를 매입하는 계획을 추진하는 데 성공했지만, 그린란드와 아이슬란드를 사려는 시도와 카리브해의 영토를 병합하려는 시도는 모두 의회에 의해 저지되었습니다.",
+      "words": [
+        {
+          "word": "Seward",
+          "start": 56.64,
+          "end": 57.14
+        },
+        {
+          "word": "succeeded",
+          "start": 57.14,
+          "end": 57.64
+        },
+        {
+          "word": "in",
+          "start": 57.64,
+          "end": 57.88
+        },
+        {
+          "word": "pushing",
+          "start": 57.88,
+          "end": 58.08
+        },
+        {
+          "word": "a",
+          "start": 58.08,
+          "end": 58.24
+        },
+        {
+          "word": "plan",
+          "start": 58.24,
+          "end": 58.42
+        },
+        {
+          "word": "to",
+          "start": 58.42,
+          "end": 58.54
+        },
+        {
+          "word": "purchase",
+          "start": 58.54,
+          "end": 58.82
+        },
+        {
+          "word": "Alaska",
+          "start": 58.82,
+          "end": 59.22
+        },
+        {
+          "word": "from",
+          "start": 59.22,
+          "end": 59.46
+        },
+        {
+          "word": "Russia,",
+          "start": 59.46,
+          "end": 59.76
+        },
+        {
+          "word": "but",
+          "start": 59.96,
+          "end": 60.36
+        },
+        {
+          "word": "his",
+          "start": 60.36,
+          "end": 60.46
+        },
+        {
+          "word": "attempts",
+          "start": 60.46,
+          "end": 60.7
+        },
+        {
+          "word": "to",
+          "start": 60.7,
+          "end": 60.84
+        },
+        {
+          "word": "buy",
+          "start": 60.84,
+          "end": 60.98
+        },
+        {
+          "word": "Greenland",
+          "start": 60.98,
+          "end": 61.42
+        },
+        {
+          "word": "and",
+          "start": 61.42,
+          "end": 61.54
+        },
+        {
+          "word": "Iceland,",
+          "start": 61.54,
+          "end": 61.88
+        },
+        {
+          "word": "as",
+          "start": 62.08,
+          "end": 62.38
+        },
+        {
+          "word": "well",
+          "start": 62.38,
+          "end": 62.5
+        },
+        {
+          "word": "as",
+          "start": 62.5,
+          "end": 62.62
+        },
+        {
+          "word": "annexed",
+          "start": 62.62,
+          "end": 63.02
+        },
+        {
+          "word": "territory",
+          "start": 63.02,
+          "end": 63.32
+        },
+        {
+          "word": "in",
+          "start": 63.32,
+          "end": 63.48
+        },
+        {
+          "word": "the",
+          "start": 63.48,
+          "end": 63.54
+        },
+        {
+          "word": "Caribbean,",
+          "start": 63.54,
+          "end": 63.86
+        },
+        {
+          "word": "were",
+          "start": 64.2,
+          "end": 64.42
+        },
+        {
+          "word": "all",
+          "start": 64.42,
+          "end": 64.52
+        },
+        {
+          "word": "blocked",
+          "start": 64.52,
+          "end": 64.76
+        },
+        {
+          "word": "by",
+          "start": 64.76,
+          "end": 64.92
+        },
+        {
+          "word": "Congress.",
+          "start": 64.92,
+          "end": 65.3
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 66.8,
+      "end": 71.76,
+      "textEn": "That's because some Americans, including many on Capitol Hill, had a strong anti-imperialist bent.",
+      "textKo": "그것은 캐피톨 힐의 많은 사람들을 포함한 일부 미국인들이 강한 반제국주의적 성향을 가지고 있었기 때문입니다.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 66.8,
+          "end": 67.3
+        },
+        {
+          "word": "because",
+          "start": 67.3,
+          "end": 67.48
+        },
+        {
+          "word": "some",
+          "start": 67.48,
+          "end": 67.68
+        },
+        {
+          "word": "Americans,",
+          "start": 67.68,
+          "end": 68.12
+        },
+        {
+          "word": "including",
+          "start": 68.32,
+          "end": 68.58
+        },
+        {
+          "word": "many",
+          "start": 68.58,
+          "end": 68.86
+        },
+        {
+          "word": "on",
+          "start": 68.86,
+          "end": 69.04
+        },
+        {
+          "word": "Capitol",
+          "start": 69.04,
+          "end": 69.32
+        },
+        {
+          "word": "Hill,",
+          "start": 69.32,
+          "end": 69.64
+        },
+        {
+          "word": "had",
+          "start": 69.96,
+          "end": 70.14
+        },
+        {
+          "word": "a",
+          "start": 70.14,
+          "end": 70.22
+        },
+        {
+          "word": "strong",
+          "start": 70.22,
+          "end": 70.54
+        },
+        {
+          "word": "anti",
+          "start": 70.54,
+          "end": 70.88
+        },
+        {
+          "word": "-imperialist",
+          "start": 70.88,
+          "end": 71.5
+        },
+        {
+          "word": "bent.",
+          "start": 71.5,
+          "end": 71.76
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 71.76,
+      "end": 79.46,
+      "textEn": "These people worried about America getting more involved in global politics, as well as having to integrate populations from quote-unquote inferior races.",
+      "textKo": "이 사람들은 미국이 세계 정치에 더 관여하는 것과, 소위 열등한 인종의 인구를 통합해야 하는 것에 대해 우려했습니다.",
+      "words": [
+        {
+          "word": "These",
+          "start": 71.76,
+          "end": 72.48
+        },
+        {
+          "word": "people",
+          "start": 72.48,
+          "end": 72.72
+        },
+        {
+          "word": "worried",
+          "start": 72.72,
+          "end": 73.02
+        },
+        {
+          "word": "about",
+          "start": 73.02,
+          "end": 73.18
+        },
+        {
+          "word": "America",
+          "start": 73.18,
+          "end": 73.58
+        },
+        {
+          "word": "getting",
+          "start": 73.58,
+          "end": 73.82
+        },
+        {
+          "word": "more",
+          "start": 73.82,
+          "end": 74.1
+        },
+        {
+          "word": "involved",
+          "start": 74.1,
+          "end": 74.56
+        },
+        {
+          "word": "in",
+          "start": 74.56,
+          "end": 74.74
+        },
+        {
+          "word": "global",
+          "start": 74.74,
+          "end": 74.98
+        },
+        {
+          "word": "politics,",
+          "start": 74.98,
+          "end": 75.52
+        },
+        {
+          "word": "as",
+          "start": 75.74,
+          "end": 75.94
+        },
+        {
+          "word": "well",
+          "start": 75.94,
+          "end": 76.06
+        },
+        {
+          "word": "as",
+          "start": 76.06,
+          "end": 76.16
+        },
+        {
+          "word": "having",
+          "start": 76.16,
+          "end": 76.32
+        },
+        {
+          "word": "to",
+          "start": 76.32,
+          "end": 76.44
+        },
+        {
+          "word": "integrate",
+          "start": 76.44,
+          "end": 76.76
+        },
+        {
+          "word": "populations",
+          "start": 76.76,
+          "end": 77.34
+        },
+        {
+          "word": "from",
+          "start": 77.34,
+          "end": 77.68
+        },
+        {
+          "word": "quote",
+          "start": 77.68,
+          "end": 77.92
+        },
+        {
+          "word": "-unquote",
+          "start": 77.92,
+          "end": 78.24
+        },
+        {
+          "word": "inferior",
+          "start": 78.24,
+          "end": 78.86
+        },
+        {
+          "word": "races.",
+          "start": 78.86,
+          "end": 79.46
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 79.8,
+      "end": 83.28,
+      "textEn": "And this opposition applied major checks on the imperialist urge to expand.",
+      "textKo": "그리고 이 반대는 확장하려는 제국주의적 충동에 대해 주요한 견제를 가했습니다.",
+      "words": [
+        {
+          "word": "And",
+          "start": 79.8,
+          "end": 80.14
+        },
+        {
+          "word": "this",
+          "start": 80.14,
+          "end": 80.28
+        },
+        {
+          "word": "opposition",
+          "start": 80.28,
+          "end": 80.66
+        },
+        {
+          "word": "applied",
+          "start": 80.66,
+          "end": 81.04
+        },
+        {
+          "word": "major",
+          "start": 81.04,
+          "end": 81.48
+        },
+        {
+          "word": "checks",
+          "start": 81.48,
+          "end": 81.82
+        },
+        {
+          "word": "on",
+          "start": 81.82,
+          "end": 82.0
+        },
+        {
+          "word": "the",
+          "start": 82.0,
+          "end": 82.08
+        },
+        {
+          "word": "imperialist",
+          "start": 82.08,
+          "end": 82.62
+        },
+        {
+          "word": "urge",
+          "start": 82.62,
+          "end": 82.8
+        },
+        {
+          "word": "to",
+          "start": 82.8,
+          "end": 82.96
+        },
+        {
+          "word": "expand.",
+          "start": 82.96,
+          "end": 83.28
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 83.54,
+      "end": 88.26,
+      "textEn": "But something was happening in the late 1800s that would change the debate about American expansionism.",
+      "textKo": "그러나 1800년대 후반에 미국 팽창주의에 대한 논쟁을 바꿀 무언가가 일어나고 있었습니다.",
+      "words": [
+        {
+          "word": "But",
+          "start": 83.54,
+          "end": 84.04
+        },
+        {
+          "word": "something",
+          "start": 84.04,
+          "end": 84.26
+        },
+        {
+          "word": "was",
+          "start": 84.26,
+          "end": 84.42
+        },
+        {
+          "word": "happening",
+          "start": 84.42,
+          "end": 84.76
+        },
+        {
+          "word": "in",
+          "start": 84.76,
+          "end": 84.98
+        },
+        {
+          "word": "the",
+          "start": 84.98,
+          "end": 85.06
+        },
+        {
+          "word": "late",
+          "start": 85.06,
+          "end": 85.24
+        },
+        {
+          "word": "1800s",
+          "start": 85.24,
+          "end": 85.94
+        },
+        {
+          "word": "that",
+          "start": 85.94,
+          "end": 86.06
+        },
+        {
+          "word": "would",
+          "start": 86.06,
+          "end": 86.16
+        },
+        {
+          "word": "change",
+          "start": 86.16,
+          "end": 86.48
+        },
+        {
+          "word": "the",
+          "start": 86.48,
+          "end": 86.66
+        },
+        {
+          "word": "debate",
+          "start": 86.66,
+          "end": 86.94
+        },
+        {
+          "word": "about",
+          "start": 86.94,
+          "end": 87.2
+        },
+        {
+          "word": "American",
+          "start": 87.2,
+          "end": 87.56
+        },
+        {
+          "word": "expansionism.",
+          "start": 87.56,
+          "end": 88.26
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 88.26,
+      "end": 96.42,
+      "textEn": "The Industrial Revolution produced explosive economic growth, and the bigger U. S. economy required a more centralized state and bureaucracy to manage the growing economy.",
+      "textKo": "산업혁명은 폭발적인 경제 성장을 가져왔고, 더 커진 미국 경제는 성장하는 경제를 관리하기 위해 더 중앙집권화된 국가와 관료제를 필요로 했습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 88.26,
+          "end": 88.84
+        },
+        {
+          "word": "Industrial",
+          "start": 88.84,
+          "end": 89.1
+        },
+        {
+          "word": "Revolution",
+          "start": 89.1,
+          "end": 89.58
+        },
+        {
+          "word": "produced",
+          "start": 89.58,
+          "end": 89.96
+        },
+        {
+          "word": "explosive",
+          "start": 89.96,
+          "end": 90.54
+        },
+        {
+          "word": "economic",
+          "start": 90.54,
+          "end": 91.04
+        },
+        {
+          "word": "growth,",
+          "start": 91.04,
+          "end": 91.4
+        },
+        {
+          "word": "and",
+          "start": 91.48,
+          "end": 91.7
+        },
+        {
+          "word": "the",
+          "start": 91.7,
+          "end": 91.8
+        },
+        {
+          "word": "bigger",
+          "start": 91.8,
+          "end": 92.02
+        },
+        {
+          "word": "U",
+          "start": 92.02,
+          "end": 92.22
+        },
+        {
+          "word": ".S.",
+          "start": 92.22,
+          "end": 92.32
+        },
+        {
+          "word": "economy",
+          "start": 92.4,
+          "end": 92.7
+        },
+        {
+          "word": "required",
+          "start": 92.7,
+          "end": 93.04
+        },
+        {
+          "word": "a",
+          "start": 93.04,
+          "end": 93.18
+        },
+        {
+          "word": "more",
+          "start": 93.18,
+          "end": 93.32
+        },
+        {
+          "word": "centralized",
+          "start": 93.32,
+          "end": 93.82
+        },
+        {
+          "word": "state",
+          "start": 93.82,
+          "end": 94.24
+        },
+        {
+          "word": "and",
+          "start": 94.24,
+          "end": 94.52
+        },
+        {
+          "word": "bureaucracy",
+          "start": 94.52,
+          "end": 94.94
+        },
+        {
+          "word": "to",
+          "start": 94.94,
+          "end": 95.34
+        },
+        {
+          "word": "manage",
+          "start": 95.34,
+          "end": 95.6
+        },
+        {
+          "word": "the",
+          "start": 95.6,
+          "end": 95.76
+        },
+        {
+          "word": "growing",
+          "start": 95.76,
+          "end": 95.98
+        },
+        {
+          "word": "economy.",
+          "start": 95.98,
+          "end": 96.42
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 96.6,
+      "end": 104.6,
+      "textEn": "Power became concentrated in the federal government, making it easier for expansionist presidents, like William McKinley, to unilaterally push American influence abroad.",
+      "textKo": "권력은 연방 정부에 집중되었고, 윌리엄 매킨리 같은 팽창주의적 대통령들이 일방적으로 미국의 영향력을 해외로 확장하는 것이 더 쉬워졌습니다.",
+      "words": [
+        {
+          "word": "Power",
+          "start": 96.6,
+          "end": 97.16
+        },
+        {
+          "word": "became",
+          "start": 97.16,
+          "end": 97.42
+        },
+        {
+          "word": "concentrated",
+          "start": 97.42,
+          "end": 97.94
+        },
+        {
+          "word": "in",
+          "start": 97.94,
+          "end": 98.16
+        },
+        {
+          "word": "the",
+          "start": 98.16,
+          "end": 98.24
+        },
+        {
+          "word": "federal",
+          "start": 98.24,
+          "end": 98.44
+        },
+        {
+          "word": "government,",
+          "start": 98.44,
+          "end": 98.88
+        },
+        {
+          "word": "making",
+          "start": 99.16,
+          "end": 99.32
+        },
+        {
+          "word": "it",
+          "start": 99.32,
+          "end": 99.48
+        },
+        {
+          "word": "easier",
+          "start": 99.48,
+          "end": 99.78
+        },
+        {
+          "word": "for",
+          "start": 99.78,
+          "end": 100.0
+        },
+        {
+          "word": "expansionist",
+          "start": 100.0,
+          "end": 100.62
+        },
+        {
+          "word": "presidents,",
+          "start": 100.62,
+          "end": 100.98
+        },
+        {
+          "word": "like",
+          "start": 101.2,
+          "end": 101.44
+        },
+        {
+          "word": "William",
+          "start": 101.44,
+          "end": 101.66
+        },
+        {
+          "word": "McKinley,",
+          "start": 101.66,
+          "end": 102.1
+        },
+        {
+          "word": "to",
+          "start": 102.26,
+          "end": 102.62
+        },
+        {
+          "word": "unilaterally",
+          "start": 102.62,
+          "end": 103.2
+        },
+        {
+          "word": "push",
+          "start": 103.2,
+          "end": 103.52
+        },
+        {
+          "word": "American",
+          "start": 103.52,
+          "end": 103.84
+        },
+        {
+          "word": "influence",
+          "start": 103.84,
+          "end": 104.26
+        },
+        {
+          "word": "abroad.",
+          "start": 104.26,
+          "end": 104.6
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 104.98,
+      "end": 112.8,
+      "textEn": "The key turning point came in 1898, when President McKinley dragged the country into war with Spain over Cuba, despite some intense domestic opposition.",
+      "textKo": "핵심 전환점은 1898년에 왔는데, 매킨리 대통령이 강한 국내 반대에도 불구하고 쿠바를 둘러싼 스페인과의 전쟁으로 나라를 끌어들였을 때입니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 104.98,
+          "end": 105.2
+        },
+        {
+          "word": "key",
+          "start": 105.2,
+          "end": 105.36
+        },
+        {
+          "word": "turning",
+          "start": 105.36,
+          "end": 105.6
+        },
+        {
+          "word": "point",
+          "start": 105.6,
+          "end": 105.84
+        },
+        {
+          "word": "came",
+          "start": 105.84,
+          "end": 106.04
+        },
+        {
+          "word": "in",
+          "start": 106.04,
+          "end": 106.16
+        },
+        {
+          "word": "1898,",
+          "start": 106.16,
+          "end": 106.84
+        },
+        {
+          "word": "when",
+          "start": 106.84,
+          "end": 107.34
+        },
+        {
+          "word": "President",
+          "start": 107.34,
+          "end": 107.66
+        },
+        {
+          "word": "McKinley",
+          "start": 107.66,
+          "end": 108.16
+        },
+        {
+          "word": "dragged",
+          "start": 108.16,
+          "end": 108.44
+        },
+        {
+          "word": "the",
+          "start": 108.44,
+          "end": 108.58
+        },
+        {
+          "word": "country",
+          "start": 108.58,
+          "end": 108.86
+        },
+        {
+          "word": "into",
+          "start": 108.86,
+          "end": 109.08
+        },
+        {
+          "word": "war",
+          "start": 109.08,
+          "end": 109.3
+        },
+        {
+          "word": "with",
+          "start": 109.3,
+          "end": 109.48
+        },
+        {
+          "word": "Spain",
+          "start": 109.48,
+          "end": 109.9
+        },
+        {
+          "word": "over",
+          "start": 109.9,
+          "end": 110.24
+        },
+        {
+          "word": "Cuba,",
+          "start": 110.24,
+          "end": 110.64
+        },
+        {
+          "word": "despite",
+          "start": 110.96,
+          "end": 111.32
+        },
+        {
+          "word": "some",
+          "start": 111.32,
+          "end": 111.6
+        },
+        {
+          "word": "intense",
+          "start": 111.6,
+          "end": 111.94
+        },
+        {
+          "word": "domestic",
+          "start": 111.94,
+          "end": 112.32
+        },
+        {
+          "word": "opposition.",
+          "start": 112.32,
+          "end": 112.8
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 112.8,
+      "end": 119.92,
+      "textEn": "The rising United States easily defeated the Moribund Spanish Empire, acquiring Puerto Rico, Guam, and the Philippines in the process.",
+      "textKo": "부상하는 미국은 쇠퇴하는 스페인 제국을 쉽게 물리쳤고, 그 과정에서 푸에르토리코, 괌, 필리핀을 획득했습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 112.8,
+          "end": 113.6
+        },
+        {
+          "word": "rising",
+          "start": 113.6,
+          "end": 113.88
+        },
+        {
+          "word": "United",
+          "start": 113.88,
+          "end": 114.2
+        },
+        {
+          "word": "States",
+          "start": 114.2,
+          "end": 114.58
+        },
+        {
+          "word": "easily",
+          "start": 114.58,
+          "end": 115.04
+        },
+        {
+          "word": "defeated",
+          "start": 115.04,
+          "end": 115.42
+        },
+        {
+          "word": "the",
+          "start": 115.42,
+          "end": 115.6
+        },
+        {
+          "word": "Moribund",
+          "start": 115.6,
+          "end": 115.98
+        },
+        {
+          "word": "Spanish",
+          "start": 115.98,
+          "end": 116.24
+        },
+        {
+          "word": "Empire,",
+          "start": 116.24,
+          "end": 116.66
+        },
+        {
+          "word": "acquiring",
+          "start": 116.98,
+          "end": 117.36
+        },
+        {
+          "word": "Puerto",
+          "start": 117.36,
+          "end": 117.64
+        },
+        {
+          "word": "Rico,",
+          "start": 117.64,
+          "end": 118.0
+        },
+        {
+          "word": "Guam,",
+          "start": 118.28,
+          "end": 118.68
+        },
+        {
+          "word": "and",
+          "start": 118.8,
+          "end": 118.84
+        },
+        {
+          "word": "the",
+          "start": 118.84,
+          "end": 118.96
+        },
+        {
+          "word": "Philippines",
+          "start": 118.96,
+          "end": 119.36
+        },
+        {
+          "word": "in",
+          "start": 119.36,
+          "end": 119.54
+        },
+        {
+          "word": "the",
+          "start": 119.54,
+          "end": 119.6
+        },
+        {
+          "word": "process.",
+          "start": 119.6,
+          "end": 119.92
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 120.6,
+      "end": 125.5,
+      "textEn": "Over the next two years, the U. S. would annex the Kingdom of Hawaii, Wake Island, and American Samoa.",
+      "textKo": "이후 2년에 걸쳐, 미국은 하와이 왕국, 웨이크 섬, 미국령 사모아를 병합했습니다.",
+      "words": [
+        {
+          "word": "Over",
+          "start": 120.6,
+          "end": 121.08
+        },
+        {
+          "word": "the",
+          "start": 121.08,
+          "end": 121.18
+        },
+        {
+          "word": "next",
+          "start": 121.18,
+          "end": 121.36
+        },
+        {
+          "word": "two",
+          "start": 121.36,
+          "end": 121.52
+        },
+        {
+          "word": "years,",
+          "start": 121.52,
+          "end": 121.78
+        },
+        {
+          "word": "the",
+          "start": 121.98,
+          "end": 122.02
+        },
+        {
+          "word": "U",
+          "start": 122.02,
+          "end": 122.14
+        },
+        {
+          "word": ".S.",
+          "start": 122.14,
+          "end": 122.24
+        },
+        {
+          "word": "would",
+          "start": 122.38,
+          "end": 122.38
+        },
+        {
+          "word": "annex",
+          "start": 122.38,
+          "end": 122.68
+        },
+        {
+          "word": "the",
+          "start": 122.68,
+          "end": 122.84
+        },
+        {
+          "word": "Kingdom",
+          "start": 122.84,
+          "end": 123.06
+        },
+        {
+          "word": "of",
+          "start": 123.06,
+          "end": 123.24
+        },
+        {
+          "word": "Hawaii,",
+          "start": 123.24,
+          "end": 123.58
+        },
+        {
+          "word": "Wake",
+          "start": 123.8,
+          "end": 124.04
+        },
+        {
+          "word": "Island,",
+          "start": 124.04,
+          "end": 124.36
+        },
+        {
+          "word": "and",
+          "start": 124.5,
+          "end": 124.72
+        },
+        {
+          "word": "American",
+          "start": 124.72,
+          "end": 125.06
+        },
+        {
+          "word": "Samoa.",
+          "start": 125.06,
+          "end": 125.5
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 125.74,
+      "end": 130.86,
+      "textEn": "A few years later, the U. S. took control of the Panama Canal Zone and sent troops to occupy the Dominican Republic.",
+      "textKo": "몇 년 후, 미국은 파나마 운하 지대의 통제권을 장악하고 도미니카 공화국을 점령하기 위해 군대를 보냈습니다.",
+      "words": [
+        {
+          "word": "A",
+          "start": 125.74,
+          "end": 126.0
+        },
+        {
+          "word": "few",
+          "start": 126.0,
+          "end": 126.16
+        },
+        {
+          "word": "years",
+          "start": 126.16,
+          "end": 126.38
+        },
+        {
+          "word": "later,",
+          "start": 126.38,
+          "end": 126.64
+        },
+        {
+          "word": "the",
+          "start": 126.8,
+          "end": 126.82
+        },
+        {
+          "word": "U",
+          "start": 126.82,
+          "end": 126.96
+        },
+        {
+          "word": ".S.",
+          "start": 126.96,
+          "end": 127.06
+        },
+        {
+          "word": "took",
+          "start": 127.08,
+          "end": 127.16
+        },
+        {
+          "word": "control",
+          "start": 127.16,
+          "end": 127.48
+        },
+        {
+          "word": "of",
+          "start": 127.48,
+          "end": 127.6
+        },
+        {
+          "word": "the",
+          "start": 127.6,
+          "end": 127.66
+        },
+        {
+          "word": "Panama",
+          "start": 127.66,
+          "end": 127.92
+        },
+        {
+          "word": "Canal",
+          "start": 127.92,
+          "end": 128.24
+        },
+        {
+          "word": "Zone",
+          "start": 128.24,
+          "end": 128.58
+        },
+        {
+          "word": "and",
+          "start": 128.58,
+          "end": 129.0
+        },
+        {
+          "word": "sent",
+          "start": 129.0,
+          "end": 129.18
+        },
+        {
+          "word": "troops",
+          "start": 129.18,
+          "end": 129.42
+        },
+        {
+          "word": "to",
+          "start": 129.42,
+          "end": 129.56
+        },
+        {
+          "word": "occupy",
+          "start": 129.56,
+          "end": 129.88
+        },
+        {
+          "word": "the",
+          "start": 129.88,
+          "end": 130.06
+        },
+        {
+          "word": "Dominican",
+          "start": 130.06,
+          "end": 130.34
+        },
+        {
+          "word": "Republic.",
+          "start": 130.34,
+          "end": 130.86
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 131.04,
+      "end": 138.7,
+      "textEn": "It also purchased the American Virgin Islands. This period of rapid acquisition of far-flung territories put the U. S. on the map as a truly global power.",
+      "textKo": "또한 미국령 버진 아일랜드를 매입했습니다. 이 먼 곳의 영토를 급속히 획득한 시기는 미국을 진정한 세계 강국으로 지도에 올려놓았습니다.",
+      "words": [
+        {
+          "word": "It",
+          "start": 131.04,
+          "end": 131.3
+        },
+        {
+          "word": "also",
+          "start": 131.3,
+          "end": 131.5
+        },
+        {
+          "word": "purchased",
+          "start": 131.5,
+          "end": 131.86
+        },
+        {
+          "word": "the",
+          "start": 131.86,
+          "end": 132.0
+        },
+        {
+          "word": "American",
+          "start": 132.0,
+          "end": 132.28
+        },
+        {
+          "word": "Virgin",
+          "start": 132.28,
+          "end": 132.54
+        },
+        {
+          "word": "Islands.",
+          "start": 132.54,
+          "end": 132.92
+        },
+        {
+          "word": "This",
+          "start": 133.46,
+          "end": 133.94
+        },
+        {
+          "word": "period",
+          "start": 133.94,
+          "end": 134.24
+        },
+        {
+          "word": "of",
+          "start": 134.24,
+          "end": 134.4
+        },
+        {
+          "word": "rapid",
+          "start": 134.4,
+          "end": 134.68
+        },
+        {
+          "word": "acquisition",
+          "start": 134.68,
+          "end": 135.16
+        },
+        {
+          "word": "of",
+          "start": 135.16,
+          "end": 135.34
+        },
+        {
+          "word": "far",
+          "start": 135.34,
+          "end": 135.56
+        },
+        {
+          "word": "-flung",
+          "start": 135.56,
+          "end": 135.8
+        },
+        {
+          "word": "territories",
+          "start": 135.8,
+          "end": 136.22
+        },
+        {
+          "word": "put",
+          "start": 136.22,
+          "end": 136.48
+        },
+        {
+          "word": "the",
+          "start": 136.48,
+          "end": 136.6
+        },
+        {
+          "word": "U",
+          "start": 136.6,
+          "end": 136.76
+        },
+        {
+          "word": ".S.",
+          "start": 136.76,
+          "end": 136.86
+        },
+        {
+          "word": "on",
+          "start": 136.94,
+          "end": 137.0
+        },
+        {
+          "word": "the",
+          "start": 137.0,
+          "end": 137.1
+        },
+        {
+          "word": "map",
+          "start": 137.1,
+          "end": 137.3
+        },
+        {
+          "word": "as",
+          "start": 137.3,
+          "end": 137.48
+        },
+        {
+          "word": "a",
+          "start": 137.48,
+          "end": 137.56
+        },
+        {
+          "word": "truly",
+          "start": 137.56,
+          "end": 137.9
+        },
+        {
+          "word": "global",
+          "start": 137.9,
+          "end": 138.32
+        },
+        {
+          "word": "power.",
+          "start": 138.32,
+          "end": 138.7
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 139.36,
+      "end": 148.14,
+      "textEn": "During this time, America also began using its influence to protect its growing commercial and military interests abroad, installing pro-American regimes in places like Nicaragua,",
+      "textKo": "이 시기에 미국은 또한 니카라과 같은 곳에 친미 정권을 세우는 등 해외에서 성장하는 상업적, 군사적 이익을 보호하기 위해 영향력을 사용하기 시작했으며,",
+      "words": [
+        {
+          "word": "During",
+          "start": 139.36,
+          "end": 139.88
+        },
+        {
+          "word": "this",
+          "start": 139.88,
+          "end": 140.1
+        },
+        {
+          "word": "time,",
+          "start": 140.1,
+          "end": 140.36
+        },
+        {
+          "word": "America",
+          "start": 140.56,
+          "end": 140.86
+        },
+        {
+          "word": "also",
+          "start": 140.86,
+          "end": 141.2
+        },
+        {
+          "word": "began",
+          "start": 141.2,
+          "end": 141.5
+        },
+        {
+          "word": "using",
+          "start": 141.5,
+          "end": 141.76
+        },
+        {
+          "word": "its",
+          "start": 141.76,
+          "end": 141.98
+        },
+        {
+          "word": "influence",
+          "start": 141.98,
+          "end": 142.3
+        },
+        {
+          "word": "to",
+          "start": 142.3,
+          "end": 142.48
+        },
+        {
+          "word": "protect",
+          "start": 142.48,
+          "end": 142.74
+        },
+        {
+          "word": "its",
+          "start": 142.74,
+          "end": 142.96
+        },
+        {
+          "word": "growing",
+          "start": 142.96,
+          "end": 143.24
+        },
+        {
+          "word": "commercial",
+          "start": 143.24,
+          "end": 143.7
+        },
+        {
+          "word": "and",
+          "start": 143.7,
+          "end": 143.94
+        },
+        {
+          "word": "military",
+          "start": 143.94,
+          "end": 144.28
+        },
+        {
+          "word": "interests",
+          "start": 144.28,
+          "end": 144.64
+        },
+        {
+          "word": "abroad,",
+          "start": 144.64,
+          "end": 144.98
+        },
+        {
+          "word": "installing",
+          "start": 145.22,
+          "end": 145.9
+        },
+        {
+          "word": "pro",
+          "start": 145.9,
+          "end": 146.18
+        },
+        {
+          "word": "-American",
+          "start": 146.18,
+          "end": 146.48
+        },
+        {
+          "word": "regimes",
+          "start": 146.48,
+          "end": 146.94
+        },
+        {
+          "word": "in",
+          "start": 146.94,
+          "end": 147.14
+        },
+        {
+          "word": "places",
+          "start": 147.14,
+          "end": 147.38
+        },
+        {
+          "word": "like",
+          "start": 147.38,
+          "end": 147.58
+        },
+        {
+          "word": "Nicaragua,",
+          "start": 147.58,
+          "end": 148.14
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 148.22,
+      "end": 152.14,
+      "textEn": "And playing a major role in international diplomacy regarding the Western presence in China.",
+      "textKo": "중국 내 서방의 존재에 관한 국제 외교에서도 주요한 역할을 했습니다.",
+      "words": [
+        {
+          "word": "and",
+          "start": 148.22,
+          "end": 148.46
+        },
+        {
+          "word": "playing",
+          "start": 148.46,
+          "end": 148.7
+        },
+        {
+          "word": "a",
+          "start": 148.7,
+          "end": 148.86
+        },
+        {
+          "word": "major",
+          "start": 148.86,
+          "end": 149.12
+        },
+        {
+          "word": "role",
+          "start": 149.12,
+          "end": 149.4
+        },
+        {
+          "word": "in",
+          "start": 149.4,
+          "end": 149.54
+        },
+        {
+          "word": "international",
+          "start": 149.54,
+          "end": 149.94
+        },
+        {
+          "word": "diplomacy",
+          "start": 149.94,
+          "end": 150.5
+        },
+        {
+          "word": "regarding",
+          "start": 150.5,
+          "end": 150.84
+        },
+        {
+          "word": "the",
+          "start": 150.84,
+          "end": 151.0
+        },
+        {
+          "word": "Western",
+          "start": 151.0,
+          "end": 151.26
+        },
+        {
+          "word": "presence",
+          "start": 151.26,
+          "end": 151.66
+        },
+        {
+          "word": "in",
+          "start": 151.66,
+          "end": 151.84
+        },
+        {
+          "word": "China.",
+          "start": 151.84,
+          "end": 152.14
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 153.64,
+      "end": 156.7,
+      "textEn": "World War I showed just how much America's influence had grown.",
+      "textKo": "제1차 세계대전은 미국의 영향력이 얼마나 성장했는지를 보여주었습니다.",
+      "words": [
+        {
+          "word": "World",
+          "start": 153.64,
+          "end": 154.16
+        },
+        {
+          "word": "War",
+          "start": 154.16,
+          "end": 154.34
+        },
+        {
+          "word": "I",
+          "start": 154.34,
+          "end": 154.52
+        },
+        {
+          "word": "showed",
+          "start": 154.52,
+          "end": 154.82
+        },
+        {
+          "word": "just",
+          "start": 154.82,
+          "end": 155.1
+        },
+        {
+          "word": "how",
+          "start": 155.1,
+          "end": 155.28
+        },
+        {
+          "word": "much",
+          "start": 155.28,
+          "end": 155.46
+        },
+        {
+          "word": "America's",
+          "start": 155.46,
+          "end": 155.92
+        },
+        {
+          "word": "influence",
+          "start": 155.92,
+          "end": 156.24
+        },
+        {
+          "word": "had",
+          "start": 156.24,
+          "end": 156.44
+        },
+        {
+          "word": "grown.",
+          "start": 156.44,
+          "end": 156.7
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 157.14,
+      "end": 166.02,
+      "textEn": "Not only was American intervention a decisive factor in the war's end, but President Wilson attended the Paris Peace Conference, which ended the war, and attempted to set the terms of the peace.",
+      "textKo": "미국의 개입이 전쟁 종결에 결정적인 요인이었을 뿐만 아니라, 윌슨 대통령은 전쟁을 종결시킨 파리 강화 회의에 참석하여 평화의 조건을 정하려고 시도했습니다.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 157.14,
+          "end": 157.32
+        },
+        {
+          "word": "only",
+          "start": 157.32,
+          "end": 157.64
+        },
+        {
+          "word": "was",
+          "start": 157.64,
+          "end": 157.92
+        },
+        {
+          "word": "American",
+          "start": 157.92,
+          "end": 158.26
+        },
+        {
+          "word": "intervention",
+          "start": 158.26,
+          "end": 158.68
+        },
+        {
+          "word": "a",
+          "start": 158.68,
+          "end": 158.92
+        },
+        {
+          "word": "decisive",
+          "start": 158.92,
+          "end": 159.4
+        },
+        {
+          "word": "factor",
+          "start": 159.4,
+          "end": 159.86
+        },
+        {
+          "word": "in",
+          "start": 159.86,
+          "end": 160.04
+        },
+        {
+          "word": "the",
+          "start": 160.04,
+          "end": 160.1
+        },
+        {
+          "word": "war's",
+          "start": 160.1,
+          "end": 160.4
+        },
+        {
+          "word": "end,",
+          "start": 160.4,
+          "end": 160.7
+        },
+        {
+          "word": "but",
+          "start": 160.9,
+          "end": 161.24
+        },
+        {
+          "word": "President",
+          "start": 161.24,
+          "end": 161.58
+        },
+        {
+          "word": "Wilson",
+          "start": 161.58,
+          "end": 161.9
+        },
+        {
+          "word": "attended",
+          "start": 161.9,
+          "end": 162.28
+        },
+        {
+          "word": "the",
+          "start": 162.28,
+          "end": 162.44
+        },
+        {
+          "word": "Paris",
+          "start": 162.44,
+          "end": 162.74
+        },
+        {
+          "word": "Peace",
+          "start": 162.74,
+          "end": 162.98
+        },
+        {
+          "word": "Conference,",
+          "start": 162.98,
+          "end": 163.34
+        },
+        {
+          "word": "which",
+          "start": 163.4,
+          "end": 163.54
+        },
+        {
+          "word": "ended",
+          "start": 163.54,
+          "end": 163.72
+        },
+        {
+          "word": "the",
+          "start": 163.72,
+          "end": 163.86
+        },
+        {
+          "word": "war,",
+          "start": 163.86,
+          "end": 164.1
+        },
+        {
+          "word": "and",
+          "start": 164.3,
+          "end": 164.58
+        },
+        {
+          "word": "attempted",
+          "start": 164.58,
+          "end": 164.88
+        },
+        {
+          "word": "to",
+          "start": 164.88,
+          "end": 165.04
+        },
+        {
+          "word": "set",
+          "start": 165.04,
+          "end": 165.2
+        },
+        {
+          "word": "the",
+          "start": 165.2,
+          "end": 165.32
+        },
+        {
+          "word": "terms",
+          "start": 165.32,
+          "end": 165.54
+        },
+        {
+          "word": "of",
+          "start": 165.54,
+          "end": 165.68
+        },
+        {
+          "word": "the",
+          "start": 165.68,
+          "end": 165.76
+        },
+        {
+          "word": "peace.",
+          "start": 165.76,
+          "end": 166.02
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 166.02,
+      "end": 175.68,
+      "textEn": "He spearheaded America's most ambitious foreign policy initiative yet, an international organization called the League of Nations, designed to promote peace and cooperation globally.",
+      "textKo": "그는 미국의 가장 야심 찬 외교 정책 이니셔티브를 주도했는데, 전 세계적으로 평화와 협력을 증진하기 위해 설계된 국제연맹이라는 국제기구였습니다.",
+      "words": [
+        {
+          "word": "He",
+          "start": 166.02,
+          "end": 167.04
+        },
+        {
+          "word": "spearheaded",
+          "start": 167.04,
+          "end": 167.44
+        },
+        {
+          "word": "America's",
+          "start": 167.44,
+          "end": 167.94
+        },
+        {
+          "word": "most",
+          "start": 167.94,
+          "end": 168.2
+        },
+        {
+          "word": "ambitious",
+          "start": 168.2,
+          "end": 168.74
+        },
+        {
+          "word": "foreign",
+          "start": 168.74,
+          "end": 169.08
+        },
+        {
+          "word": "policy",
+          "start": 169.08,
+          "end": 169.44
+        },
+        {
+          "word": "initiative",
+          "start": 169.44,
+          "end": 169.8
+        },
+        {
+          "word": "yet,",
+          "start": 169.8,
+          "end": 170.1
+        },
+        {
+          "word": "an",
+          "start": 170.4,
+          "end": 170.78
+        },
+        {
+          "word": "international",
+          "start": 170.78,
+          "end": 171.22
+        },
+        {
+          "word": "organization",
+          "start": 171.22,
+          "end": 171.76
+        },
+        {
+          "word": "called",
+          "start": 171.76,
+          "end": 172.02
+        },
+        {
+          "word": "the",
+          "start": 172.02,
+          "end": 172.14
+        },
+        {
+          "word": "League",
+          "start": 172.14,
+          "end": 172.3
+        },
+        {
+          "word": "of",
+          "start": 172.3,
+          "end": 172.4
+        },
+        {
+          "word": "Nations,",
+          "start": 172.4,
+          "end": 172.76
+        },
+        {
+          "word": "designed",
+          "start": 172.98,
+          "end": 173.44
+        },
+        {
+          "word": "to",
+          "start": 173.44,
+          "end": 173.6
+        },
+        {
+          "word": "promote",
+          "start": 173.6,
+          "end": 173.86
+        },
+        {
+          "word": "peace",
+          "start": 173.86,
+          "end": 174.24
+        },
+        {
+          "word": "and",
+          "start": 174.24,
+          "end": 174.7
+        },
+        {
+          "word": "cooperation",
+          "start": 174.7,
+          "end": 175.22
+        },
+        {
+          "word": "globally.",
+          "start": 175.22,
+          "end": 175.68
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 176.9,
+      "end": 183.22,
+      "textEn": "The League, a wholesale effort to remake global politics, showed just how ambitious American foreign policy had become.",
+      "textKo": "세계 정치를 재편하려는 전면적인 노력인 국제연맹은 미국 외교 정책이 얼마나 야심 차게 변했는지를 보여주었습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 176.9,
+          "end": 177.56
+        },
+        {
+          "word": "League,",
+          "start": 177.56,
+          "end": 177.78
+        },
+        {
+          "word": "a",
+          "start": 177.96,
+          "end": 178.18
+        },
+        {
+          "word": "wholesale",
+          "start": 178.18,
+          "end": 178.5
+        },
+        {
+          "word": "effort",
+          "start": 178.5,
+          "end": 178.92
+        },
+        {
+          "word": "to",
+          "start": 178.92,
+          "end": 179.12
+        },
+        {
+          "word": "remake",
+          "start": 179.12,
+          "end": 179.54
+        },
+        {
+          "word": "global",
+          "start": 179.54,
+          "end": 179.84
+        },
+        {
+          "word": "politics,",
+          "start": 179.84,
+          "end": 180.4
+        },
+        {
+          "word": "showed",
+          "start": 180.76,
+          "end": 180.96
+        },
+        {
+          "word": "just",
+          "start": 180.96,
+          "end": 181.2
+        },
+        {
+          "word": "how",
+          "start": 181.2,
+          "end": 181.38
+        },
+        {
+          "word": "ambitious",
+          "start": 181.38,
+          "end": 181.72
+        },
+        {
+          "word": "American",
+          "start": 181.72,
+          "end": 182.1
+        },
+        {
+          "word": "foreign",
+          "start": 182.1,
+          "end": 182.38
+        },
+        {
+          "word": "policy",
+          "start": 182.38,
+          "end": 182.78
+        },
+        {
+          "word": "had",
+          "start": 182.78,
+          "end": 182.92
+        },
+        {
+          "word": "become.",
+          "start": 182.92,
+          "end": 183.22
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 184.5,
+      "end": 187.84,
+      "textEn": "Yet isolationism was still a major force in the United States.",
+      "textKo": "그러나 고립주의는 여전히 미국에서 주요한 세력이었습니다.",
+      "words": [
+        {
+          "word": "Yet",
+          "start": 184.5,
+          "end": 185.0
+        },
+        {
+          "word": "isolationism",
+          "start": 185.0,
+          "end": 185.7
+        },
+        {
+          "word": "was",
+          "start": 185.7,
+          "end": 185.88
+        },
+        {
+          "word": "still",
+          "start": 185.88,
+          "end": 186.0
+        },
+        {
+          "word": "a",
+          "start": 186.0,
+          "end": 186.18
+        },
+        {
+          "word": "major",
+          "start": 186.18,
+          "end": 186.44
+        },
+        {
+          "word": "force",
+          "start": 186.44,
+          "end": 186.86
+        },
+        {
+          "word": "in",
+          "start": 186.86,
+          "end": 187.1
+        },
+        {
+          "word": "the",
+          "start": 187.1,
+          "end": 187.18
+        },
+        {
+          "word": "United",
+          "start": 187.18,
+          "end": 187.38
+        },
+        {
+          "word": "States.",
+          "start": 187.38,
+          "end": 187.84
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 189.1,
+      "end": 193.24,
+      "textEn": "Congress blocked the United States from joining the League of Nations, dooming Wilson's project.",
+      "textKo": "의회는 미국이 국제연맹에 가입하는 것을 막았고, 윌슨의 프로젝트를 좌절시켰습니다.",
+      "words": [
+        {
+          "word": "Congress",
+          "start": 189.1,
+          "end": 189.58
+        },
+        {
+          "word": "blocked",
+          "start": 189.58,
+          "end": 189.96
+        },
+        {
+          "word": "the",
+          "start": 189.96,
+          "end": 190.08
+        },
+        {
+          "word": "United",
+          "start": 190.08,
+          "end": 190.26
+        },
+        {
+          "word": "States",
+          "start": 190.26,
+          "end": 190.56
+        },
+        {
+          "word": "from",
+          "start": 190.56,
+          "end": 190.7
+        },
+        {
+          "word": "joining",
+          "start": 190.7,
+          "end": 190.92
+        },
+        {
+          "word": "the",
+          "start": 190.92,
+          "end": 191.06
+        },
+        {
+          "word": "League",
+          "start": 191.06,
+          "end": 191.2
+        },
+        {
+          "word": "of",
+          "start": 191.2,
+          "end": 191.32
+        },
+        {
+          "word": "Nations,",
+          "start": 191.32,
+          "end": 191.66
+        },
+        {
+          "word": "dooming",
+          "start": 191.98,
+          "end": 192.46
+        },
+        {
+          "word": "Wilson's",
+          "start": 192.46,
+          "end": 192.88
+        },
+        {
+          "word": "project.",
+          "start": 192.88,
+          "end": 193.24
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 194.76,
+      "end": 200.2,
+      "textEn": "During the Great Depression and the rise of Hitler, the U. S. was much more focused on its own region than on European affairs.",
+      "textKo": "대공황과 히틀러의 부상 동안, 미국은 유럽 문제보다 자국 지역에 훨씬 더 집중했습니다.",
+      "words": [
+        {
+          "word": "During",
+          "start": 194.76,
+          "end": 195.24
+        },
+        {
+          "word": "the",
+          "start": 195.24,
+          "end": 195.34
+        },
+        {
+          "word": "Great",
+          "start": 195.34,
+          "end": 195.46
+        },
+        {
+          "word": "Depression",
+          "start": 195.46,
+          "end": 195.84
+        },
+        {
+          "word": "and",
+          "start": 195.84,
+          "end": 196.04
+        },
+        {
+          "word": "the",
+          "start": 196.04,
+          "end": 196.1
+        },
+        {
+          "word": "rise",
+          "start": 196.1,
+          "end": 196.28
+        },
+        {
+          "word": "of",
+          "start": 196.28,
+          "end": 196.38
+        },
+        {
+          "word": "Hitler,",
+          "start": 196.38,
+          "end": 196.62
+        },
+        {
+          "word": "the",
+          "start": 197.08,
+          "end": 197.14
+        },
+        {
+          "word": "U",
+          "start": 197.14,
+          "end": 197.28
+        },
+        {
+          "word": ".S.",
+          "start": 197.28,
+          "end": 197.38
+        },
+        {
+          "word": "was",
+          "start": 197.5,
+          "end": 197.5
+        },
+        {
+          "word": "much",
+          "start": 197.5,
+          "end": 197.76
+        },
+        {
+          "word": "more",
+          "start": 197.76,
+          "end": 197.94
+        },
+        {
+          "word": "focused",
+          "start": 197.94,
+          "end": 198.3
+        },
+        {
+          "word": "on",
+          "start": 198.3,
+          "end": 198.54
+        },
+        {
+          "word": "its",
+          "start": 198.54,
+          "end": 198.7
+        },
+        {
+          "word": "own",
+          "start": 198.7,
+          "end": 198.94
+        },
+        {
+          "word": "region",
+          "start": 198.94,
+          "end": 199.24
+        },
+        {
+          "word": "than",
+          "start": 199.24,
+          "end": 199.42
+        },
+        {
+          "word": "on",
+          "start": 199.42,
+          "end": 199.54
+        },
+        {
+          "word": "European",
+          "start": 199.54,
+          "end": 199.84
+        },
+        {
+          "word": "affairs.",
+          "start": 199.84,
+          "end": 200.2
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 201.22,
+      "end": 206.76,
+      "textEn": "Ultimately, America's ever-growing entanglements abroad made it impossible for it to stay out of global affairs entirely.",
+      "textKo": "궁극적으로, 해외에서 점점 커지는 미국의 얽힘은 글로벌 문제에서 완전히 빠져나가는 것을 불가능하게 만들었습니다.",
+      "words": [
+        {
+          "word": "Ultimately,",
+          "start": 201.22,
+          "end": 201.7
+        },
+        {
+          "word": "America's",
+          "start": 202.12,
+          "end": 202.5
+        },
+        {
+          "word": "ever",
+          "start": 202.5,
+          "end": 202.72
+        },
+        {
+          "word": "-growing",
+          "start": 202.72,
+          "end": 203.06
+        },
+        {
+          "word": "entanglements",
+          "start": 203.06,
+          "end": 203.64
+        },
+        {
+          "word": "abroad",
+          "start": 203.64,
+          "end": 203.92
+        },
+        {
+          "word": "made",
+          "start": 203.92,
+          "end": 204.24
+        },
+        {
+          "word": "it",
+          "start": 204.24,
+          "end": 204.36
+        },
+        {
+          "word": "impossible",
+          "start": 204.36,
+          "end": 204.8
+        },
+        {
+          "word": "for",
+          "start": 204.8,
+          "end": 205.16
+        },
+        {
+          "word": "it",
+          "start": 205.16,
+          "end": 205.26
+        },
+        {
+          "word": "to",
+          "start": 205.26,
+          "end": 205.36
+        },
+        {
+          "word": "stay",
+          "start": 205.36,
+          "end": 205.54
+        },
+        {
+          "word": "out",
+          "start": 205.54,
+          "end": 205.7
+        },
+        {
+          "word": "of",
+          "start": 205.7,
+          "end": 205.76
+        },
+        {
+          "word": "global",
+          "start": 205.76,
+          "end": 206.0
+        },
+        {
+          "word": "affairs",
+          "start": 206.0,
+          "end": 206.36
+        },
+        {
+          "word": "entirely.",
+          "start": 206.36,
+          "end": 206.76
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 206.76,
+      "end": 214.98,
+      "textEn": "In East Asia, the growing Japanese empire posed a direct threat to American possessions and troops, bringing the United States and Japan into conflict.",
+      "textKo": "동아시아에서, 성장하는 일본 제국은 미국의 소유지와 군대에 직접적인 위협을 가했고, 미국과 일본을 갈등으로 이끌었습니다.",
+      "words": [
+        {
+          "word": "In",
+          "start": 206.76,
+          "end": 207.62
+        },
+        {
+          "word": "East",
+          "start": 207.62,
+          "end": 207.84
+        },
+        {
+          "word": "Asia,",
+          "start": 207.84,
+          "end": 208.18
+        },
+        {
+          "word": "the",
+          "start": 208.38,
+          "end": 208.48
+        },
+        {
+          "word": "growing",
+          "start": 208.48,
+          "end": 208.76
+        },
+        {
+          "word": "Japanese",
+          "start": 208.76,
+          "end": 209.18
+        },
+        {
+          "word": "empire",
+          "start": 209.18,
+          "end": 209.56
+        },
+        {
+          "word": "posed",
+          "start": 209.56,
+          "end": 209.96
+        },
+        {
+          "word": "a",
+          "start": 209.96,
+          "end": 210.12
+        },
+        {
+          "word": "direct",
+          "start": 210.12,
+          "end": 210.48
+        },
+        {
+          "word": "threat",
+          "start": 210.48,
+          "end": 210.88
+        },
+        {
+          "word": "to",
+          "start": 210.88,
+          "end": 211.1
+        },
+        {
+          "word": "American",
+          "start": 211.1,
+          "end": 211.42
+        },
+        {
+          "word": "possessions",
+          "start": 211.42,
+          "end": 211.88
+        },
+        {
+          "word": "and",
+          "start": 211.88,
+          "end": 212.16
+        },
+        {
+          "word": "troops,",
+          "start": 212.16,
+          "end": 212.54
+        },
+        {
+          "word": "bringing",
+          "start": 212.82,
+          "end": 213.48
+        },
+        {
+          "word": "the",
+          "start": 213.48,
+          "end": 213.62
+        },
+        {
+          "word": "United",
+          "start": 213.62,
+          "end": 213.8
+        },
+        {
+          "word": "States",
+          "start": 213.8,
+          "end": 214.08
+        },
+        {
+          "word": "and",
+          "start": 214.08,
+          "end": 214.18
+        },
+        {
+          "word": "Japan",
+          "start": 214.18,
+          "end": 214.42
+        },
+        {
+          "word": "into",
+          "start": 214.42,
+          "end": 214.58
+        },
+        {
+          "word": "conflict.",
+          "start": 214.58,
+          "end": 214.98
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 215.26,
+      "end": 219.3,
+      "textEn": "This culminated in the Pearl Harbor attack, bringing the United States into World War II.",
+      "textKo": "이것은 진주만 공격으로 절정에 달했고, 미국을 제2차 세계대전으로 끌어들였습니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 215.26,
+          "end": 215.58
+        },
+        {
+          "word": "culminated",
+          "start": 215.58,
+          "end": 216.14
+        },
+        {
+          "word": "in",
+          "start": 216.14,
+          "end": 216.32
+        },
+        {
+          "word": "the",
+          "start": 216.32,
+          "end": 216.42
+        },
+        {
+          "word": "Pearl",
+          "start": 216.42,
+          "end": 216.58
+        },
+        {
+          "word": "Harbor",
+          "start": 216.58,
+          "end": 216.88
+        },
+        {
+          "word": "attack,",
+          "start": 216.88,
+          "end": 217.2
+        },
+        {
+          "word": "bringing",
+          "start": 217.2,
+          "end": 217.9
+        },
+        {
+          "word": "the",
+          "start": 217.9,
+          "end": 218.04
+        },
+        {
+          "word": "United",
+          "start": 218.04,
+          "end": 218.26
+        },
+        {
+          "word": "States",
+          "start": 218.26,
+          "end": 218.56
+        },
+        {
+          "word": "into",
+          "start": 218.56,
+          "end": 218.74
+        },
+        {
+          "word": "World",
+          "start": 218.74,
+          "end": 218.92
+        },
+        {
+          "word": "War",
+          "start": 218.92,
+          "end": 219.08
+        },
+        {
+          "word": "II.",
+          "start": 219.08,
+          "end": 219.3
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 219.72,
+      "end": 222.44,
+      "textEn": "World War II would transform America's global presence forever.",
+      "textKo": "제2차 세계대전은 미국의 세계적 존재를 영원히 변화시킬 것이었습니다.",
+      "words": [
+        {
+          "word": "World",
+          "start": 219.72,
+          "end": 220.02
+        },
+        {
+          "word": "War",
+          "start": 220.02,
+          "end": 220.2
+        },
+        {
+          "word": "II",
+          "start": 220.2,
+          "end": 220.36
+        },
+        {
+          "word": "would",
+          "start": 220.36,
+          "end": 220.5
+        },
+        {
+          "word": "transform",
+          "start": 220.5,
+          "end": 220.9
+        },
+        {
+          "word": "America's",
+          "start": 220.9,
+          "end": 221.38
+        },
+        {
+          "word": "global",
+          "start": 221.38,
+          "end": 221.62
+        },
+        {
+          "word": "presence",
+          "start": 221.62,
+          "end": 222.04
+        },
+        {
+          "word": "forever.",
+          "start": 222.04,
+          "end": 222.44
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 223.54,
+      "end": 230.62,
+      "textEn": "The United States was the only major power to avoid economic ruin during the war, and it was the sole country equipped with atomic weapons.",
+      "textKo": "미국은 전쟁 중 경제적 파탄을 면한 유일한 주요 강국이었고, 핵무기를 보유한 유일한 나라였습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 223.54,
+          "end": 223.8
+        },
+        {
+          "word": "United",
+          "start": 223.8,
+          "end": 223.96
+        },
+        {
+          "word": "States",
+          "start": 223.96,
+          "end": 224.26
+        },
+        {
+          "word": "was",
+          "start": 224.26,
+          "end": 224.4
+        },
+        {
+          "word": "the",
+          "start": 224.4,
+          "end": 224.54
+        },
+        {
+          "word": "only",
+          "start": 224.54,
+          "end": 224.88
+        },
+        {
+          "word": "major",
+          "start": 224.88,
+          "end": 225.16
+        },
+        {
+          "word": "power",
+          "start": 225.16,
+          "end": 225.44
+        },
+        {
+          "word": "to",
+          "start": 225.44,
+          "end": 225.66
+        },
+        {
+          "word": "avoid",
+          "start": 225.66,
+          "end": 225.94
+        },
+        {
+          "word": "economic",
+          "start": 225.94,
+          "end": 226.36
+        },
+        {
+          "word": "ruin",
+          "start": 226.36,
+          "end": 226.7
+        },
+        {
+          "word": "during",
+          "start": 226.7,
+          "end": 226.9
+        },
+        {
+          "word": "the",
+          "start": 226.9,
+          "end": 227.06
+        },
+        {
+          "word": "war,",
+          "start": 227.06,
+          "end": 227.28
+        },
+        {
+          "word": "and",
+          "start": 227.32,
+          "end": 228.6
+        },
+        {
+          "word": "it",
+          "start": 228.6,
+          "end": 228.68
+        },
+        {
+          "word": "was",
+          "start": 228.68,
+          "end": 228.78
+        },
+        {
+          "word": "the",
+          "start": 228.78,
+          "end": 228.9
+        },
+        {
+          "word": "sole",
+          "start": 228.9,
+          "end": 229.14
+        },
+        {
+          "word": "country",
+          "start": 229.14,
+          "end": 229.46
+        },
+        {
+          "word": "equipped",
+          "start": 229.46,
+          "end": 229.74
+        },
+        {
+          "word": "with",
+          "start": 229.74,
+          "end": 229.88
+        },
+        {
+          "word": "atomic",
+          "start": 229.88,
+          "end": 230.16
+        },
+        {
+          "word": "weapons.",
+          "start": 230.16,
+          "end": 230.62
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 230.62,
+      "end": 237.96,
+      "textEn": "As such, it was in a unique position to set the terms of the peace, and, with the aim of preventing another war in mind, it took advantage.",
+      "textKo": "그래서 미국은 평화의 조건을 정할 독특한 위치에 있었으며, 또 다른 전쟁을 방지하려는 목적으로 그 이점을 활용했습니다.",
+      "words": [
+        {
+          "word": "As",
+          "start": 230.62,
+          "end": 231.48
+        },
+        {
+          "word": "such,",
+          "start": 231.48,
+          "end": 231.74
+        },
+        {
+          "word": "it",
+          "start": 231.94,
+          "end": 232.0
+        },
+        {
+          "word": "was",
+          "start": 232.0,
+          "end": 232.1
+        },
+        {
+          "word": "in",
+          "start": 232.1,
+          "end": 232.2
+        },
+        {
+          "word": "a",
+          "start": 232.2,
+          "end": 232.28
+        },
+        {
+          "word": "unique",
+          "start": 232.28,
+          "end": 232.6
+        },
+        {
+          "word": "position",
+          "start": 232.6,
+          "end": 233.0
+        },
+        {
+          "word": "to",
+          "start": 233.0,
+          "end": 233.16
+        },
+        {
+          "word": "set",
+          "start": 233.16,
+          "end": 233.3
+        },
+        {
+          "word": "the",
+          "start": 233.3,
+          "end": 233.42
+        },
+        {
+          "word": "terms",
+          "start": 233.42,
+          "end": 233.6
+        },
+        {
+          "word": "of",
+          "start": 233.6,
+          "end": 233.72
+        },
+        {
+          "word": "the",
+          "start": 233.72,
+          "end": 233.8
+        },
+        {
+          "word": "peace,",
+          "start": 233.8,
+          "end": 234.12
+        },
+        {
+          "word": "and,",
+          "start": 234.26,
+          "end": 234.9
+        },
+        {
+          "word": "with",
+          "start": 235.0,
+          "end": 235.34
+        },
+        {
+          "word": "the",
+          "start": 235.34,
+          "end": 235.46
+        },
+        {
+          "word": "aim",
+          "start": 235.46,
+          "end": 235.66
+        },
+        {
+          "word": "of",
+          "start": 235.66,
+          "end": 235.78
+        },
+        {
+          "word": "preventing",
+          "start": 235.78,
+          "end": 236.14
+        },
+        {
+          "word": "another",
+          "start": 236.14,
+          "end": 236.44
+        },
+        {
+          "word": "war",
+          "start": 236.44,
+          "end": 236.68
+        },
+        {
+          "word": "in",
+          "start": 236.68,
+          "end": 236.82
+        },
+        {
+          "word": "mind,",
+          "start": 236.82,
+          "end": 237.08
+        },
+        {
+          "word": "it",
+          "start": 237.32,
+          "end": 237.5
+        },
+        {
+          "word": "took",
+          "start": 237.5,
+          "end": 237.64
+        },
+        {
+          "word": "advantage.",
+          "start": 237.64,
+          "end": 237.96
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 238.26,
+      "end": 241.52,
+      "textEn": "The most famous example of this is the creation of the United Nations.",
+      "textKo": "이것의 가장 유명한 예가 유엔의 창설입니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 238.26,
+          "end": 238.68
+        },
+        {
+          "word": "most",
+          "start": 238.68,
+          "end": 238.86
+        },
+        {
+          "word": "famous",
+          "start": 238.86,
+          "end": 239.16
+        },
+        {
+          "word": "example",
+          "start": 239.16,
+          "end": 239.54
+        },
+        {
+          "word": "of",
+          "start": 239.54,
+          "end": 239.7
+        },
+        {
+          "word": "this",
+          "start": 239.7,
+          "end": 239.84
+        },
+        {
+          "word": "is",
+          "start": 239.84,
+          "end": 239.98
+        },
+        {
+          "word": "the",
+          "start": 239.98,
+          "end": 240.1
+        },
+        {
+          "word": "creation",
+          "start": 240.1,
+          "end": 240.46
+        },
+        {
+          "word": "of",
+          "start": 240.46,
+          "end": 240.76
+        },
+        {
+          "word": "the",
+          "start": 240.76,
+          "end": 240.86
+        },
+        {
+          "word": "United",
+          "start": 240.86,
+          "end": 241.1
+        },
+        {
+          "word": "Nations.",
+          "start": 241.1,
+          "end": 241.52
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 241.92,
+      "end": 247.94,
+      "textEn": "The UN Charter set up a system of international law prohibiting wars of conquest, like the ones waged by the Nazis and the Japanese.",
+      "textKo": "유엔 헌장은 나치와 일본이 벌인 것과 같은 정복 전쟁을 금지하는 국제법 체계를 수립했습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 241.92,
+          "end": 242.36
+        },
+        {
+          "word": "UN",
+          "start": 242.36,
+          "end": 242.56
+        },
+        {
+          "word": "Charter",
+          "start": 242.56,
+          "end": 242.88
+        },
+        {
+          "word": "set",
+          "start": 242.88,
+          "end": 243.12
+        },
+        {
+          "word": "up",
+          "start": 243.12,
+          "end": 243.24
+        },
+        {
+          "word": "a",
+          "start": 243.24,
+          "end": 243.38
+        },
+        {
+          "word": "system",
+          "start": 243.38,
+          "end": 243.68
+        },
+        {
+          "word": "of",
+          "start": 243.68,
+          "end": 243.86
+        },
+        {
+          "word": "international",
+          "start": 243.86,
+          "end": 244.22
+        },
+        {
+          "word": "law",
+          "start": 244.22,
+          "end": 244.62
+        },
+        {
+          "word": "prohibiting",
+          "start": 244.62,
+          "end": 245.08
+        },
+        {
+          "word": "wars",
+          "start": 245.08,
+          "end": 245.3
+        },
+        {
+          "word": "of",
+          "start": 245.3,
+          "end": 245.44
+        },
+        {
+          "word": "conquest,",
+          "start": 245.44,
+          "end": 245.88
+        },
+        {
+          "word": "like",
+          "start": 246.06,
+          "end": 246.24
+        },
+        {
+          "word": "the",
+          "start": 246.24,
+          "end": 246.36
+        },
+        {
+          "word": "ones",
+          "start": 246.36,
+          "end": 246.5
+        },
+        {
+          "word": "waged",
+          "start": 246.5,
+          "end": 246.84
+        },
+        {
+          "word": "by",
+          "start": 246.84,
+          "end": 247.0
+        },
+        {
+          "word": "the",
+          "start": 247.0,
+          "end": 247.08
+        },
+        {
+          "word": "Nazis",
+          "start": 247.08,
+          "end": 247.36
+        },
+        {
+          "word": "and",
+          "start": 247.36,
+          "end": 247.5
+        },
+        {
+          "word": "the",
+          "start": 247.5,
+          "end": 247.58
+        },
+        {
+          "word": "Japanese.",
+          "start": 247.58,
+          "end": 247.94
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 248.44,
+      "end": 253.64,
+      "textEn": "It also served as a forum in which the international community could weigh in on disputes and help resolve them.",
+      "textKo": "또한 국제 사회가 분쟁에 대해 의견을 표명하고 해결을 도울 수 있는 포럼의 역할도 했습니다.",
+      "words": [
+        {
+          "word": "It",
+          "start": 248.44,
+          "end": 248.88
+        },
+        {
+          "word": "also",
+          "start": 248.88,
+          "end": 249.14
+        },
+        {
+          "word": "served",
+          "start": 249.14,
+          "end": 249.44
+        },
+        {
+          "word": "as",
+          "start": 249.44,
+          "end": 249.56
+        },
+        {
+          "word": "a",
+          "start": 249.56,
+          "end": 249.64
+        },
+        {
+          "word": "forum",
+          "start": 249.64,
+          "end": 249.96
+        },
+        {
+          "word": "in",
+          "start": 249.96,
+          "end": 250.16
+        },
+        {
+          "word": "which",
+          "start": 250.16,
+          "end": 250.28
+        },
+        {
+          "word": "the",
+          "start": 250.28,
+          "end": 250.42
+        },
+        {
+          "word": "international",
+          "start": 250.42,
+          "end": 250.82
+        },
+        {
+          "word": "community",
+          "start": 250.82,
+          "end": 251.26
+        },
+        {
+          "word": "could",
+          "start": 251.26,
+          "end": 251.52
+        },
+        {
+          "word": "weigh",
+          "start": 251.52,
+          "end": 251.74
+        },
+        {
+          "word": "in",
+          "start": 251.74,
+          "end": 251.96
+        },
+        {
+          "word": "on",
+          "start": 251.96,
+          "end": 252.08
+        },
+        {
+          "word": "disputes",
+          "start": 252.08,
+          "end": 252.54
+        },
+        {
+          "word": "and",
+          "start": 252.54,
+          "end": 253.0
+        },
+        {
+          "word": "help",
+          "start": 253.0,
+          "end": 253.14
+        },
+        {
+          "word": "resolve",
+          "start": 253.14,
+          "end": 253.44
+        },
+        {
+          "word": "them.",
+          "start": 253.44,
+          "end": 253.64
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 253.64,
+      "end": 260.04,
+      "textEn": "This way, the Americans hoped, great powers could resolve their differences through compromise and law rather than war.",
+      "textKo": "이러한 방식으로, 미국인들은 강대국들이 전쟁이 아닌 타협과 법을 통해 차이를 해결할 수 있기를 희망했습니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 253.64,
+          "end": 254.44
+        },
+        {
+          "word": "way,",
+          "start": 254.44,
+          "end": 254.64
+        },
+        {
+          "word": "the",
+          "start": 254.7,
+          "end": 254.8
+        },
+        {
+          "word": "Americans",
+          "start": 254.8,
+          "end": 255.14
+        },
+        {
+          "word": "hoped,",
+          "start": 255.14,
+          "end": 255.48
+        },
+        {
+          "word": "great",
+          "start": 255.8,
+          "end": 256.24
+        },
+        {
+          "word": "powers",
+          "start": 256.24,
+          "end": 256.64
+        },
+        {
+          "word": "could",
+          "start": 256.64,
+          "end": 256.86
+        },
+        {
+          "word": "resolve",
+          "start": 256.86,
+          "end": 257.18
+        },
+        {
+          "word": "their",
+          "start": 257.18,
+          "end": 257.34
+        },
+        {
+          "word": "differences",
+          "start": 257.34,
+          "end": 257.72
+        },
+        {
+          "word": "through",
+          "start": 257.72,
+          "end": 257.94
+        },
+        {
+          "word": "compromise",
+          "start": 257.94,
+          "end": 258.42
+        },
+        {
+          "word": "and",
+          "start": 258.42,
+          "end": 258.76
+        },
+        {
+          "word": "law",
+          "start": 258.76,
+          "end": 259.1
+        },
+        {
+          "word": "rather",
+          "start": 259.1,
+          "end": 259.58
+        },
+        {
+          "word": "than",
+          "start": 259.58,
+          "end": 259.82
+        },
+        {
+          "word": "war.",
+          "start": 259.82,
+          "end": 260.04
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 261.56,
+      "end": 265.78,
+      "textEn": "But while the UN is the most famous of the post-war institutions, it isn't the only one.",
+      "textKo": "그러나 유엔이 전후 기관 중 가장 유명하지만, 유일한 것은 아닙니다.",
+      "words": [
+        {
+          "word": "But",
+          "start": 261.56,
+          "end": 262.12
+        },
+        {
+          "word": "while",
+          "start": 262.12,
+          "end": 262.26
+        },
+        {
+          "word": "the",
+          "start": 262.26,
+          "end": 262.4
+        },
+        {
+          "word": "UN",
+          "start": 262.4,
+          "end": 262.62
+        },
+        {
+          "word": "is",
+          "start": 262.62,
+          "end": 262.84
+        },
+        {
+          "word": "the",
+          "start": 262.84,
+          "end": 262.94
+        },
+        {
+          "word": "most",
+          "start": 262.94,
+          "end": 263.1
+        },
+        {
+          "word": "famous",
+          "start": 263.1,
+          "end": 263.46
+        },
+        {
+          "word": "of",
+          "start": 263.46,
+          "end": 263.6
+        },
+        {
+          "word": "the",
+          "start": 263.6,
+          "end": 263.68
+        },
+        {
+          "word": "post",
+          "start": 263.68,
+          "end": 263.9
+        },
+        {
+          "word": "-war",
+          "start": 263.9,
+          "end": 264.04
+        },
+        {
+          "word": "institutions,",
+          "start": 264.04,
+          "end": 264.54
+        },
+        {
+          "word": "it",
+          "start": 264.84,
+          "end": 264.96
+        },
+        {
+          "word": "isn't",
+          "start": 264.96,
+          "end": 265.18
+        },
+        {
+          "word": "the",
+          "start": 265.18,
+          "end": 265.3
+        },
+        {
+          "word": "only",
+          "start": 265.3,
+          "end": 265.52
+        },
+        {
+          "word": "one.",
+          "start": 265.52,
+          "end": 265.78
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 266.9,
+      "end": 272.44,
+      "textEn": "730 delegates from all 44 allied nations came together in a small vacation haven in New Hampshire.",
+      "textKo": "44개 연합국 모두에서 730명의 대표가 뉴햄프셔의 작은 휴양지에 모였습니다.",
+      "words": [
+        {
+          "word": "730",
+          "start": 266.9,
+          "end": 267.46
+        },
+        {
+          "word": "delegates",
+          "start": 267.46,
+          "end": 267.86
+        },
+        {
+          "word": "from",
+          "start": 267.86,
+          "end": 268.22
+        },
+        {
+          "word": "all",
+          "start": 268.22,
+          "end": 268.54
+        },
+        {
+          "word": "44",
+          "start": 268.54,
+          "end": 269.04
+        },
+        {
+          "word": "allied",
+          "start": 269.04,
+          "end": 269.44
+        },
+        {
+          "word": "nations",
+          "start": 269.44,
+          "end": 269.92
+        },
+        {
+          "word": "came",
+          "start": 269.92,
+          "end": 270.2
+        },
+        {
+          "word": "together",
+          "start": 270.2,
+          "end": 270.56
+        },
+        {
+          "word": "in",
+          "start": 270.56,
+          "end": 270.74
+        },
+        {
+          "word": "a",
+          "start": 270.74,
+          "end": 270.84
+        },
+        {
+          "word": "small",
+          "start": 270.84,
+          "end": 271.12
+        },
+        {
+          "word": "vacation",
+          "start": 271.12,
+          "end": 271.56
+        },
+        {
+          "word": "haven",
+          "start": 271.56,
+          "end": 271.82
+        },
+        {
+          "word": "in",
+          "start": 271.82,
+          "end": 271.98
+        },
+        {
+          "word": "New",
+          "start": 271.98,
+          "end": 272.1
+        },
+        {
+          "word": "Hampshire.",
+          "start": 272.1,
+          "end": 272.44
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 272.74,
+      "end": 278.0,
+      "textEn": "Their goal? To establish a global financial system that would prevent another Great Depression and World War.",
+      "textKo": "그들의 목표는? 또 다른 대공황과 세계대전을 방지할 글로벌 금융 시스템을 수립하는 것이었습니다.",
+      "words": [
+        {
+          "word": "Their",
+          "start": 272.74,
+          "end": 273.16
+        },
+        {
+          "word": "goal?",
+          "start": 273.16,
+          "end": 273.4
+        },
+        {
+          "word": "To",
+          "start": 273.54,
+          "end": 273.94
+        },
+        {
+          "word": "establish",
+          "start": 273.94,
+          "end": 274.32
+        },
+        {
+          "word": "a",
+          "start": 274.32,
+          "end": 274.5
+        },
+        {
+          "word": "global",
+          "start": 274.5,
+          "end": 274.78
+        },
+        {
+          "word": "financial",
+          "start": 274.78,
+          "end": 275.16
+        },
+        {
+          "word": "system",
+          "start": 275.16,
+          "end": 275.56
+        },
+        {
+          "word": "that",
+          "start": 275.56,
+          "end": 275.74
+        },
+        {
+          "word": "would",
+          "start": 275.74,
+          "end": 275.86
+        },
+        {
+          "word": "prevent",
+          "start": 275.86,
+          "end": 276.14
+        },
+        {
+          "word": "another",
+          "start": 276.14,
+          "end": 276.58
+        },
+        {
+          "word": "Great",
+          "start": 276.58,
+          "end": 276.8
+        },
+        {
+          "word": "Depression",
+          "start": 276.8,
+          "end": 277.24
+        },
+        {
+          "word": "and",
+          "start": 277.24,
+          "end": 277.5
+        },
+        {
+          "word": "World",
+          "start": 277.5,
+          "end": 277.72
+        },
+        {
+          "word": "War.",
+          "start": 277.72,
+          "end": 278.0
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 279.94,
+      "end": 288.48,
+      "textEn": "The resulting agreement, called the Bretton Woods Agreement, ultimately became the backbone of the global financial system, resulting in the World Bank and the International Monetary Fund.",
+      "textKo": "그 결과로 나온 협정, 브레턴우즈 협정은 궁극적으로 세계 금융 시스템의 근간이 되었고, 세계은행과 국제통화기금을 탄생시켰습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 279.94,
+          "end": 280.46
+        },
+        {
+          "word": "resulting",
+          "start": 280.46,
+          "end": 280.72
+        },
+        {
+          "word": "agreement,",
+          "start": 280.72,
+          "end": 281.14
+        },
+        {
+          "word": "called",
+          "start": 281.34,
+          "end": 281.46
+        },
+        {
+          "word": "the",
+          "start": 281.46,
+          "end": 281.56
+        },
+        {
+          "word": "Bretton",
+          "start": 281.56,
+          "end": 281.82
+        },
+        {
+          "word": "Woods",
+          "start": 281.82,
+          "end": 282.02
+        },
+        {
+          "word": "Agreement,",
+          "start": 282.02,
+          "end": 282.34
+        },
+        {
+          "word": "ultimately",
+          "start": 282.76,
+          "end": 283.14
+        },
+        {
+          "word": "became",
+          "start": 283.14,
+          "end": 283.42
+        },
+        {
+          "word": "the",
+          "start": 283.42,
+          "end": 283.54
+        },
+        {
+          "word": "backbone",
+          "start": 283.54,
+          "end": 283.88
+        },
+        {
+          "word": "of",
+          "start": 283.88,
+          "end": 284.06
+        },
+        {
+          "word": "the",
+          "start": 284.06,
+          "end": 284.16
+        },
+        {
+          "word": "global",
+          "start": 284.16,
+          "end": 284.38
+        },
+        {
+          "word": "financial",
+          "start": 284.38,
+          "end": 284.76
+        },
+        {
+          "word": "system,",
+          "start": 284.76,
+          "end": 285.22
+        },
+        {
+          "word": "resulting",
+          "start": 285.6,
+          "end": 286.24
+        },
+        {
+          "word": "in",
+          "start": 286.24,
+          "end": 286.42
+        },
+        {
+          "word": "the",
+          "start": 286.42,
+          "end": 286.5
+        },
+        {
+          "word": "World",
+          "start": 286.5,
+          "end": 286.7
+        },
+        {
+          "word": "Bank",
+          "start": 286.7,
+          "end": 287.0
+        },
+        {
+          "word": "and",
+          "start": 287.0,
+          "end": 287.26
+        },
+        {
+          "word": "the",
+          "start": 287.26,
+          "end": 287.34
+        },
+        {
+          "word": "International",
+          "start": 287.34,
+          "end": 287.66
+        },
+        {
+          "word": "Monetary",
+          "start": 287.66,
+          "end": 288.22
+        },
+        {
+          "word": "Fund.",
+          "start": 288.22,
+          "end": 288.48
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 292.32,
+      "end": 297.18,
+      "textEn": "By creating these institutions, the United States committed itself to being deeply involved in the world's problems.",
+      "textKo": "이러한 기관들을 창설함으로써, 미국은 세계 문제에 깊이 관여하겠다는 것을 스스로 다짐했습니다.",
+      "words": [
+        {
+          "word": "By",
+          "start": 292.32,
+          "end": 292.84
+        },
+        {
+          "word": "creating",
+          "start": 292.84,
+          "end": 293.12
+        },
+        {
+          "word": "these",
+          "start": 293.12,
+          "end": 293.3
+        },
+        {
+          "word": "institutions,",
+          "start": 293.3,
+          "end": 293.8
+        },
+        {
+          "word": "the",
+          "start": 294.1,
+          "end": 294.12
+        },
+        {
+          "word": "United",
+          "start": 294.12,
+          "end": 294.28
+        },
+        {
+          "word": "States",
+          "start": 294.28,
+          "end": 294.54
+        },
+        {
+          "word": "committed",
+          "start": 294.54,
+          "end": 294.9
+        },
+        {
+          "word": "itself",
+          "start": 294.9,
+          "end": 295.24
+        },
+        {
+          "word": "to",
+          "start": 295.24,
+          "end": 295.44
+        },
+        {
+          "word": "being",
+          "start": 295.44,
+          "end": 295.62
+        },
+        {
+          "word": "deeply",
+          "start": 295.62,
+          "end": 296.0
+        },
+        {
+          "word": "involved",
+          "start": 296.0,
+          "end": 296.32
+        },
+        {
+          "word": "in",
+          "start": 296.32,
+          "end": 296.5
+        },
+        {
+          "word": "the",
+          "start": 296.5,
+          "end": 296.56
+        },
+        {
+          "word": "world's",
+          "start": 296.56,
+          "end": 296.82
+        },
+        {
+          "word": "problems.",
+          "start": 296.82,
+          "end": 297.18
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 298.34,
+      "end": 302.84,
+      "textEn": "The issue, though, is that the world's second largest power, the Soviet Union, saw things differently.",
+      "textKo": "그러나 문제는, 세계 제2의 강국인 소련이 사태를 다르게 보았다는 것입니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 298.34,
+          "end": 298.86
+        },
+        {
+          "word": "issue,",
+          "start": 298.86,
+          "end": 299.14
+        },
+        {
+          "word": "though,",
+          "start": 299.24,
+          "end": 299.34
+        },
+        {
+          "word": "is",
+          "start": 299.5,
+          "end": 299.58
+        },
+        {
+          "word": "that",
+          "start": 299.58,
+          "end": 299.68
+        },
+        {
+          "word": "the",
+          "start": 299.68,
+          "end": 299.78
+        },
+        {
+          "word": "world's",
+          "start": 299.78,
+          "end": 300.12
+        },
+        {
+          "word": "second",
+          "start": 300.12,
+          "end": 300.32
+        },
+        {
+          "word": "largest",
+          "start": 300.32,
+          "end": 300.58
+        },
+        {
+          "word": "power,",
+          "start": 300.58,
+          "end": 300.96
+        },
+        {
+          "word": "the",
+          "start": 301.14,
+          "end": 301.26
+        },
+        {
+          "word": "Soviet",
+          "start": 301.26,
+          "end": 301.52
+        },
+        {
+          "word": "Union,",
+          "start": 301.52,
+          "end": 301.88
+        },
+        {
+          "word": "saw",
+          "start": 302.04,
+          "end": 302.28
+        },
+        {
+          "word": "things",
+          "start": 302.28,
+          "end": 302.46
+        },
+        {
+          "word": "differently.",
+          "start": 302.46,
+          "end": 302.84
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 302.84,
+      "end": 309.44,
+      "textEn": "World War II had made allies out of the Democratic West and Communist East in the fight against Hitler, but that couldn't last.",
+      "textKo": "제2차 세계대전은 히틀러와의 싸움에서 민주주의 서방과 공산주의 동방을 동맹으로 만들었지만, 그것이 지속될 수는 없었습니다.",
+      "words": [
+        {
+          "word": "World",
+          "start": 302.84,
+          "end": 303.94
+        },
+        {
+          "word": "War",
+          "start": 303.94,
+          "end": 304.12
+        },
+        {
+          "word": "II",
+          "start": 304.12,
+          "end": 304.28
+        },
+        {
+          "word": "had",
+          "start": 304.28,
+          "end": 304.5
+        },
+        {
+          "word": "made",
+          "start": 304.5,
+          "end": 304.64
+        },
+        {
+          "word": "allies",
+          "start": 304.64,
+          "end": 305.08
+        },
+        {
+          "word": "out",
+          "start": 305.08,
+          "end": 305.26
+        },
+        {
+          "word": "of",
+          "start": 305.26,
+          "end": 305.34
+        },
+        {
+          "word": "the",
+          "start": 305.34,
+          "end": 305.44
+        },
+        {
+          "word": "Democratic",
+          "start": 305.44,
+          "end": 305.8
+        },
+        {
+          "word": "West",
+          "start": 305.8,
+          "end": 306.18
+        },
+        {
+          "word": "and",
+          "start": 306.18,
+          "end": 306.44
+        },
+        {
+          "word": "Communist",
+          "start": 306.44,
+          "end": 306.82
+        },
+        {
+          "word": "East",
+          "start": 306.82,
+          "end": 307.2
+        },
+        {
+          "word": "in",
+          "start": 307.2,
+          "end": 307.4
+        },
+        {
+          "word": "the",
+          "start": 307.4,
+          "end": 307.48
+        },
+        {
+          "word": "fight",
+          "start": 307.48,
+          "end": 307.66
+        },
+        {
+          "word": "against",
+          "start": 307.66,
+          "end": 307.88
+        },
+        {
+          "word": "Hitler,",
+          "start": 307.88,
+          "end": 308.16
+        },
+        {
+          "word": "but",
+          "start": 308.36,
+          "end": 308.64
+        },
+        {
+          "word": "that",
+          "start": 308.64,
+          "end": 308.76
+        },
+        {
+          "word": "couldn't",
+          "start": 308.76,
+          "end": 309.02
+        },
+        {
+          "word": "last.",
+          "start": 309.02,
+          "end": 309.44
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 309.74,
+      "end": 316.24,
+      "textEn": "The United States saw Soviet expansion in Eastern Europe and elsewhere as a direct threat to its vision of a free-trading democratic world.",
+      "textKo": "미국은 동유럽과 기타 지역에서의 소련 확장을 자유 무역 민주주의 세계에 대한 비전의 직접적인 위협으로 보았습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 309.74,
+          "end": 310.16
+        },
+        {
+          "word": "United",
+          "start": 310.16,
+          "end": 310.32
+        },
+        {
+          "word": "States",
+          "start": 310.32,
+          "end": 310.6
+        },
+        {
+          "word": "saw",
+          "start": 310.6,
+          "end": 310.8
+        },
+        {
+          "word": "Soviet",
+          "start": 310.8,
+          "end": 311.12
+        },
+        {
+          "word": "expansion",
+          "start": 311.12,
+          "end": 311.58
+        },
+        {
+          "word": "in",
+          "start": 311.58,
+          "end": 311.84
+        },
+        {
+          "word": "Eastern",
+          "start": 311.84,
+          "end": 312.0
+        },
+        {
+          "word": "Europe",
+          "start": 312.0,
+          "end": 312.36
+        },
+        {
+          "word": "and",
+          "start": 312.36,
+          "end": 312.62
+        },
+        {
+          "word": "elsewhere",
+          "start": 312.62,
+          "end": 312.92
+        },
+        {
+          "word": "as",
+          "start": 312.92,
+          "end": 313.26
+        },
+        {
+          "word": "a",
+          "start": 313.26,
+          "end": 313.34
+        },
+        {
+          "word": "direct",
+          "start": 313.34,
+          "end": 313.64
+        },
+        {
+          "word": "threat",
+          "start": 313.64,
+          "end": 313.92
+        },
+        {
+          "word": "to",
+          "start": 313.92,
+          "end": 314.1
+        },
+        {
+          "word": "its",
+          "start": 314.1,
+          "end": 314.22
+        },
+        {
+          "word": "vision",
+          "start": 314.22,
+          "end": 314.46
+        },
+        {
+          "word": "of",
+          "start": 314.46,
+          "end": 314.6
+        },
+        {
+          "word": "a",
+          "start": 314.6,
+          "end": 314.7
+        },
+        {
+          "word": "free",
+          "start": 314.7,
+          "end": 314.92
+        },
+        {
+          "word": "-trading",
+          "start": 314.92,
+          "end": 315.4
+        },
+        {
+          "word": "democratic",
+          "start": 315.4,
+          "end": 315.84
+        },
+        {
+          "word": "world.",
+          "start": 315.84,
+          "end": 316.24
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 317.24,
+      "end": 326.34,
+      "textEn": "To a substantial degree, in one form or another, socialism has spread the shadow of human regimentation over most of the nations of the earth.",
+      "textKo": "상당한 정도로, 이런저런 형태로, 사회주의는 지구상의 대부분의 국가들 위에 인간 통제의 그림자를 드리웠습니다.",
+      "words": [
+        {
+          "word": "To",
+          "start": 317.24,
+          "end": 317.8
+        },
+        {
+          "word": "a",
+          "start": 317.8,
+          "end": 317.94
+        },
+        {
+          "word": "substantial",
+          "start": 317.94,
+          "end": 318.4
+        },
+        {
+          "word": "degree,",
+          "start": 318.4,
+          "end": 318.88
+        },
+        {
+          "word": "in",
+          "start": 319.2,
+          "end": 319.48
+        },
+        {
+          "word": "one",
+          "start": 319.48,
+          "end": 319.72
+        },
+        {
+          "word": "form",
+          "start": 319.72,
+          "end": 320.0
+        },
+        {
+          "word": "or",
+          "start": 320.0,
+          "end": 320.14
+        },
+        {
+          "word": "another,",
+          "start": 320.14,
+          "end": 320.4
+        },
+        {
+          "word": "socialism",
+          "start": 321.32,
+          "end": 321.82
+        },
+        {
+          "word": "has",
+          "start": 321.82,
+          "end": 322.2
+        },
+        {
+          "word": "spread",
+          "start": 322.2,
+          "end": 322.48
+        },
+        {
+          "word": "the",
+          "start": 322.48,
+          "end": 322.7
+        },
+        {
+          "word": "shadow",
+          "start": 322.7,
+          "end": 323.0
+        },
+        {
+          "word": "of",
+          "start": 323.0,
+          "end": 323.26
+        },
+        {
+          "word": "human",
+          "start": 323.26,
+          "end": 323.5
+        },
+        {
+          "word": "regimentation",
+          "start": 323.5,
+          "end": 324.24
+        },
+        {
+          "word": "over",
+          "start": 324.24,
+          "end": 325.02
+        },
+        {
+          "word": "most",
+          "start": 325.02,
+          "end": 325.28
+        },
+        {
+          "word": "of",
+          "start": 325.28,
+          "end": 325.44
+        },
+        {
+          "word": "the",
+          "start": 325.44,
+          "end": 325.52
+        },
+        {
+          "word": "nations",
+          "start": 325.52,
+          "end": 325.82
+        },
+        {
+          "word": "of",
+          "start": 325.82,
+          "end": 326.02
+        },
+        {
+          "word": "the",
+          "start": 326.02,
+          "end": 326.1
+        },
+        {
+          "word": "earth.",
+          "start": 326.1,
+          "end": 326.34
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 327.1,
+      "end": 330.6,
+      "textEn": "And the shadow is encroaching upon our own liberty.",
+      "textKo": "그리고 그 그림자는 우리 자신의 자유를 침식하고 있습니다.",
+      "words": [
+        {
+          "word": "And",
+          "start": 327.1,
+          "end": 327.66
+        },
+        {
+          "word": "the",
+          "start": 327.66,
+          "end": 328.22
+        },
+        {
+          "word": "shadow",
+          "start": 328.22,
+          "end": 328.56
+        },
+        {
+          "word": "is",
+          "start": 328.56,
+          "end": 328.84
+        },
+        {
+          "word": "encroaching",
+          "start": 328.84,
+          "end": 329.34
+        },
+        {
+          "word": "upon",
+          "start": 329.34,
+          "end": 329.64
+        },
+        {
+          "word": "our",
+          "start": 329.64,
+          "end": 330.0
+        },
+        {
+          "word": "own",
+          "start": 330.0,
+          "end": 330.26
+        },
+        {
+          "word": "liberty.",
+          "start": 330.26,
+          "end": 330.6
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "start": 331.5,
+      "end": 342.14,
+      "textEn": "Fearful of Soviet intentions towards Western Europe, the U. S. and other European nations created the North Atlantic Treaty Organization, a military alliance meant to stop Russia from invading other countries in Europe.",
+      "textKo": "서유럽에 대한 소련의 의도를 두려워하여, 미국과 다른 유럽 국가들은 러시아가 유럽의 다른 나라들을 침략하는 것을 막기 위한 군사 동맹인 북대서양 조약기구를 창설했습니다.",
+      "words": [
+        {
+          "word": "Fearful",
+          "start": 331.5,
+          "end": 332.02
+        },
+        {
+          "word": "of",
+          "start": 332.02,
+          "end": 332.14
+        },
+        {
+          "word": "Soviet",
+          "start": 332.14,
+          "end": 332.44
+        },
+        {
+          "word": "intentions",
+          "start": 332.44,
+          "end": 332.86
+        },
+        {
+          "word": "towards",
+          "start": 332.86,
+          "end": 333.24
+        },
+        {
+          "word": "Western",
+          "start": 333.24,
+          "end": 333.54
+        },
+        {
+          "word": "Europe,",
+          "start": 333.54,
+          "end": 333.8
+        },
+        {
+          "word": "the",
+          "start": 334.14,
+          "end": 334.28
+        },
+        {
+          "word": "U",
+          "start": 334.28,
+          "end": 334.44
+        },
+        {
+          "word": ".S.",
+          "start": 334.44,
+          "end": 334.56
+        },
+        {
+          "word": "and",
+          "start": 334.62,
+          "end": 334.68
+        },
+        {
+          "word": "other",
+          "start": 334.68,
+          "end": 334.98
+        },
+        {
+          "word": "European",
+          "start": 334.98,
+          "end": 335.42
+        },
+        {
+          "word": "nations",
+          "start": 335.42,
+          "end": 335.82
+        },
+        {
+          "word": "created",
+          "start": 335.82,
+          "end": 336.22
+        },
+        {
+          "word": "the",
+          "start": 336.22,
+          "end": 336.4
+        },
+        {
+          "word": "North",
+          "start": 336.4,
+          "end": 336.6
+        },
+        {
+          "word": "Atlantic",
+          "start": 336.6,
+          "end": 336.98
+        },
+        {
+          "word": "Treaty",
+          "start": 336.98,
+          "end": 337.2
+        },
+        {
+          "word": "Organization,",
+          "start": 337.2,
+          "end": 337.84
+        },
+        {
+          "word": "a",
+          "start": 338.1,
+          "end": 338.52
+        },
+        {
+          "word": "military",
+          "start": 338.52,
+          "end": 338.84
+        },
+        {
+          "word": "alliance",
+          "start": 338.84,
+          "end": 339.3
+        },
+        {
+          "word": "meant",
+          "start": 339.3,
+          "end": 339.52
+        },
+        {
+          "word": "to",
+          "start": 339.52,
+          "end": 339.66
+        },
+        {
+          "word": "stop",
+          "start": 339.66,
+          "end": 339.92
+        },
+        {
+          "word": "Russia",
+          "start": 339.92,
+          "end": 340.32
+        },
+        {
+          "word": "from",
+          "start": 340.32,
+          "end": 340.58
+        },
+        {
+          "word": "invading",
+          "start": 340.58,
+          "end": 341.0
+        },
+        {
+          "word": "other",
+          "start": 341.0,
+          "end": 341.36
+        },
+        {
+          "word": "countries",
+          "start": 341.36,
+          "end": 341.74
+        },
+        {
+          "word": "in",
+          "start": 341.74,
+          "end": 341.88
+        },
+        {
+          "word": "Europe.",
+          "start": 341.88,
+          "end": 342.14
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "start": 345.88,
+      "end": 352.6,
+      "textEn": "Globally, the U. S. committed to a strategy called containment, so-called because it was aimed at containing the spread of communism everywhere on the globe.",
+      "textKo": "전 세계적으로, 미국은 봉쇄라는 전략에 전념했는데, 이것은 전 세계에서 공산주의의 확산을 봉쇄하는 것을 목표로 했기 때문에 그렇게 불렸습니다.",
+      "words": [
+        {
+          "word": "Globally,",
+          "start": 345.88,
+          "end": 346.4
+        },
+        {
+          "word": "the",
+          "start": 346.56,
+          "end": 346.6
+        },
+        {
+          "word": "U",
+          "start": 346.6,
+          "end": 346.72
+        },
+        {
+          "word": ".S.",
+          "start": 346.72,
+          "end": 346.84
+        },
+        {
+          "word": "committed",
+          "start": 346.94,
+          "end": 347.12
+        },
+        {
+          "word": "to",
+          "start": 347.12,
+          "end": 347.28
+        },
+        {
+          "word": "a",
+          "start": 347.28,
+          "end": 347.32
+        },
+        {
+          "word": "strategy",
+          "start": 347.32,
+          "end": 347.62
+        },
+        {
+          "word": "called",
+          "start": 347.62,
+          "end": 347.86
+        },
+        {
+          "word": "containment,",
+          "start": 347.86,
+          "end": 348.34
+        },
+        {
+          "word": "so",
+          "start": 348.78,
+          "end": 349.06
+        },
+        {
+          "word": "-called",
+          "start": 349.06,
+          "end": 349.34
+        },
+        {
+          "word": "because",
+          "start": 349.34,
+          "end": 349.56
+        },
+        {
+          "word": "it",
+          "start": 349.56,
+          "end": 349.7
+        },
+        {
+          "word": "was",
+          "start": 349.7,
+          "end": 349.78
+        },
+        {
+          "word": "aimed",
+          "start": 349.78,
+          "end": 350.0
+        },
+        {
+          "word": "at",
+          "start": 350.0,
+          "end": 350.14
+        },
+        {
+          "word": "containing",
+          "start": 350.14,
+          "end": 350.62
+        },
+        {
+          "word": "the",
+          "start": 350.62,
+          "end": 350.84
+        },
+        {
+          "word": "spread",
+          "start": 350.84,
+          "end": 351.0
+        },
+        {
+          "word": "of",
+          "start": 351.0,
+          "end": 351.12
+        },
+        {
+          "word": "communism",
+          "start": 351.12,
+          "end": 351.52
+        },
+        {
+          "word": "everywhere",
+          "start": 351.52,
+          "end": 352.08
+        },
+        {
+          "word": "on",
+          "start": 352.08,
+          "end": 352.26
+        },
+        {
+          "word": "the",
+          "start": 352.26,
+          "end": 352.34
+        },
+        {
+          "word": "globe.",
+          "start": 352.34,
+          "end": 352.6
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "start": 353.52,
+      "end": 357.86,
+      "textEn": "This new global struggle meant that the U. S. had to exert influence everywhere, all the time.",
+      "textKo": "이 새로운 세계적 투쟁은 미국이 항상, 모든 곳에서 영향력을 행사해야 한다는 것을 의미했습니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 353.52,
+          "end": 354.04
+        },
+        {
+          "word": "new",
+          "start": 354.04,
+          "end": 354.18
+        },
+        {
+          "word": "global",
+          "start": 354.18,
+          "end": 354.46
+        },
+        {
+          "word": "struggle",
+          "start": 354.46,
+          "end": 354.74
+        },
+        {
+          "word": "meant",
+          "start": 354.74,
+          "end": 355.02
+        },
+        {
+          "word": "that",
+          "start": 355.02,
+          "end": 355.2
+        },
+        {
+          "word": "the",
+          "start": 355.2,
+          "end": 355.24
+        },
+        {
+          "word": "U",
+          "start": 355.24,
+          "end": 355.4
+        },
+        {
+          "word": ".S.",
+          "start": 355.4,
+          "end": 355.52
+        },
+        {
+          "word": "had",
+          "start": 355.64,
+          "end": 355.66
+        },
+        {
+          "word": "to",
+          "start": 355.66,
+          "end": 355.8
+        },
+        {
+          "word": "exert",
+          "start": 355.8,
+          "end": 356.08
+        },
+        {
+          "word": "influence",
+          "start": 356.08,
+          "end": 356.58
+        },
+        {
+          "word": "everywhere,",
+          "start": 356.58,
+          "end": 356.98
+        },
+        {
+          "word": "all",
+          "start": 357.24,
+          "end": 357.44
+        },
+        {
+          "word": "the",
+          "start": 357.44,
+          "end": 357.56
+        },
+        {
+          "word": "time.",
+          "start": 357.56,
+          "end": 357.86
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "start": 358.48,
+      "end": 362.94,
+      "textEn": "Instead of disbanding the massive military machine created for World War II, the wheels mostly kept turning.",
+      "textKo": "제2차 세계대전을 위해 만들어진 거대한 군사 기계를 해체하는 대신, 바퀴는 대부분 계속 돌아갔습니다.",
+      "words": [
+        {
+          "word": "Instead",
+          "start": 358.48,
+          "end": 358.68
+        },
+        {
+          "word": "of",
+          "start": 358.68,
+          "end": 358.82
+        },
+        {
+          "word": "disbanding",
+          "start": 358.82,
+          "end": 359.38
+        },
+        {
+          "word": "the",
+          "start": 359.38,
+          "end": 359.48
+        },
+        {
+          "word": "massive",
+          "start": 359.48,
+          "end": 359.72
+        },
+        {
+          "word": "military",
+          "start": 359.72,
+          "end": 360.02
+        },
+        {
+          "word": "machine",
+          "start": 360.02,
+          "end": 360.4
+        },
+        {
+          "word": "created",
+          "start": 360.4,
+          "end": 360.7
+        },
+        {
+          "word": "for",
+          "start": 360.7,
+          "end": 360.86
+        },
+        {
+          "word": "World",
+          "start": 360.86,
+          "end": 361.02
+        },
+        {
+          "word": "War",
+          "start": 361.02,
+          "end": 361.18
+        },
+        {
+          "word": "II,",
+          "start": 361.18,
+          "end": 361.36
+        },
+        {
+          "word": "the",
+          "start": 361.6,
+          "end": 361.96
+        },
+        {
+          "word": "wheels",
+          "start": 361.96,
+          "end": 362.18
+        },
+        {
+          "word": "mostly",
+          "start": 362.18,
+          "end": 362.5
+        },
+        {
+          "word": "kept",
+          "start": 362.5,
+          "end": 362.68
+        },
+        {
+          "word": "turning.",
+          "start": 362.68,
+          "end": 362.94
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "start": 366.2,
+      "end": 378.08,
+      "textEn": "This had two main results. First, the U. S. was pulled into unlikely alliances with countries like Saudi Arabia, Israel, and South Korea, seeing each of them as bulwarks against communist influence in their region.",
+      "textKo": "이것은 두 가지 주요 결과를 가져왔습니다. 첫째, 미국은 사우디아라비아, 이스라엘, 한국 같은 나라들과 예상치 못한 동맹에 끌려 들어갔으며, 각각을 자기 지역에서 공산주의 영향력에 대한 보루로 보았습니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 366.2,
+          "end": 366.72
+        },
+        {
+          "word": "had",
+          "start": 366.72,
+          "end": 366.88
+        },
+        {
+          "word": "two",
+          "start": 366.88,
+          "end": 367.2
+        },
+        {
+          "word": "main",
+          "start": 367.2,
+          "end": 367.48
+        },
+        {
+          "word": "results.",
+          "start": 367.48,
+          "end": 367.88
+        },
+        {
+          "word": "First,",
+          "start": 368.2,
+          "end": 368.62
+        },
+        {
+          "word": "the",
+          "start": 369.02,
+          "end": 369.14
+        },
+        {
+          "word": "U",
+          "start": 369.14,
+          "end": 369.26
+        },
+        {
+          "word": ".S.",
+          "start": 369.26,
+          "end": 369.36
+        },
+        {
+          "word": "was",
+          "start": 369.5,
+          "end": 369.5
+        },
+        {
+          "word": "pulled",
+          "start": 369.5,
+          "end": 369.78
+        },
+        {
+          "word": "into",
+          "start": 369.78,
+          "end": 370.1
+        },
+        {
+          "word": "unlikely",
+          "start": 370.1,
+          "end": 370.74
+        },
+        {
+          "word": "alliances",
+          "start": 370.74,
+          "end": 371.3
+        },
+        {
+          "word": "with",
+          "start": 371.3,
+          "end": 371.56
+        },
+        {
+          "word": "countries",
+          "start": 371.56,
+          "end": 371.88
+        },
+        {
+          "word": "like",
+          "start": 371.88,
+          "end": 372.26
+        },
+        {
+          "word": "Saudi",
+          "start": 372.26,
+          "end": 372.78
+        },
+        {
+          "word": "Arabia,",
+          "start": 372.78,
+          "end": 373.14
+        },
+        {
+          "word": "Israel,",
+          "start": 373.4,
+          "end": 373.74
+        },
+        {
+          "word": "and",
+          "start": 373.88,
+          "end": 373.92
+        },
+        {
+          "word": "South",
+          "start": 373.92,
+          "end": 374.1
+        },
+        {
+          "word": "Korea,",
+          "start": 374.1,
+          "end": 374.48
+        },
+        {
+          "word": "seeing",
+          "start": 374.82,
+          "end": 375.46
+        },
+        {
+          "word": "each",
+          "start": 375.46,
+          "end": 375.68
+        },
+        {
+          "word": "of",
+          "start": 375.68,
+          "end": 375.8
+        },
+        {
+          "word": "them",
+          "start": 375.8,
+          "end": 375.94
+        },
+        {
+          "word": "as",
+          "start": 375.94,
+          "end": 376.06
+        },
+        {
+          "word": "bulwarks",
+          "start": 376.06,
+          "end": 376.48
+        },
+        {
+          "word": "against",
+          "start": 376.48,
+          "end": 376.74
+        },
+        {
+          "word": "communist",
+          "start": 376.74,
+          "end": 377.12
+        },
+        {
+          "word": "influence",
+          "start": 377.12,
+          "end": 377.56
+        },
+        {
+          "word": "in",
+          "start": 377.56,
+          "end": 377.72
+        },
+        {
+          "word": "their",
+          "start": 377.72,
+          "end": 377.82
+        },
+        {
+          "word": "region.",
+          "start": 377.82,
+          "end": 378.08
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "start": 379.06,
+      "end": 384.8,
+      "textEn": "Secondly, the U. S. began intervening, often secretly, in dozens of countries to contain Soviet influence.",
+      "textKo": "둘째, 미국은 소련의 영향력을 봉쇄하기 위해 종종 비밀리에 수십 개 국가에 개입하기 시작했습니다.",
+      "words": [
+        {
+          "word": "Secondly,",
+          "start": 379.06,
+          "end": 379.62
+        },
+        {
+          "word": "the",
+          "start": 380.04,
+          "end": 380.1
+        },
+        {
+          "word": "U",
+          "start": 380.1,
+          "end": 380.22
+        },
+        {
+          "word": ".S.",
+          "start": 380.22,
+          "end": 380.3
+        },
+        {
+          "word": "began",
+          "start": 380.44,
+          "end": 380.54
+        },
+        {
+          "word": "intervening,",
+          "start": 380.54,
+          "end": 381.1
+        },
+        {
+          "word": "often",
+          "start": 381.22,
+          "end": 381.46
+        },
+        {
+          "word": "secretly,",
+          "start": 381.46,
+          "end": 381.84
+        },
+        {
+          "word": "in",
+          "start": 382.22,
+          "end": 382.48
+        },
+        {
+          "word": "dozens",
+          "start": 382.48,
+          "end": 382.78
+        },
+        {
+          "word": "of",
+          "start": 382.78,
+          "end": 383.02
+        },
+        {
+          "word": "countries",
+          "start": 383.02,
+          "end": 383.34
+        },
+        {
+          "word": "to",
+          "start": 383.34,
+          "end": 383.54
+        },
+        {
+          "word": "contain",
+          "start": 383.54,
+          "end": 383.92
+        },
+        {
+          "word": "Soviet",
+          "start": 383.92,
+          "end": 384.28
+        },
+        {
+          "word": "influence.",
+          "start": 384.28,
+          "end": 384.8
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "start": 385.66,
+      "end": 388.74,
+      "textEn": "Sometimes, this meant propping up sympathetic dictators, like in Iran.",
+      "textKo": "때로는 이란에서처럼 우호적인 독재자를 지원하는 것을 의미했습니다.",
+      "words": [
+        {
+          "word": "Sometimes,",
+          "start": 385.66,
+          "end": 386.22
+        },
+        {
+          "word": "this",
+          "start": 386.34,
+          "end": 386.5
+        },
+        {
+          "word": "meant",
+          "start": 386.5,
+          "end": 386.66
+        },
+        {
+          "word": "propping",
+          "start": 386.66,
+          "end": 386.98
+        },
+        {
+          "word": "up",
+          "start": 386.98,
+          "end": 387.12
+        },
+        {
+          "word": "sympathetic",
+          "start": 387.12,
+          "end": 387.52
+        },
+        {
+          "word": "dictators,",
+          "start": 387.52,
+          "end": 388.04
+        },
+        {
+          "word": "like",
+          "start": 388.2,
+          "end": 388.34
+        },
+        {
+          "word": "in",
+          "start": 388.34,
+          "end": 388.46
+        },
+        {
+          "word": "Iran.",
+          "start": 388.46,
+          "end": 388.74
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "start": 389.32,
+      "end": 396.06,
+      "textEn": "Other times, it meant supplying rebels with arms and money, like in Afghanistan in 1979 and Nicaragua in 1985.",
+      "textKo": "다른 때에는 1979년 아프가니스탄과 1985년 니카라과에서처럼 반군에게 무기와 자금을 공급하는 것을 의미했습니다.",
+      "words": [
+        {
+          "word": "Other",
+          "start": 389.32,
+          "end": 389.66
+        },
+        {
+          "word": "times,",
+          "start": 389.66,
+          "end": 390.0
+        },
+        {
+          "word": "it",
+          "start": 390.26,
+          "end": 390.48
+        },
+        {
+          "word": "meant",
+          "start": 390.48,
+          "end": 390.64
+        },
+        {
+          "word": "supplying",
+          "start": 390.64,
+          "end": 391.0
+        },
+        {
+          "word": "rebels",
+          "start": 391.0,
+          "end": 391.38
+        },
+        {
+          "word": "with",
+          "start": 391.38,
+          "end": 391.56
+        },
+        {
+          "word": "arms",
+          "start": 391.56,
+          "end": 391.8
+        },
+        {
+          "word": "and",
+          "start": 391.8,
+          "end": 391.96
+        },
+        {
+          "word": "money,",
+          "start": 391.96,
+          "end": 392.24
+        },
+        {
+          "word": "like",
+          "start": 392.38,
+          "end": 392.52
+        },
+        {
+          "word": "in",
+          "start": 392.52,
+          "end": 392.64
+        },
+        {
+          "word": "Afghanistan",
+          "start": 392.64,
+          "end": 393.12
+        },
+        {
+          "word": "in",
+          "start": 393.12,
+          "end": 393.56
+        },
+        {
+          "word": "1979",
+          "start": 393.56,
+          "end": 394.3
+        },
+        {
+          "word": "and",
+          "start": 394.3,
+          "end": 394.7
+        },
+        {
+          "word": "Nicaragua",
+          "start": 394.7,
+          "end": 395.3
+        },
+        {
+          "word": "in",
+          "start": 395.3,
+          "end": 395.5
+        },
+        {
+          "word": "1985.",
+          "start": 395.5,
+          "end": 396.06
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "start": 397.36,
+      "end": 407.3,
+      "textEn": "Over the course of the Cold War, the U. S. intervened in hundreds of disputes around the globe, ending up with a complicated set of alliances, tensions, and relationships in basically every corner of the earth.",
+      "textKo": "냉전 기간 동안, 미국은 전 세계 수백 개의 분쟁에 개입했고, 결국 지구의 거의 모든 곳에서 복잡한 동맹, 긴장, 관계의 집합을 갖게 되었습니다.",
+      "words": [
+        {
+          "word": "Over",
+          "start": 397.36,
+          "end": 397.8
+        },
+        {
+          "word": "the",
+          "start": 397.8,
+          "end": 397.92
+        },
+        {
+          "word": "course",
+          "start": 397.92,
+          "end": 398.12
+        },
+        {
+          "word": "of",
+          "start": 398.12,
+          "end": 398.28
+        },
+        {
+          "word": "the",
+          "start": 398.28,
+          "end": 398.38
+        },
+        {
+          "word": "Cold",
+          "start": 398.38,
+          "end": 398.56
+        },
+        {
+          "word": "War,",
+          "start": 398.56,
+          "end": 398.8
+        },
+        {
+          "word": "the",
+          "start": 399.04,
+          "end": 399.32
+        },
+        {
+          "word": "U",
+          "start": 399.32,
+          "end": 399.48
+        },
+        {
+          "word": ".S.",
+          "start": 399.48,
+          "end": 399.58
+        },
+        {
+          "word": "intervened",
+          "start": 399.68,
+          "end": 399.96
+        },
+        {
+          "word": "in",
+          "start": 399.96,
+          "end": 400.08
+        },
+        {
+          "word": "hundreds",
+          "start": 400.08,
+          "end": 400.32
+        },
+        {
+          "word": "of",
+          "start": 400.32,
+          "end": 400.54
+        },
+        {
+          "word": "disputes",
+          "start": 400.54,
+          "end": 400.9
+        },
+        {
+          "word": "around",
+          "start": 400.9,
+          "end": 401.16
+        },
+        {
+          "word": "the",
+          "start": 401.16,
+          "end": 401.28
+        },
+        {
+          "word": "globe,",
+          "start": 401.28,
+          "end": 401.58
+        },
+        {
+          "word": "ending",
+          "start": 402.08,
+          "end": 402.34
+        },
+        {
+          "word": "up",
+          "start": 402.34,
+          "end": 402.5
+        },
+        {
+          "word": "with",
+          "start": 402.5,
+          "end": 402.62
+        },
+        {
+          "word": "a",
+          "start": 402.62,
+          "end": 402.72
+        },
+        {
+          "word": "complicated",
+          "start": 402.72,
+          "end": 403.2
+        },
+        {
+          "word": "set",
+          "start": 403.2,
+          "end": 403.5
+        },
+        {
+          "word": "of",
+          "start": 403.5,
+          "end": 403.62
+        },
+        {
+          "word": "alliances,",
+          "start": 403.62,
+          "end": 404.12
+        },
+        {
+          "word": "tensions,",
+          "start": 404.42,
+          "end": 404.74
+        },
+        {
+          "word": "and",
+          "start": 404.92,
+          "end": 404.98
+        },
+        {
+          "word": "relationships",
+          "start": 404.98,
+          "end": 405.5
+        },
+        {
+          "word": "in",
+          "start": 405.5,
+          "end": 405.88
+        },
+        {
+          "word": "basically",
+          "start": 405.88,
+          "end": 406.22
+        },
+        {
+          "word": "every",
+          "start": 406.22,
+          "end": 406.56
+        },
+        {
+          "word": "corner",
+          "start": 406.56,
+          "end": 406.88
+        },
+        {
+          "word": "of",
+          "start": 406.88,
+          "end": 407.02
+        },
+        {
+          "word": "the",
+          "start": 407.02,
+          "end": 407.12
+        },
+        {
+          "word": "earth.",
+          "start": 407.12,
+          "end": 407.3
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "start": 411.02,
+      "end": 417.24,
+      "textEn": "After the Berlin Wall fell, the U. S. could have withdrawn from the system, severing ties with its allies and drawing down the size of its military.",
+      "textKo": "베를린 장벽이 무너진 후, 미국은 동맹국들과의 관계를 끊고 군대 규모를 줄이며 시스템에서 철수할 수도 있었습니다.",
+      "words": [
+        {
+          "word": "After",
+          "start": 411.02,
+          "end": 411.46
+        },
+        {
+          "word": "the",
+          "start": 411.46,
+          "end": 411.58
+        },
+        {
+          "word": "Berlin",
+          "start": 411.58,
+          "end": 411.84
+        },
+        {
+          "word": "Wall",
+          "start": 411.84,
+          "end": 412.06
+        },
+        {
+          "word": "fell,",
+          "start": 412.06,
+          "end": 412.32
+        },
+        {
+          "word": "the",
+          "start": 412.6,
+          "end": 412.68
+        },
+        {
+          "word": "U",
+          "start": 412.68,
+          "end": 412.8
+        },
+        {
+          "word": ".S.",
+          "start": 412.8,
+          "end": 412.88
+        },
+        {
+          "word": "could",
+          "start": 412.98,
+          "end": 413.02
+        },
+        {
+          "word": "have",
+          "start": 413.02,
+          "end": 413.12
+        },
+        {
+          "word": "withdrawn",
+          "start": 413.12,
+          "end": 413.44
+        },
+        {
+          "word": "from",
+          "start": 413.44,
+          "end": 413.64
+        },
+        {
+          "word": "the",
+          "start": 413.64,
+          "end": 413.76
+        },
+        {
+          "word": "system,",
+          "start": 413.76,
+          "end": 414.08
+        },
+        {
+          "word": "severing",
+          "start": 414.4,
+          "end": 414.7
+        },
+        {
+          "word": "ties",
+          "start": 414.7,
+          "end": 414.88
+        },
+        {
+          "word": "with",
+          "start": 414.88,
+          "end": 415.06
+        },
+        {
+          "word": "its",
+          "start": 415.06,
+          "end": 415.22
+        },
+        {
+          "word": "allies",
+          "start": 415.22,
+          "end": 415.52
+        },
+        {
+          "word": "and",
+          "start": 415.52,
+          "end": 415.74
+        },
+        {
+          "word": "drawing",
+          "start": 415.74,
+          "end": 416.02
+        },
+        {
+          "word": "down",
+          "start": 416.02,
+          "end": 416.24
+        },
+        {
+          "word": "the",
+          "start": 416.24,
+          "end": 416.42
+        },
+        {
+          "word": "size",
+          "start": 416.42,
+          "end": 416.6
+        },
+        {
+          "word": "of",
+          "start": 416.6,
+          "end": 416.76
+        },
+        {
+          "word": "its",
+          "start": 416.76,
+          "end": 416.86
+        },
+        {
+          "word": "military.",
+          "start": 416.86,
+          "end": 417.24
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "start": 417.24,
+      "end": 423.9,
+      "textEn": "And while the U. S. did decrease military spending, much of the military infrastructure and alliances from the Cold War remained.",
+      "textKo": "그리고 미국이 군사비를 줄이기는 했지만, 냉전의 군사 인프라와 동맹의 상당 부분은 그대로 유지되었습니다.",
+      "words": [
+        {
+          "word": "And",
+          "start": 417.24,
+          "end": 417.94
+        },
+        {
+          "word": "while",
+          "start": 417.94,
+          "end": 418.1
+        },
+        {
+          "word": "the",
+          "start": 418.1,
+          "end": 418.24
+        },
+        {
+          "word": "U",
+          "start": 418.24,
+          "end": 418.4
+        },
+        {
+          "word": ".S.",
+          "start": 418.4,
+          "end": 418.54
+        },
+        {
+          "word": "did",
+          "start": 418.66,
+          "end": 418.78
+        },
+        {
+          "word": "decrease",
+          "start": 418.78,
+          "end": 419.26
+        },
+        {
+          "word": "military",
+          "start": 419.26,
+          "end": 419.62
+        },
+        {
+          "word": "spending,",
+          "start": 419.62,
+          "end": 420.02
+        },
+        {
+          "word": "much",
+          "start": 420.44,
+          "end": 420.86
+        },
+        {
+          "word": "of",
+          "start": 420.86,
+          "end": 421.0
+        },
+        {
+          "word": "the",
+          "start": 421.0,
+          "end": 421.12
+        },
+        {
+          "word": "military",
+          "start": 421.12,
+          "end": 421.48
+        },
+        {
+          "word": "infrastructure",
+          "start": 421.48,
+          "end": 422.04
+        },
+        {
+          "word": "and",
+          "start": 422.04,
+          "end": 422.28
+        },
+        {
+          "word": "alliances",
+          "start": 422.28,
+          "end": 422.7
+        },
+        {
+          "word": "from",
+          "start": 422.7,
+          "end": 422.96
+        },
+        {
+          "word": "the",
+          "start": 422.96,
+          "end": 423.08
+        },
+        {
+          "word": "Cold",
+          "start": 423.08,
+          "end": 423.28
+        },
+        {
+          "word": "War",
+          "start": 423.28,
+          "end": 423.5
+        },
+        {
+          "word": "remained.",
+          "start": 423.5,
+          "end": 423.9
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "start": 424.6,
+      "end": 434.8,
+      "textEn": "Presidents George H. W. Bush and Bill Clinton decided that it was in both America and the world's interests for the United States, now the sole superpower on earth, to continue actively managing global affairs.",
+      "textKo": "조지 H. W. 부시 대통령과 빌 클린턴 대통령은 지구상의 유일한 초강대국이 된 미국이 계속 세계 문제를 적극적으로 관리하는 것이 미국과 세계 모두의 이익에 부합한다고 결정했습니다.",
+      "words": [
+        {
+          "word": "Presidents",
+          "start": 424.6,
+          "end": 425.12
+        },
+        {
+          "word": "George",
+          "start": 425.12,
+          "end": 425.34
+        },
+        {
+          "word": "H",
+          "start": 425.34,
+          "end": 425.7
+        },
+        {
+          "word": ".W.",
+          "start": 425.7,
+          "end": 425.96
+        },
+        {
+          "word": "Bush",
+          "start": 426.3,
+          "end": 426.3
+        },
+        {
+          "word": "and",
+          "start": 426.3,
+          "end": 426.52
+        },
+        {
+          "word": "Bill",
+          "start": 426.52,
+          "end": 426.7
+        },
+        {
+          "word": "Clinton",
+          "start": 426.7,
+          "end": 426.98
+        },
+        {
+          "word": "decided",
+          "start": 426.98,
+          "end": 427.38
+        },
+        {
+          "word": "that",
+          "start": 427.38,
+          "end": 427.56
+        },
+        {
+          "word": "it",
+          "start": 427.56,
+          "end": 427.66
+        },
+        {
+          "word": "was",
+          "start": 427.66,
+          "end": 427.78
+        },
+        {
+          "word": "in",
+          "start": 427.78,
+          "end": 427.96
+        },
+        {
+          "word": "both",
+          "start": 427.96,
+          "end": 428.18
+        },
+        {
+          "word": "America",
+          "start": 428.18,
+          "end": 428.7
+        },
+        {
+          "word": "and",
+          "start": 428.7,
+          "end": 429.02
+        },
+        {
+          "word": "the",
+          "start": 429.02,
+          "end": 429.14
+        },
+        {
+          "word": "world's",
+          "start": 429.14,
+          "end": 429.48
+        },
+        {
+          "word": "interests",
+          "start": 429.48,
+          "end": 429.82
+        },
+        {
+          "word": "for",
+          "start": 429.82,
+          "end": 430.06
+        },
+        {
+          "word": "the",
+          "start": 430.06,
+          "end": 430.18
+        },
+        {
+          "word": "United",
+          "start": 430.18,
+          "end": 430.36
+        },
+        {
+          "word": "States,",
+          "start": 430.36,
+          "end": 430.78
+        },
+        {
+          "word": "now",
+          "start": 430.78,
+          "end": 430.96
+        },
+        {
+          "word": "the",
+          "start": 430.96,
+          "end": 431.1
+        },
+        {
+          "word": "sole",
+          "start": 431.1,
+          "end": 431.34
+        },
+        {
+          "word": "superpower",
+          "start": 431.34,
+          "end": 431.78
+        },
+        {
+          "word": "on",
+          "start": 431.78,
+          "end": 432.04
+        },
+        {
+          "word": "earth,",
+          "start": 432.04,
+          "end": 432.3
+        },
+        {
+          "word": "to",
+          "start": 432.72,
+          "end": 432.9
+        },
+        {
+          "word": "continue",
+          "start": 432.9,
+          "end": 433.22
+        },
+        {
+          "word": "actively",
+          "start": 433.22,
+          "end": 433.66
+        },
+        {
+          "word": "managing",
+          "start": 433.66,
+          "end": 434.06
+        },
+        {
+          "word": "global",
+          "start": 434.06,
+          "end": 434.34
+        },
+        {
+          "word": "affairs.",
+          "start": 434.34,
+          "end": 434.8
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "start": 435.92,
+      "end": 438.74,
+      "textEn": "We should be and we must be peacemakers.",
+      "textKo": "우리는 평화를 만드는 사람이어야 하고, 반드시 그래야 합니다.",
+      "words": [
+        {
+          "word": "We",
+          "start": 435.92,
+          "end": 436.5
+        },
+        {
+          "word": "should",
+          "start": 436.5,
+          "end": 436.8
+        },
+        {
+          "word": "be",
+          "start": 436.8,
+          "end": 437.14
+        },
+        {
+          "word": "and",
+          "start": 437.14,
+          "end": 437.38
+        },
+        {
+          "word": "we",
+          "start": 437.38,
+          "end": 437.56
+        },
+        {
+          "word": "must",
+          "start": 437.56,
+          "end": 437.88
+        },
+        {
+          "word": "be",
+          "start": 437.88,
+          "end": 438.08
+        },
+        {
+          "word": "peacemakers.",
+          "start": 438.08,
+          "end": 438.74
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "start": 439.28,
+      "end": 448.44,
+      "textEn": "NATO, created solely as a tool for countering the Soviet Union, stayed together and even expanded, a way of keeping European nations united in the absence of the Soviet threat.",
+      "textKo": "소련에 대항하기 위한 도구로만 창설된 나토는 해체되지 않고 오히려 확장되었으며, 소련 위협이 사라진 상태에서도 유럽 국가들을 단결시키는 방법이 되었습니다.",
+      "words": [
+        {
+          "word": "NATO,",
+          "start": 439.28,
+          "end": 439.86
+        },
+        {
+          "word": "created",
+          "start": 440.04,
+          "end": 440.36
+        },
+        {
+          "word": "solely",
+          "start": 440.36,
+          "end": 440.76
+        },
+        {
+          "word": "as",
+          "start": 440.76,
+          "end": 440.96
+        },
+        {
+          "word": "a",
+          "start": 440.96,
+          "end": 441.04
+        },
+        {
+          "word": "tool",
+          "start": 441.04,
+          "end": 441.2
+        },
+        {
+          "word": "for",
+          "start": 441.2,
+          "end": 441.36
+        },
+        {
+          "word": "countering",
+          "start": 441.36,
+          "end": 441.74
+        },
+        {
+          "word": "the",
+          "start": 441.74,
+          "end": 441.86
+        },
+        {
+          "word": "Soviet",
+          "start": 441.86,
+          "end": 442.1
+        },
+        {
+          "word": "Union,",
+          "start": 442.1,
+          "end": 442.48
+        },
+        {
+          "word": "stayed",
+          "start": 442.76,
+          "end": 443.22
+        },
+        {
+          "word": "together",
+          "start": 443.22,
+          "end": 443.56
+        },
+        {
+          "word": "and",
+          "start": 443.56,
+          "end": 443.72
+        },
+        {
+          "word": "even",
+          "start": 443.72,
+          "end": 443.86
+        },
+        {
+          "word": "expanded,",
+          "start": 443.86,
+          "end": 444.32
+        },
+        {
+          "word": "a",
+          "start": 444.6,
+          "end": 445.3
+        },
+        {
+          "word": "way",
+          "start": 445.3,
+          "end": 445.52
+        },
+        {
+          "word": "of",
+          "start": 445.52,
+          "end": 445.66
+        },
+        {
+          "word": "keeping",
+          "start": 445.66,
+          "end": 445.92
+        },
+        {
+          "word": "European",
+          "start": 445.92,
+          "end": 446.28
+        },
+        {
+          "word": "nations",
+          "start": 446.28,
+          "end": 446.7
+        },
+        {
+          "word": "united",
+          "start": 446.7,
+          "end": 447.02
+        },
+        {
+          "word": "in",
+          "start": 447.02,
+          "end": 447.18
+        },
+        {
+          "word": "the",
+          "start": 447.18,
+          "end": 447.28
+        },
+        {
+          "word": "absence",
+          "start": 447.28,
+          "end": 447.58
+        },
+        {
+          "word": "of",
+          "start": 447.58,
+          "end": 447.76
+        },
+        {
+          "word": "the",
+          "start": 447.76,
+          "end": 447.84
+        },
+        {
+          "word": "Soviet",
+          "start": 447.84,
+          "end": 448.12
+        },
+        {
+          "word": "threat.",
+          "start": 448.12,
+          "end": 448.44
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "start": 451.14,
+      "end": 457.38,
+      "textEn": "Washington's support for countries like Israel and Japan stayed intact, ostensibly as a means of preventing war in their respective regions.",
+      "textKo": "이스라엘과 일본 같은 국가들에 대한 워싱턴의 지원은 표면상 각 지역에서의 전쟁을 방지하는 수단으로서 유지되었습니다.",
+      "words": [
+        {
+          "word": "Washington's",
+          "start": 451.14,
+          "end": 451.72
+        },
+        {
+          "word": "support",
+          "start": 451.72,
+          "end": 451.98
+        },
+        {
+          "word": "for",
+          "start": 451.98,
+          "end": 452.14
+        },
+        {
+          "word": "countries",
+          "start": 452.14,
+          "end": 452.44
+        },
+        {
+          "word": "like",
+          "start": 452.44,
+          "end": 452.64
+        },
+        {
+          "word": "Israel",
+          "start": 452.64,
+          "end": 453.06
+        },
+        {
+          "word": "and",
+          "start": 453.06,
+          "end": 453.24
+        },
+        {
+          "word": "Japan",
+          "start": 453.24,
+          "end": 453.58
+        },
+        {
+          "word": "stayed",
+          "start": 453.58,
+          "end": 453.88
+        },
+        {
+          "word": "intact,",
+          "start": 453.88,
+          "end": 454.26
+        },
+        {
+          "word": "ostensibly",
+          "start": 454.62,
+          "end": 455.14
+        },
+        {
+          "word": "as",
+          "start": 455.14,
+          "end": 455.3
+        },
+        {
+          "word": "a",
+          "start": 455.3,
+          "end": 455.38
+        },
+        {
+          "word": "means",
+          "start": 455.38,
+          "end": 455.52
+        },
+        {
+          "word": "of",
+          "start": 455.52,
+          "end": 455.62
+        },
+        {
+          "word": "preventing",
+          "start": 455.62,
+          "end": 455.94
+        },
+        {
+          "word": "war",
+          "start": 455.94,
+          "end": 456.26
+        },
+        {
+          "word": "in",
+          "start": 456.26,
+          "end": 456.46
+        },
+        {
+          "word": "their",
+          "start": 456.46,
+          "end": 456.56
+        },
+        {
+          "word": "respective",
+          "start": 456.56,
+          "end": 456.94
+        },
+        {
+          "word": "regions.",
+          "start": 456.94,
+          "end": 457.38
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "start": 457.38,
+      "end": 466.24,
+      "textEn": "The global system of alliances and institutions created to keep the peace during the Cold War became permanent, as did the American military and political commitments necessary to keep them running.",
+      "textKo": "냉전 중 평화를 유지하기 위해 만들어진 글로벌 동맹과 제도 시스템은 영구적이 되었고, 그것을 운영하기 위해 필요한 미국의 군사적, 정치적 약속도 마찬가지였습니다.",
+      "words": [
+        {
+          "word": "The",
+          "start": 457.38,
+          "end": 458.06
+        },
+        {
+          "word": "global",
+          "start": 458.06,
+          "end": 458.32
+        },
+        {
+          "word": "system",
+          "start": 458.32,
+          "end": 458.64
+        },
+        {
+          "word": "of",
+          "start": 458.64,
+          "end": 458.78
+        },
+        {
+          "word": "alliances",
+          "start": 458.78,
+          "end": 459.14
+        },
+        {
+          "word": "and",
+          "start": 459.14,
+          "end": 459.38
+        },
+        {
+          "word": "institutions",
+          "start": 459.38,
+          "end": 459.92
+        },
+        {
+          "word": "created",
+          "start": 459.92,
+          "end": 460.36
+        },
+        {
+          "word": "to",
+          "start": 460.36,
+          "end": 460.52
+        },
+        {
+          "word": "keep",
+          "start": 460.52,
+          "end": 460.72
+        },
+        {
+          "word": "the",
+          "start": 460.72,
+          "end": 460.86
+        },
+        {
+          "word": "peace",
+          "start": 460.86,
+          "end": 461.06
+        },
+        {
+          "word": "during",
+          "start": 461.06,
+          "end": 461.22
+        },
+        {
+          "word": "the",
+          "start": 461.22,
+          "end": 461.36
+        },
+        {
+          "word": "Cold",
+          "start": 461.36,
+          "end": 461.56
+        },
+        {
+          "word": "War",
+          "start": 461.56,
+          "end": 461.76
+        },
+        {
+          "word": "became",
+          "start": 461.76,
+          "end": 462.04
+        },
+        {
+          "word": "permanent,",
+          "start": 462.04,
+          "end": 462.46
+        },
+        {
+          "word": "as",
+          "start": 462.5,
+          "end": 462.72
+        },
+        {
+          "word": "did",
+          "start": 462.72,
+          "end": 462.88
+        },
+        {
+          "word": "the",
+          "start": 462.88,
+          "end": 463.0
+        },
+        {
+          "word": "American",
+          "start": 463.0,
+          "end": 463.34
+        },
+        {
+          "word": "military",
+          "start": 463.34,
+          "end": 463.76
+        },
+        {
+          "word": "and",
+          "start": 463.76,
+          "end": 464.08
+        },
+        {
+          "word": "political",
+          "start": 464.08,
+          "end": 464.46
+        },
+        {
+          "word": "commitments",
+          "start": 464.46,
+          "end": 464.92
+        },
+        {
+          "word": "necessary",
+          "start": 464.92,
+          "end": 465.5
+        },
+        {
+          "word": "to",
+          "start": 465.5,
+          "end": 465.66
+        },
+        {
+          "word": "keep",
+          "start": 465.66,
+          "end": 465.86
+        },
+        {
+          "word": "them",
+          "start": 465.86,
+          "end": 466.0
+        },
+        {
+          "word": "running.",
+          "start": 466.0,
+          "end": 466.24
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "start": 466.56,
+      "end": 473.0,
+      "textEn": "This system remains in operation today, and no leading American politicians since the Cold War seriously called for dismantling it.",
+      "textKo": "이 시스템은 오늘날에도 작동하고 있으며, 냉전 이후 어떤 주요 미국 정치인도 이를 해체하자고 진지하게 주장한 적이 없습니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 466.56,
+          "end": 466.82
+        },
+        {
+          "word": "system",
+          "start": 466.82,
+          "end": 467.14
+        },
+        {
+          "word": "remains",
+          "start": 467.14,
+          "end": 467.5
+        },
+        {
+          "word": "in",
+          "start": 467.5,
+          "end": 467.66
+        },
+        {
+          "word": "operation",
+          "start": 467.66,
+          "end": 468.1
+        },
+        {
+          "word": "today,",
+          "start": 468.1,
+          "end": 468.42
+        },
+        {
+          "word": "and",
+          "start": 468.62,
+          "end": 468.88
+        },
+        {
+          "word": "no",
+          "start": 468.88,
+          "end": 469.08
+        },
+        {
+          "word": "leading",
+          "start": 469.08,
+          "end": 469.36
+        },
+        {
+          "word": "American",
+          "start": 469.36,
+          "end": 469.74
+        },
+        {
+          "word": "politicians",
+          "start": 469.74,
+          "end": 470.3
+        },
+        {
+          "word": "since",
+          "start": 470.3,
+          "end": 470.62
+        },
+        {
+          "word": "the",
+          "start": 470.62,
+          "end": 470.76
+        },
+        {
+          "word": "Cold",
+          "start": 470.76,
+          "end": 470.96
+        },
+        {
+          "word": "War",
+          "start": 470.96,
+          "end": 471.2
+        },
+        {
+          "word": "seriously",
+          "start": 471.2,
+          "end": 471.58
+        },
+        {
+          "word": "called",
+          "start": 471.58,
+          "end": 472.08
+        },
+        {
+          "word": "for",
+          "start": 472.08,
+          "end": 472.2
+        },
+        {
+          "word": "dismantling",
+          "start": 472.2,
+          "end": 472.82
+        },
+        {
+          "word": "it.",
+          "start": 472.82,
+          "end": 473.0
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "start": 473.78,
+      "end": 476.0,
+      "textEn": "Except, perhaps, for Donald Trump.",
+      "textKo": "도널드 트럼프를 제외하면 말입니다.",
+      "words": [
+        {
+          "word": "Except,",
+          "start": 473.78,
+          "end": 474.3
+        },
+        {
+          "word": "perhaps,",
+          "start": 474.48,
+          "end": 474.9
+        },
+        {
+          "word": "for",
+          "start": 475.38,
+          "end": 475.44
+        },
+        {
+          "word": "Donald",
+          "start": 475.44,
+          "end": 475.62
+        },
+        {
+          "word": "Trump.",
+          "start": 475.62,
+          "end": 476.0
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "start": 476.34,
+      "end": 485.84,
+      "textEn": "Trump has said contradictory things about these commitments, but he's consistently argued that American allies are not paying the U. S. enough for its protection, and question the value of free trade.",
+      "textKo": "트럼프는 이러한 약속들에 대해 모순되는 말을 해왔지만, 미국의 동맹국들이 미국의 보호에 대해 충분히 지불하지 않고 있다고 일관되게 주장했으며, 자유 무역의 가치에 의문을 제기했습니다.",
+      "words": [
+        {
+          "word": "Trump",
+          "start": 476.34,
+          "end": 476.78
+        },
+        {
+          "word": "has",
+          "start": 476.78,
+          "end": 476.9
+        },
+        {
+          "word": "said",
+          "start": 476.9,
+          "end": 477.04
+        },
+        {
+          "word": "contradictory",
+          "start": 477.04,
+          "end": 477.54
+        },
+        {
+          "word": "things",
+          "start": 477.54,
+          "end": 477.84
+        },
+        {
+          "word": "about",
+          "start": 477.84,
+          "end": 478.04
+        },
+        {
+          "word": "these",
+          "start": 478.04,
+          "end": 478.22
+        },
+        {
+          "word": "commitments,",
+          "start": 478.22,
+          "end": 478.6
+        },
+        {
+          "word": "but",
+          "start": 478.86,
+          "end": 479.12
+        },
+        {
+          "word": "he's",
+          "start": 479.12,
+          "end": 479.3
+        },
+        {
+          "word": "consistently",
+          "start": 479.3,
+          "end": 479.84
+        },
+        {
+          "word": "argued",
+          "start": 479.84,
+          "end": 480.34
+        },
+        {
+          "word": "that",
+          "start": 480.34,
+          "end": 480.64
+        },
+        {
+          "word": "American",
+          "start": 480.64,
+          "end": 481.06
+        },
+        {
+          "word": "allies",
+          "start": 481.06,
+          "end": 481.36
+        },
+        {
+          "word": "are",
+          "start": 481.36,
+          "end": 481.52
+        },
+        {
+          "word": "not",
+          "start": 481.52,
+          "end": 481.7
+        },
+        {
+          "word": "paying",
+          "start": 481.7,
+          "end": 482.02
+        },
+        {
+          "word": "the",
+          "start": 482.02,
+          "end": 482.16
+        },
+        {
+          "word": "U",
+          "start": 482.16,
+          "end": 482.32
+        },
+        {
+          "word": ".S.",
+          "start": 482.32,
+          "end": 482.44
+        },
+        {
+          "word": "enough",
+          "start": 482.54,
+          "end": 482.78
+        },
+        {
+          "word": "for",
+          "start": 482.78,
+          "end": 483.06
+        },
+        {
+          "word": "its",
+          "start": 483.06,
+          "end": 483.22
+        },
+        {
+          "word": "protection,",
+          "start": 483.22,
+          "end": 483.68
+        },
+        {
+          "word": "and",
+          "start": 483.92,
+          "end": 484.44
+        },
+        {
+          "word": "question",
+          "start": 484.44,
+          "end": 484.78
+        },
+        {
+          "word": "the",
+          "start": 484.78,
+          "end": 484.92
+        },
+        {
+          "word": "value",
+          "start": 484.92,
+          "end": 485.18
+        },
+        {
+          "word": "of",
+          "start": 485.18,
+          "end": 485.34
+        },
+        {
+          "word": "free",
+          "start": 485.34,
+          "end": 485.46
+        },
+        {
+          "word": "trade.",
+          "start": 485.46,
+          "end": 485.84
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "start": 485.84,
+      "end": 489.6,
+      "textEn": "That calls NATO, and even the World Trade Organization, into question.",
+      "textKo": "그것은 나토는 물론 세계무역기구까지 의문에 부치게 합니다.",
+      "words": [
+        {
+          "word": "That",
+          "start": 485.84,
+          "end": 486.7
+        },
+        {
+          "word": "calls",
+          "start": 486.7,
+          "end": 486.98
+        },
+        {
+          "word": "NATO,",
+          "start": 486.98,
+          "end": 487.34
+        },
+        {
+          "word": "and",
+          "start": 487.34,
+          "end": 487.74
+        },
+        {
+          "word": "even",
+          "start": 487.74,
+          "end": 487.96
+        },
+        {
+          "word": "the",
+          "start": 487.96,
+          "end": 488.1
+        },
+        {
+          "word": "World",
+          "start": 488.1,
+          "end": 488.26
+        },
+        {
+          "word": "Trade",
+          "start": 488.26,
+          "end": 488.48
+        },
+        {
+          "word": "Organization,",
+          "start": 488.48,
+          "end": 489.0
+        },
+        {
+          "word": "into",
+          "start": 489.16,
+          "end": 489.28
+        },
+        {
+          "word": "question.",
+          "start": 489.28,
+          "end": 489.6
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "start": 489.78,
+      "end": 496.88,
+      "textEn": "At some point, we have to say, you know what, we're better off if Japan protects itself against this maniac in North Korea.",
+      "textKo": "어느 시점에서 우리는, 있잖아요, 일본이 북한의 이 미치광이로부터 스스로 방어하는 게 우리에게 더 낫다고 말해야 합니다.",
+      "words": [
+        {
+          "word": "At",
+          "start": 489.78,
+          "end": 490.06
+        },
+        {
+          "word": "some",
+          "start": 490.06,
+          "end": 490.28
+        },
+        {
+          "word": "point,",
+          "start": 490.28,
+          "end": 490.58
+        },
+        {
+          "word": "we",
+          "start": 490.72,
+          "end": 490.78
+        },
+        {
+          "word": "have",
+          "start": 490.78,
+          "end": 490.96
+        },
+        {
+          "word": "to",
+          "start": 490.96,
+          "end": 491.12
+        },
+        {
+          "word": "say,",
+          "start": 491.12,
+          "end": 491.46
+        },
+        {
+          "word": "you",
+          "start": 491.58,
+          "end": 491.7
+        },
+        {
+          "word": "know",
+          "start": 491.7,
+          "end": 491.84
+        },
+        {
+          "word": "what,",
+          "start": 491.84,
+          "end": 492.16
+        },
+        {
+          "word": "we're",
+          "start": 492.28,
+          "end": 492.62
+        },
+        {
+          "word": "better",
+          "start": 492.62,
+          "end": 492.82
+        },
+        {
+          "word": "off",
+          "start": 492.82,
+          "end": 493.12
+        },
+        {
+          "word": "if",
+          "start": 493.12,
+          "end": 493.38
+        },
+        {
+          "word": "Japan",
+          "start": 493.38,
+          "end": 493.8
+        },
+        {
+          "word": "protects",
+          "start": 493.8,
+          "end": 494.4
+        },
+        {
+          "word": "itself",
+          "start": 494.4,
+          "end": 494.8
+        },
+        {
+          "word": "against",
+          "start": 494.8,
+          "end": 495.2
+        },
+        {
+          "word": "this",
+          "start": 495.2,
+          "end": 495.56
+        },
+        {
+          "word": "maniac",
+          "start": 495.56,
+          "end": 495.94
+        },
+        {
+          "word": "in",
+          "start": 495.94,
+          "end": 496.28
+        },
+        {
+          "word": "North",
+          "start": 496.28,
+          "end": 496.5
+        },
+        {
+          "word": "Korea.",
+          "start": 496.5,
+          "end": 496.88
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "start": 497.08,
+      "end": 500.88,
+      "textEn": "We're better off, frankly, if South Korea is going to start to protect itself.",
+      "textKo": "솔직히, 한국이 스스로 방어하기 시작한다면 우리에게 더 낫습니다.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 497.08,
+          "end": 497.54
+        },
+        {
+          "word": "better",
+          "start": 497.54,
+          "end": 497.72
+        },
+        {
+          "word": "off,",
+          "start": 497.72,
+          "end": 498.0
+        },
+        {
+          "word": "frankly,",
+          "start": 498.08,
+          "end": 498.34
+        },
+        {
+          "word": "if",
+          "start": 498.52,
+          "end": 498.7
+        },
+        {
+          "word": "South",
+          "start": 498.7,
+          "end": 498.94
+        },
+        {
+          "word": "Korea",
+          "start": 498.94,
+          "end": 499.32
+        },
+        {
+          "word": "is",
+          "start": 499.32,
+          "end": 499.58
+        },
+        {
+          "word": "going",
+          "start": 499.58,
+          "end": 499.8
+        },
+        {
+          "word": "to",
+          "start": 499.8,
+          "end": 499.94
+        },
+        {
+          "word": "start",
+          "start": 499.94,
+          "end": 500.14
+        },
+        {
+          "word": "to",
+          "start": 500.14,
+          "end": 500.32
+        },
+        {
+          "word": "protect",
+          "start": 500.32,
+          "end": 500.62
+        },
+        {
+          "word": "itself.",
+          "start": 500.62,
+          "end": 500.88
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "start": 500.88,
+      "end": 503.14,
+      "textEn": "Saudi Arabia? We have to, Saudi Arabia, absolutely.",
+      "textKo": "사우디아라비아? 우리는, 사우디아라비아, 절대적으로 그래야 합니다.",
+      "words": [
+        {
+          "word": "Saudi",
+          "start": 500.88,
+          "end": 501.1
+        },
+        {
+          "word": "Arabia?",
+          "start": 501.1,
+          "end": 501.38
+        },
+        {
+          "word": "We",
+          "start": 501.42,
+          "end": 501.56
+        },
+        {
+          "word": "have",
+          "start": 501.56,
+          "end": 501.76
+        },
+        {
+          "word": "to,",
+          "start": 501.76,
+          "end": 501.78
+        },
+        {
+          "word": "Saudi",
+          "start": 502.06,
+          "end": 502.32
+        },
+        {
+          "word": "Arabia,",
+          "start": 502.32,
+          "end": 502.7
+        },
+        {
+          "word": "absolutely.",
+          "start": 502.82,
+          "end": 503.14
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "start": 503.5,
+      "end": 511.14,
+      "textEn": "This is a sharp divergence from the consensus that has dominated U. S. foreign policy since 1945, and something closer to the isolationism that came before it.",
+      "textKo": "이것은 1945년 이래 미국 외교 정책을 지배해 온 합의로부터의 급격한 이탈이며, 그 이전에 있었던 고립주의에 더 가까운 것입니다.",
+      "words": [
+        {
+          "word": "This",
+          "start": 503.5,
+          "end": 503.7
+        },
+        {
+          "word": "is",
+          "start": 503.7,
+          "end": 503.82
+        },
+        {
+          "word": "a",
+          "start": 503.82,
+          "end": 503.92
+        },
+        {
+          "word": "sharp",
+          "start": 503.92,
+          "end": 504.2
+        },
+        {
+          "word": "divergence",
+          "start": 504.2,
+          "end": 504.62
+        },
+        {
+          "word": "from",
+          "start": 504.62,
+          "end": 504.86
+        },
+        {
+          "word": "the",
+          "start": 504.86,
+          "end": 504.96
+        },
+        {
+          "word": "consensus",
+          "start": 504.96,
+          "end": 505.34
+        },
+        {
+          "word": "that",
+          "start": 505.34,
+          "end": 505.58
+        },
+        {
+          "word": "has",
+          "start": 505.58,
+          "end": 505.68
+        },
+        {
+          "word": "dominated",
+          "start": 505.68,
+          "end": 506.12
+        },
+        {
+          "word": "U",
+          "start": 506.12,
+          "end": 506.44
+        },
+        {
+          "word": ".S.",
+          "start": 506.44,
+          "end": 506.54
+        },
+        {
+          "word": "foreign",
+          "start": 506.76,
+          "end": 506.76
+        },
+        {
+          "word": "policy",
+          "start": 506.76,
+          "end": 507.12
+        },
+        {
+          "word": "since",
+          "start": 507.12,
+          "end": 507.36
+        },
+        {
+          "word": "1945,",
+          "start": 507.36,
+          "end": 507.96
+        },
+        {
+          "word": "and",
+          "start": 507.98,
+          "end": 508.9
+        },
+        {
+          "word": "something",
+          "start": 508.9,
+          "end": 509.14
+        },
+        {
+          "word": "closer",
+          "start": 509.14,
+          "end": 509.42
+        },
+        {
+          "word": "to",
+          "start": 509.42,
+          "end": 509.56
+        },
+        {
+          "word": "the",
+          "start": 509.56,
+          "end": 509.68
+        },
+        {
+          "word": "isolationism",
+          "start": 509.68,
+          "end": 510.32
+        },
+        {
+          "word": "that",
+          "start": 510.32,
+          "end": 510.5
+        },
+        {
+          "word": "came",
+          "start": 510.5,
+          "end": 510.66
+        },
+        {
+          "word": "before",
+          "start": 510.66,
+          "end": 510.94
+        },
+        {
+          "word": "it.",
+          "start": 510.94,
+          "end": 511.14
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "start": 511.14,
+      "end": 518.94,
+      "textEn": "So will President Trump act on some of candidate Trump's ideas, and reverse decades' worth of institution building and alliances?",
+      "textKo": "그러면 트럼프 대통령은 후보 트럼프의 아이디어 중 일부를 실행하여 수십 년에 걸친 제도 구축과 동맹을 뒤집을 것인가?",
+      "words": [
+        {
+          "word": "So",
+          "start": 511.14,
+          "end": 512.2
+        },
+        {
+          "word": "will",
+          "start": 512.2,
+          "end": 512.42
+        },
+        {
+          "word": "President",
+          "start": 512.42,
+          "end": 512.78
+        },
+        {
+          "word": "Trump",
+          "start": 512.78,
+          "end": 513.26
+        },
+        {
+          "word": "act",
+          "start": 513.26,
+          "end": 513.8
+        },
+        {
+          "word": "on",
+          "start": 513.8,
+          "end": 513.96
+        },
+        {
+          "word": "some",
+          "start": 513.96,
+          "end": 514.1
+        },
+        {
+          "word": "of",
+          "start": 514.1,
+          "end": 514.22
+        },
+        {
+          "word": "candidate",
+          "start": 514.22,
+          "end": 514.56
+        },
+        {
+          "word": "Trump's",
+          "start": 514.56,
+          "end": 514.92
+        },
+        {
+          "word": "ideas,",
+          "start": 514.92,
+          "end": 515.24
+        },
+        {
+          "word": "and",
+          "start": 515.58,
+          "end": 515.92
+        },
+        {
+          "word": "reverse",
+          "start": 515.92,
+          "end": 516.24
+        },
+        {
+          "word": "decades'",
+          "start": 516.24,
+          "end": 516.7
+        },
+        {
+          "word": "worth",
+          "start": 517.0,
+          "end": 517.06
+        },
+        {
+          "word": "of",
+          "start": 517.06,
+          "end": 517.26
+        },
+        {
+          "word": "institution",
+          "start": 517.26,
+          "end": 517.74
+        },
+        {
+          "word": "building",
+          "start": 517.74,
+          "end": 518.12
+        },
+        {
+          "word": "and",
+          "start": 518.12,
+          "end": 518.44
+        },
+        {
+          "word": "alliances?",
+          "start": 518.44,
+          "end": 518.94
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "start": 519.36,
+      "end": 521.86,
+      "textEn": "We'll find out soon enough. It's okay.",
+      "textKo": "곧 알게 될 것입니다. 괜찮습니다.",
+      "words": [
+        {
+          "word": "We'll",
+          "start": 519.36,
+          "end": 520.0
+        },
+        {
+          "word": "find",
+          "start": 520.0,
+          "end": 520.22
+        },
+        {
+          "word": "out",
+          "start": 520.22,
+          "end": 520.38
+        },
+        {
+          "word": "soon",
+          "start": 520.38,
+          "end": 520.6
+        },
+        {
+          "word": "enough.",
+          "start": 520.6,
+          "end": 520.88
+        },
+        {
+          "word": "It's",
+          "start": 520.88,
+          "end": 520.88
+        },
+        {
+          "word": "okay.",
+          "start": 520.88,
+          "end": 521.86
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "start": 533.7,
+      "end": 535.1,
+      "textEn": "It's okay.",
+      "textKo": "괜찮습니다.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 533.7,
+          "end": 535.1
+        },
+        {
+          "word": "okay.",
+          "start": 535.1,
+          "end": 535.1
+        }
+      ]
+    }
+  ]
+}

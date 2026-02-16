@@ -1,0 +1,4518 @@
+{
+  "videoId": "n4NVPg2kHv4",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 13.66,
+      "textEn": "Music Hey guys! I know you're super keen to improve your English pronunciation",
+      "textKo": "음악 안녕하세요 여러분! 영어 발음을 향상시키고 싶어하시는 거 알아요",
+      "words": [
+        {
+          "word": "Music",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "word": "Hey",
+          "start": 8.82,
+          "end": 9.26
+        },
+        {
+          "word": "guys!",
+          "start": 9.26,
+          "end": 9.6
+        },
+        {
+          "word": "I",
+          "start": 9.8,
+          "end": 10.22
+        },
+        {
+          "word": "know",
+          "start": 10.22,
+          "end": 10.48
+        },
+        {
+          "word": "you're",
+          "start": 10.48,
+          "end": 10.82
+        },
+        {
+          "word": "super",
+          "start": 10.82,
+          "end": 11.32
+        },
+        {
+          "word": "keen",
+          "start": 11.32,
+          "end": 11.6
+        },
+        {
+          "word": "to",
+          "start": 11.6,
+          "end": 11.82
+        },
+        {
+          "word": "improve",
+          "start": 11.82,
+          "end": 12.18
+        },
+        {
+          "word": "your",
+          "start": 12.18,
+          "end": 12.46
+        },
+        {
+          "word": "English",
+          "start": 12.46,
+          "end": 12.9
+        },
+        {
+          "word": "pronunciation",
+          "start": 12.9,
+          "end": 13.66
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 13.66,
+      "end": 16.76,
+      "textEn": "And to do that you need two things.",
+      "textKo": "그리고 그렇게 하려면 두 가지가 필요해요.",
+      "words": [
+        {
+          "word": "and",
+          "start": 13.66,
+          "end": 14.54
+        },
+        {
+          "word": "to",
+          "start": 14.54,
+          "end": 14.7
+        },
+        {
+          "word": "do",
+          "start": 14.7,
+          "end": 14.84
+        },
+        {
+          "word": "that",
+          "start": 14.84,
+          "end": 15.1
+        },
+        {
+          "word": "you",
+          "start": 15.1,
+          "end": 15.48
+        },
+        {
+          "word": "need",
+          "start": 15.48,
+          "end": 15.8
+        },
+        {
+          "word": "two",
+          "start": 15.8,
+          "end": 16.32
+        },
+        {
+          "word": "things.",
+          "start": 16.32,
+          "end": 16.76
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 17.22,
+      "end": 26.72,
+      "textEn": "A native English speaker and a super amazing tool called the IPA,",
+      "textKo": "원어민 영어 화자와 IPA라고 불리는 아주 놀라운 도구가요,",
+      "words": [
+        {
+          "word": "A",
+          "start": 17.22,
+          "end": 17.82
+        },
+        {
+          "word": "native",
+          "start": 17.82,
+          "end": 18.2
+        },
+        {
+          "word": "English",
+          "start": 18.2,
+          "end": 18.68
+        },
+        {
+          "word": "speaker",
+          "start": 18.68,
+          "end": 19.16
+        },
+        {
+          "word": "and",
+          "start": 21.36,
+          "end": 22.24
+        },
+        {
+          "word": "a",
+          "start": 22.24,
+          "end": 23.1
+        },
+        {
+          "word": "super",
+          "start": 23.1,
+          "end": 23.7
+        },
+        {
+          "word": "amazing",
+          "start": 23.7,
+          "end": 24.28
+        },
+        {
+          "word": "tool",
+          "start": 24.28,
+          "end": 24.86
+        },
+        {
+          "word": "called",
+          "start": 24.86,
+          "end": 25.36
+        },
+        {
+          "word": "the",
+          "start": 25.36,
+          "end": 25.58
+        },
+        {
+          "word": "IPA,",
+          "start": 25.58,
+          "end": 26.72
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 26.72,
+      "end": 30.02,
+      "textEn": "The International Phonetic Alphabet.",
+      "textKo": "국제 음성 기호요.",
+      "words": [
+        {
+          "word": "the",
+          "start": 26.72,
+          "end": 27.32
+        },
+        {
+          "word": "International",
+          "start": 27.32,
+          "end": 28.08
+        },
+        {
+          "word": "Phonetic",
+          "start": 28.08,
+          "end": 29.38
+        },
+        {
+          "word": "Alphabet.",
+          "start": 29.38,
+          "end": 30.02
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 31.58,
+      "end": 36.1,
+      "textEn": "Huh? Don't worry, I'm going to tell you all about it in just a minute.",
+      "textKo": "응? 걱정 마세요, 잠시 후에 다 알려드릴게요.",
+      "words": [
+        {
+          "word": "Huh?",
+          "start": 31.58,
+          "end": 32.3
+        },
+        {
+          "word": "Don't",
+          "start": 32.3,
+          "end": 33.02
+        },
+        {
+          "word": "worry,",
+          "start": 33.02,
+          "end": 33.28
+        },
+        {
+          "word": "I'm",
+          "start": 33.54,
+          "end": 33.88
+        },
+        {
+          "word": "going",
+          "start": 33.88,
+          "end": 33.94
+        },
+        {
+          "word": "to",
+          "start": 33.94,
+          "end": 34.04
+        },
+        {
+          "word": "tell",
+          "start": 34.04,
+          "end": 34.22
+        },
+        {
+          "word": "you",
+          "start": 34.22,
+          "end": 34.42
+        },
+        {
+          "word": "all",
+          "start": 34.42,
+          "end": 34.72
+        },
+        {
+          "word": "about",
+          "start": 34.72,
+          "end": 35.0
+        },
+        {
+          "word": "it",
+          "start": 35.0,
+          "end": 35.22
+        },
+        {
+          "word": "in",
+          "start": 35.22,
+          "end": 35.44
+        },
+        {
+          "word": "just",
+          "start": 35.44,
+          "end": 35.72
+        },
+        {
+          "word": "a",
+          "start": 35.72,
+          "end": 35.88
+        },
+        {
+          "word": "minute.",
+          "start": 35.88,
+          "end": 36.1
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 42.46,
+      "end": 47.54,
+      "textEn": "In lots of languages, each letter represents only one sound.",
+      "textKo": "많은 언어에서 각 글자는 하나의 소리만 나타내요.",
+      "words": [
+        {
+          "word": "In",
+          "start": 42.46,
+          "end": 43.18
+        },
+        {
+          "word": "lots",
+          "start": 43.18,
+          "end": 43.42
+        },
+        {
+          "word": "of",
+          "start": 43.42,
+          "end": 43.56
+        },
+        {
+          "word": "languages,",
+          "start": 43.56,
+          "end": 44.06
+        },
+        {
+          "word": "each",
+          "start": 44.42,
+          "end": 44.78
+        },
+        {
+          "word": "letter",
+          "start": 44.78,
+          "end": 45.2
+        },
+        {
+          "word": "represents",
+          "start": 45.2,
+          "end": 45.78
+        },
+        {
+          "word": "only",
+          "start": 45.78,
+          "end": 46.36
+        },
+        {
+          "word": "one",
+          "start": 46.36,
+          "end": 46.92
+        },
+        {
+          "word": "sound.",
+          "start": 46.92,
+          "end": 47.54
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 47.9,
+      "end": 52.28,
+      "textEn": "So it's easy to try and pronounce words",
+      "textKo": "그래서 단어를 발음하기 쉽죠",
+      "words": [
+        {
+          "word": "So",
+          "start": 47.9,
+          "end": 48.52
+        },
+        {
+          "word": "it's",
+          "start": 48.52,
+          "end": 49.2
+        },
+        {
+          "word": "easy",
+          "start": 49.2,
+          "end": 49.74
+        },
+        {
+          "word": "to",
+          "start": 49.74,
+          "end": 50.24
+        },
+        {
+          "word": "try",
+          "start": 50.24,
+          "end": 51.02
+        },
+        {
+          "word": "and",
+          "start": 51.02,
+          "end": 51.22
+        },
+        {
+          "word": "pronounce",
+          "start": 51.22,
+          "end": 51.68
+        },
+        {
+          "word": "words",
+          "start": 51.68,
+          "end": 52.28
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 52.28,
+      "end": 55.62,
+      "textEn": "Just by looking at how the word is spelt.",
+      "textKo": "단어의 철자를 보기만 해도요.",
+      "words": [
+        {
+          "word": "just",
+          "start": 52.28,
+          "end": 53.08
+        },
+        {
+          "word": "by",
+          "start": 53.08,
+          "end": 53.38
+        },
+        {
+          "word": "looking",
+          "start": 53.38,
+          "end": 53.7
+        },
+        {
+          "word": "at",
+          "start": 53.7,
+          "end": 53.94
+        },
+        {
+          "word": "how",
+          "start": 53.94,
+          "end": 54.3
+        },
+        {
+          "word": "the",
+          "start": 54.3,
+          "end": 54.54
+        },
+        {
+          "word": "word",
+          "start": 54.54,
+          "end": 54.86
+        },
+        {
+          "word": "is",
+          "start": 54.86,
+          "end": 55.18
+        },
+        {
+          "word": "spelt.",
+          "start": 55.18,
+          "end": 55.62
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 55.62,
+      "end": 58.62,
+      "textEn": "But English isn't like this.",
+      "textKo": "하지만 영어는 이렇지 않아요.",
+      "words": [
+        {
+          "word": "But",
+          "start": 55.62,
+          "end": 57.04
+        },
+        {
+          "word": "English",
+          "start": 57.04,
+          "end": 57.52
+        },
+        {
+          "word": "isn't",
+          "start": 57.52,
+          "end": 58.04
+        },
+        {
+          "word": "like",
+          "start": 58.04,
+          "end": 58.28
+        },
+        {
+          "word": "this.",
+          "start": 58.28,
+          "end": 58.62
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 58.98,
+      "end": 61.62,
+      "textEn": "No, no, no, no, no, no. Nope.",
+      "textKo": "아니, 아니, 아니, 아니, 아니, 아니. 아니요.",
+      "words": [
+        {
+          "word": "No,",
+          "start": 58.98,
+          "end": 59.14
+        },
+        {
+          "word": "no,",
+          "start": 59.5,
+          "end": 59.74
+        },
+        {
+          "word": "no,",
+          "start": 59.88,
+          "end": 60.04
+        },
+        {
+          "word": "no,",
+          "start": 60.08,
+          "end": 60.28
+        },
+        {
+          "word": "no,",
+          "start": 60.34,
+          "end": 60.52
+        },
+        {
+          "word": "no.",
+          "start": 60.58,
+          "end": 60.68
+        },
+        {
+          "word": "Nope.",
+          "start": 61.16,
+          "end": 61.62
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 62.72,
+      "end": 65.1,
+      "textEn": "Nope. Nope.",
+      "textKo": "아니요. 아니요.",
+      "words": [
+        {
+          "word": "Nope.",
+          "start": 62.72,
+          "end": 63.3
+        },
+        {
+          "word": "Nope.",
+          "start": 64.38,
+          "end": 65.1
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 65.98,
+      "end": 68.54,
+      "textEn": "When you see letters in an English word,",
+      "textKo": "영어 단어에서 글자를 볼 때,",
+      "words": [
+        {
+          "word": "When",
+          "start": 65.98,
+          "end": 66.62
+        },
+        {
+          "word": "you",
+          "start": 66.62,
+          "end": 66.74
+        },
+        {
+          "word": "see",
+          "start": 66.74,
+          "end": 66.94
+        },
+        {
+          "word": "letters",
+          "start": 66.94,
+          "end": 67.34
+        },
+        {
+          "word": "in",
+          "start": 67.34,
+          "end": 67.64
+        },
+        {
+          "word": "an",
+          "start": 67.64,
+          "end": 67.8
+        },
+        {
+          "word": "English",
+          "start": 67.8,
+          "end": 68.12
+        },
+        {
+          "word": "word,",
+          "start": 68.12,
+          "end": 68.54
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 68.78,
+      "end": 72.06,
+      "textEn": "They won't always be pronounced the same way.",
+      "textKo": "항상 같은 방식으로 발음되지는 않아요.",
+      "words": [
+        {
+          "word": "they",
+          "start": 68.78,
+          "end": 69.18
+        },
+        {
+          "word": "won't",
+          "start": 69.18,
+          "end": 69.56
+        },
+        {
+          "word": "always",
+          "start": 69.56,
+          "end": 70.04
+        },
+        {
+          "word": "be",
+          "start": 70.04,
+          "end": 70.34
+        },
+        {
+          "word": "pronounced",
+          "start": 70.34,
+          "end": 70.9
+        },
+        {
+          "word": "the",
+          "start": 70.9,
+          "end": 71.54
+        },
+        {
+          "word": "same",
+          "start": 71.54,
+          "end": 71.78
+        },
+        {
+          "word": "way.",
+          "start": 71.78,
+          "end": 72.06
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 72.88,
+      "end": 75.64,
+      "textEn": "Take the letter C for example.",
+      "textKo": "예를 들어 글자 C를 보세요.",
+      "words": [
+        {
+          "word": "Take",
+          "start": 72.88,
+          "end": 73.64
+        },
+        {
+          "word": "the",
+          "start": 73.64,
+          "end": 74.02
+        },
+        {
+          "word": "letter",
+          "start": 74.02,
+          "end": 74.32
+        },
+        {
+          "word": "C",
+          "start": 74.32,
+          "end": 74.7
+        },
+        {
+          "word": "for",
+          "start": 74.7,
+          "end": 75.04
+        },
+        {
+          "word": "example.",
+          "start": 75.04,
+          "end": 75.64
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 76.16,
+      "end": 79.22,
+      "textEn": "In the word cup, it's pronounced",
+      "textKo": "cup이라는 단어에서는 이렇게 발음돼요",
+      "words": [
+        {
+          "word": "In",
+          "start": 76.16,
+          "end": 76.76
+        },
+        {
+          "word": "the",
+          "start": 76.76,
+          "end": 76.88
+        },
+        {
+          "word": "word",
+          "start": 76.88,
+          "end": 77.28
+        },
+        {
+          "word": "cup,",
+          "start": 77.28,
+          "end": 77.74
+        },
+        {
+          "word": "it's",
+          "start": 78.1,
+          "end": 78.6
+        },
+        {
+          "word": "pronounced",
+          "start": 78.6,
+          "end": 79.22
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 79.22,
+      "end": 83.78,
+      "textEn": "But that's different to the word place.",
+      "textKo": "하지만 place라는 단어에서는 달라요.",
+      "words": [
+        {
+          "word": "but",
+          "start": 79.22,
+          "end": 81.12
+        },
+        {
+          "word": "that's",
+          "start": 81.12,
+          "end": 81.52
+        },
+        {
+          "word": "different",
+          "start": 81.52,
+          "end": 82.04
+        },
+        {
+          "word": "to",
+          "start": 82.04,
+          "end": 82.64
+        },
+        {
+          "word": "the",
+          "start": 82.64,
+          "end": 82.78
+        },
+        {
+          "word": "word",
+          "start": 82.78,
+          "end": 83.18
+        },
+        {
+          "word": "place.",
+          "start": 83.18,
+          "end": 83.78
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 85.22,
+      "end": 91.86,
+      "textEn": "And when a C is next to a H, it's often like in chocolate.",
+      "textKo": "그리고 C가 H 옆에 있으면, chocolate처럼 되는 경우가 많아요.",
+      "words": [
+        {
+          "word": "And",
+          "start": 85.22,
+          "end": 85.74
+        },
+        {
+          "word": "when",
+          "start": 85.74,
+          "end": 85.92
+        },
+        {
+          "word": "a",
+          "start": 85.92,
+          "end": 86.08
+        },
+        {
+          "word": "C",
+          "start": 86.08,
+          "end": 86.38
+        },
+        {
+          "word": "is",
+          "start": 86.38,
+          "end": 86.9
+        },
+        {
+          "word": "next",
+          "start": 86.9,
+          "end": 87.3
+        },
+        {
+          "word": "to",
+          "start": 87.3,
+          "end": 87.5
+        },
+        {
+          "word": "a",
+          "start": 87.5,
+          "end": 87.62
+        },
+        {
+          "word": "H,",
+          "start": 87.62,
+          "end": 87.9
+        },
+        {
+          "word": "it's",
+          "start": 88.38,
+          "end": 88.68
+        },
+        {
+          "word": "often",
+          "start": 88.68,
+          "end": 89.2
+        },
+        {
+          "word": "like",
+          "start": 89.2,
+          "end": 90.76
+        },
+        {
+          "word": "in",
+          "start": 90.76,
+          "end": 91.44
+        },
+        {
+          "word": "chocolate.",
+          "start": 91.44,
+          "end": 91.86
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 92.54,
+      "end": 99.16,
+      "textEn": "But in the word ache, it's pronounced like a again.",
+      "textKo": "하지만 ache라는 단어에서는 다시 K 소리로 발음돼요.",
+      "words": [
+        {
+          "word": "But",
+          "start": 92.54,
+          "end": 93.38
+        },
+        {
+          "word": "in",
+          "start": 93.38,
+          "end": 93.92
+        },
+        {
+          "word": "the",
+          "start": 93.92,
+          "end": 94.08
+        },
+        {
+          "word": "word",
+          "start": 94.08,
+          "end": 94.92
+        },
+        {
+          "word": "ache,",
+          "start": 94.92,
+          "end": 95.72
+        },
+        {
+          "word": "it's",
+          "start": 96.52,
+          "end": 97.32
+        },
+        {
+          "word": "pronounced",
+          "start": 97.32,
+          "end": 97.78
+        },
+        {
+          "word": "like",
+          "start": 97.78,
+          "end": 98.16
+        },
+        {
+          "word": "a",
+          "start": 98.16,
+          "end": 98.34
+        },
+        {
+          "word": "again.",
+          "start": 98.34,
+          "end": 99.16
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 101.26,
+      "end": 104.64,
+      "textEn": "This is why the International Phonetic Alphabet",
+      "textKo": "이것이 바로 국제 음성 기호가",
+      "words": [
+        {
+          "word": "This",
+          "start": 101.26,
+          "end": 101.94
+        },
+        {
+          "word": "is",
+          "start": 101.94,
+          "end": 102.22
+        },
+        {
+          "word": "why",
+          "start": 102.22,
+          "end": 102.48
+        },
+        {
+          "word": "the",
+          "start": 102.48,
+          "end": 102.72
+        },
+        {
+          "word": "International",
+          "start": 102.72,
+          "end": 103.36
+        },
+        {
+          "word": "Phonetic",
+          "start": 103.36,
+          "end": 104.06
+        },
+        {
+          "word": "Alphabet",
+          "start": 104.06,
+          "end": 104.64
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 104.64,
+      "end": 110.38,
+      "textEn": "Is such a great tool for English students to practice their pronunciation with.",
+      "textKo": "영어 학생들이 발음을 연습하는 데 아주 좋은 도구인 이유예요.",
+      "words": [
+        {
+          "word": "is",
+          "start": 104.64,
+          "end": 105.54
+        },
+        {
+          "word": "such",
+          "start": 105.54,
+          "end": 106.06
+        },
+        {
+          "word": "a",
+          "start": 106.06,
+          "end": 106.4
+        },
+        {
+          "word": "great",
+          "start": 106.4,
+          "end": 106.66
+        },
+        {
+          "word": "tool",
+          "start": 106.66,
+          "end": 107.0
+        },
+        {
+          "word": "for",
+          "start": 107.0,
+          "end": 107.3
+        },
+        {
+          "word": "English",
+          "start": 107.3,
+          "end": 107.8
+        },
+        {
+          "word": "students",
+          "start": 107.8,
+          "end": 108.32
+        },
+        {
+          "word": "to",
+          "start": 108.32,
+          "end": 108.76
+        },
+        {
+          "word": "practice",
+          "start": 108.76,
+          "end": 109.1
+        },
+        {
+          "word": "their",
+          "start": 109.1,
+          "end": 109.34
+        },
+        {
+          "word": "pronunciation",
+          "start": 109.34,
+          "end": 109.82
+        },
+        {
+          "word": "with.",
+          "start": 109.82,
+          "end": 110.38
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 110.54,
+      "end": 114.04,
+      "textEn": "And I use it all the time when I'm teaching pronunciation lessons.",
+      "textKo": "저도 발음 수업을 할 때 항상 사용해요.",
+      "words": [
+        {
+          "word": "And",
+          "start": 110.54,
+          "end": 110.7
+        },
+        {
+          "word": "I",
+          "start": 110.7,
+          "end": 110.88
+        },
+        {
+          "word": "use",
+          "start": 110.88,
+          "end": 111.2
+        },
+        {
+          "word": "it",
+          "start": 111.2,
+          "end": 111.34
+        },
+        {
+          "word": "all",
+          "start": 111.34,
+          "end": 111.6
+        },
+        {
+          "word": "the",
+          "start": 111.6,
+          "end": 111.82
+        },
+        {
+          "word": "time",
+          "start": 111.82,
+          "end": 112.06
+        },
+        {
+          "word": "when",
+          "start": 112.06,
+          "end": 112.28
+        },
+        {
+          "word": "I'm",
+          "start": 112.28,
+          "end": 112.5
+        },
+        {
+          "word": "teaching",
+          "start": 112.5,
+          "end": 112.78
+        },
+        {
+          "word": "pronunciation",
+          "start": 112.78,
+          "end": 113.36
+        },
+        {
+          "word": "lessons.",
+          "start": 113.36,
+          "end": 114.04
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 114.32,
+      "end": 118.52,
+      "textEn": "In the IPA, every sound has a unique symbol.",
+      "textKo": "IPA에서는 모든 소리에 고유한 기호가 있어요.",
+      "words": [
+        {
+          "word": "In",
+          "start": 114.32,
+          "end": 114.72
+        },
+        {
+          "word": "the",
+          "start": 114.72,
+          "end": 114.86
+        },
+        {
+          "word": "IPA,",
+          "start": 114.86,
+          "end": 115.42
+        },
+        {
+          "word": "every",
+          "start": 115.58,
+          "end": 115.98
+        },
+        {
+          "word": "sound",
+          "start": 115.98,
+          "end": 116.44
+        },
+        {
+          "word": "has",
+          "start": 116.44,
+          "end": 116.9
+        },
+        {
+          "word": "a",
+          "start": 116.9,
+          "end": 117.12
+        },
+        {
+          "word": "unique",
+          "start": 117.12,
+          "end": 117.58
+        },
+        {
+          "word": "symbol.",
+          "start": 117.58,
+          "end": 118.52
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 118.52,
+      "end": 123.82,
+      "textEn": "So when you read it, you know exactly how to pronounce the English word.",
+      "textKo": "그래서 읽으면 영어 단어를 어떻게 발음하는지 정확히 알 수 있어요.",
+      "words": [
+        {
+          "word": "So",
+          "start": 118.52,
+          "end": 119.1
+        },
+        {
+          "word": "when",
+          "start": 119.1,
+          "end": 119.34
+        },
+        {
+          "word": "you",
+          "start": 119.34,
+          "end": 119.5
+        },
+        {
+          "word": "read",
+          "start": 119.5,
+          "end": 119.84
+        },
+        {
+          "word": "it,",
+          "start": 119.84,
+          "end": 120.04
+        },
+        {
+          "word": "you",
+          "start": 120.2,
+          "end": 120.24
+        },
+        {
+          "word": "know",
+          "start": 120.24,
+          "end": 120.52
+        },
+        {
+          "word": "exactly",
+          "start": 120.52,
+          "end": 121.38
+        },
+        {
+          "word": "how",
+          "start": 121.38,
+          "end": 121.88
+        },
+        {
+          "word": "to",
+          "start": 121.88,
+          "end": 122.18
+        },
+        {
+          "word": "pronounce",
+          "start": 122.18,
+          "end": 122.64
+        },
+        {
+          "word": "the",
+          "start": 122.64,
+          "end": 123.14
+        },
+        {
+          "word": "English",
+          "start": 123.14,
+          "end": 123.42
+        },
+        {
+          "word": "word.",
+          "start": 123.42,
+          "end": 123.82
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 124.24,
+      "end": 126.76,
+      "textEn": "For example, the words",
+      "textKo": "예를 들어, 이 단어들은",
+      "words": [
+        {
+          "word": "For",
+          "start": 124.24,
+          "end": 125.14
+        },
+        {
+          "word": "example,",
+          "start": 125.14,
+          "end": 125.6
+        },
+        {
+          "word": "the",
+          "start": 126.1,
+          "end": 126.16
+        },
+        {
+          "word": "words",
+          "start": 126.16,
+          "end": 126.76
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 126.76,
+      "end": 130.32,
+      "textEn": "Though, thought and cough",
+      "textKo": "though, thought 그리고 cough",
+      "words": [
+        {
+          "word": "though,",
+          "start": 126.76,
+          "end": 127.5
+        },
+        {
+          "word": "thought",
+          "start": 128.22,
+          "end": 128.82
+        },
+        {
+          "word": "and",
+          "start": 128.82,
+          "end": 129.64
+        },
+        {
+          "word": "cough",
+          "start": 129.64,
+          "end": 130.32
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 130.32,
+      "end": 135.42,
+      "textEn": "All have the same O-U-G-H spelling",
+      "textKo": "모두 같은 O-U-G-H 철자를 가지고 있지만",
+      "words": [
+        {
+          "word": "all",
+          "start": 130.32,
+          "end": 131.46
+        },
+        {
+          "word": "have",
+          "start": 131.46,
+          "end": 131.84
+        },
+        {
+          "word": "the",
+          "start": 131.84,
+          "end": 132.12
+        },
+        {
+          "word": "same",
+          "start": 132.12,
+          "end": 132.72
+        },
+        {
+          "word": "O",
+          "start": 132.72,
+          "end": 133.34
+        },
+        {
+          "word": "-U",
+          "start": 133.34,
+          "end": 133.82
+        },
+        {
+          "word": "-G",
+          "start": 133.82,
+          "end": 134.36
+        },
+        {
+          "word": "-H",
+          "start": 134.36,
+          "end": 134.88
+        },
+        {
+          "word": "spelling",
+          "start": 134.88,
+          "end": 135.42
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 135.42,
+      "end": 139.0,
+      "textEn": "But actually they're pronounced very differently.",
+      "textKo": "사실 아주 다르게 발음돼요.",
+      "words": [
+        {
+          "word": "but",
+          "start": 135.42,
+          "end": 136.48
+        },
+        {
+          "word": "actually",
+          "start": 136.48,
+          "end": 136.92
+        },
+        {
+          "word": "they're",
+          "start": 136.92,
+          "end": 137.26
+        },
+        {
+          "word": "pronounced",
+          "start": 137.26,
+          "end": 137.82
+        },
+        {
+          "word": "very",
+          "start": 137.82,
+          "end": 138.42
+        },
+        {
+          "word": "differently.",
+          "start": 138.42,
+          "end": 139.0
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 140.7,
+      "end": 145.32,
+      "textEn": "Though, thought and cough.",
+      "textKo": "though, thought 그리고 cough.",
+      "words": [
+        {
+          "word": "Though,",
+          "start": 140.7,
+          "end": 141.62
+        },
+        {
+          "word": "thought",
+          "start": 142.92,
+          "end": 143.44
+        },
+        {
+          "word": "and",
+          "start": 143.44,
+          "end": 144.62
+        },
+        {
+          "word": "cough.",
+          "start": 144.62,
+          "end": 145.32
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 147.42,
+      "end": 150.84,
+      "textEn": "Now these symbols might seem a little scary to you,",
+      "textKo": "이 기호들이 좀 무섭게 보일 수도 있어요,",
+      "words": [
+        {
+          "word": "Now",
+          "start": 147.3,
+          "end": 147.76
+        },
+        {
+          "word": "these",
+          "start": 147.76,
+          "end": 148.06
+        },
+        {
+          "word": "symbols",
+          "start": 148.06,
+          "end": 148.54
+        },
+        {
+          "word": "might",
+          "start": 148.54,
+          "end": 149.04
+        },
+        {
+          "word": "seem",
+          "start": 149.04,
+          "end": 149.52
+        },
+        {
+          "word": "a",
+          "start": 149.52,
+          "end": 149.74
+        },
+        {
+          "word": "little",
+          "start": 149.74,
+          "end": 149.96
+        },
+        {
+          "word": "scary",
+          "start": 149.96,
+          "end": 150.4
+        },
+        {
+          "word": "to",
+          "start": 150.4,
+          "end": 150.64
+        },
+        {
+          "word": "you,",
+          "start": 150.64,
+          "end": 150.84
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 150.94,
+      "end": 154.1,
+      "textEn": "Especially if you haven't seen the IPA before.",
+      "textKo": "특히 IPA를 처음 보신다면요.",
+      "words": [
+        {
+          "word": "especially",
+          "start": 150.94,
+          "end": 151.44
+        },
+        {
+          "word": "if",
+          "start": 151.44,
+          "end": 151.78
+        },
+        {
+          "word": "you",
+          "start": 151.78,
+          "end": 151.92
+        },
+        {
+          "word": "haven't",
+          "start": 151.92,
+          "end": 152.46
+        },
+        {
+          "word": "seen",
+          "start": 152.46,
+          "end": 152.86
+        },
+        {
+          "word": "the",
+          "start": 152.86,
+          "end": 153.08
+        },
+        {
+          "word": "IPA",
+          "start": 153.08,
+          "end": 153.62
+        },
+        {
+          "word": "before.",
+          "start": 153.62,
+          "end": 154.1
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 155.22,
+      "end": 159.42,
+      "textEn": "But actually, they're so helpful for you",
+      "textKo": "하지만 사실 이것들은 아주 도움이 돼요",
+      "words": [
+        {
+          "word": "But",
+          "start": 155.22,
+          "end": 156.14
+        },
+        {
+          "word": "actually,",
+          "start": 156.14,
+          "end": 156.66
+        },
+        {
+          "word": "they're",
+          "start": 157.04,
+          "end": 157.72
+        },
+        {
+          "word": "so",
+          "start": 157.72,
+          "end": 158.1
+        },
+        {
+          "word": "helpful",
+          "start": 158.1,
+          "end": 158.78
+        },
+        {
+          "word": "for",
+          "start": 158.78,
+          "end": 159.16
+        },
+        {
+          "word": "you",
+          "start": 159.16,
+          "end": 159.42
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 159.42,
+      "end": 164.68,
+      "textEn": "When you're learning English pronunciation because it tells you exactly how to say the word.",
+      "textKo": "영어 발음을 배울 때, 단어를 정확히 어떻게 말하는지 알려주니까요.",
+      "words": [
+        {
+          "word": "when",
+          "start": 159.42,
+          "end": 159.64
+        },
+        {
+          "word": "you're",
+          "start": 159.64,
+          "end": 159.82
+        },
+        {
+          "word": "learning",
+          "start": 159.82,
+          "end": 160.1
+        },
+        {
+          "word": "English",
+          "start": 160.1,
+          "end": 160.48
+        },
+        {
+          "word": "pronunciation",
+          "start": 160.48,
+          "end": 161.12
+        },
+        {
+          "word": "because",
+          "start": 161.12,
+          "end": 161.64
+        },
+        {
+          "word": "it",
+          "start": 161.64,
+          "end": 161.88
+        },
+        {
+          "word": "tells",
+          "start": 161.88,
+          "end": 162.22
+        },
+        {
+          "word": "you",
+          "start": 162.22,
+          "end": 162.56
+        },
+        {
+          "word": "exactly",
+          "start": 162.56,
+          "end": 163.24
+        },
+        {
+          "word": "how",
+          "start": 163.24,
+          "end": 163.64
+        },
+        {
+          "word": "to",
+          "start": 163.64,
+          "end": 163.86
+        },
+        {
+          "word": "say",
+          "start": 163.86,
+          "end": 164.1
+        },
+        {
+          "word": "the",
+          "start": 164.1,
+          "end": 164.28
+        },
+        {
+          "word": "word.",
+          "start": 164.28,
+          "end": 164.68
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 166.02,
+      "end": 168.44,
+      "textEn": "K O",
+      "textKo": "K O",
+      "words": [
+        {
+          "word": "K",
+          "start": 166.02,
+          "end": 166.78
+        },
+        {
+          "word": "O",
+          "start": 167.68,
+          "end": 168.44
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 169.22,
+      "end": 172.12,
+      "textEn": "F Cough",
+      "textKo": "F Cough",
+      "words": [
+        {
+          "word": "F",
+          "start": 169.22,
+          "end": 169.98
+        },
+        {
+          "word": "Cough",
+          "start": 171.98,
+          "end": 172.36
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 174.24,
+      "end": 178.14,
+      "textEn": "Cough So even if you've never heard of these symbols before,",
+      "textKo": "Cough 이 기호들을 처음 보셨더라도,",
+      "words": [
+        {
+          "word": "Cough",
+          "start": 174.24,
+          "end": 175.0
+        },
+        {
+          "word": "So",
+          "start": 175.0,
+          "end": 175.0
+        },
+        {
+          "word": "even",
+          "start": 175.0,
+          "end": 175.4
+        },
+        {
+          "word": "if",
+          "start": 175.4,
+          "end": 175.7
+        },
+        {
+          "word": "you've",
+          "start": 175.7,
+          "end": 175.92
+        },
+        {
+          "word": "never",
+          "start": 175.92,
+          "end": 176.28
+        },
+        {
+          "word": "heard",
+          "start": 176.28,
+          "end": 176.72
+        },
+        {
+          "word": "of",
+          "start": 176.72,
+          "end": 177.04
+        },
+        {
+          "word": "these",
+          "start": 177.04,
+          "end": 177.28
+        },
+        {
+          "word": "symbols",
+          "start": 177.28,
+          "end": 177.68
+        },
+        {
+          "word": "before,",
+          "start": 177.68,
+          "end": 178.14
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 178.74,
+      "end": 183.0,
+      "textEn": "Don't freak out! In today's lesson, we're going to go through",
+      "textKo": "겁먹지 마세요! 오늘 수업에서 우리는",
+      "words": [
+        {
+          "word": "don't",
+          "start": 178.74,
+          "end": 179.38
+        },
+        {
+          "word": "freak",
+          "start": 179.38,
+          "end": 179.6
+        },
+        {
+          "word": "out!",
+          "start": 179.6,
+          "end": 179.94
+        },
+        {
+          "word": "In",
+          "start": 180.32,
+          "end": 180.86
+        },
+        {
+          "word": "today's",
+          "start": 180.86,
+          "end": 181.3
+        },
+        {
+          "word": "lesson,",
+          "start": 181.3,
+          "end": 181.62
+        },
+        {
+          "word": "we're",
+          "start": 181.76,
+          "end": 181.98
+        },
+        {
+          "word": "going",
+          "start": 181.98,
+          "end": 182.22
+        },
+        {
+          "word": "to",
+          "start": 182.22,
+          "end": 182.4
+        },
+        {
+          "word": "go",
+          "start": 182.4,
+          "end": 182.6
+        },
+        {
+          "word": "through",
+          "start": 182.6,
+          "end": 183.0
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 183.0,
+      "end": 186.0,
+      "textEn": "The International Phonetic Alphabet together.",
+      "textKo": "국제 음성 기호를 함께 살펴볼 거예요.",
+      "words": [
+        {
+          "word": "the",
+          "start": 183.0,
+          "end": 183.52
+        },
+        {
+          "word": "International",
+          "start": 183.52,
+          "end": 184.2
+        },
+        {
+          "word": "Phonetic",
+          "start": 184.2,
+          "end": 185.02
+        },
+        {
+          "word": "Alphabet",
+          "start": 185.02,
+          "end": 185.56
+        },
+        {
+          "word": "together.",
+          "start": 185.56,
+          "end": 186.0
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 186.8,
+      "end": 190.52,
+      "textEn": "Now, there's 26 letters in the English alphabet, right?",
+      "textKo": "자, 영어 알파벳에는 26개의 글자가 있죠, 맞죠?",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 186.8,
+          "end": 187.56
+        },
+        {
+          "word": "there's",
+          "start": 187.68,
+          "end": 187.92
+        },
+        {
+          "word": "26",
+          "start": 187.92,
+          "end": 188.4
+        },
+        {
+          "word": "letters",
+          "start": 188.4,
+          "end": 188.88
+        },
+        {
+          "word": "in",
+          "start": 188.88,
+          "end": 189.14
+        },
+        {
+          "word": "the",
+          "start": 189.14,
+          "end": 189.28
+        },
+        {
+          "word": "English",
+          "start": 189.28,
+          "end": 189.6
+        },
+        {
+          "word": "alphabet,",
+          "start": 189.6,
+          "end": 190.16
+        },
+        {
+          "word": "right?",
+          "start": 190.32,
+          "end": 190.52
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 194.3,
+      "end": 197.52,
+      "textEn": "But there are 44 different sounds.",
+      "textKo": "하지만 44개의 다른 소리가 있어요.",
+      "words": [
+        {
+          "word": "But",
+          "start": 194.3,
+          "end": 195.14
+        },
+        {
+          "word": "there",
+          "start": 195.14,
+          "end": 195.32
+        },
+        {
+          "word": "are",
+          "start": 195.32,
+          "end": 195.52
+        },
+        {
+          "word": "44",
+          "start": 195.52,
+          "end": 196.38
+        },
+        {
+          "word": "different",
+          "start": 196.38,
+          "end": 197.46
+        },
+        {
+          "word": "sounds.",
+          "start": 197.46,
+          "end": 197.88
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 198.88,
+      "end": 206.08,
+      "textEn": "Way more than there are letters. That's why I use the IPA to help my students",
+      "textKo": "글자보다 훨씬 많죠. 그래서 제가 학생들에게 IPA를 사용하는 거예요",
+      "words": [
+        {
+          "word": "Way",
+          "start": 198.88,
+          "end": 199.44
+        },
+        {
+          "word": "more",
+          "start": 199.44,
+          "end": 199.8
+        },
+        {
+          "word": "than",
+          "start": 199.8,
+          "end": 199.96
+        },
+        {
+          "word": "there",
+          "start": 199.96,
+          "end": 200.14
+        },
+        {
+          "word": "are",
+          "start": 200.14,
+          "end": 200.28
+        },
+        {
+          "word": "letters.",
+          "start": 200.28,
+          "end": 200.66
+        },
+        {
+          "word": "That's",
+          "start": 201.66,
+          "end": 202.5
+        },
+        {
+          "word": "why",
+          "start": 202.5,
+          "end": 202.68
+        },
+        {
+          "word": "I",
+          "start": 202.68,
+          "end": 202.98
+        },
+        {
+          "word": "use",
+          "start": 202.98,
+          "end": 203.36
+        },
+        {
+          "word": "the",
+          "start": 203.36,
+          "end": 203.56
+        },
+        {
+          "word": "IPA",
+          "start": 203.56,
+          "end": 204.32
+        },
+        {
+          "word": "to",
+          "start": 204.32,
+          "end": 205.26
+        },
+        {
+          "word": "help",
+          "start": 205.26,
+          "end": 205.5
+        },
+        {
+          "word": "my",
+          "start": 205.5,
+          "end": 205.66
+        },
+        {
+          "word": "students",
+          "start": 205.66,
+          "end": 206.08
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 206.08,
+      "end": 208.14,
+      "textEn": "When they're studying English pronunciation.",
+      "textKo": "영어 발음을 공부할 때요.",
+      "words": [
+        {
+          "word": "when",
+          "start": 206.08,
+          "end": 206.46
+        },
+        {
+          "word": "they're",
+          "start": 206.46,
+          "end": 206.66
+        },
+        {
+          "word": "studying",
+          "start": 206.66,
+          "end": 207.08
+        },
+        {
+          "word": "English",
+          "start": 207.08,
+          "end": 207.5
+        },
+        {
+          "word": "pronunciation.",
+          "start": 207.5,
+          "end": 208.14
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 209.62,
+      "end": 211.74,
+      "textEn": "Let's look at vowels first.",
+      "textKo": "먼저 모음을 살펴봅시다.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 209.62,
+          "end": 210.46
+        },
+        {
+          "word": "look",
+          "start": 210.46,
+          "end": 210.62
+        },
+        {
+          "word": "at",
+          "start": 210.62,
+          "end": 210.76
+        },
+        {
+          "word": "vowels",
+          "start": 210.76,
+          "end": 211.26
+        },
+        {
+          "word": "first.",
+          "start": 211.26,
+          "end": 211.74
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 212.48,
+      "end": 216.16,
+      "textEn": "There are five English vowels, aren't there?",
+      "textKo": "영어 모음은 다섯 개죠, 그렇죠?",
+      "words": [
+        {
+          "word": "There",
+          "start": 212.48,
+          "end": 213.12
+        },
+        {
+          "word": "are",
+          "start": 213.12,
+          "end": 213.44
+        },
+        {
+          "word": "five",
+          "start": 213.44,
+          "end": 214.5
+        },
+        {
+          "word": "English",
+          "start": 214.5,
+          "end": 215.06
+        },
+        {
+          "word": "vowels,",
+          "start": 215.06,
+          "end": 215.6
+        },
+        {
+          "word": "aren't",
+          "start": 215.82,
+          "end": 215.96
+        },
+        {
+          "word": "there?",
+          "start": 215.96,
+          "end": 216.16
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 216.16,
+      "end": 218.44,
+      "textEn": "A E",
+      "textKo": "A E",
+      "words": [
+        {
+          "word": "A",
+          "start": 216.16,
+          "end": 217.5
+        },
+        {
+          "word": "E",
+          "start": 218.06,
+          "end": 218.44
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 219.16,
+      "end": 222.0,
+      "textEn": "I O and U",
+      "textKo": "I O 그리고 U",
+      "words": [
+        {
+          "word": "I",
+          "start": 219.14,
+          "end": 219.52
+        },
+        {
+          "word": "O",
+          "start": 220.04,
+          "end": 220.42
+        },
+        {
+          "word": "and",
+          "start": 221.16,
+          "end": 221.58
+        },
+        {
+          "word": "U",
+          "start": 221.58,
+          "end": 222.0
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 224.24,
+      "end": 228.04,
+      "textEn": "But there are way more English vowel sounds.",
+      "textKo": "하지만 영어 모음 소리는 훨씬 더 많아요.",
+      "words": [
+        {
+          "word": "But",
+          "start": 224.24,
+          "end": 225.0
+        },
+        {
+          "word": "there",
+          "start": 225.0,
+          "end": 225.22
+        },
+        {
+          "word": "are",
+          "start": 225.22,
+          "end": 225.52
+        },
+        {
+          "word": "way",
+          "start": 225.52,
+          "end": 226.08
+        },
+        {
+          "word": "more",
+          "start": 226.08,
+          "end": 226.62
+        },
+        {
+          "word": "English",
+          "start": 226.62,
+          "end": 227.22
+        },
+        {
+          "word": "vowel",
+          "start": 227.22,
+          "end": 227.56
+        },
+        {
+          "word": "sounds.",
+          "start": 227.56,
+          "end": 228.04
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 229.18,
+      "end": 232.54,
+      "textEn": "Some of them are long, some of them are short,",
+      "textKo": "어떤 것은 길고, 어떤 것은 짧고,",
+      "words": [
+        {
+          "word": "Some",
+          "start": 229.18,
+          "end": 229.94
+        },
+        {
+          "word": "of",
+          "start": 229.94,
+          "end": 230.04
+        },
+        {
+          "word": "them",
+          "start": 230.04,
+          "end": 230.22
+        },
+        {
+          "word": "are",
+          "start": 230.22,
+          "end": 230.52
+        },
+        {
+          "word": "long,",
+          "start": 230.52,
+          "end": 231.2
+        },
+        {
+          "word": "some",
+          "start": 231.48,
+          "end": 231.74
+        },
+        {
+          "word": "of",
+          "start": 231.74,
+          "end": 231.86
+        },
+        {
+          "word": "them",
+          "start": 231.86,
+          "end": 232.0
+        },
+        {
+          "word": "are",
+          "start": 232.0,
+          "end": 232.14
+        },
+        {
+          "word": "short,",
+          "start": 232.14,
+          "end": 232.54
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "start": 232.94,
+      "end": 235.46,
+      "textEn": "And some of them are just lazy.",
+      "textKo": "어떤 것은 그냥 게으른 소리예요.",
+      "words": [
+        {
+          "word": "and",
+          "start": 232.94,
+          "end": 233.48
+        },
+        {
+          "word": "some",
+          "start": 233.48,
+          "end": 233.78
+        },
+        {
+          "word": "of",
+          "start": 233.78,
+          "end": 233.94
+        },
+        {
+          "word": "them",
+          "start": 233.94,
+          "end": 234.1
+        },
+        {
+          "word": "are",
+          "start": 234.1,
+          "end": 234.26
+        },
+        {
+          "word": "just",
+          "start": 234.26,
+          "end": 234.52
+        },
+        {
+          "word": "lazy.",
+          "start": 234.52,
+          "end": 235.46
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "start": 235.46,
+      "end": 238.6,
+      "textEn": "Let's go through them.",
+      "textKo": "함께 살펴봅시다.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 235.46,
+          "end": 238.0
+        },
+        {
+          "word": "go",
+          "start": 238.0,
+          "end": 238.14
+        },
+        {
+          "word": "through",
+          "start": 238.14,
+          "end": 238.36
+        },
+        {
+          "word": "them.",
+          "start": 238.36,
+          "end": 238.6
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "start": 239.88,
+      "end": 243.04,
+      "textEn": "I E E",
+      "textKo": "I E E",
+      "words": [
+        {
+          "word": "I",
+          "start": 239.88,
+          "end": 240.56
+        },
+        {
+          "word": "E",
+          "start": 240.56,
+          "end": 241.46
+        },
+        {
+          "word": "E",
+          "start": 242.48,
+          "end": 243.04
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "start": 243.04,
+      "end": 245.2,
+      "textEn": "U",
+      "textKo": "U",
+      "words": [
+        {
+          "word": "U",
+          "start": 243.04,
+          "end": 245.2
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "start": 246.8,
+      "end": 250.74,
+      "textEn": "U U E",
+      "textKo": "U U E",
+      "words": [
+        {
+          "word": "U",
+          "start": 246.8,
+          "end": 248.16
+        },
+        {
+          "word": "U",
+          "start": 248.16,
+          "end": 248.84
+        },
+        {
+          "word": "E",
+          "start": 250.06,
+          "end": 250.74
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "start": 250.74,
+      "end": 252.78,
+      "textEn": "U",
+      "textKo": "U",
+      "words": [
+        {
+          "word": "U",
+          "start": 250.74,
+          "end": 252.78
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "start": 252.78,
+      "end": 254.98,
+      "textEn": "U U",
+      "textKo": "U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 252.78,
+          "end": 253.46
+        },
+        {
+          "word": "U",
+          "start": 254.8,
+          "end": 254.98
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "start": 254.98,
+      "end": 257.1,
+      "textEn": "U U U",
+      "textKo": "U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 254.98,
+          "end": 255.16
+        },
+        {
+          "word": "U",
+          "start": 255.16,
+          "end": 255.2
+        },
+        {
+          "word": "U",
+          "start": 256.3,
+          "end": 257.1
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "start": 258.94,
+      "end": 262.12,
+      "textEn": "U U",
+      "textKo": "U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 258.94,
+          "end": 259.74
+        },
+        {
+          "word": "U",
+          "start": 261.32,
+          "end": 262.12
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "start": 262.12,
+      "end": 264.12,
+      "textEn": "U U",
+      "textKo": "U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 262.12,
+          "end": 262.9
+        },
+        {
+          "word": "U",
+          "start": 262.9,
+          "end": 264.12
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "start": 264.12,
+      "end": 266.44,
+      "textEn": "U U U U U",
+      "textKo": "U U U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 264.12,
+          "end": 264.36
+        },
+        {
+          "word": "U",
+          "start": 264.36,
+          "end": 264.4
+        },
+        {
+          "word": "U",
+          "start": 264.4,
+          "end": 264.58
+        },
+        {
+          "word": "U",
+          "start": 264.58,
+          "end": 264.7
+        },
+        {
+          "word": "U",
+          "start": 265.64,
+          "end": 266.44
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "start": 266.44,
+      "end": 271.88,
+      "textEn": "U U U U U U There's another group of vowel sounds called diphthongs.",
+      "textKo": "U U U U U U 이중모음이라고 불리는 또 다른 모음 소리 그룹이 있어요.",
+      "words": [
+        {
+          "word": "U",
+          "start": 266.44,
+          "end": 266.5
+        },
+        {
+          "word": "U",
+          "start": 266.5,
+          "end": 266.58
+        },
+        {
+          "word": "U",
+          "start": 266.58,
+          "end": 266.7
+        },
+        {
+          "word": "U",
+          "start": 266.7,
+          "end": 267.28
+        },
+        {
+          "word": "U",
+          "start": 267.28,
+          "end": 268.04
+        },
+        {
+          "word": "U",
+          "start": 268.04,
+          "end": 268.1
+        },
+        {
+          "word": "There's",
+          "start": 268.1,
+          "end": 268.5
+        },
+        {
+          "word": "another",
+          "start": 268.5,
+          "end": 269.0
+        },
+        {
+          "word": "group",
+          "start": 269.0,
+          "end": 269.24
+        },
+        {
+          "word": "of",
+          "start": 269.24,
+          "end": 269.46
+        },
+        {
+          "word": "vowel",
+          "start": 269.46,
+          "end": 269.72
+        },
+        {
+          "word": "sounds",
+          "start": 269.72,
+          "end": 270.18
+        },
+        {
+          "word": "called",
+          "start": 270.18,
+          "end": 270.78
+        },
+        {
+          "word": "diphthongs.",
+          "start": 270.78,
+          "end": 271.88
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "start": 272.98,
+      "end": 276.96,
+      "textEn": "Now, don't worry about remembering that crazy name.",
+      "textKo": "자, 그 복잡한 이름은 걱정하지 마세요.",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 272.98,
+          "end": 273.76
+        },
+        {
+          "word": "don't",
+          "start": 273.96,
+          "end": 274.46
+        },
+        {
+          "word": "worry",
+          "start": 274.46,
+          "end": 274.78
+        },
+        {
+          "word": "about",
+          "start": 274.78,
+          "end": 275.14
+        },
+        {
+          "word": "remembering",
+          "start": 275.14,
+          "end": 275.82
+        },
+        {
+          "word": "that",
+          "start": 275.82,
+          "end": 276.18
+        },
+        {
+          "word": "crazy",
+          "start": 276.18,
+          "end": 276.6
+        },
+        {
+          "word": "name.",
+          "start": 276.6,
+          "end": 276.96
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "start": 277.22,
+      "end": 279.88,
+      "textEn": "All you need to do is remember the sounds.",
+      "textKo": "소리만 기억하면 돼요.",
+      "words": [
+        {
+          "word": "All",
+          "start": 277.22,
+          "end": 277.66
+        },
+        {
+          "word": "you",
+          "start": 277.66,
+          "end": 277.84
+        },
+        {
+          "word": "need",
+          "start": 277.84,
+          "end": 278.0
+        },
+        {
+          "word": "to",
+          "start": 278.0,
+          "end": 278.14
+        },
+        {
+          "word": "do",
+          "start": 278.14,
+          "end": 278.32
+        },
+        {
+          "word": "is",
+          "start": 278.32,
+          "end": 278.54
+        },
+        {
+          "word": "remember",
+          "start": 278.54,
+          "end": 278.94
+        },
+        {
+          "word": "the",
+          "start": 278.94,
+          "end": 279.28
+        },
+        {
+          "word": "sounds.",
+          "start": 279.28,
+          "end": 279.88
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "start": 280.66,
+      "end": 288.86,
+      "textEn": "Diphthongs are sounds that change from one vowel sound to another but in the same syllable.",
+      "textKo": "이중모음은 같은 음절 안에서 한 모음 소리에서 다른 모음 소리로 바뀌는 소리예요.",
+      "words": [
+        {
+          "word": "Diphthongs",
+          "start": 280.66,
+          "end": 281.44
+        },
+        {
+          "word": "are",
+          "start": 281.44,
+          "end": 281.78
+        },
+        {
+          "word": "sounds",
+          "start": 281.78,
+          "end": 282.5
+        },
+        {
+          "word": "that",
+          "start": 282.5,
+          "end": 282.8
+        },
+        {
+          "word": "change",
+          "start": 282.8,
+          "end": 283.34
+        },
+        {
+          "word": "from",
+          "start": 283.34,
+          "end": 283.8
+        },
+        {
+          "word": "one",
+          "start": 283.8,
+          "end": 284.34
+        },
+        {
+          "word": "vowel",
+          "start": 284.34,
+          "end": 284.7
+        },
+        {
+          "word": "sound",
+          "start": 284.7,
+          "end": 285.16
+        },
+        {
+          "word": "to",
+          "start": 285.16,
+          "end": 286.04
+        },
+        {
+          "word": "another",
+          "start": 286.04,
+          "end": 286.52
+        },
+        {
+          "word": "but",
+          "start": 286.52,
+          "end": 287.46
+        },
+        {
+          "word": "in",
+          "start": 287.46,
+          "end": 287.82
+        },
+        {
+          "word": "the",
+          "start": 287.82,
+          "end": 287.96
+        },
+        {
+          "word": "same",
+          "start": 287.96,
+          "end": 288.34
+        },
+        {
+          "word": "syllable.",
+          "start": 288.34,
+          "end": 288.86
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "start": 290.2,
+      "end": 295.68,
+      "textEn": "So, watch my mouth position change as I make each of these sounds.",
+      "textKo": "그러니 제가 이 소리들을 낼 때 입 모양이 바뀌는 것을 지켜보세요.",
+      "words": [
+        {
+          "word": "So,",
+          "start": 290.2,
+          "end": 290.94
+        },
+        {
+          "word": "watch",
+          "start": 291.14,
+          "end": 291.6
+        },
+        {
+          "word": "my",
+          "start": 291.6,
+          "end": 291.86
+        },
+        {
+          "word": "mouth",
+          "start": 291.86,
+          "end": 292.2
+        },
+        {
+          "word": "position",
+          "start": 292.2,
+          "end": 292.7
+        },
+        {
+          "word": "change",
+          "start": 292.7,
+          "end": 293.2
+        },
+        {
+          "word": "as",
+          "start": 293.2,
+          "end": 293.94
+        },
+        {
+          "word": "I",
+          "start": 293.94,
+          "end": 294.18
+        },
+        {
+          "word": "make",
+          "start": 294.18,
+          "end": 294.52
+        },
+        {
+          "word": "each",
+          "start": 294.52,
+          "end": 294.78
+        },
+        {
+          "word": "of",
+          "start": 294.78,
+          "end": 294.94
+        },
+        {
+          "word": "these",
+          "start": 294.94,
+          "end": 295.14
+        },
+        {
+          "word": "sounds.",
+          "start": 295.14,
+          "end": 295.68
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "start": 296.98,
+      "end": 300.96,
+      "textEn": "I U",
+      "textKo": "I U",
+      "words": [
+        {
+          "word": "I",
+          "start": 296.98,
+          "end": 297.58
+        },
+        {
+          "word": "U",
+          "start": 300.36,
+          "end": 300.96
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "start": 302.28,
+      "end": 305.04,
+      "textEn": "U U U",
+      "textKo": "U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 302.28,
+          "end": 302.88
+        },
+        {
+          "word": "U",
+          "start": 302.88,
+          "end": 303.78
+        },
+        {
+          "word": "U",
+          "start": 304.44,
+          "end": 305.04
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "start": 305.04,
+      "end": 307.56,
+      "textEn": "U U",
+      "textKo": "U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 305.04,
+          "end": 305.28
+        },
+        {
+          "word": "U",
+          "start": 306.96,
+          "end": 307.56
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "start": 307.56,
+      "end": 309.72,
+      "textEn": "U U U U U U",
+      "textKo": "U U U U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 307.56,
+          "end": 307.8
+        },
+        {
+          "word": "U",
+          "start": 307.8,
+          "end": 308.28
+        },
+        {
+          "word": "U",
+          "start": 308.28,
+          "end": 308.58
+        },
+        {
+          "word": "U",
+          "start": 308.58,
+          "end": 308.74
+        },
+        {
+          "word": "U",
+          "start": 308.74,
+          "end": 308.76
+        },
+        {
+          "word": "U",
+          "start": 308.76,
+          "end": 309.72
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "start": 309.72,
+      "end": 312.26,
+      "textEn": "U U U U U U U",
+      "textKo": "U U U U U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 309.72,
+          "end": 309.74
+        },
+        {
+          "word": "U",
+          "start": 309.74,
+          "end": 309.78
+        },
+        {
+          "word": "U",
+          "start": 309.78,
+          "end": 309.9
+        },
+        {
+          "word": "U",
+          "start": 309.9,
+          "end": 309.94
+        },
+        {
+          "word": "U",
+          "start": 309.94,
+          "end": 310.0
+        },
+        {
+          "word": "U",
+          "start": 310.0,
+          "end": 310.56
+        },
+        {
+          "word": "U",
+          "start": 311.66,
+          "end": 312.26
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "start": 312.26,
+      "end": 314.88,
+      "textEn": "U U U U",
+      "textKo": "U U U U",
+      "words": [
+        {
+          "word": "U",
+          "start": 312.26,
+          "end": 312.28
+        },
+        {
+          "word": "U",
+          "start": 312.28,
+          "end": 312.3
+        },
+        {
+          "word": "U",
+          "start": 312.3,
+          "end": 312.36
+        },
+        {
+          "word": "U",
+          "start": 314.28,
+          "end": 314.88
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "start": 316.54,
+      "end": 331.5,
+      "textEn": "U consonant sounds which means that the sound is made by air moving from the",
+      "textKo": "U 자음 소리는 입 뒤쪽에서 공기가 이동하여 입술 밖으로 나오면서 만들어져요.",
+      "words": [
+        {
+          "word": "U",
+          "start": 316.54,
+          "end": 317.14
+        },
+        {
+          "word": "consonant",
+          "start": 325.82,
+          "end": 326.5
+        },
+        {
+          "word": "sounds",
+          "start": 326.5,
+          "end": 327.04
+        },
+        {
+          "word": "which",
+          "start": 327.04,
+          "end": 327.86
+        },
+        {
+          "word": "means",
+          "start": 327.86,
+          "end": 328.2
+        },
+        {
+          "word": "that",
+          "start": 328.2,
+          "end": 328.46
+        },
+        {
+          "word": "the",
+          "start": 328.46,
+          "end": 328.62
+        },
+        {
+          "word": "sound",
+          "start": 328.62,
+          "end": 329.04
+        },
+        {
+          "word": "is",
+          "start": 329.04,
+          "end": 329.28
+        },
+        {
+          "word": "made",
+          "start": 329.28,
+          "end": 329.58
+        },
+        {
+          "word": "by",
+          "start": 329.58,
+          "end": 330.02
+        },
+        {
+          "word": "air",
+          "start": 330.02,
+          "end": 330.6
+        },
+        {
+          "word": "moving",
+          "start": 330.6,
+          "end": 331.02
+        },
+        {
+          "word": "from",
+          "start": 331.02,
+          "end": 331.34
+        },
+        {
+          "word": "the",
+          "start": 331.34,
+          "end": 331.5
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "start": 331.5,
+      "end": 338.32,
+      "textEn": "Back of your mouth through and out your lips. There is one extra letter that is",
+      "textKo": "아래에 무성음 글자가 하나 더 있어요. 그리고 나머지 자음 소리는 모두 유성음이에요",
+      "words": [
+        {
+          "word": "back",
+          "start": 331.5,
+          "end": 331.68
+        },
+        {
+          "word": "of",
+          "start": 331.68,
+          "end": 331.86
+        },
+        {
+          "word": "your",
+          "start": 331.86,
+          "end": 332.0
+        },
+        {
+          "word": "mouth",
+          "start": 332.0,
+          "end": 332.42
+        },
+        {
+          "word": "through",
+          "start": 332.42,
+          "end": 333.48
+        },
+        {
+          "word": "and",
+          "start": 333.48,
+          "end": 333.88
+        },
+        {
+          "word": "out",
+          "start": 333.88,
+          "end": 334.08
+        },
+        {
+          "word": "your",
+          "start": 334.08,
+          "end": 334.28
+        },
+        {
+          "word": "lips.",
+          "start": 334.28,
+          "end": 334.68
+        },
+        {
+          "word": "There",
+          "start": 335.76,
+          "end": 336.44
+        },
+        {
+          "word": "is",
+          "start": 336.44,
+          "end": 336.6
+        },
+        {
+          "word": "one",
+          "start": 336.6,
+          "end": 336.82
+        },
+        {
+          "word": "extra",
+          "start": 336.82,
+          "end": 337.32
+        },
+        {
+          "word": "letter",
+          "start": 337.32,
+          "end": 337.7
+        },
+        {
+          "word": "that",
+          "start": 337.7,
+          "end": 338.12
+        },
+        {
+          "word": "is",
+          "start": 338.12,
+          "end": 338.32
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "start": 338.32,
+      "end": 344.14,
+      "textEn": "Unvoiced down the bottom. Then all the rest of the consonant sounds are voiced",
+      "textKo": "이는 성대에서 소리가 만들어진다는 뜻이에요. 여기서 느낄 수 있어요",
+      "words": [
+        {
+          "word": "unvoiced",
+          "start": 338.32,
+          "end": 339.1
+        },
+        {
+          "word": "down",
+          "start": 339.1,
+          "end": 339.68
+        },
+        {
+          "word": "the",
+          "start": 339.68,
+          "end": 339.86
+        },
+        {
+          "word": "bottom.",
+          "start": 339.86,
+          "end": 340.14
+        },
+        {
+          "word": "Then",
+          "start": 340.96,
+          "end": 341.4
+        },
+        {
+          "word": "all",
+          "start": 341.4,
+          "end": 341.7
+        },
+        {
+          "word": "the",
+          "start": 341.7,
+          "end": 341.88
+        },
+        {
+          "word": "rest",
+          "start": 341.88,
+          "end": 342.1
+        },
+        {
+          "word": "of",
+          "start": 342.1,
+          "end": 342.28
+        },
+        {
+          "word": "the",
+          "start": 342.28,
+          "end": 342.38
+        },
+        {
+          "word": "consonant",
+          "start": 342.38,
+          "end": 342.78
+        },
+        {
+          "word": "sounds",
+          "start": 342.78,
+          "end": 343.24
+        },
+        {
+          "word": "are",
+          "start": 343.24,
+          "end": 343.56
+        },
+        {
+          "word": "voiced",
+          "start": 343.56,
+          "end": 344.14
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "start": 344.14,
+      "end": 352.74,
+      "textEn": "Which means that the sound is made here with your vocal cords. You can feel it",
+      "textKo": "그리고 무성음은 공기만 사용해요. 여기서 아무것도 느낄 수 없어요.",
+      "words": [
+        {
+          "word": "which",
+          "start": 344.14,
+          "end": 344.82
+        },
+        {
+          "word": "means",
+          "start": 344.82,
+          "end": 345.14
+        },
+        {
+          "word": "that",
+          "start": 345.14,
+          "end": 345.48
+        },
+        {
+          "word": "the",
+          "start": 345.48,
+          "end": 345.66
+        },
+        {
+          "word": "sound",
+          "start": 345.66,
+          "end": 346.1
+        },
+        {
+          "word": "is",
+          "start": 346.1,
+          "end": 346.44
+        },
+        {
+          "word": "made",
+          "start": 346.44,
+          "end": 346.76
+        },
+        {
+          "word": "here",
+          "start": 346.76,
+          "end": 347.56
+        },
+        {
+          "word": "with",
+          "start": 347.56,
+          "end": 348.1
+        },
+        {
+          "word": "your",
+          "start": 348.1,
+          "end": 348.36
+        },
+        {
+          "word": "vocal",
+          "start": 348.36,
+          "end": 348.86
+        },
+        {
+          "word": "cords.",
+          "start": 348.86,
+          "end": 349.42
+        },
+        {
+          "word": "You",
+          "start": 351.42,
+          "end": 352.1
+        },
+        {
+          "word": "can",
+          "start": 352.1,
+          "end": 352.3
+        },
+        {
+          "word": "feel",
+          "start": 352.3,
+          "end": 352.52
+        },
+        {
+          "word": "it",
+          "start": 352.52,
+          "end": 352.74
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "start": 352.74,
+      "end": 361.04,
+      "textEn": "Here and unvoiced sounds use just air. You can't feel anything here.",
+      "textKo": "H, A, H.",
+      "words": [
+        {
+          "word": "here",
+          "start": 352.74,
+          "end": 353.08
+        },
+        {
+          "word": "and",
+          "start": 353.08,
+          "end": 354.1
+        },
+        {
+          "word": "unvoiced",
+          "start": 354.1,
+          "end": 354.74
+        },
+        {
+          "word": "sounds",
+          "start": 354.74,
+          "end": 355.24
+        },
+        {
+          "word": "use",
+          "start": 355.24,
+          "end": 356.02
+        },
+        {
+          "word": "just",
+          "start": 356.02,
+          "end": 356.52
+        },
+        {
+          "word": "air.",
+          "start": 356.52,
+          "end": 356.96
+        },
+        {
+          "word": "You",
+          "start": 358.92,
+          "end": 359.78
+        },
+        {
+          "word": "can't",
+          "start": 359.78,
+          "end": 360.06
+        },
+        {
+          "word": "feel",
+          "start": 360.06,
+          "end": 360.26
+        },
+        {
+          "word": "anything",
+          "start": 360.26,
+          "end": 360.62
+        },
+        {
+          "word": "here.",
+          "start": 360.62,
+          "end": 361.04
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "start": 361.04,
+      "end": 366.46,
+      "textEn": "H, A, H.",
+      "textKo": "P, F, T, F, CH, S, SH, K, H, T.",
+      "words": [
+        {
+          "word": "H,",
+          "start": 361.04,
+          "end": 362.04
+        },
+        {
+          "word": "A,",
+          "start": 362.62,
+          "end": 364.32
+        },
+        {
+          "word": "H.",
+          "start": 365.4,
+          "end": 366.46
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "start": 371.88,
+      "end": 390.72,
+      "textEn": "P, F, T, F, CH, S, SH, K, H, T.",
+      "textKo": "P, V, D, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z,",
+      "words": [
+        {
+          "word": "P,",
+          "start": 371.88,
+          "end": 373.28
+        },
+        {
+          "word": "F,",
+          "start": 373.28,
+          "end": 374.68
+        },
+        {
+          "word": "T,",
+          "start": 375.68,
+          "end": 376.72
+        },
+        {
+          "word": "F,",
+          "start": 378.62,
+          "end": 379.14
+        },
+        {
+          "word": "CH,",
+          "start": 380.1,
+          "end": 380.9
+        },
+        {
+          "word": "S,",
+          "start": 382.06,
+          "end": 383.2
+        },
+        {
+          "word": "SH,",
+          "start": 384.88,
+          "end": 385.34
+        },
+        {
+          "word": "K,",
+          "start": 387.24,
+          "end": 387.5
+        },
+        {
+          "word": "H,",
+          "start": 388.96,
+          "end": 389.68
+        },
+        {
+          "word": "T.",
+          "start": 390.34,
+          "end": 390.72
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "start": 393.9,
+      "end": 420.98,
+      "textEn": "P, V, D, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z",
+      "textKo": "P, V, D, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z, Z,",
+      "words": [
+        {
+          "word": "P,",
+          "start": 393.9,
+          "end": 394.94
+        },
+        {
+          "word": "V,",
+          "start": 394.94,
+          "end": 395.98
+        },
+        {
+          "word": "D,",
+          "start": 396.8,
+          "end": 398.1
+        },
+        {
+          "word": "Z,",
+          "start": 399.06,
+          "end": 400.36
+        },
+        {
+          "word": "Z,",
+          "start": 402.72,
+          "end": 402.92
+        },
+        {
+          "word": "Z,",
+          "start": 405.42,
+          "end": 406.92
+        },
+        {
+          "word": "Z,",
+          "start": 408.08,
+          "end": 408.08
+        },
+        {
+          "word": "Z,",
+          "start": 408.86,
+          "end": 409.06
+        },
+        {
+          "word": "Z,",
+          "start": 409.06,
+          "end": 409.06
+        },
+        {
+          "word": "Z,",
+          "start": 409.3,
+          "end": 409.3
+        },
+        {
+          "word": "Z,",
+          "start": 409.88,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.16,
+          "end": 410.16
+        },
+        {
+          "word": "Z,",
+          "start": 410.3,
+          "end": 410.74
+        },
+        {
+          "word": "Z,",
+          "start": 410.74,
+          "end": 410.74
+        },
+        {
+          "word": "Z,",
+          "start": 410.74,
+          "end": 410.74
+        },
+        {
+          "word": "Z,",
+          "start": 410.74,
+          "end": 411.02
+        },
+        {
+          "word": "Z,",
+          "start": 411.02,
+          "end": 411.02
+        },
+        {
+          "word": "Z,",
+          "start": 411.02,
+          "end": 411.02
+        },
+        {
+          "word": "Z,",
+          "start": 411.02,
+          "end": 411.02
+        },
+        {
+          "word": "Z,",
+          "start": 411.06,
+          "end": 411.06
+        },
+        {
+          "word": "Z,",
+          "start": 411.06,
+          "end": 411.06
+        },
+        {
+          "word": "Z,",
+          "start": 411.06,
+          "end": 411.06
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.18,
+          "end": 411.18
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.4,
+          "end": 411.4
+        },
+        {
+          "word": "Z,",
+          "start": 411.44,
+          "end": 411.86
+        },
+        {
+          "word": "Z,",
+          "start": 411.86,
+          "end": 411.86
+        },
+        {
+          "word": "Z,",
+          "start": 411.86,
+          "end": 411.86
+        },
+        {
+          "word": "Z,",
+          "start": 411.86,
+          "end": 411.86
+        },
+        {
+          "word": "Z,",
+          "start": 411.86,
+          "end": 412.6
+        },
+        {
+          "word": "Z,",
+          "start": 412.6,
+          "end": 412.6
+        },
+        {
+          "word": "Z,",
+          "start": 412.6,
+          "end": 412.6
+        },
+        {
+          "word": "Z,",
+          "start": 412.6,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.18
+        },
+        {
+          "word": "Z,",
+          "start": 413.18,
+          "end": 413.24
+        },
+        {
+          "word": "Z,",
+          "start": 413.26,
+          "end": 413.26
+        },
+        {
+          "word": "Z,",
+          "start": 413.44,
+          "end": 415.36
+        },
+        {
+          "word": "Z,",
+          "start": 415.84,
+          "end": 416.92
+        },
+        {
+          "word": "Z,",
+          "start": 416.92,
+          "end": 417.26
+        },
+        {
+          "word": "Z,",
+          "start": 417.58,
+          "end": 419.1
+        },
+        {
+          "word": "Z",
+          "start": 419.66,
+          "end": 420.98
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "start": 423.8,
+      "end": 428.4,
+      "textEn": "Well that's it for this lesson. Make sure you go to my website and",
+      "textKo": "자, 이번 수업은 여기까지예요. 제 웹사이트에 가서",
+      "words": [
+        {
+          "word": "Well",
+          "start": 423.8,
+          "end": 424.44
+        },
+        {
+          "word": "that's",
+          "start": 424.44,
+          "end": 424.82
+        },
+        {
+          "word": "it",
+          "start": 424.82,
+          "end": 424.9
+        },
+        {
+          "word": "for",
+          "start": 424.9,
+          "end": 425.04
+        },
+        {
+          "word": "this",
+          "start": 425.04,
+          "end": 425.22
+        },
+        {
+          "word": "lesson.",
+          "start": 425.22,
+          "end": 425.68
+        },
+        {
+          "word": "Make",
+          "start": 425.88,
+          "end": 426.4
+        },
+        {
+          "word": "sure",
+          "start": 426.4,
+          "end": 426.64
+        },
+        {
+          "word": "you",
+          "start": 426.64,
+          "end": 426.96
+        },
+        {
+          "word": "go",
+          "start": 426.96,
+          "end": 427.16
+        },
+        {
+          "word": "to",
+          "start": 427.16,
+          "end": 427.34
+        },
+        {
+          "word": "my",
+          "start": 427.34,
+          "end": 427.5
+        },
+        {
+          "word": "website",
+          "start": 427.5,
+          "end": 428.02
+        },
+        {
+          "word": "and",
+          "start": 428.02,
+          "end": 428.4
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "start": 428.4,
+      "end": 435.22,
+      "textEn": "Download the free worksheet to help you practice the IPA sounds. The link is in",
+      "textKo": "IPA 소리를 연습할 수 있는 무료 학습지를 다운로드하세요. 링크는",
+      "words": [
+        {
+          "word": "download",
+          "start": 428.4,
+          "end": 428.82
+        },
+        {
+          "word": "the",
+          "start": 428.82,
+          "end": 429.1
+        },
+        {
+          "word": "free",
+          "start": 429.1,
+          "end": 429.4
+        },
+        {
+          "word": "worksheet",
+          "start": 429.4,
+          "end": 429.98
+        },
+        {
+          "word": "to",
+          "start": 429.98,
+          "end": 430.3
+        },
+        {
+          "word": "help",
+          "start": 430.3,
+          "end": 430.52
+        },
+        {
+          "word": "you",
+          "start": 430.52,
+          "end": 430.68
+        },
+        {
+          "word": "practice",
+          "start": 430.68,
+          "end": 431.14
+        },
+        {
+          "word": "the",
+          "start": 431.14,
+          "end": 431.96
+        },
+        {
+          "word": "IPA",
+          "start": 431.96,
+          "end": 432.58
+        },
+        {
+          "word": "sounds.",
+          "start": 432.58,
+          "end": 433.2
+        },
+        {
+          "word": "The",
+          "start": 433.9,
+          "end": 434.52
+        },
+        {
+          "word": "link",
+          "start": 434.52,
+          "end": 434.78
+        },
+        {
+          "word": "is",
+          "start": 434.78,
+          "end": 435.04
+        },
+        {
+          "word": "in",
+          "start": 435.04,
+          "end": 435.22
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "start": 435.22,
+      "end": 442.74,
+      "textEn": "The comments box below or right here. Make sure you subscribe by clicking the",
+      "textKo": "아래 댓글란이나 바로 여기에 있어요. 빨간 버튼을 클릭해서 구독하세요",
+      "words": [
+        {
+          "word": "the",
+          "start": 435.22,
+          "end": 435.4
+        },
+        {
+          "word": "comments",
+          "start": 435.4,
+          "end": 435.72
+        },
+        {
+          "word": "box",
+          "start": 435.72,
+          "end": 436.02
+        },
+        {
+          "word": "below",
+          "start": 436.02,
+          "end": 436.38
+        },
+        {
+          "word": "or",
+          "start": 436.38,
+          "end": 436.92
+        },
+        {
+          "word": "right",
+          "start": 436.92,
+          "end": 437.9
+        },
+        {
+          "word": "here.",
+          "start": 437.9,
+          "end": 438.22
+        },
+        {
+          "word": "Make",
+          "start": 440.16,
+          "end": 440.8
+        },
+        {
+          "word": "sure",
+          "start": 440.8,
+          "end": 441.0
+        },
+        {
+          "word": "you",
+          "start": 441.0,
+          "end": 441.24
+        },
+        {
+          "word": "subscribe",
+          "start": 441.24,
+          "end": 441.74
+        },
+        {
+          "word": "by",
+          "start": 441.74,
+          "end": 442.2
+        },
+        {
+          "word": "clicking",
+          "start": 442.2,
+          "end": 442.52
+        },
+        {
+          "word": "the",
+          "start": 442.52,
+          "end": 442.74
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "start": 442.74,
+      "end": 448.94,
+      "textEn": "Red button so that you get my next video lesson which is all about English vowel",
+      "textKo": "그래야 영어 모음 소리에 대한 다음 동영상 수업을 받을 수 있어요",
+      "words": [
+        {
+          "word": "red",
+          "start": 442.74,
+          "end": 442.92
+        },
+        {
+          "word": "button",
+          "start": 442.92,
+          "end": 443.3
+        },
+        {
+          "word": "so",
+          "start": 443.3,
+          "end": 444.28
+        },
+        {
+          "word": "that",
+          "start": 444.28,
+          "end": 444.44
+        },
+        {
+          "word": "you",
+          "start": 444.44,
+          "end": 444.56
+        },
+        {
+          "word": "get",
+          "start": 444.56,
+          "end": 444.74
+        },
+        {
+          "word": "my",
+          "start": 444.74,
+          "end": 444.94
+        },
+        {
+          "word": "next",
+          "start": 444.94,
+          "end": 445.28
+        },
+        {
+          "word": "video",
+          "start": 445.28,
+          "end": 445.58
+        },
+        {
+          "word": "lesson",
+          "start": 445.58,
+          "end": 446.16
+        },
+        {
+          "word": "which",
+          "start": 446.16,
+          "end": 446.8
+        },
+        {
+          "word": "is",
+          "start": 446.8,
+          "end": 447.16
+        },
+        {
+          "word": "all",
+          "start": 447.16,
+          "end": 447.48
+        },
+        {
+          "word": "about",
+          "start": 447.48,
+          "end": 447.88
+        },
+        {
+          "word": "English",
+          "start": 447.88,
+          "end": 448.36
+        },
+        {
+          "word": "vowel",
+          "start": 448.36,
+          "end": 448.94
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "start": 448.94,
+      "end": 451.1,
+      "textEn": "Sounds. See you then!",
+      "textKo": "그때 봐요!",
+      "words": [
+        {
+          "word": "sounds.",
+          "start": 448.94,
+          "end": 449.48
+        },
+        {
+          "word": "See",
+          "start": 449.98,
+          "end": 450.76
+        },
+        {
+          "word": "you",
+          "start": 450.76,
+          "end": 450.9
+        },
+        {
+          "word": "then!",
+          "start": 450.9,
+          "end": 451.1
+        }
+      ]
+    }
+  ]
+}

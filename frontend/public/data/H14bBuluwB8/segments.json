@@ -1,0 +1,5246 @@
+{
+  "videoId": "H14bBuluwB8",
+  "segments": [
+    {
+      "index": 0,
+      "start": 1.7,
+      "end": 14.48,
+      "textEn": "When I was 27 years old,",
+      "words": [
+        {
+          "word": "When",
+          "start": 12.32,
+          "end": 12.94
+        },
+        {
+          "word": "I",
+          "start": 12.94,
+          "end": 13.12
+        },
+        {
+          "word": "was",
+          "start": 13.12,
+          "end": 13.26
+        },
+        {
+          "word": "27",
+          "start": 13.26,
+          "end": 13.74
+        },
+        {
+          "word": "years",
+          "start": 13.74,
+          "end": 14.04
+        },
+        {
+          "word": "old,",
+          "start": 14.04,
+          "end": 14.48
+        }
+      ],
+      "textKo": "27살이 되었을 때,"
+    },
+    {
+      "index": 1,
+      "start": 14.72,
+      "end": 17.62,
+      "textEn": "I left a very demanding job in management consulting",
+      "words": [
+        {
+          "word": "I",
+          "start": 14.72,
+          "end": 15.14
+        },
+        {
+          "word": "left",
+          "start": 15.14,
+          "end": 15.32
+        },
+        {
+          "word": "a",
+          "start": 15.32,
+          "end": 15.46
+        },
+        {
+          "word": "very",
+          "start": 15.46,
+          "end": 15.64
+        },
+        {
+          "word": "demanding",
+          "start": 15.64,
+          "end": 16.1
+        },
+        {
+          "word": "job",
+          "start": 16.1,
+          "end": 16.48
+        },
+        {
+          "word": "in",
+          "start": 16.48,
+          "end": 16.74
+        },
+        {
+          "word": "management",
+          "start": 16.74,
+          "end": 17.04
+        },
+        {
+          "word": "consulting",
+          "start": 17.04,
+          "end": 17.62
+        }
+      ],
+      "textKo": "저는 경영 컨설팅이라는 매우 힘든 일을 그만두고"
+    },
+    {
+      "index": 2,
+      "start": 17.62,
+      "end": 21.58,
+      "textEn": "For a job that was even more demanding, teaching.",
+      "words": [
+        {
+          "word": "for",
+          "start": 17.62,
+          "end": 18.5
+        },
+        {
+          "word": "a",
+          "start": 18.5,
+          "end": 18.66
+        },
+        {
+          "word": "job",
+          "start": 18.66,
+          "end": 18.94
+        },
+        {
+          "word": "that",
+          "start": 18.94,
+          "end": 19.14
+        },
+        {
+          "word": "was",
+          "start": 19.14,
+          "end": 19.42
+        },
+        {
+          "word": "even",
+          "start": 19.42,
+          "end": 19.78
+        },
+        {
+          "word": "more",
+          "start": 19.78,
+          "end": 20.06
+        },
+        {
+          "word": "demanding,",
+          "start": 20.06,
+          "end": 20.58
+        },
+        {
+          "word": "teaching.",
+          "start": 21.0,
+          "end": 21.58
+        }
+      ],
+      "textKo": "더 힘든 일을 시작했습니다. 바로 교직이었죠."
+    },
+    {
+      "index": 3,
+      "start": 22.8,
+      "end": 27.5,
+      "textEn": "I went to teach 7th graders math in the New York City public schools.",
+      "words": [
+        {
+          "word": "I",
+          "start": 22.8,
+          "end": 23.42
+        },
+        {
+          "word": "went",
+          "start": 23.42,
+          "end": 23.58
+        },
+        {
+          "word": "to",
+          "start": 23.58,
+          "end": 23.72
+        },
+        {
+          "word": "teach",
+          "start": 23.72,
+          "end": 24.0
+        },
+        {
+          "word": "7th",
+          "start": 24.0,
+          "end": 24.48
+        },
+        {
+          "word": "graders",
+          "start": 24.48,
+          "end": 24.8
+        },
+        {
+          "word": "math",
+          "start": 24.8,
+          "end": 25.32
+        },
+        {
+          "word": "in",
+          "start": 25.32,
+          "end": 25.96
+        },
+        {
+          "word": "the",
+          "start": 25.96,
+          "end": 26.06
+        },
+        {
+          "word": "New",
+          "start": 26.06,
+          "end": 26.2
+        },
+        {
+          "word": "York",
+          "start": 26.2,
+          "end": 26.34
+        },
+        {
+          "word": "City",
+          "start": 26.34,
+          "end": 26.64
+        },
+        {
+          "word": "public",
+          "start": 26.64,
+          "end": 26.98
+        },
+        {
+          "word": "schools.",
+          "start": 26.98,
+          "end": 27.5
+        }
+      ],
+      "textKo": "저는 뉴욕시 공립학교에서 7학년 학생들에게 수학을 가르쳤습니다."
+    },
+    {
+      "index": 4,
+      "start": 27.5,
+      "end": 30.9,
+      "textEn": "And like any teacher, I made quizzes and tests.",
+      "words": [
+        {
+          "word": "And",
+          "start": 27.5,
+          "end": 28.4
+        },
+        {
+          "word": "like",
+          "start": 28.4,
+          "end": 28.62
+        },
+        {
+          "word": "any",
+          "start": 28.62,
+          "end": 28.82
+        },
+        {
+          "word": "teacher,",
+          "start": 28.82,
+          "end": 29.18
+        },
+        {
+          "word": "I",
+          "start": 29.54,
+          "end": 29.8
+        },
+        {
+          "word": "made",
+          "start": 29.8,
+          "end": 29.98
+        },
+        {
+          "word": "quizzes",
+          "start": 29.98,
+          "end": 30.32
+        },
+        {
+          "word": "and",
+          "start": 30.32,
+          "end": 30.52
+        },
+        {
+          "word": "tests.",
+          "start": 30.52,
+          "end": 30.9
+        }
+      ],
+      "textKo": "다른 교사들처럼, 저도 퀴즈와 시험을 만들었고요."
+    },
+    {
+      "index": 5,
+      "start": 31.12,
+      "end": 35.56,
+      "textEn": "I gave out homework assignments. When the work came back, I calculated grades.",
+      "words": [
+        {
+          "word": "I",
+          "start": 31.12,
+          "end": 31.32
+        },
+        {
+          "word": "gave",
+          "start": 31.32,
+          "end": 31.48
+        },
+        {
+          "word": "out",
+          "start": 31.48,
+          "end": 31.62
+        },
+        {
+          "word": "homework",
+          "start": 31.62,
+          "end": 31.88
+        },
+        {
+          "word": "assignments.",
+          "start": 31.88,
+          "end": 32.42
+        },
+        {
+          "word": "When",
+          "start": 32.76,
+          "end": 33.3
+        },
+        {
+          "word": "the",
+          "start": 33.3,
+          "end": 33.4
+        },
+        {
+          "word": "work",
+          "start": 33.4,
+          "end": 33.56
+        },
+        {
+          "word": "came",
+          "start": 33.56,
+          "end": 33.78
+        },
+        {
+          "word": "back,",
+          "start": 33.78,
+          "end": 34.08
+        },
+        {
+          "word": "I",
+          "start": 34.3,
+          "end": 34.62
+        },
+        {
+          "word": "calculated",
+          "start": 34.62,
+          "end": 35.12
+        },
+        {
+          "word": "grades.",
+          "start": 35.12,
+          "end": 35.56
+        }
+      ],
+      "textKo": "숙제를 내주었습니다. 숙제가 돌아오면 성적을 매겼죠."
+    },
+    {
+      "index": 6,
+      "start": 36.3,
+      "end": 41.32,
+      "textEn": "What struck me was that IQ was not the only difference",
+      "words": [
+        {
+          "word": "What",
+          "start": 36.3,
+          "end": 36.98
+        },
+        {
+          "word": "struck",
+          "start": 36.98,
+          "end": 37.32
+        },
+        {
+          "word": "me",
+          "start": 37.32,
+          "end": 37.68
+        },
+        {
+          "word": "was",
+          "start": 37.68,
+          "end": 38.46
+        },
+        {
+          "word": "that",
+          "start": 38.46,
+          "end": 38.64
+        },
+        {
+          "word": "IQ",
+          "start": 38.64,
+          "end": 39.04
+        },
+        {
+          "word": "was",
+          "start": 39.04,
+          "end": 39.76
+        },
+        {
+          "word": "not",
+          "start": 39.76,
+          "end": 40.1
+        },
+        {
+          "word": "the",
+          "start": 40.1,
+          "end": 40.42
+        },
+        {
+          "word": "only",
+          "start": 40.42,
+          "end": 40.78
+        },
+        {
+          "word": "difference",
+          "start": 40.78,
+          "end": 41.32
+        }
+      ],
+      "textKo": "저를 놀라게 한 것은 IQ가 유일한 차이가 아니었다는 점이었습니다."
+    },
+    {
+      "index": 7,
+      "start": 41.32,
+      "end": 44.14,
+      "textEn": "Between my best and my worst students.",
+      "words": [
+        {
+          "word": "between",
+          "start": 41.32,
+          "end": 41.68
+        },
+        {
+          "word": "my",
+          "start": 41.68,
+          "end": 42.02
+        },
+        {
+          "word": "best",
+          "start": 42.02,
+          "end": 42.64
+        },
+        {
+          "word": "and",
+          "start": 42.64,
+          "end": 43.24
+        },
+        {
+          "word": "my",
+          "start": 43.24,
+          "end": 43.42
+        },
+        {
+          "word": "worst",
+          "start": 43.42,
+          "end": 43.74
+        },
+        {
+          "word": "students.",
+          "start": 43.74,
+          "end": 44.14
+        }
+      ],
+      "textKo": "최우수 학생과 최하위 학생 사이의 차이 말이죠."
+    },
+    {
+      "index": 8,
+      "start": 44.62,
+      "end": 49.62,
+      "textEn": "Some of my strongest performers did not have stratospheric IQ scores.",
+      "words": [
+        {
+          "word": "Some",
+          "start": 44.62,
+          "end": 45.3
+        },
+        {
+          "word": "of",
+          "start": 45.3,
+          "end": 45.38
+        },
+        {
+          "word": "my",
+          "start": 45.38,
+          "end": 45.54
+        },
+        {
+          "word": "strongest",
+          "start": 45.54,
+          "end": 46.06
+        },
+        {
+          "word": "performers",
+          "start": 46.06,
+          "end": 46.64
+        },
+        {
+          "word": "did",
+          "start": 46.64,
+          "end": 47.34
+        },
+        {
+          "word": "not",
+          "start": 47.34,
+          "end": 47.62
+        },
+        {
+          "word": "have",
+          "start": 47.62,
+          "end": 47.92
+        },
+        {
+          "word": "stratospheric",
+          "start": 47.92,
+          "end": 48.72
+        },
+        {
+          "word": "IQ",
+          "start": 48.72,
+          "end": 49.1
+        },
+        {
+          "word": "scores.",
+          "start": 49.1,
+          "end": 49.62
+        }
+      ],
+      "textKo": "성적이 가장 좋은 학생들 중 일부는 엄청나게 높은 IQ를 가진 게 아니었습니다."
+    },
+    {
+      "index": 9,
+      "start": 50.02,
+      "end": 53.46,
+      "textEn": "Some of my smartest kids weren't doing so well.",
+      "words": [
+        {
+          "word": "Some",
+          "start": 50.02,
+          "end": 50.58
+        },
+        {
+          "word": "of",
+          "start": 50.58,
+          "end": 50.72
+        },
+        {
+          "word": "my",
+          "start": 50.72,
+          "end": 50.82
+        },
+        {
+          "word": "smartest",
+          "start": 50.82,
+          "end": 51.22
+        },
+        {
+          "word": "kids",
+          "start": 51.22,
+          "end": 51.64
+        },
+        {
+          "word": "weren't",
+          "start": 51.64,
+          "end": 52.62
+        },
+        {
+          "word": "doing",
+          "start": 52.62,
+          "end": 52.86
+        },
+        {
+          "word": "so",
+          "start": 52.86,
+          "end": 53.16
+        },
+        {
+          "word": "well.",
+          "start": 53.16,
+          "end": 53.46
+        }
+      ],
+      "textKo": "가장 똑똑한 학생들 중 일부는 성적이 좋지 않았어요."
+    },
+    {
+      "index": 10,
+      "start": 53.96,
+      "end": 59.08,
+      "textEn": "And that got me thinking. The kinds of things you need to learn in 7th grade math,",
+      "words": [
+        {
+          "word": "And",
+          "start": 53.96,
+          "end": 54.52
+        },
+        {
+          "word": "that",
+          "start": 54.52,
+          "end": 54.68
+        },
+        {
+          "word": "got",
+          "start": 54.68,
+          "end": 54.86
+        },
+        {
+          "word": "me",
+          "start": 54.86,
+          "end": 55.04
+        },
+        {
+          "word": "thinking.",
+          "start": 55.04,
+          "end": 55.4
+        },
+        {
+          "word": "The",
+          "start": 55.4,
+          "end": 56.52
+        },
+        {
+          "word": "kinds",
+          "start": 56.52,
+          "end": 56.72
+        },
+        {
+          "word": "of",
+          "start": 56.72,
+          "end": 56.88
+        },
+        {
+          "word": "things",
+          "start": 56.88,
+          "end": 57.22
+        },
+        {
+          "word": "you",
+          "start": 57.22,
+          "end": 57.46
+        },
+        {
+          "word": "need",
+          "start": 57.46,
+          "end": 57.62
+        },
+        {
+          "word": "to",
+          "start": 57.62,
+          "end": 57.74
+        },
+        {
+          "word": "learn",
+          "start": 57.74,
+          "end": 58.0
+        },
+        {
+          "word": "in",
+          "start": 58.0,
+          "end": 58.16
+        },
+        {
+          "word": "7th",
+          "start": 58.16,
+          "end": 58.48
+        },
+        {
+          "word": "grade",
+          "start": 58.48,
+          "end": 58.64
+        },
+        {
+          "word": "math,",
+          "start": 58.64,
+          "end": 59.08
+        }
+      ],
+      "textKo": "그래서 생각하게 되었습니다. 7학년 수학에서 배워야 할 것들,"
+    },
+    {
+      "index": 11,
+      "start": 59.46,
+      "end": 63.96,
+      "textEn": "Sure, they're hard. Ratios, decimals, the area of a parallelogram.",
+      "words": [
+        {
+          "word": "sure,",
+          "start": 59.46,
+          "end": 59.84
+        },
+        {
+          "word": "they're",
+          "start": 60.16,
+          "end": 60.3
+        },
+        {
+          "word": "hard.",
+          "start": 60.3,
+          "end": 60.84
+        },
+        {
+          "word": "Ratios,",
+          "start": 61.08,
+          "end": 61.66
+        },
+        {
+          "word": "decimals,",
+          "start": 61.82,
+          "end": 62.4
+        },
+        {
+          "word": "the",
+          "start": 62.54,
+          "end": 62.62
+        },
+        {
+          "word": "area",
+          "start": 62.62,
+          "end": 62.94
+        },
+        {
+          "word": "of",
+          "start": 62.94,
+          "end": 63.12
+        },
+        {
+          "word": "a",
+          "start": 63.12,
+          "end": 63.2
+        },
+        {
+          "word": "parallelogram.",
+          "start": 63.2,
+          "end": 63.96
+        }
+      ],
+      "textKo": "물론 어렵죠. 비율, 소수, 평행사변형의 넓이."
+    },
+    {
+      "index": 12,
+      "start": 64.22,
+      "end": 66.58,
+      "textEn": "But these concepts are not impossible.",
+      "words": [
+        {
+          "word": "But",
+          "start": 64.22,
+          "end": 64.78
+        },
+        {
+          "word": "these",
+          "start": 64.78,
+          "end": 65.02
+        },
+        {
+          "word": "concepts",
+          "start": 65.02,
+          "end": 65.54
+        },
+        {
+          "word": "are",
+          "start": 65.54,
+          "end": 65.84
+        },
+        {
+          "word": "not",
+          "start": 65.84,
+          "end": 66.0
+        },
+        {
+          "word": "impossible.",
+          "start": 66.0,
+          "end": 66.58
+        }
+      ],
+      "textKo": "하지만 이 개념들이 불가능한 건 아닙니다."
+    },
+    {
+      "index": 13,
+      "start": 67.0,
+      "end": 71.04,
+      "textEn": "And I was firmly convinced that every one of my students",
+      "words": [
+        {
+          "word": "And",
+          "start": 67.0,
+          "end": 67.56
+        },
+        {
+          "word": "I",
+          "start": 67.56,
+          "end": 67.7
+        },
+        {
+          "word": "was",
+          "start": 67.7,
+          "end": 67.9
+        },
+        {
+          "word": "firmly",
+          "start": 67.9,
+          "end": 68.36
+        },
+        {
+          "word": "convinced",
+          "start": 68.36,
+          "end": 68.96
+        },
+        {
+          "word": "that",
+          "start": 68.96,
+          "end": 69.64
+        },
+        {
+          "word": "every",
+          "start": 69.64,
+          "end": 69.96
+        },
+        {
+          "word": "one",
+          "start": 69.96,
+          "end": 70.24
+        },
+        {
+          "word": "of",
+          "start": 70.24,
+          "end": 70.4
+        },
+        {
+          "word": "my",
+          "start": 70.4,
+          "end": 70.6
+        },
+        {
+          "word": "students",
+          "start": 70.6,
+          "end": 71.04
+        }
+      ],
+      "textKo": "저는 제 학생 모든 한 명 한 명이"
+    },
+    {
+      "index": 14,
+      "start": 71.04,
+      "end": 75.48,
+      "textEn": "Could learn the material if they worked hard and long enough.",
+      "words": [
+        {
+          "word": "could",
+          "start": 71.04,
+          "end": 71.8
+        },
+        {
+          "word": "learn",
+          "start": 71.8,
+          "end": 72.4
+        },
+        {
+          "word": "the",
+          "start": 72.4,
+          "end": 72.94
+        },
+        {
+          "word": "material",
+          "start": 72.94,
+          "end": 73.42
+        },
+        {
+          "word": "if",
+          "start": 73.42,
+          "end": 74.28
+        },
+        {
+          "word": "they",
+          "start": 74.28,
+          "end": 74.4
+        },
+        {
+          "word": "worked",
+          "start": 74.4,
+          "end": 74.66
+        },
+        {
+          "word": "hard",
+          "start": 74.66,
+          "end": 74.88
+        },
+        {
+          "word": "and",
+          "start": 74.88,
+          "end": 75.02
+        },
+        {
+          "word": "long",
+          "start": 75.02,
+          "end": 75.22
+        },
+        {
+          "word": "enough.",
+          "start": 75.22,
+          "end": 75.48
+        }
+      ],
+      "textKo": "충분히 열심히, 오래 노력하면 배울 수 있다고 굳게 믿었습니다."
+    },
+    {
+      "index": 15,
+      "start": 76.56,
+      "end": 78.56,
+      "textEn": "After several more years of teaching,",
+      "words": [
+        {
+          "word": "After",
+          "start": 76.56,
+          "end": 77.14
+        },
+        {
+          "word": "several",
+          "start": 77.14,
+          "end": 77.5
+        },
+        {
+          "word": "more",
+          "start": 77.5,
+          "end": 77.76
+        },
+        {
+          "word": "years",
+          "start": 77.76,
+          "end": 78.04
+        },
+        {
+          "word": "of",
+          "start": 78.04,
+          "end": 78.22
+        },
+        {
+          "word": "teaching,",
+          "start": 78.22,
+          "end": 78.56
+        }
+      ],
+      "textKo": "몇 년을 더 가르친 후,"
+    },
+    {
+      "index": 16,
+      "start": 79.06,
+      "end": 82.52,
+      "textEn": "I came to the conclusion that what we need in education",
+      "words": [
+        {
+          "word": "I",
+          "start": 79.06,
+          "end": 79.54
+        },
+        {
+          "word": "came",
+          "start": 79.54,
+          "end": 79.78
+        },
+        {
+          "word": "to",
+          "start": 79.78,
+          "end": 79.92
+        },
+        {
+          "word": "the",
+          "start": 79.92,
+          "end": 80.02
+        },
+        {
+          "word": "conclusion",
+          "start": 80.02,
+          "end": 80.5
+        },
+        {
+          "word": "that",
+          "start": 80.5,
+          "end": 81.12
+        },
+        {
+          "word": "what",
+          "start": 81.12,
+          "end": 81.36
+        },
+        {
+          "word": "we",
+          "start": 81.36,
+          "end": 81.56
+        },
+        {
+          "word": "need",
+          "start": 81.56,
+          "end": 81.86
+        },
+        {
+          "word": "in",
+          "start": 81.86,
+          "end": 82.06
+        },
+        {
+          "word": "education",
+          "start": 82.06,
+          "end": 82.52
+        }
+      ],
+      "textKo": "저는 교육에서 우리에게 필요한 것은"
+    },
+    {
+      "index": 17,
+      "start": 82.52,
+      "end": 86.18,
+      "textEn": "Is a much better understanding of students and learning",
+      "words": [
+        {
+          "word": "is",
+          "start": 82.52,
+          "end": 83.2
+        },
+        {
+          "word": "a",
+          "start": 83.2,
+          "end": 83.34
+        },
+        {
+          "word": "much",
+          "start": 83.34,
+          "end": 83.62
+        },
+        {
+          "word": "better",
+          "start": 83.62,
+          "end": 83.9
+        },
+        {
+          "word": "understanding",
+          "start": 83.9,
+          "end": 84.58
+        },
+        {
+          "word": "of",
+          "start": 84.58,
+          "end": 84.98
+        },
+        {
+          "word": "students",
+          "start": 84.98,
+          "end": 85.48
+        },
+        {
+          "word": "and",
+          "start": 85.48,
+          "end": 85.78
+        },
+        {
+          "word": "learning",
+          "start": 85.78,
+          "end": 86.18
+        }
+      ],
+      "textKo": "학생과 학습에 대한 훨씬 나은 이해라는 결론에 도달했습니다."
+    },
+    {
+      "index": 18,
+      "start": 86.18,
+      "end": 88.28,
+      "textEn": "From a motivational perspective,",
+      "words": [
+        {
+          "word": "from",
+          "start": 86.18,
+          "end": 86.76
+        },
+        {
+          "word": "a",
+          "start": 86.76,
+          "end": 86.9
+        },
+        {
+          "word": "motivational",
+          "start": 86.9,
+          "end": 87.54
+        },
+        {
+          "word": "perspective,",
+          "start": 87.54,
+          "end": 88.28
+        }
+      ],
+      "textKo": "동기 부여의 관점에서,"
+    },
+    {
+      "index": 19,
+      "start": 88.7,
+      "end": 90.84,
+      "textEn": "From a psychological perspective.",
+      "words": [
+        {
+          "word": "from",
+          "start": 88.7,
+          "end": 89.1
+        },
+        {
+          "word": "a",
+          "start": 89.1,
+          "end": 89.22
+        },
+        {
+          "word": "psychological",
+          "start": 89.22,
+          "end": 89.86
+        },
+        {
+          "word": "perspective.",
+          "start": 89.86,
+          "end": 90.84
+        }
+      ],
+      "textKo": "심리학적 관점에서요."
+    },
+    {
+      "index": 20,
+      "start": 91.38,
+      "end": 96.78,
+      "textEn": "In education, the one thing we know how to measure best is IQ.",
+      "words": [
+        {
+          "word": "In",
+          "start": 91.38,
+          "end": 91.98
+        },
+        {
+          "word": "education,",
+          "start": 91.98,
+          "end": 92.42
+        },
+        {
+          "word": "the",
+          "start": 92.42,
+          "end": 93.04
+        },
+        {
+          "word": "one",
+          "start": 93.04,
+          "end": 93.34
+        },
+        {
+          "word": "thing",
+          "start": 93.34,
+          "end": 93.68
+        },
+        {
+          "word": "we",
+          "start": 93.68,
+          "end": 94.42
+        },
+        {
+          "word": "know",
+          "start": 94.42,
+          "end": 94.66
+        },
+        {
+          "word": "how",
+          "start": 94.66,
+          "end": 94.82
+        },
+        {
+          "word": "to",
+          "start": 94.82,
+          "end": 94.94
+        },
+        {
+          "word": "measure",
+          "start": 94.94,
+          "end": 95.18
+        },
+        {
+          "word": "best",
+          "start": 95.18,
+          "end": 95.68
+        },
+        {
+          "word": "is",
+          "start": 95.68,
+          "end": 96.32
+        },
+        {
+          "word": "IQ.",
+          "start": 96.32,
+          "end": 96.78
+        }
+      ],
+      "textKo": "교육에서 우리가 가장 잘 측정할 수 있는 것은 IQ입니다."
+    },
+    {
+      "index": 21,
+      "start": 97.64,
+      "end": 103.72,
+      "textEn": "But what if doing well in school and in life depends on much more",
+      "words": [
+        {
+          "word": "But",
+          "start": 97.64,
+          "end": 98.3
+        },
+        {
+          "word": "what",
+          "start": 98.3,
+          "end": 98.6
+        },
+        {
+          "word": "if",
+          "start": 98.6,
+          "end": 98.88
+        },
+        {
+          "word": "doing",
+          "start": 98.88,
+          "end": 99.18
+        },
+        {
+          "word": "well",
+          "start": 99.18,
+          "end": 99.46
+        },
+        {
+          "word": "in",
+          "start": 99.46,
+          "end": 99.64
+        },
+        {
+          "word": "school",
+          "start": 99.64,
+          "end": 100.08
+        },
+        {
+          "word": "and",
+          "start": 100.08,
+          "end": 100.86
+        },
+        {
+          "word": "in",
+          "start": 100.86,
+          "end": 101.08
+        },
+        {
+          "word": "life",
+          "start": 101.08,
+          "end": 101.52
+        },
+        {
+          "word": "depends",
+          "start": 101.52,
+          "end": 102.42
+        },
+        {
+          "word": "on",
+          "start": 102.42,
+          "end": 102.82
+        },
+        {
+          "word": "much",
+          "start": 102.82,
+          "end": 103.2
+        },
+        {
+          "word": "more",
+          "start": 103.2,
+          "end": 103.72
+        }
+      ],
+      "textKo": "하지만 학교와 인생에서 잘하는 것이"
+    },
+    {
+      "index": 22,
+      "start": 103.72,
+      "end": 107.08,
+      "textEn": "Than your ability to learn quickly and easily?",
+      "words": [
+        {
+          "word": "than",
+          "start": 103.72,
+          "end": 104.28
+        },
+        {
+          "word": "your",
+          "start": 104.28,
+          "end": 104.54
+        },
+        {
+          "word": "ability",
+          "start": 104.54,
+          "end": 104.94
+        },
+        {
+          "word": "to",
+          "start": 104.94,
+          "end": 105.16
+        },
+        {
+          "word": "learn",
+          "start": 105.16,
+          "end": 105.4
+        },
+        {
+          "word": "quickly",
+          "start": 105.4,
+          "end": 105.92
+        },
+        {
+          "word": "and",
+          "start": 105.92,
+          "end": 106.72
+        },
+        {
+          "word": "easily?",
+          "start": 106.72,
+          "end": 107.08
+        }
+      ],
+      "textKo": "빨리 쉽게 배우는 능력 그 이상에 달려 있다면 어떨까요?"
+    },
+    {
+      "index": 23,
+      "start": 107.98,
+      "end": 112.74,
+      "textEn": "So I left the classroom, and I went to graduate school to become a psychologist.",
+      "words": [
+        {
+          "word": "So",
+          "start": 107.98,
+          "end": 108.64
+        },
+        {
+          "word": "I",
+          "start": 108.64,
+          "end": 108.76
+        },
+        {
+          "word": "left",
+          "start": 108.76,
+          "end": 108.94
+        },
+        {
+          "word": "the",
+          "start": 108.94,
+          "end": 109.08
+        },
+        {
+          "word": "classroom,",
+          "start": 109.08,
+          "end": 109.58
+        },
+        {
+          "word": "and",
+          "start": 109.82,
+          "end": 110.44
+        },
+        {
+          "word": "I",
+          "start": 110.44,
+          "end": 110.52
+        },
+        {
+          "word": "went",
+          "start": 110.52,
+          "end": 110.62
+        },
+        {
+          "word": "to",
+          "start": 110.62,
+          "end": 110.74
+        },
+        {
+          "word": "graduate",
+          "start": 110.74,
+          "end": 111.04
+        },
+        {
+          "word": "school",
+          "start": 111.04,
+          "end": 111.4
+        },
+        {
+          "word": "to",
+          "start": 111.4,
+          "end": 111.62
+        },
+        {
+          "word": "become",
+          "start": 111.62,
+          "end": 111.9
+        },
+        {
+          "word": "a",
+          "start": 111.9,
+          "end": 112.14
+        },
+        {
+          "word": "psychologist.",
+          "start": 112.14,
+          "end": 112.74
+        }
+      ],
+      "textKo": "그래서 저는 교실을 떠나 심리학자가 되기 위해 대학원에 진학했습니다."
+    },
+    {
+      "index": 24,
+      "start": 112.74,
+      "end": 118.3,
+      "textEn": "I started studying kids and adults in all kinds of super challenging settings.",
+      "words": [
+        {
+          "word": "I",
+          "start": 112.74,
+          "end": 114.04
+        },
+        {
+          "word": "started",
+          "start": 114.04,
+          "end": 114.4
+        },
+        {
+          "word": "studying",
+          "start": 114.4,
+          "end": 114.86
+        },
+        {
+          "word": "kids",
+          "start": 114.86,
+          "end": 115.26
+        },
+        {
+          "word": "and",
+          "start": 115.26,
+          "end": 115.5
+        },
+        {
+          "word": "adults",
+          "start": 115.5,
+          "end": 115.88
+        },
+        {
+          "word": "in",
+          "start": 115.88,
+          "end": 116.16
+        },
+        {
+          "word": "all",
+          "start": 116.16,
+          "end": 116.42
+        },
+        {
+          "word": "kinds",
+          "start": 116.42,
+          "end": 116.7
+        },
+        {
+          "word": "of",
+          "start": 116.7,
+          "end": 116.9
+        },
+        {
+          "word": "super",
+          "start": 116.9,
+          "end": 117.28
+        },
+        {
+          "word": "challenging",
+          "start": 117.28,
+          "end": 117.78
+        },
+        {
+          "word": "settings.",
+          "start": 117.78,
+          "end": 118.3
+        }
+      ],
+      "textKo": "저는 온갖 종류의 극도로 어려운 환경에서 아이들과 어른들을 연구하기 시작했습니다."
+    },
+    {
+      "index": 25,
+      "start": 118.7,
+      "end": 120.96,
+      "textEn": "And in every study, my question was,",
+      "words": [
+        {
+          "word": "And",
+          "start": 118.7,
+          "end": 119.26
+        },
+        {
+          "word": "in",
+          "start": 119.26,
+          "end": 119.38
+        },
+        {
+          "word": "every",
+          "start": 119.38,
+          "end": 119.64
+        },
+        {
+          "word": "study,",
+          "start": 119.64,
+          "end": 119.96
+        },
+        {
+          "word": "my",
+          "start": 120.1,
+          "end": 120.16
+        },
+        {
+          "word": "question",
+          "start": 120.16,
+          "end": 120.56
+        },
+        {
+          "word": "was,",
+          "start": 120.56,
+          "end": 120.96
+        }
+      ],
+      "textKo": "그리고 모든 연구에서 제 질문은,"
+    },
+    {
+      "index": 26,
+      "start": 121.14,
+      "end": 123.32,
+      "textEn": "Who is successful here and why?",
+      "words": [
+        {
+          "word": "who",
+          "start": 121.14,
+          "end": 121.6
+        },
+        {
+          "word": "is",
+          "start": 121.6,
+          "end": 121.78
+        },
+        {
+          "word": "successful",
+          "start": 121.78,
+          "end": 122.3
+        },
+        {
+          "word": "here",
+          "start": 122.3,
+          "end": 122.7
+        },
+        {
+          "word": "and",
+          "start": 122.7,
+          "end": 123.0
+        },
+        {
+          "word": "why?",
+          "start": 123.0,
+          "end": 123.32
+        }
+      ],
+      "textKo": "여기서 누가 성공하는가, 그리고 왜 성공하는가였습니다."
+    },
+    {
+      "index": 27,
+      "start": 123.98,
+      "end": 127.68,
+      "textEn": "My research team and I went to West Point Military Academy.",
+      "words": [
+        {
+          "word": "My",
+          "start": 123.98,
+          "end": 124.64
+        },
+        {
+          "word": "research",
+          "start": 124.64,
+          "end": 124.96
+        },
+        {
+          "word": "team",
+          "start": 124.96,
+          "end": 125.26
+        },
+        {
+          "word": "and",
+          "start": 125.26,
+          "end": 125.4
+        },
+        {
+          "word": "I",
+          "start": 125.4,
+          "end": 125.54
+        },
+        {
+          "word": "went",
+          "start": 125.54,
+          "end": 125.76
+        },
+        {
+          "word": "to",
+          "start": 125.76,
+          "end": 126.0
+        },
+        {
+          "word": "West",
+          "start": 126.0,
+          "end": 126.4
+        },
+        {
+          "word": "Point",
+          "start": 126.4,
+          "end": 126.7
+        },
+        {
+          "word": "Military",
+          "start": 126.7,
+          "end": 127.06
+        },
+        {
+          "word": "Academy.",
+          "start": 127.06,
+          "end": 127.68
+        }
+      ],
+      "textKo": "제 연구팀과 저는 웨스트포인트 육군사관학교에 갔습니다."
+    },
+    {
+      "index": 28,
+      "start": 128.02,
+      "end": 132.0,
+      "textEn": "We tried to predict which cadets would stay in military training",
+      "words": [
+        {
+          "word": "We",
+          "start": 128.02,
+          "end": 128.64
+        },
+        {
+          "word": "tried",
+          "start": 128.64,
+          "end": 128.86
+        },
+        {
+          "word": "to",
+          "start": 128.86,
+          "end": 129.02
+        },
+        {
+          "word": "predict",
+          "start": 129.02,
+          "end": 129.32
+        },
+        {
+          "word": "which",
+          "start": 129.32,
+          "end": 129.7
+        },
+        {
+          "word": "cadets",
+          "start": 129.7,
+          "end": 130.12
+        },
+        {
+          "word": "would",
+          "start": 130.12,
+          "end": 130.32
+        },
+        {
+          "word": "stay",
+          "start": 130.32,
+          "end": 130.7
+        },
+        {
+          "word": "in",
+          "start": 130.7,
+          "end": 131.12
+        },
+        {
+          "word": "military",
+          "start": 131.12,
+          "end": 131.54
+        },
+        {
+          "word": "training",
+          "start": 131.54,
+          "end": 132.0
+        }
+      ],
+      "textKo": "어떤 생도가 군사 훈련에 남고"
+    },
+    {
+      "index": 29,
+      "start": 132.0,
+      "end": 136.1,
+      "textEn": "And which would drop out. We went to the National Spelling Bee",
+      "words": [
+        {
+          "word": "and",
+          "start": 132.0,
+          "end": 132.54
+        },
+        {
+          "word": "which",
+          "start": 132.54,
+          "end": 132.76
+        },
+        {
+          "word": "would",
+          "start": 132.76,
+          "end": 132.92
+        },
+        {
+          "word": "drop",
+          "start": 132.92,
+          "end": 133.18
+        },
+        {
+          "word": "out.",
+          "start": 133.18,
+          "end": 133.48
+        },
+        {
+          "word": "We",
+          "start": 134.0,
+          "end": 134.64
+        },
+        {
+          "word": "went",
+          "start": 134.64,
+          "end": 134.78
+        },
+        {
+          "word": "to",
+          "start": 134.78,
+          "end": 134.92
+        },
+        {
+          "word": "the",
+          "start": 134.92,
+          "end": 135.02
+        },
+        {
+          "word": "National",
+          "start": 135.02,
+          "end": 135.38
+        },
+        {
+          "word": "Spelling",
+          "start": 135.38,
+          "end": 135.86
+        },
+        {
+          "word": "Bee",
+          "start": 135.86,
+          "end": 136.1
+        }
+      ],
+      "textKo": "어떤 생도가 중도 포기할지 예측하려 했습니다. 우리는 전국 철자 맞히기 대회에도 갔고"
+    },
+    {
+      "index": 30,
+      "start": 136.1,
+      "end": 140.72,
+      "textEn": "And tried to predict which children would advance farthest in competition.",
+      "words": [
+        {
+          "word": "and",
+          "start": 136.1,
+          "end": 136.84
+        },
+        {
+          "word": "tried",
+          "start": 136.84,
+          "end": 137.06
+        },
+        {
+          "word": "to",
+          "start": 137.06,
+          "end": 137.2
+        },
+        {
+          "word": "predict",
+          "start": 137.2,
+          "end": 137.42
+        },
+        {
+          "word": "which",
+          "start": 137.42,
+          "end": 137.72
+        },
+        {
+          "word": "children",
+          "start": 137.72,
+          "end": 138.26
+        },
+        {
+          "word": "would",
+          "start": 138.26,
+          "end": 138.88
+        },
+        {
+          "word": "advance",
+          "start": 138.88,
+          "end": 139.36
+        },
+        {
+          "word": "farthest",
+          "start": 139.36,
+          "end": 140.0
+        },
+        {
+          "word": "in",
+          "start": 140.0,
+          "end": 140.22
+        },
+        {
+          "word": "competition.",
+          "start": 140.22,
+          "end": 140.72
+        }
+      ],
+      "textKo": "어떤 아이들이 대회에서 가장 멀리 진출할지 예측하려 했습니다."
+    },
+    {
+      "index": 31,
+      "start": 141.5,
+      "end": 145.4,
+      "textEn": "We studied rookie teachers working in really tough neighborhoods,",
+      "words": [
+        {
+          "word": "We",
+          "start": 141.5,
+          "end": 142.1
+        },
+        {
+          "word": "studied",
+          "start": 142.1,
+          "end": 142.48
+        },
+        {
+          "word": "rookie",
+          "start": 142.48,
+          "end": 142.8
+        },
+        {
+          "word": "teachers",
+          "start": 142.8,
+          "end": 143.34
+        },
+        {
+          "word": "working",
+          "start": 143.34,
+          "end": 144.04
+        },
+        {
+          "word": "in",
+          "start": 144.04,
+          "end": 144.26
+        },
+        {
+          "word": "really",
+          "start": 144.26,
+          "end": 144.54
+        },
+        {
+          "word": "tough",
+          "start": 144.54,
+          "end": 144.86
+        },
+        {
+          "word": "neighborhoods,",
+          "start": 144.86,
+          "end": 145.4
+        }
+      ],
+      "textKo": "우리는 정말 힘든 지역에서 일하는 초임 교사들을 연구하며,"
+    },
+    {
+      "index": 32,
+      "start": 145.78,
+      "end": 149.34,
+      "textEn": "Asking which teachers are still going to be here in teaching",
+      "words": [
+        {
+          "word": "asking",
+          "start": 145.78,
+          "end": 146.4
+        },
+        {
+          "word": "which",
+          "start": 146.4,
+          "end": 147.02
+        },
+        {
+          "word": "teachers",
+          "start": 147.02,
+          "end": 147.48
+        },
+        {
+          "word": "are",
+          "start": 147.48,
+          "end": 147.68
+        },
+        {
+          "word": "still",
+          "start": 147.68,
+          "end": 147.86
+        },
+        {
+          "word": "going",
+          "start": 147.86,
+          "end": 148.0
+        },
+        {
+          "word": "to",
+          "start": 148.0,
+          "end": 148.08
+        },
+        {
+          "word": "be",
+          "start": 148.08,
+          "end": 148.3
+        },
+        {
+          "word": "here",
+          "start": 148.3,
+          "end": 148.66
+        },
+        {
+          "word": "in",
+          "start": 148.66,
+          "end": 148.96
+        },
+        {
+          "word": "teaching",
+          "start": 148.96,
+          "end": 149.34
+        }
+      ],
+      "textKo": "어떤 교사들이 학년말까지 교직에 남아 있을지,"
+    },
+    {
+      "index": 33,
+      "start": 149.34,
+      "end": 153.96,
+      "textEn": "By the end of the school year. And of those, who will be the most effective",
+      "words": [
+        {
+          "word": "by",
+          "start": 149.34,
+          "end": 149.64
+        },
+        {
+          "word": "the",
+          "start": 149.64,
+          "end": 149.8
+        },
+        {
+          "word": "end",
+          "start": 149.8,
+          "end": 150.0
+        },
+        {
+          "word": "of",
+          "start": 150.0,
+          "end": 150.1
+        },
+        {
+          "word": "the",
+          "start": 150.1,
+          "end": 150.22
+        },
+        {
+          "word": "school",
+          "start": 150.22,
+          "end": 150.48
+        },
+        {
+          "word": "year.",
+          "start": 150.48,
+          "end": 150.82
+        },
+        {
+          "word": "And",
+          "start": 151.2,
+          "end": 151.66
+        },
+        {
+          "word": "of",
+          "start": 151.66,
+          "end": 151.9
+        },
+        {
+          "word": "those,",
+          "start": 151.9,
+          "end": 152.26
+        },
+        {
+          "word": "who",
+          "start": 152.48,
+          "end": 152.84
+        },
+        {
+          "word": "will",
+          "start": 152.84,
+          "end": 153.0
+        },
+        {
+          "word": "be",
+          "start": 153.0,
+          "end": 153.1
+        },
+        {
+          "word": "the",
+          "start": 153.1,
+          "end": 153.24
+        },
+        {
+          "word": "most",
+          "start": 153.24,
+          "end": 153.46
+        },
+        {
+          "word": "effective",
+          "start": 153.46,
+          "end": 153.96
+        }
+      ],
+      "textKo": "그리고 그중 누가 학생들의 학습 성과를 향상시키는 데"
+    },
+    {
+      "index": 34,
+      "start": 153.96,
+      "end": 156.8,
+      "textEn": "At improving learning outcomes for their students?",
+      "words": [
+        {
+          "word": "at",
+          "start": 153.96,
+          "end": 154.64
+        },
+        {
+          "word": "improving",
+          "start": 154.64,
+          "end": 155.12
+        },
+        {
+          "word": "learning",
+          "start": 155.12,
+          "end": 155.52
+        },
+        {
+          "word": "outcomes",
+          "start": 155.52,
+          "end": 156.02
+        },
+        {
+          "word": "for",
+          "start": 156.02,
+          "end": 156.26
+        },
+        {
+          "word": "their",
+          "start": 156.26,
+          "end": 156.4
+        },
+        {
+          "word": "students?",
+          "start": 156.4,
+          "end": 156.8
+        }
+      ],
+      "textKo": "가장 효과적일지를 물었습니다."
+    },
+    {
+      "index": 35,
+      "start": 157.16,
+      "end": 162.08,
+      "textEn": "We partnered with private companies, asking which of these salespeople is going to keep their jobs",
+      "words": [
+        {
+          "word": "We",
+          "start": 157.16,
+          "end": 157.76
+        },
+        {
+          "word": "partnered",
+          "start": 157.76,
+          "end": 158.06
+        },
+        {
+          "word": "with",
+          "start": 158.06,
+          "end": 158.26
+        },
+        {
+          "word": "private",
+          "start": 158.26,
+          "end": 158.62
+        },
+        {
+          "word": "companies,",
+          "start": 158.62,
+          "end": 159.08
+        },
+        {
+          "word": "asking",
+          "start": 159.08,
+          "end": 159.54
+        },
+        {
+          "word": "which",
+          "start": 159.54,
+          "end": 160.1
+        },
+        {
+          "word": "of",
+          "start": 160.1,
+          "end": 160.24
+        },
+        {
+          "word": "these",
+          "start": 160.24,
+          "end": 160.36
+        },
+        {
+          "word": "salespeople",
+          "start": 160.36,
+          "end": 160.96
+        },
+        {
+          "word": "is",
+          "start": 160.96,
+          "end": 161.12
+        },
+        {
+          "word": "going",
+          "start": 161.12,
+          "end": 161.2
+        },
+        {
+          "word": "to",
+          "start": 161.2,
+          "end": 161.28
+        },
+        {
+          "word": "keep",
+          "start": 161.28,
+          "end": 161.48
+        },
+        {
+          "word": "their",
+          "start": 161.48,
+          "end": 161.64
+        },
+        {
+          "word": "jobs",
+          "start": 161.64,
+          "end": 162.08
+        }
+      ],
+      "textKo": "우리는 민간 기업과 제휴하여, 이 영업사원들 중 누가 직장을 유지할지,"
+    },
+    {
+      "index": 36,
+      "start": 162.08,
+      "end": 166.46,
+      "textEn": "And who is going to earn the most money. In all those very different contexts,",
+      "words": [
+        {
+          "word": "and",
+          "start": 162.08,
+          "end": 162.66
+        },
+        {
+          "word": "who",
+          "start": 162.66,
+          "end": 162.8
+        },
+        {
+          "word": "is",
+          "start": 162.8,
+          "end": 162.88
+        },
+        {
+          "word": "going",
+          "start": 162.88,
+          "end": 162.96
+        },
+        {
+          "word": "to",
+          "start": 162.96,
+          "end": 163.04
+        },
+        {
+          "word": "earn",
+          "start": 163.04,
+          "end": 163.18
+        },
+        {
+          "word": "the",
+          "start": 163.18,
+          "end": 163.3
+        },
+        {
+          "word": "most",
+          "start": 163.3,
+          "end": 163.52
+        },
+        {
+          "word": "money.",
+          "start": 163.52,
+          "end": 163.82
+        },
+        {
+          "word": "In",
+          "start": 163.82,
+          "end": 164.94
+        },
+        {
+          "word": "all",
+          "start": 164.94,
+          "end": 165.08
+        },
+        {
+          "word": "those",
+          "start": 165.08,
+          "end": 165.24
+        },
+        {
+          "word": "very",
+          "start": 165.24,
+          "end": 165.48
+        },
+        {
+          "word": "different",
+          "start": 165.48,
+          "end": 165.84
+        },
+        {
+          "word": "contexts,",
+          "start": 165.84,
+          "end": 166.46
+        }
+      ],
+      "textKo": "그리고 누가 가장 많은 돈을 벌지 물었습니다. 이 모든 매우 다른 맥락에서,"
+    },
+    {
+      "index": 37,
+      "start": 167.3,
+      "end": 171.68,
+      "textEn": "One characteristic emerged as a significant predictor of success.",
+      "words": [
+        {
+          "word": "one",
+          "start": 167.3,
+          "end": 168.0
+        },
+        {
+          "word": "characteristic",
+          "start": 168.0,
+          "end": 168.54
+        },
+        {
+          "word": "emerged",
+          "start": 168.54,
+          "end": 169.3
+        },
+        {
+          "word": "as",
+          "start": 169.3,
+          "end": 170.04
+        },
+        {
+          "word": "a",
+          "start": 170.04,
+          "end": 170.14
+        },
+        {
+          "word": "significant",
+          "start": 170.14,
+          "end": 170.58
+        },
+        {
+          "word": "predictor",
+          "start": 170.58,
+          "end": 171.12
+        },
+        {
+          "word": "of",
+          "start": 171.12,
+          "end": 171.28
+        },
+        {
+          "word": "success.",
+          "start": 171.28,
+          "end": 171.68
+        }
+      ],
+      "textKo": "하나의 특성이 성공의 중요한 예측 인자로 떠올랐습니다."
+    },
+    {
+      "index": 38,
+      "start": 171.98,
+      "end": 178.54,
+      "textEn": "And it wasn't social intelligence. It wasn't good looks, physical health, and it wasn't IQ.",
+      "words": [
+        {
+          "word": "And",
+          "start": 171.98,
+          "end": 172.6
+        },
+        {
+          "word": "it",
+          "start": 172.6,
+          "end": 172.72
+        },
+        {
+          "word": "wasn't",
+          "start": 172.72,
+          "end": 173.08
+        },
+        {
+          "word": "social",
+          "start": 173.08,
+          "end": 173.34
+        },
+        {
+          "word": "intelligence.",
+          "start": 173.34,
+          "end": 173.88
+        },
+        {
+          "word": "It",
+          "start": 174.24,
+          "end": 174.76
+        },
+        {
+          "word": "wasn't",
+          "start": 174.76,
+          "end": 174.96
+        },
+        {
+          "word": "good",
+          "start": 174.96,
+          "end": 175.16
+        },
+        {
+          "word": "looks,",
+          "start": 175.16,
+          "end": 175.58
+        },
+        {
+          "word": "physical",
+          "start": 176.0,
+          "end": 176.64
+        },
+        {
+          "word": "health,",
+          "start": 176.64,
+          "end": 177.02
+        },
+        {
+          "word": "and",
+          "start": 177.26,
+          "end": 177.8
+        },
+        {
+          "word": "it",
+          "start": 177.8,
+          "end": 177.92
+        },
+        {
+          "word": "wasn't",
+          "start": 177.92,
+          "end": 178.22
+        },
+        {
+          "word": "IQ.",
+          "start": 178.22,
+          "end": 178.54
+        }
+      ],
+      "textKo": "그것은 사회적 지능이 아니었습니다. 외모, 신체 건강도 아니었고, IQ도 아니었습니다."
+    },
+    {
+      "index": 39,
+      "start": 179.12,
+      "end": 186.22,
+      "textEn": "It was grit. Grit is passion and perseverance for very long-term goals.",
+      "words": [
+        {
+          "word": "It",
+          "start": 179.12,
+          "end": 179.92
+        },
+        {
+          "word": "was",
+          "start": 179.92,
+          "end": 180.1
+        },
+        {
+          "word": "grit.",
+          "start": 180.1,
+          "end": 180.48
+        },
+        {
+          "word": "Grit",
+          "start": 181.54,
+          "end": 182.3
+        },
+        {
+          "word": "is",
+          "start": 182.3,
+          "end": 182.5
+        },
+        {
+          "word": "passion",
+          "start": 182.5,
+          "end": 183.04
+        },
+        {
+          "word": "and",
+          "start": 183.04,
+          "end": 183.42
+        },
+        {
+          "word": "perseverance",
+          "start": 183.42,
+          "end": 184.06
+        },
+        {
+          "word": "for",
+          "start": 184.06,
+          "end": 184.62
+        },
+        {
+          "word": "very",
+          "start": 184.62,
+          "end": 185.06
+        },
+        {
+          "word": "long",
+          "start": 185.06,
+          "end": 185.48
+        },
+        {
+          "word": "-term",
+          "start": 185.48,
+          "end": 185.78
+        },
+        {
+          "word": "goals.",
+          "start": 185.78,
+          "end": 186.22
+        }
+      ],
+      "textKo": "그것은 그릿이었습니다. 그릿은 매우 장기적인 목표에 대한 열정과 인내입니다."
+    },
+    {
+      "index": 40,
+      "start": 186.7,
+      "end": 191.08,
+      "textEn": "Grit is having stamina. Grit is sticking with your future,",
+      "words": [
+        {
+          "word": "Grit",
+          "start": 186.7,
+          "end": 187.34
+        },
+        {
+          "word": "is",
+          "start": 187.34,
+          "end": 187.52
+        },
+        {
+          "word": "having",
+          "start": 187.52,
+          "end": 187.8
+        },
+        {
+          "word": "stamina.",
+          "start": 187.8,
+          "end": 188.42
+        },
+        {
+          "word": "Grit",
+          "start": 189.06,
+          "end": 189.52
+        },
+        {
+          "word": "is",
+          "start": 189.52,
+          "end": 189.68
+        },
+        {
+          "word": "sticking",
+          "start": 189.68,
+          "end": 190.02
+        },
+        {
+          "word": "with",
+          "start": 190.02,
+          "end": 190.36
+        },
+        {
+          "word": "your",
+          "start": 190.36,
+          "end": 190.6
+        },
+        {
+          "word": "future,",
+          "start": 190.6,
+          "end": 191.08
+        }
+      ],
+      "textKo": "그릿은 끈기입니다. 그릿은 미래에 대한 집념이며,"
+    },
+    {
+      "index": 41,
+      "start": 191.48,
+      "end": 194.62,
+      "textEn": "Day in, day out, not just for the week,",
+      "words": [
+        {
+          "word": "day",
+          "start": 191.48,
+          "end": 192.04
+        },
+        {
+          "word": "in,",
+          "start": 192.04,
+          "end": 192.34
+        },
+        {
+          "word": "day",
+          "start": 192.46,
+          "end": 192.58
+        },
+        {
+          "word": "out,",
+          "start": 192.58,
+          "end": 192.98
+        },
+        {
+          "word": "not",
+          "start": 192.98,
+          "end": 193.76
+        },
+        {
+          "word": "just",
+          "start": 193.76,
+          "end": 194.0
+        },
+        {
+          "word": "for",
+          "start": 194.0,
+          "end": 194.16
+        },
+        {
+          "word": "the",
+          "start": 194.16,
+          "end": 194.28
+        },
+        {
+          "word": "week,",
+          "start": 194.28,
+          "end": 194.62
+        }
+      ],
+      "textKo": "매일매일, 일주일만이 아니라,"
+    },
+    {
+      "index": 42,
+      "start": 194.98,
+      "end": 197.78,
+      "textEn": "Not just for the month, but for years,",
+      "words": [
+        {
+          "word": "not",
+          "start": 194.98,
+          "end": 195.38
+        },
+        {
+          "word": "just",
+          "start": 195.38,
+          "end": 195.6
+        },
+        {
+          "word": "for",
+          "start": 195.6,
+          "end": 195.74
+        },
+        {
+          "word": "the",
+          "start": 195.74,
+          "end": 195.84
+        },
+        {
+          "word": "month,",
+          "start": 195.84,
+          "end": 196.2
+        },
+        {
+          "word": "but",
+          "start": 196.62,
+          "end": 197.1
+        },
+        {
+          "word": "for",
+          "start": 197.1,
+          "end": 197.3
+        },
+        {
+          "word": "years,",
+          "start": 197.3,
+          "end": 197.78
+        }
+      ],
+      "textKo": "한 달만이 아니라, 수년간,"
+    },
+    {
+      "index": 43,
+      "start": 198.3,
+      "end": 201.98,
+      "textEn": "And working really hard to make that future a reality.",
+      "words": [
+        {
+          "word": "and",
+          "start": 198.3,
+          "end": 198.72
+        },
+        {
+          "word": "working",
+          "start": 198.72,
+          "end": 199.1
+        },
+        {
+          "word": "really",
+          "start": 199.1,
+          "end": 199.64
+        },
+        {
+          "word": "hard",
+          "start": 199.64,
+          "end": 200.1
+        },
+        {
+          "word": "to",
+          "start": 200.1,
+          "end": 200.62
+        },
+        {
+          "word": "make",
+          "start": 200.62,
+          "end": 200.84
+        },
+        {
+          "word": "that",
+          "start": 200.84,
+          "end": 201.04
+        },
+        {
+          "word": "future",
+          "start": 201.04,
+          "end": 201.36
+        },
+        {
+          "word": "a",
+          "start": 201.36,
+          "end": 201.56
+        },
+        {
+          "word": "reality.",
+          "start": 201.56,
+          "end": 201.98
+        }
+      ],
+      "textKo": "그 미래를 현실로 만들기 위해 정말 열심히 노력하는 것입니다."
+    },
+    {
+      "index": 44,
+      "start": 202.78,
+      "end": 205.34,
+      "textEn": "Grit is living life like it's a marathon,",
+      "words": [
+        {
+          "word": "Grit",
+          "start": 202.78,
+          "end": 203.28
+        },
+        {
+          "word": "is",
+          "start": 203.28,
+          "end": 203.44
+        },
+        {
+          "word": "living",
+          "start": 203.44,
+          "end": 203.72
+        },
+        {
+          "word": "life",
+          "start": 203.72,
+          "end": 204.14
+        },
+        {
+          "word": "like",
+          "start": 204.14,
+          "end": 204.5
+        },
+        {
+          "word": "it's",
+          "start": 204.5,
+          "end": 204.68
+        },
+        {
+          "word": "a",
+          "start": 204.68,
+          "end": 204.8
+        },
+        {
+          "word": "marathon,",
+          "start": 204.8,
+          "end": 205.34
+        }
+      ],
+      "textKo": "그릿은 인생을 마라톤처럼 사는 것이지,"
+    },
+    {
+      "index": 45,
+      "start": 205.98,
+      "end": 209.08,
+      "textEn": "Not a sprint. A few years ago,",
+      "words": [
+        {
+          "word": "not",
+          "start": 205.98,
+          "end": 206.28
+        },
+        {
+          "word": "a",
+          "start": 206.28,
+          "end": 206.46
+        },
+        {
+          "word": "sprint.",
+          "start": 206.46,
+          "end": 206.8
+        },
+        {
+          "word": "A",
+          "start": 207.66,
+          "end": 208.36
+        },
+        {
+          "word": "few",
+          "start": 208.36,
+          "end": 208.52
+        },
+        {
+          "word": "years",
+          "start": 208.52,
+          "end": 208.8
+        },
+        {
+          "word": "ago,",
+          "start": 208.8,
+          "end": 209.08
+        }
+      ],
+      "textKo": "단거리 경주가 아닙니다. 몇 년 전,"
+    },
+    {
+      "index": 46,
+      "start": 209.34,
+      "end": 212.26,
+      "textEn": "I started studying grit in the Chicago public schools.",
+      "words": [
+        {
+          "word": "I",
+          "start": 209.34,
+          "end": 209.72
+        },
+        {
+          "word": "started",
+          "start": 209.72,
+          "end": 210.0
+        },
+        {
+          "word": "studying",
+          "start": 210.0,
+          "end": 210.4
+        },
+        {
+          "word": "grit",
+          "start": 210.4,
+          "end": 210.66
+        },
+        {
+          "word": "in",
+          "start": 210.66,
+          "end": 210.9
+        },
+        {
+          "word": "the",
+          "start": 210.9,
+          "end": 210.98
+        },
+        {
+          "word": "Chicago",
+          "start": 210.98,
+          "end": 211.36
+        },
+        {
+          "word": "public",
+          "start": 211.36,
+          "end": 211.78
+        },
+        {
+          "word": "schools.",
+          "start": 211.78,
+          "end": 212.26
+        }
+      ],
+      "textKo": "저는 시카고 공립학교에서 그릿을 연구하기 시작했습니다."
+    },
+    {
+      "index": 47,
+      "start": 212.26,
+      "end": 216.84,
+      "textEn": "I asked thousands of high school juniors to take grit questionnaires,",
+      "words": [
+        {
+          "word": "I",
+          "start": 212.26,
+          "end": 213.28
+        },
+        {
+          "word": "asked",
+          "start": 213.28,
+          "end": 213.56
+        },
+        {
+          "word": "thousands",
+          "start": 213.56,
+          "end": 214.02
+        },
+        {
+          "word": "of",
+          "start": 214.02,
+          "end": 214.26
+        },
+        {
+          "word": "high",
+          "start": 214.26,
+          "end": 214.42
+        },
+        {
+          "word": "school",
+          "start": 214.42,
+          "end": 214.66
+        },
+        {
+          "word": "juniors",
+          "start": 214.66,
+          "end": 215.2
+        },
+        {
+          "word": "to",
+          "start": 215.2,
+          "end": 215.64
+        },
+        {
+          "word": "take",
+          "start": 215.64,
+          "end": 215.88
+        },
+        {
+          "word": "grit",
+          "start": 215.88,
+          "end": 216.14
+        },
+        {
+          "word": "questionnaires,",
+          "start": 216.14,
+          "end": 216.84
+        }
+      ],
+      "textKo": "수천 명의 고등학교 3학년생들에게 그릿 설문지를 작성하게 했고,"
+    },
+    {
+      "index": 48,
+      "start": 217.14,
+      "end": 220.32,
+      "textEn": "And then waited around more than a year to see who would graduate.",
+      "words": [
+        {
+          "word": "and",
+          "start": 217.14,
+          "end": 217.62
+        },
+        {
+          "word": "then",
+          "start": 217.62,
+          "end": 217.72
+        },
+        {
+          "word": "waited",
+          "start": 217.72,
+          "end": 218.0
+        },
+        {
+          "word": "around",
+          "start": 218.0,
+          "end": 218.34
+        },
+        {
+          "word": "more",
+          "start": 218.34,
+          "end": 218.62
+        },
+        {
+          "word": "than",
+          "start": 218.62,
+          "end": 218.78
+        },
+        {
+          "word": "a",
+          "start": 218.78,
+          "end": 218.9
+        },
+        {
+          "word": "year",
+          "start": 218.9,
+          "end": 219.14
+        },
+        {
+          "word": "to",
+          "start": 219.14,
+          "end": 219.38
+        },
+        {
+          "word": "see",
+          "start": 219.38,
+          "end": 219.54
+        },
+        {
+          "word": "who",
+          "start": 219.54,
+          "end": 219.76
+        },
+        {
+          "word": "would",
+          "start": 219.76,
+          "end": 219.9
+        },
+        {
+          "word": "graduate.",
+          "start": 219.9,
+          "end": 220.32
+        }
+      ],
+      "textKo": "그런 다음 1년 이상 기다리며 누가 졸업하는지 지켜봤습니다."
+    },
+    {
+      "index": 49,
+      "start": 221.12,
+      "end": 226.28,
+      "textEn": "Turns out that grittier kids were significantly more likely to graduate,",
+      "words": [
+        {
+          "word": "Turns",
+          "start": 221.12,
+          "end": 221.8
+        },
+        {
+          "word": "out",
+          "start": 221.8,
+          "end": 222.18
+        },
+        {
+          "word": "that",
+          "start": 222.18,
+          "end": 222.72
+        },
+        {
+          "word": "grittier",
+          "start": 222.72,
+          "end": 223.22
+        },
+        {
+          "word": "kids",
+          "start": 223.22,
+          "end": 223.62
+        },
+        {
+          "word": "were",
+          "start": 223.62,
+          "end": 224.04
+        },
+        {
+          "word": "significantly",
+          "start": 224.04,
+          "end": 224.68
+        },
+        {
+          "word": "more",
+          "start": 224.68,
+          "end": 225.18
+        },
+        {
+          "word": "likely",
+          "start": 225.18,
+          "end": 225.58
+        },
+        {
+          "word": "to",
+          "start": 225.58,
+          "end": 225.8
+        },
+        {
+          "word": "graduate,",
+          "start": 225.8,
+          "end": 226.28
+        }
+      ],
+      "textKo": "결과적으로, 그릿이 높은 학생들이 졸업할 확률이 유의미하게 더 높았습니다."
+    },
+    {
+      "index": 50,
+      "start": 226.62,
+      "end": 230.36,
+      "textEn": "Even when I matched them on every characteristic I could measure,",
+      "words": [
+        {
+          "word": "even",
+          "start": 226.62,
+          "end": 227.32
+        },
+        {
+          "word": "when",
+          "start": 227.32,
+          "end": 227.54
+        },
+        {
+          "word": "I",
+          "start": 227.54,
+          "end": 227.7
+        },
+        {
+          "word": "matched",
+          "start": 227.7,
+          "end": 228.04
+        },
+        {
+          "word": "them",
+          "start": 228.04,
+          "end": 228.26
+        },
+        {
+          "word": "on",
+          "start": 228.26,
+          "end": 228.48
+        },
+        {
+          "word": "every",
+          "start": 228.48,
+          "end": 228.92
+        },
+        {
+          "word": "characteristic",
+          "start": 228.92,
+          "end": 229.56
+        },
+        {
+          "word": "I",
+          "start": 229.56,
+          "end": 229.86
+        },
+        {
+          "word": "could",
+          "start": 229.86,
+          "end": 230.02
+        },
+        {
+          "word": "measure,",
+          "start": 230.02,
+          "end": 230.36
+        }
+      ],
+      "textKo": "제가 측정할 수 있는 모든 특성에서 동일 조건으로 비교했을 때도요."
+    },
+    {
+      "index": 51,
+      "start": 230.66,
+      "end": 235.16,
+      "textEn": "Things like family income, standardized achievement test scores,",
+      "words": [
+        {
+          "word": "things",
+          "start": 230.66,
+          "end": 231.04
+        },
+        {
+          "word": "like",
+          "start": 231.04,
+          "end": 231.34
+        },
+        {
+          "word": "family",
+          "start": 231.34,
+          "end": 231.96
+        },
+        {
+          "word": "income,",
+          "start": 231.96,
+          "end": 232.46
+        },
+        {
+          "word": "standardized",
+          "start": 233.04,
+          "end": 233.72
+        },
+        {
+          "word": "achievement",
+          "start": 233.72,
+          "end": 234.42
+        },
+        {
+          "word": "test",
+          "start": 234.42,
+          "end": 234.76
+        },
+        {
+          "word": "scores,",
+          "start": 234.76,
+          "end": 235.16
+        }
+      ],
+      "textKo": "가정 소득, 표준화 학력 평가 점수,"
+    },
+    {
+      "index": 52,
+      "start": 235.16,
+      "end": 238.56,
+      "textEn": "Even how safe kids felt when they were at school.",
+      "words": [
+        {
+          "word": "even",
+          "start": 235.16,
+          "end": 236.08
+        },
+        {
+          "word": "how",
+          "start": 236.08,
+          "end": 236.38
+        },
+        {
+          "word": "safe",
+          "start": 236.38,
+          "end": 236.92
+        },
+        {
+          "word": "kids",
+          "start": 236.92,
+          "end": 237.2
+        },
+        {
+          "word": "felt",
+          "start": 237.2,
+          "end": 237.6
+        },
+        {
+          "word": "when",
+          "start": 237.6,
+          "end": 237.84
+        },
+        {
+          "word": "they",
+          "start": 237.84,
+          "end": 237.96
+        },
+        {
+          "word": "were",
+          "start": 237.96,
+          "end": 238.1
+        },
+        {
+          "word": "at",
+          "start": 238.1,
+          "end": 238.22
+        },
+        {
+          "word": "school.",
+          "start": 238.22,
+          "end": 238.56
+        }
+      ],
+      "textKo": "심지어 학교에서 얼마나 안전하다고 느꼈는지까지 통제했을 때도요."
+    },
+    {
+      "index": 53,
+      "start": 238.56,
+      "end": 242.9,
+      "textEn": "So it's not just at West Point or the National Spelling Bee that grit matters.",
+      "words": [
+        {
+          "word": "So",
+          "start": 238.56,
+          "end": 239.58
+        },
+        {
+          "word": "it's",
+          "start": 239.58,
+          "end": 239.74
+        },
+        {
+          "word": "not",
+          "start": 239.74,
+          "end": 239.86
+        },
+        {
+          "word": "just",
+          "start": 239.86,
+          "end": 240.08
+        },
+        {
+          "word": "at",
+          "start": 240.08,
+          "end": 240.28
+        },
+        {
+          "word": "West",
+          "start": 240.28,
+          "end": 240.58
+        },
+        {
+          "word": "Point",
+          "start": 240.58,
+          "end": 240.86
+        },
+        {
+          "word": "or",
+          "start": 240.86,
+          "end": 241.04
+        },
+        {
+          "word": "the",
+          "start": 241.04,
+          "end": 241.14
+        },
+        {
+          "word": "National",
+          "start": 241.14,
+          "end": 241.42
+        },
+        {
+          "word": "Spelling",
+          "start": 241.42,
+          "end": 241.88
+        },
+        {
+          "word": "Bee",
+          "start": 241.88,
+          "end": 242.08
+        },
+        {
+          "word": "that",
+          "start": 242.08,
+          "end": 242.32
+        },
+        {
+          "word": "grit",
+          "start": 242.32,
+          "end": 242.48
+        },
+        {
+          "word": "matters.",
+          "start": 242.48,
+          "end": 242.9
+        }
+      ],
+      "textKo": "그러니까 웨스트포인트나 전국 철자 맞히기 대회에서만 그릿이 중요한 게 아닙니다."
+    },
+    {
+      "index": 54,
+      "start": 243.2,
+      "end": 247.7,
+      "textEn": "It's also in school, especially for kids at risk for dropping out.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 243.2,
+          "end": 243.7
+        },
+        {
+          "word": "also",
+          "start": 243.7,
+          "end": 244.08
+        },
+        {
+          "word": "in",
+          "start": 244.08,
+          "end": 244.42
+        },
+        {
+          "word": "school,",
+          "start": 244.42,
+          "end": 244.9
+        },
+        {
+          "word": "especially",
+          "start": 245.16,
+          "end": 245.86
+        },
+        {
+          "word": "for",
+          "start": 245.86,
+          "end": 246.2
+        },
+        {
+          "word": "kids",
+          "start": 246.2,
+          "end": 246.48
+        },
+        {
+          "word": "at",
+          "start": 246.48,
+          "end": 246.68
+        },
+        {
+          "word": "risk",
+          "start": 246.68,
+          "end": 246.92
+        },
+        {
+          "word": "for",
+          "start": 246.92,
+          "end": 247.12
+        },
+        {
+          "word": "dropping",
+          "start": 247.12,
+          "end": 247.42
+        },
+        {
+          "word": "out.",
+          "start": 247.42,
+          "end": 247.7
+        }
+      ],
+      "textKo": "학교에서도, 특히 중퇴 위험이 있는 학생들에게 중요합니다."
+    },
+    {
+      "index": 55,
+      "start": 248.74,
+      "end": 251.42,
+      "textEn": "To me, the most shocking thing about grit",
+      "words": [
+        {
+          "word": "To",
+          "start": 248.74,
+          "end": 249.34
+        },
+        {
+          "word": "me,",
+          "start": 249.34,
+          "end": 249.56
+        },
+        {
+          "word": "the",
+          "start": 249.72,
+          "end": 249.78
+        },
+        {
+          "word": "most",
+          "start": 249.78,
+          "end": 250.02
+        },
+        {
+          "word": "shocking",
+          "start": 250.02,
+          "end": 250.42
+        },
+        {
+          "word": "thing",
+          "start": 250.42,
+          "end": 250.78
+        },
+        {
+          "word": "about",
+          "start": 250.78,
+          "end": 251.1
+        },
+        {
+          "word": "grit",
+          "start": 251.1,
+          "end": 251.42
+        }
+      ],
+      "textKo": "제가 보기에, 그릿에 대해 가장 충격적인 것은"
+    },
+    {
+      "index": 56,
+      "start": 251.42,
+      "end": 253.54,
+      "textEn": "Is how little we know,",
+      "words": [
+        {
+          "word": "is",
+          "start": 251.42,
+          "end": 252.38
+        },
+        {
+          "word": "how",
+          "start": 252.38,
+          "end": 252.62
+        },
+        {
+          "word": "little",
+          "start": 252.62,
+          "end": 252.96
+        },
+        {
+          "word": "we",
+          "start": 252.96,
+          "end": 253.22
+        },
+        {
+          "word": "know,",
+          "start": 253.22,
+          "end": 253.54
+        }
+      ],
+      "textKo": "우리가 아는 것이 얼마나 적은가 하는 것입니다."
+    },
+    {
+      "index": 57,
+      "start": 253.92,
+      "end": 256.4,
+      "textEn": "How little science knows about building it.",
+      "words": [
+        {
+          "word": "how",
+          "start": 253.92,
+          "end": 254.36
+        },
+        {
+          "word": "little",
+          "start": 254.36,
+          "end": 254.6
+        },
+        {
+          "word": "science",
+          "start": 254.6,
+          "end": 255.08
+        },
+        {
+          "word": "knows",
+          "start": 255.08,
+          "end": 255.48
+        },
+        {
+          "word": "about",
+          "start": 255.48,
+          "end": 255.78
+        },
+        {
+          "word": "building",
+          "start": 255.78,
+          "end": 256.18
+        },
+        {
+          "word": "it.",
+          "start": 256.18,
+          "end": 256.4
+        }
+      ],
+      "textKo": "과학이 그릿을 키우는 방법에 대해 아는 것이 얼마나 적은가 말이죠."
+    },
+    {
+      "index": 58,
+      "start": 256.4,
+      "end": 259.22,
+      "textEn": "Every day, parents and teachers ask me,",
+      "words": [
+        {
+          "word": "Every",
+          "start": 256.4,
+          "end": 257.42
+        },
+        {
+          "word": "day,",
+          "start": 257.42,
+          "end": 257.74
+        },
+        {
+          "word": "parents",
+          "start": 258.08,
+          "end": 258.24
+        },
+        {
+          "word": "and",
+          "start": 258.24,
+          "end": 258.42
+        },
+        {
+          "word": "teachers",
+          "start": 258.42,
+          "end": 258.68
+        },
+        {
+          "word": "ask",
+          "start": 258.68,
+          "end": 259.04
+        },
+        {
+          "word": "me,",
+          "start": 259.04,
+          "end": 259.22
+        }
+      ],
+      "textKo": "매일 부모님과 교사들이 저에게 묻습니다."
+    },
+    {
+      "index": 59,
+      "start": 259.4,
+      "end": 264.22,
+      "textEn": "How do I build grit in kids? What do I do to teach kids a solid work ethic?",
+      "words": [
+        {
+          "word": "how",
+          "start": 259.4,
+          "end": 259.78
+        },
+        {
+          "word": "do",
+          "start": 259.78,
+          "end": 259.92
+        },
+        {
+          "word": "I",
+          "start": 259.92,
+          "end": 260.06
+        },
+        {
+          "word": "build",
+          "start": 260.06,
+          "end": 260.34
+        },
+        {
+          "word": "grit",
+          "start": 260.34,
+          "end": 260.62
+        },
+        {
+          "word": "in",
+          "start": 260.62,
+          "end": 260.76
+        },
+        {
+          "word": "kids?",
+          "start": 260.76,
+          "end": 261.1
+        },
+        {
+          "word": "What",
+          "start": 261.3,
+          "end": 261.74
+        },
+        {
+          "word": "do",
+          "start": 261.74,
+          "end": 261.84
+        },
+        {
+          "word": "I",
+          "start": 261.84,
+          "end": 261.96
+        },
+        {
+          "word": "do",
+          "start": 261.96,
+          "end": 262.24
+        },
+        {
+          "word": "to",
+          "start": 262.24,
+          "end": 262.42
+        },
+        {
+          "word": "teach",
+          "start": 262.42,
+          "end": 262.68
+        },
+        {
+          "word": "kids",
+          "start": 262.68,
+          "end": 262.92
+        },
+        {
+          "word": "a",
+          "start": 262.92,
+          "end": 263.06
+        },
+        {
+          "word": "solid",
+          "start": 263.06,
+          "end": 263.6
+        },
+        {
+          "word": "work",
+          "start": 263.6,
+          "end": 263.88
+        },
+        {
+          "word": "ethic?",
+          "start": 263.88,
+          "end": 264.22
+        }
+      ],
+      "textKo": "'아이들의 그릿을 어떻게 키우나요? 아이들에게 탄탄한 직업 윤리를 어떻게 가르치나요?'"
+    },
+    {
+      "index": 60,
+      "start": 264.46,
+      "end": 266.86,
+      "textEn": "How do I keep them motivated for the long run?",
+      "words": [
+        {
+          "word": "How",
+          "start": 264.46,
+          "end": 264.9
+        },
+        {
+          "word": "do",
+          "start": 264.9,
+          "end": 265.02
+        },
+        {
+          "word": "I",
+          "start": 265.02,
+          "end": 265.1
+        },
+        {
+          "word": "keep",
+          "start": 265.1,
+          "end": 265.3
+        },
+        {
+          "word": "them",
+          "start": 265.3,
+          "end": 265.46
+        },
+        {
+          "word": "motivated",
+          "start": 265.46,
+          "end": 266.06
+        },
+        {
+          "word": "for",
+          "start": 266.06,
+          "end": 266.28
+        },
+        {
+          "word": "the",
+          "start": 266.28,
+          "end": 266.38
+        },
+        {
+          "word": "long",
+          "start": 266.38,
+          "end": 266.6
+        },
+        {
+          "word": "run?",
+          "start": 266.6,
+          "end": 266.86
+        }
+      ],
+      "textKo": "'어떻게 하면 오랫동안 동기를 유지시킬 수 있나요?'"
+    },
+    {
+      "index": 61,
+      "start": 267.46,
+      "end": 270.5,
+      "textEn": "The honest answer is, I don't know.",
+      "words": [
+        {
+          "word": "The",
+          "start": 267.46,
+          "end": 268.02
+        },
+        {
+          "word": "honest",
+          "start": 268.02,
+          "end": 268.34
+        },
+        {
+          "word": "answer",
+          "start": 268.34,
+          "end": 268.72
+        },
+        {
+          "word": "is,",
+          "start": 268.72,
+          "end": 269.16
+        },
+        {
+          "word": "I",
+          "start": 269.44,
+          "end": 270.04
+        },
+        {
+          "word": "don't",
+          "start": 270.04,
+          "end": 270.24
+        },
+        {
+          "word": "know.",
+          "start": 270.24,
+          "end": 270.5
+        }
+      ],
+      "textKo": "솔직한 답은, 모르겠다는 것입니다."
+    },
+    {
+      "index": 62,
+      "start": 272.12,
+      "end": 274.88,
+      "textEn": "What I do know is that talent doesn't make you gritty.",
+      "words": [
+        {
+          "word": "What",
+          "start": 272.12,
+          "end": 272.68
+        },
+        {
+          "word": "I",
+          "start": 272.68,
+          "end": 272.82
+        },
+        {
+          "word": "do",
+          "start": 272.82,
+          "end": 273.0
+        },
+        {
+          "word": "know",
+          "start": 273.0,
+          "end": 273.26
+        },
+        {
+          "word": "is",
+          "start": 273.26,
+          "end": 273.44
+        },
+        {
+          "word": "that",
+          "start": 273.44,
+          "end": 273.58
+        },
+        {
+          "word": "talent",
+          "start": 273.58,
+          "end": 273.92
+        },
+        {
+          "word": "doesn't",
+          "start": 273.92,
+          "end": 274.26
+        },
+        {
+          "word": "make",
+          "start": 274.26,
+          "end": 274.46
+        },
+        {
+          "word": "you",
+          "start": 274.46,
+          "end": 274.62
+        },
+        {
+          "word": "gritty.",
+          "start": 274.62,
+          "end": 274.88
+        }
+      ],
+      "textKo": "제가 아는 것은 재능이 그릿을 만들어주지 않는다는 것입니다."
+    },
+    {
+      "index": 63,
+      "start": 275.48,
+      "end": 279.88,
+      "textEn": "Our data show very clearly that there are many talented individuals",
+      "words": [
+        {
+          "word": "Our",
+          "start": 275.48,
+          "end": 275.88
+        },
+        {
+          "word": "data",
+          "start": 275.88,
+          "end": 276.12
+        },
+        {
+          "word": "show",
+          "start": 276.12,
+          "end": 276.38
+        },
+        {
+          "word": "very",
+          "start": 276.38,
+          "end": 276.64
+        },
+        {
+          "word": "clearly",
+          "start": 276.64,
+          "end": 277.18
+        },
+        {
+          "word": "that",
+          "start": 277.18,
+          "end": 278.14
+        },
+        {
+          "word": "there",
+          "start": 278.14,
+          "end": 278.36
+        },
+        {
+          "word": "are",
+          "start": 278.36,
+          "end": 278.52
+        },
+        {
+          "word": "many",
+          "start": 278.52,
+          "end": 278.88
+        },
+        {
+          "word": "talented",
+          "start": 278.88,
+          "end": 279.32
+        },
+        {
+          "word": "individuals",
+          "start": 279.32,
+          "end": 279.88
+        }
+      ],
+      "textKo": "우리 데이터는 매우 분명하게 보여줍니다. 재능 있는 사람들 중 많은 이가"
+    },
+    {
+      "index": 64,
+      "start": 279.88,
+      "end": 283.06,
+      "textEn": "Who simply do not follow through on their commitments.",
+      "words": [
+        {
+          "word": "who",
+          "start": 279.88,
+          "end": 280.46
+        },
+        {
+          "word": "simply",
+          "start": 280.46,
+          "end": 280.8
+        },
+        {
+          "word": "do",
+          "start": 280.8,
+          "end": 281.14
+        },
+        {
+          "word": "not",
+          "start": 281.14,
+          "end": 281.5
+        },
+        {
+          "word": "follow",
+          "start": 281.5,
+          "end": 281.86
+        },
+        {
+          "word": "through",
+          "start": 281.86,
+          "end": 282.22
+        },
+        {
+          "word": "on",
+          "start": 282.22,
+          "end": 282.5
+        },
+        {
+          "word": "their",
+          "start": 282.5,
+          "end": 282.66
+        },
+        {
+          "word": "commitments.",
+          "start": 282.66,
+          "end": 283.06
+        }
+      ],
+      "textKo": "자신의 약속을 끝까지 지키지 않는다는 것을요."
+    },
+    {
+      "index": 65,
+      "start": 283.06,
+      "end": 287.38,
+      "textEn": "In fact, in our data, grit is usually unrelated",
+      "words": [
+        {
+          "word": "In",
+          "start": 283.06,
+          "end": 284.0
+        },
+        {
+          "word": "fact,",
+          "start": 284.0,
+          "end": 284.22
+        },
+        {
+          "word": "in",
+          "start": 284.36,
+          "end": 284.44
+        },
+        {
+          "word": "our",
+          "start": 284.44,
+          "end": 284.62
+        },
+        {
+          "word": "data,",
+          "start": 284.62,
+          "end": 284.96
+        },
+        {
+          "word": "grit",
+          "start": 285.56,
+          "end": 285.78
+        },
+        {
+          "word": "is",
+          "start": 285.78,
+          "end": 286.24
+        },
+        {
+          "word": "usually",
+          "start": 286.24,
+          "end": 286.66
+        },
+        {
+          "word": "unrelated",
+          "start": 286.66,
+          "end": 287.38
+        }
+      ],
+      "textKo": "사실, 우리 데이터에서 그릿은 보통 재능의 척도와 관련이 없거나"
+    },
+    {
+      "index": 66,
+      "start": 287.38,
+      "end": 290.92,
+      "textEn": "Or even inversely related to measures of talent.",
+      "words": [
+        {
+          "word": "or",
+          "start": 287.38,
+          "end": 288.28
+        },
+        {
+          "word": "even",
+          "start": 288.28,
+          "end": 288.58
+        },
+        {
+          "word": "inversely",
+          "start": 288.58,
+          "end": 289.26
+        },
+        {
+          "word": "related",
+          "start": 289.26,
+          "end": 289.66
+        },
+        {
+          "word": "to",
+          "start": 289.66,
+          "end": 289.92
+        },
+        {
+          "word": "measures",
+          "start": 289.92,
+          "end": 290.28
+        },
+        {
+          "word": "of",
+          "start": 290.28,
+          "end": 290.52
+        },
+        {
+          "word": "talent.",
+          "start": 290.52,
+          "end": 290.92
+        }
+      ],
+      "textKo": "심지어 반비례 관계에 있습니다."
+    },
+    {
+      "index": 67,
+      "start": 292.06,
+      "end": 296.0,
+      "textEn": "So far, the best idea I've heard about building grit in kids",
+      "words": [
+        {
+          "word": "So",
+          "start": 292.06,
+          "end": 292.74
+        },
+        {
+          "word": "far,",
+          "start": 292.74,
+          "end": 292.96
+        },
+        {
+          "word": "the",
+          "start": 293.06,
+          "end": 293.14
+        },
+        {
+          "word": "best",
+          "start": 293.14,
+          "end": 293.44
+        },
+        {
+          "word": "idea",
+          "start": 293.44,
+          "end": 293.86
+        },
+        {
+          "word": "I've",
+          "start": 293.86,
+          "end": 294.24
+        },
+        {
+          "word": "heard",
+          "start": 294.24,
+          "end": 294.44
+        },
+        {
+          "word": "about",
+          "start": 294.44,
+          "end": 294.66
+        },
+        {
+          "word": "building",
+          "start": 294.66,
+          "end": 295.04
+        },
+        {
+          "word": "grit",
+          "start": 295.04,
+          "end": 295.38
+        },
+        {
+          "word": "in",
+          "start": 295.38,
+          "end": 295.56
+        },
+        {
+          "word": "kids",
+          "start": 295.56,
+          "end": 296.0
+        }
+      ],
+      "textKo": "지금까지, 아이들의 그릿을 키우는 것에 대해 제가 들은 최고의 아이디어는"
+    },
+    {
+      "index": 68,
+      "start": 296.0,
+      "end": 298.44,
+      "textEn": "Is something called growth mindset.",
+      "words": [
+        {
+          "word": "is",
+          "start": 296.0,
+          "end": 296.8
+        },
+        {
+          "word": "something",
+          "start": 296.8,
+          "end": 297.1
+        },
+        {
+          "word": "called",
+          "start": 297.1,
+          "end": 297.46
+        },
+        {
+          "word": "growth",
+          "start": 297.46,
+          "end": 297.86
+        },
+        {
+          "word": "mindset.",
+          "start": 297.86,
+          "end": 298.44
+        }
+      ],
+      "textKo": "'성장 마인드셋'이라는 것입니다."
+    },
+    {
+      "index": 69,
+      "start": 299.12,
+      "end": 302.7,
+      "textEn": "This is an idea developed at Stanford University by Carol Dweck,",
+      "words": [
+        {
+          "word": "This",
+          "start": 299.12,
+          "end": 299.66
+        },
+        {
+          "word": "is",
+          "start": 299.66,
+          "end": 299.78
+        },
+        {
+          "word": "an",
+          "start": 299.78,
+          "end": 299.9
+        },
+        {
+          "word": "idea",
+          "start": 299.9,
+          "end": 300.28
+        },
+        {
+          "word": "developed",
+          "start": 300.28,
+          "end": 300.68
+        },
+        {
+          "word": "at",
+          "start": 300.68,
+          "end": 300.84
+        },
+        {
+          "word": "Stanford",
+          "start": 300.84,
+          "end": 301.16
+        },
+        {
+          "word": "University",
+          "start": 301.16,
+          "end": 301.72
+        },
+        {
+          "word": "by",
+          "start": 301.72,
+          "end": 301.98
+        },
+        {
+          "word": "Carol",
+          "start": 301.98,
+          "end": 302.3
+        },
+        {
+          "word": "Dweck,",
+          "start": 302.3,
+          "end": 302.7
+        }
+      ],
+      "textKo": "이것은 스탠퍼드 대학교의 캐럴 드웩이 개발한 개념으로,"
+    },
+    {
+      "index": 70,
+      "start": 302.84,
+      "end": 307.82,
+      "textEn": "And it is the belief that the ability to learn is not fixed,",
+      "words": [
+        {
+          "word": "and",
+          "start": 302.84,
+          "end": 303.44
+        },
+        {
+          "word": "it",
+          "start": 303.44,
+          "end": 303.56
+        },
+        {
+          "word": "is",
+          "start": 303.56,
+          "end": 303.7
+        },
+        {
+          "word": "the",
+          "start": 303.7,
+          "end": 303.92
+        },
+        {
+          "word": "belief",
+          "start": 303.92,
+          "end": 304.54
+        },
+        {
+          "word": "that",
+          "start": 304.54,
+          "end": 305.56
+        },
+        {
+          "word": "the",
+          "start": 305.56,
+          "end": 305.8
+        },
+        {
+          "word": "ability",
+          "start": 305.8,
+          "end": 306.2
+        },
+        {
+          "word": "to",
+          "start": 306.2,
+          "end": 306.44
+        },
+        {
+          "word": "learn",
+          "start": 306.44,
+          "end": 306.76
+        },
+        {
+          "word": "is",
+          "start": 306.76,
+          "end": 307.04
+        },
+        {
+          "word": "not",
+          "start": 307.04,
+          "end": 307.3
+        },
+        {
+          "word": "fixed,",
+          "start": 307.3,
+          "end": 307.82
+        }
+      ],
+      "textKo": "배우는 능력은 고정된 것이 아니라는 믿음입니다."
+    },
+    {
+      "index": 71,
+      "start": 307.82,
+      "end": 310.42,
+      "textEn": "That it can change with your effort.",
+      "words": [
+        {
+          "word": "that",
+          "start": 307.82,
+          "end": 308.58
+        },
+        {
+          "word": "it",
+          "start": 308.58,
+          "end": 308.7
+        },
+        {
+          "word": "can",
+          "start": 308.7,
+          "end": 308.86
+        },
+        {
+          "word": "change",
+          "start": 308.86,
+          "end": 309.46
+        },
+        {
+          "word": "with",
+          "start": 309.46,
+          "end": 309.88
+        },
+        {
+          "word": "your",
+          "start": 309.88,
+          "end": 310.08
+        },
+        {
+          "word": "effort.",
+          "start": 310.08,
+          "end": 310.42
+        }
+      ],
+      "textKo": "노력에 따라 바뀔 수 있다는 것이죠."
+    },
+    {
+      "index": 72,
+      "start": 311.2,
+      "end": 315.3,
+      "textEn": "Dr. Dweck has shown that when kids read and learn about the brain",
+      "words": [
+        {
+          "word": "Dr.",
+          "start": 311.2,
+          "end": 311.8
+        },
+        {
+          "word": "Dweck",
+          "start": 311.92,
+          "end": 312.12
+        },
+        {
+          "word": "has",
+          "start": 312.12,
+          "end": 312.28
+        },
+        {
+          "word": "shown",
+          "start": 312.28,
+          "end": 312.54
+        },
+        {
+          "word": "that",
+          "start": 312.54,
+          "end": 312.72
+        },
+        {
+          "word": "when",
+          "start": 312.72,
+          "end": 313.0
+        },
+        {
+          "word": "kids",
+          "start": 313.0,
+          "end": 313.34
+        },
+        {
+          "word": "read",
+          "start": 313.34,
+          "end": 313.74
+        },
+        {
+          "word": "and",
+          "start": 313.74,
+          "end": 314.06
+        },
+        {
+          "word": "learn",
+          "start": 314.06,
+          "end": 314.36
+        },
+        {
+          "word": "about",
+          "start": 314.36,
+          "end": 314.66
+        },
+        {
+          "word": "the",
+          "start": 314.66,
+          "end": 314.84
+        },
+        {
+          "word": "brain",
+          "start": 314.84,
+          "end": 315.3
+        }
+      ],
+      "textKo": "드웩 박사는 아이들이 뇌에 대해 읽고 배우면서"
+    },
+    {
+      "index": 73,
+      "start": 315.3,
+      "end": 318.9,
+      "textEn": "And how it changes and grows in response to challenge,",
+      "words": [
+        {
+          "word": "and",
+          "start": 315.3,
+          "end": 316.02
+        },
+        {
+          "word": "how",
+          "start": 316.02,
+          "end": 316.22
+        },
+        {
+          "word": "it",
+          "start": 316.22,
+          "end": 316.36
+        },
+        {
+          "word": "changes",
+          "start": 316.36,
+          "end": 316.84
+        },
+        {
+          "word": "and",
+          "start": 316.84,
+          "end": 317.18
+        },
+        {
+          "word": "grows",
+          "start": 317.18,
+          "end": 317.6
+        },
+        {
+          "word": "in",
+          "start": 317.6,
+          "end": 317.9
+        },
+        {
+          "word": "response",
+          "start": 317.9,
+          "end": 318.24
+        },
+        {
+          "word": "to",
+          "start": 318.24,
+          "end": 318.48
+        },
+        {
+          "word": "challenge,",
+          "start": 318.48,
+          "end": 318.9
+        }
+      ],
+      "textKo": "도전에 반응하여 뇌가 어떻게 변하고 성장하는지 알게 되면,"
+    },
+    {
+      "index": 74,
+      "start": 319.2,
+      "end": 322.96,
+      "textEn": "They're much more likely to persevere when they fail",
+      "words": [
+        {
+          "word": "they're",
+          "start": 319.2,
+          "end": 319.68
+        },
+        {
+          "word": "much",
+          "start": 319.68,
+          "end": 319.96
+        },
+        {
+          "word": "more",
+          "start": 319.96,
+          "end": 320.22
+        },
+        {
+          "word": "likely",
+          "start": 320.22,
+          "end": 320.58
+        },
+        {
+          "word": "to",
+          "start": 320.58,
+          "end": 320.86
+        },
+        {
+          "word": "persevere",
+          "start": 320.86,
+          "end": 321.64
+        },
+        {
+          "word": "when",
+          "start": 321.64,
+          "end": 322.28
+        },
+        {
+          "word": "they",
+          "start": 322.28,
+          "end": 322.46
+        },
+        {
+          "word": "fail",
+          "start": 322.46,
+          "end": 322.96
+        }
+      ],
+      "textKo": "실패했을 때 훨씬 더 포기하지 않고 끈기 있게 노력한다는 것을 보여주었습니다."
+    },
+    {
+      "index": 75,
+      "start": 322.96,
+      "end": 327.78,
+      "textEn": "Because they don't believe that failure is a permanent condition.",
+      "words": [
+        {
+          "word": "because",
+          "start": 322.96,
+          "end": 323.82
+        },
+        {
+          "word": "they",
+          "start": 323.82,
+          "end": 324.92
+        },
+        {
+          "word": "don't",
+          "start": 324.92,
+          "end": 325.48
+        },
+        {
+          "word": "believe",
+          "start": 325.48,
+          "end": 325.8
+        },
+        {
+          "word": "that",
+          "start": 325.8,
+          "end": 326.04
+        },
+        {
+          "word": "failure",
+          "start": 326.04,
+          "end": 326.44
+        },
+        {
+          "word": "is",
+          "start": 326.44,
+          "end": 326.74
+        },
+        {
+          "word": "a",
+          "start": 326.74,
+          "end": 326.84
+        },
+        {
+          "word": "permanent",
+          "start": 326.84,
+          "end": 327.24
+        },
+        {
+          "word": "condition.",
+          "start": 327.24,
+          "end": 327.78
+        }
+      ],
+      "textKo": "왜냐하면 그들은 실패가 영원한 상태라고 믿지 않기 때문입니다."
+    },
+    {
+      "index": 76,
+      "start": 328.72,
+      "end": 331.96,
+      "textEn": "So growth mindset is a great idea for building grit,",
+      "words": [
+        {
+          "word": "So",
+          "start": 328.72,
+          "end": 329.32
+        },
+        {
+          "word": "growth",
+          "start": 329.32,
+          "end": 329.64
+        },
+        {
+          "word": "mindset",
+          "start": 329.64,
+          "end": 329.98
+        },
+        {
+          "word": "is",
+          "start": 329.98,
+          "end": 330.28
+        },
+        {
+          "word": "a",
+          "start": 330.28,
+          "end": 330.4
+        },
+        {
+          "word": "great",
+          "start": 330.4,
+          "end": 330.68
+        },
+        {
+          "word": "idea",
+          "start": 330.68,
+          "end": 331.06
+        },
+        {
+          "word": "for",
+          "start": 331.06,
+          "end": 331.26
+        },
+        {
+          "word": "building",
+          "start": 331.26,
+          "end": 331.58
+        },
+        {
+          "word": "grit,",
+          "start": 331.58,
+          "end": 331.96
+        }
+      ],
+      "textKo": "따라서 성장 마인드셋은 그릿을 키우는 훌륭한 아이디어이지만,"
+    },
+    {
+      "index": 77,
+      "start": 332.2,
+      "end": 336.52,
+      "textEn": "But we need more. And that's where I'm going to end my remarks",
+      "words": [
+        {
+          "word": "but",
+          "start": 332.2,
+          "end": 332.9
+        },
+        {
+          "word": "we",
+          "start": 332.9,
+          "end": 333.12
+        },
+        {
+          "word": "need",
+          "start": 333.12,
+          "end": 333.42
+        },
+        {
+          "word": "more.",
+          "start": 333.42,
+          "end": 333.98
+        },
+        {
+          "word": "And",
+          "start": 334.48,
+          "end": 335.08
+        },
+        {
+          "word": "that's",
+          "start": 335.08,
+          "end": 335.38
+        },
+        {
+          "word": "where",
+          "start": 335.38,
+          "end": 335.5
+        },
+        {
+          "word": "I'm",
+          "start": 335.5,
+          "end": 335.66
+        },
+        {
+          "word": "going",
+          "start": 335.66,
+          "end": 335.72
+        },
+        {
+          "word": "to",
+          "start": 335.72,
+          "end": 335.8
+        },
+        {
+          "word": "end",
+          "start": 335.8,
+          "end": 335.94
+        },
+        {
+          "word": "my",
+          "start": 335.94,
+          "end": 336.08
+        },
+        {
+          "word": "remarks",
+          "start": 336.08,
+          "end": 336.52
+        }
+      ],
+      "textKo": "더 많은 것이 필요합니다. 그리고 여기서 제 이야기를 마치려 합니다."
+    },
+    {
+      "index": 78,
+      "start": 336.52,
+      "end": 340.2,
+      "textEn": "Because that's where we are. That's the work that stands before us.",
+      "words": [
+        {
+          "word": "because",
+          "start": 336.52,
+          "end": 336.76
+        },
+        {
+          "word": "that's",
+          "start": 336.76,
+          "end": 337.24
+        },
+        {
+          "word": "where",
+          "start": 337.24,
+          "end": 337.4
+        },
+        {
+          "word": "we",
+          "start": 337.4,
+          "end": 337.56
+        },
+        {
+          "word": "are.",
+          "start": 337.56,
+          "end": 337.82
+        },
+        {
+          "word": "That's",
+          "start": 337.82,
+          "end": 338.52
+        },
+        {
+          "word": "the",
+          "start": 338.52,
+          "end": 338.66
+        },
+        {
+          "word": "work",
+          "start": 338.66,
+          "end": 338.94
+        },
+        {
+          "word": "that",
+          "start": 338.94,
+          "end": 339.12
+        },
+        {
+          "word": "stands",
+          "start": 339.12,
+          "end": 339.52
+        },
+        {
+          "word": "before",
+          "start": 339.52,
+          "end": 339.8
+        },
+        {
+          "word": "us.",
+          "start": 339.8,
+          "end": 340.2
+        }
+      ],
+      "textKo": "왜냐하면 지금 우리가 여기에 있기 때문입니다. 이것이 우리 앞에 놓인 과제입니다."
+    },
+    {
+      "index": 79,
+      "start": 340.38,
+      "end": 344.18,
+      "textEn": "We need to take our best ideas, our strongest intuitions,",
+      "words": [
+        {
+          "word": "We",
+          "start": 340.38,
+          "end": 340.74
+        },
+        {
+          "word": "need",
+          "start": 340.74,
+          "end": 340.86
+        },
+        {
+          "word": "to",
+          "start": 340.86,
+          "end": 340.98
+        },
+        {
+          "word": "take",
+          "start": 340.98,
+          "end": 341.16
+        },
+        {
+          "word": "our",
+          "start": 341.16,
+          "end": 341.34
+        },
+        {
+          "word": "best",
+          "start": 341.34,
+          "end": 341.68
+        },
+        {
+          "word": "ideas,",
+          "start": 341.68,
+          "end": 342.24
+        },
+        {
+          "word": "our",
+          "start": 342.8,
+          "end": 342.88
+        },
+        {
+          "word": "strongest",
+          "start": 342.88,
+          "end": 343.46
+        },
+        {
+          "word": "intuitions,",
+          "start": 343.46,
+          "end": 344.18
+        }
+      ],
+      "textKo": "우리는 최고의 아이디어, 가장 강한 직관을 가지고,"
+    },
+    {
+      "index": 80,
+      "start": 344.34,
+      "end": 348.7,
+      "textEn": "And we need to test them. We need to measure whether we've been successful,",
+      "words": [
+        {
+          "word": "and",
+          "start": 344.34,
+          "end": 344.66
+        },
+        {
+          "word": "we",
+          "start": 344.66,
+          "end": 344.82
+        },
+        {
+          "word": "need",
+          "start": 344.82,
+          "end": 345.04
+        },
+        {
+          "word": "to",
+          "start": 345.04,
+          "end": 345.22
+        },
+        {
+          "word": "test",
+          "start": 345.22,
+          "end": 345.58
+        },
+        {
+          "word": "them.",
+          "start": 345.58,
+          "end": 345.9
+        },
+        {
+          "word": "We",
+          "start": 346.18,
+          "end": 346.68
+        },
+        {
+          "word": "need",
+          "start": 346.68,
+          "end": 346.86
+        },
+        {
+          "word": "to",
+          "start": 346.86,
+          "end": 347.08
+        },
+        {
+          "word": "measure",
+          "start": 347.08,
+          "end": 347.5
+        },
+        {
+          "word": "whether",
+          "start": 347.5,
+          "end": 347.76
+        },
+        {
+          "word": "we've",
+          "start": 347.76,
+          "end": 348.04
+        },
+        {
+          "word": "been",
+          "start": 348.04,
+          "end": 348.12
+        },
+        {
+          "word": "successful,",
+          "start": 348.12,
+          "end": 348.7
+        }
+      ],
+      "textKo": "그것들을 검증해야 합니다. 우리가 성공했는지 측정해야 하며,"
+    },
+    {
+      "index": 81,
+      "start": 348.7,
+      "end": 351.16,
+      "textEn": "And we have to be willing to fail,",
+      "words": [
+        {
+          "word": "and",
+          "start": 348.7,
+          "end": 349.42
+        },
+        {
+          "word": "we",
+          "start": 349.42,
+          "end": 349.6
+        },
+        {
+          "word": "have",
+          "start": 349.6,
+          "end": 349.8
+        },
+        {
+          "word": "to",
+          "start": 349.8,
+          "end": 349.96
+        },
+        {
+          "word": "be",
+          "start": 349.96,
+          "end": 350.12
+        },
+        {
+          "word": "willing",
+          "start": 350.12,
+          "end": 350.44
+        },
+        {
+          "word": "to",
+          "start": 350.44,
+          "end": 350.66
+        },
+        {
+          "word": "fail,",
+          "start": 350.66,
+          "end": 351.16
+        }
+      ],
+      "textKo": "기꺼이 실패하고,"
+    },
+    {
+      "index": 82,
+      "start": 351.36,
+      "end": 355.32,
+      "textEn": "To be wrong, to start over again with lessons learned.",
+      "words": [
+        {
+          "word": "to",
+          "start": 351.36,
+          "end": 351.84
+        },
+        {
+          "word": "be",
+          "start": 351.84,
+          "end": 352.0
+        },
+        {
+          "word": "wrong,",
+          "start": 352.0,
+          "end": 352.48
+        },
+        {
+          "word": "to",
+          "start": 352.86,
+          "end": 353.22
+        },
+        {
+          "word": "start",
+          "start": 353.22,
+          "end": 353.54
+        },
+        {
+          "word": "over",
+          "start": 353.54,
+          "end": 353.86
+        },
+        {
+          "word": "again",
+          "start": 353.86,
+          "end": 354.2
+        },
+        {
+          "word": "with",
+          "start": 354.2,
+          "end": 354.52
+        },
+        {
+          "word": "lessons",
+          "start": 354.52,
+          "end": 354.92
+        },
+        {
+          "word": "learned.",
+          "start": 354.92,
+          "end": 355.32
+        }
+      ],
+      "textKo": "틀리고, 교훈을 얻어 다시 시작할 의지가 있어야 합니다."
+    },
+    {
+      "index": 83,
+      "start": 355.94,
+      "end": 358.56,
+      "textEn": "In other words, we need to be gritty",
+      "words": [
+        {
+          "word": "In",
+          "start": 355.94,
+          "end": 356.58
+        },
+        {
+          "word": "other",
+          "start": 356.58,
+          "end": 356.74
+        },
+        {
+          "word": "words,",
+          "start": 356.74,
+          "end": 357.1
+        },
+        {
+          "word": "we",
+          "start": 357.32,
+          "end": 357.66
+        },
+        {
+          "word": "need",
+          "start": 357.66,
+          "end": 357.8
+        },
+        {
+          "word": "to",
+          "start": 357.8,
+          "end": 357.92
+        },
+        {
+          "word": "be",
+          "start": 357.92,
+          "end": 358.08
+        },
+        {
+          "word": "gritty",
+          "start": 358.08,
+          "end": 358.56
+        }
+      ],
+      "textKo": "다시 말해, 우리 아이들을 더 끈기 있게 만드는 데"
+    },
+    {
+      "index": 84,
+      "start": 358.56,
+      "end": 361.6,
+      "textEn": "About getting our kids grittier.",
+      "words": [
+        {
+          "word": "about",
+          "start": 358.56,
+          "end": 359.6
+        },
+        {
+          "word": "getting",
+          "start": 359.6,
+          "end": 359.92
+        },
+        {
+          "word": "our",
+          "start": 359.92,
+          "end": 360.12
+        },
+        {
+          "word": "kids",
+          "start": 360.12,
+          "end": 360.62
+        },
+        {
+          "word": "grittier.",
+          "start": 360.62,
+          "end": 361.6
+        }
+      ],
+      "textKo": "우리 자신이 끈기를 가져야 합니다."
+    },
+    {
+      "index": 85,
+      "start": 362.02,
+      "end": 364.38,
+      "textEn": "Thank you. Thank you. Thank you.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 362.02,
+          "end": 362.58
+        },
+        {
+          "word": "you.",
+          "start": 362.58,
+          "end": 362.88
+        },
+        {
+          "word": "Thank",
+          "start": 363.28,
+          "end": 363.94
+        },
+        {
+          "word": "you.",
+          "start": 363.94,
+          "end": 363.94
+        },
+        {
+          "word": "Thank",
+          "start": 363.94,
+          "end": 364.38
+        },
+        {
+          "word": "you.",
+          "start": 364.38,
+          "end": 364.38
+        }
+      ],
+      "textKo": "감사합니다."
+    },
+    {
+      "index": 86,
+      "start": 364.38,
+      "end": 366.62,
+      "textEn": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 364.38,
+          "end": 364.46
+        },
+        {
+          "word": "you.",
+          "start": 364.46,
+          "end": 364.46
+        },
+        {
+          "word": "Thank",
+          "start": 364.46,
+          "end": 364.68
+        },
+        {
+          "word": "you.",
+          "start": 364.68,
+          "end": 364.68
+        },
+        {
+          "word": "Thank",
+          "start": 364.68,
+          "end": 365.14
+        },
+        {
+          "word": "you.",
+          "start": 365.14,
+          "end": 365.14
+        },
+        {
+          "word": "Thank",
+          "start": 365.14,
+          "end": 365.24
+        },
+        {
+          "word": "you.",
+          "start": 365.24,
+          "end": 365.24
+        },
+        {
+          "word": "Thank",
+          "start": 365.24,
+          "end": 365.74
+        },
+        {
+          "word": "you.",
+          "start": 365.74,
+          "end": 365.74
+        },
+        {
+          "word": "Thank",
+          "start": 365.74,
+          "end": 365.84
+        },
+        {
+          "word": "you.",
+          "start": 365.84,
+          "end": 365.84
+        },
+        {
+          "word": "Thank",
+          "start": 365.84,
+          "end": 365.92
+        },
+        {
+          "word": "you.",
+          "start": 365.92,
+          "end": 365.92
+        },
+        {
+          "word": "Thank",
+          "start": 365.92,
+          "end": 366.62
+        },
+        {
+          "word": "you.",
+          "start": 366.62,
+          "end": 366.62
+        }
+      ],
+      "textKo": "감사합니다."
+    },
+    {
+      "index": 87,
+      "start": 368.1,
+      "end": 371.02,
+      "textEn": "Thank you. Thank you.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 368.1,
+          "end": 368.98
+        },
+        {
+          "word": "you.",
+          "start": 368.98,
+          "end": 368.98
+        },
+        {
+          "word": "Thank",
+          "start": 370.14,
+          "end": 371.02
+        },
+        {
+          "word": "you.",
+          "start": 371.02,
+          "end": 371.02
+        }
+      ],
+      "textKo": "감사합니다."
+    },
+    {
+      "index": 88,
+      "start": 371.02,
+      "end": 371.22,
+      "textEn": "You",
+      "words": [
+        {
+          "word": "you",
+          "start": 371.02,
+          "end": 371.22
+        }
+      ],
+      "textKo": ""
+    }
+  ]
+}

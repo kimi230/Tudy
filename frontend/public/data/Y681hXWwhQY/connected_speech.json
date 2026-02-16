@@ -1,0 +1,82 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "I've spent a",
+    "phonetic": "/aɪv spɛntə/",
+    "koreanPhonetic": "아이브 스펜터",
+    "explanation": "The contraction 'I've' reduces 'I have' to a single syllable, and the article 'a' reduces to a schwa /ə/ linking smoothly to 'spent.'",
+    "explanationKo": "'I have'가 'I've'로 축약되어 한 음절이 되고, 관사 'a'가 /ə/로 약화되어 'spent'와 자연스럽게 이어져요.",
+    "practiceGuide": "'아이 해브 스펜트 어'라고 또박또박 발음하지 말고, '아이브 스펜터'처럼 자연스럽게 연결해서 발음해 보세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "linking",
+    "originalText": "most of",
+    "phonetic": "/məʊstəv/",
+    "koreanPhonetic": "모스터브",
+    "explanation": "The /t/ at the end of 'most' links to the schwa vowel of 'of,' which is reduced to /əv/. The two words flow together as one unit.",
+    "explanationKo": "'most'의 마지막 /t/가 약화된 'of'의 모음 /ə/와 연결되어 두 단어가 하나처럼 흘러가요.",
+    "practiceGuide": "'모스트 오브'라고 끊어 발음하지 말고, '모스터브'처럼 /t/와 /ə/를 부드럽게 연결해 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "elision",
+    "originalText": "work up the",
+    "phonetic": "/wɜːk ʌp ðə/",
+    "koreanPhonetic": "워컵더",
+    "explanation": "The /k/ at the end of 'work' merges with the /ʌ/ of 'up,' and the /p/ of 'up' connects to the weakened 'the' /ðə/. Consonant clusters are simplified.",
+    "explanationKo": "'work'의 /k/가 'up'의 /ʌ/와 합쳐지고, 'up'의 /p/가 약화된 'the' /ðə/와 연결돼요. 자음군이 단순화돼요.",
+    "practiceGuide": "'워크 업 더'라고 세 단어를 따로 발음하지 말고, '워컵더'처럼 빠르게 이어서 발음해 보세요.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "assimilation",
+    "originalText": "ant's nest and",
+    "phonetic": "/ænts nɛstənd/",
+    "koreanPhonetic": "앤츠 네스턴드",
+    "explanation": "The /t/ at the end of 'nest' assimilates with the following /ə/ of 'and,' and 'and' itself reduces to /ənd/ or even /ən/. The phrase sounds blended together.",
+    "explanationKo": "'nest'의 /t/가 뒤따르는 'and'의 /ə/와 동화되고, 'and' 자체도 /ənd/ 또는 /ən/으로 축약돼요. 전체 구가 하나로 섞여 들려요.",
+    "practiceGuide": "'네스트 앤드'라고 강하게 발음하지 말고, 'nest'의 /t/를 약하게 하면서 'and'를 /ən/으로 빠르게 이어 보세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "reduction",
+    "originalText": "sort of a",
+    "phonetic": "/sɔːrtəvə/",
+    "koreanPhonetic": "소러버",
+    "explanation": "Both 'of' and 'a' are reduced to schwas, creating a triple-word blend. 'Sort of a' sounds like 'sortuva' in natural speech.",
+    "explanationKo": "'of'와 'a' 모두 /ə/로 약화되어 세 단어가 하나로 합쳐져요. 자연스러운 발화에서 '소러버'처럼 들려요.",
+    "practiceGuide": "'소트 오브 어'라고 또박또박 발음하지 말고, '소러버'처럼 'of'와 'a'를 가볍게 /ə/로만 발음해 보세요.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "linking",
+    "originalText": "step in if",
+    "phonetic": "/stɛp ɪn ɪf/",
+    "koreanPhonetic": "스테피니프",
+    "explanation": "The /p/ of 'step' links to the /ɪ/ of 'in,' and the /n/ of 'in' links to the /ɪ/ of 'if.' Consonant-to-vowel linking creates a smooth chain of three words.",
+    "explanationKo": "'step'의 /p/가 'in'의 /ɪ/와 연결되고, 'in'의 /n/이 'if'의 /ɪ/와 이어져요. 자음-모음 연결이 세 단어를 매끄럽게 연쇄시켜요.",
+    "practiceGuide": "'스텝 인 이프'라고 끊어 발음하지 말고, '스테피니프'처럼 세 단어를 끊김 없이 이어서 발음해 보세요.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "elision",
+    "originalText": "constant stimulation",
+    "phonetic": "/ˈkɒnstən stɪmjuˈleɪʃən/",
+    "koreanPhonetic": "콘스턴 스티뮬레이션",
+    "explanation": "The /t/ at the end of 'constant' is often elided before the /s/ of 'stimulation.' When two consonant clusters meet, one stop consonant is typically dropped.",
+    "explanationKo": "'constant'의 마지막 /t/가 'stimulation'의 /s/ 앞에서 탈락하는 경우가 많아요. 두 자음군이 만나면 파열음 하나가 보통 생략돼요.",
+    "practiceGuide": "'콘스탄트 스티뮬레이션'이라고 /t/를 분명히 발음하지 말고, '콘스턴 스티뮬레이션'처럼 /t/를 생략해 보세요.",
+    "segmentIndex": 24
+  },
+  {
+    "type": "reduction",
+    "originalText": "to allow more",
+    "phonetic": "/tə əˈlaʊ mɔː/",
+    "koreanPhonetic": "터얼라우 모어",
+    "explanation": "The preposition 'to' reduces to /tə/ in unstressed position, and links smoothly to the vowel of 'allow.' Function words are typically weakened in natural speech.",
+    "explanationKo": "'to'가 비강세 위치에서 /tə/로 약화되고, 'allow'의 모음과 자연스럽게 연결돼요. 기능어는 자연스러운 발화에서 보통 약하게 발음돼요.",
+    "practiceGuide": "'투 얼라우'라고 강하게 발음하지 말고, 'to'를 /tə/로 약하게 하여 '터얼라우'처럼 이어 보세요.",
+    "segmentIndex": 26
+  }
+]

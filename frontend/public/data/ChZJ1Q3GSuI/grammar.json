@@ -1,0 +1,86 @@
+[
+  {
+    "pattern": "I'm going to + verb",
+    "explanation": "Used to express future intentions or plans. 'Going to' is often reduced to 'gonna' in spoken English.",
+    "explanationKo": "미래의 의도나 계획을 표현할 때 사용합니다. 구어체에서 'going to'는 종종 'gonna'로 축약됩니다.",
+    "examples": ["I'm going to help you sound a little bit more like a native speaker.", "I'm going to give you three tips."],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "How can I + verb?",
+    "explanation": "A question structure used to ask for advice or methods to accomplish something.",
+    "explanationKo": "무언가를 달성하기 위한 조언이나 방법을 물을 때 사용하는 의문문 구조입니다.",
+    "examples": ["How can I sound like a native speaker?"],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "Let me + verb",
+    "explanation": "Used to introduce an action the speaker is about to take, often to signal they are about to explain or demonstrate something.",
+    "explanationKo": "화자가 곧 할 행동을 소개할 때 사용하며, 보통 무언가를 설명하거나 보여주려 할 때 씁니다.",
+    "examples": ["Let me just tell you that it will take time.", "Let me start with this word."],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "The best way is to + verb",
+    "explanation": "Used to recommend the most effective method or approach for doing something.",
+    "explanationKo": "무언가를 하기 위한 가장 효과적인 방법이나 접근법을 추천할 때 사용합니다.",
+    "examples": ["The best way is to live in an English-speaking country."],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Whether... or...",
+    "explanation": "A conjunction structure used to present two or more alternatives, meaning 'it doesn't matter which one'.",
+    "explanationKo": "'어느 것이든 상관없이'라는 의미로 두 가지 이상의 대안을 제시할 때 사용하는 접속사 구조입니다.",
+    "examples": ["Whether you're speaking Spanish or Polish or Chinese, you do this in your language as well."],
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "What this means is...",
+    "explanation": "A discourse marker used to clarify or explain a concept that was just introduced.",
+    "explanationKo": "방금 소개한 개념을 명확히 하거나 설명할 때 사용하는 담화 표지입니다.",
+    "examples": ["What this means, when a word ends in a consonant..."],
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "Make sure you + verb",
+    "explanation": "An imperative structure used to give advice or instruction, emphasizing that something should definitely be done.",
+    "explanationKo": "조언이나 지시를 줄 때 사용하는 명령문 구조로, 반드시 해야 할 것을 강조합니다.",
+    "examples": ["Make sure you roll it in.", "Make sure you do a lot of listening."],
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "For those of you who...",
+    "explanation": "A phrase used to address a specific subset of the audience, narrowing down who the next information applies to.",
+    "explanationKo": "청중 중 특정 그룹을 지칭할 때 사용하는 표현으로, 다음 정보가 누구에게 해당하는지 좁혀줍니다.",
+    "examples": ["For those of you who are going to be taking a test."],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "Present continuous for future (be + going to be + -ing)",
+    "explanation": "Used to describe a future action that is planned or expected. Combines 'going to' with the progressive form.",
+    "explanationKo": "계획되었거나 예상되는 미래의 행동을 설명할 때 사용합니다. 'going to'와 진행형을 결합합니다.",
+    "examples": ["For those of you who are going to be taking a test."],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "I've heard + noun/clause",
+    "explanation": "Present perfect used to describe an experience that has occurred at some point before now, with relevance to the present.",
+    "explanationKo": "현재까지의 경험을 설명할 때 사용하는 현재완료 시제로, 현재와 관련성이 있음을 나타냅니다.",
+    "examples": ["I've heard many students say comf-or-ta-ble."],
+    "segmentIndex": 34
+  },
+  {
+    "pattern": "Imperative for instruction (verb + object)",
+    "explanation": "Direct commands used in teaching to give clear, actionable instructions to the listener.",
+    "explanationKo": "수업에서 청자에게 명확하고 실행 가능한 지시를 내릴 때 사용하는 직접 명령문입니다.",
+    "examples": ["Practice that.", "Say it quickly.", "Blend the letters.", "Listen to TV sitcoms."],
+    "segmentIndex": 16
+  },
+  {
+    "pattern": "That's what/how...",
+    "explanation": "A demonstrative structure used to summarize or refer back to what was just explained.",
+    "explanationKo": "방금 설명한 것을 요약하거나 다시 언급할 때 사용하는 지시 구조입니다.",
+    "examples": ["That's what we're going to do here.", "That's how a native speaker would say it naturally."],
+    "segmentIndex": 12
+  }
+]

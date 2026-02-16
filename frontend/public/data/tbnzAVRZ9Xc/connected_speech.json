@@ -1,0 +1,82 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɑnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "The phrase 'want to' is commonly reduced to 'wanna' in fast, natural speech. The /t/ and /t/ merge, and the vowel in 'to' is reduced to a schwa.",
+    "explanationKo": "'want to'는 빠른 자연스러운 말에서 'wanna'로 축약돼요. /t/ 소리가 합쳐지고 'to'의 모음이 약화되어 '워나'처럼 들려요.",
+    "practiceGuide": "'원트 투'라고 또박또박 발음하지 말고, '워나'처럼 한 덩어리로 빠르게 발음해 보세요.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "고나",
+    "explanation": "The phrase 'going to' is reduced to 'gonna' in casual speech. The '-ing to' portion collapses into a nasal /nə/ sound.",
+    "explanationKo": "'going to'가 일상 대화에서 'gonna'로 축약돼요. '-ing to' 부분이 비음 /nə/ 소리로 줄어들어요.",
+    "practiceGuide": "'고잉 투'가 아니라 '고나'처럼 발음해 보세요. 영어 원어민의 자연스러운 발화에서 매우 흔해요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "linking",
+    "originalText": "fall forward",
+    "phonetic": "/fɔːl_fɔːrwərd/",
+    "koreanPhonetic": "폴포워드",
+    "explanation": "The final /l/ of 'fall' links smoothly to the initial /f/ of 'forward.' Both words begin with /f/ sounds, creating a flowing alliterative connection.",
+    "explanationKo": "'fall'의 마지막 /l/ 소리가 'forward'의 첫 /f/와 자연스럽게 연결돼요. 두 단어 모두 /f/ 소리로 시작해 유창하게 흘러가요.",
+    "practiceGuide": "'폴'에서 멈추지 말고 바로 '포워드'로 이어서 '폴포워드'처럼 한 호흡으로 발음해 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "elision",
+    "originalText": "didn't quit",
+    "phonetic": "/ˈdɪdən kwɪt/",
+    "koreanPhonetic": "디든 퀏",
+    "explanation": "The /t/ at the end of 'didn't' is often elided (dropped) before the /k/ of 'quit.' The glottal stop replaces the released /t/.",
+    "explanationKo": "'didn't'의 마지막 /t/ 소리가 'quit'의 /k/ 앞에서 탈락해요. 발음되는 /t/ 대신 성문폐쇄음이 사용돼요.",
+    "practiceGuide": "'디든트 퀏'이 아니라 '디든 퀏'처럼 /t/를 생략하고 바로 /k/로 넘어가 보세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "assimilation",
+    "originalText": "got to",
+    "phonetic": "/ˈɡɒɾə/",
+    "koreanPhonetic": "가라",
+    "explanation": "In fast speech, 'got to' becomes 'gotta.' The /t/ of 'got' changes to a flap /ɾ/ between vowels, and 'to' reduces to /ə/.",
+    "explanationKo": "빠른 말에서 'got to'가 'gotta'로 변해요. 'got'의 /t/가 모음 사이에서 탄설음 /ɾ/로 바뀌고, 'to'는 /ə/로 축약돼요.",
+    "practiceGuide": "'갓 투'가 아니라 '가라'처럼 /t/를 가볍게 탄설음으로 발음해 보세요.",
+    "segmentIndex": 44
+  },
+  {
+    "type": "linking",
+    "originalText": "acted on",
+    "phonetic": "/ˈæktɪd_ɒn/",
+    "koreanPhonetic": "액티돈",
+    "explanation": "The final /d/ of 'acted' links to the initial vowel /ɒ/ of 'on,' creating a consonant-to-vowel link that makes the two words sound connected.",
+    "explanationKo": "'acted'의 마지막 /d/ 소리가 'on'의 첫 모음 /ɒ/와 연결되어 두 단어가 하나처럼 들려요.",
+    "practiceGuide": "'액티드 온'이 아니라 '액티돈'처럼 /d/와 /ɒ/를 끊지 않고 이어서 발음해 보세요.",
+    "segmentIndex": 32
+  },
+  {
+    "type": "reduction",
+    "originalText": "out of",
+    "phonetic": "/ˈaʊɾə/",
+    "koreanPhonetic": "아우러",
+    "explanation": "The /t/ in 'out' becomes a flap /ɾ/ between vowels, and 'of' reduces to just /ə/. The whole phrase sounds like 'outta.'",
+    "explanationKo": "'out'의 /t/가 모음 사이에서 탄설음 /ɾ/로 바뀌고, 'of'는 /ə/로만 축약돼요. 전체가 'outta'처럼 들려요.",
+    "practiceGuide": "'아웃 오브'라고 또박또박 발음하지 말고, '아우러'처럼 한 덩어리로 빠르게 발음해 보세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "elision",
+    "originalText": "last point",
+    "phonetic": "/læs pɔɪnt/",
+    "koreanPhonetic": "래스 포인트",
+    "explanation": "The /t/ at the end of 'last' is dropped before the /p/ of 'point.' When two stop consonants meet, the first is often unreleased.",
+    "explanationKo": "'last'의 마지막 /t/가 'point'의 /p/ 앞에서 탈락해요. 두 파열음이 만나면 첫 번째가 발음되지 않는 경우가 많아요.",
+    "practiceGuide": "'래스트 포인트'가 아니라 '래스 포인트'처럼 /t/를 생략해 보세요. 더 자연스러운 발음이 돼요.",
+    "segmentIndex": 51
+  }
+]

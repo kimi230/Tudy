@@ -1,0 +1,114 @@
+{
+  "sections": [
+    {
+      "title": "Introduction: Planning vs. Strategy",
+      "titleKo": "도입: 계획 vs. 전략",
+      "startSegment": 0,
+      "endSegment": 10,
+      "summary": "Roger Martin introduces the key distinction between planning and strategy. He explains that 'strategic planning' is a misleading term because most strategic planning in business is really just a list of activities with no coherent strategy behind it.",
+      "summaryKo": "로저 마틴이 계획과 전략의 핵심적인 차이를 소개해. '전략적 계획'이라는 용어가 오해를 불러일으킨다고 설명하면서, 대부분의 전략적 계획은 실제로 일관된 전략 없이 활동 목록을 나열한 것에 불과하다고 말해."
+    },
+    {
+      "title": "What Strategy Really Is",
+      "titleKo": "전략이란 진짜 무엇인가",
+      "startSegment": 11,
+      "endSegment": 20,
+      "summary": "Martin defines strategy as an integrative set of choices that positions you to win on a chosen playing field. A strategy requires a coherent theory, unlike planning which tends to be a disconnected wish list from different departments.",
+      "summaryKo": "마틴은 전략을 선택한 경쟁의 장에서 이길 수 있도록 포지셔닝하는 통합적 선택의 집합이라고 정의해. 전략은 일관된 이론이 필요한 반면, 계획은 각 부서의 단절된 희망 목록이 되기 쉽다고 설명해."
+    },
+    {
+      "title": "Why Planning Feels Comfortable",
+      "titleKo": "왜 계획이 편안하게 느껴지는가",
+      "startSegment": 21,
+      "endSegment": 39,
+      "summary": "Martin explains why managers gravitate toward planning: plans deal with costs you control (hiring, building, purchasing), while strategy requires specifying outcomes that depend on customers — whom you cannot control. Strategy is inherently uncertain, which makes it uncomfortable.",
+      "summaryKo": "매니저들이 왜 계획에 끌리는지 설명해. 계획은 채용, 건설, 구매 등 통제 가능한 비용을 다루지만, 전략은 통제할 수 없는 고객에 달린 결과를 명시해야 해. 전략은 본질적으로 불확실하기 때문에 불편하게 느껴져."
+    },
+    {
+      "title": "The Southwest Airlines Case Study",
+      "titleKo": "사우스웨스트 항공 사례 연구",
+      "startSegment": 40,
+      "endSegment": 60,
+      "summary": "Martin uses Southwest Airlines as a powerful example. While major carriers were busy planning, Southwest developed a winning strategy: be a substitute for Greyhound buses with point-to-point flights, one aircraft type, no meals, and online booking — achieving substantially lower costs and eventually becoming the largest U.S. carrier by passenger seat miles.",
+      "summaryKo": "사우스웨스트 항공을 강력한 사례로 들어. 주요 항공사들이 계획에 바쁜 동안, 사우스웨스트는 그레이하운드 버스의 대체재가 되겠다는 전략을 세웠어. 포인트 투 포인트 비행, 단일 기종, 기내식 없음, 온라인 예약으로 비용을 크게 낮추고 결국 미국 최대 항공사가 됐어."
+    },
+    {
+      "title": "How to Escape the Planning Trap",
+      "titleKo": "계획의 함정에서 벗어나는 방법",
+      "startSegment": 61,
+      "endSegment": 75,
+      "summary": "Martin offers practical advice for escaping the comfort trap of planning: accept that strategy involves angst and uncertainty, lay out the logic clearly by asking 'what would have to be true,' and treat strategy as a journey that you continuously tweak and refine.",
+      "summaryKo": "계획의 안주 함정에서 벗어나기 위한 실용적 조언을 제시해. 전략에는 불안과 불확실성이 수반된다는 걸 받아들이고, '무엇이 사실이어야 하는가'를 물어 논리를 명확히 하고, 전략을 지속적으로 조정하고 개선하는 여정으로 대해야 한다고 말해."
+    },
+    {
+      "title": "Conclusion: Keep It Simple, Start Winning",
+      "titleKo": "결론: 단순하게, 이기기 시작하라",
+      "startSegment": 76,
+      "endSegment": 85,
+      "summary": "Martin concludes with the advice to keep strategy simple — ideally on a single page — covering where to play, how to win, what capabilities are needed, and what must be true. Planning guarantees losing; strategy gives you the best possible chance of winning.",
+      "summaryKo": "전략을 단순하게 유지하라는 조언으로 마무리해. 어디서 싸울지, 어떻게 이길지, 어떤 역량이 필요한지, 무엇이 사실이어야 하는지를 한 페이지에 담는 것이 이상적이야. 계획만 하면 지는 걸 보장하지만, 전략은 이길 수 있는 최선의 기회를 줘."
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "This thing called planning has been around for a long, long time.",
+      "function": "Opening hook",
+      "functionKo": "오래된 개념을 소개하며 청중의 관심을 끄는 도입부",
+      "segmentIndex": 0
+    },
+    {
+      "expression": "Unfortunately, those things are not the same",
+      "function": "Introducing the core problem",
+      "functionKo": "핵심 문제를 제시하며 계획과 전략의 차이를 부각시키는 전환점",
+      "segmentIndex": 4
+    },
+    {
+      "expression": "So what's a strategy?",
+      "function": "Rhetorical question to introduce definition",
+      "functionKo": "수사적 질문으로 전략의 정의를 소개하며 핵심 개념으로 전환",
+      "segmentIndex": 11
+    },
+    {
+      "expression": "Planning is quite comforting.",
+      "function": "Transition to contrasting argument",
+      "functionKo": "계획의 매력을 인정하면서 왜 사람들이 전략 대신 계획에 안주하는지 설명하는 전환",
+      "segmentIndex": 21
+    },
+    {
+      "expression": "A strategy, on the other hand",
+      "function": "Contrastive transition",
+      "functionKo": "앞서 설명한 계획과 대비되는 전략의 특성을 소개하는 대조 전환 표현",
+      "segmentIndex": 29
+    },
+    {
+      "expression": "When U.S. air carriers were busily planning",
+      "function": "Introducing a case study",
+      "functionKo": "사우스웨스트 항공 사례를 도입하며 추상적 개념을 구체적 예시로 전환",
+      "segmentIndex": 41
+    },
+    {
+      "expression": "If you're trying to escape this planning trap",
+      "function": "Transition to actionable advice",
+      "functionKo": "이론에서 실행 가능한 조언으로 전환하며 청중에게 직접 말을 거는 표현",
+      "segmentIndex": 61
+    },
+    {
+      "expression": "The second thing I do is say",
+      "function": "Sequential enumeration",
+      "functionKo": "조언을 순서대로 나열하며 두 번째 핵심 포인트로 넘어가는 구조적 표현",
+      "segmentIndex": 71
+    },
+    {
+      "expression": "Another thing that helps with strategy is",
+      "function": "Adding a supplementary point",
+      "functionKo": "추가적인 조언을 제시하며 논점을 보충하는 전환 표현",
+      "segmentIndex": 76
+    },
+    {
+      "expression": "But I would tell you that if you plan, that's a way to guarantee losing.",
+      "function": "Concluding statement with strong contrast",
+      "functionKo": "강한 대조로 핵심 메시지를 마무리하며 계획과 전략의 결과 차이를 확실히 각인시키는 결론",
+      "segmentIndex": 84
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+[
+  {
+    "word": "pronunciation",
+    "phonetic": "/prəˌnʌnsiˈeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "the way in which a word or language is spoken",
+    "meaningKo": "발음",
+    "etymology": "Latin 'pronuntiatio' meaning declaration or utterance",
+    "rootBreakdown": {
+      "prefix": "pro-",
+      "root": "nunci",
+      "suffix": "-ation"
+    },
+    "relatedWords": [
+      "pronounce",
+      "pronouncing",
+      "mispronunciation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "I know you're super keen to improve your English pronunciation."
+  },
+  {
+    "word": "alphabet",
+    "phonetic": "/ˈælfəˌbɛt/",
+    "partOfSpeech": "noun",
+    "definition": "a set of letters or symbols used to write a language",
+    "meaningKo": "알파벳, 글자 체계",
+    "etymology": "Greek 'alpha' + 'beta', the first two letters of the Greek alphabet",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "alpha+beta",
+      "suffix": null
+    },
+    "relatedWords": [
+      "alphabetical",
+      "alphabetize"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "The International Phonetic Alphabet."
+  },
+  {
+    "word": "phonetic",
+    "phonetic": "/fəˈnɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the sounds of speech",
+    "meaningKo": "음성의, 음성학적인",
+    "etymology": "Greek 'phonetikos' from 'phone' meaning voice or sound",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "phon",
+      "suffix": "-etic"
+    },
+    "relatedWords": [
+      "phonetics",
+      "phoneme",
+      "phonology"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "The International Phonetic Alphabet."
+  },
+  {
+    "word": "vowel",
+    "phonetic": "/ˈvaʊəl/",
+    "partOfSpeech": "noun",
+    "definition": "a speech sound made with the vocal tract open, represented by the letters A, E, I, O, U",
+    "meaningKo": "모음",
+    "etymology": "Latin 'vocalis' meaning vocal, from 'vox' meaning voice",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "vow",
+      "suffix": "-el"
+    },
+    "relatedWords": [
+      "vowels",
+      "vocal",
+      "voice"
+    ],
+    "isEssential": true,
+    "segmentIndex": 41,
+    "contextSentence": "Let's look at vowels first."
+  },
+  {
+    "word": "consonant",
+    "phonetic": "/ˈkɑːnsənənt/",
+    "partOfSpeech": "noun",
+    "definition": "a speech sound made by partially or fully blocking the flow of air",
+    "meaningKo": "자음",
+    "etymology": "Latin 'consonans' meaning sounding together",
+    "rootBreakdown": {
+      "prefix": "con-",
+      "root": "son",
+      "suffix": "-ant"
+    },
+    "relatedWords": [
+      "consonance",
+      "consonantal"
+    ],
+    "isEssential": true,
+    "segmentIndex": 69,
+    "contextSentence": "Consonant sounds which means that the sound is made by air moving from the back of your mouth."
+  },
+  {
+    "word": "diphthong",
+    "phonetic": "/ˈdɪfθɔːŋ/",
+    "partOfSpeech": "noun",
+    "definition": "a sound formed by combining two vowels in a single syllable",
+    "meaningKo": "이중모음",
+    "etymology": "Greek 'diphthongos' from 'di-' meaning two and 'phthongos' meaning sound",
+    "rootBreakdown": {
+      "prefix": "di-",
+      "root": "phthong",
+      "suffix": null
+    },
+    "relatedWords": [
+      "monophthong",
+      "triphthong"
+    ],
+    "isEssential": true,
+    "segmentIndex": 58,
+    "contextSentence": "There's another group of vowel sounds called diphthongs."
+  },
+  {
+    "word": "syllable",
+    "phonetic": "/ˈsɪləbəl/",
+    "partOfSpeech": "noun",
+    "definition": "a unit of pronunciation having one vowel sound",
+    "meaningKo": "음절",
+    "etymology": "Greek 'syllabe' meaning that which is held together",
+    "rootBreakdown": {
+      "prefix": "syl-",
+      "root": "lab",
+      "suffix": "-le"
+    },
+    "relatedWords": [
+      "syllabic",
+      "monosyllable",
+      "polysyllabic"
+    ],
+    "isEssential": true,
+    "segmentIndex": 61,
+    "contextSentence": "Diphthongs are sounds that change from one vowel sound to another but in the same syllable."
+  },
+  {
+    "word": "symbol",
+    "phonetic": "/ˈsɪmbəl/",
+    "partOfSpeech": "noun",
+    "definition": "a mark, character, or sign used to represent something",
+    "meaningKo": "기호, 상징",
+    "etymology": "Greek 'symbolon' meaning token or sign",
+    "rootBreakdown": {
+      "prefix": "sym-",
+      "root": "bol",
+      "suffix": null
+    },
+    "relatedWords": [
+      "symbolic",
+      "symbolize",
+      "symbolism"
+    ],
+    "isEssential": true,
+    "segmentIndex": 21,
+    "contextSentence": "In the IPA, every sound has a unique symbol."
+  },
+  {
+    "word": "unique",
+    "phonetic": "/juːˈniːk/",
+    "partOfSpeech": "adjective",
+    "definition": "being the only one of its kind; unlike anything else",
+    "meaningKo": "고유한, 유일한",
+    "etymology": "Latin 'unicus' meaning single, sole",
+    "rootBreakdown": {
+      "prefix": "uni-",
+      "root": "que",
+      "suffix": null
+    },
+    "relatedWords": [
+      "uniquely",
+      "uniqueness"
+    ],
+    "isEssential": false,
+    "segmentIndex": 21,
+    "contextSentence": "In the IPA, every sound has a unique symbol."
+  },
+  {
+    "word": "represent",
+    "phonetic": "/ˌrɛprɪˈzɛnt/",
+    "partOfSpeech": "verb",
+    "definition": "to stand for or correspond to something",
+    "meaningKo": "나타내다, 대표하다",
+    "etymology": "Latin 'repraesentare' meaning to show or display",
+    "rootBreakdown": {
+      "prefix": "re-",
+      "root": "present",
+      "suffix": null
+    },
+    "relatedWords": [
+      "representation",
+      "representative"
+    ],
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "In lots of languages, each letter represents only one sound."
+  },
+  {
+    "word": "pronounce",
+    "phonetic": "/prəˈnaʊns/",
+    "partOfSpeech": "verb",
+    "definition": "to make the sound of a word or letter",
+    "meaningKo": "발음하다",
+    "etymology": "Latin 'pronuntiare' meaning to proclaim",
+    "rootBreakdown": {
+      "prefix": "pro-",
+      "root": "nounce",
+      "suffix": null
+    },
+    "relatedWords": [
+      "pronunciation",
+      "pronounced",
+      "mispronounce"
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "So it's easy to try and pronounce words."
+  },
+  {
+    "word": "improve",
+    "phonetic": "/ɪmˈpruːv/",
+    "partOfSpeech": "verb",
+    "definition": "to make or become better",
+    "meaningKo": "향상시키다, 개선하다",
+    "etymology": "Anglo-French 'emprower' meaning to profit",
+    "rootBreakdown": {
+      "prefix": "im-",
+      "root": "prove",
+      "suffix": null
+    },
+    "relatedWords": [
+      "improvement",
+      "improving"
+    ],
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "I know you're super keen to improve your English pronunciation."
+  },
+  {
+    "word": "native",
+    "phonetic": "/ˈneɪtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the place or environment in which a person was born",
+    "meaningKo": "원어민의, 태어난 곳의",
+    "etymology": "Latin 'nativus' meaning born, natural",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "nat",
+      "suffix": "-ive"
+    },
+    "relatedWords": [
+      "natively",
+      "nativity"
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "A native English speaker and a super amazing tool called the IPA."
+  },
+  {
+    "word": "spelling",
+    "phonetic": "/ˈspɛlɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "the way a word is written with letters in the correct order",
+    "meaningKo": "철자, 맞춤법",
+    "etymology": "Old English 'spellian' meaning to tell or relate",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "spell",
+      "suffix": "-ing"
+    },
+    "relatedWords": [
+      "spell",
+      "misspelling",
+      "spelt"
+    ],
+    "isEssential": true,
+    "segmentIndex": 25,
+    "contextSentence": "All have the same O-U-G-H spelling."
+  },
+  {
+    "word": "vocal cords",
+    "phonetic": "/ˈvoʊkəl kɔːrdz/",
+    "partOfSpeech": "noun",
+    "definition": "folds of tissue in the throat that vibrate to produce voice sounds",
+    "meaningKo": "성대",
+    "etymology": "Latin 'vocalis' meaning of the voice + 'chorda' meaning string",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "vocal + cord",
+      "suffix": "-s"
+    },
+    "relatedWords": [
+      "voice",
+      "vocal",
+      "chord"
+    ],
+    "isEssential": true,
+    "segmentIndex": 72,
+    "contextSentence": "The sound is made here with your vocal cords."
+  },
+  {
+    "word": "voiced",
+    "phonetic": "/vɔɪst/",
+    "partOfSpeech": "adjective",
+    "definition": "produced with vibration of the vocal cords",
+    "meaningKo": "유성의, 유성음의",
+    "etymology": "From 'voice' + '-ed', Old French 'voiz'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "voice",
+      "suffix": "-d"
+    },
+    "relatedWords": [
+      "unvoiced",
+      "voiceless",
+      "voice"
+    ],
+    "isEssential": true,
+    "segmentIndex": 71,
+    "contextSentence": "All the rest of the consonant sounds are voiced."
+  },
+  {
+    "word": "unvoiced",
+    "phonetic": "/ʌnˈvɔɪst/",
+    "partOfSpeech": "adjective",
+    "definition": "produced without vibration of the vocal cords",
+    "meaningKo": "무성의, 무성음의",
+    "etymology": "Prefix 'un-' meaning not + 'voiced'",
+    "rootBreakdown": {
+      "prefix": "un-",
+      "root": "voice",
+      "suffix": "-d"
+    },
+    "relatedWords": [
+      "voiced",
+      "voiceless"
+    ],
+    "isEssential": true,
+    "segmentIndex": 71,
+    "contextSentence": "There is one extra letter that is unvoiced down the bottom."
+  },
+  {
+    "word": "subscribe",
+    "phonetic": "/səbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "definition": "to sign up to receive regular content or updates",
+    "meaningKo": "구독하다",
+    "etymology": "Latin 'subscribere' meaning to write beneath",
+    "rootBreakdown": {
+      "prefix": "sub-",
+      "root": "scribe",
+      "suffix": null
+    },
+    "relatedWords": [
+      "subscription",
+      "subscriber"
+    ],
+    "isEssential": false,
+    "segmentIndex": 79,
+    "contextSentence": "Make sure you subscribe by clicking the red button."
+  },
+  {
+    "word": "keen",
+    "phonetic": "/kiːn/",
+    "partOfSpeech": "adjective",
+    "definition": "eager or enthusiastic about something",
+    "meaningKo": "열심인, 열망하는",
+    "etymology": "Old English 'cene' meaning bold, brave",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "keen",
+      "suffix": null
+    },
+    "relatedWords": [
+      "keenly",
+      "keenness"
+    ],
+    "isEssential": false,
+    "segmentIndex": 0,
+    "contextSentence": "I know you're super keen to improve your English pronunciation."
+  },
+  {
+    "word": "worksheet",
+    "phonetic": "/ˈwɜːrkʃiːt/",
+    "partOfSpeech": "noun",
+    "definition": "a sheet of paper with exercises or problems for students",
+    "meaningKo": "학습지, 연습 문제지",
+    "etymology": "Compound of 'work' + 'sheet'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "work+sheet",
+      "suffix": null
+    },
+    "relatedWords": [
+      "workbook",
+      "handout"
+    ],
+    "isEssential": false,
+    "segmentIndex": 78,
+    "contextSentence": "Download the free worksheet to help you practice the IPA sounds."
+  }
+]

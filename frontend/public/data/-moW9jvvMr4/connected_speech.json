@@ -1,0 +1,152 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "I'd sit",
+    "phonetic": "/aɪd sɪt/",
+    "koreanPhonetic": "아읻 싯",
+    "explanation": "'I would' is contracted to 'I'd', reducing two syllables to one. This is extremely common in fast natural speech.",
+    "explanationKo": "'I would'가 'I'd'로 축약되어 두 음절이 한 음절로 줄어듭니다. 빠른 자연스러운 대화에서 매우 일반적입니다.",
+    "practiceGuide": "'아이'와 'd' 소리를 빠르게 연결하세요. 'would'의 'woul' 부분은 완전히 사라집니다.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "linking",
+    "originalText": "turns out",
+    "phonetic": "/tɜːrnz‿aʊt/",
+    "koreanPhonetic": "턴자웃",
+    "explanation": "The final /z/ of 'turns' links directly to the vowel /aʊ/ of 'out', creating a smooth connection without any pause between the words.",
+    "explanationKo": "'turns'의 마지막 /z/ 소리가 'out'의 모음 /aʊ/에 직접 연결되어 단어 사이에 쉼 없이 부드럽게 이어집니다.",
+    "practiceGuide": "'턴스'와 '아웃'을 따로 발음하지 말고, '턴자웃'처럼 하나로 연결해서 발음하세요.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/kaɪndə/",
+    "koreanPhonetic": "카인다",
+    "explanation": "'Kind of' is frequently reduced in casual speech to 'kinda', where the 'of' loses its vowel and final consonant, becoming just a schwa sound.",
+    "explanationKo": "'Kind of'는 일상적인 대화에서 'kinda'로 자주 축약되며, 'of'의 모음과 마지막 자음이 사라지고 슈와 소리만 남습니다.",
+    "practiceGuide": "'카인드 오브'라고 하지 말고 '카인다'로 빠르게 발음하세요.",
+    "segmentIndex": 27
+  },
+  {
+    "type": "linking",
+    "originalText": "pay attention",
+    "phonetic": "/peɪ‿əˈtenʃən/",
+    "koreanPhonetic": "페이어텐션",
+    "explanation": "The final diphthong /eɪ/ of 'pay' glides smoothly into the initial schwa /ə/ of 'attention', creating a seamless connection.",
+    "explanationKo": "'pay'의 마지막 이중모음 /eɪ/가 'attention'의 첫 슈와 /ə/로 부드럽게 미끄러져 자연스럽게 연결됩니다.",
+    "practiceGuide": "'페이'와 '어텐션'을 끊지 않고 '페이어텐션'으로 한 호흡에 발음하세요.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "elision",
+    "originalText": "want to",
+    "phonetic": "/wɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in spoken English. The /t/ at the end of 'want' and the /t/ at the beginning of 'to' are both dropped.",
+    "explanationKo": "'Want to'는 구어체 영어에서 'wanna'로 흔히 축약됩니다. 'want'의 끝 /t/와 'to'의 시작 /t/가 모두 탈락합니다.",
+    "practiceGuide": "'원트 투'가 아니라 '워나'로 빠르게 발음하세요. 중간의 't' 소리를 모두 생략합니다.",
+    "segmentIndex": 35
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is reduced to 'gonna' in natural speech. The '-ing' ending and the word 'to' merge into a simple '-na' sound.",
+    "explanationKo": "'Going to'는 자연스러운 대화에서 'gonna'로 축약됩니다. '-ing' 어미와 'to'가 합쳐져 단순한 '-나' 소리가 됩니다.",
+    "practiceGuide": "'고잉 투'가 아니라 '거나'로 자연스럽게 발음하세요.",
+    "segmentIndex": 80
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't you",
+    "phonetic": "/doʊntʃuː/",
+    "koreanPhonetic": "돈츄",
+    "explanation": "When /t/ at the end of 'don't' meets /j/ at the start of 'you', they assimilate to produce /tʃ/ (a 'ch' sound). This is called palatalization.",
+    "explanationKo": "'don't'의 끝 /t/가 'you'의 시작 /j/를 만나면 /tʃ/ ('ㅊ' 소리)로 동화됩니다. 이것을 구개음화라고 합니다.",
+    "practiceGuide": "'돈트 유'가 아니라 '돈츄'로 발음하세요. 't'와 'y'가 만나 'ch' 소리가 됩니다.",
+    "segmentIndex": 28
+  },
+  {
+    "type": "linking",
+    "originalText": "step out of",
+    "phonetic": "/stɛp‿aʊt‿əv/",
+    "koreanPhonetic": "스테파우터브",
+    "explanation": "Three words link together: the /p/ of 'step' links to the /aʊ/ of 'out', and the /t/ of 'out' links to the /ə/ of 'of', creating a fluid three-word chain.",
+    "explanationKo": "세 단어가 연결됩니다: 'step'의 /p/가 'out'의 /aʊ/에, 'out'의 /t/가 'of'의 /ə/에 연결되어 유동적인 세 단어 체인을 만듭니다.",
+    "practiceGuide": "세 단어를 끊지 않고 '스테파우터브'처럼 하나로 이어서 발음하세요.",
+    "segmentIndex": 108
+  },
+  {
+    "type": "reduction",
+    "originalText": "you know",
+    "phonetic": "/jənoʊ/",
+    "koreanPhonetic": "야노",
+    "explanation": "'You know' is heavily reduced in casual speech. 'You' becomes /jə/ and links directly to 'know', functioning as a filler phrase.",
+    "explanationKo": "'You know'는 일상적인 대화에서 크게 축약됩니다. 'You'가 /jə/가 되고 'know'에 직접 연결되어, 삽입어 역할을 합니다.",
+    "practiceGuide": "'유 노우'가 아니라 '야노'처럼 빠르게 발음하세요. 화자가 다음 말을 이을 때 흔히 쓰는 표현입니다.",
+    "segmentIndex": 27
+  },
+  {
+    "type": "linking",
+    "originalText": "feel good",
+    "phonetic": "/fiːl‿ɡʊd/",
+    "koreanPhonetic": "필굳",
+    "explanation": "The /l/ at the end of 'feel' links smoothly to the /ɡ/ at the start of 'good'. The lateral /l/ flows into the velar /ɡ/ without any break.",
+    "explanationKo": "'feel'의 마지막 /l/이 'good'의 시작 /ɡ/에 부드럽게 연결됩니다. 설측음 /l/이 연구개음 /ɡ/로 끊김 없이 이어집니다.",
+    "practiceGuide": "'필'과 '굳'을 따로 말하지 말고, 혀를 윗잇몸에 댄 채 바로 'g' 소리로 이어가세요.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "elision",
+    "originalText": "just by being",
+    "phonetic": "/dʒʌs baɪ ˈbiːɪŋ/",
+    "koreanPhonetic": "저스 바이 비잉",
+    "explanation": "The final /t/ in 'just' is often dropped (elided) before the consonant /b/ in 'by'. This is a common feature of natural English speech to maintain flow.",
+    "explanationKo": "'just'의 마지막 /t/가 'by'의 자음 /b/ 앞에서 종종 탈락(생략)됩니다. 자연스러운 영어 발화에서 흐름을 유지하기 위한 일반적인 특징입니다.",
+    "practiceGuide": "'저스트 바이'가 아니라 '저스 바이'로 발음하세요. 't' 소리를 생략하면 더 자연스럽습니다.",
+    "segmentIndex": 121
+  },
+  {
+    "type": "reduction",
+    "originalText": "let go of",
+    "phonetic": "/lɛt ɡoʊ‿əv/",
+    "koreanPhonetic": "렛고어브",
+    "explanation": "In this common phrase, 'of' is reduced from /ɒv/ to just a schwa /əv/ or even /ə/. The phrase flows as a single unit.",
+    "explanationKo": "이 흔한 구문에서 'of'는 /ɒv/에서 슈와 /əv/ 또는 /ə/로 축약됩니다. 이 구문은 하나의 단위처럼 흘러갑니다.",
+    "practiceGuide": "'렛 고 오브'가 아니라 '렛고어브'처럼 빠르게 연결하여 발음하세요.",
+    "segmentIndex": 93
+  },
+  {
+    "type": "assimilation",
+    "originalText": "did you",
+    "phonetic": "/dɪdʒuː/",
+    "koreanPhonetic": "디쥬",
+    "explanation": "The /d/ at the end of 'did' combines with the /j/ at the start of 'you' to produce /dʒ/ (a 'j' sound). This is another example of palatalization.",
+    "explanationKo": "'did'의 끝 /d/가 'you'의 시작 /j/와 결합하여 /dʒ/ ('ㅈ' 소리)를 만듭니다. 이것은 구개음화의 또 다른 예입니다.",
+    "practiceGuide": "'디드 유'가 아니라 '디쥬'로 발음하세요. 'And what did they notice?' 문장에서 연습해보세요.",
+    "segmentIndex": 61
+  },
+  {
+    "type": "linking",
+    "originalText": "smoke to be cool",
+    "phonetic": "/smoʊk tə bi kuːl/",
+    "koreanPhonetic": "스모욱 터 비 쿨",
+    "explanation": "The phrase links together with 'to' reduced to /tə/. The continuous flow of consonants and vowels creates a rhythmic, connected speech pattern.",
+    "explanationKo": "'to'가 /tə/로 축약되면서 구문이 연결됩니다. 자음과 모음의 연속적인 흐름이 리듬감 있고 연결된 말하기 패턴을 만듭니다.",
+    "practiceGuide": "'투 비'가 아니라 '터 비'로 축약하여, 전체 구문을 리듬감 있게 이어서 발음하세요.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "reduction",
+    "originalText": "sort of",
+    "phonetic": "/ˈsɔːrtə/",
+    "koreanPhonetic": "소러",
+    "explanation": "Similar to 'kind of', 'sort of' reduces to 'sorta' in casual speech. The 'of' is reduced to just a schwa.",
+    "explanationKo": "'kind of'와 마찬가지로 'sort of'도 일상적인 대화에서 'sorta'로 축약됩니다. 'of'가 슈와로만 축약됩니다.",
+    "practiceGuide": "'소트 오브'가 아니라 '소러'처럼 빠르게 발음하세요.",
+    "segmentIndex": 57
+  }
+]

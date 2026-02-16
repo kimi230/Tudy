@@ -1,0 +1,162 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "What if I",
+    "phonetic": "/wʌɾəfaɪ/",
+    "koreanPhonetic": "워러파이",
+    "explanation": "In rapid speech, 'what if I' reduces significantly. The /t/ in 'what' becomes a flap /ɾ/, and 'if' reduces to /əf/, blending into 'I'.",
+    "explanationKo": "빠른 발화에서 'what if I'가 크게 축약됩니다. 'what'의 /t/가 탄설음 /ɾ/로 변하고, 'if'가 /əf/로 축약되어 'I'와 합쳐집니다.",
+    "practiceGuide": "'워러파이'처럼 부드럽게 이어서 발음하세요. 'what'과 'if' 사이에 끊김이 없어야 합니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "told you",
+    "phonetic": "/toʊldʒu/",
+    "koreanPhonetic": "톨쥬",
+    "explanation": "The /d/ at the end of 'told' blends with the /j/ sound of 'you', creating a /dʒ/ sound (like 'j' in 'judge'). This is called palatalization.",
+    "explanationKo": "'told'의 끝 /d/ 소리가 'you'의 /j/ 소리와 합쳐져 /dʒ/ 소리(judge의 'j')를 만듭니다. 이것을 구개음화라고 합니다.",
+    "practiceGuide": "'톨드 유'가 아닌 '톨쥬'로 발음하세요. /d/와 /j/가 만나 자연스럽게 'ㅈ' 소리가 됩니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is extremely commonly reduced to 'gonna' /ɡɒnə/ in casual and even semi-formal spoken English. The speaker uses this form frequently throughout the talk.",
+    "explanationKo": "'going to'는 일상 영어와 반격식적 구어 영어에서 'gonna' /ɡɒnə/로 매우 흔하게 축약됩니다. 화자는 강연 내내 이 형태를 자주 사용합니다.",
+    "practiceGuide": "'고잉 투'가 아닌 '거나'로 자연스럽게 발음하세요. 특히 미래 표현에서 자주 들리는 형태입니다.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "linking",
+    "originalText": "right behind",
+    "phonetic": "/raɪt.bɪˈhaɪnd/",
+    "koreanPhonetic": "라잇비하인드",
+    "explanation": "The /t/ at the end of 'right' links directly to the /b/ of 'behind'. In connected speech, the /t/ may become unreleased, creating a smooth transition.",
+    "explanationKo": "'right'의 끝 /t/가 'behind'의 /b/에 직접 연결됩니다. 연결 발화에서 /t/가 미파열음이 되어 부드러운 전환을 만듭니다.",
+    "practiceGuide": "'right'의 't'를 완전히 발음하지 말고 혀를 위치만 잡은 채 바로 'behind'로 이어가세요.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "elision",
+    "originalText": "just a moment",
+    "phonetic": "/dʒʌs.tə.ˈmoʊmənt/",
+    "koreanPhonetic": "저스터 모먼트",
+    "explanation": "The word 'a' reduces to schwa /ə/ and links to the /t/ of 'just', while the final /t/ of 'moment' is often unreleased or dropped entirely.",
+    "explanationKo": "'a'가 슈와 /ə/로 축약되어 'just'의 /t/와 연결되고, 'moment'의 마지막 /t/는 종종 미파열 또는 완전히 탈락합니다.",
+    "practiceGuide": "'저스트 어 모먼트'가 아닌 '저스터 모먼(트)'로 자연스럽게 발음하세요.",
+    "segmentIndex": 32
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' commonly reduces to 'wanna' in spoken English. The /t/ is dropped and the two words merge into one.",
+    "explanationKo": "'want to'는 구어 영어에서 'wanna'로 흔히 축약됩니다. /t/가 탈락하고 두 단어가 하나로 합쳐집니다.",
+    "practiceGuide": "'원트 투'가 아닌 '워나'로 발음하세요. 일상 대화에서 매우 자연스러운 발음입니다.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "assimilation",
+    "originalText": "did you",
+    "phonetic": "/dɪdʒu/",
+    "koreanPhonetic": "디쥬",
+    "explanation": "The /d/ at the end of 'did' assimilates with the /j/ sound of 'you', producing the affricate /dʒ/. This is yod-coalescence, very common in British and American English.",
+    "explanationKo": "'did'의 끝 /d/가 'you'의 /j/ 소리와 동화되어 파찰음 /dʒ/를 만듭니다. 이것은 영국식과 미국식 영어 모두에서 매우 흔한 현상입니다.",
+    "practiceGuide": "'디드 유'가 아닌 '디쥬'로 발음하세요. 'd'와 'y'가 만나면 자연스럽게 'ㅈ' 소리가 됩니다.",
+    "segmentIndex": 89
+  },
+  {
+    "type": "linking",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪndəv/",
+    "koreanPhonetic": "카인더브",
+    "explanation": "The /d/ of 'kind' links smoothly to the reduced vowel of 'of' (/əv/). 'Of' is almost always reduced in connected speech.",
+    "explanationKo": "'kind'의 /d/가 축약된 'of'의 모음 /əv/에 부드럽게 연결됩니다. 'of'는 연결 발화에서 거의 항상 축약됩니다.",
+    "practiceGuide": "'카인드 오브'가 아닌 '카인더브'로 이어서 발음하세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɒɾəv/",
+    "koreanPhonetic": "얼라러브",
+    "explanation": "In fast speech, 'a lot of' becomes almost a single unit. The 'a' reduces to schwa, the /t/ becomes a flap /ɾ/, and 'of' reduces to /əv/.",
+    "explanationKo": "빠른 발화에서 'a lot of'가 거의 하나의 단위가 됩니다. 'a'는 슈와로 축약되고, /t/는 탄설음 /ɾ/가 되며, 'of'는 /əv/로 축약됩니다.",
+    "practiceGuide": "세 단어를 끊지 말고 '얼라러브'처럼 하나의 덩어리로 발음하세요.",
+    "segmentIndex": 88
+  },
+  {
+    "type": "elision",
+    "originalText": "last long time",
+    "phonetic": "/læs.lɒŋ.taɪm/",
+    "koreanPhonetic": "래스 롱 타임",
+    "explanation": "When /t/ appears between two consonants (between 'last' and 'long'), it is often dropped completely. This is consonant cluster simplification.",
+    "explanationKo": "/t/가 두 자음 사이에 올 때('last'와 'long' 사이), 완전히 탈락하는 경우가 많습니다. 이것을 자음군 단순화라고 합니다.",
+    "practiceGuide": "'라스트 롱'이 아닌 '래스 롱'으로 발음하세요. 't'를 생략하면 더 자연스럽습니다.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "linking",
+    "originalText": "for a",
+    "phonetic": "/fɔːrə/",
+    "koreanPhonetic": "포러",
+    "explanation": "When a word ending in /r/ is followed by a word beginning with a vowel, the /r/ links to the next word. This is called intrusive or linking R.",
+    "explanationKo": "/r/로 끝나는 단어 뒤에 모음으로 시작하는 단어가 오면, /r/가 다음 단어에 연결됩니다. 이것을 연결 R이라고 합니다.",
+    "practiceGuide": "'포 어'가 아닌 '포러'로 발음하세요. 'r'이 다음 모음과 자연스럽게 이어집니다.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "reduction",
+    "originalText": "you're",
+    "phonetic": "/jɔːr/",
+    "koreanPhonetic": "요르",
+    "explanation": "'You are' contracts to 'you're' and in rapid speech further reduces. The vowel sound shortens significantly, sometimes sounding like /jər/.",
+    "explanationKo": "'You are'가 'you're'로 축약되고, 빠른 발화에서 더 축약됩니다. 모음이 크게 짧아져 /jər/처럼 들리기도 합니다.",
+    "practiceGuide": "'유 아'가 아닌 '요르' 또는 '여'에 가깝게 발음하세요.",
+    "segmentIndex": 81
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't have to",
+    "phonetic": "/doʊn.hæf.tə/",
+    "koreanPhonetic": "돈 해프터",
+    "explanation": "The /t/ in 'don't' is often unreleased before the /h/ of 'have', and 'have to' undergoes devoicing where /v/ becomes /f/ due to the voiceless /t/ that follows.",
+    "explanationKo": "'don't'의 /t/는 'have'의 /h/ 앞에서 미파열되고, 'have to'에서 /v/가 뒤따르는 무성음 /t/의 영향으로 /f/로 무성음화됩니다.",
+    "practiceGuide": "'돈트 해브 투'가 아닌 '돈 해프터'로 발음하세요. 'have'가 'haf'로 변합니다.",
+    "segmentIndex": 158
+  },
+  {
+    "type": "elision",
+    "originalText": "and I",
+    "phonetic": "/ən.aɪ/",
+    "koreanPhonetic": "언아이",
+    "explanation": "The /d/ at the end of 'and' is frequently dropped in connected speech, reducing to /ən/ or even /n/ before vowels.",
+    "explanationKo": "'and'의 끝 /d/가 연결 발화에서 자주 탈락하여 모음 앞에서 /ən/ 또는 /n/으로 축약됩니다.",
+    "practiceGuide": "'앤드 아이'가 아닌 '언아이' 또는 '나이'로 자연스럽게 이어서 발음하세요.",
+    "segmentIndex": 48
+  },
+  {
+    "type": "reduction",
+    "originalText": "out of",
+    "phonetic": "/ˈaʊɾəv/",
+    "koreanPhonetic": "아우러브",
+    "explanation": "The /t/ of 'out' becomes a flap /ɾ/ between vowels, and 'of' reduces to /əv/. The phrase flows as a single unit.",
+    "explanationKo": "'out'의 /t/가 모음 사이에서 탄설음 /ɾ/로 변하고, 'of'는 /əv/로 축약됩니다. 이 구가 하나의 단위로 흐릅니다.",
+    "practiceGuide": "'아웃 오브'가 아닌 '아우러브'로 부드럽게 이어서 발음하세요.",
+    "segmentIndex": 53
+  },
+  {
+    "type": "linking",
+    "originalText": "an experiment",
+    "phonetic": "/ən.ɪkˈsperɪmənt/",
+    "koreanPhonetic": "어닉스페리먼트",
+    "explanation": "The /n/ of 'an' links directly to the vowel /ɪ/ of 'experiment', creating a smooth CV (consonant-vowel) connection across the word boundary.",
+    "explanationKo": "'an'의 /n/이 'experiment'의 모음 /ɪ/에 직접 연결되어 단어 경계를 넘어 부드러운 자음-모음 연결을 만듭니다.",
+    "practiceGuide": "'an'과 'experiment'를 끊지 말고 '어닉스페리먼트'처럼 자연스럽게 이어 발음하세요.",
+    "segmentIndex": 14
+  }
+]

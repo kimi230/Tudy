@@ -1,0 +1,126 @@
+[
+  {
+    "pattern": "Relative Clause with 'whose'",
+    "explanation": "Used to show possession in a relative clause, connecting a noun to additional information about something belonging to it.",
+    "explanationKo": "'whose'는 관계절에서 소유를 나타내며, 명사와 그에 속하는 것에 대한 추가 정보를 연결합니다. '~의'라는 의미를 가집니다.",
+    "examples": [
+      "I have a Facebook friend whose life seems perfect.",
+      "My mother, who used to wake up in the morning saying..."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Perfect Progressive (have/has been + -ing)",
+    "explanation": "Expresses an action that started in the past and continues to the present, emphasizing the duration or ongoing nature of the action.",
+    "explanationKo": "과거에 시작되어 현재까지 계속되는 동작을 표현하며, 동작의 지속 기간이나 진행 중인 성격을 강조합니다.",
+    "examples": [
+      "She's always posting about how blessed she is.",
+      "His blood sugar had gotten so high lately that it was starting to affect his vision."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Rhetorical Questions",
+    "explanation": "Questions asked not to get an answer but to make a point or engage the audience. Common in persuasive speech and presentations.",
+    "explanationKo": "답을 구하기 위해서가 아니라 요점을 전달하거나 청중을 참여시키기 위해 하는 질문입니다. 설득력 있는 연설과 프레젠테이션에서 흔합니다.",
+    "examples": [
+      "How many of you have a friend kind of like that?",
+      "How could it be hurting me?",
+      "How do you train your brain to think differently?"
+    ],
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "Parallel Structure (keeps you... keeps you... keeps you...)",
+    "explanation": "Using the same grammatical form for items in a list or series to create rhythm, clarity, and emphasis.",
+    "explanationKo": "목록이나 일련의 항목에 같은 문법적 형태를 사용하여 리듬감, 명확성, 강조를 만드는 기법입니다.",
+    "examples": [
+      "Keeps you focused on the problem, keeps you from finding a solution.",
+      "Feeling sad or hurt or angry or scared, those things are all uncomfortable."
+    ],
+    "segmentIndex": 32
+  },
+  {
+    "pattern": "Conditional with 'if' (Second Conditional)",
+    "explanation": "Used to talk about hypothetical situations and their consequences. Structure: If + past simple, would + base verb.",
+    "explanationKo": "가정적인 상황과 그 결과에 대해 말할 때 사용합니다. 구조: If + 과거 단순, would + 동사 원형.",
+    "examples": [
+      "If you wanted to be physically strong, you'd need to go to the gym and lift weights.",
+      "If you really wanted to see results, you'd also have to give up eating junk food."
+    ],
+    "segmentIndex": 115
+  },
+  {
+    "pattern": "Modal Verb 'must' for Strong Deduction",
+    "explanation": "Using 'must' to express a strong belief or logical conclusion about something based on evidence.",
+    "explanationKo": "'must'를 사용하여 증거에 기반한 강한 믿음이나 논리적 결론을 표현합니다.",
+    "examples": [
+      "I swear that they must take a professional photographer along with them.",
+      "Where you need all the mental strength that you can muster."
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Past Perfect (had + past participle)",
+    "explanation": "Used to show that one action was completed before another action in the past, establishing a clear sequence of events.",
+    "explanationKo": "과거의 다른 동작 이전에 하나의 동작이 완료되었음을 보여주기 위해 사용되며, 명확한 사건 순서를 설정합니다.",
+    "examples": [
+      "He'd had a heart attack.",
+      "I hadn't been back there since.",
+      "His blood sugar had gotten so high."
+    ],
+    "segmentIndex": 89
+  },
+  {
+    "pattern": "Comparative Structures (more... than / less... than)",
+    "explanation": "Used to compare two things, showing that one has more or less of a quality than the other.",
+    "explanationKo": "두 가지를 비교하는 데 사용되며, 하나가 다른 것보다 어떤 특성이 더 많거나 적음을 보여줍니다.",
+    "examples": [
+      "He could see the TV just a little bit more clearly than he had before.",
+      "A snack with a little less sugar."
+    ],
+    "segmentIndex": 166
+  },
+  {
+    "pattern": "'No matter' + WH-word (Concessive Clause)",
+    "explanation": "Used to express that something is true regardless of the condition. Equivalent to 'it doesn't matter what/where/how...'",
+    "explanationKo": "조건에 상관없이 어떤 것이 사실임을 표현할 때 사용합니다. '무엇이든/어디든/어떻게든 상관없이'와 같은 의미입니다.",
+    "examples": [
+      "No matter where they go or what they do.",
+      "No matter how often that happens, it'll hold you back.",
+      "No matter how small they might seem."
+    ],
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "Gerund as Subject",
+    "explanation": "Using the -ing form of a verb as the subject of a sentence to discuss activities or concepts in general terms.",
+    "explanationKo": "동사의 -ing 형태를 문장의 주어로 사용하여 활동이나 개념을 일반적으로 논의합니다.",
+    "examples": [
+      "Feeling sad or hurt or angry or scared, those things are all uncomfortable.",
+      "Expecting success to fall into your lap will only lead to disappointment."
+    ],
+    "segmentIndex": 124
+  },
+  {
+    "pattern": "Reported Speech (said that...)",
+    "explanation": "Reporting what someone else said using 'said/told/explained + that clause', often with a shift in tense.",
+    "explanationKo": "'said/told/explained + that절'을 사용하여 다른 사람이 말한 것을 전달하며, 종종 시제가 바뀝니다.",
+    "examples": [
+      "She said that our mother was found unresponsive.",
+      "He said, I'll give up my two liter a day Pepsi habit.",
+      "He said, I could trade in my nightly bowl of ice cream."
+    ],
+    "segmentIndex": 62
+  },
+  {
+    "pattern": "Correlative Conjunctions (not just... but also)",
+    "explanation": "Paired conjunctions used to join grammatically equal elements and add emphasis to the relationship between them.",
+    "explanationKo": "문법적으로 동등한 요소를 연결하고 그 관계를 강조하기 위해 사용되는 짝을 이루는 접속사입니다.",
+    "examples": [
+      "Not just to create good habits in my life, but to get rid of those small habits.",
+      "Not only did he lose weight, but one day he noticed he could see the TV."
+    ],
+    "segmentIndex": 96
+  }
+]

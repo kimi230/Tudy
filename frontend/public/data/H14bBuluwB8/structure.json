@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "type": "intro",
+      "startSegment": 0,
+      "endSegment": 9,
+      "summary": "Opening: Personal story about teaching 7th grade math and discovering IQ isn't everything",
+      "keyPoints": [
+        "교사로서의 경험을 통해 IQ가 성적의 유일한 요인이 아님을 발견",
+        "성적 우수자가 반드시 IQ가 높지 않았고, IQ가 높아도 성적이 낮은 학생 존재"
+      ],
+      "signalExpressions": ["When I was 27 years old", "What struck me was that"]
+    },
+    {
+      "type": "body",
+      "startSegment": 10,
+      "endSegment": 22,
+      "summary": "Transition: From classroom observation to graduate school — reframing the question from IQ to motivation",
+      "keyPoints": [
+        "7학년 수학은 어렵지만 불가능하지 않음 — 노력의 문제",
+        "교육에는 동기 부여/심리학적 관점의 이해가 필요",
+        "핵심 질문: '학습 속도 이상의 것이 성공을 결정한다면?'"
+      ],
+      "signalExpressions": ["And that got me thinking", "I came to the conclusion that", "But what if"]
+    },
+    {
+      "type": "body",
+      "startSegment": 23,
+      "endSegment": 38,
+      "summary": "Research journey: Studies across West Point, Spelling Bee, schools, and companies — all pointing to one factor",
+      "keyPoints": [
+        "다양한 극한 환경에서 성공 예측 인자 연구",
+        "웨스트포인트, 철자 맞히기 대회, 초임 교사, 영업사원 대상",
+        "사회적 지능, 외모, 건강, IQ 모두 아닌 하나의 특성 발견"
+      ],
+      "signalExpressions": ["I started studying", "My research team and I", "In all those very different contexts"]
+    },
+    {
+      "type": "body",
+      "startSegment": 39,
+      "endSegment": 54,
+      "summary": "Core concept: Defining grit and presenting evidence from Chicago public schools",
+      "keyPoints": [
+        "그릿 = 장기 목표에 대한 열정 + 인내",
+        "마라톤 비유: 인생은 단거리가 아닌 마라톤",
+        "시카고 연구: 그릿 높은 학생이 졸업률 유의미하게 높음",
+        "가정 소득, 시험 점수 등 변수 통제 후에도 유효"
+      ],
+      "signalExpressions": ["It was grit", "Grit is", "Turns out that"]
+    },
+    {
+      "type": "body",
+      "startSegment": 55,
+      "endSegment": 75,
+      "summary": "The gap: We know little about building grit — growth mindset as the best lead so far",
+      "keyPoints": [
+        "그릿을 키우는 방법에 대한 과학적 지식 부족 고백",
+        "재능 ≠ 그릿 (오히려 반비례)",
+        "캐럴 드웩의 성장 마인드셋이 현재 최선의 아이디어",
+        "뇌가 변화할 수 있다는 믿음이 실패 후 끈기를 높임"
+      ],
+      "signalExpressions": ["The most shocking thing", "The honest answer is", "So far, the best idea"]
+    },
+    {
+      "type": "conclusion",
+      "startSegment": 76,
+      "endSegment": 88,
+      "summary": "Call to action: We need to be gritty about making kids grittier",
+      "keyPoints": [
+        "성장 마인드셋만으로는 부족, 더 많은 연구 필요",
+        "최고의 아이디어를 검증하고, 실패를 감수해야 함",
+        "재귀적 메시지: 그릿을 키우려면 우리 자신이 끈기를 가져야 함"
+      ],
+      "signalExpressions": ["But we need more", "That's where I'm going to end my remarks", "In other words"]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "When I was 27 years old",
+      "type": "narrative_opening",
+      "segmentIndex": 0,
+      "role": "개인 경험으로 시작하여 청중의 관심을 끄는 서사적 도입"
+    },
+    {
+      "expression": "What struck me was that",
+      "type": "emphasis",
+      "segmentIndex": 6,
+      "role": "핵심 관찰을 강조하는 강조 구문"
+    },
+    {
+      "expression": "And that got me thinking",
+      "type": "transition",
+      "segmentIndex": 10,
+      "role": "관찰에서 탐구로의 전환을 알리는 연결 표현"
+    },
+    {
+      "expression": "But what if",
+      "type": "rhetorical_question",
+      "segmentIndex": 21,
+      "role": "기존 가정에 도전하는 수사적 질문으로 주제 전환"
+    },
+    {
+      "expression": "In all those very different contexts",
+      "type": "summary",
+      "segmentIndex": 36,
+      "role": "다양한 연구를 종합하며 공통점을 도출하는 요약 표현"
+    },
+    {
+      "expression": "It was grit",
+      "type": "reveal",
+      "segmentIndex": 39,
+      "role": "배제법 후 핵심 답을 공개하는 극적 전환점"
+    },
+    {
+      "expression": "Turns out that",
+      "type": "evidence",
+      "segmentIndex": 49,
+      "role": "연구 결과를 구어체로 자연스럽게 보고하는 학술 표현"
+    },
+    {
+      "expression": "The honest answer is",
+      "type": "honesty",
+      "segmentIndex": 61,
+      "role": "한계를 솔직히 인정하여 신뢰를 구축하는 고백 표현"
+    },
+    {
+      "expression": "So far, the best idea I've heard",
+      "type": "recommendation",
+      "segmentIndex": 67,
+      "role": "겸손한 추천으로 성장 마인드셋 소개"
+    },
+    {
+      "expression": "In other words",
+      "type": "restatement",
+      "segmentIndex": 83,
+      "role": "핵심 메시지를 한 문장으로 재정리하며 강연 마무리"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "pattern": "What struck me was that...",
+    "example": "What struck me was that IQ was not the only difference between my best and my worst students.",
+    "explanationKo": "강조 구문 (Cleft sentence). 'What + 동사 + me + was + that절'로 특정 사실을 강조합니다. What이 이끄는 명사절이 주어, that절이 보어 역할.",
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "What if + 주어 + 동사...?",
+    "example": "But what if doing well in school and in life depends on much more than your ability to learn quickly and easily?",
+    "explanationKo": "가정/제안의 의문문. 'What if...?'로 가능성을 제기하며 청중의 사고를 유도합니다. TED 강연에서 주제를 소개할 때 자주 사용되는 수사적 질문.",
+    "segmentIndex": 21
+  },
+  {
+    "pattern": "It wasn't X. It wasn't Y. It was Z.",
+    "example": "And it wasn't social intelligence. It wasn't good looks, physical health, and it wasn't IQ. It was grit.",
+    "explanationKo": "배제 후 공개 패턴 (Elimination reveal). 'It wasn't...'을 반복하여 오답을 배제한 후 핵심 답을 극적으로 공개합니다. 발표에서 긴장감 조성용.",
+    "segmentIndex": 38
+  },
+  {
+    "pattern": "Grit is -ing (정의 나열)",
+    "example": "Grit is having stamina. Grit is sticking with your future, day in, day out.",
+    "explanationKo": "동명사(-ing)를 사용한 정의 나열. 추상적 개념을 구체적 행동으로 풀어서 설명할 때 'X is -ing...'을 반복합니다. 병렬 구조(parallelism)의 대표적 활용.",
+    "segmentIndex": 40
+  },
+  {
+    "pattern": "Turns out (that)...",
+    "example": "Turns out that grittier kids were significantly more likely to graduate.",
+    "explanationKo": "구어체 결과 보고. 'It turns out that...'의 축약형으로, 연구 결과나 의외의 사실을 소개할 때 사용합니다. 학술 발표에서 자연스러움을 더하는 표현.",
+    "segmentIndex": 49
+  },
+  {
+    "pattern": "Even when I matched them on...",
+    "example": "Even when I matched them on every characteristic I could measure, things like family income, standardized achievement test scores.",
+    "explanationKo": "'even when'으로 양보절을 이끌어, 결과가 변수를 통제한 후에도 유효함을 강조합니다. 연구 발표에서 결과의 신뢰성을 높이는 학술적 표현.",
+    "segmentIndex": 50
+  },
+  {
+    "pattern": "The honest answer is...",
+    "example": "The honest answer is, I don't know.",
+    "explanationKo": "솔직한 고백 패턴. 청중의 기대를 인정한 뒤 정직하게 한계를 시인합니다. 신뢰를 구축하는 수사 전략으로, TED 강연에서 매우 효과적.",
+    "segmentIndex": 61
+  },
+  {
+    "pattern": "So far, the best idea I've heard about...",
+    "example": "So far, the best idea I've heard about building grit in kids is something called growth mindset.",
+    "explanationKo": "'So far'(지금까지)로 시간적 한정을 두고, 현재완료 'I've heard'로 경험을 기반으로 한 제안을 합니다. 겸손하면서도 권위 있는 추천 표현.",
+    "segmentIndex": 67
+  },
+  {
+    "pattern": "In other words, we need to be X about Y-ing.",
+    "example": "In other words, we need to be gritty about getting our kids grittier.",
+    "explanationKo": "핵심 메시지 요약. 'In other words'로 바꿔 말하기를 시작하며, 강연의 핵심을 한 문장으로 압축합니다. 재귀적 표현(그릿에 대해 그릿을 가져야 한다)으로 여운.",
+    "segmentIndex": 83
+  },
+  {
+    "pattern": "not just X, not just Y, but for Z",
+    "example": "Day in, day out, not just for the week, not just for the month, but for years.",
+    "explanationKo": "점진적 확대 (Climax/Gradation). 'not just...not just...but'로 시간 범위를 점점 넓혀가며 강조합니다. 청중의 기대를 단계적으로 확장하는 수사법.",
+    "segmentIndex": 41
+  }
+]

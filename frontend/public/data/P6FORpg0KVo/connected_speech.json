@@ -1,0 +1,82 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/wɒnə/",
+    "koreanPhonetic": "워너",
+    "explanation": "The phrase 'want to' is commonly reduced to 'wanna' /wɒnə/ in natural speech. The /t/ of 'want' and the /t/ of 'to' merge and simplify.",
+    "explanationKo": "'want to'가 자연스러운 발화에서 'wanna' /wɒnə/로 축약돼요. 'want'의 /t/와 'to'의 /t/가 합쳐지고 단순화되는 거예요.",
+    "practiceGuide": "'원트 투'라고 또박또박 발음하지 말고, '워너'처럼 부드럽게 이어서 발음해 보세요.",
+    "segmentIndex": 24
+  },
+  {
+    "type": "linking",
+    "originalText": "think of it as",
+    "phonetic": "/θɪŋkəvɪtæz/",
+    "koreanPhonetic": "씽커비래즈",
+    "explanation": "Four words chain together: the /k/ of 'think' links to the reduced /əv/ of 'of', which links to /ɪt/ of 'it', which links to the /æz/ of 'as'. The entire phrase flows as one unit.",
+    "explanationKo": "네 단어가 연쇄적으로 연결돼요: 'think'의 /k/가 약화된 'of' /əv/로, 'it'의 /ɪt/으로, 'as'의 /æz/로 이어져 전체가 하나의 단위처럼 흘러요.",
+    "practiceGuide": "'씽크 오브 잇 애즈'라고 끊지 말고, '씽커비래즈'처럼 하나로 이어서 발음해 보세요.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "elision",
+    "originalText": "doesn't want",
+    "phonetic": "/dʌzn wɒnt/",
+    "koreanPhonetic": "더즌원",
+    "explanation": "The /t/ at the end of 'doesn't' is often elided before the /w/ of 'want'. The stop consonant is unreleased when followed by another consonant.",
+    "explanationKo": "'doesn't'의 마지막 /t/가 'want'의 /w/ 앞에서 자주 탈락해요. 파열음 뒤에 또 다른 자음이 오면 발음되지 않는 경우가 많아요.",
+    "practiceGuide": "'더즌트 원트'에서 /t/를 생략하고 '더즌원'처럼 바로 이어 발음해 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "assimilation",
+    "originalText": "did you",
+    "phonetic": "/dɪdʒə/",
+    "koreanPhonetic": "디쥐",
+    "explanation": "The /d/ of 'did' and the /j/ of 'you' merge together through palatalization, producing the /dʒ/ sound. 'You' reduces to /jə/ and then assimilates.",
+    "explanationKo": "'did'의 /d/와 'you'의 /j/가 구개음화를 통해 합쳐져서 /dʒ/ 소리가 돼요. 'you'가 /jə/로 축약된 후 동화돼요.",
+    "practiceGuide": "'디드 유'라고 따로 발음하지 말고, '디쥐'처럼 /d/와 /j/를 합쳐서 발음해 보세요.",
+    "segmentIndex": 118
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ɡɒnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "The phrase 'going to' (indicating future) is commonly reduced to 'gonna' /ɡɒnə/ in casual speech. The /ɪŋ t/ cluster simplifies dramatically.",
+    "explanationKo": "'going to'(미래를 나타냄)가 일상 대화에서 'gonna' /ɡɒnə/로 축약돼요. /ɪŋ t/ 자음군이 크게 단순화되는 거예요.",
+    "practiceGuide": "'고잉 투'라고 발음하지 말고, '거나'처럼 자연스럽게 축약해서 발음해 보세요.",
+    "segmentIndex": 62
+  },
+  {
+    "type": "linking",
+    "originalText": "run into a",
+    "phonetic": "/rʌnɪntuːə/",
+    "koreanPhonetic": "러닌투어",
+    "explanation": "The /n/ of 'run' links to the /ɪ/ of 'into' through consonant-vowel linking, and 'into' links to 'a' with /uː/ flowing into /ə/.",
+    "explanationKo": "'run'의 /n/이 'into'의 /ɪ/와 자음-모음 연결을 통해 이어지고, 'into'의 /uː/가 'a'의 /ə/와 자연스럽게 연결돼요.",
+    "practiceGuide": "'런 인투 어'라고 끊지 말고, '러닌투어'처럼 부드럽게 이어서 발음해 보세요.",
+    "segmentIndex": 86
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əlɒdəv/",
+    "koreanPhonetic": "얼라러브",
+    "explanation": "In natural speech, 'a lot of' compresses significantly. The /t/ in 'lot' becomes a flap /d/ before the vowel in 'of', and 'of' reduces to /əv/.",
+    "explanationKo": "'a lot of'가 자연스러운 발화에서 크게 압축돼요. 'lot'의 /t/가 'of'의 모음 앞에서 탄설음 /d/가 되고, 'of'는 /əv/로 축약돼요.",
+    "practiceGuide": "'어 롯 오브'라고 또박또박 발음하지 말고, '얼라러브'처럼 빠르게 이어서 발음해 보세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "elision",
+    "originalText": "most ways",
+    "phonetic": "/moʊs weɪz/",
+    "koreanPhonetic": "모스 웨이즈",
+    "explanation": "The /t/ at the end of 'most' is often elided before the /w/ of 'ways'. When a stop consonant appears between two other consonants or before another consonant, it tends to drop.",
+    "explanationKo": "'most'의 마지막 /t/가 'ways'의 /w/ 앞에서 탈락하는 경우가 많아요. 파열음이 다른 자음 사이에 있을 때 생략되는 경향이 있어요.",
+    "practiceGuide": "'모스트 웨이즈'에서 /t/를 빼고 '모스 웨이즈'처럼 자연스럽게 발음해 보세요.",
+    "segmentIndex": 4
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "type": "linking",
+    "originalText": "made up of",
+    "phonetic": "/meɪdʌpəv/",
+    "koreanPhonetic": "메이더퍼브",
+    "explanation": "The /d/ of 'made' links to the vowel /ʌ/ of 'up,' and the /p/ of 'up' links to the reduced /əv/ of 'of.' The three words flow as one unit in natural speech.",
+    "explanationKo": "'made'의 /d/가 'up'의 모음 /ʌ/와 연결되고, 'up'의 /p/가 약화된 'of' /əv/와 이어져서 세 단어가 하나의 덩어리처럼 흘러가요.",
+    "practiceGuide": "'메이드 업 오브'라고 따로 끊지 말고, '메이더퍼브'처럼 한 덩어리로 이어서 발음해 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "reduction",
+    "originalText": "set to either",
+    "phonetic": "/sɛtə ˈiːðər/",
+    "koreanPhonetic": "세터 이더",
+    "explanation": "The word 'to' is reduced to /tə/, and the /t/ of 'set' links directly to it. 'Either' also reduces its initial vowel. The phrase sounds much smoother than when each word is fully articulated.",
+    "explanationKo": "'to'가 /tə/로 약화되고, 'set'의 /t/와 바로 연결돼요. 'either'도 첫 모음이 약해져서 전체 구가 매끄럽게 들려요.",
+    "practiceGuide": "'셋 투 이더'가 아니라 '세터 이더'처럼 'to'를 약하게 /tə/로 발음하며 앞 단어와 연결해 보세요.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "elision",
+    "originalText": "just stop",
+    "phonetic": "/dʒʌs stɒp/",
+    "koreanPhonetic": "저스 스탑",
+    "explanation": "The /t/ at the end of 'just' is elided before the /s/ of 'stop.' When a stop consonant is followed by another consonant, the first is often dropped in natural speech.",
+    "explanationKo": "'just'의 마지막 /t/가 'stop'의 /s/ 앞에서 탈락해요. 파열음 뒤에 다른 자음이 오면 첫 번째 파열음이 생략되는 경우가 많아요.",
+    "practiceGuide": "'저스트 스탑'이라고 /t/를 분명히 발음하지 말고, '저스 스탑'처럼 /t/를 생략해 보세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in parallel",
+    "phonetic": "/ɪm ˈpærəlɛl/",
+    "koreanPhonetic": "임 패럴렐",
+    "explanation": "The /n/ of 'in' assimilates to /m/ before the bilabial /p/ of 'parallel.' This is place assimilation, where the nasal sound adjusts to match the place of articulation of the following consonant.",
+    "explanationKo": "'in'의 /n/이 'parallel'의 양순음 /p/ 앞에서 /m/으로 동화돼요. 비음이 다음 자음의 조음 위치에 맞춰 변하는 조음위치 동화 현상이에요.",
+    "practiceGuide": "'인 패럴렐'이 아니라 '임 패럴렐'처럼 /n/을 /m/으로 바꿔서 발음해 보세요. 입술을 다물면서 자연스럽게 이어져요.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "linking",
+    "originalText": "measure it",
+    "phonetic": "/ˈmɛʒərɪt/",
+    "koreanPhonetic": "메저릿",
+    "explanation": "The final /r/ of 'measure' (in non-rhotic accents) or the schwa links smoothly to the /ɪ/ of 'it,' and the whole phrase sounds like one word.",
+    "explanationKo": "'measure'의 마지막 소리가 'it'의 /ɪ/와 자연스럽게 연결되어 전체 구가 한 단어처럼 들려요.",
+    "practiceGuide": "'메저 잇'이라고 끊지 말고, '메저릿'처럼 /r/ 소리를 'it'과 이어서 발음해 보세요.",
+    "segmentIndex": 32
+  },
+  {
+    "type": "reduction",
+    "originalText": "can be",
+    "phonetic": "/kənbi/",
+    "koreanPhonetic": "컨비",
+    "explanation": "The modal 'can' is reduced to its weak form /kən/ in unstressed position. The vowel /æ/ becomes a schwa /ə/, making the phrase flow quickly.",
+    "explanationKo": "'can'이 강세를 받지 않는 위치에서 약형 /kən/으로 축약돼요. 모음 /æ/가 슈와 /ə/로 변해서 구가 빠르게 흘러가요.",
+    "practiceGuide": "'캔 비'라고 강하게 발음하지 말고, '컨비'처럼 'can'을 약하게 발음해 보세요. 부정문 'can't'와 구별하는 중요한 포인트예요.",
+    "segmentIndex": 29
+  },
+  {
+    "type": "elision",
+    "originalText": "most famous",
+    "phonetic": "/moʊs ˈfeɪməs/",
+    "koreanPhonetic": "모우스 페이머스",
+    "explanation": "The /t/ at the end of 'most' is elided before the /f/ of 'famous.' This is a common consonant cluster simplification in English.",
+    "explanationKo": "'most'의 마지막 /t/가 'famous'의 /f/ 앞에서 탈락해요. 영어에서 흔히 일어나는 자음군 단순화 현상이에요.",
+    "practiceGuide": "'모우스트 페이머스'가 아니라 '모우스 페이머스'처럼 /t/를 생략하면 더 자연스러워요.",
+    "segmentIndex": 51
+  },
+  {
+    "type": "linking",
+    "originalText": "do it in a",
+    "phonetic": "/duːɪtɪnə/",
+    "koreanPhonetic": "두이리너",
+    "explanation": "Multiple consonant-vowel links chain together: the /t/ of 'it' links to the /ɪ/ of 'in,' and the /n/ of 'in' links to the /ə/ of 'a.' The whole phrase flows as one continuous sound.",
+    "explanationKo": "여러 자음-모음 연결이 연쇄적으로 이어져요: 'it'의 /t/가 'in'의 /ɪ/와, 'in'의 /n/이 'a'의 /ə/와 연결되어 전체 구가 하나의 연속된 소리로 흘러가요.",
+    "practiceGuide": "'두 잇 인 어'라고 끊지 말고, '두이리너'처럼 자음과 모음을 연결하면서 한 호흡으로 발음해 보세요.",
+    "segmentIndex": 56
+  }
+]

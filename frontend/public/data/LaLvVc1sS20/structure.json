@@ -1,0 +1,171 @@
+{
+  "sections": [
+    {
+      "section": "intro",
+      "startSegment": 0,
+      "endSegment": 4,
+      "summary": "The narrator introduces the legendary origin of tea through the myth of Shen Nong, the divine Chinese farmer who accidentally discovered tea after being poisoned.",
+      "summaryKo": "신농씨의 신화를 통해 차의 전설적인 기원을 소개해요. 독에 중독된 후 우연히 차를 발견한 이야기로 청중의 흥미를 끌어요.",
+      "keyPoints": [
+        "Shen Nong, the divine farmer, was poisoned 72 times",
+        "A tea leaf accidentally revived him",
+        "This is an ancient legend, not historical fact"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 5,
+      "endSegment": 11,
+      "summary": "The narrator transitions from legend to archaeological evidence, explaining that tea was cultivated in China 6,000 years ago and was originally consumed as food, not as a drink.",
+      "summaryKo": "전설에서 고고학적 증거로 전환하며, 차가 6,000년 전 중국에서 재배되었고 원래는 음료가 아닌 음식으로 소비되었다고 설명해요.",
+      "keyPoints": [
+        "Tea cultivation dates back 6,000 years in China",
+        "This predates the Great Pyramids by 1,500 years",
+        "Tea was originally eaten as a vegetable or with porridge"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 12,
+      "endSegment": 21,
+      "summary": "Tea shifted from food to drink 1,500 years ago. The preparation evolved into matcha, and a rich Chinese tea culture emerged with tea becoming a subject of art, poetry, and imperial favor.",
+      "summaryKo": "1,500년 전에 차가 음식에서 음료로 바뀌었어요. 준비 방법이 말차로 발전했고, 차가 예술과 시, 황제의 총애의 대상이 되면서 풍부한 중국 차 문화가 형성되었어요.",
+      "keyPoints": [
+        "Heat and moisture unlocked complex flavors from tea leaves",
+        "Matcha became the standard preparation method",
+        "Tea culture included art, poetry, and foam art similar to modern latte art"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 22,
+      "endSegment": 31,
+      "summary": "Tea spread to Japan in the 9th century, leading to the Japanese tea ceremony. During the Ming Dynasty, loose leaf tea replaced cakes. China maintained a tea monopoly, and Dutch traders brought tea to Europe in the 1600s.",
+      "summaryKo": "9세기에 차가 일본에 전해져 다도가 탄생했어요. 명나라 때 잎차가 떡차를 대체했고, 중국은 차 독점권을 유지했으며, 1600년대에 네덜란드 상인들이 차를 유럽에 가져왔어요.",
+      "keyPoints": [
+        "A Japanese monk brought tea to Japan during the Tang Dynasty",
+        "The Ming Dynasty shifted from cake tea to loose leaf tea",
+        "China held a monopoly on tea alongside porcelain and silk",
+        "Dutch traders brought tea to Europe in large quantities"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 32,
+      "endSegment": 41,
+      "summary": "Tea became enormously popular in Europe, particularly England. Its high price and Chinese monopoly fueled intense competition, giving rise to Clipper Ships and a massive global trade.",
+      "summaryKo": "차가 유럽, 특히 영국에서 엄청난 인기를 끌었어요. 높은 가격과 중국의 독점이 치열한 경쟁을 부추겨 클리퍼선이 탄생하고 거대한 글로벌 무역이 형성되었어요.",
+      "keyPoints": [
+        "Queen Catherine of Braganza popularized tea in English aristocracy",
+        "Britain's colonial expansion spread tea culture globally",
+        "Tea sold for 10 times the price of coffee in 1700",
+        "Clipper Ships were built to race tea to Europe"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 42,
+      "endSegment": 51,
+      "summary": "Britain's tea trade led to the devastating Opium Wars with China. Britain traded opium for tea, triggering addiction and conflict. The defeated Qing Dynasty ceded Hong Kong, weakening China for over a century.",
+      "summaryKo": "영국의 차 무역은 중국과의 파괴적인 아편 전쟁으로 이어졌어요. 영국이 차 대신 아편을 교역하면서 중독과 분쟁이 발생했고, 패배한 청나라는 홍콩을 할양하며 1세기 이상 약화되었어요.",
+      "keyPoints": [
+        "Britain traded opium for Chinese tea when silver became too expensive",
+        "Opium caused a public health crisis in China",
+        "The first Opium War (1839-1842) resulted in China ceding Hong Kong",
+        "The war weakened China's global standing for over a century"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 52,
+      "endSegment": 56,
+      "summary": "The British East India Company sent Robert Fortune on a covert mission to steal tea plants and expertise from China. He smuggled them to Darjeeling, India, breaking China's monopoly and driving tea's global spread.",
+      "summaryKo": "영국 동인도 회사가 로버트 포춘을 비밀 작전에 보내 중국에서 차나무와 기술을 훔쳐왔어요. 인도 다르질링으로 밀반출하며 중국의 독점을 깨고 차의 세계적 확산을 이끌었어요.",
+      "keyPoints": [
+        "Robert Fortune disguised himself and infiltrated China's tea regions",
+        "He smuggled tea plants and workers to Darjeeling, India",
+        "This broke China's monopoly and made tea an everyday commodity worldwide"
+      ]
+    },
+    {
+      "section": "conclusion",
+      "startSegment": 57,
+      "endSegment": 61,
+      "summary": "Today tea is the world's second most consumed beverage after water, with an incredible diversity of preparation methods across cultures worldwide.",
+      "summaryKo": "오늘날 차는 물 다음으로 세계에서 두 번째로 많이 소비되는 음료이며, 전 세계 문화마다 놀라울 정도로 다양한 준비 방법이 있어요.",
+      "keyPoints": [
+        "Tea is the second most consumed beverage in the world",
+        "Preparation styles range from sugary Turkish tea to salty Tibetan butter tea",
+        "There are nearly as many tea traditions as there are cultures"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "During a long day spent roaming the forest",
+      "type": "emphasis",
+      "segmentIndex": 0,
+      "role": "서사적 묘사로 시작하여 이야기 속으로 청중을 끌어들이는 도입부예요"
+    },
+    {
+      "expression": "And that is how we discovered tea",
+      "type": "summary",
+      "segmentIndex": 4,
+      "role": "전설의 핵심을 요약하며 이야기의 첫 번째 단락을 마무리해요"
+    },
+    {
+      "expression": "Or so an ancient legend goes, at least",
+      "type": "transition",
+      "segmentIndex": 4,
+      "role": "전설에서 사실적 서술로 전환하며, 이야기의 신뢰성에 대한 여지를 남겨요"
+    },
+    {
+      "expression": "Archaeological evidence suggests",
+      "type": "transition",
+      "segmentIndex": 7,
+      "role": "신화에서 과학적 증거로 전환하며 역사적 서술을 시작해요"
+    },
+    {
+      "expression": "Tea only shifted from food to drink 1,500 years ago",
+      "type": "transition",
+      "segmentIndex": 12,
+      "role": "차의 용도 변화라는 중요한 전환점을 알리며 새로운 시대로 넘어가요"
+    },
+    {
+      "expression": "In the 9th century, during the Tang Dynasty",
+      "type": "transition",
+      "segmentIndex": 22,
+      "role": "구체적인 시대와 왕조를 제시하며 일본으로의 차 전파 이야기를 시작해요"
+    },
+    {
+      "expression": "That spread began in earnest around the early 1600s",
+      "type": "transition",
+      "segmentIndex": 30,
+      "role": "차의 세계적 확산이 본격화된 시점을 알리며 유럽 진출 이야기로 전환해요"
+    },
+    {
+      "expression": "At first, Britain paid for all this Chinese tea with silver",
+      "type": "transition",
+      "segmentIndex": 42,
+      "role": "무역 방식의 변화를 소개하며 아편 전쟁으로 이어지는 서술을 시작해요"
+    },
+    {
+      "expression": "This act triggered the first opium war",
+      "type": "emphasis",
+      "segmentIndex": 47,
+      "role": "인과관계를 명확히 하며 전쟁이라는 중대한 사건의 시작을 강조해요"
+    },
+    {
+      "expression": "The British East India Company also wanted",
+      "type": "transition",
+      "segmentIndex": 52,
+      "role": "'also'를 통해 추가적인 영국의 행동을 소개하며 로버트 포춘의 이야기로 전환해요"
+    },
+    {
+      "expression": "Today, tea is the second most consumed beverage",
+      "type": "transition",
+      "segmentIndex": 57,
+      "role": "과거 서술에서 현재로 돌아오며 결론부로 전환해요"
+    }
+  ]
+}

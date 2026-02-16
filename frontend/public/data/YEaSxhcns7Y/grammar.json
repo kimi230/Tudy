@@ -1,0 +1,86 @@
+[
+  {
+    "pattern": "Present Perfect (has + past participle)",
+    "explanation": "Used to describe an action that started in the past and continues to the present, or an action with present relevance. Here 'has evolved' shows an ongoing historical process.",
+    "explanationKo": "과거에 시작되어 현재까지 계속되는 동작이나 현재와 관련이 있는 과거 동작을 나타냅니다. 여기서 'has evolved'는 지속적인 역사적 과정을 보여줍니다.",
+    "examples": ["English has evolved through generations of speakers.", "The language has changed over many centuries."],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Passive Voice (was/were + past participle)",
+    "explanation": "Used when the focus is on the action or result rather than who performed it. Common in academic and historical writing to describe events objectively.",
+    "explanationKo": "행위자보다 동작이나 결과에 초점을 맞출 때 사용합니다. 학술적, 역사적 서술에서 사건을 객관적으로 묘사할 때 흔히 쓰입니다.",
+    "examples": ["This historical language was never written down.", "First brought to the British Isles in the 5th and 6th centuries."],
+    "segmentIndex": 37
+  },
+  {
+    "pattern": "By + gerund (means/method)",
+    "explanation": "The structure 'by + verb-ing' is used to describe the method or means by which something is achieved.",
+    "explanationKo": "'by + 동명사' 구조는 어떤 것을 달성하는 방법이나 수단을 설명할 때 사용합니다.",
+    "examples": ["By undoing these changes, we can trace the language.", "By focusing on grammatical structure.", "By comparing its descendants."],
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "While + contrast clause",
+    "explanation": "Used to introduce a contrasting idea. 'While' connects two clauses that present different or opposing information.",
+    "explanationKo": "'While'은 대조적인 내용을 소개할 때 사용합니다. 서로 다르거나 반대되는 정보를 제시하는 두 절을 연결합니다.",
+    "examples": ["While modern English shares many similar words with Latin-derived Romance languages, most of those words were not originally part of it.", "While their Old English counterparts kept the P unchanged."],
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "Modal verb 'may/might' for possibility",
+    "explanation": "'May' and 'might' express possibility or uncertainty. 'May' suggests a slightly higher probability than 'might'.",
+    "explanationKo": "'may'와 'might'는 가능성이나 불확실성을 표현합니다. 'may'가 'might'보다 약간 더 높은 확률을 나타냅니다.",
+    "examples": ["It may be hard to see the roots of modern English.", "It might be more recognizable if you know some German.", "Whether there might be a link between Indo-European and other major language families."],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "Conditional with 'if' clause",
+    "explanation": "An 'if' clause introduces a condition. Here it presents a hypothetical situation that would change the outcome.",
+    "explanationKo": "'if' 절은 조건을 도입합니다. 여기서는 결과를 바꿀 수 있는 가정적 상황을 제시합니다.",
+    "examples": ["It might be more recognizable if you know some German."],
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "Relative clause with 'that/which/who'",
+    "explanation": "Relative clauses add extra information about a noun. 'That' defines or restricts, 'which' adds non-essential information, and 'who' refers to people.",
+    "explanationKo": "관계절은 명사에 대한 추가 정보를 더합니다. 'that'은 제한적으로 정의하고, 'which'는 비필수적 정보를 추가하며, 'who'는 사람을 가리킵니다.",
+    "examples": ["Words that have SK sounds in Swedish developed an SH sound in English.", "Which is possible thanks to the consistency of the changes.", "Many of whom cannot understand each other."],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "Would + base verb (past future/habitual past)",
+    "explanation": "Used to talk about future events from a past perspective, or to describe habitual actions in the past.",
+    "explanationKo": "과거 시점에서 미래의 사건을 이야기하거나, 과거의 습관적인 행동을 묘사할 때 사용합니다.",
+    "examples": ["The Germanic dialects they spoke would become known as Anglo-Saxon."],
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "Just as... so too (comparison)",
+    "explanation": "Used to draw a parallel between two similar situations. 'Just as' introduces the first situation, and the second follows with an implied or explicit 'so too'.",
+    "explanationKo": "두 가지 유사한 상황 사이에 유사점을 도출할 때 사용합니다. 'just as'가 첫 번째 상황을 소개하고, 두 번째 상황이 암시적 또는 명시적 'so too'와 함께 따릅니다.",
+    "examples": ["Just as the various Romance languages descended from Latin, English, Swedish, German descended from their own common ancestor."],
+    "segmentIndex": 34
+  },
+  {
+    "pattern": "Known as + noun (naming/identification)",
+    "explanation": "Used to introduce an alternative name or designation for something previously mentioned.",
+    "explanationKo": "이전에 언급된 것의 대안적 이름이나 명칭을 소개할 때 사용합니다.",
+    "examples": ["Known as Proto-Germanic, spoken around 500 BCE.", "Would become known as Anglo-Saxon."],
+    "segmentIndex": 36
+  },
+  {
+    "pattern": "Such as + examples",
+    "explanation": "'Such as' introduces specific examples to illustrate a general statement.",
+    "explanationKo": "'such as'는 일반적인 진술을 설명하기 위해 구체적인 예를 도입합니다.",
+    "examples": ["Such as whether there might be a link between Indo-European and other major language families."],
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "As well as (addition)",
+    "explanation": "'As well as' is used to add additional information, meaning 'in addition to' or 'and also'.",
+    "explanationKo": "'as well as'는 '~뿐만 아니라' 또는 '~도 또한'이라는 의미로 추가 정보를 더할 때 사용합니다.",
+    "examples": ["As well as large parts of southern and western Asia."],
+    "segmentIndex": 45
+  }
+]

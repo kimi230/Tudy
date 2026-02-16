@@ -1,0 +1,152 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "I'm going to",
+    "phonetic": "/aɪm ˈɡʌnə/",
+    "koreanPhonetic": "아임 거나",
+    "explanation": "'Going to' is reduced to 'gonna' in fast speech. This is one of the most common reductions in spoken English.",
+    "explanationKo": "'going to'는 빠른 말에서 'gonna'로 축약됩니다. 이것은 영어 구어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "'고잉 투' 대신 '거나'로 빠르게 발음하세요. 'I'm gonna'를 한 덩어리로 연습하세요.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "linking",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪn.dəv/",
+    "koreanPhonetic": "카인더브",
+    "explanation": "'Kind of' links together where the 'd' connects to 'of', and 'of' is reduced to /əv/. Often further reduced to 'kinda'.",
+    "explanationKo": "'kind of'에서 'd'가 'of'와 연결되고, 'of'는 /əv/로 약화됩니다. 종종 'kinda'로 더 축약됩니다.",
+    "practiceGuide": "'카인드 오브' 대신 '카인더브' 또는 '카인다'로 연습하세요.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/ə ˈlɒ.ɾəv/",
+    "koreanPhonetic": "어 라러브",
+    "explanation": "The 't' in 'lot' becomes a flap /ɾ/ before the vowel in 'of', and 'of' is reduced to /əv/.",
+    "explanationKo": "'lot'의 't'가 'of'의 모음 앞에서 플랩 /ɾ/으로 변하고, 'of'는 /əv/로 약화됩니다.",
+    "practiceGuide": "'어 랏 오브' 대신 '어 라러브'로 자연스럽게 연결하세요.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "reduction",
+    "originalText": "you've",
+    "phonetic": "/juːv/",
+    "koreanPhonetic": "유브",
+    "explanation": "'You have' contracts to 'you've', reducing 'have' to just the /v/ sound attached to 'you'.",
+    "explanationKo": "'you have'가 'you've'로 축약되어, 'have'가 'you'에 붙는 /v/ 소리로만 남습니다.",
+    "practiceGuide": "'유 해브' 대신 '유브'로 한 음절로 발음하세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "linking",
+    "originalText": "what I am",
+    "phonetic": "/wɒ.ɾaɪ.æm/",
+    "koreanPhonetic": "와라이앰",
+    "explanation": "The 't' in 'what' becomes a flap /ɾ/ before the vowel in 'I', and all three words flow together smoothly.",
+    "explanationKo": "'what'의 't'가 'I'의 모음 앞에서 플랩 /ɾ/으로 변하고, 세 단어가 매끄럽게 이어집니다.",
+    "practiceGuide": "'왓 아이 앰' 대신 '와라이앰'으로 끊김 없이 연결하세요.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "elision",
+    "originalText": "that's nothing",
+    "phonetic": "/ðæts ˈnʌθ.ɪŋ/",
+    "koreanPhonetic": "댓츠 나띵",
+    "explanation": "The 'ts' cluster at the end of 'that's' runs directly into 'nothing'. The vowel in 'nothing' is reduced.",
+    "explanationKo": "'that's' 끝의 'ts' 자음군이 'nothing'으로 바로 이어집니다. 'nothing'의 모음이 약화됩니다.",
+    "practiceGuide": "'댓츠'와 '나띵'을 빠르게 연결하여 발음하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "assimilation",
+    "originalText": "hand gestures",
+    "phonetic": "/hæŋ ˈdʒes.tʃərz/",
+    "koreanPhonetic": "행 제스처즈",
+    "explanation": "The 'nd' at the end of 'hand' assimilates where the 'n' becomes /ŋ/ before the velar-like beginning of 'gestures', and the 'd' is partially dropped.",
+    "explanationKo": "'hand' 끝의 'nd'에서 'n'이 'gestures'의 시작 앞에서 /ŋ/으로 동화되고, 'd'는 부분적으로 탈락합니다.",
+    "practiceGuide": "'핸드 제스처즈' 대신 '행 제스처즈'로 'd'를 거의 생략하고 발음하세요.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒn.ə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in casual speech, dropping the 't' sound entirely.",
+    "explanationKo": "'want to'는 일상 대화에서 't' 소리를 완전히 생략하고 'wanna'로 축약됩니다.",
+    "practiceGuide": "'원트 투' 대신 '워나'로 발음하세요. 't' 소리를 생략하는 것이 핵심입니다.",
+    "segmentIndex": 44
+  },
+  {
+    "type": "linking",
+    "originalText": "take away",
+    "phonetic": "/ˈteɪ.kə.weɪ/",
+    "koreanPhonetic": "테이커웨이",
+    "explanation": "The 'k' at the end of 'take' links directly to the vowel at the start of 'away', creating a smooth connection.",
+    "explanationKo": "'take' 끝의 'k'가 'away' 시작의 모음과 직접 연결되어 매끄러운 연결이 만들어집니다.",
+    "practiceGuide": "'테이크 어웨이' 대신 '테이커웨이'로 끊김 없이 연결하세요.",
+    "segmentIndex": 64
+  },
+  {
+    "type": "reduction",
+    "originalText": "I've got",
+    "phonetic": "/aɪv ˈɡɒt/",
+    "koreanPhonetic": "아이브 갓",
+    "explanation": "'I have got' reduces to 'I've got' where 'have' becomes just /v/ sound. This is an informal way to say 'I have'.",
+    "explanationKo": "'I have got'이 'I've got'으로 축약되어 'have'가 /v/ 소리만 남습니다. 'I have'의 비격식 표현입니다.",
+    "practiceGuide": "'아이 해브 갓' 대신 '아이브 갓'으로 발음하세요.",
+    "segmentIndex": 46
+  },
+  {
+    "type": "linking",
+    "originalText": "reel you",
+    "phonetic": "/ˈriːl.juː/",
+    "koreanPhonetic": "릴유",
+    "explanation": "The 'l' at the end of 'reel' links directly to the 'y' sound of 'you', creating a fluid transition.",
+    "explanationKo": "'reel' 끝의 'l'이 'you'의 'y' 소리와 직접 연결되어 유창한 전환을 만듭니다.",
+    "practiceGuide": "'릴'과 '유'를 끊지 말고 '릴유'로 이어서 발음하세요.",
+    "segmentIndex": 21
+  },
+  {
+    "type": "reduction",
+    "originalText": "let's take a look at",
+    "phonetic": "/lɛts ˈteɪ.kə ˈlʊ.kət/",
+    "koreanPhonetic": "렛츠 테이커 루컫",
+    "explanation": "This common phrase runs together: 'take a' links as /teɪkə/ and 'look at' reduces with the final 't' weakening.",
+    "explanationKo": "이 흔한 구문이 이어져 발음됩니다: 'take a'가 /teɪkə/로 연결되고 'look at'은 마지막 't'가 약화됩니다.",
+    "practiceGuide": "'렛츠 테이크 어 룩 앳' 대신 '렛츠 테이커 루컫'으로 한 호흡에 발음하세요.",
+    "segmentIndex": 27
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in reality",
+    "phonetic": "/ɪn ri.ˈæl.ə.ti/",
+    "koreanPhonetic": "인 리앨러티",
+    "explanation": "The 'n' at the end of 'in' connects smoothly to the 'r' of 'reality'. The phrase flows as one unit.",
+    "explanationKo": "'in' 끝의 'n'이 'reality'의 'r'과 부드럽게 연결됩니다. 구문이 하나의 단위로 흐릅니다.",
+    "practiceGuide": "'인'과 '리앨러티'를 끊지 말고 하나의 덩어리로 발음하세요.",
+    "segmentIndex": 26
+  },
+  {
+    "type": "reduction",
+    "originalText": "by the way",
+    "phonetic": "/baɪ.ðə.ˈweɪ/",
+    "koreanPhonetic": "바이더웨이",
+    "explanation": "'By the way' is spoken as a single unit where 'the' is reduced to /ðə/ and all words blend together.",
+    "explanationKo": "'by the way'는 하나의 단위로 발음되며 'the'가 /ðə/로 약화되고 모든 단어가 섞입니다.",
+    "practiceGuide": "세 단어를 따로 발음하지 말고 '바이더웨이'로 한 덩어리로 발음하세요.",
+    "segmentIndex": 58
+  },
+  {
+    "type": "linking",
+    "originalText": "think about",
+    "phonetic": "/ˈθɪŋ.kə.baʊt/",
+    "koreanPhonetic": "띵커바웃",
+    "explanation": "The 'k' sound at the end of 'think' links to the vowel 'a' in 'about', and 'about' reduces its first syllable.",
+    "explanationKo": "'think' 끝의 'k' 소리가 'about'의 모음 'a'와 연결되고, 'about'의 첫 음절이 약화됩니다.",
+    "practiceGuide": "'띵크 어바웃' 대신 '띵커바웃'으로 매끄럽게 연결하세요.",
+    "segmentIndex": 64
+  }
+]

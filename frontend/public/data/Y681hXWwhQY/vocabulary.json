@@ -1,0 +1,422 @@
+[
+  {
+    "word": "exhausted",
+    "definition": "extremely tired; completely drained of energy",
+    "meaningKo": "기진맥진한, 완전히 지친",
+    "etymology": "Latin 'exhaurire' meaning 'to drain out'",
+    "rootBreakdown": {
+      "prefix": "ex-",
+      "root": "haust (draw, drain)",
+      "suffix": "-ed"
+    },
+    "relatedWords": [
+      "exhaust",
+      "exhaustion",
+      "exhausting"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/ɪɡˈzɔːstɪd/",
+    "contextSentence": "I'm exhausted, Beth. What have you been doing today?",
+    "segmentIndex": 2
+  },
+  {
+    "word": "kicking back",
+    "definition": "to stop doing things and relax completely",
+    "meaningKo": "느긋하게 쉬다, 편하게 놀다",
+    "etymology": "American English slang from the imagery of leaning back in a chair with feet up",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "kick (push with foot)",
+      "suffix": "back (behind)"
+    },
+    "relatedWords": [
+      "relax",
+      "unwind",
+      "chill out"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "phrasal verb",
+    "phonetic": "/ˈkɪkɪŋ bæk/",
+    "contextSentence": "Just sitting around, doing nothing, relaxing and kicking back.",
+    "segmentIndex": 3
+  },
+  {
+    "word": "documentary",
+    "definition": "a film or TV programme giving facts about a real subject",
+    "meaningKo": "다큐멘터리, 기록 영화",
+    "etymology": "Latin 'documentum' meaning 'lesson, proof'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "document (evidence, record)",
+      "suffix": "-ary"
+    },
+    "relatedWords": [
+      "document",
+      "documentation",
+      "documented"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˌdɒkjuˈmɛntəri/",
+    "contextSentence": "If you've seen nature documentaries about worker bees flying from flower to flower.",
+    "segmentIndex": 5
+  },
+  {
+    "word": "evolved",
+    "definition": "developed gradually over a long period of time through natural processes",
+    "meaningKo": "진화한, 점진적으로 발달한",
+    "etymology": "Latin 'evolvere' meaning 'to unroll, to unfold'",
+    "rootBreakdown": {
+      "prefix": "e- (out)",
+      "root": "volv (roll, turn)",
+      "suffix": "-ed"
+    },
+    "relatedWords": [
+      "evolution",
+      "evolve",
+      "revolve"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "verb",
+    "phonetic": "/ɪˈvɒlvd/",
+    "contextSentence": "Why have some animals evolved to do nothing?",
+    "segmentIndex": 7
+  },
+  {
+    "word": "shelter",
+    "definition": "a place giving protection from weather or danger",
+    "meaningKo": "은신처, 피난처, 보호소",
+    "etymology": "Old English 'scieldtruma' meaning 'shield troop, protective formation'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "shelt (shield, protect)",
+      "suffix": "-er"
+    },
+    "relatedWords": [
+      "sheltered",
+      "sheltering",
+      "shield"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈʃɛltər/",
+    "contextSentence": "In the natural world, where finding food and shelter is hard work.",
+    "segmentIndex": 7
+  },
+  {
+    "word": "reputation",
+    "definition": "the beliefs or opinions generally held about someone or something",
+    "meaningKo": "평판, 명성",
+    "etymology": "Latin 'reputatio' from 'reputare' meaning 'to think over'",
+    "rootBreakdown": {
+      "prefix": "re-",
+      "root": "put (think, reckon)",
+      "suffix": "-ation"
+    },
+    "relatedWords": [
+      "repute",
+      "reputable",
+      "disreputable"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˌrɛpjuˈteɪʃən/",
+    "contextSentence": "Some animals have a reputation for lounging about.",
+    "segmentIndex": 8
+  },
+  {
+    "word": "lounging",
+    "definition": "relaxing or resting in a lazy, comfortable way",
+    "meaningKo": "빈둥거리다, 느긋하게 쉬다",
+    "etymology": "Possibly from French 'longis' meaning 'a slow, lazy person'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "lounge (recline lazily)",
+      "suffix": "-ing"
+    },
+    "relatedWords": [
+      "lounge",
+      "lounger",
+      "laze"
+    ],
+    "isEssential": false,
+    "partOfSpeech": "verb",
+    "phonetic": "/ˈlaʊndʒɪŋ/",
+    "contextSentence": "Some animals have a reputation for lounging about.",
+    "segmentIndex": 8
+  },
+  {
+    "word": "sloth",
+    "definition": "a slow-moving tropical mammal; also means laziness or reluctance to work",
+    "meaningKo": "나무늘보; 나태함, 게으름",
+    "etymology": "Old English 'slæwth' from 'slow' meaning 'slow, inactive'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "slow (not fast)",
+      "suffix": "-th"
+    },
+    "relatedWords": [
+      "slothful",
+      "slow",
+      "lazy"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/slɒθ/",
+    "contextSentence": "Well, I think it's the three-toed sloth.",
+    "segmentIndex": 9
+  },
+  {
+    "word": "motionless",
+    "definition": "not moving; completely still",
+    "meaningKo": "움직이지 않는, 정지한",
+    "etymology": "Latin 'motio' (movement) + English '-less' (without)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "motion (movement)",
+      "suffix": "-less (without)"
+    },
+    "relatedWords": [
+      "motion",
+      "motionlessness",
+      "still"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/ˈməʊʃənləs/",
+    "contextSentence": "Half of them just sitting there motionless.",
+    "segmentIndex": 11
+  },
+  {
+    "word": "colony",
+    "definition": "a group of certain animals living together, such as ants or seabirds",
+    "meaningKo": "군체, (동물의) 집단, 군락",
+    "etymology": "Latin 'colonia' from 'colonus' meaning 'farmer, settler'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "colon (settle, cultivate)",
+      "suffix": "-y"
+    },
+    "relatedWords": [
+      "colonial",
+      "colonize",
+      "colonist"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈkɒləni/",
+    "contextSentence": "Dan's research has focused on ant colonies.",
+    "segmentIndex": 12
+  },
+  {
+    "word": "industrious",
+    "definition": "diligent and hard-working",
+    "meaningKo": "부지런한, 근면한",
+    "etymology": "Latin 'industria' meaning 'diligence, activity'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "industr (diligence)",
+      "suffix": "-ious"
+    },
+    "relatedWords": [
+      "industry",
+      "industrial",
+      "industrialize"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/ɪnˈdʌstriəs/",
+    "contextSentence": "I think ants are sort of a symbol of, like, industriousness.",
+    "segmentIndex": 13
+  },
+  {
+    "word": "idealised",
+    "definition": "regarded or represented as perfect or better than reality",
+    "meaningKo": "이상화된, 실제보다 좋게 표현된",
+    "etymology": "Greek 'idea' meaning 'form, notion' + suffix '-ize' + '-ed'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "ideal (perfect standard)",
+      "suffix": "-ised"
+    },
+    "relatedWords": [
+      "ideal",
+      "idealism",
+      "idealize"
+    ],
+    "isEssential": false,
+    "partOfSpeech": "adjective",
+    "phonetic": "/aɪˈdɪəlaɪzd/",
+    "contextSentence": "There's some idealised version of what humans might be.",
+    "segmentIndex": 14
+  },
+  {
+    "word": "inactive",
+    "definition": "not doing anything; not active or working",
+    "meaningKo": "비활동적인, 활동하지 않는",
+    "etymology": "Latin 'in-' (not) + 'activus' (active)",
+    "rootBreakdown": {
+      "prefix": "in- (not)",
+      "root": "act (do, perform)",
+      "suffix": "-ive"
+    },
+    "relatedWords": [
+      "active",
+      "inactivity",
+      "activate"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/ɪnˈæktɪv/",
+    "contextSentence": "Roughly about half the colony is inactive at any given time.",
+    "segmentIndex": 15
+  },
+  {
+    "word": "reserve",
+    "definition": "kept back for future use; a supply stored for emergencies",
+    "meaningKo": "예비의, 비축분, 대비용",
+    "etymology": "Latin 'reservare' meaning 'to keep back, save'",
+    "rootBreakdown": {
+      "prefix": "re- (back)",
+      "root": "serv (keep, save)",
+      "suffix": "-e"
+    },
+    "relatedWords": [
+      "reservation",
+      "reserved",
+      "preserve"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun/adjective",
+    "phonetic": "/rɪˈzɜːv/",
+    "contextSentence": "One possible answer is that they're reserve ants, ready to step in if disease or disaster strike.",
+    "segmentIndex": 17
+  },
+  {
+    "word": "productive",
+    "definition": "able to produce a lot for the amount of resources used",
+    "meaningKo": "생산적인, 효율적인",
+    "etymology": "Latin 'productivus' from 'producere' meaning 'to bring forth'",
+    "rootBreakdown": {
+      "prefix": "pro- (forward)",
+      "root": "duct (lead, bring)",
+      "suffix": "-ive"
+    },
+    "relatedWords": [
+      "produce",
+      "production",
+      "productivity"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/prəˈdʌktɪv/",
+    "contextSentence": "She thinks being productive is overrated.",
+    "segmentIndex": 20
+  },
+  {
+    "word": "overrated",
+    "definition": "rated or valued more highly than deserved",
+    "meaningKo": "과대평가된",
+    "etymology": "English 'over-' (excessively) + 'rate' (evaluate) + '-ed'",
+    "rootBreakdown": {
+      "prefix": "over- (too much)",
+      "root": "rate (evaluate)",
+      "suffix": "-ed"
+    },
+    "relatedWords": [
+      "underrated",
+      "rate",
+      "rating"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "adjective",
+    "phonetic": "/ˌəʊvəˈreɪtɪd/",
+    "contextSentence": "She thinks being productive is overrated.",
+    "segmentIndex": 20
+  },
+  {
+    "word": "stimulation",
+    "definition": "the action of encouraging interest or activity in something",
+    "meaningKo": "자극, 흥분, 활성화",
+    "etymology": "Latin 'stimulare' meaning 'to goad, urge'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "stimul (goad, prick)",
+      "suffix": "-ation"
+    },
+    "relatedWords": [
+      "stimulate",
+      "stimulus",
+      "stimulating"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˌstɪmjuˈleɪʃən/",
+    "contextSentence": "But in this world of constant stimulation, switching off is harder than it's ever been.",
+    "segmentIndex": 24
+  },
+  {
+    "word": "paradox",
+    "definition": "a statement or situation that seems contradictory but may be true",
+    "meaningKo": "역설, 모순",
+    "etymology": "Greek 'paradoxon' from 'para-' (contrary to) + 'doxa' (opinion)",
+    "rootBreakdown": {
+      "prefix": "para- (contrary to)",
+      "root": "dox (opinion, belief)",
+      "suffix": null
+    },
+    "relatedWords": [
+      "paradoxical",
+      "orthodox",
+      "unorthodox"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈpærədɒks/",
+    "contextSentence": "So it's a kind of paradox to get rid of this unpleasant state of boredom is actually to allow more boredom into your life.",
+    "segmentIndex": 26
+  },
+  {
+    "word": "curiosity",
+    "definition": "a strong desire to know or learn something",
+    "meaningKo": "호기심",
+    "etymology": "Latin 'curiositas' from 'curiosus' meaning 'careful, inquisitive'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "cur (care)",
+      "suffix": "-iosity"
+    },
+    "relatedWords": [
+      "curious",
+      "curiously",
+      "cure"
+    ],
+    "isEssential": true,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˌkjʊəriˈɒsɪti/",
+    "contextSentence": "Doctor Mann doubts humans would have invented things without the curiosity that comes from being bored.",
+    "segmentIndex": 27
+  },
+  {
+    "word": "algae",
+    "definition": "simple plants that grow in or near water, with no true stems, roots, or leaves",
+    "meaningKo": "조류(藻類), 말(물속 식물)",
+    "etymology": "Latin 'alga' meaning 'seaweed'",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "alga (seaweed)",
+      "suffix": "-e (plural)"
+    },
+    "relatedWords": [
+      "algal",
+      "algae bloom",
+      "seaweed"
+    ],
+    "isEssential": false,
+    "partOfSpeech": "noun",
+    "phonetic": "/ˈældʒiː/",
+    "contextSentence": "Three-toed sloths move so slowly that algae grows on their coats.",
+    "segmentIndex": 32
+  }
+]

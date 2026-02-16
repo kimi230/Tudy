@@ -1,0 +1,122 @@
+[
+  {
+    "pattern": "Relative Clause with 'that'",
+    "explanation": "A relative clause beginning with 'that' modifies a noun, providing essential information about it. These clauses act as adjective clauses and are integral to the sentence meaning.",
+    "explanationKo": "'that'으로 시작하는 관계절은 명사를 수식하며, 그것에 대한 필수적인 정보를 제공합니다. 이 절들은 형용사절 역할을 하며 문장 의미에 필수적입니다.",
+    "examples": [
+      "a vast interconnected global system that has helped usher in an era of unprecedented prosperity",
+      "something was happening in the late 1800s that would change the debate about American expansionism",
+      "a global financial system that would prevent another Great Depression"
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "Participial Phrases (Present and Past)",
+    "explanation": "Participial phrases use present (-ing) or past (-ed) participles to add information to a sentence, functioning as adjectives or adverbial modifiers. They create more concise, sophisticated sentences.",
+    "explanationKo": "분사구문은 현재분사(-ing)나 과거분사(-ed)를 사용하여 문장에 정보를 추가하며, 형용사나 부사적 수식어로 기능합니다. 더 간결하고 세련된 문장을 만듭니다.",
+    "examples": [
+      "making it easier for expansionist presidents to unilaterally push American influence abroad",
+      "acquiring Puerto Rico, Guam, and the Philippines in the process",
+      "seeing each of them as bulwarks against communist influence in their region"
+    ],
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "Passive Voice for Historical Events",
+    "explanation": "The passive voice is frequently used in historical narrative to emphasize the action or result rather than the actor. It shifts focus to what happened rather than who did it.",
+    "explanationKo": "수동태는 역사적 서술에서 행위자보다 행동이나 결과를 강조하기 위해 자주 사용됩니다. 누가 했는지보다 무엇이 일어났는지에 초점을 맞춥니다.",
+    "examples": [
+      "Power became concentrated in the federal government",
+      "the U.S. was pulled into unlikely alliances",
+      "his attempts were all blocked by Congress"
+    ],
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "Conditional with 'could have + past participle'",
+    "explanation": "This structure expresses an unrealized possibility in the past — something that was possible but did not happen. It conveys a hypothetical alternative to actual historical events.",
+    "explanationKo": "이 구조는 과거의 실현되지 않은 가능성을 표현합니다 — 가능했지만 일어나지 않은 것입니다. 실제 역사적 사건에 대한 가정적 대안을 전달합니다.",
+    "examples": [
+      "the U.S. could have withdrawn from the system, severing ties with its allies",
+      "great powers could resolve their differences through compromise and law rather than war"
+    ],
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "Appositive Phrases",
+    "explanation": "Appositive phrases rename or provide additional information about a noun, set off by commas. They are common in expository writing to define terms or add detail without creating a new sentence.",
+    "explanationKo": "동격 구문은 명사에 대해 다시 명명하거나 추가 정보를 제공하며, 쉼표로 구분됩니다. 새로운 문장을 만들지 않고 용어를 정의하거나 세부 정보를 추가하는 데 설명문에서 흔히 사용됩니다.",
+    "examples": [
+      "an international organization called the League of Nations, designed to promote peace",
+      "the resulting agreement, called the Bretton Woods Agreement",
+      "the world's second largest power, the Soviet Union"
+    ],
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "'Not only ... but (also)' Correlative Conjunction",
+    "explanation": "This paired conjunction emphasizes two related points, with the second point being more surprising or important. It often triggers subject-verb inversion in the first clause for emphasis.",
+    "explanationKo": "'Not only ... but (also)' 상관접속사는 두 가지 관련 사항을 강조하며, 두 번째 사항이 더 놀랍거나 중요합니다. 강조를 위해 첫 번째 절에서 주어-동사 도치를 유발하기도 합니다.",
+    "examples": [
+      "Not only was American intervention a decisive factor in the war's end, but President Wilson attended the Paris Peace Conference"
+    ],
+    "segmentIndex": 21
+  },
+  {
+    "pattern": "Rhetorical Question",
+    "explanation": "A question posed not to receive an answer but to make a point or engage the audience. In expository contexts, rhetorical questions introduce topics or create suspense before revealing information.",
+    "explanationKo": "수사적 질문은 답을 받기 위해서가 아니라 요점을 만들거나 청중을 참여시키기 위해 제기됩니다. 설명적 맥락에서 수사적 질문은 주제를 소개하거나 정보를 공개하기 전에 긴장감을 조성합니다.",
+    "examples": [
+      "Their goal? To establish a global financial system that would prevent another Great Depression and World War.",
+      "So will President Trump act on some of candidate Trump's ideas, and reverse decades' worth of institution building and alliances?"
+    ],
+    "segmentIndex": 39
+  },
+  {
+    "pattern": "'As such' Connector for Cause-Effect",
+    "explanation": "'As such' is a formal connector meaning 'because of that' or 'in that capacity.' It links a preceding description to a logical consequence.",
+    "explanationKo": "'As such'는 '그런 이유로' 또는 '그런 자격으로'를 의미하는 격식체 연결어입니다. 앞선 설명을 논리적 결과와 연결합니다.",
+    "examples": [
+      "As such, it was in a unique position to set the terms of the peace"
+    ],
+    "segmentIndex": 32
+  },
+  {
+    "pattern": "Compound-Complex Sentences with Multiple Clauses",
+    "explanation": "These sentences combine independent and dependent clauses to express complex historical relationships. They are common in academic and documentary contexts for presenting layered information.",
+    "explanationKo": "이 문장들은 독립절과 종속절을 결합하여 복잡한 역사적 관계를 표현합니다. 계층적 정보를 제시하기 위해 학술적이고 다큐멘터리적 맥락에서 흔히 사용됩니다.",
+    "examples": [
+      "The United States was the only major power to avoid economic ruin during the war, and it was the sole country equipped with atomic weapons.",
+      "World War II had made allies out of the Democratic West and Communist East in the fight against Hitler, but that couldn't last."
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "'So-called' for Naming Concepts",
+    "explanation": "'So-called' introduces the name or label of something, indicating that it is known by that name. It can be neutral (explaining a term) or slightly skeptical (questioning its accuracy).",
+    "explanationKo": "'So-called'는 무언가의 이름이나 명칭을 소개하며, 그 이름으로 알려져 있음을 나타냅니다. 중립적(용어 설명)이거나 약간 회의적(정확성에 의문)일 수 있습니다.",
+    "examples": [
+      "a strategy called containment, so-called because it was aimed at containing the spread of communism everywhere on the globe"
+    ],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "Comparative Structure: 'rather than'",
+    "explanation": "'Rather than' introduces an alternative that is rejected or contrasted with the preferred option. It creates a clear comparison between two possibilities.",
+    "explanationKo": "'rather than'은 거부되거나 선호되는 옵션과 대조되는 대안을 소개합니다. 두 가능성 사이에 명확한 비교를 만듭니다.",
+    "examples": [
+      "great powers could resolve their differences through compromise and law rather than war",
+      "the U.S. was much more focused on its own region than on European affairs"
+    ],
+    "segmentIndex": 36
+  },
+  {
+    "pattern": "'Despite' + Noun Phrase for Concession",
+    "explanation": "'Despite' introduces information that contrasts with or is unexpected given the main clause. It signals concession — acknowledging something while presenting a contrary outcome.",
+    "explanationKo": "'despite'는 주절과 대조되거나 예상치 못한 정보를 소개합니다. 양보를 나타내며 — 무언가를 인정하면서 반대 결과를 제시합니다.",
+    "examples": [
+      "President McKinley dragged the country into war with Spain over Cuba, despite some intense domestic opposition"
+    ],
+    "segmentIndex": 13
+  }
+]

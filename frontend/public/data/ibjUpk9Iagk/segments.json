@@ -1,0 +1,3726 @@
+{
+  "videoId": "ibjUpk9Iagk",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.2,
+      "textEn": "The The The",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.92
+        },
+        {
+          "word": "The",
+          "start": 0.92,
+          "end": 1.04
+        },
+        {
+          "word": "The",
+          "start": 1.04,
+          "end": 2.2
+        }
+      ],
+      "textKo": "더 더 더"
+    },
+    {
+      "index": 1,
+      "start": 6.36,
+      "end": 10.3,
+      "textEn": "If you can't imagine life without chocolate,",
+      "words": [
+        {
+          "word": "If",
+          "start": 6.36,
+          "end": 7.02
+        },
+        {
+          "word": "you",
+          "start": 7.02,
+          "end": 7.68
+        },
+        {
+          "word": "can't",
+          "start": 7.68,
+          "end": 8.04
+        },
+        {
+          "word": "imagine",
+          "start": 8.04,
+          "end": 8.62
+        },
+        {
+          "word": "life",
+          "start": 8.62,
+          "end": 9.14
+        },
+        {
+          "word": "without",
+          "start": 9.14,
+          "end": 9.66
+        },
+        {
+          "word": "chocolate,",
+          "start": 9.66,
+          "end": 10.3
+        }
+      ],
+      "textKo": "초콜릿 없이 살아보기 어려운 삶을 상상해보지 못한다면"
+    },
+    {
+      "index": 2,
+      "start": 10.58,
+      "end": 13.4,
+      "textEn": "You're lucky you weren't born before the 16th century.",
+      "words": [
+        {
+          "word": "you're",
+          "start": 10.58,
+          "end": 10.98
+        },
+        {
+          "word": "lucky",
+          "start": 10.98,
+          "end": 11.28
+        },
+        {
+          "word": "you",
+          "start": 11.28,
+          "end": 11.48
+        },
+        {
+          "word": "weren't",
+          "start": 11.48,
+          "end": 11.72
+        },
+        {
+          "word": "born",
+          "start": 11.72,
+          "end": 12.02
+        },
+        {
+          "word": "before",
+          "start": 12.02,
+          "end": 12.3
+        },
+        {
+          "word": "the",
+          "start": 12.3,
+          "end": 12.5
+        },
+        {
+          "word": "16th",
+          "start": 12.5,
+          "end": 13.04
+        },
+        {
+          "word": "century.",
+          "start": 13.04,
+          "end": 13.4
+        }
+      ],
+      "textKo": "16세기 이전에 태어나지 않았다는 것에 다행입니다"
+    },
+    {
+      "index": 3,
+      "start": 15.32,
+      "end": 18.92,
+      "textEn": "Until then, chocolate only existed in Mesoamerica,",
+      "words": [
+        {
+          "word": "Until",
+          "start": 15.32,
+          "end": 15.98
+        },
+        {
+          "word": "then,",
+          "start": 15.98,
+          "end": 16.34
+        },
+        {
+          "word": "chocolate",
+          "start": 16.56,
+          "end": 17.02
+        },
+        {
+          "word": "only",
+          "start": 17.02,
+          "end": 17.34
+        },
+        {
+          "word": "existed",
+          "start": 17.34,
+          "end": 17.82
+        },
+        {
+          "word": "in",
+          "start": 17.82,
+          "end": 18.08
+        },
+        {
+          "word": "Mesoamerica,",
+          "start": 18.08,
+          "end": 18.92
+        }
+      ],
+      "textKo": "그때까지 초콜릿은 멕시코아메리카에만 존재했습니다"
+    },
+    {
+      "index": 4,
+      "start": 19.02,
+      "end": 21.34,
+      "textEn": "In a form quite different from what we know.",
+      "words": [
+        {
+          "word": "in",
+          "start": 19.02,
+          "end": 19.38
+        },
+        {
+          "word": "a",
+          "start": 19.38,
+          "end": 19.48
+        },
+        {
+          "word": "form",
+          "start": 19.48,
+          "end": 19.8
+        },
+        {
+          "word": "quite",
+          "start": 19.8,
+          "end": 20.12
+        },
+        {
+          "word": "different",
+          "start": 20.12,
+          "end": 20.48
+        },
+        {
+          "word": "from",
+          "start": 20.48,
+          "end": 20.78
+        },
+        {
+          "word": "what",
+          "start": 20.78,
+          "end": 20.94
+        },
+        {
+          "word": "we",
+          "start": 20.94,
+          "end": 21.08
+        },
+        {
+          "word": "know.",
+          "start": 21.08,
+          "end": 21.34
+        }
+      ],
+      "textKo": "우리가 알고 있는 것과는 완전히 다른 형태로 존재했습니다"
+    },
+    {
+      "index": 5,
+      "start": 21.68,
+      "end": 24.18,
+      "textEn": "As far back as 1900 BCE,",
+      "words": [
+        {
+          "word": "As",
+          "start": 21.68,
+          "end": 22.24
+        },
+        {
+          "word": "far",
+          "start": 22.24,
+          "end": 22.48
+        },
+        {
+          "word": "back",
+          "start": 22.48,
+          "end": 22.7
+        },
+        {
+          "word": "as",
+          "start": 22.7,
+          "end": 22.9
+        },
+        {
+          "word": "1900",
+          "start": 22.9,
+          "end": 23.48
+        },
+        {
+          "word": "BCE,",
+          "start": 23.48,
+          "end": 24.18
+        }
+      ],
+      "textKo": "1900년 전부터 해당 지역의 사람들이 원산지인 캐카오 나무의 씨앗을 준비하는 방법을 배웠습니다"
+    },
+    {
+      "index": 6,
+      "start": 24.54,
+      "end": 29.38,
+      "textEn": "The people of that region had learned to prepare the beans of the native cacao tree.",
+      "words": [
+        {
+          "word": "the",
+          "start": 24.54,
+          "end": 24.82
+        },
+        {
+          "word": "people",
+          "start": 24.82,
+          "end": 25.06
+        },
+        {
+          "word": "of",
+          "start": 25.06,
+          "end": 25.22
+        },
+        {
+          "word": "that",
+          "start": 25.22,
+          "end": 25.42
+        },
+        {
+          "word": "region",
+          "start": 25.42,
+          "end": 25.78
+        },
+        {
+          "word": "had",
+          "start": 25.78,
+          "end": 26.2
+        },
+        {
+          "word": "learned",
+          "start": 26.2,
+          "end": 26.44
+        },
+        {
+          "word": "to",
+          "start": 26.44,
+          "end": 26.58
+        },
+        {
+          "word": "prepare",
+          "start": 26.58,
+          "end": 26.94
+        },
+        {
+          "word": "the",
+          "start": 26.94,
+          "end": 27.16
+        },
+        {
+          "word": "beans",
+          "start": 27.16,
+          "end": 27.6
+        },
+        {
+          "word": "of",
+          "start": 27.6,
+          "end": 28.04
+        },
+        {
+          "word": "the",
+          "start": 28.04,
+          "end": 28.18
+        },
+        {
+          "word": "native",
+          "start": 28.18,
+          "end": 28.52
+        },
+        {
+          "word": "cacao",
+          "start": 28.52,
+          "end": 29.02
+        },
+        {
+          "word": "tree.",
+          "start": 29.02,
+          "end": 29.38
+        }
+      ],
+      "textKo": "가장 오래된 기록들에 따르면 씨앗을 갈아 쌀 가루와 고추를 섞어"
+    },
+    {
+      "index": 7,
+      "start": 30.0,
+      "end": 35.82,
+      "textEn": "The earliest records tell us the beans were ground and mixed with cornmeal and chili peppers",
+      "words": [
+        {
+          "word": "The",
+          "start": 30.0,
+          "end": 30.58
+        },
+        {
+          "word": "earliest",
+          "start": 30.58,
+          "end": 30.94
+        },
+        {
+          "word": "records",
+          "start": 30.94,
+          "end": 31.36
+        },
+        {
+          "word": "tell",
+          "start": 31.36,
+          "end": 31.64
+        },
+        {
+          "word": "us",
+          "start": 31.64,
+          "end": 31.84
+        },
+        {
+          "word": "the",
+          "start": 31.84,
+          "end": 32.0
+        },
+        {
+          "word": "beans",
+          "start": 32.0,
+          "end": 32.34
+        },
+        {
+          "word": "were",
+          "start": 32.34,
+          "end": 32.54
+        },
+        {
+          "word": "ground",
+          "start": 32.54,
+          "end": 32.98
+        },
+        {
+          "word": "and",
+          "start": 32.98,
+          "end": 33.32
+        },
+        {
+          "word": "mixed",
+          "start": 33.32,
+          "end": 33.82
+        },
+        {
+          "word": "with",
+          "start": 33.82,
+          "end": 34.18
+        },
+        {
+          "word": "cornmeal",
+          "start": 34.18,
+          "end": 34.82
+        },
+        {
+          "word": "and",
+          "start": 34.82,
+          "end": 35.16
+        },
+        {
+          "word": "chili",
+          "start": 35.16,
+          "end": 35.46
+        },
+        {
+          "word": "peppers",
+          "start": 35.46,
+          "end": 35.82
+        }
+      ],
+      "textKo": "음료를 만들기 위해"
+    },
+    {
+      "index": 8,
+      "start": 35.82,
+      "end": 39.5,
+      "textEn": "To create a drink. Not a relaxing cup of hot cocoa,",
+      "words": [
+        {
+          "word": "to",
+          "start": 35.82,
+          "end": 36.28
+        },
+        {
+          "word": "create",
+          "start": 36.28,
+          "end": 36.62
+        },
+        {
+          "word": "a",
+          "start": 36.62,
+          "end": 36.84
+        },
+        {
+          "word": "drink.",
+          "start": 36.84,
+          "end": 37.2
+        },
+        {
+          "word": "Not",
+          "start": 37.54,
+          "end": 37.9
+        },
+        {
+          "word": "a",
+          "start": 37.9,
+          "end": 38.06
+        },
+        {
+          "word": "relaxing",
+          "start": 38.06,
+          "end": 38.48
+        },
+        {
+          "word": "cup",
+          "start": 38.48,
+          "end": 38.74
+        },
+        {
+          "word": "of",
+          "start": 38.74,
+          "end": 38.9
+        },
+        {
+          "word": "hot",
+          "start": 38.9,
+          "end": 39.14
+        },
+        {
+          "word": "cocoa,",
+          "start": 39.14,
+          "end": 39.5
+        }
+      ],
+      "textKo": "완화시키는 따뜻한 초콜릿 커피가 아니라"
+    },
+    {
+      "index": 9,
+      "start": 39.72,
+      "end": 43.4,
+      "textEn": "But a bitter, invigorating concoction frothing with foam.",
+      "words": [
+        {
+          "word": "but",
+          "start": 39.72,
+          "end": 40.04
+        },
+        {
+          "word": "a",
+          "start": 40.04,
+          "end": 40.16
+        },
+        {
+          "word": "bitter,",
+          "start": 40.16,
+          "end": 40.46
+        },
+        {
+          "word": "invigorating",
+          "start": 40.56,
+          "end": 41.3
+        },
+        {
+          "word": "concoction",
+          "start": 41.3,
+          "end": 41.98
+        },
+        {
+          "word": "frothing",
+          "start": 41.98,
+          "end": 42.82
+        },
+        {
+          "word": "with",
+          "start": 42.82,
+          "end": 43.04
+        },
+        {
+          "word": "foam.",
+          "start": 43.04,
+          "end": 43.4
+        }
+      ],
+      "textKo": "하지만 쓴맛과 에너지 주는, 폼이 풍부한 혼합물이었습니다."
+    },
+    {
+      "index": 10,
+      "start": 44.48,
+      "end": 47.44,
+      "textEn": "And if you thought we make a big deal about chocolate today,",
+      "words": [
+        {
+          "word": "And",
+          "start": 44.3,
+          "end": 44.64
+        },
+        {
+          "word": "if",
+          "start": 44.64,
+          "end": 44.78
+        },
+        {
+          "word": "you",
+          "start": 44.78,
+          "end": 44.9
+        },
+        {
+          "word": "thought",
+          "start": 44.9,
+          "end": 45.16
+        },
+        {
+          "word": "we",
+          "start": 45.16,
+          "end": 45.34
+        },
+        {
+          "word": "make",
+          "start": 45.34,
+          "end": 45.52
+        },
+        {
+          "word": "a",
+          "start": 45.52,
+          "end": 45.62
+        },
+        {
+          "word": "big",
+          "start": 45.62,
+          "end": 45.86
+        },
+        {
+          "word": "deal",
+          "start": 45.86,
+          "end": 46.14
+        },
+        {
+          "word": "about",
+          "start": 46.14,
+          "end": 46.5
+        },
+        {
+          "word": "chocolate",
+          "start": 46.5,
+          "end": 46.94
+        },
+        {
+          "word": "today,",
+          "start": 46.94,
+          "end": 47.44
+        }
+      ],
+      "textKo": "오늘 초콜릿에 대해 이렇게 큰일을 만든다고 생각했다면"
+    },
+    {
+      "index": 11,
+      "start": 47.76,
+      "end": 50.24,
+      "textEn": "The Mesoamericans had us beat.",
+      "words": [
+        {
+          "word": "the",
+          "start": 47.76,
+          "end": 48.12
+        },
+        {
+          "word": "Mesoamericans",
+          "start": 48.12,
+          "end": 49.06
+        },
+        {
+          "word": "had",
+          "start": 49.06,
+          "end": 49.52
+        },
+        {
+          "word": "us",
+          "start": 49.52,
+          "end": 49.82
+        },
+        {
+          "word": "beat.",
+          "start": 49.82,
+          "end": 50.24
+        }
+      ],
+      "textKo": "메소아메리카인들은 우리보다 앞서 있었다"
+    },
+    {
+      "index": 12,
+      "start": 50.68,
+      "end": 53.36,
+      "textEn": "They believed that cacao was a heavenly food",
+      "words": [
+        {
+          "word": "They",
+          "start": 50.68,
+          "end": 51.12
+        },
+        {
+          "word": "believed",
+          "start": 51.12,
+          "end": 51.48
+        },
+        {
+          "word": "that",
+          "start": 51.48,
+          "end": 51.66
+        },
+        {
+          "word": "cacao",
+          "start": 51.66,
+          "end": 52.04
+        },
+        {
+          "word": "was",
+          "start": 52.04,
+          "end": 52.36
+        },
+        {
+          "word": "a",
+          "start": 52.36,
+          "end": 52.48
+        },
+        {
+          "word": "heavenly",
+          "start": 52.48,
+          "end": 52.84
+        },
+        {
+          "word": "food",
+          "start": 52.84,
+          "end": 53.36
+        }
+      ],
+      "textKo": "그들은 카카오가 천상의 음식이라고 믿었다"
+    },
+    {
+      "index": 13,
+      "start": 53.36,
+      "end": 56.34,
+      "textEn": "Gifted to humans by a feathered serpent god,",
+      "words": [
+        {
+          "word": "gifted",
+          "start": 53.36,
+          "end": 53.96
+        },
+        {
+          "word": "to",
+          "start": 53.96,
+          "end": 54.18
+        },
+        {
+          "word": "humans",
+          "start": 54.18,
+          "end": 54.54
+        },
+        {
+          "word": "by",
+          "start": 54.54,
+          "end": 54.78
+        },
+        {
+          "word": "a",
+          "start": 54.78,
+          "end": 54.94
+        },
+        {
+          "word": "feathered",
+          "start": 54.94,
+          "end": 55.42
+        },
+        {
+          "word": "serpent",
+          "start": 55.42,
+          "end": 55.78
+        },
+        {
+          "word": "god,",
+          "start": 55.78,
+          "end": 56.34
+        }
+      ],
+      "textKo": "깃털이 달린 나귀신이 인간들에게 선물한 음식"
+    },
+    {
+      "index": 14,
+      "start": 56.52,
+      "end": 58.84,
+      "textEn": "Known to the Maya as Kukulkan,",
+      "words": [
+        {
+          "word": "known",
+          "start": 56.52,
+          "end": 57.0
+        },
+        {
+          "word": "to",
+          "start": 57.0,
+          "end": 57.18
+        },
+        {
+          "word": "the",
+          "start": 57.18,
+          "end": 57.32
+        },
+        {
+          "word": "Maya",
+          "start": 57.32,
+          "end": 57.66
+        },
+        {
+          "word": "as",
+          "start": 57.66,
+          "end": 58.18
+        },
+        {
+          "word": "Kukulkan,",
+          "start": 58.18,
+          "end": 58.84
+        }
+      ],
+      "textKo": "메이아인들은 쿠쿨칸이라고 불렀다"
+    },
+    {
+      "index": 15,
+      "start": 58.84,
+      "end": 61.6,
+      "textEn": "And to the Aztecs as Quetzalcoatl.",
+      "words": [
+        {
+          "word": "and",
+          "start": 58.84,
+          "end": 59.42
+        },
+        {
+          "word": "to",
+          "start": 59.42,
+          "end": 59.54
+        },
+        {
+          "word": "the",
+          "start": 59.54,
+          "end": 59.68
+        },
+        {
+          "word": "Aztecs",
+          "start": 59.68,
+          "end": 60.3
+        },
+        {
+          "word": "as",
+          "start": 60.3,
+          "end": 60.72
+        },
+        {
+          "word": "Quetzalcoatl.",
+          "start": 60.72,
+          "end": 61.6
+        }
+      ],
+      "textKo": "아제트크인들은 퀴자르코아틀이라고 불렀다"
+    },
+    {
+      "index": 16,
+      "start": 62.44,
+      "end": 64.82,
+      "textEn": "Aztecs used cacao beans as currency,",
+      "words": [
+        {
+          "word": "Aztecs",
+          "start": 62.44,
+          "end": 63.12
+        },
+        {
+          "word": "used",
+          "start": 63.12,
+          "end": 63.36
+        },
+        {
+          "word": "cacao",
+          "start": 63.36,
+          "end": 63.74
+        },
+        {
+          "word": "beans",
+          "start": 63.74,
+          "end": 64.04
+        },
+        {
+          "word": "as",
+          "start": 64.04,
+          "end": 64.34
+        },
+        {
+          "word": "currency,",
+          "start": 64.34,
+          "end": 64.82
+        }
+      ],
+      "textKo": "아제트크인들은 카카오 빈을 화폐로 사용했다"
+    },
+    {
+      "index": 17,
+      "start": 65.04,
+      "end": 67.22,
+      "textEn": "And drank chocolate at royal feasts,",
+      "words": [
+        {
+          "word": "and",
+          "start": 65.04,
+          "end": 65.32
+        },
+        {
+          "word": "drank",
+          "start": 65.32,
+          "end": 65.62
+        },
+        {
+          "word": "chocolate",
+          "start": 65.62,
+          "end": 66.0
+        },
+        {
+          "word": "at",
+          "start": 66.0,
+          "end": 66.28
+        },
+        {
+          "word": "royal",
+          "start": 66.28,
+          "end": 66.62
+        },
+        {
+          "word": "feasts,",
+          "start": 66.62,
+          "end": 67.22
+        }
+      ],
+      "textKo": "왕실의 연회에서 초콜릿을 마셨다"
+    },
+    {
+      "index": 18,
+      "start": 67.38,
+      "end": 70.44,
+      "textEn": "Gave it to soldiers as a reward for success in battle,",
+      "words": [
+        {
+          "word": "gave",
+          "start": 67.38,
+          "end": 67.72
+        },
+        {
+          "word": "it",
+          "start": 67.72,
+          "end": 67.82
+        },
+        {
+          "word": "to",
+          "start": 67.82,
+          "end": 67.92
+        },
+        {
+          "word": "soldiers",
+          "start": 67.92,
+          "end": 68.36
+        },
+        {
+          "word": "as",
+          "start": 68.36,
+          "end": 68.72
+        },
+        {
+          "word": "a",
+          "start": 68.72,
+          "end": 68.82
+        },
+        {
+          "word": "reward",
+          "start": 68.82,
+          "end": 69.2
+        },
+        {
+          "word": "for",
+          "start": 69.2,
+          "end": 69.42
+        },
+        {
+          "word": "success",
+          "start": 69.42,
+          "end": 69.84
+        },
+        {
+          "word": "in",
+          "start": 69.84,
+          "end": 70.1
+        },
+        {
+          "word": "battle,",
+          "start": 70.1,
+          "end": 70.44
+        }
+      ],
+      "textKo": "전쟁에서 승리를 거둔 병사들에게 초콜릿을 선물했다"
+    },
+    {
+      "index": 19,
+      "start": 70.6,
+      "end": 77.46,
+      "textEn": "And used it in rituals. The first transatlantic chocolate encounter occurred in 1519,",
+      "words": [
+        {
+          "word": "and",
+          "start": 70.6,
+          "end": 71.12
+        },
+        {
+          "word": "used",
+          "start": 71.12,
+          "end": 71.46
+        },
+        {
+          "word": "it",
+          "start": 71.46,
+          "end": 71.62
+        },
+        {
+          "word": "in",
+          "start": 71.62,
+          "end": 71.8
+        },
+        {
+          "word": "rituals.",
+          "start": 71.8,
+          "end": 72.16
+        },
+        {
+          "word": "The",
+          "start": 72.7,
+          "end": 73.3
+        },
+        {
+          "word": "first",
+          "start": 73.3,
+          "end": 73.58
+        },
+        {
+          "word": "transatlantic",
+          "start": 73.58,
+          "end": 74.46
+        },
+        {
+          "word": "chocolate",
+          "start": 74.46,
+          "end": 74.86
+        },
+        {
+          "word": "encounter",
+          "start": 74.86,
+          "end": 75.48
+        },
+        {
+          "word": "occurred",
+          "start": 75.48,
+          "end": 76.18
+        },
+        {
+          "word": "in",
+          "start": 76.18,
+          "end": 76.48
+        },
+        {
+          "word": "1519,",
+          "start": 76.48,
+          "end": 77.46
+        }
+      ],
+      "textKo": "의식에서도 사용했다. 1519년에 첫 번째 대서양 횡단 초콜릿 접촉이 일어났다"
+    },
+    {
+      "index": 20,
+      "start": 77.46,
+      "end": 82.5,
+      "textEn": "When Hernán Cortés visited the court of Montezuma at Tenochtitlan.",
+      "words": [
+        {
+          "word": "when",
+          "start": 77.46,
+          "end": 78.24
+        },
+        {
+          "word": "Hernán",
+          "start": 78.24,
+          "end": 78.74
+        },
+        {
+          "word": "Cortés",
+          "start": 78.74,
+          "end": 79.4
+        },
+        {
+          "word": "visited",
+          "start": 79.4,
+          "end": 79.98
+        },
+        {
+          "word": "the",
+          "start": 79.98,
+          "end": 80.18
+        },
+        {
+          "word": "court",
+          "start": 80.18,
+          "end": 80.44
+        },
+        {
+          "word": "of",
+          "start": 80.44,
+          "end": 80.66
+        },
+        {
+          "word": "Montezuma",
+          "start": 80.66,
+          "end": 81.34
+        },
+        {
+          "word": "at",
+          "start": 81.34,
+          "end": 81.82
+        },
+        {
+          "word": "Tenochtitlan.",
+          "start": 81.82,
+          "end": 82.5
+        }
+      ],
+      "textKo": "테노치티탄의 몬테즈ума 왕의 궁전을 방문했을 때"
+    },
+    {
+      "index": 21,
+      "start": 82.88,
+      "end": 85.02,
+      "textEn": "As recorded by Cortés' lieutenant,",
+      "words": [
+        {
+          "word": "As",
+          "start": 82.88,
+          "end": 83.48
+        },
+        {
+          "word": "recorded",
+          "start": 83.48,
+          "end": 83.88
+        },
+        {
+          "word": "by",
+          "start": 83.88,
+          "end": 84.1
+        },
+        {
+          "word": "Cortés'",
+          "start": 84.1,
+          "end": 84.56
+        },
+        {
+          "word": "lieutenant,",
+          "start": 84.64,
+          "end": 85.02
+        }
+      ],
+      "textKo": "코르테스의 부하가 기록한 바에 따르면"
+    },
+    {
+      "index": 22,
+      "start": 85.44,
+      "end": 90.28,
+      "textEn": "The king had 50 jugs of the drink brought out and poured into golden cups.",
+      "words": [
+        {
+          "word": "the",
+          "start": 85.44,
+          "end": 85.56
+        },
+        {
+          "word": "king",
+          "start": 85.56,
+          "end": 85.8
+        },
+        {
+          "word": "had",
+          "start": 85.8,
+          "end": 86.06
+        },
+        {
+          "word": "50",
+          "start": 86.06,
+          "end": 86.48
+        },
+        {
+          "word": "jugs",
+          "start": 86.48,
+          "end": 86.98
+        },
+        {
+          "word": "of",
+          "start": 86.98,
+          "end": 87.14
+        },
+        {
+          "word": "the",
+          "start": 87.14,
+          "end": 87.24
+        },
+        {
+          "word": "drink",
+          "start": 87.24,
+          "end": 87.58
+        },
+        {
+          "word": "brought",
+          "start": 87.58,
+          "end": 88.12
+        },
+        {
+          "word": "out",
+          "start": 88.12,
+          "end": 88.38
+        },
+        {
+          "word": "and",
+          "start": 88.38,
+          "end": 88.6
+        },
+        {
+          "word": "poured",
+          "start": 88.6,
+          "end": 89.0
+        },
+        {
+          "word": "into",
+          "start": 89.0,
+          "end": 89.32
+        },
+        {
+          "word": "golden",
+          "start": 89.32,
+          "end": 89.78
+        },
+        {
+          "word": "cups.",
+          "start": 89.78,
+          "end": 90.28
+        }
+      ],
+      "textKo": "왕은 50개의 주전자에 담긴 음료를 가져와 금으로 만든 잔에 따랐다"
+    },
+    {
+      "index": 23,
+      "start": 90.58,
+      "end": 94.34,
+      "textEn": "When the colonists returned with shipments of the strange new bean,",
+      "words": [
+        {
+          "word": "When",
+          "start": 90.58,
+          "end": 91.18
+        },
+        {
+          "word": "the",
+          "start": 91.18,
+          "end": 91.28
+        },
+        {
+          "word": "colonists",
+          "start": 91.28,
+          "end": 91.82
+        },
+        {
+          "word": "returned",
+          "start": 91.82,
+          "end": 92.32
+        },
+        {
+          "word": "with",
+          "start": 92.32,
+          "end": 92.58
+        },
+        {
+          "word": "shipments",
+          "start": 92.58,
+          "end": 93.12
+        },
+        {
+          "word": "of",
+          "start": 93.12,
+          "end": 93.26
+        },
+        {
+          "word": "the",
+          "start": 93.26,
+          "end": 93.4
+        },
+        {
+          "word": "strange",
+          "start": 93.4,
+          "end": 93.76
+        },
+        {
+          "word": "new",
+          "start": 93.76,
+          "end": 94.0
+        },
+        {
+          "word": "bean,",
+          "start": 94.0,
+          "end": 94.34
+        }
+      ],
+      "textKo": "콜로니스트들이 이 독특한 신선한 콩을 운반하며 돌아왔을 때"
+    },
+    {
+      "index": 24,
+      "start": 94.9,
+      "end": 97.52,
+      "textEn": "Missionaries' salacious accounts of native customs",
+      "words": [
+        {
+          "word": "missionaries'",
+          "start": 94.9,
+          "end": 95.44
+        },
+        {
+          "word": "salacious",
+          "start": 95.6,
+          "end": 96.06
+        },
+        {
+          "word": "accounts",
+          "start": 96.06,
+          "end": 96.44
+        },
+        {
+          "word": "of",
+          "start": 96.44,
+          "end": 96.7
+        },
+        {
+          "word": "native",
+          "start": 96.7,
+          "end": 97.0
+        },
+        {
+          "word": "customs",
+          "start": 97.0,
+          "end": 97.52
+        }
+      ],
+      "textKo": "선교사들의 음란한 원주민 관습에 대한 기록"
+    },
+    {
+      "index": 25,
+      "start": 97.52,
+      "end": 100.68,
+      "textEn": "Gave it a reputation as an aphrodisiac.",
+      "words": [
+        {
+          "word": "gave",
+          "start": 97.52,
+          "end": 98.12
+        },
+        {
+          "word": "it",
+          "start": 98.12,
+          "end": 98.26
+        },
+        {
+          "word": "a",
+          "start": 98.26,
+          "end": 98.4
+        },
+        {
+          "word": "reputation",
+          "start": 98.4,
+          "end": 98.94
+        },
+        {
+          "word": "as",
+          "start": 98.94,
+          "end": 99.5
+        },
+        {
+          "word": "an",
+          "start": 99.5,
+          "end": 99.64
+        },
+        {
+          "word": "aphrodisiac.",
+          "start": 99.64,
+          "end": 100.68
+        }
+      ],
+      "textKo": "이를 정욕 촉진제로 알려지게 했다"
+    },
+    {
+      "index": 26,
+      "start": 101.86,
+      "end": 105.62,
+      "textEn": "At first, its bitter taste made it suitable as a medicine for ailments,",
+      "words": [
+        {
+          "word": "At",
+          "start": 101.67,
+          "end": 102.02
+        },
+        {
+          "word": "first,",
+          "start": 102.02,
+          "end": 102.32
+        },
+        {
+          "word": "its",
+          "start": 102.42,
+          "end": 102.58
+        },
+        {
+          "word": "bitter",
+          "start": 102.58,
+          "end": 102.84
+        },
+        {
+          "word": "taste",
+          "start": 102.84,
+          "end": 103.24
+        },
+        {
+          "word": "made",
+          "start": 103.24,
+          "end": 103.54
+        },
+        {
+          "word": "it",
+          "start": 103.54,
+          "end": 103.68
+        },
+        {
+          "word": "suitable",
+          "start": 103.68,
+          "end": 103.98
+        },
+        {
+          "word": "as",
+          "start": 103.98,
+          "end": 104.34
+        },
+        {
+          "word": "a",
+          "start": 104.34,
+          "end": 104.44
+        },
+        {
+          "word": "medicine",
+          "start": 104.44,
+          "end": 104.76
+        },
+        {
+          "word": "for",
+          "start": 104.76,
+          "end": 105.06
+        },
+        {
+          "word": "ailments,",
+          "start": 105.06,
+          "end": 105.62
+        }
+      ],
+      "textKo": "처음에는 쓴맛 덕분에 병을 치료하는 약으로 적합했다"
+    },
+    {
+      "index": 27,
+      "start": 105.62,
+      "end": 110.42,
+      "textEn": "Like upset stomachs. But sweetening it with honey, sugar, or vanilla",
+      "words": [
+        {
+          "word": "like",
+          "start": 105.62,
+          "end": 106.0
+        },
+        {
+          "word": "upset",
+          "start": 106.0,
+          "end": 106.44
+        },
+        {
+          "word": "stomachs.",
+          "start": 106.44,
+          "end": 106.96
+        },
+        {
+          "word": "But",
+          "start": 107.45,
+          "end": 107.82
+        },
+        {
+          "word": "sweetening",
+          "start": 107.82,
+          "end": 108.32
+        },
+        {
+          "word": "it",
+          "start": 108.32,
+          "end": 108.54
+        },
+        {
+          "word": "with",
+          "start": 108.54,
+          "end": 108.82
+        },
+        {
+          "word": "honey,",
+          "start": 108.82,
+          "end": 109.16
+        },
+        {
+          "word": "sugar,",
+          "start": 109.38,
+          "end": 109.74
+        },
+        {
+          "word": "or",
+          "start": 109.78,
+          "end": 110.04
+        },
+        {
+          "word": "vanilla",
+          "start": 110.04,
+          "end": 110.42
+        }
+      ],
+      "textKo": "설사 같은 병. 그러나 꿀, 설탕, 바닐라로 달게 만들면"
+    },
+    {
+      "index": 28,
+      "start": 110.42,
+      "end": 114.44,
+      "textEn": "Quickly made chocolate a popular delicacy in the Spanish court.",
+      "words": [
+        {
+          "word": "quickly",
+          "start": 110.42,
+          "end": 111.08
+        },
+        {
+          "word": "made",
+          "start": 111.08,
+          "end": 111.42
+        },
+        {
+          "word": "chocolate",
+          "start": 111.42,
+          "end": 111.78
+        },
+        {
+          "word": "a",
+          "start": 111.78,
+          "end": 112.1
+        },
+        {
+          "word": "popular",
+          "start": 112.1,
+          "end": 112.6
+        },
+        {
+          "word": "delicacy",
+          "start": 112.6,
+          "end": 113.28
+        },
+        {
+          "word": "in",
+          "start": 113.28,
+          "end": 113.68
+        },
+        {
+          "word": "the",
+          "start": 113.68,
+          "end": 113.78
+        },
+        {
+          "word": "Spanish",
+          "start": 113.78,
+          "end": 114.12
+        },
+        {
+          "word": "court.",
+          "start": 114.12,
+          "end": 114.44
+        }
+      ],
+      "textKo": "스페인 왕실에서 인기 있는 음식으로 만든다"
+    },
+    {
+      "index": 29,
+      "start": 114.92,
+      "end": 120.08,
+      "textEn": "And soon, no aristocratic home was complete without dedicated chocolateware.",
+      "words": [
+        {
+          "word": "And",
+          "start": 114.92,
+          "end": 115.4
+        },
+        {
+          "word": "soon,",
+          "start": 115.4,
+          "end": 115.74
+        },
+        {
+          "word": "no",
+          "start": 115.92,
+          "end": 116.3
+        },
+        {
+          "word": "aristocratic",
+          "start": 116.3,
+          "end": 117.02
+        },
+        {
+          "word": "home",
+          "start": 117.02,
+          "end": 117.34
+        },
+        {
+          "word": "was",
+          "start": 117.34,
+          "end": 117.56
+        },
+        {
+          "word": "complete",
+          "start": 117.56,
+          "end": 118.02
+        },
+        {
+          "word": "without",
+          "start": 118.02,
+          "end": 118.54
+        },
+        {
+          "word": "dedicated",
+          "start": 118.54,
+          "end": 119.26
+        },
+        {
+          "word": "chocolateware.",
+          "start": 119.26,
+          "end": 120.08
+        }
+      ],
+      "textKo": "곧 모든 귀족 집안에 전용 초콜릿 도구가 없으면 완성되지 않았다"
+    },
+    {
+      "index": 30,
+      "start": 120.98,
+      "end": 125.96,
+      "textEn": "The fashionable drink was difficult and time-consuming to produce on a large scale.",
+      "words": [
+        {
+          "word": "The",
+          "start": 120.98,
+          "end": 121.48
+        },
+        {
+          "word": "fashionable",
+          "start": 121.48,
+          "end": 121.94
+        },
+        {
+          "word": "drink",
+          "start": 121.94,
+          "end": 122.34
+        },
+        {
+          "word": "was",
+          "start": 122.34,
+          "end": 122.66
+        },
+        {
+          "word": "difficult",
+          "start": 122.66,
+          "end": 123.1
+        },
+        {
+          "word": "and",
+          "start": 123.1,
+          "end": 123.48
+        },
+        {
+          "word": "time",
+          "start": 123.48,
+          "end": 123.88
+        },
+        {
+          "word": "-consuming",
+          "start": 123.88,
+          "end": 124.36
+        },
+        {
+          "word": "to",
+          "start": 124.36,
+          "end": 124.56
+        },
+        {
+          "word": "produce",
+          "start": 124.56,
+          "end": 124.98
+        },
+        {
+          "word": "on",
+          "start": 124.98,
+          "end": 125.26
+        },
+        {
+          "word": "a",
+          "start": 125.26,
+          "end": 125.34
+        },
+        {
+          "word": "large",
+          "start": 125.34,
+          "end": 125.6
+        },
+        {
+          "word": "scale.",
+          "start": 125.6,
+          "end": 125.96
+        }
+      ],
+      "textKo": "인기 있는 음료는 대량 생산하기가 어렵고 시간이 많이 걸렸습니다."
+    },
+    {
+      "index": 31,
+      "start": 126.18,
+      "end": 129.8,
+      "textEn": "That involved using plantations and imported slave labor",
+      "words": [
+        {
+          "word": "That",
+          "start": 126.18,
+          "end": 126.62
+        },
+        {
+          "word": "involved",
+          "start": 126.62,
+          "end": 126.98
+        },
+        {
+          "word": "using",
+          "start": 126.98,
+          "end": 127.3
+        },
+        {
+          "word": "plantations",
+          "start": 127.3,
+          "end": 128.1
+        },
+        {
+          "word": "and",
+          "start": 128.1,
+          "end": 128.54
+        },
+        {
+          "word": "imported",
+          "start": 128.54,
+          "end": 129.02
+        },
+        {
+          "word": "slave",
+          "start": 129.02,
+          "end": 129.48
+        },
+        {
+          "word": "labor",
+          "start": 129.48,
+          "end": 129.8
+        }
+      ],
+      "textKo": "그것은 식민지 농장과 수입된 노예 노동력을 사용하는 것이었습니다."
+    },
+    {
+      "index": 32,
+      "start": 129.8,
+      "end": 133.12,
+      "textEn": "In the Caribbean and on islands off the coast of Africa.",
+      "words": [
+        {
+          "word": "in",
+          "start": 129.8,
+          "end": 130.24
+        },
+        {
+          "word": "the",
+          "start": 130.24,
+          "end": 130.34
+        },
+        {
+          "word": "Caribbean",
+          "start": 130.34,
+          "end": 130.7
+        },
+        {
+          "word": "and",
+          "start": 130.7,
+          "end": 131.2
+        },
+        {
+          "word": "on",
+          "start": 131.2,
+          "end": 131.44
+        },
+        {
+          "word": "islands",
+          "start": 131.44,
+          "end": 131.9
+        },
+        {
+          "word": "off",
+          "start": 131.9,
+          "end": 132.2
+        },
+        {
+          "word": "the",
+          "start": 132.2,
+          "end": 132.32
+        },
+        {
+          "word": "coast",
+          "start": 132.32,
+          "end": 132.56
+        },
+        {
+          "word": "of",
+          "start": 132.56,
+          "end": 132.7
+        },
+        {
+          "word": "Africa.",
+          "start": 132.7,
+          "end": 133.12
+        }
+      ],
+      "textKo": "카리브해와 아프리카 해안 근처의 섬들에서"
+    },
+    {
+      "index": 33,
+      "start": 133.12,
+      "end": 137.68,
+      "textEn": "The world of chocolate would change forever in 1828",
+      "words": [
+        {
+          "word": "The",
+          "start": 133.12,
+          "end": 134.42
+        },
+        {
+          "word": "world",
+          "start": 134.42,
+          "end": 134.7
+        },
+        {
+          "word": "of",
+          "start": 134.7,
+          "end": 134.86
+        },
+        {
+          "word": "chocolate",
+          "start": 134.86,
+          "end": 135.22
+        },
+        {
+          "word": "would",
+          "start": 135.22,
+          "end": 135.44
+        },
+        {
+          "word": "change",
+          "start": 135.44,
+          "end": 135.8
+        },
+        {
+          "word": "forever",
+          "start": 135.8,
+          "end": 136.22
+        },
+        {
+          "word": "in",
+          "start": 136.22,
+          "end": 136.68
+        },
+        {
+          "word": "1828",
+          "start": 136.68,
+          "end": 137.68
+        }
+      ],
+      "textKo": "1828년 코코아의 세계는 영원히 바뀌게 되었습니다."
+    },
+    {
+      "index": 34,
+      "start": 137.68,
+      "end": 140.06,
+      "textEn": "With the introduction of the cocoa press",
+      "words": [
+        {
+          "word": "with",
+          "start": 137.68,
+          "end": 138.22
+        },
+        {
+          "word": "the",
+          "start": 138.22,
+          "end": 138.36
+        },
+        {
+          "word": "introduction",
+          "start": 138.36,
+          "end": 138.84
+        },
+        {
+          "word": "of",
+          "start": 138.84,
+          "end": 139.2
+        },
+        {
+          "word": "the",
+          "start": 139.2,
+          "end": 139.32
+        },
+        {
+          "word": "cocoa",
+          "start": 139.32,
+          "end": 139.62
+        },
+        {
+          "word": "press",
+          "start": 139.62,
+          "end": 140.06
+        }
+      ],
+      "textKo": "코코아 프레스 도입으로 인해"
+    },
+    {
+      "index": 35,
+      "start": 140.06,
+      "end": 142.58,
+      "textEn": "By Konrad van Houten of Amsterdam.",
+      "words": [
+        {
+          "word": "by",
+          "start": 140.06,
+          "end": 140.52
+        },
+        {
+          "word": "Konrad",
+          "start": 140.52,
+          "end": 141.06
+        },
+        {
+          "word": "van",
+          "start": 141.06,
+          "end": 141.3
+        },
+        {
+          "word": "Houten",
+          "start": 141.3,
+          "end": 141.68
+        },
+        {
+          "word": "of",
+          "start": 141.68,
+          "end": 142.08
+        },
+        {
+          "word": "Amsterdam.",
+          "start": 142.08,
+          "end": 142.58
+        }
+      ],
+      "textKo": "아ム스테르담 출신 콘라드 반 헤우텐에 의해"
+    },
+    {
+      "index": 36,
+      "start": 143.78,
+      "end": 147.14,
+      "textEn": "Van Houten's invention could separate the cocoa's natural fat,",
+      "words": [
+        {
+          "word": "Van",
+          "start": 143.62,
+          "end": 143.98
+        },
+        {
+          "word": "Houten's",
+          "start": 143.98,
+          "end": 144.36
+        },
+        {
+          "word": "invention",
+          "start": 144.36,
+          "end": 144.76
+        },
+        {
+          "word": "could",
+          "start": 144.76,
+          "end": 145.22
+        },
+        {
+          "word": "separate",
+          "start": 145.22,
+          "end": 145.7
+        },
+        {
+          "word": "the",
+          "start": 145.7,
+          "end": 145.9
+        },
+        {
+          "word": "cocoa's",
+          "start": 145.9,
+          "end": 146.32
+        },
+        {
+          "word": "natural",
+          "start": 146.32,
+          "end": 146.7
+        },
+        {
+          "word": "fat,",
+          "start": 146.7,
+          "end": 147.14
+        }
+      ],
+      "textKo": "반 헤우텐의 발명품은 코코아의 자연적인 지방을 분리할 수 있었습니다."
+    },
+    {
+      "index": 37,
+      "start": 147.28,
+      "end": 152.26,
+      "textEn": "Or cocoa butter. This left a powder that could be mixed into a drinkable solution",
+      "words": [
+        {
+          "word": "or",
+          "start": 147.28,
+          "end": 147.6
+        },
+        {
+          "word": "cocoa",
+          "start": 147.6,
+          "end": 147.94
+        },
+        {
+          "word": "butter.",
+          "start": 147.94,
+          "end": 148.2
+        },
+        {
+          "word": "This",
+          "start": 148.56,
+          "end": 149.04
+        },
+        {
+          "word": "left",
+          "start": 149.04,
+          "end": 149.3
+        },
+        {
+          "word": "a",
+          "start": 149.3,
+          "end": 149.5
+        },
+        {
+          "word": "powder",
+          "start": 149.5,
+          "end": 149.88
+        },
+        {
+          "word": "that",
+          "start": 149.88,
+          "end": 150.32
+        },
+        {
+          "word": "could",
+          "start": 150.32,
+          "end": 150.44
+        },
+        {
+          "word": "be",
+          "start": 150.44,
+          "end": 150.56
+        },
+        {
+          "word": "mixed",
+          "start": 150.56,
+          "end": 150.92
+        },
+        {
+          "word": "into",
+          "start": 150.92,
+          "end": 151.18
+        },
+        {
+          "word": "a",
+          "start": 151.18,
+          "end": 151.34
+        },
+        {
+          "word": "drinkable",
+          "start": 151.34,
+          "end": 151.78
+        },
+        {
+          "word": "solution",
+          "start": 151.78,
+          "end": 152.26
+        }
+      ],
+      "textKo": "또는 코코아 버터입니다. 이는 마시기 쉬운 용액에 섞을 수 있는 가루를 남겼습니다."
+    },
+    {
+      "index": 38,
+      "start": 152.26,
+      "end": 154.6,
+      "textEn": "Or recombined with the cocoa butter",
+      "words": [
+        {
+          "word": "or",
+          "start": 152.26,
+          "end": 152.94
+        },
+        {
+          "word": "recombined",
+          "start": 152.94,
+          "end": 153.76
+        },
+        {
+          "word": "with",
+          "start": 153.76,
+          "end": 153.92
+        },
+        {
+          "word": "the",
+          "start": 153.92,
+          "end": 154.06
+        },
+        {
+          "word": "cocoa",
+          "start": 154.06,
+          "end": 154.34
+        },
+        {
+          "word": "butter",
+          "start": 154.34,
+          "end": 154.6
+        }
+      ],
+      "textKo": "또는 코코아 버터와 다시 합성할 수 있습니다."
+    },
+    {
+      "index": 39,
+      "start": 154.6,
+      "end": 157.22,
+      "textEn": "To create the solid chocolate we know today.",
+      "words": [
+        {
+          "word": "to",
+          "start": 154.6,
+          "end": 155.0
+        },
+        {
+          "word": "create",
+          "start": 155.0,
+          "end": 155.3
+        },
+        {
+          "word": "the",
+          "start": 155.3,
+          "end": 155.48
+        },
+        {
+          "word": "solid",
+          "start": 155.48,
+          "end": 155.88
+        },
+        {
+          "word": "chocolate",
+          "start": 155.88,
+          "end": 156.36
+        },
+        {
+          "word": "we",
+          "start": 156.36,
+          "end": 156.68
+        },
+        {
+          "word": "know",
+          "start": 156.68,
+          "end": 156.88
+        },
+        {
+          "word": "today.",
+          "start": 156.88,
+          "end": 157.22
+        }
+      ],
+      "textKo": "오늘날 우리가 알고 있는 고체 코코아를 만들 수 있게 했습니다."
+    },
+    {
+      "index": 40,
+      "start": 158.12,
+      "end": 161.86,
+      "textEn": "Not long after, a Swiss chocolatier named Daniel Peter",
+      "words": [
+        {
+          "word": "Not",
+          "start": 158.12,
+          "end": 158.76
+        },
+        {
+          "word": "long",
+          "start": 158.76,
+          "end": 159.0
+        },
+        {
+          "word": "after,",
+          "start": 159.0,
+          "end": 159.36
+        },
+        {
+          "word": "a",
+          "start": 159.56,
+          "end": 159.78
+        },
+        {
+          "word": "Swiss",
+          "start": 159.78,
+          "end": 160.1
+        },
+        {
+          "word": "chocolatier",
+          "start": 160.1,
+          "end": 160.74
+        },
+        {
+          "word": "named",
+          "start": 160.74,
+          "end": 161.02
+        },
+        {
+          "word": "Daniel",
+          "start": 161.02,
+          "end": 161.48
+        },
+        {
+          "word": "Peter",
+          "start": 161.48,
+          "end": 161.86
+        }
+      ],
+      "textKo": "그 후 얼마 지나지 않은 시기에, 스위스 출신 초콜릿 제조업자인 다니엘 페터"
+    },
+    {
+      "index": 41,
+      "start": 161.86,
+      "end": 164.02,
+      "textEn": "Added powdered milk to the mix,",
+      "words": [
+        {
+          "word": "added",
+          "start": 161.86,
+          "end": 162.5
+        },
+        {
+          "word": "powdered",
+          "start": 162.5,
+          "end": 163.0
+        },
+        {
+          "word": "milk",
+          "start": 163.0,
+          "end": 163.36
+        },
+        {
+          "word": "to",
+          "start": 163.36,
+          "end": 163.6
+        },
+        {
+          "word": "the",
+          "start": 163.6,
+          "end": 163.72
+        },
+        {
+          "word": "mix,",
+          "start": 163.72,
+          "end": 164.02
+        }
+      ],
+      "textKo": "가루 우유를 혼합에 추가했습니다,"
+    },
+    {
+      "index": 42,
+      "start": 164.36,
+      "end": 171.04,
+      "textEn": "Thus inventing milk chocolate. By the 20th century, chocolate was no longer an elite luxury,",
+      "words": [
+        {
+          "word": "thus",
+          "start": 164.36,
+          "end": 164.72
+        },
+        {
+          "word": "inventing",
+          "start": 164.72,
+          "end": 165.34
+        },
+        {
+          "word": "milk",
+          "start": 165.34,
+          "end": 165.86
+        },
+        {
+          "word": "chocolate.",
+          "start": 165.86,
+          "end": 166.28
+        },
+        {
+          "word": "By",
+          "start": 167.1,
+          "end": 167.74
+        },
+        {
+          "word": "the",
+          "start": 167.74,
+          "end": 167.88
+        },
+        {
+          "word": "20th",
+          "start": 167.88,
+          "end": 168.24
+        },
+        {
+          "word": "century,",
+          "start": 168.24,
+          "end": 168.62
+        },
+        {
+          "word": "chocolate",
+          "start": 168.88,
+          "end": 169.2
+        },
+        {
+          "word": "was",
+          "start": 169.2,
+          "end": 169.44
+        },
+        {
+          "word": "no",
+          "start": 169.44,
+          "end": 169.68
+        },
+        {
+          "word": "longer",
+          "start": 169.68,
+          "end": 170.04
+        },
+        {
+          "word": "an",
+          "start": 170.04,
+          "end": 170.28
+        },
+        {
+          "word": "elite",
+          "start": 170.28,
+          "end": 170.58
+        },
+        {
+          "word": "luxury,",
+          "start": 170.58,
+          "end": 171.04
+        }
+      ],
+      "textKo": "그래서 우유 초콜릿을 발명했습니다. 20세기 들어 초콜릿은 더 이상 귀족만의 향락이 아니었습니다,"
+    },
+    {
+      "index": 43,
+      "start": 171.22,
+      "end": 177.5,
+      "textEn": "But had become a treat for the public. Meeting the massive demand required more cultivation of cocoa,",
+      "words": [
+        {
+          "word": "but",
+          "start": 171.22,
+          "end": 171.52
+        },
+        {
+          "word": "had",
+          "start": 171.52,
+          "end": 171.66
+        },
+        {
+          "word": "become",
+          "start": 171.66,
+          "end": 171.92
+        },
+        {
+          "word": "a",
+          "start": 171.92,
+          "end": 172.06
+        },
+        {
+          "word": "treat",
+          "start": 172.06,
+          "end": 172.36
+        },
+        {
+          "word": "for",
+          "start": 172.36,
+          "end": 172.6
+        },
+        {
+          "word": "the",
+          "start": 172.6,
+          "end": 172.7
+        },
+        {
+          "word": "public.",
+          "start": 172.7,
+          "end": 173.02
+        },
+        {
+          "word": "Meeting",
+          "start": 173.94,
+          "end": 174.3
+        },
+        {
+          "word": "the",
+          "start": 174.3,
+          "end": 174.52
+        },
+        {
+          "word": "massive",
+          "start": 174.52,
+          "end": 174.88
+        },
+        {
+          "word": "demand",
+          "start": 174.88,
+          "end": 175.38
+        },
+        {
+          "word": "required",
+          "start": 175.38,
+          "end": 175.98
+        },
+        {
+          "word": "more",
+          "start": 175.98,
+          "end": 176.34
+        },
+        {
+          "word": "cultivation",
+          "start": 176.34,
+          "end": 176.96
+        },
+        {
+          "word": "of",
+          "start": 176.96,
+          "end": 177.22
+        },
+        {
+          "word": "cocoa,",
+          "start": 177.22,
+          "end": 177.5
+        }
+      ],
+      "textKo": "공중을 위한 간식이 되었습니다. 대량의 수요를 충족시키기 위해 코코아의 재배를 더 늘려야 했습니다,"
+    },
+    {
+      "index": 44,
+      "start": 177.74,
+      "end": 185.36,
+      "textEn": "Which can only grow near the equator. Now, instead of African slaves being shipped to South American cocoa plantations,",
+      "words": [
+        {
+          "word": "which",
+          "start": 177.74,
+          "end": 178.04
+        },
+        {
+          "word": "can",
+          "start": 178.04,
+          "end": 178.18
+        },
+        {
+          "word": "only",
+          "start": 178.18,
+          "end": 178.52
+        },
+        {
+          "word": "grow",
+          "start": 178.52,
+          "end": 178.84
+        },
+        {
+          "word": "near",
+          "start": 178.84,
+          "end": 179.1
+        },
+        {
+          "word": "the",
+          "start": 179.1,
+          "end": 179.3
+        },
+        {
+          "word": "equator.",
+          "start": 179.3,
+          "end": 179.64
+        },
+        {
+          "word": "Now,",
+          "start": 179.64,
+          "end": 180.84
+        },
+        {
+          "word": "instead",
+          "start": 181.14,
+          "end": 181.48
+        },
+        {
+          "word": "of",
+          "start": 181.48,
+          "end": 181.68
+        },
+        {
+          "word": "African",
+          "start": 181.68,
+          "end": 182.14
+        },
+        {
+          "word": "slaves",
+          "start": 182.14,
+          "end": 182.66
+        },
+        {
+          "word": "being",
+          "start": 182.66,
+          "end": 182.94
+        },
+        {
+          "word": "shipped",
+          "start": 182.94,
+          "end": 183.34
+        },
+        {
+          "word": "to",
+          "start": 183.34,
+          "end": 183.6
+        },
+        {
+          "word": "South",
+          "start": 183.6,
+          "end": 183.84
+        },
+        {
+          "word": "American",
+          "start": 183.84,
+          "end": 184.26
+        },
+        {
+          "word": "cocoa",
+          "start": 184.26,
+          "end": 184.68
+        },
+        {
+          "word": "plantations,",
+          "start": 184.68,
+          "end": 185.36
+        }
+      ],
+      "textKo": "이 물질은 적도 근처에서만 자랄 수 있습니다. 이제 아프리카 노예들이 남미 코코아 재배지로 수송되는 대신,"
+    },
+    {
+      "index": 45,
+      "start": 185.76,
+      "end": 188.66,
+      "textEn": "Cocoa production itself would shift to West Africa,",
+      "words": [
+        {
+          "word": "cocoa",
+          "start": 185.76,
+          "end": 186.04
+        },
+        {
+          "word": "production",
+          "start": 186.04,
+          "end": 186.46
+        },
+        {
+          "word": "itself",
+          "start": 186.46,
+          "end": 186.96
+        },
+        {
+          "word": "would",
+          "start": 186.96,
+          "end": 187.42
+        },
+        {
+          "word": "shift",
+          "start": 187.42,
+          "end": 187.72
+        },
+        {
+          "word": "to",
+          "start": 187.72,
+          "end": 187.98
+        },
+        {
+          "word": "West",
+          "start": 187.98,
+          "end": 188.2
+        },
+        {
+          "word": "Africa,",
+          "start": 188.2,
+          "end": 188.66
+        }
+      ],
+      "textKo": "코코아 생산 자체가 서아프리카로 이동했습니다,"
+    },
+    {
+      "index": 46,
+      "start": 188.96,
+      "end": 193.46,
+      "textEn": "With Cote d'Ivoire providing two-fifths of the world's cocoa as of 2015.",
+      "words": [
+        {
+          "word": "with",
+          "start": 188.96,
+          "end": 189.32
+        },
+        {
+          "word": "Cote",
+          "start": 189.32,
+          "end": 189.56
+        },
+        {
+          "word": "d",
+          "start": 189.56,
+          "end": 189.66
+        },
+        {
+          "word": "'Ivoire",
+          "start": 189.66,
+          "end": 189.98
+        },
+        {
+          "word": "providing",
+          "start": 189.98,
+          "end": 190.52
+        },
+        {
+          "word": "two",
+          "start": 190.52,
+          "end": 190.8
+        },
+        {
+          "word": "-fifths",
+          "start": 190.8,
+          "end": 191.22
+        },
+        {
+          "word": "of",
+          "start": 191.22,
+          "end": 191.42
+        },
+        {
+          "word": "the",
+          "start": 191.42,
+          "end": 191.52
+        },
+        {
+          "word": "world's",
+          "start": 191.52,
+          "end": 191.88
+        },
+        {
+          "word": "cocoa",
+          "start": 191.88,
+          "end": 192.22
+        },
+        {
+          "word": "as",
+          "start": 192.22,
+          "end": 192.74
+        },
+        {
+          "word": "of",
+          "start": 192.74,
+          "end": 192.86
+        },
+        {
+          "word": "2015.",
+          "start": 192.86,
+          "end": 193.46
+        }
+      ],
+      "textKo": "2015년 기준으로 코트디워부아르는 세계 코코아 생산량의 2/5을 제공하고 있습니다."
+    },
+    {
+      "index": 47,
+      "start": 194.14,
+      "end": 196.38,
+      "textEn": "Yet along with the growth of the industry,",
+      "words": [
+        {
+          "word": "Yet",
+          "start": 194.14,
+          "end": 194.72
+        },
+        {
+          "word": "along",
+          "start": 194.72,
+          "end": 195.06
+        },
+        {
+          "word": "with",
+          "start": 195.06,
+          "end": 195.3
+        },
+        {
+          "word": "the",
+          "start": 195.3,
+          "end": 195.44
+        },
+        {
+          "word": "growth",
+          "start": 195.44,
+          "end": 195.68
+        },
+        {
+          "word": "of",
+          "start": 195.68,
+          "end": 195.84
+        },
+        {
+          "word": "the",
+          "start": 195.84,
+          "end": 195.94
+        },
+        {
+          "word": "industry,",
+          "start": 195.94,
+          "end": 196.38
+        }
+      ],
+      "textKo": "그러나 산업의 성장과 함께,"
+    },
+    {
+      "index": 48,
+      "start": 196.62,
+      "end": 199.1,
+      "textEn": "There have been horrific abuses of human rights.",
+      "words": [
+        {
+          "word": "there",
+          "start": 196.62,
+          "end": 196.82
+        },
+        {
+          "word": "have",
+          "start": 196.82,
+          "end": 196.96
+        },
+        {
+          "word": "been",
+          "start": 196.96,
+          "end": 197.08
+        },
+        {
+          "word": "horrific",
+          "start": 197.08,
+          "end": 197.54
+        },
+        {
+          "word": "abuses",
+          "start": 197.54,
+          "end": 198.1
+        },
+        {
+          "word": "of",
+          "start": 198.1,
+          "end": 198.48
+        },
+        {
+          "word": "human",
+          "start": 198.48,
+          "end": 198.74
+        },
+        {
+          "word": "rights.",
+          "start": 198.74,
+          "end": 199.1
+        }
+      ],
+      "textKo": "인권에 대한 끔찍한 폭행이 발생했습니다."
+    },
+    {
+      "index": 49,
+      "start": 199.54,
+      "end": 201.94,
+      "textEn": "Many of the plantations throughout West Africa,",
+      "words": [
+        {
+          "word": "Many",
+          "start": 199.54,
+          "end": 199.94
+        },
+        {
+          "word": "of",
+          "start": 199.94,
+          "end": 200.08
+        },
+        {
+          "word": "the",
+          "start": 200.08,
+          "end": 200.18
+        },
+        {
+          "word": "plantations",
+          "start": 200.18,
+          "end": 200.76
+        },
+        {
+          "word": "throughout",
+          "start": 200.76,
+          "end": 201.12
+        },
+        {
+          "word": "West",
+          "start": 201.12,
+          "end": 201.48
+        },
+        {
+          "word": "Africa,",
+          "start": 201.48,
+          "end": 201.94
+        }
+      ],
+      "textKo": "서아프리카 전역의 많은 재배지들,"
+    },
+    {
+      "index": 50,
+      "start": 202.06,
+      "end": 205.92,
+      "textEn": "Which supply Western companies, use slave and child labor,",
+      "words": [
+        {
+          "word": "which",
+          "start": 202.06,
+          "end": 202.42
+        },
+        {
+          "word": "supply",
+          "start": 202.42,
+          "end": 202.92
+        },
+        {
+          "word": "Western",
+          "start": 202.92,
+          "end": 203.3
+        },
+        {
+          "word": "companies,",
+          "start": 203.3,
+          "end": 203.88
+        },
+        {
+          "word": "use",
+          "start": 204.28,
+          "end": 204.5
+        },
+        {
+          "word": "slave",
+          "start": 204.5,
+          "end": 204.92
+        },
+        {
+          "word": "and",
+          "start": 204.92,
+          "end": 205.22
+        },
+        {
+          "word": "child",
+          "start": 205.22,
+          "end": 205.6
+        },
+        {
+          "word": "labor,",
+          "start": 205.6,
+          "end": 205.92
+        }
+      ],
+      "textKo": "서방 기업에 공급하는 곳에서 노예 및 아동 노동을 사용하고 있어요"
+    },
+    {
+      "index": 51,
+      "start": 205.92,
+      "end": 210.24,
+      "textEn": "With an estimation of more than two million children affected.",
+      "words": [
+        {
+          "word": "with",
+          "start": 205.92,
+          "end": 206.64
+        },
+        {
+          "word": "an",
+          "start": 206.64,
+          "end": 206.76
+        },
+        {
+          "word": "estimation",
+          "start": 206.76,
+          "end": 207.24
+        },
+        {
+          "word": "of",
+          "start": 207.24,
+          "end": 207.6
+        },
+        {
+          "word": "more",
+          "start": 207.6,
+          "end": 207.8
+        },
+        {
+          "word": "than",
+          "start": 207.8,
+          "end": 207.94
+        },
+        {
+          "word": "two",
+          "start": 207.94,
+          "end": 208.32
+        },
+        {
+          "word": "million",
+          "start": 208.32,
+          "end": 208.96
+        },
+        {
+          "word": "children",
+          "start": 208.96,
+          "end": 209.54
+        },
+        {
+          "word": "affected.",
+          "start": 209.54,
+          "end": 210.24
+        }
+      ],
+      "textKo": "200만 명 이상의 어린이가 영향을 받은 것으로 추정돼요"
+    },
+    {
+      "index": 52,
+      "start": 211.04,
+      "end": 213.8,
+      "textEn": "This is a complex problem that persists",
+      "words": [
+        {
+          "word": "This",
+          "start": 211.04,
+          "end": 211.84
+        },
+        {
+          "word": "is",
+          "start": 211.84,
+          "end": 211.94
+        },
+        {
+          "word": "a",
+          "start": 211.94,
+          "end": 212.06
+        },
+        {
+          "word": "complex",
+          "start": 212.06,
+          "end": 212.48
+        },
+        {
+          "word": "problem",
+          "start": 212.48,
+          "end": 212.92
+        },
+        {
+          "word": "that",
+          "start": 212.92,
+          "end": 213.14
+        },
+        {
+          "word": "persists",
+          "start": 213.14,
+          "end": 213.8
+        }
+      ],
+      "textKo": "이것은 지속되고 있는 복잡한 문제예요"
+    },
+    {
+      "index": 53,
+      "start": 213.8,
+      "end": 216.24,
+      "textEn": "Despite efforts from major chocolate companies",
+      "words": [
+        {
+          "word": "despite",
+          "start": 213.8,
+          "end": 214.38
+        },
+        {
+          "word": "efforts",
+          "start": 214.38,
+          "end": 214.86
+        },
+        {
+          "word": "from",
+          "start": 214.86,
+          "end": 215.12
+        },
+        {
+          "word": "major",
+          "start": 215.12,
+          "end": 215.4
+        },
+        {
+          "word": "chocolate",
+          "start": 215.4,
+          "end": 215.78
+        },
+        {
+          "word": "companies",
+          "start": 215.78,
+          "end": 216.24
+        }
+      ],
+      "textKo": "대형 초콜릿 기업들의 노력에도 불구하고"
+    },
+    {
+      "index": 54,
+      "start": 216.24,
+      "end": 221.24,
+      "textEn": "To partner with African nations to reduce child and indentured labor practices.",
+      "words": [
+        {
+          "word": "to",
+          "start": 216.24,
+          "end": 216.66
+        },
+        {
+          "word": "partner",
+          "start": 216.66,
+          "end": 217.04
+        },
+        {
+          "word": "with",
+          "start": 217.04,
+          "end": 217.32
+        },
+        {
+          "word": "African",
+          "start": 217.32,
+          "end": 217.72
+        },
+        {
+          "word": "nations",
+          "start": 217.72,
+          "end": 218.16
+        },
+        {
+          "word": "to",
+          "start": 218.16,
+          "end": 218.62
+        },
+        {
+          "word": "reduce",
+          "start": 218.62,
+          "end": 218.92
+        },
+        {
+          "word": "child",
+          "start": 218.92,
+          "end": 219.34
+        },
+        {
+          "word": "and",
+          "start": 219.34,
+          "end": 219.76
+        },
+        {
+          "word": "indentured",
+          "start": 219.76,
+          "end": 220.42
+        },
+        {
+          "word": "labor",
+          "start": 220.42,
+          "end": 220.74
+        },
+        {
+          "word": "practices.",
+          "start": 220.74,
+          "end": 221.24
+        }
+      ],
+      "textKo": "아프리카 국가들과 협력하여 아동 및 종업원 노동을 줄이려는 노력이 있어요"
+    },
+    {
+      "index": 55,
+      "start": 222.26,
+      "end": 225.16,
+      "textEn": "Today, chocolate has established itself",
+      "words": [
+        {
+          "word": "Today,",
+          "start": 222.26,
+          "end": 223.06
+        },
+        {
+          "word": "chocolate",
+          "start": 223.52,
+          "end": 223.82
+        },
+        {
+          "word": "has",
+          "start": 223.82,
+          "end": 224.12
+        },
+        {
+          "word": "established",
+          "start": 224.12,
+          "end": 224.68
+        },
+        {
+          "word": "itself",
+          "start": 224.68,
+          "end": 225.16
+        }
+      ],
+      "textKo": "오늘날 초콜릿은"
+    },
+    {
+      "index": 56,
+      "start": 225.16,
+      "end": 227.34,
+      "textEn": "In the rituals of our modern culture.",
+      "words": [
+        {
+          "word": "in",
+          "start": 225.16,
+          "end": 225.56
+        },
+        {
+          "word": "the",
+          "start": 225.56,
+          "end": 225.68
+        },
+        {
+          "word": "rituals",
+          "start": 225.68,
+          "end": 226.08
+        },
+        {
+          "word": "of",
+          "start": 226.08,
+          "end": 226.4
+        },
+        {
+          "word": "our",
+          "start": 226.4,
+          "end": 226.56
+        },
+        {
+          "word": "modern",
+          "start": 226.56,
+          "end": 226.9
+        },
+        {
+          "word": "culture.",
+          "start": 226.9,
+          "end": 227.34
+        }
+      ],
+      "textKo": "우리 현대 문화의 의식 속에 자리잡고 있어요"
+    },
+    {
+      "index": 57,
+      "start": 227.54,
+      "end": 231.06,
+      "textEn": "Due to its colonial association with native cultures,",
+      "words": [
+        {
+          "word": "Due",
+          "start": 227.54,
+          "end": 228.06
+        },
+        {
+          "word": "to",
+          "start": 228.06,
+          "end": 228.24
+        },
+        {
+          "word": "its",
+          "start": 228.24,
+          "end": 228.42
+        },
+        {
+          "word": "colonial",
+          "start": 228.42,
+          "end": 228.88
+        },
+        {
+          "word": "association",
+          "start": 228.88,
+          "end": 229.7
+        },
+        {
+          "word": "with",
+          "start": 229.7,
+          "end": 230.24
+        },
+        {
+          "word": "native",
+          "start": 230.24,
+          "end": 230.48
+        },
+        {
+          "word": "cultures,",
+          "start": 230.48,
+          "end": 231.06
+        }
+      ],
+      "textKo": "식민지적 연관성으로 인해"
+    },
+    {
+      "index": 58,
+      "start": 231.22,
+      "end": 233.48,
+      "textEn": "Combined with the power of advertising,",
+      "words": [
+        {
+          "word": "combined",
+          "start": 231.22,
+          "end": 231.76
+        },
+        {
+          "word": "with",
+          "start": 231.76,
+          "end": 232.06
+        },
+        {
+          "word": "the",
+          "start": 232.06,
+          "end": 232.2
+        },
+        {
+          "word": "power",
+          "start": 232.2,
+          "end": 232.5
+        },
+        {
+          "word": "of",
+          "start": 232.5,
+          "end": 232.8
+        },
+        {
+          "word": "advertising,",
+          "start": 232.8,
+          "end": 233.48
+        }
+      ],
+      "textKo": "홍보의 힘과 결합하여"
+    },
+    {
+      "index": 59,
+      "start": 233.48,
+      "end": 238.66,
+      "textEn": "Chocolate retains an aura of something sensual, decadent, and forbidden.",
+      "words": [
+        {
+          "word": "chocolate",
+          "start": 233.48,
+          "end": 234.3
+        },
+        {
+          "word": "retains",
+          "start": 234.3,
+          "end": 234.84
+        },
+        {
+          "word": "an",
+          "start": 234.84,
+          "end": 234.98
+        },
+        {
+          "word": "aura",
+          "start": 234.98,
+          "end": 235.4
+        },
+        {
+          "word": "of",
+          "start": 235.4,
+          "end": 235.9
+        },
+        {
+          "word": "something",
+          "start": 235.9,
+          "end": 236.24
+        },
+        {
+          "word": "sensual,",
+          "start": 236.24,
+          "end": 236.86
+        },
+        {
+          "word": "decadent,",
+          "start": 237.16,
+          "end": 237.78
+        },
+        {
+          "word": "and",
+          "start": 237.88,
+          "end": 238.18
+        },
+        {
+          "word": "forbidden.",
+          "start": 238.18,
+          "end": 238.66
+        }
+      ],
+      "textKo": "초콜릿은 감각적인, 풍요로운, 금지된 것에 대한 분위기를 유지하고 있어요"
+    },
+    {
+      "index": 60,
+      "start": 239.22,
+      "end": 243.08,
+      "textEn": "Yet knowing more about its fascinating and often cruel history,",
+      "words": [
+        {
+          "word": "Yet",
+          "start": 239.22,
+          "end": 239.68
+        },
+        {
+          "word": "knowing",
+          "start": 239.68,
+          "end": 240.02
+        },
+        {
+          "word": "more",
+          "start": 240.02,
+          "end": 240.46
+        },
+        {
+          "word": "about",
+          "start": 240.46,
+          "end": 240.76
+        },
+        {
+          "word": "its",
+          "start": 240.76,
+          "end": 240.98
+        },
+        {
+          "word": "fascinating",
+          "start": 240.98,
+          "end": 241.56
+        },
+        {
+          "word": "and",
+          "start": 241.56,
+          "end": 241.84
+        },
+        {
+          "word": "often",
+          "start": 241.84,
+          "end": 242.16
+        },
+        {
+          "word": "cruel",
+          "start": 242.16,
+          "end": 242.6
+        },
+        {
+          "word": "history,",
+          "start": 242.6,
+          "end": 243.08
+        }
+      ],
+      "textKo": "그리고 그의 흥미로우면서도 잔혹한 역사에 대해 더 알고 있으면,"
+    },
+    {
+      "index": 61,
+      "start": 243.24,
+      "end": 247.98,
+      "textEn": "As well as its production today, tells us where these associations originate",
+      "words": [
+        {
+          "word": "as",
+          "start": 243.24,
+          "end": 243.64
+        },
+        {
+          "word": "well",
+          "start": 243.64,
+          "end": 243.78
+        },
+        {
+          "word": "as",
+          "start": 243.78,
+          "end": 243.94
+        },
+        {
+          "word": "its",
+          "start": 243.94,
+          "end": 244.08
+        },
+        {
+          "word": "production",
+          "start": 244.08,
+          "end": 244.5
+        },
+        {
+          "word": "today,",
+          "start": 244.5,
+          "end": 244.94
+        },
+        {
+          "word": "tells",
+          "start": 245.44,
+          "end": 245.74
+        },
+        {
+          "word": "us",
+          "start": 245.74,
+          "end": 245.98
+        },
+        {
+          "word": "where",
+          "start": 245.98,
+          "end": 246.28
+        },
+        {
+          "word": "these",
+          "start": 246.28,
+          "end": 246.56
+        },
+        {
+          "word": "associations",
+          "start": 246.56,
+          "end": 247.24
+        },
+        {
+          "word": "originate",
+          "start": 247.24,
+          "end": 247.98
+        }
+      ],
+      "textKo": "이제 오늘날의 생산 과정도 포함해서, 이러한 연관성의 출처를 알려줍니다"
+    },
+    {
+      "index": 62,
+      "start": 247.98,
+      "end": 253.58,
+      "textEn": "And what they hide. So as you unwrap your next bar of chocolate,",
+      "words": [
+        {
+          "word": "and",
+          "start": 247.98,
+          "end": 248.66
+        },
+        {
+          "word": "what",
+          "start": 248.66,
+          "end": 249.12
+        },
+        {
+          "word": "they",
+          "start": 249.12,
+          "end": 249.32
+        },
+        {
+          "word": "hide.",
+          "start": 249.32,
+          "end": 249.8
+        },
+        {
+          "word": "So",
+          "start": 250.4,
+          "end": 251.08
+        },
+        {
+          "word": "as",
+          "start": 251.08,
+          "end": 251.42
+        },
+        {
+          "word": "you",
+          "start": 251.42,
+          "end": 251.56
+        },
+        {
+          "word": "unwrap",
+          "start": 251.56,
+          "end": 252.14
+        },
+        {
+          "word": "your",
+          "start": 252.14,
+          "end": 252.34
+        },
+        {
+          "word": "next",
+          "start": 252.34,
+          "end": 252.66
+        },
+        {
+          "word": "bar",
+          "start": 252.66,
+          "end": 252.98
+        },
+        {
+          "word": "of",
+          "start": 252.98,
+          "end": 253.16
+        },
+        {
+          "word": "chocolate,",
+          "start": 253.16,
+          "end": 253.58
+        }
+      ],
+      "textKo": "그들이 숨긴 것까지. 그래서 다음에 먹을 초콜릿을 풀어보는 순간,"
+    },
+    {
+      "index": 63,
+      "start": 253.92,
+      "end": 258.86,
+      "textEn": "Take a moment to consider that not everything about chocolate is sweet.",
+      "words": [
+        {
+          "word": "take",
+          "start": 253.92,
+          "end": 254.32
+        },
+        {
+          "word": "a",
+          "start": 254.32,
+          "end": 254.44
+        },
+        {
+          "word": "moment",
+          "start": 254.44,
+          "end": 254.66
+        },
+        {
+          "word": "to",
+          "start": 254.66,
+          "end": 254.84
+        },
+        {
+          "word": "consider",
+          "start": 254.84,
+          "end": 255.32
+        },
+        {
+          "word": "that",
+          "start": 255.32,
+          "end": 255.92
+        },
+        {
+          "word": "not",
+          "start": 255.92,
+          "end": 256.24
+        },
+        {
+          "word": "everything",
+          "start": 256.24,
+          "end": 256.86
+        },
+        {
+          "word": "about",
+          "start": 256.86,
+          "end": 257.2
+        },
+        {
+          "word": "chocolate",
+          "start": 257.2,
+          "end": 257.68
+        },
+        {
+          "word": "is",
+          "start": 257.68,
+          "end": 258.4
+        },
+        {
+          "word": "sweet.",
+          "start": 258.4,
+          "end": 258.86
+        }
+      ],
+      "textKo": "잠시 생각해 보세요. 초콜릿에 대해 모든 것이 달콤하지는 않다는 점을."
+    },
+    {
+      "index": 64,
+      "start": 261.16,
+      "end": 264.14,
+      "textEn": "FINALLY FINALLY FINALLY",
+      "words": [
+        {
+          "word": "FINALLY",
+          "start": 261.16,
+          "end": 261.94
+        },
+        {
+          "word": "FINALLY",
+          "start": 261.94,
+          "end": 262.4
+        },
+        {
+          "word": "FINALLY",
+          "start": 263.36,
+          "end": 264.14
+        }
+      ],
+      "textKo": "마지막으로 마지막으로 마지막으로"
+    },
+    {
+      "index": 65,
+      "start": 264.14,
+      "end": 266.22,
+      "textEn": "FINALLY FINALLY FINALLY FINALLY FINALLY FINALLY FINALLY",
+      "words": [
+        {
+          "word": "FINALLY",
+          "start": 264.14,
+          "end": 265.58
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.58,
+          "end": 265.62
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.62,
+          "end": 265.7
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.7,
+          "end": 265.88
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.88,
+          "end": 265.9
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.9,
+          "end": 265.96
+        },
+        {
+          "word": "FINALLY",
+          "start": 265.96,
+          "end": 266.22
+        }
+      ],
+      "textKo": "마지막으로 마지막으로 마지막으로 마지막으로 마지막으로 마지막으로 마지막으로"
+    },
+    {
+      "index": 66,
+      "start": 266.22,
+      "end": 268.42,
+      "textEn": "FINALLY FINALLY FINALLY",
+      "words": [
+        {
+          "word": "FINALLY",
+          "start": 266.22,
+          "end": 266.54
+        },
+        {
+          "word": "FINALLY",
+          "start": 266.54,
+          "end": 267.26
+        },
+        {
+          "word": "FINALLY",
+          "start": 268.03,
+          "end": 268.42
+        }
+      ],
+      "textKo": "마지막으로 마지막으로 마지막으로"
+    },
+    {
+      "index": 67,
+      "start": 268.42,
+      "end": 270.7,
+      "textEn": "FINALLY FINALLY",
+      "words": [
+        {
+          "word": "FINALLY",
+          "start": 268.42,
+          "end": 269.16
+        },
+        {
+          "word": "FINALLY",
+          "start": 269.16,
+          "end": 270.7
+        }
+      ],
+      "textKo": "마지막으로 마지막으로"
+    },
+    {
+      "index": 68,
+      "start": 270.7,
+      "end": 276.82,
+      "textEn": "FINALLY Thank you.",
+      "words": [
+        {
+          "word": "FINALLY",
+          "start": 270.7,
+          "end": 270.78
+        },
+        {
+          "word": "Thank",
+          "start": 270.78,
+          "end": 271.04
+        },
+        {
+          "word": "you.",
+          "start": 271.04,
+          "end": 276.82
+        }
+      ],
+      "textKo": "마지막으로 감사합니다."
+    }
+  ]
+}

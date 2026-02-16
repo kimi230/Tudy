@@ -1,0 +1,152 @@
+[
+  {
+    "pattern": "Conditional Type 2",
+    "explanation": "Used to talk about hypothetical situations in the present or future, with 'if + past tense' and 'would + base verb'.",
+    "explanationKo": "현재나 미래에 발생할 수 있는 가상의 상황을 표현할 때 'if + 과거형'과 'would + 원형 동사'를 사용합니다.",
+    "examples": [
+      "{'sentence': \"If you thought we make a big deal about it, you're mistaken.\", 'segment': 'If you thought we make a big deal'}",
+      "{'sentence': 'If I were you, I would take the job.', 'segment': 'If I were you, I would take'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Past Perfect Tense",
+    "explanation": "Describes an action completed before another past action, using 'had + past participle'.",
+    "explanationKo": "과거에 있었던 두 가지 사건 중 먼저 일어난 사건을 나타내기 위해 'had + 과거분사'를 사용합니다.",
+    "examples": [
+      "{'sentence': \"You're lucky you weren't born in the 18th century.\", 'segment': \"you weren't born\"}",
+      "{'sentence': 'By the 20th century, chocolate had become a treat for the public.', 'segment': 'had become'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Relative Clause",
+    "explanation": "Adds extra information about a noun using 'which', 'that', or 'who', often introduced by a relative pronoun.",
+    "explanationKo": "명사에 대한 추가 정보를 제공하기 위해 'which', 'that', 또는 'who'로 시작하는 관계절을 사용합니다.",
+    "examples": [
+      "{'sentence': \"Missionaries' salacious accounts of native customs gave it a reputation as an aphrodisiac.\", 'segment': 'of native customs'}",
+      "{'sentence': 'This is a complex problem that persists.', 'segment': 'that persists'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Perfect Tense",
+    "explanation": "Describes an action that started in the past and continues to the present, using 'have/has + past participle'.",
+    "explanationKo": "과거에 시작되어 현재까지 지속되는 행동을 나타내기 위해 'have/has + 과거분사'를 사용합니다.",
+    "examples": [
+      "{'sentence': 'There have been horrific abuses of human rights.', 'segment': 'have been'}",
+      "{'sentence': 'Chocolate has established itself as a global commodity.', 'segment': 'has established'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Passive Voice",
+    "explanation": "Focuses on the action rather than the actor, using 'be + past participle'.",
+    "explanationKo": "행동에 초점을 맞추고 행위자에 대한 강조를 줄이기 위해 'be + 과거분사'를 사용합니다.",
+    "examples": [
+      "{'sentence': 'The earliest records tell us the beans were ground.', 'segment': 'were ground'}",
+      "{'sentence': 'The drink was difficult and time-consuming to produce.', 'segment': 'was difficult'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Participle Phrase",
+    "explanation": "Acts as an adverbial or adjective, modifying the main clause or noun, using 'verb + ing'.",
+    "explanationKo": "주어절이나 명사에 대한 설명으로 사용되며 '동사 + ing' 형태로 표현됩니다.",
+    "examples": [
+      "{'sentence': 'But sweetening it with honey, sugar, or vanilla made it popular.', 'segment': 'sweetening it with honey'}",
+      "{'sentence': 'Inventing milk chocolate revolutionized the industry.', 'segment': 'Inventing milk chocolate'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Infinitive Phrase",
+    "explanation": "Expresses purpose, result, or additional information, using 'to + base verb'.",
+    "explanationKo": "목적, 결과, 또는 추가 정보를 표현하기 위해 'to + 원형 동사'를 사용합니다.",
+    "examples": [
+      "{'sentence': \"To create the solid chocolate we know today, Van Houten's invention was crucial.\", 'segment': 'To create the solid chocolate'}",
+      "{'sentence': 'Take a moment to consider that not everything about chocolate is sweet.', 'segment': 'to consider that'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Time Adverbial Clause",
+    "explanation": "Indicates when an action happened, introduced by 'when', 'while', or 'as'.",
+    "explanationKo": "행동이 언제 일어났는지를 나타내기 위해 'when', 'while', 또는 'as'로 시작하는 부사절을 사용합니다.",
+    "examples": [
+      "{'sentence': 'When Hernán Cortés visited the court of Montezuma at Tenochtitlan, he saw the Aztec empire.', 'segment': 'When Hernán Cortés visited'}",
+      "{'sentence': 'While I was studying, I received a call from my friend.', 'segment': 'While I was studying'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Past Participle Phrase",
+    "explanation": "Acts as an adjective or adverb, describing a noun or modifying the main clause, using 'verb + ed'.",
+    "explanationKo": "명사에 대한 설명이나 주어절을 수정하는 부사절로 사용되며 '동사 + ed' 형태로 표현됩니다.",
+    "examples": [
+      "{'sentence': \"As recorded by Cortés' lieutenant, the Aztecs had a complex society.\", 'segment': \"As recorded by Cortés' lieutenant\"}",
+      "{'sentence': 'Gave it a reputation as an aphrodisiac, the accounts spread rapidly.', 'segment': 'Gave it a reputation'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Prepositional Phrase",
+    "explanation": "Describes relationships between nouns, verbs, or adjectives, introduced by a preposition.",
+    "explanationKo": "명사, 동사, 혹은 형용사 간의 관계를 설명하기 위해 전치사로 시작되는 부사절을 사용합니다.",
+    "examples": [
+      "{'sentence': 'Due to its colonial association with native cultures, chocolate became a symbol of power.', 'segment': 'Due to its colonial association'}",
+      "{'sentence': 'Combined with the power of advertising, chocolate became a global icon.', 'segment': 'Combined with the power'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Simple Past Tense",
+    "explanation": "Describes completed actions in the past, using the base verb form with 'ed' for regular verbs.",
+    "explanationKo": "과거에 완료된 행동을 나타내기 위해 기본형 동사에 'ed'를 붙여 표현합니다.",
+    "examples": [
+      "{'sentence': 'Aztecs used cacao beans as currency.', 'segment': 'used cacao beans'}",
+      "{'sentence': 'The Aztecs built a great empire in Mesoamerica.', 'segment': 'built a great empire'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Modal Verb + Base Verb",
+    "explanation": "Expresses ability, permission, or possibility, using a modal verb followed by the base form of the verb.",
+    "explanationKo": "능력, 허락, 가능성 등을 표현하기 위해 모달 동사와 원형 동사를 함께 사용합니다.",
+    "examples": [
+      "{'sentence': \"Van Houten's invention could separate the cocoa's natural fat.\", 'segment': 'could separate'}",
+      "{'sentence': 'You should study harder if you want to pass the exam.', 'segment': 'should study'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Adverbial Phrase with 'as far back as'",
+    "explanation": "Describes a time period, using 'as far back as' to indicate how long ago something happened.",
+    "explanationKo": "어떤 사건이 얼마나 오래전에 일어났는지를 나타내기 위해 'as far back as'를 사용합니다.",
+    "examples": [
+      "{'sentence': 'As far back as the 16th century, chocolate was used in Europe.', 'segment': 'As far back as the 16th century'}",
+      "{'sentence': 'The tradition dates back as far as the Mayan civilization.', 'segment': 'as far as the Mayan civilization'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Simple Tense",
+    "explanation": "Describes general truths, habitual actions, or facts, using the base form of the verb.",
+    "explanationKo": "일반적인 진실, 습관적인 행동, 또는 사실을 나타내기 위해 기본형 동사를 사용합니다.",
+    "examples": [
+      "{'sentence': 'Cocoa plants use slave and child labor in some regions.', 'segment': 'use slave and child labor'}",
+      "{'sentence': 'The sun rises in the east every day.', 'segment': 'rises in the east'}"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Conditional Sentences",
+    "explanation": "Expresses hypothetical situations, using 'if' to introduce a condition and a result.",
+    "explanationKo": "가상의 상황을 표현하기 위해 'if'로 조건을 시작하고 결과를 나타냅니다.",
+    "examples": [
+      "{'sentence': 'If chocolate were free, everyone would eat it.', 'segment': 'If chocolate were free'}",
+      "{'sentence': 'If I had known about the festival, I would have come.', 'segment': 'If I had known'}"
+    ],
+    "segmentIndex": 0
+  }
+]

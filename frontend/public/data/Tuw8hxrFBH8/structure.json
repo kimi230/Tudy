@@ -1,0 +1,154 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 1,
+      "summary": "Steve Jobs opens by stating he will share three stories from his life, setting a simple and direct tone for the speech.",
+      "summaryKo": "스티브 잡스가 자신의 인생에서 세 가지 이야기를 나누겠다고 말하며, 연설의 간결하고 직접적인 톤을 설정합니다.",
+      "keyPoints": ["세 가지 이야기 구조 제시", "겸손하고 친근한 도입"]
+    },
+    {
+      "section": "Story 1: Connecting the Dots - Birth & Adoption",
+      "startSegment": 1,
+      "endSegment": 12,
+      "summary": "Jobs shares the story of his adoption, explaining how his biological mother wanted him raised by college graduates, and the circumstances that led to his adoption by his parents.",
+      "summaryKo": "잡스가 입양 이야기를 나누며, 생모가 대학 졸업자에 의해 양육되기를 원했던 것과 부모님에게 입양되기까지의 상황을 설명합니다.",
+      "keyPoints": ["생모의 입양 결정", "입양 부모의 대학 진학 약속", "운명적인 시작"]
+    },
+    {
+      "section": "Story 1: Connecting the Dots - Dropping Out",
+      "startSegment": 13,
+      "endSegment": 25,
+      "summary": "Jobs describes his decision to drop out of Reed College due to the financial burden and lack of direction, and how dropping in on classes he enjoyed (like calligraphy) proved valuable later.",
+      "summaryKo": "잡스가 재정적 부담과 방향 부재로 리드 대학을 중퇴한 결정과, 서예 같은 좋아하는 수업에 청강한 것이 나중에 가치 있는 것으로 입증된 과정을 설명합니다.",
+      "keyPoints": ["등록금 부담으로 인한 중퇴 결정", "청강생으로서의 경험", "호기심과 직감을 따르는 삶"]
+    },
+    {
+      "section": "Story 1: Connecting the Dots - Calligraphy & Mac",
+      "startSegment": 26,
+      "endSegment": 38,
+      "summary": "Jobs connects his calligraphy education at Reed to the typography of the Macintosh, showing how seemingly unrelated experiences became foundational to Apple's innovation.",
+      "summaryKo": "잡스가 리드에서의 서예 교육을 매킨토시의 타이포그래피와 연결하며, 관련 없어 보이는 경험이 애플의 혁신의 기반이 된 과정을 보여줍니다.",
+      "keyPoints": ["서예 수업의 영향", "매킨토시의 아름다운 타이포그래피", "예상치 못한 연결"]
+    },
+    {
+      "section": "Story 1: Connecting the Dots - Lesson",
+      "startSegment": 39,
+      "endSegment": 44,
+      "summary": "Jobs delivers the key lesson: you cannot connect the dots looking forward, only backward. You must trust that things will work out, follow your heart, and believe the dots will connect.",
+      "summaryKo": "잡스가 핵심 교훈을 전달합니다: 앞을 보며 점을 연결할 수 없고, 뒤돌아볼 때만 가능합니다. 모든 것이 잘 될 것을 믿고, 마음을 따르고, 점들이 연결될 것을 믿어야 합니다.",
+      "keyPoints": ["점 연결은 뒤돌아볼 때만 가능", "직감과 마음을 신뢰하라", "잘 닦인 길을 벗어나는 용기"]
+    },
+    {
+      "section": "Story 2: Love and Loss - Apple's Rise",
+      "startSegment": 45,
+      "endSegment": 52,
+      "summary": "Jobs recounts building Apple from a garage to a $2 billion company, then being fired at age 30 after a power struggle with the board of directors.",
+      "summaryKo": "잡스가 차고에서 시작해 20억 달러 회사로 애플을 키운 후, 이사회와의 권력 다툼 끝에 30세에 해고된 이야기를 전합니다.",
+      "keyPoints": ["차고에서 시작한 애플의 성장", "경영진 갈등", "30세에 해고"]
+    },
+    {
+      "section": "Story 2: Love and Loss - Devastation & Recovery",
+      "startSegment": 53,
+      "endSegment": 68,
+      "summary": "Jobs describes the devastation of being fired, how he considered leaving Silicon Valley, but eventually started NeXT and Pixar, and returned to Apple through a remarkable turn of events.",
+      "summaryKo": "잡스가 해고의 충격, 실리콘 밸리를 떠나려 했던 것, 결국 넥스트와 픽사를 시작한 것, 그리고 놀라운 반전으로 애플에 복귀한 과정을 설명합니다.",
+      "keyPoints": ["해고의 충격과 좌절", "넥스트와 픽사 설립", "애플 복귀와 르네상스"]
+    },
+    {
+      "section": "Story 2: Love and Loss - Lesson",
+      "startSegment": 69,
+      "endSegment": 76,
+      "summary": "Jobs shares the lesson: don't lose faith, find what you love, and don't settle. Great work comes from loving what you do, and this applies to careers and relationships alike.",
+      "summaryKo": "잡스가 교훈을 나눕니다: 신념을 잃지 말고, 사랑하는 것을 찾고, 안주하지 마세요. 위대한 일은 하는 일을 사랑하는 데서 나오며, 이는 직업과 관계 모두에 적용됩니다.",
+      "keyPoints": ["사랑하는 일을 찾으라", "안주하지 말라", "위대한 일은 사랑에서 나온다"]
+    },
+    {
+      "section": "Story 3: Death - Living with Awareness",
+      "startSegment": 77,
+      "endSegment": 86,
+      "summary": "Jobs shares how confronting mortality shaped his daily decisions. He describes his habit of asking whether he would still want to do today's activities if it were his last day.",
+      "summaryKo": "잡스가 죽음에 대한 인식이 일상의 결정을 어떻게 형성했는지 나눕니다. 오늘이 마지막 날이라면 오늘의 활동을 여전히 하고 싶은지 묻는 습관을 설명합니다.",
+      "keyPoints": ["매일 거울 앞에서의 질문", "죽음 앞에서 사라지는 두려움", "이미 잃을 것이 없다는 깨달음"]
+    },
+    {
+      "section": "Story 3: Death - Death as Life's Invention",
+      "startSegment": 87,
+      "endSegment": 91,
+      "summary": "Jobs reflects on death as life's greatest invention and change agent, clearing out the old to make way for the new.",
+      "summaryKo": "잡스가 죽음을 생명의 가장 위대한 발명이자 변화의 동력으로 성찰하며, 낡은 것을 치우고 새것을 위한 자리를 만드는 것으로 설명합니다.",
+      "keyPoints": ["죽음은 생명의 변화 동력", "낡은 것을 치우고 새것을 위한 자리", "삶의 순환"]
+    },
+    {
+      "section": "Conclusion - Follow Your Heart",
+      "startSegment": 92,
+      "endSegment": 96,
+      "summary": "Jobs concludes with his most powerful advice: don't waste time living someone else's life, don't be trapped by dogma, follow your heart and intuition, and stay hungry, stay foolish.",
+      "summaryKo": "잡스가 가장 강력한 조언으로 마무리합니다: 다른 사람의 인생을 사는 데 시간을 낭비하지 말고, 독단에 갇히지 말고, 마음과 직감을 따르고, 항상 갈망하고 우직하게 나아가세요.",
+      "keyPoints": ["시간 낭비하지 말라", "독단에 갇히지 말라", "마음과 직감을 따르라", "Stay hungry. Stay foolish."]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "Today I want to tell you three stories from my life.",
+      "type": "hook",
+      "segmentIndex": 0,
+      "role": "연설의 구조를 미리 알려주는 도입부. 청중에게 세 가지 이야기를 예고하여 기대감을 형성합니다."
+    },
+    {
+      "expression": "The first story is about connecting the dots.",
+      "type": "transition",
+      "segmentIndex": 1,
+      "role": "첫 번째 이야기로의 전환. 주제를 명확히 제시하여 청중이 따라갈 수 있도록 합니다."
+    },
+    {
+      "expression": "Let me give you one example.",
+      "type": "transition",
+      "segmentIndex": 25,
+      "role": "추상적인 주장에서 구체적인 사례로 전환. 청중의 이해를 돕기 위한 신호입니다."
+    },
+    {
+      "expression": "Again, you can't connect the dots looking forward.",
+      "type": "transition",
+      "segmentIndex": 40,
+      "role": "핵심 메시지를 반복하여 강조하는 전환 표현. 이야기에서 교훈으로 넘어가는 신호입니다."
+    },
+    {
+      "expression": "My second story is about love and loss.",
+      "type": "transition",
+      "segmentIndex": 45,
+      "role": "두 번째 이야기로의 전환. 새로운 주제를 명확히 제시합니다."
+    },
+    {
+      "expression": "In a remarkable turn of events",
+      "type": "transition",
+      "segmentIndex": 66,
+      "role": "이야기의 극적인 반전을 알리는 전환 표현. 청중의 관심을 다시 집중시킵니다."
+    },
+    {
+      "expression": "If you haven't found it yet, keep looking and don't settle.",
+      "type": "conclusion",
+      "segmentIndex": 74,
+      "role": "두 번째 이야기의 핵심 교훈을 전달하는 결론 표현. 청중에게 직접적인 조언을 합니다."
+    },
+    {
+      "expression": "My third story is about death.",
+      "type": "transition",
+      "segmentIndex": 77,
+      "role": "세 번째이자 마지막 이야기로의 전환. 가장 무거운 주제를 담담하게 소개합니다."
+    },
+    {
+      "expression": "Your time is limited, so don't waste it living someone else's life.",
+      "type": "conclusion",
+      "segmentIndex": 92,
+      "role": "연설의 최종 메시지를 전달하는 결론부. 모든 이야기를 하나의 교훈으로 종합합니다."
+    },
+    {
+      "expression": "Stay hungry. Stay foolish.",
+      "type": "conclusion",
+      "segmentIndex": 96,
+      "role": "연설의 마지막 문장이자 가장 유명한 인용구. 간결하면서도 강렬한 마무리로 청중에게 깊은 인상을 남깁니다."
+    }
+  ]
+}

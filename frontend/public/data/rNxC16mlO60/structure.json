@@ -1,0 +1,90 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 14,
+      "summary": "The speaker introduces the concept of a plank challenge, describing the physical and mental strain involved, and sets up the story of George Hood's world record for the longest plank. This establishes the topic of mental toughness and physical endurance.",
+      "summaryKo": "말하는 사람은 플랭크 운동의 고통을 묘사하며, 기록을 세운 조지 후드의 이야기를 소개하여 정신적 강함과 신체적 견고함의 주제를 설정합니다.",
+      "keyPoints": [
+        "Plank challenge as a metaphor for mental toughness",
+        "George Hood's world record of 10 hours",
+        "Introduction of the concept of grit"
+      ]
+    },
+    {
+      "section": "Main Argument (BDNF and Science)",
+      "startSegment": 15,
+      "endSegment": 30,
+      "summary": "The speaker transitions to explaining brain-derived neurotrophic factor (BDNF), a protein linked to mental resilience and memory, and its connection to physical exercise like planking. This section bridges the plank challenge to scientific research.",
+      "summaryKo": "말하는 사람은 정신적 회복력과 기억력에 연결된 뇌 유도 신경성장 인자(BDNF)를 설명하며, 플랭크 운동과의 연결점을 강조합니다.",
+      "keyPoints": [
+        "BDNF as 'fertilizer for the brain'",
+        "Exercise as the most effective way to increase BDNF",
+        "Plank as a potential exercise for mental toughness"
+      ]
+    },
+    {
+      "section": "Examples and Case Studies",
+      "startSegment": 31,
+      "endSegment": 55,
+      "summary": "The speaker presents real-life examples of individuals (George Hood and Daniel) who demonstrate grit and the role of BDNF in overcoming severe physical and mental challenges, including chronic pain and disability.",
+      "summaryKo": "말하는 사람은 조지 후드와 다니엘과 같은 실제 사례를 통해 정신적 강함과 BDNF가 심각한 신체적/정신적 도전을 극복하는 데 어떻게 기여하는지 보여줍니다.",
+      "keyPoints": [
+        "George Hood's mental focus during the plank",
+        "Daniel's CRPS pain and his nine-hour plank",
+        "BDNF's role in resilience and pain management"
+      ]
+    },
+    {
+      "section": "Study Results and Conclusion",
+      "startSegment": 56,
+      "endSegment": 98,
+      "summary": "The speaker discusses recent research on BDNF and exercise, highlights the need for further studies, and concludes with a call to action for the audience to embrace planking as a tool for building grit and improving quality of life.",
+      "summaryKo": "말하는 사람은 BDNF와 운동에 대한 최신 연구를 언급하며, 추가 연구의 필요성을 강조하고, 청중에게 플랭크를 통해 정신적 강함을 키우는 도전을 제안합니다.",
+      "keyPoints": [
+        "2005 study on mental effort vs. physical exercise",
+        "Current study on CRPS and plank therapy",
+        "Call to action: 'Do a plank when you need grit'"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "You're about to hold a plank. Just 60 seconds.",
+      "type": "hook",
+      "segmentIndex": 1,
+      "role": "청중의 주의를 끌며 운동의 시작을 알리는 개요 제공"
+    },
+    {
+      "expression": "But there was something deeper happening here.",
+      "type": "transition",
+      "segmentIndex": 30,
+      "role": "주제 전환: 플랭크의 물리적 고통에서 정신적 과정으로 이동"
+    },
+    {
+      "expression": "What makes the concept of grit and BDNF so compelling to me",
+      "type": "transition",
+      "segmentIndex": 56,
+      "role": "새로운 주제로 전환: 실생활 사례와 연구 결과 소개"
+    },
+    {
+      "expression": "I'm here to raise awareness so that this relationship between exercise, BDNF, and improving the quality of life may be studied further.",
+      "type": "conclusion",
+      "segmentIndex": 90,
+      "role": "결론: 연구의 필요성 강조 및 메시지 요약"
+    },
+    {
+      "expression": "Now, I'm going to leave you with the challenge.",
+      "type": "conclusion",
+      "segmentIndex": 95,
+      "role": "청중에게 행동을 유도하는 마무리 메시지"
+    },
+    {
+      "expression": "Now, think about that for a minute.",
+      "type": "emphasis",
+      "segmentIndex": 54,
+      "role": "청중의 사고를 유도하며 주제를 강조"
+    }
+  ]
+}

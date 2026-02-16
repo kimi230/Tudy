@@ -1,0 +1,162 @@
+{
+  "sections": [
+    {
+      "section": "intro",
+      "startSegment": 0,
+      "endSegment": 5,
+      "summary": "The narrator introduces the history of computing and how exponential growth in processing power is now hitting physical limits as components approach atomic scale.",
+      "summaryKo": "컴퓨팅의 역사를 소개하고, 처리 능력의 기하급수적 성장이 부품이 원자 크기에 접근하면서 물리적 한계에 부딪히고 있다고 설명해.",
+      "keyPoints": [
+        "Computer power has grown exponentially since the 1960s",
+        "Parts are approaching the size of an atom",
+        "This creates a fundamental problem for further progress"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 6,
+      "endSegment": 16,
+      "summary": "Explains the basic building blocks of traditional computers: transistors, logic gates, and modules. Uses the analogy of seven-year-olds doing simple math to show how simple operations combine into complex computing.",
+      "summaryKo": "기존 컴퓨터의 기본 구성 요소인 트랜지스터, 논리 게이트, 모듈을 설명해. 간단한 수학을 하는 7살짜리 아이들에 비유해서 단순한 연산이 어떻게 복잡한 컴퓨팅이 되는지 보여줘.",
+      "keyPoints": [
+        "Computers consist of transistors, logic gates, and modules",
+        "Transistors are simple on/off switches processing bits",
+        "Complex calculations emerge from combining simple operations"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 17,
+      "endSegment": 24,
+      "summary": "Explains why miniaturization causes problems at the quantum level. Quantum tunneling allows electrons to bypass barriers, breaking traditional computing. Scientists respond by developing quantum computers.",
+      "summaryKo": "소형화가 양자 수준에서 왜 문제를 일으키는지 설명해. 양자 터널링으로 전자가 장벽을 통과할 수 있어서 기존 컴퓨팅이 작동하지 않게 돼. 과학자들은 양자 컴퓨터를 개발해 대응하고 있어.",
+      "keyPoints": [
+        "At atomic scale, quantum tunneling lets electrons pass through barriers",
+        "Traditional computers stop working reliably at this scale",
+        "Scientists aim to harness quantum properties for quantum computers"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 25,
+      "endSegment": 37,
+      "summary": "Introduces qubits and the concept of superposition. Unlike classical bits, qubits can exist in multiple states simultaneously, allowing exponential growth in parallel computation.",
+      "summaryKo": "큐비트와 중첩의 개념을 소개해. 고전적 비트와 달리 큐비트는 여러 상태에 동시에 존재할 수 있어서 병렬 계산이 기하급수적으로 증가할 수 있어.",
+      "keyPoints": [
+        "Qubits can be in superposition of both 0 and 1 simultaneously",
+        "Measurement collapses the superposition to a definite state",
+        "20 qubits can store a million values in parallel"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 38,
+      "endSegment": 47,
+      "summary": "Covers entanglement, quantum gates, and how quantum computing works in practice. Entangled qubits react to each other instantaneously, and quantum gates manipulate superpositions to perform massive parallel calculations.",
+      "summaryKo": "얽힘, 양자 게이트, 양자 컴퓨팅의 실제 작동 방식을 다뤄. 얽힌 큐비트는 서로 즉각적으로 반응하고, 양자 게이트는 중첩을 조작해서 대규모 병렬 계산을 수행해.",
+      "keyPoints": [
+        "Entanglement links qubits so measuring one reveals the other's state",
+        "Quantum gates manipulate superpositions and probabilities",
+        "Superposition and entanglement enable exponentially more efficient computation"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 48,
+      "endSegment": 61,
+      "summary": "Presents practical applications of quantum computers: database searching with Grover's algorithm, breaking encryption systems, and simulating quantum physics for drug discovery and materials science.",
+      "summaryKo": "양자 컴퓨터의 실용적 응용 분야를 소개해: 그로버 알고리즘을 이용한 데이터베이스 검색, 암호화 시스템 해독, 신약 개발과 재료 과학을 위한 양자 물리학 시뮬레이션.",
+      "keyPoints": [
+        "Database searching becomes vastly faster with quantum algorithms",
+        "Public-key encryption could be broken by quantum speed-up",
+        "Quantum simulations could revolutionize medicine through protein modeling"
+      ]
+    },
+    {
+      "section": "conclusion",
+      "startSegment": 62,
+      "endSegment": 64,
+      "summary": "The narrator concludes by acknowledging that the future of quantum computing is uncertain — it may be a specialized tool or a transformative revolution — and emphasizes the spirit of exploration.",
+      "summaryKo": "양자 컴퓨팅의 미래가 불확실하다는 점을 인정하며 마무리해. 전문적인 도구가 될 수도 있고 혁명이 될 수도 있으며, 탐구 정신을 강조해.",
+      "keyPoints": [
+        "The ultimate impact of quantum computers remains unknown",
+        "They could be specialized tools or a revolution for humanity",
+        "The only way to find out is to keep pushing forward"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "For most of our history",
+      "type": "transition",
+      "segmentIndex": 0,
+      "role": "역사적 맥락을 설정하며 이야기를 시작해요"
+    },
+    {
+      "expression": "But this process is about to meet its physical limits",
+      "type": "emphasis",
+      "segmentIndex": 3,
+      "role": "핵심 문제를 예고하며 긴박감을 조성해요"
+    },
+    {
+      "expression": "To understand why this is a problem, we have to clear up some basics",
+      "type": "transition",
+      "segmentIndex": 5,
+      "role": "기본 개념 설명으로 전환하며 청중을 안내해요"
+    },
+    {
+      "expression": "However, with parts getting tinier and tinier",
+      "type": "transition",
+      "segmentIndex": 17,
+      "role": "양자 문제로의 전환을 알리는 역접 표현이에요"
+    },
+    {
+      "expression": "In a nutshell",
+      "type": "summary",
+      "segmentIndex": 18,
+      "role": "복잡한 개념을 간결하게 요약하겠다는 신호예요"
+    },
+    {
+      "expression": "To solve this problem, scientists are trying to",
+      "type": "transition",
+      "segmentIndex": 24,
+      "role": "문제에서 해결책으로 전환하며 양자 컴퓨터를 소개해요"
+    },
+    {
+      "expression": "This is called superposition",
+      "type": "emphasis",
+      "segmentIndex": 30,
+      "role": "핵심 용어를 정의하며 개념을 명확하게 해요"
+    },
+    {
+      "expression": "Superposition is a game-changer",
+      "type": "emphasis",
+      "segmentIndex": 33,
+      "role": "중첩의 중요성을 강조하며 실질적 의미를 설명하기 시작해요"
+    },
+    {
+      "expression": "What this means is that",
+      "type": "summary",
+      "segmentIndex": 45,
+      "role": "복잡한 설명을 실질적인 의미로 바꿔 설명해요"
+    },
+    {
+      "expression": "So while quantum computers will probably not replace our home computers",
+      "type": "transition",
+      "segmentIndex": 48,
+      "role": "이론에서 실제 응용 분야로 전환하며 기대를 조정해요"
+    },
+    {
+      "expression": "Another really exciting new use is",
+      "type": "transition",
+      "segmentIndex": 57,
+      "role": "새로운 응용 분야로 자연스럽게 전환해요"
+    },
+    {
+      "expression": "We have no idea where the limits of technology are",
+      "type": "summary",
+      "segmentIndex": 64,
+      "role": "전체 영상을 마무리하며 열린 결론으로 끝내요"
+    }
+  ]
+}

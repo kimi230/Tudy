@@ -1,0 +1,129 @@
+[
+  {
+    "pattern": "It turns out (that) + clause",
+    "explanation": "Used to introduce a surprising or newly discovered fact. 'It turns out' signals that reality is different from what was expected or believed.",
+    "explanationKo": "놀랍거나 새로 발견된 사실을 소개할 때 사용합니다. 'It turns out'은 현실이 예상이나 믿음과 다르다는 것을 나타냅니다.",
+    "examples": [
+      "And it turns out that nothing could be farther from the truth.",
+      "It turns out that even when you're at rest and thinking of nothing, your brain is highly active.",
+      "It turns out to be very difficult to help the brain recover from stroke."
+    ],
+    "segmentIndex": 16
+  },
+  {
+    "pattern": "What we call + noun (Appositive/Defining Expression)",
+    "explanation": "Used to introduce or define a technical term or concept by renaming it in simpler or more formal terms. Common in academic and explanatory speaking.",
+    "explanationKo": "기술 용어나 개념을 더 간단하거나 공식적인 용어로 재명명하여 소개하거나 정의할 때 사용합니다. 학술적이고 설명적인 말하기에서 흔합니다.",
+    "examples": [
+      "It's something we call neuroplasticity.",
+      "Between brain cells, what we call neurons.",
+      "So there are certain characteristics of brain structure and function that we call biomarkers."
+    ],
+    "segmentIndex": 25
+  },
+  {
+    "pattern": "The more/increased X, the more Y (Comparative Correlation)",
+    "explanation": "Expresses a proportional relationship where an increase in one factor leads to an increase in another. Often used to emphasize cause and effect.",
+    "explanationKo": "한 요소의 증가가 다른 요소의 증가로 이어지는 비례 관계를 표현합니다. 인과 관계를 강조할 때 자주 사용됩니다.",
+    "examples": [
+      "Increased difficulty, increased struggle, if you will, during practice actually leads to both more learning and greater structural change in the brain."
+    ],
+    "segmentIndex": 124
+  },
+  {
+    "pattern": "Rhetorical Questions for Engagement",
+    "explanation": "Questions posed not to elicit answers but to engage the audience and introduce a new topic. Very common in TED talks and public speaking.",
+    "explanationKo": "답을 이끌어내기 위해서가 아니라 청중의 관심을 끌고 새로운 주제를 소개하기 위해 던지는 질문입니다. TED 강연과 대중 연설에서 매우 흔합니다.",
+    "examples": [
+      "So how do we learn? And why do some of us learn things more easily than others?",
+      "Why do our kids sometimes fail in school?",
+      "And why don't people fully recover from brain damage?"
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "Not only A but also B (Additive Emphasis)",
+    "explanation": "Used to add a second, often more surprising or important point to the first. Creates emphasis by pairing two ideas together.",
+    "explanationKo": "첫 번째 포인트에 두 번째, 종종 더 놀랍거나 중요한 포인트를 추가할 때 사용합니다. 두 가지 아이디어를 짝지어 강조를 만듭니다.",
+    "examples": [
+      "It's being shaped both structurally and functionally by everything you do, but also by everything that you don't do.",
+      "The uniqueness of your brain will affect you, both as a learner and also as a teacher."
+    ],
+    "segmentIndex": 130
+  },
+  {
+    "pattern": "Present Perfect for Research Results",
+    "explanation": "The present perfect tense is used to describe research findings that remain relevant to the present. Common in academic discourse to connect past discoveries with current understanding.",
+    "explanationKo": "현재와 관련이 있는 연구 결과를 설명할 때 현재완료 시제를 사용합니다. 학술적 담론에서 과거의 발견을 현재의 이해와 연결할 때 흔합니다.",
+    "examples": [
+      "What we know about the brain is changing at a breathtaking pace.",
+      "And research from my group actually shows that the health-related quality of life of Canadians with stroke has declined.",
+      "By studying the brain after stroke, we've learned a lot."
+    ],
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "Passive Voice in Scientific Explanation",
+    "explanation": "The passive voice shifts focus from the agent to the action or result, which is typical in scientific discourse to maintain objectivity.",
+    "explanationKo": "수동태는 행위자에서 행위나 결과로 초점을 옮기며, 객관성을 유지하기 위해 과학적 담론에서 일반적입니다.",
+    "examples": [
+      "These changes are not limited by age.",
+      "Medical intervention studies are specifically designed to minimize variability.",
+      "Your plastic brain is constantly being shaped by the world around you."
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "Conditional/Hypothetical with 'if' clauses",
+    "explanation": "Uses 'if' clauses to set up conditions for discussing brain-related scenarios, often mixing real and hypothetical conditions in academic speaking.",
+    "explanationKo": "뇌 관련 시나리오를 논의하기 위한 조건을 설정할 때 'if' 절을 사용하며, 학술적 말하기에서 현실적 조건과 가정적 조건을 혼합하는 경우가 많습니다.",
+    "examples": [
+      "Which is on the left side of your brain, if you're right-handed, is larger than the other side.",
+      "So for you, learning music may come very easily, but learning to snowboard, much harder."
+    ],
+    "segmentIndex": 69
+  },
+  {
+    "pattern": "Discourse Markers for Structure (So, Now, And)",
+    "explanation": "Words like 'so', 'now', and 'and' at the beginning of sentences serve as discourse markers to signal transitions between topics, add new information, or draw conclusions.",
+    "explanationKo": "'so', 'now', 'and'와 같은 단어들이 문장 시작에서 담화 표지로 사용되어 주제 간 전환, 새 정보 추가, 또는 결론 도출을 나타냅니다.",
+    "examples": [
+      "So brain research is one of the great frontiers.",
+      "Now, some of these misconceptions are more obvious than others.",
+      "And perhaps the most exciting, the most interesting and transformative."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Imperative for Call to Action",
+    "explanation": "Direct commands used at the end of the talk to motivate the audience to take action. Creates urgency and personal engagement.",
+    "explanationKo": "강연 끝에서 청중에게 행동을 촉구하기 위해 사용하는 직접 명령문입니다. 긴급감과 개인적 참여를 만듭니다.",
+    "examples": [
+      "Study how and what you learn best.",
+      "Repeat those behaviors that are healthy for your brain and break those behaviors and habits that are not.",
+      "Go out and build the brain you want."
+    ],
+    "segmentIndex": 166
+  },
+  {
+    "pattern": "Cleft Sentences for Emphasis (It is/was...that)",
+    "explanation": "A cleft sentence splits a simple clause to emphasize one particular element, bringing focus to key information.",
+    "explanationKo": "분열문(cleft sentence)은 단순 절을 나누어 특정 요소를 강조하며, 핵심 정보에 초점을 맞춥니다.",
+    "examples": [
+      "That is, what is it that limits and facilitates neuroplasticity?",
+      "It's these physical changes that are now going to support long-term memories."
+    ],
+    "segmentIndex": 60
+  },
+  {
+    "pattern": "Hedging Language (may, can, tend to)",
+    "explanation": "Modal verbs and hedging expressions soften claims and avoid absolute statements, which is a key feature of academic English.",
+    "explanationKo": "조동사와 완화 표현은 주장을 부드럽게 하고 절대적 진술을 피하며, 이는 학술 영어의 핵심 특징입니다.",
+    "examples": [
+      "For some of us, it's going to take a lot more practice and for others it may take far less.",
+      "As we age, do we tend to forget things?",
+      "Learning music may come very easily, but learning to snowboard, much harder."
+    ],
+    "segmentIndex": 136
+  }
+]

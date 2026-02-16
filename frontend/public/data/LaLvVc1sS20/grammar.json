@@ -1,0 +1,97 @@
+[
+  {
+    "pattern": "Past participle phrase as modifier (spent + V-ing)",
+    "explanation": "A past participle phrase modifies a noun, adding descriptive information. 'Spent roaming' describes how the day was occupied.",
+    "explanationKo": "과거분사구가 명사를 수식하며 추가 정보를 제공해요. 'spent roaming'은 하루를 어떻게 보냈는지 설명하는 구조로, '~하며 보낸'이라고 해석해요.",
+    "examples": [
+      "During a long day spent roaming the forest in search of edible grains and herbs."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Before + subject + could + verb (temporal clause)",
+    "explanation": "Used to describe an action that almost happened but was prevented. It creates suspense by showing what nearly occurred before an interruption.",
+    "explanationKo": "'before + 주어 + could + 동사'는 어떤 일이 일어나기 직전에 다른 일이 개입했음을 나타내요. '~하기 전에'라는 의미로 긴장감을 만들어요.",
+    "examples": [
+      "But before the poisons could end his life, a leaf drifted into his mouth."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "As early as + time expression",
+    "explanation": "Used to emphasize that something happened surprisingly long ago. It highlights the ancient or early nature of an event.",
+    "explanationKo": "'as early as + 시간 표현'은 어떤 일이 놀라울 정도로 오래전에 일어났음을 강조할 때 사용해요. '무려 ~이나 이른 시기에'라는 의미예요.",
+    "examples": [
+      "Tea was first cultivated there as early as 6,000 years ago.",
+      "Or 1,500 years before the pharaohs built the Great Pyramids of Giza."
+    ],
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "Passive voice: was/were + past participle",
+    "explanation": "Used when the focus is on the action or result rather than the doer. Common in historical narratives and academic descriptions.",
+    "explanationKo": "수동태(be동사 + 과거분사)는 행위자보다 행동이나 결과에 초점을 맞출 때 사용해요. 역사 서술과 학술적 설명에서 자주 쓰이며, '~되었다'로 해석해요.",
+    "examples": [
+      "It was eaten as a vegetable or cooked with grain porridge.",
+      "Tea was the subject of books and poetry."
+    ],
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "Would + verb (past habitual / narrative future)",
+    "explanation": "Used in narratives to describe repeated actions in the past or to indicate future events from a past perspective.",
+    "explanationKo": "'would + 동사원형'은 과거의 반복적 행동을 서술하거나, 과거 시점에서 미래를 이야기할 때 사용해요. '~하곤 했다' 또는 '~하게 될 것이었다'라는 의미예요.",
+    "examples": [
+      "They would draw extravagant pictures in the foam of the tea."
+    ],
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "Leading to + noun (result clause with present participle)",
+    "explanation": "A participial phrase that indicates a result or consequence of a previous action. It smoothly connects cause and effect.",
+    "explanationKo": "'leading to + 명사'는 이전 행동의 결과나 귀결을 나타내는 분사구예요. 원인과 결과를 자연스럽게 연결하며, '~으로 이어졌다'라는 의미예요.",
+    "examples": [
+      "Leading to the creation of the Japanese tea ceremony."
+    ],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "So + adjective + that + clause (result clause)",
+    "explanation": "Used to express cause and effect: the degree of something is so great that it produces a specific result.",
+    "explanationKo": "'so + 형용사/부사 + that + 절'은 정도가 너무 커서 특정 결과를 초래함을 표현해요. '너무 ~해서 …하다'라는 의미의 인과관계 구조예요.",
+    "examples": [
+      "The tea trade was so lucrative that the world's fastest sailboat, the Clipper Ship, was born.",
+      "Matcha became so popular that a distinct Chinese tea culture emerged."
+    ],
+    "segmentIndex": 39
+  },
+  {
+    "pattern": "When + clause (temporal transition in narrative)",
+    "explanation": "Used to indicate the specific time or condition under which an event occurred. It is a key structure for organizing chronological narratives.",
+    "explanationKo": "'when + 절'은 특정 사건이 발생한 시점이나 조건을 나타내요. 시간 순서에 따른 서술을 정리하는 핵심 구조로, '~했을 때'라는 의미예요.",
+    "examples": [
+      "When that proved too expensive, they suggested trading tea for another substance.",
+      "When the defeated Qing Dynasty ceded the port of Hong Kong to the British."
+    ],
+    "segmentIndex": 43
+  },
+  {
+    "pattern": "Present participle phrase as adverbial (helping drive...)",
+    "explanation": "A present participle phrase used to add information about how or why something happened, functioning as an adverbial modifier.",
+    "explanationKo": "현재분사구가 부사적으로 쓰여 어떤 일이 어떻게 또는 왜 일어났는지 부가 설명을 해요. '~하면서, ~하여'라는 의미로 간결하게 정보를 덧붙여요.",
+    "examples": [
+      "Helping drive tea's rapid growth as an everyday commodity.",
+      "Making tea one of three essential Chinese export goods."
+    ],
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "From A to B (range/contrast structure)",
+    "explanation": "Used to show the full range or variety of something by presenting two contrasting extremes. It emphasizes diversity.",
+    "explanationKo": "'from A to B'는 두 가지 대조적인 극단을 제시하여 범위나 다양성을 보여주는 구조예요. 'A에서 B까지'라는 의미로 다양성을 강조해요.",
+    "examples": [
+      "And from sugary Turkish Riza tea to salty Tibetan butter tea."
+    ],
+    "segmentIndex": 58
+  }
+]

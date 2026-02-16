@@ -1,0 +1,24 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Temporary / large files
+scripts/.tmp/
+scripts/__pycache__/
+
+# Intermediate processing data
+frontend/public/data/**/_raw_*.json
+frontend/public/data/**/_clean_*.json
+frontend/public/data/**/_translated_*.json
+
+# Screenshots
+screenshots/
+
+# OS / IDE
+.DS_Store
+.env
+.vscode/
+.idea/
+*.sw?

@@ -1,0 +1,162 @@
+[
+  {
+    "type": "linking",
+    "originalText": "dropped out of",
+    "phonetic": "/drɑːptˈaʊdəv/",
+    "koreanPhonetic": "드랍타우러브",
+    "explanation": "The final 't' in 'dropped' links to the vowel 'ou' in 'out', and 'out' links to 'of' with the 't' connecting to the vowel.",
+    "explanationKo": "'dropped'의 마지막 't'가 'out'의 모음 'ou'와 연결되고, 'out'은 't'가 'of'의 모음에 연결됩니다.",
+    "practiceGuide": "'드랍-타우-러브'처럼 세 단어를 끊지 않고 자연스럽게 이어서 발음하세요.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɑːnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in casual and natural speech. The 't' sounds are dropped entirely.",
+    "explanationKo": "'want to'는 일상적이고 자연스러운 말에서 보통 'wanna'로 축약됩니다. 't' 소리가 완전히 탈락합니다.",
+    "practiceGuide": "'워나'로 빠르게 발음하세요. 'I wanna tell you' 처럼 연습하세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡʌnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is frequently reduced to 'gonna' in natural speech, especially when expressing future intentions.",
+    "explanationKo": "'going to'는 자연스러운 말에서 자주 'gonna'로 축약됩니다. 특히 미래 의도를 표현할 때 그렇습니다.",
+    "practiceGuide": "'거나'로 빠르게 발음하세요. 'Life's gonna hit you' 처럼 연습하세요.",
+    "segmentIndex": 69
+  },
+  {
+    "type": "linking",
+    "originalText": "connect the dots",
+    "phonetic": "/kəˈnɛktðəˈdɑːts/",
+    "koreanPhonetic": "커넥더닷츠",
+    "explanation": "The final 't' in 'connect' links smoothly to 'the', which is reduced. The phrase flows as one unit.",
+    "explanationKo": "'connect'의 마지막 't'가 축약된 'the'로 부드럽게 연결됩니다. 전체 구문이 하나의 단위처럼 흐릅니다.",
+    "practiceGuide": "'커넥-더-닷츠'를 하나의 덩어리로 빠르게 발음하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "elision",
+    "originalText": "last minute",
+    "phonetic": "/ˈlæsˈmɪnɪt/",
+    "koreanPhonetic": "래스미닛",
+    "explanation": "The 't' at the end of 'last' is often dropped (elided) before the 'm' in 'minute', as both are consonant sounds.",
+    "explanationKo": "'last'의 끝에 있는 't'가 'minute'의 'm' 앞에서 종종 탈락합니다. 둘 다 자음이기 때문입니다.",
+    "practiceGuide": "'래스미닛'처럼 't'를 생략하고 발음하세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "assimilation",
+    "originalText": "would you",
+    "phonetic": "/ˈwʊdʒuː/",
+    "koreanPhonetic": "우쥬",
+    "explanation": "The 'd' in 'would' and the 'y' in 'you' combine through assimilation to produce a /dʒ/ sound, like 'j'.",
+    "explanationKo": "'would'의 'd'와 'you'의 'y'가 동화 현상으로 합쳐져서 'j'와 같은 /dʒ/ 소리를 냅니다.",
+    "practiceGuide": "'우쥬'처럼 'd'와 'y'를 합쳐서 'j' 소리로 발음하세요. 'Would you want him?'을 연습하세요.",
+    "segmentIndex": 80
+  },
+  {
+    "type": "reduction",
+    "originalText": "you've got to",
+    "phonetic": "/juːvˈɡɑːɾə/",
+    "koreanPhonetic": "유브가러",
+    "explanation": "'Got to' is reduced to 'gotta' in natural speech. The 've' is also often barely audible.",
+    "explanationKo": "'got to'는 자연스러운 말에서 'gotta'로 축약됩니다. 've'도 거의 들리지 않는 경우가 많습니다.",
+    "practiceGuide": "'유브-가러'로 빠르게 발음하세요. 'You've gotta find what you love.'를 연습하세요.",
+    "segmentIndex": 71
+  },
+  {
+    "type": "linking",
+    "originalText": "turned out to be",
+    "phonetic": "/ˈtɜːrndˈaʊɾəbi/",
+    "koreanPhonetic": "턴다우러비",
+    "explanation": "The 'd' in 'turned' links to the vowel in 'out', and 'out' links through a flapped 't' to 'to be'. The entire phrase flows continuously.",
+    "explanationKo": "'turned'의 'd'가 'out'의 모음에 연결되고, 'out'은 플랩 't'를 통해 'to be'로 연결됩니다. 전체 구문이 연속적으로 흐릅니다.",
+    "practiceGuide": "'턴-다우-러-비'처럼 끊지 않고 이어서 발음하세요.",
+    "segmentIndex": 25
+  },
+  {
+    "type": "elision",
+    "originalText": "don't know",
+    "phonetic": "/doʊnoʊ/",
+    "koreanPhonetic": "도노",
+    "explanation": "The 't' in 'don't' is frequently elided before the 'n' in 'know', and the phrase can sound like 'dunno'.",
+    "explanationKo": "'don't'의 't'가 'know'의 'n' 앞에서 자주 탈락하여, 'dunno'처럼 들릴 수 있습니다.",
+    "practiceGuide": "'도노' 또는 '더노'처럼 발음하세요. 'I don't know what to do'를 빠르게 연습하세요.",
+    "segmentIndex": 54
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɑːɾəv/",
+    "koreanPhonetic": "얼라러브",
+    "explanation": "The 't' in 'lot' becomes a flap /ɾ/ between vowels, and 'of' reduces to /əv/. The phrase flows as one unit.",
+    "explanationKo": "'lot'의 't'가 모음 사이에서 플랩 /ɾ/로 변하고, 'of'는 /əv/로 축약됩니다. 전체가 하나의 단위로 흐릅니다.",
+    "practiceGuide": "'얼-라-러브'처럼 빠르게 한 덩어리로 발음하세요.",
+    "segmentIndex": 72
+  },
+  {
+    "type": "linking",
+    "originalText": "figure it out",
+    "phonetic": "/ˈfɪɡjərɪɾaʊt/",
+    "koreanPhonetic": "피겨리라웃",
+    "explanation": "The 'r' in 'figure' links to the vowel in 'it', and the 't' in 'it' becomes a flap before the vowel in 'out'.",
+    "explanationKo": "'figure'의 'r'이 'it'의 모음에 연결되고, 'it'의 't'는 'out'의 모음 앞에서 플랩으로 변합니다.",
+    "practiceGuide": "'피겨-리-라웃'처럼 세 단어를 끊지 않고 이어서 발음하세요.",
+    "segmentIndex": 16
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in the",
+    "phonetic": "/ɪnðə/",
+    "koreanPhonetic": "인더",
+    "explanation": "The 'n' in 'in' assimilates with 'the', with the tongue staying in position for the dental 'th' sound. The two words blend together.",
+    "explanationKo": "'in'의 'n'이 'the'와 동화되어 혀가 치음 'th' 소리를 위한 위치에 머무릅니다. 두 단어가 함께 섞입니다.",
+    "practiceGuide": "'인더'처럼 자연스럽게 연결하세요. 'in the mirror', 'in the face of death' 등에서 연습하세요.",
+    "segmentIndex": 79
+  },
+  {
+    "type": "reduction",
+    "originalText": "I would",
+    "phonetic": "/aɪd/",
+    "koreanPhonetic": "아이드",
+    "explanation": "'I would' contracts to 'I'd' in natural speech. The 'woul-' portion is completely dropped.",
+    "explanationKo": "'I would'는 자연스러운 말에서 'I'd'로 축약됩니다. 'woul-' 부분이 완전히 탈락합니다.",
+    "practiceGuide": "'아이드'로 빠르게 발음하세요. 'I'd just turned 30' 처럼 연습하세요.",
+    "segmentIndex": 48
+  },
+  {
+    "type": "linking",
+    "originalText": "make all the difference",
+    "phonetic": "/meɪkˈɔːlðəˈdɪfrəns/",
+    "koreanPhonetic": "메이콜더디프런스",
+    "explanation": "The 'k' in 'make' links directly to the vowel in 'all', and 'all' connects smoothly to the reduced 'the'.",
+    "explanationKo": "'make'의 'k'가 'all'의 모음에 직접 연결되고, 'all'은 축약된 'the'에 부드럽게 연결됩니다.",
+    "practiceGuide": "'메이-콜-더-디프런스'로 하나의 흐름처럼 발음하세요.",
+    "segmentIndex": 44
+  },
+  {
+    "type": "elision",
+    "originalText": "best decisions",
+    "phonetic": "/ˈbɛsˈdɪsɪʒənz/",
+    "koreanPhonetic": "베스디시전즈",
+    "explanation": "The 't' in 'best' is often elided before the 'd' in 'decisions', as the tongue moves directly from 's' to 'd'.",
+    "explanationKo": "'best'의 't'가 'decisions'의 'd' 앞에서 종종 탈락합니다. 혀가 's'에서 바로 'd'로 이동하기 때문입니다.",
+    "practiceGuide": "'베스-디시전즈'처럼 't'를 생략하고 발음하세요.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪndə/",
+    "koreanPhonetic": "카인다",
+    "explanation": "'Kind of' is often reduced to 'kinda' in casual speech. The 'of' reduces to just a schwa sound.",
+    "explanationKo": "'kind of'는 일상 대화에서 'kinda'로 축약되는 경우가 많습니다. 'of'가 슈와 소리로만 축약됩니다.",
+    "practiceGuide": "'카인다'로 빠르게 발음하세요.",
+    "segmentIndex": 0
+  }
+]

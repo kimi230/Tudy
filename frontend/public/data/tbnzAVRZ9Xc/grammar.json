@@ -1,0 +1,102 @@
+[
+  {
+    "pattern": "Nothing ... unless + clause",
+    "explanation": "Used to express that something has no value or meaning except under a specific condition. 'Unless' introduces the only exception.",
+    "explanationKo": "'Nothing ... unless + 절'은 특정 조건이 아니면 아무런 가치가 없다는 것을 강하게 표현할 때 사용해요. 'unless'는 유일한 예외를 소개해요.",
+    "examples": [
+      "Nothing in life is worthwhile unless you take risks."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Don't be afraid to + verb",
+    "explanation": "An imperative structure used to encourage someone to take action without fear. It directly addresses the listener and motivates them.",
+    "explanationKo": "'Don't be afraid to + 동사원형'은 두려워하지 말고 행동하라고 격려하는 명령문이에요. 듣는 사람에게 직접적으로 동기를 부여하는 표현이에요.",
+    "examples": [
+      "Don't be afraid to fail.",
+      "Don't be afraid to think outside the box.",
+      "Don't be afraid to fail big, to dream big."
+    ],
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "Dreams without goals are just dreams",
+    "explanation": "A 'without' structure that defines a necessary condition. It emphasizes that one element alone is insufficient and needs another to have meaning.",
+    "explanationKo": "'without'을 사용하여 필수 조건을 정의하는 구조예요. 한 가지 요소만으로는 충분하지 않고 다른 것이 함께해야 의미가 있다는 것을 강조해요.",
+    "examples": [
+      "Dreams without goals are just dreams.",
+      "Without consistency, you'll never finish."
+    ],
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "You will + verb (future certainty)",
+    "explanation": "Used to state something as an absolute certainty about the future. The speaker presents failure and loss as unavoidable facts, not possibilities.",
+    "explanationKo": "'You will + 동사원형'은 미래에 대한 절대적 확신을 표현할 때 사용해요. 화자가 실패와 상실을 가능성이 아닌 피할 수 없는 사실로 제시해요.",
+    "examples": [
+      "You will fail at some point in your life.",
+      "You will lose.",
+      "You will embarrass yourself."
+    ],
+    "segmentIndex": 17
+  },
+  {
+    "pattern": "Here's the thing / Here's the kicker",
+    "explanation": "A discourse marker used to introduce an important or surprising point. It signals that the speaker is about to reveal something the listener should pay special attention to.",
+    "explanationKo": "'Here's the thing / Here's the kicker'는 중요하거나 놀라운 요점을 소개할 때 쓰는 담화 표지예요. 듣는 사람이 특별히 주목해야 할 내용을 알려주는 신호예요.",
+    "examples": [
+      "But here's the thing. I didn't quit.",
+      "But here's the kicker."
+    ],
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "To get something you never had, you have to do something you never did",
+    "explanation": "A parallel structure using 'something you never + past tense' in both parts. It creates a memorable rhetorical balance and emphasizes the need for new action.",
+    "explanationKo": "두 부분 모두에서 'something you never + 과거시제'를 사용하는 대구법이에요. 기억에 남는 수사적 균형을 만들어 새로운 행동의 필요성을 강조해요.",
+    "examples": [
+      "To get something you never had, you have to do something you never did."
+    ],
+    "segmentIndex": 30
+  },
+  {
+    "pattern": "Imagine + clause (imperative for visualization)",
+    "explanation": "The imperative 'imagine' followed by a scenario to create a vivid mental picture. Used to engage the audience emotionally by making them visualize a situation.",
+    "explanationKo": "'Imagine + 절'은 생생한 정신적 이미지를 만들기 위한 명령문이에요. 청중이 상황을 시각화하게 해서 감정적으로 참여시키는 데 사용해요.",
+    "examples": [
+      "Imagine you're on your deathbed.",
+      "And standing around your deathbed are the ghosts representing your unfulfilled potential."
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "You've got to + verb (strong obligation)",
+    "explanation": "An informal way to express strong necessity or obligation. More emphatic than 'you should' and conveys urgency.",
+    "explanationKo": "'You've got to + 동사원형'은 강한 필요성이나 의무를 표현하는 비격식적 표현이에요. 'you should'보다 더 강하고 긴급함을 전달해요.",
+    "examples": [
+      "You've got to take risks.",
+      "You got to get out there.",
+      "You got to give it everything you got."
+    ],
+    "segmentIndex": 16
+  },
+  {
+    "pattern": "Whether it's A, B, or C (listing alternatives)",
+    "explanation": "Used to present multiple options or possibilities, emphasizing that the statement applies regardless of which alternative is true.",
+    "explanationKo": "'Whether it's A, B, or C'는 여러 선택지나 가능성을 제시할 때 사용해요. 어떤 대안이 사실이든 해당 내용이 적용됨을 강조해요.",
+    "examples": [
+      "Whether it's your time, your talent, your prayers, or your treasures."
+    ],
+    "segmentIndex": 44
+  },
+  {
+    "pattern": "What are you going to do with what you have?",
+    "explanation": "A rhetorical question using 'what + be going to' repeated for emphasis. It challenges the listener to reflect on their own resources and actions.",
+    "explanationKo": "반복적으로 사용하는 수사적 질문이에요. 'what + be going to' 구조로 듣는 사람에게 자신의 자원과 행동에 대해 성찰하도록 도전해요.",
+    "examples": [
+      "What are you going to do with what you have?",
+      "I'm not talking about how much you have."
+    ],
+    "segmentIndex": 46
+  }
+]

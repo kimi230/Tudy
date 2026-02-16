@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "section": "intro",
+      "startSegment": 0,
+      "endSegment": 7,
+      "summary": "Beth and Neil introduce the topic. Neil is exhausted from a busy day while Beth has been doing nothing. Beth introduces the surprising idea that most animals spend most of their time being inactive, setting up the central question: why have animals evolved to do nothing, and could laziness benefit humans too?",
+      "summaryKo": "베스와 닐이 주제를 소개해요. 닐은 바쁜 하루에 지쳐 있는 반면 베스는 아무것도 하지 않고 있었어요. 베스는 대부분의 동물이 대부분의 시간을 비활동 상태로 보낸다는 놀라운 사실을 소개하며, 왜 동물들이 아무것도 하지 않도록 진화했는지, 게으름이 인간에게도 도움이 될 수 있는지라는 핵심 질문을 던져요.",
+      "keyPoints": [
+        "Contrast between Neil's busy day and Beth doing nothing",
+        "Most animals spend most of their time doing nothing",
+        "Central question: can laziness benefit humans?"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 8,
+      "endSegment": 12,
+      "summary": "Beth asks a quiz question about the slowest animal on earth. The discussion reveals that even ants, known for being busy, spend half their time doing nothing. Professor Dan Charbonneau's research on ant colonies is introduced.",
+      "summaryKo": "베스가 지구에서 가장 느린 동물에 대한 퀴즈를 내요. 부지런한 것으로 알려진 개미조차 절반의 시간을 아무것도 하지 않고 보낸다는 사실이 밝혀져요. 댄 샤르보노 교수의 개미 군체 연구가 소개돼요.",
+      "keyPoints": [
+        "Quiz: what is the slowest moving animal on earth?",
+        "Even busy ants spend half their time motionless",
+        "Introduction of Professor Dan Charbonneau's ant research"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 13,
+      "endSegment": 19,
+      "summary": "The expert discussion reveals that ants are viewed as symbols of industriousness, yet about half of any colony is inactive at any time. Possible explanations are explored: inactive ants may be reserves for emergencies, or they may simply not need to work. The parallel to human behaviour is drawn.",
+      "summaryKo": "전문가 토론에서 개미가 근면함의 상징으로 여겨지지만 실제로 군체의 약 절반이 항상 비활동 상태라는 것이 밝혀져요. 비활동 개미가 비상시를 위한 예비 인력일 수 있다는 가능한 설명이 탐구되고, 인간 행동과의 유사점이 제시돼요.",
+      "keyPoints": [
+        "Ants symbolize industriousness but half are inactive",
+        "Inactive ants may serve as reserves for emergencies",
+        "Parallel drawn to human reluctance to work unnecessarily"
+      ]
+    },
+    {
+      "section": "body",
+      "startSegment": 20,
+      "endSegment": 29,
+      "summary": "Psychologist Dr Sandy Mann argues that being productive is overrated and that boredom has important benefits. She suggests boredom fuels curiosity and invention, coining the idea 'boredom is the mother of invention.' However, constant stimulation from modern technology makes it harder to switch off. The paradox: to overcome boredom, we should actually allow more of it.",
+      "summaryKo": "심리학자 샌디 만 박사는 생산적인 것이 과대평가되어 있으며 지루함에 중요한 장점이 있다고 주장해요. 지루함이 호기심과 발명을 촉진한다며 '지루함이 발명의 어머니'라는 생각을 제시해요. 하지만 현대 기술의 끊임없는 자극이 머리를 쉬게 하는 것을 더 어렵게 만들어요. 역설: 지루함을 극복하려면 오히려 더 많은 지루함을 허용해야 해요.",
+      "keyPoints": [
+        "Being productive is overrated according to Dr Sandy Mann",
+        "Boredom fuels curiosity and invention",
+        "Modern technology's constant stimulation prevents switching off",
+        "Paradox: allow more boredom to overcome boredom"
+      ]
+    },
+    {
+      "section": "conclusion",
+      "startSegment": 30,
+      "endSegment": 41,
+      "summary": "Beth reveals the quiz answer (three-toed sloth) and the presenters recap the key vocabulary: kicking back, industrious, colony, productive, necessity is the mother of invention, and switch off. The programme ends with a light-hearted encouragement to do nothing.",
+      "summaryKo": "베스가 퀴즈 정답(세 발가락 나무늘보)을 공개하고 진행자들이 핵심 어휘를 복습해요: kicking back, industrious, colony, productive, necessity is the mother of invention, switch off. 프로그램은 아무것도 하지 말라는 가벼운 격려로 마무리돼요.",
+      "keyPoints": [
+        "Quiz answer: three-toed sloth (30cm per minute, algae grows on coat)",
+        "Vocabulary recap of six key terms",
+        "Light-hearted closing: encouragement to do nothing"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "Phew, I've spent a day in meetings",
+      "type": "emphasis",
+      "segmentIndex": 1,
+      "role": "바쁜 일상을 생생하게 보여주며 주제(아무것도 하지 않기)와의 대비를 만들어요"
+    },
+    {
+      "expression": "It may not look it, Neil, but",
+      "type": "transition",
+      "segmentIndex": 5,
+      "role": "겉보기와 실제의 차이를 소개하며 동물 세계의 놀라운 사실로 전환해요"
+    },
+    {
+      "expression": "But the surprising truth is",
+      "type": "emphasis",
+      "segmentIndex": 6,
+      "role": "청중의 기대를 뒤집는 핵심 사실을 강조하며 소개해요"
+    },
+    {
+      "expression": "That's what we'll be discussing in this programme",
+      "type": "transition",
+      "segmentIndex": 7,
+      "role": "프로그램의 방향을 안내하며 본격적인 논의로 전환해요"
+    },
+    {
+      "expression": "But first, let me work up the energy to ask you a question",
+      "type": "transition",
+      "segmentIndex": 8,
+      "role": "유머러스하게 퀴즈 코너를 소개하며 주제와 연결해요"
+    },
+    {
+      "expression": "Here's Professor Dan Charbonneau",
+      "type": "transition",
+      "segmentIndex": 11,
+      "role": "외부 전문가의 목소리를 도입하며 과학적 근거로 전환해요"
+    },
+    {
+      "expression": "But then when you look at it",
+      "type": "transition",
+      "segmentIndex": 15,
+      "role": "이상과 현실의 차이를 드러내며 놀라운 연구 결과로 전환해요"
+    },
+    {
+      "expression": "Not according to psychologist Dr Sandy Mann",
+      "type": "transition",
+      "segmentIndex": 20,
+      "role": "새로운 전문가 관점을 소개하며 지루함의 장점이라는 새 소주제로 전환해요"
+    },
+    {
+      "expression": "But in this world of constant stimulation",
+      "type": "transition",
+      "segmentIndex": 24,
+      "role": "이론에서 현대 사회의 현실적 문제로 전환해요"
+    },
+    {
+      "expression": "So it's a kind of paradox",
+      "type": "summary",
+      "segmentIndex": 26,
+      "role": "앞선 논의를 역설적 결론으로 요약하며 핵심 메시지를 전달해요"
+    },
+    {
+      "expression": "I think now is a good time to reveal the answer",
+      "type": "transition",
+      "segmentIndex": 30,
+      "role": "본론에서 마무리 단계로 자연스럽게 전환해요"
+    },
+    {
+      "expression": "OK, let's recap the vocabulary",
+      "type": "summary",
+      "segmentIndex": 33,
+      "role": "프로그램의 학습 목표를 정리하며 어휘 복습 코너로 전환해요"
+    }
+  ]
+}

@@ -1,0 +1,7689 @@
+{
+  "videoId": "iuYlGRnC7J8",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.7,
+      "textEn": "This thing called planning has been around for a long, long time.",
+      "words": [
+        {
+          "word": "This",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "thing",
+          "start": 0.24,
+          "end": 0.54
+        },
+        {
+          "word": "called",
+          "start": 0.54,
+          "end": 0.8
+        },
+        {
+          "word": "planning",
+          "start": 0.8,
+          "end": 1.38
+        },
+        {
+          "word": "has",
+          "start": 1.38,
+          "end": 1.66
+        },
+        {
+          "word": "been",
+          "start": 1.66,
+          "end": 1.86
+        },
+        {
+          "word": "around",
+          "start": 1.86,
+          "end": 2.52
+        },
+        {
+          "word": "for",
+          "start": 2.52,
+          "end": 2.96
+        },
+        {
+          "word": "a",
+          "start": 2.96,
+          "end": 3.84
+        },
+        {
+          "word": "long,",
+          "start": 3.84,
+          "end": 4.04
+        },
+        {
+          "word": "long",
+          "start": 4.14,
+          "end": 4.26
+        },
+        {
+          "word": "time.",
+          "start": 4.26,
+          "end": 4.7
+        }
+      ],
+      "textKo": ""
+    },
+    {
+      "index": 1,
+      "start": 5.0,
+      "end": 9.0,
+      "textEn": "People would plan out the activities they're going to engage in.",
+      "words": [
+        {
+          "word": "People",
+          "start": 5.0,
+          "end": 5.4
+        },
+        {
+          "word": "would",
+          "start": 5.4,
+          "end": 5.64
+        },
+        {
+          "word": "plan",
+          "start": 5.64,
+          "end": 6.14
+        },
+        {
+          "word": "out",
+          "start": 6.14,
+          "end": 6.4
+        },
+        {
+          "word": "the",
+          "start": 6.4,
+          "end": 6.58
+        },
+        {
+          "word": "activities",
+          "start": 6.58,
+          "end": 7.06
+        },
+        {
+          "word": "they're",
+          "start": 7.06,
+          "end": 7.42
+        },
+        {
+          "word": "going",
+          "start": 7.42,
+          "end": 7.96
+        },
+        {
+          "word": "to",
+          "start": 7.96,
+          "end": 8.12
+        },
+        {
+          "word": "engage",
+          "start": 8.12,
+          "end": 8.6
+        },
+        {
+          "word": "in.",
+          "start": 8.6,
+          "end": 9.0
+        }
+      ],
+      "textKo": "사람들은 자기가 할 활동들을 계획하곤 했어."
+    },
+    {
+      "index": 2,
+      "start": 9.16,
+      "end": 12.48,
+      "textEn": "More recently, there's been a discipline called strategy.",
+      "words": [
+        {
+          "word": "More",
+          "start": 9.16,
+          "end": 9.6
+        },
+        {
+          "word": "recently,",
+          "start": 9.6,
+          "end": 10.06
+        },
+        {
+          "word": "there's",
+          "start": 10.34,
+          "end": 11.18
+        },
+        {
+          "word": "been",
+          "start": 11.18,
+          "end": 11.28
+        },
+        {
+          "word": "a",
+          "start": 11.28,
+          "end": 11.4
+        },
+        {
+          "word": "discipline",
+          "start": 11.4,
+          "end": 11.7
+        },
+        {
+          "word": "called",
+          "start": 11.7,
+          "end": 12.04
+        },
+        {
+          "word": "strategy.",
+          "start": 12.04,
+          "end": 12.48
+        }
+      ],
+      "textKo": "더 최근에는 전략이라는 학문이 생겼어."
+    },
+    {
+      "index": 3,
+      "start": 12.82,
+      "end": 16.8,
+      "textEn": "People have put those two things together to call something strategic planning.",
+      "words": [
+        {
+          "word": "People",
+          "start": 12.82,
+          "end": 13.1
+        },
+        {
+          "word": "have",
+          "start": 13.1,
+          "end": 13.28
+        },
+        {
+          "word": "put",
+          "start": 13.28,
+          "end": 13.5
+        },
+        {
+          "word": "those",
+          "start": 13.5,
+          "end": 13.74
+        },
+        {
+          "word": "two",
+          "start": 13.74,
+          "end": 13.9
+        },
+        {
+          "word": "things",
+          "start": 13.9,
+          "end": 14.14
+        },
+        {
+          "word": "together",
+          "start": 14.14,
+          "end": 14.48
+        },
+        {
+          "word": "to",
+          "start": 14.48,
+          "end": 14.76
+        },
+        {
+          "word": "call",
+          "start": 14.76,
+          "end": 15.02
+        },
+        {
+          "word": "something",
+          "start": 15.02,
+          "end": 15.44
+        },
+        {
+          "word": "strategic",
+          "start": 15.44,
+          "end": 15.9
+        },
+        {
+          "word": "planning.",
+          "start": 15.9,
+          "end": 16.8
+        }
+      ],
+      "textKo": "사람들은 이 두 가지를 합쳐서 전략적 계획이라고 부르기 시작했어."
+    },
+    {
+      "index": 4,
+      "start": 17.38,
+      "end": 23.68,
+      "textEn": "Unfortunately, those things are not the same, strategy and planning.",
+      "words": [
+        {
+          "word": "Unfortunately,",
+          "start": 17.38,
+          "end": 17.98
+        },
+        {
+          "word": "those",
+          "start": 18.4,
+          "end": 19.3
+        },
+        {
+          "word": "things",
+          "start": 19.3,
+          "end": 19.82
+        },
+        {
+          "word": "are",
+          "start": 19.82,
+          "end": 20.58
+        },
+        {
+          "word": "not",
+          "start": 20.58,
+          "end": 21.34
+        },
+        {
+          "word": "the",
+          "start": 21.34,
+          "end": 21.58
+        },
+        {
+          "word": "same,",
+          "start": 21.58,
+          "end": 22.08
+        },
+        {
+          "word": "strategy",
+          "start": 22.38,
+          "end": 23.02
+        },
+        {
+          "word": "and",
+          "start": 23.02,
+          "end": 23.36
+        },
+        {
+          "word": "planning.",
+          "start": 23.36,
+          "end": 23.68
+        }
+      ],
+      "textKo": "안타깝게도, 전략과 계획은 같은 게 아니야."
+    },
+    {
+      "index": 5,
+      "start": 23.88,
+      "end": 26.78,
+      "textEn": "So just putting them together and calling it strategic planning doesn't help.",
+      "words": [
+        {
+          "word": "So",
+          "start": 23.88,
+          "end": 23.92
+        },
+        {
+          "word": "just",
+          "start": 23.92,
+          "end": 24.08
+        },
+        {
+          "word": "putting",
+          "start": 24.08,
+          "end": 24.36
+        },
+        {
+          "word": "them",
+          "start": 24.36,
+          "end": 24.5
+        },
+        {
+          "word": "together",
+          "start": 24.5,
+          "end": 24.76
+        },
+        {
+          "word": "and",
+          "start": 24.76,
+          "end": 24.92
+        },
+        {
+          "word": "calling",
+          "start": 24.92,
+          "end": 25.22
+        },
+        {
+          "word": "it",
+          "start": 25.22,
+          "end": 25.42
+        },
+        {
+          "word": "strategic",
+          "start": 25.42,
+          "end": 25.8
+        },
+        {
+          "word": "planning",
+          "start": 25.8,
+          "end": 26.2
+        },
+        {
+          "word": "doesn't",
+          "start": 26.2,
+          "end": 26.56
+        },
+        {
+          "word": "help.",
+          "start": 26.56,
+          "end": 26.78
+        }
+      ],
+      "textKo": "그래서 그냥 둘을 합쳐서 전략적 계획이라고 부르는 건 도움이 안 돼."
+    },
+    {
+      "index": 6,
+      "start": 26.78,
+      "end": 33.48,
+      "textEn": "What most strategic planning is in the world of business has nothing to do with strategy.",
+      "words": [
+        {
+          "word": "What",
+          "start": 26.78,
+          "end": 27.18
+        },
+        {
+          "word": "most",
+          "start": 27.18,
+          "end": 27.64
+        },
+        {
+          "word": "strategic",
+          "start": 27.64,
+          "end": 28.2
+        },
+        {
+          "word": "planning",
+          "start": 28.2,
+          "end": 28.62
+        },
+        {
+          "word": "is",
+          "start": 28.62,
+          "end": 29.42
+        },
+        {
+          "word": "in",
+          "start": 29.42,
+          "end": 29.82
+        },
+        {
+          "word": "the",
+          "start": 29.82,
+          "end": 29.98
+        },
+        {
+          "word": "world",
+          "start": 29.98,
+          "end": 30.2
+        },
+        {
+          "word": "of",
+          "start": 30.2,
+          "end": 30.64
+        },
+        {
+          "word": "business",
+          "start": 30.64,
+          "end": 31.06
+        },
+        {
+          "word": "has",
+          "start": 31.06,
+          "end": 32.24
+        },
+        {
+          "word": "nothing",
+          "start": 32.24,
+          "end": 32.56
+        },
+        {
+          "word": "to",
+          "start": 32.56,
+          "end": 32.7
+        },
+        {
+          "word": "do",
+          "start": 32.7,
+          "end": 32.82
+        },
+        {
+          "word": "with",
+          "start": 32.82,
+          "end": 33.0
+        },
+        {
+          "word": "strategy.",
+          "start": 33.0,
+          "end": 33.48
+        }
+      ],
+      "textKo": "비즈니스 세계에서 대부분의 전략적 계획은 전략과 아무 관련이 없어."
+    },
+    {
+      "index": 7,
+      "start": 33.7,
+      "end": 41.1,
+      "textEn": "It's got the word, but it's not. It's a set of activities that the company says it's going to do.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 33.7,
+          "end": 33.98
+        },
+        {
+          "word": "got",
+          "start": 33.98,
+          "end": 34.08
+        },
+        {
+          "word": "the",
+          "start": 34.08,
+          "end": 34.18
+        },
+        {
+          "word": "word,",
+          "start": 34.18,
+          "end": 34.48
+        },
+        {
+          "word": "but",
+          "start": 34.68,
+          "end": 35.24
+        },
+        {
+          "word": "it's",
+          "start": 35.24,
+          "end": 35.38
+        },
+        {
+          "word": "not.",
+          "start": 35.38,
+          "end": 35.56
+        },
+        {
+          "word": "It's",
+          "start": 36.0,
+          "end": 36.58
+        },
+        {
+          "word": "a",
+          "start": 36.58,
+          "end": 36.72
+        },
+        {
+          "word": "set",
+          "start": 36.72,
+          "end": 37.08
+        },
+        {
+          "word": "of",
+          "start": 37.08,
+          "end": 37.36
+        },
+        {
+          "word": "activities",
+          "start": 37.36,
+          "end": 37.92
+        },
+        {
+          "word": "that",
+          "start": 37.92,
+          "end": 39.18
+        },
+        {
+          "word": "the",
+          "start": 39.18,
+          "end": 39.42
+        },
+        {
+          "word": "company",
+          "start": 39.42,
+          "end": 39.7
+        },
+        {
+          "word": "says",
+          "start": 39.7,
+          "end": 40.22
+        },
+        {
+          "word": "it's",
+          "start": 40.22,
+          "end": 40.56
+        },
+        {
+          "word": "going",
+          "start": 40.56,
+          "end": 40.72
+        },
+        {
+          "word": "to",
+          "start": 40.72,
+          "end": 40.86
+        },
+        {
+          "word": "do.",
+          "start": 40.86,
+          "end": 41.1
+        }
+      ],
+      "textKo": "이름에 그 단어가 들어가 있지만 전략이 아니야. 회사가 하겠다고 말하는 활동 목록일 뿐이야."
+    },
+    {
+      "index": 8,
+      "start": 41.24,
+      "end": 43.68,
+      "textEn": "We're going to improve customer experience.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 41.24,
+          "end": 41.56
+        },
+        {
+          "word": "going",
+          "start": 41.56,
+          "end": 41.66
+        },
+        {
+          "word": "to",
+          "start": 41.66,
+          "end": 41.76
+        },
+        {
+          "word": "improve",
+          "start": 41.76,
+          "end": 42.2
+        },
+        {
+          "word": "customer",
+          "start": 42.2,
+          "end": 42.8
+        },
+        {
+          "word": "experience.",
+          "start": 42.8,
+          "end": 43.68
+        }
+      ],
+      "textKo": "고객 경험을 개선할 거야."
+    },
+    {
+      "index": 9,
+      "start": 43.68,
+      "end": 51.96,
+      "textEn": "We're going to open this new plant. We're going to start a new talent development program, a whole list of them, and they all sound good.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 43.68,
+          "end": 44.1
+        },
+        {
+          "word": "going",
+          "start": 44.1,
+          "end": 44.24
+        },
+        {
+          "word": "to",
+          "start": 44.24,
+          "end": 44.4
+        },
+        {
+          "word": "open",
+          "start": 44.4,
+          "end": 44.72
+        },
+        {
+          "word": "this",
+          "start": 44.72,
+          "end": 45.02
+        },
+        {
+          "word": "new",
+          "start": 45.02,
+          "end": 45.22
+        },
+        {
+          "word": "plant.",
+          "start": 45.22,
+          "end": 45.62
+        },
+        {
+          "word": "We're",
+          "start": 45.62,
+          "end": 46.08
+        },
+        {
+          "word": "going",
+          "start": 46.08,
+          "end": 46.3
+        },
+        {
+          "word": "to",
+          "start": 46.3,
+          "end": 46.54
+        },
+        {
+          "word": "start",
+          "start": 46.54,
+          "end": 46.98
+        },
+        {
+          "word": "a",
+          "start": 46.98,
+          "end": 47.3
+        },
+        {
+          "word": "new",
+          "start": 47.3,
+          "end": 47.54
+        },
+        {
+          "word": "talent",
+          "start": 47.54,
+          "end": 47.92
+        },
+        {
+          "word": "development",
+          "start": 47.92,
+          "end": 48.38
+        },
+        {
+          "word": "program,",
+          "start": 48.38,
+          "end": 48.92
+        },
+        {
+          "word": "a",
+          "start": 49.1,
+          "end": 49.22
+        },
+        {
+          "word": "whole",
+          "start": 49.22,
+          "end": 49.46
+        },
+        {
+          "word": "list",
+          "start": 49.46,
+          "end": 49.96
+        },
+        {
+          "word": "of",
+          "start": 49.96,
+          "end": 50.1
+        },
+        {
+          "word": "them,",
+          "start": 50.1,
+          "end": 50.22
+        },
+        {
+          "word": "and",
+          "start": 50.3,
+          "end": 50.34
+        },
+        {
+          "word": "they",
+          "start": 50.34,
+          "end": 50.44
+        },
+        {
+          "word": "all",
+          "start": 50.44,
+          "end": 51.18
+        },
+        {
+          "word": "sound",
+          "start": 51.18,
+          "end": 51.56
+        },
+        {
+          "word": "good.",
+          "start": 51.56,
+          "end": 51.96
+        }
+      ],
+      "textKo": "새 공장을 열 거야. 새로운 인재 개발 프로그램을 시작할 거야. 이런 목록이 쭉 있는 거지, 다 좋아 보여."
+    },
+    {
+      "index": 10,
+      "start": 51.96,
+      "end": 59.32,
+      "textEn": "But the results of all of those are not going to make the company happy because they didn't have a strategy.",
+      "words": [
+        {
+          "word": "But",
+          "start": 51.96,
+          "end": 52.5
+        },
+        {
+          "word": "the",
+          "start": 52.5,
+          "end": 52.9
+        },
+        {
+          "word": "results",
+          "start": 52.9,
+          "end": 53.52
+        },
+        {
+          "word": "of",
+          "start": 53.52,
+          "end": 54.32
+        },
+        {
+          "word": "all",
+          "start": 54.32,
+          "end": 54.46
+        },
+        {
+          "word": "of",
+          "start": 54.46,
+          "end": 54.56
+        },
+        {
+          "word": "those",
+          "start": 54.56,
+          "end": 54.8
+        },
+        {
+          "word": "are",
+          "start": 54.8,
+          "end": 55.24
+        },
+        {
+          "word": "not",
+          "start": 55.24,
+          "end": 55.52
+        },
+        {
+          "word": "going",
+          "start": 55.52,
+          "end": 55.72
+        },
+        {
+          "word": "to",
+          "start": 55.72,
+          "end": 55.8
+        },
+        {
+          "word": "make",
+          "start": 55.8,
+          "end": 56.08
+        },
+        {
+          "word": "the",
+          "start": 56.08,
+          "end": 56.52
+        },
+        {
+          "word": "company",
+          "start": 56.52,
+          "end": 56.8
+        },
+        {
+          "word": "happy",
+          "start": 56.8,
+          "end": 57.14
+        },
+        {
+          "word": "because",
+          "start": 57.14,
+          "end": 57.52
+        },
+        {
+          "word": "they",
+          "start": 57.52,
+          "end": 58.16
+        },
+        {
+          "word": "didn't",
+          "start": 58.16,
+          "end": 58.42
+        },
+        {
+          "word": "have",
+          "start": 58.42,
+          "end": 58.58
+        },
+        {
+          "word": "a",
+          "start": 58.58,
+          "end": 58.78
+        },
+        {
+          "word": "strategy.",
+          "start": 58.78,
+          "end": 59.32
+        }
+      ],
+      "textKo": "하지만 그 결과가 회사를 만족시키지 못할 거야. 전략이 없었으니까."
+    },
+    {
+      "index": 11,
+      "start": 62.22,
+      "end": 73.22,
+      "textEn": "So what's a strategy? A strategy is an integrative set of choices that positions you on a playing field of your choice in a way that you win.",
+      "words": [
+        {
+          "word": "So",
+          "start": 62.22,
+          "end": 62.9
+        },
+        {
+          "word": "what's",
+          "start": 62.9,
+          "end": 63.32
+        },
+        {
+          "word": "a",
+          "start": 63.32,
+          "end": 63.46
+        },
+        {
+          "word": "strategy?",
+          "start": 63.46,
+          "end": 63.96
+        },
+        {
+          "word": "A",
+          "start": 64.3,
+          "end": 64.88
+        },
+        {
+          "word": "strategy",
+          "start": 64.88,
+          "end": 65.32
+        },
+        {
+          "word": "is",
+          "start": 65.32,
+          "end": 65.72
+        },
+        {
+          "word": "an",
+          "start": 65.72,
+          "end": 65.92
+        },
+        {
+          "word": "integrative",
+          "start": 65.92,
+          "end": 66.8
+        },
+        {
+          "word": "set",
+          "start": 66.8,
+          "end": 67.38
+        },
+        {
+          "word": "of",
+          "start": 67.38,
+          "end": 67.7
+        },
+        {
+          "word": "choices",
+          "start": 67.7,
+          "end": 68.16
+        },
+        {
+          "word": "that",
+          "start": 68.16,
+          "end": 68.98
+        },
+        {
+          "word": "positions",
+          "start": 68.98,
+          "end": 69.4
+        },
+        {
+          "word": "you",
+          "start": 69.4,
+          "end": 69.82
+        },
+        {
+          "word": "on",
+          "start": 69.82,
+          "end": 70.58
+        },
+        {
+          "word": "a",
+          "start": 70.58,
+          "end": 70.68
+        },
+        {
+          "word": "playing",
+          "start": 70.68,
+          "end": 70.94
+        },
+        {
+          "word": "field",
+          "start": 70.94,
+          "end": 71.2
+        },
+        {
+          "word": "of",
+          "start": 71.2,
+          "end": 71.36
+        },
+        {
+          "word": "your",
+          "start": 71.36,
+          "end": 71.48
+        },
+        {
+          "word": "choice",
+          "start": 71.48,
+          "end": 71.88
+        },
+        {
+          "word": "in",
+          "start": 71.88,
+          "end": 72.2
+        },
+        {
+          "word": "a",
+          "start": 72.2,
+          "end": 72.32
+        },
+        {
+          "word": "way",
+          "start": 72.32,
+          "end": 72.48
+        },
+        {
+          "word": "that",
+          "start": 72.48,
+          "end": 72.68
+        },
+        {
+          "word": "you",
+          "start": 72.68,
+          "end": 72.86
+        },
+        {
+          "word": "win.",
+          "start": 72.86,
+          "end": 73.22
+        }
+      ],
+      "textKo": "그러면 전략이 뭐야? 전략은 네가 선택한 경쟁의 장에서 이길 수 있도록 포지셔닝하는 통합적인 선택의 집합이야."
+    },
+    {
+      "index": 12,
+      "start": 73.44,
+      "end": 76.3,
+      "textEn": "So there's a theory. Strategy has a theory.",
+      "words": [
+        {
+          "word": "So",
+          "start": 73.44,
+          "end": 73.82
+        },
+        {
+          "word": "there's",
+          "start": 73.82,
+          "end": 74.1
+        },
+        {
+          "word": "a",
+          "start": 74.1,
+          "end": 74.24
+        },
+        {
+          "word": "theory.",
+          "start": 74.24,
+          "end": 74.74
+        },
+        {
+          "word": "Strategy",
+          "start": 75.0,
+          "end": 75.5
+        },
+        {
+          "word": "has",
+          "start": 75.5,
+          "end": 75.8
+        },
+        {
+          "word": "a",
+          "start": 75.8,
+          "end": 75.96
+        },
+        {
+          "word": "theory.",
+          "start": 75.96,
+          "end": 76.3
+        }
+      ],
+      "textKo": "그래서 이론이 있어. 전략에는 이론이 있어."
+    },
+    {
+      "index": 13,
+      "start": 77.02,
+      "end": 81.16,
+      "textEn": "Here's why we should be on this playing field, not this other one.",
+      "words": [
+        {
+          "word": "Here's",
+          "start": 77.02,
+          "end": 77.58
+        },
+        {
+          "word": "why",
+          "start": 77.58,
+          "end": 78.12
+        },
+        {
+          "word": "we",
+          "start": 78.12,
+          "end": 78.68
+        },
+        {
+          "word": "should",
+          "start": 78.68,
+          "end": 78.8
+        },
+        {
+          "word": "be",
+          "start": 78.8,
+          "end": 78.94
+        },
+        {
+          "word": "on",
+          "start": 78.94,
+          "end": 79.16
+        },
+        {
+          "word": "this",
+          "start": 79.16,
+          "end": 79.46
+        },
+        {
+          "word": "playing",
+          "start": 79.46,
+          "end": 79.74
+        },
+        {
+          "word": "field,",
+          "start": 79.74,
+          "end": 80.08
+        },
+        {
+          "word": "not",
+          "start": 80.24,
+          "end": 80.42
+        },
+        {
+          "word": "this",
+          "start": 80.42,
+          "end": 80.64
+        },
+        {
+          "word": "other",
+          "start": 80.64,
+          "end": 80.86
+        },
+        {
+          "word": "one.",
+          "start": 80.86,
+          "end": 81.16
+        }
+      ],
+      "textKo": "우리가 왜 다른 곳이 아닌 이 경쟁의 장에 있어야 하는지에 대한 이론이야."
+    },
+    {
+      "index": 14,
+      "start": 81.36,
+      "end": 90.42,
+      "textEn": "And here's how on that playing field we're going to be better than anybody else at serving the customers on that playing field.",
+      "words": [
+        {
+          "word": "And",
+          "start": 81.36,
+          "end": 81.86
+        },
+        {
+          "word": "here's",
+          "start": 81.86,
+          "end": 82.52
+        },
+        {
+          "word": "how",
+          "start": 82.52,
+          "end": 83.04
+        },
+        {
+          "word": "on",
+          "start": 83.04,
+          "end": 84.28
+        },
+        {
+          "word": "that",
+          "start": 84.28,
+          "end": 84.5
+        },
+        {
+          "word": "playing",
+          "start": 84.5,
+          "end": 84.76
+        },
+        {
+          "word": "field",
+          "start": 84.76,
+          "end": 85.04
+        },
+        {
+          "word": "we're",
+          "start": 85.04,
+          "end": 85.3
+        },
+        {
+          "word": "going",
+          "start": 85.3,
+          "end": 85.32
+        },
+        {
+          "word": "to",
+          "start": 85.32,
+          "end": 85.38
+        },
+        {
+          "word": "be",
+          "start": 85.38,
+          "end": 85.5
+        },
+        {
+          "word": "better",
+          "start": 85.5,
+          "end": 85.86
+        },
+        {
+          "word": "than",
+          "start": 85.86,
+          "end": 86.42
+        },
+        {
+          "word": "anybody",
+          "start": 86.42,
+          "end": 86.8
+        },
+        {
+          "word": "else",
+          "start": 86.8,
+          "end": 87.18
+        },
+        {
+          "word": "at",
+          "start": 87.18,
+          "end": 87.46
+        },
+        {
+          "word": "serving",
+          "start": 87.46,
+          "end": 87.86
+        },
+        {
+          "word": "the",
+          "start": 87.86,
+          "end": 88.28
+        },
+        {
+          "word": "customers",
+          "start": 88.28,
+          "end": 88.76
+        },
+        {
+          "word": "on",
+          "start": 88.76,
+          "end": 89.5
+        },
+        {
+          "word": "that",
+          "start": 89.5,
+          "end": 89.74
+        },
+        {
+          "word": "playing",
+          "start": 89.74,
+          "end": 90.06
+        },
+        {
+          "word": "field.",
+          "start": 90.06,
+          "end": 90.42
+        }
+      ],
+      "textKo": "그리고 그 경쟁의 장에서 어떻게 다른 누구보다 더 잘 고객을 만족시킬 수 있는지에 대한 거야."
+    },
+    {
+      "index": 15,
+      "start": 90.9,
+      "end": 92.94,
+      "textEn": "That theory has to be coherent.",
+      "words": [
+        {
+          "word": "That",
+          "start": 90.9,
+          "end": 91.46
+        },
+        {
+          "word": "theory",
+          "start": 91.46,
+          "end": 91.74
+        },
+        {
+          "word": "has",
+          "start": 91.74,
+          "end": 92.0
+        },
+        {
+          "word": "to",
+          "start": 92.0,
+          "end": 92.14
+        },
+        {
+          "word": "be",
+          "start": 92.14,
+          "end": 92.3
+        },
+        {
+          "word": "coherent.",
+          "start": 92.3,
+          "end": 92.94
+        }
+      ],
+      "textKo": "그 이론은 일관성이 있어야 해."
+    },
+    {
+      "index": 16,
+      "start": 93.22,
+      "end": 99.58,
+      "textEn": "It has to be doable. You have to be able to translate that into actions for it to be a great strategy.",
+      "words": [
+        {
+          "word": "It",
+          "start": 93.22,
+          "end": 93.64
+        },
+        {
+          "word": "has",
+          "start": 93.64,
+          "end": 93.8
+        },
+        {
+          "word": "to",
+          "start": 93.8,
+          "end": 93.94
+        },
+        {
+          "word": "be",
+          "start": 93.94,
+          "end": 94.16
+        },
+        {
+          "word": "doable.",
+          "start": 94.16,
+          "end": 94.82
+        },
+        {
+          "word": "You",
+          "start": 95.16,
+          "end": 95.46
+        },
+        {
+          "word": "have",
+          "start": 95.46,
+          "end": 95.6
+        },
+        {
+          "word": "to",
+          "start": 95.6,
+          "end": 95.7
+        },
+        {
+          "word": "be",
+          "start": 95.7,
+          "end": 95.8
+        },
+        {
+          "word": "able",
+          "start": 95.8,
+          "end": 95.94
+        },
+        {
+          "word": "to",
+          "start": 95.94,
+          "end": 96.08
+        },
+        {
+          "word": "translate",
+          "start": 96.08,
+          "end": 96.54
+        },
+        {
+          "word": "that",
+          "start": 96.54,
+          "end": 96.82
+        },
+        {
+          "word": "into",
+          "start": 96.82,
+          "end": 97.04
+        },
+        {
+          "word": "actions",
+          "start": 97.04,
+          "end": 97.52
+        },
+        {
+          "word": "for",
+          "start": 97.52,
+          "end": 98.2
+        },
+        {
+          "word": "it",
+          "start": 98.2,
+          "end": 98.32
+        },
+        {
+          "word": "to",
+          "start": 98.32,
+          "end": 98.4
+        },
+        {
+          "word": "be",
+          "start": 98.4,
+          "end": 98.52
+        },
+        {
+          "word": "a",
+          "start": 98.52,
+          "end": 98.66
+        },
+        {
+          "word": "great",
+          "start": 98.66,
+          "end": 98.92
+        },
+        {
+          "word": "strategy.",
+          "start": 98.92,
+          "end": 99.58
+        }
+      ],
+      "textKo": "실행 가능해야 하고. 훌륭한 전략이 되려면 그걸 행동으로 옮길 수 있어야 해."
+    },
+    {
+      "index": 17,
+      "start": 101.24,
+      "end": 103.96,
+      "textEn": "Planning does not have to have any such coherence.",
+      "words": [
+        {
+          "word": "Planning",
+          "start": 101.24,
+          "end": 101.72
+        },
+        {
+          "word": "does",
+          "start": 101.72,
+          "end": 102.2
+        },
+        {
+          "word": "not",
+          "start": 102.2,
+          "end": 102.38
+        },
+        {
+          "word": "have",
+          "start": 102.38,
+          "end": 102.56
+        },
+        {
+          "word": "to",
+          "start": 102.56,
+          "end": 102.66
+        },
+        {
+          "word": "have",
+          "start": 102.66,
+          "end": 102.8
+        },
+        {
+          "word": "any",
+          "start": 102.8,
+          "end": 103.04
+        },
+        {
+          "word": "such",
+          "start": 103.04,
+          "end": 103.3
+        },
+        {
+          "word": "coherence.",
+          "start": 103.3,
+          "end": 103.96
+        }
+      ],
+      "textKo": "계획은 그런 일관성이 전혀 필요 없어."
+    },
+    {
+      "index": 18,
+      "start": 104.22,
+      "end": 108.5,
+      "textEn": "And it typically is what people in manufacturing want, the few things.",
+      "words": [
+        {
+          "word": "And",
+          "start": 104.22,
+          "end": 104.7
+        },
+        {
+          "word": "it",
+          "start": 104.7,
+          "end": 104.82
+        },
+        {
+          "word": "typically",
+          "start": 104.82,
+          "end": 105.1
+        },
+        {
+          "word": "is",
+          "start": 105.1,
+          "end": 105.6
+        },
+        {
+          "word": "what",
+          "start": 105.6,
+          "end": 106.58
+        },
+        {
+          "word": "people",
+          "start": 106.58,
+          "end": 106.88
+        },
+        {
+          "word": "in",
+          "start": 106.88,
+          "end": 107.04
+        },
+        {
+          "word": "manufacturing",
+          "start": 107.04,
+          "end": 107.58
+        },
+        {
+          "word": "want,",
+          "start": 107.58,
+          "end": 107.92
+        },
+        {
+          "word": "the",
+          "start": 108.04,
+          "end": 108.12
+        },
+        {
+          "word": "few",
+          "start": 108.12,
+          "end": 108.28
+        },
+        {
+          "word": "things.",
+          "start": 108.28,
+          "end": 108.5
+        }
+      ],
+      "textKo": "보통은 제조 부서 사람들이 원하는 몇 가지가 있는 거야."
+    },
+    {
+      "index": 19,
+      "start": 108.6,
+      "end": 113.72,
+      "textEn": "They want to build a new plant, and the marketing people want to launch a new brand, and the talent people want to hire more people.",
+      "words": [
+        {
+          "word": "They",
+          "start": 108.6,
+          "end": 108.62
+        },
+        {
+          "word": "want",
+          "start": 108.62,
+          "end": 108.76
+        },
+        {
+          "word": "to",
+          "start": 108.76,
+          "end": 108.82
+        },
+        {
+          "word": "build",
+          "start": 108.82,
+          "end": 108.94
+        },
+        {
+          "word": "a",
+          "start": 108.94,
+          "end": 109.06
+        },
+        {
+          "word": "new",
+          "start": 109.06,
+          "end": 109.14
+        },
+        {
+          "word": "plant,",
+          "start": 109.14,
+          "end": 109.54
+        },
+        {
+          "word": "and",
+          "start": 109.68,
+          "end": 109.84
+        },
+        {
+          "word": "the",
+          "start": 109.84,
+          "end": 109.9
+        },
+        {
+          "word": "marketing",
+          "start": 109.9,
+          "end": 110.14
+        },
+        {
+          "word": "people",
+          "start": 110.14,
+          "end": 110.38
+        },
+        {
+          "word": "want",
+          "start": 110.38,
+          "end": 110.52
+        },
+        {
+          "word": "to",
+          "start": 110.52,
+          "end": 110.62
+        },
+        {
+          "word": "launch",
+          "start": 110.62,
+          "end": 110.8
+        },
+        {
+          "word": "a",
+          "start": 110.8,
+          "end": 110.88
+        },
+        {
+          "word": "new",
+          "start": 110.88,
+          "end": 110.98
+        },
+        {
+          "word": "brand,",
+          "start": 110.98,
+          "end": 111.36
+        },
+        {
+          "word": "and",
+          "start": 111.44,
+          "end": 111.7
+        },
+        {
+          "word": "the",
+          "start": 111.7,
+          "end": 111.8
+        },
+        {
+          "word": "talent",
+          "start": 111.8,
+          "end": 112.08
+        },
+        {
+          "word": "people",
+          "start": 112.08,
+          "end": 112.36
+        },
+        {
+          "word": "want",
+          "start": 112.36,
+          "end": 112.6
+        },
+        {
+          "word": "to",
+          "start": 112.6,
+          "end": 112.7
+        },
+        {
+          "word": "hire",
+          "start": 112.7,
+          "end": 113.12
+        },
+        {
+          "word": "more",
+          "start": 113.12,
+          "end": 113.32
+        },
+        {
+          "word": "people.",
+          "start": 113.32,
+          "end": 113.72
+        }
+      ],
+      "textKo": "새 공장을 짓고 싶고, 마케팅 부서는 새 브랜드를 출시하고 싶고, 인재 부서는 더 많은 사람을 뽑고 싶고."
+    },
+    {
+      "index": 20,
+      "start": 114.34,
+      "end": 128.92,
+      "textEn": "There tends to be a list that has no internal coherence to it and no specification of a way that that is going to accomplish collectively some goal for the company.",
+      "words": [
+        {
+          "word": "There",
+          "start": 114.34,
+          "end": 114.82
+        },
+        {
+          "word": "tends",
+          "start": 114.82,
+          "end": 115.08
+        },
+        {
+          "word": "to",
+          "start": 115.08,
+          "end": 115.24
+        },
+        {
+          "word": "be",
+          "start": 115.24,
+          "end": 115.38
+        },
+        {
+          "word": "a",
+          "start": 115.38,
+          "end": 115.62
+        },
+        {
+          "word": "list",
+          "start": 115.62,
+          "end": 115.98
+        },
+        {
+          "word": "that",
+          "start": 115.98,
+          "end": 116.68
+        },
+        {
+          "word": "has",
+          "start": 116.68,
+          "end": 116.98
+        },
+        {
+          "word": "no",
+          "start": 116.98,
+          "end": 117.36
+        },
+        {
+          "word": "internal",
+          "start": 117.36,
+          "end": 118.16
+        },
+        {
+          "word": "coherence",
+          "start": 118.16,
+          "end": 119.14
+        },
+        {
+          "word": "to",
+          "start": 119.14,
+          "end": 119.38
+        },
+        {
+          "word": "it",
+          "start": 119.38,
+          "end": 119.64
+        },
+        {
+          "word": "and",
+          "start": 119.64,
+          "end": 120.32
+        },
+        {
+          "word": "no",
+          "start": 120.32,
+          "end": 121.06
+        },
+        {
+          "word": "specification",
+          "start": 121.06,
+          "end": 122.44
+        },
+        {
+          "word": "of",
+          "start": 122.44,
+          "end": 123.28
+        },
+        {
+          "word": "a",
+          "start": 123.28,
+          "end": 123.58
+        },
+        {
+          "word": "way",
+          "start": 123.58,
+          "end": 124.02
+        },
+        {
+          "word": "that",
+          "start": 124.02,
+          "end": 124.62
+        },
+        {
+          "word": "that",
+          "start": 124.62,
+          "end": 124.78
+        },
+        {
+          "word": "is",
+          "start": 124.78,
+          "end": 125.02
+        },
+        {
+          "word": "going",
+          "start": 125.02,
+          "end": 125.2
+        },
+        {
+          "word": "to",
+          "start": 125.2,
+          "end": 125.38
+        },
+        {
+          "word": "accomplish",
+          "start": 125.38,
+          "end": 125.94
+        },
+        {
+          "word": "collectively",
+          "start": 125.94,
+          "end": 126.74
+        },
+        {
+          "word": "some",
+          "start": 126.74,
+          "end": 127.8
+        },
+        {
+          "word": "goal",
+          "start": 127.8,
+          "end": 128.14
+        },
+        {
+          "word": "for",
+          "start": 128.14,
+          "end": 128.48
+        },
+        {
+          "word": "the",
+          "start": 128.48,
+          "end": 128.6
+        },
+        {
+          "word": "company.",
+          "start": 128.6,
+          "end": 128.92
+        }
+      ],
+      "textKo": "내부적으로 일관성이 없고, 회사의 어떤 목표를 집합적으로 달성할 방법도 명시되어 있지 않은 목록이 되기 쉬워."
+    },
+    {
+      "index": 21,
+      "start": 130.94,
+      "end": 138.36,
+      "textEn": "Planning is quite comforting. Plans typically have to do with the resources you're going to spend.",
+      "words": [
+        {
+          "word": "Planning",
+          "start": 130.94,
+          "end": 131.56
+        },
+        {
+          "word": "is",
+          "start": 131.56,
+          "end": 131.8
+        },
+        {
+          "word": "quite",
+          "start": 131.8,
+          "end": 132.08
+        },
+        {
+          "word": "comforting.",
+          "start": 132.08,
+          "end": 132.86
+        },
+        {
+          "word": "Plans",
+          "start": 133.3,
+          "end": 133.92
+        },
+        {
+          "word": "typically",
+          "start": 133.92,
+          "end": 134.62
+        },
+        {
+          "word": "have",
+          "start": 134.62,
+          "end": 135.02
+        },
+        {
+          "word": "to",
+          "start": 135.02,
+          "end": 135.18
+        },
+        {
+          "word": "do",
+          "start": 135.18,
+          "end": 135.44
+        },
+        {
+          "word": "with",
+          "start": 135.44,
+          "end": 135.88
+        },
+        {
+          "word": "the",
+          "start": 135.88,
+          "end": 136.68
+        },
+        {
+          "word": "resources",
+          "start": 136.68,
+          "end": 137.54
+        },
+        {
+          "word": "you're",
+          "start": 137.54,
+          "end": 137.84
+        },
+        {
+          "word": "going",
+          "start": 137.84,
+          "end": 137.92
+        },
+        {
+          "word": "to",
+          "start": 137.92,
+          "end": 138.02
+        },
+        {
+          "word": "spend.",
+          "start": 138.02,
+          "end": 138.36
+        }
+      ],
+      "textKo": "계획은 꽤 편안해. 계획은 보통 쓸 자원에 관한 거야."
+    },
+    {
+      "index": 22,
+      "start": 138.86,
+      "end": 141.06,
+      "textEn": "So we're going to build a plant.",
+      "words": [
+        {
+          "word": "So",
+          "start": 138.86,
+          "end": 139.32
+        },
+        {
+          "word": "we're",
+          "start": 139.32,
+          "end": 139.6
+        },
+        {
+          "word": "going",
+          "start": 139.6,
+          "end": 139.76
+        },
+        {
+          "word": "to",
+          "start": 139.76,
+          "end": 139.94
+        },
+        {
+          "word": "build",
+          "start": 139.94,
+          "end": 140.38
+        },
+        {
+          "word": "a",
+          "start": 140.38,
+          "end": 140.7
+        },
+        {
+          "word": "plant.",
+          "start": 140.7,
+          "end": 141.06
+        }
+      ],
+      "textKo": "그래서 공장을 짓겠다는 거야."
+    },
+    {
+      "index": 23,
+      "start": 141.24,
+      "end": 145.18,
+      "textEn": "We're going to hire some people. We're going to launch a new product.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 141.24,
+          "end": 141.4
+        },
+        {
+          "word": "going",
+          "start": 141.4,
+          "end": 141.54
+        },
+        {
+          "word": "to",
+          "start": 141.54,
+          "end": 141.7
+        },
+        {
+          "word": "hire",
+          "start": 141.7,
+          "end": 142.16
+        },
+        {
+          "word": "some",
+          "start": 142.16,
+          "end": 142.54
+        },
+        {
+          "word": "people.",
+          "start": 142.54,
+          "end": 143.0
+        },
+        {
+          "word": "We're",
+          "start": 143.2,
+          "end": 143.6
+        },
+        {
+          "word": "going",
+          "start": 143.6,
+          "end": 143.68
+        },
+        {
+          "word": "to",
+          "start": 143.68,
+          "end": 143.8
+        },
+        {
+          "word": "launch",
+          "start": 143.8,
+          "end": 144.22
+        },
+        {
+          "word": "a",
+          "start": 144.22,
+          "end": 144.46
+        },
+        {
+          "word": "new",
+          "start": 144.46,
+          "end": 144.7
+        },
+        {
+          "word": "product.",
+          "start": 144.7,
+          "end": 145.18
+        }
+      ],
+      "textKo": "사람을 뽑겠다. 새 제품을 출시하겠다."
+    },
+    {
+      "index": 24,
+      "start": 145.46,
+      "end": 150.02,
+      "textEn": "Those are all things that are on the cost side of businesses.",
+      "words": [
+        {
+          "word": "Those",
+          "start": 145.46,
+          "end": 145.88
+        },
+        {
+          "word": "are",
+          "start": 145.88,
+          "end": 146.08
+        },
+        {
+          "word": "all",
+          "start": 146.08,
+          "end": 146.32
+        },
+        {
+          "word": "things",
+          "start": 146.32,
+          "end": 146.68
+        },
+        {
+          "word": "that",
+          "start": 146.68,
+          "end": 146.94
+        },
+        {
+          "word": "are",
+          "start": 146.94,
+          "end": 147.08
+        },
+        {
+          "word": "on",
+          "start": 147.08,
+          "end": 147.26
+        },
+        {
+          "word": "the",
+          "start": 147.26,
+          "end": 147.48
+        },
+        {
+          "word": "cost",
+          "start": 147.48,
+          "end": 148.08
+        },
+        {
+          "word": "side",
+          "start": 148.08,
+          "end": 148.5
+        },
+        {
+          "word": "of",
+          "start": 148.5,
+          "end": 149.4
+        },
+        {
+          "word": "businesses.",
+          "start": 149.4,
+          "end": 150.02
+        }
+      ],
+      "textKo": "이것들은 전부 사업의 비용 측면에 있는 것들이야."
+    },
+    {
+      "index": 25,
+      "start": 150.28,
+      "end": 152.36,
+      "textEn": "Who controls your costs?",
+      "words": [
+        {
+          "word": "Who",
+          "start": 150.28,
+          "end": 150.56
+        },
+        {
+          "word": "controls",
+          "start": 150.56,
+          "end": 151.16
+        },
+        {
+          "word": "your",
+          "start": 151.16,
+          "end": 151.84
+        },
+        {
+          "word": "costs?",
+          "start": 151.84,
+          "end": 152.36
+        }
+      ],
+      "textKo": "비용은 누가 통제해?"
+    },
+    {
+      "index": 26,
+      "start": 152.54,
+      "end": 154.62,
+      "textEn": "Who's the customer of your costs?",
+      "words": [
+        {
+          "word": "Who's",
+          "start": 152.54,
+          "end": 152.9
+        },
+        {
+          "word": "the",
+          "start": 152.9,
+          "end": 153.08
+        },
+        {
+          "word": "customer",
+          "start": 153.08,
+          "end": 153.66
+        },
+        {
+          "word": "of",
+          "start": 153.66,
+          "end": 153.94
+        },
+        {
+          "word": "your",
+          "start": 153.94,
+          "end": 154.1
+        },
+        {
+          "word": "costs?",
+          "start": 154.1,
+          "end": 154.62
+        }
+      ],
+      "textKo": "비용의 고객은 누구야?"
+    },
+    {
+      "index": 27,
+      "start": 154.96,
+      "end": 163.72,
+      "textEn": "The answer is you are. You decide how many square feet to lease, how many raw materials to buy, how many people to hire.",
+      "words": [
+        {
+          "word": "The",
+          "start": 154.96,
+          "end": 155.54
+        },
+        {
+          "word": "answer",
+          "start": 155.54,
+          "end": 155.74
+        },
+        {
+          "word": "is",
+          "start": 155.74,
+          "end": 155.96
+        },
+        {
+          "word": "you",
+          "start": 155.96,
+          "end": 156.16
+        },
+        {
+          "word": "are.",
+          "start": 156.16,
+          "end": 156.44
+        },
+        {
+          "word": "You",
+          "start": 156.44,
+          "end": 157.38
+        },
+        {
+          "word": "decide",
+          "start": 157.38,
+          "end": 157.76
+        },
+        {
+          "word": "how",
+          "start": 157.76,
+          "end": 157.98
+        },
+        {
+          "word": "many",
+          "start": 157.98,
+          "end": 158.18
+        },
+        {
+          "word": "square",
+          "start": 158.18,
+          "end": 158.62
+        },
+        {
+          "word": "feet",
+          "start": 158.62,
+          "end": 158.92
+        },
+        {
+          "word": "to",
+          "start": 158.92,
+          "end": 159.06
+        },
+        {
+          "word": "lease,",
+          "start": 159.06,
+          "end": 159.38
+        },
+        {
+          "word": "how",
+          "start": 159.66,
+          "end": 159.7
+        },
+        {
+          "word": "many",
+          "start": 159.7,
+          "end": 160.02
+        },
+        {
+          "word": "raw",
+          "start": 160.02,
+          "end": 161.58
+        },
+        {
+          "word": "materials",
+          "start": 161.58,
+          "end": 162.06
+        },
+        {
+          "word": "to",
+          "start": 162.06,
+          "end": 162.26
+        },
+        {
+          "word": "buy,",
+          "start": 162.26,
+          "end": 162.54
+        },
+        {
+          "word": "how",
+          "start": 162.7,
+          "end": 162.76
+        },
+        {
+          "word": "many",
+          "start": 162.76,
+          "end": 162.9
+        },
+        {
+          "word": "people",
+          "start": 162.9,
+          "end": 163.24
+        },
+        {
+          "word": "to",
+          "start": 163.24,
+          "end": 163.38
+        },
+        {
+          "word": "hire.",
+          "start": 163.38,
+          "end": 163.72
+        }
+      ],
+      "textKo": "답은 바로 너야. 사무실을 얼마나 빌릴지, 원자재를 얼마나 살지, 사람을 얼마나 뽑을지 네가 결정해."
+    },
+    {
+      "index": 28,
+      "start": 164.0,
+      "end": 166.3,
+      "textEn": "Those are more comfortable because you control them.",
+      "words": [
+        {
+          "word": "Those",
+          "start": 164.0,
+          "end": 164.36
+        },
+        {
+          "word": "are",
+          "start": 164.36,
+          "end": 164.52
+        },
+        {
+          "word": "more",
+          "start": 164.52,
+          "end": 164.66
+        },
+        {
+          "word": "comfortable",
+          "start": 164.66,
+          "end": 165.06
+        },
+        {
+          "word": "because",
+          "start": 165.06,
+          "end": 165.4
+        },
+        {
+          "word": "you",
+          "start": 165.4,
+          "end": 165.64
+        },
+        {
+          "word": "control",
+          "start": 165.64,
+          "end": 166.0
+        },
+        {
+          "word": "them.",
+          "start": 166.0,
+          "end": 166.3
+        }
+      ],
+      "textKo": "그래서 더 편해. 네가 통제할 수 있으니까."
+    },
+    {
+      "index": 29,
+      "start": 167.12,
+      "end": 174.82,
+      "textEn": "A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve,",
+      "words": [
+        {
+          "word": "A",
+          "start": 167.12,
+          "end": 167.56
+        },
+        {
+          "word": "strategy,",
+          "start": 167.56,
+          "end": 168.26
+        },
+        {
+          "word": "on",
+          "start": 168.26,
+          "end": 169.16
+        },
+        {
+          "word": "the",
+          "start": 169.16,
+          "end": 169.28
+        },
+        {
+          "word": "other",
+          "start": 169.28,
+          "end": 169.46
+        },
+        {
+          "word": "hand,",
+          "start": 169.46,
+          "end": 169.84
+        },
+        {
+          "word": "specifies",
+          "start": 170.3,
+          "end": 171.1
+        },
+        {
+          "word": "an",
+          "start": 171.1,
+          "end": 171.52
+        },
+        {
+          "word": "outcome,",
+          "start": 171.52,
+          "end": 172.12
+        },
+        {
+          "word": "a",
+          "start": 172.32,
+          "end": 172.44
+        },
+        {
+          "word": "competitive",
+          "start": 172.44,
+          "end": 172.96
+        },
+        {
+          "word": "outcome",
+          "start": 172.96,
+          "end": 173.52
+        },
+        {
+          "word": "that",
+          "start": 173.52,
+          "end": 173.76
+        },
+        {
+          "word": "you",
+          "start": 173.76,
+          "end": 173.94
+        },
+        {
+          "word": "wish",
+          "start": 173.94,
+          "end": 174.18
+        },
+        {
+          "word": "to",
+          "start": 174.18,
+          "end": 174.36
+        },
+        {
+          "word": "achieve,",
+          "start": 174.36,
+          "end": 174.82
+        }
+      ],
+      "textKo": "반면에 전략은 결과를, 네가 달성하고 싶은 경쟁적 결과를 명시해."
+    },
+    {
+      "index": 30,
+      "start": 174.82,
+      "end": 187.92,
+      "textEn": "Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you'd like to make.",
+      "words": [
+        {
+          "word": "which",
+          "start": 174.82,
+          "end": 175.86
+        },
+        {
+          "word": "involves",
+          "start": 175.86,
+          "end": 176.52
+        },
+        {
+          "word": "customers",
+          "start": 176.52,
+          "end": 177.62
+        },
+        {
+          "word": "wanting",
+          "start": 177.62,
+          "end": 178.84
+        },
+        {
+          "word": "your",
+          "start": 178.84,
+          "end": 179.12
+        },
+        {
+          "word": "product",
+          "start": 179.12,
+          "end": 179.56
+        },
+        {
+          "word": "or",
+          "start": 179.56,
+          "end": 179.8
+        },
+        {
+          "word": "service",
+          "start": 179.8,
+          "end": 180.34
+        },
+        {
+          "word": "enough",
+          "start": 180.34,
+          "end": 181.46
+        },
+        {
+          "word": "that",
+          "start": 181.46,
+          "end": 181.72
+        },
+        {
+          "word": "they",
+          "start": 181.72,
+          "end": 181.9
+        },
+        {
+          "word": "will",
+          "start": 181.9,
+          "end": 182.26
+        },
+        {
+          "word": "buy",
+          "start": 182.26,
+          "end": 183.02
+        },
+        {
+          "word": "enough",
+          "start": 183.02,
+          "end": 183.42
+        },
+        {
+          "word": "of",
+          "start": 183.42,
+          "end": 183.58
+        },
+        {
+          "word": "it",
+          "start": 183.58,
+          "end": 183.76
+        },
+        {
+          "word": "to",
+          "start": 183.76,
+          "end": 184.74
+        },
+        {
+          "word": "make",
+          "start": 184.74,
+          "end": 185.0
+        },
+        {
+          "word": "the",
+          "start": 185.0,
+          "end": 185.26
+        },
+        {
+          "word": "profitability",
+          "start": 185.26,
+          "end": 185.8
+        },
+        {
+          "word": "that",
+          "start": 185.8,
+          "end": 186.72
+        },
+        {
+          "word": "you'd",
+          "start": 186.72,
+          "end": 186.98
+        },
+        {
+          "word": "like",
+          "start": 186.98,
+          "end": 187.12
+        },
+        {
+          "word": "to",
+          "start": 187.12,
+          "end": 187.28
+        },
+        {
+          "word": "make.",
+          "start": 187.28,
+          "end": 187.92
+        }
+      ],
+      "textKo": "고객이 네 제품이나 서비스를 충분히 원해서 네가 원하는 수익을 낼 만큼 충분히 구매하는 것을 포함해."
+    },
+    {
+      "index": 31,
+      "start": 188.14,
+      "end": 193.46,
+      "textEn": "The tricky thing about that is that you don't control them.",
+      "words": [
+        {
+          "word": "The",
+          "start": 188.14,
+          "end": 188.68
+        },
+        {
+          "word": "tricky",
+          "start": 188.68,
+          "end": 189.08
+        },
+        {
+          "word": "thing",
+          "start": 189.08,
+          "end": 189.46
+        },
+        {
+          "word": "about",
+          "start": 189.46,
+          "end": 189.7
+        },
+        {
+          "word": "that",
+          "start": 189.7,
+          "end": 190.14
+        },
+        {
+          "word": "is",
+          "start": 190.14,
+          "end": 191.1
+        },
+        {
+          "word": "that",
+          "start": 191.1,
+          "end": 191.46
+        },
+        {
+          "word": "you",
+          "start": 191.46,
+          "end": 192.56
+        },
+        {
+          "word": "don't",
+          "start": 192.56,
+          "end": 192.82
+        },
+        {
+          "word": "control",
+          "start": 192.82,
+          "end": 193.16
+        },
+        {
+          "word": "them.",
+          "start": 193.16,
+          "end": 193.46
+        }
+      ],
+      "textKo": "까다로운 건 그들을 통제할 수 없다는 거야."
+    },
+    {
+      "index": 32,
+      "start": 193.46,
+      "end": 197.18,
+      "textEn": "You might wish you could, but you can't.",
+      "words": [
+        {
+          "word": "You",
+          "start": 193.46,
+          "end": 194.66
+        },
+        {
+          "word": "might",
+          "start": 194.66,
+          "end": 194.88
+        },
+        {
+          "word": "wish",
+          "start": 194.88,
+          "end": 195.28
+        },
+        {
+          "word": "you",
+          "start": 195.28,
+          "end": 195.46
+        },
+        {
+          "word": "could,",
+          "start": 195.46,
+          "end": 195.78
+        },
+        {
+          "word": "but",
+          "start": 196.0,
+          "end": 196.54
+        },
+        {
+          "word": "you",
+          "start": 196.54,
+          "end": 196.72
+        },
+        {
+          "word": "can't.",
+          "start": 196.72,
+          "end": 197.18
+        }
+      ],
+      "textKo": "통제하고 싶겠지만, 못해."
+    },
+    {
+      "index": 33,
+      "start": 197.36,
+      "end": 201.74,
+      "textEn": "They decide, not you. That's a harder trick.",
+      "words": [
+        {
+          "word": "They",
+          "start": 197.36,
+          "end": 197.94
+        },
+        {
+          "word": "decide,",
+          "start": 197.94,
+          "end": 198.48
+        },
+        {
+          "word": "not",
+          "start": 198.64,
+          "end": 198.76
+        },
+        {
+          "word": "you.",
+          "start": 198.76,
+          "end": 199.08
+        },
+        {
+          "word": "That's",
+          "start": 200.24,
+          "end": 200.88
+        },
+        {
+          "word": "a",
+          "start": 200.88,
+          "end": 200.98
+        },
+        {
+          "word": "harder",
+          "start": 200.98,
+          "end": 201.32
+        },
+        {
+          "word": "trick.",
+          "start": 201.32,
+          "end": 201.74
+        }
+      ],
+      "textKo": "그들이 결정하지, 네가 아니야. 더 어려운 일이지."
+    },
+    {
+      "index": 34,
+      "start": 201.74,
+      "end": 208.32,
+      "textEn": "So that means putting yourself out and saying, here's what we believe will happen.",
+      "words": [
+        {
+          "word": "So",
+          "start": 201.74,
+          "end": 202.5
+        },
+        {
+          "word": "that",
+          "start": 202.5,
+          "end": 203.24
+        },
+        {
+          "word": "means",
+          "start": 203.24,
+          "end": 203.7
+        },
+        {
+          "word": "putting",
+          "start": 203.7,
+          "end": 204.52
+        },
+        {
+          "word": "yourself",
+          "start": 204.52,
+          "end": 204.86
+        },
+        {
+          "word": "out",
+          "start": 204.86,
+          "end": 205.26
+        },
+        {
+          "word": "and",
+          "start": 205.26,
+          "end": 205.44
+        },
+        {
+          "word": "saying,",
+          "start": 205.44,
+          "end": 205.8
+        },
+        {
+          "word": "here's",
+          "start": 206.0,
+          "end": 206.78
+        },
+        {
+          "word": "what",
+          "start": 206.78,
+          "end": 206.94
+        },
+        {
+          "word": "we",
+          "start": 206.94,
+          "end": 207.12
+        },
+        {
+          "word": "believe",
+          "start": 207.12,
+          "end": 207.54
+        },
+        {
+          "word": "will",
+          "start": 207.54,
+          "end": 207.94
+        },
+        {
+          "word": "happen.",
+          "start": 207.94,
+          "end": 208.32
+        }
+      ],
+      "textKo": "그래서 나서서 이렇게 말해야 해. 이런 일이 일어날 거라고 우리는 믿어."
+    },
+    {
+      "index": 35,
+      "start": 208.98,
+      "end": 211.6,
+      "textEn": "We can't prove it in advance.",
+      "words": [
+        {
+          "word": "We",
+          "start": 208.98,
+          "end": 209.62
+        },
+        {
+          "word": "can't",
+          "start": 209.62,
+          "end": 210.04
+        },
+        {
+          "word": "prove",
+          "start": 210.04,
+          "end": 210.96
+        },
+        {
+          "word": "it",
+          "start": 210.96,
+          "end": 211.1
+        },
+        {
+          "word": "in",
+          "start": 211.1,
+          "end": 211.22
+        },
+        {
+          "word": "advance.",
+          "start": 211.22,
+          "end": 211.6
+        }
+      ],
+      "textKo": "미리 증명할 수 없어."
+    },
+    {
+      "index": 36,
+      "start": 211.96,
+      "end": 218.06,
+      "textEn": "We can't guarantee it. But this is what we want to have happen and that we believe will happen.",
+      "words": [
+        {
+          "word": "We",
+          "start": 211.96,
+          "end": 212.56
+        },
+        {
+          "word": "can't",
+          "start": 212.56,
+          "end": 212.86
+        },
+        {
+          "word": "guarantee",
+          "start": 212.86,
+          "end": 213.3
+        },
+        {
+          "word": "it.",
+          "start": 213.3,
+          "end": 213.7
+        },
+        {
+          "word": "But",
+          "start": 213.88,
+          "end": 214.46
+        },
+        {
+          "word": "this",
+          "start": 214.46,
+          "end": 214.68
+        },
+        {
+          "word": "is",
+          "start": 214.68,
+          "end": 214.8
+        },
+        {
+          "word": "what",
+          "start": 214.8,
+          "end": 214.96
+        },
+        {
+          "word": "we",
+          "start": 214.96,
+          "end": 215.14
+        },
+        {
+          "word": "want",
+          "start": 215.14,
+          "end": 215.44
+        },
+        {
+          "word": "to",
+          "start": 215.44,
+          "end": 215.56
+        },
+        {
+          "word": "have",
+          "start": 215.56,
+          "end": 215.7
+        },
+        {
+          "word": "happen",
+          "start": 215.7,
+          "end": 216.02
+        },
+        {
+          "word": "and",
+          "start": 216.02,
+          "end": 216.3
+        },
+        {
+          "word": "that",
+          "start": 216.3,
+          "end": 216.74
+        },
+        {
+          "word": "we",
+          "start": 216.74,
+          "end": 216.94
+        },
+        {
+          "word": "believe",
+          "start": 216.94,
+          "end": 217.4
+        },
+        {
+          "word": "will",
+          "start": 217.4,
+          "end": 217.72
+        },
+        {
+          "word": "happen.",
+          "start": 217.72,
+          "end": 218.06
+        }
+      ],
+      "textKo": "보장할 수 없어. 하지만 이것이 우리가 바라고 또 일어날 거라고 믿는 거야."
+    },
+    {
+      "index": 37,
+      "start": 218.9,
+      "end": 221.22,
+      "textEn": "It's much easier to say, I'll build a factory.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 218.9,
+          "end": 219.54
+        },
+        {
+          "word": "much",
+          "start": 219.54,
+          "end": 219.76
+        },
+        {
+          "word": "easier",
+          "start": 219.76,
+          "end": 220.12
+        },
+        {
+          "word": "to",
+          "start": 220.12,
+          "end": 220.24
+        },
+        {
+          "word": "say,",
+          "start": 220.24,
+          "end": 220.38
+        },
+        {
+          "word": "I'll",
+          "start": 220.52,
+          "end": 220.58
+        },
+        {
+          "word": "build",
+          "start": 220.58,
+          "end": 220.76
+        },
+        {
+          "word": "a",
+          "start": 220.76,
+          "end": 220.86
+        },
+        {
+          "word": "factory.",
+          "start": 220.86,
+          "end": 221.22
+        }
+      ],
+      "textKo": "공장을 짓겠다고 말하는 게 훨씬 쉽지."
+    },
+    {
+      "index": 38,
+      "start": 221.28,
+      "end": 223.54,
+      "textEn": "I will hire more people, etc.",
+      "words": [
+        {
+          "word": "I",
+          "start": 221.28,
+          "end": 221.92
+        },
+        {
+          "word": "will",
+          "start": 221.92,
+          "end": 222.2
+        },
+        {
+          "word": "hire",
+          "start": 222.2,
+          "end": 222.68
+        },
+        {
+          "word": "more",
+          "start": 222.68,
+          "end": 222.88
+        },
+        {
+          "word": "people,",
+          "start": 222.88,
+          "end": 223.24
+        },
+        {
+          "word": "etc.",
+          "start": 223.34,
+          "end": 223.54
+        }
+      ],
+      "textKo": "사람을 더 뽑겠다, 등등."
+    },
+    {
+      "index": 39,
+      "start": 223.88,
+      "end": 232.14,
+      "textEn": "Then I will have customers end up liking our offering more than those of competitors.",
+      "words": [
+        {
+          "word": "Then",
+          "start": 223.88,
+          "end": 224.04
+        },
+        {
+          "word": "I",
+          "start": 224.04,
+          "end": 224.92
+        },
+        {
+          "word": "will",
+          "start": 224.92,
+          "end": 225.3
+        },
+        {
+          "word": "have",
+          "start": 225.3,
+          "end": 225.96
+        },
+        {
+          "word": "customers",
+          "start": 225.96,
+          "end": 226.94
+        },
+        {
+          "word": "end",
+          "start": 226.94,
+          "end": 227.72
+        },
+        {
+          "word": "up",
+          "start": 227.72,
+          "end": 227.96
+        },
+        {
+          "word": "liking",
+          "start": 227.96,
+          "end": 228.48
+        },
+        {
+          "word": "our",
+          "start": 228.48,
+          "end": 229.14
+        },
+        {
+          "word": "offering",
+          "start": 229.14,
+          "end": 229.68
+        },
+        {
+          "word": "more",
+          "start": 229.68,
+          "end": 230.48
+        },
+        {
+          "word": "than",
+          "start": 230.48,
+          "end": 231.2
+        },
+        {
+          "word": "those",
+          "start": 231.2,
+          "end": 231.42
+        },
+        {
+          "word": "of",
+          "start": 231.42,
+          "end": 231.62
+        },
+        {
+          "word": "competitors.",
+          "start": 231.62,
+          "end": 232.14
+        }
+      ],
+      "textKo": "고객이 경쟁사보다 우리 제품을 더 좋아하게 만들겠다고 말하는 것보다 말이야."
+    },
+    {
+      "index": 40,
+      "start": 232.62,
+      "end": 243.06,
+      "textEn": "The tricky thing about planning is that while you're planning, chances are at least one competitor is figuring out how to win.",
+      "words": [
+        {
+          "word": "The",
+          "start": 232.62,
+          "end": 233.26
+        },
+        {
+          "word": "tricky",
+          "start": 233.26,
+          "end": 233.64
+        },
+        {
+          "word": "thing",
+          "start": 233.64,
+          "end": 233.9
+        },
+        {
+          "word": "about",
+          "start": 233.9,
+          "end": 234.16
+        },
+        {
+          "word": "planning",
+          "start": 234.16,
+          "end": 234.64
+        },
+        {
+          "word": "is",
+          "start": 234.64,
+          "end": 235.76
+        },
+        {
+          "word": "that",
+          "start": 235.76,
+          "end": 235.94
+        },
+        {
+          "word": "while",
+          "start": 235.94,
+          "end": 236.22
+        },
+        {
+          "word": "you're",
+          "start": 236.22,
+          "end": 236.66
+        },
+        {
+          "word": "planning,",
+          "start": 236.66,
+          "end": 237.16
+        },
+        {
+          "word": "chances",
+          "start": 237.46,
+          "end": 238.78
+        },
+        {
+          "word": "are",
+          "start": 238.78,
+          "end": 239.0
+        },
+        {
+          "word": "at",
+          "start": 239.0,
+          "end": 239.14
+        },
+        {
+          "word": "least",
+          "start": 239.14,
+          "end": 239.3
+        },
+        {
+          "word": "one",
+          "start": 239.3,
+          "end": 239.82
+        },
+        {
+          "word": "competitor",
+          "start": 239.82,
+          "end": 240.38
+        },
+        {
+          "word": "is",
+          "start": 240.38,
+          "end": 242.0
+        },
+        {
+          "word": "figuring",
+          "start": 242.0,
+          "end": 242.28
+        },
+        {
+          "word": "out",
+          "start": 242.28,
+          "end": 242.5
+        },
+        {
+          "word": "how",
+          "start": 242.5,
+          "end": 242.62
+        },
+        {
+          "word": "to",
+          "start": 242.62,
+          "end": 242.76
+        },
+        {
+          "word": "win.",
+          "start": 242.76,
+          "end": 243.06
+        }
+      ],
+      "textKo": "계획의 까다로운 점은, 네가 계획하는 동안 적어도 경쟁사 하나는 이기는 방법을 찾고 있다는 거야."
+    },
+    {
+      "index": 41,
+      "start": 245.28,
+      "end": 259.16,
+      "textEn": "When U. S. air carriers were busily planning, you know, what routes to fly and da-da-da, there was this little company in Texas called Southwest that had a strategy for winning.",
+      "words": [
+        {
+          "word": "When",
+          "start": 245.28,
+          "end": 245.9
+        },
+        {
+          "word": "U",
+          "start": 245.9,
+          "end": 246.52
+        },
+        {
+          "word": ".S.",
+          "start": 246.52,
+          "end": 246.78
+        },
+        {
+          "word": "air",
+          "start": 247.42,
+          "end": 247.56
+        },
+        {
+          "word": "carriers",
+          "start": 247.56,
+          "end": 248.04
+        },
+        {
+          "word": "were",
+          "start": 248.04,
+          "end": 248.26
+        },
+        {
+          "word": "busily",
+          "start": 248.26,
+          "end": 248.62
+        },
+        {
+          "word": "planning,",
+          "start": 248.62,
+          "end": 249.2
+        },
+        {
+          "word": "you",
+          "start": 249.56,
+          "end": 250.36
+        },
+        {
+          "word": "know,",
+          "start": 250.36,
+          "end": 250.46
+        },
+        {
+          "word": "what",
+          "start": 250.62,
+          "end": 250.74
+        },
+        {
+          "word": "routes",
+          "start": 250.74,
+          "end": 251.08
+        },
+        {
+          "word": "to",
+          "start": 251.08,
+          "end": 251.26
+        },
+        {
+          "word": "fly",
+          "start": 251.26,
+          "end": 251.58
+        },
+        {
+          "word": "and",
+          "start": 251.58,
+          "end": 251.94
+        },
+        {
+          "word": "da",
+          "start": 251.94,
+          "end": 252.12
+        },
+        {
+          "word": "-da",
+          "start": 252.12,
+          "end": 252.24
+        },
+        {
+          "word": "-da,",
+          "start": 252.24,
+          "end": 252.42
+        },
+        {
+          "word": "there",
+          "start": 252.66,
+          "end": 253.56
+        },
+        {
+          "word": "was",
+          "start": 253.56,
+          "end": 253.7
+        },
+        {
+          "word": "this",
+          "start": 253.7,
+          "end": 253.86
+        },
+        {
+          "word": "little",
+          "start": 253.86,
+          "end": 254.1
+        },
+        {
+          "word": "company",
+          "start": 254.1,
+          "end": 254.5
+        },
+        {
+          "word": "in",
+          "start": 254.5,
+          "end": 255.2
+        },
+        {
+          "word": "Texas",
+          "start": 255.2,
+          "end": 255.52
+        },
+        {
+          "word": "called",
+          "start": 255.52,
+          "end": 255.88
+        },
+        {
+          "word": "Southwest",
+          "start": 255.88,
+          "end": 256.28
+        },
+        {
+          "word": "that",
+          "start": 256.28,
+          "end": 257.4
+        },
+        {
+          "word": "had",
+          "start": 257.4,
+          "end": 257.68
+        },
+        {
+          "word": "a",
+          "start": 257.68,
+          "end": 257.94
+        },
+        {
+          "word": "strategy",
+          "start": 257.94,
+          "end": 258.48
+        },
+        {
+          "word": "for",
+          "start": 258.48,
+          "end": 258.86
+        },
+        {
+          "word": "winning.",
+          "start": 258.86,
+          "end": 259.16
+        }
+      ],
+      "textKo": "미국 항공사들이 어떤 노선을 운항할지 열심히 계획하고 있을 때, 텍사스에 사우스웨스트라는 작은 회사가 이기기 위한 전략을 세우고 있었어."
+    },
+    {
+      "index": 42,
+      "start": 260.24,
+      "end": 265.1,
+      "textEn": "And, you know, at first that looked largely irrelevant because it was tiny.",
+      "words": [
+        {
+          "word": "And,",
+          "start": 260.24,
+          "end": 260.86
+        },
+        {
+          "word": "you",
+          "start": 261.04,
+          "end": 261.48
+        },
+        {
+          "word": "know,",
+          "start": 261.48,
+          "end": 261.52
+        },
+        {
+          "word": "at",
+          "start": 261.58,
+          "end": 261.68
+        },
+        {
+          "word": "first",
+          "start": 261.68,
+          "end": 261.96
+        },
+        {
+          "word": "that",
+          "start": 261.96,
+          "end": 262.82
+        },
+        {
+          "word": "looked",
+          "start": 262.82,
+          "end": 263.26
+        },
+        {
+          "word": "largely",
+          "start": 263.26,
+          "end": 263.8
+        },
+        {
+          "word": "irrelevant",
+          "start": 263.8,
+          "end": 264.2
+        },
+        {
+          "word": "because",
+          "start": 264.2,
+          "end": 264.5
+        },
+        {
+          "word": "it",
+          "start": 264.5,
+          "end": 264.68
+        },
+        {
+          "word": "was",
+          "start": 264.68,
+          "end": 264.8
+        },
+        {
+          "word": "tiny.",
+          "start": 264.8,
+          "end": 265.1
+        }
+      ],
+      "textKo": "처음에는 너무 작아서 별로 중요하지 않아 보였어."
+    },
+    {
+      "index": 43,
+      "start": 265.36,
+      "end": 269.22,
+      "textEn": "What Southwest Airlines was aiming for was an outcome.",
+      "words": [
+        {
+          "word": "What",
+          "start": 265.36,
+          "end": 265.72
+        },
+        {
+          "word": "Southwest",
+          "start": 265.72,
+          "end": 266.44
+        },
+        {
+          "word": "Airlines",
+          "start": 266.44,
+          "end": 266.76
+        },
+        {
+          "word": "was",
+          "start": 266.76,
+          "end": 267.2
+        },
+        {
+          "word": "aiming",
+          "start": 267.2,
+          "end": 268.0
+        },
+        {
+          "word": "for",
+          "start": 268.0,
+          "end": 268.3
+        },
+        {
+          "word": "was",
+          "start": 268.3,
+          "end": 268.5
+        },
+        {
+          "word": "an",
+          "start": 268.5,
+          "end": 268.66
+        },
+        {
+          "word": "outcome.",
+          "start": 268.66,
+          "end": 269.22
+        }
+      ],
+      "textKo": "사우스웨스트 항공이 노리고 있던 건 결과였어."
+    },
+    {
+      "index": 44,
+      "start": 270.02,
+      "end": 275.36,
+      "textEn": "What they wanted to be is a substitute for Greyhound.",
+      "words": [
+        {
+          "word": "What",
+          "start": 270.02,
+          "end": 270.76
+        },
+        {
+          "word": "they",
+          "start": 270.76,
+          "end": 271.16
+        },
+        {
+          "word": "wanted",
+          "start": 271.16,
+          "end": 271.42
+        },
+        {
+          "word": "to",
+          "start": 271.42,
+          "end": 271.58
+        },
+        {
+          "word": "be",
+          "start": 271.58,
+          "end": 271.78
+        },
+        {
+          "word": "is",
+          "start": 271.78,
+          "end": 272.12
+        },
+        {
+          "word": "a",
+          "start": 272.12,
+          "end": 272.38
+        },
+        {
+          "word": "substitute",
+          "start": 272.38,
+          "end": 273.48
+        },
+        {
+          "word": "for",
+          "start": 273.48,
+          "end": 274.14
+        },
+        {
+          "word": "Greyhound.",
+          "start": 274.14,
+          "end": 275.36
+        }
+      ],
+      "textKo": "그들이 되고 싶었던 건 그레이하운드 버스의 대체재였어."
+    },
+    {
+      "index": 45,
+      "start": 276.26,
+      "end": 285.32,
+      "textEn": "A way more convenient way to get around at a price that wasn't extraordinarily much greater than a Greyhound bus.",
+      "words": [
+        {
+          "word": "A",
+          "start": 276.26,
+          "end": 276.84
+        },
+        {
+          "word": "way",
+          "start": 276.84,
+          "end": 277.5
+        },
+        {
+          "word": "more",
+          "start": 277.5,
+          "end": 277.74
+        },
+        {
+          "word": "convenient",
+          "start": 277.74,
+          "end": 278.24
+        },
+        {
+          "word": "way",
+          "start": 278.24,
+          "end": 278.54
+        },
+        {
+          "word": "to",
+          "start": 278.54,
+          "end": 278.68
+        },
+        {
+          "word": "get",
+          "start": 278.68,
+          "end": 278.86
+        },
+        {
+          "word": "around",
+          "start": 278.86,
+          "end": 279.28
+        },
+        {
+          "word": "at",
+          "start": 279.28,
+          "end": 280.26
+        },
+        {
+          "word": "a",
+          "start": 280.26,
+          "end": 280.42
+        },
+        {
+          "word": "price",
+          "start": 280.42,
+          "end": 280.74
+        },
+        {
+          "word": "that",
+          "start": 280.74,
+          "end": 281.0
+        },
+        {
+          "word": "wasn't",
+          "start": 281.0,
+          "end": 281.4
+        },
+        {
+          "word": "extraordinarily",
+          "start": 281.4,
+          "end": 282.2
+        },
+        {
+          "word": "much",
+          "start": 282.2,
+          "end": 282.7
+        },
+        {
+          "word": "greater",
+          "start": 282.7,
+          "end": 283.18
+        },
+        {
+          "word": "than",
+          "start": 283.18,
+          "end": 283.76
+        },
+        {
+          "word": "a",
+          "start": 283.76,
+          "end": 283.88
+        },
+        {
+          "word": "Greyhound",
+          "start": 283.88,
+          "end": 284.34
+        },
+        {
+          "word": "bus.",
+          "start": 284.34,
+          "end": 285.32
+        }
+      ],
+      "textKo": "그레이하운드 버스보다 엄청나게 비싸지 않은 가격에 훨씬 더 편리하게 이동하는 방법."
+    },
+    {
+      "index": 46,
+      "start": 286.18,
+      "end": 291.14,
+      "textEn": "Southwest said everybody else is flying hub and spoke.",
+      "words": [
+        {
+          "word": "Southwest",
+          "start": 286.18,
+          "end": 286.92
+        },
+        {
+          "word": "said",
+          "start": 286.92,
+          "end": 287.32
+        },
+        {
+          "word": "everybody",
+          "start": 287.32,
+          "end": 288.2
+        },
+        {
+          "word": "else",
+          "start": 288.2,
+          "end": 288.78
+        },
+        {
+          "word": "is",
+          "start": 288.78,
+          "end": 289.48
+        },
+        {
+          "word": "flying",
+          "start": 289.48,
+          "end": 290.02
+        },
+        {
+          "word": "hub",
+          "start": 290.02,
+          "end": 290.72
+        },
+        {
+          "word": "and",
+          "start": 290.72,
+          "end": 290.84
+        },
+        {
+          "word": "spoke.",
+          "start": 290.84,
+          "end": 291.14
+        }
+      ],
+      "textKo": "사우스웨스트는 다른 항공사들이 전부 허브 앤 스포크 방식으로 운항한다고 말했어."
+    },
+    {
+      "index": 47,
+      "start": 291.36,
+      "end": 298.9,
+      "textEn": "They have hubs and they fly hub and spoke. We're going to fly point to point so that we don't have aircraft waiting on the ground because you only make money when you're in the air.",
+      "words": [
+        {
+          "word": "They",
+          "start": 291.36,
+          "end": 291.52
+        },
+        {
+          "word": "have",
+          "start": 291.52,
+          "end": 291.64
+        },
+        {
+          "word": "hubs",
+          "start": 291.64,
+          "end": 291.92
+        },
+        {
+          "word": "and",
+          "start": 291.92,
+          "end": 292.08
+        },
+        {
+          "word": "they",
+          "start": 292.08,
+          "end": 292.18
+        },
+        {
+          "word": "fly",
+          "start": 292.18,
+          "end": 292.36
+        },
+        {
+          "word": "hub",
+          "start": 292.36,
+          "end": 292.52
+        },
+        {
+          "word": "and",
+          "start": 292.52,
+          "end": 292.62
+        },
+        {
+          "word": "spoke.",
+          "start": 292.62,
+          "end": 292.82
+        },
+        {
+          "word": "We're",
+          "start": 292.82,
+          "end": 293.12
+        },
+        {
+          "word": "going",
+          "start": 293.12,
+          "end": 293.18
+        },
+        {
+          "word": "to",
+          "start": 293.18,
+          "end": 293.24
+        },
+        {
+          "word": "fly",
+          "start": 293.24,
+          "end": 293.44
+        },
+        {
+          "word": "point",
+          "start": 293.44,
+          "end": 293.76
+        },
+        {
+          "word": "to",
+          "start": 293.76,
+          "end": 293.9
+        },
+        {
+          "word": "point",
+          "start": 293.9,
+          "end": 294.18
+        },
+        {
+          "word": "so",
+          "start": 294.18,
+          "end": 294.78
+        },
+        {
+          "word": "that",
+          "start": 294.78,
+          "end": 294.88
+        },
+        {
+          "word": "we",
+          "start": 294.88,
+          "end": 294.98
+        },
+        {
+          "word": "don't",
+          "start": 294.98,
+          "end": 295.1
+        },
+        {
+          "word": "have",
+          "start": 295.1,
+          "end": 295.24
+        },
+        {
+          "word": "aircraft",
+          "start": 295.24,
+          "end": 295.66
+        },
+        {
+          "word": "waiting",
+          "start": 295.66,
+          "end": 296.14
+        },
+        {
+          "word": "on",
+          "start": 296.14,
+          "end": 296.52
+        },
+        {
+          "word": "the",
+          "start": 296.52,
+          "end": 296.62
+        },
+        {
+          "word": "ground",
+          "start": 296.62,
+          "end": 296.96
+        },
+        {
+          "word": "because",
+          "start": 296.96,
+          "end": 297.32
+        },
+        {
+          "word": "you",
+          "start": 297.32,
+          "end": 297.48
+        },
+        {
+          "word": "only",
+          "start": 297.48,
+          "end": 297.62
+        },
+        {
+          "word": "make",
+          "start": 297.62,
+          "end": 297.8
+        },
+        {
+          "word": "money",
+          "start": 297.8,
+          "end": 298.04
+        },
+        {
+          "word": "when",
+          "start": 298.04,
+          "end": 298.28
+        },
+        {
+          "word": "you're",
+          "start": 298.28,
+          "end": 298.44
+        },
+        {
+          "word": "in",
+          "start": 298.44,
+          "end": 298.54
+        },
+        {
+          "word": "the",
+          "start": 298.54,
+          "end": 298.64
+        },
+        {
+          "word": "air.",
+          "start": 298.64,
+          "end": 298.9
+        }
+      ],
+      "textKo": "허브가 있고 허브 앤 스포크로 비행해. 우리는 포인트 투 포인트로 비행해서 비행기가 땅에서 대기하는 시간을 없앨 거야. 하늘에 있을 때만 돈을 벌 수 있으니까."
+    },
+    {
+      "index": 48,
+      "start": 299.1,
+      "end": 305.46,
+      "textEn": "We're going to only fly 737s, one kind of aircraft, so that our gates are set up for those.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 299.1,
+          "end": 299.48
+        },
+        {
+          "word": "going",
+          "start": 299.48,
+          "end": 300.08
+        },
+        {
+          "word": "to",
+          "start": 300.08,
+          "end": 300.18
+        },
+        {
+          "word": "only",
+          "start": 300.18,
+          "end": 300.4
+        },
+        {
+          "word": "fly",
+          "start": 300.4,
+          "end": 300.76
+        },
+        {
+          "word": "737s,",
+          "start": 300.76,
+          "end": 302.42
+        },
+        {
+          "word": "one",
+          "start": 302.54,
+          "end": 302.84
+        },
+        {
+          "word": "kind",
+          "start": 302.84,
+          "end": 302.98
+        },
+        {
+          "word": "of",
+          "start": 302.98,
+          "end": 303.08
+        },
+        {
+          "word": "aircraft,",
+          "start": 303.08,
+          "end": 303.52
+        },
+        {
+          "word": "so",
+          "start": 303.78,
+          "end": 303.98
+        },
+        {
+          "word": "that",
+          "start": 303.98,
+          "end": 304.12
+        },
+        {
+          "word": "our",
+          "start": 304.12,
+          "end": 304.26
+        },
+        {
+          "word": "gates",
+          "start": 304.26,
+          "end": 304.5
+        },
+        {
+          "word": "are",
+          "start": 304.5,
+          "end": 304.72
+        },
+        {
+          "word": "set",
+          "start": 304.72,
+          "end": 304.94
+        },
+        {
+          "word": "up",
+          "start": 304.94,
+          "end": 305.06
+        },
+        {
+          "word": "for",
+          "start": 305.06,
+          "end": 305.2
+        },
+        {
+          "word": "those.",
+          "start": 305.2,
+          "end": 305.46
+        }
+      ],
+      "textKo": "737만 운항할 거야. 한 종류의 항공기만. 그러면 게이트도 그에 맞춰 세팅돼."
+    },
+    {
+      "index": 49,
+      "start": 305.7,
+      "end": 308.86,
+      "textEn": "Our systems are set up for those. Our training, our simulations are set up.",
+      "words": [
+        {
+          "word": "Our",
+          "start": 305.7,
+          "end": 306.02
+        },
+        {
+          "word": "systems",
+          "start": 306.02,
+          "end": 306.34
+        },
+        {
+          "word": "are",
+          "start": 306.34,
+          "end": 306.54
+        },
+        {
+          "word": "set",
+          "start": 306.54,
+          "end": 306.74
+        },
+        {
+          "word": "up",
+          "start": 306.74,
+          "end": 306.82
+        },
+        {
+          "word": "for",
+          "start": 306.82,
+          "end": 306.96
+        },
+        {
+          "word": "those.",
+          "start": 306.96,
+          "end": 307.14
+        },
+        {
+          "word": "Our",
+          "start": 307.24,
+          "end": 307.32
+        },
+        {
+          "word": "training,",
+          "start": 307.32,
+          "end": 307.62
+        },
+        {
+          "word": "our",
+          "start": 307.76,
+          "end": 307.82
+        },
+        {
+          "word": "simulations",
+          "start": 307.82,
+          "end": 308.28
+        },
+        {
+          "word": "are",
+          "start": 308.28,
+          "end": 308.54
+        },
+        {
+          "word": "set",
+          "start": 308.54,
+          "end": 308.74
+        },
+        {
+          "word": "up.",
+          "start": 308.74,
+          "end": 308.86
+        }
+      ],
+      "textKo": "시스템도 그에 맞춰져 있고. 훈련도, 시뮬레이션도 그에 맞춰져 있어."
+    },
+    {
+      "index": 50,
+      "start": 309.04,
+      "end": 314.52,
+      "textEn": "We're not going to offer meals on the flights because we're going to specialize in short flights.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 309.04,
+          "end": 309.44
+        },
+        {
+          "word": "not",
+          "start": 309.44,
+          "end": 309.58
+        },
+        {
+          "word": "going",
+          "start": 309.58,
+          "end": 309.74
+        },
+        {
+          "word": "to",
+          "start": 309.74,
+          "end": 309.86
+        },
+        {
+          "word": "offer",
+          "start": 309.86,
+          "end": 310.28
+        },
+        {
+          "word": "meals",
+          "start": 310.28,
+          "end": 311.02
+        },
+        {
+          "word": "on",
+          "start": 311.02,
+          "end": 311.38
+        },
+        {
+          "word": "the",
+          "start": 311.38,
+          "end": 311.56
+        },
+        {
+          "word": "flights",
+          "start": 311.56,
+          "end": 311.82
+        },
+        {
+          "word": "because",
+          "start": 311.82,
+          "end": 312.0
+        },
+        {
+          "word": "we're",
+          "start": 312.0,
+          "end": 312.68
+        },
+        {
+          "word": "going",
+          "start": 312.68,
+          "end": 312.72
+        },
+        {
+          "word": "to",
+          "start": 312.72,
+          "end": 312.8
+        },
+        {
+          "word": "specialize",
+          "start": 312.8,
+          "end": 313.12
+        },
+        {
+          "word": "in",
+          "start": 313.12,
+          "end": 313.56
+        },
+        {
+          "word": "short",
+          "start": 313.56,
+          "end": 314.12
+        },
+        {
+          "word": "flights.",
+          "start": 314.12,
+          "end": 314.52
+        }
+      ],
+      "textKo": "비행기에서 식사를 제공하지 않을 거야. 단거리 비행에 특화할 거니까."
+    },
+    {
+      "index": 51,
+      "start": 314.52,
+      "end": 317.12,
+      "textEn": "We're not going to book through travel agents.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 314.52,
+          "end": 315.12
+        },
+        {
+          "word": "not",
+          "start": 315.12,
+          "end": 315.32
+        },
+        {
+          "word": "going",
+          "start": 315.32,
+          "end": 315.5
+        },
+        {
+          "word": "to",
+          "start": 315.5,
+          "end": 315.58
+        },
+        {
+          "word": "book",
+          "start": 315.58,
+          "end": 315.84
+        },
+        {
+          "word": "through",
+          "start": 315.84,
+          "end": 316.4
+        },
+        {
+          "word": "travel",
+          "start": 316.4,
+          "end": 316.78
+        },
+        {
+          "word": "agents.",
+          "start": 316.78,
+          "end": 317.12
+        }
+      ],
+      "textKo": "여행사를 통해 예약받지 않을 거야."
+    },
+    {
+      "index": 52,
+      "start": 317.28,
+      "end": 321.94,
+      "textEn": "We're going to encourage people to book online because that's less expensive for everybody and more convenient.",
+      "words": [
+        {
+          "word": "We're",
+          "start": 317.28,
+          "end": 317.34
+        },
+        {
+          "word": "going",
+          "start": 317.34,
+          "end": 317.42
+        },
+        {
+          "word": "to",
+          "start": 317.42,
+          "end": 317.5
+        },
+        {
+          "word": "encourage",
+          "start": 317.5,
+          "end": 317.78
+        },
+        {
+          "word": "people",
+          "start": 317.78,
+          "end": 318.02
+        },
+        {
+          "word": "to",
+          "start": 318.02,
+          "end": 318.18
+        },
+        {
+          "word": "book",
+          "start": 318.18,
+          "end": 318.36
+        },
+        {
+          "word": "online",
+          "start": 318.36,
+          "end": 318.78
+        },
+        {
+          "word": "because",
+          "start": 318.78,
+          "end": 319.08
+        },
+        {
+          "word": "that's",
+          "start": 319.08,
+          "end": 319.42
+        },
+        {
+          "word": "less",
+          "start": 319.42,
+          "end": 319.56
+        },
+        {
+          "word": "expensive",
+          "start": 319.56,
+          "end": 319.98
+        },
+        {
+          "word": "for",
+          "start": 319.98,
+          "end": 320.32
+        },
+        {
+          "word": "everybody",
+          "start": 320.32,
+          "end": 321.1
+        },
+        {
+          "word": "and",
+          "start": 321.1,
+          "end": 321.3
+        },
+        {
+          "word": "more",
+          "start": 321.3,
+          "end": 321.46
+        },
+        {
+          "word": "convenient.",
+          "start": 321.46,
+          "end": 321.94
+        }
+      ],
+      "textKo": "온라인 예약을 장려할 거야. 모두에게 더 저렴하고 편리하니까."
+    },
+    {
+      "index": 53,
+      "start": 322.46,
+      "end": 332.54,
+      "textEn": "So their strategy ended up being having a substantially lower cost than any of the major carriers so that they could offer substantially lower prices.",
+      "words": [
+        {
+          "word": "So",
+          "start": 322.46,
+          "end": 323.02
+        },
+        {
+          "word": "their",
+          "start": 323.02,
+          "end": 323.26
+        },
+        {
+          "word": "strategy",
+          "start": 323.26,
+          "end": 323.72
+        },
+        {
+          "word": "ended",
+          "start": 323.72,
+          "end": 323.98
+        },
+        {
+          "word": "up",
+          "start": 323.98,
+          "end": 324.16
+        },
+        {
+          "word": "being",
+          "start": 324.16,
+          "end": 324.42
+        },
+        {
+          "word": "having",
+          "start": 324.42,
+          "end": 325.24
+        },
+        {
+          "word": "a",
+          "start": 325.24,
+          "end": 325.5
+        },
+        {
+          "word": "substantially",
+          "start": 325.5,
+          "end": 326.6
+        },
+        {
+          "word": "lower",
+          "start": 326.6,
+          "end": 327.06
+        },
+        {
+          "word": "cost",
+          "start": 327.06,
+          "end": 327.62
+        },
+        {
+          "word": "than",
+          "start": 327.62,
+          "end": 328.1
+        },
+        {
+          "word": "any",
+          "start": 328.1,
+          "end": 328.32
+        },
+        {
+          "word": "of",
+          "start": 328.32,
+          "end": 328.44
+        },
+        {
+          "word": "the",
+          "start": 328.44,
+          "end": 328.5
+        },
+        {
+          "word": "major",
+          "start": 328.5,
+          "end": 328.78
+        },
+        {
+          "word": "carriers",
+          "start": 328.78,
+          "end": 329.62
+        },
+        {
+          "word": "so",
+          "start": 329.62,
+          "end": 330.26
+        },
+        {
+          "word": "that",
+          "start": 330.26,
+          "end": 330.46
+        },
+        {
+          "word": "they",
+          "start": 330.46,
+          "end": 330.64
+        },
+        {
+          "word": "could",
+          "start": 330.64,
+          "end": 330.78
+        },
+        {
+          "word": "offer",
+          "start": 330.78,
+          "end": 331.1
+        },
+        {
+          "word": "substantially",
+          "start": 331.1,
+          "end": 331.7
+        },
+        {
+          "word": "lower",
+          "start": 331.7,
+          "end": 332.04
+        },
+        {
+          "word": "prices.",
+          "start": 332.04,
+          "end": 332.54
+        }
+      ],
+      "textKo": "그래서 그들의 전략은 주요 항공사보다 상당히 낮은 비용을 확보해서 상당히 낮은 가격을 제공하는 것이 됐어."
+    },
+    {
+      "index": 54,
+      "start": 332.54,
+      "end": 344.38,
+      "textEn": "Because it had a way of winning, it got bigger and then bigger and then bigger and then bigger and bigger and bigger and bigger until it flies the most passenger seat miles in America.",
+      "words": [
+        {
+          "word": "Because",
+          "start": 332.54,
+          "end": 333.28
+        },
+        {
+          "word": "it",
+          "start": 333.28,
+          "end": 333.52
+        },
+        {
+          "word": "had",
+          "start": 333.52,
+          "end": 333.66
+        },
+        {
+          "word": "a",
+          "start": 333.66,
+          "end": 333.78
+        },
+        {
+          "word": "way",
+          "start": 333.78,
+          "end": 333.94
+        },
+        {
+          "word": "of",
+          "start": 333.94,
+          "end": 334.08
+        },
+        {
+          "word": "winning,",
+          "start": 334.08,
+          "end": 334.34
+        },
+        {
+          "word": "it",
+          "start": 334.8,
+          "end": 335.5
+        },
+        {
+          "word": "got",
+          "start": 335.5,
+          "end": 335.64
+        },
+        {
+          "word": "bigger",
+          "start": 335.64,
+          "end": 335.96
+        },
+        {
+          "word": "and",
+          "start": 335.96,
+          "end": 337.06
+        },
+        {
+          "word": "then",
+          "start": 337.06,
+          "end": 337.2
+        },
+        {
+          "word": "bigger",
+          "start": 337.2,
+          "end": 337.48
+        },
+        {
+          "word": "and",
+          "start": 337.48,
+          "end": 338.38
+        },
+        {
+          "word": "then",
+          "start": 338.38,
+          "end": 338.52
+        },
+        {
+          "word": "bigger",
+          "start": 338.52,
+          "end": 338.84
+        },
+        {
+          "word": "and",
+          "start": 338.84,
+          "end": 339.6
+        },
+        {
+          "word": "then",
+          "start": 339.6,
+          "end": 339.7
+        },
+        {
+          "word": "bigger",
+          "start": 339.7,
+          "end": 340.0
+        },
+        {
+          "word": "and",
+          "start": 340.0,
+          "end": 340.3
+        },
+        {
+          "word": "bigger",
+          "start": 340.3,
+          "end": 340.56
+        },
+        {
+          "word": "and",
+          "start": 340.56,
+          "end": 340.72
+        },
+        {
+          "word": "bigger",
+          "start": 340.72,
+          "end": 340.96
+        },
+        {
+          "word": "and",
+          "start": 340.96,
+          "end": 341.1
+        },
+        {
+          "word": "bigger",
+          "start": 341.1,
+          "end": 341.36
+        },
+        {
+          "word": "until",
+          "start": 341.36,
+          "end": 341.98
+        },
+        {
+          "word": "it",
+          "start": 341.98,
+          "end": 342.2
+        },
+        {
+          "word": "flies",
+          "start": 342.2,
+          "end": 342.42
+        },
+        {
+          "word": "the",
+          "start": 342.42,
+          "end": 342.62
+        },
+        {
+          "word": "most",
+          "start": 342.62,
+          "end": 342.8
+        },
+        {
+          "word": "passenger",
+          "start": 342.8,
+          "end": 343.24
+        },
+        {
+          "word": "seat",
+          "start": 343.24,
+          "end": 343.5
+        },
+        {
+          "word": "miles",
+          "start": 343.5,
+          "end": 343.78
+        },
+        {
+          "word": "in",
+          "start": 343.78,
+          "end": 343.98
+        },
+        {
+          "word": "America.",
+          "start": 343.98,
+          "end": 344.38
+        }
+      ],
+      "textKo": "이기는 방법이 있었으니까, 점점 더 커지고 또 커져서 미국에서 가장 많은 승객 좌석 마일을 운항하게 됐어."
+    },
+    {
+      "index": 55,
+      "start": 346.02,
+      "end": 352.4,
+      "textEn": "The major carriers were not trying to win against one another.",
+      "words": [
+        {
+          "word": "The",
+          "start": 346.02,
+          "end": 346.54
+        },
+        {
+          "word": "major",
+          "start": 346.54,
+          "end": 347.06
+        },
+        {
+          "word": "carriers",
+          "start": 347.06,
+          "end": 348.0
+        },
+        {
+          "word": "were",
+          "start": 348.0,
+          "end": 349.8
+        },
+        {
+          "word": "not",
+          "start": 349.8,
+          "end": 350.22
+        },
+        {
+          "word": "trying",
+          "start": 350.22,
+          "end": 350.8
+        },
+        {
+          "word": "to",
+          "start": 350.8,
+          "end": 351.0
+        },
+        {
+          "word": "win",
+          "start": 351.0,
+          "end": 351.34
+        },
+        {
+          "word": "against",
+          "start": 351.34,
+          "end": 351.82
+        },
+        {
+          "word": "one",
+          "start": 351.82,
+          "end": 352.08
+        },
+        {
+          "word": "another.",
+          "start": 352.08,
+          "end": 352.4
+        }
+      ],
+      "textKo": "주요 항공사들은 서로를 이기려고 하지 않았어."
+    },
+    {
+      "index": 56,
+      "start": 352.68,
+      "end": 355.48,
+      "textEn": "They were all playing to play, as I say.",
+      "words": [
+        {
+          "word": "They",
+          "start": 352.68,
+          "end": 353.18
+        },
+        {
+          "word": "were",
+          "start": 353.18,
+          "end": 353.34
+        },
+        {
+          "word": "all",
+          "start": 353.34,
+          "end": 353.68
+        },
+        {
+          "word": "playing",
+          "start": 353.68,
+          "end": 354.46
+        },
+        {
+          "word": "to",
+          "start": 354.46,
+          "end": 354.7
+        },
+        {
+          "word": "play,",
+          "start": 354.7,
+          "end": 354.96
+        },
+        {
+          "word": "as",
+          "start": 355.12,
+          "end": 355.22
+        },
+        {
+          "word": "I",
+          "start": 355.22,
+          "end": 355.32
+        },
+        {
+          "word": "say.",
+          "start": 355.32,
+          "end": 355.48
+        }
+      ],
+      "textKo": "내가 말하듯이, 그들은 참여하기 위해 플레이하고 있었어."
+    },
+    {
+      "index": 57,
+      "start": 355.48,
+      "end": 368.86,
+      "textEn": "They were playing to participate, maybe buy more planes, get more gates, maybe grow some, not having a theory of here's how we could be better than our competitors.",
+      "words": [
+        {
+          "word": "They",
+          "start": 355.48,
+          "end": 355.76
+        },
+        {
+          "word": "were",
+          "start": 355.76,
+          "end": 355.88
+        },
+        {
+          "word": "playing",
+          "start": 355.88,
+          "end": 356.24
+        },
+        {
+          "word": "to",
+          "start": 356.24,
+          "end": 356.46
+        },
+        {
+          "word": "participate,",
+          "start": 356.46,
+          "end": 357.32
+        },
+        {
+          "word": "maybe",
+          "start": 358.06,
+          "end": 358.44
+        },
+        {
+          "word": "buy",
+          "start": 358.44,
+          "end": 359.86
+        },
+        {
+          "word": "more",
+          "start": 359.86,
+          "end": 360.08
+        },
+        {
+          "word": "planes,",
+          "start": 360.08,
+          "end": 360.44
+        },
+        {
+          "word": "get",
+          "start": 360.56,
+          "end": 360.72
+        },
+        {
+          "word": "more",
+          "start": 360.72,
+          "end": 360.92
+        },
+        {
+          "word": "gates,",
+          "start": 360.92,
+          "end": 361.18
+        },
+        {
+          "word": "maybe",
+          "start": 361.38,
+          "end": 361.52
+        },
+        {
+          "word": "grow",
+          "start": 361.52,
+          "end": 361.96
+        },
+        {
+          "word": "some,",
+          "start": 361.96,
+          "end": 362.46
+        },
+        {
+          "word": "not",
+          "start": 362.72,
+          "end": 363.28
+        },
+        {
+          "word": "having",
+          "start": 363.28,
+          "end": 363.78
+        },
+        {
+          "word": "a",
+          "start": 363.78,
+          "end": 363.94
+        },
+        {
+          "word": "theory",
+          "start": 363.94,
+          "end": 364.3
+        },
+        {
+          "word": "of",
+          "start": 364.3,
+          "end": 364.6
+        },
+        {
+          "word": "here's",
+          "start": 364.6,
+          "end": 365.66
+        },
+        {
+          "word": "how",
+          "start": 365.66,
+          "end": 365.84
+        },
+        {
+          "word": "we",
+          "start": 365.84,
+          "end": 366.04
+        },
+        {
+          "word": "could",
+          "start": 366.04,
+          "end": 366.22
+        },
+        {
+          "word": "be",
+          "start": 366.22,
+          "end": 366.44
+        },
+        {
+          "word": "better",
+          "start": 366.44,
+          "end": 366.92
+        },
+        {
+          "word": "than",
+          "start": 366.92,
+          "end": 367.9
+        },
+        {
+          "word": "our",
+          "start": 367.9,
+          "end": 368.28
+        },
+        {
+          "word": "competitors.",
+          "start": 368.28,
+          "end": 368.86
+        }
+      ],
+      "textKo": "참여하려고 플레이하면서, 비행기를 더 사고, 게이트를 더 확보하고, 좀 성장할 수도 있겠지. 경쟁사보다 어떻게 더 잘할 수 있는지에 대한 이론 없이 말이야."
+    },
+    {
+      "index": 58,
+      "start": 369.8,
+      "end": 378.28,
+      "textEn": "And that was fine until somebody came along and said, here's a way to be better than everybody else for this segment.",
+      "words": [
+        {
+          "word": "And",
+          "start": 369.8,
+          "end": 370.4
+        },
+        {
+          "word": "that",
+          "start": 370.4,
+          "end": 370.5
+        },
+        {
+          "word": "was",
+          "start": 370.5,
+          "end": 370.64
+        },
+        {
+          "word": "fine",
+          "start": 370.64,
+          "end": 370.9
+        },
+        {
+          "word": "until",
+          "start": 370.9,
+          "end": 371.3
+        },
+        {
+          "word": "somebody",
+          "start": 371.3,
+          "end": 371.74
+        },
+        {
+          "word": "came",
+          "start": 371.74,
+          "end": 371.92
+        },
+        {
+          "word": "along",
+          "start": 371.92,
+          "end": 372.14
+        },
+        {
+          "word": "and",
+          "start": 372.14,
+          "end": 372.32
+        },
+        {
+          "word": "said,",
+          "start": 372.32,
+          "end": 372.6
+        },
+        {
+          "word": "here's",
+          "start": 372.8,
+          "end": 373.66
+        },
+        {
+          "word": "a",
+          "start": 373.66,
+          "end": 373.76
+        },
+        {
+          "word": "way",
+          "start": 373.76,
+          "end": 374.0
+        },
+        {
+          "word": "to",
+          "start": 374.0,
+          "end": 374.44
+        },
+        {
+          "word": "be",
+          "start": 374.44,
+          "end": 374.64
+        },
+        {
+          "word": "better",
+          "start": 374.64,
+          "end": 375.2
+        },
+        {
+          "word": "than",
+          "start": 375.2,
+          "end": 375.86
+        },
+        {
+          "word": "everybody",
+          "start": 375.86,
+          "end": 376.36
+        },
+        {
+          "word": "else",
+          "start": 376.36,
+          "end": 376.74
+        },
+        {
+          "word": "for",
+          "start": 376.74,
+          "end": 377.3
+        },
+        {
+          "word": "this",
+          "start": 377.3,
+          "end": 377.74
+        },
+        {
+          "word": "segment.",
+          "start": 377.74,
+          "end": 378.28
+        }
+      ],
+      "textKo": "그게 괜찮았어. 누군가가 와서 '이 세그먼트에서 다른 모든 항공사보다 더 잘할 방법이 여기 있다'고 말하기 전까지는."
+    },
+    {
+      "index": 59,
+      "start": 378.94,
+      "end": 380.98,
+      "textEn": "And so that segment then goes.",
+      "words": [
+        {
+          "word": "And",
+          "start": 378.94,
+          "end": 379.54
+        },
+        {
+          "word": "so",
+          "start": 379.54,
+          "end": 379.74
+        },
+        {
+          "word": "that",
+          "start": 379.74,
+          "end": 379.98
+        },
+        {
+          "word": "segment",
+          "start": 379.98,
+          "end": 380.34
+        },
+        {
+          "word": "then",
+          "start": 380.34,
+          "end": 380.64
+        },
+        {
+          "word": "goes.",
+          "start": 380.64,
+          "end": 380.98
+        }
+      ],
+      "textKo": "그래서 그 세그먼트가 사라지는 거야."
+    },
+    {
+      "index": 60,
+      "start": 380.98,
+      "end": 392.48,
+      "textEn": "It's gone and the main playing to play players have to have to share a smaller pie that's left over after Southwest takes whatever share it wants.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 380.98,
+          "end": 381.36
+        },
+        {
+          "word": "gone",
+          "start": 381.36,
+          "end": 381.62
+        },
+        {
+          "word": "and",
+          "start": 381.62,
+          "end": 382.8
+        },
+        {
+          "word": "the",
+          "start": 382.8,
+          "end": 383.36
+        },
+        {
+          "word": "main",
+          "start": 383.36,
+          "end": 383.8
+        },
+        {
+          "word": "playing",
+          "start": 383.8,
+          "end": 384.56
+        },
+        {
+          "word": "to",
+          "start": 384.56,
+          "end": 384.74
+        },
+        {
+          "word": "play",
+          "start": 384.74,
+          "end": 385.02
+        },
+        {
+          "word": "players",
+          "start": 385.02,
+          "end": 385.8
+        },
+        {
+          "word": "have",
+          "start": 385.8,
+          "end": 386.2
+        },
+        {
+          "word": "to",
+          "start": 386.2,
+          "end": 386.42
+        },
+        {
+          "word": "have",
+          "start": 386.42,
+          "end": 386.8
+        },
+        {
+          "word": "to",
+          "start": 386.8,
+          "end": 386.94
+        },
+        {
+          "word": "share",
+          "start": 386.94,
+          "end": 387.28
+        },
+        {
+          "word": "a",
+          "start": 387.28,
+          "end": 387.58
+        },
+        {
+          "word": "smaller",
+          "start": 387.58,
+          "end": 388.06
+        },
+        {
+          "word": "pie",
+          "start": 388.06,
+          "end": 388.6
+        },
+        {
+          "word": "that's",
+          "start": 388.6,
+          "end": 388.92
+        },
+        {
+          "word": "left",
+          "start": 388.92,
+          "end": 389.08
+        },
+        {
+          "word": "over",
+          "start": 389.08,
+          "end": 389.32
+        },
+        {
+          "word": "after",
+          "start": 389.32,
+          "end": 389.6
+        },
+        {
+          "word": "Southwest",
+          "start": 389.6,
+          "end": 390.04
+        },
+        {
+          "word": "takes",
+          "start": 390.04,
+          "end": 390.52
+        },
+        {
+          "word": "whatever",
+          "start": 390.52,
+          "end": 391.36
+        },
+        {
+          "word": "share",
+          "start": 391.36,
+          "end": 391.84
+        },
+        {
+          "word": "it",
+          "start": 391.84,
+          "end": 392.12
+        },
+        {
+          "word": "wants.",
+          "start": 392.12,
+          "end": 392.48
+        }
+      ],
+      "textKo": "사라지고, 그냥 참여하던 주요 항공사들은 사우스웨스트가 원하는 만큼 가져간 뒤에 남은 더 작은 파이를 나눠야 해."
+    },
+    {
+      "index": 61,
+      "start": 394.76,
+      "end": 404.84,
+      "textEn": "If you're trying to escape this planning trap, this comfort trap of doing something that's comfortable but not good for you, how do you start?",
+      "words": [
+        {
+          "word": "If",
+          "start": 394.76,
+          "end": 395.46
+        },
+        {
+          "word": "you're",
+          "start": 395.46,
+          "end": 395.66
+        },
+        {
+          "word": "trying",
+          "start": 395.66,
+          "end": 396.14
+        },
+        {
+          "word": "to",
+          "start": 396.14,
+          "end": 396.52
+        },
+        {
+          "word": "escape",
+          "start": 396.52,
+          "end": 397.02
+        },
+        {
+          "word": "this",
+          "start": 397.02,
+          "end": 397.36
+        },
+        {
+          "word": "planning",
+          "start": 397.36,
+          "end": 397.84
+        },
+        {
+          "word": "trap,",
+          "start": 397.84,
+          "end": 398.16
+        },
+        {
+          "word": "this",
+          "start": 398.3,
+          "end": 398.46
+        },
+        {
+          "word": "comfort",
+          "start": 398.46,
+          "end": 399.22
+        },
+        {
+          "word": "trap",
+          "start": 399.22,
+          "end": 399.62
+        },
+        {
+          "word": "of",
+          "start": 399.62,
+          "end": 399.86
+        },
+        {
+          "word": "doing",
+          "start": 399.86,
+          "end": 400.08
+        },
+        {
+          "word": "something",
+          "start": 400.08,
+          "end": 400.44
+        },
+        {
+          "word": "that's",
+          "start": 400.44,
+          "end": 400.76
+        },
+        {
+          "word": "comfortable",
+          "start": 400.76,
+          "end": 401.28
+        },
+        {
+          "word": "but",
+          "start": 401.28,
+          "end": 402.06
+        },
+        {
+          "word": "not",
+          "start": 402.06,
+          "end": 402.5
+        },
+        {
+          "word": "good",
+          "start": 402.5,
+          "end": 402.82
+        },
+        {
+          "word": "for",
+          "start": 402.82,
+          "end": 403.06
+        },
+        {
+          "word": "you,",
+          "start": 403.06,
+          "end": 403.32
+        },
+        {
+          "word": "how",
+          "start": 403.5,
+          "end": 403.96
+        },
+        {
+          "word": "do",
+          "start": 403.96,
+          "end": 404.06
+        },
+        {
+          "word": "you",
+          "start": 404.06,
+          "end": 404.22
+        },
+        {
+          "word": "start?",
+          "start": 404.22,
+          "end": 404.84
+        }
+      ],
+      "textKo": "이 계획의 함정, 편안하지만 좋지 않은 것을 하는 이 안주의 함정에서 벗어나려면 어떻게 시작해야 할까?"
+    },
+    {
+      "index": 62,
+      "start": 404.84,
+      "end": 413.18,
+      "textEn": "The most important thing to recognize is that strategy will have angst associated with it.",
+      "words": [
+        {
+          "word": "The",
+          "start": 404.84,
+          "end": 406.2
+        },
+        {
+          "word": "most",
+          "start": 406.2,
+          "end": 406.62
+        },
+        {
+          "word": "important",
+          "start": 406.62,
+          "end": 407.0
+        },
+        {
+          "word": "thing",
+          "start": 407.0,
+          "end": 407.28
+        },
+        {
+          "word": "to",
+          "start": 407.28,
+          "end": 407.54
+        },
+        {
+          "word": "recognize",
+          "start": 407.54,
+          "end": 408.02
+        },
+        {
+          "word": "is",
+          "start": 408.02,
+          "end": 408.82
+        },
+        {
+          "word": "that",
+          "start": 408.82,
+          "end": 409.2
+        },
+        {
+          "word": "strategy",
+          "start": 409.2,
+          "end": 410.84
+        },
+        {
+          "word": "will",
+          "start": 410.84,
+          "end": 411.42
+        },
+        {
+          "word": "have",
+          "start": 411.42,
+          "end": 411.72
+        },
+        {
+          "word": "angst",
+          "start": 411.72,
+          "end": 412.22
+        },
+        {
+          "word": "associated",
+          "start": 412.22,
+          "end": 412.74
+        },
+        {
+          "word": "with",
+          "start": 412.74,
+          "end": 412.96
+        },
+        {
+          "word": "it.",
+          "start": 412.96,
+          "end": 413.18
+        }
+      ],
+      "textKo": "가장 중요한 건 전략에는 불안이 수반된다는 걸 인식하는 거야."
+    },
+    {
+      "index": 63,
+      "start": 413.54,
+      "end": 424.22,
+      "textEn": "It'll make you feel somewhat nervous because as a manager, chances are you've been taught you should do things that you can prove in advance.",
+      "words": [
+        {
+          "word": "It'll",
+          "start": 413.54,
+          "end": 414.0
+        },
+        {
+          "word": "make",
+          "start": 414.0,
+          "end": 414.64
+        },
+        {
+          "word": "you",
+          "start": 414.64,
+          "end": 414.94
+        },
+        {
+          "word": "feel",
+          "start": 414.94,
+          "end": 415.44
+        },
+        {
+          "word": "somewhat",
+          "start": 415.44,
+          "end": 416.44
+        },
+        {
+          "word": "nervous",
+          "start": 416.44,
+          "end": 416.94
+        },
+        {
+          "word": "because",
+          "start": 416.94,
+          "end": 417.86
+        },
+        {
+          "word": "as",
+          "start": 417.86,
+          "end": 418.5
+        },
+        {
+          "word": "a",
+          "start": 418.5,
+          "end": 418.64
+        },
+        {
+          "word": "manager,",
+          "start": 418.64,
+          "end": 419.12
+        },
+        {
+          "word": "chances",
+          "start": 419.3,
+          "end": 419.64
+        },
+        {
+          "word": "are",
+          "start": 419.64,
+          "end": 419.88
+        },
+        {
+          "word": "you've",
+          "start": 419.88,
+          "end": 420.16
+        },
+        {
+          "word": "been",
+          "start": 420.16,
+          "end": 420.26
+        },
+        {
+          "word": "taught",
+          "start": 420.26,
+          "end": 420.66
+        },
+        {
+          "word": "you",
+          "start": 420.66,
+          "end": 421.32
+        },
+        {
+          "word": "should",
+          "start": 421.32,
+          "end": 421.7
+        },
+        {
+          "word": "do",
+          "start": 421.7,
+          "end": 422.06
+        },
+        {
+          "word": "things",
+          "start": 422.06,
+          "end": 422.44
+        },
+        {
+          "word": "that",
+          "start": 422.44,
+          "end": 422.68
+        },
+        {
+          "word": "you",
+          "start": 422.68,
+          "end": 422.82
+        },
+        {
+          "word": "can",
+          "start": 422.82,
+          "end": 423.02
+        },
+        {
+          "word": "prove",
+          "start": 423.02,
+          "end": 423.52
+        },
+        {
+          "word": "in",
+          "start": 423.52,
+          "end": 423.86
+        },
+        {
+          "word": "advance.",
+          "start": 423.86,
+          "end": 424.22
+        }
+      ],
+      "textKo": "좀 불안할 거야. 매니저로서 아마 미리 증명할 수 있는 일을 해야 한다고 배웠을 테니까."
+    },
+    {
+      "index": 64,
+      "start": 424.58,
+      "end": 429.38,
+      "textEn": "You can't prove in advance that your strategy will succeed.",
+      "words": [
+        {
+          "word": "You",
+          "start": 424.58,
+          "end": 424.96
+        },
+        {
+          "word": "can't",
+          "start": 424.96,
+          "end": 425.5
+        },
+        {
+          "word": "prove",
+          "start": 425.5,
+          "end": 426.34
+        },
+        {
+          "word": "in",
+          "start": 426.34,
+          "end": 427.24
+        },
+        {
+          "word": "advance",
+          "start": 427.24,
+          "end": 427.56
+        },
+        {
+          "word": "that",
+          "start": 427.56,
+          "end": 427.96
+        },
+        {
+          "word": "your",
+          "start": 427.96,
+          "end": 428.16
+        },
+        {
+          "word": "strategy",
+          "start": 428.16,
+          "end": 428.62
+        },
+        {
+          "word": "will",
+          "start": 428.62,
+          "end": 428.92
+        },
+        {
+          "word": "succeed.",
+          "start": 428.92,
+          "end": 429.38
+        }
+      ],
+      "textKo": "전략이 성공할 거라고 미리 증명할 수 없어."
+    },
+    {
+      "index": 65,
+      "start": 429.38,
+      "end": 432.32,
+      "textEn": "You can look at a plan and say, well, all of these things are doable.",
+      "words": [
+        {
+          "word": "You",
+          "start": 429.38,
+          "end": 430.02
+        },
+        {
+          "word": "can",
+          "start": 430.02,
+          "end": 430.14
+        },
+        {
+          "word": "look",
+          "start": 430.14,
+          "end": 430.28
+        },
+        {
+          "word": "at",
+          "start": 430.28,
+          "end": 430.38
+        },
+        {
+          "word": "a",
+          "start": 430.38,
+          "end": 430.5
+        },
+        {
+          "word": "plan",
+          "start": 430.5,
+          "end": 430.7
+        },
+        {
+          "word": "and",
+          "start": 430.7,
+          "end": 430.82
+        },
+        {
+          "word": "say,",
+          "start": 430.82,
+          "end": 430.98
+        },
+        {
+          "word": "well,",
+          "start": 431.1,
+          "end": 431.16
+        },
+        {
+          "word": "all",
+          "start": 431.16,
+          "end": 431.36
+        },
+        {
+          "word": "of",
+          "start": 431.36,
+          "end": 431.5
+        },
+        {
+          "word": "these",
+          "start": 431.5,
+          "end": 431.6
+        },
+        {
+          "word": "things",
+          "start": 431.6,
+          "end": 431.76
+        },
+        {
+          "word": "are",
+          "start": 431.76,
+          "end": 431.94
+        },
+        {
+          "word": "doable.",
+          "start": 431.94,
+          "end": 432.32
+        }
+      ],
+      "textKo": "계획을 보면 이것들은 다 실행 가능하다고 말할 수 있어."
+    },
+    {
+      "index": 66,
+      "start": 432.68,
+      "end": 436.68,
+      "textEn": "Let's just do those because they're within our control, but they won't add up to much.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 432.68,
+          "end": 433.02
+        },
+        {
+          "word": "just",
+          "start": 433.02,
+          "end": 433.18
+        },
+        {
+          "word": "do",
+          "start": 433.18,
+          "end": 433.42
+        },
+        {
+          "word": "those",
+          "start": 433.42,
+          "end": 433.64
+        },
+        {
+          "word": "because",
+          "start": 433.64,
+          "end": 433.88
+        },
+        {
+          "word": "they're",
+          "start": 433.88,
+          "end": 434.1
+        },
+        {
+          "word": "within",
+          "start": 434.1,
+          "end": 434.28
+        },
+        {
+          "word": "our",
+          "start": 434.28,
+          "end": 434.48
+        },
+        {
+          "word": "control,",
+          "start": 434.48,
+          "end": 434.92
+        },
+        {
+          "word": "but",
+          "start": 435.02,
+          "end": 435.64
+        },
+        {
+          "word": "they",
+          "start": 435.64,
+          "end": 435.76
+        },
+        {
+          "word": "won't",
+          "start": 435.76,
+          "end": 435.96
+        },
+        {
+          "word": "add",
+          "start": 435.96,
+          "end": 436.1
+        },
+        {
+          "word": "up",
+          "start": 436.1,
+          "end": 436.24
+        },
+        {
+          "word": "to",
+          "start": 436.24,
+          "end": 436.36
+        },
+        {
+          "word": "much.",
+          "start": 436.36,
+          "end": 436.68
+        }
+      ],
+      "textKo": "우리가 통제할 수 있으니까 그냥 이것들을 하자. 하지만 큰 성과로 이어지진 않을 거야."
+    },
+    {
+      "index": 67,
+      "start": 436.96,
+      "end": 446.7,
+      "textEn": "In strategy, you have to say, if our theory is right about what we can do and how the market will react, this will position us in an excellent way.",
+      "words": [
+        {
+          "word": "In",
+          "start": 436.96,
+          "end": 437.22
+        },
+        {
+          "word": "strategy,",
+          "start": 437.22,
+          "end": 437.72
+        },
+        {
+          "word": "you",
+          "start": 437.72,
+          "end": 438.36
+        },
+        {
+          "word": "have",
+          "start": 438.36,
+          "end": 438.52
+        },
+        {
+          "word": "to",
+          "start": 438.52,
+          "end": 438.64
+        },
+        {
+          "word": "say,",
+          "start": 438.64,
+          "end": 438.94
+        },
+        {
+          "word": "if",
+          "start": 439.16,
+          "end": 440.1
+        },
+        {
+          "word": "our",
+          "start": 440.1,
+          "end": 440.3
+        },
+        {
+          "word": "theory",
+          "start": 440.3,
+          "end": 440.74
+        },
+        {
+          "word": "is",
+          "start": 440.74,
+          "end": 441.04
+        },
+        {
+          "word": "right",
+          "start": 441.04,
+          "end": 441.36
+        },
+        {
+          "word": "about",
+          "start": 441.36,
+          "end": 442.12
+        },
+        {
+          "word": "what",
+          "start": 442.12,
+          "end": 442.34
+        },
+        {
+          "word": "we",
+          "start": 442.34,
+          "end": 442.52
+        },
+        {
+          "word": "can",
+          "start": 442.52,
+          "end": 442.7
+        },
+        {
+          "word": "do",
+          "start": 442.7,
+          "end": 442.84
+        },
+        {
+          "word": "and",
+          "start": 442.84,
+          "end": 443.02
+        },
+        {
+          "word": "how",
+          "start": 443.02,
+          "end": 443.14
+        },
+        {
+          "word": "the",
+          "start": 443.14,
+          "end": 443.3
+        },
+        {
+          "word": "market",
+          "start": 443.3,
+          "end": 443.56
+        },
+        {
+          "word": "will",
+          "start": 443.56,
+          "end": 443.76
+        },
+        {
+          "word": "react,",
+          "start": 443.76,
+          "end": 444.2
+        },
+        {
+          "word": "this",
+          "start": 444.4,
+          "end": 444.84
+        },
+        {
+          "word": "will",
+          "start": 444.84,
+          "end": 445.1
+        },
+        {
+          "word": "position",
+          "start": 445.1,
+          "end": 445.5
+        },
+        {
+          "word": "us",
+          "start": 445.5,
+          "end": 445.76
+        },
+        {
+          "word": "in",
+          "start": 445.76,
+          "end": 445.9
+        },
+        {
+          "word": "an",
+          "start": 445.9,
+          "end": 446.02
+        },
+        {
+          "word": "excellent",
+          "start": 446.02,
+          "end": 446.36
+        },
+        {
+          "word": "way.",
+          "start": 446.36,
+          "end": 446.7
+        }
+      ],
+      "textKo": "전략에서는 이렇게 말해야 해. 우리가 할 수 있는 것과 시장의 반응에 대한 우리 이론이 맞다면, 이것이 우리를 아주 좋은 위치에 놓을 거야."
+    },
+    {
+      "index": 68,
+      "start": 446.7,
+      "end": 453.44,
+      "textEn": "Just accept the fact that you can't be perfect on that and you can't know for sure.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 446.7,
+          "end": 447.94
+        },
+        {
+          "word": "accept",
+          "start": 447.94,
+          "end": 448.48
+        },
+        {
+          "word": "the",
+          "start": 448.48,
+          "end": 448.72
+        },
+        {
+          "word": "fact",
+          "start": 448.72,
+          "end": 449.04
+        },
+        {
+          "word": "that",
+          "start": 449.04,
+          "end": 449.92
+        },
+        {
+          "word": "you",
+          "start": 449.92,
+          "end": 450.12
+        },
+        {
+          "word": "can't",
+          "start": 450.12,
+          "end": 450.62
+        },
+        {
+          "word": "be",
+          "start": 450.62,
+          "end": 450.92
+        },
+        {
+          "word": "perfect",
+          "start": 450.92,
+          "end": 451.3
+        },
+        {
+          "word": "on",
+          "start": 451.3,
+          "end": 451.54
+        },
+        {
+          "word": "that",
+          "start": 451.54,
+          "end": 451.72
+        },
+        {
+          "word": "and",
+          "start": 451.72,
+          "end": 451.92
+        },
+        {
+          "word": "you",
+          "start": 451.92,
+          "end": 452.04
+        },
+        {
+          "word": "can't",
+          "start": 452.04,
+          "end": 452.42
+        },
+        {
+          "word": "know",
+          "start": 452.42,
+          "end": 452.78
+        },
+        {
+          "word": "for",
+          "start": 452.78,
+          "end": 453.08
+        },
+        {
+          "word": "sure.",
+          "start": 453.08,
+          "end": 453.44
+        }
+      ],
+      "textKo": "완벽할 수 없고 확실히 알 수 없다는 사실을 그냥 받아들여."
+    },
+    {
+      "index": 69,
+      "start": 453.72,
+      "end": 456.9,
+      "textEn": "And that is not being a bad manager, right?",
+      "words": [
+        {
+          "word": "And",
+          "start": 453.72,
+          "end": 454.18
+        },
+        {
+          "word": "that",
+          "start": 454.18,
+          "end": 454.34
+        },
+        {
+          "word": "is",
+          "start": 454.34,
+          "end": 454.5
+        },
+        {
+          "word": "not",
+          "start": 454.5,
+          "end": 454.68
+        },
+        {
+          "word": "being",
+          "start": 454.68,
+          "end": 454.92
+        },
+        {
+          "word": "a",
+          "start": 454.92,
+          "end": 455.08
+        },
+        {
+          "word": "bad",
+          "start": 455.08,
+          "end": 455.38
+        },
+        {
+          "word": "manager,",
+          "start": 455.38,
+          "end": 455.9
+        },
+        {
+          "word": "right?",
+          "start": 456.8,
+          "end": 456.9
+        }
+      ],
+      "textKo": "그게 나쁜 매니저가 되는 게 아니야, 맞지?"
+    },
+    {
+      "index": 70,
+      "start": 457.1,
+      "end": 465.04,
+      "textEn": "That is being a great leader because you're giving your organization the chance to do something great.",
+      "words": [
+        {
+          "word": "That",
+          "start": 457.1,
+          "end": 457.36
+        },
+        {
+          "word": "is",
+          "start": 457.36,
+          "end": 457.52
+        },
+        {
+          "word": "being",
+          "start": 457.52,
+          "end": 457.76
+        },
+        {
+          "word": "a",
+          "start": 457.76,
+          "end": 458.08
+        },
+        {
+          "word": "great",
+          "start": 458.08,
+          "end": 458.48
+        },
+        {
+          "word": "leader",
+          "start": 458.48,
+          "end": 458.92
+        },
+        {
+          "word": "because",
+          "start": 458.92,
+          "end": 460.1
+        },
+        {
+          "word": "you're",
+          "start": 460.1,
+          "end": 460.5
+        },
+        {
+          "word": "giving",
+          "start": 460.5,
+          "end": 460.8
+        },
+        {
+          "word": "your",
+          "start": 460.8,
+          "end": 461.08
+        },
+        {
+          "word": "organization",
+          "start": 461.08,
+          "end": 461.98
+        },
+        {
+          "word": "the",
+          "start": 461.98,
+          "end": 462.52
+        },
+        {
+          "word": "chance",
+          "start": 462.52,
+          "end": 463.12
+        },
+        {
+          "word": "to",
+          "start": 463.12,
+          "end": 463.74
+        },
+        {
+          "word": "do",
+          "start": 463.74,
+          "end": 463.96
+        },
+        {
+          "word": "something",
+          "start": 463.96,
+          "end": 464.38
+        },
+        {
+          "word": "great.",
+          "start": 464.38,
+          "end": 465.04
+        }
+      ],
+      "textKo": "그게 훌륭한 리더가 되는 거야. 조직에 위대한 일을 할 기회를 주는 거니까."
+    },
+    {
+      "index": 71,
+      "start": 465.04,
+      "end": 472.0,
+      "textEn": "The second thing I do is say, lay out the logic of your strategy clearly.",
+      "words": [
+        {
+          "word": "The",
+          "start": 465.04,
+          "end": 466.16
+        },
+        {
+          "word": "second",
+          "start": 466.16,
+          "end": 466.46
+        },
+        {
+          "word": "thing",
+          "start": 466.46,
+          "end": 466.62
+        },
+        {
+          "word": "I",
+          "start": 466.62,
+          "end": 466.74
+        },
+        {
+          "word": "do",
+          "start": 466.74,
+          "end": 466.88
+        },
+        {
+          "word": "is",
+          "start": 466.88,
+          "end": 467.18
+        },
+        {
+          "word": "say,",
+          "start": 467.18,
+          "end": 467.98
+        },
+        {
+          "word": "lay",
+          "start": 468.2,
+          "end": 468.7
+        },
+        {
+          "word": "out",
+          "start": 468.7,
+          "end": 468.92
+        },
+        {
+          "word": "the",
+          "start": 468.92,
+          "end": 469.1
+        },
+        {
+          "word": "logic",
+          "start": 469.1,
+          "end": 469.56
+        },
+        {
+          "word": "of",
+          "start": 469.56,
+          "end": 470.3
+        },
+        {
+          "word": "your",
+          "start": 470.3,
+          "end": 470.5
+        },
+        {
+          "word": "strategy",
+          "start": 470.5,
+          "end": 471.02
+        },
+        {
+          "word": "clearly.",
+          "start": 471.02,
+          "end": 472.0
+        }
+      ],
+      "textKo": "두 번째로 내가 하는 건, 전략의 논리를 명확하게 펼치라고 말하는 거야."
+    },
+    {
+      "index": 72,
+      "start": 472.5,
+      "end": 481.64,
+      "textEn": "What would have to be true about ourselves, about the industry, about competition, about customers for this strategy to work?",
+      "words": [
+        {
+          "word": "What",
+          "start": 472.5,
+          "end": 472.94
+        },
+        {
+          "word": "would",
+          "start": 472.94,
+          "end": 473.04
+        },
+        {
+          "word": "have",
+          "start": 473.04,
+          "end": 473.22
+        },
+        {
+          "word": "to",
+          "start": 473.22,
+          "end": 473.4
+        },
+        {
+          "word": "be",
+          "start": 473.4,
+          "end": 473.52
+        },
+        {
+          "word": "true",
+          "start": 473.52,
+          "end": 473.8
+        },
+        {
+          "word": "about",
+          "start": 473.8,
+          "end": 474.2
+        },
+        {
+          "word": "ourselves,",
+          "start": 474.2,
+          "end": 474.78
+        },
+        {
+          "word": "about",
+          "start": 475.08,
+          "end": 475.2
+        },
+        {
+          "word": "the",
+          "start": 475.2,
+          "end": 475.38
+        },
+        {
+          "word": "industry,",
+          "start": 475.38,
+          "end": 475.84
+        },
+        {
+          "word": "about",
+          "start": 476.04,
+          "end": 476.22
+        },
+        {
+          "word": "competition,",
+          "start": 476.22,
+          "end": 477.1
+        },
+        {
+          "word": "about",
+          "start": 477.12,
+          "end": 477.52
+        },
+        {
+          "word": "customers",
+          "start": 477.52,
+          "end": 478.16
+        },
+        {
+          "word": "for",
+          "start": 478.16,
+          "end": 479.12
+        },
+        {
+          "word": "this",
+          "start": 479.12,
+          "end": 480.32
+        },
+        {
+          "word": "strategy",
+          "start": 480.32,
+          "end": 480.96
+        },
+        {
+          "word": "to",
+          "start": 480.96,
+          "end": 481.28
+        },
+        {
+          "word": "work?",
+          "start": 481.28,
+          "end": 481.64
+        }
+      ],
+      "textKo": "이 전략이 작동하려면 우리 자신에 대해, 산업에 대해, 경쟁에 대해, 고객에 대해 무엇이 사실이어야 할까?"
+    },
+    {
+      "index": 73,
+      "start": 482.02,
+      "end": 486.7,
+      "textEn": "Why do you do that? It's because you can then watch the world unfold, right?",
+      "words": [
+        {
+          "word": "Why",
+          "start": 482.02,
+          "end": 482.42
+        },
+        {
+          "word": "do",
+          "start": 482.42,
+          "end": 482.54
+        },
+        {
+          "word": "you",
+          "start": 482.54,
+          "end": 482.62
+        },
+        {
+          "word": "do",
+          "start": 482.62,
+          "end": 482.74
+        },
+        {
+          "word": "that?",
+          "start": 482.74,
+          "end": 482.94
+        },
+        {
+          "word": "It's",
+          "start": 483.04,
+          "end": 483.2
+        },
+        {
+          "word": "because",
+          "start": 483.2,
+          "end": 483.52
+        },
+        {
+          "word": "you",
+          "start": 483.52,
+          "end": 483.88
+        },
+        {
+          "word": "can",
+          "start": 483.88,
+          "end": 484.02
+        },
+        {
+          "word": "then",
+          "start": 484.02,
+          "end": 484.22
+        },
+        {
+          "word": "watch",
+          "start": 484.22,
+          "end": 484.68
+        },
+        {
+          "word": "the",
+          "start": 484.68,
+          "end": 484.96
+        },
+        {
+          "word": "world",
+          "start": 484.96,
+          "end": 485.22
+        },
+        {
+          "word": "unfold,",
+          "start": 485.22,
+          "end": 485.78
+        },
+        {
+          "word": "right?",
+          "start": 486.06,
+          "end": 486.7
+        }
+      ],
+      "textKo": "왜 그렇게 하냐고? 그러면 세상이 어떻게 전개되는지 지켜볼 수 있거든."
+    },
+    {
+      "index": 74,
+      "start": 486.7,
+      "end": 497.96,
+      "textEn": "And if something that you say is in the logic that would have to be true for this to work is not working out quite the way you hoped, it'll allow you to tweak your strategy.",
+      "words": [
+        {
+          "word": "And",
+          "start": 486.7,
+          "end": 487.32
+        },
+        {
+          "word": "if",
+          "start": 487.32,
+          "end": 487.52
+        },
+        {
+          "word": "something",
+          "start": 487.52,
+          "end": 488.22
+        },
+        {
+          "word": "that",
+          "start": 488.22,
+          "end": 489.16
+        },
+        {
+          "word": "you",
+          "start": 489.16,
+          "end": 489.32
+        },
+        {
+          "word": "say",
+          "start": 489.32,
+          "end": 489.58
+        },
+        {
+          "word": "is",
+          "start": 489.58,
+          "end": 489.78
+        },
+        {
+          "word": "in",
+          "start": 489.78,
+          "end": 489.9
+        },
+        {
+          "word": "the",
+          "start": 489.9,
+          "end": 490.0
+        },
+        {
+          "word": "logic",
+          "start": 490.0,
+          "end": 490.38
+        },
+        {
+          "word": "that",
+          "start": 490.38,
+          "end": 490.7
+        },
+        {
+          "word": "would",
+          "start": 490.7,
+          "end": 490.8
+        },
+        {
+          "word": "have",
+          "start": 490.8,
+          "end": 490.96
+        },
+        {
+          "word": "to",
+          "start": 490.96,
+          "end": 491.08
+        },
+        {
+          "word": "be",
+          "start": 491.08,
+          "end": 491.18
+        },
+        {
+          "word": "true",
+          "start": 491.18,
+          "end": 491.38
+        },
+        {
+          "word": "for",
+          "start": 491.38,
+          "end": 491.56
+        },
+        {
+          "word": "this",
+          "start": 491.56,
+          "end": 491.74
+        },
+        {
+          "word": "to",
+          "start": 491.74,
+          "end": 491.9
+        },
+        {
+          "word": "work",
+          "start": 491.9,
+          "end": 492.18
+        },
+        {
+          "word": "is",
+          "start": 492.18,
+          "end": 492.62
+        },
+        {
+          "word": "not",
+          "start": 492.62,
+          "end": 492.76
+        },
+        {
+          "word": "working",
+          "start": 492.76,
+          "end": 493.04
+        },
+        {
+          "word": "out",
+          "start": 493.04,
+          "end": 493.3
+        },
+        {
+          "word": "quite",
+          "start": 493.3,
+          "end": 493.86
+        },
+        {
+          "word": "the",
+          "start": 493.86,
+          "end": 494.1
+        },
+        {
+          "word": "way",
+          "start": 494.1,
+          "end": 494.3
+        },
+        {
+          "word": "you",
+          "start": 494.3,
+          "end": 494.84
+        },
+        {
+          "word": "hoped,",
+          "start": 494.84,
+          "end": 495.18
+        },
+        {
+          "word": "it'll",
+          "start": 495.62,
+          "end": 496.42
+        },
+        {
+          "word": "allow",
+          "start": 496.42,
+          "end": 496.6
+        },
+        {
+          "word": "you",
+          "start": 496.6,
+          "end": 496.78
+        },
+        {
+          "word": "to",
+          "start": 496.78,
+          "end": 496.94
+        },
+        {
+          "word": "tweak",
+          "start": 496.94,
+          "end": 497.24
+        },
+        {
+          "word": "your",
+          "start": 497.24,
+          "end": 497.46
+        },
+        {
+          "word": "strategy.",
+          "start": 497.46,
+          "end": 497.96
+        }
+      ],
+      "textKo": "이것이 작동하기 위해 사실이어야 한다고 말한 것 중에 기대한 대로 안 되는 게 있으면, 전략을 조정할 수 있게 해줘."
+    },
+    {
+      "index": 75,
+      "start": 498.46,
+      "end": 506.92,
+      "textEn": "And strategy is a journey. What you want to have is a mechanism for tweaking it, toning it, and refining it so it gets better and better as you go along.",
+      "words": [
+        {
+          "word": "And",
+          "start": 498.46,
+          "end": 498.52
+        },
+        {
+          "word": "strategy",
+          "start": 498.52,
+          "end": 498.96
+        },
+        {
+          "word": "is",
+          "start": 498.96,
+          "end": 499.26
+        },
+        {
+          "word": "a",
+          "start": 499.26,
+          "end": 499.4
+        },
+        {
+          "word": "journey.",
+          "start": 499.4,
+          "end": 499.7
+        },
+        {
+          "word": "What",
+          "start": 500.2,
+          "end": 500.34
+        },
+        {
+          "word": "you",
+          "start": 500.34,
+          "end": 500.48
+        },
+        {
+          "word": "want",
+          "start": 500.48,
+          "end": 500.64
+        },
+        {
+          "word": "to",
+          "start": 500.64,
+          "end": 500.74
+        },
+        {
+          "word": "have",
+          "start": 500.74,
+          "end": 500.9
+        },
+        {
+          "word": "is",
+          "start": 500.9,
+          "end": 501.06
+        },
+        {
+          "word": "a",
+          "start": 501.06,
+          "end": 501.16
+        },
+        {
+          "word": "mechanism",
+          "start": 501.16,
+          "end": 501.52
+        },
+        {
+          "word": "for",
+          "start": 501.52,
+          "end": 501.78
+        },
+        {
+          "word": "tweaking",
+          "start": 501.78,
+          "end": 502.28
+        },
+        {
+          "word": "it,",
+          "start": 502.28,
+          "end": 502.48
+        },
+        {
+          "word": "toning",
+          "start": 502.68,
+          "end": 503.04
+        },
+        {
+          "word": "it,",
+          "start": 503.04,
+          "end": 503.2
+        },
+        {
+          "word": "and",
+          "start": 503.26,
+          "end": 503.6
+        },
+        {
+          "word": "refining",
+          "start": 503.6,
+          "end": 504.02
+        },
+        {
+          "word": "it",
+          "start": 504.02,
+          "end": 504.24
+        },
+        {
+          "word": "so",
+          "start": 504.24,
+          "end": 504.42
+        },
+        {
+          "word": "it",
+          "start": 504.42,
+          "end": 504.56
+        },
+        {
+          "word": "gets",
+          "start": 504.56,
+          "end": 504.76
+        },
+        {
+          "word": "better",
+          "start": 504.76,
+          "end": 505.12
+        },
+        {
+          "word": "and",
+          "start": 505.12,
+          "end": 505.28
+        },
+        {
+          "word": "better",
+          "start": 505.28,
+          "end": 505.52
+        },
+        {
+          "word": "as",
+          "start": 505.52,
+          "end": 506.0
+        },
+        {
+          "word": "you",
+          "start": 506.0,
+          "end": 506.32
+        },
+        {
+          "word": "go",
+          "start": 506.32,
+          "end": 506.52
+        },
+        {
+          "word": "along.",
+          "start": 506.52,
+          "end": 506.92
+        }
+      ],
+      "textKo": "전략은 여정이야. 갈수록 점점 나아지도록 조정하고, 다듬고, 정교화하는 메커니즘이 필요해."
+    },
+    {
+      "index": 76,
+      "start": 507.94,
+      "end": 513.3,
+      "textEn": "Another thing that helps with strategy is not letting it get overcomplicated.",
+      "words": [
+        {
+          "word": "Another",
+          "start": 507.94,
+          "end": 508.42
+        },
+        {
+          "word": "thing",
+          "start": 508.42,
+          "end": 508.64
+        },
+        {
+          "word": "that",
+          "start": 508.64,
+          "end": 508.84
+        },
+        {
+          "word": "helps",
+          "start": 508.84,
+          "end": 509.28
+        },
+        {
+          "word": "with",
+          "start": 509.28,
+          "end": 509.82
+        },
+        {
+          "word": "strategy",
+          "start": 509.82,
+          "end": 510.34
+        },
+        {
+          "word": "is",
+          "start": 510.34,
+          "end": 511.3
+        },
+        {
+          "word": "not",
+          "start": 511.3,
+          "end": 511.78
+        },
+        {
+          "word": "letting",
+          "start": 511.78,
+          "end": 512.12
+        },
+        {
+          "word": "it",
+          "start": 512.12,
+          "end": 512.26
+        },
+        {
+          "word": "get",
+          "start": 512.26,
+          "end": 512.44
+        },
+        {
+          "word": "overcomplicated.",
+          "start": 512.44,
+          "end": 513.3
+        }
+      ],
+      "textKo": "전략에 도움이 되는 또 다른 건 너무 복잡하게 만들지 않는 거야."
+    },
+    {
+      "index": 77,
+      "start": 514.16,
+      "end": 517.98,
+      "textEn": "It's great if you can write your strategy on a single page.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 514.16,
+          "end": 514.64
+        },
+        {
+          "word": "great",
+          "start": 514.64,
+          "end": 514.9
+        },
+        {
+          "word": "if",
+          "start": 514.9,
+          "end": 515.12
+        },
+        {
+          "word": "you",
+          "start": 515.12,
+          "end": 515.22
+        },
+        {
+          "word": "can",
+          "start": 515.22,
+          "end": 515.4
+        },
+        {
+          "word": "write",
+          "start": 515.4,
+          "end": 515.88
+        },
+        {
+          "word": "your",
+          "start": 515.88,
+          "end": 516.06
+        },
+        {
+          "word": "strategy",
+          "start": 516.06,
+          "end": 516.58
+        },
+        {
+          "word": "on",
+          "start": 516.58,
+          "end": 517.08
+        },
+        {
+          "word": "a",
+          "start": 517.08,
+          "end": 517.22
+        },
+        {
+          "word": "single",
+          "start": 517.22,
+          "end": 517.5
+        },
+        {
+          "word": "page.",
+          "start": 517.5,
+          "end": 517.98
+        }
+      ],
+      "textKo": "전략을 한 페이지에 쓸 수 있으면 좋아."
+    },
+    {
+      "index": 78,
+      "start": 519.12,
+      "end": 521.18,
+      "textEn": "Here's where we're choosing to play.",
+      "words": [
+        {
+          "word": "Here's",
+          "start": 519.12,
+          "end": 519.6
+        },
+        {
+          "word": "where",
+          "start": 519.6,
+          "end": 520.08
+        },
+        {
+          "word": "we're",
+          "start": 520.08,
+          "end": 520.34
+        },
+        {
+          "word": "choosing",
+          "start": 520.34,
+          "end": 520.62
+        },
+        {
+          "word": "to",
+          "start": 520.62,
+          "end": 520.84
+        },
+        {
+          "word": "play.",
+          "start": 520.84,
+          "end": 521.18
+        }
+      ],
+      "textKo": "우리가 플레이하기로 선택한 곳은 여기야."
+    },
+    {
+      "index": 79,
+      "start": 521.56,
+      "end": 525.88,
+      "textEn": "Here's how we're choosing to win. Here are the capabilities we need to have in place.",
+      "words": [
+        {
+          "word": "Here's",
+          "start": 521.56,
+          "end": 522.04
+        },
+        {
+          "word": "how",
+          "start": 522.04,
+          "end": 522.24
+        },
+        {
+          "word": "we're",
+          "start": 522.24,
+          "end": 522.48
+        },
+        {
+          "word": "choosing",
+          "start": 522.48,
+          "end": 522.7
+        },
+        {
+          "word": "to",
+          "start": 522.7,
+          "end": 522.92
+        },
+        {
+          "word": "win.",
+          "start": 522.92,
+          "end": 523.2
+        },
+        {
+          "word": "Here",
+          "start": 523.46,
+          "end": 523.8
+        },
+        {
+          "word": "are",
+          "start": 523.8,
+          "end": 523.88
+        },
+        {
+          "word": "the",
+          "start": 523.88,
+          "end": 524.0
+        },
+        {
+          "word": "capabilities",
+          "start": 524.0,
+          "end": 524.62
+        },
+        {
+          "word": "we",
+          "start": 524.62,
+          "end": 524.94
+        },
+        {
+          "word": "need",
+          "start": 524.94,
+          "end": 525.16
+        },
+        {
+          "word": "to",
+          "start": 525.16,
+          "end": 525.32
+        },
+        {
+          "word": "have",
+          "start": 525.32,
+          "end": 525.48
+        },
+        {
+          "word": "in",
+          "start": 525.48,
+          "end": 525.58
+        },
+        {
+          "word": "place.",
+          "start": 525.58,
+          "end": 525.88
+        }
+      ],
+      "textKo": "이기기로 선택한 방법은 이거야. 갖춰야 할 역량은 이것들이야."
+    },
+    {
+      "index": 80,
+      "start": 526.04,
+      "end": 532.24,
+      "textEn": "Here are the management systems. And that's why it's going to achieve this goal, this aspiration that we have.",
+      "words": [
+        {
+          "word": "Here",
+          "start": 526.04,
+          "end": 526.12
+        },
+        {
+          "word": "are",
+          "start": 526.12,
+          "end": 526.24
+        },
+        {
+          "word": "the",
+          "start": 526.24,
+          "end": 526.3
+        },
+        {
+          "word": "management",
+          "start": 526.3,
+          "end": 526.64
+        },
+        {
+          "word": "systems.",
+          "start": 526.64,
+          "end": 527.22
+        },
+        {
+          "word": "And",
+          "start": 527.54,
+          "end": 528.02
+        },
+        {
+          "word": "that's",
+          "start": 528.02,
+          "end": 528.44
+        },
+        {
+          "word": "why",
+          "start": 528.44,
+          "end": 528.66
+        },
+        {
+          "word": "it's",
+          "start": 528.66,
+          "end": 529.02
+        },
+        {
+          "word": "going",
+          "start": 529.02,
+          "end": 529.08
+        },
+        {
+          "word": "to",
+          "start": 529.08,
+          "end": 529.16
+        },
+        {
+          "word": "achieve",
+          "start": 529.16,
+          "end": 529.5
+        },
+        {
+          "word": "this",
+          "start": 529.5,
+          "end": 529.84
+        },
+        {
+          "word": "goal,",
+          "start": 529.84,
+          "end": 530.28
+        },
+        {
+          "word": "this",
+          "start": 530.46,
+          "end": 530.58
+        },
+        {
+          "word": "aspiration",
+          "start": 530.58,
+          "end": 531.1
+        },
+        {
+          "word": "that",
+          "start": 531.1,
+          "end": 531.82
+        },
+        {
+          "word": "we",
+          "start": 531.82,
+          "end": 531.96
+        },
+        {
+          "word": "have.",
+          "start": 531.96,
+          "end": 532.24
+        }
+      ],
+      "textKo": "경영 시스템은 이렇고. 그래서 이 목표, 이 열망을 달성할 거야."
+    },
+    {
+      "index": 81,
+      "start": 532.72,
+      "end": 539.48,
+      "textEn": "Then you lay out the logic. What must be true for that all to work out the way we hope?",
+      "words": [
+        {
+          "word": "Then",
+          "start": 532.72,
+          "end": 533.12
+        },
+        {
+          "word": "you",
+          "start": 533.12,
+          "end": 533.26
+        },
+        {
+          "word": "lay",
+          "start": 533.26,
+          "end": 533.48
+        },
+        {
+          "word": "out",
+          "start": 533.48,
+          "end": 533.62
+        },
+        {
+          "word": "the",
+          "start": 533.62,
+          "end": 533.74
+        },
+        {
+          "word": "logic.",
+          "start": 533.74,
+          "end": 534.1
+        },
+        {
+          "word": "What",
+          "start": 534.32,
+          "end": 534.8
+        },
+        {
+          "word": "must",
+          "start": 534.8,
+          "end": 535.88
+        },
+        {
+          "word": "be",
+          "start": 535.88,
+          "end": 536.04
+        },
+        {
+          "word": "true",
+          "start": 536.04,
+          "end": 536.28
+        },
+        {
+          "word": "for",
+          "start": 536.28,
+          "end": 536.48
+        },
+        {
+          "word": "that",
+          "start": 536.48,
+          "end": 536.74
+        },
+        {
+          "word": "all",
+          "start": 536.74,
+          "end": 537.44
+        },
+        {
+          "word": "to",
+          "start": 537.44,
+          "end": 537.58
+        },
+        {
+          "word": "work",
+          "start": 537.58,
+          "end": 537.76
+        },
+        {
+          "word": "out",
+          "start": 537.76,
+          "end": 537.88
+        },
+        {
+          "word": "the",
+          "start": 537.88,
+          "end": 537.98
+        },
+        {
+          "word": "way",
+          "start": 537.98,
+          "end": 538.16
+        },
+        {
+          "word": "we",
+          "start": 538.16,
+          "end": 539.2
+        },
+        {
+          "word": "hope?",
+          "start": 539.2,
+          "end": 539.48
+        }
+      ],
+      "textKo": "그런 다음 논리를 펼쳐봐. 이 모든 게 우리가 바라는 대로 되려면 무엇이 사실이어야 할까?"
+    },
+    {
+      "index": 82,
+      "start": 539.48,
+      "end": 544.78,
+      "textEn": "Go do it and watch and tweak as you go along.",
+      "words": [
+        {
+          "word": "Go",
+          "start": 539.48,
+          "end": 540.46
+        },
+        {
+          "word": "do",
+          "start": 540.46,
+          "end": 540.7
+        },
+        {
+          "word": "it",
+          "start": 540.7,
+          "end": 540.94
+        },
+        {
+          "word": "and",
+          "start": 540.94,
+          "end": 542.08
+        },
+        {
+          "word": "watch",
+          "start": 542.08,
+          "end": 542.62
+        },
+        {
+          "word": "and",
+          "start": 542.62,
+          "end": 542.88
+        },
+        {
+          "word": "tweak",
+          "start": 542.88,
+          "end": 543.2
+        },
+        {
+          "word": "as",
+          "start": 543.2,
+          "end": 543.88
+        },
+        {
+          "word": "you",
+          "start": 543.88,
+          "end": 544.32
+        },
+        {
+          "word": "go",
+          "start": 544.32,
+          "end": 544.5
+        },
+        {
+          "word": "along.",
+          "start": 544.5,
+          "end": 544.78
+        }
+      ],
+      "textKo": "가서 실행하고, 지켜보고, 가면서 조정해."
+    },
+    {
+      "index": 83,
+      "start": 545.18,
+      "end": 551.84,
+      "textEn": "That may feel somewhat more worry-making, angst-making than planning.",
+      "words": [
+        {
+          "word": "That",
+          "start": 545.18,
+          "end": 545.46
+        },
+        {
+          "word": "may",
+          "start": 545.46,
+          "end": 546.16
+        },
+        {
+          "word": "feel",
+          "start": 546.16,
+          "end": 546.7
+        },
+        {
+          "word": "somewhat",
+          "start": 546.7,
+          "end": 547.54
+        },
+        {
+          "word": "more",
+          "start": 547.54,
+          "end": 547.9
+        },
+        {
+          "word": "worry",
+          "start": 547.9,
+          "end": 548.52
+        },
+        {
+          "word": "-making,",
+          "start": 548.52,
+          "end": 548.96
+        },
+        {
+          "word": "angst",
+          "start": 549.16,
+          "end": 549.68
+        },
+        {
+          "word": "-making",
+          "start": 549.68,
+          "end": 550.2
+        },
+        {
+          "word": "than",
+          "start": 550.2,
+          "end": 550.98
+        },
+        {
+          "word": "planning.",
+          "start": 550.98,
+          "end": 551.84
+        }
+      ],
+      "textKo": "그게 계획보다 좀 더 걱정되고 불안할 수 있어."
+    },
+    {
+      "index": 84,
+      "start": 552.08,
+      "end": 558.64,
+      "textEn": "But I would tell you that if you plan, that's a way to guarantee losing.",
+      "words": [
+        {
+          "word": "But",
+          "start": 552.08,
+          "end": 552.66
+        },
+        {
+          "word": "I",
+          "start": 552.66,
+          "end": 552.84
+        },
+        {
+          "word": "would",
+          "start": 552.84,
+          "end": 553.02
+        },
+        {
+          "word": "tell",
+          "start": 553.02,
+          "end": 553.48
+        },
+        {
+          "word": "you",
+          "start": 553.48,
+          "end": 553.8
+        },
+        {
+          "word": "that",
+          "start": 553.8,
+          "end": 554.56
+        },
+        {
+          "word": "if",
+          "start": 554.56,
+          "end": 555.2
+        },
+        {
+          "word": "you",
+          "start": 555.2,
+          "end": 555.4
+        },
+        {
+          "word": "plan,",
+          "start": 555.4,
+          "end": 555.88
+        },
+        {
+          "word": "that's",
+          "start": 556.22,
+          "end": 557.18
+        },
+        {
+          "word": "a",
+          "start": 557.18,
+          "end": 557.28
+        },
+        {
+          "word": "way",
+          "start": 557.28,
+          "end": 557.46
+        },
+        {
+          "word": "to",
+          "start": 557.46,
+          "end": 557.64
+        },
+        {
+          "word": "guarantee",
+          "start": 557.64,
+          "end": 558.08
+        },
+        {
+          "word": "losing.",
+          "start": 558.08,
+          "end": 558.64
+        }
+      ],
+      "textKo": "하지만 말할게, 계획만 하면 지는 걸 보장하는 거야."
+    },
+    {
+      "index": 85,
+      "start": 559.64,
+      "end": 565.56,
+      "textEn": "If you do strategy, it gives you the best possible chance of winning.",
+      "words": [
+        {
+          "word": "If",
+          "start": 559.64,
+          "end": 560.38
+        },
+        {
+          "word": "you",
+          "start": 560.38,
+          "end": 560.76
+        },
+        {
+          "word": "do",
+          "start": 560.76,
+          "end": 561.54
+        },
+        {
+          "word": "strategy,",
+          "start": 561.54,
+          "end": 562.14
+        },
+        {
+          "word": "it",
+          "start": 562.14,
+          "end": 563.3
+        },
+        {
+          "word": "gives",
+          "start": 563.3,
+          "end": 563.56
+        },
+        {
+          "word": "you",
+          "start": 563.56,
+          "end": 563.72
+        },
+        {
+          "word": "the",
+          "start": 563.72,
+          "end": 563.86
+        },
+        {
+          "word": "best",
+          "start": 563.86,
+          "end": 564.12
+        },
+        {
+          "word": "possible",
+          "start": 564.12,
+          "end": 564.58
+        },
+        {
+          "word": "chance",
+          "start": 564.58,
+          "end": 564.94
+        },
+        {
+          "word": "of",
+          "start": 564.94,
+          "end": 565.3
+        },
+        {
+          "word": "winning.",
+          "start": 565.3,
+          "end": 565.56
+        }
+      ],
+      "textKo": ""
+    }
+  ]
+}

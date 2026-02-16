@@ -1,0 +1,162 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/kaɪn.dəv/",
+    "koreanPhonetic": "카인더브",
+    "explanation": "'Kind of' is commonly reduced in fast speech, with the 'd' blending into the 'of' and the vowel in 'of' reducing to a schwa.",
+    "explanationKo": "'Kind of'는 빠른 말에서 흔히 축약되며, 'd'가 'of'로 연결되고 'of'의 모음이 슈와로 축약됩니다.",
+    "practiceGuide": "'카인더브'처럼 한 덩어리로 발음하세요. 'd'와 'of'를 따로 끊지 말고 자연스럽게 연결하세요.",
+    "segmentIndex": 40
+  },
+  {
+    "type": "linking",
+    "originalText": "turns out",
+    "phonetic": "/tɜːrnz‿aʊt/",
+    "koreanPhonetic": "턴자웃",
+    "explanation": "The final 'z' sound of 'turns' links directly to the vowel sound at the start of 'out', creating a smooth connection.",
+    "explanationKo": "'turns'의 마지막 'z' 소리가 'out'의 시작 모음과 직접 연결되어 매끄러운 연결을 만듭니다.",
+    "practiceGuide": "'턴자웃'처럼 발음하세요. 'turns'와 'out' 사이에 멈추지 말고 'z' 소리를 다음 모음에 바로 이어붙이세요.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡʌnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is very commonly reduced to 'gonna' in natural speech, especially when expressing future intentions.",
+    "explanationKo": "'Going to'는 자연스러운 말에서 매우 흔히 'gonna'로 축약되며, 특히 미래 의도를 표현할 때 그렇습니다.",
+    "practiceGuide": "'거나'로 발음하세요. 'going'과 'to'를 각각 발음하는 것이 아니라 하나의 단어처럼 빠르게 발음합니다.",
+    "segmentIndex": 60
+  },
+  {
+    "type": "linking",
+    "originalText": "what we",
+    "phonetic": "/wɒt‿wi/",
+    "koreanPhonetic": "와뤼",
+    "explanation": "The 't' at the end of 'what' connects to the 'w' of 'we'. In American English, this 't' often becomes a flap or is softened.",
+    "explanationKo": "'what'의 끝 't'가 'we'의 'w'에 연결됩니다. 미국 영어에서 이 't'는 종종 탄설음이 되거나 부드러워집니다.",
+    "practiceGuide": "'what'과 'we' 사이에 멈추지 말고 '와뤼'처럼 빠르게 이어서 발음하세요.",
+    "segmentIndex": 25
+  },
+  {
+    "type": "elision",
+    "originalText": "most often",
+    "phonetic": "/moʊs‿ˈɒfən/",
+    "koreanPhonetic": "모우소픈",
+    "explanation": "The 't' at the end of 'most' is often dropped (elided) before a vowel, creating a smoother connection.",
+    "explanationKo": "'most'의 끝 't'는 모음 앞에서 종종 탈락(생략)되어 더 부드러운 연결을 만듭니다.",
+    "practiceGuide": "'most'의 't'를 발음하지 말고 's' 소리에서 바로 'often'으로 이어지세요. '모우소픈'으로 연습하세요.",
+    "segmentIndex": 83
+  },
+  {
+    "type": "assimilation",
+    "originalText": "can change",
+    "phonetic": "/kæŋ tʃeɪndʒ/",
+    "koreanPhonetic": "캥 체인지",
+    "explanation": "The 'n' in 'can' assimilates to the velar position before the 'ch' sound in 'change', becoming more like an 'ng' sound.",
+    "explanationKo": "'can'의 'n'이 'change'의 'ch' 소리 앞에서 연구개 위치로 동화되어 'ng' 소리에 가까워집니다.",
+    "practiceGuide": "'can'을 '캥'처럼 발음하세요. 'n'을 혀끝이 아닌 혀 뒤쪽으로 발음하여 'change'로 자연스럽게 이어지도록 합니다.",
+    "segmentIndex": 35
+  },
+  {
+    "type": "reduction",
+    "originalText": "you have to",
+    "phonetic": "/jə ˈhæftə/",
+    "koreanPhonetic": "여 해프타",
+    "explanation": "'You' reduces to 'ya/yuh', 'have' becomes 'haf', and 'to' reduces to 'ta'. This is a very common reduction in conversational English.",
+    "explanationKo": "'You'가 'ya/yuh'로, 'have'가 'haf'로, 'to'가 'ta'로 축약됩니다. 회화 영어에서 매우 흔한 축약입니다.",
+    "practiceGuide": "'유 해브 투'가 아니라 '여 해프타'로 발음하세요. 세 단어를 빠르게 하나의 덩어리로 말합니다.",
+    "segmentIndex": 123
+  },
+  {
+    "type": "linking",
+    "originalText": "learn a",
+    "phonetic": "/lɜːrn‿ə/",
+    "koreanPhonetic": "러너",
+    "explanation": "The final 'n' of 'learn' links smoothly to the schwa 'a', creating a continuous flow without pause.",
+    "explanationKo": "'learn'의 마지막 'n'이 슈와 'a'에 매끄럽게 연결되어 멈춤 없이 연속적인 흐름을 만듭니다.",
+    "practiceGuide": "'learn'과 'a'를 끊지 말고 '러너'처럼 연결하여 발음하세요.",
+    "segmentIndex": 24
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' reduces to 'wanna' in casual speech. The 't' sounds in 'want to' merge and simplify.",
+    "explanationKo": "'Want to'는 일상적인 말에서 'wanna'로 축약됩니다. 'want to'의 't' 소리가 합쳐지고 단순화됩니다.",
+    "practiceGuide": "'원트 투'가 아니라 '워나'로 발음하세요. 자연스러운 영어에서 매우 흔한 축약형입니다.",
+    "segmentIndex": 86
+  },
+  {
+    "type": "linking",
+    "originalText": "more and more",
+    "phonetic": "/mɔːr‿ənd‿mɔːr/",
+    "koreanPhonetic": "모어런모어",
+    "explanation": "The 'r' at the end of 'more' links to 'and', and 'and' reduces to 'n' or 'ənd', linking to the next 'more'.",
+    "explanationKo": "'more'의 끝 'r'이 'and'에 연결되고, 'and'가 'n' 또는 'ənd'로 축약되어 다음 'more'에 연결됩니다.",
+    "practiceGuide": "'모어 앤드 모어'가 아니라 '모어런모어'로 빠르게 이어서 발음하세요. 'and'를 거의 'n'으로만 발음합니다.",
+    "segmentIndex": 75
+  },
+  {
+    "type": "elision",
+    "originalText": "next day",
+    "phonetic": "/neks deɪ/",
+    "koreanPhonetic": "넥스 데이",
+    "explanation": "The 't' in 'next' is often elided before the 'd' in 'day', as both are alveolar stops and the cluster simplifies.",
+    "explanationKo": "'next'의 't'가 'day'의 'd' 앞에서 종종 탈락합니다. 둘 다 치경 파열음이어서 자음군이 단순화됩니다.",
+    "practiceGuide": "'넥스트 데이'가 아니라 '넥스 데이'로 발음하세요. 't'를 생략하면 더 자연스럽게 들립니다.",
+    "segmentIndex": 52
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɒdəv/",
+    "koreanPhonetic": "얼라러브",
+    "explanation": "'A lot of' reduces significantly in fast speech. The 't' in 'lot' becomes a flap, and 'of' reduces to 'əv'.",
+    "explanationKo": "'A lot of'는 빠른 말에서 크게 축약됩니다. 'lot'의 't'가 탄설음이 되고, 'of'가 'əv'로 축약됩니다.",
+    "practiceGuide": "'어 랏 오브'가 아니라 '얼라러브'처럼 빠르게 한 덩어리로 발음하세요.",
+    "segmentIndex": 118
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in the",
+    "phonetic": "/ɪn.ðə/",
+    "koreanPhonetic": "인더",
+    "explanation": "The 'n' in 'in' partially assimilates with the 'th' sound that follows, and speakers often simplify 'the' to just 'thuh' or 'duh'.",
+    "explanationKo": "'in'의 'n'이 뒤따르는 'th' 소리와 부분적으로 동화되며, 화자는 종종 'the'를 'thuh' 또는 'duh'로 단순화합니다.",
+    "practiceGuide": "'인 더'처럼 자연스럽게 연결하세요. 'the'를 강조하지 말고 빠르게 지나가세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "linking",
+    "originalText": "is it",
+    "phonetic": "/ɪz‿ɪt/",
+    "koreanPhonetic": "이짓",
+    "explanation": "The 'z' sound at the end of 'is' links directly to the 'i' in 'it', creating a seamless connection.",
+    "explanationKo": "'is'의 끝 'z' 소리가 'it'의 'i'에 직접 연결되어 매끄러운 연결을 만듭니다.",
+    "practiceGuide": "'이즈 잇'이 아니라 '이짓'처럼 한 덩어리로 발음하세요.",
+    "segmentIndex": 90
+  },
+  {
+    "type": "reduction",
+    "originalText": "used to",
+    "phonetic": "/juːstə/",
+    "koreanPhonetic": "유스타",
+    "explanation": "'Used to' reduces significantly - the 'd' merges with 'to' and the vowel in 'to' becomes a schwa.",
+    "explanationKo": "'Used to'는 크게 축약됩니다 - 'd'가 'to'와 합쳐지고 'to'의 모음이 슈와가 됩니다.",
+    "practiceGuide": "'유즈드 투'가 아니라 '유스타'로 발음하세요. 과거 습관을 나타내는 이 표현은 항상 이렇게 축약됩니다.",
+    "segmentIndex": 14
+  },
+  {
+    "type": "linking",
+    "originalText": "take a",
+    "phonetic": "/teɪk‿ə/",
+    "koreanPhonetic": "테이커",
+    "explanation": "The final 'k' of 'take' connects to the schwa 'a', with no pause between the words.",
+    "explanationKo": "'take'의 마지막 'k'가 슈와 'a'에 연결되며, 단어 사이에 멈춤이 없습니다.",
+    "practiceGuide": "'테이크 어'가 아니라 '테이커'처럼 자연스럽게 이어서 발음하세요.",
+    "segmentIndex": 45
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "original": "left a",
+    "spoken": "/lɛf.tə/",
+    "type": "linking",
+    "koreanPhonetic": "레프터",
+    "practiceGuide": "'left'의 /t/가 'a'의 모음에 연결되어 한 덩어리로 발음됩니다.",
+    "start": 15.14,
+    "end": 15.46,
+    "segmentIndex": 1
+  },
+  {
+    "original": "struck me",
+    "spoken": "/strʌk.mi/",
+    "type": "linking",
+    "koreanPhonetic": "스트럭 미",
+    "practiceGuide": "'struck'의 /k/가 'me'의 /m/에 바로 연결됩니다. 자음+자음 연결.",
+    "start": 36.3,
+    "end": 37.0,
+    "segmentIndex": 6
+  },
+  {
+    "original": "best and",
+    "spoken": "/bɛs.tən/",
+    "type": "linking",
+    "koreanPhonetic": "베스튼",
+    "practiceGuide": "'best'의 /t/가 'and'의 /æ/에 연결되고, 'and'가 /ən/으로 약화됩니다.",
+    "start": 41.3,
+    "end": 42.0,
+    "segmentIndex": 7
+  },
+  {
+    "original": "got me",
+    "spoken": "/ɡɑːʔ.mi/",
+    "type": "elision",
+    "koreanPhonetic": "가'미",
+    "practiceGuide": "'got'의 /t/가 성문파열음(glottal stop)으로 대체됩니다. 미국 영어 구어체에서 매우 흔한 현상.",
+    "start": 54.0,
+    "end": 54.8,
+    "segmentIndex": 10
+  },
+  {
+    "original": "kinds of",
+    "spoken": "/kaɪnzəv/",
+    "type": "reduction",
+    "koreanPhonetic": "카인저브",
+    "practiceGuide": "'of'가 /əv/로 약화되어 앞 단어에 붙어 발음됩니다. 'kind of'는 일상에서 /kaɪndə/로도 축약.",
+    "start": 55.0,
+    "end": 55.8,
+    "segmentIndex": 10
+  },
+  {
+    "original": "worked hard and long enough",
+    "spoken": "/wɜːrkt.hɑːr.dən.lɔːŋ.ɪˈnʌf/",
+    "type": "linking",
+    "koreanPhonetic": "워크트 하든 롱이너프",
+    "practiceGuide": "'hard'의 /d/가 'and'와 연결, 'and'가 /ən/으로 약화. 'long enough'는 /ŋ/+/ɪ/ 연음.",
+    "start": 71.5,
+    "end": 75.5,
+    "segmentIndex": 14
+  },
+  {
+    "original": "went to",
+    "spoken": "/wɛn.tə/",
+    "type": "reduction",
+    "koreanPhonetic": "웬터",
+    "practiceGuide": "'to'가 약형 /tə/로 발음됩니다. 기능어(전치사, 관사 등)는 대부분 약형으로 발음.",
+    "start": 108.0,
+    "end": 108.6,
+    "segmentIndex": 23
+  },
+  {
+    "original": "start over again",
+    "spoken": "/stɑːr.toʊ.vər.əˈɡɛn/",
+    "type": "linking",
+    "koreanPhonetic": "스타르토우버어겐",
+    "practiceGuide": "'start'의 /t/가 'over'의 /oʊ/에 연결. 'over again'도 /r/+/ə/ 연음으로 이어집니다.",
+    "start": 352.0,
+    "end": 355.0,
+    "segmentIndex": 82
+  },
+  {
+    "original": "it wasn't",
+    "spoken": "/ɪt.ˈwʌzn̩t/",
+    "type": "reduction",
+    "koreanPhonetic": "잇 워즌트",
+    "practiceGuide": "축약형 'wasn't'에서 /t/가 거의 안 들림. 반복 사용으로 리듬감 형성.",
+    "start": 172.0,
+    "end": 173.0,
+    "segmentIndex": 38
+  },
+  {
+    "original": "grit is",
+    "spoken": "/ɡrɪ.tɪz/",
+    "type": "linking",
+    "koreanPhonetic": "그리리즈",
+    "practiceGuide": "'grit'의 /t/가 'is'의 /ɪ/에 연결되어 flap /ɾ/로 발음됩니다. 미국 영어의 flapping 현상.",
+    "start": 186.7,
+    "end": 187.5,
+    "segmentIndex": 40
+  },
+  {
+    "original": "day in, day out",
+    "spoken": "/deɪ.ɪn deɪ.aʊt/",
+    "type": "linking",
+    "koreanPhonetic": "데이인 데이아웃",
+    "practiceGuide": "관용 표현. 'day'의 /eɪ/가 'in'의 /ɪ/에 자연스럽게 이어집니다. 강세 리듬이 핵심.",
+    "start": 191.5,
+    "end": 193.0,
+    "segmentIndex": 41
+  },
+  {
+    "original": "follow through on",
+    "spoken": "/ˈfɑː.loʊ.θruː.ɑːn/",
+    "type": "linking",
+    "koreanPhonetic": "팔로우 쓰루온",
+    "practiceGuide": "구동사 'follow through on'. 'through'의 /uː/가 'on'의 /ɑː/에 연결됩니다.",
+    "start": 280.0,
+    "end": 283.1,
+    "segmentIndex": 64
+  }
+]

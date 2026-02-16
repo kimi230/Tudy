@@ -1,0 +1,150 @@
+{
+  "sections": [
+    {
+      "section": "Introduction / Hook",
+      "startSegment": 0,
+      "endSegment": 10,
+      "summary": "Will Stephen opens by declaring he has absolutely nothing to say, but promises that his manner of speaking will make it seem brilliant.",
+      "summaryKo": "윌 스티븐은 할 말이 전혀 없다고 선언하면서 시작하지만, 말하는 방식을 통해 훌륭하게 들리게 만들겠다고 약속합니다.",
+      "keyPoints": [
+        "연사가 아무 내용 없이 시작한다는 역설적 도입",
+        "말하는 방식만으로 똑똑하게 들릴 수 있다는 주제 제시",
+        "청중에게 무언가를 배운 것 같은 느낌이 들 것이라는 예고"
+      ]
+    },
+    {
+      "section": "Opening Technique Demonstration",
+      "startSegment": 11,
+      "endSegment": 20,
+      "summary": "He demonstrates common TEDx opening techniques: hand gestures, audience polling, personal anecdotes, and emotional connection—while openly narrating what he's doing.",
+      "summaryKo": "손동작, 청중 설문, 개인적 일화, 감정적 연결 등 일반적인 TEDx 오프닝 기법을 시연하면서, 자신이 하고 있는 것을 공개적으로 설명합니다.",
+      "keyPoints": [
+        "손동작과 안경 만지기 같은 비언어적 기법 소개",
+        "거수 투표를 통한 청중 참여 유도",
+        "개인적 일화로 긴장을 풀고 호감을 얻는 전략 설명"
+      ]
+    },
+    {
+      "section": "Building Authority with Visuals",
+      "startSegment": 21,
+      "endSegment": 42,
+      "summary": "He shows how speakers use images, numbers, and graphs to appear credible—displaying random numbers, meaningless pie charts, and bar graphs to satirize data-driven presentations.",
+      "summaryKo": "이미지, 숫자, 그래프를 사용하여 신뢰감을 주는 방법을 보여줍니다—무작위 숫자, 의미 없는 원형 차트와 막대 그래프를 통해 데이터 기반 프레젠테이션을 풍자합니다.",
+      "keyPoints": [
+        "구글 이미지 검색한 '과학자' 사진으로 지적인 느낌 연출",
+        "의미 없는 숫자들로 데이터 제시 방식 패러디",
+        "원형 차트와 막대 그래프로 시각 자료의 설득력 풍자"
+      ]
+    },
+    {
+      "section": "Confession and Commitment",
+      "startSegment": 43,
+      "endSegment": 48,
+      "summary": "He confesses he's a complete phony who is panicking and floundering, but declares he was offered a TED talk and will see it through.",
+      "summaryKo": "자신이 당황하고 허둥대는 완전한 사기꾼이라고 고백하지만, TED 강연 제안을 받았으니 끝까지 하겠다고 선언합니다.",
+      "keyPoints": [
+        "사기꾼이라는 솔직한 고백으로 역설적 진정성 확보",
+        "유튜브 무음 시청 시 전문가처럼 보일 것이라는 관찰",
+        "끝까지 해내겠다는 유머러스한 결의"
+      ]
+    },
+    {
+      "section": "Descent into Nonsense",
+      "startSegment": 49,
+      "endSegment": 59,
+      "summary": "He shows stock photos with meaningless words, then descends into complete gibberish, while maintaining the physical mannerisms of a compelling speaker.",
+      "summaryKo": "의미 없는 단어와 사진을 보여주다가 완전한 횡설수설로 내려가면서도, 매력적인 연사의 물리적 매너리즘은 유지합니다.",
+      "keyPoints": [
+        "사진과 단어의 무의미한 조합으로 시각 자료 풍자",
+        "횡설수설하면서도 제스처와 페이싱으로 의미 있어 보이게 하기",
+        "프레임 안경을 쓴 것을 공개하며 외모 조작 폭로"
+      ]
+    },
+    {
+      "section": "Climax and Conclusion",
+      "startSegment": 60,
+      "endSegment": 70,
+      "summary": "He slows down and builds to a mock-emotional conclusion, pointing out that both the beginning and end of his talk contain nothing—and that's the entire point.",
+      "summaryKo": "속도를 늦추고 가짜 감동적 결론을 향해 나아가며, 강연의 처음과 끝 모두 아무것도 없다는 것이 바로 요점이라고 지적합니다.",
+      "keyPoints": [
+        "톤 변화와 속도 조절로 감동적인 순간 연출",
+        "처음과 끝 모두 아무것도 없었다는 메타적 결론",
+        "청중에게 생각하라거나 안 해도 된다는 유머러스한 마무리"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "Hear that?",
+      "type": "hook",
+      "segmentIndex": 1,
+      "role": "청중의 주의를 환기하는 오프닝 질문으로, 호기심을 유발합니다."
+    },
+    {
+      "expression": "And yet",
+      "type": "transition",
+      "segmentIndex": 8,
+      "role": "앞의 내용(아무것도 없음)에서 반전(그럼에도 똑똑하게 들리게 하겠다)으로 전환합니다."
+    },
+    {
+      "expression": "Now, I'm going to get started with",
+      "type": "transition",
+      "segmentIndex": 11,
+      "role": "도입부에서 본격적인 시연으로 넘어가는 전환 표현입니다."
+    },
+    {
+      "expression": "By show of hands",
+      "type": "hook",
+      "segmentIndex": 14,
+      "role": "청중 참여를 유도하는 고전적인 프레젠테이션 기법입니다."
+    },
+    {
+      "expression": "And now, I'm going to bring it to a broader point",
+      "type": "transition",
+      "segmentIndex": 20,
+      "role": "개인적인 이야기에서 더 넓은 주제로 전환하는 신호 표현입니다."
+    },
+    {
+      "expression": "Now, if you don't believe me, let's take a look at the numbers",
+      "type": "transition",
+      "segmentIndex": 27,
+      "role": "주장에서 증거 제시로 전환하며 신뢰성을 구축하는 표현입니다."
+    },
+    {
+      "expression": "And to follow that up",
+      "type": "transition",
+      "segmentIndex": 39,
+      "role": "숫자 데이터에서 그래프 시각 자료로 넘어가는 연결 표현입니다."
+    },
+    {
+      "expression": "But you know what?",
+      "type": "transition",
+      "segmentIndex": 47,
+      "role": "고백에서 결의로 전환하는 구어적 전환 표현입니다."
+    },
+    {
+      "expression": "And now I'm going to slow things down a little bit",
+      "type": "transition",
+      "segmentIndex": 60,
+      "role": "페이스를 바꾸며 결론부로 진입하는 전환 신호입니다."
+    },
+    {
+      "expression": "If there's one thing you take away from my talk",
+      "type": "conclusion",
+      "segmentIndex": 64,
+      "role": "핵심 메시지를 요약하며 결론으로 향하는 고전적인 마무리 표현입니다."
+    },
+    {
+      "expression": "Think about that. Or don't, that's fine.",
+      "type": "conclusion",
+      "segmentIndex": 67,
+      "role": "유머러스한 반전으로 전통적인 TED 마무리를 패러디합니다."
+    },
+    {
+      "expression": "And now I'm going to stop talking.",
+      "type": "conclusion",
+      "segmentIndex": 68,
+      "role": "강연의 끝을 직접적으로 알리는 솔직한 마무리 표현입니다."
+    }
+  ]
+}

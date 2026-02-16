@@ -1,0 +1,5 @@
+yt-dlp
+mlx-whisper
+anthropic
+ollama
+pyyaml

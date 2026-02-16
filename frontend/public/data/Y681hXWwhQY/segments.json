@@ -1,0 +1,5138 @@
+{
+  "videoId": "Y681hXWwhQY",
+  "segments": [
+    {
+      "index": 0,
+      "start": 8.9,
+      "end": 13.68,
+      "textEn": "Hello. This is 6 Minute English from BBC Learning English. I'm Beth.",
+      "words": [
+        {
+          "word": "Hello.",
+          "start": 8.9,
+          "end": 9.46
+        },
+        {
+          "word": "This",
+          "start": 9.84,
+          "end": 10.14
+        },
+        {
+          "word": "is",
+          "start": 10.14,
+          "end": 10.46
+        },
+        {
+          "word": "6",
+          "start": 10.46,
+          "end": 10.74
+        },
+        {
+          "word": "Minute",
+          "start": 10.74,
+          "end": 11.0
+        },
+        {
+          "word": "English",
+          "start": 11.0,
+          "end": 11.42
+        },
+        {
+          "word": "from",
+          "start": 11.42,
+          "end": 11.76
+        },
+        {
+          "word": "BBC",
+          "start": 11.76,
+          "end": 12.24
+        },
+        {
+          "word": "Learning",
+          "start": 12.24,
+          "end": 12.62
+        },
+        {
+          "word": "English.",
+          "start": 12.62,
+          "end": 13.1
+        },
+        {
+          "word": "I'm",
+          "start": 13.24,
+          "end": 13.48
+        },
+        {
+          "word": "Beth.",
+          "start": 13.48,
+          "end": 13.68
+        }
+      ],
+      "textKo": ""
+    },
+    {
+      "index": 1,
+      "start": 13.96,
+      "end": 20.6,
+      "textEn": "And I'm Neil. Phew, I've spent a day in meetings, then shopping, then collecting the kids from school.",
+      "words": [
+        {
+          "word": "And",
+          "start": 13.96,
+          "end": 14.24
+        },
+        {
+          "word": "I'm",
+          "start": 14.24,
+          "end": 14.62
+        },
+        {
+          "word": "Neil.",
+          "start": 14.62,
+          "end": 14.86
+        },
+        {
+          "word": "Phew,",
+          "start": 15.16,
+          "end": 15.54
+        },
+        {
+          "word": "I've",
+          "start": 15.7,
+          "end": 15.86
+        },
+        {
+          "word": "spent",
+          "start": 15.86,
+          "end": 16.14
+        },
+        {
+          "word": "a",
+          "start": 16.14,
+          "end": 16.36
+        },
+        {
+          "word": "day",
+          "start": 16.36,
+          "end": 16.48
+        },
+        {
+          "word": "in",
+          "start": 16.48,
+          "end": 16.72
+        },
+        {
+          "word": "meetings,",
+          "start": 16.72,
+          "end": 17.32
+        },
+        {
+          "word": "then",
+          "start": 17.52,
+          "end": 18.06
+        },
+        {
+          "word": "shopping,",
+          "start": 18.06,
+          "end": 18.5
+        },
+        {
+          "word": "then",
+          "start": 18.82,
+          "end": 19.1
+        },
+        {
+          "word": "collecting",
+          "start": 19.1,
+          "end": 19.54
+        },
+        {
+          "word": "the",
+          "start": 19.54,
+          "end": 19.8
+        },
+        {
+          "word": "kids",
+          "start": 19.8,
+          "end": 20.04
+        },
+        {
+          "word": "from",
+          "start": 20.04,
+          "end": 20.26
+        },
+        {
+          "word": "school.",
+          "start": 20.26,
+          "end": 20.6
+        }
+      ],
+      "textKo": "저는 닐이에요. 휴, 하루 종일 회의하고, 쇼핑하고, 아이들 학교에서 데려오느라 바빴어요."
+    },
+    {
+      "index": 2,
+      "start": 20.7,
+      "end": 23.48,
+      "textEn": "I'm exhausted, Beth. What have you been doing today?",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 20.7,
+          "end": 20.9
+        },
+        {
+          "word": "exhausted,",
+          "start": 20.9,
+          "end": 21.5
+        },
+        {
+          "word": "Beth.",
+          "start": 21.5,
+          "end": 21.86
+        },
+        {
+          "word": "What",
+          "start": 22.04,
+          "end": 22.6
+        },
+        {
+          "word": "have",
+          "start": 22.6,
+          "end": 22.7
+        },
+        {
+          "word": "you",
+          "start": 22.7,
+          "end": 22.8
+        },
+        {
+          "word": "been",
+          "start": 22.8,
+          "end": 22.96
+        },
+        {
+          "word": "doing",
+          "start": 22.96,
+          "end": 23.18
+        },
+        {
+          "word": "today?",
+          "start": 23.18,
+          "end": 23.48
+        }
+      ],
+      "textKo": "지쳤어요, 베스. 오늘 뭐 하셨어요?"
+    },
+    {
+      "index": 3,
+      "start": 24.04,
+      "end": 29.04,
+      "textEn": "Not much. Just sitting around, doing nothing, relaxing and kicking back.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 24.04,
+          "end": 24.6
+        },
+        {
+          "word": "much.",
+          "start": 24.6,
+          "end": 24.92
+        },
+        {
+          "word": "Just",
+          "start": 25.12,
+          "end": 25.32
+        },
+        {
+          "word": "sitting",
+          "start": 25.32,
+          "end": 25.8
+        },
+        {
+          "word": "around,",
+          "start": 25.8,
+          "end": 26.28
+        },
+        {
+          "word": "doing",
+          "start": 26.5,
+          "end": 26.72
+        },
+        {
+          "word": "nothing,",
+          "start": 26.72,
+          "end": 27.04
+        },
+        {
+          "word": "relaxing",
+          "start": 27.4,
+          "end": 28.22
+        },
+        {
+          "word": "and",
+          "start": 28.22,
+          "end": 28.52
+        },
+        {
+          "word": "kicking",
+          "start": 28.52,
+          "end": 28.76
+        },
+        {
+          "word": "back.",
+          "start": 28.76,
+          "end": 29.04
+        }
+      ],
+      "textKo": "별로 안 했어요. 그냥 앉아서 아무것도 안 하고, 쉬면서 느긋하게 보냈어요."
+    },
+    {
+      "index": 4,
+      "start": 29.04,
+      "end": 31.44,
+      "textEn": "Lucky you. Don't you have any work to do?",
+      "words": [
+        {
+          "word": "Lucky",
+          "start": 29.04,
+          "end": 29.8
+        },
+        {
+          "word": "you.",
+          "start": 29.8,
+          "end": 30.08
+        },
+        {
+          "word": "Don't",
+          "start": 30.24,
+          "end": 30.38
+        },
+        {
+          "word": "you",
+          "start": 30.38,
+          "end": 30.5
+        },
+        {
+          "word": "have",
+          "start": 30.5,
+          "end": 30.68
+        },
+        {
+          "word": "any",
+          "start": 30.68,
+          "end": 30.84
+        },
+        {
+          "word": "work",
+          "start": 30.84,
+          "end": 31.1
+        },
+        {
+          "word": "to",
+          "start": 31.1,
+          "end": 31.26
+        },
+        {
+          "word": "do?",
+          "start": 31.26,
+          "end": 31.44
+        }
+      ],
+      "textKo": "부럽네요. 할 일이 없어요?"
+    },
+    {
+      "index": 5,
+      "start": 31.62,
+      "end": 44.26,
+      "textEn": "It may not look it, Neil, but I'm actually as busy as a bee. If you've seen nature documentaries about worker bees flying from flower to flower, you probably think animals are always on the move.",
+      "words": [
+        {
+          "word": "It",
+          "start": 31.62,
+          "end": 31.86
+        },
+        {
+          "word": "may",
+          "start": 31.86,
+          "end": 32.06
+        },
+        {
+          "word": "not",
+          "start": 32.06,
+          "end": 32.3
+        },
+        {
+          "word": "look",
+          "start": 32.3,
+          "end": 32.54
+        },
+        {
+          "word": "it,",
+          "start": 32.54,
+          "end": 32.68
+        },
+        {
+          "word": "Neil,",
+          "start": 32.76,
+          "end": 32.94
+        },
+        {
+          "word": "but",
+          "start": 33.14,
+          "end": 33.34
+        },
+        {
+          "word": "I'm",
+          "start": 33.34,
+          "end": 33.66
+        },
+        {
+          "word": "actually",
+          "start": 33.66,
+          "end": 34.04
+        },
+        {
+          "word": "as",
+          "start": 34.04,
+          "end": 34.38
+        },
+        {
+          "word": "busy",
+          "start": 34.38,
+          "end": 34.7
+        },
+        {
+          "word": "as",
+          "start": 34.7,
+          "end": 34.96
+        },
+        {
+          "word": "a",
+          "start": 34.96,
+          "end": 35.1
+        },
+        {
+          "word": "bee.",
+          "start": 35.1,
+          "end": 35.26
+        },
+        {
+          "word": "If",
+          "start": 35.42,
+          "end": 35.98
+        },
+        {
+          "word": "you've",
+          "start": 35.98,
+          "end": 36.18
+        },
+        {
+          "word": "seen",
+          "start": 36.18,
+          "end": 36.4
+        },
+        {
+          "word": "nature",
+          "start": 36.4,
+          "end": 36.86
+        },
+        {
+          "word": "documentaries",
+          "start": 36.86,
+          "end": 37.48
+        },
+        {
+          "word": "about",
+          "start": 37.48,
+          "end": 38.06
+        },
+        {
+          "word": "worker",
+          "start": 38.06,
+          "end": 38.54
+        },
+        {
+          "word": "bees",
+          "start": 38.54,
+          "end": 38.82
+        },
+        {
+          "word": "flying",
+          "start": 38.82,
+          "end": 39.28
+        },
+        {
+          "word": "from",
+          "start": 39.28,
+          "end": 39.62
+        },
+        {
+          "word": "flower",
+          "start": 39.62,
+          "end": 39.96
+        },
+        {
+          "word": "to",
+          "start": 39.96,
+          "end": 40.14
+        },
+        {
+          "word": "flower,",
+          "start": 40.14,
+          "end": 40.48
+        },
+        {
+          "word": "you",
+          "start": 40.72,
+          "end": 41.06
+        },
+        {
+          "word": "probably",
+          "start": 41.06,
+          "end": 41.46
+        },
+        {
+          "word": "think",
+          "start": 41.46,
+          "end": 41.8
+        },
+        {
+          "word": "animals",
+          "start": 41.8,
+          "end": 42.44
+        },
+        {
+          "word": "are",
+          "start": 42.44,
+          "end": 42.8
+        },
+        {
+          "word": "always",
+          "start": 42.8,
+          "end": 43.32
+        },
+        {
+          "word": "on",
+          "start": 43.32,
+          "end": 43.64
+        },
+        {
+          "word": "the",
+          "start": 43.64,
+          "end": 43.82
+        },
+        {
+          "word": "move.",
+          "start": 43.82,
+          "end": 44.26
+        }
+      ],
+      "textKo": "그렇게 안 보일 수 있지만, 닐, 사실 저는 벌처럼 바빠요. 자연 다큐멘터리에서 일벌들이 꽃에서 꽃으로 날아다니는 것을 봤다면, 동물들이 항상 움직이고 있다고 생각할 거예요."
+    },
+    {
+      "index": 6,
+      "start": 44.42,
+      "end": 52.42,
+      "textEn": "But the surprising truth is, away from the cameras, most animals spend most of their time doing absolutely nothing at all.",
+      "words": [
+        {
+          "word": "But",
+          "start": 44.42,
+          "end": 44.9
+        },
+        {
+          "word": "the",
+          "start": 44.9,
+          "end": 45.04
+        },
+        {
+          "word": "surprising",
+          "start": 45.04,
+          "end": 45.62
+        },
+        {
+          "word": "truth",
+          "start": 45.62,
+          "end": 45.94
+        },
+        {
+          "word": "is,",
+          "start": 45.94,
+          "end": 46.3
+        },
+        {
+          "word": "away",
+          "start": 46.44,
+          "end": 46.86
+        },
+        {
+          "word": "from",
+          "start": 46.86,
+          "end": 47.06
+        },
+        {
+          "word": "the",
+          "start": 47.06,
+          "end": 47.22
+        },
+        {
+          "word": "cameras,",
+          "start": 47.22,
+          "end": 47.6
+        },
+        {
+          "word": "most",
+          "start": 47.98,
+          "end": 48.28
+        },
+        {
+          "word": "animals",
+          "start": 48.28,
+          "end": 48.74
+        },
+        {
+          "word": "spend",
+          "start": 48.74,
+          "end": 49.36
+        },
+        {
+          "word": "most",
+          "start": 49.36,
+          "end": 49.88
+        },
+        {
+          "word": "of",
+          "start": 49.88,
+          "end": 50.06
+        },
+        {
+          "word": "their",
+          "start": 50.06,
+          "end": 50.2
+        },
+        {
+          "word": "time",
+          "start": 50.2,
+          "end": 50.54
+        },
+        {
+          "word": "doing",
+          "start": 50.54,
+          "end": 50.86
+        },
+        {
+          "word": "absolutely",
+          "start": 50.86,
+          "end": 51.52
+        },
+        {
+          "word": "nothing",
+          "start": 51.52,
+          "end": 51.96
+        },
+        {
+          "word": "at",
+          "start": 51.96,
+          "end": 52.2
+        },
+        {
+          "word": "all.",
+          "start": 52.2,
+          "end": 52.42
+        }
+      ],
+      "textKo": "하지만 놀라운 사실은, 카메라 밖에서 대부분의 동물들은 대부분의 시간을 아무것도 하지 않으며 보낸다는 거예요."
+    },
+    {
+      "index": 7,
+      "start": 52.42,
+      "end": 72.06,
+      "textEn": "In the natural world, where finding food and shelter is hard work, why have some animals evolved to do nothing? And if it's good enough for animals, would being lazy work for humans too? That's what we'll be discussing in this programme and, as usual, we'll be learning some useful new vocabulary as well.",
+      "words": [
+        {
+          "word": "In",
+          "start": 52.42,
+          "end": 52.82
+        },
+        {
+          "word": "the",
+          "start": 52.82,
+          "end": 52.94
+        },
+        {
+          "word": "natural",
+          "start": 52.94,
+          "end": 53.3
+        },
+        {
+          "word": "world,",
+          "start": 53.3,
+          "end": 53.8
+        },
+        {
+          "word": "where",
+          "start": 53.96,
+          "end": 54.06
+        },
+        {
+          "word": "finding",
+          "start": 54.06,
+          "end": 54.46
+        },
+        {
+          "word": "food",
+          "start": 54.46,
+          "end": 54.86
+        },
+        {
+          "word": "and",
+          "start": 54.86,
+          "end": 55.06
+        },
+        {
+          "word": "shelter",
+          "start": 55.06,
+          "end": 55.44
+        },
+        {
+          "word": "is",
+          "start": 55.44,
+          "end": 55.68
+        },
+        {
+          "word": "hard",
+          "start": 55.68,
+          "end": 55.98
+        },
+        {
+          "word": "work,",
+          "start": 55.98,
+          "end": 56.34
+        },
+        {
+          "word": "why",
+          "start": 56.64,
+          "end": 56.94
+        },
+        {
+          "word": "have",
+          "start": 56.94,
+          "end": 57.14
+        },
+        {
+          "word": "some",
+          "start": 57.14,
+          "end": 57.46
+        },
+        {
+          "word": "animals",
+          "start": 57.46,
+          "end": 58.0
+        },
+        {
+          "word": "evolved",
+          "start": 58.0,
+          "end": 58.6
+        },
+        {
+          "word": "to",
+          "start": 58.6,
+          "end": 58.9
+        },
+        {
+          "word": "do",
+          "start": 58.9,
+          "end": 59.22
+        },
+        {
+          "word": "nothing?",
+          "start": 59.22,
+          "end": 59.78
+        },
+        {
+          "word": "And",
+          "start": 60.04,
+          "end": 60.68
+        },
+        {
+          "word": "if",
+          "start": 60.68,
+          "end": 60.82
+        },
+        {
+          "word": "it's",
+          "start": 60.82,
+          "end": 60.98
+        },
+        {
+          "word": "good",
+          "start": 60.98,
+          "end": 61.12
+        },
+        {
+          "word": "enough",
+          "start": 61.12,
+          "end": 61.34
+        },
+        {
+          "word": "for",
+          "start": 61.34,
+          "end": 61.52
+        },
+        {
+          "word": "animals,",
+          "start": 61.52,
+          "end": 61.92
+        },
+        {
+          "word": "would",
+          "start": 62.28,
+          "end": 62.58
+        },
+        {
+          "word": "being",
+          "start": 62.58,
+          "end": 62.92
+        },
+        {
+          "word": "lazy",
+          "start": 62.92,
+          "end": 63.46
+        },
+        {
+          "word": "work",
+          "start": 63.46,
+          "end": 63.82
+        },
+        {
+          "word": "for",
+          "start": 63.82,
+          "end": 64.02
+        },
+        {
+          "word": "humans",
+          "start": 64.02,
+          "end": 64.42
+        },
+        {
+          "word": "too?",
+          "start": 64.42,
+          "end": 64.76
+        },
+        {
+          "word": "That's",
+          "start": 65.02,
+          "end": 65.66
+        },
+        {
+          "word": "what",
+          "start": 65.66,
+          "end": 65.8
+        },
+        {
+          "word": "we'll",
+          "start": 65.8,
+          "end": 66.02
+        },
+        {
+          "word": "be",
+          "start": 66.02,
+          "end": 66.12
+        },
+        {
+          "word": "discussing",
+          "start": 66.12,
+          "end": 66.56
+        },
+        {
+          "word": "in",
+          "start": 66.56,
+          "end": 66.86
+        },
+        {
+          "word": "this",
+          "start": 66.86,
+          "end": 67.02
+        },
+        {
+          "word": "programme",
+          "start": 67.02,
+          "end": 67.38
+        },
+        {
+          "word": "and,",
+          "start": 67.38,
+          "end": 67.86
+        },
+        {
+          "word": "as",
+          "start": 67.94,
+          "end": 68.24
+        },
+        {
+          "word": "usual,",
+          "start": 68.24,
+          "end": 68.58
+        },
+        {
+          "word": "we'll",
+          "start": 68.94,
+          "end": 69.12
+        },
+        {
+          "word": "be",
+          "start": 69.12,
+          "end": 69.22
+        },
+        {
+          "word": "learning",
+          "start": 69.22,
+          "end": 69.52
+        },
+        {
+          "word": "some",
+          "start": 69.52,
+          "end": 69.92
+        },
+        {
+          "word": "useful",
+          "start": 69.92,
+          "end": 70.38
+        },
+        {
+          "word": "new",
+          "start": 70.38,
+          "end": 70.84
+        },
+        {
+          "word": "vocabulary",
+          "start": 70.84,
+          "end": 71.46
+        },
+        {
+          "word": "as",
+          "start": 71.46,
+          "end": 71.88
+        },
+        {
+          "word": "well.",
+          "start": 71.88,
+          "end": 72.06
+        }
+      ],
+      "textKo": "먹이와 은신처를 찾는 것이 힘든 자연 세계에서, 왜 일부 동물들은 아무것도 하지 않도록 진화했을까요? 그리고 그것이 동물들에게 충분하다면, 게으름이 인간에게도 효과가 있을까요? 이것이 이번 프로그램에서 다룰 내용이고, 평소처럼 유용한 새 어휘도 배울 거예요."
+    },
+    {
+      "index": 8,
+      "start": 72.06,
+      "end": 91.34,
+      "textEn": "But first, let me work up the energy to ask you a question, Neil. Of course, some animals have a reputation for lounging about. Lions, for example, can sleep up to 20 hours a day. But what is the slowest moving animal on earth? Is it…",
+      "words": [
+        {
+          "word": "But",
+          "start": 72.06,
+          "end": 72.86
+        },
+        {
+          "word": "first,",
+          "start": 72.86,
+          "end": 73.38
+        },
+        {
+          "word": "let",
+          "start": 73.6,
+          "end": 73.92
+        },
+        {
+          "word": "me",
+          "start": 73.92,
+          "end": 74.08
+        },
+        {
+          "word": "work",
+          "start": 74.08,
+          "end": 74.52
+        },
+        {
+          "word": "up",
+          "start": 74.52,
+          "end": 74.68
+        },
+        {
+          "word": "the",
+          "start": 74.68,
+          "end": 74.82
+        },
+        {
+          "word": "energy",
+          "start": 74.82,
+          "end": 75.16
+        },
+        {
+          "word": "to",
+          "start": 75.16,
+          "end": 75.48
+        },
+        {
+          "word": "ask",
+          "start": 75.48,
+          "end": 75.78
+        },
+        {
+          "word": "you",
+          "start": 75.78,
+          "end": 75.94
+        },
+        {
+          "word": "a",
+          "start": 75.94,
+          "end": 76.1
+        },
+        {
+          "word": "question,",
+          "start": 76.1,
+          "end": 76.54
+        },
+        {
+          "word": "Neil.",
+          "start": 76.64,
+          "end": 76.82
+        },
+        {
+          "word": "Of",
+          "start": 77.06,
+          "end": 77.48
+        },
+        {
+          "word": "course,",
+          "start": 77.48,
+          "end": 77.74
+        },
+        {
+          "word": "some",
+          "start": 77.88,
+          "end": 78.2
+        },
+        {
+          "word": "animals",
+          "start": 78.2,
+          "end": 78.68
+        },
+        {
+          "word": "have",
+          "start": 78.68,
+          "end": 79.12
+        },
+        {
+          "word": "a",
+          "start": 79.12,
+          "end": 79.24
+        },
+        {
+          "word": "reputation",
+          "start": 79.24,
+          "end": 79.78
+        },
+        {
+          "word": "for",
+          "start": 79.78,
+          "end": 80.32
+        },
+        {
+          "word": "lounging",
+          "start": 80.32,
+          "end": 80.98
+        },
+        {
+          "word": "about.",
+          "start": 80.98,
+          "end": 81.32
+        },
+        {
+          "word": "Lions,",
+          "start": 81.68,
+          "end": 82.16
+        },
+        {
+          "word": "for",
+          "start": 82.46,
+          "end": 82.6
+        },
+        {
+          "word": "example,",
+          "start": 82.6,
+          "end": 82.94
+        },
+        {
+          "word": "can",
+          "start": 83.3,
+          "end": 83.5
+        },
+        {
+          "word": "sleep",
+          "start": 83.5,
+          "end": 83.84
+        },
+        {
+          "word": "up",
+          "start": 83.84,
+          "end": 84.08
+        },
+        {
+          "word": "to",
+          "start": 84.08,
+          "end": 84.28
+        },
+        {
+          "word": "20",
+          "start": 84.28,
+          "end": 84.72
+        },
+        {
+          "word": "hours",
+          "start": 84.72,
+          "end": 85.16
+        },
+        {
+          "word": "a",
+          "start": 85.16,
+          "end": 85.44
+        },
+        {
+          "word": "day.",
+          "start": 85.44,
+          "end": 85.72
+        },
+        {
+          "word": "But",
+          "start": 85.88,
+          "end": 86.42
+        },
+        {
+          "word": "what",
+          "start": 86.42,
+          "end": 86.68
+        },
+        {
+          "word": "is",
+          "start": 86.68,
+          "end": 86.92
+        },
+        {
+          "word": "the",
+          "start": 86.92,
+          "end": 87.12
+        },
+        {
+          "word": "slowest",
+          "start": 87.12,
+          "end": 87.92
+        },
+        {
+          "word": "moving",
+          "start": 87.92,
+          "end": 88.3
+        },
+        {
+          "word": "animal",
+          "start": 88.3,
+          "end": 88.78
+        },
+        {
+          "word": "on",
+          "start": 88.78,
+          "end": 89.16
+        },
+        {
+          "word": "earth?",
+          "start": 89.16,
+          "end": 89.58
+        },
+        {
+          "word": "Is",
+          "start": 89.94,
+          "end": 90.52
+        },
+        {
+          "word": "it…",
+          "start": 90.52,
+          "end": 91.34
+        }
+      ],
+      "textKo": "하지만 먼저, 힘을 내서 닐에게 질문을 해볼게요. 물론, 어떤 동물들은 빈둥거리는 것으로 유명해요. 예를 들어, 사자는 하루에 최대 20시간까지 잘 수 있어요. 그런데 지구에서 가장 느리게 움직이는 동물은 무엇일까요?"
+    },
+    {
+      "index": 9,
+      "start": 97.48,
+      "end": 100.38,
+      "textEn": "Well, I think it's the three-toed sloth.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 97.48,
+          "end": 98.2
+        },
+        {
+          "word": "I",
+          "start": 99.08,
+          "end": 99.2
+        },
+        {
+          "word": "think",
+          "start": 99.2,
+          "end": 99.54
+        },
+        {
+          "word": "it's",
+          "start": 99.54,
+          "end": 100.04
+        },
+        {
+          "word": "the",
+          "start": 100.04,
+          "end": 100.24
+        },
+        {
+          "word": "three",
+          "start": 100.24,
+          "end": 100.38
+        },
+        {
+          "word": "-toed",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "sloth.",
+          "start": 100.38,
+          "end": 100.38
+        }
+      ],
+      "textKo": "음, 세 발가락 나무늘보인 것 같아요."
+    },
+    {
+      "index": 10,
+      "start": 100.38,
+      "end": 121.32,
+      "textEn": "Well, I think it's the three-toed sloth. OK, Neil. I'll reveal the correct answer at the end of the programme. Now, it's no surprise that lazy lions love relaxing, but even animals with reputations for being busy spend time doing nothing. Look carefully into an ant's nest and you'll see around half a",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "I",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "think",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "it's",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "the",
+          "start": 100.38,
+          "end": 100.38
+        },
+        {
+          "word": "three",
+          "start": 100.38,
+          "end": 100.66
+        },
+        {
+          "word": "-toed",
+          "start": 100.66,
+          "end": 101.26
+        },
+        {
+          "word": "sloth.",
+          "start": 101.26,
+          "end": 101.8
+        },
+        {
+          "word": "OK,",
+          "start": 101.94,
+          "end": 102.38
+        },
+        {
+          "word": "Neil.",
+          "start": 102.56,
+          "end": 102.74
+        },
+        {
+          "word": "I'll",
+          "start": 102.9,
+          "end": 103.32
+        },
+        {
+          "word": "reveal",
+          "start": 103.32,
+          "end": 103.66
+        },
+        {
+          "word": "the",
+          "start": 103.66,
+          "end": 103.94
+        },
+        {
+          "word": "correct",
+          "start": 103.94,
+          "end": 104.22
+        },
+        {
+          "word": "answer",
+          "start": 104.22,
+          "end": 104.64
+        },
+        {
+          "word": "at",
+          "start": 104.64,
+          "end": 104.86
+        },
+        {
+          "word": "the",
+          "start": 104.86,
+          "end": 105.0
+        },
+        {
+          "word": "end",
+          "start": 105.0,
+          "end": 105.26
+        },
+        {
+          "word": "of",
+          "start": 105.26,
+          "end": 105.52
+        },
+        {
+          "word": "the",
+          "start": 105.52,
+          "end": 105.72
+        },
+        {
+          "word": "programme.",
+          "start": 105.72,
+          "end": 106.12
+        },
+        {
+          "word": "Now,",
+          "start": 106.5,
+          "end": 107.16
+        },
+        {
+          "word": "it's",
+          "start": 107.4,
+          "end": 107.62
+        },
+        {
+          "word": "no",
+          "start": 107.62,
+          "end": 107.9
+        },
+        {
+          "word": "surprise",
+          "start": 107.9,
+          "end": 108.46
+        },
+        {
+          "word": "that",
+          "start": 108.46,
+          "end": 108.84
+        },
+        {
+          "word": "lazy",
+          "start": 108.84,
+          "end": 109.38
+        },
+        {
+          "word": "lions",
+          "start": 109.38,
+          "end": 109.84
+        },
+        {
+          "word": "love",
+          "start": 109.84,
+          "end": 110.18
+        },
+        {
+          "word": "relaxing,",
+          "start": 110.18,
+          "end": 110.72
+        },
+        {
+          "word": "but",
+          "start": 110.72,
+          "end": 111.2
+        },
+        {
+          "word": "even",
+          "start": 111.2,
+          "end": 111.78
+        },
+        {
+          "word": "animals",
+          "start": 111.78,
+          "end": 112.34
+        },
+        {
+          "word": "with",
+          "start": 112.34,
+          "end": 112.62
+        },
+        {
+          "word": "reputations",
+          "start": 112.62,
+          "end": 113.5
+        },
+        {
+          "word": "for",
+          "start": 113.5,
+          "end": 113.78
+        },
+        {
+          "word": "being",
+          "start": 113.78,
+          "end": 114.0
+        },
+        {
+          "word": "busy",
+          "start": 114.0,
+          "end": 114.42
+        },
+        {
+          "word": "spend",
+          "start": 114.42,
+          "end": 115.02
+        },
+        {
+          "word": "time",
+          "start": 115.02,
+          "end": 115.42
+        },
+        {
+          "word": "doing",
+          "start": 115.42,
+          "end": 115.96
+        },
+        {
+          "word": "nothing.",
+          "start": 115.96,
+          "end": 116.46
+        },
+        {
+          "word": "Look",
+          "start": 117.0,
+          "end": 117.72
+        },
+        {
+          "word": "carefully",
+          "start": 117.72,
+          "end": 118.2
+        },
+        {
+          "word": "into",
+          "start": 118.2,
+          "end": 118.56
+        },
+        {
+          "word": "an",
+          "start": 118.56,
+          "end": 118.8
+        },
+        {
+          "word": "ant's",
+          "start": 118.8,
+          "end": 119.2
+        },
+        {
+          "word": "nest",
+          "start": 119.2,
+          "end": 119.56
+        },
+        {
+          "word": "and",
+          "start": 119.56,
+          "end": 119.96
+        },
+        {
+          "word": "you'll",
+          "start": 119.96,
+          "end": 120.22
+        },
+        {
+          "word": "see",
+          "start": 120.22,
+          "end": 120.46
+        },
+        {
+          "word": "around",
+          "start": 120.46,
+          "end": 120.86
+        },
+        {
+          "word": "half",
+          "start": 120.86,
+          "end": 121.16
+        },
+        {
+          "word": "a",
+          "start": 121.16,
+          "end": 121.32
+        }
+      ],
+      "textKo": "음, 세 발가락 나무늘보인 것 같아요. 좋아요, 닐. 프로그램 끝에서 정답을 알려드릴게요. 게으른 사자가 쉬는 것을 좋아하는 건 놀랍지 않지만, 부지런한 것으로 유명한 동물들도 아무것도 하지 않으며 시간을 보내요. 개미집을 자세히 들여다보면 약 절반이"
+    },
+    {
+      "index": 11,
+      "start": 121.32,
+      "end": 135.56,
+      "textEn": "Half of them just sitting there motionless. Here's Professor Dan Charbonneau, an expert in insect behaviour, discussing the lazy rock ant with Emily Knight, presenter of BBC Radio 4 programme Naturebang.",
+      "words": [
+        {
+          "word": "half",
+          "start": 121.32,
+          "end": 121.32
+        },
+        {
+          "word": "of",
+          "start": 121.32,
+          "end": 121.44
+        },
+        {
+          "word": "them",
+          "start": 121.44,
+          "end": 121.64
+        },
+        {
+          "word": "just",
+          "start": 121.64,
+          "end": 121.92
+        },
+        {
+          "word": "sitting",
+          "start": 121.92,
+          "end": 122.36
+        },
+        {
+          "word": "there",
+          "start": 122.36,
+          "end": 122.58
+        },
+        {
+          "word": "motionless.",
+          "start": 122.58,
+          "end": 123.36
+        },
+        {
+          "word": "Here's",
+          "start": 123.86,
+          "end": 124.52
+        },
+        {
+          "word": "Professor",
+          "start": 124.52,
+          "end": 125.04
+        },
+        {
+          "word": "Dan",
+          "start": 125.04,
+          "end": 125.34
+        },
+        {
+          "word": "Charbonneau,",
+          "start": 125.34,
+          "end": 126.08
+        },
+        {
+          "word": "an",
+          "start": 126.22,
+          "end": 126.42
+        },
+        {
+          "word": "expert",
+          "start": 126.42,
+          "end": 126.9
+        },
+        {
+          "word": "in",
+          "start": 126.9,
+          "end": 127.22
+        },
+        {
+          "word": "insect",
+          "start": 127.22,
+          "end": 127.76
+        },
+        {
+          "word": "behaviour,",
+          "start": 127.76,
+          "end": 128.28
+        },
+        {
+          "word": "discussing",
+          "start": 128.74,
+          "end": 129.18
+        },
+        {
+          "word": "the",
+          "start": 129.18,
+          "end": 129.46
+        },
+        {
+          "word": "lazy",
+          "start": 129.46,
+          "end": 129.88
+        },
+        {
+          "word": "rock",
+          "start": 129.88,
+          "end": 130.28
+        },
+        {
+          "word": "ant",
+          "start": 130.28,
+          "end": 130.64
+        },
+        {
+          "word": "with",
+          "start": 130.64,
+          "end": 131.04
+        },
+        {
+          "word": "Emily",
+          "start": 131.04,
+          "end": 131.46
+        },
+        {
+          "word": "Knight,",
+          "start": 131.46,
+          "end": 131.8
+        },
+        {
+          "word": "presenter",
+          "start": 132.06,
+          "end": 132.6
+        },
+        {
+          "word": "of",
+          "start": 132.6,
+          "end": 132.92
+        },
+        {
+          "word": "BBC",
+          "start": 132.92,
+          "end": 133.4
+        },
+        {
+          "word": "Radio",
+          "start": 133.4,
+          "end": 133.82
+        },
+        {
+          "word": "4",
+          "start": 133.82,
+          "end": 134.22
+        },
+        {
+          "word": "programme",
+          "start": 134.22,
+          "end": 134.72
+        },
+        {
+          "word": "Naturebang.",
+          "start": 134.72,
+          "end": 135.56
+        }
+      ],
+      "textKo": "그 중 절반은 그냥 가만히 앉아 있어요. 곤충 행동 전문가인 댄 샤르보노 교수가 BBC 라디오 4 프로그램 네이처뱅의 진행자 에밀리 나이트와 함께 게으른 바위 개미에 대해 이야기해요."
+    },
+    {
+      "index": 12,
+      "start": 138.74,
+      "end": 144.32,
+      "textEn": "Dan's research has focused on ant colonies, a species called Temnothorax regatulus, or the rock ant.",
+      "words": [
+        {
+          "word": "Dan's",
+          "start": 138.74,
+          "end": 139.4
+        },
+        {
+          "word": "research",
+          "start": 139.4,
+          "end": 139.66
+        },
+        {
+          "word": "has",
+          "start": 139.66,
+          "end": 139.86
+        },
+        {
+          "word": "focused",
+          "start": 139.86,
+          "end": 140.12
+        },
+        {
+          "word": "on",
+          "start": 140.12,
+          "end": 140.38
+        },
+        {
+          "word": "ant",
+          "start": 140.38,
+          "end": 140.66
+        },
+        {
+          "word": "colonies,",
+          "start": 140.66,
+          "end": 141.08
+        },
+        {
+          "word": "a",
+          "start": 141.38,
+          "end": 141.54
+        },
+        {
+          "word": "species",
+          "start": 141.54,
+          "end": 141.8
+        },
+        {
+          "word": "called",
+          "start": 141.8,
+          "end": 142.12
+        },
+        {
+          "word": "Temnothorax",
+          "start": 142.12,
+          "end": 142.84
+        },
+        {
+          "word": "regatulus,",
+          "start": 142.84,
+          "end": 143.36
+        },
+        {
+          "word": "or",
+          "start": 143.68,
+          "end": 143.74
+        },
+        {
+          "word": "the",
+          "start": 143.74,
+          "end": 143.84
+        },
+        {
+          "word": "rock",
+          "start": 143.84,
+          "end": 144.08
+        },
+        {
+          "word": "ant.",
+          "start": 144.08,
+          "end": 144.32
+        }
+      ],
+      "textKo": "댄의 연구는 개미 군체, 즉 템노토락스 루가툴루스 또는 바위 개미라고 불리는 종에 초점을 맞추고 있어요."
+    },
+    {
+      "index": 13,
+      "start": 144.32,
+      "end": 151.28,
+      "textEn": "I think ants are sort of a symbol of, like, industriousness. You know, they have this whole tiny little society going on that's kind of similar to ours.",
+      "words": [
+        {
+          "word": "I",
+          "start": 144.32,
+          "end": 144.62
+        },
+        {
+          "word": "think",
+          "start": 144.62,
+          "end": 144.86
+        },
+        {
+          "word": "ants",
+          "start": 144.86,
+          "end": 145.2
+        },
+        {
+          "word": "are",
+          "start": 145.2,
+          "end": 145.3
+        },
+        {
+          "word": "sort",
+          "start": 145.3,
+          "end": 145.48
+        },
+        {
+          "word": "of",
+          "start": 145.48,
+          "end": 145.58
+        },
+        {
+          "word": "a",
+          "start": 145.58,
+          "end": 145.68
+        },
+        {
+          "word": "symbol",
+          "start": 145.68,
+          "end": 145.92
+        },
+        {
+          "word": "of,",
+          "start": 145.92,
+          "end": 146.1
+        },
+        {
+          "word": "like,",
+          "start": 146.1,
+          "end": 146.28
+        },
+        {
+          "word": "industriousness.",
+          "start": 146.4,
+          "end": 147.04
+        },
+        {
+          "word": "You",
+          "start": 147.2,
+          "end": 147.22
+        },
+        {
+          "word": "know,",
+          "start": 147.22,
+          "end": 147.28
+        },
+        {
+          "word": "they",
+          "start": 147.34,
+          "end": 147.42
+        },
+        {
+          "word": "have",
+          "start": 147.42,
+          "end": 147.56
+        },
+        {
+          "word": "this",
+          "start": 147.56,
+          "end": 147.74
+        },
+        {
+          "word": "whole",
+          "start": 147.74,
+          "end": 147.96
+        },
+        {
+          "word": "tiny",
+          "start": 147.96,
+          "end": 148.24
+        },
+        {
+          "word": "little",
+          "start": 148.24,
+          "end": 148.44
+        },
+        {
+          "word": "society",
+          "start": 148.44,
+          "end": 148.86
+        },
+        {
+          "word": "going",
+          "start": 148.86,
+          "end": 149.14
+        },
+        {
+          "word": "on",
+          "start": 149.14,
+          "end": 149.48
+        },
+        {
+          "word": "that's",
+          "start": 149.48,
+          "end": 150.22
+        },
+        {
+          "word": "kind",
+          "start": 150.22,
+          "end": 150.46
+        },
+        {
+          "word": "of",
+          "start": 150.46,
+          "end": 150.54
+        },
+        {
+          "word": "similar",
+          "start": 150.54,
+          "end": 150.86
+        },
+        {
+          "word": "to",
+          "start": 150.86,
+          "end": 151.02
+        },
+        {
+          "word": "ours.",
+          "start": 151.02,
+          "end": 151.28
+        }
+      ],
+      "textKo": "개미는 일종의 근면함의 상징이라고 생각해요. 우리와 비슷한 이 작은 사회 전체가 돌아가고 있잖아요."
+    },
+    {
+      "index": 14,
+      "start": 151.44,
+      "end": 158.08,
+      "textEn": "There's some idealised version of what humans might be. If we could only, like, pull it together and all work together, we could be as industrious as the ants.",
+      "words": [
+        {
+          "word": "There's",
+          "start": 151.44,
+          "end": 151.8
+        },
+        {
+          "word": "some",
+          "start": 151.8,
+          "end": 151.92
+        },
+        {
+          "word": "idealised",
+          "start": 151.92,
+          "end": 152.44
+        },
+        {
+          "word": "version",
+          "start": 152.44,
+          "end": 152.66
+        },
+        {
+          "word": "of",
+          "start": 152.66,
+          "end": 152.76
+        },
+        {
+          "word": "what",
+          "start": 152.76,
+          "end": 152.84
+        },
+        {
+          "word": "humans",
+          "start": 152.84,
+          "end": 153.12
+        },
+        {
+          "word": "might",
+          "start": 153.12,
+          "end": 153.4
+        },
+        {
+          "word": "be.",
+          "start": 153.4,
+          "end": 153.72
+        },
+        {
+          "word": "If",
+          "start": 153.84,
+          "end": 154.16
+        },
+        {
+          "word": "we",
+          "start": 154.16,
+          "end": 154.26
+        },
+        {
+          "word": "could",
+          "start": 154.26,
+          "end": 154.4
+        },
+        {
+          "word": "only,",
+          "start": 154.4,
+          "end": 154.76
+        },
+        {
+          "word": "like,",
+          "start": 154.76,
+          "end": 154.98
+        },
+        {
+          "word": "pull",
+          "start": 155.02,
+          "end": 155.2
+        },
+        {
+          "word": "it",
+          "start": 155.2,
+          "end": 155.28
+        },
+        {
+          "word": "together",
+          "start": 155.28,
+          "end": 155.58
+        },
+        {
+          "word": "and",
+          "start": 155.58,
+          "end": 155.78
+        },
+        {
+          "word": "all",
+          "start": 155.78,
+          "end": 155.9
+        },
+        {
+          "word": "work",
+          "start": 155.9,
+          "end": 156.14
+        },
+        {
+          "word": "together,",
+          "start": 156.14,
+          "end": 156.42
+        },
+        {
+          "word": "we",
+          "start": 156.42,
+          "end": 156.6
+        },
+        {
+          "word": "could",
+          "start": 156.6,
+          "end": 156.74
+        },
+        {
+          "word": "be",
+          "start": 156.74,
+          "end": 156.88
+        },
+        {
+          "word": "as",
+          "start": 156.88,
+          "end": 157.08
+        },
+        {
+          "word": "industrious",
+          "start": 157.08,
+          "end": 157.5
+        },
+        {
+          "word": "as",
+          "start": 157.5,
+          "end": 157.68
+        },
+        {
+          "word": "the",
+          "start": 157.68,
+          "end": 157.78
+        },
+        {
+          "word": "ants.",
+          "start": 157.78,
+          "end": 158.08
+        }
+      ],
+      "textKo": "인간이 될 수 있는 이상화된 모습 같은 거예요. 우리가 힘을 합쳐 다 함께 일한다면, 개미만큼 부지런해질 수 있을 거라는 거죠."
+    },
+    {
+      "index": 15,
+      "start": 158.3,
+      "end": 162.54,
+      "textEn": "But then when you look at it, you know, roughly about half the colony is inactive at any given time.",
+      "words": [
+        {
+          "word": "But",
+          "start": 158.3,
+          "end": 158.66
+        },
+        {
+          "word": "then",
+          "start": 158.66,
+          "end": 158.8
+        },
+        {
+          "word": "when",
+          "start": 158.8,
+          "end": 158.92
+        },
+        {
+          "word": "you",
+          "start": 158.92,
+          "end": 159.02
+        },
+        {
+          "word": "look",
+          "start": 159.02,
+          "end": 159.2
+        },
+        {
+          "word": "at",
+          "start": 159.2,
+          "end": 159.38
+        },
+        {
+          "word": "it,",
+          "start": 159.38,
+          "end": 159.54
+        },
+        {
+          "word": "you",
+          "start": 159.78,
+          "end": 159.82
+        },
+        {
+          "word": "know,",
+          "start": 159.82,
+          "end": 159.88
+        },
+        {
+          "word": "roughly",
+          "start": 159.9,
+          "end": 160.26
+        },
+        {
+          "word": "about",
+          "start": 160.26,
+          "end": 160.52
+        },
+        {
+          "word": "half",
+          "start": 160.52,
+          "end": 160.76
+        },
+        {
+          "word": "the",
+          "start": 160.76,
+          "end": 160.92
+        },
+        {
+          "word": "colony",
+          "start": 160.92,
+          "end": 161.2
+        },
+        {
+          "word": "is",
+          "start": 161.2,
+          "end": 161.36
+        },
+        {
+          "word": "inactive",
+          "start": 161.36,
+          "end": 161.66
+        },
+        {
+          "word": "at",
+          "start": 161.66,
+          "end": 161.86
+        },
+        {
+          "word": "any",
+          "start": 161.86,
+          "end": 161.96
+        },
+        {
+          "word": "given",
+          "start": 161.96,
+          "end": 162.18
+        },
+        {
+          "word": "time.",
+          "start": 162.18,
+          "end": 162.54
+        }
+      ],
+      "textKo": "하지만 실제로 보면, 어느 시점에서든 군체의 약 절반이 비활동 상태예요."
+    },
+    {
+      "index": 16,
+      "start": 165.68,
+      "end": 176.82,
+      "textEn": "We think ants are industrious or hard-working. Groups of ants called colonies seem tiny, perfect societies where everyone works hard for the good of the group.",
+      "words": [
+        {
+          "word": "We",
+          "start": 165.68,
+          "end": 166.38
+        },
+        {
+          "word": "think",
+          "start": 166.38,
+          "end": 166.68
+        },
+        {
+          "word": "ants",
+          "start": 166.68,
+          "end": 167.02
+        },
+        {
+          "word": "are",
+          "start": 167.02,
+          "end": 167.24
+        },
+        {
+          "word": "industrious",
+          "start": 167.24,
+          "end": 168.12
+        },
+        {
+          "word": "or",
+          "start": 168.12,
+          "end": 168.32
+        },
+        {
+          "word": "hard",
+          "start": 168.32,
+          "end": 168.68
+        },
+        {
+          "word": "-working.",
+          "start": 168.68,
+          "end": 169.12
+        },
+        {
+          "word": "Groups",
+          "start": 169.34,
+          "end": 169.96
+        },
+        {
+          "word": "of",
+          "start": 169.96,
+          "end": 170.06
+        },
+        {
+          "word": "ants",
+          "start": 170.06,
+          "end": 170.38
+        },
+        {
+          "word": "called",
+          "start": 170.38,
+          "end": 170.64
+        },
+        {
+          "word": "colonies",
+          "start": 170.64,
+          "end": 171.32
+        },
+        {
+          "word": "seem",
+          "start": 171.32,
+          "end": 171.94
+        },
+        {
+          "word": "tiny,",
+          "start": 171.94,
+          "end": 172.44
+        },
+        {
+          "word": "perfect",
+          "start": 172.6,
+          "end": 173.04
+        },
+        {
+          "word": "societies",
+          "start": 173.04,
+          "end": 173.74
+        },
+        {
+          "word": "where",
+          "start": 173.74,
+          "end": 174.16
+        },
+        {
+          "word": "everyone",
+          "start": 174.16,
+          "end": 174.6
+        },
+        {
+          "word": "works",
+          "start": 174.6,
+          "end": 175.0
+        },
+        {
+          "word": "hard",
+          "start": 175.0,
+          "end": 175.36
+        },
+        {
+          "word": "for",
+          "start": 175.36,
+          "end": 175.76
+        },
+        {
+          "word": "the",
+          "start": 175.76,
+          "end": 175.9
+        },
+        {
+          "word": "good",
+          "start": 175.9,
+          "end": 176.08
+        },
+        {
+          "word": "of",
+          "start": 176.08,
+          "end": 176.38
+        },
+        {
+          "word": "the",
+          "start": 176.38,
+          "end": 176.5
+        },
+        {
+          "word": "group.",
+          "start": 176.5,
+          "end": 176.82
+        }
+      ],
+      "textKo": "우리는 개미가 부지런하거나 열심히 일한다고 생각해요. 군체라고 불리는 개미 집단은 모두가 집단의 이익을 위해 열심히 일하는 작고 완벽한 사회처럼 보여요."
+    },
+    {
+      "index": 17,
+      "start": 177.04,
+      "end": 187.18,
+      "textEn": "Then why are so many of them inactive? One possible answer is that they're reserve ants, ready to step in if disease or disaster strike.",
+      "words": [
+        {
+          "word": "Then",
+          "start": 177.04,
+          "end": 177.56
+        },
+        {
+          "word": "why",
+          "start": 177.56,
+          "end": 177.84
+        },
+        {
+          "word": "are",
+          "start": 177.84,
+          "end": 178.06
+        },
+        {
+          "word": "so",
+          "start": 178.06,
+          "end": 178.28
+        },
+        {
+          "word": "many",
+          "start": 178.28,
+          "end": 178.58
+        },
+        {
+          "word": "of",
+          "start": 178.58,
+          "end": 178.72
+        },
+        {
+          "word": "them",
+          "start": 178.72,
+          "end": 178.94
+        },
+        {
+          "word": "inactive?",
+          "start": 178.94,
+          "end": 179.42
+        },
+        {
+          "word": "One",
+          "start": 179.86,
+          "end": 180.36
+        },
+        {
+          "word": "possible",
+          "start": 180.36,
+          "end": 180.82
+        },
+        {
+          "word": "answer",
+          "start": 180.82,
+          "end": 181.3
+        },
+        {
+          "word": "is",
+          "start": 181.3,
+          "end": 181.76
+        },
+        {
+          "word": "that",
+          "start": 181.76,
+          "end": 181.94
+        },
+        {
+          "word": "they're",
+          "start": 181.94,
+          "end": 182.18
+        },
+        {
+          "word": "reserve",
+          "start": 182.18,
+          "end": 182.7
+        },
+        {
+          "word": "ants,",
+          "start": 182.7,
+          "end": 183.3
+        },
+        {
+          "word": "ready",
+          "start": 183.56,
+          "end": 183.94
+        },
+        {
+          "word": "to",
+          "start": 183.94,
+          "end": 184.2
+        },
+        {
+          "word": "step",
+          "start": 184.2,
+          "end": 184.46
+        },
+        {
+          "word": "in",
+          "start": 184.46,
+          "end": 184.74
+        },
+        {
+          "word": "if",
+          "start": 184.74,
+          "end": 185.04
+        },
+        {
+          "word": "disease",
+          "start": 185.04,
+          "end": 185.56
+        },
+        {
+          "word": "or",
+          "start": 185.56,
+          "end": 186.0
+        },
+        {
+          "word": "disaster",
+          "start": 186.0,
+          "end": 186.66
+        },
+        {
+          "word": "strike.",
+          "start": 186.66,
+          "end": 187.18
+        }
+      ],
+      "textKo": "그러면 왜 그렇게 많은 개미가 비활동 상태일까요? 한 가지 가능한 답은 그들이 예비 개미로, 질병이나 재난이 닥치면 투입될 준비가 되어 있다는 거예요."
+    },
+    {
+      "index": 18,
+      "start": 187.18,
+      "end": 195.94,
+      "textEn": "But could it simply be that they don't work because they don't need to? Would you get out of bed on Monday morning if you didn't have to?",
+      "words": [
+        {
+          "word": "But",
+          "start": 187.18,
+          "end": 187.98
+        },
+        {
+          "word": "could",
+          "start": 187.98,
+          "end": 188.52
+        },
+        {
+          "word": "it",
+          "start": 188.52,
+          "end": 188.7
+        },
+        {
+          "word": "simply",
+          "start": 188.7,
+          "end": 189.12
+        },
+        {
+          "word": "be",
+          "start": 189.12,
+          "end": 189.34
+        },
+        {
+          "word": "that",
+          "start": 189.34,
+          "end": 189.56
+        },
+        {
+          "word": "they",
+          "start": 189.56,
+          "end": 189.74
+        },
+        {
+          "word": "don't",
+          "start": 189.74,
+          "end": 190.1
+        },
+        {
+          "word": "work",
+          "start": 190.1,
+          "end": 190.5
+        },
+        {
+          "word": "because",
+          "start": 190.5,
+          "end": 190.92
+        },
+        {
+          "word": "they",
+          "start": 190.92,
+          "end": 191.14
+        },
+        {
+          "word": "don't",
+          "start": 191.14,
+          "end": 191.46
+        },
+        {
+          "word": "need",
+          "start": 191.46,
+          "end": 191.64
+        },
+        {
+          "word": "to?",
+          "start": 191.64,
+          "end": 191.92
+        },
+        {
+          "word": "Would",
+          "start": 192.26,
+          "end": 192.78
+        },
+        {
+          "word": "you",
+          "start": 192.78,
+          "end": 192.98
+        },
+        {
+          "word": "get",
+          "start": 192.98,
+          "end": 193.22
+        },
+        {
+          "word": "out",
+          "start": 193.22,
+          "end": 193.42
+        },
+        {
+          "word": "of",
+          "start": 193.42,
+          "end": 193.62
+        },
+        {
+          "word": "bed",
+          "start": 193.62,
+          "end": 193.88
+        },
+        {
+          "word": "on",
+          "start": 193.88,
+          "end": 194.16
+        },
+        {
+          "word": "Monday",
+          "start": 194.16,
+          "end": 194.56
+        },
+        {
+          "word": "morning",
+          "start": 194.56,
+          "end": 194.92
+        },
+        {
+          "word": "if",
+          "start": 194.92,
+          "end": 195.2
+        },
+        {
+          "word": "you",
+          "start": 195.2,
+          "end": 195.32
+        },
+        {
+          "word": "didn't",
+          "start": 195.32,
+          "end": 195.58
+        },
+        {
+          "word": "have",
+          "start": 195.58,
+          "end": 195.74
+        },
+        {
+          "word": "to?",
+          "start": 195.74,
+          "end": 195.94
+        }
+      ],
+      "textKo": "하지만 단순히 일할 필요가 없어서 일을 안 하는 것일 수도 있지 않을까요? 월요일 아침에 꼭 일어나지 않아도 된다면 침대에서 나올 건가요?"
+    },
+    {
+      "index": 19,
+      "start": 196.14,
+      "end": 202.94,
+      "textEn": "Maybe the ants can teach us a thing or two about relaxing, but wouldn't it get boring just sitting around all day?",
+      "words": [
+        {
+          "word": "Maybe",
+          "start": 196.14,
+          "end": 196.6
+        },
+        {
+          "word": "the",
+          "start": 196.6,
+          "end": 196.78
+        },
+        {
+          "word": "ants",
+          "start": 196.78,
+          "end": 197.1
+        },
+        {
+          "word": "can",
+          "start": 197.1,
+          "end": 197.32
+        },
+        {
+          "word": "teach",
+          "start": 197.32,
+          "end": 197.64
+        },
+        {
+          "word": "us",
+          "start": 197.64,
+          "end": 197.9
+        },
+        {
+          "word": "a",
+          "start": 197.9,
+          "end": 198.12
+        },
+        {
+          "word": "thing",
+          "start": 198.12,
+          "end": 198.3
+        },
+        {
+          "word": "or",
+          "start": 198.3,
+          "end": 198.48
+        },
+        {
+          "word": "two",
+          "start": 198.48,
+          "end": 198.7
+        },
+        {
+          "word": "about",
+          "start": 198.7,
+          "end": 199.04
+        },
+        {
+          "word": "relaxing,",
+          "start": 199.04,
+          "end": 199.64
+        },
+        {
+          "word": "but",
+          "start": 199.88,
+          "end": 200.18
+        },
+        {
+          "word": "wouldn't",
+          "start": 200.18,
+          "end": 200.44
+        },
+        {
+          "word": "it",
+          "start": 200.44,
+          "end": 200.58
+        },
+        {
+          "word": "get",
+          "start": 200.58,
+          "end": 200.76
+        },
+        {
+          "word": "boring",
+          "start": 200.76,
+          "end": 201.42
+        },
+        {
+          "word": "just",
+          "start": 201.42,
+          "end": 201.74
+        },
+        {
+          "word": "sitting",
+          "start": 201.74,
+          "end": 202.06
+        },
+        {
+          "word": "around",
+          "start": 202.06,
+          "end": 202.42
+        },
+        {
+          "word": "all",
+          "start": 202.42,
+          "end": 202.7
+        },
+        {
+          "word": "day?",
+          "start": 202.7,
+          "end": 202.94
+        }
+      ],
+      "textKo": "아마 개미에게서 휴식에 대해 한두 가지 배울 수 있을 거예요. 하지만 하루 종일 가만히 앉아 있으면 지루하지 않을까요?"
+    },
+    {
+      "index": 20,
+      "start": 203.12,
+      "end": 213.78,
+      "textEn": "Not according to psychologist Dr Sandy Mann. She thinks being productive – working to produce a lot for the amount of resources we use – is overrated.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 203.12,
+          "end": 203.62
+        },
+        {
+          "word": "according",
+          "start": 203.62,
+          "end": 204.1
+        },
+        {
+          "word": "to",
+          "start": 204.1,
+          "end": 204.42
+        },
+        {
+          "word": "psychologist",
+          "start": 204.42,
+          "end": 205.1
+        },
+        {
+          "word": "Dr",
+          "start": 205.1,
+          "end": 205.7
+        },
+        {
+          "word": "Sandy",
+          "start": 205.7,
+          "end": 206.16
+        },
+        {
+          "word": "Mann.",
+          "start": 206.16,
+          "end": 206.46
+        },
+        {
+          "word": "She",
+          "start": 206.84,
+          "end": 207.4
+        },
+        {
+          "word": "thinks",
+          "start": 207.4,
+          "end": 207.7
+        },
+        {
+          "word": "being",
+          "start": 207.7,
+          "end": 208.0
+        },
+        {
+          "word": "productive",
+          "start": 208.0,
+          "end": 208.58
+        },
+        {
+          "word": "–",
+          "start": 208.58,
+          "end": 208.58
+        },
+        {
+          "word": "working",
+          "start": 208.58,
+          "end": 209.52
+        },
+        {
+          "word": "to",
+          "start": 209.52,
+          "end": 209.76
+        },
+        {
+          "word": "produce",
+          "start": 209.76,
+          "end": 210.1
+        },
+        {
+          "word": "a",
+          "start": 210.1,
+          "end": 210.34
+        },
+        {
+          "word": "lot",
+          "start": 210.34,
+          "end": 210.58
+        },
+        {
+          "word": "for",
+          "start": 210.58,
+          "end": 210.86
+        },
+        {
+          "word": "the",
+          "start": 210.86,
+          "end": 210.98
+        },
+        {
+          "word": "amount",
+          "start": 210.98,
+          "end": 211.24
+        },
+        {
+          "word": "of",
+          "start": 211.24,
+          "end": 211.46
+        },
+        {
+          "word": "resources",
+          "start": 211.46,
+          "end": 211.88
+        },
+        {
+          "word": "we",
+          "start": 211.88,
+          "end": 212.14
+        },
+        {
+          "word": "use",
+          "start": 212.14,
+          "end": 212.52
+        },
+        {
+          "word": "–",
+          "start": 212.52,
+          "end": 212.82
+        },
+        {
+          "word": "is",
+          "start": 212.82,
+          "end": 213.02
+        },
+        {
+          "word": "overrated.",
+          "start": 213.02,
+          "end": 213.78
+        }
+      ],
+      "textKo": "심리학자 샌디 만 박사에 따르면 그렇지 않아요. 그녀는 생산적인 것, 즉 사용하는 자원 대비 많은 것을 생산하기 위해 일하는 것이 과대평가되어 있다고 생각해요."
+    },
+    {
+      "index": 21,
+      "start": 214.56,
+      "end": 220.34,
+      "textEn": "Boredom has its benefits too, as she explained to BBC Radio 4 programme Naturebang.",
+      "words": [
+        {
+          "word": "Boredom",
+          "start": 214.56,
+          "end": 215.12
+        },
+        {
+          "word": "has",
+          "start": 215.12,
+          "end": 215.36
+        },
+        {
+          "word": "its",
+          "start": 215.36,
+          "end": 215.56
+        },
+        {
+          "word": "benefits",
+          "start": 215.56,
+          "end": 216.02
+        },
+        {
+          "word": "too,",
+          "start": 216.02,
+          "end": 216.34
+        },
+        {
+          "word": "as",
+          "start": 216.52,
+          "end": 216.94
+        },
+        {
+          "word": "she",
+          "start": 216.94,
+          "end": 217.08
+        },
+        {
+          "word": "explained",
+          "start": 217.08,
+          "end": 217.56
+        },
+        {
+          "word": "to",
+          "start": 217.56,
+          "end": 217.84
+        },
+        {
+          "word": "BBC",
+          "start": 217.84,
+          "end": 218.26
+        },
+        {
+          "word": "Radio",
+          "start": 218.26,
+          "end": 218.72
+        },
+        {
+          "word": "4",
+          "start": 218.72,
+          "end": 219.08
+        },
+        {
+          "word": "programme",
+          "start": 219.08,
+          "end": 219.56
+        },
+        {
+          "word": "Naturebang.",
+          "start": 219.56,
+          "end": 220.34
+        }
+      ],
+      "textKo": "지루함에도 장점이 있다고 BBC 라디오 4 프로그램 네이처뱅에서 설명했어요."
+    },
+    {
+      "index": 22,
+      "start": 221.88,
+      "end": 231.7,
+      "textEn": "Would humans have invented bread or beer or fire, you know, if we hadn't been bored and were wondering what on earth would happen if we mixed this with this?",
+      "words": [
+        {
+          "word": "Would",
+          "start": 221.88,
+          "end": 222.44
+        },
+        {
+          "word": "humans",
+          "start": 222.44,
+          "end": 222.96
+        },
+        {
+          "word": "have",
+          "start": 222.96,
+          "end": 223.16
+        },
+        {
+          "word": "invented",
+          "start": 223.16,
+          "end": 223.62
+        },
+        {
+          "word": "bread",
+          "start": 223.62,
+          "end": 224.52
+        },
+        {
+          "word": "or",
+          "start": 224.52,
+          "end": 224.82
+        },
+        {
+          "word": "beer",
+          "start": 224.82,
+          "end": 225.46
+        },
+        {
+          "word": "or",
+          "start": 225.46,
+          "end": 225.86
+        },
+        {
+          "word": "fire,",
+          "start": 225.86,
+          "end": 226.64
+        },
+        {
+          "word": "you",
+          "start": 226.8,
+          "end": 226.92
+        },
+        {
+          "word": "know,",
+          "start": 226.92,
+          "end": 226.98
+        },
+        {
+          "word": "if",
+          "start": 227.04,
+          "end": 227.22
+        },
+        {
+          "word": "we",
+          "start": 227.22,
+          "end": 227.4
+        },
+        {
+          "word": "hadn't",
+          "start": 227.4,
+          "end": 227.84
+        },
+        {
+          "word": "been",
+          "start": 227.84,
+          "end": 228.1
+        },
+        {
+          "word": "bored",
+          "start": 228.1,
+          "end": 228.5
+        },
+        {
+          "word": "and",
+          "start": 228.5,
+          "end": 228.74
+        },
+        {
+          "word": "were",
+          "start": 228.74,
+          "end": 229.12
+        },
+        {
+          "word": "wondering",
+          "start": 229.12,
+          "end": 229.58
+        },
+        {
+          "word": "what",
+          "start": 229.58,
+          "end": 230.12
+        },
+        {
+          "word": "on",
+          "start": 230.12,
+          "end": 230.28
+        },
+        {
+          "word": "earth",
+          "start": 230.28,
+          "end": 230.38
+        },
+        {
+          "word": "would",
+          "start": 230.38,
+          "end": 230.5
+        },
+        {
+          "word": "happen",
+          "start": 230.5,
+          "end": 230.7
+        },
+        {
+          "word": "if",
+          "start": 230.7,
+          "end": 230.84
+        },
+        {
+          "word": "we",
+          "start": 230.84,
+          "end": 230.9
+        },
+        {
+          "word": "mixed",
+          "start": 230.9,
+          "end": 231.14
+        },
+        {
+          "word": "this",
+          "start": 231.14,
+          "end": 231.34
+        },
+        {
+          "word": "with",
+          "start": 231.34,
+          "end": 231.5
+        },
+        {
+          "word": "this?",
+          "start": 231.5,
+          "end": 231.7
+        }
+      ],
+      "textKo": "인간이 빵이나 맥주나 불을 발명한 건, 지루해서 이것과 저것을 섞으면 어떻게 될까 궁금해하지 않았다면 가능했을까요?"
+    },
+    {
+      "index": 23,
+      "start": 231.82,
+      "end": 235.5,
+      "textEn": "You know, are all these sorts of inventions the mother of boredom?",
+      "words": [
+        {
+          "word": "You",
+          "start": 231.82,
+          "end": 231.82
+        },
+        {
+          "word": "know,",
+          "start": 231.82,
+          "end": 231.9
+        },
+        {
+          "word": "are",
+          "start": 232.34,
+          "end": 232.62
+        },
+        {
+          "word": "all",
+          "start": 232.62,
+          "end": 232.78
+        },
+        {
+          "word": "these",
+          "start": 232.78,
+          "end": 233.0
+        },
+        {
+          "word": "sorts",
+          "start": 233.0,
+          "end": 233.22
+        },
+        {
+          "word": "of",
+          "start": 233.22,
+          "end": 233.44
+        },
+        {
+          "word": "inventions",
+          "start": 233.44,
+          "end": 234.04
+        },
+        {
+          "word": "the",
+          "start": 234.04,
+          "end": 234.48
+        },
+        {
+          "word": "mother",
+          "start": 234.48,
+          "end": 234.78
+        },
+        {
+          "word": "of",
+          "start": 234.78,
+          "end": 234.96
+        },
+        {
+          "word": "boredom?",
+          "start": 234.96,
+          "end": 235.5
+        }
+      ],
+      "textKo": "이런 모든 종류의 발명이 지루함의 어머니인 건 아닐까요?"
+    },
+    {
+      "index": 24,
+      "start": 236.0,
+      "end": 241.22,
+      "textEn": "But in this world of constant stimulation, switching off is harder than it's ever been.",
+      "words": [
+        {
+          "word": "But",
+          "start": 236.0,
+          "end": 236.56
+        },
+        {
+          "word": "in",
+          "start": 236.56,
+          "end": 236.68
+        },
+        {
+          "word": "this",
+          "start": 236.68,
+          "end": 236.86
+        },
+        {
+          "word": "world",
+          "start": 236.86,
+          "end": 237.18
+        },
+        {
+          "word": "of",
+          "start": 237.18,
+          "end": 237.36
+        },
+        {
+          "word": "constant",
+          "start": 237.36,
+          "end": 237.86
+        },
+        {
+          "word": "stimulation,",
+          "start": 237.86,
+          "end": 238.64
+        },
+        {
+          "word": "switching",
+          "start": 239.22,
+          "end": 239.58
+        },
+        {
+          "word": "off",
+          "start": 239.58,
+          "end": 239.78
+        },
+        {
+          "word": "is",
+          "start": 239.78,
+          "end": 239.92
+        },
+        {
+          "word": "harder",
+          "start": 239.92,
+          "end": 240.22
+        },
+        {
+          "word": "than",
+          "start": 240.22,
+          "end": 240.4
+        },
+        {
+          "word": "it's",
+          "start": 240.4,
+          "end": 240.58
+        },
+        {
+          "word": "ever",
+          "start": 240.58,
+          "end": 240.88
+        },
+        {
+          "word": "been.",
+          "start": 240.88,
+          "end": 241.22
+        }
+      ],
+      "textKo": "하지만 끊임없는 자극의 세계에서, 머리를 쉬게 하는 것은 그 어느 때보다 어려워요."
+    },
+    {
+      "index": 25,
+      "start": 241.22,
+      "end": 247.28,
+      "textEn": "That's why we're constantly swiping and scrolling and looking for the next big thing and the new thing and we get bored of things very quickly.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 241.22,
+          "end": 241.88
+        },
+        {
+          "word": "why",
+          "start": 241.88,
+          "end": 242.08
+        },
+        {
+          "word": "we're",
+          "start": 242.08,
+          "end": 242.3
+        },
+        {
+          "word": "constantly",
+          "start": 242.3,
+          "end": 242.74
+        },
+        {
+          "word": "swiping",
+          "start": 242.74,
+          "end": 243.28
+        },
+        {
+          "word": "and",
+          "start": 243.28,
+          "end": 243.46
+        },
+        {
+          "word": "scrolling",
+          "start": 243.46,
+          "end": 243.8
+        },
+        {
+          "word": "and",
+          "start": 243.8,
+          "end": 243.98
+        },
+        {
+          "word": "looking",
+          "start": 243.98,
+          "end": 244.16
+        },
+        {
+          "word": "for",
+          "start": 244.16,
+          "end": 244.34
+        },
+        {
+          "word": "the",
+          "start": 244.34,
+          "end": 244.44
+        },
+        {
+          "word": "next",
+          "start": 244.44,
+          "end": 244.62
+        },
+        {
+          "word": "big",
+          "start": 244.62,
+          "end": 244.8
+        },
+        {
+          "word": "thing",
+          "start": 244.8,
+          "end": 245.04
+        },
+        {
+          "word": "and",
+          "start": 245.04,
+          "end": 245.2
+        },
+        {
+          "word": "the",
+          "start": 245.2,
+          "end": 245.3
+        },
+        {
+          "word": "new",
+          "start": 245.3,
+          "end": 245.5
+        },
+        {
+          "word": "thing",
+          "start": 245.5,
+          "end": 245.68
+        },
+        {
+          "word": "and",
+          "start": 245.68,
+          "end": 245.82
+        },
+        {
+          "word": "we",
+          "start": 245.82,
+          "end": 245.88
+        },
+        {
+          "word": "get",
+          "start": 245.88,
+          "end": 246.02
+        },
+        {
+          "word": "bored",
+          "start": 246.02,
+          "end": 246.3
+        },
+        {
+          "word": "of",
+          "start": 246.3,
+          "end": 246.46
+        },
+        {
+          "word": "things",
+          "start": 246.46,
+          "end": 246.64
+        },
+        {
+          "word": "very",
+          "start": 246.64,
+          "end": 246.88
+        },
+        {
+          "word": "quickly.",
+          "start": 246.88,
+          "end": 247.28
+        }
+      ],
+      "textKo": "그래서 우리는 끊임없이 스와이프하고 스크롤하며 다음 큰 것과 새로운 것을 찾고, 금방 지루해하는 거예요."
+    },
+    {
+      "index": 26,
+      "start": 247.78,
+      "end": 253.66,
+      "textEn": "So it's a kind of paradox to get rid of this unpleasant state of boredom is actually to allow more boredom into your life.",
+      "words": [
+        {
+          "word": "So",
+          "start": 247.78,
+          "end": 248.1
+        },
+        {
+          "word": "it's",
+          "start": 248.1,
+          "end": 248.34
+        },
+        {
+          "word": "a",
+          "start": 248.34,
+          "end": 248.4
+        },
+        {
+          "word": "kind",
+          "start": 248.4,
+          "end": 248.54
+        },
+        {
+          "word": "of",
+          "start": 248.54,
+          "end": 248.7
+        },
+        {
+          "word": "paradox",
+          "start": 248.7,
+          "end": 249.2
+        },
+        {
+          "word": "to",
+          "start": 249.2,
+          "end": 249.5
+        },
+        {
+          "word": "get",
+          "start": 249.5,
+          "end": 249.8
+        },
+        {
+          "word": "rid",
+          "start": 249.8,
+          "end": 249.94
+        },
+        {
+          "word": "of",
+          "start": 249.94,
+          "end": 250.12
+        },
+        {
+          "word": "this",
+          "start": 250.12,
+          "end": 250.48
+        },
+        {
+          "word": "unpleasant",
+          "start": 250.48,
+          "end": 251.0
+        },
+        {
+          "word": "state",
+          "start": 251.0,
+          "end": 251.24
+        },
+        {
+          "word": "of",
+          "start": 251.24,
+          "end": 251.38
+        },
+        {
+          "word": "boredom",
+          "start": 251.38,
+          "end": 251.74
+        },
+        {
+          "word": "is",
+          "start": 251.74,
+          "end": 251.86
+        },
+        {
+          "word": "actually",
+          "start": 251.86,
+          "end": 252.12
+        },
+        {
+          "word": "to",
+          "start": 252.12,
+          "end": 252.28
+        },
+        {
+          "word": "allow",
+          "start": 252.28,
+          "end": 252.48
+        },
+        {
+          "word": "more",
+          "start": 252.48,
+          "end": 252.68
+        },
+        {
+          "word": "boredom",
+          "start": 252.68,
+          "end": 253.06
+        },
+        {
+          "word": "into",
+          "start": 253.06,
+          "end": 253.2
+        },
+        {
+          "word": "your",
+          "start": 253.2,
+          "end": 253.3
+        },
+        {
+          "word": "life.",
+          "start": 253.3,
+          "end": 253.66
+        }
+      ],
+      "textKo": "그래서 이 불쾌한 지루함 상태를 없애는 방법은 사실 삶에 더 많은 지루함을 허용하는 역설적인 것이에요."
+    },
+    {
+      "index": 27,
+      "start": 255.42,
+      "end": 261.8,
+      "textEn": "Doctor Mann doubts humans would have invented things without the curiosity that comes from being bored.",
+      "words": [
+        {
+          "word": "Doctor",
+          "start": 255.42,
+          "end": 256.06
+        },
+        {
+          "word": "Mann",
+          "start": 256.06,
+          "end": 256.44
+        },
+        {
+          "word": "doubts",
+          "start": 256.44,
+          "end": 256.82
+        },
+        {
+          "word": "humans",
+          "start": 256.82,
+          "end": 257.34
+        },
+        {
+          "word": "would",
+          "start": 257.34,
+          "end": 257.58
+        },
+        {
+          "word": "have",
+          "start": 257.58,
+          "end": 257.72
+        },
+        {
+          "word": "invented",
+          "start": 257.72,
+          "end": 258.18
+        },
+        {
+          "word": "things",
+          "start": 258.18,
+          "end": 258.66
+        },
+        {
+          "word": "without",
+          "start": 258.66,
+          "end": 259.1
+        },
+        {
+          "word": "the",
+          "start": 259.1,
+          "end": 259.38
+        },
+        {
+          "word": "curiosity",
+          "start": 259.38,
+          "end": 260.02
+        },
+        {
+          "word": "that",
+          "start": 260.02,
+          "end": 260.48
+        },
+        {
+          "word": "comes",
+          "start": 260.48,
+          "end": 260.8
+        },
+        {
+          "word": "from",
+          "start": 260.8,
+          "end": 261.06
+        },
+        {
+          "word": "being",
+          "start": 261.06,
+          "end": 261.34
+        },
+        {
+          "word": "bored.",
+          "start": 261.34,
+          "end": 261.8
+        }
+      ],
+      "textKo": "만 박사는 지루함에서 오는 호기심이 없었다면 인간이 것들을 발명하지 못했을 것이라고 의심해요."
+    },
+    {
+      "index": 28,
+      "start": 262.26,
+      "end": 275.7,
+      "textEn": "Boredom is the mother of invention – an idea based on the famous proverb, necessity is the mother of invention – an idiom meaning that if you really need to do something, you will think of a way of doing it.",
+      "words": [
+        {
+          "word": "Boredom",
+          "start": 262.26,
+          "end": 262.88
+        },
+        {
+          "word": "is",
+          "start": 262.88,
+          "end": 263.06
+        },
+        {
+          "word": "the",
+          "start": 263.06,
+          "end": 263.24
+        },
+        {
+          "word": "mother",
+          "start": 263.24,
+          "end": 263.54
+        },
+        {
+          "word": "of",
+          "start": 263.54,
+          "end": 263.82
+        },
+        {
+          "word": "invention",
+          "start": 263.82,
+          "end": 264.26
+        },
+        {
+          "word": "–",
+          "start": 264.26,
+          "end": 264.58
+        },
+        {
+          "word": "an",
+          "start": 264.58,
+          "end": 265.02
+        },
+        {
+          "word": "idea",
+          "start": 265.02,
+          "end": 265.4
+        },
+        {
+          "word": "based",
+          "start": 265.4,
+          "end": 265.86
+        },
+        {
+          "word": "on",
+          "start": 265.86,
+          "end": 266.08
+        },
+        {
+          "word": "the",
+          "start": 266.08,
+          "end": 266.2
+        },
+        {
+          "word": "famous",
+          "start": 266.2,
+          "end": 266.56
+        },
+        {
+          "word": "proverb,",
+          "start": 266.56,
+          "end": 267.06
+        },
+        {
+          "word": "necessity",
+          "start": 267.48,
+          "end": 268.02
+        },
+        {
+          "word": "is",
+          "start": 268.02,
+          "end": 268.52
+        },
+        {
+          "word": "the",
+          "start": 268.52,
+          "end": 268.68
+        },
+        {
+          "word": "mother",
+          "start": 268.68,
+          "end": 268.92
+        },
+        {
+          "word": "of",
+          "start": 268.92,
+          "end": 269.18
+        },
+        {
+          "word": "invention",
+          "start": 269.18,
+          "end": 269.66
+        },
+        {
+          "word": "–",
+          "start": 269.66,
+          "end": 270.0
+        },
+        {
+          "word": "an",
+          "start": 270.0,
+          "end": 270.32
+        },
+        {
+          "word": "idiom",
+          "start": 270.32,
+          "end": 270.84
+        },
+        {
+          "word": "meaning",
+          "start": 270.84,
+          "end": 271.2
+        },
+        {
+          "word": "that",
+          "start": 271.2,
+          "end": 271.48
+        },
+        {
+          "word": "if",
+          "start": 271.48,
+          "end": 271.78
+        },
+        {
+          "word": "you",
+          "start": 271.78,
+          "end": 272.0
+        },
+        {
+          "word": "really",
+          "start": 272.0,
+          "end": 272.38
+        },
+        {
+          "word": "need",
+          "start": 272.38,
+          "end": 272.72
+        },
+        {
+          "word": "to",
+          "start": 272.72,
+          "end": 272.96
+        },
+        {
+          "word": "do",
+          "start": 272.96,
+          "end": 273.14
+        },
+        {
+          "word": "something,",
+          "start": 273.14,
+          "end": 273.56
+        },
+        {
+          "word": "you",
+          "start": 273.82,
+          "end": 274.1
+        },
+        {
+          "word": "will",
+          "start": 274.1,
+          "end": 274.28
+        },
+        {
+          "word": "think",
+          "start": 274.28,
+          "end": 274.54
+        },
+        {
+          "word": "of",
+          "start": 274.54,
+          "end": 274.72
+        },
+        {
+          "word": "a",
+          "start": 274.72,
+          "end": 274.82
+        },
+        {
+          "word": "way",
+          "start": 274.82,
+          "end": 275.0
+        },
+        {
+          "word": "of",
+          "start": 275.0,
+          "end": 275.14
+        },
+        {
+          "word": "doing",
+          "start": 275.14,
+          "end": 275.34
+        },
+        {
+          "word": "it.",
+          "start": 275.34,
+          "end": 275.7
+        }
+      ],
+      "textKo": "지루함이 발명의 어머니예요. 유명한 속담 '필요는 발명의 어머니'에 기반한 생각으로, 정말 무언가를 해야 한다면 방법을 생각해낼 것이라는 뜻의 관용구예요."
+    },
+    {
+      "index": 29,
+      "start": 275.7,
+      "end": 290.66,
+      "textEn": "Instead of fearing boredom, we can open up to its benefits by switching off. Stopping worrying or thinking about something and relaxing. Slowing down helps too – something we can definitely learn from our animal cousins.",
+      "words": [
+        {
+          "word": "Instead",
+          "start": 275.7,
+          "end": 276.22
+        },
+        {
+          "word": "of",
+          "start": 276.22,
+          "end": 276.46
+        },
+        {
+          "word": "fearing",
+          "start": 276.46,
+          "end": 276.94
+        },
+        {
+          "word": "boredom,",
+          "start": 276.94,
+          "end": 277.42
+        },
+        {
+          "word": "we",
+          "start": 277.64,
+          "end": 277.74
+        },
+        {
+          "word": "can",
+          "start": 277.74,
+          "end": 277.96
+        },
+        {
+          "word": "open",
+          "start": 277.96,
+          "end": 278.34
+        },
+        {
+          "word": "up",
+          "start": 278.34,
+          "end": 278.54
+        },
+        {
+          "word": "to",
+          "start": 278.54,
+          "end": 278.72
+        },
+        {
+          "word": "its",
+          "start": 278.72,
+          "end": 278.92
+        },
+        {
+          "word": "benefits",
+          "start": 278.92,
+          "end": 279.42
+        },
+        {
+          "word": "by",
+          "start": 279.42,
+          "end": 279.74
+        },
+        {
+          "word": "switching",
+          "start": 279.74,
+          "end": 280.38
+        },
+        {
+          "word": "off.",
+          "start": 280.38,
+          "end": 280.92
+        },
+        {
+          "word": "Stopping",
+          "start": 281.56,
+          "end": 282.12
+        },
+        {
+          "word": "worrying",
+          "start": 282.12,
+          "end": 282.62
+        },
+        {
+          "word": "or",
+          "start": 282.62,
+          "end": 283.06
+        },
+        {
+          "word": "thinking",
+          "start": 283.06,
+          "end": 283.48
+        },
+        {
+          "word": "about",
+          "start": 283.48,
+          "end": 283.78
+        },
+        {
+          "word": "something",
+          "start": 283.78,
+          "end": 284.24
+        },
+        {
+          "word": "and",
+          "start": 284.24,
+          "end": 284.62
+        },
+        {
+          "word": "relaxing.",
+          "start": 284.62,
+          "end": 285.24
+        },
+        {
+          "word": "Slowing",
+          "start": 285.62,
+          "end": 286.14
+        },
+        {
+          "word": "down",
+          "start": 286.14,
+          "end": 286.4
+        },
+        {
+          "word": "helps",
+          "start": 286.4,
+          "end": 286.92
+        },
+        {
+          "word": "too",
+          "start": 286.92,
+          "end": 287.24
+        },
+        {
+          "word": "–",
+          "start": 287.24,
+          "end": 287.68
+        },
+        {
+          "word": "something",
+          "start": 287.68,
+          "end": 288.1
+        },
+        {
+          "word": "we",
+          "start": 288.1,
+          "end": 288.36
+        },
+        {
+          "word": "can",
+          "start": 288.36,
+          "end": 288.6
+        },
+        {
+          "word": "definitely",
+          "start": 288.6,
+          "end": 289.02
+        },
+        {
+          "word": "learn",
+          "start": 289.02,
+          "end": 289.44
+        },
+        {
+          "word": "from",
+          "start": 289.44,
+          "end": 289.66
+        },
+        {
+          "word": "our",
+          "start": 289.66,
+          "end": 289.84
+        },
+        {
+          "word": "animal",
+          "start": 289.84,
+          "end": 290.16
+        },
+        {
+          "word": "cousins.",
+          "start": 290.16,
+          "end": 290.66
+        }
+      ],
+      "textKo": "지루함을 두려워하는 대신, 머리를 쉬게 함으로써 그 장점을 받아들일 수 있어요. 무언가에 대해 걱정하거나 생각하는 것을 멈추고 쉬는 거예요. 속도를 늦추는 것도 도움이 돼요. 이것은 우리가 동물 친척들에게서 확실히 배울 수 있는 것이에요."
+    },
+    {
+      "index": 30,
+      "start": 290.94,
+      "end": 296.34,
+      "textEn": "I think now is a good time to reveal the answer to my question, since we have nothing else to do.",
+      "words": [
+        {
+          "word": "I",
+          "start": 290.94,
+          "end": 291.5
+        },
+        {
+          "word": "think",
+          "start": 291.5,
+          "end": 291.74
+        },
+        {
+          "word": "now",
+          "start": 291.74,
+          "end": 292.0
+        },
+        {
+          "word": "is",
+          "start": 292.0,
+          "end": 292.2
+        },
+        {
+          "word": "a",
+          "start": 292.2,
+          "end": 292.3
+        },
+        {
+          "word": "good",
+          "start": 292.3,
+          "end": 292.52
+        },
+        {
+          "word": "time",
+          "start": 292.52,
+          "end": 292.86
+        },
+        {
+          "word": "to",
+          "start": 292.86,
+          "end": 293.06
+        },
+        {
+          "word": "reveal",
+          "start": 293.06,
+          "end": 293.38
+        },
+        {
+          "word": "the",
+          "start": 293.38,
+          "end": 293.56
+        },
+        {
+          "word": "answer",
+          "start": 293.56,
+          "end": 293.8
+        },
+        {
+          "word": "to",
+          "start": 293.8,
+          "end": 293.96
+        },
+        {
+          "word": "my",
+          "start": 293.96,
+          "end": 294.14
+        },
+        {
+          "word": "question,",
+          "start": 294.14,
+          "end": 294.6
+        },
+        {
+          "word": "since",
+          "start": 294.78,
+          "end": 295.16
+        },
+        {
+          "word": "we",
+          "start": 295.16,
+          "end": 295.3
+        },
+        {
+          "word": "have",
+          "start": 295.3,
+          "end": 295.48
+        },
+        {
+          "word": "nothing",
+          "start": 295.48,
+          "end": 295.74
+        },
+        {
+          "word": "else",
+          "start": 295.74,
+          "end": 295.98
+        },
+        {
+          "word": "to",
+          "start": 295.98,
+          "end": 296.14
+        },
+        {
+          "word": "do.",
+          "start": 296.14,
+          "end": 296.34
+        }
+      ],
+      "textKo": "다른 할 일이 없으니 지금이 제 질문의 답을 공개하기 좋은 시간인 것 같아요."
+    },
+    {
+      "index": 31,
+      "start": 296.48,
+      "end": 302.86,
+      "textEn": "You asked me to name the world's slowest animal and I guessed it was the three-toed sloth. Was I right?",
+      "words": [
+        {
+          "word": "You",
+          "start": 296.48,
+          "end": 296.88
+        },
+        {
+          "word": "asked",
+          "start": 296.88,
+          "end": 297.2
+        },
+        {
+          "word": "me",
+          "start": 297.2,
+          "end": 297.34
+        },
+        {
+          "word": "to",
+          "start": 297.34,
+          "end": 297.5
+        },
+        {
+          "word": "name",
+          "start": 297.5,
+          "end": 297.76
+        },
+        {
+          "word": "the",
+          "start": 297.76,
+          "end": 297.9
+        },
+        {
+          "word": "world's",
+          "start": 297.9,
+          "end": 298.36
+        },
+        {
+          "word": "slowest",
+          "start": 298.36,
+          "end": 298.7
+        },
+        {
+          "word": "animal",
+          "start": 298.7,
+          "end": 299.02
+        },
+        {
+          "word": "and",
+          "start": 299.02,
+          "end": 299.3
+        },
+        {
+          "word": "I",
+          "start": 299.3,
+          "end": 299.5
+        },
+        {
+          "word": "guessed",
+          "start": 299.5,
+          "end": 299.9
+        },
+        {
+          "word": "it",
+          "start": 299.9,
+          "end": 300.18
+        },
+        {
+          "word": "was",
+          "start": 300.18,
+          "end": 300.46
+        },
+        {
+          "word": "the",
+          "start": 300.46,
+          "end": 300.7
+        },
+        {
+          "word": "three",
+          "start": 300.7,
+          "end": 301.06
+        },
+        {
+          "word": "-toed",
+          "start": 301.06,
+          "end": 301.68
+        },
+        {
+          "word": "sloth.",
+          "start": 301.68,
+          "end": 302.2
+        },
+        {
+          "word": "Was",
+          "start": 302.28,
+          "end": 302.46
+        },
+        {
+          "word": "I",
+          "start": 302.46,
+          "end": 302.58
+        },
+        {
+          "word": "right?",
+          "start": 302.58,
+          "end": 302.86
+        }
+      ],
+      "textKo": "세계에서 가장 느린 동물을 맞혀보라고 하셨는데, 세 발가락 나무늘보라고 추측했어요. 맞았나요?"
+    },
+    {
+      "index": 32,
+      "start": 302.86,
+      "end": 315.36,
+      "textEn": "That was the correct answer! With a top speed of 30 centimetres per minute, three-toed sloths move so slowly that algae grows on their coats.",
+      "words": [
+        {
+          "word": "That",
+          "start": 302.86,
+          "end": 303.54
+        },
+        {
+          "word": "was",
+          "start": 303.54,
+          "end": 303.86
+        },
+        {
+          "word": "the",
+          "start": 303.86,
+          "end": 304.32
+        },
+        {
+          "word": "correct",
+          "start": 304.32,
+          "end": 304.62
+        },
+        {
+          "word": "answer!",
+          "start": 304.62,
+          "end": 305.08
+        },
+        {
+          "word": "With",
+          "start": 305.42,
+          "end": 305.96
+        },
+        {
+          "word": "a",
+          "start": 305.96,
+          "end": 306.08
+        },
+        {
+          "word": "top",
+          "start": 306.08,
+          "end": 306.36
+        },
+        {
+          "word": "speed",
+          "start": 306.36,
+          "end": 306.74
+        },
+        {
+          "word": "of",
+          "start": 306.74,
+          "end": 307.12
+        },
+        {
+          "word": "30",
+          "start": 307.12,
+          "end": 307.88
+        },
+        {
+          "word": "centimetres",
+          "start": 307.88,
+          "end": 308.88
+        },
+        {
+          "word": "per",
+          "start": 308.88,
+          "end": 309.28
+        },
+        {
+          "word": "minute,",
+          "start": 309.28,
+          "end": 309.8
+        },
+        {
+          "word": "three",
+          "start": 310.44,
+          "end": 310.62
+        },
+        {
+          "word": "-toed",
+          "start": 310.62,
+          "end": 310.96
+        },
+        {
+          "word": "sloths",
+          "start": 310.96,
+          "end": 311.44
+        },
+        {
+          "word": "move",
+          "start": 311.44,
+          "end": 312.0
+        },
+        {
+          "word": "so",
+          "start": 312.0,
+          "end": 312.3
+        },
+        {
+          "word": "slowly",
+          "start": 312.3,
+          "end": 312.84
+        },
+        {
+          "word": "that",
+          "start": 312.84,
+          "end": 313.2
+        },
+        {
+          "word": "algae",
+          "start": 313.2,
+          "end": 313.84
+        },
+        {
+          "word": "grows",
+          "start": 313.84,
+          "end": 314.36
+        },
+        {
+          "word": "on",
+          "start": 314.36,
+          "end": 314.72
+        },
+        {
+          "word": "their",
+          "start": 314.72,
+          "end": 314.94
+        },
+        {
+          "word": "coats.",
+          "start": 314.94,
+          "end": 315.36
+        }
+      ],
+      "textKo": "정답이에요! 분당 30센티미터의 최고 속도로, 세 발가락 나무늘보는 너무 느리게 움직여서 털에 조류가 자라요."
+    },
+    {
+      "index": 33,
+      "start": 315.94,
+      "end": 325.22,
+      "textEn": "OK, let's recap the vocabulary we've learnt from this programme, starting with the phrase, kicking back – to stop doing things and relax completely.",
+      "words": [
+        {
+          "word": "OK,",
+          "start": 315.94,
+          "end": 316.54
+        },
+        {
+          "word": "let's",
+          "start": 316.82,
+          "end": 317.16
+        },
+        {
+          "word": "recap",
+          "start": 317.16,
+          "end": 317.54
+        },
+        {
+          "word": "the",
+          "start": 317.54,
+          "end": 317.78
+        },
+        {
+          "word": "vocabulary",
+          "start": 317.78,
+          "end": 318.34
+        },
+        {
+          "word": "we've",
+          "start": 318.34,
+          "end": 318.82
+        },
+        {
+          "word": "learnt",
+          "start": 318.82,
+          "end": 319.08
+        },
+        {
+          "word": "from",
+          "start": 319.08,
+          "end": 319.28
+        },
+        {
+          "word": "this",
+          "start": 319.28,
+          "end": 319.44
+        },
+        {
+          "word": "programme,",
+          "start": 319.44,
+          "end": 319.8
+        },
+        {
+          "word": "starting",
+          "start": 320.08,
+          "end": 320.44
+        },
+        {
+          "word": "with",
+          "start": 320.44,
+          "end": 320.64
+        },
+        {
+          "word": "the",
+          "start": 320.64,
+          "end": 320.74
+        },
+        {
+          "word": "phrase,",
+          "start": 320.74,
+          "end": 321.16
+        },
+        {
+          "word": "kicking",
+          "start": 321.46,
+          "end": 321.82
+        },
+        {
+          "word": "back",
+          "start": 321.82,
+          "end": 322.24
+        },
+        {
+          "word": "–",
+          "start": 322.24,
+          "end": 322.74
+        },
+        {
+          "word": "to",
+          "start": 322.74,
+          "end": 322.96
+        },
+        {
+          "word": "stop",
+          "start": 322.96,
+          "end": 323.22
+        },
+        {
+          "word": "doing",
+          "start": 323.22,
+          "end": 323.46
+        },
+        {
+          "word": "things",
+          "start": 323.46,
+          "end": 323.84
+        },
+        {
+          "word": "and",
+          "start": 323.84,
+          "end": 324.12
+        },
+        {
+          "word": "relax",
+          "start": 324.12,
+          "end": 324.6
+        },
+        {
+          "word": "completely.",
+          "start": 324.6,
+          "end": 325.22
+        }
+      ],
+      "textKo": "좋아요, 이번 프로그램에서 배운 어휘를 복습해 볼게요. 먼저 'kicking back'이라는 표현은 하던 것을 멈추고 완전히 쉬는 것을 의미해요."
+    },
+    {
+      "index": 34,
+      "start": 325.72,
+      "end": 329.0,
+      "textEn": "The adjective industrious means hard working.",
+      "words": [
+        {
+          "word": "The",
+          "start": 325.72,
+          "end": 326.36
+        },
+        {
+          "word": "adjective",
+          "start": 326.36,
+          "end": 326.9
+        },
+        {
+          "word": "industrious",
+          "start": 326.9,
+          "end": 327.96
+        },
+        {
+          "word": "means",
+          "start": 327.96,
+          "end": 328.2
+        },
+        {
+          "word": "hard",
+          "start": 328.2,
+          "end": 328.58
+        },
+        {
+          "word": "working.",
+          "start": 328.58,
+          "end": 329.0
+        }
+      ],
+      "textKo": "'industrious'라는 형용사는 부지런하다는 뜻이에요."
+    },
+    {
+      "index": 35,
+      "start": 329.58,
+      "end": 335.78,
+      "textEn": "A colony is the name given to a group of certain animals, including ants and some seabirds.",
+      "words": [
+        {
+          "word": "A",
+          "start": 329.58,
+          "end": 330.16
+        },
+        {
+          "word": "colony",
+          "start": 330.16,
+          "end": 330.58
+        },
+        {
+          "word": "is",
+          "start": 330.58,
+          "end": 330.98
+        },
+        {
+          "word": "the",
+          "start": 330.98,
+          "end": 331.12
+        },
+        {
+          "word": "name",
+          "start": 331.12,
+          "end": 331.34
+        },
+        {
+          "word": "given",
+          "start": 331.34,
+          "end": 331.62
+        },
+        {
+          "word": "to",
+          "start": 331.62,
+          "end": 331.86
+        },
+        {
+          "word": "a",
+          "start": 331.86,
+          "end": 332.02
+        },
+        {
+          "word": "group",
+          "start": 332.02,
+          "end": 332.26
+        },
+        {
+          "word": "of",
+          "start": 332.26,
+          "end": 332.52
+        },
+        {
+          "word": "certain",
+          "start": 332.52,
+          "end": 332.94
+        },
+        {
+          "word": "animals,",
+          "start": 332.94,
+          "end": 333.44
+        },
+        {
+          "word": "including",
+          "start": 333.68,
+          "end": 334.0
+        },
+        {
+          "word": "ants",
+          "start": 334.0,
+          "end": 334.5
+        },
+        {
+          "word": "and",
+          "start": 334.5,
+          "end": 334.74
+        },
+        {
+          "word": "some",
+          "start": 334.74,
+          "end": 335.06
+        },
+        {
+          "word": "seabirds.",
+          "start": 335.06,
+          "end": 335.78
+        }
+      ],
+      "textKo": "'colony'는 개미나 일부 바닷새를 포함한 특정 동물 집단에 주어지는 이름이에요."
+    },
+    {
+      "index": 36,
+      "start": 336.52,
+      "end": 342.08,
+      "textEn": "Someone who is productive is able to produce a lot for the amount of resources they use.",
+      "words": [
+        {
+          "word": "Someone",
+          "start": 336.52,
+          "end": 337.1
+        },
+        {
+          "word": "who",
+          "start": 337.1,
+          "end": 337.36
+        },
+        {
+          "word": "is",
+          "start": 337.36,
+          "end": 337.58
+        },
+        {
+          "word": "productive",
+          "start": 337.58,
+          "end": 338.06
+        },
+        {
+          "word": "is",
+          "start": 338.06,
+          "end": 338.4
+        },
+        {
+          "word": "able",
+          "start": 338.4,
+          "end": 338.7
+        },
+        {
+          "word": "to",
+          "start": 338.7,
+          "end": 338.88
+        },
+        {
+          "word": "produce",
+          "start": 338.88,
+          "end": 339.26
+        },
+        {
+          "word": "a",
+          "start": 339.26,
+          "end": 339.5
+        },
+        {
+          "word": "lot",
+          "start": 339.5,
+          "end": 339.82
+        },
+        {
+          "word": "for",
+          "start": 339.82,
+          "end": 340.34
+        },
+        {
+          "word": "the",
+          "start": 340.34,
+          "end": 340.44
+        },
+        {
+          "word": "amount",
+          "start": 340.44,
+          "end": 340.66
+        },
+        {
+          "word": "of",
+          "start": 340.66,
+          "end": 340.86
+        },
+        {
+          "word": "resources",
+          "start": 340.86,
+          "end": 341.32
+        },
+        {
+          "word": "they",
+          "start": 341.32,
+          "end": 341.66
+        },
+        {
+          "word": "use.",
+          "start": 341.66,
+          "end": 342.08
+        }
+      ],
+      "textKo": "'productive'한 사람은 사용하는 자원 대비 많은 것을 생산할 수 있는 사람이에요."
+    },
+    {
+      "index": 37,
+      "start": 342.74,
+      "end": 350.4,
+      "textEn": "The proverb, necessity is the mother of invention, means that if you really need to do something, you will think of a way of doing it.",
+      "words": [
+        {
+          "word": "The",
+          "start": 342.74,
+          "end": 343.32
+        },
+        {
+          "word": "proverb,",
+          "start": 343.32,
+          "end": 343.8
+        },
+        {
+          "word": "necessity",
+          "start": 343.96,
+          "end": 344.48
+        },
+        {
+          "word": "is",
+          "start": 344.48,
+          "end": 344.94
+        },
+        {
+          "word": "the",
+          "start": 344.94,
+          "end": 345.06
+        },
+        {
+          "word": "mother",
+          "start": 345.06,
+          "end": 345.24
+        },
+        {
+          "word": "of",
+          "start": 345.24,
+          "end": 345.46
+        },
+        {
+          "word": "invention,",
+          "start": 345.46,
+          "end": 345.9
+        },
+        {
+          "word": "means",
+          "start": 346.22,
+          "end": 346.66
+        },
+        {
+          "word": "that",
+          "start": 346.66,
+          "end": 346.82
+        },
+        {
+          "word": "if",
+          "start": 346.82,
+          "end": 346.98
+        },
+        {
+          "word": "you",
+          "start": 346.98,
+          "end": 347.14
+        },
+        {
+          "word": "really",
+          "start": 347.14,
+          "end": 347.5
+        },
+        {
+          "word": "need",
+          "start": 347.5,
+          "end": 347.76
+        },
+        {
+          "word": "to",
+          "start": 347.76,
+          "end": 347.92
+        },
+        {
+          "word": "do",
+          "start": 347.92,
+          "end": 348.06
+        },
+        {
+          "word": "something,",
+          "start": 348.06,
+          "end": 348.46
+        },
+        {
+          "word": "you",
+          "start": 348.66,
+          "end": 348.88
+        },
+        {
+          "word": "will",
+          "start": 348.88,
+          "end": 349.06
+        },
+        {
+          "word": "think",
+          "start": 349.06,
+          "end": 349.28
+        },
+        {
+          "word": "of",
+          "start": 349.28,
+          "end": 349.46
+        },
+        {
+          "word": "a",
+          "start": 349.46,
+          "end": 349.56
+        },
+        {
+          "word": "way",
+          "start": 349.56,
+          "end": 349.74
+        },
+        {
+          "word": "of",
+          "start": 349.74,
+          "end": 349.9
+        },
+        {
+          "word": "doing",
+          "start": 349.9,
+          "end": 350.1
+        },
+        {
+          "word": "it.",
+          "start": 350.1,
+          "end": 350.4
+        }
+      ],
+      "textKo": "'necessity is the mother of invention'이라는 속담은 정말 무언가를 해야 한다면 방법을 생각해낼 것이라는 뜻이에요."
+    },
+    {
+      "index": 38,
+      "start": 350.54,
+      "end": 356.3,
+      "textEn": "And finally, to switch off means to stop worrying or thinking about something and relax.",
+      "words": [
+        {
+          "word": "And",
+          "start": 350.54,
+          "end": 350.84
+        },
+        {
+          "word": "finally,",
+          "start": 350.84,
+          "end": 351.32
+        },
+        {
+          "word": "to",
+          "start": 351.5,
+          "end": 351.64
+        },
+        {
+          "word": "switch",
+          "start": 351.64,
+          "end": 351.98
+        },
+        {
+          "word": "off",
+          "start": 351.98,
+          "end": 352.26
+        },
+        {
+          "word": "means",
+          "start": 352.26,
+          "end": 352.54
+        },
+        {
+          "word": "to",
+          "start": 352.54,
+          "end": 352.76
+        },
+        {
+          "word": "stop",
+          "start": 352.76,
+          "end": 353.1
+        },
+        {
+          "word": "worrying",
+          "start": 353.1,
+          "end": 353.58
+        },
+        {
+          "word": "or",
+          "start": 353.58,
+          "end": 354.02
+        },
+        {
+          "word": "thinking",
+          "start": 354.02,
+          "end": 354.4
+        },
+        {
+          "word": "about",
+          "start": 354.4,
+          "end": 354.68
+        },
+        {
+          "word": "something",
+          "start": 354.68,
+          "end": 355.16
+        },
+        {
+          "word": "and",
+          "start": 355.16,
+          "end": 355.8
+        },
+        {
+          "word": "relax.",
+          "start": 355.8,
+          "end": 356.3
+        }
+      ],
+      "textKo": "그리고 마지막으로, 'switch off'는 무언가에 대해 걱정하거나 생각하는 것을 멈추고 쉬는 것을 의미해요."
+    },
+    {
+      "index": 39,
+      "start": 357.48,
+      "end": 363.36,
+      "textEn": "Once again, our six minutes are up. It must be time to sit down, close your eyes and just do nothing.",
+      "words": [
+        {
+          "word": "Once",
+          "start": 357.48,
+          "end": 357.96
+        },
+        {
+          "word": "again,",
+          "start": 357.96,
+          "end": 358.2
+        },
+        {
+          "word": "our",
+          "start": 358.4,
+          "end": 358.5
+        },
+        {
+          "word": "six",
+          "start": 358.5,
+          "end": 358.78
+        },
+        {
+          "word": "minutes",
+          "start": 358.78,
+          "end": 359.06
+        },
+        {
+          "word": "are",
+          "start": 359.06,
+          "end": 359.28
+        },
+        {
+          "word": "up.",
+          "start": 359.28,
+          "end": 359.5
+        },
+        {
+          "word": "It",
+          "start": 359.64,
+          "end": 359.76
+        },
+        {
+          "word": "must",
+          "start": 359.76,
+          "end": 359.98
+        },
+        {
+          "word": "be",
+          "start": 359.98,
+          "end": 360.14
+        },
+        {
+          "word": "time",
+          "start": 360.14,
+          "end": 360.34
+        },
+        {
+          "word": "to",
+          "start": 360.34,
+          "end": 360.48
+        },
+        {
+          "word": "sit",
+          "start": 360.48,
+          "end": 360.66
+        },
+        {
+          "word": "down,",
+          "start": 360.66,
+          "end": 360.98
+        },
+        {
+          "word": "close",
+          "start": 361.1,
+          "end": 361.56
+        },
+        {
+          "word": "your",
+          "start": 361.56,
+          "end": 361.68
+        },
+        {
+          "word": "eyes",
+          "start": 361.68,
+          "end": 361.96
+        },
+        {
+          "word": "and",
+          "start": 361.96,
+          "end": 362.2
+        },
+        {
+          "word": "just",
+          "start": 362.2,
+          "end": 362.52
+        },
+        {
+          "word": "do",
+          "start": 362.52,
+          "end": 362.86
+        },
+        {
+          "word": "nothing.",
+          "start": 362.86,
+          "end": 363.36
+        }
+      ],
+      "textKo": "다시 한번, 6분이 다 됐어요. 이제 앉아서 눈을 감고 그냥 아무것도 하지 않을 시간이에요."
+    },
+    {
+      "index": 40,
+      "start": 363.78,
+      "end": 369.5,
+      "textEn": "Goodbye for now. Bye! Six Minute English from the BBC.",
+      "words": [
+        {
+          "word": "Goodbye",
+          "start": 363.78,
+          "end": 364.26
+        },
+        {
+          "word": "for",
+          "start": 364.26,
+          "end": 364.42
+        },
+        {
+          "word": "now.",
+          "start": 364.42,
+          "end": 364.7
+        },
+        {
+          "word": "Bye!",
+          "start": 365.1,
+          "end": 365.58
+        },
+        {
+          "word": "Six",
+          "start": 366.68,
+          "end": 367.48
+        },
+        {
+          "word": "Minute",
+          "start": 367.48,
+          "end": 367.86
+        },
+        {
+          "word": "English",
+          "start": 367.86,
+          "end": 368.52
+        },
+        {
+          "word": "from",
+          "start": 368.52,
+          "end": 368.92
+        },
+        {
+          "word": "the",
+          "start": 368.92,
+          "end": 369.1
+        },
+        {
+          "word": "BBC.",
+          "start": 369.1,
+          "end": 369.5
+        }
+      ],
+      "textKo": "지금은 안녕히 계세요. 안녕! BBC의 6분 영어였어요."
+    },
+    {
+      "index": 41,
+      "start": 369.5,
+      "end": 373.7,
+      "textEn": "7!",
+      "words": [
+        {
+          "word": "7!",
+          "start": 369.5,
+          "end": 369.88
+        },
+        {
+          "word": "!7",
+          "start": 372.94,
+          "end": 373.7
+        }
+      ],
+      "textKo": ""
+    }
+  ]
+}

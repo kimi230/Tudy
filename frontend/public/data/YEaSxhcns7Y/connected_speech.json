@@ -1,0 +1,152 @@
+[
+  {
+    "type": "linking",
+    "originalText": "think of it",
+    "phonetic": "/θɪŋk_əv_ɪt/",
+    "koreanPhonetic": "씽커빗",
+    "explanation": "The 'k' in 'think' links to the 'o' in 'of', and 'of' reduces to /əv/ linking smoothly to 'it'.",
+    "explanationKo": "'think'의 'k'가 'of'의 모음과 연결되고, 'of'가 /əv/로 약화되어 'it'과 매끄럽게 이어집니다.",
+    "practiceGuide": "'씽커빗'으로 빠르게 연결하여 발음하세요. 'of'를 약하게 '어'로 발음합니다.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "dozens of",
+    "phonetic": "/ˈdʌznzəv/",
+    "koreanPhonetic": "더즌저브",
+    "explanation": "'Of' is reduced to /əv/ and joins closely with the preceding word, sounding almost like one word.",
+    "explanationKo": "'of'가 /əv/로 축약되어 앞 단어와 밀접하게 붙어 거의 한 단어처럼 들립니다.",
+    "practiceGuide": "'더즌즈'와 '어브'를 빠르게 붙여 '더즌저브'로 발음하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "linking",
+    "originalText": "most of",
+    "phonetic": "/moʊstəv/",
+    "koreanPhonetic": "모우스터브",
+    "explanation": "The 't' in 'most' links directly into the reduced 'of' /əv/, creating a smooth connection.",
+    "explanationKo": "'most'의 't'가 축약된 'of' /əv/에 바로 연결되어 매끄러운 이음을 만듭니다.",
+    "practiceGuide": "'모우스트'와 '어브'를 자연스럽게 이어서 '모우스터브'로 발음하세요.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "reduction",
+    "originalText": "a massive amount of",
+    "phonetic": "/ə ˈmæsɪv əˈmaʊntəv/",
+    "koreanPhonetic": "어 매시브 어마운터브",
+    "explanation": "The article 'a' reduces to schwa /ə/, and 'of' reduces to /əv/, blending with 'amount'.",
+    "explanationKo": "관사 'a'가 슈와 /ə/로 축약되고, 'of'가 /əv/로 축약되어 'amount'와 섞입니다.",
+    "practiceGuide": "'a'를 아주 약하게 '어'로 발음하고, 'amount of'를 빠르게 '어마운터브'로 이어 말하세요.",
+    "segmentIndex": 14
+  },
+  {
+    "type": "assimilation",
+    "originalText": "can help",
+    "phonetic": "/kən_help/ → /kəŋ_help/",
+    "koreanPhonetic": "컹 헬프",
+    "explanation": "The 'n' in 'can' often assimilates toward the following 'h', and 'can' is reduced to /kən/ in unstressed position.",
+    "explanationKo": "'can'의 'n'이 뒤따르는 'h' 앞에서 동화되며, 강세가 없는 위치에서 'can'이 /kən/으로 축약됩니다.",
+    "practiceGuide": "'can'을 강하게 '캔'으로 발음하지 말고, 약하게 '컨'으로 발음하여 'help'에 이어 말하세요.",
+    "segmentIndex": 26
+  },
+  {
+    "type": "elision",
+    "originalText": "doesn't look",
+    "phonetic": "/ˈdʌzn̩t lʊk/",
+    "koreanPhonetic": "더즌(트) 룩",
+    "explanation": "The 't' at the end of 'doesn't' is often dropped or unreleased before the 'l' in 'look'.",
+    "explanationKo": "'doesn't'의 끝 't'가 'look'의 'l' 앞에서 탈락하거나 파열되지 않습니다.",
+    "practiceGuide": "'doesn't'의 마지막 't'를 거의 발음하지 말고, 바로 'look'으로 넘어가세요.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "reduction",
+    "originalText": "would become",
+    "phonetic": "/wʊd bɪˈkʌm/ → /wəd bɪˈkʌm/",
+    "koreanPhonetic": "워드 비컴",
+    "explanation": "'Would' is reduced in fast speech from /wʊd/ to /wəd/ or even /wəd/, losing the full vowel sound.",
+    "explanationKo": "빠른 말에서 'would'가 /wʊd/에서 /wəd/로 축약되어 완전한 모음 소리를 잃습니다.",
+    "practiceGuide": "'would'를 '우드'로 강하게 발음하지 말고, 약하게 '워드'로 발음하세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "linking",
+    "originalText": "added more",
+    "phonetic": "/ˈædɪd_mɔːr/",
+    "koreanPhonetic": "애디드 모어",
+    "explanation": "The final 'd' of 'added' links to 'm' of 'more' with a brief stop-to-nasal transition.",
+    "explanationKo": "'added'의 마지막 'd'가 'more'의 'm'과 연결되면서 짧은 파열-비음 전환이 일어납니다.",
+    "practiceGuide": "'added'의 'd'를 가볍게 발음하면서 바로 'more'로 연결하세요.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "linking",
+    "originalText": "out of reach",
+    "phonetic": "/aʊt_əv_riːtʃ/",
+    "koreanPhonetic": "아우터브 리치",
+    "explanation": "The 't' in 'out' links to reduced 'of' /əv/, and then to 'reach'. The three words flow together.",
+    "explanationKo": "'out'의 't'가 축약된 'of' /əv/에 연결되고, 이어서 'reach'로 이어집니다. 세 단어가 함께 흐릅니다.",
+    "practiceGuide": "'아웃 오브 리치'가 아니라 '아우터브리치'로 연결하여 발음하세요.",
+    "segmentIndex": 55
+  },
+  {
+    "type": "reduction",
+    "originalText": "them related to the",
+    "phonetic": "/ðəm rɪˈleɪtɪd tə ðə/",
+    "koreanPhonetic": "덤 릴레이리드 터 더",
+    "explanation": "'Them' reduces to /ðəm/, 'to' reduces to /tə/, and 'the' reduces to /ðə/ in fast speech.",
+    "explanationKo": "빠른 말에서 'them'이 /ðəm/으로, 'to'가 /tə/로, 'the'가 /ðə/로 축약됩니다.",
+    "practiceGuide": "기능어들을 약하게 발음하고 내용어인 'related'에 강세를 두세요.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "assimilation",
+    "originalText": "written down",
+    "phonetic": "/ˈrɪtn̩ daʊn/",
+    "koreanPhonetic": "뤼튼 다운",
+    "explanation": "The double 't' in 'written' is reduced to a glottal stop, and the syllabic 'n' connects to 'down'.",
+    "explanationKo": "'written'의 'tt'가 성문 파열음으로 축약되고, 음절적 'n'이 'down'과 연결됩니다.",
+    "practiceGuide": "'written'의 't'를 가볍게 끊듯 발음하고 바로 'down'으로 이어가세요.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "linking",
+    "originalText": "same words shaped",
+    "phonetic": "/seɪm wɜːrdz ʃeɪpt/",
+    "koreanPhonetic": "세임 워즈 셰잎트",
+    "explanation": "The 'm' in 'same' connects to 'w' of 'words', and the 'z' of 'words' links to 'sh' of 'shaped'.",
+    "explanationKo": "'same'의 'm'이 'words'의 'w'와 연결되고, 'words'의 'z'가 'shaped'의 'sh'와 이어집니다.",
+    "practiceGuide": "세 단어를 끊지 않고 자연스럽게 연결하여 발음하세요.",
+    "segmentIndex": 60
+  },
+  {
+    "type": "elision",
+    "originalText": "just as",
+    "phonetic": "/dʒʌs_æz/",
+    "koreanPhonetic": "저스 애즈",
+    "explanation": "The 't' in 'just' is often dropped before the vowel of 'as' in connected speech.",
+    "explanationKo": "연속된 말에서 'just'의 't'가 'as'의 모음 앞에서 종종 탈락합니다.",
+    "practiceGuide": "'just'의 't'를 거의 발음하지 않고 바로 'as'로 이어가세요. '저스애즈'로 발음합니다.",
+    "segmentIndex": 34
+  },
+  {
+    "type": "reduction",
+    "originalText": "can only",
+    "phonetic": "/kən ˈoʊnli/",
+    "koreanPhonetic": "컨 오운리",
+    "explanation": "'Can' is reduced to /kən/ (unstressed), with the schwa vowel, before the stressed word 'only'.",
+    "explanationKo": "'can'이 강세 없는 위치에서 슈와 모음을 가진 /kən/으로 축약되어 강세가 있는 'only' 앞에 옵니다.",
+    "practiceGuide": "'캔'이 아니라 '컨'으로 약하게 발음하고, 'only'에 강세를 두세요.",
+    "segmentIndex": 38
+  },
+  {
+    "type": "linking",
+    "originalText": "prior to its",
+    "phonetic": "/praɪər tə_ɪts/",
+    "koreanPhonetic": "프라이어 터 잇츠",
+    "explanation": "'To' reduces to /tə/ and links smoothly into 'its'. The vowel sounds flow together.",
+    "explanationKo": "'to'가 /tə/로 축약되어 'its'와 매끄럽게 연결됩니다. 모음 소리가 함께 흐릅니다.",
+    "practiceGuide": "'to'를 '투'가 아닌 '터'로 발음하고, 'its'와 자연스럽게 이어 말하세요.",
+    "segmentIndex": 57
+  }
+]

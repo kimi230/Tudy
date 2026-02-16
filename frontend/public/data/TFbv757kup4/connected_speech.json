@@ -1,0 +1,152 @@
+[
+  {
+    "type": "linking",
+    "originalText": "seems perfect",
+    "phonetic": "/siːmz‿pɜːrfɪkt/",
+    "koreanPhonetic": "심즈 퍼펙트",
+    "explanation": "The final /z/ of 'seems' links smoothly into the initial /p/ of 'perfect', creating a continuous flow.",
+    "explanationKo": "'seems'의 마지막 /z/ 소리가 'perfect'의 첫 /p/ 소리와 부드럽게 연결되어 연속적인 흐름을 만듭니다.",
+    "practiceGuide": "'심즈퍼펙트'처럼 끊김 없이 한 단어처럼 발음하세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪndə/",
+    "koreanPhonetic": "카인다",
+    "explanation": "'Kind of' is commonly reduced to 'kinda' in casual speech, with the 'of' becoming a weak schwa sound.",
+    "explanationKo": "'Kind of'는 일상 대화에서 흔히 'kinda'로 줄여 발음하며, 'of'가 약한 슈와 소리로 됩니다.",
+    "practiceGuide": "'카인다'로 발음하세요. 'of'를 또렷이 말하지 않고 약하게 '다'처럼 붙여서 말합니다.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "reduction",
+    "originalText": "don't like",
+    "phonetic": "/doʊn(t)laɪk/",
+    "koreanPhonetic": "돈 라이크",
+    "explanation": "The /t/ at the end of 'don't' is often reduced or dropped before the /l/ in 'like', creating a smoother transition.",
+    "explanationKo": "'don't'의 끝 /t/ 소리가 'like'의 /l/ 앞에서 줄어들거나 생략되어 더 부드러운 전환이 됩니다.",
+    "practiceGuide": "'돈라이크'처럼 t를 거의 발음하지 않고 부드럽게 연결하세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "linking",
+    "originalText": "costs us",
+    "phonetic": "/kɑːsts‿ʌs/",
+    "koreanPhonetic": "카스츠어스",
+    "explanation": "The final /s/ cluster of 'costs' links into the vowel /ʌ/ of 'us', with the consonant cluster simplifying in fast speech.",
+    "explanationKo": "'costs'의 마지막 /s/ 자음군이 'us'의 모음 /ʌ/에 연결되며, 빠른 발화에서 자음군이 단순화됩니다.",
+    "practiceGuide": "'카스츠'와 '어스' 사이에 끊김 없이 연결하세요.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "고나",
+    "explanation": "'Going to' is frequently reduced to 'gonna' in spoken English, especially before another verb.",
+    "explanationKo": "'Going to'는 구어 영어에서, 특히 다른 동사 앞에서 'gonna'로 자주 줄여 발음됩니다.",
+    "practiceGuide": "'고나'로 발음하세요. 'going to'를 따로따로 말하지 말고 '고나'로 합쳐서 말합니다.",
+    "segmentIndex": 54
+  },
+  {
+    "type": "assimilation",
+    "originalText": "jumped in",
+    "phonetic": "/dʒʌmpt‿ɪn/",
+    "koreanPhonetic": "점프틴",
+    "explanation": "The final /d/ of 'jumped' assimilates to /t/ due to the voiceless preceding consonant, and then links into 'in'.",
+    "explanationKo": "'jumped'의 마지막 /d/가 앞의 무성 자음으로 인해 /t/로 동화되고, 'in'으로 연결됩니다.",
+    "practiceGuide": "'점프틴'처럼 발음하세요. jumped의 -ed가 /t/로 발음됩니다.",
+    "segmentIndex": 63
+  },
+  {
+    "type": "elision",
+    "originalText": "didn't have",
+    "phonetic": "/ˈdɪdn̩(t)hæv/",
+    "koreanPhonetic": "디든 해브",
+    "explanation": "The /t/ at the end of 'didn't' is often elided (dropped) before the /h/ of 'have', making the phrase flow more smoothly.",
+    "explanationKo": "'didn't'의 끝 /t/가 'have'의 /h/ 앞에서 생략(탈락)되어 문장이 더 부드럽게 흐릅니다.",
+    "practiceGuide": "'디든해브'처럼 발음하세요. t를 생략하고 바로 'have'로 넘어갑니다.",
+    "segmentIndex": 65
+  },
+  {
+    "type": "linking",
+    "originalText": "figure it out",
+    "phonetic": "/ˈfɪɡjər‿ɪt‿aʊt/",
+    "koreanPhonetic": "피겨릿 아웃",
+    "explanation": "The /r/ of 'figure' links to the vowel /ɪ/ of 'it', and then 'it' links to 'out' through consonant-vowel linking.",
+    "explanationKo": "'figure'의 /r/이 'it'의 모음 /ɪ/에 연결되고, 'it'이 자음-모음 연결을 통해 'out'에 연결됩니다.",
+    "practiceGuide": "'피겨릿아웃'처럼 세 단어를 부드럽게 연결해서 발음하세요.",
+    "segmentIndex": 56
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in casual speech, merging the two words.",
+    "explanationKo": "'Want to'는 일상 대화에서 'wanna'로 흔히 줄여 발음되며, 두 단어가 합쳐집니다.",
+    "practiceGuide": "'워나'로 발음하세요. 'to'를 따로 발음하지 말고 'want'에 붙여서 말합니다.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "linking",
+    "originalText": "hold you back",
+    "phonetic": "/hoʊld‿juː‿bæk/",
+    "koreanPhonetic": "홀쥬 백",
+    "explanation": "The /d/ of 'hold' links into the /j/ of 'you', and 'you' connects to 'back', creating a smooth three-word chain.",
+    "explanationKo": "'hold'의 /d/가 'you'의 /j/에 연결되고, 'you'가 'back'에 연결되어 부드러운 세 단어 체인을 만듭니다.",
+    "practiceGuide": "'홀쥬백'처럼 세 단어를 하나로 연결하여 발음하세요.",
+    "segmentIndex": 25
+  },
+  {
+    "type": "reduction",
+    "originalText": "have to",
+    "phonetic": "/ˈhæftə/",
+    "koreanPhonetic": "해프타",
+    "explanation": "'Have to' is reduced to 'hafta' in fast speech, with the /v/ becoming /f/ and 'to' becoming /tə/.",
+    "explanationKo": "'Have to'는 빠른 발화에서 'hafta'로 줄여지며, /v/가 /f/로 바뀌고 'to'가 /tə/가 됩니다.",
+    "practiceGuide": "'해프타'로 발음하세요. 'have'의 v가 f로 변하고 'to'가 약하게 발음됩니다.",
+    "segmentIndex": 30
+  },
+  {
+    "type": "assimilation",
+    "originalText": "used to",
+    "phonetic": "/ˈjuːstə/",
+    "koreanPhonetic": "유스타",
+    "explanation": "The /d/ of 'used' assimilates to /t/ when followed by 'to', and 'to' reduces to /tə/.",
+    "explanationKo": "'used'의 /d/가 'to' 앞에서 /t/로 동화되고, 'to'는 /tə/로 축소됩니다.",
+    "practiceGuide": "'유스타'로 발음하세요. 'd'가 't'로 바뀌고 'to'가 약하게 발음됩니다.",
+    "segmentIndex": 67
+  },
+  {
+    "type": "elision",
+    "originalText": "just looks",
+    "phonetic": "/dʒʌs(t)lʊks/",
+    "koreanPhonetic": "저스 룩스",
+    "explanation": "The /t/ at the end of 'just' is often dropped before the /l/ of 'looks' in connected speech.",
+    "explanationKo": "연결 발화에서 'just'의 마지막 /t/가 'looks'의 /l/ 앞에서 종종 탈락합니다.",
+    "practiceGuide": "'저스룩스'처럼 발음하세요. 'just'의 t를 생략하고 바로 'looks'로 연결합니다.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "linking",
+    "originalText": "give up",
+    "phonetic": "/ɡɪv‿ʌp/",
+    "koreanPhonetic": "기버프",
+    "explanation": "The final /v/ of 'give' links directly to the initial vowel /ʌ/ of 'up', creating a consonant-to-vowel link.",
+    "explanationKo": "'give'의 마지막 /v/가 'up'의 첫 모음 /ʌ/에 직접 연결되어 자음-모음 연결을 만듭니다.",
+    "practiceGuide": "'기버프'처럼 발음하세요. 'give'와 'up'을 끊지 말고 연결합니다.",
+    "segmentIndex": 51
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɒtə/",
+    "koreanPhonetic": "어라러",
+    "explanation": "'A lot of' is reduced in casual speech with the 't' becoming a flap and 'of' reducing to /ə/.",
+    "explanationKo": "'A lot of'는 일상 대화에서 축소되며, 't'가 플랩음이 되고 'of'가 /ə/로 줄어듭니다.",
+    "practiceGuide": "'어라러'처럼 발음하세요. 't'를 가볍게 치고 'of'를 약하게 발음합니다.",
+    "segmentIndex": 114
+  }
+]

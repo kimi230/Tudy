@@ -1,0 +1,133 @@
+[
+  {
+    "pattern": "Conditional Past (If + had + past participle)",
+    "explanation": "Used to describe hypothetical situations in the past that did not actually happen. The 'if' clause uses past perfect, and the main clause uses 'would have + past participle'.",
+    "explanationKo": "과거에 실제로 일어나지 않은 가정적 상황을 설명할 때 사용합니다. 'if' 절은 과거완료형을 사용하고, 주절은 'would have + 과거분사'를 사용합니다. 제3조건문이라고도 합니다.",
+    "examples": [
+      "If I had never dropped in on that single course in college, the Mac would have never had multiple typefaces.",
+      "If I had never dropped out, I would have never dropped in on that calligraphy class."
+    ],
+    "segmentIndex": 35
+  },
+  {
+    "pattern": "Gerund as Subject",
+    "explanation": "A gerund (-ing form of a verb) used as the subject of a sentence. This structure treats an action as a noun concept.",
+    "explanationKo": "동명사(-ing 형태의 동사)를 문장의 주어로 사용하는 구조입니다. 행동을 명사 개념으로 다룹니다.",
+    "examples": [
+      "Remembering that I'll be dead soon is the most important tool I've ever encountered.",
+      "Remembering that you are going to die is the best way I know to avoid the trap.",
+      "Believing that the dots will connect down the road will give you the confidence."
+    ],
+    "segmentIndex": 82
+  },
+  {
+    "pattern": "Parallel Structure (not A but B / A, not B)",
+    "explanation": "Using the same grammatical form for elements that are joined by conjunctions or compared. This creates rhythm and clarity in speech.",
+    "explanationKo": "접속사로 연결되거나 비교되는 요소에 같은 문법 형태를 사용하는 것입니다. 연설에 리듬감과 명확성을 부여합니다.",
+    "examples": [
+      "The heaviness of being successful was replaced by the lightness of being a beginner again.",
+      "You can't connect the dots looking forward. You can only connect them looking backwards."
+    ],
+    "segmentIndex": 60
+  },
+  {
+    "pattern": "Imperative for Motivational Commands",
+    "explanation": "The base form of the verb used without a subject to give direct commands, advice, or motivational instructions. Common in speeches to directly address the audience.",
+    "explanationKo": "주어 없이 동사 원형을 사용하여 직접적인 명령, 조언, 또는 동기부여 지시를 하는 구조입니다. 청중에게 직접 말할 때 연설에서 흔히 사용됩니다.",
+    "examples": [
+      "Stay hungry. Stay foolish.",
+      "Don't settle.",
+      "Don't lose faith.",
+      "Keep looking."
+    ],
+    "segmentIndex": 96
+  },
+  {
+    "pattern": "Relative Clause with 'who/that/which'",
+    "explanation": "A clause that provides additional information about a noun, using relative pronouns like who, that, or which. Essential for adding detail and complexity to sentences.",
+    "explanationKo": "who, that, which 같은 관계대명사를 사용하여 명사에 대한 추가 정보를 제공하는 절입니다. 문장에 세부 사항과 복잡성을 더하는 데 필수적입니다.",
+    "examples": [
+      "We hired someone who I thought was very talented to run the company with me.",
+      "An amazing woman who would become my wife.",
+      "Don't be trapped by dogma, which is living with the results of other people's thinking."
+    ],
+    "segmentIndex": 49
+  },
+  {
+    "pattern": "Phrasal Verbs (drop out, drop in, fall away, dawn on)",
+    "explanation": "Multi-word verbs consisting of a verb plus a preposition or adverb that creates a meaning different from the original verb. Very common in spoken English.",
+    "explanationKo": "동사에 전치사나 부사가 결합되어 원래 동사와 다른 의미를 만드는 복합 동사입니다. 구어 영어에서 매우 일반적으로 사용됩니다.",
+    "examples": [
+      "I dropped out of Reed College after the first six months.",
+      "I could stop taking the required classes and begin dropping in on the ones that looked far more interesting.",
+      "Something slowly began to dawn on me.",
+      "These things just fall away in the face of death."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "Rhetorical Question",
+    "explanation": "A question asked not to get an answer, but to make a point or create emphasis. Used frequently in speeches to engage the audience.",
+    "explanationKo": "대답을 얻기 위해서가 아니라 논점을 강조하거나 만들기 위해 던지는 질문입니다. 청중의 참여를 유도하기 위해 연설에서 자주 사용됩니다.",
+    "examples": [
+      "So why did I drop out?",
+      "How can you get fired from a company you started?",
+      "Do you want him?"
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Passive Voice for Emphasis",
+    "explanation": "Using passive construction (be + past participle) to shift focus from the doer to the action or receiver. Often used to emphasize the experience rather than the agent.",
+    "explanationKo": "수동태 구문(be + 과거분사)을 사용하여 행위자에서 행동이나 대상으로 초점을 전환합니다. 행위자보다 경험을 강조할 때 자주 사용됩니다.",
+    "examples": [
+      "The heaviness of being successful was replaced by the lightness of being a beginner again.",
+      "All of my working class parents' savings were being spent on my college tuition.",
+      "I'd been rejected, but I was still in love."
+    ],
+    "segmentIndex": 61
+  },
+  {
+    "pattern": "Superlative for Emphasis",
+    "explanation": "Using superlative adjectives (most + adjective or adjective + -est) to express the highest degree, creating powerful emphasis in motivational speech.",
+    "explanationKo": "최상급 형용사(most + 형용사 또는 형용사 + -est)를 사용하여 최고의 정도를 표현하며, 동기부여 연설에서 강력한 강조를 만듭니다.",
+    "examples": [
+      "It was one of the best decisions I ever made.",
+      "Remembering that I'll be dead soon is the most important tool I've ever encountered.",
+      "Death is very likely the single best invention of life."
+    ],
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "Correlative Conjunctions (as...as, not only...but)",
+    "explanation": "Pairs of conjunctions that work together to join equal grammatical elements. They create balanced, emphatic statements.",
+    "explanationKo": "같은 문법 요소를 연결하기 위해 함께 사용되는 접속사 쌍입니다. 균형 잡히고 강조적인 문장을 만듭니다.",
+    "examples": [
+      "And that is as true for work as it is for your lovers.",
+      "A college that was almost as expensive as Stanford."
+    ],
+    "segmentIndex": 71
+  },
+  {
+    "pattern": "Infinitive of Purpose (to + verb)",
+    "explanation": "Using 'to + base verb' to express the purpose or reason for an action. A fundamental structure for explaining motivations.",
+    "explanationKo": "행동의 목적이나 이유를 표현하기 위해 'to + 동사 원형'을 사용합니다. 동기를 설명하기 위한 기본적인 구조입니다.",
+    "examples": [
+      "I decided to take a calligraphy class to learn how to do this.",
+      "I returned Coke bottles for the five-cent deposits to buy food with.",
+      "I would walk the seven miles across town every Sunday night to get one good meal a week."
+    ],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "Present Perfect for Life Experience",
+    "explanation": "Using 'have/has + past participle' to describe experiences or actions that happened at an unspecified time in the past and are still relevant now.",
+    "explanationKo": "과거의 불특정한 시점에 일어났지만 현재까지 관련이 있는 경험이나 행동을 설명할 때 'have/has + 과거분사'를 사용합니다.",
+    "examples": [
+      "If you haven't found it yet, keep looking.",
+      "No one has ever escaped it.",
+      "I've looked in the mirror every morning and asked myself."
+    ],
+    "segmentIndex": 74
+  }
+]

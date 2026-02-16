@@ -1,0 +1,138 @@
+{
+  "sections": [
+    {
+      "title": "Introduction: Personal Background",
+      "titleKo": "도입: 개인 배경 이야기",
+      "startSegment": 0,
+      "endSegment": 9,
+      "summary": "Luis Von Ahn introduces himself as being from Guatemala, using humor to describe his country's relationship with Mexico and the US. He sets up the theme of poverty and inequality.",
+      "summaryKo": "루이스 폰 안이 과테말라 출신이라고 소개하며, 과테말라와 멕시코 및 미국의 관계를 유머러스하게 설명해요. 가난과 불평등이라는 주제를 설정해요."
+    },
+    {
+      "title": "Education and Inequality",
+      "titleKo": "교육과 불평등",
+      "startSegment": 10,
+      "endSegment": 22,
+      "summary": "Luis argues that education often reinforces inequality rather than solving it. He shares his personal story of receiving a good education thanks to his mother's sacrifices, eventually earning a Ph.D. in computer science.",
+      "summaryKo": "루이스는 교육이 불평등을 해소하기보다 오히려 강화한다고 주장해요. 어머니의 희생 덕분에 좋은 교육을 받고 컴퓨터 과학 박사 학위를 받은 개인적인 이야기를 나눠요."
+    },
+    {
+      "title": "Why Foreign Languages?",
+      "titleKo": "왜 외국어인가?",
+      "startSegment": 23,
+      "endSegment": 55,
+      "summary": "Luis explains why Duolingo chose to start with foreign languages rather than math or computer science. The key reason: learning English directly increases income potential, unlike other subjects that require multiple steps.",
+      "summaryKo": "루이스는 듀오링고가 수학이나 컴퓨터 과학 대신 외국어로 시작한 이유를 설명해요. 핵심 이유는 영어 학습이 다른 과목과 달리 소득 잠재력을 직접적으로 높이기 때문이에요."
+    },
+    {
+      "title": "Mobile-First and Freemium Model",
+      "titleKo": "모바일 우선과 프리미엄 모델",
+      "startSegment": 56,
+      "endSegment": 84,
+      "summary": "Luis describes Duolingo's decision to use smartphones as the delivery platform and the freemium business model. Rich subscribers in wealthy countries effectively pay for free education for users in poorer countries.",
+      "summaryKo": "루이스는 스마트폰을 교육 전달 플랫폼으로 사용하기로 한 결정과 프리미엄 비즈니스 모델을 설명해요. 부유한 나라의 유료 구독자가 가난한 나라 사용자의 무료 교육비를 효과적으로 부담해요."
+    },
+    {
+      "title": "Competing with Addictive Apps",
+      "titleKo": "중독적인 앱과의 경쟁",
+      "startSegment": 85,
+      "endSegment": 101,
+      "summary": "The central challenge: smartphones come with highly addictive apps like TikTok and Instagram. Duolingo's solution is to make the 'broccoli taste like dessert' by using the same psychological techniques these apps employ.",
+      "summaryKo": "핵심 과제: 스마트폰에는 틱톡이나 인스타그램 같은 중독적인 앱이 있어요. 듀오링고의 해결책은 같은 심리적 기법을 사용해서 '브로콜리를 디저트 맛이 나게' 만드는 거예요."
+    },
+    {
+      "title": "Technique 1: Streaks",
+      "titleKo": "기법 1: 스트릭",
+      "startSegment": 102,
+      "endSegment": 121,
+      "summary": "Luis explains how streaks -- counting consecutive days of use -- motivate daily engagement. Over 3 million Duolingo users have streaks longer than 365 days. Japan has the longest average streaks.",
+      "summaryKo": "루이스는 연속 사용 일수를 세는 스트릭이 어떻게 매일 참여하게 하는지 설명해요. 300만 명 이상의 듀오링고 사용자가 365일 이상의 스트릭을 가지고 있고, 일본이 평균 스트릭이 가장 길어요."
+    },
+    {
+      "title": "Technique 2: Notifications",
+      "titleKo": "기법 2: 알림",
+      "startSegment": 122,
+      "endSegment": 163,
+      "summary": "Luis discusses Duolingo's notification strategy: AI-driven timing (best time = 24 hours after last use), stopping after 7 days of inactivity, and the surprisingly effective passive-aggressive farewell notification. The owl mascot has become a meme.",
+      "summaryKo": "루이스는 듀오링고의 알림 전략을 설명해요: AI 기반 타이밍(최적 시간 = 마지막 사용 후 24시간), 7일 비활성 후 중단, 그리고 놀랍도록 효과적인 소극적 공격적 작별 알림. 올빼미 마스코트는 밈이 되었어요."
+    },
+    {
+      "title": "The 80-90% Rule",
+      "titleKo": "80-90% 법칙",
+      "startSegment": 164,
+      "endSegment": 200,
+      "summary": "Luis argues that educational apps don't need to be as engaging as TikTok -- 80-90% is enough because internal motivation fills the gap. Duolingo now has more language learners in the US than all high schools combined. He envisions a future where screen time delivers high-quality education to everyone.",
+      "summaryKo": "루이스는 교육 앱이 틱톡만큼 몰입하게 할 필요가 없다고 주장해요. 80-90%면 충분하고 내적 동기가 나머지를 채워준다고요. 듀오링고는 현재 미국 전체 고등학교보다 더 많은 언어 학습자를 보유하고 있어요. 스크린 타임이 모두에게 양질의 교육을 전달하는 미래를 그려요."
+    },
+    {
+      "title": "Q&A: Applying to Other Subjects",
+      "titleKo": "Q&A: 다른 과목에의 적용",
+      "startSegment": 201,
+      "endSegment": 233,
+      "summary": "In the Q&A session, Luis explains that the Duolingo approach works best for subjects learned through repetition (reading, elementary math). For explanatory content, video-based approaches like Khan Academy may be needed.",
+      "summaryKo": "Q&A에서 루이스는 듀오링고 방식이 반복으로 배우는 과목(읽기, 초등 수학)에 가장 잘 맞는다고 설명해요. 설명이 필요한 콘텐츠에는 칸 아카데미 같은 영상 기반 접근이 필요할 수 있대요."
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "So, I'm from Guatemala. This is a public service announcement.",
+      "function": "Opening hook with humor",
+      "functionKo": "유머로 청중의 관심을 끄는 도입부 -- 가벼운 분위기로 시작해요",
+      "segmentIndex": 0
+    },
+    {
+      "expression": "And a lot of people talk about education as something that brings equality",
+      "function": "Introducing a commonly held belief before challenging it",
+      "functionKo": "일반적으로 받아들여지는 믿음을 소개한 뒤 반박하는 구조예요",
+      "segmentIndex": 10
+    },
+    {
+      "expression": "Oh, by the way, this is what I want to talk to you about today",
+      "function": "Explicitly stating the main topic after the personal story",
+      "functionKo": "개인 이야기 후 오늘의 주제를 명시적으로 밝히는 표현이에요",
+      "segmentIndex": 25
+    },
+    {
+      "expression": "And let me tell you why",
+      "function": "Signaling that a justification or explanation follows",
+      "functionKo": "이유나 설명이 뒤따를 것임을 알리는 전환 표현이에요",
+      "segmentIndex": 37
+    },
+    {
+      "expression": "However, if you're trying to deliver education with a smartphone",
+      "function": "Introducing a major obstacle or counterpoint",
+      "functionKo": "주요 장애물이나 반론을 소개하는 역접 전환어예요",
+      "segmentIndex": 85
+    },
+    {
+      "expression": "Let me give you some examples of these techniques",
+      "function": "Transitioning from theory to concrete examples",
+      "functionKo": "이론에서 구체적인 예시로 전환하는 표현이에요",
+      "segmentIndex": 102
+    },
+    {
+      "expression": "And this is a really important point, let me say this",
+      "function": "Emphasizing a key insight before delivering it",
+      "functionKo": "핵심 통찰을 전달하기 전에 중요성을 강조하는 표현이에요",
+      "segmentIndex": 164
+    },
+    {
+      "expression": "My hope is that",
+      "function": "Transitioning to a forward-looking vision for the future",
+      "functionKo": "미래에 대한 비전으로 전환하며 희망을 제시하는 표현이에요",
+      "segmentIndex": 188
+    },
+    {
+      "expression": "But the single most important thing that I can end this talk with",
+      "function": "Signaling the conclusion with a call to action",
+      "functionKo": "행동 촉구와 함께 결론을 알리는 마무리 표현이에요",
+      "segmentIndex": 196
+    },
+    {
+      "expression": "How do you think that you can apply this type of thinking to other subjects?",
+      "function": "Q&A transition -- interviewer prompts deeper discussion",
+      "functionKo": "Q&A 전환 -- 인터뷰어가 더 깊은 논의를 유도하는 질문이에요",
+      "segmentIndex": 203
+    }
+  ]
+}

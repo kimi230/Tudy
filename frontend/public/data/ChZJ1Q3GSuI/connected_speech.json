@@ -1,0 +1,152 @@
+[
+  {
+    "type": "linking",
+    "originalText": "black coffee",
+    "phonetic": "/blæˈkɒfi/",
+    "koreanPhonetic": "블래커피",
+    "explanation": "When a word ends in a consonant and the next word begins with the same consonant, the first consonant is dropped. The two K sounds merge into one.",
+    "explanationKo": "단어가 자음으로 끝나고 다음 단어가 같은 자음으로 시작하면 첫 번째 자음이 생략됩니다. 두 K 소리가 하나로 합쳐집니다.",
+    "practiceGuide": "'black'의 마지막 K를 발음하지 말고 바로 'coffee'의 K로 넘어가세요. 블래-커피가 아니라 블래커피로 한 번에 말하세요.",
+    "segmentIndex": 15
+  },
+  {
+    "type": "linking",
+    "originalText": "not at all",
+    "phonetic": "/nɒɾəˈɾɔːl/",
+    "koreanPhonetic": "나라톨",
+    "explanation": "Consonant-to-vowel linking: The T at the end of 'not' links to the A in 'at', and the T in 'at' links to the A in 'all'. The T sounds become flapped (like a quick D).",
+    "explanationKo": "자음-모음 연결: 'not'의 T가 'at'의 A와 연결되고, 'at'의 T가 'all'의 A와 연결됩니다. T 소리가 가볍게 튕기는 소리(플랩)가 됩니다.",
+    "practiceGuide": "'나-타-톨'처럼 세 음절로 나누어 연습한 후 점점 빠르게 말해보세요. T를 강하게 발음하지 말고 혀를 가볍게 윗잇몸에 튕기세요.",
+    "segmentIndex": 26
+  },
+  {
+    "type": "reduction",
+    "originalText": "What do you do?",
+    "phonetic": "/wʌɾəjəˈduː/",
+    "koreanPhonetic": "와러여두",
+    "explanation": "Multiple reductions: 'What' loses its final T, 'do' is reduced to 'duh/də', 'you' becomes 'yə'. The phrase sounds compressed into fewer syllables.",
+    "explanationKo": "여러 축약이 일어남: 'What'의 마지막 T가 사라지고, 'do'는 'duh/də'로 축약되며, 'you'는 'yə'가 됩니다. 전체 구문이 더 적은 음절로 압축됩니다.",
+    "practiceGuide": "'왓 두 유 두'가 아니라 '와러여두'처럼 빠르게 연결해서 말해보세요. 강세는 마지막 'do'에만 주세요.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "elision",
+    "originalText": "comfortable",
+    "phonetic": "/ˈkʌmftəbəl/",
+    "koreanPhonetic": "컴프터블",
+    "explanation": "Syllable reduction: The second syllable 'or' is completely dropped. The word goes from 4 syllables (com-for-ta-ble) to 3 syllables (comf-ta-ble).",
+    "explanationKo": "음절 축소: 두 번째 음절 'or'이 완전히 생략됩니다. 4음절(com-for-ta-ble)에서 3음절(comf-ta-ble)로 줄어듭니다.",
+    "practiceGuide": "'컴포터블'이 아니라 '컴프터블'로 발음하세요. 'for' 부분을 빼고 바로 'f' 다음에 't'로 넘어가세요.",
+    "segmentIndex": 35
+  },
+  {
+    "type": "elision",
+    "originalText": "interesting",
+    "phonetic": "/ˈɪntrəstɪŋ/",
+    "koreanPhonetic": "인트러스팅",
+    "explanation": "Syllable reduction: The second syllable 'er' is dropped. The word goes from 4 syllables (in-ter-est-ing) to 3 syllables (in-tre-sting). Additionally, TR sounds like CHR.",
+    "explanationKo": "음절 축소: 두 번째 음절 'er'이 생략됩니다. 4음절(in-ter-est-ing)에서 3음절(in-tre-sting)로 줄어듭니다. 또한 TR이 CHR처럼 소리납니다.",
+    "practiceGuide": "'인터레스팅'이 아니라 '인트러스팅'으로 발음하세요. 가운데 'er'을 빼고 't'와 'r'을 합쳐서 'chr' 소리를 내세요.",
+    "segmentIndex": 42
+  },
+  {
+    "type": "elision",
+    "originalText": "every",
+    "phonetic": "/ˈevri/",
+    "koreanPhonetic": "에브리",
+    "explanation": "The middle vowel E is dropped, reducing the word from 3 syllables (ev-er-y) to 2 syllables (ev-ry).",
+    "explanationKo": "가운데 모음 E가 생략되어 3음절(ev-er-y)에서 2음절(ev-ry)로 줄어듭니다.",
+    "practiceGuide": "'에버리'가 아니라 '에브리'로 두 음절만 발음하세요. 가운데 'er'을 빼세요.",
+    "segmentIndex": 45
+  },
+  {
+    "type": "assimilation",
+    "originalText": "tree / treat / country",
+    "phonetic": "/tʃriː/ /tʃriːt/ /ˈkʌntʃri/",
+    "koreanPhonetic": "츄리 / 츄릿 / 컨츄리",
+    "explanation": "When T and R appear together, the T assimilates and the combination sounds like CHR. This is called affrication.",
+    "explanationKo": "T와 R이 함께 나타나면 T가 동화되어 CHR처럼 소리납니다. 이것을 파찰음화라고 합니다.",
+    "practiceGuide": "'트리'가 아니라 '츄리'처럼 발음하세요. 혀를 입천장에 대고 'ch' 소리를 내면서 바로 'r'로 연결하세요.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "assimilation",
+    "originalText": "hundred",
+    "phonetic": "/ˈhʌndʒrəd/",
+    "koreanPhonetic": "헌쥐러드",
+    "explanation": "When D and R appear together, the D assimilates and sounds like JR. The tongue cannot switch quickly between D and R, so they merge.",
+    "explanationKo": "D와 R이 함께 나타나면 D가 동화되어 JR처럼 소리납니다. 혀가 D와 R 사이를 빠르게 전환할 수 없어서 합쳐집니다.",
+    "practiceGuide": "'헌드레드'가 아니라 '헌쥐러드'처럼 발음하세요. D를 J로 바꾸어 발음해 보세요.",
+    "segmentIndex": 50
+  },
+  {
+    "type": "assimilation",
+    "originalText": "Did you",
+    "phonetic": "/ˈdɪdʒə/",
+    "koreanPhonetic": "디져",
+    "explanation": "When D at the end of a word meets Y at the start of the next word, they combine to create a J (dʒ) sound. This is called palatalization.",
+    "explanationKo": "단어 끝의 D가 다음 단어 시작의 Y를 만나면 합쳐져서 J(dʒ) 소리가 됩니다. 이것을 구개음화라고 합니다.",
+    "practiceGuide": "'디드 유'가 아니라 '디져'처럼 한 단어처럼 발음하세요. D와 Y를 합쳐서 '져' 소리를 내세요.",
+    "segmentIndex": 53
+  },
+  {
+    "type": "linking",
+    "originalText": "consonant to consonant",
+    "phonetic": "/ˈkɒnsənəntəˈkɒnsənənt/",
+    "koreanPhonetic": "칸서넌터칸서넌트",
+    "explanation": "When connecting words, the final T of the first word links smoothly to the initial consonant of the next, without a pause between them.",
+    "explanationKo": "단어를 연결할 때, 첫 번째 단어의 마지막 T가 다음 단어의 시작 자음과 부드럽게 연결되어 사이에 멈춤이 없습니다.",
+    "practiceGuide": "두 단어 사이에 멈추지 말고 자연스럽게 이어서 발음하세요. 같은 자음이 만나면 하나만 발음합니다.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'm going to",
+    "phonetic": "/aɪmˈɡənə/",
+    "koreanPhonetic": "아임거너",
+    "explanation": "'Going to' is commonly reduced to 'gonna' in casual speech. The vowel sounds are shortened and the final G of 'going' is dropped.",
+    "explanationKo": "'Going to'는 일상 대화에서 흔히 'gonna'로 축약됩니다. 모음 소리가 짧아지고 'going'의 마지막 G가 생략됩니다.",
+    "practiceGuide": "'아임 고잉 투'가 아니라 '아임거너'처럼 빠르게 말하세요. 'going to'를 '거너'로 축약해 보세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "roll it in",
+    "phonetic": "/ˈroʊlɪɾɪn/",
+    "koreanPhonetic": "롤리린",
+    "explanation": "Consonant-vowel linking: The L of 'roll' connects to the I of 'it', and the T of 'it' (flapped to a D-like sound) connects to the I of 'in'.",
+    "explanationKo": "자음-모음 연결: 'roll'의 L이 'it'의 I와 연결되고, 'it'의 T(가볍게 튕기는 소리로 변함)가 'in'의 I와 연결됩니다.",
+    "practiceGuide": "세 단어를 따로 끊지 말고 '롤리린'처럼 하나로 이어서 발음하세요.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/əˈlɒɾəv/",
+    "koreanPhonetic": "어라러브",
+    "explanation": "The T in 'lot' becomes a flap sound (like a quick D) between vowels, and 'of' reduces to just /əv/.",
+    "explanationKo": "'lot'의 T가 모음 사이에서 플랩 소리(빠른 D처럼)가 되고, 'of'는 /əv/로만 축약됩니다.",
+    "practiceGuide": "'어 랏 오브'가 아니라 '어라러브'처럼 자연스럽게 연결해서 말하세요.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워너",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in casual speech. The T is dropped and the two words merge.",
+    "explanationKo": "'Want to'는 일상 대화에서 흔히 'wanna'로 축약됩니다. T가 생략되고 두 단어가 합쳐집니다.",
+    "practiceGuide": "'원트 투'가 아니라 '워너'로 한 단어처럼 발음하세요.",
+    "segmentIndex": 39
+  },
+  {
+    "type": "linking",
+    "originalText": "sounds the same",
+    "phonetic": "/saʊnzðəˈseɪm/",
+    "koreanPhonetic": "사운즈더쎄임",
+    "explanation": "The final Z sound of 'sounds' links directly to the 'th' of 'the' without a break, creating a smooth chain of consonants.",
+    "explanationKo": "'sounds'의 마지막 Z 소리가 'the'의 'th'와 끊김 없이 바로 연결되어 부드러운 자음 연쇄를 만듭니다.",
+    "practiceGuide": "'사운즈'와 '더' 사이에 멈추지 말고 자연스럽게 이어서 발음하세요.",
+    "segmentIndex": 17
+  }
+]

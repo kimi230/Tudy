@@ -1,0 +1,125 @@
+[
+  {
+    "pattern": "What if + past tense (Hypothetical Conditional)",
+    "explanation": "Used to introduce a hypothetical situation. 'What if I told you...' uses the past tense 'told' even though it refers to the present moment, creating a sense of an intriguing proposition.",
+    "explanationKo": "'What if + 과거시제'는 가정적 상황을 제시할 때 사용합니다. 현재 상황을 말하지만 과거시제를 써서 흥미로운 제안의 느낌을 만듭니다.",
+    "examples": [
+      "What if I told you there was something that you can do right now"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Perfect for Life Experience",
+    "explanation": "Used to describe experiences that started in the past and continue to the present, or experiences whose effects are still relevant. 'I have always been fascinated' emphasizes a lifelong, ongoing fascination.",
+    "explanationKo": "과거에 시작되어 현재까지 계속되는 경험이나, 그 효과가 여전히 유효한 경험을 나타낼 때 현재완료를 사용합니다. 'I have always been fascinated'는 평생에 걸친 지속적인 관심을 강조합니다.",
+    "examples": [
+      "I have always been fascinated with the hippocampus.",
+      "I've come to the following conclusion"
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "It's one thing to... and (it's) another to... (Contrast Structure)",
+    "explanation": "A rhetorical structure used to contrast two actions or ideas, emphasizing that the second is more significant or different from the first. Commonly used in persuasive speech.",
+    "explanationKo": "두 가지 행동이나 아이디어를 대조하는 수사적 구조로, 두 번째가 첫 번째보다 더 중요하거나 다르다는 것을 강조합니다. 설득력 있는 연설에서 자주 사용됩니다.",
+    "examples": [
+      "But it's one thing to talk about the brain, and it's another to see it.",
+      "But it's one thing to talk about exercise, and it's another to do it."
+    ],
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "How could it be that... (Rhetorical Question with Embedded Clause)",
+    "explanation": "A rhetorical question pattern used to express wonder or set up an explanation. The 'that' clause introduces the specific phenomenon the speaker is questioning.",
+    "explanationKo": "'How could it be that...'은 경이로움을 표현하거나 설명을 이끌어내기 위한 수사적 질문 패턴입니다. 'that' 절이 화자가 의문을 품는 구체적인 현상을 소개합니다.",
+    "examples": [
+      "How could it be that an event that lasts just a moment... can form a memory that has changed your brain"
+    ],
+    "segmentIndex": 32
+  },
+  {
+    "pattern": "Not only... but (also)... (Correlative Conjunction)",
+    "explanation": "Used to add emphasis by stating that two things are true, where the second is often surprising or especially important. Creates a building, cumulative effect in argumentation.",
+    "explanationKo": "두 가지가 모두 사실임을 강조하면서, 두 번째 내용이 더 놀랍거나 중요하다는 것을 나타낼 때 사용합니다. 논증에서 점층적 효과를 만듭니다.",
+    "examples": [
+      "You not only get better focus and attention, but the volume of the hippocampus increases as well.",
+      "You not only get immediate effects of mood with exercise, but those last for a long time"
+    ],
+    "segmentIndex": 132
+  },
+  {
+    "pattern": "The more... the more... (Proportional Comparative)",
+    "explanation": "A correlative structure expressing that two things increase together proportionally. Used to show cause-and-effect relationships that scale.",
+    "explanationKo": "두 가지가 비례적으로 함께 증가한다는 것을 표현하는 상관 구조입니다. 규모에 따라 커지는 인과관계를 보여줄 때 사용합니다.",
+    "examples": [
+      "The more I learned, the more I realized how powerful exercise was",
+      "The more you're working out, the bigger and stronger your hippocampus and prefrontal cortex gets."
+    ],
+    "segmentIndex": 96
+  },
+  {
+    "pattern": "Going to (Future with intention/prediction)",
+    "explanation": "Used extensively in spoken English for both predictions and planned future actions. In this talk, 'going to' is used to make predictions about what exercise will do for listeners.",
+    "explanationKo": "'going to'는 구어 영어에서 예측과 계획된 미래 행동 모두에 광범위하게 사용됩니다. 이 강연에서는 운동이 청자에게 가져다줄 변화를 예측할 때 사용됩니다.",
+    "examples": [
+      "That is going to increase your mood right after that workout.",
+      "You're not going to cure dementia or Alzheimer's disease",
+      "You're going to create the strongest, biggest hippocampus"
+    ],
+    "segmentIndex": 108
+  },
+  {
+    "pattern": "Relative Clauses with 'that' (Defining Relative Clause)",
+    "explanation": "Defining relative clauses with 'that' are used to specify which particular thing or person is being referred to. Essential for building complex, precise sentences in academic English.",
+    "explanationKo": "'that'을 사용한 관계절은 어떤 특정한 사물이나 사람을 지칭하는지 명시할 때 사용됩니다. 학술 영어에서 복잡하고 정밀한 문장을 구성하는 데 필수적입니다.",
+    "examples": [
+      "Something that you can do right now",
+      "A thought went through my mind that had never gone through my mind before",
+      "The most transformative thing that you can do for your brain"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Passive Voice for Scientific Authority",
+    "explanation": "Passive constructions are commonly used in academic and scientific discourse to focus on the action or result rather than the agent, lending objectivity and authority.",
+    "explanationKo": "수동태는 학술적, 과학적 담론에서 행위자보다 행위나 결과에 초점을 맞추기 위해 흔히 사용되며, 객관성과 권위를 부여합니다.",
+    "examples": [
+      "That is the most complex structure known to humankind.",
+      "Studies have shown that a single workout will improve your reaction times",
+      "I was becoming known in my field"
+    ],
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "Imperative for Audience Engagement",
+    "explanation": "Direct commands used to engage the audience and prompt action. Common in TED talks and persuasive presentations to create a sense of shared experience.",
+    "explanationKo": "청중을 참여시키고 행동을 유도하기 위해 사용되는 직접적 명령문입니다. TED 강연과 설득적 프레젠테이션에서 공유 경험을 만들기 위해 자주 사용됩니다.",
+    "examples": [
+      "Here you can think about the brain like a muscle.",
+      "Just do what I do, say what I say",
+      "You see stairs? Take stairs."
+    ],
+    "segmentIndex": 165
+  },
+  {
+    "pattern": "Present Participle as Reason/Cause (Because + -ing clause)",
+    "explanation": "Using 'because + subject + was/were + -ing' to explain the reason for something, often describing an ongoing background activity that caused or accompanied another event.",
+    "explanationKo": "'because + 주어 + was/were + -ing'를 사용하여 이유를 설명하며, 다른 사건을 유발하거나 동반한 진행 중인 배경 활동을 설명합니다.",
+    "examples": [
+      "Because I was able to focus and maintain my attention for longer than I had before.",
+      "Because I encountered something that was so amazing"
+    ],
+    "segmentIndex": 84
+  },
+  {
+    "pattern": "Enumeration with Ordinal Markers (First/Number one, Second, Finally)",
+    "explanation": "A discourse organization pattern using ordinal markers to structure a series of points, making arguments clear and easy to follow for the audience.",
+    "explanationKo": "순서를 나타내는 표지어를 사용하여 일련의 논점을 구조화하는 담화 조직 패턴으로, 청중이 논증을 명확하고 쉽게 따라갈 수 있게 합니다.",
+    "examples": [
+      "Number one, it has immediate effects on your brain.",
+      "Number two, the most common finding...",
+      "And finally, you not only get immediate effects of mood with exercise"
+    ],
+    "segmentIndex": 105
+  }
+]

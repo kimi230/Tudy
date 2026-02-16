@@ -1,0 +1,74 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ɡɒnə/",
+    "koreanPhonetic": "고나",
+    "explanation": "In fast speech, 'going to' is reduced to 'gonna' /ɡɒnə/. The /ɪŋ tuː/ collapses into a simple /nə/. This is one of the most common reductions in spoken English.",
+    "explanationKo": "빠른 발화에서 'going to'가 'gonna' /ɡɒnə/로 축약돼. /ɪŋ tuː/가 단순한 /nə/로 줄어들어. 영어에서 가장 흔한 축약 중 하나야.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "linking",
+    "originalText": "set of activities",
+    "phonetic": "/sɛtəvækˈtɪvɪtiz/",
+    "koreanPhonetic": "세러백티비티즈",
+    "explanation": "The /t/ of 'set' links to the /ə/ of 'of' (reduced from /ɒv/), and the /v/ of 'of' links to the /æ/ of 'activities.' The three words flow together as one smooth unit.",
+    "explanationKo": "'set'의 /t/가 축약된 'of'의 /ə/와 연결되고, 'of'의 /v/가 'activities'의 /æ/와 이어져서 세 단어가 하나의 덩어리처럼 흘러가.",
+    "segmentIndex": 7
+  },
+  {
+    "type": "assimilation",
+    "originalText": "would you",
+    "phonetic": "/wʊdʒə/",
+    "koreanPhonetic": "우쥐어",
+    "explanation": "The /d/ of 'would' and the /j/ of 'you' combine through palatal assimilation to produce /dʒ/ (a 'j' sound). This is a very common assimilation pattern in natural English.",
+    "explanationKo": "'would'의 /d/와 'you'의 /j/가 구개 동화를 통해 /dʒ/ (ㅈ 소리)로 합쳐져. 자연스러운 영어에서 매우 흔한 동화 현상이야.",
+    "segmentIndex": 30
+  },
+  {
+    "type": "elision",
+    "originalText": "just accept",
+    "phonetic": "/dʒʌsəkˈsɛpt/",
+    "koreanPhonetic": "저섹셉트",
+    "explanation": "The /t/ at the end of 'just' is elided before the vowel /ə/ of 'accept.' In connected speech, when /st/ is followed by a vowel, the /t/ often drops and the /s/ links directly to the next vowel.",
+    "explanationKo": "'just'의 마지막 /t/가 'accept'의 모음 /ə/ 앞에서 탈락해. 연결 발화에서 /st/ 뒤에 모음이 오면 /t/가 생략되고 /s/가 다음 모음과 바로 연결되는 경우가 많아.",
+    "segmentIndex": 68
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/wɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "In casual speech, 'want to' reduces to 'wanna' /wɒnə/. The /t tuː/ simplifies to /nə/. Like 'gonna,' this is extremely frequent in everyday spoken English.",
+    "explanationKo": "일상적인 발화에서 'want to'가 'wanna' /wɒnə/로 축약돼. /t tuː/가 /nə/로 단순화돼. 'gonna'처럼 일상 구어 영어에서 매우 자주 나타나.",
+    "segmentIndex": 75
+  },
+  {
+    "type": "linking",
+    "originalText": "plan out the",
+    "phonetic": "/plænˌaʊtðə/",
+    "koreanPhonetic": "플래나웃더",
+    "explanation": "The /n/ of 'plan' links smoothly to the /aʊ/ diphthong of 'out,' and the /t/ of 'out' links to the /ð/ of 'the.' The phrase flows as a connected unit rather than three separate words.",
+    "explanationKo": "'plan'의 /n/이 'out'의 이중모음 /aʊ/와 매끄럽게 연결되고, 'out'의 /t/가 'the'의 /ð/와 이어져. 세 단어가 따로 끊기지 않고 하나의 덩어리처럼 흘러가.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "elision",
+    "originalText": "best possible",
+    "phonetic": "/bɛsˈpɒsɪbl/",
+    "koreanPhonetic": "베스파서블",
+    "explanation": "The /t/ at the end of 'best' is elided before the /p/ of 'possible.' When a stop consonant (/t/) is followed by another stop consonant (/p/), the first is typically unreleased or dropped entirely.",
+    "explanationKo": "'best'의 /t/가 'possible'의 /p/ 앞에서 탈락해. 파열음(/t/) 뒤에 다른 파열음(/p/)이 오면, 첫 번째 파열음이 발음되지 않거나 완전히 생략되는 경우가 많아.",
+    "segmentIndex": 85
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't you",
+    "phonetic": "/doʊntʃə/",
+    "koreanPhonetic": "돈츄",
+    "explanation": "The /t/ of 'don't' and the /j/ of 'you' undergo palatal assimilation, producing /tʃ/ (a 'ch' sound). This is the voiceless counterpart of the /dʒ/ assimilation in 'would you.'",
+    "explanationKo": "'don't'의 /t/와 'you'의 /j/가 구개 동화를 거쳐 /tʃ/ (ㅊ 소리)를 만들어. 'would you'에서 /dʒ/가 되는 것의 무성음 버전이야.",
+    "segmentIndex": 25
+  }
+]

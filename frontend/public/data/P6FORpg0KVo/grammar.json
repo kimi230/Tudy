@@ -1,0 +1,101 @@
+[
+  {
+    "pattern": "Comparative structure: Just like A, B...",
+    "explanation": "Used to draw a parallel between two similar situations. 'Just like' introduces a familiar scenario to explain an unfamiliar one.",
+    "explanationKo": "'Just like A, B...' 구조는 두 가지 비슷한 상황을 비교할 때 사용해요. 익숙한 상황을 먼저 제시해서 낯선 상황을 설명하는 표현이에요.",
+    "examples": [
+      "Just like the U.S. doesn't want illegal immigration from Mexico, Mexico doesn't want illegal immigration from Guatemala."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "Present perfect: have/has + past participle (experience/result)",
+    "explanation": "Used to describe actions completed at an unspecified time that have present relevance. Emphasizes result or accomplishment rather than timing.",
+    "explanationKo": "현재완료(have/has + 과거분사)는 과거에 완료된 행동이 현재와 관련이 있을 때 사용해요. 시점보다 결과나 성취에 초점을 맞춰요.",
+    "examples": [
+      "We've been able to do this.",
+      "Duolingo has entered the zeitgeist."
+    ],
+    "segmentIndex": 95
+  },
+  {
+    "pattern": "Conditional: If + present simple, can/will + verb",
+    "explanation": "Used to express a real or likely condition and its result. The 'if' clause sets up the condition, and the main clause describes the consequence.",
+    "explanationKo": "'If + 현재시제, can/will + 동사'는 실현 가능한 조건과 그 결과를 표현할 때 사용해요. 'if' 절이 조건을 세우고, 주절이 결과를 설명해요.",
+    "examples": [
+      "If you don't pay, you may have to see an ad at the end of a lesson.",
+      "If you really want to deliver education to everyone, you have to make it accessible."
+    ],
+    "segmentIndex": 70
+  },
+  {
+    "pattern": "Whereas + contrasting clause",
+    "explanation": "Used to introduce a contrasting fact or situation. It highlights the difference between two ideas within a single sentence.",
+    "explanationKo": "'Whereas'는 대조되는 사실이나 상황을 소개할 때 사용해요. 한 문장 안에서 두 가지 아이디어의 차이를 부각시켜요. '반면에'로 해석해요.",
+    "examples": [
+      "Whereas with languages, if you were a waiter and you learned English, now you can be a waiter at a hotel.",
+      "When you're learning something, you get meaning out of it, whereas when you're scrolling for two hours on Instagram, you feel like you just wasted your time."
+    ],
+    "segmentIndex": 53
+  },
+  {
+    "pattern": "Not only A, but also B",
+    "explanation": "Used to add emphasis by presenting two related ideas where the second is more important or surprising. Often used in persuasive speech.",
+    "explanationKo": "'Not only A, but also B'는 두 가지 관련된 아이디어를 제시하면서 두 번째를 더 강조할 때 사용해요. 설득적인 연설에서 자주 쓰여요.",
+    "examples": [
+      "Not only do you have to make it accessible, but also you have to make it so that people want to actually learn."
+    ],
+    "segmentIndex": 93
+  },
+  {
+    "pattern": "It turns out that + clause (revealing information)",
+    "explanation": "Used to introduce a surprising or previously unknown fact. It signals that what follows may contradict expectations.",
+    "explanationKo": "'It turns out that'은 놀라운 사실이나 이전에 몰랐던 정보를 소개할 때 사용해요. 뒤에 오는 내용이 예상과 다를 수 있음을 알려줘요.",
+    "examples": [
+      "It turns out that the vast majority of the revenue for Duolingo comes from people who pay to subscribe.",
+      "It turns out that the algorithm for choosing what time to send you a notification is pretty simple."
+    ],
+    "segmentIndex": 73
+  },
+  {
+    "pattern": "The reason (for/that/why) is (that/because)...",
+    "explanation": "Used to explain why something is the case. A direct and clear way to state a cause or justification.",
+    "explanationKo": "'The reason (for/that/why) is (that/because)...'는 이유를 설명할 때 사용해요. 원인이나 정당성을 직접적이고 명확하게 제시하는 방법이에요.",
+    "examples": [
+      "The reason for that is because English can truly transform your life.",
+      "The reason people come back every day is because, well, if they don't come back, that number resets to zero."
+    ],
+    "segmentIndex": 44
+  },
+  {
+    "pattern": "Gerund as subject: V-ing + verb",
+    "explanation": "Using a gerund (verb + -ing) as the subject of a sentence. This is common in formal and semi-formal English.",
+    "explanationKo": "동명사(동사 + -ing)를 문장의 주어로 사용하는 구조예요. 격식체와 반격식체 영어에서 흔히 사용돼요.",
+    "examples": [
+      "Delivering education over a smartphone is like hoping that people will eat their broccoli.",
+      "Giving equal access to education to everyone."
+    ],
+    "segmentIndex": 90
+  },
+  {
+    "pattern": "Even if/though + concession clause",
+    "explanation": "Used to acknowledge a potential obstacle while maintaining that the main point still holds. Expresses resilience or determination.",
+    "explanationKo": "'Even if/though'는 장애물을 인정하면서도 주요 주장이 여전히 유효하다는 것을 보여줄 때 사용해요. '~하더라도'라는 의미예요.",
+    "examples": [
+      "Even if you're not as engaging as those apps are, you can still get hundreds of millions of people to use your product.",
+      "Even though I didn't grow up rich."
+    ],
+    "segmentIndex": 182
+  },
+  {
+    "pattern": "Relative clause with where/which/that",
+    "explanation": "Used to add essential information about a noun. Relative clauses with 'where', 'which', and 'that' modify nouns and provide more context.",
+    "explanationKo": "관계절(where/which/that)은 명사에 대한 필수적인 정보를 추가할 때 사용해요. 명사를 수식하면서 더 많은 맥락을 제공해요.",
+    "examples": [
+      "A future in which screen time is not a bad thing.",
+      "Countries in which people are predominantly learning English.",
+      "That is where Guatemala is."
+    ],
+    "segmentIndex": 193
+  }
+]

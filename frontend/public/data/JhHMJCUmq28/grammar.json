@@ -1,0 +1,95 @@
+[
+  {
+    "pattern": "Present perfect continuous: has/have + been + verb-ing",
+    "explanation": "Used to describe an action that started in the past and continues to the present with emphasis on duration. 'Has kept growing' shows the ongoing nature of technological progress.",
+    "explanationKo": "현재완료 진행형은 과거에 시작된 행동이 현재까지 계속되고 있음을 강조할 때 사용해. 'has kept growing'은 기술 발전이 계속 진행 중임을 보여줘.",
+    "examples": [
+      "The power of our brain machines has kept growing exponentially."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "Be about to + verb (imminent future)",
+    "explanation": "Used to express that something is on the verge of happening. It creates a sense of urgency or immediacy about an upcoming event.",
+    "explanationKo": "'be about to + 동사'는 어떤 일이 곧 일어나려 한다는 것을 표현할 때 사용해. 긴박감이나 즉각성을 줘. '막 ~하려 하다'라는 의미야.",
+    "examples": [
+      "But this process is about to meet its physical limits."
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Be made up of + noun (composition)",
+    "explanation": "Used to describe what something consists of or is composed of. It is a common way to explain the parts that form a whole.",
+    "explanationKo": "'be made up of'는 어떤 것이 무엇으로 구성되어 있는지 설명할 때 사용해. '~로 이루어져 있다'라는 의미야.",
+    "examples": [
+      "A computer is made up of very simple components doing very simple things.",
+      "This information is made up of bits."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "Once + clause, clause (conditional sequence)",
+    "explanation": "Used to show that one event triggers or enables another. It implies that the first action is a prerequisite for the second.",
+    "explanationKo": "'Once + 절'은 한 가지 일이 다른 일을 가능하게 하거나 촉발함을 보여줘. 첫 번째 행동이 두 번째의 전제 조건임을 암시해. '일단 ~하면'이라는 뜻이야.",
+    "examples": [
+      "Once you can add, you can also multiply, and once you can multiply, you can basically do anything."
+    ],
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "May/might + verb (possibility/speculation)",
+    "explanation": "Used to express that something is possible but not certain. In scientific contexts, it indicates theoretical possibility or uncertainty.",
+    "explanationKo": "'may/might + 동사'는 가능하지만 확실하지 않은 일을 표현할 때 사용해. 과학적 맥락에서는 이론적 가능성이나 불확실성을 나타내.",
+    "examples": [
+      "Electrons may just transfer themselves to the other side of a blocked passage.",
+      "Quantum simulations could provide new insights on proteins that might revolutionize medicine."
+    ],
+    "segmentIndex": 21
+  },
+  {
+    "pattern": "As long as + clause (condition duration)",
+    "explanation": "Used to set a condition that must remain true for the main clause to be valid. It means 'during the entire time that' or 'provided that.'",
+    "explanationKo": "'as long as + 절'은 주절이 유효하기 위해 유지되어야 하는 조건을 설정할 때 사용해. '~하는 한', '~하는 동안'이라는 뜻이야.",
+    "examples": [
+      "So, as long as it's unobserved, the qubit is in a superposition of probabilities for zero and one."
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "What this means is that + clause (reformulation)",
+    "explanation": "Used to rephrase or clarify a complex idea in simpler terms. It signals an explanation of the practical implications of what was just described.",
+    "explanationKo": "'What this means is that'은 복잡한 아이디어를 더 쉽게 바꿔 설명할 때 사용해. 방금 설명한 것의 실질적인 의미를 풀어서 말하는 신호야.",
+    "examples": [
+      "What this means is that you get the entire lot of calculations that are possible with your setup all done at the same time."
+    ],
+    "segmentIndex": 45
+  },
+  {
+    "pattern": "So while + clause, clause (concession)",
+    "explanation": "Used to acknowledge one point while introducing a contrasting conclusion. It balances two ideas, recognizing a limitation before stating a strength.",
+    "explanationKo": "'So while + 절'은 한 가지 점을 인정하면서 대조적인 결론을 소개할 때 사용해. '~이긴 하지만, ~이다'라는 의미로 두 아이디어의 균형을 잡아.",
+    "examples": [
+      "So while quantum computers will probably not replace our home computers, in some areas they are vastly superior."
+    ],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "By + verb-ing (means/method)",
+    "explanation": "Used to explain the method or means by which something is achieved. It answers the 'how' of an action.",
+    "explanationKo": "'by + 동명사(-ing)'는 어떤 것을 달성하는 방법이나 수단을 설명할 때 사용해. 행동의 '어떻게'에 답하는 표현이야.",
+    "examples": [
+      "But by cleverly exploiting superposition and entanglement, this can be exponentially more efficient.",
+      "Scientists are trying to use these unusual quantum properties to their advantage by building quantum computers."
+    ],
+    "segmentIndex": 47
+  },
+  {
+    "pattern": "Why not + verb? (rhetorical suggestion)",
+    "explanation": "Used to propose an idea as if it is an obvious or natural solution. It is a rhetorical way to introduce an innovative approach.",
+    "explanationKo": "'Why not + 동사?'는 어떤 아이디어를 당연하거나 자연스러운 해결책으로 제안할 때 사용해. 혁신적인 접근 방식을 수사적으로 소개하는 방법이야.",
+    "examples": [
+      "So why not simulate quantum physics with actual quantum physics?"
+    ],
+    "segmentIndex": 60
+  }
+]

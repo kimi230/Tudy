@@ -1,0 +1,82 @@
+[
+  {
+    "type": "linking",
+    "originalText": "came under ambush",
+    "phonetic": "/keɪm_ʌndər_ˈæmbʊʃ/",
+    "koreanPhonetic": "케이먼더램부쉬",
+    "explanation": "The /m/ of 'came' links smoothly into the vowel /ʌ/ of 'under,' and the /r/ of 'under' links to the vowel /æ/ of 'ambush,' creating a fluid three-word chain.",
+    "explanationKo": "'came'의 /m/이 'under'의 모음 /ʌ/와 매끄럽게 연결되고, 'under'의 /r/이 'ambush'의 /æ/와 이어져서 세 단어가 자연스러운 흐름을 만들어요.",
+    "practiceGuide": "'케임 언더 앰부쉬'로 끊지 말고, '케이먼더램부쉬'처럼 자음과 모음을 연결해서 발음해 보세요.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/wɒnə/",
+    "koreanPhonetic": "워너",
+    "explanation": "In fast speech, 'want to' is commonly reduced to 'wanna' /wɒnə/. The /t/ is dropped and 'to' reduces to just /ə/. This is one of the most common reductions in spoken English.",
+    "explanationKo": "빠른 말에서 'want to'는 '워너(wanna)'로 축약돼요. /t/가 탈락하고 'to'가 /ə/로만 남아요. 영어 구어에서 가장 흔한 축약 중 하나예요.",
+    "practiceGuide": "'원트 투'라고 또박또박 말하지 말고, '워너'처럼 자연스럽게 축약해서 발음해 보세요.",
+    "segmentIndex": 21
+  },
+  {
+    "type": "assimilation",
+    "originalText": "would you",
+    "phonetic": "/wʊdʒə/",
+    "koreanPhonetic": "우쥬",
+    "explanation": "The /d/ of 'would' combines with the /j/ of 'you' through palatalization, producing the affricate /dʒ/. This is a classic example of yod-coalescence in English.",
+    "explanationKo": "'would'의 /d/와 'you'의 /j/가 구개음화를 통해 합쳐져서 /dʒ/ 소리가 돼요. 영어에서 전형적인 요드 합류(yod-coalescence) 현상이에요.",
+    "practiceGuide": "'우드 유'라고 분리해서 말하지 말고, '우쥬'처럼 /d/와 /y/를 합쳐 발음해 보세요.",
+    "segmentIndex": 36
+  },
+  {
+    "type": "elision",
+    "originalText": "trust and cooperation",
+    "phonetic": "/trʌst_ən koʊˌɒpəˈreɪʃən/",
+    "koreanPhonetic": "트러스튼 코아퍼레이션",
+    "explanation": "The /d/ in 'and' is elided (dropped) between two consonants, reducing 'and' to /ən/. This is extremely common in natural speech when 'and' appears between content words.",
+    "explanationKo": "'and'의 /d/가 자음 사이에서 탈락하여 /ən/으로 줄어들어요. 내용어 사이에 'and'가 올 때 자연스러운 발화에서 매우 흔한 현상이에요.",
+    "practiceGuide": "'트러스트 앤드'라고 /d/를 분명히 발음하지 말고, '트러스튼'처럼 /d/를 생략해 보세요.",
+    "segmentIndex": 39
+  },
+  {
+    "type": "linking",
+    "originalText": "fall asleep at",
+    "phonetic": "/fɔːl_əˈsliːp_ət/",
+    "koreanPhonetic": "폴러슬리펫",
+    "explanation": "The /l/ of 'fall' links to the schwa /ə/ of 'asleep,' and the /p/ of 'asleep' links to the /ə/ of 'at.' Each word flows into the next through consonant-to-vowel linking.",
+    "explanationKo": "'fall'의 /l/이 'asleep'의 /ə/와 연결되고, 'asleep'의 /p/가 'at'의 /ə/와 이어져요. 자음-모음 연결을 통해 각 단어가 다음 단어로 흘러가요.",
+    "practiceGuide": "'폴 어슬립 앳'으로 끊지 말고, '폴러슬리펫'처럼 한 덩어리로 발음해 보세요.",
+    "segmentIndex": 56
+  },
+  {
+    "type": "reduction",
+    "originalText": "because they have",
+    "phonetic": "/bɪkəz ðeɪv/",
+    "koreanPhonetic": "비커즈 데이브",
+    "explanation": "The word 'because' reduces from /bɪˈkɒz/ to /bɪkəz/ with a schwa in the first syllable. 'They have' contracts to 'they've' /ðeɪv/, dropping the /h/ of 'have' entirely.",
+    "explanationKo": "'because'가 /bɪkəz/로 축약되고, 'they have'가 'they've' /ðeɪv/로 줄어들어요. 'have'의 /h/가 완전히 탈락해요.",
+    "practiceGuide": "'비코즈 데이 해브'라고 강하게 발음하지 말고, 'because'의 첫 음절을 약하게 하고 'they've'로 축약해 보세요.",
+    "segmentIndex": 163
+  },
+  {
+    "type": "elision",
+    "originalText": "next jump",
+    "phonetic": "/nɛks dʒʌmp/",
+    "koreanPhonetic": "넥스점프",
+    "explanation": "The /t/ at the end of 'next' is elided before the /dʒ/ of 'jump.' When a stop consonant cluster ends with /t/ and is followed by another consonant, the /t/ is commonly dropped.",
+    "explanationKo": "'next'의 마지막 /t/가 'jump'의 /dʒ/ 앞에서 탈락해요. 파열음 군이 /t/로 끝나고 다른 자음이 뒤따르면 /t/가 흔히 생략돼요.",
+    "practiceGuide": "'넥스트 점프'에서 /t/를 빼고 '넥스점프'처럼 발음해 보세요. 더 자연스럽고 원어민처럼 들려요.",
+    "segmentIndex": 108
+  },
+  {
+    "type": "linking",
+    "originalText": "put him in",
+    "phonetic": "/pʊt_ɪm_ɪn/",
+    "koreanPhonetic": "푸리민",
+    "explanation": "The /t/ of 'put' becomes a flap /ɾ/ before the vowel /ɪ/ of 'him' (with 'h' dropped), and the /m/ of 'him' links to the /ɪ/ of 'in.' Three words chain together seamlessly.",
+    "explanationKo": "'put'의 /t/가 'him'의 모음 앞에서 탄설음(flap)이 되고 ('h'가 탈락), 'him'의 /m/이 'in'의 /ɪ/와 연결돼요. 세 단어가 매끄럽게 연쇄해요.",
+    "practiceGuide": "'풋 힘 인'이 아니라 '푸리민'처럼 /t/를 가볍게 튕기고 세 단어를 이어 발음해 보세요.",
+    "segmentIndex": 17
+  }
+]

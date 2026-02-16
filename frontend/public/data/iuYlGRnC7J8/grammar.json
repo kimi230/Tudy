@@ -1,0 +1,96 @@
+[
+  {
+    "pattern": "Present perfect: has/have + past participle",
+    "explanation": "Used to describe something that started in the past and continues to be relevant now, or to describe past experiences with present significance. Here it emphasizes the long-standing existence of planning.",
+    "explanationKo": "현재완료(has/have + 과거분사)는 과거에 시작되어 현재까지 관련이 있는 일을 표현해. '계획이라는 것은 아주 오래전부터 존재해 왔다'처럼, 과거부터 지금까지 이어지는 상태를 나타내.",
+    "examples": [
+      "This thing called planning has been around for a long, long time.",
+      "People have put those two things together to call something strategic planning."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Gerund phrase as subject",
+    "explanation": "A verb in -ing form used as the subject of a sentence. This structure allows an action or activity to function as the topic of discussion, common in formal and academic English.",
+    "explanationKo": "동명사(-ing)를 문장의 주어로 사용하는 구조야. 행동이나 활동을 주제로 만들 수 있어서 격식체나 학술 영어에서 자주 쓰여. '그냥 합치는 것은 도움이 안 된다'처럼 표현할 수 있어.",
+    "examples": [
+      "So just putting them together and calling it strategic planning doesn't help.",
+      "Planning does not have to have any such coherence."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "What + clause (nominal relative clause)",
+    "explanation": "A 'what' clause used as the subject or object of a sentence, meaning 'the thing that.' It allows the speaker to package an entire idea into a noun phrase.",
+    "explanationKo": "'What + 절' 구조는 '~하는 것'이라는 의미로, 문장의 주어나 목적어 역할을 해. 전체 아이디어를 하나의 명사구로 묶을 수 있어서 복잡한 생각을 간결하게 표현할 수 있어.",
+    "examples": [
+      "What most strategic planning is in the world of business has nothing to do with strategy.",
+      "What they wanted to be is a substitute for Greyhound."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "Has nothing to do with + noun",
+    "explanation": "An idiomatic expression meaning 'is completely unrelated to.' Used to strongly deny a connection between two things.",
+    "explanationKo": "'~와 아무 관련이 없다'는 뜻의 관용 표현이야. 두 가지 사이의 연결을 강하게 부정할 때 사용해. 'has something to do with'는 '관련이 있다'로 반대 표현이야.",
+    "examples": [
+      "What most strategic planning is in the world of business has nothing to do with strategy."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "On the other hand (contrastive transition)",
+    "explanation": "A transitional phrase used to introduce a contrasting point of view. It signals that the speaker is about to present the opposite side of an argument.",
+    "explanationKo": "'반면에'라는 뜻의 전환 표현이야. 반대되는 관점을 소개할 때 사용해. 보통 앞에서 한 가지 측면을 설명한 뒤, 이 표현으로 다른 측면을 제시해.",
+    "examples": [
+      "A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve."
+    ],
+    "segmentIndex": 29
+  },
+  {
+    "pattern": "Enough + that clause (result clause)",
+    "explanation": "Used to indicate a sufficient degree or quantity that leads to a specific result. 'Enough that' connects the condition to its consequence.",
+    "explanationKo": "'~할 만큼 충분히'라는 뜻으로, 특정 결과로 이어지는 충분한 정도를 나타내. 'enough that'은 조건과 그 결과를 연결해 주는 표현이야.",
+    "examples": [
+      "Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you'd like to make."
+    ],
+    "segmentIndex": 30
+  },
+  {
+    "pattern": "While + progressive (simultaneous contrast)",
+    "explanation": "Used to set up a temporal context that contrasts with another action happening at the same time. Emphasizes what is occurring simultaneously, often with an ironic or critical tone.",
+    "explanationKo": "'~하는 동안'이라는 시간 표현으로, 동시에 일어나는 다른 행동과 대조할 때 사용해. 종종 아이러니하거나 비판적인 뉘앙스를 담아서 '이쪽에서는 이러는데 저쪽에서는 저러고 있었다'는 느낌을 줘.",
+    "examples": [
+      "The tricky thing about planning is that while you're planning, chances are at least one competitor is figuring out how to win."
+    ],
+    "segmentIndex": 40
+  },
+  {
+    "pattern": "What would have to be true (hypothetical analysis)",
+    "explanation": "A powerful analytical question structure used in strategic thinking. It asks what conditions must exist for something to work, using the conditional 'would have to be' to explore hypothetical requirements.",
+    "explanationKo": "'이것이 작동하려면 무엇이 사실이어야 할까'라는 전략적 분석 질문 구조야. 조건법 'would have to be'를 사용해서 가설적인 필요 조건을 탐색해. 비즈니스 분석에서 자주 쓰이는 표현이야.",
+    "examples": [
+      "What would have to be true about ourselves, about the industry, about competition, about customers for this strategy to work?"
+    ],
+    "segmentIndex": 72
+  },
+  {
+    "pattern": "It's great if you can + verb (conditional recommendation)",
+    "explanation": "A softened recommendation structure that presents an ideal scenario without being overly directive. It uses 'if' to frame the advice as achievable rather than mandatory.",
+    "explanationKo": "'~할 수 있으면 좋아'라는 부드러운 권유 표현이야. 'if'를 사용해서 이상적인 시나리오를 제시하지만 강제하지 않아. 조언할 때 부담을 주지 않으면서 방향을 제시하는 데 유용해.",
+    "examples": [
+      "It's great if you can write your strategy on a single page."
+    ],
+    "segmentIndex": 77
+  },
+  {
+    "pattern": "If you do X, it gives you + result (conditional cause-effect)",
+    "explanation": "A conditional structure that presents a clear cause-and-effect relationship. Used to persuade the listener by showing the direct benefit of taking an action.",
+    "explanationKo": "'X를 하면, ~를 얻을 수 있다'는 조건-결과 구조야. 행동의 직접적인 이점을 보여줘서 상대를 설득할 때 사용해. 마지막에 핵심 메시지를 강조하는 데 효과적이야.",
+    "examples": [
+      "If you do strategy, it gives you the best possible chance of winning.",
+      "If you plan, that's a way to guarantee losing."
+    ],
+    "segmentIndex": 84
+  }
+]

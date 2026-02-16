@@ -1,0 +1,82 @@
+[
+  {
+    "type": "linking",
+    "originalText": "search of edible",
+    "phonetic": "/sɜːrtʃ_əv_ˈɛdɪbl/",
+    "koreanPhonetic": "서처베디블",
+    "explanation": "The final /tʃ/ of 'search' links to the reduced 'of' (/əv/), and the /v/ then links to the initial vowel /ɛ/ of 'edible,' creating a smooth chain across three words.",
+    "explanationKo": "'search'의 마지막 소리가 약화된 'of'(/əv/)와 연결되고, /v/가 'edible'의 첫 모음 /ɛ/과 이어져 세 단어가 매끄럽게 연결돼요.",
+    "practiceGuide": "'서치 오브 에디블'이 아니라 '서처베디블'처럼 끊지 않고 연결해서 발음해 보세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "poisoned himself",
+    "phonetic": "/ˈpɔɪznd_ɪmˈsɛlf/",
+    "koreanPhonetic": "포이즌딤셀프",
+    "explanation": "The /h/ in 'himself' is dropped in connected speech, and the /d/ of 'poisoned' links directly to the /ɪ/ of 'imself.' This h-dropping is very common with pronouns.",
+    "explanationKo": "'himself'의 /h/가 연결 발화에서 탈락하고, 'poisoned'의 /d/가 바로 /ɪ/와 연결돼요. 대명사에서 /h/ 탈락은 매우 흔한 현상이에요.",
+    "practiceGuide": "'포이즌드 힘셀프'가 아니라 '포이즌딤셀프'처럼 /h/를 생략하고 바로 이어서 발음해 보세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "elision",
+    "originalText": "chewed on it",
+    "phonetic": "/tʃuːd_ɒnɪt/",
+    "koreanPhonetic": "추도닛",
+    "explanation": "The /d/ of 'chewed' softens before 'on,' and the /n/ of 'on' links to the /ɪ/ of 'it,' making the three words sound like one unit.",
+    "explanationKo": "'chewed'의 /d/가 'on' 앞에서 부드러워지고, 'on'의 /n/이 'it'의 /ɪ/와 연결되어 세 단어가 하나의 덩어리처럼 들려요.",
+    "practiceGuide": "'츄드 온 잇'이 아니라 '추도닛'처럼 자연스럽게 이어 발음해 보세요.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "reduction",
+    "originalText": "combination of heat and",
+    "phonetic": "/ˌkɒmbɪˈneɪʃən_əv_hiːt_ən/",
+    "koreanPhonetic": "컴비네이션어브 히른",
+    "explanation": "Both 'of' and 'and' are heavily reduced: 'of' becomes /əv/ or just /ə/, and 'and' reduces to /ən/ or /n/. Function words are routinely weakened in natural speech.",
+    "explanationKo": "'of'와 'and' 모두 크게 축약돼요. 'of'는 /ə/로, 'and'는 /ən/ 또는 /n/으로 줄어들어요. 기능어는 자연스러운 발화에서 일상적으로 약화돼요.",
+    "practiceGuide": "'컴비네이션 오브 히트 앤드'가 아니라 'of'를 /어/로, 'and'를 /은/으로 가볍게 발음해 보세요.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "linking",
+    "originalText": "spread around",
+    "phonetic": "/sprɛd_əˈraʊnd/",
+    "koreanPhonetic": "스프레더라운드",
+    "explanation": "The /d/ at the end of 'spread' links smoothly to the schwa /ə/ at the start of 'around.' Consonant-to-vowel linking makes these two words flow as one.",
+    "explanationKo": "'spread'의 마지막 /d/가 'around'의 첫 소리 /ə/와 부드럽게 연결돼요. 자음-모음 연결이 두 단어를 하나처럼 흐르게 해요.",
+    "practiceGuide": "'스프레드 어라운드'로 끊지 말고 '스프레더라운드'처럼 /d/와 /ə/를 이어서 발음해 보세요.",
+    "segmentIndex": 36
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in earnest",
+    "phonetic": "/ɪˈnɜːrnɪst/",
+    "koreanPhonetic": "이너니스트",
+    "explanation": "The /n/ at the end of 'in' assimilates with the initial vowel /ɜː/ of 'earnest,' and the nasal flows directly into the vowel, making both words sound like a single word.",
+    "explanationKo": "'in'의 /n/이 'earnest'의 첫 모음 /ɜː/와 합쳐져 비음이 모음으로 자연스럽게 흘러가며, 두 단어가 하나의 단어처럼 들려요.",
+    "practiceGuide": "'인 어니스트'로 끊지 말고 '이너니스트'처럼 /n/과 /ɜː/를 이어서 발음해 보세요.",
+    "segmentIndex": 30
+  },
+  {
+    "type": "elision",
+    "originalText": "first opium war",
+    "phonetic": "/fɜːs ˈoʊpiəm wɔːr/",
+    "koreanPhonetic": "퍼스 오피엄 워",
+    "explanation": "The /t/ at the end of 'first' is elided before the /oʊ/ of 'opium.' When /st/ clusters precede another consonant or word, the final /t/ is commonly dropped.",
+    "explanationKo": "'first'의 마지막 /t/가 'opium'의 /oʊ/ 앞에서 탈락해요. /st/ 자음군 뒤에 다른 단어가 오면 마지막 /t/가 흔히 생략돼요.",
+    "practiceGuide": "'퍼스트 오피엄'에서 /t/를 또렷이 발음하지 말고, '퍼스 오피엄'처럼 /t/를 생략해 보세요.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "linking",
+    "originalText": "smuggling tea trees and experienced",
+    "phonetic": "/ˈsmʌɡlɪŋ tiː triːz_ənd_ɪkˈspɪəriənst/",
+    "koreanPhonetic": "스머글링 티 트리전딕스피어리언스트",
+    "explanation": "The /z/ of 'trees' links to the reduced 'and' (/ənd/ → /ən/), and the /d/ of 'and' links to the /ɪ/ of 'experienced,' creating a smooth chain of sounds.",
+    "explanationKo": "'trees'의 /z/가 약화된 'and'와 연결되고, 'and'의 /d/가 'experienced'의 /ɪ/와 이어져 매끄러운 소리 연쇄가 만들어져요.",
+    "practiceGuide": "'트리즈 앤드 익스피어리언스트'가 아니라 연결되는 부분을 끊지 않고 '트리전딕스피어리언스트'처럼 이어서 발음해 보세요.",
+    "segmentIndex": 55
+  }
+]

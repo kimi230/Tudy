@@ -1,0 +1,526 @@
+[
+  {
+    "word": "neuroscience",
+    "phonetic": "/ˌnjʊəroʊˈsaɪəns/",
+    "partOfSpeech": "noun",
+    "definition": "the scientific study of the nervous system and the brain",
+    "meaningKo": "신경과학",
+    "etymology": "Greek neuron (nerve) + Latin scientia (knowledge)",
+    "rootBreakdown": {
+      "prefix": "neuro- (신경)",
+      "root": "science (과학)",
+      "suffix": null
+    },
+    "relatedWords": [
+      "neuroscientist",
+      "neurological",
+      "neuron"
+    ],
+    "isEssential": true,
+    "segmentIndex": 13,
+    "contextSentence": "About how I used my deep understanding of neuroscience,"
+  },
+  {
+    "word": "transformative",
+    "phonetic": "/trænsˈfɔːrmətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "causing a major change or transformation",
+    "meaningKo": "혁신적인, 변화를 일으키는",
+    "etymology": "Latin transformare (to change the shape of)",
+    "rootBreakdown": {
+      "prefix": "trans- (가로질러, 변화)",
+      "root": "form (형태)",
+      "suffix": "-ative (~하는 성질의)"
+    },
+    "relatedWords": [
+      "transform",
+      "transformation",
+      "transformer"
+    ],
+    "isEssential": true,
+    "segmentIndex": 16,
+    "contextSentence": "Is the most transformative thing that you can do for your brain today."
+  },
+  {
+    "word": "prefrontal cortex",
+    "phonetic": "/ˌpriːˈfrʌntl ˈkɔːrteks/",
+    "partOfSpeech": "noun",
+    "definition": "the front part of the frontal lobe of the brain, involved in decision-making and personality",
+    "meaningKo": "전전두엽 피질",
+    "etymology": "Latin prae (before) + frons (forehead) + cortex (bark, outer layer)",
+    "rootBreakdown": {
+      "prefix": "pre- (앞의)",
+      "root": "frontal (이마의) + cortex (피질)",
+      "suffix": null
+    },
+    "relatedWords": [
+      "cortical",
+      "frontal lobe",
+      "cerebral cortex"
+    ],
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "The first is the prefrontal cortex right behind your forehead,"
+  },
+  {
+    "word": "hippocampus",
+    "phonetic": "/ˌhɪpəˈkæmpəs/",
+    "partOfSpeech": "noun",
+    "definition": "a brain structure critical for forming and retaining long-term memories",
+    "meaningKo": "해마 (뇌의 기억 중추)",
+    "etymology": "Greek hippos (horse) + kampos (sea monster), from its seahorse-like shape",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "hippo- (말) + campus (바다 괴물)",
+      "suffix": null
+    },
+    "relatedWords": [
+      "hippocampal",
+      "temporal lobe"
+    ],
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "And that structure is called the hippocampus."
+  },
+  {
+    "word": "neurotransmitter",
+    "phonetic": "/ˌnjʊəroʊtrænzˈmɪtər/",
+    "partOfSpeech": "noun",
+    "definition": "a chemical substance released at nerve endings to transmit signals between neurons",
+    "meaningKo": "신경전달물질",
+    "etymology": "Greek neuron (nerve) + Latin transmittere (to send across)",
+    "rootBreakdown": {
+      "prefix": "neuro- (신경)",
+      "root": "transmit (전달하다)",
+      "suffix": "-er (~하는 것)"
+    },
+    "relatedWords": [
+      "dopamine",
+      "serotonin",
+      "noradrenaline"
+    ],
+    "isEssential": true,
+    "segmentIndex": 106,
+    "contextSentence": "A single workout that you do will immediately increase levels of neurotransmitters"
+  },
+  {
+    "word": "dopamine",
+    "phonetic": "/ˈdoʊpəmiːn/",
+    "partOfSpeech": "noun",
+    "definition": "a neurotransmitter associated with pleasure, motivation, and reward",
+    "meaningKo": "도파민",
+    "etymology": "from DOPA (dihydroxyphenylalanine) + amine",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "DOPA (화학명)",
+      "suffix": "-amine (아민 화합물)"
+    },
+    "relatedWords": [
+      "serotonin",
+      "noradrenaline",
+      "endorphin"
+    ],
+    "isEssential": true,
+    "segmentIndex": 107,
+    "contextSentence": "Like dopamine, serotonin and noradrenaline."
+  },
+  {
+    "word": "serotonin",
+    "phonetic": "/ˌserəˈtoʊnɪn/",
+    "partOfSpeech": "noun",
+    "definition": "a neurotransmitter that contributes to feelings of well-being and happiness",
+    "meaningKo": "세로토닌",
+    "etymology": "from serum + Greek tonos (tension)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "sero- (혈청)",
+      "suffix": "-tonin (긴장)"
+    },
+    "relatedWords": [
+      "dopamine",
+      "melatonin",
+      "neurotransmitter"
+    ],
+    "isEssential": true,
+    "segmentIndex": 107,
+    "contextSentence": "Like dopamine, serotonin and noradrenaline."
+  },
+  {
+    "word": "neurodegenerative",
+    "phonetic": "/ˌnjʊəroʊdɪˈdʒenərətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the progressive loss of structure or function of neurons",
+    "meaningKo": "신경퇴행성의",
+    "etymology": "Greek neuron (nerve) + Latin degenerare (to decline from a former state)",
+    "rootBreakdown": {
+      "prefix": "neuro- (신경)",
+      "root": "de- (아래로) + generate (생성하다)",
+      "suffix": "-ive (~의 성질을 가진)"
+    },
+    "relatedWords": [
+      "degeneration",
+      "Alzheimer's",
+      "dementia"
+    ],
+    "isEssential": true,
+    "segmentIndex": 144,
+    "contextSentence": "To neurodegenerative diseases"
+  },
+  {
+    "word": "dementia",
+    "phonetic": "/dɪˈmenʃə/",
+    "partOfSpeech": "noun",
+    "definition": "a chronic disorder of mental processes caused by brain disease or injury",
+    "meaningKo": "치매",
+    "etymology": "Latin dementia, from demens (out of one's mind)",
+    "rootBreakdown": {
+      "prefix": "de- (벗어남)",
+      "root": "ment- (마음)",
+      "suffix": "-ia (상태)"
+    },
+    "relatedWords": [
+      "Alzheimer's",
+      "cognitive decline",
+      "neurodegeneration"
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "Like depression, Alzheimer's disease or dementia?"
+  },
+  {
+    "word": "cardiorespiratory",
+    "phonetic": "/ˌkɑːrdioʊrɪˈspɪrətɔːri/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the heart and respiratory system",
+    "meaningKo": "심폐의",
+    "etymology": "Greek kardia (heart) + Latin respirare (to breathe again)",
+    "rootBreakdown": {
+      "prefix": "cardio- (심장)",
+      "root": "respir- (호흡)",
+      "suffix": "-atory (~에 관한)"
+    },
+    "relatedWords": [
+      "cardiovascular",
+      "respiratory",
+      "aerobic"
+    ],
+    "isEssential": false,
+    "segmentIndex": 118,
+    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function"
+  },
+  {
+    "word": "inadvertent",
+    "phonetic": "/ˌɪnədˈvɜːrtənt/",
+    "partOfSpeech": "adjective",
+    "definition": "not resulting from or achieved through deliberate planning; unintentional",
+    "meaningKo": "우연한, 의도하지 않은",
+    "etymology": "Latin in- (not) + advertere (to turn toward)",
+    "rootBreakdown": {
+      "prefix": "in- (부정)",
+      "root": "ad- (향해) + vert (돌다)",
+      "suffix": "-ent (~하는)"
+    },
+    "relatedWords": [
+      "inadvertently",
+      "advertent",
+      "inadvertence"
+    ],
+    "isEssential": false,
+    "segmentIndex": 49,
+    "contextSentence": "And I did it in a completely inadvertent way."
+  },
+  {
+    "word": "physiology",
+    "phonetic": "/ˌfɪziˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "the branch of biology dealing with the functions and processes of living organisms",
+    "meaningKo": "생리학",
+    "etymology": "Greek physis (nature) + logos (study)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "physio- (자연, 신체)",
+      "suffix": "-logy (학문)"
+    },
+    "relatedWords": [
+      "physiological",
+      "physicist",
+      "physical"
+    ],
+    "isEssential": false,
+    "segmentIndex": 121,
+    "contextSentence": "Physiology and function."
+  },
+  {
+    "word": "cognitive",
+    "phonetic": "/ˈkɒɡnətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the mental processes of perception, memory, judgment, and reasoning",
+    "meaningKo": "인지의",
+    "etymology": "Latin cognoscere (to get to know, recognize)",
+    "rootBreakdown": {
+      "prefix": "co- (함께)",
+      "root": "gnit- (알다)",
+      "suffix": "-ive (~의 성질을 가진)"
+    },
+    "relatedWords": [
+      "cognition",
+      "recognize",
+      "cognitive decline"
+    ],
+    "isEssential": true,
+    "segmentIndex": 145,
+    "contextSentence": "And normal cognitive decline in aging."
+  },
+  {
+    "word": "susceptible",
+    "phonetic": "/səˈseptəbl/",
+    "partOfSpeech": "adjective",
+    "definition": "likely or liable to be influenced or harmed by a particular thing",
+    "meaningKo": "취약한, 영향 받기 쉬운",
+    "etymology": "Latin susceptibilis, from suscipere (to take up)",
+    "rootBreakdown": {
+      "prefix": "sus- (아래에서)",
+      "root": "cept (받다, 잡다)",
+      "suffix": "-ible (~할 수 있는)"
+    },
+    "relatedWords": [
+      "susceptibility",
+      "receptive",
+      "perception"
+    ],
+    "isEssential": true,
+    "segmentIndex": 143,
+    "contextSentence": "Are the two areas that are most susceptible"
+  },
+  {
+    "word": "aerobic",
+    "phonetic": "/eˈroʊbɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "relating to or requiring oxygen; exercise that increases heart rate and breathing",
+    "meaningKo": "유산소의",
+    "etymology": "Greek aer (air) + bios (life)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "aero- (공기)",
+      "suffix": "-bic (생명의)"
+    },
+    "relatedWords": [
+      "aerobics",
+      "anaerobic",
+      "cardiovascular"
+    ],
+    "isEssential": true,
+    "segmentIndex": 162,
+    "contextSentence": "And you want to get aerobic exercise in."
+  },
+  {
+    "word": "transient",
+    "phonetic": "/ˈtrænziənt/",
+    "partOfSpeech": "adjective",
+    "definition": "lasting only for a short time; temporary",
+    "meaningKo": "일시적인",
+    "etymology": "Latin transire (to go across, pass)",
+    "rootBreakdown": {
+      "prefix": "trans- (가로질러)",
+      "root": "i- (가다)",
+      "suffix": "-ent (~하는)"
+    },
+    "relatedWords": [
+      "transit",
+      "transition",
+      "transitory"
+    ],
+    "isEssential": true,
+    "segmentIndex": 116,
+    "contextSentence": "But these immediate effects are transient."
+  },
+  {
+    "word": "prescription",
+    "phonetic": "/prɪˈskrɪpʃn/",
+    "partOfSpeech": "noun",
+    "definition": "a recommendation or formula for a course of action",
+    "meaningKo": "처방, 처방전",
+    "etymology": "Latin praescriptio, from praescribere (to write before, direct)",
+    "rootBreakdown": {
+      "prefix": "pre- (미리)",
+      "root": "script (쓰다)",
+      "suffix": "-ion (행위/상태)"
+    },
+    "relatedWords": [
+      "prescribe",
+      "prescriptive",
+      "description"
+    ],
+    "isEssential": false,
+    "segmentIndex": 173,
+    "contextSentence": "I want to understand the optimum exercise prescription"
+  },
+  {
+    "word": "trajectory",
+    "phonetic": "/trəˈdʒektəri/",
+    "partOfSpeech": "noun",
+    "definition": "the path followed by a moving object; the general direction of something",
+    "meaningKo": "궤적, 궤도",
+    "etymology": "Latin trajectoria, from trajicere (to throw across)",
+    "rootBreakdown": {
+      "prefix": "tra- (가로질러)",
+      "root": "ject (던지다)",
+      "suffix": "-ory (~의 성질을 가진)"
+    },
+    "relatedWords": [
+      "project",
+      "inject",
+      "eject"
+    ],
+    "isEssential": false,
+    "segmentIndex": 202,
+    "contextSentence": "And in this way, it will change the trajectory of your life for the better."
+  },
+  {
+    "word": "regime",
+    "phonetic": "/rɪˈʒiːm/",
+    "partOfSpeech": "noun",
+    "definition": "a systematic plan or regular course of action, especially for health",
+    "meaningKo": "체계, 습관, 요법",
+    "etymology": "French régime, from Latin regimen (rule, guidance)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "reg- (다스리다, 규칙)",
+      "suffix": "-ime (체계)"
+    },
+    "relatedWords": [
+      "regimen",
+      "regulate",
+      "regiment"
+    ],
+    "isEssential": false,
+    "segmentIndex": 118,
+    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function"
+  },
+  {
+    "word": "temporal lobe",
+    "phonetic": "/ˈtempərəl loʊb/",
+    "partOfSpeech": "noun",
+    "definition": "the part of the brain located on the sides, involved in auditory processing and memory",
+    "meaningKo": "측두엽",
+    "etymology": "Latin temporalis (of the temples) + lobus (rounded projection)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "tempor- (관자놀이)",
+      "suffix": "lobe (엽)"
+    },
+    "relatedWords": [
+      "temporal",
+      "frontal lobe",
+      "parietal lobe"
+    ],
+    "isEssential": true,
+    "segmentIndex": 25,
+    "contextSentence": "The second key area is located in the temporal lobe,"
+  },
+  {
+    "word": "anatomy",
+    "phonetic": "/əˈnætəmi/",
+    "partOfSpeech": "noun",
+    "definition": "the branch of science concerned with the bodily structure of organisms",
+    "meaningKo": "구조, 해부학",
+    "etymology": "Greek anatomia, from ana (up) + temnein (to cut)",
+    "rootBreakdown": {
+      "prefix": "ana- (위로)",
+      "root": "tom- (자르다)",
+      "suffix": "-y (학문)"
+    },
+    "relatedWords": [
+      "anatomical",
+      "anatomist",
+      "dissect"
+    ],
+    "isEssential": false,
+    "segmentIndex": 120,
+    "contextSentence": "And these effects are long-lasting, because exercise actually changes the brain's anatomy,"
+  },
+  {
+    "word": "optimum",
+    "phonetic": "/ˈɒptɪməm/",
+    "partOfSpeech": "adjective",
+    "definition": "most favorable or desirable; best",
+    "meaningKo": "최적의",
+    "etymology": "Latin optimum (the best), from optimus (best)",
+    "rootBreakdown": {
+      "prefix": null,
+      "root": "optim- (최고의)",
+      "suffix": "-um (라틴어 중성 어미)"
+    },
+    "relatedWords": [
+      "optimal",
+      "optimize",
+      "optimistic"
+    ],
+    "isEssential": false,
+    "segmentIndex": 173,
+    "contextSentence": "I want to understand the optimum exercise prescription"
+  },
+  {
+    "word": "triathlete",
+    "phonetic": "/traɪˈæθliːt/",
+    "partOfSpeech": "noun",
+    "definition": "an athlete who competes in triathlons (swimming, cycling, and running)",
+    "meaningKo": "철인 3종 경기 선수",
+    "etymology": "Greek tri- (three) + athlon (contest)",
+    "rootBreakdown": {
+      "prefix": "tri- (셋)",
+      "root": "athlet- (경기)",
+      "suffix": "-e (사람)"
+    },
+    "relatedWords": [
+      "triathlon",
+      "athlete",
+      "athletic"
+    ],
+    "isEssential": false,
+    "segmentIndex": 158,
+    "contextSentence": "First, good news, you don't have to become a triathlete to get these effects."
+  },
+  {
+    "word": "protective",
+    "phonetic": "/prəˈtektɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "serving or intended to protect; providing defense or shelter",
+    "meaningKo": "보호하는, 보호적인",
+    "etymology": "Latin protegere (to cover in front, protect)",
+    "rootBreakdown": {
+      "prefix": "pro- (앞에)",
+      "root": "tect (덮다, 보호하다)",
+      "suffix": "-ive (~의 성질을 가진)"
+    },
+    "relatedWords": [
+      "protect",
+      "protection",
+      "protector"
+    ],
+    "isEssential": true,
+    "segmentIndex": 10,
+    "contextSentence": "Has immediate, long-lasting and protective benefits for your brain,"
+  },
+  {
+    "word": "incurable",
+    "phonetic": "/ɪnˈkjʊərəbl/",
+    "partOfSpeech": "adjective",
+    "definition": "not able to be cured or healed",
+    "meaningKo": "불치의, 치료할 수 없는",
+    "etymology": "Latin in- (not) + curabilis (curable)",
+    "rootBreakdown": {
+      "prefix": "in- (부정)",
+      "root": "cur- (치료하다)",
+      "suffix": "-able (~할 수 있는)"
+    },
+    "relatedWords": [
+      "cure",
+      "curable",
+      "incurably"
+    ],
+    "isEssential": false,
+    "segmentIndex": 201,
+    "contextSentence": "But it will protect your brain from incurable diseases."
+  }
+]
