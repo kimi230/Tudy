@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom';
 import { loadCategories, loadVideos } from '../lib/dataLoader';
 import type { Category, VideoEntry } from '../types';
 
-const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL || 'https://forms.gle/mL7Sr2BTFA9e1ako6';
-
 export default function Home() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [videos, setVideos] = useState<VideoEntry[]>([]);
   const [showGuide, setShowGuide] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     loadCategories().then(setCategories);
@@ -145,7 +144,7 @@ export default function Home() {
         <section id="videos">
           <h2 className="text-xl font-semibold text-gray-900 mb-4">최근 추가된 영상</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {videos.slice(0, 6).map((v) => (
+            {(showAll ? videos : videos.slice(0, 6)).map((v) => (
               <Link
                 key={v.videoId}
                 to={`/study/${v.videoId}`}
@@ -158,27 +157,27 @@ export default function Home() {
                 />
                 <div className="p-3">
                   <h4 className="text-sm font-medium text-gray-900 line-clamp-2">{v.title}</h4>
+                  {v.descriptionKo && (
+                    <p className="text-xs text-gray-500 mt-1 line-clamp-1">{v.descriptionKo}</p>
+                  )}
                   <p className="text-xs text-gray-400 mt-1">{v.channel}</p>
                 </div>
               </Link>
             ))}
           </div>
+          {videos.length > 6 && (
+            <div className="text-center mt-6">
+              <button
+                onClick={() => setShowAll((prev) => !prev)}
+                className="px-6 py-2 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-600 hover:border-indigo-300 hover:text-indigo-600 transition-all"
+              >
+                {showAll ? '접기' : `더보기 (${videos.length - 6}개)`}
+              </button>
+            </div>
+          )}
         </section>
       )}
 
-      {/* ──── 4. CTA 신청 ──── */}
-      <section className="bg-gray-50 rounded-xl p-6">
-        <h2 className="text-lg font-semibold text-gray-900 mb-2">영상 신청하기</h2>
-        <p className="text-sm text-gray-500 mb-4">학습하고 싶은 YouTube 영상이 있나요? 아래 버튼을 눌러 신청해 주세요.</p>
-        <a
-          href={GOOGLE_FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors"
-        >
-          신청하러 가기
-        </a>
-      </section>
     </div>
   );
 }

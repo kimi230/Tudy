@@ -353,6 +353,8 @@ def step_update_index(meta: dict[str, Any]) -> None:
         "speechRateWpm": meta.get("speechRateWpm", 0),
         "addedAt": meta.get("addedAt", datetime.now().strftime("%Y-%m-%d")),
     }
+    if meta.get("descriptionKo"):
+        index_entry["descriptionKo"] = meta["descriptionKo"]
 
     if existing_idx is not None:
         videos[existing_idx] = index_entry
@@ -496,6 +498,9 @@ def _run_finalize(
     speech_rate_wpm = round(total_words / (duration / 60)) if duration > 0 else 0
     today = datetime.now().strftime("%Y-%m-%d")
 
+    # Read descriptionKo if Claude Code wrote it in segments_data
+    description_ko = segments_data.get("descriptionKo", "")
+
     # Generate meta.json
     meta = {
         "videoId": video_id,
@@ -512,6 +517,8 @@ def _run_finalize(
         "vocabularyCount": len(vocabulary) if isinstance(vocabulary, list) else 0,
         "grammarPatternCount": len(grammar) if isinstance(grammar, list) else 0,
     }
+    if description_ko:
+        meta["descriptionKo"] = description_ko
     save_json(video_dir / "meta.json", meta)
 
     # Update videos.json index

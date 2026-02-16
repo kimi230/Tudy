@@ -19,6 +19,7 @@ export interface VideoEntry {
   thumbnail: string;
   speechRateWpm: number;
   addedAt: string;
+  descriptionKo?: string;
 }
 
 // Video metadata (per-video meta.json)
