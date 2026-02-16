@@ -54,98 +54,98 @@ export default function Step7_ErrorNote({
   };
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 7: 오답노트</h3>
-        <p className="text-sm text-gray-500">
-          안 들렸거나 복습이 필요한 부분을 정리합니다. ({problemIndices.length}개 세그먼트)
-        </p>
+    <div className="space-y-4 max-h-[80vh] overflow-y-auto pr-1">
+      {/* Header */}
+      <div className="flex items-start justify-between">
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 7: 오답노트</h3>
+          <p className="text-xs text-gray-500">
+            문제 세그먼트 {problemIndices.length}개
+          </p>
+        </div>
+        <button
+          onClick={onComplete}
+          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+        >
+          다음 →
+        </button>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Problem segments list */}
-        <div className="space-y-2 max-h-[60vh] overflow-y-auto">
-          {problemIndices.length === 0 ? (
-            <p className="text-sm text-gray-400 text-center py-8">문제 세그먼트가 없습니다</p>
-          ) : (
-            problemIndices.map((idx) => {
-              const seg = segments[idx];
-              const hasNote = errorNotes.some((n) => n.segmentIndex === idx);
-              return (
-                <button
-                  key={idx}
-                  onClick={() => setSelectedIdx(idx)}
-                  className={`w-full text-left p-3 rounded-lg border transition-colors ${
-                    selectedIdx === idx
-                      ? 'border-indigo-300 bg-indigo-50'
-                      : hasNote
-                      ? 'border-green-200 bg-green-50'
-                      : 'border-red-200 bg-red-50 hover:bg-red-100'
-                  }`}
-                >
-                  <p className="text-sm text-gray-900">{seg?.textEn}</p>
-                  <p className="text-xs text-gray-500 mt-1">{seg?.textKo}</p>
-                  {hasNote && <span className="text-xs text-green-600 mt-1 inline-block">✓ 노트 작성됨</span>}
-                </button>
-              );
-            })
-          )}
-        </div>
-
-        {/* Note form */}
-        {selectedIdx !== null && segments[selectedIdx] && (
-          <div className="bg-gray-50 rounded-lg p-4 space-y-4">
-            <div>
-              <p className="text-sm font-medium text-gray-900">{segments[selectedIdx].textEn}</p>
-              <p className="text-xs text-gray-500 mt-1">{segments[selectedIdx].textKo}</p>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">오류 유형</label>
-              <select
-                value={errorType}
-                onChange={(e) => setErrorType(e.target.value as ErrorNote['errorType'])}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+      {/* Problem segments list */}
+      <div className="space-y-1.5">
+        {problemIndices.length === 0 ? (
+          <p className="text-sm text-gray-400 text-center py-8">문제 세그먼트가 없습니다</p>
+        ) : (
+          problemIndices.map((idx) => {
+            const seg = segments[idx];
+            const hasNote = errorNotes.some((n) => n.segmentIndex === idx);
+            return (
+              <button
+                key={idx}
+                onClick={() => setSelectedIdx(selectedIdx === idx ? null : idx)}
+                className={`w-full text-left p-2.5 rounded-lg border transition-colors ${
+                  selectedIdx === idx
+                    ? 'border-indigo-300 bg-indigo-50'
+                    : hasNote
+                    ? 'border-green-200 bg-green-50'
+                    : 'border-red-200 bg-red-50 hover:bg-red-100'
+                }`}
               >
-                <option value="vocabulary">어휘</option>
-                <option value="grammar">문법</option>
-                <option value="connected_speech">연음</option>
-                <option value="pronunciation">발음</option>
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">내가 들은 것</label>
-              <input
-                value={userHeard}
-                onChange={(e) => setUserHeard(e.target.value)}
-                placeholder="내가 들은 대로 적어보세요"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">설명/메모</label>
-              <textarea
-                value={explanation}
-                onChange={(e) => setExplanation(e.target.value)}
-                placeholder="왜 안 들렸는지, 어떤 점을 주의해야 하는지"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm h-24 resize-none"
-              />
-            </div>
-            <button
-              onClick={handleAdd}
-              className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700"
-            >
-              오답노트 추가
-            </button>
-          </div>
+                <p className="text-sm text-gray-900">{seg?.textEn}</p>
+                <p className="text-xs text-gray-500 mt-0.5">{seg?.textKo}</p>
+                {hasNote && <span className="text-xs text-green-600 mt-0.5 inline-block">✓ 노트 작성됨</span>}
+              </button>
+            );
+          })
         )}
       </div>
 
-      <button
-        onClick={onComplete}
-        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-      >
-        오답노트 완료 → 다음 단계
-      </button>
+      {/* Note form — inline below selected segment */}
+      {selectedIdx !== null && segments[selectedIdx] && (
+        <div className="bg-gray-50 rounded-lg p-3 space-y-3">
+          <div>
+            <p className="text-sm font-medium text-gray-900">{segments[selectedIdx].textEn}</p>
+            <p className="text-xs text-gray-500 mt-0.5">{segments[selectedIdx].textKo}</p>
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-700 mb-1">오류 유형</label>
+            <select
+              value={errorType}
+              onChange={(e) => setErrorType(e.target.value as ErrorNote['errorType'])}
+              className="w-full px-2 py-1.5 border border-gray-300 rounded-lg text-sm"
+            >
+              <option value="vocabulary">어휘</option>
+              <option value="grammar">문법</option>
+              <option value="connected_speech">연음</option>
+              <option value="pronunciation">발음</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-700 mb-1">내가 들은 것</label>
+            <input
+              value={userHeard}
+              onChange={(e) => setUserHeard(e.target.value)}
+              placeholder="내가 들은 대로 적어보세요"
+              className="w-full px-2 py-1.5 border border-gray-300 rounded-lg text-sm"
+            />
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-gray-700 mb-1">설명/메모</label>
+            <textarea
+              value={explanation}
+              onChange={(e) => setExplanation(e.target.value)}
+              placeholder="왜 안 들렸는지, 어떤 점을 주의해야 하는지"
+              className="w-full px-2 py-1.5 border border-gray-300 rounded-lg text-sm h-20 resize-none"
+            />
+          </div>
+          <button
+            onClick={handleAdd}
+            className="w-full py-1.5 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors"
+          >
+            오답노트 추가
+          </button>
+        </div>
+      )}
     </div>
   );
 }

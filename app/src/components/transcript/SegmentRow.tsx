@@ -7,6 +7,7 @@ interface Props {
   showKorean: boolean;
   highlightedWordIndex?: number;
   markedColor?: 'blue' | 'red';
+  compact?: boolean;
   onClick: () => void;
   onMark?: (color: 'blue' | 'red') => void;
 }
@@ -17,6 +18,7 @@ export default function SegmentRow({
   showKorean,
   highlightedWordIndex,
   markedColor,
+  compact,
   onClick,
   onMark,
 }: Props) {
@@ -30,14 +32,14 @@ export default function SegmentRow({
 
   return (
     <div
-      className={`flex gap-3 p-3 border rounded-lg cursor-pointer transition-colors ${bgColor}`}
+      className={`flex gap-3 ${compact ? 'p-2' : 'p-3'} border rounded-lg cursor-pointer transition-colors ${bgColor}`}
       onClick={onClick}
     >
       <span className="text-xs text-gray-400 w-12 shrink-0 pt-0.5">
         {formatTime(segment.start)}
       </span>
       <div className="flex-1 min-w-0">
-        <p className="text-sm text-gray-900 leading-relaxed">
+        <p className={`text-sm text-gray-900 ${compact ? 'leading-snug' : 'leading-relaxed'}`}>
           {segment.words.map((w, i) => (
             <span
               key={i}

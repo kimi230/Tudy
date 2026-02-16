@@ -9,6 +9,7 @@ interface Props {
   highlightWords?: boolean;
   markedSegments?: MarkedSegment[];
   maxHeight?: string;
+  compact?: boolean;
   onSegmentClick: (segment: Segment) => void;
   onMark?: (segmentIndex: number, color: 'blue' | 'red') => void;
 }
@@ -20,6 +21,7 @@ export default function TranscriptPanel({
   highlightWords,
   markedSegments,
   maxHeight = '60vh',
+  compact,
   onSegmentClick,
   onMark,
 }: Props) {
@@ -53,7 +55,7 @@ export default function TranscriptPanel({
   };
 
   return (
-    <div ref={containerRef} className="overflow-y-auto space-y-1" style={{ maxHeight }}>
+    <div ref={containerRef} className={`overflow-y-auto ${compact ? 'space-y-0.5' : 'space-y-1'}`} style={{ maxHeight }}>
       {segments.map((seg) => (
         <div key={seg.index} ref={seg.index === activeIndex ? activeRef : undefined}>
           <SegmentRow
@@ -62,6 +64,7 @@ export default function TranscriptPanel({
             showKorean={showKorean}
             highlightedWordIndex={seg.index === activeIndex ? highlightedWordIndex : undefined}
             markedColor={getMarkedColor(seg.index)}
+            compact={compact}
             onClick={() => onSegmentClick(seg)}
             onMark={onMark ? (color) => onMark(seg.index, color) : undefined}
           />

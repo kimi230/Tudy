@@ -59,19 +59,34 @@ export default function Step8_Shadow({ currentTime, segments, onComplete }: Prop
   const config = PHASE_CONFIG[phase];
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 8: 쉐도잉</h3>
-        <p className="text-sm text-gray-500">분석이 끝난 후 쉐도잉해야 효과가 있습니다. 3단계로 진행하세요.</p>
+    <div className="space-y-3 max-h-[80vh] overflow-y-auto pr-1">
+      {/* Header */}
+      <div className="flex items-start justify-between">
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 8: 쉐도잉</h3>
+          <p className="text-xs text-gray-500">3단계로 진행하세요.</p>
+        </div>
+        <button
+          onClick={() => {
+            if (phase < 3) {
+              setPhase((phase + 1) as ShadowPhase);
+            } else {
+              onComplete();
+            }
+          }}
+          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+        >
+          {phase < 3 ? `Phase ${phase + 1} →` : '다음 →'}
+        </button>
       </div>
 
       {/* Phase selector */}
-      <div className="flex gap-2">
+      <div className="flex gap-1.5">
         {([1, 2, 3] as ShadowPhase[]).map((p) => (
           <button
             key={p}
             onClick={() => setPhase(p)}
-            className={`flex-1 py-1.5 px-2 rounded-lg text-sm font-medium transition-colors border ${
+            className={`flex-1 py-1.5 px-1.5 rounded-lg text-xs font-medium transition-colors border ${
               phase === p
                 ? 'bg-indigo-600 text-white border-indigo-600'
                 : phase > p
@@ -79,74 +94,41 @@ export default function Step8_Shadow({ currentTime, segments, onComplete }: Prop
                 : 'bg-gray-50 text-gray-500 border-gray-200 hover:bg-gray-100'
             }`}
           >
-            <p className="font-semibold whitespace-nowrap">{PHASE_CONFIG[p].title}</p>
-            <p className="text-xs mt-0.5 opacity-80">{PHASE_CONFIG[p].description}</p>
+            {PHASE_CONFIG[p].title}
           </button>
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="space-y-4">
-          {/* Phase-specific tips */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h4 className="text-sm font-medium text-blue-800 mb-2">{config.title}</h4>
-            <ul className="text-sm text-blue-700 space-y-1 list-disc list-inside">
-              {config.tips.map((tip, i) => (
-                <li key={i}>{tip}</li>
-              ))}
-            </ul>
-            <p className="text-xs text-blue-600 mt-3">
-              추천 재생 속도: <span className="font-bold">{config.recommendedRate}x</span>
-            </p>
-          </div>
-
-          {/* Intonation guide (always visible) */}
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
-            <p className="text-xs text-amber-800">
-              <span className="font-medium">연기자처럼!</span> 단순히 단어를 따라하는 게 아니라, 감정/톤/강세까지 복사하세요.
-              인토네이션이 영어의 핵심입니다.
-            </p>
-          </div>
-        </div>
-
-        {/* Transcript area */}
-        <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <h4 className="text-sm font-medium text-gray-700">
-              트랜스크립트 {!config.showScript && '(숨김)'}
-            </h4>
-          </div>
-
-          {config.showScript ? (
-            <TranscriptPanel
-              segments={segments}
-              currentTime={currentTime}
-              showKorean={phase === 1}
-              highlightWords
-              onSegmentClick={() => {}}
-            />
-          ) : (
-            <div className="bg-gray-100 rounded-lg p-8 text-center text-gray-400 min-h-[300px] flex flex-col items-center justify-center">
-              <p className="text-lg mb-2">블라인드 모드</p>
-              <p className="text-sm">소리에만 집중하세요</p>
-              <p className="text-xs mt-4 text-gray-300">안 되는 부분이 있으면 Phase 2로 돌아가세요</p>
-            </div>
-          )}
-        </div>
+      {/* Tips */}
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-2.5">
+        <ul className="text-xs text-blue-700 space-y-0.5 list-disc list-inside">
+          {config.tips.map((tip, i) => (
+            <li key={i}>{tip}</li>
+          ))}
+        </ul>
+        <p className="text-[10px] text-blue-600 mt-1.5">
+          추천 속도: <span className="font-bold">{config.recommendedRate}x</span>
+        </p>
       </div>
 
-      <button
-        onClick={() => {
-          if (phase < 3) {
-            setPhase((phase + 1) as ShadowPhase);
-          } else {
-            onComplete();
-          }
-        }}
-        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-      >
-        {phase < 3 ? `Phase ${phase + 1}로 진행 →` : '쉐도잉 완료 → 다음 단계'}
-      </button>
+      {/* Transcript area */}
+      {config.showScript ? (
+        <TranscriptPanel
+          segments={segments}
+          currentTime={currentTime}
+          showKorean={phase === 1}
+          highlightWords
+          compact
+          onSegmentClick={() => {}}
+          maxHeight="340px"
+        />
+      ) : (
+        <div className="bg-gray-100 rounded-lg p-6 text-center text-gray-400">
+          <p className="text-sm mb-1">블라인드 모드</p>
+          <p className="text-xs">소리에만 집중하세요</p>
+          <p className="text-[10px] mt-2 text-gray-300">안 되는 부분은 Phase 2로 돌아가세요</p>
+        </div>
+      )}
     </div>
   );
 }

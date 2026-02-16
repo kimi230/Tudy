@@ -16,9 +16,17 @@ export default function Step6_Review({ selfScore, onScoreChange, onComplete }: P
 
   return (
     <div className="space-y-6">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 6: 복습 듣기</h3>
-        <p className="text-sm text-gray-500">자막 없이 다시 한번 전체를 들어보세요. 이전보다 얼마나 더 이해되는지 확인합니다.</p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 6: 복습 듣기</h3>
+          <p className="text-sm text-gray-500">자막 없이 다시 한번 전체를 들어보세요. 이전보다 얼마나 더 이해되는지 확인합니다.</p>
+        </div>
+        <button
+          onClick={onComplete}
+          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+        >
+          다음 →
+        </button>
       </div>
 
       <div className="max-w-md space-y-4">
@@ -50,12 +58,6 @@ export default function Step6_Review({ selfScore, onScoreChange, onComplete }: P
         </div>
       </div>
 
-      <button
-        onClick={onComplete}
-        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-      >
-        평가 완료 → 다음 단계
-      </button>
     </div>
   );
 }

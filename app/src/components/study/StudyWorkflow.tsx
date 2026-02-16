@@ -30,7 +30,7 @@ import Step6_Review from './Step6_Review';
 import Step7_ErrorNote from './Step7_ErrorNote';
 import Step8_Shadow from './Step8_Shadow';
 import Step9_Record from './Step9_Record';
-import Step10_Summary from './Step10_Summary';
+import Step10_Summary, { Step10_SidePanel, Step10_Bottom } from './Step10_Summary';
 
 interface Props {
   videoId: string;
@@ -223,6 +223,23 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             목록으로 돌아가기
           </Link>
         </div>
+      ) : step === 10 ? (
+        <>
+          <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
+            <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
+            <Step10_SidePanel
+              summary={session.summary}
+              onSummaryChange={updateSummary}
+              onComplete={() => completeStep(10)}
+            />
+          </div>
+          <Step10_Bottom
+            segments={segments}
+            structure={structure}
+            selfScore={session.selfScore}
+            totalStudyTimeSec={session.totalStudyTimeSec}
+          />
+        </>
       ) : step === 4 ? (
         <>
           <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
@@ -253,7 +270,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
           </div>
           <Step4_Compare segments={segments} structure={structure} />
         </>
-      ) : (step === 1 || step === 2 || step === 3 || step === 5) ? (
+      ) : (step === 1 || step === 2 || step === 3 || step === 5 || step === 6 || step === 7 || step === 8 || step === 9) ? (
         <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
           <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
           <div>{renderStep()}</div>
