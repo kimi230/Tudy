@@ -14,6 +14,7 @@ Claude Code acts as the orchestrator (Step 5: evaluate) between the two modes.
 import argparse
 import json
 import logging
+import os
 import re
 import sys
 import time
@@ -30,8 +31,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 PROJECT_ROOT = SCRIPT_DIR.parent
-FRONTEND_DIR = PROJECT_ROOT / "frontend"
-DATA_DIR = FRONTEND_DIR / "public" / "data"
+DATA_DIR = Path(os.environ.get("STDYENG_DATA_DIR",
+    str(PROJECT_ROOT / "app" / "public" / "data")))
 TMP_DIR = SCRIPT_DIR / ".tmp"
 VIDEOS_INDEX_PATH = DATA_DIR / "videos.json"
 

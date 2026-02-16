@@ -115,7 +115,7 @@ export default function Step10_Summary({
 
       <button
         onClick={onComplete}
-        className="px-8 py-3 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 transition-colors text-lg"
+        className="px-5 py-2.5 text-sm font-medium text-green-700 bg-green-50 border border-green-200 rounded-lg hover:bg-green-100 transition-colors"
       >
         학습 완료!
       </button>

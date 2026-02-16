@@ -1,7 +1,7 @@
 # ==============================================================================
 # stdyEng 영상 처리 워크플로우
 # ==============================================================================
-# 참조: scripts/bootstrap.yaml (마스터 정의)
+# 참조: pipeline/bootstrap.yaml (마스터 정의)
 #
 # YouTube URL → 학습 콘텐츠 생성 (3-Phase)
 # Phase 1: 도구 (기계적 처리)
@@ -38,7 +38,7 @@ input:
 # 출력
 # ==============================================================================
 output:
-  directory: "frontend/public/data/{videoId}/"
+  directory: "app/public/data/{videoId}/"
   files:
     - meta.json
     - segments.json
@@ -46,7 +46,7 @@ output:
     - grammar.json
     - connected_speech.json
     - structure.json
-  index: "frontend/public/data/videos.json"
+  index: "app/public/data/videos.json"
 
 # ==============================================================================
 # Phase 1: 도구 (기계적 처리)
@@ -55,7 +55,7 @@ phase_1:
   name: "다운로드 + STT + 세그먼트 정제"
   executor: bash
   command: >
-    python3 scripts/process_video.py
+    python3 pipeline/process_video.py
     --url "{url}"
     --category "{category}"
     --mechanical-only
@@ -235,7 +235,7 @@ phase_3:
   executor: bash
   depends_on: [translate, extract_vocabulary, analyze_grammar, analyze_connected_speech, analyze_structure]
   command: >
-    python3 scripts/process_video.py
+    python3 pipeline/process_video.py
     --video-id "{videoId}"
     --finalize
     --category "{category}"

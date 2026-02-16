@@ -287,7 +287,7 @@ export default function Step5_Analyze({
         <span className="text-sm text-gray-500">복습필요: {reviewNeeded.length}개</span>
         <button
           onClick={onComplete}
-          className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+          className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
         >
           분석 완료 → 다음 단계
         </button>

@@ -22,7 +22,7 @@ export default function Step1_Listen({ onComplete }: Props) {
 
       <button
         onClick={onComplete}
-        className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
       >
         다 들었습니다 → 다음 단계
       </button>

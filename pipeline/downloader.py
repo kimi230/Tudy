@@ -88,7 +88,7 @@ def extract_metadata(url: str) -> VideoMetadata:
 def download_audio(
     url: str,
     video_id: str,
-    temp_dir: str = "scripts/.tmp",
+    temp_dir: str = "pipeline/.tmp",
 ) -> str:
     """Download audio from a YouTube video as MP3.
 

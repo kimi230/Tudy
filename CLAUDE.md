@@ -2,9 +2,34 @@
 
 YouTube 영상 기반 영어 학습 콘텐츠 자동 생성 시스템.
 
+## 프로젝트 구조
+
+```
+stdyEng/
+├── app/                          ← 프론트엔드 (React + Vite)
+│   ├── src/
+│   ├── public/data/              ← 생성된 학습 데이터
+│   ├── package.json
+│   └── vite.config.ts
+├── pipeline/                     ← 데이터 파이프라인 (Python)
+│   ├── process_video.py
+│   ├── video_search.py
+│   ├── downloader.py
+│   ├── transcriber.py
+│   ├── common_words.py
+│   ├── requirements.txt
+│   ├── bootstrap.yaml
+│   ├── workflow.yaml
+│   ├── search_workflow.yaml
+│   └── .tmp/
+├── .github/workflows/deploy.yml
+├── CLAUDE.md
+└── .gitignore
+```
+
 ## 워크플로우
 
-에이전틱 워크플로우 정의: `scripts/bootstrap.yaml`
+에이전틱 워크플로우 정의: `pipeline/bootstrap.yaml`
 
 ### 핵심 원칙
 
@@ -15,7 +40,7 @@ YouTube 영상 기반 영어 학습 콘텐츠 자동 생성 시스템.
 ### 영상 처리 흐름 (3-Phase)
 
 ```
-Phase 1 (도구): python3 scripts/process_video.py --url {url} --category {cat} --mechanical-only
+Phase 1 (도구): python3 pipeline/process_video.py --url {url} --category {cat} --mechanical-only
    → _raw_metadata.json, _clean_segments.json 생성
 
 Phase 2 (Claude Code 직접):
@@ -24,23 +49,22 @@ Phase 2 (Claude Code 직접):
    3. 난이도 추정
    4. 어휘/문법/연음/구조 분석 → 각 JSON 작성
 
-Phase 3 (도구): python3 scripts/process_video.py --video-id {id} --finalize --category {cat} --difficulty {diff}
+Phase 3 (도구): python3 pipeline/process_video.py --video-id {id} --finalize --category {cat} --difficulty {diff}
    → meta.json 생성, videos.json 업데이트
 ```
 
 ### 에이전틱 모드에서 사용하지 않는 모듈
 
-- `translator.py` — Anthropic API / Ollama 호출. standalone 테스트용.
-- `analyzer.py` — Ollama 호출. standalone 테스트용.
-- `batch_process.sh` — 레거시. 사용하지 않음.
+- `pipeline/translator.py` — Anthropic API / Ollama 호출. standalone 테스트용.
+- `pipeline/analyzer.py` — Ollama 호출. standalone 테스트용.
 
 ### 상세 워크플로우 정의
 
-- 영상 처리: `scripts/workflow.yaml`
-- 영상 검색: `scripts/search_workflow.yaml`
+- 영상 처리: `pipeline/workflow.yaml`
+- 영상 검색: `pipeline/search_workflow.yaml`
 
 ### 데이터 경로
 
-- 학습 데이터: `frontend/public/data/{videoId}/`
-- 인덱스: `frontend/public/data/videos.json`
-- 임시 파일: `scripts/.tmp/`
+- 학습 데이터: `app/public/data/{videoId}/`
+- 인덱스: `app/public/data/videos.json`
+- 임시 파일: `pipeline/.tmp/`

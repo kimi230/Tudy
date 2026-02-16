@@ -1,5 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useImperativeHandle, forwardRef } from 'react';
 import { useYouTubePlayer } from '../../hooks/useYouTubePlayer';
+
+export interface YouTubePlayerHandle {
+  pause: () => void;
+  play: () => void;
+  seekTo: (seconds: number) => void;
+}
 
 interface Props {
   youtubeId: string;
@@ -8,9 +14,14 @@ interface Props {
   className?: string;
 }
 
-export default function YouTubePlayer({ youtubeId, onTimeUpdate, onReady, className }: Props) {
+const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer(
+  { youtubeId, onTimeUpdate, onReady, className },
+  ref
+) {
   const containerId = `yt-player-${youtubeId}`;
   const { state, play, pause, seekTo, setRate } = useYouTubePlayer(containerId, youtubeId);
+
+  useImperativeHandle(ref, () => ({ pause, play, seekTo }), [pause, play, seekTo]);
 
   useEffect(() => {
     if (state.isReady && onReady) onReady();
@@ -30,9 +41,10 @@ export default function YouTubePlayer({ youtubeId, onTimeUpdate, onReady, classN
       <div className="flex items-center gap-3 mt-3">
         <button
           onClick={state.isPlaying ? pause : play}
-          className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors"
+          className="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
+          aria-label={state.isPlaying ? '일시정지' : '재생'}
         >
-          {state.isPlaying ? '일시정지' : '재생'}
+          {state.isPlaying ? '⏸' : '▶'}
         </button>
         <select
           value={state.playbackRate}
@@ -49,7 +61,9 @@ export default function YouTubePlayer({ youtubeId, onTimeUpdate, onReady, classN
       </div>
     </div>
   );
-}
+});
+
+export default YouTubePlayer;
 
 function formatTime(s: number): string {
   const m = Math.floor(s / 60);

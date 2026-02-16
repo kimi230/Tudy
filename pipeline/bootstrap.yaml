@@ -36,46 +36,46 @@ principles:
 tools:
   download_and_transcribe:
     command: >
-      python3 scripts/process_video.py
+      python3 pipeline/process_video.py
       --url "{url}"
       --category "{category}"
       --mechanical-only
     description: "Phase 1: 메타데이터 추출 → 오디오 다운로드 → Whisper STT → 세그먼트 정제"
     output:
-      - "frontend/public/data/{videoId}/_raw_metadata.json"
-      - "frontend/public/data/{videoId}/_clean_segments.json"
+      - "app/public/data/{videoId}/_raw_metadata.json"
+      - "app/public/data/{videoId}/_clean_segments.json"
 
   finalize:
     command: >
-      python3 scripts/process_video.py
+      python3 pipeline/process_video.py
       --video-id "{videoId}"
       --finalize
       --category "{category}"
       --difficulty "{difficulty}"
     description: "Phase 3: meta.json 생성 + videos.json 인덱스 업데이트 + 중간 파일 정리"
     output:
-      - "frontend/public/data/{videoId}/meta.json"
-      - "frontend/public/data/videos.json (업데이트)"
+      - "app/public/data/{videoId}/meta.json"
+      - "app/public/data/videos.json (업데이트)"
 
   search_youtube:
     command: >
-      python3 scripts/video_search.py
+      python3 pipeline/video_search.py
       --level "{level}"
       --category "{category}"
       --topics "{topics}"
     description: "YouTube 영상 검색 + 프리필터 + 기초 분석"
     output:
-      - "scripts/.tmp/candidates.json"
+      - "pipeline/.tmp/candidates.json"
 
   rank_candidates:
     command: >
-      python3 scripts/video_search.py
+      python3 pipeline/video_search.py
       --rank
-      --evaluated "scripts/.tmp/evaluated.json"
+      --evaluated "pipeline/.tmp/evaluated.json"
       --count {count}
     description: "평가된 후보 중복 제거 + 종합 랭킹"
     output:
-      - "scripts/.tmp/recommendations.json"
+      - "pipeline/.tmp/recommendations.json"
 
 # ==============================================================================
 # Claude Code 직접 수행 작업 (도구가 아님 — Claude Code 자체 능력)
@@ -116,8 +116,8 @@ claude_tasks:
     action: "스피치 구조 분석 (섹션 구분, 전환 표현 추출)"
 
   evaluate_candidates:
-    input: "scripts/.tmp/candidates.json"
-    output: "scripts/.tmp/evaluated.json"
+    input: "pipeline/.tmp/candidates.json"
+    output: "pipeline/.tmp/evaluated.json"
     action: "후보 영상의 자막을 읽고 구조/콘텐츠/명료도/흥미도 평가 (1~10점)"
 
 # ==============================================================================
@@ -125,12 +125,12 @@ claude_tasks:
 # ==============================================================================
 workflows:
   process:
-    file: "scripts/workflow.yaml"
+    file: "pipeline/workflow.yaml"
     description: "YouTube URL → 학습 콘텐츠 생성 (3-Phase)"
     trigger: "사용자가 URL을 제공하거나 영상 처리 요청 시"
 
   search:
-    file: "scripts/search_workflow.yaml"
+    file: "pipeline/search_workflow.yaml"
     description: "카테고리/난이도 기반 영상 검색 → 추천"
     trigger: "사용자가 '영상 찾아줘' 등 검색 요청 시"
 
@@ -139,10 +139,10 @@ workflows:
 # ==============================================================================
 paths:
   project_root: "/Users/lindong/stdyEng"
-  data_dir: "frontend/public/data"
-  index_file: "frontend/public/data/videos.json"
-  temp_dir: "scripts/.tmp"
-  scripts_dir: "scripts"
+  data_dir: "app/public/data"
+  index_file: "app/public/data/videos.json"
+  temp_dir: "pipeline/.tmp"
+  pipeline_dir: "pipeline"
 
 # ==============================================================================
 # 카테고리 / 난이도

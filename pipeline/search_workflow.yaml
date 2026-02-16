@@ -1,7 +1,7 @@
 # ==============================================================================
 # stdyEng 영상 검색 워크플로우
 # ==============================================================================
-# 참조: scripts/bootstrap.yaml (마스터 정의)
+# 참조: pipeline/bootstrap.yaml (마스터 정의)
 #
 # 사용자 요구에 맞는 YouTube 영상을 검색하고 추천
 # 예: "중급 동기부여 영상 찾아줘"
@@ -42,11 +42,11 @@ steps:
     name: "검색 + 분석"
     executor: bash
     command: >
-      python scripts/video_search.py
+      python3 pipeline/video_search.py
       --level {level}
       --category {category}
       --topics "{topics}"
-    output: scripts/.tmp/candidates.json
+    output: pipeline/.tmp/candidates.json
     description: |
       1. 레벨/카테고리/토픽으로 검색 쿼리 생성
       2. yt-dlp ytsearch로 후보 검색 (20~100개)
@@ -60,8 +60,8 @@ steps:
   - id: evaluate
     name: "구조/콘텐츠 평가"
     executor: claude_code
-    input: scripts/.tmp/candidates.json
-    output: scripts/.tmp/evaluated.json
+    input: pipeline/.tmp/candidates.json
+    output: pipeline/.tmp/evaluated.json
     action: |
       candidates.json의 각 후보 영상 자막(subtitle_text)을 읽고 평가:
       1. structure (1~10): 서론/본론/결론 구조 명확성
@@ -90,12 +90,12 @@ steps:
     name: "중복체크 + 종합 랭킹"
     executor: bash
     command: >
-      python scripts/video_search.py
+      python3 pipeline/video_search.py
       --rank
-      --evaluated scripts/.tmp/evaluated.json
+      --evaluated pipeline/.tmp/evaluated.json
       --count {count}
-    input: scripts/.tmp/evaluated.json
-    output: scripts/.tmp/recommendations.json
+    input: pipeline/.tmp/evaluated.json
+    output: pipeline/.tmp/recommendations.json
     description: |
       1. 기존 videos.json과 비교하여 중복 제거
       2. 종합 스코어링:

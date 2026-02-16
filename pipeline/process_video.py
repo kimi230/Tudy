@@ -14,32 +14,46 @@ Usage:
 import argparse
 import json
 import logging
+import os
 import sys
 import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-# Add the scripts directory to path so imports work when invoked from anywhere
+# Add the pipeline directory to path so imports work when invoked from anywhere
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from downloader import download_audio, extract_metadata, extract_video_id_from_url
 from transcriber import clean_and_merge_segments, transcribe_audio
-from translator import translate_segments
-from analyzer import (
-    analyze_connected_speech,
-    analyze_grammar_patterns,
-    analyze_speech_structure,
-    estimate_difficulty,
-    extract_vocabulary,
-)
+
+# Legacy modules (standalone mode only; not used in agentic mode)
+try:
+    from translator import translate_segments
+except ImportError:
+    translate_segments = None  # type: ignore
+
+try:
+    from analyzer import (
+        analyze_connected_speech,
+        analyze_grammar_patterns,
+        analyze_speech_structure,
+        estimate_difficulty,
+        extract_vocabulary,
+    )
+except ImportError:
+    analyze_connected_speech = None  # type: ignore
+    analyze_grammar_patterns = None  # type: ignore
+    analyze_speech_structure = None  # type: ignore
+    estimate_difficulty = None  # type: ignore
+    extract_vocabulary = None  # type: ignore
 
 # --- Constants ---
 
 PROJECT_ROOT = SCRIPT_DIR.parent
-FRONTEND_DIR = PROJECT_ROOT / "frontend"
-DATA_DIR = FRONTEND_DIR / "public" / "data"
+DATA_DIR = Path(os.environ.get("STDYENG_DATA_DIR",
+    str(PROJECT_ROOT / "app" / "public" / "data")))
 TEMP_DIR = SCRIPT_DIR / ".tmp"
 VIDEOS_INDEX_PATH = DATA_DIR / "videos.json"
 
