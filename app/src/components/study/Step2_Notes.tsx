@@ -90,14 +90,36 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
 
   const makeBulletHandler = useCallback((onChange: (v: string) => void) => {
     return (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-      if (e.key === 'Enter') {
+      if (e.key === 'Enter' && !e.nativeEvent.isComposing) {
         e.preventDefault();
         const textarea = e.currentTarget;
         const { selectionStart, value } = textarea;
+
+        // Empty textarea: just start with a bullet (no leading newline)
+        if (!value) {
+          onChange('- ');
+          requestAnimationFrame(() => {
+            textarea.selectionStart = textarea.selectionEnd = 2;
+          });
+          return;
+        }
+
         const lineStart = value.lastIndexOf('\n', selectionStart - 1) + 1;
         const currentLine = value.slice(lineStart, selectionStart);
-        const prefix = currentLine.match(/^(\s*- )/)?.[1];
-        const insert = prefix ? `\n${prefix}` : '\n- ';
+
+        // Empty bullet line: remove it instead of adding another
+        if (/^\s*-\s*$/.test(currentLine)) {
+          const cutFrom = lineStart > 0 ? lineStart - 1 : 0;
+          const newValue = value.slice(0, cutFrom) + value.slice(selectionStart);
+          onChange(newValue || '');
+          requestAnimationFrame(() => {
+            textarea.selectionStart = textarea.selectionEnd = cutFrom;
+          });
+          return;
+        }
+
+        const prefix = currentLine.match(/^(\s*- )/)?.[1] || '- ';
+        const insert = `\n${prefix}`;
         const newValue = value.slice(0, selectionStart) + insert + value.slice(selectionStart);
         onChange(newValue);
         requestAnimationFrame(() => {
