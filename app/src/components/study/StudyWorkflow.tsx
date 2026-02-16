@@ -231,8 +231,8 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
           </Link>
         </div>
       ) : (step === 1 || step === 2) ? (
-        <div className="lg:grid lg:grid-cols-2 lg:gap-6 space-y-4 lg:space-y-0">
-          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} />
+        <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
+          <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="lg:col-span-2" />
           <div>{renderStep()}</div>
         </div>
       ) : (
