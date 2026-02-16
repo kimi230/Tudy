@@ -38,13 +38,20 @@ export default function Step3_Mark({
 
   return (
     <div className="space-y-6">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 3: 재듣기 + 마킹</h3>
-        <p className="text-sm text-gray-500">
-          3번째 듣기입니다. 2번째 듣기에서 놓친 부분을 추가로 캐치하세요.
-          <span className="inline-block w-3 h-3 bg-blue-200 rounded ml-2 align-middle" /> 이해됨/새로 캐치
-          <span className="inline-block w-3 h-3 bg-red-200 rounded ml-2 align-middle" /> 여전히 안 들림
-        </p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 3: 재듣기 + 마킹</h3>
+          <p className="text-sm text-gray-500">
+            <span className="inline-block w-2.5 h-2.5 bg-blue-200 rounded mr-1 align-middle" /> 캐치
+            <span className="inline-block w-2.5 h-2.5 bg-red-200 rounded ml-2 mr-1 align-middle" /> 안 들림
+          </p>
+        </div>
+        <button
+          onClick={onComplete}
+          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+        >
+          다음 →
+        </button>
       </div>
 
       <TranscriptPanel
@@ -57,17 +64,10 @@ export default function Step3_Mark({
         maxHeight="340px"
       />
 
-      <div className="flex gap-4 text-sm text-gray-500">
-        <span><span className="inline-block w-2.5 h-2.5 bg-blue-200 rounded mr-1" />{blueCount}개 캐치</span>
-        <span><span className="inline-block w-2.5 h-2.5 bg-red-200 rounded mr-1" />{redCount}개 안 들림</span>
+      <div className="flex gap-4 text-xs text-gray-500">
+        <span><span className="inline-block w-2 h-2 bg-blue-200 rounded mr-1" />{blueCount}개</span>
+        <span><span className="inline-block w-2 h-2 bg-red-200 rounded mr-1" />{redCount}개</span>
       </div>
-
-      <button
-        onClick={onComplete}
-        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-      >
-        마킹 완료 → 다음 단계
-      </button>
     </div>
   );
 }

@@ -42,14 +42,22 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
       <div className="flex items-start justify-between">
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 2: 노트테이킹</h3>
-          <p className="text-sm text-gray-500">다시 들으면서 중심 내용을 자유롭게 메모하세요.</p>
+          <p className="text-sm text-gray-500">다시 들으면서 중심 내용을 메모하세요.</p>
         </div>
-        <button
-          onClick={() => setShowGuide(true)}
-          className="shrink-0 ml-4 px-3 py-1.5 text-sm font-medium text-indigo-600 border border-indigo-300 rounded-lg hover:bg-indigo-50 transition-colors"
-        >
-          가이드
-        </button>
+        <div className="flex gap-2 shrink-0 ml-4">
+          <button
+            onClick={() => setShowGuide(true)}
+            className="px-3 py-1.5 text-sm font-medium text-indigo-600 border border-indigo-300 rounded-lg hover:bg-indigo-50 transition-colors"
+          >
+            가이드
+          </button>
+          <button
+            onClick={onComplete}
+            className="px-3 py-1.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
+          >
+            다음 →
+          </button>
+        </div>
       </div>
 
       <textarea
@@ -60,13 +68,6 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
       />
 
       <p className="text-xs text-gray-400">자동 저장됩니다</p>
-
-      <button
-        onClick={onComplete}
-        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
-      >
-        노트 완료 → 다음 단계
-      </button>
 
       {/* Guide popup */}
       {showGuide && (
