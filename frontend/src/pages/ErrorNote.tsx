@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { useErrorNotes } from '../hooks/useErrorNotes';
-import type { ErrorNote as ErrorNoteType } from '../types';
-
 const typeLabels: Record<string, string> = {
   vocabulary: '어휘',
   grammar: '문법',

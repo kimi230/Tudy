@@ -21,8 +21,18 @@ export function useErrorNotes(videoId?: string) {
   }, [videoId]);
 
   useEffect(() => {
-    reload();
-  }, [reload]);
+    let cancelled = false;
+    (async () => {
+      const data = videoId
+        ? await getErrorNotesByVideo(videoId)
+        : await getAllErrorNotes();
+      if (!cancelled) {
+        setNotes(data);
+        setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [videoId]);
 
   const addNote = useCallback(
     async (note: Omit<ErrorNote, 'id' | 'createdAt'>) => {

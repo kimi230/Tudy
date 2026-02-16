@@ -34,7 +34,7 @@ export function useStudySession(videoId: string) {
   const [session, setSession] = useState<StudySession | null>(null);
   const [loading, setLoading] = useState(true);
   const timerRef = useRef<number | null>(null);
-  const startTimeRef = useRef<number>(Date.now());
+  const startTimeRef = useRef<number>(0);
 
   // Load or create session
   useEffect(() => {

@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback } from 'react';
 import type { CornellNotes, NoteSection, SpeechStructure } from '../../types';
 
 interface Props {
@@ -57,11 +57,6 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
   const [text, setText] = useState(parsed.text);
   const [sections, setSections] = useState<NoteSection[]>(parsed.sections);
   const [showGuide, setShowGuide] = useState(false);
-  const sectionsRef = useRef(sections);
-  sectionsRef.current = sections;
-  const textRef = useRef(text);
-  textRef.current = text;
-
   const emitChange = useCallback((t: string, secs: NoteSection[]) => {
     onNotesChange({
       cues: '', notes: t, summary: '',
@@ -71,27 +66,27 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
 
   const handleTextChange = useCallback((value: string) => {
     setText(value);
-    emitChange(value, sectionsRef.current);
-  }, [emitChange]);
+    emitChange(value, sections);
+  }, [emitChange, sections]);
 
   const addSection = useCallback((type: 'intro' | 'body' | 'conclusion') => {
     const newSection: NoteSection = { id: genId(), type, content: '- ' };
-    const next = [...sectionsRef.current, newSection];
+    const next = [...sections, newSection];
     setSections(next);
-    emitChange(textRef.current, next);
-  }, [emitChange]);
+    emitChange(text, next);
+  }, [emitChange, sections, text]);
 
   const updateSection = useCallback((id: string, content: string) => {
-    const next = sectionsRef.current.map(s => s.id === id ? { ...s, content } : s);
+    const next = sections.map(s => s.id === id ? { ...s, content } : s);
     setSections(next);
-    emitChange(textRef.current, next);
-  }, [emitChange]);
+    emitChange(text, next);
+  }, [emitChange, sections, text]);
 
   const removeSection = useCallback((id: string) => {
-    const next = sectionsRef.current.filter(s => s.id !== id);
+    const next = sections.filter(s => s.id !== id);
     setSections(next);
-    emitChange(textRef.current, next);
-  }, [emitChange]);
+    emitChange(text, next);
+  }, [emitChange, sections, text]);
 
   const makeBulletHandler = useCallback((onChange: (v: string) => void) => {
     return (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
@@ -194,7 +189,7 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
 
       <button
         onClick={onComplete}
-        className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+        className="px-5 py-2.5 text-sm font-medium text-indigo-700 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
       >
         노트 완료 → 다음 단계
       </button>

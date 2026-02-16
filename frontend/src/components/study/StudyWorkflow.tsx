@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useStudySession } from '../../hooks/useStudySession';
 import { useErrorNotes } from '../../hooks/useErrorNotes';
@@ -18,6 +18,7 @@ import type {
   VideoMeta,
 } from '../../types';
 import YouTubePlayer from '../common/YouTubePlayer';
+import type { YouTubePlayerHandle } from '../common/YouTubePlayer';
 import DifficultyBadge from '../common/DifficultyBadge';
 import StepIndicator from './StepIndicator';
 import Step1_Listen from './Step1_Listen';
@@ -58,6 +59,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
   const [structure, setStructure] = useState<SpeechStructure | undefined>();
   const [dataLoading, setDataLoading] = useState(true);
   const [currentTime, setCurrentTime] = useState(0);
+  const playerRef = useRef<YouTubePlayerHandle>(null);
 
   useEffect(() => {
     Promise.all([
@@ -69,6 +71,13 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
     ]).finally(() => setDataLoading(false));
   }, [videoId]);
 
+  // Pause YouTube & scroll to top on step change
+  const step = session?.currentStep;
+  useEffect(() => {
+    playerRef.current?.pause();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [step]);
+
   if (sessionLoading || dataLoading) {
     return (
       <div className="flex items-center justify-center py-20">
@@ -78,8 +87,6 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
   }
 
   if (!session) return null;
-
-  const step = session.currentStep;
 
   const renderStep = () => {
     switch (step) {
@@ -196,7 +203,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
         </div>
         <div className="mt-2">
           <StepIndicator
-            currentStep={step}
+            currentStep={step ?? 1}
             stepStatus={session.stepStatus}
             onStepClick={goToStep}
           />
@@ -204,10 +211,28 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
       </div>
 
       {/* YouTube player */}
-      <YouTubePlayer youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="max-w-4xl" />
+      <YouTubePlayer ref={playerRef} youtubeId={meta.youtubeId} onTimeUpdate={setCurrentTime} className="max-w-4xl" />
 
       {/* Step content */}
-      <div>{renderStep()}</div>
+      <div>
+        {session.completedAt ? (
+          <div className="text-center py-12 space-y-4">
+            <p className="text-4xl">🎉</p>
+            <h3 className="text-xl font-bold text-gray-900">학습 완료!</h3>
+            <p className="text-sm text-gray-500">
+              총 {Math.floor(session.totalStudyTimeSec / 60)}분 학습 | 이해도 {session.selfScore}%
+            </p>
+            <Link
+              to={`/category/${meta.categoryId}`}
+              className="inline-block mt-4 px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+            >
+              목록으로 돌아가기
+            </Link>
+          </div>
+        ) : (
+          renderStep()
+        )}
+      </div>
     </div>
   );
 }
