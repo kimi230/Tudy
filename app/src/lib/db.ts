@@ -1,5 +1,5 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
-import type { StudySession, ErrorNote, Recording, UrlRequest } from '../types';
+import type { StudySession, ErrorNote, Recording, UrlRequest, DictationAttempt } from '../types';
 
 interface StudyDB extends DBSchema {
   sessions: {
@@ -21,38 +21,53 @@ interface StudyDB extends DBSchema {
     key: number;
     value: UrlRequest;
   };
+  dictationAttempts: {
+    key: number;
+    value: DictationAttempt;
+    indexes: { videoId: string };
+  };
 }
 
 let dbPromise: Promise<IDBPDatabase<StudyDB>> | null = null;
 
 function getDB() {
   if (!dbPromise) {
-    dbPromise = openDB<StudyDB>('tudy-db', 1, {
-      upgrade(db) {
-        // Sessions store
-        const sessionStore = db.createObjectStore('sessions', { keyPath: 'id' });
-        sessionStore.createIndex('videoId', 'videoId');
+    dbPromise = openDB<StudyDB>('tudy-db', 2, {
+      upgrade(db, oldVersion) {
+        if (oldVersion < 1) {
+          // Sessions store
+          const sessionStore = db.createObjectStore('sessions', { keyPath: 'id' });
+          sessionStore.createIndex('videoId', 'videoId');
 
-        // Error notes store
-        const errorStore = db.createObjectStore('errorNotes', {
-          keyPath: 'id',
-          autoIncrement: true,
-        });
-        errorStore.createIndex('videoId', 'videoId');
-        errorStore.createIndex('errorType', 'errorType');
+          // Error notes store
+          const errorStore = db.createObjectStore('errorNotes', {
+            keyPath: 'id',
+            autoIncrement: true,
+          });
+          errorStore.createIndex('videoId', 'videoId');
+          errorStore.createIndex('errorType', 'errorType');
 
-        // Recordings store
-        const recordingStore = db.createObjectStore('recordings', {
-          keyPath: 'id',
-          autoIncrement: true,
-        });
-        recordingStore.createIndex('sessionId', 'sessionId');
+          // Recordings store
+          const recordingStore = db.createObjectStore('recordings', {
+            keyPath: 'id',
+            autoIncrement: true,
+          });
+          recordingStore.createIndex('sessionId', 'sessionId');
 
-        // URL requests store
-        db.createObjectStore('requests', {
-          keyPath: 'id',
-          autoIncrement: true,
-        });
+          // URL requests store
+          db.createObjectStore('requests', {
+            keyPath: 'id',
+            autoIncrement: true,
+          });
+        }
+
+        if (oldVersion < 2) {
+          const dictStore = db.createObjectStore('dictationAttempts', {
+            keyPath: 'id',
+            autoIncrement: true,
+          });
+          dictStore.createIndex('videoId', 'videoId');
+        }
       },
     });
   }
@@ -139,4 +154,25 @@ export async function saveRequest(request: UrlRequest) {
 export async function getAllRequests() {
   const db = await getDB();
   return db.getAll('requests');
+}
+
+// Dictation Attempts
+export async function saveDictationAttempt(attempt: DictationAttempt) {
+  const db = await getDB();
+  return db.put('dictationAttempts', attempt);
+}
+
+export async function getDictationAttemptsByVideo(videoId: string) {
+  const db = await getDB();
+  return db.getAllFromIndex('dictationAttempts', 'videoId', videoId);
+}
+
+export async function getAllDictationAttempts() {
+  const db = await getDB();
+  return db.getAll('dictationAttempts');
+}
+
+export async function deleteDictationAttempt(id: number) {
+  const db = await getDB();
+  await db.delete('dictationAttempts', id);
 }

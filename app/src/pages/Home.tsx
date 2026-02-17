@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadCategories, loadVideos } from '../lib/dataLoader';
+import VideoModeModal from '../components/common/VideoModeModal';
 import type { Category, VideoEntry } from '../types';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
   const [videos, setVideos] = useState<VideoEntry[]>([]);
   const [showGuide, setShowGuide] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const [selectedVideo, setSelectedVideo] = useState<VideoEntry | null>(null);
 
   useEffect(() => {
     loadCategories().then(setCategories);
@@ -145,10 +147,10 @@ export default function Home() {
           <h2 className="text-xl font-semibold text-gray-900 mb-4">최근 추가된 영상</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {(showAll ? videos : videos.slice(0, 6)).map((v) => (
-              <Link
+              <div
                 key={v.videoId}
-                to={`/study/${v.videoId}`}
-                className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+                onClick={() => setSelectedVideo(v)}
+                className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow cursor-pointer"
               >
                 <img
                   src={v.thumbnail}
@@ -162,7 +164,7 @@ export default function Home() {
                   )}
                   <p className="text-xs text-gray-400 mt-1">{v.channel}</p>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
           {videos.length > 6 && (
@@ -178,6 +180,7 @@ export default function Home() {
         </section>
       )}
 
+      <VideoModeModal video={selectedVideo} onClose={() => setSelectedVideo(null)} />
     </div>
   );
 }

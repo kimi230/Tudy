@@ -44,6 +44,7 @@ export interface Segment {
   textEn: string;
   textKo: string;
   words: WordTimestamp[];
+  listenDifficulty?: number; // 1-5 세그먼트별 듣기 난이도
 }
 
 // Segments file
@@ -186,6 +187,24 @@ export interface UrlRequest {
   reason: string;
   status: 'pending' | 'completed';
   createdAt: string;
+}
+
+// Dictation types
+export interface DictationAttempt {
+  id?: number;
+  videoId: string;
+  segmentIndex: number;
+  userInput: string;
+  correctText: string;
+  wordResults: DictationWordResult[];
+  score: number; // 0-100
+  createdAt: string;
+}
+
+export interface DictationWordResult {
+  expected: string;
+  actual: string | null; // null = 빠뜨린 단어
+  isCorrect: boolean;
 }
 
 // YouTube Player types

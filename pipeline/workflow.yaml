@@ -227,13 +227,25 @@ phase_2:
             ]
           }
 
+    # --- 2-7. 세그먼트별 듣기 난이도 ---
+    - id: score_difficulty
+      name: "세그먼트별 듣기 난이도 계산"
+      depends_on: [translate, extract_vocabulary, analyze_grammar, analyze_connected_speech]
+      executor: bash
+      command: >
+        python3 pipeline/difficulty_scorer.py --video-id "{videoId}"
+      action: |
+        segments.json + 분석 파일(vocabulary, grammar, connected_speech)을 기반으로
+        각 세그먼트에 1~5 듣기 난이도(listenDifficulty) 점수 부여.
+        segments.json에 in-place 업데이트.
+
 # ==============================================================================
 # Phase 3: 도구 (마무리)
 # ==============================================================================
 phase_3:
   name: "meta.json 생성 + 인덱스 업데이트"
   executor: bash
-  depends_on: [translate, extract_vocabulary, analyze_grammar, analyze_connected_speech, analyze_structure]
+  depends_on: [translate, extract_vocabulary, analyze_grammar, analyze_connected_speech, analyze_structure, score_difficulty]
   command: >
     python3 pipeline/process_video.py
     --video-id "{videoId}"

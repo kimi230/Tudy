@@ -128,7 +128,8 @@
           "start": 8.48,
           "end": 8.84
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 1,
@@ -277,7 +278,8 @@
           "start": 17.0,
           "end": 17.4
         }
-      ]
+      ],
+      "listenDifficulty": 5
     },
     {
       "index": 2,
@@ -496,7 +498,8 @@
           "start": 27.94,
           "end": 28.16
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 3,
@@ -725,7 +728,8 @@
           "start": 41.44,
           "end": 41.74
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 4,
@@ -829,7 +833,8 @@
           "start": 47.14,
           "end": 47.56
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 5,
@@ -983,7 +988,8 @@
           "start": 55.72,
           "end": 56.1
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 6,
@@ -1152,7 +1158,8 @@
           "start": 64.92,
           "end": 65.3
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 7,
@@ -1236,7 +1243,8 @@
           "start": 71.5,
           "end": 71.76
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 8,
@@ -1360,7 +1368,8 @@
           "start": 78.86,
           "end": 79.46
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 9,
@@ -1429,7 +1438,8 @@
           "start": 82.96,
           "end": 83.28
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 10,
@@ -1518,7 +1528,8 @@
           "start": 87.56,
           "end": 88.26
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 11,
@@ -1652,7 +1663,8 @@
           "start": 95.98,
           "end": 96.42
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 12,
@@ -1771,7 +1783,8 @@
           "start": 104.26,
           "end": 104.6
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 13,
@@ -1900,7 +1913,8 @@
           "start": 112.32,
           "end": 112.8
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 14,
@@ -2009,7 +2023,8 @@
           "start": 119.6,
           "end": 119.92
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 15,
@@ -2113,7 +2128,8 @@
           "start": 125.06,
           "end": 125.5
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 16,
@@ -2232,7 +2248,8 @@
           "start": 130.34,
           "end": 130.86
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 17,
@@ -2381,7 +2398,8 @@
           "start": 138.32,
           "end": 138.7
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 18,
@@ -2520,7 +2538,8 @@
           "start": 147.58,
           "end": 148.14
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 19,
@@ -2599,7 +2618,8 @@
           "start": 151.84,
           "end": 152.14
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 20,
@@ -2663,7 +2683,8 @@
           "start": 156.44,
           "end": 156.7
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 21,
@@ -2837,7 +2858,8 @@
           "start": 165.76,
           "end": 166.02
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 22,
@@ -2966,7 +2988,8 @@
           "start": 175.22,
           "end": 175.68
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 23,
@@ -3065,7 +3088,8 @@
           "start": 182.92,
           "end": 183.22
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 24,
@@ -3129,7 +3153,8 @@
           "start": 187.38,
           "end": 187.84
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 25,
@@ -3208,7 +3233,8 @@
           "start": 192.88,
           "end": 193.24
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 26,
@@ -3337,7 +3363,8 @@
           "start": 199.84,
           "end": 200.2
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 27,
@@ -3436,7 +3463,8 @@
           "start": 206.36,
           "end": 206.76
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 28,
@@ -3565,7 +3593,8 @@
           "start": 214.58,
           "end": 214.98
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 29,
@@ -3649,7 +3678,8 @@
           "start": 219.08,
           "end": 219.3
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 30,
@@ -3703,7 +3733,8 @@
           "start": 222.04,
           "end": 222.44
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 31,
@@ -3837,7 +3868,8 @@
           "start": 230.16,
           "end": 230.62
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 32,
@@ -3986,7 +4018,8 @@
           "start": 237.64,
           "end": 237.96
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 33,
@@ -4060,7 +4093,8 @@
           "start": 241.1,
           "end": 241.52
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 34,
@@ -4189,7 +4223,8 @@
           "start": 247.58,
           "end": 247.94
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 35,
@@ -4298,7 +4333,8 @@
           "start": 253.44,
           "end": 253.64
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 36,
@@ -4397,7 +4433,8 @@
           "start": 259.82,
           "end": 260.04
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 37,
@@ -4496,7 +4533,8 @@
           "start": 265.52,
           "end": 265.78
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 38,
@@ -4590,7 +4628,8 @@
           "start": 272.1,
           "end": 272.44
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 39,
@@ -4684,7 +4723,8 @@
           "start": 277.72,
           "end": 278.0
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 40,
@@ -4828,7 +4868,8 @@
           "start": 288.22,
           "end": 288.48
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 41,
@@ -4922,7 +4963,8 @@
           "start": 296.82,
           "end": 297.18
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 42,
@@ -5011,7 +5053,8 @@
           "start": 302.46,
           "end": 302.84
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 43,
@@ -5135,7 +5178,8 @@
           "start": 309.02,
           "end": 309.44
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 44,
@@ -5264,7 +5308,8 @@
           "start": 315.84,
           "end": 316.24
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 45,
@@ -5398,7 +5443,8 @@
           "start": 326.1,
           "end": 326.34
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 46,
@@ -5452,7 +5498,8 @@
           "start": 330.26,
           "end": 330.6
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 47,
@@ -5626,7 +5673,8 @@
           "start": 341.88,
           "end": 342.14
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 48,
@@ -5765,7 +5813,8 @@
           "start": 352.34,
           "end": 352.6
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 49,
@@ -5859,7 +5908,8 @@
           "start": 357.56,
           "end": 357.86
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 50,
@@ -5953,7 +6003,8 @@
           "start": 362.68,
           "end": 362.94
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 51,
@@ -6137,7 +6188,8 @@
           "start": 377.82,
           "end": 378.08
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 52,
@@ -6226,7 +6278,8 @@
           "start": 384.28,
           "end": 384.8
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 53,
@@ -6285,7 +6338,8 @@
           "start": 388.46,
           "end": 388.74
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 54,
@@ -6389,7 +6443,8 @@
           "start": 395.5,
           "end": 396.06
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 55,
@@ -6578,7 +6633,8 @@
           "start": 407.12,
           "end": 407.3
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 56,
@@ -6722,7 +6778,8 @@
           "start": 416.86,
           "end": 417.24
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 57,
@@ -6836,7 +6893,8 @@
           "start": 423.5,
           "end": 423.9
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 58,
@@ -7020,7 +7078,8 @@
           "start": 434.34,
           "end": 434.8
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 59,
@@ -7069,7 +7128,8 @@
           "start": 438.08,
           "end": 438.74
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 60,
@@ -7228,7 +7288,8 @@
           "start": 448.12,
           "end": 448.44
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 61,
@@ -7342,7 +7403,8 @@
           "start": 456.94,
           "end": 457.38
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 62,
@@ -7506,7 +7568,8 @@
           "start": 466.0,
           "end": 466.24
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 63,
@@ -7615,7 +7678,8 @@
           "start": 472.82,
           "end": 473.0
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 64,
@@ -7649,7 +7713,8 @@
           "start": 475.62,
           "end": 476.0
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 65,
@@ -7818,7 +7883,8 @@
           "start": 485.46,
           "end": 485.84
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 66,
@@ -7882,7 +7948,8 @@
           "start": 489.28,
           "end": 489.6
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 67,
@@ -8006,7 +8073,8 @@
           "start": 496.5,
           "end": 496.88
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 68,
@@ -8085,7 +8153,8 @@
           "start": 500.62,
           "end": 500.88
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 69,
@@ -8134,7 +8203,8 @@
           "start": 502.82,
           "end": 503.14
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 70,
@@ -8278,7 +8348,8 @@
           "start": 510.94,
           "end": 511.14
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 71,
@@ -8387,7 +8458,8 @@
           "start": 518.44,
           "end": 518.94
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 72,
@@ -8431,7 +8503,8 @@
           "start": 520.88,
           "end": 521.86
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 73,
@@ -8450,7 +8523,8 @@
           "start": 535.1,
           "end": 535.1
         }
-      ]
+      ],
+      "listenDifficulty": 1
     }
   ]
 }

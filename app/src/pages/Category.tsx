@@ -2,12 +2,14 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { loadCategories, loadVideosByCategory, formatDuration } from '../lib/dataLoader';
 import DifficultyBadge from '../components/common/DifficultyBadge';
+import VideoModeModal from '../components/common/VideoModeModal';
 import type { Category as CategoryType, VideoEntry } from '../types';
 
 export default function Category() {
   const { categoryId } = useParams<{ categoryId: string }>();
   const [category, setCategory] = useState<CategoryType | null>(null);
   const [videos, setVideos] = useState<VideoEntry[]>([]);
+  const [selectedVideo, setSelectedVideo] = useState<VideoEntry | null>(null);
 
   useEffect(() => {
     if (!categoryId) return;
@@ -41,10 +43,10 @@ export default function Category() {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {videos.map((v) => (
-            <Link
+            <div
               key={v.videoId}
-              to={`/study/${v.videoId}`}
-              className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+              onClick={() => setSelectedVideo(v)}
+              className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow cursor-pointer"
             >
               <img
                 src={v.thumbnail}
@@ -63,10 +65,12 @@ export default function Category() {
                   <span className="text-xs text-gray-400">{v.speechRateWpm} WPM</span>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       )}
+
+      <VideoModeModal video={selectedVideo} onClose={() => setSelectedVideo(null)} />
     </div>
   );
 }

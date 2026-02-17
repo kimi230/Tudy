@@ -35,8 +35,20 @@ export default function SegmentRow({
       className={`flex gap-3 ${compact ? 'p-2' : 'p-3'} border rounded-lg cursor-pointer transition-colors ${bgColor}`}
       onClick={onClick}
     >
-      <span className="text-xs text-gray-400 w-12 shrink-0 pt-0.5">
+      <span className="text-xs text-gray-400 w-12 shrink-0 pt-0.5 flex items-center gap-1">
         {formatTime(segment.start)}
+        {segment.listenDifficulty != null && (
+          <span
+            className={`inline-block w-1.5 h-1.5 rounded-full shrink-0 ${
+              segment.listenDifficulty <= 2
+                ? 'bg-green-400'
+                : segment.listenDifficulty === 3
+                ? 'bg-yellow-400'
+                : 'bg-red-400'
+            }`}
+            title={`듣기 난이도 ${segment.listenDifficulty}/5`}
+          />
+        )}
       </span>
       <div className="flex-1 min-w-0">
         <p className={`text-sm text-gray-900 ${compact ? 'leading-snug' : 'leading-relaxed'}`}>

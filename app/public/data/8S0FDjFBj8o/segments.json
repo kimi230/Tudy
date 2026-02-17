@@ -28,7 +28,8 @@
           "start": 3.78,
           "end": 4.54
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 1,
@@ -57,7 +58,8 @@
           "start": 22.5,
           "end": 23.26
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 2,
@@ -116,7 +118,8 @@
           "start": 27.34,
           "end": 27.72
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 3,
@@ -160,7 +163,8 @@
           "start": 30.96,
           "end": 31.32
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 4,
@@ -179,7 +183,8 @@
           "start": 33.46,
           "end": 34.1
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 5,
@@ -198,7 +203,8 @@
           "start": 36.06,
           "end": 36.74
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 6,
@@ -227,7 +233,8 @@
           "start": 39.72,
           "end": 40.34
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 7,
@@ -301,7 +308,8 @@
           "start": 45.36,
           "end": 45.9
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 8,
@@ -345,7 +353,8 @@
           "start": 48.84,
           "end": 49.26
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 9,
@@ -429,7 +438,8 @@
           "start": 54.54,
           "end": 55.14
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 10,
@@ -493,7 +503,8 @@
           "start": 60.36,
           "end": 60.76
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 11,
@@ -592,7 +603,8 @@
           "start": 66.14,
           "end": 66.56
         }
-      ]
+      ],
+      "listenDifficulty": 5
     },
     {
       "index": 12,
@@ -686,7 +698,8 @@
           "start": 69.18,
           "end": 69.46
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 13,
@@ -775,7 +788,8 @@
           "start": 73.06,
           "end": 73.52
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 14,
@@ -859,7 +873,8 @@
           "start": 75.84,
           "end": 76.08
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 15,
@@ -928,7 +943,8 @@
           "start": 80.72,
           "end": 80.96
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 16,
@@ -1017,7 +1033,8 @@
           "start": 86.4,
           "end": 86.84
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 17,
@@ -1086,7 +1103,8 @@
           "start": 91.6,
           "end": 91.8
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 18,
@@ -1115,7 +1133,8 @@
           "start": 93.72,
           "end": 95.32
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 19,
@@ -1184,7 +1203,8 @@
           "start": 101.78,
           "end": 102.06
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 20,
@@ -1263,7 +1283,8 @@
           "start": 106.5,
           "end": 106.86
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 21,
@@ -1337,7 +1358,8 @@
           "start": 110.74,
           "end": 111.22
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 22,
@@ -1441,7 +1463,8 @@
           "start": 118.62,
           "end": 118.96
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 23,
@@ -1500,7 +1523,8 @@
           "start": 123.28,
           "end": 123.6
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 24,
@@ -1544,7 +1568,8 @@
           "start": 126.16,
           "end": 126.8
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 25,
@@ -1633,7 +1658,8 @@
           "start": 132.26,
           "end": 132.7
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 26,
@@ -1717,7 +1743,8 @@
           "start": 139.18,
           "end": 140.8
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 27,
@@ -1791,7 +1818,8 @@
           "start": 143.64,
           "end": 143.9
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 28,
@@ -1890,7 +1918,8 @@
           "start": 148.7,
           "end": 149.08
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 29,
@@ -1939,7 +1968,8 @@
           "start": 152.56,
           "end": 152.8
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 30,
@@ -2018,7 +2048,8 @@
           "start": 157.28,
           "end": 157.84
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 31,
@@ -2072,7 +2103,8 @@
           "start": 160.74,
           "end": 161.12
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 32,
@@ -2131,7 +2163,8 @@
           "start": 163.68,
           "end": 163.92
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 33,
@@ -2180,7 +2213,8 @@
           "start": 168.5,
           "end": 168.88
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 34,
@@ -2279,7 +2313,8 @@
           "start": 173.92,
           "end": 174.0
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 35,
@@ -2373,7 +2408,8 @@
           "start": 179.14,
           "end": 179.5
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 36,
@@ -2417,7 +2453,8 @@
           "start": 187.24,
           "end": 187.98
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 37,
@@ -2441,7 +2478,8 @@
           "start": 191.14,
           "end": 191.76
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 38,
@@ -2490,7 +2528,8 @@
           "start": 196.42,
           "end": 196.6
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 39,
@@ -2559,7 +2598,8 @@
           "start": 199.92,
           "end": 200.22
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 40,
@@ -2683,7 +2723,8 @@
           "start": 204.82,
           "end": 205.2
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 41,
@@ -2722,7 +2763,8 @@
           "start": 208.96,
           "end": 209.06
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 42,
@@ -2806,7 +2848,8 @@
           "start": 213.32,
           "end": 213.8
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 43,
@@ -2895,7 +2938,8 @@
           "start": 218.34,
           "end": 218.74
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 44,
@@ -2989,7 +3033,8 @@
           "start": 223.66,
           "end": 224.02
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 45,
@@ -3048,7 +3093,8 @@
           "start": 227.54,
           "end": 228.06
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 46,
@@ -3087,7 +3133,8 @@
           "start": 230.78,
           "end": 231.18
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 47,
@@ -3146,7 +3193,8 @@
           "start": 234.2,
           "end": 234.5
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 48,
@@ -3230,7 +3278,8 @@
           "start": 238.5,
           "end": 238.68
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 49,
@@ -3334,7 +3383,8 @@
           "start": 247.08,
           "end": 247.56
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 50,
@@ -3493,7 +3543,8 @@
           "start": 254.38,
           "end": 254.76
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 51,
@@ -3562,7 +3613,8 @@
           "start": 258.08,
           "end": 258.54
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 52,
@@ -3616,7 +3668,8 @@
           "start": 263.26,
           "end": 263.52
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 53,
@@ -3650,7 +3703,8 @@
           "start": 265.98,
           "end": 266.36
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 54,
@@ -3754,7 +3808,8 @@
           "start": 272.12,
           "end": 272.34
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 55,
@@ -3818,7 +3873,8 @@
           "start": 279.48,
           "end": 279.82
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 56,
@@ -3882,7 +3938,8 @@
           "start": 282.16,
           "end": 282.32
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 57,
@@ -3951,7 +4008,8 @@
           "start": 286.54,
           "end": 287.04
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 58,
@@ -4090,7 +4148,8 @@
           "start": 293.16,
           "end": 293.52
         }
-      ]
+      ],
+      "listenDifficulty": 5
     },
     {
       "index": 59,
@@ -4159,7 +4218,8 @@
           "start": 304.72,
           "end": 305.18
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 60,
@@ -4253,7 +4313,8 @@
           "start": 310.84,
           "end": 311.16
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 61,
@@ -4322,7 +4383,8 @@
           "start": 316.96,
           "end": 317.26
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 62,
@@ -4371,7 +4433,8 @@
           "start": 325.34,
           "end": 325.48
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 63,
@@ -4420,7 +4483,8 @@
           "start": 327.56,
           "end": 327.94
         }
-      ]
+      ],
+      "listenDifficulty": 2
     },
     {
       "index": 64,
@@ -4549,7 +4613,8 @@
           "start": 337.26,
           "end": 337.52
         }
-      ]
+      ],
+      "listenDifficulty": 4
     },
     {
       "index": 65,
@@ -4613,7 +4678,8 @@
           "start": 340.32,
           "end": 340.76
         }
-      ]
+      ],
+      "listenDifficulty": 3
     },
     {
       "index": 66,
@@ -4662,7 +4728,8 @@
           "start": 345.16,
           "end": 345.46
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 67,
@@ -4706,7 +4773,8 @@
           "start": 348.24,
           "end": 348.52
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 68,
@@ -4750,7 +4818,8 @@
           "start": 351.34,
           "end": 351.72
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 69,
@@ -4789,7 +4858,8 @@
           "start": 353.98,
           "end": 354.64
         }
-      ]
+      ],
+      "listenDifficulty": 1
     },
     {
       "index": 70,
@@ -5923,7 +5993,8 @@
           "start": 355.44,
           "end": 355.44
         }
-      ]
+      ],
+      "listenDifficulty": 3
     }
   ]
 }

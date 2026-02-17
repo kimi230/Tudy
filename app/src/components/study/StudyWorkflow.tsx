@@ -191,9 +191,17 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
     <div className="space-y-4">
       {/* Header: back link + title + meta + steps */}
       <div>
-        <Link to={`/category/${meta.categoryId}`} className="text-sm text-indigo-600 hover:underline">
-          ← 목록으로
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link to={`/category/${meta.categoryId}`} className="text-sm text-indigo-600 hover:underline">
+            ← 목록으로
+          </Link>
+          <Link
+            to={`/dictation/${videoId}`}
+            className="text-sm px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full hover:bg-amber-200 transition-colors font-medium"
+          >
+            받아쓰기
+          </Link>
+        </div>
         <h1 className="text-lg font-bold text-gray-900 mt-1">{meta.title}</h1>
         <div className="flex items-center gap-3 mt-1">
           <span className="text-sm text-gray-400">{meta.channel}</span>

@@ -3,6 +3,7 @@ import Header from './components/layout/Header';
 import Home from './pages/Home';
 import Category from './pages/Category';
 import Study from './pages/Study';
+import Dictation from './pages/Dictation';
 import Request from './pages/Request';
 import Vocabulary from './pages/Vocabulary';
 import About from './pages/About';
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/category/:categoryId" element={<Category />} />
             <Route path="/study/:videoId" element={<Study />} />
+            <Route path="/dictation/:videoId" element={<Dictation />} />
             <Route path="/request" element={<Request />} />
             <Route path="/vocabulary" element={<Vocabulary />} />
             <Route path="/about" element={<About />} />
