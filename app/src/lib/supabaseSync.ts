@@ -1,7 +1,7 @@
 import { supabase } from './supabase';
 import type { StudySession, ErrorNote, DictationAttempt } from '../types';
 
-function requireSupabase() {
+export function requireSupabase() {
   if (!supabase) throw new Error('Supabase is not configured. Login required.');
   return supabase;
 }

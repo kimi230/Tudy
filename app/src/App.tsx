@@ -11,6 +11,8 @@ import Vocabulary from './pages/Vocabulary';
 import About from './pages/About';
 import LoginPage from './components/auth/LoginPage';
 import Profile from './pages/Profile';
+import DailyLearning from './pages/DailyLearning';
+import Library from './pages/Library';
 
 export default function App() {
   return (
@@ -25,11 +27,13 @@ export default function App() {
               <Route path="/category/:categoryId" element={<Category />} />
               <Route path="/study/:videoId" element={<Study />} />
               <Route path="/dictation/:videoId" element={<Dictation />} />
+              <Route path="/daily" element={<DailyLearning />} />
               <Route path="/request" element={<Request />} />
               <Route path="/vocabulary" element={<Vocabulary />} />
               <Route path="/about" element={<About />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/library" element={<Library />} />
             </Routes>
           </main>
         </div>

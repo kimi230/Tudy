@@ -1,6 +1,7 @@
-import { useState, useEffect, useCallback, useContext } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
-import { AuthContext } from '../contexts/AuthContext';
+import { awardXP as awardXPService } from '../lib/xpService';
+import { useAuth } from './useAuth';
 
 export interface XPEvent {
   id: number;
@@ -30,11 +31,18 @@ export const XP_RULES = {
   dictation_perfect: 20,
   error_note_resolved: 5,
   daily_streak: 10,
+  daily_session_base: 10,
+  daily_session_bonus_max: 40,
 } as const;
 
+export function calcDailySessionXP(avgScore: number): number {
+  const bonus = Math.round((avgScore / 100) * XP_RULES.daily_session_bonus_max);
+  return XP_RULES.daily_session_base + bonus;
+}
+
 export function useRewards() {
-  const auth = useContext(AuthContext);
-  const userId = auth?.user?.id;
+  const auth = useAuth();
+  const userId = auth.user?.id;
   const [badges, setBadges] = useState<UserBadge[]>([]);
   const [recentXP, setRecentXP] = useState<XPEvent[]>([]);
   const [loading, setLoading] = useState(true);
@@ -82,29 +90,10 @@ export function useRewards() {
       xpAmount: number,
       metadata?: Record<string, unknown>
     ): Promise<number | null> => {
-      if (!supabase || !userId) return null;
-
-      // Insert XP event
-      const { error } = await supabase.from('xp_events').insert({
-        user_id: userId,
-        event_type: eventType,
-        xp_amount: xpAmount,
-        metadata: metadata ?? null,
-      });
-      if (error) return null;
-
-      // Update total_xp in profiles
-      await supabase.rpc('increment_xp', { user_id_input: userId, amount: xpAmount });
-
-      // Update streak
-      await supabase.rpc('update_streak', { user_id_input: userId });
-
-      // Check badges
-      await supabase.rpc('check_and_award_badges', { user_id_input: userId });
-
-      // Refresh profile
-      auth?.refreshProfile();
-
+      if (!userId) return null;
+      const ok = await awardXPService(userId, eventType, xpAmount, metadata);
+      if (!ok) return null;
+      auth.refreshProfile();
       return xpAmount;
     },
     [userId, auth]

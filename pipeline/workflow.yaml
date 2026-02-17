@@ -28,7 +28,7 @@ input:
   optional:
     difficulty:
       type: enum
-      values: [beginner, intermediate, advanced]
+      values: [beginner, elementary, intermediate, upper-intermediate, advanced]
       description: "난이도 (미지정 시 Claude Code가 판단)"
     title_override:
       type: string

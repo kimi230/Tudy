@@ -22,6 +22,10 @@ interface Props {
     wordResults: DictationWordResult[];
     score: number;
   }) => void;
+  /** Start from this index instead of 0 (for resuming sessions) */
+  initialIndex?: number;
+  /** Hide the built-in progress bar and counter (when parent shows its own) */
+  hideProgress?: boolean;
 }
 
 type Phase = 'ready' | 'listening' | 'typing' | 'scored';
@@ -32,14 +36,16 @@ export default function DictationPlayer({
   player,
   segmentStats,
   onAttempt,
+  initialIndex = 0,
+  hideProgress = false,
 }: Props) {
-  const [currentIdx, setCurrentIdx] = useState(0);
+  const [currentIdx, setCurrentIdx] = useState(initialIndex);
   const [phase, setPhase] = useState<Phase>('ready');
   const phaseRef = useRef<Phase>('ready');
   const seekTargetRef = useRef<number | null>(null);
   const [userInput, setUserInput] = useState('');
   const [lastResult, setLastResult] = useState<{ wordResults: DictationWordResult[]; score: number } | null>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => { phaseRef.current = phase; }, [phase]);
 
@@ -75,14 +81,6 @@ export default function DictationPlayer({
     setPhase('listening');
   }, [currentSeg, player]);
 
-  const replaySegment = useCallback(() => {
-    if (!currentSeg || !player) return;
-    seekTargetRef.current = currentSeg.start;
-    player.seekTo(currentSeg.start);
-    player.play();
-    setPhase('listening');
-  }, [currentSeg, player]);
-
   const submitAnswer = useCallback(() => {
     if (!currentSeg) return;
     const result = scoreDictation(currentSeg.textEn, userInput);
@@ -109,21 +107,13 @@ export default function DictationPlayer({
     setPhase('ready');
   }, [currentIdx, segments.length]);
 
-  const skipSegment = useCallback(() => {
-    goNext();
-  }, [goNext]);
-
   // Keyboard shortcuts
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       const isInput = e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement;
 
       if (isInput) {
-        // Inside input field: Enter = submit
-        if (e.key === 'Enter' && phaseRef.current === 'typing') {
-          e.preventDefault();
-          submitAnswer();
-        }
+        // Enter handling is done by the textarea's onKeyDown
         return;
       }
 
@@ -134,34 +124,36 @@ export default function DictationPlayer({
       } else if (e.key === 'r') {
         if (phaseRef.current === 'typing' || phaseRef.current === 'scored') {
           e.preventDefault();
-          replaySegment();
+          playSegment();
         }
       } else if (e.key === 'Escape') {
         e.preventDefault();
-        skipSegment();
+        goNext();
       }
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [playSegment, goNext, replaySegment, skipSegment, submitAnswer]);
+  }, [playSegment, goNext, playSegment, goNext, submitAnswer]);
 
   const isAllDone = currentIdx >= segments.length - 1 && phase === 'scored';
 
   return (
     <div className="space-y-4 max-h-[80vh] overflow-y-auto pr-1">
       {/* Progress */}
-      <div className="flex items-center justify-between text-xs text-gray-500">
-        <span>{currentIdx + 1} / {segments.length} 세그먼트</span>
-        {segmentStats.size > 0 && <span>평균 {avgScore}%</span>}
-      </div>
-
-      {/* Progress bar */}
-      <div className="w-full bg-gray-200 rounded-full h-1.5">
-        <div
-          className="bg-indigo-500 h-1.5 rounded-full transition-all"
-          style={{ width: `${((currentIdx + (phase === 'scored' ? 1 : 0)) / segments.length) * 100}%` }}
-        />
-      </div>
+      {!hideProgress && (
+        <>
+          <div className="flex items-center justify-between text-xs text-gray-500">
+            <span>{currentIdx + 1} / {segments.length} 세그먼트</span>
+            {segmentStats.size > 0 && <span>평균 {avgScore}%</span>}
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-1.5">
+            <div
+              className="bg-indigo-500 h-1.5 rounded-full transition-all"
+              style={{ width: `${((currentIdx + (phase === 'scored' ? 1 : 0)) / segments.length) * 100}%` }}
+            />
+          </div>
+        </>
+      )}
 
       {/* Main interaction card */}
       {currentSeg && (
@@ -205,13 +197,19 @@ export default function DictationPlayer({
           {phase === 'typing' && (
             <div className="space-y-3">
               <p className="text-sm text-gray-700">들은 내용을 입력하세요</p>
-              <input
+              <textarea
                 ref={inputRef}
-                type="text"
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    if (userInput.trim()) submitAnswer();
+                  }
+                }}
                 placeholder="영어로 입력..."
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                rows={2}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent resize-none"
                 autoComplete="off"
                 autoCorrect="off"
                 autoCapitalize="off"
@@ -226,7 +224,7 @@ export default function DictationPlayer({
                   제출 (Enter)
                 </button>
                 <button
-                  onClick={replaySegment}
+                  onClick={playSegment}
                   className="px-3 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-600 border border-gray-300 hover:bg-gray-200 transition-colors"
                   title="다시 듣기 (r)"
                 >
@@ -254,7 +252,7 @@ export default function DictationPlayer({
                   </p>
                 )}
                 <button
-                  onClick={replaySegment}
+                  onClick={playSegment}
                   className="px-3 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-600 border border-gray-300 hover:bg-gray-200 transition-colors"
                   title="다시 듣기 (r)"
                 >

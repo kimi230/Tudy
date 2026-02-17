@@ -13,30 +13,23 @@ Usage:
 """
 
 import argparse
-import json
+import os
 import sys
 from collections import Counter
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "app" / "public" / "data"
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR))
+
+from utils import load_json, save_json
+
+DATA_DIR = Path(os.environ.get("STDYENG_DATA_DIR",
+    str(SCRIPT_DIR.parent / "app" / "public" / "data")))
 
 WEIGHT_WPM = 0.4
 WEIGHT_SPEECH = 0.3
 WEIGHT_VOCAB = 0.2
 WEIGHT_GRAMMAR = 0.1
-
-
-def load_json(path: Path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_json(path: Path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    # Ensure file ends with newline
-    with open(path, "a", encoding="utf-8") as f:
-        f.write("\n")
 
 
 def calc_wpm(segment: dict) -> float:
@@ -117,7 +110,7 @@ def score_segments(video_dir: Path) -> list[int]:
     speech_path = video_dir / "connected_speech.json"
 
     segments_data = load_json(segments_path)
-    segments = segments_data["segments"]
+    segments = segments_data.get("segments", [])
     n = len(segments)
 
     # Load analysis files (may not all exist)
@@ -185,8 +178,7 @@ def main():
     save_json(segments_path, segments_data)
 
     # Print summary
-    from collections import Counter as C
-    dist = C(scores)
+    dist = Counter(scores)
     print(f"Updated {len(scores)} segments in {segments_path}")
     print(f"Distribution: {dict(sorted(dist.items()))}")
 

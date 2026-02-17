@@ -27,6 +27,7 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 from downloader import download_audio, extract_metadata, extract_video_id_from_url
 from transcriber import clean_and_merge_segments, transcribe_audio
+from utils import StepTimer, load_json, save_json, load_videos_index
 
 # Legacy modules (standalone mode only; not used in agentic mode)
 try:
@@ -73,81 +74,6 @@ PIPELINE_STEPS = [
 ]
 
 logger = logging.getLogger(__name__)
-
-
-# --- Progress logging ---
-
-
-class StepTimer:
-    """Context manager for timing and logging pipeline steps."""
-
-    def __init__(self, step_name: str, step_num: int, total_steps: int):
-        self.step_name = step_name
-        self.step_num = step_num
-        self.total_steps = total_steps
-        self.start_time = 0.0
-
-    def __enter__(self):
-        self.start_time = time.time()
-        logger.info(
-            "[%d/%d] %s ...",
-            self.step_num,
-            self.total_steps,
-            self.step_name,
-        )
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        elapsed = time.time() - self.start_time
-        if exc_type is None:
-            logger.info(
-                "[%d/%d] %s completed (%.1fs)",
-                self.step_num,
-                self.total_steps,
-                self.step_name,
-                elapsed,
-            )
-        else:
-            logger.error(
-                "[%d/%d] %s FAILED after %.1fs: %s",
-                self.step_num,
-                self.total_steps,
-                self.step_name,
-                elapsed,
-                exc_val,
-            )
-        return False  # Do not suppress exceptions
-
-
-# --- File I/O helpers ---
-
-
-def load_json(path: Path) -> Any:
-    """Load a JSON file, returning None if it doesn't exist."""
-    if not path.exists():
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_json(path: Path, data: Any) -> None:
-    """Save data to a JSON file, creating parent directories as needed."""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    logger.info("Saved: %s", path)
-
-
-def load_videos_index() -> list[dict[str, Any]]:
-    """Load the videos.json index file."""
-    data = load_json(VIDEOS_INDEX_PATH)
-    if data is None:
-        return []
-    if isinstance(data, list):
-        return data
-    if isinstance(data, dict) and "videos" in data:
-        return data["videos"]
-    return []
 
 
 def save_videos_index(videos: list[dict[str, Any]]) -> None:
@@ -331,7 +257,7 @@ def step_update_index(meta: dict[str, Any]) -> None:
 
     Adds or updates the video entry in the master index.
     """
-    videos = load_videos_index()
+    videos = load_videos_index(DATA_DIR)
 
     # Check if this video already exists in the index
     existing_idx = None
@@ -442,7 +368,7 @@ def validate_output(video_id: str) -> bool:
             logger.info("OK: %s (%d sections)", filename, len(sections))
 
     # Check videos.json index
-    videos = load_videos_index()
+    videos = load_videos_index(DATA_DIR)
     found = any(v.get("videoId") == video_id for v in videos)
     if found:
         logger.info("OK: videos.json contains entry for %s", video_id)
@@ -542,6 +468,82 @@ def _run_finalize(
     logger.info("Output directory: %s", video_dir)
 
 
+# --- Pipeline helpers ---
+
+
+def _load_existing_state(
+    video_id: str, category: str, difficulty: str
+) -> dict[str, Any]:
+    """Load existing data for single-step re-processing."""
+    state: dict[str, Any] = {
+        "metadata": {},
+        "segments": [],
+        "category": category,
+        "difficulty": difficulty,
+        "vocabulary": [],
+        "grammar": [],
+        "connected_speech": [],
+        "structure": {"sections": [], "signalExpressions": []},
+    }
+
+    existing_meta = load_intermediate(video_id, "meta.json")
+    if existing_meta:
+        state["metadata"] = {
+            "video_id": existing_meta.get("videoId", video_id),
+            "title": existing_meta.get("title", ""),
+            "channel": existing_meta.get("channel", ""),
+            "duration": existing_meta.get("duration", 0),
+            "thumbnail": existing_meta.get("thumbnail", ""),
+            "upload_date": existing_meta.get("uploadDate", ""),
+        }
+        state["category"] = existing_meta.get(
+            "categoryId", existing_meta.get("category", category)
+        )
+        state["difficulty"] = existing_meta.get("difficulty", difficulty)
+
+    existing_transcript = load_intermediate(video_id, "segments.json")
+    if existing_transcript:
+        state["segments"] = existing_transcript.get("segments", [])
+
+    existing_vocab = load_intermediate(video_id, "vocabulary.json")
+    if existing_vocab and isinstance(existing_vocab, list):
+        state["vocabulary"] = existing_vocab
+    existing_grammar = load_intermediate(video_id, "grammar.json")
+    if existing_grammar and isinstance(existing_grammar, list):
+        state["grammar"] = existing_grammar
+    existing_cs = load_intermediate(video_id, "connected_speech.json")
+    if existing_cs and isinstance(existing_cs, list):
+        state["connected_speech"] = existing_cs
+    existing_struct = load_intermediate(video_id, "structure.json")
+    if existing_struct:
+        state["structure"] = (
+            existing_struct.get("sections", [])
+            if isinstance(existing_struct, dict)
+            else existing_struct
+        )
+
+    return state
+
+
+def _cleanup_intermediate(video_id: str) -> None:
+    """Clean up intermediate and temp files after pipeline run."""
+    audio_file = TEMP_DIR / f"{video_id}.mp3"
+    if audio_file.exists():
+        audio_file.unlink()
+        logger.info("Cleaned up temp audio: %s", audio_file)
+
+    for temp_file in [
+        "_raw_metadata.json",
+        "_raw_segments.json",
+        "_clean_segments.json",
+        "_translated_segments.json",
+    ]:
+        temp_path = get_video_dir(video_id) / temp_file
+        if temp_path.exists():
+            temp_path.unlink()
+            logger.debug("Cleaned up intermediate: %s", temp_path)
+
+
 # --- Main pipeline ---
 
 
@@ -612,12 +614,10 @@ def run_pipeline(
                 ", ".join(PIPELINE_STEPS),
             )
             sys.exit(1)
-        step_index = PIPELINE_STEPS.index(single_step)
         steps_to_run = {single_step}
         logger.info("Running single step: %s", single_step)
     else:
         steps_to_run = set(PIPELINE_STEPS)
-        step_index = 0
 
     total_steps = len(steps_to_run)
     current_step = 0
@@ -637,35 +637,15 @@ def run_pipeline(
     # --- Load existing state for single-step re-processing ---
     if single_step and video_id:
         logger.info("Loading existing data for video: %s", video_id)
-        existing_meta = load_intermediate(video_id, "meta.json")
-        if existing_meta:
-            metadata = {
-                "video_id": existing_meta.get("videoId", video_id),
-                "title": existing_meta.get("title", ""),
-                "channel": existing_meta.get("channel", ""),
-                "duration": existing_meta.get("duration", 0),
-                "thumbnail": existing_meta.get("thumbnail", ""),
-                "upload_date": existing_meta.get("uploadDate", ""),
-            }
-            category = existing_meta.get("categoryId", existing_meta.get("category", category))
-            difficulty = existing_meta.get("difficulty", difficulty)
-
-        existing_transcript = load_intermediate(video_id, "segments.json")
-        if existing_transcript:
-            segments = existing_transcript.get("segments", [])
-
-        existing_vocab = load_intermediate(video_id, "vocabulary.json")
-        if existing_vocab and isinstance(existing_vocab, list):
-            vocabulary = existing_vocab
-        existing_grammar = load_intermediate(video_id, "grammar.json")
-        if existing_grammar and isinstance(existing_grammar, list):
-            grammar = existing_grammar
-        existing_cs = load_intermediate(video_id, "connected_speech.json")
-        if existing_cs and isinstance(existing_cs, list):
-            connected_speech = existing_cs
-        existing_struct = load_intermediate(video_id, "structure.json")
-        if existing_struct:
-            structure = existing_struct.get("sections", []) if isinstance(existing_struct, dict) else existing_struct
+        state = _load_existing_state(video_id, category, difficulty)
+        metadata = state["metadata"]
+        segments = state["segments"]
+        category = state["category"]
+        difficulty = state["difficulty"]
+        vocabulary = state["vocabulary"]
+        grammar = state["grammar"]
+        connected_speech = state["connected_speech"]
+        structure = state["structure"]
 
     # === STEP 1: Extract metadata ===
     if "extract_metadata" in steps_to_run:
@@ -836,21 +816,10 @@ def run_pipeline(
                     "No meta output available. Run generate_json step first."
                 )
 
-    # === Cleanup temp audio files ===
+    # === Cleanup temp files ===
     # Skip cleanup in mechanical_only mode (Claude Code needs intermediate files)
     if not single_step and not mechanical_only:
-        audio_file = TEMP_DIR / f"{video_id}.mp3"
-        if audio_file.exists():
-            audio_file.unlink()
-            logger.info("Cleaned up temp audio: %s", audio_file)
-
-        # Clean up intermediate files
-        for temp_file in ["_raw_metadata.json", "_raw_segments.json",
-                          "_clean_segments.json", "_translated_segments.json"]:
-            temp_path = get_video_dir(video_id) / temp_file
-            if temp_path.exists():
-                temp_path.unlink()
-                logger.debug("Cleaned up intermediate: %s", temp_path)
+        _cleanup_intermediate(video_id)
 
     # === Validation ===
     if do_validate:

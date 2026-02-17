@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { formatTime } from '../../lib/dataLoader';
 import type { Segment, SpeechStructure } from '../../types';
 
 interface Props {
@@ -140,8 +141,3 @@ export default function Step4_Compare({ segments, structure }: Props) {
   );
 }
 
-function formatTime(seconds: number): string {
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s.toString().padStart(2, '0')}`;
-}

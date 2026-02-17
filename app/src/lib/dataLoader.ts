@@ -11,10 +11,17 @@ import type {
 
 const BASE = import.meta.env.BASE_URL + 'data';
 
+const cache = new Map<string, Promise<unknown>>();
+
 async function fetchJSON<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}/${path}`);
-  if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`);
-  return res.json();
+  const cached = cache.get(path);
+  if (cached) return cached as Promise<T>;
+  const promise = fetch(`${BASE}/${path}`).then((res) => {
+    if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`);
+    return res.json();
+  });
+  cache.set(path, promise);
+  return promise as Promise<T>;
 }
 
 export function loadCategories() {
@@ -56,9 +63,11 @@ export async function loadVideosByCategory(categoryId: string) {
 
 export function formatDuration(seconds: number): string {
   const m = Math.floor(seconds / 60);
-  const s = seconds % 60;
+  const s = Math.floor(seconds % 60);
   return `${m}:${String(s).padStart(2, '0')}`;
 }
+
+export const formatTime = formatDuration;
 
 export function getDifficultyLabel(d: string): string {
   switch (d) {

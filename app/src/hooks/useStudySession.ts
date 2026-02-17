@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useRef, useContext } from 'react';
 import { syncSessionToCloud, pullSessionsFromCloud } from '../lib/supabaseSync';
-import { AuthContext } from '../contexts/AuthContext';
+import { awardXP } from '../lib/xpService';
+import { useAuth } from './useAuth';
 import { XPToastContext } from '../contexts/XPToastContext';
-import { supabase } from '../lib/supabase';
 import { XP_RULES } from './useRewards';
 import type { StudySession, MarkedSegment, CornellNotes } from '../types';
 
@@ -39,8 +39,8 @@ export function useStudySession(videoId: string) {
   const [loading, setLoading] = useState(true);
   const timerRef = useRef<number | null>(null);
   const startTimeRef = useRef<number>(0);
-  const auth = useContext(AuthContext);
-  const userId = auth?.user?.id;
+  const auth = useAuth();
+  const userId = auth.user?.id;
   const userIdRef = useRef(userId);
   userIdRef.current = userId;
   const xpToast = useContext(XPToastContext);
@@ -134,26 +134,16 @@ export function useStudySession(videoId: string) {
 
       // Award XP
       const uid = userIdRef.current;
-      if (uid && supabase) {
+      if (uid) {
         (async () => {
           try {
-            await supabase.rpc('increment_xp', { user_id_input: uid, amount: XP_RULES.step_complete });
+            await awardXP(uid, 'step_complete', XP_RULES.step_complete, { step, videoId });
             xpToast?.showXPToast(XP_RULES.step_complete, '학습 스텝 완료');
-            supabase.from('xp_events').insert({
-              user_id: uid, event_type: 'step_complete',
-              xp_amount: XP_RULES.step_complete, metadata: { step, videoId },
-            });
             if (isSessionComplete) {
-              await supabase.rpc('increment_xp', { user_id_input: uid, amount: XP_RULES.session_complete });
+              await awardXP(uid, 'session_complete', XP_RULES.session_complete, { videoId });
               xpToast?.showXPToast(XP_RULES.session_complete, '학습 세션 완료 보너스!');
-              supabase.from('xp_events').insert({
-                user_id: uid, event_type: 'session_complete',
-                xp_amount: XP_RULES.session_complete, metadata: { videoId },
-              });
-              supabase.rpc('update_streak', { user_id_input: uid });
-              supabase.rpc('check_and_award_badges', { user_id_input: uid });
             }
-            auth?.refreshProfile();
+            auth.refreshProfile();
           } catch { /* offline */ }
         })();
       }

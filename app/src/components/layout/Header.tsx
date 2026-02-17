@@ -6,6 +6,7 @@ import UserMenu from '../auth/UserMenu';
 
 const navLinks = [
   { to: '/', label: '홈' },
+  { to: '/daily', label: '오늘의 학습' },
   { to: '/vocabulary', label: '어휘장' },
   { to: '/request', label: 'URL 신청' },
   { to: '/about', label: '학습법 소개' },

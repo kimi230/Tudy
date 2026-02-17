@@ -17,7 +17,6 @@ import logging
 import os
 import re
 import sys
-import time
 from pathlib import Path
 from typing import Any
 
@@ -30,10 +29,12 @@ import yt_dlp
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
+from utils import StepTimer, load_json, save_json, load_videos_index
+
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = Path(os.environ.get("STDYENG_DATA_DIR",
     str(PROJECT_ROOT / "app" / "public" / "data")))
-TMP_DIR = SCRIPT_DIR / ".tmp"
+TEMP_DIR = SCRIPT_DIR / ".tmp"
 VIDEOS_INDEX_PATH = DATA_DIR / "videos.json"
 
 logger = logging.getLogger(__name__)
@@ -62,18 +63,28 @@ LEGENDARY_SPEAKERS = {
 
 DIFFICULTY_PROFILES: dict[str, dict[str, Any]] = {
     "beginner": {
-        "target_wpm": (90, 130),
+        "target_wpm": (90, 120),
         "duration_sec": (300, 480),
         "search_modifiers": ["easy", "simple", "for beginners"],
     },
+    "elementary": {
+        "target_wpm": (120, 140),
+        "duration_sec": (360, 540),
+        "search_modifiers": ["basic", "introductory"],
+    },
     "intermediate": {
-        "target_wpm": (130, 170),
+        "target_wpm": (140, 160),
         "duration_sec": (420, 720),
         "search_modifiers": [],
     },
+    "upper-intermediate": {
+        "target_wpm": (160, 185),
+        "duration_sec": (480, 840),
+        "search_modifiers": ["detailed", "comprehensive"],
+    },
     "advanced": {
-        "target_wpm": (160, 220),
-        "duration_sec": (420, 900),
+        "target_wpm": (185, 220),
+        "duration_sec": (540, 900),
         "search_modifiers": ["in-depth", "advanced", "research"],
     },
 }
@@ -96,62 +107,6 @@ CATEGORY_KEYWORDS: dict[str, list[str]] = {
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-
-class StepTimer:
-    """Context manager for timing and logging pipeline steps."""
-
-    def __init__(self, step_name: str, step_num: int, total_steps: int):
-        self.step_name = step_name
-        self.step_num = step_num
-        self.total_steps = total_steps
-        self.start_time = 0.0
-
-    def __enter__(self):
-        self.start_time = time.time()
-        logger.info(
-            "[%d/%d] %s ...", self.step_num, self.total_steps, self.step_name,
-        )
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        elapsed = time.time() - self.start_time
-        if exc_type is None:
-            logger.info(
-                "[%d/%d] %s completed (%.1fs)",
-                self.step_num, self.total_steps, self.step_name, elapsed,
-            )
-        else:
-            logger.error(
-                "[%d/%d] %s FAILED after %.1fs: %s",
-                self.step_num, self.total_steps, self.step_name, elapsed, exc_val,
-            )
-        return False
-
-
-def load_json(path: Path) -> Any:
-    if not path.exists():
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_json(path: Path, data: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    logger.info("Saved: %s", path)
-
-
-def load_videos_index() -> list[dict[str, Any]]:
-    data = load_json(VIDEOS_INDEX_PATH)
-    if data is None:
-        return []
-    if isinstance(data, list):
-        return data
-    if isinstance(data, dict) and "videos" in data:
-        return data["videos"]
-    return []
 
 
 def _get_common_words() -> frozenset[str]:
@@ -332,7 +287,7 @@ def _download_subtitles(video_id: str) -> str | None:
         "writeautomaticsub": True,
         "subtitleslangs": ["en"],
         "subtitlesformat": "vtt",
-        "outtmpl": str(TMP_DIR / f"sub_{video_id}"),
+        "outtmpl": str(TEMP_DIR / f"sub_{video_id}"),
     }
 
     try:
@@ -565,7 +520,7 @@ def rank_candidates(
     eval_map = {e["video_id"]: e for e in evaluated}
 
     # Check for already-processed videos
-    existing_videos = load_videos_index()
+    existing_videos = load_videos_index(DATA_DIR)
     existing_ids = {v.get("videoId") or v.get("video_id") for v in existing_videos}
 
     recommendations: list[dict[str, Any]] = []
@@ -619,8 +574,12 @@ def rank_candidates(
         wpm = cand.get("speech_rate_wpm", 150)
         if wpm < 120:
             est_diff = "beginner"
-        elif wpm < 155:
+        elif wpm < 140:
+            est_diff = "elementary"
+        elif wpm < 160:
             est_diff = "intermediate"
+        elif wpm < 185:
+            est_diff = "upper-intermediate"
         else:
             est_diff = "advanced"
 
@@ -718,7 +677,7 @@ Modes:
     parser.add_argument(
         "--evaluated",
         type=str,
-        default=str(TMP_DIR / "evaluated.json"),
+        default=str(TEMP_DIR / "evaluated.json"),
         help="Path to evaluated.json (rank mode)",
     )
     parser.add_argument(
@@ -732,8 +691,8 @@ Modes:
     parser.add_argument(
         "--output-dir",
         type=str,
-        default=str(TMP_DIR),
-        help=f"Output directory (default: {TMP_DIR})",
+        default=str(TEMP_DIR),
+        help=f"Output directory (default: {TEMP_DIR})",
     )
     parser.add_argument(
         "--verbose", "-v",

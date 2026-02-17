@@ -1,5 +1,6 @@
 import { useEffect, useImperativeHandle, forwardRef } from 'react';
 import { useYouTubePlayer } from '../../hooks/useYouTubePlayer';
+import { formatTime } from '../../lib/dataLoader';
 
 export interface YouTubePlayerHandle {
   pause: () => void;
@@ -64,9 +65,3 @@ const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePla
 });
 
 export default YouTubePlayer;
-
-function formatTime(s: number): string {
-  const m = Math.floor(s / 60);
-  const sec = Math.floor(s % 60);
-  return `${m}:${String(sec).padStart(2, '0')}`;
-}

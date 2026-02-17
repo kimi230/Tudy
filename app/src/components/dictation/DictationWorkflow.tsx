@@ -48,16 +48,10 @@ export default function DictationWorkflow({ videoId, meta }: Props) {
     setMode('practice');
   }, []);
 
-  const handlePracticeSegment = useCallback((segmentIndex: number) => {
-    // Find position in filtered segments
-    const idx = filteredSegments.findIndex((s) => s.index === segmentIndex);
-    if (idx >= 0) {
-      // Switch to practice mode - the player will start from this segment
-      setMode('practice');
-    }
-  }, [filteredSegments]);
+  const handlePracticeSegment = useCallback((_segmentIndex: number) => {
+    setMode('practice');
+  }, []);
 
-  console.log('[DictationWorkflow] dataLoading:', dataLoading, 'dictLoading:', dictLoading);
   if (dataLoading || dictLoading) {
     return (
       <div className="flex items-center justify-center py-20">
@@ -115,27 +109,17 @@ export default function DictationWorkflow({ videoId, meta }: Props) {
       )}
 
       {/* Content */}
-      {mode === 'setup' ? (
-        <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
-          <YouTubePlayer
-            ref={playerRef}
-            youtubeId={meta.youtubeId}
-            onTimeUpdate={setCurrentTime}
-            className="lg:col-span-2"
-          />
-          <div>
+      <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
+        <YouTubePlayer
+          ref={playerRef}
+          youtubeId={meta.youtubeId}
+          onTimeUpdate={setCurrentTime}
+          className="lg:col-span-2"
+        />
+        <div>
+          {mode === 'setup' ? (
             <DifficultySelector segments={allSegments} onSelect={handleDifficultySelect} />
-          </div>
-        </div>
-      ) : mode === 'practice' ? (
-        <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
-          <YouTubePlayer
-            ref={playerRef}
-            youtubeId={meta.youtubeId}
-            onTimeUpdate={setCurrentTime}
-            className="lg:col-span-2"
-          />
-          <div>
+          ) : mode === 'practice' ? (
             <DictationPlayer
               segments={filteredSegments}
               currentTime={currentTime}
@@ -143,26 +127,16 @@ export default function DictationWorkflow({ videoId, meta }: Props) {
               segmentStats={segmentStats}
               onAttempt={addAttempt}
             />
-          </div>
-        </div>
-      ) : (
-        <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
-          <YouTubePlayer
-            ref={playerRef}
-            youtubeId={meta.youtubeId}
-            onTimeUpdate={setCurrentTime}
-            className="lg:col-span-2"
-          />
-          <div>
+          ) : (
             <DictationReview
               segments={allSegments}
               attempts={attempts}
               segmentStats={segmentStats}
               onPracticeSegment={handlePracticeSegment}
             />
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

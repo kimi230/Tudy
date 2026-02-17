@@ -31,12 +31,12 @@ export default function Home() {
           분석은 AI가, 훈련은 내가.
         </p>
         <div className="flex items-center justify-center gap-3">
-          <button
-            onClick={() => document.getElementById('videos')?.scrollIntoView({ behavior: 'smooth' })}
-            className="group px-8 py-3.5 bg-indigo-600 text-white rounded-full text-sm font-semibold hover:bg-indigo-700 active:scale-95 transition-all shadow-lg shadow-indigo-200/50"
+          <Link
+            to="/daily"
+            className="group px-8 py-3.5 bg-emerald-500 text-white rounded-full text-sm font-semibold hover:bg-emerald-600 active:scale-95 transition-all shadow-lg shadow-emerald-200/50"
           >
-            학습 시작하기
-          </button>
+            오늘의 학습 시작하기
+          </Link>
           <button
             onClick={() => setShowGuide(true)}
             className="px-5 py-3.5 bg-white text-gray-600 border border-gray-200 rounded-full text-sm font-medium hover:border-indigo-300 hover:text-indigo-600 active:scale-95 transition-all"

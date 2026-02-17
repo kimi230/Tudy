@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import type { Segment } from '../../types';
 import { formatTime } from '../../lib/youtube';
 
@@ -12,7 +13,7 @@ interface Props {
   onMark?: (color: 'blue' | 'red') => void;
 }
 
-export default function SegmentRow({
+export default memo(function SegmentRow({
   segment,
   isActive,
   showKorean,
@@ -81,4 +82,4 @@ export default function SegmentRow({
       )}
     </div>
   );
-}
+});
