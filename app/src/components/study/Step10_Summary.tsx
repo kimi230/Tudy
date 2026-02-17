@@ -135,13 +135,13 @@ export default function Step10_Summary(props: Props) {
   return (
     <>
       <Step10_SidePanel
-        structure={props.structure}
         summary={props.summary}
         onSummaryChange={props.onSummaryChange}
         onComplete={props.onComplete}
       />
       <Step10_Bottom
         segments={props.segments}
+        structure={props.structure}
         selfScore={props.selfScore}
         totalStudyTimeSec={props.totalStudyTimeSec}
       />
