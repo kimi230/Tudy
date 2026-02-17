@@ -105,7 +105,7 @@ export default function About() {
               <StepCard step={2} title="노트테이킹하며 듣기" color="indigo">
                 키워드, 시그널 표현(<em>"So here's what I found"</em>, <em>"The important thing is"</em>),
                 스피치 구조(서론/본론/결론)를 메모합니다.
-                딕테이션(전부 받아쓰기)이 아니라 <strong>핵심 키워드</strong> 위주로 —
+                딕테이션(전부 따라쓰기)이 아니라 <strong>핵심 키워드</strong> 위주로 —
                 노트테이킹은 중심을 파악하는 도구이지, 그 자체가 연습이 되어서는 안 됩니다.
               </StepCard>
               <StepCard step={3} title="다시 들으며 보충" color="indigo">

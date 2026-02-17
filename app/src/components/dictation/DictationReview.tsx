@@ -34,7 +34,7 @@ export default function DictationReview({
   if (attempts.length === 0) {
     return (
       <div className="text-center py-8 text-gray-400">
-        <p className="text-sm">아직 받아쓰기 기록이 없습니다</p>
+        <p className="text-sm">아직 딕테이션 기록이 없습니다</p>
         <p className="text-xs mt-1">Practice 탭에서 연습을 시작하세요</p>
       </div>
     );

@@ -91,7 +91,7 @@ export default function Step2_Notes({ notes, structure, onNotesChange, onComplet
             <div className="space-y-4">
               <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-3">
                 <p className="text-sm font-medium text-yellow-800">
-                  딕테이션이 아닙니다! 전부 받아쓰기 X
+                  딕테이션이 아닙니다! 전부 따라쓰기 X
                 </p>
                 <p className="text-xs text-yellow-700 mt-1">
                   안 들리는 부분에 집착하지 마세요. 흘러가는 속도에 맞춰 중심 내용과 키워드만 잡으세요.

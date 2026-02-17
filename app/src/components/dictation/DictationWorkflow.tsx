@@ -84,7 +84,7 @@ export default function DictationWorkflow({ videoId, meta }: Props) {
         <div className="flex items-center gap-3 mt-1">
           <span className="text-sm text-gray-400">{meta.channel}</span>
           <DifficultyBadge difficulty={meta.difficulty} />
-          <span className="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full font-medium">받아쓰기</span>
+          <span className="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full font-medium">딕테이션</span>
         </div>
       </div>
 

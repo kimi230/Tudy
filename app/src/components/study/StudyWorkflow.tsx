@@ -199,7 +199,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             to={`/dictation/${videoId}`}
             className="text-sm px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full hover:bg-amber-200 transition-colors font-medium"
           >
-            받아쓰기
+            딕테이션
           </Link>
         </div>
         <h1 className="text-lg font-bold text-gray-900 mt-1">{meta.title}</h1>

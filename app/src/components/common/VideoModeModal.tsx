@@ -41,7 +41,7 @@ export default function VideoModeModal({ video, onClose }: Props) {
               onClick={() => { onClose(); navigate(`/dictation/${video.videoId}`); }}
               className="flex-1 py-2.5 bg-amber-500 text-white rounded-lg text-sm font-semibold hover:bg-amber-600 active:scale-95 transition-all"
             >
-              받아쓰기
+              딕테이션
             </button>
           </div>
         </div>
