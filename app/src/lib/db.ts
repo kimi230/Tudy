@@ -69,6 +69,10 @@ function getDB() {
           dictStore.createIndex('videoId', 'videoId');
         }
       },
+      blocked() {
+        // Close stale connections so the upgrade can proceed
+        dbPromise = null;
+      },
     });
   }
   return dbPromise;
