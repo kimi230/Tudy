@@ -4,7 +4,13 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL ?? '';
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY ?? '';
 
 export const supabase = supabaseUrl && supabaseAnonKey
-  ? createClient(supabaseUrl, supabaseAnonKey)
+  ? createClient(supabaseUrl, supabaseAnonKey, {
+      auth: {
+        // HashRouter가 # 사용하므로 Supabase 자동 해시 감지 비활성화.
+        // handleOAuthHashIfPresent()에서 직접 처리.
+        detectSessionInUrl: false,
+      },
+    })
   : null;
 
 export function isSupabaseConfigured(): boolean {
@@ -28,8 +34,15 @@ export async function handleOAuthHashIfPresent(): Promise<void> {
 
   if (!accessToken || !refreshToken) return;
 
-  await supabase.auth.setSession({ access_token: accessToken, refresh_token: refreshToken });
-
-  // 해시를 정리하여 HashRouter가 정상 작동하도록
+  // 해시를 먼저 정리 (HashRouter가 읽기 전에)
   window.history.replaceState(null, '', window.location.pathname + '#/');
+
+  const { error } = await supabase.auth.setSession({
+    access_token: accessToken,
+    refresh_token: refreshToken,
+  });
+
+  if (error) {
+    console.error('OAuth session setup failed:', error);
+  }
 }
