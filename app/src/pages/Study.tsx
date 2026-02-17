@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { loadVideoMeta } from '../lib/dataLoader';
+import { AuthContext } from '../contexts/AuthContext';
 import StudyWorkflow from '../components/study/StudyWorkflow';
 import type { VideoMeta } from '../types';
 
@@ -8,6 +9,7 @@ export default function Study() {
   const { videoId } = useParams<{ videoId: string }>();
   const [meta, setMeta] = useState<VideoMeta | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const auth = useContext(AuthContext);
 
   useEffect(() => {
     if (!videoId) return;
@@ -15,6 +17,28 @@ export default function Study() {
       .then(setMeta)
       .catch(() => setError('영상 데이터를 불러올 수 없습니다.'));
   }, [videoId]);
+
+  if (auth?.loading) {
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="animate-spin w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full" />
+      </div>
+    );
+  }
+
+  if (!auth?.user) {
+    return (
+      <div className="text-center py-20">
+        <p className="text-gray-600 mb-4">학습을 시작하려면 로그인이 필요합니다.</p>
+        <button
+          onClick={() => auth?.signInWithGoogle()}
+          className="px-6 py-2.5 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
+        >
+          Google로 로그인
+        </button>
+      </div>
+    );
+  }
 
   if (error) {
     return (

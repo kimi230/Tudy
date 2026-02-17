@@ -1,25 +1,35 @@
 import { useState, useRef, useCallback, useContext } from 'react';
-import { saveRecording, getRecordingsBySession } from '../lib/db';
-import { uploadRecordingToStorage, saveRecordingMeta } from '../lib/supabaseSync';
+import {
+  uploadRecordingToStorage,
+  saveRecordingMeta,
+  getRecordingsBySessionFromCloud,
+  getRecordingPublicUrl,
+  type RecordingMeta,
+} from '../lib/supabaseSync';
 import { AuthContext } from '../contexts/AuthContext';
-import type { Recording } from '../types';
 
 export function useRecording(sessionId: string, videoId: string) {
   const [isRecording, setIsRecording] = useState(false);
-  const [recordings, setRecordings] = useState<Recording[]>([]);
+  const [recordings, setRecordings] = useState<RecordingMeta[]>([]);
   const [audioURL, setAudioURL] = useState<string | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
   const startTimeRef = useRef<number>(0);
   const auth = useContext(AuthContext);
-  const userId = auth?.user?.id;
+  const userIdRef = useRef<string | undefined>(undefined);
+  userIdRef.current = auth?.user?.id;
 
   const loadRecordings = useCallback(async () => {
-    const recs = await getRecordingsBySession(sessionId);
+    const uid = userIdRef.current;
+    if (!uid) return;
+    const recs = await getRecordingsBySessionFromCloud(sessionId, uid);
     setRecordings(recs);
   }, [sessionId]);
 
   const startRecording = useCallback(async (segmentIndex: number) => {
+    const uid = userIdRef.current;
+    if (!uid) return;
+
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       const mediaRecorder = new MediaRecorder(stream);
@@ -34,23 +44,13 @@ export function useRecording(sessionId: string, videoId: string) {
         const blob = new Blob(chunksRef.current, { type: 'audio/webm' });
         const duration = (Date.now() - startTimeRef.current) / 1000;
 
-        // Save locally
-        await saveRecording({
-          sessionId,
-          videoId,
-          segmentIndex,
-          audioBlob: blob,
-          duration,
-          createdAt: new Date().toISOString(),
-        });
-
-        // Upload to Supabase Storage if logged in
-        if (userId) {
-          uploadRecordingToStorage(blob, userId, sessionId, segmentIndex)
-            .then((path) => {
-              if (path) saveRecordingMeta(userId, sessionId, videoId, segmentIndex, path, duration);
-            })
-            .catch(() => {});
+        // Upload to Supabase Storage
+        const currentUid = userIdRef.current;
+        if (currentUid) {
+          const path = await uploadRecordingToStorage(blob, currentUid, sessionId, segmentIndex);
+          if (path) {
+            await saveRecordingMeta(currentUid, sessionId, videoId, segmentIndex, path, duration);
+          }
         }
 
         const url = URL.createObjectURL(blob);
@@ -66,7 +66,7 @@ export function useRecording(sessionId: string, videoId: string) {
     } catch (err) {
       console.error('Failed to start recording:', err);
     }
-  }, [sessionId, videoId, userId, loadRecordings]);
+  }, [sessionId, videoId, loadRecordings]);
 
   const stopRecording = useCallback(() => {
     if (mediaRecorderRef.current?.state === 'recording') {
@@ -75,8 +75,8 @@ export function useRecording(sessionId: string, videoId: string) {
     }
   }, []);
 
-  const playRecording = useCallback((recording: Recording) => {
-    const url = URL.createObjectURL(recording.audioBlob);
+  const playRecording = useCallback((recording: RecordingMeta) => {
+    const url = getRecordingPublicUrl(recording.storage_path);
     setAudioURL(url);
     const audio = new Audio(url);
     audio.play();

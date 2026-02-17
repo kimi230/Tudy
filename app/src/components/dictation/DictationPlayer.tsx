@@ -211,7 +211,7 @@ export default function DictationPlayer({
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value)}
                 placeholder="영어로 입력..."
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
                 autoComplete="off"
                 autoCorrect="off"
                 autoCapitalize="off"

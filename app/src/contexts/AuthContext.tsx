@@ -1,6 +1,5 @@
-import { createContext, useEffect, useState, useCallback, useRef, type ReactNode } from 'react';
+import { createContext, useEffect, useState, useCallback, type ReactNode } from 'react';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { migrateLocalDataToCloud } from '../lib/migration';
 import type { User, Session } from '@supabase/supabase-js';
 
 export interface Profile {
@@ -30,8 +29,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [profile, setProfile] = useState<Profile | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
-
-  const migrationRunRef = useRef(false);
 
   const fetchProfile = useCallback(async (userId: string) => {
     if (!supabase) return;
@@ -63,16 +60,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     // Listen for auth changes
     const { data: { subscription } } = supabase!.auth.onAuthStateChange(
-      (event, s) => {
+      (_event, s) => {
         setSession(s);
         setUser(s?.user ?? null);
         if (s?.user) {
           fetchProfile(s.user.id);
-          // Run migration once on sign-in
-          if (event === 'SIGNED_IN' && !migrationRunRef.current) {
-            migrationRunRef.current = true;
-            migrateLocalDataToCloud(s.user.id);
-          }
         } else {
           setProfile(null);
         }

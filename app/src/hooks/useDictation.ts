@@ -1,9 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useContext } from 'react';
-import {
-  saveDictationAttempt,
-  getDictationAttemptsByVideo,
-  deleteDictationAttempt,
-} from '../lib/db';
+import { useState, useEffect, useCallback, useMemo, useContext, useRef } from 'react';
 import { syncDictationToCloud, pullDictationFromCloud, deleteDictationFromCloud } from '../lib/supabaseSync';
 import { AuthContext } from '../contexts/AuthContext';
 import { XPToastContext } from '../contexts/XPToastContext';
@@ -21,39 +16,29 @@ export function useDictation(videoId: string) {
   const [loading, setLoading] = useState(true);
   const auth = useContext(AuthContext);
   const userId = auth?.user?.id;
+  const userIdRef = useRef(userId);
+  userIdRef.current = userId;
   const xpToast = useContext(XPToastContext);
 
   const reload = useCallback(async () => {
-    let data = await getDictationAttemptsByVideo(videoId);
-
-    // Merge cloud data if logged in
-    if (userId) {
-      try {
-        const cloudData = await pullDictationFromCloud(videoId, userId);
-        // Merge: cloud items not in local by createdAt+segmentIndex
-        const localKeys = new Set(data.map((d) => `${d.segmentIndex}_${d.createdAt}`));
-        for (const c of cloudData) {
-          if (!localKeys.has(`${c.segmentIndex}_${c.createdAt}`)) {
-            data.push(c);
-          }
-        }
-      } catch {
-        // Offline
-      }
+    const uid = userIdRef.current;
+    if (!uid) { setLoading(false); return; }
+    try {
+      const data = await pullDictationFromCloud(videoId, uid);
+      setAttempts(data);
+    } finally {
+      setLoading(false);
     }
-
-    setAttempts(data);
-    setLoading(false);
-  }, [videoId, userId]);
+  }, [videoId]);
 
   useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      await reload();
-      if (cancelled) return;
-    })();
-    return () => { cancelled = true; };
+    reload();
   }, [reload]);
+
+  // Re-sync when user logs in
+  useEffect(() => {
+    if (userId) reload();
+  }, [userId, reload]);
 
   const addAttempt = useCallback(
     async (params: {
@@ -63,53 +48,54 @@ export function useDictation(videoId: string) {
       wordResults: DictationWordResult[];
       score: number;
     }) => {
+      const uid = userIdRef.current;
+      if (!uid) return;
+
       const attempt: DictationAttempt = {
         videoId,
         ...params,
         createdAt: new Date().toISOString(),
       };
-      await saveDictationAttempt(attempt);
-      if (userId) syncDictationToCloud(attempt, userId).catch(() => {});
+      await syncDictationToCloud(attempt, uid);
 
-      // Award XP if logged in
-      if (userId && supabase) {
-        (async () => {
-          try {
-            const xp = XP_RULES.dictation_attempt;
-            await supabase.rpc('increment_xp', { user_id_input: userId, amount: xp });
-            xpToast?.showXPToast(xp, '딕테이션 시도');
+      // Award XP
+      if (supabase) {
+        try {
+          const xp = XP_RULES.dictation_attempt;
+          await supabase.rpc('increment_xp', { user_id_input: uid, amount: xp });
+          xpToast?.showXPToast(xp, '딕테이션 시도');
+          supabase.from('xp_events').insert({
+            user_id: uid, event_type: 'dictation_attempt',
+            xp_amount: xp, metadata: { videoId, segmentIndex: params.segmentIndex },
+          });
+          if (params.score === 100) {
+            const bonus = XP_RULES.dictation_perfect;
+            await supabase.rpc('increment_xp', { user_id_input: uid, amount: bonus });
+            xpToast?.showXPToast(bonus, '딕테이션 만점 보너스!');
             supabase.from('xp_events').insert({
-              user_id: userId, event_type: 'dictation_attempt',
-              xp_amount: xp, metadata: { videoId, segmentIndex: params.segmentIndex },
+              user_id: uid, event_type: 'dictation_perfect',
+              xp_amount: bonus, metadata: { videoId, segmentIndex: params.segmentIndex },
             });
-            if (params.score === 100) {
-              const bonus = XP_RULES.dictation_perfect;
-              await supabase.rpc('increment_xp', { user_id_input: userId, amount: bonus });
-              xpToast?.showXPToast(bonus, '딕테이션 만점 보너스!');
-              supabase.from('xp_events').insert({
-                user_id: userId, event_type: 'dictation_perfect',
-                xp_amount: bonus, metadata: { videoId, segmentIndex: params.segmentIndex },
-              });
-            }
-            supabase.rpc('update_streak', { user_id_input: userId });
-            supabase.rpc('check_and_award_badges', { user_id_input: userId });
-            auth?.refreshProfile();
-          } catch { /* offline */ }
-        })();
+          }
+          supabase.rpc('update_streak', { user_id_input: uid });
+          supabase.rpc('check_and_award_badges', { user_id_input: uid });
+          auth?.refreshProfile();
+        } catch { /* offline */ }
       }
 
       await reload();
     },
-    [videoId, userId, reload, xpToast, auth]
+    [videoId, reload, xpToast, auth]
   );
 
   const removeAttempt = useCallback(
     async (id: number) => {
-      await deleteDictationAttempt(id);
-      if (userId) deleteDictationFromCloud(id, userId).catch(() => {});
+      const uid = userIdRef.current;
+      if (!uid) return;
+      await deleteDictationFromCloud(id, uid);
       await reload();
     },
-    [userId, reload]
+    [reload]
   );
 
   const segmentStats = useMemo(() => {

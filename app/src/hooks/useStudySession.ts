@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback, useRef, useContext } from 'react';
-import { saveSession, getSessionsByVideo } from '../lib/db';
 import { syncSessionToCloud, pullSessionsFromCloud } from '../lib/supabaseSync';
 import { AuthContext } from '../contexts/AuthContext';
 import { XPToastContext } from '../contexts/XPToastContext';
@@ -35,18 +34,6 @@ function createNewSession(videoId: string): StudySession {
   };
 }
 
-function mergeSessions(local: StudySession[], cloud: StudySession[]): StudySession[] {
-  const map = new Map<string, StudySession>();
-  for (const s of local) map.set(s.id, s);
-  for (const s of cloud) {
-    const existing = map.get(s.id);
-    if (!existing || s.totalStudyTimeSec > existing.totalStudyTimeSec) {
-      map.set(s.id, s);
-    }
-  }
-  return Array.from(map.values());
-}
-
 export function useStudySession(videoId: string) {
   const [session, setSession] = useState<StudySession | null>(null);
   const [loading, setLoading] = useState(true);
@@ -54,40 +41,33 @@ export function useStudySession(videoId: string) {
   const startTimeRef = useRef<number>(0);
   const auth = useContext(AuthContext);
   const userId = auth?.user?.id;
+  const userIdRef = useRef(userId);
+  userIdRef.current = userId;
   const xpToast = useContext(XPToastContext);
 
   // Load or create session
   useEffect(() => {
+    if (!userId) return;
     let cancelled = false;
     (async () => {
-      let sessions = await getSessionsByVideo(videoId);
+      try {
+        const sessions = await pullSessionsFromCloud(videoId, userId);
 
-      // If logged in, merge with cloud data
-      if (userId) {
-        try {
-          const cloudSessions = await pullSessionsFromCloud(videoId, userId);
-          sessions = mergeSessions(sessions, cloudSessions);
-          // Save merged results locally
-          for (const s of sessions) await saveSession(s);
-        } catch {
-          // Offline — use local only
+        const incomplete = sessions
+          .filter((s) => !s.completedAt)
+          .sort((a, b) => b.startedAt.localeCompare(a.startedAt));
+
+        if (!cancelled) {
+          if (incomplete.length > 0) {
+            setSession(incomplete[0]);
+          } else {
+            const newSession = createNewSession(videoId);
+            await syncSessionToCloud(newSession, userId);
+            setSession(newSession);
+          }
         }
-      }
-
-      const incomplete = sessions
-        .filter((s) => !s.completedAt)
-        .sort((a, b) => b.startedAt.localeCompare(a.startedAt));
-
-      if (!cancelled) {
-        if (incomplete.length > 0) {
-          setSession(incomplete[0]);
-        } else {
-          const newSession = createNewSession(videoId);
-          await saveSession(newSession);
-          if (userId) syncSessionToCloud(newSession, userId).catch(() => {});
-          setSession(newSession);
-        }
-        setLoading(false);
+      } finally {
+        if (!cancelled) setLoading(false);
       }
     })();
     return () => { cancelled = true; };
@@ -102,8 +82,8 @@ export function useStudySession(videoId: string) {
         const elapsed = Math.floor((Date.now() - startTimeRef.current) / 1000);
         const updated = { ...prev, totalStudyTimeSec: prev.totalStudyTimeSec + elapsed };
         startTimeRef.current = Date.now();
-        saveSession(updated);
-        if (userId) syncSessionToCloud(updated, userId).catch(() => {});
+        const uid = userIdRef.current;
+        if (uid) syncSessionToCloud(updated, uid).catch(() => {});
         return updated;
       });
     }, 30000);
@@ -111,13 +91,13 @@ export function useStudySession(videoId: string) {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [userId]);
+  }, []);
 
   const persist = useCallback(async (updated: StudySession) => {
     setSession(updated);
-    await saveSession(updated);
-    if (userId) syncSessionToCloud(updated, userId).catch(() => {});
-  }, [userId]);
+    const uid = userIdRef.current;
+    if (uid) syncSessionToCloud(updated, uid).catch(() => {});
+  }, []);
 
   const goToStep = useCallback(
     (step: number) => {
@@ -152,32 +132,33 @@ export function useStudySession(videoId: string) {
       };
       persist(updated);
 
-      // Award XP if logged in
-      if (userId && supabase) {
+      // Award XP
+      const uid = userIdRef.current;
+      if (uid && supabase) {
         (async () => {
           try {
-            await supabase.rpc('increment_xp', { user_id_input: userId, amount: XP_RULES.step_complete });
+            await supabase.rpc('increment_xp', { user_id_input: uid, amount: XP_RULES.step_complete });
             xpToast?.showXPToast(XP_RULES.step_complete, '학습 스텝 완료');
             supabase.from('xp_events').insert({
-              user_id: userId, event_type: 'step_complete',
+              user_id: uid, event_type: 'step_complete',
               xp_amount: XP_RULES.step_complete, metadata: { step, videoId },
             });
             if (isSessionComplete) {
-              await supabase.rpc('increment_xp', { user_id_input: userId, amount: XP_RULES.session_complete });
+              await supabase.rpc('increment_xp', { user_id_input: uid, amount: XP_RULES.session_complete });
               xpToast?.showXPToast(XP_RULES.session_complete, '학습 세션 완료 보너스!');
               supabase.from('xp_events').insert({
-                user_id: userId, event_type: 'session_complete',
+                user_id: uid, event_type: 'session_complete',
                 xp_amount: XP_RULES.session_complete, metadata: { videoId },
               });
-              supabase.rpc('update_streak', { user_id_input: userId });
-              supabase.rpc('check_and_award_badges', { user_id_input: userId });
+              supabase.rpc('update_streak', { user_id_input: uid });
+              supabase.rpc('check_and_award_badges', { user_id_input: uid });
             }
             auth?.refreshProfile();
           } catch { /* offline */ }
         })();
       }
     },
-    [session, persist, userId, xpToast, auth, videoId]
+    [session, persist, xpToast, auth, videoId]
   );
 
   const updateNotes = useCallback(

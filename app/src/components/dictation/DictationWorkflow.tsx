@@ -57,6 +57,7 @@ export default function DictationWorkflow({ videoId, meta }: Props) {
     }
   }, [filteredSegments]);
 
+  console.log('[DictationWorkflow] dataLoading:', dataLoading, 'dictLoading:', dictLoading);
   if (dataLoading || dictLoading) {
     return (
       <div className="flex items-center justify-center py-20">

@@ -15,6 +15,12 @@ export default function DictationResult({ wordResults, score }: Props) {
               <span key={i} className="text-sm text-green-700">{wr.expected}</span>
             );
           }
+          if (wr.expected === '' && wr.actual) {
+            // extra word typed by user (not penalized)
+            return (
+              <span key={i} className="text-sm text-gray-400 line-through">{wr.actual}</span>
+            );
+          }
           if (wr.actual === null) {
             // missed word
             return (

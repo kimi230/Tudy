@@ -1,6 +1,11 @@
 import { supabase } from './supabase';
 import type { StudySession, ErrorNote, DictationAttempt } from '../types';
 
+function requireSupabase() {
+  if (!supabase) throw new Error('Supabase is not configured. Login required.');
+  return supabase;
+}
+
 // --- Study Sessions ---
 
 interface SupabaseSession {
@@ -55,18 +60,28 @@ function sessionFromSupabase(row: SupabaseSession): StudySession {
 }
 
 export async function syncSessionToCloud(session: StudySession, userId: string) {
-  if (!supabase) return;
+  const sb = requireSupabase();
   const row = sessionToSupabase(session, userId);
-  await supabase.from('study_sessions').upsert(row, { onConflict: 'id,user_id' });
+  await sb.from('study_sessions').upsert(row, { onConflict: 'id,user_id' });
 }
 
 export async function pullSessionsFromCloud(videoId: string, userId: string): Promise<StudySession[]> {
-  if (!supabase) return [];
-  const { data } = await supabase
+  const sb = requireSupabase();
+  const { data } = await sb
     .from('study_sessions')
     .select('*')
     .eq('user_id', userId)
     .eq('video_id', videoId);
+  return (data ?? []).map(sessionFromSupabase);
+}
+
+export async function getAllSessionsFromCloud(userId: string): Promise<StudySession[]> {
+  const sb = requireSupabase();
+  const { data } = await sb
+    .from('study_sessions')
+    .select('*')
+    .eq('user_id', userId)
+    .order('started_at', { ascending: false });
   return (data ?? []).map(sessionFromSupabase);
 }
 
@@ -117,27 +132,27 @@ function errorNoteFromSupabase(row: SupabaseErrorNote): ErrorNote {
 }
 
 export async function syncErrorNoteToCloud(note: ErrorNote, userId: string) {
-  if (!supabase) return;
+  const sb = requireSupabase();
   const row = errorNoteToSupabase(note, userId);
-  await supabase.from('error_notes').insert(row);
+  await sb.from('error_notes').insert(row);
 }
 
 export async function pullErrorNotesFromCloud(videoId: string | undefined, userId: string): Promise<ErrorNote[]> {
-  if (!supabase) return [];
-  let query = supabase.from('error_notes').select('*').eq('user_id', userId);
+  const sb = requireSupabase();
+  let query = sb.from('error_notes').select('*').eq('user_id', userId);
   if (videoId) query = query.eq('video_id', videoId);
   const { data } = await query;
   return (data ?? []).map(errorNoteFromSupabase);
 }
 
 export async function updateErrorNoteInCloud(id: number, updates: { is_resolved?: boolean }, userId: string) {
-  if (!supabase) return;
-  await supabase.from('error_notes').update(updates).eq('id', id).eq('user_id', userId);
+  const sb = requireSupabase();
+  await sb.from('error_notes').update(updates).eq('id', id).eq('user_id', userId);
 }
 
 export async function deleteErrorNoteFromCloud(id: number, userId: string) {
-  if (!supabase) return;
-  await supabase.from('error_notes').delete().eq('id', id).eq('user_id', userId);
+  const sb = requireSupabase();
+  await sb.from('error_notes').delete().eq('id', id).eq('user_id', userId);
 }
 
 // --- Dictation Attempts ---
@@ -181,14 +196,14 @@ function dictationFromSupabase(row: SupabaseDictationAttempt): DictationAttempt 
 }
 
 export async function syncDictationToCloud(attempt: DictationAttempt, userId: string) {
-  if (!supabase) return;
+  const sb = requireSupabase();
   const row = dictationToSupabase(attempt, userId);
-  await supabase.from('dictation_attempts').insert(row);
+  await sb.from('dictation_attempts').insert(row);
 }
 
 export async function pullDictationFromCloud(videoId: string, userId: string): Promise<DictationAttempt[]> {
-  if (!supabase) return [];
-  const { data } = await supabase
+  const sb = requireSupabase();
+  const { data } = await sb
     .from('dictation_attempts')
     .select('*')
     .eq('user_id', userId)
@@ -197,11 +212,21 @@ export async function pullDictationFromCloud(videoId: string, userId: string): P
 }
 
 export async function deleteDictationFromCloud(id: number, userId: string) {
-  if (!supabase) return;
-  await supabase.from('dictation_attempts').delete().eq('id', id).eq('user_id', userId);
+  const sb = requireSupabase();
+  await sb.from('dictation_attempts').delete().eq('id', id).eq('user_id', userId);
 }
 
 // --- Recordings ---
+
+export interface RecordingMeta {
+  id: number;
+  session_id: string;
+  video_id: string;
+  segment_index: number;
+  storage_path: string;
+  duration: number;
+  created_at: string;
+}
 
 export async function uploadRecordingToStorage(
   blob: Blob,
@@ -209,9 +234,9 @@ export async function uploadRecordingToStorage(
   sessionId: string,
   segmentIndex: number
 ): Promise<string | null> {
-  if (!supabase) return null;
+  const sb = requireSupabase();
   const path = `${userId}/${sessionId}/${segmentIndex}_${Date.now()}.webm`;
-  const { error } = await supabase.storage.from('recordings').upload(path, blob, {
+  const { error } = await sb.storage.from('recordings').upload(path, blob, {
     contentType: 'audio/webm',
   });
   if (error) {
@@ -229,8 +254,8 @@ export async function saveRecordingMeta(
   storagePath: string,
   duration: number
 ) {
-  if (!supabase) return;
-  await supabase.from('recordings').insert({
+  const sb = requireSupabase();
+  await sb.from('recordings').insert({
     user_id: userId,
     session_id: sessionId,
     video_id: videoId,
@@ -241,22 +266,19 @@ export async function saveRecordingMeta(
   });
 }
 
-// --- Bulk operations for migration ---
-
-export async function bulkUpsertSessions(sessions: StudySession[], userId: string) {
-  if (!supabase || sessions.length === 0) return;
-  const rows = sessions.map((s) => sessionToSupabase(s, userId));
-  await supabase.from('study_sessions').upsert(rows, { onConflict: 'id,user_id' });
+export async function getRecordingsBySessionFromCloud(sessionId: string, userId: string): Promise<RecordingMeta[]> {
+  const sb = requireSupabase();
+  const { data } = await sb
+    .from('recordings')
+    .select('*')
+    .eq('user_id', userId)
+    .eq('session_id', sessionId)
+    .order('created_at', { ascending: true });
+  return (data ?? []) as RecordingMeta[];
 }
 
-export async function bulkInsertErrorNotes(notes: ErrorNote[], userId: string) {
-  if (!supabase || notes.length === 0) return;
-  const rows = notes.map((n) => errorNoteToSupabase(n, userId));
-  await supabase.from('error_notes').insert(rows);
-}
-
-export async function bulkInsertDictation(attempts: DictationAttempt[], userId: string) {
-  if (!supabase || attempts.length === 0) return;
-  const rows = attempts.map((a) => dictationToSupabase(a, userId));
-  await supabase.from('dictation_attempts').insert(rows);
+export function getRecordingPublicUrl(storagePath: string): string {
+  const sb = requireSupabase();
+  const { data } = sb.storage.from('recordings').getPublicUrl(storagePath);
+  return data.publicUrl;
 }

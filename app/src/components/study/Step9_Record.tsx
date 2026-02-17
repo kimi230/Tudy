@@ -20,7 +20,7 @@ export default function Step9_Record({ sessionId, videoId, segments, onComplete 
   }, [loadRecordings]);
 
   const seg = segments[segIdx];
-  const segRecordings = recordings.filter((r) => r.segmentIndex === segIdx);
+  const segRecordings = recordings.filter((r) => r.segment_index === segIdx);
 
   return (
     <div className="space-y-3 max-h-[80vh] overflow-y-auto pr-1">
@@ -105,7 +105,7 @@ export default function Step9_Record({ sessionId, videoId, segments, onComplete 
               onClick={() => playRecording(rec)}
               className="w-full text-left p-2 bg-white border border-gray-200 rounded-lg text-xs hover:bg-gray-50 flex justify-between"
             >
-              <span>{new Date(rec.createdAt).toLocaleTimeString('ko-KR')}</span>
+              <span>{new Date(rec.created_at).toLocaleTimeString('ko-KR')}</span>
               <span className="text-gray-400">{rec.duration.toFixed(1)}초</span>
             </button>
           ))}
