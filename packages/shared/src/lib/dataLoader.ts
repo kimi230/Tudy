@@ -154,10 +154,11 @@ function isLikelyChineseVideo(video: VideoEntry): boolean {
 
 export async function loadVideos() {
   const lang = getLanguage();
-  if (supabase) {
+  const sb = supabase;
+  if (sb) {
     try {
       const rows = await fetchDb(`videos:${lang}`, async () => {
-        const { data, error } = await supabase
+        const { data, error } = await sb
           .from('video_catalog')
           .select(
             [
@@ -178,7 +179,7 @@ export async function loadVideos() {
           .order('added_at', { ascending: false });
 
         if (error) throw error;
-        return (data ?? []) as VideoCatalogRow[];
+        return ((data ?? []) as unknown) as VideoCatalogRow[];
       });
 
       if (rows.length > 0) {
@@ -201,11 +202,12 @@ export async function loadVideos() {
 }
 
 async function loadVideoArtifactsFromDb(videoId: string): Promise<VideoArtifactsRow | null> {
-  if (!supabase) return null;
+  const sb = supabase;
+  if (!sb) return null;
   const lang = getLanguage();
   try {
     const row = await fetchDb(`artifact:${lang}:${videoId}`, async () => {
-      const { data, error } = await supabase
+      const { data, error } = await sb
         .from('video_artifacts')
         .select('meta,segments,vocabulary,grammar,connected_speech,structure')
         .eq('language', lang)
@@ -213,7 +215,7 @@ async function loadVideoArtifactsFromDb(videoId: string): Promise<VideoArtifacts
         .maybeSingle();
 
       if (error) throw error;
-      return (data ?? null) as VideoArtifactsRow | null;
+      return ((data ?? null) as unknown) as VideoArtifactsRow | null;
     });
     return row;
   } catch (error) {
