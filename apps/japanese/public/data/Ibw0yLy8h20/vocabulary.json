@@ -1,0 +1,222 @@
+[
+  {
+    "word": "当然",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'当然'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 39,
+    "contextSentence": "当初 当然 先ほどお伝えしたとおり 誰も知りませんから"
+  },
+  {
+    "word": "まず",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'まず'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "まず 自己紹介させていただきます"
+  },
+  {
+    "word": "拍手",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'拍手'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "翻訳 拍手"
+  },
+  {
+    "word": "皆さん",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'皆さん'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "あるいは祭司ですとお伝えすると 皆さん ああ あの 言葉じゃないですけど 一言いただきます"
+  },
+  {
+    "word": "はい",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'はい'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 24,
+    "contextSentence": "はい まず剣道の竹刀の持ち方と刀の持ち方は全く違います"
+  },
+  {
+    "word": "通と",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'通と'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 75,
+    "contextSentence": "ですから 先ほどの包み込むも 通と 通と 無"
+  },
+  {
+    "word": "ことです",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'ことです'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 78,
+    "contextSentence": "無意識で感じ取っているということです"
+  },
+  {
+    "word": "つまり",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'つまり'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 90,
+    "contextSentence": "その成熟だと私は感じています つまり 陰陽 白黒つけたがる文化もあれば"
+  },
+  {
+    "word": "翻訳",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'翻訳'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "翻訳 拍手"
+  },
+  {
+    "word": "古神道の本質について",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'古神道の本質について'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "本日は 古神道の本質について お伝えしたいと思っております"
+  },
+  {
+    "word": "本日は",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'本日は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 1,
+    "contextSentence": "本日は 古神道の本質について お伝えしたいと思っております"
+  },
+  {
+    "word": "特に",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'特に'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 2,
+    "contextSentence": "特に 包み込むという考え方についてです"
+  },
+  {
+    "word": "自己紹介いたしますと",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'自己紹介いたしますと'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 4,
+    "contextSentence": "よく私 自己紹介いたしますと"
+  },
+  {
+    "word": "よく私",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'よく私'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 4,
+    "contextSentence": "よく私 自己紹介いたしますと"
+  },
+  {
+    "word": "名称を渡ししても",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'名称を渡ししても'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "名称を渡ししても だいたい無言でシーンと"
+  },
+  {
+    "word": "ひどい方はそのまま",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ひどい方はそのまま'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "ひどい方はそのまま 後ろにスーッと下がっていかれます"
+  },
+  {
+    "word": "どっかいかれましたね",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'どっかいかれましたね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "あ どっかいかれましたね って話です それで 名称を見ていただきますと"
+  },
+  {
+    "word": "って話です",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'って話です'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "あ どっかいかれましたね って話です それで 名称を見ていただきますと"
+  },
+  {
+    "word": "それで",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'それで'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "あ どっかいかれましたね って話です それで 名称を見ていただきますと"
+  },
+  {
+    "word": "御明道といった形で",
+    "reading": "",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'御明道といった形で'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 9,
+    "contextSentence": "古道 古神道 御明道といった形で 書かれてはいるんですけど"
+  }
+]

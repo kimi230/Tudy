@@ -1,0 +1,71 @@
+{
+  "videoId": "Ly_U4KZbw6o",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 14,
+      "summary": "'日本が誇る伝統文化 盆栽'로 시작해 '有田焼の伝統的な製法に 金属の光沢を加えた革新的'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "参加企業は",
+        "日本が誇る伝統文化",
+        "盆栽"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 14,
+      "endSegment": 43,
+      "summary": "'有田焼の伝統的な製法に 金属の光沢を加えた革新的'로 시작해 'JETROは 中小企業の海外展開を 積極的に支援'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "完成した人工盆栽は",
+        "広がっています",
+        "人気が高まっています"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 43,
+      "endSegment": 77,
+      "summary": "'JETROは 中小企業の海外展開を 積極的に支援'로 시작해 '梶原社長は 今後の展開について 語ってくれました'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "高く評価しています",
+        "梶原社長は",
+        "力を入れています"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 77,
+      "endSegment": 96,
+      "summary": "'梶原社長は 今後の展開について 語ってくれました'로 시작해 'その背景にあったのは 企業の絶え間の努力と情熱で'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "まず 幹となる部分を 形成していきま",
+      "type": "enumeration",
+      "segmentIndex": 57,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "最後に 全体のバランスを 整えて完成",
+      "type": "conclusion",
+      "segmentIndex": 60,
+      "role": "마무리 포인트를 제시합니다."
+    },
+    {
+      "expression": "日本が誇る伝統文化 盆栽",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "完成した作品は 美しい輝きを放ってい",
+      "type": "transition",
+      "segmentIndex": 32,
+      "role": "중간 전개 전환"
+    }
+  ]
+}

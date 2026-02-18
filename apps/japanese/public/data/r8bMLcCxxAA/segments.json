@@ -1,0 +1,761 @@
+{
+  "videoId": "r8bMLcCxxAA",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.9,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 1,
+      "start": 12.34,
+      "end": 43.56,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 2,
+      "start": 43.56,
+      "end": 46.56,
+      "textJa": "まずは、ローライダーの場所にある",
+      "reading": "まずは、ローライダーのばしょにある",
+      "textKo": "우선, 로우라이더가 있는 장소에는",
+      "words": [
+        { "word": "まずは", "reading": "まずは", "meaning": "우선은" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "場所", "reading": "ばしょ", "meaning": "장소" },
+        { "word": "に", "reading": "に", "meaning": "~에" },
+        { "word": "ある", "reading": "ある", "meaning": "있다" }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 50.72,
+      "end": 55.04,
+      "textJa": "ローライダーはチカノコミュニティの中でのイコンとして",
+      "reading": "ローライダーはチカノコミュニティのなかでのイコンとして",
+      "textKo": "로우라이더는 치카노 커뮤니티 안에서의 아이콘으로서",
+      "words": [
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "は", "reading": "は", "meaning": "~은/는 (주제)" },
+        { "word": "チカノ", "reading": "チカノ", "meaning": "치카노 (멕시코계 미국인)" },
+        { "word": "コミュニティ", "reading": "コミュニティ", "meaning": "커뮤니티" },
+        { "word": "の中で", "reading": "のなかで", "meaning": "~안에서" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "イコン", "reading": "イコン", "meaning": "아이콘" },
+        { "word": "として", "reading": "として", "meaning": "~으로서" }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 55.04,
+      "end": 57.58,
+      "textJa": "1940年代の中での作品を作り始めました",
+      "reading": "1940ねんだいのなかでのさくひんをつくりはじめました",
+      "textKo": "1940년대 안에서 작품을 만들기 시작했습니다",
+      "words": [
+        { "word": "1940年代", "reading": "1940ねんだい", "meaning": "1940년대" },
+        { "word": "の中で", "reading": "のなかで", "meaning": "~안에서" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "作品", "reading": "さくひん", "meaning": "작품" },
+        { "word": "を", "reading": "を", "meaning": "~을/를 (목적격)" },
+        { "word": "作り始めました", "reading": "つくりはじめました", "meaning": "만들기 시작했습니다" }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 57.58,
+      "end": 60.22,
+      "textJa": "戦い、継続、美容を表現するために",
+      "reading": "たたかい、けいぞく、びようをひょうげんするために",
+      "textKo": "투쟁, 지속, 아름다움을 표현하기 위해",
+      "words": [
+        { "word": "戦い", "reading": "たたかい", "meaning": "투쟁, 싸움" },
+        { "word": "継続", "reading": "けいぞく", "meaning": "지속, 계속" },
+        { "word": "美容", "reading": "びよう", "meaning": "미용, 아름다움" },
+        { "word": "を", "reading": "を", "meaning": "~을/를 (목적격)" },
+        { "word": "表現する", "reading": "ひょうげんする", "meaning": "표현하다" },
+        { "word": "ために", "reading": "ために", "meaning": "~하기 위해" }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 61.06,
+      "end": 69.82,
+      "textJa": "このカードがここに来ているのが興味がある",
+      "reading": "このカードがここにきているのがきょうみがある",
+      "textKo": "이 차가 여기에 와 있다는 것이 흥미롭다",
+      "words": [
+        { "word": "この", "reading": "この", "meaning": "이" },
+        { "word": "カード", "reading": "カード", "meaning": "카드 (여기서는 '차'를 의미)" },
+        { "word": "が", "reading": "が", "meaning": "~이/가 (주어)" },
+        { "word": "ここに", "reading": "ここに", "meaning": "여기에" },
+        { "word": "来ている", "reading": "きている", "meaning": "와 있다" },
+        { "word": "のが", "reading": "のが", "meaning": "~것이" },
+        { "word": "興味がある", "reading": "きょうみがある", "meaning": "흥미가 있다" }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 69.82,
+      "end": 72.34,
+      "textJa": "それが、ジュニチ。日本のローライダーの場所によって",
+      "reading": "それが、ジュニチ。にほんのローライダーのばしょによって",
+      "textKo": "그것이 준이치. 일본의 로우라이더 장소에 의해",
+      "words": [
+        { "word": "それが", "reading": "それが", "meaning": "그것이" },
+        { "word": "ジュニチ", "reading": "ジュニチ", "meaning": "준이치 (인명)" },
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "場所", "reading": "ばしょ", "meaning": "장소" },
+        { "word": "によって", "reading": "によって", "meaning": "~에 의해" }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 72.34,
+      "end": 76.60,
+      "textJa": "日本のローライダーの場所によって 一番古いカードのカードを建てた",
+      "reading": "にほんのローライダーのばしょによって いちばんふるいカードのカードをたてた",
+      "textKo": "일본의 로우라이더 장소에서 가장 오래된 차를 세웠다",
+      "words": [
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "場所", "reading": "ばしょ", "meaning": "장소" },
+        { "word": "によって", "reading": "によって", "meaning": "~에 의해" },
+        { "word": "一番古い", "reading": "いちばんふるい", "meaning": "가장 오래된" },
+        { "word": "カード", "reading": "カード", "meaning": "카드/차" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "建てた", "reading": "たてた", "meaning": "세웠다, 만들었다" }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 76.60,
+      "end": 81.02,
+      "textJa": "一番古いカードのカードを建てた",
+      "reading": "いちばんふるいカードのカードをたてた",
+      "textKo": "가장 오래된 차를 세웠다",
+      "words": [
+        { "word": "一番古い", "reading": "いちばんふるい", "meaning": "가장 오래된" },
+        { "word": "カード", "reading": "カード", "meaning": "카드/차" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "建てた", "reading": "たてた", "meaning": "세웠다, 만들었다" }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 81.02,
+      "end": 84.86,
+      "textJa": "日本のカードを開発して ローライダーは日本のローライダーの場所によって",
+      "reading": "にほんのカードをかいはつして ローライダーはにほんのローライダーのばしょによって",
+      "textKo": "일본의 차를 개발하여, 로우라이더는 일본의 로우라이더 장소에 의해",
+      "words": [
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "カード", "reading": "カード", "meaning": "카드/차" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "開発して", "reading": "かいはつして", "meaning": "개발하여" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "場所", "reading": "ばしょ", "meaning": "장소" },
+        { "word": "によって", "reading": "によって", "meaning": "~에 의해" }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 84.86,
+      "end": 89.66,
+      "textJa": "日本のローライダーが伝えられるようになった それから、文化が開いたような感じで",
+      "reading": "にほんのローライダーがつたえられるようになった それから、ぶんかがひらいたようなかんじで",
+      "textKo": "일본의 로우라이더가 전해지게 되었다. 그 후, 문화가 열린 느낌으로",
+      "words": [
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "が", "reading": "が", "meaning": "~이/가" },
+        { "word": "伝えられる", "reading": "つたえられる", "meaning": "전해지다 (수동형)" },
+        { "word": "ようになった", "reading": "ようになった", "meaning": "~하게 되었다" },
+        { "word": "それから", "reading": "それから", "meaning": "그 후에" },
+        { "word": "文化", "reading": "ぶんか", "meaning": "문화" },
+        { "word": "が", "reading": "が", "meaning": "~이/가" },
+        { "word": "開いた", "reading": "ひらいた", "meaning": "열렸다" },
+        { "word": "ような感じで", "reading": "ようなかんじで", "meaning": "~한 느낌으로" }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 90.00,
+      "end": 92.82,
+      "textJa": "ジュニチはこのカードを30年に入っている",
+      "reading": "ジュニチはこのカードを30ねんにはいっている",
+      "textKo": "준이치는 이 차에 30년째 몸담고 있다",
+      "words": [
+        { "word": "ジュニチ", "reading": "ジュニチ", "meaning": "준이치 (인명)" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "この", "reading": "この", "meaning": "이" },
+        { "word": "カード", "reading": "カード", "meaning": "카드/차" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "30年", "reading": "30ねん", "meaning": "30년" },
+        { "word": "に入っている", "reading": "にはいっている", "meaning": "~에 들어가 있다, 몸담다" }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 92.82,
+      "end": 95.66,
+      "textJa": "ローライダーの文化とチカノコミュニティの質問を",
+      "reading": "ローライダーのぶんかとチカノコミュニティのしつもんを",
+      "textKo": "로우라이더의 문화와 치카노 커뮤니티에 관한 질문을",
+      "words": [
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "文化", "reading": "ぶんか", "meaning": "문화" },
+        { "word": "と", "reading": "と", "meaning": "~와/과" },
+        { "word": "チカノ", "reading": "チカノ", "meaning": "치카노" },
+        { "word": "コミュニティ", "reading": "コミュニティ", "meaning": "커뮤니티" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "質問", "reading": "しつもん", "meaning": "질문" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 95.66,
+      "end": 97.84,
+      "textJa": "とても、日本の人々は本当に上手に見つけた",
+      "reading": "とても、にほんのひとびとはほんとうにじょうずにみつけた",
+      "textKo": "정말로, 일본 사람들은 정말 잘 찾아냈다",
+      "words": [
+        { "word": "とても", "reading": "とても", "meaning": "정말, 매우" },
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "人々", "reading": "ひとびと", "meaning": "사람들" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "本当に", "reading": "ほんとうに", "meaning": "정말로" },
+        { "word": "上手に", "reading": "じょうずに", "meaning": "잘, 능숙하게" },
+        { "word": "見つけた", "reading": "みつけた", "meaning": "찾았다, 발견했다" }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 98.56,
+      "end": 104.14,
+      "textJa": "車だけでなく、本当のクルージングで聴くミュージックとか",
+      "reading": "くるまだけでなく、ほんとうのクルージングできくミュージックとか",
+      "textKo": "차뿐만 아니라, 진짜 크루징에서 듣는 음악이라든가",
+      "words": [
+        { "word": "車", "reading": "くるま", "meaning": "차" },
+        { "word": "だけでなく", "reading": "だけでなく", "meaning": "~뿐만 아니라" },
+        { "word": "本当の", "reading": "ほんとうの", "meaning": "진짜의, 진정한" },
+        { "word": "クルージング", "reading": "クルージング", "meaning": "크루징 (드라이브)" },
+        { "word": "で", "reading": "で", "meaning": "~에서" },
+        { "word": "聴く", "reading": "きく", "meaning": "듣다" },
+        { "word": "ミュージック", "reading": "ミュージック", "meaning": "음악" },
+        { "word": "とか", "reading": "とか", "meaning": "~라든가" }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 104.82,
+      "end": 108.52,
+      "textJa": "クローズイングとか やっぱり何より一番大事なのは",
+      "reading": "クローズイングとか やっぱりなにより いちばんだいじなのは",
+      "textKo": "클로징이라든가, 역시 무엇보다 가장 중요한 것은",
+      "words": [
+        { "word": "クローズイング", "reading": "クローズイング", "meaning": "클로징 (closing)" },
+        { "word": "とか", "reading": "とか", "meaning": "~라든가" },
+        { "word": "やっぱり", "reading": "やっぱり", "meaning": "역시" },
+        { "word": "何より", "reading": "なにより", "meaning": "무엇보다" },
+        { "word": "一番", "reading": "いちばん", "meaning": "가장, 제일" },
+        { "word": "大事な", "reading": "だいじな", "meaning": "중요한" },
+        { "word": "のは", "reading": "のは", "meaning": "~것은" }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 108.52,
+      "end": 113.26,
+      "textJa": "向こうのその人たちが好きで友達になろうという気持ちがないと",
+      "reading": "むこうのそのひとたちがすきでともだちになろうというきもちがないと",
+      "textKo": "저쪽의 그 사람들을 좋아하고 친구가 되고자 하는 마음이 없으면",
+      "words": [
+        { "word": "向こうの", "reading": "むこうの", "meaning": "저쪽의, 상대편의" },
+        { "word": "その", "reading": "その", "meaning": "그" },
+        { "word": "人たち", "reading": "ひとたち", "meaning": "사람들" },
+        { "word": "が好きで", "reading": "がすきで", "meaning": "를 좋아하고" },
+        { "word": "友達になろう", "reading": "ともだちになろう", "meaning": "친구가 되자" },
+        { "word": "という", "reading": "という", "meaning": "라고 하는" },
+        { "word": "気持ち", "reading": "きもち", "meaning": "마음, 기분" },
+        { "word": "がないと", "reading": "がないと", "meaning": "이 없으면" }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 113.26,
+      "end": 115.70,
+      "textJa": "それはただのローライダースタイルの車を",
+      "reading": "それはただのローライダースタイルのくるまを",
+      "textKo": "그것은 단순한 로우라이더 스타일의 차를",
+      "words": [
+        { "word": "それは", "reading": "それは", "meaning": "그것은" },
+        { "word": "ただの", "reading": "ただの", "meaning": "단순한, 그냥" },
+        { "word": "ローライダー", "reading": "ローライダー", "meaning": "로우라이더" },
+        { "word": "スタイル", "reading": "スタイル", "meaning": "스타일" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "車", "reading": "くるま", "meaning": "차" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 115.70,
+      "end": 122.88,
+      "textJa": "ドライブしている人になって おお、すごい!",
+      "reading": "ドライブしているひとになって おお、すごい!",
+      "textKo": "드라이브하는 사람이 될 뿐이야. 오, 대단해!",
+      "words": [
+        { "word": "ドライブしている", "reading": "ドライブしている", "meaning": "드라이브하고 있는" },
+        { "word": "人", "reading": "ひと", "meaning": "사람" },
+        { "word": "になって", "reading": "になって", "meaning": "이 되어" },
+        { "word": "おお", "reading": "おお", "meaning": "오, 우와" },
+        { "word": "すごい", "reading": "すごい", "meaning": "대단하다, 굉장하다" }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 129.08,
+      "end": 151.24,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 21,
+      "start": 153.54,
+      "end": 158.36,
+      "textJa": "Micky Styles is a DJ and he runs a shop called La Puerta",
+      "reading": "Micky Styles is a DJ and he runs a shop called La Puerta",
+      "textKo": "믹키 스타일스는 DJ이고 라 푸에르타라는 가게를 운영합니다",
+      "words": []
+    },
+    {
+      "index": 22,
+      "start": 158.36,
+      "end": 175.00,
+      "textJa": "Micky Styles reminds me of someone who I went to middle school with",
+      "reading": "Micky Styles reminds me of someone who I went to middle school with",
+      "textKo": "믹키 스타일스는 내가 중학교 때 함께 다닌 사람을 떠올리게 해요",
+      "words": []
+    },
+    {
+      "index": 23,
+      "start": 175.00,
+      "end": 178.44,
+      "textJa": "You know like shaved head, baggy pants, baggy t-shirt",
+      "reading": "You know like shaved head, baggy pants, baggy t-shirt",
+      "textKo": "있잖아요, 면도한 머리, 헐렁한 바지, 헐렁한 티셔츠",
+      "words": []
+    },
+    {
+      "index": 24,
+      "start": 180.44,
+      "end": 182.66,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 25,
+      "start": 182.66,
+      "end": 184.78,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 26,
+      "start": 184.78,
+      "end": 187.44,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 27,
+      "start": 187.44,
+      "end": 189.70,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 28,
+      "start": 189.70,
+      "end": 192.14,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 29,
+      "start": 192.14,
+      "end": 194.32,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 30,
+      "start": 194.32,
+      "end": 197.14,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 31,
+      "start": 197.14,
+      "end": 199.22,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 32,
+      "start": 208.60,
+      "end": 218.38,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 33,
+      "start": 218.38,
+      "end": 221.70,
+      "textJa": "彼の作品は、チカノの文化のポジティブなコルチャーに関しています。",
+      "reading": "かれのさくひんは、チカノのぶんかのポジティブなコルチャーにかんしています。",
+      "textKo": "그의 작품은 치카노 문화의 긍정적인 컬처에 관한 것입니다.",
+      "words": [
+        { "word": "彼の", "reading": "かれの", "meaning": "그의" },
+        { "word": "作品", "reading": "さくひん", "meaning": "작품" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "チカノ", "reading": "チカノ", "meaning": "치카노" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "文化", "reading": "ぶんか", "meaning": "문화" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "ポジティブな", "reading": "ポジティブな", "meaning": "긍정적인" },
+        { "word": "コルチャー", "reading": "コルチャー", "meaning": "컬처 (cultura/culture)" },
+        { "word": "に関しています", "reading": "にかんしています", "meaning": "~에 관한 것입니다" }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 250.60,
+      "end": 255.94,
+      "textJa": "モーナ、SAD GIRLは日本の最も popular Chican-style rappersで、日本のラッパーを出てきました。",
+      "reading": "モーナ、SAD GIRLはにほんのもっともポピュラーなチカン・スタイルのラッパーで、にほんのラッパーをでてきました。",
+      "textKo": "모나, SAD GIRL은 일본에서 가장 유명한 치카노 스타일 래퍼로, 일본 래퍼 중에서 두각을 나타냈습니다.",
+      "words": [
+        { "word": "モーナ", "reading": "モーナ", "meaning": "모나 (인명)" },
+        { "word": "SAD GIRL", "reading": "SAD GIRL", "meaning": "새드 걸 (예명)" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "最も", "reading": "もっとも", "meaning": "가장, 제일" },
+        { "word": "popular", "reading": "ポピュラー", "meaning": "인기 있는" },
+        { "word": "Chican-style", "reading": "チカン・スタイル", "meaning": "치카노 스타일" },
+        { "word": "rappers", "reading": "ラッパーズ", "meaning": "래퍼들" },
+        { "word": "で", "reading": "で", "meaning": "~이며" },
+        { "word": "出てきました", "reading": "でてきました", "meaning": "나타났습니다, 등장했습니다" }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 255.94,
+      "end": 261.20,
+      "textJa": "4アルバムを出てきました。 そして、彼はL. A.やSan Diegoで演奏しています。",
+      "reading": "4アルバムをでてきました。 そして、かれはL. A.やSan Diegoでえんそうしています。",
+      "textKo": "4장의 앨범을 발표했습니다. 그리고 그는 LA나 샌디에이고에서 공연하고 있습니다.",
+      "words": [
+        { "word": "4アルバム", "reading": "4アルバム", "meaning": "4장의 앨범" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "出てきました", "reading": "でてきました", "meaning": "내놓았습니다, 발표했습니다" },
+        { "word": "そして", "reading": "そして", "meaning": "그리고" },
+        { "word": "彼は", "reading": "かれは", "meaning": "그는" },
+        { "word": "L. A.", "reading": "エルエー", "meaning": "로스앤젤레스" },
+        { "word": "や", "reading": "や", "meaning": "~나, ~와" },
+        { "word": "San Diego", "reading": "サンディエゴ", "meaning": "샌디에이고" },
+        { "word": "で", "reading": "で", "meaning": "~에서" },
+        { "word": "演奏しています", "reading": "えんそうしています", "meaning": "공연하고 있습니다" }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 263.02,
+      "end": 270.20,
+      "textJa": "私は、そのカルチャーを知った時、周りの友達も同じように、そういうカルチャーが好きで、",
+      "reading": "わたしは、そのカルチャーをしったとき、まわりのともだちもおなじように、そういうカルチャーがすきで、",
+      "textKo": "저는 그 문화를 알게 되었을 때, 주변 친구들도 마찬가지로 그런 문화를 좋아해서,",
+      "words": [
+        { "word": "私は", "reading": "わたしは", "meaning": "저는" },
+        { "word": "その", "reading": "その", "meaning": "그" },
+        { "word": "カルチャー", "reading": "カルチャー", "meaning": "문화 (culture)" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "知った", "reading": "しった", "meaning": "알게 되었다" },
+        { "word": "時", "reading": "とき", "meaning": "때, 시간" },
+        { "word": "周りの", "reading": "まわりの", "meaning": "주변의" },
+        { "word": "友達", "reading": "ともだち", "meaning": "친구" },
+        { "word": "も", "reading": "も", "meaning": "~도" },
+        { "word": "同じように", "reading": "おなじように", "meaning": "마찬가지로" },
+        { "word": "そういう", "reading": "そういう", "meaning": "그런" },
+        { "word": "カルチャーが好きで", "reading": "カルチャーがすきで", "meaning": "문화를 좋아해서" }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 270.56,
+      "end": 273.54,
+      "textJa": "グループがあったんですよ。 彼女同士の友達。",
+      "reading": "グループがあったんですよ。 かのじょどうしのともだち。",
+      "textKo": "그룹이 있었어요. 그녀들끼리의 친구들.",
+      "words": [
+        { "word": "グループ", "reading": "グループ", "meaning": "그룹" },
+        { "word": "が", "reading": "が", "meaning": "~이/가" },
+        { "word": "あったんですよ", "reading": "あったんですよ", "meaning": "있었어요" },
+        { "word": "彼女同士の", "reading": "かのじょどうしの", "meaning": "여자들끼리의" },
+        { "word": "友達", "reading": "ともだち", "meaning": "친구" }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 275.20,
+      "end": 277.90,
+      "textJa": "Mousie Saya",
+      "reading": "Mousie Saya",
+      "textKo": "무시 사야 (인터뷰이 이름)",
+      "words": []
+    },
+    {
+      "index": 39,
+      "start": 278.56,
+      "end": 280.86,
+      "textJa": "Maiko Uera",
+      "reading": "Maiko Uera",
+      "textKo": "마이코 우에라 (인터뷰이 이름)",
+      "words": []
+    },
+    {
+      "index": 40,
+      "start": 282.80,
+      "end": 286.04,
+      "textJa": "どんな女性が、このような人々は、このような人々は?",
+      "reading": "どんなじょせいが、このようなひとびとは、このようなひとびとは?",
+      "textKo": "어떤 여성이, 이런 사람들은, 이런 사람들은?",
+      "words": [
+        { "word": "どんな", "reading": "どんな", "meaning": "어떤" },
+        { "word": "女性", "reading": "じょせい", "meaning": "여성" },
+        { "word": "が", "reading": "が", "meaning": "~이/가" },
+        { "word": "このような", "reading": "このような", "meaning": "이러한" },
+        { "word": "人々", "reading": "ひとびと", "meaning": "사람들" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 286.80,
+      "end": 289.80,
+      "textJa": "誰? 誰? 僕。",
+      "reading": "だれ? だれ? ぼく。",
+      "textKo": "누구? 누구? 나.",
+      "words": [
+        { "word": "誰", "reading": "だれ", "meaning": "누구" },
+        { "word": "僕", "reading": "ぼく", "meaning": "나 (남성 1인칭)" }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 291.58,
+      "end": 296.10,
+      "textJa": "日本のチカノの文化の未来は、どんな人々は?",
+      "reading": "にほんのチカノのぶんかのみらいは、どんなひとびとは?",
+      "textKo": "일본 치카노 문화의 미래는, 어떤 사람들인가요?",
+      "words": [
+        { "word": "日本の", "reading": "にほんの", "meaning": "일본의" },
+        { "word": "チカノ", "reading": "チカノ", "meaning": "치카노" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "文化", "reading": "ぶんか", "meaning": "문화" },
+        { "word": "の", "reading": "の", "meaning": "~의" },
+        { "word": "未来", "reading": "みらい", "meaning": "미래" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "どんな", "reading": "どんな", "meaning": "어떤" },
+        { "word": "人々", "reading": "ひとびと", "meaning": "사람들" }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 299.80,
+      "end": 304.32,
+      "textJa": "私は正直なところ、亡くなると思う。",
+      "reading": "わたしはしょうじきなところ、なくなるとおもう。",
+      "textKo": "솔직히 말하면, 사라질 것 같아요.",
+      "words": [
+        { "word": "私は", "reading": "わたしは", "meaning": "저는" },
+        { "word": "正直なところ", "reading": "しょうじきなところ", "meaning": "솔직히 말하면" },
+        { "word": "亡くなる", "reading": "なくなる", "meaning": "사라지다, 없어지다" },
+        { "word": "と思う", "reading": "とおもう", "meaning": "~라고 생각한다" }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 304.44,
+      "end": 310.78,
+      "textJa": "私のきっかけで、チカノという人たちがいるんやって知った若い世代の子は多くて、",
+      "reading": "わたしのきっかけで、チカノというひとたちがいるんやってしったわかいせだいのこはおおくて、",
+      "textKo": "제 계기로 치카노라는 사람들이 있다는 걸 알게 된 젊은 세대 아이들은 많아서,",
+      "words": [
+        { "word": "私の", "reading": "わたしの", "meaning": "나의, 제" },
+        { "word": "きっかけで", "reading": "きっかけで", "meaning": "계기로" },
+        { "word": "チカノ", "reading": "チカノ", "meaning": "치카노" },
+        { "word": "という", "reading": "という", "meaning": "~라고 하는" },
+        { "word": "人たち", "reading": "ひとたち", "meaning": "사람들" },
+        { "word": "がいる", "reading": "がいる", "meaning": "이 있다" },
+        { "word": "んやって", "reading": "んやって", "meaning": "~라는 걸 (간사이 방언)" },
+        { "word": "知った", "reading": "しった", "meaning": "알게 된" },
+        { "word": "若い世代", "reading": "わかいせだい", "meaning": "젊은 세대" },
+        { "word": "の子", "reading": "のこ", "meaning": "아이, 젊은이" },
+        { "word": "は多くて", "reading": "はおおくて", "meaning": "은 많아서" }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 311.18,
+      "end": 323.46,
+      "textJa": "でもその子たちは、私を真似して知ったわけで、本当のチカノたちのライフスタイルを、本当に好きな子っていうのは、本当に数えられる数名しかいないです。日本では。",
+      "reading": "でもそのこたちは、わたしをまねしてしったわけで、ほんとうのチカノたちのライフスタイルを、ほんとうにすきなこっていうのは、ほんとうにかぞえられるすうめいしかいないです。にほんでは。",
+      "textKo": "하지만 그 아이들은 저를 따라서 알게 된 것이고, 진짜 치카노들의 라이프스타일을 진심으로 좋아하는 아이는 정말 손꼽을 수 있을 만큼 몇 명밖에 없어요. 일본에서는.",
+      "words": [
+        { "word": "でも", "reading": "でも", "meaning": "하지만" },
+        { "word": "その子たち", "reading": "そのこたち", "meaning": "그 아이들" },
+        { "word": "は", "reading": "は", "meaning": "~은/는" },
+        { "word": "私を", "reading": "わたしを", "meaning": "저를" },
+        { "word": "真似して", "reading": "まねして", "meaning": "따라서, 모방해서" },
+        { "word": "知った", "reading": "しった", "meaning": "알게 된" },
+        { "word": "わけで", "reading": "わけで", "meaning": "~인 것이고" },
+        { "word": "本当の", "reading": "ほんとうの", "meaning": "진짜의" },
+        { "word": "チカノたちの", "reading": "チカノたちの", "meaning": "치카노들의" },
+        { "word": "ライフスタイル", "reading": "ライフスタイル", "meaning": "라이프스타일" },
+        { "word": "を", "reading": "を", "meaning": "~을/를" },
+        { "word": "本当に好きな", "reading": "ほんとうにすきな", "meaning": "진심으로 좋아하는" },
+        { "word": "子っていうのは", "reading": "こっていうのは", "meaning": "아이라는 것은" },
+        { "word": "数えられる", "reading": "かぞえられる", "meaning": "셀 수 있는" },
+        { "word": "数名しかいない", "reading": "すうめいしかいない", "meaning": "몇 명밖에 없다" },
+        { "word": "日本では", "reading": "にほんでは", "meaning": "일본에서는" }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 323.46,
+      "end": 327.70,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 47,
+      "start": 327.70,
+      "end": 329.78,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 48,
+      "start": 329.78,
+      "end": 335.56,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 49,
+      "start": 336.86,
+      "end": 340.22,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 50,
+      "start": 344.66,
+      "end": 352.48,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 51,
+      "start": 353.46,
+      "end": 383.44,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 52,
+      "start": 384.34,
+      "end": 386.86,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 53,
+      "start": 386.86,
+      "end": 389.00,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 54,
+      "start": 389.00,
+      "end": 392.14,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    },
+    {
+      "index": 55,
+      "start": 392.14,
+      "end": 394.40,
+      "textJa": "BGM",
+      "reading": "",
+      "textKo": "(배경음악)",
+      "words": []
+    }
+  ]
+}

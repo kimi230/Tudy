@@ -1,0 +1,72 @@
+{
+  "videoId": "6yRBSjcWUME",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 23,
+      "summary": "'翻訳 字幕 初音ミク'로 시작해 'なんかね、必要かどうかわからない、そんなことは'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "すよ",
+        "でもね",
+        "初音ミク"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 23,
+      "endSegment": 71,
+      "summary": "'なんかね、必要かどうかわからない、そんなことは'로 시작해 '2発殴られたやつなんですよ 笑 だってね ずっと'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "でも",
+        "だって",
+        "ただ"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 71,
+      "endSegment": 126,
+      "summary": "'2発殴られたやつなんですよ 笑 だってね ずっと'로 시작해 '自分のマイナスやったもの ネガティブなものが'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "実は"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 126,
+      "endSegment": 157,
+      "summary": "'自分のマイナスやったもの ネガティブなものが'로 시작해 'ありがとうございました'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "だから",
+        "全部"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "翻訳 字幕 初音ミク",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "これ意外性ってそんなことないですから",
+      "type": "transition",
+      "segmentIndex": 52,
+      "role": "중간 전개 전환"
+    },
+    {
+      "expression": "面白いでしょ びっくりしたんです",
+      "type": "emphasis",
+      "segmentIndex": 105,
+      "role": "핵심 강조"
+    },
+    {
+      "expression": "ありがとうございました",
+      "type": "conclusion",
+      "segmentIndex": 157,
+      "role": "결론 정리"
+    }
+  ]
+}

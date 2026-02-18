@@ -1,0 +1,149 @@
+{
+  "videoId": "2K88pWCimZg",
+  "connectedSpeech": [
+    {
+      "type": "tone_sandhi",
+      "originalText": "一举",
+      "pinyin": "yī jǔ",
+      "toneChange": "一 changes from Tone 1 (yī) to Tone 2 (yí) before Tone 3 (jǔ): yí jǔ",
+      "explanationKo": "一(yī)가 3성(jǔ) 앞에 올 때 2성(yí)으로 변합니다. 一 + 3성 = 2성 + 3성.",
+      "practiceGuide": "Practice: yī → yí before jǔ. Say slowly: yí jǔ → yíjǔ (in one fell swoop)",
+      "segmentIndex": 42
+    },
+    {
+      "type": "tone_sandhi",
+      "originalText": "不得",
+      "pinyin": "bù dé",
+      "toneChange": "不 changes from Tone 4 (bù) to Tone 2 (bú) before Tone 4 (dé): bú dé",
+      "explanationKo": "不(bù)가 4성(dé) 앞에 올 때 2성(bú)으로 변합니다. 不 + 4성 = 2성 + 4성.",
+      "practiceGuide": "Practice: bù → bú before dé. Say: bú dé (not permitted). Note: this is a fixed rule for 不 before 4th tone.",
+      "segmentIndex": 24
+    },
+    {
+      "type": "tone_sandhi",
+      "originalText": "不仅",
+      "pinyin": "bù jǐn",
+      "toneChange": "不 stays Tone 4 (bù) before Tone 3 (jǐn). No change needed here, but note that 仅 is Tone 3.",
+      "explanationKo": "不(bù)는 3성(jǐn) 앞에서 변화 없이 4성을 유지합니다. 4성 + 3성 조합입니다.",
+      "practiceGuide": "Practice the 4th + 3rd tone combination: bù jǐn. Keep the bù short and falling, jǐn dipping down.",
+      "segmentIndex": 30
+    },
+    {
+      "type": "tone_sandhi",
+      "originalText": "可以",
+      "pinyin": "kě yǐ",
+      "toneChange": "Two consecutive third tones: the first 可 (kě) changes to Tone 2 (ké): ké yǐ",
+      "explanationKo": "3성 + 3성 연속 시, 앞의 3성이 2성으로 변합니다. 可以(kě yǐ) → 발음 시 ké yǐ.",
+      "practiceGuide": "Two third tones together: 可(kě) + 以(yǐ). In natural speech, 可 becomes second tone: ké yǐ. Practice: ké-yǐ.",
+      "segmentIndex": 51
+    },
+    {
+      "type": "neutral_tone",
+      "originalText": "他们",
+      "pinyin": "tā men",
+      "toneChange": "们 (men) is a neutral tone suffix. It should be pronounced lightly and briefly after the main syllable tā.",
+      "explanationKo": "们(men)은 중성조(경성) 접미사입니다. 주 음절 tā 뒤에 가볍고 짧게 발음합니다.",
+      "practiceGuide": "tā-men: 他(tā) gets full Tone 1, 们(men) is barely voiced — very short and light. Do not stress 们.",
+      "segmentIndex": 8
+    },
+    {
+      "type": "neutral_tone",
+      "originalText": "我们",
+      "pinyin": "wǒ men",
+      "toneChange": "们 (men) is neutral tone. The main syllable 我(wǒ) keeps its 3rd tone; 们 is reduced.",
+      "explanationKo": "们(men)은 경성으로, 주 음절 我(wǒ)의 3성을 유지하면서 们을 짧고 가볍게 발음합니다.",
+      "practiceGuide": "wǒ-men: stress the wǒ dip, then let men trail off softly. Common in everyday speech.",
+      "segmentIndex": 45
+    },
+    {
+      "type": "erhua",
+      "originalText": "一点儿",
+      "pinyin": "yīdiǎnr",
+      "toneChange": "儿化 (erhua): 儿 is not a separate syllable but retroflexes the preceding vowel. 点儿 is pronounced diǎnr in one syllable.",
+      "explanationKo": "儿化(얼화): 儿는 독립된 음절이 아니라 앞 모음을 권설음화합니다. 点儿은 diǎnr로 한 음절처럼 발음됩니다.",
+      "practiceGuide": "diǎn + r → diǎnr. Curl the tip of the tongue up and back (retroflex) as you finish saying diǎn. Do not add an extra syllable.",
+      "segmentIndex": 13
+    },
+    {
+      "type": "tone_change_yi",
+      "originalText": "一直",
+      "pinyin": "yī zhí",
+      "toneChange": "一 before Tone 2 (zhí) stays Tone 1: yī zhí. (一 only changes before Tone 1, 2, 3 → becomes Tone 4; before Tone 3 → becomes Tone 2)",
+      "explanationKo": "一(yī)가 2성(zhí) 앞에서는 4성(yì)으로 변합니다: yì zhí. 실제 발음은 yì zhí로 읽습니다.",
+      "practiceGuide": "一直(yīzhí) in formal citation is Tone 1 + Tone 2, but in natural speech 一 becomes Tone 4: yì zhí. Practice both forms.",
+      "segmentIndex": 35
+    },
+    {
+      "type": "sandhi_in_compound",
+      "originalText": "不公正",
+      "pinyin": "bù gōng zhèng",
+      "toneChange": "不(bù) + Tone 1 gōng = no change. 不 only changes before Tone 4. Here 不 stays Tone 4 before Tone 1 (gōng).",
+      "explanationKo": "不(bù)는 1성(gōng) 앞에서 변화 없이 4성을 유지합니다. 不는 4성 앞에서만 2성으로 변합니다.",
+      "practiceGuide": "bù gōng zhèng: Tone 4, Tone 1, Tone 4. Practice the contrast: falling (bù), high level (gōng), falling (zhèng).",
+      "segmentIndex": 65
+    },
+    {
+      "type": "linking_sounds",
+      "originalText": "发现了",
+      "pinyin": "fā xiàn le",
+      "toneChange": "The particle 了(le) is neutral tone. When following a verb, it attaches naturally without pause. fā-xiàn-le flows as one unit.",
+      "explanationKo": "어기조사 了(le)는 경성으로, 동사 뒤에 자연스럽게 붙습니다. fā-xiàn-le는 끊지 않고 한 단위로 흐릅니다.",
+      "practiceGuide": "Verb + 了: Do not pause before 了. The 了 is just a light extra syllable: fā-xiàn-le (discovered/found). Practice linking the verb smoothly to 了.",
+      "segmentIndex": 3
+    },
+    {
+      "type": "tone_pair_practice",
+      "originalText": "歧视",
+      "pinyin": "qí shì",
+      "toneChange": "Tone 2 + Tone 4: rising then falling. This is a very common combination in Chinese. The key is the rising of qí before the sharp fall of shì.",
+      "explanationKo": "2성 + 4성 조합: 올라갔다가 내려옵니다. 중국어에서 매우 흔한 성조 조합입니다. qí의 상승 후 shì의 급격한 하강이 핵심입니다.",
+      "practiceGuide": "qí (voice rises like a question: up) + shì (voice falls sharply: down). Practice: qí↑shì↓. Say it several times: qíshì, qíshì.",
+      "segmentIndex": 11
+    },
+    {
+      "type": "tone_pair_practice",
+      "originalText": "移民",
+      "pinyin": "yí mín",
+      "toneChange": "Tone 2 + Tone 2: both syllables rise. Keep each syllable distinctly rising, do not flatten them.",
+      "explanationKo": "2성 + 2성 조합: 두 음절 모두 올라갑니다. 각 음절이 분명히 올라가도록 유지하고 평탄하게 만들지 않습니다.",
+      "practiceGuide": "yí↑ mín↑: both tones rise. Imagine two question-like sounds in a row. Practice: yí-mín, yí-mín. Keep them energetic and rising.",
+      "segmentIndex": 5
+    },
+    {
+      "type": "tone_pair_practice",
+      "originalText": "法律",
+      "pinyin": "fǎ lǜ",
+      "toneChange": "Tone 3 + Tone 4: dip-then-fall pattern. 法(fǎ) dips down then rises slightly; 律(lǜ) falls sharply. Very common pattern for legal vocabulary.",
+      "explanationKo": "3성 + 4성 조합: 내려갔다 올라갔다가(3성) 급격히 내려갑니다(4성). 법률 어휘에서 매우 흔한 패턴입니다.",
+      "practiceGuide": "fǎ (dip down-up) + lǜ (sharp fall). The 3rd tone dip is important — do not skip the valley. fǎ↓↑lǜ↓. Practice slowly then faster.",
+      "segmentIndex": 30
+    },
+    {
+      "type": "rhythm_pattern",
+      "originalText": "国家安全",
+      "pinyin": "guó jiā ān quán",
+      "toneChange": "Tone 2 + Tone 1 + Tone 1 + Tone 2: rising-high-high-rising pattern. Four syllable compound with a rhythmic flow.",
+      "explanationKo": "2성 + 1성 + 1성 + 2성: 올라가고-높고-높고-올라가는 패턴. 리드미컬한 흐름을 가진 4음절 복합어입니다.",
+      "practiceGuide": "guó↑ jiā→ ān→ quán↑: two rises with two high flats in the middle. Practice as one smooth four-syllable word: guójiā'ānquán.",
+      "segmentIndex": 48
+    },
+    {
+      "type": "consonant_initial",
+      "originalText": "歧视 vs 其次",
+      "pinyin": "qíshì vs qícì",
+      "toneChange": "Both start with q- (aspirated). Practice the aspiration: q is like 'ch' but with strong airflow. Put paper in front of your mouth — it should flutter.",
+      "explanationKo": "둘 다 q-로 시작합니다(유기음). 기식(aspiration) 연습: q는 'ch'와 비슷하지만 강한 기류가 필요합니다. 입 앞에 종이를 대면 펄럭여야 합니다.",
+      "practiceGuide": "q-: place your tongue near the hard palate, push air out forcefully: qi, qi, qi. Compare with no aspiration: j (no puff). Feel the difference.",
+      "segmentIndex": 11
+    },
+    {
+      "type": "connected_flow",
+      "originalText": "这项政策威胁要拆散家庭",
+      "pinyin": "zhè xiàng zhèngcè wēixié yào chāisàn jiātíng",
+      "toneChange": "In natural speech, this phrase flows as two rhythm groups: [zhè-xiàng-zhèng-cè] [wēi-xié-yào-chāi-sàn-jiā-tíng]. Slight pause between them.",
+      "explanationKo": "자연스러운 발화에서 이 문장은 두 개의 리듬 그룹으로 흐릅니다: [这项政策] [威胁要拆散家庭]. 그 사이에 약간의 휴지(pause)가 있습니다.",
+      "practiceGuide": "Group 1: zhè-xiàng-zhèng-cè (this policy). Group 2: wēi-xié-yào-chāi-sàn-jiā-tíng (threatened to break apart families). Practice each group then combine with a brief pause.",
+      "segmentIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 5,
+      "summary": "The host (Paolo from TOKYO) introduces Kento, a 27-year-old who works at Maruhan, a large pachinko parlor in Tokyo.",
+      "summaryKo": "진행자(파올로 from TOKYO)가 도쿄의 대형 파친코 홀 마루한에서 일하는 27살 켄토를 소개한다.",
+      "keyPoints": [
+        "켄토는 27살, 도쿄 거주",
+        "마루한 파친코 홀 근무",
+        "이 영상은 그의 하루를 따라가는 '일상 브이로그'"
+      ]
+    },
+    {
+      "section": "Arrival and Morning Preparation",
+      "startSegment": 6,
+      "endSegment": 23,
+      "summary": "Kento arrives at work, changes into his uniform, and reviews the day's staff placement board. The floor and staff positions are explained.",
+      "summaryKo": "켄토가 출근해 유니폼으로 갈아입고, 그날의 직원 배치표를 확인한다. 플로어와 직원 배치가 설명된다.",
+      "keyPoints": [
+        "출근 후 유니폼 착용",
+        "その日のスタッフの配置 확인",
+        "床面(플로어) 구조 설명",
+        "켄토의 담당 구역 파악"
+      ]
+    },
+    {
+      "section": "Opening and Customer Service",
+      "startSegment": 24,
+      "endSegment": 32,
+      "summary": "The hall opens and Kento focuses on greeting and welcoming every customer. He walks the floor to assist customers with questions.",
+      "summaryKo": "홀이 문을 열고 켄토는 손님 한 명 한 명에게 인사하며 환영한다. 플로어를 순회하며 고객을 지원한다.",
+      "keyPoints": [
+        "개장 시 전 고객에게 인사",
+        "大きな歓迎 (큰 환영)의 중요성",
+        "お客様は神様 정신 실천",
+        "고객에게 친밀하되 방해되지 않는 거리 유지"
+      ]
+    },
+    {
+      "section": "Lunch Break and Computer Work",
+      "startSegment": 33,
+      "endSegment": 44,
+      "summary": "Kento takes a 30-minute lunch break eating convenience store food. He then performs computer work: verifying the hikitsugi (shift handover report).",
+      "summaryKo": "켄토는 30분 점심 휴식을 취하며 편의점 도시락을 먹는다. 이후 컴퓨터 작업으로 引き継ぎ(교대 인계 기록)를 확인한다.",
+      "keyPoints": [
+        "30분 점심 휴식, 코스트 절약을 위해 コンビニ弁当",
+        "引き継ぎ 시스템: 교대별 업무 기록",
+        "다음 시프트와 정보 공유로 서비스 연속성 유지"
+      ]
+    },
+    {
+      "section": "Pachinko Hall Explanation",
+      "startSegment": 45,
+      "endSegment": 58,
+      "summary": "While Kento works, the narrator explains how pachinko works: the ball mechanism, jackpot system, gold chip exchange, and the legal workaround for cash prizes.",
+      "summaryKo": "켄토가 작업하는 동안 나레이터가 파친코 규칙을 설명한다: 볼 메커니즘, 잭팟 시스템, 골드칩 환전, 그리고 현금 교환을 위한 법적 우회 방법.",
+      "keyPoints": [
+        "パチンコ = 핀볼 유사 기계식 게임",
+        "スタートチャッカーに入ると → 슬롯 회전 시작",
+        "賞金を景品に交換可能 (경품 교환)",
+        "賭博禁止法 → ゴールドチップ → TUCショップで現金化 (삼각 환전 구조)"
+      ]
+    },
+    {
+      "section": "Afternoon Work: Maintenance and Service",
+      "startSegment": 59,
+      "endSegment": 72,
+      "summary": "Back on the floor, Kento wipes machines, collects trash, handles overflow winnings using special carts, repairs machines, and operates a coin counter for slots.",
+      "summaryKo": "홀로 돌아온 켄토는 기계 청소, 쓰레기 수거, 특수 카트로 초과 당첨금 관리, 기계 수리, 슬롯용 동전 계수기 조작 등을 수행한다.",
+      "keyPoints": [
+        "機械の清掃 (기계 청소) 및 ゴミ収集",
+        "勝ち続けるお客様のための空間確保",
+        "特別なカートでボール・メダル保管",
+        "コインカウンター 조작"
+      ]
+    },
+    {
+      "section": "Data Check and Security",
+      "startSegment": 73,
+      "endSegment": 81,
+      "summary": "Kento does a data check on all 1160 machines to detect errors and fraud. He also demonstrates the face recognition system that identifies suspicious customers.",
+      "summaryKo": "켄토는 1160대 기계 전체의 데이터 체크를 수행하여 오류와 부정행위를 감지한다. 마스크를 착용해도 고객을 식별하는 얼굴 인식 시스템도 소개된다.",
+      "keyPoints": [
+        "1160台のデータを一日数回チェック",
+        "不正行為の検出 및 フロアスタッフへの即時通知",
+        "顔認識システム: マスク着用者も識別可能"
+      ]
+    },
+    {
+      "section": "Staff Management and Evaluation",
+      "startSegment": 82,
+      "endSegment": 87,
+      "summary": "As hall manager, Kento regularly evaluates floor staff on their customer service. He also mentors a new employee and writes the hikitsugi for the next shift.",
+      "summaryKo": "홀 매니저로서 켄토는 플로어 직원들의 고객 서비스를 정기적으로 평가한다. 신입 직원을 지도하고, 다음 시프트를 위한 인계 기록도 작성한다.",
+      "keyPoints": [
+        "優れた顧客サービスの強調",
+        "頻繁な評価 = 기본 원칙",
+        "外国語ハウツープレイブック 제공",
+        "新入社員指導 (신입 직원 멘토링)",
+        "引き継ぎ作成 (다음 교대를 위한 기록)"
+      ]
+    },
+    {
+      "section": "End of Shift: Shurei and Pocket Check",
+      "startSegment": 88,
+      "endSegment": 92,
+      "summary": "The shift ends with Shurei (終礼 - closing staff meeting), where the day's events are reviewed as a learning moment. Staff then perform a pocket check.",
+      "summaryKo": "시프트가 終礼(종례)로 마무리된다. 하루의 사건들을 학습 기회로 검토한다. 직원들은 포켓 체크를 실시한다.",
+      "keyPoints": [
+        "終礼 = 시프트 마무리 회의",
+        "학습 기회로 활용",
+        "ポケットチェック = 직원 절도 방지",
+        "今日も一日ありがとうございました (감사 인사)"
+      ]
+    },
+    {
+      "section": "After Work: Dinner and Outro",
+      "startSegment": 93,
+      "endSegment": 100,
+      "summary": "After work, Kento and the host go out for dinner. The video ends with a sign-off: お疲れ様でした and また次回の動画でお会いしましょう.",
+      "summaryKo": "퇴근 후 켄토와 진행자가 저녁을 먹으러 나간다. 영상은 お疲れ様でした와 また次回の動画でお会いしましょう로 마무리된다.",
+      "keyPoints": [
+        "ご飯！(밥!) = 퇴근 후 저녁 식사",
+        "お疲れ様でした (수고 인사)",
+        "また次回の動画でお会いしましょう (다음 영상에서 만나요)"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "このタイプはケント",
+      "type": "introduction",
+      "segmentIndex": 1,
+      "role": "주인공 켄토를 소개하는 표현"
+    },
+    {
+      "expression": "少しずつ開店した後",
+      "type": "time_transition",
+      "segmentIndex": 28,
+      "role": "홀 개장 이후 장면 전환을 알리는 표현"
+    },
+    {
+      "expression": "ついにランチタイム！",
+      "type": "time_marker",
+      "segmentIndex": 34,
+      "role": "점심 시간 도래를 알리는 표현"
+    },
+    {
+      "expression": "少し施設を案内しましょうか",
+      "type": "topic_shift",
+      "segmentIndex": 44,
+      "role": "파친코 홀 설명으로 화제 전환을 알리는 표현"
+    },
+    {
+      "expression": "そして近くのTUCショップで",
+      "type": "sequential_connector",
+      "segmentIndex": 56,
+      "role": "파친코 경품 교환 절차의 다음 단계를 소개"
+    },
+    {
+      "expression": "彼はホールに戻り",
+      "type": "scene_return",
+      "segmentIndex": 59,
+      "role": "홀 설명에서 켄토의 실제 업무 장면으로 돌아오는 표현"
+    },
+    {
+      "expression": "In Japanese customer service, there's an old saying",
+      "type": "cultural_explanation",
+      "segmentIndex": 62,
+      "role": "お客様は神様 문화 설명의 도입부"
+    },
+    {
+      "expression": "今何をしていますか？データチェックをしています",
+      "type": "interview",
+      "segmentIndex": 74,
+      "role": "켄토와의 직접 인터뷰를 알리는 표현"
+    },
+    {
+      "expression": "いよいよシフトを終礼で締めくくる時間です",
+      "type": "closing_marker",
+      "segmentIndex": 88,
+      "role": "시프트 종료 절차 시작을 알리는 표현"
+    },
+    {
+      "expression": "また次回の動画でお会いしましょう",
+      "type": "sign_off",
+      "segmentIndex": 100,
+      "role": "영상 마무리 인사"
+    }
+  ]
+}

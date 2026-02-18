@@ -1,0 +1,400 @@
+[
+  {
+    "word": "後悔",
+    "reading": "こうかい",
+    "partOfSpeech": "名詞・サ変動詞",
+    "definition": "Having regret for a past action or decision",
+    "koreanMeaning": "후회",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "あなたはどんなことを後悔しますか",
+    "kanjiReadings": [
+      {
+        "kanji": "後",
+        "reading": "こう"
+      },
+      {
+        "kanji": "悔",
+        "reading": "かい"
+      }
+    ]
+  },
+  {
+    "word": "幸せ",
+    "reading": "しあわせ",
+    "partOfSpeech": "名詞・形容動詞",
+    "definition": "Happiness; good fortune; wellbeing",
+    "koreanMeaning": "행복",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 18,
+    "contextSentence": "お金よりも幸せのために生きればよかったなあ",
+    "kanjiReadings": [
+      {
+        "kanji": "幸",
+        "reading": "しあわ"
+      }
+    ]
+  },
+  {
+    "word": "末期がん",
+    "reading": "まっきがん",
+    "partOfSpeech": "名詞",
+    "definition": "Terminal cancer; end-stage cancer",
+    "koreanMeaning": "말기 암",
+    "jlptLevel": "N1",
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "ある日 末期がんのおじいちゃんを担当することになりました",
+    "kanjiReadings": [
+      {
+        "kanji": "末",
+        "reading": "まっ"
+      },
+      {
+        "kanji": "期",
+        "reading": "き"
+      }
+    ]
+  },
+  {
+    "word": "余命宣告",
+    "reading": "よめいせんこく",
+    "partOfSpeech": "名詞",
+    "definition": "A terminal prognosis; being told one's remaining lifespan",
+    "koreanMeaning": "시한부 선고",
+    "jlptLevel": "N1",
+    "isEssential": true,
+    "segmentIndex": 13,
+    "contextSentence": "余命宣告を受けたおじいちゃんは毎日毎日泣いていました",
+    "kanjiReadings": [
+      {
+        "kanji": "余",
+        "reading": "よ"
+      },
+      {
+        "kanji": "命",
+        "reading": "めい"
+      },
+      {
+        "kanji": "宣",
+        "reading": "せん"
+      }
+    ]
+  },
+  {
+    "word": "幸福度",
+    "reading": "こうふくど",
+    "partOfSpeech": "名詞",
+    "definition": "Degree/level of happiness; happiness index",
+    "koreanMeaning": "행복도",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 28,
+    "contextSentence": "世界第三位の経済大国でありながら 幸福度は90位",
+    "kanjiReadings": [
+      {
+        "kanji": "幸",
+        "reading": "こう"
+      },
+      {
+        "kanji": "福",
+        "reading": "ふく"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ]
+  },
+  {
+    "word": "経済大国",
+    "reading": "けいざいたいこく",
+    "partOfSpeech": "名詞",
+    "definition": "Economic powerhouse; major economic nation",
+    "koreanMeaning": "경제 대국",
+    "jlptLevel": "N2",
+    "isEssential": false,
+    "segmentIndex": 28,
+    "contextSentence": "世界第三位の経済大国でありながら 幸福度は90位",
+    "kanjiReadings": [
+      {
+        "kanji": "経",
+        "reading": "けい"
+      },
+      {
+        "kanji": "済",
+        "reading": "ざい"
+      },
+      {
+        "kanji": "大",
+        "reading": "たい"
+      }
+    ]
+  },
+  {
+    "word": "貧しい",
+    "reading": "まずしい",
+    "partOfSpeech": "形容詞",
+    "definition": "Poor; impoverished; destitute",
+    "koreanMeaning": "가난하다",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 33,
+    "contextSentence": "そこでとても貧しい村 ルサイ村を訪れました",
+    "kanjiReadings": [
+      {
+        "kanji": "貧",
+        "reading": "まず"
+      }
+    ]
+  },
+  {
+    "word": "キラキラ",
+    "reading": "きらきら",
+    "partOfSpeech": "副詞・擬態語",
+    "definition": "Glittering; sparkling; shining brightly (onomatopoeia)",
+    "koreanMeaning": "반짝반짝",
+    "jlptLevel": "N3",
+    "isEssential": false,
+    "segmentIndex": 35,
+    "contextSentence": "でも子供達の目はキラキラと輝いていました",
+    "kanjiReadings": []
+  },
+  {
+    "word": "豊か",
+    "reading": "ゆたか",
+    "partOfSpeech": "形容動詞",
+    "definition": "Rich; abundant; wealthy (in spirit or material sense)",
+    "koreanMeaning": "풍요롭다",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 42,
+    "contextSentence": "こんなに貧しいのに こんなに豊かな心を持っているんだと感じました",
+    "kanjiReadings": [
+      {
+        "kanji": "豊",
+        "reading": "ゆた"
+      }
+    ]
+  },
+  {
+    "word": "癒される",
+    "reading": "いやされる",
+    "partOfSpeech": "動詞（受身形）",
+    "definition": "To be healed; to be soothed; to find comfort",
+    "koreanMeaning": "치유받다",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 48,
+    "contextSentence": "日本は物はたくさんあるのに 心が癒される場所がない",
+    "kanjiReadings": [
+      {
+        "kanji": "癒",
+        "reading": "いや"
+      }
+    ]
+  },
+  {
+    "word": "もがく",
+    "reading": "もがく",
+    "partOfSpeech": "動詞（五段活用）",
+    "definition": "To struggle; to writhe; to flounder; to fight desperately",
+    "koreanMeaning": "발버둥치다",
+    "jlptLevel": "N1",
+    "isEssential": true,
+    "segmentIndex": 62,
+    "contextSentence": "でも 自分の幸せってなんだろうってすごくもがいていました",
+    "kanjiReadings": []
+  },
+  {
+    "word": "合コン",
+    "reading": "ごうこん",
+    "partOfSpeech": "名詞",
+    "definition": "Group blind date; mixer party between men and women",
+    "koreanMeaning": "미팅 (남녀 단체 맞선)",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 63,
+    "contextSentence": "そんなとき 合コンで1人の男性に出会いました",
+    "kanjiReadings": [
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      }
+    ]
+  },
+  {
+    "word": "無職",
+    "reading": "むしょく",
+    "partOfSpeech": "名詞",
+    "definition": "Unemployment; having no job or occupation",
+    "koreanMeaning": "무직",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 64,
+    "contextSentence": "その人は無職の男性でした",
+    "kanjiReadings": [
+      {
+        "kanji": "無",
+        "reading": "む"
+      },
+      {
+        "kanji": "職",
+        "reading": "しょく"
+      }
+    ]
+  },
+  {
+    "word": "信念",
+    "reading": "しんねん",
+    "partOfSpeech": "名詞",
+    "definition": "Belief; faith; conviction; personal creed",
+    "koreanMeaning": "신념",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 70,
+    "contextSentence": "自分の信念を持って生きている人だということが分かりました",
+    "kanjiReadings": [
+      {
+        "kanji": "信",
+        "reading": "しん"
+      },
+      {
+        "kanji": "念",
+        "reading": "ねん"
+      }
+    ]
+  },
+  {
+    "word": "公式",
+    "reading": "こうしき",
+    "partOfSpeech": "名詞",
+    "definition": "Formula; official rule; standard pattern",
+    "koreanMeaning": "공식",
+    "jlptLevel": "N3",
+    "isEssential": true,
+    "segmentIndex": 68,
+    "contextSentence": "この人は社会の言う幸せの公式に乗っかっていないなあ",
+    "kanjiReadings": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ]
+  },
+  {
+    "word": "向き合う",
+    "reading": "むきあう",
+    "partOfSpeech": "動詞（五段活用）",
+    "definition": "To face; to confront; to come face to face with",
+    "koreanMeaning": "마주하다",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 87,
+    "contextSentence": "自分の幸せと向き合ってみませんか",
+    "kanjiReadings": [
+      {
+        "kanji": "向",
+        "reading": "む"
+      }
+    ]
+  },
+  {
+    "word": "見失う",
+    "reading": "みうしなう",
+    "partOfSpeech": "動詞（五段活用）",
+    "definition": "To lose sight of; to lose track of",
+    "koreanMeaning": "잃어버리다, 놓치다",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 86,
+    "contextSentence": "社会からのメッセージに流されて 自分の幸せを見失っているんじゃないかと",
+    "kanjiReadings": [
+      {
+        "kanji": "見",
+        "reading": "み"
+      },
+      {
+        "kanji": "失",
+        "reading": "うしな"
+      }
+    ]
+  },
+  {
+    "word": "意図的",
+    "reading": "いとてき",
+    "partOfSpeech": "形容動詞",
+    "definition": "Intentional; deliberate; purposeful",
+    "koreanMeaning": "의도적인",
+    "jlptLevel": "N2",
+    "isEssential": false,
+    "segmentIndex": 95,
+    "contextSentence": "自分と向き合う時間を意図的に作ることが大切だと思います",
+    "kanjiReadings": [
+      {
+        "kanji": "意",
+        "reading": "い"
+      },
+      {
+        "kanji": "図",
+        "reading": "と"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      }
+    ]
+  },
+  {
+    "word": "違和感",
+    "reading": "いわかん",
+    "partOfSpeech": "名詞",
+    "definition": "A sense of incongruity; unease; discomfort about something that feels 'off'",
+    "koreanMeaning": "위화감",
+    "jlptLevel": "N2",
+    "isEssential": true,
+    "segmentIndex": 96,
+    "contextSentence": "社会の言う幸せに違和感を感じているなら",
+    "kanjiReadings": [
+      {
+        "kanji": "違",
+        "reading": "い"
+      },
+      {
+        "kanji": "和",
+        "reading": "わ"
+      },
+      {
+        "kanji": "感",
+        "reading": "かん"
+      }
+    ]
+  },
+  {
+    "word": "勇気",
+    "reading": "ゆうき",
+    "partOfSpeech": "名詞",
+    "definition": "Courage; bravery",
+    "koreanMeaning": "용기",
+    "jlptLevel": "N4",
+    "isEssential": true,
+    "segmentIndex": 88,
+    "contextSentence": "自分の幸せを追い求める勇気を持ってほしいのです",
+    "kanjiReadings": [
+      {
+        "kanji": "勇",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ]
+  }
+]

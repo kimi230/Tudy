@@ -1,0 +1,131 @@
+{
+  "videoId": "G6ypXVO_Fm0",
+  "sections": [
+    {
+      "title": "도입: 현재 상황 설명 (Introduction: Current Situation)",
+      "titleJa": "イントロ：現在の状況説明",
+      "startIndex": 1,
+      "endIndex": 3,
+      "summary": "강연자가 지난 30년간 세상에서 가장 큰 변화에 대해 리캡하겠다고 소개하며, 그것이 '컴퓨터를 들고 다니는 것'임을 제시한다.",
+      "summaryJa": "話者がこの30年で最も大きな変化として「コンピューターを持ち歩くこと」を提示する導入部。"
+    },
+    {
+      "title": "컴퓨터 성능의 급격한 발전 (Rapid Advancement of Computer Performance)",
+      "titleJa": "コンピューターの急速な進化",
+      "startIndex": 4,
+      "endIndex": 16,
+      "summary": "30년 전 슈퍼컴퓨터와 현재 스마트폰의 성능 비교, 통신 속도(대역)의 1000배 이상 향상, 5G 도래 이후 추가 1000배 예측 등 구체적 수치로 기술 발전을 설명한다.",
+      "summaryJa": "30年前のスーパーコンピューターとスマートフォンの性能比較、通信速度の1000倍以上の向上、5G後のさらなる1000倍を具体的な数字で説明する。"
+    },
+    {
+      "title": "빅데이터와 AI의 부상 (Rise of Big Data and AI)",
+      "titleJa": "ビッグデータとAIの台頭",
+      "startIndex": 17,
+      "endIndex": 28,
+      "summary": "빅데이터 폭발, 컴퓨터의 처리 능력 향상으로 이전에 불가능했던 데이터 시각화가 가능해지고, 뉴럴 네트워크와 딥러닝이 작동하게 되었음을 설명한다.",
+      "summaryJa": "ビッグデータの爆発、コンピューターの処理能力向上により、データの可視化やニューラルネットワーク・ディープラーニングが可能になったことを説明する。"
+    },
+    {
+      "title": "역사적 맥락: 산업혁명과 생산성 (Historical Context: Industrial Revolution and Productivity)",
+      "titleJa": "歴史的文脈：産業革命と生産性",
+      "startIndex": 29,
+      "endIndex": 51,
+      "summary": "산업혁명이 2300년에 걸쳐 발생했고 1800년대 이전에는 세계 인구의 90% 이상이 1차 산업에 종사했음을 설명한다. 로마 시대부터 산업혁명까지 2000년간 생산성은 2배에 그쳤으나, 이후 150년 만에 100배 가까이 올랐음을 설명하며, 현재 생산성이 다시 도약할 순간임을 시사한다.",
+      "summaryJa": "産業革命の歴史的経緯、農業社会から工業社会への転換、ローマ時代から産業革命まで2000年かけて生産性が2倍にしかならなかったこと、その後150年で100倍になったことを説明し、現在が次の跳躍の時期であると示唆する。"
+    },
+    {
+      "title": "ICT 섹터의 주도와 미래 전망 (ICT Sector Leadership and Future Outlook)",
+      "titleJa": "ICTセクターの主導と将来展望",
+      "startIndex": 52,
+      "endIndex": 66,
+      "summary": "시가총액 상위가 ICT 기업들로 채워지고, ICT가 없었다면 일본 경제는 수축했을 것임을 설명한다. ICT가 성장의 동력이 되고, 상상력이 부를 창출한다는 결론으로 이어진다.",
+      "summaryJa": "時価総額上位がICT企業で占められ、ICTがなければ日本は縮小経済だったこと、ICTが成長の牽引役であること、妄想力が富を生むという結論を提示する。"
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "ちょっとリキャップ的にしたいんですけれども",
+      "reading": "ちょっとりきゃっぷてきにしたいんですけれども",
+      "function": "話題の導入・整理の合図",
+      "functionKo": "주제 도입 및 정리 신호",
+      "segmentIndex": 3
+    },
+    {
+      "expression": "いいですか",
+      "reading": "いいですか",
+      "function": "聴衆の注意を引く合図",
+      "functionKo": "청중의 주의를 환기시키는 신호",
+      "segmentIndex": 14
+    },
+    {
+      "expression": "だけど幸いですね",
+      "reading": "だけどさいわいですね",
+      "function": "逆接・転換の合図",
+      "functionKo": "역접·전환 신호 (하지만 다행히도)",
+      "segmentIndex": 18
+    },
+    {
+      "expression": "またですね",
+      "reading": "またですね",
+      "function": "追加情報の提示",
+      "functionKo": "추가 정보 제시 신호",
+      "segmentIndex": 26
+    },
+    {
+      "expression": "もう一つラッキーなのはですね",
+      "reading": "もうひとつらっきーなのはですね",
+      "function": "追加ポイントの列挙",
+      "functionKo": "추가 포인트 열거 신호",
+      "segmentIndex": 21
+    },
+    {
+      "expression": "結果として",
+      "reading": "けっかとして",
+      "function": "結論・まとめの合図",
+      "functionKo": "결론·정리 신호",
+      "segmentIndex": 28
+    },
+    {
+      "expression": "そしてこれから",
+      "reading": "そしてこれから",
+      "function": "未来への展開を示す合図",
+      "functionKo": "미래 전개를 나타내는 신호",
+      "segmentIndex": 12
+    },
+    {
+      "expression": "実際ですね",
+      "reading": "じっさいですね",
+      "function": "具体的な根拠・事例の導入",
+      "functionKo": "구체적 근거·사례 도입 신호",
+      "segmentIndex": 52
+    },
+    {
+      "expression": "ただそこから後ですね",
+      "reading": "ただそこからあとですね",
+      "function": "時間的転換点の提示",
+      "functionKo": "시간적 전환점 제시 신호",
+      "segmentIndex": 47
+    },
+    {
+      "expression": "つまりですね",
+      "reading": "つまりですね",
+      "function": "要約・言い換えの合図",
+      "functionKo": "요약·재언급 신호 (즉)",
+      "segmentIndex": 64
+    },
+    {
+      "expression": "正確に言うと",
+      "reading": "せいかくにいうと",
+      "function": "情報の精緻化・修正の合図",
+      "functionKo": "정보 정교화·수정 신호 (정확히 말하면)",
+      "segmentIndex": 43
+    },
+    {
+      "expression": "だから",
+      "reading": "だから",
+      "function": "因果関係・結論の提示",
+      "functionKo": "인과관계·결론 제시 신호 (그러므로)",
+      "segmentIndex": 66
+    }
+  ]
+}

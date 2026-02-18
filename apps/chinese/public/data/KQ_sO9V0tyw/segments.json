@@ -1,0 +1,8628 @@
+{
+  "videoId": "KQ_sO9V0tyw",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.04,
+      "textZh": "张文了ко了",
+      "pinyin": "",
+      "textKo": "张文了ко了",
+      "words": [
+        {
+          "word": "张",
+          "start": 0.0,
+          "end": 0.08
+        },
+        {
+          "word": "文",
+          "start": 0.08,
+          "end": 0.44
+        },
+        {
+          "word": "了",
+          "start": 0.44,
+          "end": 0.44
+        },
+        {
+          "word": "ко",
+          "start": 0.44,
+          "end": 1.2
+        },
+        {
+          "word": "了",
+          "start": 1.2,
+          "end": 3.04
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 1,
+      "start": 3.04,
+      "end": 14.32,
+      "textZh": "张文了 我爱了了",
+      "pinyin": "",
+      "textKo": "张文了 我爱了了",
+      "words": [
+        {
+          "word": "张",
+          "start": 3.04,
+          "end": 3.04
+        },
+        {
+          "word": "文",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "word": "了",
+          "start": 3.2,
+          "end": 3.38
+        },
+        {
+          "word": "我",
+          "start": 12.6,
+          "end": 13.2
+        },
+        {
+          "word": "爱",
+          "start": 13.2,
+          "end": 13.8
+        },
+        {
+          "word": "了",
+          "start": 13.8,
+          "end": 13.9
+        },
+        {
+          "word": "了",
+          "start": 13.9,
+          "end": 14.32
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 2,
+      "start": 15.12,
+      "end": 18.96,
+      "textZh": "但是我比了",
+      "pinyin": "",
+      "textKo": "但是我比了",
+      "words": [
+        {
+          "word": "但是",
+          "start": 15.02,
+          "end": 15.32
+        },
+        {
+          "word": "我",
+          "start": 15.32,
+          "end": 15.5
+        },
+        {
+          "word": "比",
+          "start": 15.5,
+          "end": 15.78
+        },
+        {
+          "word": "了",
+          "start": 15.78,
+          "end": 15.78
+        },
+        {
+          "word": "比",
+          "start": 15.78,
+          "end": 17.06
+        },
+        {
+          "word": "了",
+          "start": 17.06,
+          "end": 17.52
+        },
+        {
+          "word": "比",
+          "start": 17.52,
+          "end": 17.52
+        },
+        {
+          "word": "了",
+          "start": 17.52,
+          "end": 17.64
+        },
+        {
+          "word": "比",
+          "start": 17.64,
+          "end": 18.02
+        },
+        {
+          "word": "了",
+          "start": 18.02,
+          "end": 18.02
+        },
+        {
+          "word": "比",
+          "start": 18.02,
+          "end": 18.96
+        },
+        {
+          "word": "了",
+          "start": 18.96,
+          "end": 18.96
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 3,
+      "start": 18.96,
+      "end": 22.66,
+      "textZh": "因为",
+      "pinyin": "",
+      "textKo": "因为",
+      "words": [
+        {
+          "word": "因为",
+          "start": 18.96,
+          "end": 19.08
+        },
+        {
+          "word": "了",
+          "start": 19.08,
+          "end": 19.46
+        },
+        {
+          "word": "比",
+          "start": 19.46,
+          "end": 19.98
+        },
+        {
+          "word": "了",
+          "start": 19.98,
+          "end": 20.68
+        },
+        {
+          "word": "比",
+          "start": 20.68,
+          "end": 20.98
+        },
+        {
+          "word": "了",
+          "start": 20.98,
+          "end": 21.18
+        },
+        {
+          "word": "比",
+          "start": 21.18,
+          "end": 21.2
+        },
+        {
+          "word": "了",
+          "start": 21.2,
+          "end": 21.2
+        },
+        {
+          "word": "比",
+          "start": 21.2,
+          "end": 22.5
+        },
+        {
+          "word": "了",
+          "start": 22.5,
+          "end": 22.5
+        },
+        {
+          "word": "比",
+          "start": 22.5,
+          "end": 22.66
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 4,
+      "start": 22.66,
+      "end": 25.74,
+      "textZh": "了一天 我了解了一碗",
+      "pinyin": "",
+      "textKo": "了一天 我了解了一碗",
+      "words": [
+        {
+          "word": "了",
+          "start": 22.66,
+          "end": 22.66
+        },
+        {
+          "word": "一",
+          "start": 22.66,
+          "end": 22.66
+        },
+        {
+          "word": "天",
+          "start": 22.66,
+          "end": 22.96
+        },
+        {
+          "word": "我",
+          "start": 22.96,
+          "end": 23.54
+        },
+        {
+          "word": "了",
+          "start": 23.54,
+          "end": 23.7
+        },
+        {
+          "word": "解",
+          "start": 23.7,
+          "end": 24.0
+        },
+        {
+          "word": "了",
+          "start": 24.0,
+          "end": 24.24
+        },
+        {
+          "word": "一",
+          "start": 24.24,
+          "end": 24.36
+        },
+        {
+          "word": "碗",
+          "start": 24.36,
+          "end": 24.66
+        },
+        {
+          "word": "了",
+          "start": 24.66,
+          "end": 24.96
+        },
+        {
+          "word": "比",
+          "start": 24.96,
+          "end": 25.22
+        },
+        {
+          "word": "了",
+          "start": 25.22,
+          "end": 25.46
+        },
+        {
+          "word": "比",
+          "start": 25.46,
+          "end": 25.46
+        },
+        {
+          "word": "了",
+          "start": 25.46,
+          "end": 25.64
+        },
+        {
+          "word": "比",
+          "start": 25.64,
+          "end": 25.64
+        },
+        {
+          "word": "了",
+          "start": 25.64,
+          "end": 25.74
+        },
+        {
+          "word": "比",
+          "start": 25.74,
+          "end": 25.74
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 5,
+      "start": 25.74,
+      "end": 29.98,
+      "textZh": "比",
+      "pinyin": "",
+      "textKo": "比",
+      "words": [
+        {
+          "word": "了",
+          "start": 25.74,
+          "end": 25.82
+        },
+        {
+          "word": "比",
+          "start": 25.82,
+          "end": 27.02
+        },
+        {
+          "word": "了",
+          "start": 27.02,
+          "end": 27.02
+        },
+        {
+          "word": "比",
+          "start": 27.02,
+          "end": 27.08
+        },
+        {
+          "word": "了",
+          "start": 27.08,
+          "end": 27.08
+        },
+        {
+          "word": "比",
+          "start": 27.08,
+          "end": 27.12
+        },
+        {
+          "word": "了",
+          "start": 27.12,
+          "end": 27.12
+        },
+        {
+          "word": "比",
+          "start": 27.12,
+          "end": 27.12
+        },
+        {
+          "word": "了",
+          "start": 27.12,
+          "end": 27.12
+        },
+        {
+          "word": "比",
+          "start": 27.12,
+          "end": 27.2
+        },
+        {
+          "word": "了",
+          "start": 27.2,
+          "end": 27.48
+        },
+        {
+          "word": "比",
+          "start": 27.48,
+          "end": 27.48
+        },
+        {
+          "word": "了",
+          "start": 27.48,
+          "end": 27.48
+        },
+        {
+          "word": "比",
+          "start": 27.48,
+          "end": 27.5
+        },
+        {
+          "word": "了",
+          "start": 27.5,
+          "end": 28.02
+        },
+        {
+          "word": "比",
+          "start": 28.02,
+          "end": 28.98
+        },
+        {
+          "word": "了",
+          "start": 28.98,
+          "end": 29.4
+        },
+        {
+          "word": "比",
+          "start": 29.4,
+          "end": 29.78
+        },
+        {
+          "word": "比",
+          "start": 29.78,
+          "end": 29.98
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 6,
+      "start": 29.98,
+      "end": 34.34,
+      "textZh": "在家里的东西 快了,快了,快了,快了",
+      "pinyin": "",
+      "textKo": "在家里的东西 快了,快了,快了,快了",
+      "words": [
+        {
+          "word": "在",
+          "start": 29.98,
+          "end": 31.96
+        },
+        {
+          "word": "家",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "里",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "的",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "东",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "西",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "快",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "了,",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "快",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "了,",
+          "start": 31.96,
+          "end": 31.96
+        },
+        {
+          "word": "快",
+          "start": 32.48,
+          "end": 32.88
+        },
+        {
+          "word": "了,",
+          "start": 32.88,
+          "end": 33.04
+        },
+        {
+          "word": "快",
+          "start": 33.22,
+          "end": 33.72
+        },
+        {
+          "word": "了",
+          "start": 33.72,
+          "end": 34.34
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 7,
+      "start": 34.34,
+      "end": 64.32,
+      "textZh": "了",
+      "pinyin": "",
+      "textKo": "了",
+      "words": [
+        {
+          "word": "了",
+          "start": 34.34,
+          "end": 34.34
+        },
+        {
+          "word": "比",
+          "start": 34.34,
+          "end": 43.9
+        },
+        {
+          "word": "了",
+          "start": 43.9,
+          "end": 64.32
+        },
+        {
+          "word": "比",
+          "start": 64.32,
+          "end": 64.32
+        },
+        {
+          "word": "了",
+          "start": 64.32,
+          "end": 64.32
+        },
+        {
+          "word": "比",
+          "start": 64.32,
+          "end": 64.32
+        },
+        {
+          "word": "了",
+          "start": 64.32,
+          "end": 64.32
+        },
+        {
+          "word": "比",
+          "start": 64.32,
+          "end": 64.32
+        },
+        {
+          "word": "了",
+          "start": 64.32,
+          "end": 64.32
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 8,
+      "start": 65.32,
+      "end": 69.24,
+      "textZh": "高德福 founded Dumpling Xi 17 years ago.",
+      "pinyin": "",
+      "textKo": "高德福 founded Dumpling Xi 17 years ago.",
+      "words": [
+        {
+          "word": "高",
+          "start": 65.32,
+          "end": 65.98
+        },
+        {
+          "word": "德",
+          "start": 65.98,
+          "end": 66.18
+        },
+        {
+          "word": "福",
+          "start": 66.18,
+          "end": 66.5
+        },
+        {
+          "word": "founded",
+          "start": 66.5,
+          "end": 67.22
+        },
+        {
+          "word": "Dum",
+          "start": 67.22,
+          "end": 67.5
+        },
+        {
+          "word": "pling",
+          "start": 67.5,
+          "end": 67.72
+        },
+        {
+          "word": "Xi",
+          "start": 67.72,
+          "end": 68.0
+        },
+        {
+          "word": "17",
+          "start": 68.0,
+          "end": 68.52
+        },
+        {
+          "word": "years",
+          "start": 68.52,
+          "end": 68.84
+        },
+        {
+          "word": "ago.",
+          "start": 68.84,
+          "end": 69.24
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 9,
+      "start": 69.92,
+      "end": 74.18,
+      "textZh": "Today, the company enjoys 500 stores with 8,000 employees,",
+      "pinyin": "",
+      "textKo": "Today, the company enjoys 500 stores with 8,000 employees,",
+      "words": [
+        {
+          "word": "Today,",
+          "start": 69.92,
+          "end": 70.1
+        },
+        {
+          "word": "the",
+          "start": 70.24,
+          "end": 70.3
+        },
+        {
+          "word": "company",
+          "start": 70.3,
+          "end": 70.64
+        },
+        {
+          "word": "enjoys",
+          "start": 70.64,
+          "end": 71.16
+        },
+        {
+          "word": "500",
+          "start": 71.16,
+          "end": 71.72
+        },
+        {
+          "word": "stores",
+          "start": 71.72,
+          "end": 72.48
+        },
+        {
+          "word": "with",
+          "start": 72.48,
+          "end": 72.72
+        },
+        {
+          "word": "8,",
+          "start": 72.72,
+          "end": 73.12
+        },
+        {
+          "word": "000",
+          "start": 73.26,
+          "end": 73.6
+        },
+        {
+          "word": "employees,",
+          "start": 73.6,
+          "end": 74.18
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 10,
+      "start": 74.8,
+      "end": 80.84,
+      "textZh": "But it wasn't always the case. Three years ago, the demand for his dumpling was soaring",
+      "pinyin": "",
+      "textKo": "But it wasn't always the case. Three years ago, the demand for his dumpling was soaring",
+      "words": [
+        {
+          "word": "but",
+          "start": 74.8,
+          "end": 75.2
+        },
+        {
+          "word": "it",
+          "start": 75.2,
+          "end": 75.48
+        },
+        {
+          "word": "wasn",
+          "start": 75.48,
+          "end": 75.62
+        },
+        {
+          "word": "'t",
+          "start": 75.62,
+          "end": 75.78
+        },
+        {
+          "word": "always",
+          "start": 75.78,
+          "end": 76.12
+        },
+        {
+          "word": "the",
+          "start": 76.12,
+          "end": 76.28
+        },
+        {
+          "word": "case.",
+          "start": 76.28,
+          "end": 76.64
+        },
+        {
+          "word": "Three",
+          "start": 77.56,
+          "end": 77.82
+        },
+        {
+          "word": "years",
+          "start": 77.82,
+          "end": 78.1
+        },
+        {
+          "word": "ago,",
+          "start": 78.1,
+          "end": 78.46
+        },
+        {
+          "word": "the",
+          "start": 78.68,
+          "end": 78.92
+        },
+        {
+          "word": "demand",
+          "start": 78.92,
+          "end": 79.26
+        },
+        {
+          "word": "for",
+          "start": 79.26,
+          "end": 79.48
+        },
+        {
+          "word": "his",
+          "start": 79.48,
+          "end": 79.68
+        },
+        {
+          "word": "dumpling",
+          "start": 79.68,
+          "end": 79.98
+        },
+        {
+          "word": "was",
+          "start": 79.98,
+          "end": 80.28
+        },
+        {
+          "word": "so",
+          "start": 80.28,
+          "end": 80.54
+        },
+        {
+          "word": "aring",
+          "start": 80.54,
+          "end": 80.84
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 11,
+      "start": 81.36,
+      "end": 83.84,
+      "textZh": "Due to consumers' craving for healthy food.",
+      "pinyin": "",
+      "textKo": "Due to consumers' craving for healthy food.",
+      "words": [
+        {
+          "word": "due",
+          "start": 81.09,
+          "end": 81.42
+        },
+        {
+          "word": "to",
+          "start": 81.42,
+          "end": 81.7
+        },
+        {
+          "word": "consumers'",
+          "start": 81.7,
+          "end": 82.26
+        },
+        {
+          "word": "craving",
+          "start": 82.5,
+          "end": 82.82
+        },
+        {
+          "word": "for",
+          "start": 82.82,
+          "end": 83.14
+        },
+        {
+          "word": "healthy",
+          "start": 83.14,
+          "end": 83.48
+        },
+        {
+          "word": "food.",
+          "start": 83.48,
+          "end": 83.84
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 12,
+      "start": 84.42,
+      "end": 87.98,
+      "textZh": "But the strong growth of online food delivery services",
+      "pinyin": "",
+      "textKo": "But the strong growth of online food delivery services",
+      "words": [
+        {
+          "word": "But",
+          "start": 84.42,
+          "end": 85.08
+        },
+        {
+          "word": "the",
+          "start": 85.08,
+          "end": 85.58
+        },
+        {
+          "word": "strong",
+          "start": 85.58,
+          "end": 85.92
+        },
+        {
+          "word": "growth",
+          "start": 85.92,
+          "end": 86.24
+        },
+        {
+          "word": "of",
+          "start": 86.24,
+          "end": 86.44
+        },
+        {
+          "word": "online",
+          "start": 86.44,
+          "end": 86.82
+        },
+        {
+          "word": "food",
+          "start": 86.82,
+          "end": 87.14
+        },
+        {
+          "word": "delivery",
+          "start": 87.14,
+          "end": 87.48
+        },
+        {
+          "word": "services",
+          "start": 87.48,
+          "end": 87.98
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 13,
+      "start": 87.98,
+      "end": 91.12,
+      "textZh": "Had pulled the consumers away from the store visit,",
+      "pinyin": "",
+      "textKo": "Had pulled the consumers away from the store visit,",
+      "words": [
+        {
+          "word": "had",
+          "start": 87.98,
+          "end": 88.36
+        },
+        {
+          "word": "pulled",
+          "start": 88.36,
+          "end": 88.7
+        },
+        {
+          "word": "the",
+          "start": 88.7,
+          "end": 88.86
+        },
+        {
+          "word": "consumers",
+          "start": 88.86,
+          "end": 89.22
+        },
+        {
+          "word": "away",
+          "start": 89.22,
+          "end": 89.64
+        },
+        {
+          "word": "from",
+          "start": 89.64,
+          "end": 90.3
+        },
+        {
+          "word": "the",
+          "start": 90.3,
+          "end": 90.5
+        },
+        {
+          "word": "store",
+          "start": 90.5,
+          "end": 90.74
+        },
+        {
+          "word": "visit,",
+          "start": 90.74,
+          "end": 91.12
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 14,
+      "start": 91.12,
+      "end": 93.78,
+      "textZh": "Causing a huge concern for Gao.",
+      "pinyin": "",
+      "textKo": "Causing a huge concern for Gao.",
+      "words": [
+        {
+          "word": "causing",
+          "start": 91.12,
+          "end": 92.0
+        },
+        {
+          "word": "a",
+          "start": 92.0,
+          "end": 92.36
+        },
+        {
+          "word": "huge",
+          "start": 92.36,
+          "end": 92.72
+        },
+        {
+          "word": "concern",
+          "start": 92.72,
+          "end": 93.28
+        },
+        {
+          "word": "for",
+          "start": 93.28,
+          "end": 93.58
+        },
+        {
+          "word": "Gao.",
+          "start": 93.58,
+          "end": 93.78
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 15,
+      "start": 94.62,
+      "end": 97.2,
+      "textZh": "If I were to advise Gao back then,",
+      "pinyin": "",
+      "textKo": "If I were to advise Gao back then,",
+      "words": [
+        {
+          "word": "If",
+          "start": 94.62,
+          "end": 95.34
+        },
+        {
+          "word": "I",
+          "start": 95.34,
+          "end": 95.62
+        },
+        {
+          "word": "were",
+          "start": 95.62,
+          "end": 95.86
+        },
+        {
+          "word": "to",
+          "start": 95.86,
+          "end": 96.04
+        },
+        {
+          "word": "advise",
+          "start": 96.04,
+          "end": 96.4
+        },
+        {
+          "word": "Gao",
+          "start": 96.4,
+          "end": 96.68
+        },
+        {
+          "word": "back",
+          "start": 96.68,
+          "end": 96.9
+        },
+        {
+          "word": "then,",
+          "start": 96.9,
+          "end": 97.2
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 16,
+      "start": 97.4,
+      "end": 99.76,
+      "textZh": "I would go directly with classical approach,",
+      "pinyin": "",
+      "textKo": "I would go directly with classical approach,",
+      "words": [
+        {
+          "word": "I",
+          "start": 97.4,
+          "end": 97.62
+        },
+        {
+          "word": "would",
+          "start": 97.62,
+          "end": 97.74
+        },
+        {
+          "word": "go",
+          "start": 97.74,
+          "end": 97.9
+        },
+        {
+          "word": "directly",
+          "start": 97.9,
+          "end": 98.44
+        },
+        {
+          "word": "with",
+          "start": 98.44,
+          "end": 98.74
+        },
+        {
+          "word": "classical",
+          "start": 98.74,
+          "end": 99.14
+        },
+        {
+          "word": "approach,",
+          "start": 99.14,
+          "end": 99.76
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 17,
+      "start": 100.76,
+      "end": 105.9,
+      "textZh": "Hiring venturing managers, providing training on how to integrate online and offline sales,",
+      "pinyin": "",
+      "textKo": "Hiring venturing managers, providing training on how to integrate online and offline sales,",
+      "words": [
+        {
+          "word": "hiring",
+          "start": 100.76,
+          "end": 101.16
+        },
+        {
+          "word": "vent",
+          "start": 101.16,
+          "end": 101.48
+        },
+        {
+          "word": "uring",
+          "start": 101.48,
+          "end": 101.64
+        },
+        {
+          "word": "managers,",
+          "start": 101.64,
+          "end": 102.14
+        },
+        {
+          "word": "providing",
+          "start": 102.46,
+          "end": 102.92
+        },
+        {
+          "word": "training",
+          "start": 102.92,
+          "end": 103.46
+        },
+        {
+          "word": "on",
+          "start": 103.46,
+          "end": 103.7
+        },
+        {
+          "word": "how",
+          "start": 103.7,
+          "end": 103.94
+        },
+        {
+          "word": "to",
+          "start": 103.94,
+          "end": 104.16
+        },
+        {
+          "word": "integrate",
+          "start": 104.16,
+          "end": 104.6
+        },
+        {
+          "word": "online",
+          "start": 104.6,
+          "end": 105.06
+        },
+        {
+          "word": "and",
+          "start": 105.06,
+          "end": 105.22
+        },
+        {
+          "word": "offline",
+          "start": 105.22,
+          "end": 105.48
+        },
+        {
+          "word": "sales,",
+          "start": 105.48,
+          "end": 105.9
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 18,
+      "start": 106.38,
+      "end": 110.08,
+      "textZh": "Or having some high potentials fully dedicated to the new job,",
+      "pinyin": "",
+      "textKo": "Or having some high potentials fully dedicated to the new job,",
+      "words": [
+        {
+          "word": "or",
+          "start": 106.38,
+          "end": 106.54
+        },
+        {
+          "word": "having",
+          "start": 106.54,
+          "end": 106.88
+        },
+        {
+          "word": "some",
+          "start": 106.88,
+          "end": 107.1
+        },
+        {
+          "word": "high",
+          "start": 107.1,
+          "end": 107.42
+        },
+        {
+          "word": "potential",
+          "start": 107.42,
+          "end": 107.86
+        },
+        {
+          "word": "s",
+          "start": 107.86,
+          "end": 108.16
+        },
+        {
+          "word": "fully",
+          "start": 108.16,
+          "end": 108.54
+        },
+        {
+          "word": "dedicated",
+          "start": 108.54,
+          "end": 109.06
+        },
+        {
+          "word": "to",
+          "start": 109.06,
+          "end": 109.42
+        },
+        {
+          "word": "the",
+          "start": 109.42,
+          "end": 109.54
+        },
+        {
+          "word": "new",
+          "start": 109.54,
+          "end": 109.72
+        },
+        {
+          "word": "job,",
+          "start": 109.72,
+          "end": 110.08
+        }
+      ],
+      "listenDifficulty": 4
+    },
+    {
+      "index": 19,
+      "start": 110.26,
+      "end": 112.3,
+      "textZh": "Such as chief digital officer.",
+      "pinyin": "",
+      "textKo": "Such as chief digital officer.",
+      "words": [
+        {
+          "word": "such",
+          "start": 110.26,
+          "end": 110.58
+        },
+        {
+          "word": "as",
+          "start": 110.58,
+          "end": 110.74
+        },
+        {
+          "word": "chief",
+          "start": 110.74,
+          "end": 111.08
+        },
+        {
+          "word": "digital",
+          "start": 111.08,
+          "end": 111.62
+        },
+        {
+          "word": "officer.",
+          "start": 111.62,
+          "end": 112.3
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 20,
+      "start": 112.94,
+      "end": 116.14,
+      "textZh": "But Gao did something totally different.",
+      "pinyin": "",
+      "textKo": "But Gao did something totally different.",
+      "words": [
+        {
+          "word": "But",
+          "start": 112.94,
+          "end": 113.6
+        },
+        {
+          "word": "Gao",
+          "start": 113.6,
+          "end": 114.08
+        },
+        {
+          "word": "did",
+          "start": 114.08,
+          "end": 114.56
+        },
+        {
+          "word": "something",
+          "start": 114.56,
+          "end": 115.1
+        },
+        {
+          "word": "totally",
+          "start": 115.1,
+          "end": 115.72
+        },
+        {
+          "word": "different.",
+          "start": 115.72,
+          "end": 116.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 21,
+      "start": 116.92,
+      "end": 119.48,
+      "textZh": "He invented a two-hat model.",
+      "pinyin": "",
+      "textKo": "He invented a two-hat model.",
+      "words": [
+        {
+          "word": "He",
+          "start": 116.92,
+          "end": 117.48
+        },
+        {
+          "word": "invented",
+          "start": 117.48,
+          "end": 117.98
+        },
+        {
+          "word": "a",
+          "start": 117.98,
+          "end": 118.32
+        },
+        {
+          "word": "two",
+          "start": 118.32,
+          "end": 118.56
+        },
+        {
+          "word": "-",
+          "start": 118.56,
+          "end": 118.56
+        },
+        {
+          "word": "hat",
+          "start": 118.56,
+          "end": 119.02
+        },
+        {
+          "word": "model.",
+          "start": 119.02,
+          "end": 119.48
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 22,
+      "start": 119.48,
+      "end": 122.5,
+      "textZh": "Instead of recruiting new executives,",
+      "pinyin": "",
+      "textKo": "Instead of recruiting new executives,",
+      "words": [
+        {
+          "word": "Instead",
+          "start": 119.48,
+          "end": 120.8
+        },
+        {
+          "word": "of",
+          "start": 120.8,
+          "end": 121.02
+        },
+        {
+          "word": "recruiting",
+          "start": 121.02,
+          "end": 121.5
+        },
+        {
+          "word": "new",
+          "start": 121.5,
+          "end": 121.9
+        },
+        {
+          "word": "executives,",
+          "start": 121.9,
+          "end": 122.5
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 23,
+      "start": 123.14,
+      "end": 125.88,
+      "textZh": "He invited five successful regional heads",
+      "pinyin": "",
+      "textKo": "He invited five successful regional heads",
+      "words": [
+        {
+          "word": "he",
+          "start": 123.14,
+          "end": 123.28
+        },
+        {
+          "word": "invited",
+          "start": 123.28,
+          "end": 123.98
+        },
+        {
+          "word": "five",
+          "start": 123.98,
+          "end": 124.4
+        },
+        {
+          "word": "successful",
+          "start": 124.4,
+          "end": 124.98
+        },
+        {
+          "word": "regional",
+          "start": 124.98,
+          "end": 125.44
+        },
+        {
+          "word": "heads",
+          "start": 125.44,
+          "end": 125.88
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 24,
+      "start": 125.88,
+      "end": 128.7,
+      "textZh": "To take on a second role at headquarter.",
+      "pinyin": "",
+      "textKo": "To take on a second role at headquarter.",
+      "words": [
+        {
+          "word": "to",
+          "start": 125.88,
+          "end": 126.4
+        },
+        {
+          "word": "take",
+          "start": 126.4,
+          "end": 126.64
+        },
+        {
+          "word": "on",
+          "start": 126.64,
+          "end": 126.78
+        },
+        {
+          "word": "a",
+          "start": 126.78,
+          "end": 126.9
+        },
+        {
+          "word": "second",
+          "start": 126.9,
+          "end": 127.14
+        },
+        {
+          "word": "role",
+          "start": 127.14,
+          "end": 127.56
+        },
+        {
+          "word": "at",
+          "start": 127.56,
+          "end": 128.06
+        },
+        {
+          "word": "head",
+          "start": 128.06,
+          "end": 128.32
+        },
+        {
+          "word": "quarter.",
+          "start": 128.32,
+          "end": 128.7
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 25,
+      "start": 130.16,
+      "end": 134.4,
+      "textZh": "The catch was they had to do it while still being the frontline managers,",
+      "pinyin": "",
+      "textKo": "The catch was they had to do it while still being the frontline managers,",
+      "words": [
+        {
+          "word": "The",
+          "start": 129.94,
+          "end": 130.32
+        },
+        {
+          "word": "catch",
+          "start": 130.32,
+          "end": 130.68
+        },
+        {
+          "word": "was",
+          "start": 130.68,
+          "end": 130.98
+        },
+        {
+          "word": "they",
+          "start": 130.98,
+          "end": 131.38
+        },
+        {
+          "word": "had",
+          "start": 131.38,
+          "end": 131.6
+        },
+        {
+          "word": "to",
+          "start": 131.6,
+          "end": 131.74
+        },
+        {
+          "word": "do",
+          "start": 131.74,
+          "end": 131.92
+        },
+        {
+          "word": "it",
+          "start": 131.92,
+          "end": 132.08
+        },
+        {
+          "word": "while",
+          "start": 132.08,
+          "end": 132.44
+        },
+        {
+          "word": "still",
+          "start": 132.44,
+          "end": 132.8
+        },
+        {
+          "word": "being",
+          "start": 132.8,
+          "end": 133.28
+        },
+        {
+          "word": "the",
+          "start": 133.28,
+          "end": 133.42
+        },
+        {
+          "word": "frontline",
+          "start": 133.42,
+          "end": 133.76
+        },
+        {
+          "word": "managers,",
+          "start": 133.76,
+          "end": 134.4
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 26,
+      "start": 134.84,
+      "end": 138.92,
+      "textZh": "Keeping in mind that these people had no former training",
+      "pinyin": "",
+      "textKo": "Keeping in mind that these people had no former training",
+      "words": [
+        {
+          "word": "keeping",
+          "start": 134.84,
+          "end": 135.26
+        },
+        {
+          "word": "in",
+          "start": 135.26,
+          "end": 135.6
+        },
+        {
+          "word": "mind",
+          "start": 135.6,
+          "end": 135.94
+        },
+        {
+          "word": "that",
+          "start": 135.94,
+          "end": 136.36
+        },
+        {
+          "word": "these",
+          "start": 136.36,
+          "end": 136.68
+        },
+        {
+          "word": "people",
+          "start": 136.68,
+          "end": 137.1
+        },
+        {
+          "word": "had",
+          "start": 137.1,
+          "end": 137.58
+        },
+        {
+          "word": "no",
+          "start": 137.58,
+          "end": 137.92
+        },
+        {
+          "word": "former",
+          "start": 137.92,
+          "end": 138.42
+        },
+        {
+          "word": "training",
+          "start": 138.42,
+          "end": 138.92
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 27,
+      "start": 138.92,
+      "end": 141.54,
+      "textZh": "Or related experience in these fields.",
+      "pinyin": "",
+      "textKo": "Or related experience in these fields.",
+      "words": [
+        {
+          "word": "or",
+          "start": 138.92,
+          "end": 139.5
+        },
+        {
+          "word": "related",
+          "start": 139.5,
+          "end": 140.14
+        },
+        {
+          "word": "experience",
+          "start": 140.14,
+          "end": 140.72
+        },
+        {
+          "word": "in",
+          "start": 140.72,
+          "end": 140.96
+        },
+        {
+          "word": "these",
+          "start": 140.96,
+          "end": 141.16
+        },
+        {
+          "word": "fields.",
+          "start": 141.16,
+          "end": 141.54
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 28,
+      "start": 142.0,
+      "end": 144.94,
+      "textZh": "What they did have, though, was natural strengths",
+      "pinyin": "",
+      "textKo": "What they did have, though, was natural strengths",
+      "words": [
+        {
+          "word": "What",
+          "start": 142.0,
+          "end": 142.44
+        },
+        {
+          "word": "they",
+          "start": 142.44,
+          "end": 142.56
+        },
+        {
+          "word": "did",
+          "start": 142.56,
+          "end": 142.7
+        },
+        {
+          "word": "have,",
+          "start": 142.7,
+          "end": 143.08
+        },
+        {
+          "word": "though,",
+          "start": 143.16,
+          "end": 143.3
+        },
+        {
+          "word": "was",
+          "start": 143.64,
+          "end": 143.8
+        },
+        {
+          "word": "natural",
+          "start": 143.8,
+          "end": 144.34
+        },
+        {
+          "word": "strengths",
+          "start": 144.34,
+          "end": 144.94
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 29,
+      "start": 144.94,
+      "end": 150.68,
+      "textZh": "And a growth mindset. When Gao first told me the idea,",
+      "pinyin": "",
+      "textKo": "And a growth mindset. When Gao first told me the idea,",
+      "words": [
+        {
+          "word": "and",
+          "start": 144.94,
+          "end": 145.64
+        },
+        {
+          "word": "a",
+          "start": 145.64,
+          "end": 146.16
+        },
+        {
+          "word": "growth",
+          "start": 146.16,
+          "end": 146.4
+        },
+        {
+          "word": "mindset.",
+          "start": 146.4,
+          "end": 146.78
+        },
+        {
+          "word": "When",
+          "start": 148.54,
+          "end": 149.18
+        },
+        {
+          "word": "Gao",
+          "start": 149.18,
+          "end": 149.42
+        },
+        {
+          "word": "first",
+          "start": 149.42,
+          "end": 149.76
+        },
+        {
+          "word": "told",
+          "start": 149.76,
+          "end": 149.98
+        },
+        {
+          "word": "me",
+          "start": 149.98,
+          "end": 150.1
+        },
+        {
+          "word": "the",
+          "start": 150.1,
+          "end": 150.24
+        },
+        {
+          "word": "idea,",
+          "start": 150.24,
+          "end": 150.68
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 30,
+      "start": 150.86,
+      "end": 155.56,
+      "textZh": "I said, are you sure? I have seldom seen companies as large as yours",
+      "pinyin": "",
+      "textKo": "I said, are you sure? I have seldom seen companies as large as yours",
+      "words": [
+        {
+          "word": "I",
+          "start": 150.86,
+          "end": 150.96
+        },
+        {
+          "word": "said,",
+          "start": 150.96,
+          "end": 151.16
+        },
+        {
+          "word": "are",
+          "start": 151.36,
+          "end": 151.8
+        },
+        {
+          "word": "you",
+          "start": 151.8,
+          "end": 151.98
+        },
+        {
+          "word": "sure?",
+          "start": 151.98,
+          "end": 152.44
+        },
+        {
+          "word": "I",
+          "start": 152.72,
+          "end": 153.04
+        },
+        {
+          "word": "have",
+          "start": 153.04,
+          "end": 153.16
+        },
+        {
+          "word": "seldom",
+          "start": 153.16,
+          "end": 153.66
+        },
+        {
+          "word": "seen",
+          "start": 153.66,
+          "end": 154.04
+        },
+        {
+          "word": "companies",
+          "start": 154.04,
+          "end": 154.58
+        },
+        {
+          "word": "as",
+          "start": 154.58,
+          "end": 154.8
+        },
+        {
+          "word": "large",
+          "start": 154.8,
+          "end": 155.1
+        },
+        {
+          "word": "as",
+          "start": 155.1,
+          "end": 155.24
+        },
+        {
+          "word": "yours",
+          "start": 155.24,
+          "end": 155.56
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 31,
+      "start": 155.56,
+      "end": 157.7,
+      "textZh": "To have part-time senior executives.",
+      "pinyin": "",
+      "textKo": "To have part-time senior executives.",
+      "words": [
+        {
+          "word": "to",
+          "start": 155.56,
+          "end": 155.96
+        },
+        {
+          "word": "have",
+          "start": 155.96,
+          "end": 156.1
+        },
+        {
+          "word": "part",
+          "start": 156.1,
+          "end": 156.52
+        },
+        {
+          "word": "-",
+          "start": 156.52,
+          "end": 156.56
+        },
+        {
+          "word": "time",
+          "start": 156.56,
+          "end": 156.78
+        },
+        {
+          "word": "senior",
+          "start": 156.78,
+          "end": 157.16
+        },
+        {
+          "word": "executives.",
+          "start": 157.16,
+          "end": 157.7
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 32,
+      "start": 158.3,
+      "end": 161.46,
+      "textZh": "But Gao smiled. This is my dumpling way.",
+      "pinyin": "",
+      "textKo": "But Gao smiled. This is my dumpling way.",
+      "words": [
+        {
+          "word": "But",
+          "start": 158.3,
+          "end": 158.82
+        },
+        {
+          "word": "Gao",
+          "start": 158.82,
+          "end": 159.0
+        },
+        {
+          "word": "smiled.",
+          "start": 159.0,
+          "end": 159.54
+        },
+        {
+          "word": "This",
+          "start": 160.1,
+          "end": 160.52
+        },
+        {
+          "word": "is",
+          "start": 160.52,
+          "end": 160.64
+        },
+        {
+          "word": "my",
+          "start": 160.64,
+          "end": 160.8
+        },
+        {
+          "word": "dumpling",
+          "start": 160.8,
+          "end": 161.12
+        },
+        {
+          "word": "way.",
+          "start": 161.12,
+          "end": 161.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 33,
+      "start": 162.9,
+      "end": 165.36,
+      "textZh": "Gao's team were also puzzled.",
+      "pinyin": "",
+      "textKo": "Gao's team were also puzzled.",
+      "words": [
+        {
+          "word": "Gao",
+          "start": 162.9,
+          "end": 163.54
+        },
+        {
+          "word": "'s",
+          "start": 163.54,
+          "end": 163.8
+        },
+        {
+          "word": "team",
+          "start": 163.8,
+          "end": 164.16
+        },
+        {
+          "word": "were",
+          "start": 164.16,
+          "end": 164.58
+        },
+        {
+          "word": "also",
+          "start": 164.58,
+          "end": 164.84
+        },
+        {
+          "word": "puzz",
+          "start": 164.84,
+          "end": 165.16
+        },
+        {
+          "word": "led.",
+          "start": 165.16,
+          "end": 165.36
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 34,
+      "start": 166.16,
+      "end": 169.18,
+      "textZh": "In the first three months, the sales fluctuated.",
+      "pinyin": "",
+      "textKo": "In the first three months, the sales fluctuated.",
+      "words": [
+        {
+          "word": "In",
+          "start": 166.16,
+          "end": 166.4
+        },
+        {
+          "word": "the",
+          "start": 166.4,
+          "end": 166.5
+        },
+        {
+          "word": "first",
+          "start": 166.5,
+          "end": 166.74
+        },
+        {
+          "word": "three",
+          "start": 166.74,
+          "end": 167.0
+        },
+        {
+          "word": "months,",
+          "start": 167.0,
+          "end": 167.48
+        },
+        {
+          "word": "the",
+          "start": 167.66,
+          "end": 167.9
+        },
+        {
+          "word": "sales",
+          "start": 167.9,
+          "end": 168.34
+        },
+        {
+          "word": "fluct",
+          "start": 168.34,
+          "end": 168.66
+        },
+        {
+          "word": "uated.",
+          "start": 168.66,
+          "end": 169.18
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 35,
+      "start": 169.42,
+      "end": 173.42,
+      "textZh": "Some even dropped by 20 percent. But Gao didn't blink.",
+      "pinyin": "",
+      "textKo": "Some even dropped by 20 percent. But Gao didn't blink.",
+      "words": [
+        {
+          "word": "Some",
+          "start": 169.42,
+          "end": 169.78
+        },
+        {
+          "word": "even",
+          "start": 169.78,
+          "end": 170.0
+        },
+        {
+          "word": "dropped",
+          "start": 170.0,
+          "end": 170.4
+        },
+        {
+          "word": "by",
+          "start": 170.4,
+          "end": 170.74
+        },
+        {
+          "word": "20",
+          "start": 170.74,
+          "end": 171.04
+        },
+        {
+          "word": "percent.",
+          "start": 171.04,
+          "end": 171.34
+        },
+        {
+          "word": "But",
+          "start": 171.34,
+          "end": 172.08
+        },
+        {
+          "word": "Gao",
+          "start": 172.08,
+          "end": 172.46
+        },
+        {
+          "word": "didn",
+          "start": 172.46,
+          "end": 172.88
+        },
+        {
+          "word": "'t",
+          "start": 172.88,
+          "end": 173.08
+        },
+        {
+          "word": "blink.",
+          "start": 173.08,
+          "end": 173.42
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 36,
+      "start": 174.76,
+      "end": 176.9,
+      "textZh": "The regional heads had to learn new skills",
+      "pinyin": "",
+      "textKo": "The regional heads had to learn new skills",
+      "words": [
+        {
+          "word": "The",
+          "start": 174.76,
+          "end": 174.82
+        },
+        {
+          "word": "regional",
+          "start": 174.82,
+          "end": 175.12
+        },
+        {
+          "word": "heads",
+          "start": 175.12,
+          "end": 175.52
+        },
+        {
+          "word": "had",
+          "start": 175.52,
+          "end": 175.76
+        },
+        {
+          "word": "to",
+          "start": 175.76,
+          "end": 175.94
+        },
+        {
+          "word": "learn",
+          "start": 175.94,
+          "end": 176.16
+        },
+        {
+          "word": "new",
+          "start": 176.16,
+          "end": 176.38
+        },
+        {
+          "word": "skills",
+          "start": 176.38,
+          "end": 176.9
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 37,
+      "start": 176.9,
+      "end": 182.36,
+      "textZh": "While still doing their job. Things like what kinds of dumplings can be sold online,",
+      "pinyin": "",
+      "textKo": "While still doing their job. Things like what kinds of dumplings can be sold online,",
+      "words": [
+        {
+          "word": "while",
+          "start": 176.9,
+          "end": 177.36
+        },
+        {
+          "word": "still",
+          "start": 177.36,
+          "end": 177.72
+        },
+        {
+          "word": "doing",
+          "start": 177.72,
+          "end": 178.12
+        },
+        {
+          "word": "their",
+          "start": 178.12,
+          "end": 178.32
+        },
+        {
+          "word": "job.",
+          "start": 178.32,
+          "end": 178.74
+        },
+        {
+          "word": "Things",
+          "start": 179.3,
+          "end": 179.56
+        },
+        {
+          "word": "like",
+          "start": 179.56,
+          "end": 179.9
+        },
+        {
+          "word": "what",
+          "start": 179.9,
+          "end": 180.38
+        },
+        {
+          "word": "kinds",
+          "start": 180.38,
+          "end": 180.66
+        },
+        {
+          "word": "of",
+          "start": 180.66,
+          "end": 180.84
+        },
+        {
+          "word": "dumplings",
+          "start": 180.84,
+          "end": 181.22
+        },
+        {
+          "word": "can",
+          "start": 181.22,
+          "end": 181.5
+        },
+        {
+          "word": "be",
+          "start": 181.5,
+          "end": 181.64
+        },
+        {
+          "word": "sold",
+          "start": 181.64,
+          "end": 181.88
+        },
+        {
+          "word": "online,",
+          "start": 181.88,
+          "end": 182.36
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 38,
+      "start": 182.64,
+      "end": 185.1,
+      "textZh": "How to digitalize their supply chain.",
+      "pinyin": "",
+      "textKo": "How to digitalize their supply chain.",
+      "words": [
+        {
+          "word": "how",
+          "start": 182.64,
+          "end": 183.04
+        },
+        {
+          "word": "to",
+          "start": 183.04,
+          "end": 183.28
+        },
+        {
+          "word": "digital",
+          "start": 183.28,
+          "end": 183.7
+        },
+        {
+          "word": "ize",
+          "start": 183.7,
+          "end": 184.06
+        },
+        {
+          "word": "their",
+          "start": 184.06,
+          "end": 184.26
+        },
+        {
+          "word": "supply",
+          "start": 184.26,
+          "end": 184.62
+        },
+        {
+          "word": "chain.",
+          "start": 184.62,
+          "end": 185.1
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 39,
+      "start": 186.3,
+      "end": 189.7,
+      "textZh": "After the transition period, something magical happened.",
+      "pinyin": "",
+      "textKo": "After the transition period, something magical happened.",
+      "words": [
+        {
+          "word": "After",
+          "start": 186.3,
+          "end": 187.02
+        },
+        {
+          "word": "the",
+          "start": 187.02,
+          "end": 187.2
+        },
+        {
+          "word": "transition",
+          "start": 187.2,
+          "end": 187.6
+        },
+        {
+          "word": "period,",
+          "start": 187.6,
+          "end": 188.1
+        },
+        {
+          "word": "something",
+          "start": 188.4,
+          "end": 188.8
+        },
+        {
+          "word": "magical",
+          "start": 188.8,
+          "end": 189.28
+        },
+        {
+          "word": "happened.",
+          "start": 189.28,
+          "end": 189.7
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 40,
+      "start": 190.06,
+      "end": 192.66,
+      "textZh": "The sales come back. One year later,",
+      "pinyin": "",
+      "textKo": "The sales come back. One year later,",
+      "words": [
+        {
+          "word": "The",
+          "start": 190.06,
+          "end": 190.3
+        },
+        {
+          "word": "sales",
+          "start": 190.3,
+          "end": 190.6
+        },
+        {
+          "word": "come",
+          "start": 190.6,
+          "end": 190.82
+        },
+        {
+          "word": "back.",
+          "start": 190.82,
+          "end": 191.14
+        },
+        {
+          "word": "One",
+          "start": 191.14,
+          "end": 191.94
+        },
+        {
+          "word": "year",
+          "start": 191.94,
+          "end": 192.22
+        },
+        {
+          "word": "later,",
+          "start": 192.22,
+          "end": 192.66
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 41,
+      "start": 193.04,
+      "end": 196.82,
+      "textZh": "The company began to launch its fresh and spicy dumplings online.",
+      "pinyin": "",
+      "textKo": "The company began to launch its fresh and spicy dumplings online.",
+      "words": [
+        {
+          "word": "the",
+          "start": 193.04,
+          "end": 193.16
+        },
+        {
+          "word": "company",
+          "start": 193.16,
+          "end": 193.46
+        },
+        {
+          "word": "began",
+          "start": 193.46,
+          "end": 193.82
+        },
+        {
+          "word": "to",
+          "start": 193.82,
+          "end": 194.0
+        },
+        {
+          "word": "launch",
+          "start": 194.0,
+          "end": 194.3
+        },
+        {
+          "word": "its",
+          "start": 194.3,
+          "end": 194.54
+        },
+        {
+          "word": "fresh",
+          "start": 194.54,
+          "end": 195.02
+        },
+        {
+          "word": "and",
+          "start": 195.02,
+          "end": 195.28
+        },
+        {
+          "word": "spicy",
+          "start": 195.28,
+          "end": 195.74
+        },
+        {
+          "word": "dumplings",
+          "start": 195.74,
+          "end": 196.24
+        },
+        {
+          "word": "online.",
+          "start": 196.24,
+          "end": 196.82
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 42,
+      "start": 197.38,
+      "end": 201.98,
+      "textZh": "Two years later, more talents with start-up dreams were attracted.",
+      "pinyin": "",
+      "textKo": "Two years later, more talents with start-up dreams were attracted.",
+      "words": [
+        {
+          "word": "Two",
+          "start": 197.38,
+          "end": 197.58
+        },
+        {
+          "word": "years",
+          "start": 197.58,
+          "end": 197.92
+        },
+        {
+          "word": "later,",
+          "start": 197.92,
+          "end": 198.34
+        },
+        {
+          "word": "more",
+          "start": 198.68,
+          "end": 199.06
+        },
+        {
+          "word": "talents",
+          "start": 199.06,
+          "end": 199.7
+        },
+        {
+          "word": "with",
+          "start": 199.7,
+          "end": 200.08
+        },
+        {
+          "word": "start",
+          "start": 200.08,
+          "end": 200.4
+        },
+        {
+          "word": "-",
+          "start": 200.4,
+          "end": 200.42
+        },
+        {
+          "word": "up",
+          "start": 200.42,
+          "end": 200.54
+        },
+        {
+          "word": "dreams",
+          "start": 200.54,
+          "end": 200.96
+        },
+        {
+          "word": "were",
+          "start": 200.96,
+          "end": 201.38
+        },
+        {
+          "word": "attracted.",
+          "start": 201.38,
+          "end": 201.98
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 43,
+      "start": 203.0,
+      "end": 208.96,
+      "textZh": "More importantly, the company began to translate these individual new capabilities",
+      "pinyin": "",
+      "textKo": "More importantly, the company began to translate these individual new capabilities",
+      "words": [
+        {
+          "word": "More",
+          "start": 203.0,
+          "end": 203.76
+        },
+        {
+          "word": "importantly,",
+          "start": 203.76,
+          "end": 204.56
+        },
+        {
+          "word": "the",
+          "start": 205.0,
+          "end": 205.24
+        },
+        {
+          "word": "company",
+          "start": 205.24,
+          "end": 205.6
+        },
+        {
+          "word": "began",
+          "start": 205.6,
+          "end": 205.98
+        },
+        {
+          "word": "to",
+          "start": 205.98,
+          "end": 206.2
+        },
+        {
+          "word": "translate",
+          "start": 206.2,
+          "end": 206.68
+        },
+        {
+          "word": "these",
+          "start": 206.68,
+          "end": 207.0
+        },
+        {
+          "word": "individual",
+          "start": 207.0,
+          "end": 207.82
+        },
+        {
+          "word": "new",
+          "start": 207.82,
+          "end": 208.24
+        },
+        {
+          "word": "capabilities",
+          "start": 208.24,
+          "end": 208.96
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 44,
+      "start": 208.96,
+      "end": 211.8,
+      "textZh": "Into company policies and roll them out,",
+      "pinyin": "",
+      "textKo": "Into company policies and roll them out,",
+      "words": [
+        {
+          "word": "into",
+          "start": 208.96,
+          "end": 209.46
+        },
+        {
+          "word": "company",
+          "start": 209.46,
+          "end": 209.96
+        },
+        {
+          "word": "policies",
+          "start": 209.96,
+          "end": 210.56
+        },
+        {
+          "word": "and",
+          "start": 210.56,
+          "end": 210.86
+        },
+        {
+          "word": "roll",
+          "start": 210.86,
+          "end": 211.18
+        },
+        {
+          "word": "them",
+          "start": 211.18,
+          "end": 211.38
+        },
+        {
+          "word": "out,",
+          "start": 211.38,
+          "end": 211.8
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 45,
+      "start": 212.1,
+      "end": 215.64,
+      "textZh": "A true differentiator compared with its peers.",
+      "pinyin": "",
+      "textKo": "A true differentiator compared with its peers.",
+      "words": [
+        {
+          "word": "a",
+          "start": 212.1,
+          "end": 212.62
+        },
+        {
+          "word": "true",
+          "start": 212.62,
+          "end": 213.02
+        },
+        {
+          "word": "differenti",
+          "start": 213.02,
+          "end": 213.48
+        },
+        {
+          "word": "ator",
+          "start": 213.48,
+          "end": 214.14
+        },
+        {
+          "word": "compared",
+          "start": 214.14,
+          "end": 214.76
+        },
+        {
+          "word": "with",
+          "start": 214.76,
+          "end": 215.08
+        },
+        {
+          "word": "its",
+          "start": 215.08,
+          "end": 215.24
+        },
+        {
+          "word": "peers.",
+          "start": 215.24,
+          "end": 215.64
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 46,
+      "start": 215.64,
+      "end": 220.98,
+      "textZh": "Because most Chinese entrepreneurs are very good at growth strategies.",
+      "pinyin": "",
+      "textKo": "Because most Chinese entrepreneurs are very good at growth strategies.",
+      "words": [
+        {
+          "word": "because",
+          "start": 215.64,
+          "end": 216.64
+        },
+        {
+          "word": "most",
+          "start": 216.64,
+          "end": 217.04
+        },
+        {
+          "word": "Chinese",
+          "start": 217.04,
+          "end": 217.52
+        },
+        {
+          "word": "entrepreneurs",
+          "start": 217.52,
+          "end": 218.18
+        },
+        {
+          "word": "are",
+          "start": 218.18,
+          "end": 218.78
+        },
+        {
+          "word": "very",
+          "start": 218.78,
+          "end": 219.02
+        },
+        {
+          "word": "good",
+          "start": 219.02,
+          "end": 219.24
+        },
+        {
+          "word": "at",
+          "start": 219.24,
+          "end": 219.48
+        },
+        {
+          "word": "growth",
+          "start": 219.48,
+          "end": 220.14
+        },
+        {
+          "word": "strategies.",
+          "start": 220.14,
+          "end": 220.98
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 47,
+      "start": 221.32,
+      "end": 223.44,
+      "textZh": "In Chinese, we call it",
+      "pinyin": "",
+      "textKo": "In Chinese, we call it",
+      "words": [
+        {
+          "word": "In",
+          "start": 221.32,
+          "end": 221.9
+        },
+        {
+          "word": "Chinese,",
+          "start": 221.9,
+          "end": 222.42
+        },
+        {
+          "word": "we",
+          "start": 222.72,
+          "end": 223.0
+        },
+        {
+          "word": "call",
+          "start": 223.0,
+          "end": 223.28
+        },
+        {
+          "word": "it",
+          "start": 223.28,
+          "end": 223.44
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 48,
+      "start": 223.44,
+      "end": 226.48,
+      "textZh": "Expanding territories,",
+      "pinyin": "",
+      "textKo": "Expanding territories,",
+      "words": [
+        {
+          "word": "expanding",
+          "start": 223.44,
+          "end": 224.14
+        },
+        {
+          "word": "territories,",
+          "start": 224.14,
+          "end": 226.48
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 49,
+      "start": 227.02,
+      "end": 236.14,
+      "textZh": "But not so good at what we call converting individual best practices into company policies for the long run.",
+      "pinyin": "",
+      "textKo": "But not so good at what we call converting individual best practices into company policies for the long run.",
+      "words": [
+        {
+          "word": "but",
+          "start": 227.02,
+          "end": 227.34
+        },
+        {
+          "word": "not",
+          "start": 227.34,
+          "end": 227.56
+        },
+        {
+          "word": "so",
+          "start": 227.56,
+          "end": 227.8
+        },
+        {
+          "word": "good",
+          "start": 227.8,
+          "end": 228.0
+        },
+        {
+          "word": "at",
+          "start": 228.0,
+          "end": 228.18
+        },
+        {
+          "word": "what",
+          "start": 228.18,
+          "end": 228.36
+        },
+        {
+          "word": "we",
+          "start": 228.36,
+          "end": 228.5
+        },
+        {
+          "word": "call",
+          "start": 228.5,
+          "end": 228.86
+        },
+        {
+          "word": "converting",
+          "start": 230.94,
+          "end": 231.7
+        },
+        {
+          "word": "individual",
+          "start": 231.7,
+          "end": 232.46
+        },
+        {
+          "word": "best",
+          "start": 232.46,
+          "end": 232.84
+        },
+        {
+          "word": "practices",
+          "start": 232.84,
+          "end": 233.36
+        },
+        {
+          "word": "into",
+          "start": 233.36,
+          "end": 234.04
+        },
+        {
+          "word": "company",
+          "start": 234.04,
+          "end": 234.54
+        },
+        {
+          "word": "policies",
+          "start": 234.54,
+          "end": 235.12
+        },
+        {
+          "word": "for",
+          "start": 235.12,
+          "end": 235.42
+        },
+        {
+          "word": "the",
+          "start": 235.42,
+          "end": 235.58
+        },
+        {
+          "word": "long",
+          "start": 235.58,
+          "end": 235.84
+        },
+        {
+          "word": "run.",
+          "start": 235.84,
+          "end": 236.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 50,
+      "start": 237.96,
+      "end": 244.5,
+      "textZh": "The nature of Gao's approach, such as having tolerance of frontline managers to make mistakes,",
+      "pinyin": "",
+      "textKo": "The nature of Gao's approach, such as having tolerance of frontline managers to make mistakes,",
+      "words": [
+        {
+          "word": "The",
+          "start": 237.74,
+          "end": 238.12
+        },
+        {
+          "word": "nature",
+          "start": 238.12,
+          "end": 238.68
+        },
+        {
+          "word": "of",
+          "start": 238.68,
+          "end": 239.06
+        },
+        {
+          "word": "Gao",
+          "start": 239.06,
+          "end": 239.28
+        },
+        {
+          "word": "'s",
+          "start": 239.28,
+          "end": 239.44
+        },
+        {
+          "word": "approach,",
+          "start": 239.44,
+          "end": 239.94
+        },
+        {
+          "word": "such",
+          "start": 240.32,
+          "end": 240.68
+        },
+        {
+          "word": "as",
+          "start": 240.68,
+          "end": 240.84
+        },
+        {
+          "word": "having",
+          "start": 240.84,
+          "end": 241.18
+        },
+        {
+          "word": "tolerance",
+          "start": 241.18,
+          "end": 241.74
+        },
+        {
+          "word": "of",
+          "start": 241.74,
+          "end": 242.04
+        },
+        {
+          "word": "frontline",
+          "start": 242.04,
+          "end": 242.48
+        },
+        {
+          "word": "managers",
+          "start": 242.48,
+          "end": 243.16
+        },
+        {
+          "word": "to",
+          "start": 243.16,
+          "end": 243.64
+        },
+        {
+          "word": "make",
+          "start": 243.64,
+          "end": 243.84
+        },
+        {
+          "word": "mistakes,",
+          "start": 243.84,
+          "end": 244.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 51,
+      "start": 244.5,
+      "end": 248.34,
+      "textZh": "Or having some new ideas not coming from the top,",
+      "pinyin": "",
+      "textKo": "Or having some new ideas not coming from the top,",
+      "words": [
+        {
+          "word": "or",
+          "start": 244.5,
+          "end": 245.34
+        },
+        {
+          "word": "having",
+          "start": 245.34,
+          "end": 245.72
+        },
+        {
+          "word": "some",
+          "start": 245.72,
+          "end": 245.92
+        },
+        {
+          "word": "new",
+          "start": 245.92,
+          "end": 246.22
+        },
+        {
+          "word": "ideas",
+          "start": 246.22,
+          "end": 246.8
+        },
+        {
+          "word": "not",
+          "start": 246.8,
+          "end": 247.22
+        },
+        {
+          "word": "coming",
+          "start": 247.22,
+          "end": 247.6
+        },
+        {
+          "word": "from",
+          "start": 247.6,
+          "end": 247.8
+        },
+        {
+          "word": "the",
+          "start": 247.8,
+          "end": 248.0
+        },
+        {
+          "word": "top,",
+          "start": 248.0,
+          "end": 248.34
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 52,
+      "start": 248.54,
+      "end": 251.34,
+      "textZh": "Is not common in China,",
+      "pinyin": "",
+      "textKo": "Is not common in China,",
+      "words": [
+        {
+          "word": "is",
+          "start": 248.54,
+          "end": 249.16
+        },
+        {
+          "word": "not",
+          "start": 249.16,
+          "end": 249.66
+        },
+        {
+          "word": "common",
+          "start": 249.66,
+          "end": 250.36
+        },
+        {
+          "word": "in",
+          "start": 250.36,
+          "end": 250.84
+        },
+        {
+          "word": "China,",
+          "start": 250.84,
+          "end": 251.34
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 53,
+      "start": 252.14,
+      "end": 254.2,
+      "textZh": "Because they go against our traditions.",
+      "pinyin": "",
+      "textKo": "Because they go against our traditions.",
+      "words": [
+        {
+          "word": "because",
+          "start": 252.03,
+          "end": 252.44
+        },
+        {
+          "word": "they",
+          "start": 252.44,
+          "end": 252.68
+        },
+        {
+          "word": "go",
+          "start": 252.68,
+          "end": 253.0
+        },
+        {
+          "word": "against",
+          "start": 253.0,
+          "end": 253.44
+        },
+        {
+          "word": "our",
+          "start": 253.44,
+          "end": 253.66
+        },
+        {
+          "word": "traditions.",
+          "start": 253.66,
+          "end": 254.2
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 54,
+      "start": 255.14,
+      "end": 260.78,
+      "textZh": "In the past 2,000 years, Confucianism has been dominant in China,",
+      "pinyin": "",
+      "textKo": "In the past 2,000 years, Confucianism has been dominant in China,",
+      "words": [
+        {
+          "word": "In",
+          "start": 255.14,
+          "end": 255.62
+        },
+        {
+          "word": "the",
+          "start": 255.62,
+          "end": 255.72
+        },
+        {
+          "word": "past",
+          "start": 255.72,
+          "end": 256.06
+        },
+        {
+          "word": "2,",
+          "start": 256.06,
+          "end": 256.26
+        },
+        {
+          "word": "000",
+          "start": 256.46,
+          "end": 256.72
+        },
+        {
+          "word": "years,",
+          "start": 256.72,
+          "end": 257.04
+        },
+        {
+          "word": "Conf",
+          "start": 257.64,
+          "end": 257.86
+        },
+        {
+          "word": "uci",
+          "start": 257.86,
+          "end": 258.12
+        },
+        {
+          "word": "an",
+          "start": 258.12,
+          "end": 258.26
+        },
+        {
+          "word": "ism",
+          "start": 258.26,
+          "end": 258.6
+        },
+        {
+          "word": "has",
+          "start": 258.6,
+          "end": 259.06
+        },
+        {
+          "word": "been",
+          "start": 259.06,
+          "end": 259.26
+        },
+        {
+          "word": "dominant",
+          "start": 259.26,
+          "end": 259.82
+        },
+        {
+          "word": "in",
+          "start": 259.82,
+          "end": 260.32
+        },
+        {
+          "word": "China,",
+          "start": 260.32,
+          "end": 260.78
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 55,
+      "start": 261.14,
+      "end": 264.38,
+      "textZh": "Which values seniority and authority.",
+      "pinyin": "",
+      "textKo": "Which values seniority and authority.",
+      "words": [
+        {
+          "word": "which",
+          "start": 261.14,
+          "end": 261.64
+        },
+        {
+          "word": "values",
+          "start": 261.64,
+          "end": 262.34
+        },
+        {
+          "word": "senior",
+          "start": 262.34,
+          "end": 262.82
+        },
+        {
+          "word": "ity",
+          "start": 262.82,
+          "end": 263.38
+        },
+        {
+          "word": "and",
+          "start": 263.38,
+          "end": 263.78
+        },
+        {
+          "word": "authority.",
+          "start": 263.78,
+          "end": 264.38
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 56,
+      "start": 265.42,
+      "end": 271.08,
+      "textZh": "For a nation, this is a time-tested formula to ensure order and harmony.",
+      "pinyin": "",
+      "textKo": "For a nation, this is a time-tested formula to ensure order and harmony.",
+      "words": [
+        {
+          "word": "For",
+          "start": 265.42,
+          "end": 265.96
+        },
+        {
+          "word": "a",
+          "start": 265.96,
+          "end": 266.14
+        },
+        {
+          "word": "nation,",
+          "start": 266.14,
+          "end": 266.56
+        },
+        {
+          "word": "this",
+          "start": 266.86,
+          "end": 267.14
+        },
+        {
+          "word": "is",
+          "start": 267.14,
+          "end": 267.24
+        },
+        {
+          "word": "a",
+          "start": 267.24,
+          "end": 267.4
+        },
+        {
+          "word": "time",
+          "start": 267.4,
+          "end": 267.76
+        },
+        {
+          "word": "-",
+          "start": 267.76,
+          "end": 267.76
+        },
+        {
+          "word": "t",
+          "start": 267.76,
+          "end": 268.0
+        },
+        {
+          "word": "ested",
+          "start": 268.0,
+          "end": 268.26
+        },
+        {
+          "word": "formula",
+          "start": 268.26,
+          "end": 268.74
+        },
+        {
+          "word": "to",
+          "start": 268.74,
+          "end": 269.24
+        },
+        {
+          "word": "ensure",
+          "start": 269.24,
+          "end": 269.68
+        },
+        {
+          "word": "order",
+          "start": 269.68,
+          "end": 270.16
+        },
+        {
+          "word": "and",
+          "start": 270.16,
+          "end": 270.58
+        },
+        {
+          "word": "harmony.",
+          "start": 270.58,
+          "end": 271.08
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 57,
+      "start": 271.68,
+      "end": 276.8,
+      "textZh": "For a company, this ensures precise execution at a large scale.",
+      "pinyin": "",
+      "textKo": "For a company, this ensures precise execution at a large scale.",
+      "words": [
+        {
+          "word": "For",
+          "start": 271.68,
+          "end": 272.16
+        },
+        {
+          "word": "a",
+          "start": 272.16,
+          "end": 272.32
+        },
+        {
+          "word": "company,",
+          "start": 272.32,
+          "end": 272.82
+        },
+        {
+          "word": "this",
+          "start": 272.82,
+          "end": 273.38
+        },
+        {
+          "word": "ensures",
+          "start": 273.38,
+          "end": 273.88
+        },
+        {
+          "word": "precise",
+          "start": 273.88,
+          "end": 274.62
+        },
+        {
+          "word": "execution",
+          "start": 274.62,
+          "end": 275.34
+        },
+        {
+          "word": "at",
+          "start": 275.34,
+          "end": 275.98
+        },
+        {
+          "word": "a",
+          "start": 275.98,
+          "end": 276.12
+        },
+        {
+          "word": "large",
+          "start": 276.12,
+          "end": 276.4
+        },
+        {
+          "word": "scale.",
+          "start": 276.4,
+          "end": 276.8
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 58,
+      "start": 277.74,
+      "end": 281.48,
+      "textZh": "But with business environment constantly changing,",
+      "pinyin": "",
+      "textKo": "But with business environment constantly changing,",
+      "words": [
+        {
+          "word": "But",
+          "start": 277.74,
+          "end": 278.48
+        },
+        {
+          "word": "with",
+          "start": 278.48,
+          "end": 279.32
+        },
+        {
+          "word": "business",
+          "start": 279.32,
+          "end": 279.68
+        },
+        {
+          "word": "environment",
+          "start": 279.68,
+          "end": 280.24
+        },
+        {
+          "word": "constantly",
+          "start": 280.24,
+          "end": 280.84
+        },
+        {
+          "word": "changing,",
+          "start": 280.84,
+          "end": 281.48
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 59,
+      "start": 281.92,
+      "end": 284.02,
+      "textZh": "Internet disrupting traditional industries,",
+      "pinyin": "",
+      "textKo": "Internet disrupting traditional industries,",
+      "words": [
+        {
+          "word": "internet",
+          "start": 281.92,
+          "end": 282.28
+        },
+        {
+          "word": "disrupt",
+          "start": 282.28,
+          "end": 282.66
+        },
+        {
+          "word": "ing",
+          "start": 282.66,
+          "end": 282.92
+        },
+        {
+          "word": "traditional",
+          "start": 282.92,
+          "end": 283.28
+        },
+        {
+          "word": "industries,",
+          "start": 283.28,
+          "end": 284.02
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 60,
+      "start": 284.46,
+      "end": 287.08,
+      "textZh": "New millennials become a major workforce,",
+      "pinyin": "",
+      "textKo": "New millennials become a major workforce,",
+      "words": [
+        {
+          "word": "new",
+          "start": 284.46,
+          "end": 284.6
+        },
+        {
+          "word": "millennials",
+          "start": 284.6,
+          "end": 285.12
+        },
+        {
+          "word": "become",
+          "start": 285.12,
+          "end": 285.72
+        },
+        {
+          "word": "a",
+          "start": 285.72,
+          "end": 285.98
+        },
+        {
+          "word": "major",
+          "start": 285.98,
+          "end": 286.44
+        },
+        {
+          "word": "workforce,",
+          "start": 286.44,
+          "end": 287.08
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 61,
+      "start": 287.46,
+      "end": 289.78,
+      "textZh": "New ways of management emerge.",
+      "pinyin": "",
+      "textKo": "New ways of management emerge.",
+      "words": [
+        {
+          "word": "new",
+          "start": 287.46,
+          "end": 287.9
+        },
+        {
+          "word": "ways",
+          "start": 287.9,
+          "end": 288.3
+        },
+        {
+          "word": "of",
+          "start": 288.3,
+          "end": 288.58
+        },
+        {
+          "word": "management",
+          "start": 288.58,
+          "end": 289.02
+        },
+        {
+          "word": "emerge.",
+          "start": 289.02,
+          "end": 289.78
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 62,
+      "start": 290.62,
+      "end": 295.14,
+      "textZh": "I feel so lucky to study this in such a dynamic age,",
+      "pinyin": "",
+      "textKo": "I feel so lucky to study this in such a dynamic age,",
+      "words": [
+        {
+          "word": "I",
+          "start": 290.62,
+          "end": 291.2
+        },
+        {
+          "word": "feel",
+          "start": 291.2,
+          "end": 291.4
+        },
+        {
+          "word": "so",
+          "start": 291.4,
+          "end": 291.78
+        },
+        {
+          "word": "lucky",
+          "start": 291.78,
+          "end": 292.26
+        },
+        {
+          "word": "to",
+          "start": 292.26,
+          "end": 292.74
+        },
+        {
+          "word": "study",
+          "start": 292.74,
+          "end": 293.08
+        },
+        {
+          "word": "this",
+          "start": 293.08,
+          "end": 293.4
+        },
+        {
+          "word": "in",
+          "start": 293.4,
+          "end": 293.74
+        },
+        {
+          "word": "such",
+          "start": 293.74,
+          "end": 294.12
+        },
+        {
+          "word": "a",
+          "start": 294.12,
+          "end": 294.24
+        },
+        {
+          "word": "dynamic",
+          "start": 294.24,
+          "end": 294.5
+        },
+        {
+          "word": "age,",
+          "start": 294.5,
+          "end": 295.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 63,
+      "start": 295.46,
+      "end": 299.04,
+      "textZh": "While at the same time, to satisfy my stomach with delicious dumplings.",
+      "pinyin": "",
+      "textKo": "While at the same time, to satisfy my stomach with delicious dumplings.",
+      "words": [
+        {
+          "word": "while",
+          "start": 295.46,
+          "end": 295.64
+        },
+        {
+          "word": "at",
+          "start": 295.64,
+          "end": 295.78
+        },
+        {
+          "word": "the",
+          "start": 295.78,
+          "end": 295.86
+        },
+        {
+          "word": "same",
+          "start": 295.86,
+          "end": 296.1
+        },
+        {
+          "word": "time,",
+          "start": 296.1,
+          "end": 296.5
+        },
+        {
+          "word": "to",
+          "start": 296.7,
+          "end": 296.78
+        },
+        {
+          "word": "satisfy",
+          "start": 296.78,
+          "end": 297.26
+        },
+        {
+          "word": "my",
+          "start": 297.26,
+          "end": 297.5
+        },
+        {
+          "word": "stomach",
+          "start": 297.5,
+          "end": 297.74
+        },
+        {
+          "word": "with",
+          "start": 297.74,
+          "end": 298.2
+        },
+        {
+          "word": "delicious",
+          "start": 298.2,
+          "end": 298.64
+        },
+        {
+          "word": "dumplings.",
+          "start": 298.64,
+          "end": 299.04
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 64,
+      "start": 299.04,
+      "end": 301.32,
+      "textZh": "And to satisfy my stomach with the same things.",
+      "pinyin": "",
+      "textKo": "And to satisfy my stomach with the same things.",
+      "words": [
+        {
+          "word": "and",
+          "start": 299.04,
+          "end": 299.04
+        },
+        {
+          "word": "to",
+          "start": 299.04,
+          "end": 299.04
+        },
+        {
+          "word": "satisfy",
+          "start": 299.04,
+          "end": 299.04
+        },
+        {
+          "word": "my",
+          "start": 299.04,
+          "end": 299.04
+        },
+        {
+          "word": "stomach",
+          "start": 299.04,
+          "end": 299.04
+        },
+        {
+          "word": "with",
+          "start": 299.04,
+          "end": 301.12
+        },
+        {
+          "word": "the",
+          "start": 301.12,
+          "end": 301.22
+        },
+        {
+          "word": "same",
+          "start": 301.22,
+          "end": 301.22
+        },
+        {
+          "word": "things.",
+          "start": 301.22,
+          "end": 301.32
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 65,
+      "start": 301.6,
+      "end": 304.86,
+      "textZh": "Gao's two-head approach is just one example.",
+      "pinyin": "",
+      "textKo": "Gao's two-head approach is just one example.",
+      "words": [
+        {
+          "word": "Gao",
+          "start": 301.6,
+          "end": 302.36
+        },
+        {
+          "word": "'s",
+          "start": 302.36,
+          "end": 302.64
+        },
+        {
+          "word": "two",
+          "start": 302.64,
+          "end": 302.78
+        },
+        {
+          "word": "-",
+          "start": 302.78,
+          "end": 302.98
+        },
+        {
+          "word": "head",
+          "start": 302.98,
+          "end": 302.98
+        },
+        {
+          "word": "approach",
+          "start": 302.98,
+          "end": 303.48
+        },
+        {
+          "word": "is",
+          "start": 303.48,
+          "end": 304.0
+        },
+        {
+          "word": "just",
+          "start": 304.0,
+          "end": 304.16
+        },
+        {
+          "word": "one",
+          "start": 304.16,
+          "end": 304.36
+        },
+        {
+          "word": "example.",
+          "start": 304.36,
+          "end": 304.86
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 66,
+      "start": 305.62,
+      "end": 308.36,
+      "textZh": "Another example comes from Miranda Chu,",
+      "pinyin": "",
+      "textKo": "Another example comes from Miranda Chu,",
+      "words": [
+        {
+          "word": "Another",
+          "start": 305.62,
+          "end": 305.94
+        },
+        {
+          "word": "example",
+          "start": 305.94,
+          "end": 306.44
+        },
+        {
+          "word": "comes",
+          "start": 306.44,
+          "end": 306.9
+        },
+        {
+          "word": "from",
+          "start": 306.9,
+          "end": 307.28
+        },
+        {
+          "word": "Miranda",
+          "start": 307.28,
+          "end": 307.94
+        },
+        {
+          "word": "Chu,",
+          "start": 307.94,
+          "end": 308.36
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 67,
+      "start": 308.68,
+      "end": 316.2,
+      "textZh": "The founder of Xiao Hongshu. Xiao Hongshu is a thriving internet company with 300 million users.",
+      "pinyin": "",
+      "textKo": "The founder of Xiao Hongshu. Xiao Hongshu is a thriving internet company with 300 million users.",
+      "words": [
+        {
+          "word": "the",
+          "start": 308.68,
+          "end": 308.92
+        },
+        {
+          "word": "founder",
+          "start": 308.92,
+          "end": 309.36
+        },
+        {
+          "word": "of",
+          "start": 309.36,
+          "end": 309.76
+        },
+        {
+          "word": "Xiao",
+          "start": 309.76,
+          "end": 309.96
+        },
+        {
+          "word": "Hong",
+          "start": 309.96,
+          "end": 310.16
+        },
+        {
+          "word": "sh",
+          "start": 310.16,
+          "end": 310.38
+        },
+        {
+          "word": "u.",
+          "start": 310.38,
+          "end": 310.42
+        },
+        {
+          "word": "Xiao",
+          "start": 311.5,
+          "end": 312.26
+        },
+        {
+          "word": "Hong",
+          "start": 312.26,
+          "end": 312.46
+        },
+        {
+          "word": "sh",
+          "start": 312.46,
+          "end": 312.66
+        },
+        {
+          "word": "u",
+          "start": 312.66,
+          "end": 312.68
+        },
+        {
+          "word": "is",
+          "start": 312.68,
+          "end": 312.84
+        },
+        {
+          "word": "a",
+          "start": 312.84,
+          "end": 312.98
+        },
+        {
+          "word": "thriving",
+          "start": 312.98,
+          "end": 313.52
+        },
+        {
+          "word": "internet",
+          "start": 313.52,
+          "end": 314.02
+        },
+        {
+          "word": "company",
+          "start": 314.02,
+          "end": 314.52
+        },
+        {
+          "word": "with",
+          "start": 314.52,
+          "end": 314.78
+        },
+        {
+          "word": "300",
+          "start": 314.78,
+          "end": 315.22
+        },
+        {
+          "word": "million",
+          "start": 315.22,
+          "end": 315.74
+        },
+        {
+          "word": "users.",
+          "start": 315.74,
+          "end": 316.2
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 68,
+      "start": 316.2,
+      "end": 320.5,
+      "textZh": "It is an online community where young fans can get together",
+      "pinyin": "",
+      "textKo": "It is an online community where young fans can get together",
+      "words": [
+        {
+          "word": "It",
+          "start": 316.2,
+          "end": 317.14
+        },
+        {
+          "word": "is",
+          "start": 317.14,
+          "end": 317.3
+        },
+        {
+          "word": "an",
+          "start": 317.3,
+          "end": 317.46
+        },
+        {
+          "word": "online",
+          "start": 317.46,
+          "end": 317.92
+        },
+        {
+          "word": "community",
+          "start": 317.92,
+          "end": 318.42
+        },
+        {
+          "word": "where",
+          "start": 318.42,
+          "end": 318.76
+        },
+        {
+          "word": "young",
+          "start": 318.76,
+          "end": 319.06
+        },
+        {
+          "word": "fans",
+          "start": 319.06,
+          "end": 319.52
+        },
+        {
+          "word": "can",
+          "start": 319.52,
+          "end": 319.76
+        },
+        {
+          "word": "get",
+          "start": 319.76,
+          "end": 320.06
+        },
+        {
+          "word": "together",
+          "start": 320.06,
+          "end": 320.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 69,
+      "start": 320.5,
+      "end": 322.62,
+      "textZh": "To talk about their favorite soap opera,",
+      "pinyin": "",
+      "textKo": "To talk about their favorite soap opera,",
+      "words": [
+        {
+          "word": "to",
+          "start": 320.5,
+          "end": 320.92
+        },
+        {
+          "word": "talk",
+          "start": 320.92,
+          "end": 321.2
+        },
+        {
+          "word": "about",
+          "start": 321.2,
+          "end": 321.44
+        },
+        {
+          "word": "their",
+          "start": 321.44,
+          "end": 321.62
+        },
+        {
+          "word": "favorite",
+          "start": 321.62,
+          "end": 321.96
+        },
+        {
+          "word": "soap",
+          "start": 321.96,
+          "end": 322.22
+        },
+        {
+          "word": "opera,",
+          "start": 322.22,
+          "end": 322.62
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 70,
+      "start": 322.86,
+      "end": 327.96,
+      "textZh": "Go-go squid, or buy the crew shoes that the lead actress wears in a running scene.",
+      "pinyin": "",
+      "textKo": "Go-go squid, or buy the crew shoes that the lead actress wears in a running scene.",
+      "words": [
+        {
+          "word": "go",
+          "start": 322.86,
+          "end": 323.18
+        },
+        {
+          "word": "-",
+          "start": 323.18,
+          "end": 323.3
+        },
+        {
+          "word": "go",
+          "start": 323.3,
+          "end": 323.38
+        },
+        {
+          "word": "squid,",
+          "start": 323.38,
+          "end": 323.74
+        },
+        {
+          "word": "or",
+          "start": 324.12,
+          "end": 324.5
+        },
+        {
+          "word": "buy",
+          "start": 324.5,
+          "end": 324.68
+        },
+        {
+          "word": "the",
+          "start": 324.68,
+          "end": 324.8
+        },
+        {
+          "word": "crew",
+          "start": 324.8,
+          "end": 325.04
+        },
+        {
+          "word": "shoes",
+          "start": 325.04,
+          "end": 325.48
+        },
+        {
+          "word": "that",
+          "start": 325.48,
+          "end": 325.68
+        },
+        {
+          "word": "the",
+          "start": 325.68,
+          "end": 325.84
+        },
+        {
+          "word": "lead",
+          "start": 325.84,
+          "end": 325.96
+        },
+        {
+          "word": "actress",
+          "start": 325.96,
+          "end": 326.38
+        },
+        {
+          "word": "wears",
+          "start": 326.38,
+          "end": 326.82
+        },
+        {
+          "word": "in",
+          "start": 326.82,
+          "end": 327.28
+        },
+        {
+          "word": "a",
+          "start": 327.28,
+          "end": 327.36
+        },
+        {
+          "word": "running",
+          "start": 327.36,
+          "end": 327.62
+        },
+        {
+          "word": "scene.",
+          "start": 327.62,
+          "end": 327.96
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 71,
+      "start": 329.18,
+      "end": 335.52,
+      "textZh": "From the early days, Chu wanted the whole organization to be ready to spot on things that need to change",
+      "pinyin": "",
+      "textKo": "From the early days, Chu wanted the whole organization to be ready to spot on things that need to change",
+      "words": [
+        {
+          "word": "From",
+          "start": 329.18,
+          "end": 329.66
+        },
+        {
+          "word": "the",
+          "start": 329.66,
+          "end": 329.8
+        },
+        {
+          "word": "early",
+          "start": 329.8,
+          "end": 330.1
+        },
+        {
+          "word": "days,",
+          "start": 330.1,
+          "end": 330.4
+        },
+        {
+          "word": "Chu",
+          "start": 331.06,
+          "end": 331.3
+        },
+        {
+          "word": "wanted",
+          "start": 331.3,
+          "end": 331.7
+        },
+        {
+          "word": "the",
+          "start": 331.7,
+          "end": 331.96
+        },
+        {
+          "word": "whole",
+          "start": 331.96,
+          "end": 332.26
+        },
+        {
+          "word": "organization",
+          "start": 332.26,
+          "end": 332.84
+        },
+        {
+          "word": "to",
+          "start": 332.84,
+          "end": 333.24
+        },
+        {
+          "word": "be",
+          "start": 333.24,
+          "end": 333.4
+        },
+        {
+          "word": "ready",
+          "start": 333.4,
+          "end": 333.68
+        },
+        {
+          "word": "to",
+          "start": 333.68,
+          "end": 333.88
+        },
+        {
+          "word": "spot",
+          "start": 333.88,
+          "end": 334.18
+        },
+        {
+          "word": "on",
+          "start": 334.18,
+          "end": 334.36
+        },
+        {
+          "word": "things",
+          "start": 334.36,
+          "end": 334.62
+        },
+        {
+          "word": "that",
+          "start": 334.62,
+          "end": 334.82
+        },
+        {
+          "word": "need",
+          "start": 334.82,
+          "end": 334.98
+        },
+        {
+          "word": "to",
+          "start": 334.98,
+          "end": 335.12
+        },
+        {
+          "word": "change",
+          "start": 335.12,
+          "end": 335.52
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 72,
+      "start": 335.52,
+      "end": 339.2,
+      "textZh": "And challenge the authority. But one day,",
+      "pinyin": "",
+      "textKo": "And challenge the authority. But one day,",
+      "words": [
+        {
+          "word": "and",
+          "start": 335.52,
+          "end": 336.02
+        },
+        {
+          "word": "challenge",
+          "start": 336.02,
+          "end": 336.56
+        },
+        {
+          "word": "the",
+          "start": 336.56,
+          "end": 336.82
+        },
+        {
+          "word": "authority.",
+          "start": 336.82,
+          "end": 337.36
+        },
+        {
+          "word": "But",
+          "start": 338.22,
+          "end": 338.68
+        },
+        {
+          "word": "one",
+          "start": 338.68,
+          "end": 338.9
+        },
+        {
+          "word": "day,",
+          "start": 338.9,
+          "end": 339.2
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 73,
+      "start": 339.4,
+      "end": 343.66,
+      "textZh": "She noticed her interns were calling senior staff teachers.",
+      "pinyin": "",
+      "textKo": "She noticed her interns were calling senior staff teachers.",
+      "words": [
+        {
+          "word": "she",
+          "start": 339.4,
+          "end": 339.72
+        },
+        {
+          "word": "noticed",
+          "start": 339.72,
+          "end": 340.18
+        },
+        {
+          "word": "her",
+          "start": 340.18,
+          "end": 340.74
+        },
+        {
+          "word": "interns",
+          "start": 340.74,
+          "end": 341.38
+        },
+        {
+          "word": "were",
+          "start": 341.38,
+          "end": 341.68
+        },
+        {
+          "word": "calling",
+          "start": 341.68,
+          "end": 342.04
+        },
+        {
+          "word": "senior",
+          "start": 342.04,
+          "end": 342.42
+        },
+        {
+          "word": "staff",
+          "start": 342.42,
+          "end": 342.82
+        },
+        {
+          "word": "teachers.",
+          "start": 342.82,
+          "end": 343.66
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 74,
+      "start": 344.82,
+      "end": 346.84,
+      "textZh": "This may sound innocent,",
+      "pinyin": "",
+      "textKo": "This may sound innocent,",
+      "words": [
+        {
+          "word": "This",
+          "start": 344.82,
+          "end": 345.56
+        },
+        {
+          "word": "may",
+          "start": 345.56,
+          "end": 345.94
+        },
+        {
+          "word": "sound",
+          "start": 345.94,
+          "end": 346.36
+        },
+        {
+          "word": "innocent,",
+          "start": 346.36,
+          "end": 346.84
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 75,
+      "start": 347.24,
+      "end": 349.32,
+      "textZh": "But it signals a problem to Chu.",
+      "pinyin": "",
+      "textKo": "But it signals a problem to Chu.",
+      "words": [
+        {
+          "word": "but",
+          "start": 347.24,
+          "end": 347.5
+        },
+        {
+          "word": "it",
+          "start": 347.5,
+          "end": 347.64
+        },
+        {
+          "word": "signals",
+          "start": 347.64,
+          "end": 347.94
+        },
+        {
+          "word": "a",
+          "start": 347.94,
+          "end": 348.4
+        },
+        {
+          "word": "problem",
+          "start": 348.4,
+          "end": 348.82
+        },
+        {
+          "word": "to",
+          "start": 348.82,
+          "end": 349.08
+        },
+        {
+          "word": "Chu.",
+          "start": 349.08,
+          "end": 349.32
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 76,
+      "start": 349.92,
+      "end": 352.74,
+      "textZh": "Because if the teacher phenomenon become a norm,",
+      "pinyin": "",
+      "textKo": "Because if the teacher phenomenon become a norm,",
+      "words": [
+        {
+          "word": "Because",
+          "start": 349.92,
+          "end": 350.5
+        },
+        {
+          "word": "if",
+          "start": 350.5,
+          "end": 350.74
+        },
+        {
+          "word": "the",
+          "start": 350.74,
+          "end": 350.88
+        },
+        {
+          "word": "teacher",
+          "start": 350.88,
+          "end": 351.26
+        },
+        {
+          "word": "phenomenon",
+          "start": 351.26,
+          "end": 351.8
+        },
+        {
+          "word": "become",
+          "start": 351.8,
+          "end": 352.2
+        },
+        {
+          "word": "a",
+          "start": 352.2,
+          "end": 352.44
+        },
+        {
+          "word": "norm,",
+          "start": 352.44,
+          "end": 352.74
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 77,
+      "start": 353.06,
+      "end": 356.66,
+      "textZh": "It will encourage hierarchy and discourage ownership.",
+      "pinyin": "",
+      "textKo": "It will encourage hierarchy and discourage ownership.",
+      "words": [
+        {
+          "word": "it",
+          "start": 353.06,
+          "end": 353.2
+        },
+        {
+          "word": "will",
+          "start": 353.2,
+          "end": 353.34
+        },
+        {
+          "word": "encourage",
+          "start": 353.34,
+          "end": 353.86
+        },
+        {
+          "word": "hierarchy",
+          "start": 353.86,
+          "end": 354.56
+        },
+        {
+          "word": "and",
+          "start": 354.56,
+          "end": 355.34
+        },
+        {
+          "word": "discour",
+          "start": 355.34,
+          "end": 355.8
+        },
+        {
+          "word": "age",
+          "start": 355.8,
+          "end": 356.1
+        },
+        {
+          "word": "ownership.",
+          "start": 356.1,
+          "end": 356.66
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 78,
+      "start": 357.46,
+      "end": 360.58,
+      "textZh": "This is also something related to Confucian thinking.",
+      "pinyin": "",
+      "textKo": "This is also something related to Confucian thinking.",
+      "words": [
+        {
+          "word": "This",
+          "start": 357.46,
+          "end": 358.1
+        },
+        {
+          "word": "is",
+          "start": 358.1,
+          "end": 358.26
+        },
+        {
+          "word": "also",
+          "start": 358.26,
+          "end": 358.54
+        },
+        {
+          "word": "something",
+          "start": 358.54,
+          "end": 358.9
+        },
+        {
+          "word": "related",
+          "start": 358.9,
+          "end": 359.38
+        },
+        {
+          "word": "to",
+          "start": 359.38,
+          "end": 359.66
+        },
+        {
+          "word": "Conf",
+          "start": 359.66,
+          "end": 359.94
+        },
+        {
+          "word": "uci",
+          "start": 359.94,
+          "end": 360.12
+        },
+        {
+          "word": "an",
+          "start": 360.12,
+          "end": 360.22
+        },
+        {
+          "word": "thinking.",
+          "start": 360.22,
+          "end": 360.58
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 79,
+      "start": 361.06,
+      "end": 363.1,
+      "textZh": "In Chinese, we call it 本分。",
+      "pinyin": "",
+      "textKo": "In Chinese, we call it 本分。",
+      "words": [
+        {
+          "word": "In",
+          "start": 361.06,
+          "end": 361.14
+        },
+        {
+          "word": "Chinese,",
+          "start": 361.14,
+          "end": 361.6
+        },
+        {
+          "word": "we",
+          "start": 361.76,
+          "end": 361.86
+        },
+        {
+          "word": "call",
+          "start": 361.86,
+          "end": 362.14
+        },
+        {
+          "word": "it",
+          "start": 362.14,
+          "end": 362.3
+        },
+        {
+          "word": "本",
+          "start": 362.6,
+          "end": 362.7
+        },
+        {
+          "word": "分。",
+          "start": 362.7,
+          "end": 363.1
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 80,
+      "start": 364.2,
+      "end": 368.88,
+      "textZh": "本 means me, myself. 本 means the share of the job.",
+      "pinyin": "",
+      "textKo": "本 means me, myself. 本 means the share of the job.",
+      "words": [
+        {
+          "word": "本",
+          "start": 364.2,
+          "end": 364.34
+        },
+        {
+          "word": "means",
+          "start": 364.34,
+          "end": 364.88
+        },
+        {
+          "word": "me,",
+          "start": 364.88,
+          "end": 365.46
+        },
+        {
+          "word": "myself.",
+          "start": 365.62,
+          "end": 366.06
+        },
+        {
+          "word": "本",
+          "start": 366.98,
+          "end": 366.98
+        },
+        {
+          "word": "means",
+          "start": 366.98,
+          "end": 367.5
+        },
+        {
+          "word": "the",
+          "start": 367.5,
+          "end": 367.94
+        },
+        {
+          "word": "share",
+          "start": 367.94,
+          "end": 368.26
+        },
+        {
+          "word": "of",
+          "start": 368.26,
+          "end": 368.46
+        },
+        {
+          "word": "the",
+          "start": 368.46,
+          "end": 368.54
+        },
+        {
+          "word": "job.",
+          "start": 368.54,
+          "end": 368.88
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 81,
+      "start": 369.14,
+      "end": 372.0,
+      "textZh": "I will just focus on my job and not cross any lines,",
+      "pinyin": "",
+      "textKo": "I will just focus on my job and not cross any lines,",
+      "words": [
+        {
+          "word": "I",
+          "start": 369.14,
+          "end": 369.44
+        },
+        {
+          "word": "will",
+          "start": 369.44,
+          "end": 369.54
+        },
+        {
+          "word": "just",
+          "start": 369.54,
+          "end": 369.74
+        },
+        {
+          "word": "focus",
+          "start": 369.74,
+          "end": 370.02
+        },
+        {
+          "word": "on",
+          "start": 370.02,
+          "end": 370.22
+        },
+        {
+          "word": "my",
+          "start": 370.22,
+          "end": 370.34
+        },
+        {
+          "word": "job",
+          "start": 370.34,
+          "end": 370.58
+        },
+        {
+          "word": "and",
+          "start": 370.58,
+          "end": 370.78
+        },
+        {
+          "word": "not",
+          "start": 370.78,
+          "end": 371.08
+        },
+        {
+          "word": "cross",
+          "start": 371.08,
+          "end": 371.42
+        },
+        {
+          "word": "any",
+          "start": 371.42,
+          "end": 371.6
+        },
+        {
+          "word": "lines,",
+          "start": 371.6,
+          "end": 372.0
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 82,
+      "start": 372.18,
+      "end": 375.42,
+      "textZh": "Which is totally opposite to Chu's thinking.",
+      "pinyin": "",
+      "textKo": "Which is totally opposite to Chu's thinking.",
+      "words": [
+        {
+          "word": "which",
+          "start": 372.18,
+          "end": 372.54
+        },
+        {
+          "word": "is",
+          "start": 372.54,
+          "end": 372.7
+        },
+        {
+          "word": "totally",
+          "start": 372.7,
+          "end": 373.3
+        },
+        {
+          "word": "opposite",
+          "start": 373.3,
+          "end": 373.92
+        },
+        {
+          "word": "to",
+          "start": 373.92,
+          "end": 374.54
+        },
+        {
+          "word": "Chu",
+          "start": 374.54,
+          "end": 374.84
+        },
+        {
+          "word": "'s",
+          "start": 374.84,
+          "end": 375.0
+        },
+        {
+          "word": "thinking.",
+          "start": 375.0,
+          "end": 375.42
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 83,
+      "start": 376.26,
+      "end": 380.88,
+      "textZh": "So Chu created a unique initiative called Signature Program.",
+      "pinyin": "",
+      "textKo": "So Chu created a unique initiative called Signature Program.",
+      "words": [
+        {
+          "word": "So",
+          "start": 376.26,
+          "end": 376.68
+        },
+        {
+          "word": "Chu",
+          "start": 376.68,
+          "end": 377.04
+        },
+        {
+          "word": "created",
+          "start": 377.04,
+          "end": 377.62
+        },
+        {
+          "word": "a",
+          "start": 377.62,
+          "end": 377.9
+        },
+        {
+          "word": "unique",
+          "start": 377.9,
+          "end": 378.46
+        },
+        {
+          "word": "initiative",
+          "start": 378.46,
+          "end": 379.0
+        },
+        {
+          "word": "called",
+          "start": 379.0,
+          "end": 379.58
+        },
+        {
+          "word": "Sign",
+          "start": 379.58,
+          "end": 380.2
+        },
+        {
+          "word": "ature",
+          "start": 380.2,
+          "end": 380.52
+        },
+        {
+          "word": "Program.",
+          "start": 380.52,
+          "end": 380.88
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 84,
+      "start": 381.68,
+      "end": 386.16,
+      "textZh": "In the program, each employee chooses an avatar character",
+      "pinyin": "",
+      "textKo": "In the program, each employee chooses an avatar character",
+      "words": [
+        {
+          "word": "In",
+          "start": 381.68,
+          "end": 382.3
+        },
+        {
+          "word": "the",
+          "start": 382.3,
+          "end": 382.46
+        },
+        {
+          "word": "program,",
+          "start": 382.46,
+          "end": 382.9
+        },
+        {
+          "word": "each",
+          "start": 382.9,
+          "end": 383.62
+        },
+        {
+          "word": "employee",
+          "start": 383.62,
+          "end": 384.24
+        },
+        {
+          "word": "chooses",
+          "start": 384.24,
+          "end": 384.74
+        },
+        {
+          "word": "an",
+          "start": 384.74,
+          "end": 385.06
+        },
+        {
+          "word": "avatar",
+          "start": 385.06,
+          "end": 385.52
+        },
+        {
+          "word": "character",
+          "start": 385.52,
+          "end": 386.16
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 85,
+      "start": 386.16,
+      "end": 389.92,
+      "textZh": "That props up alongside digital communication channels.",
+      "pinyin": "",
+      "textKo": "That props up alongside digital communication channels.",
+      "words": [
+        {
+          "word": "that",
+          "start": 386.16,
+          "end": 386.68
+        },
+        {
+          "word": "props",
+          "start": 386.68,
+          "end": 387.04
+        },
+        {
+          "word": "up",
+          "start": 387.04,
+          "end": 387.3
+        },
+        {
+          "word": "alongside",
+          "start": 387.3,
+          "end": 387.98
+        },
+        {
+          "word": "digital",
+          "start": 387.98,
+          "end": 388.58
+        },
+        {
+          "word": "communication",
+          "start": 388.58,
+          "end": 389.24
+        },
+        {
+          "word": "channels.",
+          "start": 389.24,
+          "end": 389.92
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 86,
+      "start": 390.32,
+      "end": 392.92,
+      "textZh": "Some common IDs include Captain Hook,",
+      "pinyin": "",
+      "textKo": "Some common IDs include Captain Hook,",
+      "words": [
+        {
+          "word": "Some",
+          "start": 390.32,
+          "end": 390.64
+        },
+        {
+          "word": "common",
+          "start": 390.64,
+          "end": 391.06
+        },
+        {
+          "word": "IDs",
+          "start": 391.06,
+          "end": 391.44
+        },
+        {
+          "word": "include",
+          "start": 391.44,
+          "end": 392.06
+        },
+        {
+          "word": "Captain",
+          "start": 392.06,
+          "end": 392.64
+        },
+        {
+          "word": "Hook,",
+          "start": 392.64,
+          "end": 392.92
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 87,
+      "start": 393.44,
+      "end": 397.26,
+      "textZh": "Harry Potter and many well-known characters in Chinese literature.",
+      "pinyin": "",
+      "textKo": "Harry Potter and many well-known characters in Chinese literature.",
+      "words": [
+        {
+          "word": "Harry",
+          "start": 393.44,
+          "end": 393.62
+        },
+        {
+          "word": "Potter",
+          "start": 393.62,
+          "end": 394.04
+        },
+        {
+          "word": "and",
+          "start": 394.04,
+          "end": 394.62
+        },
+        {
+          "word": "many",
+          "start": 394.62,
+          "end": 394.86
+        },
+        {
+          "word": "well",
+          "start": 394.86,
+          "end": 395.18
+        },
+        {
+          "word": "-",
+          "start": 395.18,
+          "end": 395.3
+        },
+        {
+          "word": "known",
+          "start": 395.3,
+          "end": 395.42
+        },
+        {
+          "word": "characters",
+          "start": 395.42,
+          "end": 396.0
+        },
+        {
+          "word": "in",
+          "start": 396.0,
+          "end": 396.34
+        },
+        {
+          "word": "Chinese",
+          "start": 396.34,
+          "end": 396.78
+        },
+        {
+          "word": "literature.",
+          "start": 396.78,
+          "end": 397.26
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 88,
+      "start": 398.18,
+      "end": 400.38,
+      "textZh": "The way these characters interact",
+      "pinyin": "",
+      "textKo": "The way these characters interact",
+      "words": [
+        {
+          "word": "The",
+          "start": 398.18,
+          "end": 398.56
+        },
+        {
+          "word": "way",
+          "start": 398.56,
+          "end": 398.9
+        },
+        {
+          "word": "these",
+          "start": 398.9,
+          "end": 399.28
+        },
+        {
+          "word": "characters",
+          "start": 399.28,
+          "end": 399.76
+        },
+        {
+          "word": "interact",
+          "start": 399.76,
+          "end": 400.38
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 89,
+      "start": 400.38,
+      "end": 403.04,
+      "textZh": "Proved to be the answer to Chu's problem.",
+      "pinyin": "",
+      "textKo": "Proved to be the answer to Chu's problem.",
+      "words": [
+        {
+          "word": "proved",
+          "start": 400.38,
+          "end": 401.08
+        },
+        {
+          "word": "to",
+          "start": 401.08,
+          "end": 401.26
+        },
+        {
+          "word": "be",
+          "start": 401.26,
+          "end": 401.38
+        },
+        {
+          "word": "the",
+          "start": 401.38,
+          "end": 401.48
+        },
+        {
+          "word": "answer",
+          "start": 401.48,
+          "end": 401.82
+        },
+        {
+          "word": "to",
+          "start": 401.82,
+          "end": 402.22
+        },
+        {
+          "word": "Chu",
+          "start": 402.22,
+          "end": 402.46
+        },
+        {
+          "word": "'s",
+          "start": 402.46,
+          "end": 402.62
+        },
+        {
+          "word": "problem.",
+          "start": 402.62,
+          "end": 403.04
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 90,
+      "start": 404.38,
+      "end": 409.3,
+      "textZh": "Avatars from the same story will get together to talk about their favorite characters",
+      "pinyin": "",
+      "textKo": "Avatars from the same story will get together to talk about their favorite characters",
+      "words": [
+        {
+          "word": "Av",
+          "start": 404.38,
+          "end": 404.52
+        },
+        {
+          "word": "at",
+          "start": 404.52,
+          "end": 404.66
+        },
+        {
+          "word": "ars",
+          "start": 404.66,
+          "end": 404.8
+        },
+        {
+          "word": "from",
+          "start": 404.8,
+          "end": 405.0
+        },
+        {
+          "word": "the",
+          "start": 405.0,
+          "end": 405.16
+        },
+        {
+          "word": "same",
+          "start": 405.16,
+          "end": 405.42
+        },
+        {
+          "word": "story",
+          "start": 405.42,
+          "end": 405.9
+        },
+        {
+          "word": "will",
+          "start": 405.9,
+          "end": 406.32
+        },
+        {
+          "word": "get",
+          "start": 406.32,
+          "end": 406.54
+        },
+        {
+          "word": "together",
+          "start": 406.54,
+          "end": 407.04
+        },
+        {
+          "word": "to",
+          "start": 407.04,
+          "end": 407.52
+        },
+        {
+          "word": "talk",
+          "start": 407.52,
+          "end": 407.78
+        },
+        {
+          "word": "about",
+          "start": 407.78,
+          "end": 408.02
+        },
+        {
+          "word": "their",
+          "start": 408.02,
+          "end": 408.26
+        },
+        {
+          "word": "favorite",
+          "start": 408.26,
+          "end": 408.62
+        },
+        {
+          "word": "characters",
+          "start": 408.62,
+          "end": 409.3
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 91,
+      "start": 409.3,
+      "end": 412.74,
+      "textZh": "In the community called Slumdunk.",
+      "pinyin": "",
+      "textKo": "In the community called Slumdunk.",
+      "words": [
+        {
+          "word": "in",
+          "start": 409.3,
+          "end": 410.24
+        },
+        {
+          "word": "the",
+          "start": 410.24,
+          "end": 410.46
+        },
+        {
+          "word": "community",
+          "start": 410.46,
+          "end": 411.04
+        },
+        {
+          "word": "called",
+          "start": 411.04,
+          "end": 411.78
+        },
+        {
+          "word": "Sl",
+          "start": 411.78,
+          "end": 412.24
+        },
+        {
+          "word": "um",
+          "start": 412.24,
+          "end": 412.36
+        },
+        {
+          "word": "d",
+          "start": 412.36,
+          "end": 412.56
+        },
+        {
+          "word": "unk.",
+          "start": 412.56,
+          "end": 412.74
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 92,
+      "start": 413.7,
+      "end": 416.78,
+      "textZh": "People from different cities, different departments,",
+      "pinyin": "",
+      "textKo": "People from different cities, different departments,",
+      "words": [
+        {
+          "word": "People",
+          "start": 413.64,
+          "end": 413.98
+        },
+        {
+          "word": "from",
+          "start": 413.98,
+          "end": 414.44
+        },
+        {
+          "word": "different",
+          "start": 414.44,
+          "end": 414.86
+        },
+        {
+          "word": "cities,",
+          "start": 414.86,
+          "end": 415.32
+        },
+        {
+          "word": "different",
+          "start": 415.86,
+          "end": 416.08
+        },
+        {
+          "word": "departments,",
+          "start": 416.08,
+          "end": 416.78
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 93,
+      "start": 417.12,
+      "end": 422.78,
+      "textZh": "Different levels of the organization, they will talk about how these characters inspire them at work.",
+      "pinyin": "",
+      "textKo": "Different levels of the organization, they will talk about how these characters inspire them at work.",
+      "words": [
+        {
+          "word": "different",
+          "start": 417.12,
+          "end": 417.3
+        },
+        {
+          "word": "levels",
+          "start": 417.3,
+          "end": 417.72
+        },
+        {
+          "word": "of",
+          "start": 417.72,
+          "end": 417.9
+        },
+        {
+          "word": "the",
+          "start": 417.9,
+          "end": 418.04
+        },
+        {
+          "word": "organization,",
+          "start": 418.04,
+          "end": 418.66
+        },
+        {
+          "word": "they",
+          "start": 418.94,
+          "end": 419.22
+        },
+        {
+          "word": "will",
+          "start": 419.22,
+          "end": 419.32
+        },
+        {
+          "word": "talk",
+          "start": 419.32,
+          "end": 419.58
+        },
+        {
+          "word": "about",
+          "start": 419.58,
+          "end": 419.8
+        },
+        {
+          "word": "how",
+          "start": 419.8,
+          "end": 420.18
+        },
+        {
+          "word": "these",
+          "start": 420.18,
+          "end": 420.54
+        },
+        {
+          "word": "characters",
+          "start": 420.54,
+          "end": 421.12
+        },
+        {
+          "word": "inspire",
+          "start": 421.12,
+          "end": 421.82
+        },
+        {
+          "word": "them",
+          "start": 421.82,
+          "end": 422.12
+        },
+        {
+          "word": "at",
+          "start": 422.12,
+          "end": 422.38
+        },
+        {
+          "word": "work.",
+          "start": 422.38,
+          "end": 422.78
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 94,
+      "start": 424.0,
+      "end": 427.9,
+      "textZh": "An employee with a signature called Coach Anzai",
+      "pinyin": "",
+      "textKo": "An employee with a signature called Coach Anzai",
+      "words": [
+        {
+          "word": "An",
+          "start": 424.0,
+          "end": 424.68
+        },
+        {
+          "word": "employee",
+          "start": 424.68,
+          "end": 425.36
+        },
+        {
+          "word": "with",
+          "start": 425.36,
+          "end": 425.88
+        },
+        {
+          "word": "a",
+          "start": 425.88,
+          "end": 425.98
+        },
+        {
+          "word": "signature",
+          "start": 425.98,
+          "end": 426.36
+        },
+        {
+          "word": "called",
+          "start": 426.36,
+          "end": 426.82
+        },
+        {
+          "word": "Coach",
+          "start": 426.82,
+          "end": 427.3
+        },
+        {
+          "word": "An",
+          "start": 427.3,
+          "end": 427.56
+        },
+        {
+          "word": "z",
+          "start": 427.56,
+          "end": 427.76
+        },
+        {
+          "word": "ai",
+          "start": 427.76,
+          "end": 427.9
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 95,
+      "start": 427.9,
+      "end": 431.5,
+      "textZh": "Was facing some difficulty in leading a very young team.",
+      "pinyin": "",
+      "textKo": "Was facing some difficulty in leading a very young team.",
+      "words": [
+        {
+          "word": "was",
+          "start": 427.9,
+          "end": 428.5
+        },
+        {
+          "word": "facing",
+          "start": 428.5,
+          "end": 428.88
+        },
+        {
+          "word": "some",
+          "start": 428.88,
+          "end": 429.1
+        },
+        {
+          "word": "difficulty",
+          "start": 429.1,
+          "end": 429.66
+        },
+        {
+          "word": "in",
+          "start": 429.66,
+          "end": 430.0
+        },
+        {
+          "word": "leading",
+          "start": 430.0,
+          "end": 430.4
+        },
+        {
+          "word": "a",
+          "start": 430.4,
+          "end": 430.66
+        },
+        {
+          "word": "very",
+          "start": 430.66,
+          "end": 430.84
+        },
+        {
+          "word": "young",
+          "start": 430.84,
+          "end": 431.12
+        },
+        {
+          "word": "team.",
+          "start": 431.12,
+          "end": 431.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 96,
+      "start": 432.2,
+      "end": 434.56,
+      "textZh": "Other Dank fans will share the best practices",
+      "pinyin": "",
+      "textKo": "Other Dank fans will share the best practices",
+      "words": [
+        {
+          "word": "Other",
+          "start": 432.2,
+          "end": 432.54
+        },
+        {
+          "word": "Dank",
+          "start": 432.54,
+          "end": 432.76
+        },
+        {
+          "word": "fans",
+          "start": 432.76,
+          "end": 433.12
+        },
+        {
+          "word": "will",
+          "start": 433.12,
+          "end": 433.4
+        },
+        {
+          "word": "share",
+          "start": 433.4,
+          "end": 433.7
+        },
+        {
+          "word": "the",
+          "start": 433.7,
+          "end": 433.84
+        },
+        {
+          "word": "best",
+          "start": 433.84,
+          "end": 434.1
+        },
+        {
+          "word": "practices",
+          "start": 434.1,
+          "end": 434.56
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 97,
+      "start": 434.56,
+      "end": 437.56,
+      "textZh": "On how to motivate a diversified team",
+      "pinyin": "",
+      "textKo": "On how to motivate a diversified team",
+      "words": [
+        {
+          "word": "on",
+          "start": 434.56,
+          "end": 434.9
+        },
+        {
+          "word": "how",
+          "start": 434.9,
+          "end": 435.1
+        },
+        {
+          "word": "to",
+          "start": 435.1,
+          "end": 435.34
+        },
+        {
+          "word": "motivate",
+          "start": 435.34,
+          "end": 436.0
+        },
+        {
+          "word": "a",
+          "start": 436.0,
+          "end": 436.56
+        },
+        {
+          "word": "divers",
+          "start": 436.56,
+          "end": 436.92
+        },
+        {
+          "word": "ified",
+          "start": 436.92,
+          "end": 437.18
+        },
+        {
+          "word": "team",
+          "start": 437.18,
+          "end": 437.56
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 98,
+      "start": 437.56,
+      "end": 440.46,
+      "textZh": "And inspire them to work to their full potential.",
+      "pinyin": "",
+      "textKo": "And inspire them to work to their full potential.",
+      "words": [
+        {
+          "word": "and",
+          "start": 437.56,
+          "end": 438.08
+        },
+        {
+          "word": "inspire",
+          "start": 438.08,
+          "end": 438.54
+        },
+        {
+          "word": "them",
+          "start": 438.54,
+          "end": 438.86
+        },
+        {
+          "word": "to",
+          "start": 438.86,
+          "end": 439.16
+        },
+        {
+          "word": "work",
+          "start": 439.16,
+          "end": 439.36
+        },
+        {
+          "word": "to",
+          "start": 439.36,
+          "end": 439.52
+        },
+        {
+          "word": "their",
+          "start": 439.52,
+          "end": 439.68
+        },
+        {
+          "word": "full",
+          "start": 439.68,
+          "end": 439.94
+        },
+        {
+          "word": "potential.",
+          "start": 439.94,
+          "end": 440.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 99,
+      "start": 441.7,
+      "end": 445.66,
+      "textZh": "The signature program plays a pivotal role",
+      "pinyin": "",
+      "textKo": "The signature program plays a pivotal role",
+      "words": [
+        {
+          "word": "The",
+          "start": 441.7,
+          "end": 442.38
+        },
+        {
+          "word": "signature",
+          "start": 442.38,
+          "end": 442.88
+        },
+        {
+          "word": "program",
+          "start": 442.88,
+          "end": 443.4
+        },
+        {
+          "word": "plays",
+          "start": 443.4,
+          "end": 444.26
+        },
+        {
+          "word": "a",
+          "start": 444.26,
+          "end": 444.68
+        },
+        {
+          "word": "pivotal",
+          "start": 444.68,
+          "end": 445.14
+        },
+        {
+          "word": "role",
+          "start": 445.14,
+          "end": 445.66
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 100,
+      "start": 445.66,
+      "end": 449.18,
+      "textZh": "In fostering a collaborative environment at Xiaohongshu.",
+      "pinyin": "",
+      "textKo": "In fostering a collaborative environment at Xiaohongshu.",
+      "words": [
+        {
+          "word": "in",
+          "start": 445.66,
+          "end": 446.0
+        },
+        {
+          "word": "foster",
+          "start": 446.0,
+          "end": 446.3
+        },
+        {
+          "word": "ing",
+          "start": 446.3,
+          "end": 446.54
+        },
+        {
+          "word": "a",
+          "start": 446.54,
+          "end": 446.7
+        },
+        {
+          "word": "collaborative",
+          "start": 446.7,
+          "end": 447.3
+        },
+        {
+          "word": "environment",
+          "start": 447.3,
+          "end": 448.18
+        },
+        {
+          "word": "at",
+          "start": 448.18,
+          "end": 448.56
+        },
+        {
+          "word": "Xia",
+          "start": 448.56,
+          "end": 448.72
+        },
+        {
+          "word": "oh",
+          "start": 448.72,
+          "end": 448.86
+        },
+        {
+          "word": "ong",
+          "start": 448.86,
+          "end": 448.94
+        },
+        {
+          "word": "sh",
+          "start": 448.94,
+          "end": 449.12
+        },
+        {
+          "word": "u.",
+          "start": 449.12,
+          "end": 449.18
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 101,
+      "start": 449.98,
+      "end": 452.7,
+      "textZh": "Not only the teacher issue has disappeared,",
+      "pinyin": "",
+      "textKo": "Not only the teacher issue has disappeared,",
+      "words": [
+        {
+          "word": "Not",
+          "start": 449.98,
+          "end": 450.52
+        },
+        {
+          "word": "only",
+          "start": 450.52,
+          "end": 450.82
+        },
+        {
+          "word": "the",
+          "start": 450.82,
+          "end": 451.0
+        },
+        {
+          "word": "teacher",
+          "start": 451.0,
+          "end": 451.26
+        },
+        {
+          "word": "issue",
+          "start": 451.26,
+          "end": 451.72
+        },
+        {
+          "word": "has",
+          "start": 451.72,
+          "end": 452.04
+        },
+        {
+          "word": "disappeared,",
+          "start": 452.04,
+          "end": 452.7
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 102,
+      "start": 453.36,
+      "end": 458.86,
+      "textZh": "The company has been ranked as one of the most innovative Chinese companies by Forbes",
+      "pinyin": "",
+      "textKo": "The company has been ranked as one of the most innovative Chinese companies by Forbes",
+      "words": [
+        {
+          "word": "the",
+          "start": 453.36,
+          "end": 453.6
+        },
+        {
+          "word": "company",
+          "start": 453.6,
+          "end": 453.94
+        },
+        {
+          "word": "has",
+          "start": 453.94,
+          "end": 454.16
+        },
+        {
+          "word": "been",
+          "start": 454.16,
+          "end": 454.36
+        },
+        {
+          "word": "ranked",
+          "start": 454.36,
+          "end": 454.78
+        },
+        {
+          "word": "as",
+          "start": 455.18,
+          "end": 455.52
+        },
+        {
+          "word": "one",
+          "start": 455.52,
+          "end": 455.82
+        },
+        {
+          "word": "of",
+          "start": 455.82,
+          "end": 456.0
+        },
+        {
+          "word": "the",
+          "start": 456.0,
+          "end": 456.14
+        },
+        {
+          "word": "most",
+          "start": 456.14,
+          "end": 456.44
+        },
+        {
+          "word": "innovative",
+          "start": 456.44,
+          "end": 457.04
+        },
+        {
+          "word": "Chinese",
+          "start": 457.04,
+          "end": 457.48
+        },
+        {
+          "word": "companies",
+          "start": 457.48,
+          "end": 458.14
+        },
+        {
+          "word": "by",
+          "start": 458.14,
+          "end": 458.4
+        },
+        {
+          "word": "Forbes",
+          "start": 458.4,
+          "end": 458.86
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 103,
+      "start": 458.86,
+      "end": 460.88,
+      "textZh": "In the past two years.",
+      "pinyin": "",
+      "textKo": "In the past two years.",
+      "words": [
+        {
+          "word": "in",
+          "start": 458.86,
+          "end": 459.4
+        },
+        {
+          "word": "the",
+          "start": 459.4,
+          "end": 459.52
+        },
+        {
+          "word": "past",
+          "start": 459.52,
+          "end": 459.96
+        },
+        {
+          "word": "two",
+          "start": 459.96,
+          "end": 460.3
+        },
+        {
+          "word": "years.",
+          "start": 460.3,
+          "end": 460.88
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 104,
+      "start": 463.08,
+      "end": 466.44,
+      "textZh": "Gao's Chu-Head approach and Chu's signature program",
+      "pinyin": "",
+      "textKo": "Gao's Chu-Head approach and Chu's signature program",
+      "words": [
+        {
+          "word": "Gao",
+          "start": 463.08,
+          "end": 463.38
+        },
+        {
+          "word": "'s",
+          "start": 463.38,
+          "end": 463.62
+        },
+        {
+          "word": "Chu",
+          "start": 463.62,
+          "end": 463.76
+        },
+        {
+          "word": "-",
+          "start": 463.76,
+          "end": 463.82
+        },
+        {
+          "word": "H",
+          "start": 463.82,
+          "end": 463.98
+        },
+        {
+          "word": "ead",
+          "start": 463.98,
+          "end": 464.06
+        },
+        {
+          "word": "approach",
+          "start": 464.06,
+          "end": 464.52
+        },
+        {
+          "word": "and",
+          "start": 464.52,
+          "end": 465.14
+        },
+        {
+          "word": "Chu",
+          "start": 465.14,
+          "end": 465.46
+        },
+        {
+          "word": "'s",
+          "start": 465.46,
+          "end": 465.6
+        },
+        {
+          "word": "signature",
+          "start": 465.6,
+          "end": 465.94
+        },
+        {
+          "word": "program",
+          "start": 465.94,
+          "end": 466.44
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 105,
+      "start": 466.44,
+      "end": 470.2,
+      "textZh": "Are just two examples of empowering the frontline staff.",
+      "pinyin": "",
+      "textKo": "Are just two examples of empowering the frontline staff.",
+      "words": [
+        {
+          "word": "are",
+          "start": 466.44,
+          "end": 466.92
+        },
+        {
+          "word": "just",
+          "start": 466.92,
+          "end": 467.12
+        },
+        {
+          "word": "two",
+          "start": 467.12,
+          "end": 467.36
+        },
+        {
+          "word": "examples",
+          "start": 467.36,
+          "end": 468.02
+        },
+        {
+          "word": "of",
+          "start": 468.02,
+          "end": 468.34
+        },
+        {
+          "word": "empowering",
+          "start": 468.34,
+          "end": 469.06
+        },
+        {
+          "word": "the",
+          "start": 469.06,
+          "end": 469.4
+        },
+        {
+          "word": "frontline",
+          "start": 469.4,
+          "end": 469.72
+        },
+        {
+          "word": "staff.",
+          "start": 469.72,
+          "end": 470.2
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 106,
+      "start": 471.0,
+      "end": 474.44,
+      "textZh": "But these methods may not always be right.",
+      "pinyin": "",
+      "textKo": "But these methods may not always be right.",
+      "words": [
+        {
+          "word": "But",
+          "start": 471.0,
+          "end": 471.36
+        },
+        {
+          "word": "these",
+          "start": 471.36,
+          "end": 472.26
+        },
+        {
+          "word": "methods",
+          "start": 472.26,
+          "end": 472.82
+        },
+        {
+          "word": "may",
+          "start": 472.82,
+          "end": 473.2
+        },
+        {
+          "word": "not",
+          "start": 473.2,
+          "end": 473.38
+        },
+        {
+          "word": "always",
+          "start": 473.38,
+          "end": 473.88
+        },
+        {
+          "word": "be",
+          "start": 473.88,
+          "end": 474.12
+        },
+        {
+          "word": "right.",
+          "start": 474.12,
+          "end": 474.44
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 107,
+      "start": 475.18,
+      "end": 477.2,
+      "textZh": "Let's take Ping An, for example,",
+      "pinyin": "",
+      "textKo": "Let's take Ping An, for example,",
+      "words": [
+        {
+          "word": "Let",
+          "start": 475.18,
+          "end": 475.52
+        },
+        {
+          "word": "'s",
+          "start": 475.52,
+          "end": 475.62
+        },
+        {
+          "word": "take",
+          "start": 475.62,
+          "end": 475.94
+        },
+        {
+          "word": "Ping",
+          "start": 475.94,
+          "end": 476.28
+        },
+        {
+          "word": "An,",
+          "start": 476.28,
+          "end": 476.54
+        },
+        {
+          "word": "for",
+          "start": 476.7,
+          "end": 476.78
+        },
+        {
+          "word": "example,",
+          "start": 476.78,
+          "end": 477.2
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 108,
+      "start": 477.6,
+      "end": 484.24,
+      "textZh": "A very successful insurance company. The company couldn't adopt such approach for the whole organization",
+      "pinyin": "",
+      "textKo": "A very successful insurance company. The company couldn't adopt such approach for the whole organization",
+      "words": [
+        {
+          "word": "a",
+          "start": 477.6,
+          "end": 477.74
+        },
+        {
+          "word": "very",
+          "start": 477.74,
+          "end": 477.88
+        },
+        {
+          "word": "successful",
+          "start": 477.88,
+          "end": 478.4
+        },
+        {
+          "word": "insurance",
+          "start": 478.4,
+          "end": 478.94
+        },
+        {
+          "word": "company.",
+          "start": 478.94,
+          "end": 479.48
+        },
+        {
+          "word": "The",
+          "start": 479.66,
+          "end": 480.5
+        },
+        {
+          "word": "company",
+          "start": 480.5,
+          "end": 480.92
+        },
+        {
+          "word": "couldn",
+          "start": 480.92,
+          "end": 481.36
+        },
+        {
+          "word": "'t",
+          "start": 481.36,
+          "end": 481.52
+        },
+        {
+          "word": "adopt",
+          "start": 481.52,
+          "end": 482.02
+        },
+        {
+          "word": "such",
+          "start": 482.02,
+          "end": 482.48
+        },
+        {
+          "word": "approach",
+          "start": 482.48,
+          "end": 482.9
+        },
+        {
+          "word": "for",
+          "start": 482.9,
+          "end": 483.2
+        },
+        {
+          "word": "the",
+          "start": 483.2,
+          "end": 483.32
+        },
+        {
+          "word": "whole",
+          "start": 483.32,
+          "end": 483.6
+        },
+        {
+          "word": "organization",
+          "start": 483.6,
+          "end": 484.24
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 109,
+      "start": 484.24,
+      "end": 489.1,
+      "textZh": "Because one, the company has 400,000 employees.",
+      "pinyin": "",
+      "textKo": "Because one, the company has 400,000 employees.",
+      "words": [
+        {
+          "word": "because",
+          "start": 484.24,
+          "end": 484.62
+        },
+        {
+          "word": "one,",
+          "start": 484.62,
+          "end": 485.14
+        },
+        {
+          "word": "the",
+          "start": 485.44,
+          "end": 485.78
+        },
+        {
+          "word": "company",
+          "start": 485.78,
+          "end": 486.08
+        },
+        {
+          "word": "has",
+          "start": 486.08,
+          "end": 486.52
+        },
+        {
+          "word": "400,",
+          "start": 486.52,
+          "end": 487.58
+        },
+        {
+          "word": "000",
+          "start": 487.58,
+          "end": 488.28
+        },
+        {
+          "word": "employees.",
+          "start": 488.28,
+          "end": 489.1
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 110,
+      "start": 489.7,
+      "end": 494.6,
+      "textZh": "The line between innovative chaos and chaotic chaos",
+      "pinyin": "",
+      "textKo": "The line between innovative chaos and chaotic chaos",
+      "words": [
+        {
+          "word": "The",
+          "start": 489.7,
+          "end": 490.12
+        },
+        {
+          "word": "line",
+          "start": 490.12,
+          "end": 490.42
+        },
+        {
+          "word": "between",
+          "start": 490.42,
+          "end": 490.9
+        },
+        {
+          "word": "innovative",
+          "start": 490.9,
+          "end": 492.04
+        },
+        {
+          "word": "chaos",
+          "start": 492.04,
+          "end": 492.7
+        },
+        {
+          "word": "and",
+          "start": 492.7,
+          "end": 493.32
+        },
+        {
+          "word": "chaotic",
+          "start": 493.32,
+          "end": 494.0
+        },
+        {
+          "word": "chaos",
+          "start": 494.0,
+          "end": 494.6
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 111,
+      "start": 494.6,
+      "end": 497.24,
+      "textZh": "Is very thin. Two,",
+      "pinyin": "",
+      "textKo": "Is very thin. Two,",
+      "words": [
+        {
+          "word": "is",
+          "start": 494.6,
+          "end": 495.08
+        },
+        {
+          "word": "very",
+          "start": 495.08,
+          "end": 495.38
+        },
+        {
+          "word": "thin.",
+          "start": 495.38,
+          "end": 495.56
+        },
+        {
+          "word": "Two,",
+          "start": 496.9,
+          "end": 497.24
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 112,
+      "start": 497.6,
+      "end": 501.28,
+      "textZh": "The company has five ecosystems and 10-plus sectors,",
+      "pinyin": "",
+      "textKo": "The company has five ecosystems and 10-plus sectors,",
+      "words": [
+        {
+          "word": "the",
+          "start": 497.6,
+          "end": 497.86
+        },
+        {
+          "word": "company",
+          "start": 497.86,
+          "end": 498.18
+        },
+        {
+          "word": "has",
+          "start": 498.18,
+          "end": 498.52
+        },
+        {
+          "word": "five",
+          "start": 498.52,
+          "end": 499.06
+        },
+        {
+          "word": "ecosystems",
+          "start": 499.06,
+          "end": 499.92
+        },
+        {
+          "word": "and",
+          "start": 499.92,
+          "end": 500.32
+        },
+        {
+          "word": "10",
+          "start": 500.32,
+          "end": 500.54
+        },
+        {
+          "word": "-",
+          "start": 500.54,
+          "end": 500.58
+        },
+        {
+          "word": "plus",
+          "start": 500.58,
+          "end": 500.76
+        },
+        {
+          "word": "sectors,",
+          "start": 500.76,
+          "end": 501.28
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 113,
+      "start": 501.76,
+      "end": 503.76,
+      "textZh": "Healthcare, insurance, and insurance,",
+      "pinyin": "",
+      "textKo": "Healthcare, insurance, and insurance,",
+      "words": [
+        {
+          "word": "healthcare,",
+          "start": 501.76,
+          "end": 502.22
+        },
+        {
+          "word": "insurance,",
+          "start": 502.92,
+          "end": 503.6
+        },
+        {
+          "word": "and",
+          "start": 503.6,
+          "end": 503.6
+        },
+        {
+          "word": "insurance,",
+          "start": 503.6,
+          "end": 503.76
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 114,
+      "start": 504.44,
+      "end": 510.32,
+      "textZh": "Real estate smart city, very difficult to apply a bottom-up innovation to all.",
+      "pinyin": "",
+      "textKo": "Real estate smart city, very difficult to apply a bottom-up innovation to all.",
+      "words": [
+        {
+          "word": "real",
+          "start": 504.44,
+          "end": 504.8
+        },
+        {
+          "word": "estate",
+          "start": 504.8,
+          "end": 505.1
+        },
+        {
+          "word": "smart",
+          "start": 505.1,
+          "end": 505.5
+        },
+        {
+          "word": "city,",
+          "start": 505.5,
+          "end": 506.12
+        },
+        {
+          "word": "very",
+          "start": 506.34,
+          "end": 506.78
+        },
+        {
+          "word": "difficult",
+          "start": 506.78,
+          "end": 507.28
+        },
+        {
+          "word": "to",
+          "start": 507.28,
+          "end": 507.56
+        },
+        {
+          "word": "apply",
+          "start": 507.56,
+          "end": 508.06
+        },
+        {
+          "word": "a",
+          "start": 508.06,
+          "end": 508.3
+        },
+        {
+          "word": "bottom",
+          "start": 508.3,
+          "end": 508.68
+        },
+        {
+          "word": "-",
+          "start": 508.68,
+          "end": 508.9
+        },
+        {
+          "word": "up",
+          "start": 508.9,
+          "end": 508.98
+        },
+        {
+          "word": "innovation",
+          "start": 508.98,
+          "end": 509.62
+        },
+        {
+          "word": "to",
+          "start": 509.62,
+          "end": 509.94
+        },
+        {
+          "word": "all.",
+          "start": 509.94,
+          "end": 510.32
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 115,
+      "start": 511.08,
+      "end": 514.08,
+      "textZh": "But the company still needs to be innovating.",
+      "pinyin": "",
+      "textKo": "But the company still needs to be innovating.",
+      "words": [
+        {
+          "word": "But",
+          "start": 511.08,
+          "end": 511.5
+        },
+        {
+          "word": "the",
+          "start": 511.5,
+          "end": 512.04
+        },
+        {
+          "word": "company",
+          "start": 512.04,
+          "end": 512.34
+        },
+        {
+          "word": "still",
+          "start": 512.34,
+          "end": 512.72
+        },
+        {
+          "word": "needs",
+          "start": 512.72,
+          "end": 513.04
+        },
+        {
+          "word": "to",
+          "start": 513.04,
+          "end": 513.18
+        },
+        {
+          "word": "be",
+          "start": 513.18,
+          "end": 513.34
+        },
+        {
+          "word": "innov",
+          "start": 513.34,
+          "end": 513.72
+        },
+        {
+          "word": "ating.",
+          "start": 513.72,
+          "end": 514.08
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 116,
+      "start": 515.22,
+      "end": 519.78,
+      "textZh": "Ma Mingzhe, the founder, positions their headquarters as the steering wheel,",
+      "pinyin": "",
+      "textKo": "Ma Mingzhe, the founder, positions their headquarters as the steering wheel,",
+      "words": [
+        {
+          "word": "Ma",
+          "start": 515.22,
+          "end": 515.4
+        },
+        {
+          "word": "Ming",
+          "start": 515.4,
+          "end": 515.6
+        },
+        {
+          "word": "z",
+          "start": 515.6,
+          "end": 515.84
+        },
+        {
+          "word": "he,",
+          "start": 515.84,
+          "end": 515.9
+        },
+        {
+          "word": "the",
+          "start": 516.08,
+          "end": 516.3
+        },
+        {
+          "word": "founder,",
+          "start": 516.3,
+          "end": 516.72
+        },
+        {
+          "word": "positions",
+          "start": 517.24,
+          "end": 517.7
+        },
+        {
+          "word": "their",
+          "start": 517.7,
+          "end": 518.0
+        },
+        {
+          "word": "headquarters",
+          "start": 518.0,
+          "end": 518.46
+        },
+        {
+          "word": "as",
+          "start": 518.46,
+          "end": 519.0
+        },
+        {
+          "word": "the",
+          "start": 519.0,
+          "end": 519.14
+        },
+        {
+          "word": "steering",
+          "start": 519.14,
+          "end": 519.48
+        },
+        {
+          "word": "wheel,",
+          "start": 519.48,
+          "end": 519.78
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 117,
+      "start": 520.66,
+      "end": 523.04,
+      "textZh": "Steering innovations and new ideas,",
+      "pinyin": "",
+      "textKo": "Steering innovations and new ideas,",
+      "words": [
+        {
+          "word": "steering",
+          "start": 520.66,
+          "end": 521.0
+        },
+        {
+          "word": "innovations",
+          "start": 521.0,
+          "end": 521.7
+        },
+        {
+          "word": "and",
+          "start": 521.7,
+          "end": 522.12
+        },
+        {
+          "word": "new",
+          "start": 522.12,
+          "end": 522.36
+        },
+        {
+          "word": "ideas,",
+          "start": 522.36,
+          "end": 523.04
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 118,
+      "start": 523.26,
+      "end": 525.76,
+      "textZh": "Cascading them down to its subsidiaries.",
+      "pinyin": "",
+      "textKo": "Cascading them down to its subsidiaries.",
+      "words": [
+        {
+          "word": "cas",
+          "start": 523.26,
+          "end": 523.46
+        },
+        {
+          "word": "c",
+          "start": 523.46,
+          "end": 523.58
+        },
+        {
+          "word": "ading",
+          "start": 523.58,
+          "end": 523.76
+        },
+        {
+          "word": "them",
+          "start": 523.76,
+          "end": 523.96
+        },
+        {
+          "word": "down",
+          "start": 523.96,
+          "end": 524.34
+        },
+        {
+          "word": "to",
+          "start": 524.34,
+          "end": 524.7
+        },
+        {
+          "word": "its",
+          "start": 524.7,
+          "end": 525.02
+        },
+        {
+          "word": "subsidi",
+          "start": 525.02,
+          "end": 525.38
+        },
+        {
+          "word": "aries.",
+          "start": 525.38,
+          "end": 525.76
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 119,
+      "start": 526.7,
+      "end": 529.58,
+      "textZh": "One of the ideas that headquarters came up with",
+      "pinyin": "",
+      "textKo": "One of the ideas that headquarters came up with",
+      "words": [
+        {
+          "word": "One",
+          "start": 526.7,
+          "end": 527.36
+        },
+        {
+          "word": "of",
+          "start": 527.36,
+          "end": 527.52
+        },
+        {
+          "word": "the",
+          "start": 527.52,
+          "end": 527.66
+        },
+        {
+          "word": "ideas",
+          "start": 527.66,
+          "end": 528.18
+        },
+        {
+          "word": "that",
+          "start": 528.18,
+          "end": 528.36
+        },
+        {
+          "word": "headquarters",
+          "start": 528.36,
+          "end": 528.82
+        },
+        {
+          "word": "came",
+          "start": 528.82,
+          "end": 529.2
+        },
+        {
+          "word": "up",
+          "start": 529.2,
+          "end": 529.4
+        },
+        {
+          "word": "with",
+          "start": 529.4,
+          "end": 529.58
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 120,
+      "start": 529.58,
+      "end": 532.46,
+      "textZh": "Is AI-enabled loss assessment.",
+      "pinyin": "",
+      "textKo": "Is AI-enabled loss assessment.",
+      "words": [
+        {
+          "word": "is",
+          "start": 529.58,
+          "end": 529.92
+        },
+        {
+          "word": "AI",
+          "start": 529.92,
+          "end": 530.7
+        },
+        {
+          "word": "-",
+          "start": 530.7,
+          "end": 530.98
+        },
+        {
+          "word": "en",
+          "start": 530.98,
+          "end": 531.18
+        },
+        {
+          "word": "abled",
+          "start": 531.18,
+          "end": 531.48
+        },
+        {
+          "word": "loss",
+          "start": 531.48,
+          "end": 531.92
+        },
+        {
+          "word": "assessment.",
+          "start": 531.92,
+          "end": 532.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 121,
+      "start": 533.6,
+      "end": 536.0,
+      "textZh": "For a not-so-complicated case,",
+      "pinyin": "",
+      "textKo": "For a not-so-complicated case,",
+      "words": [
+        {
+          "word": "For",
+          "start": 533.6,
+          "end": 534.24
+        },
+        {
+          "word": "a",
+          "start": 534.24,
+          "end": 534.42
+        },
+        {
+          "word": "not",
+          "start": 534.42,
+          "end": 534.6
+        },
+        {
+          "word": "-",
+          "start": 534.6,
+          "end": 534.74
+        },
+        {
+          "word": "so",
+          "start": 534.74,
+          "end": 534.82
+        },
+        {
+          "word": "-",
+          "start": 534.82,
+          "end": 534.92
+        },
+        {
+          "word": "compl",
+          "start": 534.92,
+          "end": 535.14
+        },
+        {
+          "word": "icated",
+          "start": 535.14,
+          "end": 535.52
+        },
+        {
+          "word": "case,",
+          "start": 535.52,
+          "end": 536.0
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 122,
+      "start": 536.46,
+      "end": 539.64,
+      "textZh": "The car owner can take a picture of the damaged car,",
+      "pinyin": "",
+      "textKo": "The car owner can take a picture of the damaged car,",
+      "words": [
+        {
+          "word": "the",
+          "start": 536.46,
+          "end": 536.66
+        },
+        {
+          "word": "car",
+          "start": 536.66,
+          "end": 536.98
+        },
+        {
+          "word": "owner",
+          "start": 536.98,
+          "end": 537.4
+        },
+        {
+          "word": "can",
+          "start": 537.4,
+          "end": 537.74
+        },
+        {
+          "word": "take",
+          "start": 537.74,
+          "end": 537.94
+        },
+        {
+          "word": "a",
+          "start": 537.94,
+          "end": 538.06
+        },
+        {
+          "word": "picture",
+          "start": 538.06,
+          "end": 538.38
+        },
+        {
+          "word": "of",
+          "start": 538.38,
+          "end": 538.8
+        },
+        {
+          "word": "the",
+          "start": 538.8,
+          "end": 538.9
+        },
+        {
+          "word": "damaged",
+          "start": 538.9,
+          "end": 539.22
+        },
+        {
+          "word": "car,",
+          "start": 539.22,
+          "end": 539.64
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 123,
+      "start": 539.84,
+      "end": 545.6,
+      "textZh": "Upload it online. The insurance center can decide the claim amount right away",
+      "pinyin": "",
+      "textKo": "Upload it online. The insurance center can decide the claim amount right away",
+      "words": [
+        {
+          "word": "upload",
+          "start": 539.84,
+          "end": 540.52
+        },
+        {
+          "word": "it",
+          "start": 540.52,
+          "end": 540.74
+        },
+        {
+          "word": "online.",
+          "start": 540.74,
+          "end": 541.22
+        },
+        {
+          "word": "The",
+          "start": 541.62,
+          "end": 541.92
+        },
+        {
+          "word": "insurance",
+          "start": 541.92,
+          "end": 542.26
+        },
+        {
+          "word": "center",
+          "start": 542.26,
+          "end": 542.84
+        },
+        {
+          "word": "can",
+          "start": 542.84,
+          "end": 543.14
+        },
+        {
+          "word": "decide",
+          "start": 543.14,
+          "end": 543.52
+        },
+        {
+          "word": "the",
+          "start": 543.52,
+          "end": 543.66
+        },
+        {
+          "word": "claim",
+          "start": 543.66,
+          "end": 543.9
+        },
+        {
+          "word": "amount",
+          "start": 543.9,
+          "end": 544.3
+        },
+        {
+          "word": "right",
+          "start": 544.3,
+          "end": 545.1
+        },
+        {
+          "word": "away",
+          "start": 545.1,
+          "end": 545.6
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 124,
+      "start": 545.6,
+      "end": 548.24,
+      "textZh": "By AI-enabled loss assessment.",
+      "pinyin": "",
+      "textKo": "By AI-enabled loss assessment.",
+      "words": [
+        {
+          "word": "by",
+          "start": 545.6,
+          "end": 545.88
+        },
+        {
+          "word": "AI",
+          "start": 545.88,
+          "end": 546.32
+        },
+        {
+          "word": "-",
+          "start": 546.32,
+          "end": 546.48
+        },
+        {
+          "word": "en",
+          "start": 546.48,
+          "end": 546.7
+        },
+        {
+          "word": "abled",
+          "start": 546.7,
+          "end": 547.06
+        },
+        {
+          "word": "loss",
+          "start": 547.06,
+          "end": 547.7
+        },
+        {
+          "word": "assessment.",
+          "start": 547.7,
+          "end": 548.24
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 125,
+      "start": 549.12,
+      "end": 551.74,
+      "textZh": "Facial recognition, ID verification.",
+      "pinyin": "",
+      "textKo": "Facial recognition, ID verification.",
+      "words": [
+        {
+          "word": "Fac",
+          "start": 549.12,
+          "end": 549.72
+        },
+        {
+          "word": "ial",
+          "start": 549.72,
+          "end": 549.9
+        },
+        {
+          "word": "recognition,",
+          "start": 549.9,
+          "end": 550.5
+        },
+        {
+          "word": "ID",
+          "start": 550.8,
+          "end": 551.2
+        },
+        {
+          "word": "verification.",
+          "start": 551.2,
+          "end": 551.74
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 126,
+      "start": 552.22,
+      "end": 555.32,
+      "textZh": "The car owner can get the payment in a few minutes,",
+      "pinyin": "",
+      "textKo": "The car owner can get the payment in a few minutes,",
+      "words": [
+        {
+          "word": "The",
+          "start": 552.22,
+          "end": 552.78
+        },
+        {
+          "word": "car",
+          "start": 552.78,
+          "end": 553.04
+        },
+        {
+          "word": "owner",
+          "start": 553.04,
+          "end": 553.4
+        },
+        {
+          "word": "can",
+          "start": 553.4,
+          "end": 553.64
+        },
+        {
+          "word": "get",
+          "start": 553.64,
+          "end": 553.86
+        },
+        {
+          "word": "the",
+          "start": 553.86,
+          "end": 553.96
+        },
+        {
+          "word": "payment",
+          "start": 553.96,
+          "end": 554.28
+        },
+        {
+          "word": "in",
+          "start": 554.28,
+          "end": 554.58
+        },
+        {
+          "word": "a",
+          "start": 554.58,
+          "end": 554.72
+        },
+        {
+          "word": "few",
+          "start": 554.72,
+          "end": 554.9
+        },
+        {
+          "word": "minutes,",
+          "start": 554.9,
+          "end": 555.32
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 127,
+      "start": 555.62,
+      "end": 557.98,
+      "textZh": "Which could have taken a few days.",
+      "pinyin": "",
+      "textKo": "Which could have taken a few days.",
+      "words": [
+        {
+          "word": "which",
+          "start": 555.62,
+          "end": 556.18
+        },
+        {
+          "word": "could",
+          "start": 556.18,
+          "end": 556.38
+        },
+        {
+          "word": "have",
+          "start": 556.38,
+          "end": 556.54
+        },
+        {
+          "word": "taken",
+          "start": 556.54,
+          "end": 556.9
+        },
+        {
+          "word": "a",
+          "start": 556.9,
+          "end": 557.22
+        },
+        {
+          "word": "few",
+          "start": 557.22,
+          "end": 557.44
+        },
+        {
+          "word": "days.",
+          "start": 557.44,
+          "end": 557.98
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 128,
+      "start": 559.38,
+      "end": 564.32,
+      "textZh": "So, for companies that are difficult to conduct grassroots innovation,",
+      "pinyin": "",
+      "textKo": "So, for companies that are difficult to conduct grassroots innovation,",
+      "words": [
+        {
+          "word": "So,",
+          "start": 559.25,
+          "end": 559.66
+        },
+        {
+          "word": "for",
+          "start": 560.34,
+          "end": 560.7
+        },
+        {
+          "word": "companies",
+          "start": 560.7,
+          "end": 561.24
+        },
+        {
+          "word": "that",
+          "start": 561.24,
+          "end": 561.56
+        },
+        {
+          "word": "are",
+          "start": 561.56,
+          "end": 561.74
+        },
+        {
+          "word": "difficult",
+          "start": 561.74,
+          "end": 562.26
+        },
+        {
+          "word": "to",
+          "start": 562.26,
+          "end": 562.58
+        },
+        {
+          "word": "conduct",
+          "start": 562.58,
+          "end": 563.0
+        },
+        {
+          "word": "grassroots",
+          "start": 563.0,
+          "end": 563.62
+        },
+        {
+          "word": "innovation,",
+          "start": 563.62,
+          "end": 564.32
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 129,
+      "start": 564.88,
+      "end": 567.88,
+      "textZh": "A centralized approach is also an option.",
+      "pinyin": "",
+      "textKo": "A centralized approach is also an option.",
+      "words": [
+        {
+          "word": "a",
+          "start": 564.88,
+          "end": 565.18
+        },
+        {
+          "word": "centralized",
+          "start": 565.18,
+          "end": 565.68
+        },
+        {
+          "word": "approach",
+          "start": 565.68,
+          "end": 566.26
+        },
+        {
+          "word": "is",
+          "start": 566.26,
+          "end": 566.78
+        },
+        {
+          "word": "also",
+          "start": 566.78,
+          "end": 567.2
+        },
+        {
+          "word": "an",
+          "start": 567.2,
+          "end": 567.56
+        },
+        {
+          "word": "option.",
+          "start": 567.56,
+          "end": 567.88
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 130,
+      "start": 569.98,
+      "end": 573.92,
+      "textZh": "The more I see these unconventional management mechanisms,",
+      "pinyin": "",
+      "textKo": "The more I see these unconventional management mechanisms,",
+      "words": [
+        {
+          "word": "The",
+          "start": 569.73,
+          "end": 570.14
+        },
+        {
+          "word": "more",
+          "start": 570.14,
+          "end": 570.4
+        },
+        {
+          "word": "I",
+          "start": 570.4,
+          "end": 570.6
+        },
+        {
+          "word": "see",
+          "start": 570.6,
+          "end": 570.92
+        },
+        {
+          "word": "these",
+          "start": 570.92,
+          "end": 571.2
+        },
+        {
+          "word": "uncon",
+          "start": 571.2,
+          "end": 571.84
+        },
+        {
+          "word": "ventional",
+          "start": 571.84,
+          "end": 572.32
+        },
+        {
+          "word": "management",
+          "start": 572.32,
+          "end": 572.98
+        },
+        {
+          "word": "mechanisms,",
+          "start": 572.98,
+          "end": 573.92
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 131,
+      "start": 574.66,
+      "end": 578.18,
+      "textZh": "Gao with two hats, Qū with signature program,",
+      "pinyin": "",
+      "textKo": "Gao with two hats, Qū with signature program,",
+      "words": [
+        {
+          "word": "Gao",
+          "start": 574.66,
+          "end": 574.88
+        },
+        {
+          "word": "with",
+          "start": 574.88,
+          "end": 575.12
+        },
+        {
+          "word": "two",
+          "start": 575.12,
+          "end": 575.44
+        },
+        {
+          "word": "hats,",
+          "start": 575.44,
+          "end": 575.9
+        },
+        {
+          "word": "Q",
+          "start": 576.6,
+          "end": 576.8
+        },
+        {
+          "word": "ū",
+          "start": 576.8,
+          "end": 576.96
+        },
+        {
+          "word": "with",
+          "start": 576.96,
+          "end": 577.22
+        },
+        {
+          "word": "signature",
+          "start": 577.22,
+          "end": 577.66
+        },
+        {
+          "word": "program,",
+          "start": 577.66,
+          "end": 578.18
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 132,
+      "start": 578.88,
+      "end": 584.7,
+      "textZh": "And Ma with steering wheel, the more I ponder where do these mechanisms come from.",
+      "pinyin": "",
+      "textKo": "And Ma with steering wheel, the more I ponder where do these mechanisms come from.",
+      "words": [
+        {
+          "word": "and",
+          "start": 578.88,
+          "end": 579.14
+        },
+        {
+          "word": "Ma",
+          "start": 579.14,
+          "end": 579.34
+        },
+        {
+          "word": "with",
+          "start": 579.34,
+          "end": 579.64
+        },
+        {
+          "word": "steering",
+          "start": 579.64,
+          "end": 579.96
+        },
+        {
+          "word": "wheel,",
+          "start": 579.96,
+          "end": 580.3
+        },
+        {
+          "word": "the",
+          "start": 580.58,
+          "end": 580.82
+        },
+        {
+          "word": "more",
+          "start": 580.82,
+          "end": 581.02
+        },
+        {
+          "word": "I",
+          "start": 581.02,
+          "end": 581.28
+        },
+        {
+          "word": "p",
+          "start": 581.28,
+          "end": 581.46
+        },
+        {
+          "word": "onder",
+          "start": 581.46,
+          "end": 581.7
+        },
+        {
+          "word": "where",
+          "start": 581.7,
+          "end": 582.48
+        },
+        {
+          "word": "do",
+          "start": 582.48,
+          "end": 582.9
+        },
+        {
+          "word": "these",
+          "start": 582.9,
+          "end": 583.34
+        },
+        {
+          "word": "mechanisms",
+          "start": 583.34,
+          "end": 583.98
+        },
+        {
+          "word": "come",
+          "start": 583.98,
+          "end": 584.38
+        },
+        {
+          "word": "from.",
+          "start": 584.38,
+          "end": 584.7
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 133,
+      "start": 584.7,
+      "end": 587.72,
+      "textZh": "Are definitely not Confucian.",
+      "pinyin": "",
+      "textKo": "Are definitely not Confucian.",
+      "words": [
+        {
+          "word": "are",
+          "start": 584.7,
+          "end": 585.8
+        },
+        {
+          "word": "definitely",
+          "start": 585.8,
+          "end": 586.34
+        },
+        {
+          "word": "not",
+          "start": 586.34,
+          "end": 586.86
+        },
+        {
+          "word": "Conf",
+          "start": 586.86,
+          "end": 587.28
+        },
+        {
+          "word": "uci",
+          "start": 587.28,
+          "end": 587.56
+        },
+        {
+          "word": "an.",
+          "start": 587.56,
+          "end": 587.72
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 134,
+      "start": 588.22,
+      "end": 591.36,
+      "textZh": "They are very similar to another Asian school of thought,",
+      "pinyin": "",
+      "textKo": "They are very similar to another Asian school of thought,",
+      "words": [
+        {
+          "word": "They",
+          "start": 588.22,
+          "end": 588.66
+        },
+        {
+          "word": "are",
+          "start": 588.66,
+          "end": 588.76
+        },
+        {
+          "word": "very",
+          "start": 588.76,
+          "end": 589.0
+        },
+        {
+          "word": "similar",
+          "start": 589.0,
+          "end": 589.46
+        },
+        {
+          "word": "to",
+          "start": 589.46,
+          "end": 589.72
+        },
+        {
+          "word": "another",
+          "start": 589.72,
+          "end": 590.02
+        },
+        {
+          "word": "Asian",
+          "start": 590.02,
+          "end": 590.52
+        },
+        {
+          "word": "school",
+          "start": 590.52,
+          "end": 590.84
+        },
+        {
+          "word": "of",
+          "start": 590.84,
+          "end": 591.04
+        },
+        {
+          "word": "thought,",
+          "start": 591.04,
+          "end": 591.36
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 135,
+      "start": 591.88,
+      "end": 597.68,
+      "textZh": "Taoism. Confucianism believes the way to achieve perfection",
+      "pinyin": "",
+      "textKo": "Taoism. Confucianism believes the way to achieve perfection",
+      "words": [
+        {
+          "word": "Tao",
+          "start": 591.88,
+          "end": 592.14
+        },
+        {
+          "word": "ism.",
+          "start": 592.14,
+          "end": 592.44
+        },
+        {
+          "word": "Conf",
+          "start": 593.84,
+          "end": 594.6
+        },
+        {
+          "word": "uci",
+          "start": 594.6,
+          "end": 594.84
+        },
+        {
+          "word": "an",
+          "start": 594.84,
+          "end": 594.96
+        },
+        {
+          "word": "ism",
+          "start": 594.96,
+          "end": 595.32
+        },
+        {
+          "word": "believes",
+          "start": 595.32,
+          "end": 596.06
+        },
+        {
+          "word": "the",
+          "start": 596.06,
+          "end": 596.26
+        },
+        {
+          "word": "way",
+          "start": 596.26,
+          "end": 596.58
+        },
+        {
+          "word": "to",
+          "start": 596.58,
+          "end": 596.84
+        },
+        {
+          "word": "achieve",
+          "start": 596.84,
+          "end": 597.2
+        },
+        {
+          "word": "perfection",
+          "start": 597.2,
+          "end": 597.68
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 136,
+      "start": 597.68,
+      "end": 600.5,
+      "textZh": "Is to organize and regulate things.",
+      "pinyin": "",
+      "textKo": "Is to organize and regulate things.",
+      "words": [
+        {
+          "word": "is",
+          "start": 597.68,
+          "end": 598.26
+        },
+        {
+          "word": "to",
+          "start": 598.26,
+          "end": 598.44
+        },
+        {
+          "word": "organize",
+          "start": 598.44,
+          "end": 598.88
+        },
+        {
+          "word": "and",
+          "start": 598.88,
+          "end": 599.5
+        },
+        {
+          "word": "regulate",
+          "start": 599.5,
+          "end": 599.96
+        },
+        {
+          "word": "things.",
+          "start": 599.96,
+          "end": 600.5
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 137,
+      "start": 600.5,
+      "end": 605.94,
+      "textZh": "But Taoism believes in letting things work to their perfection naturally,",
+      "pinyin": "",
+      "textKo": "But Taoism believes in letting things work to their perfection naturally,",
+      "words": [
+        {
+          "word": "but",
+          "start": 600.5,
+          "end": 601.4
+        },
+        {
+          "word": "Tao",
+          "start": 601.4,
+          "end": 601.74
+        },
+        {
+          "word": "ism",
+          "start": 601.74,
+          "end": 602.0
+        },
+        {
+          "word": "believes",
+          "start": 602.0,
+          "end": 602.5
+        },
+        {
+          "word": "in",
+          "start": 602.5,
+          "end": 602.8
+        },
+        {
+          "word": "letting",
+          "start": 602.8,
+          "end": 603.18
+        },
+        {
+          "word": "things",
+          "start": 603.18,
+          "end": 603.68
+        },
+        {
+          "word": "work",
+          "start": 603.68,
+          "end": 604.12
+        },
+        {
+          "word": "to",
+          "start": 604.12,
+          "end": 604.28
+        },
+        {
+          "word": "their",
+          "start": 604.28,
+          "end": 604.48
+        },
+        {
+          "word": "perfection",
+          "start": 604.48,
+          "end": 604.94
+        },
+        {
+          "word": "naturally,",
+          "start": 604.94,
+          "end": 605.94
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 138,
+      "start": 606.38,
+      "end": 610.7,
+      "textZh": "To support their natural state, and to let them transform spontaneously.",
+      "pinyin": "",
+      "textKo": "To support their natural state, and to let them transform spontaneously.",
+      "words": [
+        {
+          "word": "to",
+          "start": 606.38,
+          "end": 606.68
+        },
+        {
+          "word": "support",
+          "start": 606.68,
+          "end": 607.06
+        },
+        {
+          "word": "their",
+          "start": 607.06,
+          "end": 607.24
+        },
+        {
+          "word": "natural",
+          "start": 607.24,
+          "end": 607.64
+        },
+        {
+          "word": "state,",
+          "start": 607.64,
+          "end": 608.02
+        },
+        {
+          "word": "and",
+          "start": 608.22,
+          "end": 608.66
+        },
+        {
+          "word": "to",
+          "start": 608.66,
+          "end": 608.8
+        },
+        {
+          "word": "let",
+          "start": 608.8,
+          "end": 609.04
+        },
+        {
+          "word": "them",
+          "start": 609.04,
+          "end": 609.24
+        },
+        {
+          "word": "transform",
+          "start": 609.24,
+          "end": 609.8
+        },
+        {
+          "word": "spontaneously.",
+          "start": 609.8,
+          "end": 610.7
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 139,
+      "start": 611.52,
+      "end": 614.78,
+      "textZh": "In other words, leaders should not impose their will.",
+      "pinyin": "",
+      "textKo": "In other words, leaders should not impose their will.",
+      "words": [
+        {
+          "word": "In",
+          "start": 611.52,
+          "end": 611.7
+        },
+        {
+          "word": "other",
+          "start": 611.7,
+          "end": 611.9
+        },
+        {
+          "word": "words,",
+          "start": 611.9,
+          "end": 612.22
+        },
+        {
+          "word": "leaders",
+          "start": 612.64,
+          "end": 613.16
+        },
+        {
+          "word": "should",
+          "start": 613.16,
+          "end": 613.64
+        },
+        {
+          "word": "not",
+          "start": 613.64,
+          "end": 613.84
+        },
+        {
+          "word": "impose",
+          "start": 613.84,
+          "end": 614.28
+        },
+        {
+          "word": "their",
+          "start": 614.28,
+          "end": 614.48
+        },
+        {
+          "word": "will.",
+          "start": 614.48,
+          "end": 614.78
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 140,
+      "start": 615.28,
+      "end": 618.3,
+      "textZh": "Leaders should act by shaping the context,",
+      "pinyin": "",
+      "textKo": "Leaders should act by shaping the context,",
+      "words": [
+        {
+          "word": "Leaders",
+          "start": 615.28,
+          "end": 615.82
+        },
+        {
+          "word": "should",
+          "start": 615.82,
+          "end": 616.22
+        },
+        {
+          "word": "act",
+          "start": 616.22,
+          "end": 616.66
+        },
+        {
+          "word": "by",
+          "start": 616.66,
+          "end": 617.06
+        },
+        {
+          "word": "shaping",
+          "start": 617.06,
+          "end": 617.44
+        },
+        {
+          "word": "the",
+          "start": 617.44,
+          "end": 617.62
+        },
+        {
+          "word": "context,",
+          "start": 617.62,
+          "end": 618.3
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 141,
+      "start": 618.46,
+      "end": 625.2,
+      "textZh": "Rather than control. Confucianism works best in winning a stable context,",
+      "pinyin": "",
+      "textKo": "Rather than control. Confucianism works best in winning a stable context,",
+      "words": [
+        {
+          "word": "rather",
+          "start": 618.46,
+          "end": 618.94
+        },
+        {
+          "word": "than",
+          "start": 618.94,
+          "end": 619.12
+        },
+        {
+          "word": "control.",
+          "start": 619.12,
+          "end": 619.56
+        },
+        {
+          "word": "Conf",
+          "start": 620.34,
+          "end": 621.08
+        },
+        {
+          "word": "uci",
+          "start": 621.08,
+          "end": 621.4
+        },
+        {
+          "word": "an",
+          "start": 621.4,
+          "end": 621.54
+        },
+        {
+          "word": "ism",
+          "start": 621.54,
+          "end": 621.88
+        },
+        {
+          "word": "works",
+          "start": 621.88,
+          "end": 622.4
+        },
+        {
+          "word": "best",
+          "start": 622.4,
+          "end": 622.84
+        },
+        {
+          "word": "in",
+          "start": 622.84,
+          "end": 623.48
+        },
+        {
+          "word": "winning",
+          "start": 623.48,
+          "end": 623.84
+        },
+        {
+          "word": "a",
+          "start": 623.84,
+          "end": 624.18
+        },
+        {
+          "word": "stable",
+          "start": 624.18,
+          "end": 624.54
+        },
+        {
+          "word": "context,",
+          "start": 624.54,
+          "end": 625.2
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 142,
+      "start": 625.48,
+      "end": 629.02,
+      "textZh": "Whereas Taoism, with its power to shape the context,",
+      "pinyin": "",
+      "textKo": "Whereas Taoism, with its power to shape the context,",
+      "words": [
+        {
+          "word": "whereas",
+          "start": 625.48,
+          "end": 625.98
+        },
+        {
+          "word": "Tao",
+          "start": 625.98,
+          "end": 626.36
+        },
+        {
+          "word": "ism,",
+          "start": 626.36,
+          "end": 626.72
+        },
+        {
+          "word": "with",
+          "start": 626.86,
+          "end": 627.16
+        },
+        {
+          "word": "its",
+          "start": 627.16,
+          "end": 627.3
+        },
+        {
+          "word": "power",
+          "start": 627.3,
+          "end": 627.72
+        },
+        {
+          "word": "to",
+          "start": 627.72,
+          "end": 627.94
+        },
+        {
+          "word": "shape",
+          "start": 627.94,
+          "end": 628.34
+        },
+        {
+          "word": "the",
+          "start": 628.34,
+          "end": 628.5
+        },
+        {
+          "word": "context,",
+          "start": 628.5,
+          "end": 629.02
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 143,
+      "start": 629.36,
+      "end": 632.24,
+      "textZh": "Is more effective in dealing with uncertainty.",
+      "pinyin": "",
+      "textKo": "Is more effective in dealing with uncertainty.",
+      "words": [
+        {
+          "word": "is",
+          "start": 629.36,
+          "end": 629.56
+        },
+        {
+          "word": "more",
+          "start": 629.56,
+          "end": 629.78
+        },
+        {
+          "word": "effective",
+          "start": 629.78,
+          "end": 630.34
+        },
+        {
+          "word": "in",
+          "start": 630.34,
+          "end": 630.92
+        },
+        {
+          "word": "dealing",
+          "start": 630.92,
+          "end": 631.18
+        },
+        {
+          "word": "with",
+          "start": 631.18,
+          "end": 631.44
+        },
+        {
+          "word": "uncertainty.",
+          "start": 631.44,
+          "end": 632.24
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 144,
+      "start": 633.46,
+      "end": 637.98,
+      "textZh": "A leader is best when people barely know he exists.",
+      "pinyin": "",
+      "textKo": "A leader is best when people barely know he exists.",
+      "words": [
+        {
+          "word": "A",
+          "start": 633.46,
+          "end": 634.06
+        },
+        {
+          "word": "leader",
+          "start": 634.06,
+          "end": 634.58
+        },
+        {
+          "word": "is",
+          "start": 634.58,
+          "end": 635.1
+        },
+        {
+          "word": "best",
+          "start": 635.1,
+          "end": 635.5
+        },
+        {
+          "word": "when",
+          "start": 635.5,
+          "end": 636.24
+        },
+        {
+          "word": "people",
+          "start": 636.24,
+          "end": 636.58
+        },
+        {
+          "word": "barely",
+          "start": 636.58,
+          "end": 637.06
+        },
+        {
+          "word": "know",
+          "start": 637.06,
+          "end": 637.34
+        },
+        {
+          "word": "he",
+          "start": 637.34,
+          "end": 637.56
+        },
+        {
+          "word": "exists.",
+          "start": 637.56,
+          "end": 637.98
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 145,
+      "start": 638.56,
+      "end": 641.14,
+      "textZh": "When work is done, people will say,",
+      "pinyin": "",
+      "textKo": "When work is done, people will say,",
+      "words": [
+        {
+          "word": "When",
+          "start": 638.56,
+          "end": 639.1
+        },
+        {
+          "word": "work",
+          "start": 639.1,
+          "end": 639.36
+        },
+        {
+          "word": "is",
+          "start": 639.36,
+          "end": 639.52
+        },
+        {
+          "word": "done,",
+          "start": 639.52,
+          "end": 639.8
+        },
+        {
+          "word": "people",
+          "start": 640.2,
+          "end": 640.58
+        },
+        {
+          "word": "will",
+          "start": 640.58,
+          "end": 640.8
+        },
+        {
+          "word": "say,",
+          "start": 640.8,
+          "end": 641.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 146,
+      "start": 641.38,
+      "end": 645.8,
+      "textZh": "We did it ourselves. Thank you.",
+      "pinyin": "",
+      "textKo": "We did it ourselves. Thank you.",
+      "words": [
+        {
+          "word": "we",
+          "start": 641.38,
+          "end": 642.0
+        },
+        {
+          "word": "did",
+          "start": 642.0,
+          "end": 642.22
+        },
+        {
+          "word": "it",
+          "start": 642.22,
+          "end": 642.46
+        },
+        {
+          "word": "ourselves.",
+          "start": 642.46,
+          "end": 643.36
+        },
+        {
+          "word": "Thank",
+          "start": 645.19,
+          "end": 645.56
+        },
+        {
+          "word": "you.",
+          "start": 645.56,
+          "end": 645.8
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 147,
+      "start": 646.52,
+      "end": 647.96,
+      "textZh": "Thank you! Thank you! Thank you! Thank you! Thank you! Thank you!",
+      "pinyin": "",
+      "textKo": "Thank you! Thank you! Thank you! Thank you! Thank you! Thank you!",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 646.52,
+          "end": 646.78
+        },
+        {
+          "word": "you!",
+          "start": 646.78,
+          "end": 646.9
+        },
+        {
+          "word": "Thank",
+          "start": 646.9,
+          "end": 647.08
+        },
+        {
+          "word": "you!",
+          "start": 647.08,
+          "end": 647.2
+        },
+        {
+          "word": "Thank",
+          "start": 647.2,
+          "end": 647.2
+        },
+        {
+          "word": "you!",
+          "start": 647.2,
+          "end": 647.7
+        },
+        {
+          "word": "Thank",
+          "start": 647.7,
+          "end": 647.7
+        },
+        {
+          "word": "you!",
+          "start": 647.7,
+          "end": 647.72
+        },
+        {
+          "word": "Thank",
+          "start": 647.72,
+          "end": 647.72
+        },
+        {
+          "word": "you!",
+          "start": 647.72,
+          "end": 647.86
+        },
+        {
+          "word": "Thank",
+          "start": 647.86,
+          "end": 647.86
+        },
+        {
+          "word": "you!",
+          "start": 647.86,
+          "end": 647.96
+        }
+      ],
+      "listenDifficulty": 3
+    }
+  ]
+}

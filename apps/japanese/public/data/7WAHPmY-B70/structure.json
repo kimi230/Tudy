@@ -1,0 +1,163 @@
+{
+  "sections": [
+    {
+      "section": "Introduction and Opening Question",
+      "startSegment": 0,
+      "endSegment": 3,
+      "summary": "The speaker Hayashi Shigemitsu introduces himself to the audience and poses the central question of the talk: did you know that the shape of your hand changes your voice?",
+      "summaryKo": "발표자 하야시 시게미츠가 청중에게 자기소개를 하고 이 강연의 핵심 질문을 던진다: 손 모양에 따라 목소리가 달라진다는 것을 알고 계십니까?",
+      "keyPoints": [
+        "Self-introduction using humble speech (申します)",
+        "Opening with a rhetorical question to engage the audience",
+        "Playful comment: 'If you already know, I have nothing to offer'"
+      ]
+    },
+    {
+      "section": "Experiment 1: Fist (グー) vs. Bent Fingers — Breathing Muscles",
+      "startSegment": 4,
+      "endSegment": 21,
+      "summary": "The speaker guides the audience through two breathing exercises — once with a fist (グー) and once with only the ring finger and little finger bent — to demonstrate which muscles activate: chest muscles (fist) vs. abdominal muscles (bent fingers).",
+      "summaryKo": "발표자는 청중을 두 가지 호흡 실험으로 안내한다. 주먹(グー)으로 쥐었을 때는 가슴 근육이, 새끼손가락과 약지만 구부렸을 때는 복부 근육이 활발해짐을 직접 체험하게 한다.",
+      "keyPoints": [
+        "Fist (グー) → chest muscles activate during deep breathing",
+        "Ring + little finger bent → abdominal muscles activate",
+        "Hand shape changes which breathing muscles are used",
+        "Changing muscles changes the way the voice comes out"
+      ]
+    },
+    {
+      "section": "Live Demonstration: Raising a Seated Person with Voice",
+      "startSegment": 22,
+      "endSegment": 34,
+      "summary": "The speaker demonstrates the practical effect by using an audience volunteer (Watashi-san). Using a fist produces a strained, unstable voice that cannot raise the seated person. Using the bent-finger technique produces a stable, soft voice that can raise the person — revealing the power of the hand technique.",
+      "summaryKo": "발표자는 청중 참가자(와타시 씨)를 활용한 라이브 시연을 보여준다. 주먹 쥔 상태에서는 막힌 불안정한 목소리가 나와 앉은 사람을 일으키지 못하고, 새끼·약지를 구부린 상태에서는 안정되고 부드러운 목소리로 사람을 일으킬 수 있음을 보여준다.",
+      "keyPoints": [
+        "Fist → blocked, unstable voice → cannot raise seated person",
+        "Ring + little finger bent → stable, soft voice → can raise seated person",
+        "Reveals the real-world vocal power of the finger technique",
+        "打ち合わせ通り joke reveals pre-arranged participation"
+      ]
+    },
+    {
+      "section": "Group Practice: Pairs Experiencing the Effect",
+      "startSegment": 35,
+      "endSegment": 74,
+      "summary": "The audience stands up and forms pairs. One person sits, the other stands. The standing person tries to raise the seated person using voice — first with a fist (グー), then with bent small fingers — experiencing the contrast directly. Roles are then reversed.",
+      "summaryKo": "청중 전체가 일어서서 2인 1조를 이룬다. 한 사람은 앉고, 한 사람은 서서 목소리로 상대를 일으키는 체험을 한다. 먼저 주먹으로 시도하고, 이어 새끼·약지 구부리기로 시도하여 직접 차이를 체감한다. 역할을 바꿔 반복한다.",
+      "keyPoints": [
+        "Audience forms pairs — one sits, one stands",
+        "First attempt with fist: breath gets stuck, belly engages",
+        "Second attempt with bent fingers: stable voice, can raise partner",
+        "Roles reversed so everyone experiences both sides",
+        "Joyful, dynamic exercise creates shared experience"
+      ]
+    },
+    {
+      "section": "Practical Applications and Mind-Body Connection",
+      "startSegment": 75,
+      "endSegment": 110,
+      "summary": "After the pair exercises, the speaker explains practical benefits for people with stage fright, stuttering, or voice instability. He introduces an additional demonstration: imagining a disliked food destabilizes the body, while imagining a liked food restores stability — revealing the mind-body connection.",
+      "summaryKo": "쌍 활동 후 발표자는 무대 공포증, 말더듬증 등 목소리 불안 문제를 가진 분들에게 실용적 해결책을 제시한다. 추가 시연으로 싫어하는 음식을 상상하면 신체가 불안정해지고, 좋아하는 음식을 상상하면 안정이 회복됨을 보여주며 심신의 연결을 드러낸다.",
+      "keyPoints": [
+        "Small finger + ring finger bent → stable voice for public speaking",
+        "Applicable to stage fright (あがり症) and stuttering (喫音症)",
+        "Only one hand is sufficient; can cover with other hand",
+        "Mind also affects body: imagining disliked food → body weakens",
+        "Imagining liked food → body stabilizes",
+        "Physical + mental states are interconnected"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "皆様こんにちは",
+      "type": "opening",
+      "segmentIndex": 1,
+      "role": "Formal greeting to open the talk"
+    },
+    {
+      "expression": "皆様は〜をご存知でしょうか",
+      "type": "topic_introduction",
+      "segmentIndex": 2,
+      "role": "Introduces the central question/theme of the talk"
+    },
+    {
+      "expression": "次に〜してください",
+      "type": "instruction_transition",
+      "segmentIndex": 10,
+      "role": "Transitions to the next step in the demonstration"
+    },
+    {
+      "expression": "それを一つ試してみたいと思います",
+      "type": "transition",
+      "segmentIndex": 22,
+      "role": "Announces the upcoming live demonstration"
+    },
+    {
+      "expression": "さて",
+      "type": "transition",
+      "segmentIndex": 34,
+      "role": "Signals a shift to inviting the audience to participate"
+    },
+    {
+      "expression": "是非皆様一緒にご体感していただきたいと思います",
+      "type": "audience_invitation",
+      "segmentIndex": 34,
+      "role": "Invites the entire audience to participate in the group exercise"
+    },
+    {
+      "expression": "どうぞお立ちくださいませ",
+      "type": "instruction",
+      "segmentIndex": 35,
+      "role": "Requests audience to stand up for the group exercise"
+    },
+    {
+      "expression": "二人一組になってください",
+      "type": "instruction",
+      "segmentIndex": 36,
+      "role": "Organizes the audience into pairs"
+    },
+    {
+      "expression": "はいそうしましたら",
+      "type": "instruction_transition",
+      "segmentIndex": 49,
+      "role": "Transitions to the next phase of instruction after a prior step is done"
+    },
+    {
+      "expression": "素晴らしい",
+      "type": "praise",
+      "segmentIndex": 55,
+      "role": "Praises audience participation and marks success of the exercise"
+    },
+    {
+      "expression": "ありがとうございます どうぞおかけくださいませ",
+      "type": "closing_of_activity",
+      "segmentIndex": 76,
+      "role": "Thanks the audience and invites them to sit back down"
+    },
+    {
+      "expression": "人前でお話をするときに声が詰まってしまう〜方々",
+      "type": "problem_statement",
+      "segmentIndex": 78,
+      "role": "Introduces the practical problem this technique addresses"
+    },
+    {
+      "expression": "ぜひこの小指と薬指を折り曲げておくと",
+      "type": "solution_introduction",
+      "segmentIndex": 80,
+      "role": "Presents the technique as a solution to the problem"
+    },
+    {
+      "expression": "さあもう一つ違うことを行います",
+      "type": "transition",
+      "segmentIndex": 91,
+      "role": "Introduces the second demonstration about mind-body connection"
+    },
+    {
+      "expression": "これをぜひまた皆様体感していただきたいと思います",
+      "type": "audience_invitation",
+      "segmentIndex": 106,
+      "role": "Invites the entire audience to experience the mind-body phenomenon"
+    }
+  ]
+}

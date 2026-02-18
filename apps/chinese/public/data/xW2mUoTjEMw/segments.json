@@ -1,0 +1,1157 @@
+{
+  "videoId": "xW2mUoTjEMw",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.22,
+      "textZh": "这是世界上最大的城市都会区",
+      "pinyin": "zhè shì shìjiè shàng zuìdà de chéngshì dūhuìqū",
+      "textKo": "이것은 세계에서 가장 큰 도시 광역권입니다",
+      "words": [{"word": "这是", "start": 0.0, "end": 0.2}, {"word": "世界", "start": 0.2, "end": 0.5}, {"word": "上", "start": 0.5, "end": 0.7}, {"word": "最", "start": 0.7, "end": 0.94}, {"word": "大的", "start": 0.94, "end": 1.24}, {"word": "城", "start": 1.24, "end": 1.58}, {"word": "市", "start": 1.58, "end": 1.78}, {"word": "都", "start": 1.78, "end": 1.88}, {"word": "会", "start": 1.88, "end": 2.0}, {"word": "区", "start": 2.0, "end": 2.22}]
+    },
+    {
+      "index": 1,
+      "start": 2.22,
+      "end": 6.3,
+      "textZh": "日本首都东京 由一都三县构成的东京都市圈",
+      "pinyin": "Rìběn shǒudū Dōngjīng yóu yī dū sān xiàn gòuchéng de Dōngjīng dūshìquān",
+      "textKo": "일본의 수도 도쿄, 1도 3현으로 구성된 도쿄 도시권",
+      "words": [{"word": "日本", "start": 2.22, "end": 2.66}, {"word": "首", "start": 2.66, "end": 2.9}, {"word": "都", "start": 2.9, "end": 3.08}, {"word": "东", "start": 3.08, "end": 3.5}, {"word": "京", "start": 3.5, "end": 3.74}, {"word": "由", "start": 3.74, "end": 4.1}, {"word": "一", "start": 4.1, "end": 4.28}, {"word": "都", "start": 4.28, "end": 4.44}, {"word": "三", "start": 4.44, "end": 4.64}, {"word": "县", "start": 4.64, "end": 4.86}, {"word": "构", "start": 4.86, "end": 5.12}, {"word": "成", "start": 5.12, "end": 5.28}, {"word": "的", "start": 5.28, "end": 5.42}, {"word": "东", "start": 5.42, "end": 5.68}, {"word": "京", "start": 5.68, "end": 5.86}, {"word": "都", "start": 5.86, "end": 5.98}, {"word": "市", "start": 5.98, "end": 6.1}, {"word": "圈", "start": 6.1, "end": 6.3}]
+    },
+    {
+      "index": 2,
+      "start": 6.3,
+      "end": 10.2,
+      "textZh": "拥有近4100万人口 是名副其实的世界第一城",
+      "pinyin": "yōngyǒu jìn sìqiān yībǎi wàn rénkǒu shì míngfùqíshí de shìjiè dìyī chéng",
+      "textKo": "약 4100만 명의 인구를 보유하여 명실공히 세계 제1의 도시입니다",
+      "words": [{"word": "拥", "start": 6.3, "end": 6.6}, {"word": "有", "start": 6.6, "end": 6.76}, {"word": "近", "start": 6.76, "end": 6.94}, {"word": "4", "start": 6.94, "end": 7.18}, {"word": "100", "start": 7.18, "end": 7.48}, {"word": "万", "start": 7.48, "end": 7.66}, {"word": "人", "start": 7.66, "end": 7.8}, {"word": "口", "start": 7.8, "end": 7.98}, {"word": "是", "start": 7.98, "end": 8.26}, {"word": "名", "start": 8.26, "end": 8.44}, {"word": "副", "start": 8.44, "end": 8.6}, {"word": "其实", "start": 8.6, "end": 8.88}, {"word": "的", "start": 8.88, "end": 9.04}, {"word": "世界", "start": 9.04, "end": 9.54}, {"word": "第一", "start": 9.54, "end": 10.0}, {"word": "城", "start": 10.0, "end": 10.2}]
+    },
+    {
+      "index": 3,
+      "start": 10.2,
+      "end": 12.24,
+      "textZh": "在东京不大的城市空间内",
+      "pinyin": "zài Dōngjīng bú dà de chéngshì kōngjiān nèi",
+      "textKo": "도쿄의 크지 않은 도시 공간 안에서",
+      "words": [{"word": "在", "start": 10.2, "end": 10.58}, {"word": "东", "start": 10.58, "end": 10.74}, {"word": "京", "start": 10.74, "end": 10.94}, {"word": "不", "start": 10.94, "end": 11.24}, {"word": "大的", "start": 11.24, "end": 11.44}, {"word": "城", "start": 11.44, "end": 11.64}, {"word": "市", "start": 11.64, "end": 11.78}, {"word": "空", "start": 11.78, "end": 11.92}, {"word": "间", "start": 11.92, "end": 12.08}, {"word": "内", "start": 12.08, "end": 12.24}]
+    },
+    {
+      "index": 4,
+      "start": 12.24,
+      "end": 14.5,
+      "textZh": "每村土地都显得尤为珍贵",
+      "pinyin": "měi cùn tǔdì dōu xiǎnde yóuwéi zhēnguì",
+      "textKo": "한 치의 땅도 특히나 귀하게 여겨집니다",
+      "words": [{"word": "每", "start": 12.24, "end": 12.58}, {"word": "村", "start": 12.58, "end": 12.76}, {"word": "土", "start": 12.76, "end": 12.94}, {"word": "地", "start": 12.94, "end": 13.1}, {"word": "都", "start": 13.1, "end": 13.38}, {"word": "显", "start": 13.38, "end": 13.52}, {"word": "得", "start": 13.52, "end": 13.7}, {"word": "尤", "start": 13.7, "end": 14.04}, {"word": "为", "start": 14.04, "end": 14.18}, {"word": "珍", "start": 14.18, "end": 14.34}, {"word": "贵", "start": 14.34, "end": 14.5}]
+    },
+    {
+      "index": 5,
+      "start": 14.5,
+      "end": 18.12,
+      "textZh": "为了造出更多的建筑 以至于这里的马路都十分拥挤",
+      "pinyin": "wèile zào chū gèngduō de jiànzhù yǐzhìyú zhèlǐ de mǎlù dōu shífēn yōngjǐ",
+      "textKo": "더 많은 건물을 짓기 위해 이곳의 도로는 모두 매우 혼잡합니다",
+      "words": [{"word": "为", "start": 14.5, "end": 14.8}, {"word": "了", "start": 14.8, "end": 14.88}, {"word": "造", "start": 14.88, "end": 15.0}, {"word": "出", "start": 15.0, "end": 15.18}, {"word": "更", "start": 15.18, "end": 15.38}, {"word": "多", "start": 15.38, "end": 15.56}, {"word": "的", "start": 15.56, "end": 15.66}, {"word": "建", "start": 15.66, "end": 15.82}, {"word": "筑", "start": 15.82, "end": 15.96}, {"word": "以", "start": 15.96, "end": 16.28}, {"word": "至", "start": 16.28, "end": 16.38}, {"word": "于", "start": 16.38, "end": 16.46}, {"word": "这里", "start": 16.46, "end": 16.64}, {"word": "的", "start": 16.64, "end": 16.8}, {"word": "马", "start": 16.8, "end": 17.0}, {"word": "路", "start": 17.0, "end": 17.2}, {"word": "都", "start": 17.2, "end": 17.4}, {"word": "十", "start": 17.4, "end": 17.6}, {"word": "分", "start": 17.6, "end": 17.72}, {"word": "拥", "start": 17.72, "end": 17.94}, {"word": "挤", "start": 17.94, "end": 18.12}]
+    },
+    {
+      "index": 6,
+      "start": 18.12,
+      "end": 22.26,
+      "textZh": "在市中心的色谷十字路口 平均红绿灯每切换一次",
+      "pinyin": "zài shì zhōngxīn de Sègǔ shízì lùkǒu píngjūn hónglǜdēng měi qiēhuàn yī cì",
+      "textKo": "시내 중심부 시부야 사거리에서는 신호등이 한 번 바뀔 때마다",
+      "words": [{"word": "在", "start": 18.12, "end": 18.48}, {"word": "市", "start": 18.48, "end": 18.66}, {"word": "中", "start": 18.66, "end": 18.78}, {"word": "心", "start": 18.78, "end": 18.94}, {"word": "的", "start": 18.94, "end": 19.08}, {"word": "色", "start": 19.08, "end": 19.36}, {"word": "谷", "start": 19.36, "end": 19.52}, {"word": "十", "start": 19.52, "end": 19.66}, {"word": "字", "start": 19.66, "end": 19.78}, {"word": "路", "start": 19.78, "end": 19.9}, {"word": "口", "start": 19.9, "end": 20.08}, {"word": "平", "start": 20.08, "end": 20.62}, {"word": "均", "start": 20.62, "end": 20.8}, {"word": "红", "start": 20.8, "end": 21.08}, {"word": "绿", "start": 21.08, "end": 21.2}, {"word": "灯", "start": 21.2, "end": 21.34}, {"word": "每", "start": 21.34, "end": 21.6}, {"word": "切", "start": 21.6, "end": 21.86}, {"word": "换", "start": 21.86, "end": 22.02}, {"word": "一次", "start": 22.02, "end": 22.26}]
+    },
+    {
+      "index": 7,
+      "start": 22.26,
+      "end": 25.6,
+      "textZh": "就有上千人穿越 狂野的场面早已被载入",
+      "pinyin": "jiù yǒu shàng qiān rén chuānyuè kuángyě de chǎngmiàn zǎoyǐ bèi zàirù",
+      "textKo": "수천 명이 건너다니고 그 장관이 벌써 기네스 기록에 올랐습니다",
+      "words": [{"word": "就", "start": 22.26, "end": 22.62}, {"word": "有", "start": 22.62, "end": 22.78}, {"word": "上", "start": 22.78, "end": 23.12}, {"word": "千", "start": 23.12, "end": 23.36}, {"word": "人", "start": 23.36, "end": 23.54}, {"word": "穿", "start": 23.54, "end": 23.68}, {"word": "越", "start": 23.68, "end": 23.86}, {"word": "狂", "start": 23.86, "end": 24.14}, {"word": "野", "start": 24.14, "end": 24.28}, {"word": "的", "start": 24.28, "end": 24.4}, {"word": "场", "start": 24.4, "end": 24.5}, {"word": "面", "start": 24.5, "end": 24.68}, {"word": "早", "start": 24.68, "end": 25.04}, {"word": "已", "start": 25.04, "end": 25.16}, {"word": "被", "start": 25.16, "end": 25.3}, {"word": "载", "start": 25.3, "end": 25.46}, {"word": "入", "start": 25.46, "end": 25.6}]
+    },
+    {
+      "index": 8,
+      "start": 25.6,
+      "end": 28.72,
+      "textZh": "世界吉尼斯记录 而世界上最大的地铁站",
+      "pinyin": "shìjiè Jínísī jìlù ér shìjiè shàng zuìdà de dìtiězhàn",
+      "textKo": "세계 기네스 기록에 올라있고, 세계에서 가장 큰 지하철역은",
+      "words": [{"word": "世界", "start": 25.6, "end": 26.08}, {"word": "吉", "start": 26.08, "end": 26.42}, {"word": "尼", "start": 26.42, "end": 26.6}, {"word": "斯", "start": 26.6, "end": 26.76}, {"word": "记", "start": 26.76, "end": 26.9}, {"word": "录", "start": 26.9, "end": 27.08}, {"word": "而", "start": 27.08, "end": 27.36}, {"word": "世界", "start": 27.36, "end": 27.58}, {"word": "上", "start": 27.58, "end": 27.76}, {"word": "最", "start": 27.76, "end": 28.02}, {"word": "大的", "start": 28.02, "end": 28.28}, {"word": "地", "start": 28.28, "end": 28.44}, {"word": "铁", "start": 28.44, "end": 28.54}, {"word": "站", "start": 28.54, "end": 28.72}]
+    },
+    {
+      "index": 9,
+      "start": 28.72,
+      "end": 32.36,
+      "textZh": "新宿车站 光是出入口数量就超过了200个",
+      "pinyin": "Xīnsù chēzhàn guāng shì chūrùkǒu shùliàng jiù chāoguòle liǎngbǎi gè",
+      "textKo": "신주쿠역으로, 출입구 수만 200개를 넘습니다",
+      "words": [{"word": "新", "start": 28.72, "end": 29.26}, {"word": "宿", "start": 29.26, "end": 29.42}, {"word": "车", "start": 29.42, "end": 29.6}, {"word": "站", "start": 29.6, "end": 29.78}, {"word": "光", "start": 29.78, "end": 30.04}, {"word": "是", "start": 30.04, "end": 30.2}, {"word": "出", "start": 30.2, "end": 30.4}]
+    },
+    {
+      "index": 10,
+      "start": 32.36,
+      "end": 34.92,
+      "textZh": "单日客运量最高曾达到380万人次",
+      "pinyin": "dān rì kèyùnliàng zuìgāo céng dádào sānbǎi bāshí wàn rércì",
+      "textKo": "하루 최대 이용객 수가 380만 명에 달한 적도 있습니다",
+      "words": []
+    },
+    {
+      "index": 11,
+      "start": 34.92,
+      "end": 38.42,
+      "textZh": "就连连接东京和大阪的新干线 最快的时速也达到了320公里",
+      "pinyin": "jiù lián liánjie Dōngjīng hé Dàbǎn de xīngànxiàn zuìkuài de shísù yě dádàole sānbǎi èrshí gōnglǐ",
+      "textKo": "도쿄와 오사카를 연결하는 신칸센의 최고 시속도 320km에 달합니다",
+      "words": []
+    },
+    {
+      "index": 12,
+      "start": 38.42,
+      "end": 42.96,
+      "textZh": "那么这座世界上最大的城市 究竟长什么样",
+      "pinyin": "nàme zhè zuò shìjiè shàng zuìdà de chéngshì jiūjìng zhǎng shénme yàng",
+      "textKo": "그렇다면 세계에서 가장 큰 이 도시는 도대체 어떤 모습일까요",
+      "words": []
+    },
+    {
+      "index": 13,
+      "start": 42.96,
+      "end": 44.74,
+      "textZh": "内部有什么",
+      "pinyin": "nèibù yǒu shénme",
+      "textKo": "내부에는 무엇이 있을까요",
+      "words": []
+    },
+    {
+      "index": 14,
+      "start": 42.96,
+      "end": 47.2,
+      "textZh": "究竟有哪些独特的风景 本期视频就请和两颗太阳一起",
+      "pinyin": "jiūjìng yǒu nǎxiē dútè de fēngjǐng běnqī shìpín jiù qǐng hé liǎng kē tàiyáng yīqǐ",
+      "textKo": "도대체 어떤 독특한 풍경이 있는지, 이번 영상에서는 두 개의 태양과 함께",
+      "words": []
+    },
+    {
+      "index": 15,
+      "start": 47.2,
+      "end": 50.12,
+      "textZh": "逛一逛这座世界第一城 东京",
+      "pinyin": "guàng yī guàng zhè zuò shìjiè dìyī chéng Dōngjīng",
+      "textKo": "세계 제1의 도시 도쿄를 한번 둘러봅시다",
+      "words": []
+    },
+    {
+      "index": 16,
+      "start": 50.12,
+      "end": 54.14,
+      "textZh": "东京的正式名称为东京都",
+      "pinyin": "Dōngjīng de zhèngshì míngchēng wéi Dōngjīngdū",
+      "textKo": "도쿄의 공식 명칭은 도쿄도(東京都)입니다",
+      "words": []
+    },
+    {
+      "index": 17,
+      "start": 54.14,
+      "end": 58.16,
+      "textZh": "位于日本本州岛中部关东平原上",
+      "pinyin": "wèiyú Rìběn běnzhōudǎo zhōngbù Guāndōng píngyuán shàng",
+      "textKo": "일본 혼슈 섬 중부 간토 평야에 위치합니다",
+      "words": []
+    },
+    {
+      "index": 18,
+      "start": 58.16,
+      "end": 62.1,
+      "textZh": "面积为2194平方公里",
+      "pinyin": "miànjī wéi liǎngqiān yībǎi jiǔshísì píngfāng gōnglǐ",
+      "textKo": "면적은 2194 평방킬로미터입니다",
+      "words": []
+    },
+    {
+      "index": 19,
+      "start": 62.1,
+      "end": 67.0,
+      "textZh": "东京都下辖区市町村三个级别的行政区划",
+      "pinyin": "Dōngjīngdū xiàxiá qū shì zhēngcūn sān gè jíbié de xíngzhèng qūhuà",
+      "textKo": "도쿄도는 구·시·정·촌 세 가지 급별의 행정 구역을 관할합니다",
+      "words": []
+    },
+    {
+      "index": 20,
+      "start": 67.0,
+      "end": 70.42,
+      "textZh": "其中的23个特别区 是东京的精华所在",
+      "pinyin": "qízhōng de èrshísān gè tèbié qū shì Dōngjīng de jīnghuá suǒzài",
+      "textKo": "그중 23개 특별구가 도쿄의 핵심 지역입니다",
+      "words": []
+    },
+    {
+      "index": 21,
+      "start": 70.42,
+      "end": 74.84,
+      "textZh": "23个区人口总计约900万人",
+      "pinyin": "èrshísān gè qū rénkǒu zǒngjì yuē jiǔbǎi wàn rén",
+      "textKo": "23개 구의 총 인구는 약 900만 명입니다",
+      "words": []
+    },
+    {
+      "index": 22,
+      "start": 74.84,
+      "end": 79.4,
+      "textZh": "东京的面积只有北京的八分之一",
+      "pinyin": "Dōngjīng de miànjī zhǐyǒu Běijīng de bā fēn zhī yī",
+      "textKo": "도쿄의 면적은 베이징의 8분의 1에 불과합니다",
+      "words": []
+    },
+    {
+      "index": 23,
+      "start": 79.4,
+      "end": 84.36,
+      "textZh": "但GDP却是北京的将近5倍",
+      "pinyin": "dàn GDP què shì Běijīng de jiāngjìn wǔ bèi",
+      "textKo": "하지만 GDP는 베이징의 거의 5배에 달합니다",
+      "words": []
+    },
+    {
+      "index": 24,
+      "start": 84.36,
+      "end": 87.74,
+      "textZh": "土地面积与人口比拼",
+      "pinyin": "tǔdì miànjī yǔ rénkǒu bǐpīn",
+      "textKo": "면적 대 인구 비교에서",
+      "words": []
+    },
+    {
+      "index": 25,
+      "start": 87.74,
+      "end": 91.3,
+      "textZh": "东京都是当之无愧的世界之最",
+      "pinyin": "Dōngjīng dōu shì dāngzhīwúkuì de shìjiè zhī zuì",
+      "textKo": "도쿄는 단연코 세계 최고의 도시입니다",
+      "words": []
+    },
+    {
+      "index": 26,
+      "start": 91.3,
+      "end": 93.16,
+      "textZh": "江户时代",
+      "pinyin": "Jiānghù shídài",
+      "textKo": "에도 시대",
+      "words": []
+    },
+    {
+      "index": 27,
+      "start": 91.3,
+      "end": 95.24,
+      "textZh": "17世纪之前 东京还是一个被称为江户的小渔村",
+      "pinyin": "shíqī shìjì zhīqián Dōngjīng háishì yī gè bèi chēngwéi Jiānghù de xiǎo yúcūn",
+      "textKo": "17세기 이전, 도쿄는 에도라고 불리던 작은 어촌이었습니다",
+      "words": []
+    },
+    {
+      "index": 28,
+      "start": 95.24,
+      "end": 99.0,
+      "textZh": "1603年 日本历史上三大统一者之一的德川家康",
+      "pinyin": "yīliùlíngsān nián Rìběn lìshǐ shàng sān dà tǒngyī zhě zhī yī de Déchuan Jiākāng",
+      "textKo": "1603년, 일본 역사상 세 명의 통일자 중 한 명인 도쿠가와 이에야스가",
+      "words": []
+    },
+    {
+      "index": 29,
+      "start": 99.0,
+      "end": 102.26,
+      "textZh": "在此修建了江户城 并将其作为幕府政治中心",
+      "pinyin": "zàicǐ xiūjiànle Jiānghùchéng bìng jiāng qí zuòwéi mùfǔ zhèngzhì zhōngxīn",
+      "textKo": "이곳에 에도성을 건설하고 막부의 정치 중심지로 삼았습니다",
+      "words": []
+    },
+    {
+      "index": 30,
+      "start": 102.26,
+      "end": 104.32,
+      "textZh": "逐渐扩建成为了一座大城市",
+      "pinyin": "zhújiàn kuòjiàn chéngwéile yī zuò dà chéngshì",
+      "textKo": "점차 확장되어 대도시가 되었습니다",
+      "words": []
+    },
+    {
+      "index": 31,
+      "start": 104.32,
+      "end": 108.14,
+      "textZh": "1868年明治维新后 日本天皇从京都皇宫",
+      "pinyin": "yībāliùbā nián Míngzhì wéixīn hòu Rìběn tiānhuáng cóng Jīngdū huánggōng",
+      "textKo": "1868년 메이지 유신 이후, 일본 천황은 교토 황궁에서",
+      "words": []
+    },
+    {
+      "index": 32,
+      "start": 108.14,
+      "end": 112.76,
+      "textZh": "迁至江户城 并把这座城市改名为东京 意为东边的首都",
+      "pinyin": "qiān zhì Jiānghùchéng bìng bǎ zhè zuò chéngshì gǎimíng wéi Dōngjīng yì wéi dōngbiān de shǒudū",
+      "textKo": "에도성으로 천도하여 이 도시를 '동쪽의 수도'라는 뜻의 도쿄로 개명했습니다",
+      "words": []
+    },
+    {
+      "index": 33,
+      "start": 112.76,
+      "end": 116.28,
+      "textZh": "皇居 它的日语意思是天皇的宫殿",
+      "pinyin": "Huángjū tā de Rìyǔ yìsi shì tiānhuáng de gōngdiàn",
+      "textKo": "황거(皇居), 일본어로 천황의 궁전을 의미합니다",
+      "words": []
+    },
+    {
+      "index": 34,
+      "start": 116.28,
+      "end": 120.72,
+      "textZh": "坐落在东京市中心 现日本天皇和皇室居住的地方",
+      "pinyin": "zuòluò zài Dōngjīng shì zhōngxīn xiàn Rìběn tiānhuáng hé huángshì jūzhù de dìfāng",
+      "textKo": "도쿄 시내 중심부에 위치하며, 현재 일본 천황과 황실이 거주하는 곳입니다",
+      "words": []
+    },
+    {
+      "index": 35,
+      "start": 120.72,
+      "end": 125.62,
+      "textZh": "皇居占地约3.41平方公里 由护城河所围绕",
+      "pinyin": "Huángjū zhàndì yuē sān diǎn sìyī píngfāng gōnglǐ yóu hùchénghé suǒ wéirào",
+      "textKo": "황거는 약 3.41 평방킬로미터 면적으로 해자로 둘러싸여 있습니다",
+      "words": []
+    },
+    {
+      "index": 36,
+      "start": 125.62,
+      "end": 130.24,
+      "textZh": "皇居的周边 建有皇居外苑 北之丸公园等大型公园",
+      "pinyin": "Huángjū de zhōubiān jiànyǒu Huángjū wàiyuàn Běi zhī wán gōngyuán děng dàxíng gōngyuán",
+      "textKo": "황거 주변에는 황거외원, 기타노마루 공원 등 대형 공원이 조성되어 있습니다",
+      "words": []
+    },
+    {
+      "index": 37,
+      "start": 130.24,
+      "end": 134.08,
+      "textZh": "是东京市中心少有的绿色空间",
+      "pinyin": "shì Dōngjīng shì zhōngxīn shǎoyǒu de lǜsè kōngjiān",
+      "textKo": "도쿄 시내 중심부에서 보기 드문 녹지 공간입니다",
+      "words": []
+    },
+    {
+      "index": 38,
+      "start": 134.08,
+      "end": 138.74,
+      "textZh": "皇居东御苑则以其精心护理的花园而闻名",
+      "pinyin": "Huángjū dōng yù yuàn zé yǐ qí jīngxīn hùlǐ de huāyuán ér wénmíng",
+      "textKo": "황거 동어원은 정성껏 관리된 정원으로 유명합니다",
+      "words": []
+    },
+    {
+      "index": 39,
+      "start": 138.74,
+      "end": 142.6,
+      "textZh": "每年春天 在皇居前的千鸟渊公园",
+      "pinyin": "měinián chūntiān zài Huángjū qián de Qiāniǎoyuān gōngyuán",
+      "textKo": "매년 봄, 황거 앞 지도리가후치 공원에서는",
+      "words": []
+    },
+    {
+      "index": 40,
+      "start": 142.6,
+      "end": 146.14,
+      "textZh": "都会举行盛大的赏花活动",
+      "pinyin": "dōu huì jǔxíng shèngdà de shǎng huā huódòng",
+      "textKo": "성대한 꽃구경 행사가 열립니다",
+      "words": []
+    },
+    {
+      "index": 41,
+      "start": 146.14,
+      "end": 150.82,
+      "textZh": "届时 浪漫的粉樱花与碧绿的护城河相互衬托",
+      "pinyin": "jièshí làngmàn de fěn yīnghuā yǔ bìlǜ de hùchénghé xiānghù chèntuō",
+      "textKo": "그때는 낭만적인 분홍빛 벚꽃과 파란 해자가 서로 어우러져",
+      "words": []
+    },
+    {
+      "index": 42,
+      "start": 150.82,
+      "end": 154.64,
+      "textZh": "美丽至极",
+      "pinyin": "měilì zhìjí",
+      "textKo": "더없이 아름다운 광경을 연출합니다",
+      "words": []
+    },
+    {
+      "index": 43,
+      "start": 154.64,
+      "end": 157.68,
+      "textZh": "浅草寺",
+      "pinyin": "Qiǎncǎosì",
+      "textKo": "센소지",
+      "words": []
+    },
+    {
+      "index": 44,
+      "start": 154.64,
+      "end": 160.12,
+      "textZh": "浅草寺是东京最古老的寺庙 建于628年",
+      "pinyin": "Qiǎncǎosì shì Dōngjīng zuì gǔlǎo de sìmiào jiànyú liùèrbā nián",
+      "textKo": "센소지는 628년에 세워진 도쿄에서 가장 오래된 사찰입니다",
+      "words": []
+    },
+    {
+      "index": 45,
+      "start": 160.12,
+      "end": 163.44,
+      "textZh": "这里供奉着慈悲观世音菩萨的",
+      "pinyin": "zhèlǐ gòngfèngzhe cíbēi Guānshìyīn púsà de",
+      "textKo": "이곳에는 자비로운 관세음보살을",
+      "words": []
+    },
+    {
+      "index": 46,
+      "start": 163.44,
+      "end": 167.18,
+      "textZh": "浅草寺以其具有传统日式建筑风格的五重塔著称",
+      "pinyin": "Qiǎncǎosì yǐ qí jùyǒu chuántǒng Rìshì jiànzhù fēnggé de wǔchóng tǎ zhùchēng",
+      "textKo": "센소지는 전통 일본식 건축 양식의 5층탑으로 유명합니다",
+      "words": []
+    },
+    {
+      "index": 47,
+      "start": 167.18,
+      "end": 171.66,
+      "textZh": "高约53米 是浅草地区的标志性建筑",
+      "pinyin": "gāo yuē wǔshísān mǐ shì Qiǎncǎo dìqū de biāozhìxìng jiànzhù",
+      "textKo": "높이 약 53미터로 아사쿠사 지역의 상징적인 건축물입니다",
+      "words": []
+    },
+    {
+      "index": 48,
+      "start": 159.98,
+      "end": 163.7,
+      "textZh": "乾草寺 供奉着慈悲观世音菩萨的乾草寺",
+      "pinyin": "Qiǎncǎosì gòngfèngzhe cíbēi Guānshìyīn púsà de Qiǎncǎosì",
+      "textKo": "센소지, 자비로운 관세음보살을 모신 센소지",
+      "words": []
+    },
+    {
+      "index": 49,
+      "start": 171.66,
+      "end": 175.7,
+      "textZh": "每年约有3000万访客前来参观",
+      "pinyin": "měi nián yuē yǒu sānqiān wàn fǎngkè qiánlái cānguān",
+      "textKo": "매년 약 3천만 명의 방문객이 찾아옵니다",
+      "words": []
+    },
+    {
+      "index": 50,
+      "start": 175.7,
+      "end": 181.12,
+      "textZh": "其中外国游客占了三分之二",
+      "pinyin": "qízhōng wàiguó yóukè zhànle sān fēn zhī èr",
+      "textKo": "그중 외국인 관광객이 3분의 2를 차지합니다",
+      "words": []
+    },
+    {
+      "index": 51,
+      "start": 181.12,
+      "end": 184.92,
+      "textZh": "使其成为世界上访问量最大的寺庙",
+      "pinyin": "shǐ qí chéngwéi shìjiè shàng fǎngwènliàng zuìdà de sìmiào",
+      "textKo": "이로써 세계에서 방문객이 가장 많은 사찰이 되었습니다",
+      "words": []
+    },
+    {
+      "index": 52,
+      "start": 184.92,
+      "end": 189.7,
+      "textZh": "从浅草寺到仲见世购物街 到处都是",
+      "pinyin": "cóng Qiǎncǎosì dào Zhōngjiànshì gòuwùjiē dàochù dōu shì",
+      "textKo": "센소지에서 나카미세 쇼핑가까지 어디에나",
+      "words": []
+    },
+    {
+      "index": 53,
+      "start": 189.7,
+      "end": 193.84,
+      "textZh": "出售传统日式小吃和纪念品的摊位",
+      "pinyin": "chūshòu chuántǒng Rìshì xiǎochī hé jìniànpǐn de tānwèi",
+      "textKo": "전통 일본 간식과 기념품을 파는 노점들이 즐비합니다",
+      "words": []
+    },
+    {
+      "index": 54,
+      "start": 193.84,
+      "end": 197.44,
+      "textZh": "以及身着传统和服的日本艺妓",
+      "pinyin": "yǐjí shēn zhuó chuántǒng héfú de Rìběn yìjì",
+      "textKo": "그리고 전통 기모노를 입은 일본 게이샤도 볼 수 있습니다",
+      "words": []
+    },
+    {
+      "index": 55,
+      "start": 197.44,
+      "end": 201.84,
+      "textZh": "雷门 作为浅草寺的正门",
+      "pinyin": "Léimén zuòwéi Qiǎncǎosì de zhèngmén",
+      "textKo": "뇌문(雷門), 센소지의 정문으로서",
+      "words": []
+    },
+    {
+      "index": 56,
+      "start": 201.84,
+      "end": 205.6,
+      "textZh": "是日本众所周知的标志性建筑",
+      "pinyin": "shì Rìběn zhòngsuǒzhōuzhī de biāozhìxìng jiànzhù",
+      "textKo": "일본에서 널리 알려진 상징적인 건축물입니다",
+      "words": []
+    },
+    {
+      "index": 57,
+      "start": 205.6,
+      "end": 210.28,
+      "textZh": "雷门是除了富士山以外 象征着日本风景的第二个重要地标",
+      "pinyin": "Léimén shì chúle Fùshìshān yǐwài xiàngzhēngzhe Rìběn fēngjǐng de dì èr gè zhòngyào dìbiāo",
+      "textKo": "뇌문은 후지산에 이어 일본의 풍경을 상징하는 두 번째 주요 랜드마크입니다",
+      "words": []
+    },
+    {
+      "index": 58,
+      "start": 210.28,
+      "end": 215.86,
+      "textZh": "门上悬挂着一个据说重量达700公斤的大型传统红色灯笼",
+      "pinyin": "mén shàng xuánguàzhe yī gè jùshuō zhòngliàng dá qībǎi gōngjīn de dàxíng chuántǒng hóngsè dēnglóng",
+      "textKo": "문에는 무게가 700kg에 달한다고 하는 대형 전통 붉은 초롱이 걸려 있습니다",
+      "words": []
+    },
+    {
+      "index": 59,
+      "start": 215.86,
+      "end": 218.6,
+      "textZh": "灯笼的正面写着风雷神门",
+      "pinyin": "dēnglóng de zhèngmiàn xiězhe Fēng Léi shén mén",
+      "textKo": "초롱의 앞면에는 '풍뢰신문(風雷神門)'이라고 적혀 있습니다",
+      "words": []
+    },
+    {
+      "index": 60,
+      "start": 218.6,
+      "end": 222.74,
+      "textZh": "背面是天龙 大龙的汉字",
+      "pinyin": "bèimiàn shì tiānlóng dàlóng de Hànzì",
+      "textKo": "뒷면에는 '천룡(天龍)', '대룡(大龍)'이라는 한자가 새겨져 있습니다",
+      "words": []
+    },
+    {
+      "index": 61,
+      "start": 222.74,
+      "end": 226.8,
+      "textZh": "灯笼下有一条精雕细刻的飞天神龙",
+      "pinyin": "dēnglóng xià yǒu yī tiáo jīng diāo xì kè de fēitiān shénlóng",
+      "textKo": "초롱 아래에는 정교하게 조각된 용이 날아오르는 모습이 새겨져 있습니다",
+      "words": []
+    },
+    {
+      "index": 62,
+      "start": 226.8,
+      "end": 231.2,
+      "textZh": "雷门每天吸引数以万计的游客到访",
+      "pinyin": "Léimén měitiān xīyǐn shù yǐ wànjì de yóukè dàofǎng",
+      "textKo": "뇌문은 매일 수만 명의 관광객을 불러 모읍니다",
+      "words": []
+    },
+    {
+      "index": 63,
+      "start": 205.6,
+      "end": 210.28,
+      "textZh": "雷门是除了富士山以外 象征着日本风景的第二个重要地标",
+      "pinyin": "Léimén shì chúle Fùshìshān yǐwài xiàngzhēngzhe Rìběn fēngjǐng de dì èr gè zhòngyào dìbiāo",
+      "textKo": "뇌문은 후지산에 이어 일본의 풍경을 상징하는 두 번째 주요 랜드마크입니다",
+      "words": []
+    },
+    {
+      "index": 64,
+      "start": 231.2,
+      "end": 235.14,
+      "textZh": "历史上东京曾两次被夷为平地",
+      "pinyin": "lìshǐ shàng Dōngjīng céng liǎng cì bèi yí wéi píngdì",
+      "textKo": "역사적으로 도쿄는 두 번 완전히 폐허가 된 적이 있습니다",
+      "words": []
+    },
+    {
+      "index": 65,
+      "start": 235.14,
+      "end": 239.42,
+      "textZh": "第一次是1923年9月1日发生的关东大地震",
+      "pinyin": "dì yī cì shì yījiǔèrsān nián jiǔ yuè yī rì fāshēng de Guāndōng dà dìzhèn",
+      "textKo": "첫 번째는 1923년 9월 1일에 발생한 간토 대지진이었습니다",
+      "words": []
+    },
+    {
+      "index": 66,
+      "start": 239.42,
+      "end": 243.56,
+      "textZh": "第二次是二次世界大战期间的美军轰炸",
+      "pinyin": "dì èr cì shì Èrcì Shìjiè Dàzhàn qījiān de Měijūn hōngzhà",
+      "textKo": "두 번째는 제2차 세계대전 중 미군의 폭격이었습니다",
+      "words": []
+    },
+    {
+      "index": 67,
+      "start": 243.56,
+      "end": 249.0,
+      "textZh": "两次将东京化为废墟的灾难让日本人更加珍视",
+      "pinyin": "liǎng cì jiāng Dōngjīng huàwéi fèixū de zāinàn ràng Rìběnrén gèngjiā zhēnshì",
+      "textKo": "두 차례의 재난으로 도쿄가 폐허가 된 것은 일본인들이 더욱 소중히 여기게 만들었습니다",
+      "words": []
+    },
+    {
+      "index": 68,
+      "start": 249.0,
+      "end": 253.08,
+      "textZh": "他们所创造出的一切文明",
+      "pinyin": "tāmen suǒ chuàngzào chū de yīqiè wénmíng",
+      "textKo": "그들이 만들어낸 모든 문명을",
+      "words": []
+    },
+    {
+      "index": 69,
+      "start": 253.08,
+      "end": 257.18,
+      "textZh": "也让他们有了比其他民族更强的重建意愿",
+      "pinyin": "yě ràng tāmen yǒule bǐ qítā mínzú gèng qiáng de chóngjiàn yìyuàn",
+      "textKo": "또한 다른 민족보다 더 강한 재건 의지를 갖게 했습니다",
+      "words": []
+    },
+    {
+      "index": 70,
+      "start": 257.18,
+      "end": 259.3,
+      "textZh": "建于1958年的东京塔",
+      "pinyin": "jiànyú yījiǔwǔbā nián de Dōngjīng tǎ",
+      "textKo": "1958년에 건설된 도쿄타워",
+      "words": []
+    },
+    {
+      "index": 71,
+      "start": 259.3,
+      "end": 263.76,
+      "textZh": "是日本战后重建的标志",
+      "pinyin": "shì Rìběn zhànhòu chóngjiàn de biāozhì",
+      "textKo": "일본 전후 재건의 상징입니다",
+      "words": []
+    },
+    {
+      "index": 72,
+      "start": 263.76,
+      "end": 268.3,
+      "textZh": "也是仿照法国埃菲尔铁塔所建的",
+      "pinyin": "yě shì fǎngzhào Fǎguó Āifēiěr tiě tǎ suǒ jiàn de",
+      "textKo": "또한 프랑스 에펠탑을 모방하여 건설되었습니다",
+      "words": []
+    },
+    {
+      "index": 73,
+      "start": 268.3,
+      "end": 273.08,
+      "textZh": "东京塔高约333米 颜色为红白相间",
+      "pinyin": "Dōngjīng tǎ gāo yuē sānbǎi sānshísān mǐ yánsè wéi hóngbái xiāngjian",
+      "textKo": "도쿄타워는 높이 약 333미터로, 빨간색과 흰색이 교차합니다",
+      "words": []
+    },
+    {
+      "index": 74,
+      "start": 273.08,
+      "end": 278.54,
+      "textZh": "以区分航空障碍物 一年四季中",
+      "pinyin": "yǐ qūfēn hángkōng zhàng'àiwù yī nián sìjì zhōng",
+      "textKo": "항공 장애물을 표시하기 위해서이며, 일 년 사계절 내내",
+      "words": []
+    },
+    {
+      "index": 75,
+      "start": 278.54,
+      "end": 283.06,
+      "textZh": "东京塔都会在夜间亮起灯光",
+      "pinyin": "Dōngjīng tǎ dōu huì zài yèjiān liàngqǐ dēngguāng",
+      "textKo": "도쿄타워는 야간에 조명을 밝힙니다",
+      "words": []
+    },
+    {
+      "index": 76,
+      "start": 283.06,
+      "end": 287.26,
+      "textZh": "以橙色或者白色来照亮",
+      "pinyin": "yǐ chéngsè huòzhě báisè lái zhàoliàng",
+      "textKo": "주황색이나 흰색으로 빛을 냅니다",
+      "words": []
+    },
+    {
+      "index": 77,
+      "start": 287.26,
+      "end": 291.12,
+      "textZh": "东京晴空塔",
+      "pinyin": "Dōngjīng qíng kōng tǎ",
+      "textKo": "도쿄 스카이트리",
+      "words": []
+    },
+    {
+      "index": 78,
+      "start": 287.26,
+      "end": 293.3,
+      "textZh": "位于墨田区的东京晴空塔 于2012年5月22日正式开放",
+      "pinyin": "wèiyú Mòtiányā de Dōngjīng qíngkōng tǎ yú èrlíngyīèr nián wǔ yuè èrshí'èr rì zhèngshì kāifàng",
+      "textKo": "스미다구에 위치한 도쿄 스카이트리는 2012년 5월 22일 공식 개장했습니다",
+      "words": []
+    },
+    {
+      "index": 79,
+      "start": 293.3,
+      "end": 297.0,
+      "textZh": "有634米高",
+      "pinyin": "yǒu liùbǎi sānshísì mǐ gāo",
+      "textKo": "높이 634미터로",
+      "words": []
+    },
+    {
+      "index": 80,
+      "start": 293.3,
+      "end": 301.24,
+      "textZh": "有634米高 这是我们这个地球上迄今为止最高的广播电视塔",
+      "pinyin": "yǒu liùbǎi sānshísì mǐ gāo zhè shì wǒmen zhège dìqiú shàng qìjīn wéizhǐ zuìgāo de guǎngbō diànshì tǎ",
+      "textKo": "높이 634미터, 현재까지 지구상에서 가장 높은 방송 전파탑입니다",
+      "words": []
+    },
+    {
+      "index": 81,
+      "start": 301.24,
+      "end": 306.56,
+      "textZh": "晴空塔是由日本建筑师安藤忠雄所设计",
+      "pinyin": "qíngkōngtǎ shì yóu Rìběn jiànzhùshī Āndùn Zhōngxióng suǒ shèjì",
+      "textKo": "스카이트리는 일본 건축가 안도 다다오가 설계했습니다",
+      "words": []
+    },
+    {
+      "index": 82,
+      "start": 306.56,
+      "end": 310.08,
+      "textZh": "其外形受传统日式五重塔所启发",
+      "pinyin": "qí wàixíng shòu chuántǒng Rìshì wǔchóng tǎ suǒ qǐfā",
+      "textKo": "그 외형은 전통 일본식 오층탑에서 영감을 받았습니다",
+      "words": []
+    },
+    {
+      "index": 83,
+      "start": 310.08,
+      "end": 316.12,
+      "textZh": "晴空塔的顶部设有两个观景台 分别位于350米和450米处",
+      "pinyin": "qíngkōngtǎ de dǐngbù shèyǒu liǎng gè guānjǐngtái fēnbié wèiyú sānbǎi wǔshí mǐ hé sìbǎi wǔshí mǐ chù",
+      "textKo": "스카이트리 꼭대기에는 350m와 450m 두 곳에 전망대가 설치되어 있습니다",
+      "words": []
+    },
+    {
+      "index": 84,
+      "start": 316.12,
+      "end": 319.12,
+      "textZh": "既是世界上最大的都会区",
+      "pinyin": "jì shì shìjiè shàng zuìdà de dūhuìqū",
+      "textKo": "세계 최대의 도시권일 뿐만 아니라",
+      "words": []
+    },
+    {
+      "index": 85,
+      "start": 319.12,
+      "end": 324.32,
+      "textZh": "也是GDP总量排名世界第一的都会区",
+      "pinyin": "yě shì GDP zǒngliàng páimíng shìjiè dìyī de dūhuìqū",
+      "textKo": "GDP 총량도 세계 1위인 도시권입니다",
+      "words": []
+    },
+    {
+      "index": 86,
+      "start": 324.32,
+      "end": 327.9,
+      "textZh": "东京的GDP约为1.07万亿美元",
+      "pinyin": "Dōngjīng de GDP yuē wéi yī diǎn líng qī wànyì měiyuán",
+      "textKo": "도쿄의 GDP는 약 1조 700억 달러입니다",
+      "words": []
+    },
+    {
+      "index": 87,
+      "start": 327.9,
+      "end": 329.92,
+      "textZh": "相当于韩国全国GDP总和",
+      "pinyin": "xiāngdāng yú Hánguó quánguó GDP zǒnghé",
+      "textKo": "이는 한국 전체 GDP 합계에 맞먹는 수치입니다",
+      "words": []
+    },
+    {
+      "index": 88,
+      "start": 329.92,
+      "end": 334.74,
+      "textZh": "银座 作为与巴黎湘西立社大街和纽约第五大道并列的",
+      "pinyin": "Yínzuò zuòwéi yǔ Bālí xiāng xī lìshè dàjiē hé Niǔyuē dì wǔ dàdào bìngliè de",
+      "textKo": "긴자는 파리 샹젤리제 거리, 뉴욕 5번가와 나란히 꼽히는",
+      "words": []
+    },
+    {
+      "index": 89,
+      "start": 334.74,
+      "end": 339.4,
+      "textZh": "世界三大奢华购物区之一",
+      "pinyin": "shìjiè sān dà shēhuá gòuwùqū zhī yī",
+      "textKo": "세계 3대 명품 쇼핑 지구 중 하나입니다",
+      "words": []
+    },
+    {
+      "index": 90,
+      "start": 339.4,
+      "end": 343.9,
+      "textZh": "银座以其高档购物场所和艺廊而闻名",
+      "pinyin": "Yínzuò yǐ qí gāodàng gòuwù chǎngsuǒ hé yìláng ér wénmíng",
+      "textKo": "긴자는 고급 쇼핑 시설과 갤러리로 유명합니다",
+      "words": []
+    },
+    {
+      "index": 91,
+      "start": 343.9,
+      "end": 347.88,
+      "textZh": "在这里能看到各大高档品牌的旗舰店",
+      "pinyin": "zài zhèlǐ néng kàndào gè dà gāodàng pǐnpái de qíjiàndiàn",
+      "textKo": "이곳에서는 각종 명품 브랜드의 플래그십 스토어를 볼 수 있습니다",
+      "words": []
+    },
+    {
+      "index": 92,
+      "start": 347.88,
+      "end": 351.46,
+      "textZh": "以及米其林星级餐厅",
+      "pinyin": "yǐjí mǐqílín xīngjí cāntīng",
+      "textKo": "그리고 미슐랭 스타 레스토랑도 있습니다",
+      "words": []
+    },
+    {
+      "index": 93,
+      "start": 351.46,
+      "end": 355.58,
+      "textZh": "有着极为密集的地下商场",
+      "pinyin": "yǒuzhe jí wéi mìjí de dìxià shāngchǎng",
+      "textKo": "매우 밀집된 지하 쇼핑몰도 있습니다",
+      "words": []
+    },
+    {
+      "index": 94,
+      "start": 355.58,
+      "end": 359.74,
+      "textZh": "以及丰富多彩的节日和文化活动",
+      "pinyin": "yǐjí fēngfù duōcǎi de jiérì hé wénhuà huódòng",
+      "textKo": "다채로운 축제와 문화 행사도 풍부합니다",
+      "words": []
+    },
+    {
+      "index": 95,
+      "start": 359.74,
+      "end": 362.78,
+      "textZh": "新宿是东京乃至日本人气最高",
+      "pinyin": "Xīnsù shì Dōngjīng nǎizhì Rìběn rénqì zuìgāo",
+      "textKo": "신주쿠는 도쿄는 물론 일본에서 가장 인기 있는",
+      "words": []
+    },
+    {
+      "index": 96,
+      "start": 362.78,
+      "end": 368.3,
+      "textZh": "最繁华的地区之一 这里集各大百货公司",
+      "pinyin": "zuì fánhuá de dìqū zhī yī zhèlǐ jí gè dà bǎihuò gōngsī",
+      "textKo": "가장 번화한 지역 중 하나로, 이곳에는 대형 백화점들이 모여 있습니다",
+      "words": []
+    },
+    {
+      "index": 97,
+      "start": 368.3,
+      "end": 373.52,
+      "textZh": "购物中心 餐厅 酒吧 夜总会和剧院于一体",
+      "pinyin": "gòuwù zhōngxīn cāntīng jiǔbā yèzǒnghuì hé jùyuàn yú yītǐ",
+      "textKo": "쇼핑센터, 레스토랑, 바, 나이트클럽, 극장이 한곳에 모여 있습니다",
+      "words": []
+    },
+    {
+      "index": 98,
+      "start": 373.52,
+      "end": 378.62,
+      "textZh": "还有以歌舞伎町为代表的夜晚娱乐中心",
+      "pinyin": "hái yǒu yǐ Gēwǔjìchōng wéi dàibiǎo de yèwǎn yúlè zhōngxīn",
+      "textKo": "또한 가부키초를 대표로 하는 밤의 유흥 중심가도 있습니다",
+      "words": []
+    },
+    {
+      "index": 99,
+      "start": 378.62,
+      "end": 382.92,
+      "textZh": "新宿还以其多样化的美食场景而闻名",
+      "pinyin": "Xīnsù hái yǐ qí duōyànghuà de měishí chǎngjǐng ér wénmíng",
+      "textKo": "신주쿠는 또한 다양한 미식 문화로도 유명합니다",
+      "words": []
+    },
+    {
+      "index": 100,
+      "start": 382.92,
+      "end": 388.22,
+      "textZh": "包括许多传统日式居酒屋 日本烧烤店",
+      "pinyin": "bāokuò xǔduō chuántǒng Rìshì jūjiǔwū Rìběn shāokǎodiàn",
+      "textKo": "수많은 전통 일본식 이자카야, 야키니쿠 가게 등을 포함하여",
+      "words": []
+    },
+    {
+      "index": 101,
+      "start": 388.22,
+      "end": 393.32,
+      "textZh": "以及高档餐厅和街头小吃摊",
+      "pinyin": "yǐjí gāodàng cāntīng hé jiētóu xiǎochī tān",
+      "textKo": "고급 레스토랑과 길거리 음식 노점까지 즐비합니다",
+      "words": []
+    },
+    {
+      "index": 102,
+      "start": 393.32,
+      "end": 398.6,
+      "textZh": "涉谷 作为著名的年轻文化区",
+      "pinyin": "Shèyù zuòwéi zhùmíng de niánqīng wénhuà qū",
+      "textKo": "시부야는 유명한 젊은이 문화 지구로서",
+      "words": []
+    },
+    {
+      "index": 103,
+      "start": 398.6,
+      "end": 404.18,
+      "textZh": "与原宿共同主导着东京的时尚和音乐潮流",
+      "pinyin": "yǔ Yuánsù gòngtóng zhǔdǎozhe Dōngjīng de shíshàng hé yīnyuè cháoliú",
+      "textKo": "하라주쿠와 함께 도쿄의 패션과 음악 트렌드를 주도합니다",
+      "words": []
+    },
+    {
+      "index": 104,
+      "start": 404.18,
+      "end": 408.44,
+      "textZh": "这里是东京的时尚之都 也是年轻一代的购物天堂",
+      "pinyin": "zhèlǐ shì Dōngjīng de shíshàng zhī dū yě shì niánqīng yīdài de gòuwù tiāntáng",
+      "textKo": "이곳은 도쿄의 패션 중심지이자 젊은 세대의 쇼핑 천국입니다",
+      "words": []
+    },
+    {
+      "index": 105,
+      "start": 408.44,
+      "end": 413.12,
+      "textZh": "池袋 东京都市区最知名的几个地标之一",
+      "pinyin": "Chíbuài Dōngjīng dūshìqū zuì zhīmíng de jǐ gè dìbiāo zhī yī",
+      "textKo": "이케부쿠로, 도쿄 도시권에서 가장 잘 알려진 명소 중 하나입니다",
+      "words": []
+    },
+    {
+      "index": 106,
+      "start": 413.12,
+      "end": 417.52,
+      "textZh": "这里被称为东京的第二中国城",
+      "pinyin": "zhèlǐ bèi chēngwéi Dōngjīng de dìèr Zhōngguóchéng",
+      "textKo": "이곳은 도쿄의 두 번째 차이나타운으로 불립니다",
+      "words": []
+    },
+    {
+      "index": 107,
+      "start": 417.52,
+      "end": 422.5,
+      "textZh": "池袋是众多华人聚居地 也是游客的主要旅游目的地",
+      "pinyin": "Chíbuài shì zhòngduō Huárén jūjūdì yě shì yóukè de zhǔyào lǚyóu mùdìdì",
+      "textKo": "이케부쿠로는 많은 화교가 거주하는 지역이자 관광객들의 주요 여행지입니다",
+      "words": []
+    },
+    {
+      "index": 108,
+      "start": 422.5,
+      "end": 426.92,
+      "textZh": "这里有多座大型购物中心",
+      "pinyin": "zhèlǐ yǒu duō zuò dàxíng gòuwù zhōngxīn",
+      "textKo": "이곳에는 여러 개의 대형 쇼핑몰이 있습니다",
+      "words": []
+    },
+    {
+      "index": 109,
+      "start": 426.92,
+      "end": 432.24,
+      "textZh": "包括西武百货店和东武百货店等大型百货公司",
+      "pinyin": "bāokuò Xīwǔ bǎihuòdiàn hé Dōngwǔ bǎihuòdiàn děng dàxíng bǎihuò gōngsī",
+      "textKo": "세이부 백화점과 도부 백화점 등 대형 백화점이 포함됩니다",
+      "words": []
+    },
+    {
+      "index": 110,
+      "start": 432.24,
+      "end": 437.62,
+      "textZh": "以及各种餐厅 咖啡厅 和书店",
+      "pinyin": "yǐjí gèzhǒng cāntīng kāfēitīng hé shūdiàn",
+      "textKo": "그리고 다양한 레스토랑, 카페, 서점도 있습니다",
+      "words": []
+    },
+    {
+      "index": 111,
+      "start": 437.62,
+      "end": 442.42,
+      "textZh": "秋叶原 作为日本乃至全球著名的二次元文化圣地",
+      "pinyin": "Qiūyèyuán zuòwéi Rìběn nǎizhì quánqiú zhùmíng de èrcìyuán wénhuà shèngdì",
+      "textKo": "아키하바라는 일본은 물론 전 세계적으로 유명한 오타쿠 문화의 성지입니다",
+      "words": []
+    },
+    {
+      "index": 112,
+      "start": 442.42,
+      "end": 447.42,
+      "textZh": "这里有着大量的电子店铺 漫画书店 动漫周边商品店",
+      "pinyin": "zhèlǐ yǒuzhe dàliàng de diànzǐ diànpù mànghuà shūdiàn dòngmàn zhōubiān shāngpǐn diàn",
+      "textKo": "이곳에는 전자 제품 매장, 만화 서점, 애니메이션 굿즈 샵이 즐비합니다",
+      "words": []
+    },
+    {
+      "index": 113,
+      "start": 447.42,
+      "end": 452.64,
+      "textZh": "以及视频游戏商店和女仆咖啡馆等",
+      "pinyin": "yǐjí shìpín yóuxì shāngdiàn hé nǚpú kāfēiguǎn děng",
+      "textKo": "그리고 비디오 게임 상점과 메이드 카페 등도 있습니다",
+      "words": []
+    },
+    {
+      "index": 114,
+      "start": 452.64,
+      "end": 458.18,
+      "textZh": "秋叶原还是许多电子产品和计算机组件的集中销售地",
+      "pinyin": "Qiūyèyuán hái shì xǔduō diànzǐ chǎnpǐn hé jìsuànjī zǔjiàn de jízhōng xiāoshòudì",
+      "textKo": "아키하바라는 또한 각종 전자 제품과 컴퓨터 부품의 집중 판매지이기도 합니다",
+      "words": []
+    },
+    {
+      "index": 115,
+      "start": 458.18,
+      "end": 462.14,
+      "textZh": "是技术爱好者的天堂",
+      "pinyin": "shì jìshù àihàozhě de tiāntáng",
+      "textKo": "기술 애호가들의 천국입니다",
+      "words": []
+    },
+    {
+      "index": 116,
+      "start": 462.14,
+      "end": 467.52,
+      "textZh": "秋叶原是日本流行文化的象征",
+      "pinyin": "Qiūyèyuán shì Rìběn liúxíng wénhuà de xiàngzhēng",
+      "textKo": "아키하바라는 일본 팝 문화의 상징입니다",
+      "words": []
+    },
+    {
+      "index": 117,
+      "start": 467.52,
+      "end": 472.46,
+      "textZh": "它融合了传统和现代的日本文化",
+      "pinyin": "tā rónghéle chuántǒng hé xiàndài de Rìběn wénhuà",
+      "textKo": "전통과 현대 일본 문화가 융합되어 있습니다",
+      "words": []
+    },
+    {
+      "index": 118,
+      "start": 472.46,
+      "end": 477.74,
+      "textZh": "秋叶园 被誉为二次元文化的起源之地",
+      "pinyin": "Qiūyèyuán bèiyù wéi èrcìyuán wénhuà de qǐyuán zhīdì",
+      "textKo": "아키하바라는 오타쿠 문화의 발원지로 불립니다",
+      "words": []
+    },
+    {
+      "index": 119,
+      "start": 477.74,
+      "end": 481.34,
+      "textZh": "东京迪士尼乐园",
+      "pinyin": "Dōngjīng Díshìní lèyuán",
+      "textKo": "도쿄 디즈니랜드",
+      "words": []
+    },
+    {
+      "index": 120,
+      "start": 477.74,
+      "end": 484.58,
+      "textZh": "东京迪士尼乐园于1983年开放 是亚洲第一个迪士尼乐园",
+      "pinyin": "Dōngjīng Díshìní lèyuán yú yījiǔbāsān nián kāifàng shì Yàzhōu dì yī gè Díshìní lèyuán",
+      "textKo": "도쿄 디즈니랜드는 1983년에 개장한 아시아 최초의 디즈니랜드입니다",
+      "words": []
+    },
+    {
+      "index": 121,
+      "start": 484.58,
+      "end": 488.72,
+      "textZh": "每年接待的旅客超过了3000万人",
+      "pinyin": "měi nián jiēdài de lǚkè chāoguòle sānqiān wàn rén",
+      "textKo": "매년 3천만 명 이상의 방문객을 맞이합니다",
+      "words": []
+    },
+    {
+      "index": 122,
+      "start": 488.72,
+      "end": 493.5,
+      "textZh": "是世界上最受欢迎的主题公园之一",
+      "pinyin": "shì shìjiè shàng zuì shòu huānyíng de zhǔtí gōngyuán zhī yī",
+      "textKo": "세계에서 가장 인기 있는 테마파크 중 하나입니다",
+      "words": []
+    },
+    {
+      "index": 123,
+      "start": 493.5,
+      "end": 497.26,
+      "textZh": "自建成开放以来 迄今为止接待旅客已超过7亿人次",
+      "pinyin": "zì jiànchéng kāifàng yǐlái qìjīn wéizhǐ jiēdài lǚkè yǐ chāoguò qī yì rércì",
+      "textKo": "개장 이후 현재까지 누적 방문객이 7억 명을 넘었습니다",
+      "words": []
+    },
+    {
+      "index": 124,
+      "start": 497.26,
+      "end": 501.06,
+      "textZh": "是世界上接待旅客历史总量最高的主题公园",
+      "pinyin": "shì shìjiè shàng jiēdài lǚkè lìshǐ zǒngliàng zuìgāo de zhǔtí gōngyuán",
+      "textKo": "역대 방문객 누계 기준으로 세계 최고의 테마파크입니다",
+      "words": []
+    },
+    {
+      "index": 125,
+      "start": 501.06,
+      "end": 506.48,
+      "textZh": "我们在城里寻觅到很多独特 有趣的地方",
+      "pinyin": "wǒmen zài chénglǐ xúnmìdào hěnduō dútè yǒuqù de dìfāng",
+      "textKo": "우리는 도시 안에서 많은 독특하고 흥미로운 곳들을 발견했습니다",
+      "words": []
+    },
+    {
+      "index": 126,
+      "start": 506.48,
+      "end": 511.0,
+      "textZh": "这里的夜景也是尤为特殊的",
+      "pinyin": "zhèlǐ de yèjǐng yě shì yóuwéi tèshū de",
+      "textKo": "이곳의 야경도 특히나 특별합니다",
+      "words": []
+    },
+    {
+      "index": 127,
+      "start": 511.0,
+      "end": 513.2,
+      "textZh": "来看看这里的景色吧",
+      "pinyin": "lái kànkan zhèlǐ de jǐngsè ba",
+      "textKo": "이곳의 풍경을 한번 감상해 보세요",
+      "words": []
+    }
+  ]
+}

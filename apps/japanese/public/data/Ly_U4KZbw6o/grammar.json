@@ -1,0 +1,68 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "その海外輸出には 大きな壁があります",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ている",
+    "example": "完成した人工盆栽は まるで生きているかのようです",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 61
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "植物検疫の問題なく 海外に輸出することができます",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 38
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "盆栽の美しさを 世界の人々に届けたいと思っています",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 26
+  },
+  {
+    "pattern": "〜たい",
+    "example": "有田焼の金属質感シリーズ リンを 世界に広めたいと考えています",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "完成した人工盆栽は 本物と見分けがつかないほどです",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 37
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "釉薬の調合から 焼き付けまで すべて手作業で行います",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 29
+  },
+  {
+    "pattern": "〜ため",
+    "example": "盆栽の形を再現するために 熟練した技術が必要です",
+    "explanationKo": "목적 또는 이유를 나타냅니다.",
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "東京 渋谷で開かれた ビジネス交流会",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "수동/가능 〜れる・〜られる",
+    "example": "使われる素材は 特殊な樹脂で本物に近い質感です",
+    "explanationKo": "수동 또는 가능 의미를 나타냅니다.",
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "사역 〜させる",
+    "example": "両社はこのプログラムを通じて 海外展開を加速させています",
+    "explanationKo": "행위를 시키거나 유도하는 의미를 나타냅니다.",
+    "segmentIndex": 47
+  }
+]

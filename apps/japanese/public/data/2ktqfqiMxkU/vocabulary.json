@@ -1,0 +1,222 @@
+[
+  {
+    "word": "万円",
+    "reading": "そのおきゅうりょうは ねんしゅうはおよそ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'万円'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 13,
+    "contextSentence": "そのお給料は 年収はおよそ1100万円"
+  },
+  {
+    "word": "万人",
+    "reading": "いま、にほんにすむがいこくじんはかこさい",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'万人'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "今、日本に住む外国人は過去最多の367万人"
+  },
+  {
+    "word": "頑張ります",
+    "reading": "がんばります いまにほんにすむがいこくじ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'頑張ります'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "頑張ります 今日本に住む外国人の人口は過去最多の367万人"
+  },
+  {
+    "word": "そんな中",
+    "reading": "そんななか にほんではたらくがいこくじん",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'そんな中'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 22,
+    "contextSentence": "そんな中 日本で働く外国人は"
+  },
+  {
+    "word": "ありがとうございます",
+    "reading": "うまくとれましたか ありがとうございます",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'ありがとうございます'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 109,
+    "contextSentence": "うまく撮れましたか ありがとうございます"
+  },
+  {
+    "word": "組のお客さんを乗せ",
+    "reading": "このひはごぜんちゅうだけでさんくみのおき",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'組のお客さんを乗せ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 119,
+    "contextSentence": "この日は午前中だけで3組のお客さんを乗せ"
+  },
+  {
+    "word": "頑張るよ",
+    "reading": "がんばるよ がんばるよ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'頑張るよ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 137,
+    "contextSentence": "頑張るよ 頑張るよ"
+  },
+  {
+    "word": "ポーランド人や",
+    "reading": "にほんのアニメをつくるゆめをかなえたポー",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ポーランド人や'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "日本のアニメを作る夢を叶えたポーランド人や"
+  },
+  {
+    "word": "ているのか",
+    "reading": "きゅうりょうはいくらでどんなせいかつをし",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ているのか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "給料はいくらでどんな生活をしているのか"
+  },
+  {
+    "word": "スタが調べてきました",
+    "reading": "それ、エヌスタがしらべてきました",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'スタが調べてきました'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "それ、Nスタが調べてきました"
+  },
+  {
+    "word": "去最多の",
+    "reading": "がんばります いまにほんにすむがいこくじ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'去最多の'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "頑張ります 今日本に住む外国人の人口は過去最多の367万人"
+  },
+  {
+    "word": "なぜ日本に住み",
+    "reading": "なぜにほんにすみ、どんなしごとをしてせい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'なぜ日本に住み'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "なぜ日本に住み、どんな仕事をして生活しているのか"
+  },
+  {
+    "word": "のか",
+    "reading": "なぜにほんにすみ、どんなしごとをしてせい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'のか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "なぜ日本に住み、どんな仕事をして生活しているのか"
+  },
+  {
+    "word": "徹底調査です",
+    "reading": "てっていちょうさです はたらくうえできに",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'徹底調査です'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "徹底調査です 働く上で気になるのがお給料"
+  },
+  {
+    "word": "万円と過去最高に",
+    "reading": "きょねんのにほんのへいきんつききゅうはお",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'万円と過去最高に'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "去年の日本の平均月給はおよそ33万円と過去最高に"
+  },
+  {
+    "word": "アメリカ",
+    "reading": "アメリカ・カリフォルニアしゅうからきた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'アメリカ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "アメリカ・カリフォルニア州から来た"
+  },
+  {
+    "word": "男性",
+    "reading": "アイティーかんけいのしごとをしているこち",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'男性'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 12,
+    "contextSentence": "IT関係の仕事をしているこちらの男性"
+  },
+  {
+    "word": "そのお給料は",
+    "reading": "そのおきゅうりょうは ねんしゅうはおよそ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'そのお給料は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 13,
+    "contextSentence": "そのお給料は 年収はおよそ1100万円"
+  },
+  {
+    "word": "年収はおよそ",
+    "reading": "そのおきゅうりょうは ねんしゅうはおよそ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'年収はおよそ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 13,
+    "contextSentence": "そのお給料は 年収はおよそ1100万円"
+  },
+  {
+    "word": "単純計算で月",
+    "reading": "たんじゅんけいさんでつききゅうじゅうまん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'単純計算で月'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 14,
+    "contextSentence": "単純計算で月90万円超えと"
+  }
+]

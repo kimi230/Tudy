@@ -1,0 +1,68 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "頑張ります 今日本に住む外国人の人口は過去最多の367万人",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜ている",
+    "example": "給料はいくらでどんな生活をしているのか",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "日本では夜11時でも安心して外を歩くことができるの",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 64
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "日本で仕事を探したいと思っているの",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 53
+  },
+  {
+    "pattern": "〜たい",
+    "example": "日本で仕事を探したいと思っているの",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 53
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "奨学金をもうユーロがないので",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 32
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "アメリカ・カリフォルニア州から来た",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "なぜ日本を選んだのでしょうか",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "給料はいくらでどんな生活をしているのか",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "수동/가능 〜れる・〜られる",
+    "example": "日本ではもっと安く作れるわ",
+    "explanationKo": "수동 또는 가능 의미를 나타냅니다.",
+    "segmentIndex": 61
+  },
+  {
+    "pattern": "사역 〜させる",
+    "example": "マリナさんを夢中にさせる",
+    "explanationKo": "행위를 시키거나 유도하는 의미를 나타냅니다.",
+    "segmentIndex": 54
+  }
+]

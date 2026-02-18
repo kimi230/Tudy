@@ -1,0 +1,62 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "皆さんと議論していきたいと思うんですが、そのポスターなどがこちらですね。",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ている",
+    "example": "ブレずに働く、などとなっているんですけれども",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "「日本を守ることはあなたを守ることから始まる」",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 13
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "皆さんと議論していきたいと思うんですが、そのポスターなどがこちらですね。",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜たい",
+    "example": "皆さんと議論していきたいと思うんですが、そのポスターなどがこちらですね。",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "印象に残らなきゃいけないんですけど",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "それから中道改革連合は「生活者ファースト」",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "〜ため",
+    "example": "そして日本共産党は「国民のために」",
+    "explanationKo": "목적 또는 이유를 나타냅니다.",
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "さあ次のページどうなっていますでしょうか。",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 38
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "ポスターって本当にとにかく目に飛び込んできて",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 2
+  }
+]

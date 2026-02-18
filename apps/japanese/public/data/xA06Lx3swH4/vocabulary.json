@@ -1,0 +1,265 @@
+{
+  "videoId": "xA06Lx3swH4",
+  "vocabulary": [
+    {
+      "word": "敬語",
+      "reading": "けいご",
+      "meaning": "경어, 존댓말",
+      "partOfSpeech": "명사",
+      "level": "N3",
+      "exampleJa": "社会人になると敬語は必須ですね。",
+      "exampleKo": "사회인이 되면 경어는 필수입니다.",
+      "segmentIndex": 2
+    },
+    {
+      "word": "尊敬語",
+      "reading": "そんけいご",
+      "meaning": "존경어 (상대방의 동작을 높이는 표현)",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleJa": "課長がおっしゃった通りに進めてまいります。",
+      "exampleKo": "과장님이 말씀하신 대로 진행하겠습니다.",
+      "segmentIndex": 13
+    },
+    {
+      "word": "謙譲語",
+      "reading": "けんじょうご",
+      "meaning": "겸양어 (자신을 낮추어 표현하는 말)",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleJa": "私が書類を拝見しました。",
+      "exampleKo": "제가 서류를 삼가 봤습니다.",
+      "segmentIndex": 13
+    },
+    {
+      "word": "目上",
+      "reading": "めうえ",
+      "meaning": "윗사람, 상위 직급",
+      "partOfSpeech": "명사",
+      "level": "N3",
+      "exampleJa": "目上の人とお話しするときに敬語は必須ですね。",
+      "exampleKo": "윗사람과 이야기할 때 경어는 필수입니다.",
+      "segmentIndex": 2
+    },
+    {
+      "word": "人間関係",
+      "reading": "にんげんかんけい",
+      "meaning": "인간관계",
+      "partOfSpeech": "명사",
+      "level": "N3",
+      "exampleJa": "社会の中で人間関係を築くためにも敬語は身につけておきたいものです。",
+      "exampleKo": "사회 속에서 인간관係를 쌓기 위해서도 경어는 익혀두고 싶습니다.",
+      "segmentIndex": 6
+    },
+    {
+      "word": "身につける",
+      "reading": "みにつける",
+      "meaning": "익히다, 습득하다",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "敬語は身につけておきたいものです。",
+      "exampleKo": "경어는 익혀두고 싶은 것입니다.",
+      "segmentIndex": 6
+    },
+    {
+      "word": "おっしゃる",
+      "reading": "おっしゃる",
+      "meaning": "말씀하시다 (言う의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "課長がおっしゃった通りに進めてまいります。",
+      "exampleKo": "과장님이 말씀하신 대로 진행하겠습니다.",
+      "segmentIndex": 35
+    },
+    {
+      "word": "申し上げる",
+      "reading": "もうしあげる",
+      "meaning": "말씀드리다 (言う의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "申し上げた通りに進めてまいります。",
+      "exampleKo": "말씀드린 대로 진행하겠습니다.",
+      "segmentIndex": 38
+    },
+    {
+      "word": "ご存知",
+      "reading": "ごぞんじ",
+      "meaning": "알고 계시다 (知る의 존경어)",
+      "partOfSpeech": "명사",
+      "level": "N3",
+      "exampleJa": "伊藤さんが退職されることをご存知でしたか。",
+      "exampleKo": "이토 씨가 퇴직하신다는 것을 알고 계셨습니까?",
+      "segmentIndex": 41
+    },
+    {
+      "word": "存じ上げる",
+      "reading": "ぞんじあげる",
+      "meaning": "알다 (知る의 겸양어, 인물에 대해 사용)",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleJa": "伊藤さんが退職されることを存じ上げておりました。",
+      "exampleKo": "이토 씨가 퇴직하신다는 것을 알고 있었습니다.",
+      "segmentIndex": 43
+    },
+    {
+      "word": "いたす",
+      "reading": "いたす",
+      "meaning": "하다 (する의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "次回の会議は参加いたします。",
+      "exampleKo": "다음 회의는 참가하겠습니다.",
+      "segmentIndex": 48
+    },
+    {
+      "word": "召し上がる",
+      "reading": "めしあがる",
+      "meaning": "드시다 (食べる·飲む의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "昼食は召し上がりましたか。",
+      "exampleKo": "점심은 드셨습니까?",
+      "segmentIndex": 51
+    },
+    {
+      "word": "いただく",
+      "reading": "いただく",
+      "meaning": "먹다·마시다·받다 (食べる의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N4",
+      "exampleJa": "昼食をいただきました。",
+      "exampleKo": "점심을 먹었습니다.",
+      "segmentIndex": 56
+    },
+    {
+      "word": "二重敬語",
+      "reading": "にじゅうけいご",
+      "meaning": "이중경어 (경어를 이중으로 사용하는 잘못된 표현)",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleJa": "お召し上がりはおとご覧になられるで二重敬語になります。",
+      "exampleKo": "'お召し上がり'는 '御(お)'와 '召し上がる'로 이중경어입니다.",
+      "segmentIndex": 53
+    },
+    {
+      "word": "お伝えになる",
+      "reading": "おつたえになる",
+      "meaning": "전달하시다 (伝える의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleJa": "人事異動の件、田中さんにお伝えになりましたか。",
+      "exampleKo": "인사이동 건, 다나카 씨에게 전달하셨습니까?",
+      "segmentIndex": 59
+    },
+    {
+      "word": "申し伝える",
+      "reading": "もうしつたえる",
+      "meaning": "전달하다 (伝える의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleJa": "人事異動の件、田中さんに申し伝えます。",
+      "exampleKo": "인사이동 건, 다나카 씨에게 전달하겠습니다.",
+      "segmentIndex": 63
+    },
+    {
+      "word": "いらっしゃる",
+      "reading": "いらっしゃる",
+      "meaning": "계시다·가시다·오시다 (いる·行く·来る의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "本日会社にいらっしゃいますか。",
+      "exampleKo": "오늘 회사에 계십니까?",
+      "segmentIndex": 65
+    },
+    {
+      "word": "おる",
+      "reading": "おる",
+      "meaning": "있다 (いる의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "本日会社におります。",
+      "exampleKo": "오늘 회사에 있겠습니다.",
+      "segmentIndex": 67
+    },
+    {
+      "word": "うかがう",
+      "reading": "うかがう",
+      "meaning": "방문하다·여쭙다·듣다 (行く·来る·聞く의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "展示会にうかがいます。",
+      "exampleKo": "전시회에 찾아뵙겠습니다.",
+      "segmentIndex": 72
+    },
+    {
+      "word": "ご覧になる",
+      "reading": "ごらんになる",
+      "meaning": "보시다 (見る의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "資料をご覧になりましたか。",
+      "exampleKo": "자료를 보셨습니까?",
+      "segmentIndex": 75
+    },
+    {
+      "word": "拝見する",
+      "reading": "はいけんする",
+      "meaning": "삼가 보다 (見る·聞く의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleJa": "資料を拝見しました。",
+      "exampleKo": "자료를 삼가 봤습니다.",
+      "segmentIndex": 80
+    },
+    {
+      "word": "お越しになる",
+      "reading": "おこしになる",
+      "meaning": "오시다 (来る의 존경어)",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleJa": "お気をつけてお越しください。",
+      "exampleKo": "조심히 오세요.",
+      "segmentIndex": 91
+    },
+    {
+      "word": "参る",
+      "reading": "まいる",
+      "meaning": "가다·오다 (行く·来る의 겸양어)",
+      "partOfSpeech": "동사",
+      "level": "N3",
+      "exampleJa": "御社へ10時に参ります。",
+      "exampleKo": "귀사에 10시에 가겠습니다.",
+      "segmentIndex": 93
+    },
+    {
+      "word": "御社",
+      "reading": "おんしゃ",
+      "meaning": "귀사 (상대방의 회사를 높여 부르는 말)",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleJa": "御社へ10時に伺います。",
+      "exampleKo": "귀사에 10시에 찾아뵙겠습니다.",
+      "segmentIndex": 94
+    },
+    {
+      "word": "不快感",
+      "reading": "ふかいかん",
+      "meaning": "불쾌감",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleJa": "相手に不快感を与えていることがあります。",
+      "exampleKo": "상대방에게 불쾌감을 줄 수 있습니다.",
+      "segmentIndex": 102
+    },
+    {
+      "word": "信用を損ねる",
+      "reading": "しんようをそこねる",
+      "meaning": "신용을 손상시키다",
+      "partOfSpeech": "동사구",
+      "level": "N2",
+      "exampleJa": "会社の信用を損ねてしまう可能性もあります。",
+      "exampleKo": "회사의 신용을 손상시킬 가능성도 있습니다.",
+      "segmentIndex": 108
+    }
+  ]
+}

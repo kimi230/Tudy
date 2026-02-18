@@ -1,0 +1,162 @@
+[
+  {
+    "type": "teineigo",
+    "originalText": "日本代表と喧嘩されてるんです",
+    "reading": "にほんだいひょうとけんかされてるんです",
+    "baseForm": "日本代表と喧嘩されてるん",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ライドですよねそれが全然足りてない",
+    "reading": "ライドですよねそれがぜんぜんたりてない",
+    "baseForm": "ライドよねそれが全然足りてない",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "casual",
+    "originalText": "自分に近づいてくる人が自分が持ってるお金に近づいてきてるのかももはやわからなくな",
+    "reading": "じぶんにちかづいてくるひとがじぶんがもってるおかねにちかづいてきてるのかももはや",
+    "baseForm": "自分に近づいてくる人が自分が持ってるお金",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "casual",
+    "originalText": "人間関係崩したこともありましたしお金で",
+    "reading": "にんげんかんけいくずしたこともありましたしおかねで",
+    "baseForm": "人間関係崩したこともありましたしお金で",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "視聴者のためにサインをいただくことは可能でしょうか",
+    "reading": "しちょうしゃのためにサインをいただくことはかのうでしょうか",
+    "baseForm": "視聴者のためにサインをいただくことは可能",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "casual",
+    "originalText": "今日は八村さんでこの場所っていう不思議な機会なので",
+    "reading": "きょうはやむらさんでこのばしょっていうふしぎなきかいなので",
+    "baseForm": "今日は八村さんでこの場所っていう不思議な",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "普段スポーツ番組とかで話さないようなお話できたらなと思って",
+    "reading": "ふだんスポーツばんぐみとかではなさないようなおはなしできたらなとおもって",
+    "baseForm": "普段スポーツ番組とかで話さないようなお話",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "よろしくお願いします 今日話し方があったトピックの一つが",
+    "reading": "よろしくおねがいします きょうはなしかたがあったトピックのひとつが",
+    "baseForm": "よろしくお願いし 今日話し方があったトピ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "職業とかビジネスとしてのバスケットボール選手あるいはアスリートみたいな話なんです",
+    "reading": "しょくぎょうとかビジネスとしてのバスケットボールせんしゅあるいはアスリートみたい",
+    "baseForm": "職業とかビジネスとしてのバスケットボール",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "teineigo",
+    "originalText": "っていうのはみんなスポーツ選手に憧れる人が多いわけですが",
+    "reading": "っていうのはみんなスポーツせんしゅにあこがれるひとがおおいわけですが",
+    "baseForm": "っていうのはみんなスポーツ選手に憧れる人",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "teineigo",
+    "originalText": "同時にこれほどいろんな意味で過酷な職業もないじゃないですか",
+    "reading": "どうじにこれほどいろんないみでかこくなしょくぎょうもないじゃないですか",
+    "baseForm": "同時にこれほどいろんな意味で過酷な職業も",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "当然肉体的精神的に過酷っていうのは誰にもわかると思うんですが",
+    "reading": "とうぜんにくたいてきせいしんてきにかこくっていうのはだれにもわかるとおもうんです",
+    "baseForm": "当然肉体的精神的に過酷っていうのは誰にも",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "経済的にもすごい大変だっていう話を聞いて",
+    "reading": "けいざいてきにもすごいたいへんだっていうはなしをきいて",
+    "baseForm": "経済的にもすごい大変だっていう話を聞いて",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "ある記事だとNBA選手の半分以上が引退後5年以上に破産してるとか",
+    "reading": "あるきじだとNBAせんしゅのはんぶんいじょうがいんたいご5ねんいじょうにはさんし",
+    "baseForm": "ある記事だとNBA選手の半分以上が引退後",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "他の領域でもアメフトの選手が半分以上",
+    "reading": "ほかのりょういきでもアメフトのせんしゅがはんぶんいじょう",
+    "baseForm": "他の領域でもアメフトの選手が半分以上",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "引退後2年以上に破産または経済的困窮みたいなことが書かれていて",
+    "reading": "いんたいご2ねんいじょうにはさんまたはけいざいてきこんきゅうみたいなことがかかれ",
+    "baseForm": "引退後2年以上に破産または経済的困窮みた",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 15
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "videoId": "gZRPAJPEBiM",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 10,
+      "summary": "'横須賀目線'로 시작해 '賛成党は先ほど会見を行いまして発表されました。'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "動かすぞ",
+        "維新は",
+        "維新が"
+      ]
+    },
+    {
+      "section": "핵심 전개",
+      "startSegment": 10,
+      "endSegment": 37,
+      "summary": "'賛成党は先ほど会見を行いまして発表されました。'로 시작해 'さあ次めくりましょう。高市総理ですね、ここにもこ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "すよね",
+        "枚目めくります",
+        "高市総理"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 37,
+      "endSegment": 49,
+      "summary": "'さあ次めくりましょう。高市総理ですね、ここにもこ'로 시작해 '中開いたら文字いっぱいなんですよね。'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "高市総理ですね",
+        "次のページも高市総理"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "そして国民民主党は「もっと手取りを増",
+      "type": "transition",
+      "segmentIndex": 9,
+      "role": "연속 전개를 이어갑니다."
+    },
+    {
+      "expression": "つまり与党として維新がアクセル役にな",
+      "type": "summary",
+      "segmentIndex": 19,
+      "role": "핵심 요지를 재정리합니다."
+    },
+    {
+      "expression": "横須賀目線",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "いろんな公約集を見てますと、やっぱり",
+      "type": "transition",
+      "segmentIndex": 16,
+      "role": "중간 전개 전환"
+    }
+  ]
+}

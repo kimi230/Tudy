@@ -1,0 +1,68 @@
+{
+  "videoId": "2ktqfqiMxkU",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 23,
+      "summary": "'今、日本に住む外国人は過去最多の367万人'로 시작해 'なぜ日本を選んだのでしょうか'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "万円",
+        "万人",
+        "頑張ります"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 23,
+      "endSegment": 69,
+      "summary": "'なぜ日本を選んだのでしょうか'로 시작해 '声優の仕事を日本で見つけられたら最高だわ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 69,
+      "endSegment": 124,
+      "summary": "'声優の仕事を日本で見つけられたら最高だわ'로 시작해 'しっかりとエネルギーをチャージしていきます'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "ありがとうございます",
+        "組のお客さんを乗せ"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 124,
+      "endSegment": 154,
+      "summary": "'しっかりとエネルギーをチャージしていきます'로 시작해 '日本で働いていました ありがとうございました'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "頑張るよ"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "まずは外国人観光客に聞いてみました",
+      "type": "enumeration",
+      "segmentIndex": 10,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "ですね そして最大の魅力は",
+      "type": "transition",
+      "segmentIndex": 63,
+      "role": "연속 전개를 이어갑니다."
+    },
+    {
+      "expression": "しかし節約生活を楽しく送っているそう",
+      "type": "contrast",
+      "segmentIndex": 34,
+      "role": "대조를 통해 의미를 부각합니다."
+    },
+    {
+      "expression": "今、日本に住む外国人は過去最多の36",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    }
+  ]
+}

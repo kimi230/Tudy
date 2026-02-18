@@ -1,0 +1,137 @@
+[
+  {
+    "type": "tone_sandhi",
+    "originalText": "想到",
+    "pinyin": "xiǎng dào → xiáng dào",
+    "toneChange": "3+4 → half-3+4",
+    "explanationKo": "3성(xiǎng) 뒤에 4성(dào)이 올 때, 3성이 '반3성(half-third)'으로 발음됨. 완전히 내렸다 올라오지 않고 낮게만 내림.",
+    "practiceGuide": "xiǎng을 완전히 내렸다 올리지 않고 낮게만 발음한 뒤 dào로 이어감.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "不必",
+    "pinyin": "bùbì → búbì",
+    "toneChange": "4+4 → 2+4",
+    "explanationKo": "不(bù, 4성)는 4성 앞에서 2성(bú)으로 변함. 不의 성조 변화 규칙: 4성 앞에서만 2성으로 바뀜.",
+    "practiceGuide": "bú bì 로 발음. 不를 올려서 읽고 必를 강하게 내려서 읽음.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "不需要",
+    "pinyin": "bù xūyào → bú xūyào",
+    "toneChange": "4+1 → 2+1 (不 before 1st tone)",
+    "explanationKo": "不(bù)는 보통 4성이지만 1성(xū) 앞에서도 2성으로 변함. 4성 앞에서만 변한다는 규칙의 예외처럼 보이지만, 실제로는 일상 발화에서 자연스럽게 2성으로 발음됨.",
+    "practiceGuide": "bú xūyào 로 발음. 不를 살짝 올려서 읽음.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "tone_change_yi",
+    "originalText": "一支舞",
+    "pinyin": "yī zhī wǔ → yì zhī wǔ",
+    "toneChange": "1 → 4 (before 1st tone)",
+    "explanationKo": "一(yī)는 1성(zhī) 앞에서 4성(yì)으로 변함. 一의 성조 변화 규칙: 4성 앞→2성, 1/2/3성 앞→4성.",
+    "practiceGuide": "yì zhī wǔ 로 발음. 一를 강하게 내려서 읽음.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "可能",
+    "pinyin": "kěnéng → kénéng",
+    "toneChange": "3+2 → half-3+2",
+    "explanationKo": "可(3성)가 能(2성) 앞에서 반3성으로 발음됨. 3성이 비3성 뒤에 올 때는 완전한 3성 곡선 없이 낮은 음에서 머뭄.",
+    "practiceGuide": "kě를 낮게만 발음하고 néng으로 자연스럽게 이어감.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "了解",
+    "pinyin": "liǎojiě → liáojiě",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "了(3성)가 解(3성) 앞에서 2성으로 변함. 연속 3성의 첫 번째 글자가 2성으로 바뀌는 규칙.",
+    "practiceGuide": "liáo jiě 로 발음. 了를 올려서 읽음.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "tone_change_bu",
+    "originalText": "不是",
+    "pinyin": "bù shì → bú shì",
+    "toneChange": "4+4 → 2+4",
+    "explanationKo": "不(bù, 4성)는 4성 앞에서 2성(bú)으로 변함. 谈判不是争斗, 那不是个好标准 등에서 반복적으로 나타나는 패턴.",
+    "practiceGuide": "bú shì 로 발음. 자연스럽게 올렸다가 내리는 리듬.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "neutral_tone",
+    "originalText": "什么",
+    "pinyin": "shénme (么 is neutral)",
+    "toneChange": "2+0 (경성)",
+    "explanationKo": "么(me)는 의문사나 어기조사로 쓰일 때 항상 경성으로 발음됨. 什么(무엇), 怎么(어떻게), 那么(그렇게) 등에서 모두 경성.",
+    "practiceGuide": "shén·me 로 발음. 么를 가볍고 짧게 읽음. 강세 없음.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "可以",
+    "pinyin": "kěyǐ → kéyǐ",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "可(3성)가 以(3성) 앞에서 2성으로 변함. 비즈니스 협상 맥락에서 자주 등장하는 허가/가능 표현.",
+    "practiceGuide": "ké yǐ 로 발음. 첫 글자를 올려서 읽음.",
+    "segmentIndex": 64
+  },
+  {
+    "type": "rhythm",
+    "originalText": "恐惧、焦虑、愤怒",
+    "pinyin": "kǒngjù, jiāolǜ, fènnù",
+    "toneChange": "3+4 / 1+4 / 4+4 — rhythmic listing",
+    "explanationKo": "세 감정 단어를 쉼표로 열거하는 리듬 패턴. 각 단어가 두 음절이며 비슷한 강도로 발음됨. 강조를 위한 점층적 나열.",
+    "practiceGuide": "각 단어를 같은 리듬으로 읽되, 짧은 멈춤(쉼표)으로 구분. kǒngjù / jiāolǜ / fènnù.",
+    "segmentIndex": 45
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "只要",
+    "pinyin": "zhǐyào → zhíyào",
+    "toneChange": "3+4 → half-3+4",
+    "explanationKo": "只(3성)가 要(4성) 앞에서 반3성으로 발음됨. '~하기만 하면 된다'는 뜻의 자주 쓰이는 조건 표현.",
+    "practiceGuide": "zhǐ를 낮게만 발음하고 yào를 강하게 내리면서 이어감.",
+    "segmentIndex": 66
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "我们能",
+    "pinyin": "wǒmen néng → wómen néng",
+    "toneChange": "3+0+2 → half-3+0+2",
+    "explanationKo": "我(3성)가 2성인 能(néng) 앞에 있을 때, 我는 반3성으로 발음됨. 们(men)은 경성. 연속 발화에서 자연스럽게 처리됨.",
+    "practiceGuide": "wǒ를 낮게 발음하고 ·men을 가볍게, néng을 올리며 이어감.",
+    "segmentIndex": 67
+  },
+  {
+    "type": "rhythm",
+    "originalText": "第一…第二…第三",
+    "pinyin": "dì yī... dì èr... dì sān",
+    "toneChange": "4+1 / 4+4 / 4+1 — structured enumeration",
+    "explanationKo": "TED 강연에서 세 가지 협상 준비 원칙을 열거하는 구조. 第一(첫째), 第二(둘째), 第三(셋째)는 각각 4성+다음 성조로 강하게 시작. 논리적 전개를 알리는 신호.",
+    "practiceGuide": "각 第는 4성으로 강하게 내리고 숫자로 이어감. dì yī / dì èr / dì sān.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "neutral_tone",
+    "originalText": "准备",
+    "pinyin": "zhǔnbèi",
+    "toneChange": "3+4",
+    "explanationKo": "准备(zhǔnbèi)는 경성이 없으나 빠른 발화에서 bèi가 짧아질 수 있음. 협상 준비를 언급하는 핵심 단어로 강연 전체에 걸쳐 반복됨.",
+    "practiceGuide": "zhǔn을 낮게 발음하고 bèi를 강하게 내림. 반복 등장하므로 덩어리로 연습.",
+    "segmentIndex": 43
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "也可以",
+    "pinyin": "yě kěyǐ → yě kéyǐ",
+    "toneChange": "3+3+3 → half-3+2+3",
+    "explanationKo": "연속 3성 세 글자(也可以)에서: 也는 반3성, 可는 2성으로 변하고 以만 원래 3성을 유지. 연속 3성 변조의 복잡한 실제 사례.",
+    "practiceGuide": "yě(낮게) kéyǐ(올렸다 내리는 2성+3성)로 발음. 세 글자를 한 흐름으로 이어서 읽음.",
+    "segmentIndex": 64
+  }
+]

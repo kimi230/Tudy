@@ -1,0 +1,110 @@
+[
+  {
+    "pattern": "〜と言われている",
+    "reading": "〜といわれている",
+    "explanation": "Passive progressive form expressing something commonly said or reported. Used for widely accepted facts or popular beliefs.",
+    "explanationKo": "일반적으로 ~라고 알려져 있다, ~라고 한다. 수동 진행형으로 널리 알려진 사실이나 통설을 나타냄",
+    "examples": ["延べ95億人が移動すると言われている春節。"],
+    "difficulty": "intermediate",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "〜から〜まで（期間・範囲）",
+    "reading": "〜から〜まで",
+    "explanation": "Indicates range from a starting point to an end point, for both time and extent.",
+    "explanationKo": "~부터 ~까지. 시간이나 범위의 시작점과 끝점을 나타냄",
+    "examples": ["今年は23日までの急連休で"],
+    "difficulty": "beginner",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "〜に比べ",
+    "reading": "〜にくらべ",
+    "explanation": "Comparison structure meaning 'compared to ~'. The te-form of 比べる used to introduce a comparison.",
+    "explanationKo": "~에 비해, ~와 비교해서. 비교 기준을 나타내는 표현",
+    "examples": ["去年の同じ時期に比べ、およそ54%を減りました。"],
+    "difficulty": "intermediate",
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "〜に変わらず",
+    "reading": "〜にかわらず",
+    "explanation": "Means 'without changing from ~' or 'as before ~'. Used to indicate something remains the same as a previous state.",
+    "explanationKo": "~와 변함없이, ~와 마찬가지로. 이전 상태와 변화가 없음을 나타냄",
+    "examples": ["こちらのうどん店には以前と変わらず多くの観光客が並んでいます。"],
+    "difficulty": "intermediate",
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "〜（の）でしょうか",
+    "reading": "〜（の）でしょうか",
+    "explanation": "A polite rhetorical or genuine question form. Used in broadcasts and formal speech to pose a question about a current situation.",
+    "explanationKo": "~일까요? 정중한 의문 표현. 방송이나 공식 발화에서 현황에 대해 의문을 제기할 때 사용",
+    "examples": ["その観光地は今年どうなっているのでしょうか。"],
+    "difficulty": "beginner",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜に対応できるような〜",
+    "reading": "〜にたいおうできるような〜",
+    "explanation": "Pattern meaning 'something that can handle/meet ~'. Uses ような to modify a noun with a potential verb clause.",
+    "explanationKo": "~에 대응할 수 있는 ~. 가능형 + ような + 명사의 구조로 명사를 수식",
+    "examples": ["全部の国に対応できるようなものを売りたいなと。"],
+    "difficulty": "upper-intermediate",
+    "segmentIndex": 35
+  },
+  {
+    "pattern": "〜ていただいている",
+    "reading": "〜ていただいている",
+    "explanation": "Humble form combining the te-form of a verb with いただく (to humbly receive). Expresses gratitude toward others' actions that benefit the speaker.",
+    "explanationKo": "~해 받고 있다 (겸양어). 상대방의 행동에 감사함을 표현하는 겸양 표현",
+    "examples": ["SNSなのでいろいろ取り上げていただいているみたいでして"],
+    "difficulty": "upper-intermediate",
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "〜だったり〜だったり",
+    "reading": "〜だったり〜だったり",
+    "explanation": "Used to list examples without being exhaustive. Equivalent to 'such as ~ and ~, etc.' The pattern implies there are more unstated examples.",
+    "explanationKo": "~이기도 하고 ~이기도 하고. 여러 예시를 나열할 때 사용하며 다른 것도 있음을 암시",
+    "examples": ["ベトナムだったりタイの方、韓国、台湾もあった方ですし"],
+    "difficulty": "intermediate",
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "〜によると",
+    "reading": "〜によると",
+    "explanation": "Means 'according to ~'. Used to cite a source of information, typically in news reporting.",
+    "explanationKo": "~에 따르면, ~에 의하면. 정보 출처를 밝힐 때 사용하며 뉴스에서 자주 등장",
+    "examples": ["鎌倉市によると、観光案内所を利用する中国人観光客は、およそ4分の1に減っているそうです。"],
+    "difficulty": "intermediate",
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "〜そうです（伝聞）",
+    "reading": "〜そうです（でんぶん）",
+    "explanation": "Hearsay form placed at the end of a sentence to indicate information obtained from an external source ('I heard that...', 'apparently...').",
+    "explanationKo": "~라고 합니다 (전문). 외부 정보를 전달할 때 사용하는 전문(伝聞) 표현",
+    "examples": ["観光案内所を利用する中国人観光客は、およそ4分の1に減っているそうです。"],
+    "difficulty": "intermediate",
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "〜ていますが（逆接）",
+    "reading": "〜ていますが（ぎゃくせつ）",
+    "explanation": "The が at the end of a clause indicates contrast or sets up a contrast with following content ('although...', 'however...').",
+    "explanationKo": "~이지만 (역접). 앞 내용과 대조되는 내용을 이어받거나 뒤에 대조적 내용이 올 것을 예고",
+    "examples": ["おととしは、団体の中国人観光客が訪れていましたが。"],
+    "difficulty": "beginner",
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "〜てから〜する",
+    "reading": "〜てから〜する",
+    "explanation": "Indicates sequential actions: 'after doing ~, then do ~'. The second action takes place only after the first is completed.",
+    "explanationKo": "~하고 나서 ~하다. 시간적 순서를 나타내며 앞의 행동이 끝난 후 다음 행동을 함을 표현",
+    "examples": ["営業が終わってから、じっくり探すといいます。"],
+    "difficulty": "beginner",
+    "segmentIndex": 33
+  }
+]

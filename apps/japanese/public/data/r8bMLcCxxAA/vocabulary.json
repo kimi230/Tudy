@@ -1,0 +1,245 @@
+{
+  "videoId": "r8bMLcCxxAA",
+  "vocabulary": [
+    {
+      "word": "ローライダー",
+      "reading": "ローライダー",
+      "meaning": "로우라이더 (낮게 개조된 자동차, 치카노 문화의 상징)",
+      "partOfSpeech": "명사",
+      "jlptLevel": null,
+      "exampleSentence": "ローライダーはチカノコミュニティの中でのイコンとして知られています。",
+      "exampleReading": "ローライダーはチカノコミュニティのなかでのイコンとしてしられています。",
+      "exampleTranslation": "로우라이더는 치카노 커뮤니티 안에서의 아이콘으로 알려져 있습니다."
+    },
+    {
+      "word": "チカノ",
+      "reading": "チカノ",
+      "meaning": "치카노 (멕시코계 미국인, 특히 그 문화 정체성을 가진 사람)",
+      "partOfSpeech": "명사",
+      "jlptLevel": null,
+      "exampleSentence": "チカノの文化は1940年代から始まりました。",
+      "exampleReading": "チカノのぶんかは1940ねんだいからはじまりました。",
+      "exampleTranslation": "치카노 문화는 1940년대부터 시작되었습니다."
+    },
+    {
+      "word": "コミュニティ",
+      "reading": "コミュニティ",
+      "meaning": "커뮤니티 (공동체)",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N2",
+      "exampleSentence": "チカノコミュニティの中でローライダーはイコンです。",
+      "exampleReading": "チカノコミュニティのなかでローライダーはイコンです。",
+      "exampleTranslation": "치카노 커뮤니티 안에서 로우라이더는 아이콘입니다."
+    },
+    {
+      "word": "文化",
+      "reading": "ぶんか",
+      "meaning": "문화",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N3",
+      "exampleSentence": "日本のチカノの文化の未来はどうなるのでしょうか。",
+      "exampleReading": "にほんのチカノのぶんかのみらいはどうなるのでしょうか。",
+      "exampleTranslation": "일본 치카노 문화의 미래는 어떻게 될까요?"
+    },
+    {
+      "word": "継続",
+      "reading": "けいぞく",
+      "meaning": "계속, 지속",
+      "partOfSpeech": "명사・する동사",
+      "jlptLevel": "N2",
+      "exampleSentence": "戦い、継続、美容を表現するために作品を作りました。",
+      "exampleReading": "たたかい、けいぞく、びようをひょうげんするためにさくひんをつくりました。",
+      "exampleTranslation": "투쟁, 지속, 아름다움을 표현하기 위해 작품을 만들었습니다."
+    },
+    {
+      "word": "表現する",
+      "reading": "ひょうげんする",
+      "meaning": "표현하다",
+      "partOfSpeech": "동사 (する동사)",
+      "jlptLevel": "N3",
+      "exampleSentence": "彼は作品を通じて文化を表現しています。",
+      "exampleReading": "かれはさくひんをつうじてぶんかをひょうげんしています。",
+      "exampleTranslation": "그는 작품을 통해 문화를 표현하고 있습니다."
+    },
+    {
+      "word": "興味がある",
+      "reading": "きょうみがある",
+      "meaning": "흥미가 있다, 관심이 있다",
+      "partOfSpeech": "관용구",
+      "jlptLevel": "N4",
+      "exampleSentence": "このカードがここに来ているのが興味がある。",
+      "exampleReading": "このカードがここにきているのがきょうみがある。",
+      "exampleTranslation": "이 차가 여기에 와 있다는 것이 흥미롭다."
+    },
+    {
+      "word": "伝えられる",
+      "reading": "つたえられる",
+      "meaning": "전해지다 (수동형: 전달되다)",
+      "partOfSpeech": "동사 (수동형)",
+      "jlptLevel": "N3",
+      "exampleSentence": "日本のローライダーが伝えられるようになった。",
+      "exampleReading": "にほんのローライダーがつたえられるようになった。",
+      "exampleTranslation": "일본의 로우라이더가 전해지게 되었다."
+    },
+    {
+      "word": "ようになった",
+      "reading": "ようになった",
+      "meaning": "~하게 되었다 (변화 표현)",
+      "partOfSpeech": "문법표현",
+      "jlptLevel": "N4",
+      "exampleSentence": "ローライダーが日本で知られるようになった。",
+      "exampleReading": "ローライダーがにほんでしられるようになった。",
+      "exampleTranslation": "로우라이더가 일본에서 알려지게 되었다."
+    },
+    {
+      "word": "気持ち",
+      "reading": "きもち",
+      "meaning": "마음, 기분, 감정",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N4",
+      "exampleSentence": "友達になろうという気持ちがないと、それはただのドライブになってしまう。",
+      "exampleReading": "ともだちになろうというきもちがないと、それはただのドライブになってしまう。",
+      "exampleTranslation": "친구가 되고자 하는 마음이 없으면, 그것은 단순한 드라이브가 되어버린다."
+    },
+    {
+      "word": "向こう",
+      "reading": "むこう",
+      "meaning": "저쪽, 상대방, 건너편",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N3",
+      "exampleSentence": "向こうのその人たちが好きで友達になろうという気持ち。",
+      "exampleReading": "むこうのそのひとたちがすきでともだちになろうというきもち。",
+      "exampleTranslation": "저쪽의 그 사람들을 좋아하고 친구가 되고자 하는 마음."
+    },
+    {
+      "word": "やっぱり",
+      "reading": "やっぱり",
+      "meaning": "역시, 아무래도 (「やはり」의 구어체)",
+      "partOfSpeech": "부사",
+      "jlptLevel": "N3",
+      "exampleSentence": "やっぱり何より一番大事なのは人と人のつながりだ。",
+      "exampleReading": "やっぱりなにより いちばんだいじなのはひととひとのつながりだ。",
+      "exampleTranslation": "역시 무엇보다 가장 중요한 것은 사람과 사람의 연결이다."
+    },
+    {
+      "word": "カルチャー",
+      "reading": "カルチャー",
+      "meaning": "문화 (culture의 외래어)",
+      "partOfSpeech": "명사",
+      "jlptLevel": null,
+      "exampleSentence": "私はそのカルチャーを知った時、すごく嬉しかった。",
+      "exampleReading": "わたしはそのカルチャーをしったとき、すごくうれしかった。",
+      "exampleTranslation": "저는 그 문화를 알게 되었을 때, 정말 기뻤어요."
+    },
+    {
+      "word": "きっかけ",
+      "reading": "きっかけ",
+      "meaning": "계기, 동기, 시작점",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N2",
+      "exampleSentence": "私のきっかけで、チカノという人たちがいると知った若者が多い。",
+      "exampleReading": "わたしのきっかけで、チカノというひとたちがいるとしったわかものがおおい。",
+      "exampleTranslation": "제 계기로 치카노라는 사람들이 있다는 걸 알게 된 젊은이가 많다."
+    },
+    {
+      "word": "若い世代",
+      "reading": "わかいせだい",
+      "meaning": "젊은 세대",
+      "partOfSpeech": "명사구",
+      "jlptLevel": "N3",
+      "exampleSentence": "若い世代の子はチカノ文化に興味を持つようになった。",
+      "exampleReading": "わかいせだいのこはチカノぶんかにきょうみをもつようになった。",
+      "exampleTranslation": "젊은 세대 아이들은 치카노 문화에 흥미를 갖게 되었다."
+    },
+    {
+      "word": "真似する",
+      "reading": "まねする",
+      "meaning": "흉내내다, 모방하다",
+      "partOfSpeech": "동사 (する동사)",
+      "jlptLevel": "N3",
+      "exampleSentence": "その子たちは私を真似して知ったわけで。",
+      "exampleReading": "そのこたちはわたしをまねしてしったわけで。",
+      "exampleTranslation": "그 아이들은 저를 따라서 알게 된 것이고."
+    },
+    {
+      "word": "ライフスタイル",
+      "reading": "ライフスタイル",
+      "meaning": "라이프스타일 (생활 방식)",
+      "partOfSpeech": "명사",
+      "jlptLevel": null,
+      "exampleSentence": "本当のチカノたちのライフスタイルを好きな人は少ない。",
+      "exampleReading": "ほんとうのチカノたちのライフスタイルをすきなひとはすくない。",
+      "exampleTranslation": "진짜 치카노들의 라이프스타일을 좋아하는 사람은 적다."
+    },
+    {
+      "word": "数えられる",
+      "reading": "かぞえられる",
+      "meaning": "셀 수 있는, 손꼽을 수 있는",
+      "partOfSpeech": "동사 (가능형)",
+      "jlptLevel": "N3",
+      "exampleSentence": "本当に好きな人は数えられるほど少ない。",
+      "exampleReading": "ほんとうにすきなひとはかぞえられるほどすくない。",
+      "exampleTranslation": "진심으로 좋아하는 사람은 손꼽을 만큼 적다."
+    },
+    {
+      "word": "正直なところ",
+      "reading": "しょうじきなところ",
+      "meaning": "솔직히 말하면, 솔직히 말하자면",
+      "partOfSpeech": "관용구",
+      "jlptLevel": "N2",
+      "exampleSentence": "私は正直なところ、亡くなると思う。",
+      "exampleReading": "わたしはしょうじきなところ、なくなるとおもう。",
+      "exampleTranslation": "솔직히 말하면, 사라질 것 같아요."
+    },
+    {
+      "word": "亡くなる",
+      "reading": "なくなる",
+      "meaning": "사라지다, 없어지다 (돌아가시다의 의미도 있음)",
+      "partOfSpeech": "동사",
+      "jlptLevel": "N3",
+      "exampleSentence": "その文化は亡くなると思う。",
+      "exampleReading": "そのぶんかはなくなるとおもう。",
+      "exampleTranslation": "그 문화는 사라질 것 같다."
+    },
+    {
+      "word": "作品",
+      "reading": "さくひん",
+      "meaning": "작품",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N3",
+      "exampleSentence": "彼の作品はチカノ文化のポジティブな面を表しています。",
+      "exampleReading": "かれのさくひんはチカノぶんかのポジティブなめんをあらわしています。",
+      "exampleTranslation": "그의 작품은 치카노 문화의 긍정적인 면을 나타내고 있습니다."
+    },
+    {
+      "word": "未来",
+      "reading": "みらい",
+      "meaning": "미래",
+      "partOfSpeech": "명사",
+      "jlptLevel": "N3",
+      "exampleSentence": "日本のチカノ文化の未来はどうなるのか。",
+      "exampleReading": "にほんのチカノぶんかのみらいはどうなるのか。",
+      "exampleTranslation": "일본 치카노 문화의 미래는 어떻게 될 것인가."
+    },
+    {
+      "word": "開発する",
+      "reading": "かいはつする",
+      "meaning": "개발하다",
+      "partOfSpeech": "동사 (する동사)",
+      "jlptLevel": "N3",
+      "exampleSentence": "日本のカードを開発して、ローライダー文化を広めた。",
+      "exampleReading": "にほんのカードをかいはつして、ローライダーぶんかをひろめた。",
+      "exampleTranslation": "일본의 차를 개발하여, 로우라이더 문화를 알렸다."
+    },
+    {
+      "word": "クルージング",
+      "reading": "クルージング",
+      "meaning": "크루징 (저속으로 음악을 들으며 드라이브하는 것, 치카노 문화의 일부)",
+      "partOfSpeech": "명사",
+      "jlptLevel": null,
+      "exampleSentence": "本当のクルージングで聴くミュージックがある。",
+      "exampleReading": "ほんとうのクルージングできくミュージックがある。",
+      "exampleTranslation": "진짜 크루징에서 듣는 음악이 있다."
+    }
+  ]
+}

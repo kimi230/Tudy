@@ -1,0 +1,113 @@
+{
+  "videoId": "xW2mUoTjEMw",
+  "connectedSpeech": [
+    {
+      "type": "tone_sandhi_third",
+      "originalText": "拥有",
+      "pinyin": "yōng yǒu → yóng yǒu",
+      "toneChange": "3rd tone (yǒu) is preceded by 1st tone (yōng), so no sandhi applies here, but 有 (yǒu, 3rd) followed by another syllable changes to 2nd tone in natural speech",
+      "explanationKo": "3성 연속 변조: 3성 앞에 3성이 오면 앞 3성이 2성으로 변합니다. '拥(1성)+有(3성)'는 그대로이지만, '有+近(4성)'처럼 3성 뒤에 다른 성조가 오면 자연스럽게 약화됩니다.",
+      "practiceGuide": "拥有近4100万人口 - 'yōng yǒu jìn'에서 有(yǒu)를 부드럽게 연결하며 읽어보세요.",
+      "segmentIndex": 2
+    },
+    {
+      "type": "tone_sandhi_third",
+      "originalText": "首都",
+      "pinyin": "shǒu dū → shóu dū",
+      "toneChange": "首 (shǒu, 3rd tone) + 都 (dū, 1st tone): When 3rd tone is followed by a non-3rd tone, the 3rd tone is often realized as a low tone (half 3rd) in connected speech.",
+      "explanationKo": "3성+1성 조합에서 3성이 뒤에 1·2·4성이 오면 완전한 3성(낮음-올라감) 대신 낮은 반3성으로 발음됩니다.",
+      "practiceGuide": "'日本首都东京'에서 首(shǒu)를 완전히 내렸다 올리지 말고, 낮게 시작하다가 '都'로 바로 이어보세요.",
+      "segmentIndex": 1
+    },
+    {
+      "type": "tone_sandhi_yi",
+      "originalText": "一都三县",
+      "pinyin": "yī dū sān xiàn → yí dū sān xiàn",
+      "toneChange": "一 (yī, 1st tone) changes to 2nd tone (yí) when followed by a 1st tone syllable 都 (dū).",
+      "explanationKo": "숫자 '一(yī)'는 뒤에 1·2·3성이 오면 4성(yì)으로, 4성이 오면 2성(yí)으로 변합니다. 여기서는 1성(都/dū) 앞이므로 4성(yì)으로 변합니다.",
+      "practiceGuide": "'由一都三县' - '一(yì) 都(dū)'처럼 读해보세요. 자연스러운 연음에서는 이 변조가 일어납니다.",
+      "segmentIndex": 1
+    },
+    {
+      "type": "tone_sandhi_bu",
+      "originalText": "不大",
+      "pinyin": "bù dà → bú dà",
+      "toneChange": "不 (bù, 4th tone) changes to 2nd tone (bú) when followed by another 4th tone 大 (dà).",
+      "explanationKo": "부정사 '不(bù, 4성)'는 뒤에 4성이 오면 2성(bú)으로 변합니다. '不大(bú dà)'가 대표적인 예입니다.",
+      "practiceGuide": "'东京不大的城市空间内' - '不大'를 'bú dà'로 읽어야 자연스럽습니다.",
+      "segmentIndex": 3
+    },
+    {
+      "type": "erhua",
+      "originalText": "一点儿 / 哪儿",
+      "pinyin": "yīdiǎnr / nǎr",
+      "toneChange": "Erhua (儿化) is the addition of a rhotic -r suffix to syllables, commonly used in Beijing dialect. In this documentary the narrator uses standard Mandarin without heavy erhua.",
+      "explanationKo": "얼화(儿化)는 베이징 방언 특유의 권설음 접미사로 음절 끝에 r 소리를 붙이는 현상입니다. 이 영상에서는 표준 중국어를 사용하여 얼화가 두드러지지 않습니다.",
+      "practiceGuide": "표준 중국어 발음으로 이 영상을 따라 읽되, 추후 베이징 발음을 익힐 때 얼화에 주의하세요.",
+      "segmentIndex": 12
+    },
+    {
+      "type": "neutral_tone",
+      "originalText": "的 (de)",
+      "pinyin": "de (neutral tone)",
+      "toneChange": "结构助词 的 (de) is always pronounced in a neutral/weak tone, never with full 4th tone. It quickly connects modifiers to nouns without stress.",
+      "explanationKo": "구조조사 '的(de)'는 항상 경성(약한 소리)으로 발음됩니다. 수식어와 명사를 연결할 때 빠르고 가볍게 발음합니다.",
+      "practiceGuide": "'世界上最大的城市都会区' - '大的'를 'dà·de'처럼 '的'를 약하게 짧게 붙여 읽으세요.",
+      "segmentIndex": 0
+    },
+    {
+      "type": "tone_sandhi_third",
+      "originalText": "每年",
+      "pinyin": "měi nián",
+      "toneChange": "每 (měi, 3rd tone) + 年 (nián, 2nd tone): 3rd tone before a 2nd tone is pronounced as a low falling half-3rd tone in connected speech.",
+      "explanationKo": "3성+2성 조합에서 3성은 낮은 반3성으로 실현됩니다. '每年'에서 '每'를 낮게 발음하고 '年'으로 자연스럽게 올라갑니다.",
+      "practiceGuide": "'每年约有3000万访客' - '每(mèi-like low tone) 年'으로 연결하여 발음해보세요.",
+      "segmentIndex": 49
+    },
+    {
+      "type": "aspiration_contrast",
+      "originalText": "建筑 vs 坚持",
+      "pinyin": "jiànzhù vs jiānchí",
+      "toneChange": "Both 建 (jiàn) and 坚 (jiān) start with the aspirated j- initial. Chinese j, q, x are palatal sounds not found in Korean, requiring practice to distinguish from ㅈ, ㅊ, ㅅ.",
+      "explanationKo": "중국어 j, q, x는 한국어에 없는 구개음으로, 혀를 앞쪽에 붙이고 발음합니다. '建筑(jiànzhù)'과 '构成(gòuchéng)'의 j-/g- 차이를 구별하여 연습하세요.",
+      "practiceGuide": "j(ㅈ+구개음화), q(ㅊ+구개음화), x(ㅅ+구개음화) 발음을 의식하며 읽어보세요.",
+      "segmentIndex": 5
+    },
+    {
+      "type": "tone_pair_contrast",
+      "originalText": "东京 (Dōngjīng)",
+      "pinyin": "Dōng jīng (1st + 1st)",
+      "toneChange": "Both syllables carry 1st tone (high level). In connected speech, the second syllable may be slightly lower but remains level. Avoid dipping either syllable.",
+      "explanationKo": "1성+1성 조합은 두 음절 모두 높고 평탄하게 유지합니다. '東'과 '京' 모두 높은 평성으로 읽되, 두 번째 음절이 미세하게 낮아질 수 있으나 내려가지 않도록 합니다.",
+      "practiceGuide": "'日本首都东京' - '东京'을 도레미의 '솔솔'처럼 높고 고르게 읽어보세요.",
+      "segmentIndex": 1
+    },
+    {
+      "type": "liaison",
+      "originalText": "被夷为平地",
+      "pinyin": "bèi yí wéi píngdì",
+      "toneChange": "When 被 (bèi) ends in a vowel and the next word 夷 (yí) begins with a vowel, there is a smooth liaison. No glottal stop between them in natural Mandarin speech.",
+      "explanationKo": "중국어에서는 모음으로 끝나는 음절과 모음으로 시작하는 음절 사이에 한국어처럼 성문 폐쇄음(목막음)을 넣지 않습니다. '被夷'를 'bèi-yí'처럼 자연스럽게 연결하여 읽으세요.",
+      "practiceGuide": "'历史上东京曾两次被夷为平地' - 전체를 끊지 않고 이어서 읽는 연습을 해보세요.",
+      "segmentIndex": 64
+    },
+    {
+      "type": "tone_sandhi_third",
+      "originalText": "可以 / 也是",
+      "pinyin": "kěyǐ → kéyǐ",
+      "toneChange": "可 (kě, 3rd) + 以 (yǐ, 3rd): Two consecutive 3rd tones — the first changes to 2nd tone. This is one of the most fundamental tone sandhi rules.",
+      "explanationKo": "3성+3성 연속 변조 규칙: 앞의 3성이 2성으로 변합니다. '可以(kě yǐ → ké yǐ)'가 대표 예입니다. 이 영상에서는 '也是'처럼 두 음절이 연속될 때도 주의하세요.",
+      "practiceGuide": "3성이 연속되면 앞 3성을 2성으로 바꿔 읽어보세요: '可以' → 'kéyǐ'",
+      "segmentIndex": 91
+    },
+    {
+      "type": "final_particle",
+      "originalText": "吧 (ba)",
+      "pinyin": "ba (neutral tone)",
+      "toneChange": "Sentence-final particle 吧 is always neutral tone, indicating suggestion or mild request. It softens the tone of the sentence.",
+      "explanationKo": "문말 어기조사 '吧(ba)'는 항상 경성으로 발음되며, 제안이나 청유를 나타냅니다. 문장 전체의 톤을 부드럽게 만듭니다.",
+      "practiceGuide": "'来看看这里的景色吧' - '吧'를 가볍고 짧게 붙여 읽으세요.",
+      "segmentIndex": 127
+    }
+  ]
+}

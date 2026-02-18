@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "オリコンニュースをご覧の皆さん、こんにちは!",
+    "reading": "おりこんにゅーすをごらんのみなさん、こんにちは！",
+    "baseForm": "オリコンニュースをご覧の皆さん、こんにち",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ダンク役の杉田智和です",
+    "reading": "だんくやくのすぎたともかずです",
+    "baseForm": "ダンク役の杉田智和",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "エッグ役の久木宮理恵です ありがとうございます",
+    "reading": "えっぐやくのひきみやりえです ありがとうございます",
+    "baseForm": "エッグ役の久木宮理恵 ありがとうござい",
+    "politeLevel": "존경어",
+    "explanationKo": "상대 높임을 반영한 존경어 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "面白いなと思って 原音からして久木宮さんと近いと思うんですよね",
+    "reading": "おもしろいなとおもって げんおんからしてひきみやさんとちかいとおもうんですよね",
+    "baseForm": "面白いなと思って 原音からして久木宮さん",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "casual",
+    "originalText": "なんか似てるというか 今、現代社会",
+    "reading": "なんかにてるというか いま、げんだいしゃかい",
+    "baseForm": "なんか似てるというか 今、現代社会",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "どうしたんですか? 現代社会の闇みたいな",
+    "reading": "どうしたんですか？ げんだいしゃかいのやみみたいな",
+    "baseForm": "どうしたんか? 現代社会の闇みたいな",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "読みちゃみたい ダンクのキャラクターの立ち位置と同じく",
+    "reading": "よみちゃみたい だんくのきゃらくたーのたちいちとおなじく",
+    "baseForm": "読みちゃみたい ダンクのキャラクターの立",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "casual",
+    "originalText": "作品から大きく浮いているような印象になればよいなと捉えたので",
+    "reading": "さくひんからおおきくういているようなinshょうになればよいなととらえたので",
+    "baseForm": "作品から大きく浮いているような印象になれ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "casual",
+    "originalText": "ゲームオブスローンズの本編を調べたり見たり",
+    "reading": "げーむおぶすろーんずのほんへんをしらべたりみたり",
+    "baseForm": "ゲームオブスローンズの本編を調べたり見た",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "ということをあえてしていません 最初は視聴者がどうしてこの人なんだろう",
+    "reading": "ということをあえてしていません さいしょはしちょうしゃがどうしてこのひとなんだろ",
+    "baseForm": "ということをあえてしていません 最初は視",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "どうしてこんな奴が吹き替えてるんだろう 印象としてあった方がむしろいいかな",
+    "reading": "どうしてこんなやつがふきかえてるんだろう いんしょうとしてあったほうがむしろいい",
+    "baseForm": "どうしてこんな奴が吹き替えてるんだろう ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "casual",
+    "originalText": "ダンクもまた なぜこんな奴が騎士なんか志すんだって言われてるところから始まるので",
+    "reading": "だんくもまた なぜこんなやつがきしなんかこころざすんだっていわれてるところからは",
+    "baseForm": "ダンクもまた なぜこんな奴が騎士なんか志",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "最終的に騎士という概念が",
+    "reading": "さいしゅうてきにきしというがいねんが",
+    "baseForm": "最終的に騎士という概念が",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "自分から名乗るものではなく 道として残るものだっていうのが",
+    "reading": "じぶんからなのるものではなく みちとしてのこるものだっていうのが",
+    "baseForm": "自分から名乗るものではなく 道として残る",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "最終的にはそこに到達するのかなって",
+    "reading": "さいしゅうてきにはそこにとうたつするのかなって",
+    "baseForm": "最終的にはそこに到達するのかなって",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "自分で予測を立てて 作品への姿勢をまず定めました",
+    "reading": "じぶんでよそくをたてて さくひんへのしせいをまずさだめました",
+    "baseForm": "自分で予測を立てて 作品への姿勢をまず定",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

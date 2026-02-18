@@ -1,0 +1,115 @@
+import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import MobileNav from './MobileNav';
+import { useAuth } from '../../hooks/useAuth';
+import UserMenu from '../auth/UserMenu';
+import { getDefaultLanguage } from '../../lib/supabaseSync';
+import { getLanguageLabel } from '../../lib/languageHelpers';
+
+const LANG_CONFIG = [
+  { code: 'en', label: 'EN', path: '/Tudy/' },
+  { code: 'zh', label: '中文', path: '/Tudy/cn/' },
+  { code: 'ja', label: '日本', path: '/Tudy/jp/' },
+];
+
+const navLinks = [
+  { to: '/', label: '홈' },
+  { to: '/daily', label: '오늘의 학습' },
+  { to: '/vocabulary', label: '어휘장' },
+  { to: '/request', label: 'URL 신청' },
+  { to: '/about', label: '학습법 소개' },
+];
+
+export default function Header() {
+  const location = useLocation();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const { user, loading } = useAuth();
+
+  return (
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <Link to="/" className="flex items-center gap-2">
+            <span className="text-2xl font-bold text-indigo-600">Tudy</span>
+            <span className="hidden sm:inline text-sm text-gray-500">10단계 {getLanguageLabel()} 학습</span>
+          </Link>
+
+          {/* Desktop nav */}
+          <nav className="hidden md:flex items-center gap-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  location.pathname === link.to
+                    ? 'bg-indigo-50 text-indigo-700'
+                    : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-2">
+            {/* Desktop language switcher */}
+            <div className="hidden md:flex items-center border border-gray-200 rounded-lg overflow-hidden text-xs">
+              {LANG_CONFIG.map((lang) => {
+                const isCurrent = lang.code === getDefaultLanguage();
+                return isCurrent ? (
+                  <span
+                    key={lang.code}
+                    className="px-2 py-1 bg-indigo-50 text-indigo-700 font-semibold"
+                  >
+                    {lang.label}
+                  </span>
+                ) : (
+                  <a
+                    key={lang.code}
+                    href={lang.path}
+                    className="px-2 py-1 text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-colors"
+                  >
+                    {lang.label}
+                  </a>
+                );
+              })}
+            </div>
+
+            {/* Auth section */}
+            {!loading && (
+              user ? (
+                <UserMenu />
+              ) : (
+                <Link
+                  to="/login"
+                  className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                  로그인
+                </Link>
+              )
+            )}
+
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {mobileOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {mobileOpen && <MobileNav links={navLinks} onClose={() => setMobileOpen(false)} />}
+    </header>
+  );
+}

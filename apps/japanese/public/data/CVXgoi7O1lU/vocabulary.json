@@ -1,0 +1,222 @@
+[
+  {
+    "word": "はい",
+    "reading": "あ、はい、あわれたことあります にっけい",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'はい'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 76,
+    "contextSentence": "あ、はい、あわれたことあります 日系2世が初めての非白人のプロバスケ選手だって聞いて"
+  },
+  {
+    "word": "そうですね",
+    "reading": "にんげんふしんですね そうですね そうい",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'そうですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 46,
+    "contextSentence": "人間不信ですね そうですね そういう風にもなったり"
+  },
+  {
+    "word": "年に",
+    "reading": "NBAでも1ねんに1,2かいはNBPAっ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'年に'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 21,
+    "contextSentence": "NBAでも1年に1,2回はNBPAっていう団体で"
+  },
+  {
+    "word": "すよね",
+    "reading": "それはおかしくなるのがふつうですよね",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'すよね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "それはおかしくなるのが普通ですよね"
+  },
+  {
+    "word": "とか",
+    "reading": "こがじゅうぶんにひつようなトレーニングと",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'とか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 54,
+    "contextSentence": "子が十分に必要なトレーニングとか"
+  },
+  {
+    "word": "と思いますね",
+    "reading": "もちろんアメリカはととのっているとおもい",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'と思いますね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 57,
+    "contextSentence": "もちろんアメリカは整っていると思いますね"
+  },
+  {
+    "word": "ですけど",
+    "reading": "そのなかでもちろんにほんでもそうですけど",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'ですけど'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 102,
+    "contextSentence": "その中でもちろん日本でもそうですけど"
+  },
+  {
+    "word": "てない",
+    "reading": "ライドですよねそれがぜんぜんたりてない",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'てない'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "ライドですよねそれが全然足りてない"
+  },
+  {
+    "word": "たしお金で",
+    "reading": "にんげんかんけいくずしたこともありました",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'たしお金で'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "人間関係崩したこともありましたしお金で"
+  },
+  {
+    "word": "よろしくお願いします",
+    "reading": "よろしくおねがいします きょうはなしかた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'よろしくお願いします'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "よろしくお願いします 今日話し方があったトピックの一つが"
+  },
+  {
+    "word": "一つが",
+    "reading": "よろしくおねがいします きょうはなしかた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'一つが'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "よろしくお願いします 今日話し方があったトピックの一つが"
+  },
+  {
+    "word": "すが",
+    "reading": "とうぜんにくたいてきせいしんてきにかこく",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'すが'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "当然肉体的精神的に過酷っていうのは誰にもわかると思うんですが"
+  },
+  {
+    "word": "う話を聞いて",
+    "reading": "けいざいてきにもすごいたいへんだっていう",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'う話を聞いて'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 12,
+    "contextSentence": "経済的にもすごい大変だっていう話を聞いて"
+  },
+  {
+    "word": "ある記事だと",
+    "reading": "あるきじだとNBAせんしゅのはんぶんいじ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ある記事だと'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 13,
+    "contextSentence": "ある記事だとNBA選手の半分以上が引退後5年以上に破産してるとか"
+  },
+  {
+    "word": "半分以上",
+    "reading": "ほかのりょういきでもアメフトのせんしゅが",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'半分以上'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 14,
+    "contextSentence": "他の領域でもアメフトの選手が半分以上"
+  },
+  {
+    "word": "引退後",
+    "reading": "いんたいご2ねんいじょうにはさんまたはけ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'引退後'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": false,
+    "segmentIndex": 15,
+    "contextSentence": "引退後2年以上に破産または経済的困窮みたいなことが書かれていて"
+  },
+  {
+    "word": "ことが書かれてる",
+    "reading": "きんゆうリテラシーのけつじょみたいなこと",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ことが書かれてる'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 17,
+    "contextSentence": "金融リテラシーの欠如みたいなことが書かれてる"
+  },
+  {
+    "word": "バスケットボール選手",
+    "reading": "こういうじんせいとかしょくぎょうとしての",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'バスケットボール選手'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 18,
+    "contextSentence": "こういう人生とか職業としてのバスケットボール選手"
+  },
+  {
+    "word": "とってありますか",
+    "reading": "とくにけいざいてきなそくめんにおもわれる",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'とってありますか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "特に経済的な側面に思われることってありますか"
+  },
+  {
+    "word": "今話されてて",
+    "reading": "そうですねこれはよくぼくたちもいまはなさ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'今話されてて'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 20,
+    "contextSentence": "そうですねこれはよく僕たちも今話されてて"
+  }
+]

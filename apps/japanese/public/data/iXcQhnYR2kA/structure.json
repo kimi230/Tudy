@@ -1,0 +1,154 @@
+{
+  "videoId": "iXcQhnYR2kA",
+  "sections": [
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "The speaker opens with a powerful question: if today were your last day, what would you regret? She dismisses trivial regrets (drinking more, dating more) and proposes the real ones: not spending time with family, not chasing dreams, not living honestly.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "The speaker reveals she once worked as a nurse. She cared for a terminal cancer patient — a grandfather who cried every day, regretting that he spent his whole life working for money instead of living for happiness and family. His final words to her: 'walk a life without regrets'.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "Moved by the grandfather's words, the speaker begins researching happiness. She discovers on a TV program that Japan, the world's third-largest economy, ranks only 90th in global happiness. She is baffled — shouldn't money bring happiness? — and decides to travel the world to find out.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "The speaker's first destination is Cambodia's Rusai village — a poor community of about 1,000 people with no electricity, gas, or running water. Yet the children's eyes sparkle and everyone smiles the most beautiful smiles. A villager even sings a song for her, moving her to tears. She realizes: happiness cannot be measured by money or possessions. A Cambodian friend named Sam later visits Japan and confirms: Japan has things but no place to heal the heart.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "Back in Japan, the speaker is bombarded by society's happiness formula: graduate from a famous university, get a job at a big company, marry a good person, build a house, have children. Each time she hears these messages she feels something is wrong, but goes along with them to avoid standing out.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "At a group mixer, she meets an unemployed man who wants to travel the world. Rather than being put off, she is intrigued — he lives by his own convictions, outside society's happiness formula. She starts dating him, and they decide to travel the world together.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "Now married, the couple has traveled 70+ countries across 2 full world trips, including the Uyuni Salt Flats, Machu Picchu, and Ukraine's Tunnel of Love. Through these travels, the speaker's key realization: happiness looks completely different for every person — for some it's family time, for others it's meaningful work or travel.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "The speaker's answer to why Japanese people are unhappy: they have received too many messages from society about what happiness looks like and have lost sight of their own. She urges the audience to step away from those messages, face themselves honestly, and intentionally create time for self-reflection — away from smartphones and SNS.",
+      "keyPoints": []
+    },
+    {
+      "section": "Section",
+      "startSegment": 0,
+      "endSegment": 0,
+      "summary": "The speaker closes with a call to action: once you find what happiness means to you, take the first step toward it. Life is shorter than you think. A life without regrets must begin right now, this moment. She ends by asking the audience: what is happiness to you?",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "もし今日が人生最後の日だとしたら",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "청중의 주의를 끄는 강렬한 가정적 질문으로 강연 시작"
+    },
+    {
+      "expression": "じゃあ 何を思うのか",
+      "type": "transition",
+      "segmentIndex": 6,
+      "role": "사소한 후회를 제쳐두고 본론(진짜 후회)으로 전환"
+    },
+    {
+      "expression": "私はこれが本当なんかどうかを確認したくて",
+      "type": "transition",
+      "segmentIndex": 10,
+      "role": "개인 경험(간호사 이야기)으로 전환하는 연결 표현"
+    },
+    {
+      "expression": "そのおじいちゃんは最後にこんな言葉を私に残してくれました",
+      "type": "transition",
+      "segmentIndex": 20,
+      "role": "할아버지의 마지막 말을 소개하는 전환 표현"
+    },
+    {
+      "expression": "幸せって一体なんだろう そう思い始めてから",
+      "type": "transition",
+      "segmentIndex": 23,
+      "role": "행복 연구를 시작하게 된 계기로 이야기 흐름 전환"
+    },
+    {
+      "expression": "それを確かめるために私は世界を旅して",
+      "type": "transition",
+      "segmentIndex": 32,
+      "role": "세계 여행을 결심하게 된 이유를 제시하며 여행 이야기로 전환"
+    },
+    {
+      "expression": "そこで私が気づいたことがあります",
+      "type": "keyPoint",
+      "segmentIndex": 43,
+      "role": "캄보디아 여행에서 얻은 핵심 깨달음을 소개하는 전환 표현"
+    },
+    {
+      "expression": "じゃあ 幸せはどこにあるんだろうって",
+      "type": "transition",
+      "segmentIndex": 45,
+      "role": "다음 여행지/다음 발견으로 이야기를 전진시키는 연결 표현"
+    },
+    {
+      "expression": "そんな旅をしながら 私が気づいたことがあります",
+      "type": "keyPoint",
+      "segmentIndex": 78,
+      "role": "세계 여행 전체에서 얻은 핵심 통찰을 소개하는 전환 표현"
+    },
+    {
+      "expression": "じゃあ なんで日本人は幸せじゃないんだろうって考えてみました",
+      "type": "transition",
+      "segmentIndex": 84,
+      "role": "강연의 핵심 분석 파트(일본인 불행의 원인)로 전환"
+    },
+    {
+      "expression": "皆さんも一度",
+      "type": "callToAction",
+      "segmentIndex": 87,
+      "role": "청중에게 직접 행동을 권유하는 핵심 호소 표현"
+    },
+    {
+      "expression": "世界を旅しながら 私が気づいたことが もう一つあります",
+      "type": "enumeration",
+      "segmentIndex": 89,
+      "role": "두 번째 핵심 통찰(자기 자신과 마주하기)을 소개"
+    },
+    {
+      "expression": "最後に 皆さんに聞いてみたいことがあります",
+      "type": "closing",
+      "segmentIndex": 101,
+      "role": "강연 마무리를 알리고 청중에게 최종 질문을 던지는 표현"
+    },
+    {
+      "expression": "ありがとうございました",
+      "type": "closing",
+      "segmentIndex": 103,
+      "role": "청중에 대한 감사로 강연 마무리"
+    }
+  ]
+}

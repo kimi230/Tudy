@@ -1,0 +1,155 @@
+{
+  "videoId": "G6ypXVO_Fm0",
+  "keigo": [
+    {
+      "type": "teineigo",
+      "originalText": "だんだん分かってくると思うんですけれども",
+      "reading": "だんだんわかってくるとおもうんですけれども",
+      "baseForm": "だんだん分かってくると思うけど",
+      "politeLevel": 3,
+      "explanationKo": "「〜んですけれども」는 「〜けど」의 정중한 형태. 청자에 대한 배려와 설명을 동반하는 정중한 표현.",
+      "usageContext": "강연 등 청중에게 설명할 때 사용하는 정중한 연결 표현",
+      "segmentIndex": 1
+    },
+    {
+      "type": "teineigo",
+      "originalText": "ちょっとリキャップ的にしたいんですけれども",
+      "reading": "ちょっとりきゃっぷてきにしたいんですけれども",
+      "baseForm": "ちょっとリキャップしたいんだけど",
+      "politeLevel": 3,
+      "explanationKo": "「〜んですけれども」를 사용해 청중에게 자신의 의도를 부드럽게 알리는 정중한 표현.",
+      "usageContext": "프레젠테이션이나 강연에서 주제를 전환할 때",
+      "segmentIndex": 3
+    },
+    {
+      "type": "teineigo",
+      "originalText": "コンピューターを持ち歩くことだと思っています",
+      "reading": "こんぴゅーたーをもちあるくことだとおもっています",
+      "baseForm": "コンピューターを持ち歩くことだと思っている",
+      "politeLevel": 3,
+      "explanationKo": "「〜ています」형식의 정중체. 개인적 의견을 청중에게 정중하게 전달하는 표현.",
+      "usageContext": "청중 앞에서 자신의 견해를 밝힐 때",
+      "segmentIndex": 4
+    },
+    {
+      "type": "teineigo",
+      "originalText": "数十倍早いコンピューターを皆さんがポケットに持っています",
+      "reading": "すうじゅうばいはやいこんぴゅーたーをみなさんがぽけっとにもっています",
+      "baseForm": "皆さんがポケットに持っている",
+      "politeLevel": 3,
+      "explanationKo": "「皆さん」은 청중을 높여 부르는 정중한 호칭. 강연에서 청중을 지칭할 때 사용.",
+      "usageContext": "청중 전체를 상대로 말할 때 사용하는 정중한 호칭",
+      "segmentIndex": 6
+    },
+    {
+      "type": "bikago",
+      "originalText": "皆さん",
+      "reading": "みなさん",
+      "baseForm": "皆",
+      "politeLevel": 3,
+      "explanationKo": "「皆（みな）」에 「さん」을 붙인 미화어로, 청중이나 집단을 정중하게 칭할 때 사용. 직접적으로 높이는 존경어는 아니지만 정중함을 더하는 표현.",
+      "usageContext": "강연·발표에서 청중 전체를 가리킬 때",
+      "segmentIndex": 6
+    },
+    {
+      "type": "teineigo",
+      "originalText": "大体この十数年で1000倍以上になりました",
+      "reading": "だいたいこのじゅうすうねんで1000ばいいじょうになりました",
+      "baseForm": "大体この十数年で1000倍以上になった",
+      "politeLevel": 3,
+      "explanationKo": "「〜ました」는 정중체 과거형. 강연 등 공식 장면에서 과거 사실을 설명할 때 사용.",
+      "usageContext": "공식 강연에서 사실을 설명할 때",
+      "segmentIndex": 10
+    },
+    {
+      "type": "teineigo",
+      "originalText": "いいですか",
+      "reading": "いいですか",
+      "baseForm": "いい？",
+      "politeLevel": 3,
+      "explanationKo": "청중의 주의를 환기시키는 정중한 표현. 강연자가 중요한 내용을 말하기 전에 청중의 집중을 요청할 때 사용.",
+      "usageContext": "강연에서 청중의 주의를 집중시킬 때",
+      "segmentIndex": 14
+    },
+    {
+      "type": "teineigo",
+      "originalText": "たぶんあと5年から10年でですね 1ヶ月のプランが5テラとかになります",
+      "reading": "たぶんあと5ねんから10ねんでですね 1かげつのぷらんが5てらとかになります",
+      "baseForm": "たぶんあと5年から10年で、1ヶ月のプランが5テラとかになる",
+      "politeLevel": 3,
+      "explanationKo": "「〜になります」는 「〜になる」의 정중형. 미래의 변화를 청중에게 설명할 때 사용.",
+      "usageContext": "미래 예측을 청중에게 전달할 때",
+      "segmentIndex": 15
+    },
+    {
+      "type": "casual",
+      "originalText": "そうなんですよ",
+      "reading": "そうなんですよ",
+      "baseForm": "そうだよ",
+      "politeLevel": 3,
+      "explanationKo": "「そうなんです」에 「よ」를 더한 표현. 정중체이지만 「よ」로 인해 다소 친근한 어조. 상대에게 동의하거나 사실을 확인시켜줄 때 사용.",
+      "usageContext": "청중의 반응에 동의하거나 자신의 주장을 확인할 때",
+      "segmentIndex": 42
+    },
+    {
+      "type": "teineigo",
+      "originalText": "言い張っている人がバークレーにいるんですけど 彼によるとですよ",
+      "reading": "いいはっているひとがばーくれーにいるんですけど かれによるとですよ",
+      "baseForm": "言い張っている人がバークレーにいるけど、彼によると",
+      "politeLevel": 3,
+      "explanationKo": "「〜んですけど」로 부드럽게 배경 설명을 하고, 「〜によると」로 출처를 밝히는 정중한 표현 구조.",
+      "usageContext": "청중에게 정보 출처를 인용할 때",
+      "segmentIndex": 44
+    },
+    {
+      "type": "teineigo",
+      "originalText": "今我々が見ている時だと思います",
+      "reading": "いまわれわれがみているときだとおもいます",
+      "baseForm": "今我々が見ている時だと思う",
+      "politeLevel": 3,
+      "explanationKo": "「〜と思います」는 정중하게 의견을 전달하는 표현. 직접적으로 주장하지 않고 완곡하게 자신의 견해를 제시.",
+      "usageContext": "청중에게 자신의 분석이나 견해를 전달할 때",
+      "segmentIndex": 51
+    },
+    {
+      "type": "teineigo",
+      "originalText": "非常に面白いサインが生まれていて",
+      "reading": "ひじょうにおもしろいさいんがうまれていて",
+      "baseForm": "非常に面白いサインが生まれている",
+      "politeLevel": 3,
+      "explanationKo": "「非常に」는 「すごく」나 「とても」보다 격식 있는 부사. 강연에서 강조할 때 자주 사용되는 표현.",
+      "usageContext": "공식 강연에서 강조할 때 사용하는 격식체 부사",
+      "segmentIndex": 52
+    },
+    {
+      "type": "teineigo",
+      "originalText": "成長のドライブというのはこのICTになっています",
+      "reading": "せいちょうのどらいぶというのはこのあいしーてぃーになっています",
+      "baseForm": "成長のドライブというのはこのICTになっている",
+      "politeLevel": 3,
+      "explanationKo": "「〜になっています」는 현재의 상태를 정중하게 설명하는 표현. 결론을 청중에게 전달할 때 사용.",
+      "usageContext": "분석의 결론을 청중에게 전달할 때",
+      "segmentIndex": 61
+    },
+    {
+      "type": "casual",
+      "originalText": "僕ら",
+      "reading": "ぼくら",
+      "baseForm": "僕ら",
+      "politeLevel": 2,
+      "explanationKo": "「僕（ぼく）」는 남성이 쓰는 1인칭으로 다소 캐주얼한 표현. 강연 중 사용하면 청중과의 친밀감을 높이는 효과. 「私たち」보다 편한 표현.",
+      "usageContext": "강연 중 청중과의 거리를 좁힐 때 사용하는 비교적 캐주얼한 1인칭",
+      "segmentIndex": 39
+    },
+    {
+      "type": "teineigo",
+      "originalText": "驚くべき時代が来ているわけですよ",
+      "reading": "おどろくべきじだいがきているわけですよ",
+      "baseForm": "驚くべき時代が来ているわけだよ",
+      "politeLevel": 3,
+      "explanationKo": "「〜べき」는 '~해야 할', '~당연한'의 뜻으로 강조의 의미. 「わけですよ」로 논리적 결론을 청중과 공유하는 표현.",
+      "usageContext": "결론을 강조하며 청중과 공유할 때",
+      "segmentIndex": 66
+    }
+  ]
+}

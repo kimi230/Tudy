@@ -1,0 +1,56 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "周囲を鼓舞させることをし 人生をも変えるものだと思っています",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ている",
+    "example": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "周囲を鼓舞させることをし 人生をも変えるものだと思っています",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "周囲を鼓舞させることをし 人生をも変えるものだと思っています",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "質疑による信頼の失墜をしてしまったり なかなかうまく話せないということによって",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "だからこそ話し方を通して 評価を勝ち取りにいくことが重要だと思います",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "〜ため",
+    "example": "そのため話し方をテーマにした書籍や 教室などは多く存在するが",
+    "explanationKo": "목적 또는 이유를 나타냅니다.",
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "사역 〜させる",
+    "example": "周囲を鼓舞させることをし 人生をも変えるものだと思っています",
+    "explanationKo": "행위를 시키거나 유도하는 의미를 나타냅니다.",
+    "segmentIndex": 1
+  }
+]

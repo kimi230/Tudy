@@ -1,0 +1,165 @@
+{
+  "videoId": "g8TEUFSiRPA",
+  "items": [
+    {
+      "type": "keigo",
+      "originalText": "不可欠です",
+      "reading": "ふかけつです",
+      "baseForm": "不可欠だ",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「不可欠だ」(불가결하다)에 정중한 어미 「です」를 붙인 형태. 사실을 정중하게 단정하는 표현.",
+      "usageContext": "나레이션이나 공식 발화에서 사실을 정중하게 설명할 때 사용",
+      "segmentIndex": 7
+    },
+    {
+      "type": "keigo",
+      "originalText": "あります",
+      "reading": "あります",
+      "baseForm": "ある",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「ある」(있다)의 정중한 형태. 사물이나 상태의 존재를 정중하게 표현함. 사람에게는 「います」를 사용함에 주의.",
+      "usageContext": "인터뷰에서 자신의 상황을 정중하게 설명할 때",
+      "segmentIndex": 8
+    },
+    {
+      "type": "teineigo",
+      "originalText": "ですね",
+      "reading": "ですね",
+      "baseForm": "だ",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「だ」의 정중형 「です」에 확인·공감을 구하는 종조사 「ね」가 붙은 형태. 상대방의 동의를 구하거나 감정을 부드럽게 전달할 때 사용. 이 영상에서 여러 번 등장하는 전형적인 구어 표현.",
+      "usageContext": "화자가 자신의 감정이나 판단을 상대방과 공유하고자 할 때",
+      "segmentIndex": 3
+    },
+    {
+      "type": "keigo",
+      "originalText": "していただけると思うんですよ",
+      "reading": "していただけるとおもうんですよ",
+      "baseForm": "してもらえると思う",
+      "politeLevel": "謙譲語",
+      "explanationKo": "「もらう」의 겸양어 「いただく」의 가능형 「いただける」를 사용한 표현. '상대방이 해줄 수 있다'는 것을 겸손하게 표현함. 〜んですよ는 설명이나 강조의 뉘앙스.",
+      "usageContext": "상대방에게 은혜를 입음을 겸손하게 표현할 때",
+      "segmentIndex": 10
+    },
+    {
+      "type": "keigo",
+      "originalText": "なりません",
+      "reading": "なりません",
+      "baseForm": "ならない",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「ならない」(안 된다)의 정중한 부정형. 「しなければならない」는 '해야 한다'는 의무를 나타내며, その丁寧形가 「しなければなりません」.",
+      "usageContext": "규칙이나 의무를 정중하게 설명할 때",
+      "segmentIndex": 28
+    },
+    {
+      "type": "keigo",
+      "originalText": "立ち上げました",
+      "reading": "たちあげました",
+      "baseForm": "立ち上げた",
+      "politeLevel": "丁寧語",
+      "explanationKo": "동사 「立ち上げる」(설립하다)의 과거형에 정중어미 「ました」를 붙인 형태. 과거의 완료된 행동을 정중하게 전달함.",
+      "usageContext": "과거에 완료된 사실이나 행동을 정중하게 보고할 때",
+      "segmentIndex": 18
+    },
+    {
+      "type": "keigo",
+      "originalText": "取りました",
+      "reading": "とりました",
+      "baseForm": "取った",
+      "politeLevel": "丁寧語",
+      "explanationKo": "동사 「取る」(취하다)의 과거 정중형. 「〜という形を取りました」는 '〜라는 형태를 취하게 됐습니다'라는 뜻의 공손한 표현.",
+      "usageContext": "자신들의 결정이나 방법을 정중하게 설명할 때",
+      "segmentIndex": 23
+    },
+    {
+      "type": "keigo",
+      "originalText": "いるといいます",
+      "reading": "いるといいます",
+      "baseForm": "いると言う",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「〜といいます」는 '〜라고 합니다'라는 전문(傳聞) 표현의 정중형. 타인으로부터 들은 정보를 전달할 때 사용함.",
+      "usageContext": "나레이션에서 제3자에게 들은 정보를 정중하게 전달할 때",
+      "segmentIndex": 31
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "方々",
+      "reading": "かたがた",
+      "baseForm": "人々",
+      "politeLevel": "尊敬語",
+      "explanationKo": "「人々」(사람들)의 존경어. 여러 사람을 높여 부르는 표현으로, 특히 고객이나 존경해야 할 대상에게 사용. 「方」(가타) 하나도 「人」(히토)의 존경어.",
+      "usageContext": "고객이나 해외의 교양 있는 사람들을 높여 표현할 때",
+      "segmentIndex": 51
+    },
+    {
+      "type": "keigo",
+      "originalText": "購入していただけるような",
+      "reading": "こうにゅうしていただけるような",
+      "baseForm": "購入してもらえるような",
+      "politeLevel": "謙譲語",
+      "explanationKo": "「買ってもらえる」(사줄 수 있는)을 겸양어로 표현한 형태. 「いただく」는 「もらう」의 겸양어로 상대방의 행동에 감사를 나타냄.",
+      "usageContext": "고객이 자신들의 상품을 구입해 줄 것을 겸손하게 바랄 때",
+      "segmentIndex": 53
+    },
+    {
+      "type": "keigo",
+      "originalText": "目指しています",
+      "reading": "めざしています",
+      "baseForm": "目指している",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「目指している」(목표로 하고 있다)의 정중형. 현재 진행 중인 상태나 목표를 정중하게 표현함.",
+      "usageContext": "자신들의 목표나 활동을 정중하게 말할 때",
+      "segmentIndex": 58
+    },
+    {
+      "type": "keigo",
+      "originalText": "受け持ちます",
+      "reading": "うけもちます",
+      "baseForm": "受け持つ",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「受け持つ」(담당하다)의 정중형. 나레이션이나 설명에서 정중하게 사실을 전달할 때 사용.",
+      "usageContext": "분업 시스템을 나레이션에서 정중하게 설명할 때",
+      "segmentIndex": 96
+    },
+    {
+      "type": "keigo",
+      "originalText": "応援してきました",
+      "reading": "おうえんしてきました",
+      "baseForm": "応援してきた",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「応援してきた」(응원해 왔다)의 정중형. 과거부터 현재까지의 계속된 행동을 정중하게 표현함.",
+      "usageContext": "스승이 제자들에 대한 지속적인 지원을 정중하게 전달할 때",
+      "segmentIndex": 77
+    },
+    {
+      "type": "keigo",
+      "originalText": "守ってきました",
+      "reading": "まもってきました",
+      "baseForm": "守ってきた",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「守ってきた」(지켜왔다)의 정중형. 과거부터 현재까지 계속되어 온 행동이나 상태를 정중하게 나타냄.",
+      "usageContext": "나레이션에서 전통이 오랜 시간 유지되어 왔음을 정중하게 설명할 때",
+      "segmentIndex": 100
+    },
+    {
+      "type": "keigo",
+      "originalText": "込められています",
+      "reading": "こめられています",
+      "baseForm": "込められている",
+      "politeLevel": "丁寧語",
+      "explanationKo": "수동형 「込められる」(담겨있다)의 현재 정중형. 어떤 의미나 감정이 담겨 있다는 것을 정중하게 표현함.",
+      "usageContext": "나레이션에서 회사 이름에 담긴 의미를 정중하게 설명할 때",
+      "segmentIndex": 81
+    },
+    {
+      "type": "teineigo",
+      "originalText": "ですかね",
+      "reading": "ですかね",
+      "baseForm": "だ",
+      "politeLevel": "丁寧語",
+      "explanationKo": "「です」에 의문의 「か」와 여운을 주는 「ね」가 결합한 형태. 자신의 생각을 단정짓지 않고 부드럽게, 다소 자문(自問)하는 듯한 뉘앙스로 표현함. 인터뷰에서 자주 등장하는 전형적인 말끝 표현.",
+      "usageContext": "인터뷰 대상자가 자신의 생각을 부드럽게 표현하거나 마무리할 때",
+      "segmentIndex": 47
+    }
+  ]
+}

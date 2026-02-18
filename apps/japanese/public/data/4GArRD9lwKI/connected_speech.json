@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "横須賀目線",
+    "reading": "よこすかめせん",
+    "baseForm": "横須賀目線",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって",
+    "reading": "やっぱりちゅうどうをかいたいしてりっけんみんしゅとこうめいわかれてべつべつでやっ",
+    "baseForm": "やっぱり中道を解体して立憲民主と公明分か",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "このあたりのことを一緒に探っていただければと思うんですが",
+    "reading": "このあたりのことをいっしょにさぐっていただければとおもうんですが",
+    "baseForm": "このあたりのことを一緒に探っていただけれ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "これ投票風景なんですけれども今日の午後に行われました",
+    "reading": "これとうひょうふうけいなんですけれどもきょうのごごにおこなわれました",
+    "baseForm": "これ投票風景なんけれども今日の午後に行わ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "結構接戦だったんですね",
+    "reading": "けっこうせっせんだったんですね",
+    "baseForm": "結構接戦だったんね",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "接戦の末に小川淳也さんが選ばれたということになります",
+    "reading": "せっせんのすえにおがわじゅんやさんがえらばれたということになります",
+    "baseForm": "接戦の末に小川淳也さんが選ばれたというこ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "やっぱり野田さんは何とかの党の立て直しのために今後尽力していくということなので",
+    "reading": "やっぱりのださんはなんとかのとうのたてなおしのためにこんごじんりょくしていくとい",
+    "baseForm": "やっぱり野田さんは何とかの党の立て直しの",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "この新代表らを陰で何とか支えるという構図になっていくと思います",
+    "reading": "このしんだいひょうらをかげでなんとかささえるというこうずになっていくとおもいます",
+    "baseForm": "この新代表らを陰で何とか支えるという構図",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "casual",
+    "originalText": "そしてこの元立憲の幹事長を務めました",
+    "reading": "そしてこのもとりっけんのかんじちょうをつとめました",
+    "baseForm": "そしてこの元立憲の幹事長を務めました",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "野田さんが代表の時の幹事長をやってましたよね",
+    "reading": "のださんがだいひょうのときのかんじちょうをやってましたよね",
+    "baseForm": "野田さんが代表の時の幹事長をやってました",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "小川淳也さんが中道の新代表ということになりました",
+    "reading": "おがわじゅんやさんがちゅうどうのしんだいひょうということになりました",
+    "baseForm": "小川淳也さんが中道の新代表ということにな",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "香川一久の選出の方ですね",
+    "reading": "かがわいちくのせんしゅつのかたですね",
+    "baseForm": "香川一久の選出の方ね",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "teineigo",
+    "originalText": "東京大学法学部卒業です",
+    "reading": "とうきょうだいがくほうがくぶそつぎょうです",
+    "baseForm": "東京大学法学部卒業",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "teineigo",
+    "originalText": "好きな食べ物はサヌキうどんとシュークリームというところなんですね",
+    "reading": "すきなたべものはさぬきうどんとしゅーくりーむというところなんですね",
+    "baseForm": "好きな食べ物はサヌキうどんとシュークリー",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "ここもすごくアピールしているところで",
+    "reading": "ここもすごくあぴーるしているところで",
+    "baseForm": "ここもすごくアピールしているところで",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "高松のパーマテンの息子であると",
+    "reading": "たかまつのぱーまてんのむすこであると",
+    "baseForm": "高松のパーマテンの息子であると",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 15
+  }
+]

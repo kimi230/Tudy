@@ -1,0 +1,222 @@
+[
+  {
+    "word": "参加企業は",
+    "reading": "さんかきぎょうは かいがいバイヤーとしょ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'参加企業は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "参加企業は 海外バイヤーと商談を行います"
+  },
+  {
+    "word": "完成した人工盆栽は",
+    "reading": "かんせいしたじんこうぼんさいは ほんもの",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'完成した人工盆栽は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "完成した人工盆栽は 本物と見分けがつかないほどです"
+  },
+  {
+    "word": "広がっています",
+    "reading": "よそうがいのしじょうからのかんしんが ひ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'広がっています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 40,
+    "contextSentence": "予想外の市場からの関心が 広がっています"
+  },
+  {
+    "word": "人気が高まっています",
+    "reading": "おうべいだけでなく アジアやアフリカでも",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'人気が高まっています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 42,
+    "contextSentence": "欧米だけでなく アジアやアフリカでも 人気が高まっています"
+  },
+  {
+    "word": "高く評価しています",
+    "reading": "かいがいのこきゃくは このふかかちを た",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'高く評価しています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "海外の顧客は この付加価値を 高く評価しています"
+  },
+  {
+    "word": "梶原社長は",
+    "reading": "かじわらしゃちょうは みなみアフリカのと",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'梶原社長は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 65,
+    "contextSentence": "梶原社長は 南アフリカの取引先と 連絡を取り合っています"
+  },
+  {
+    "word": "力を入れています",
+    "reading": "たなかしゃちょうは かいがいでのブランド",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'力を入れています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 70,
+    "contextSentence": "田中社長は 海外でのブランド構築に 力を入れています"
+  },
+  {
+    "word": "日本が誇る伝統文化",
+    "reading": "にほんがほこるでんとうぶんか ぼんさい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'日本が誇る伝統文化'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "日本が誇る伝統文化 盆栽"
+  },
+  {
+    "word": "盆栽",
+    "reading": "にほんがほこるでんとうぶんか ぼんさい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'盆栽'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "日本が誇る伝統文化 盆栽"
+  },
+  {
+    "word": "大きな壁があります",
+    "reading": "そのかいがいゆしゅつには おおきなかべが",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'大きな壁があります'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "その海外輸出には 大きな壁があります"
+  },
+  {
+    "word": "その海外輸出には",
+    "reading": "そのかいがいゆしゅつには おおきなかべが",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'その海外輸出には'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 1,
+    "contextSentence": "その海外輸出には 大きな壁があります"
+  },
+  {
+    "word": "挑んだ企業があります",
+    "reading": "そこにかくしんてきなアイデアで いどんだ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'挑んだ企業があります'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 3,
+    "contextSentence": "そこに革新的なアイデアで 挑んだ企業があります"
+  },
+  {
+    "word": "伝統と革新が融合した",
+    "reading": "でんとうとかくしんがゆうごうした あらた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'伝統と革新が融合した'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 4,
+    "contextSentence": "伝統と革新が融合した 新たな挑戦が始まっています"
+  },
+  {
+    "word": "世界に挑戦しています",
+    "reading": "もうひとつのでんとうぶんか ありたやきも",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'世界に挑戦しています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "もう一つの伝統文化 有田焼も 世界に挑戦しています"
+  },
+  {
+    "word": "もう一つの伝統文化",
+    "reading": "もうひとつのでんとうぶんか ありたやきも",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'もう一つの伝統文化'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "もう一つの伝統文化 有田焼も 世界に挑戦しています"
+  },
+  {
+    "word": "有田焼も",
+    "reading": "もうひとつのでんとうぶんか ありたやきも",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'有田焼も'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "もう一つの伝統文化 有田焼も 世界に挑戦しています"
+  },
+  {
+    "word": "年の歴史を持つ",
+    "reading": "ありたやきは400ねんのれきしをもつ に",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'年の歴史を持つ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "有田焼は400年の歴史を持つ 日本の磁器です"
+  },
+  {
+    "word": "日本の磁器です",
+    "reading": "ありたやきは400ねんのれきしをもつ に",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'日本の磁器です'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "有田焼は400年の歴史を持つ 日本の磁器です"
+  },
+  {
+    "word": "有田焼は",
+    "reading": "ありたやきは400ねんのれきしをもつ に",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'有田焼は'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "有田焼は400年の歴史を持つ 日本の磁器です"
+  },
+  {
+    "word": "渋谷で開かれた",
+    "reading": "とうきょう しぶやでひらかれた ビジネス",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'渋谷で開かれた'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "東京 渋谷で開かれた ビジネス交流会"
+  }
+]

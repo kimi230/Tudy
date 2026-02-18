@@ -1,0 +1,129 @@
+{
+  "videoId": "G6ypXVO_Fm0",
+  "grammar": [
+    {
+      "pattern": "〜というのは〜だ",
+      "explanation": "A topic-marking construction using というのは to define or explain something. より強調的に話題を提示する表現。",
+      "explanationKo": "「というのは」는 앞의 명사나 절을 주제로 삼아 뒤에서 설명하는 표현. '~라는 것은 ~이다'의 구조로, 단순한 「は」보다 강조 및 설명의 뉘앙스가 강하다.",
+      "examples": [
+        "今私たちが置かれている状況というのを（ちょっとリキャップしたい）",
+        "成長のドライブというのはこのICTになっています",
+        "日本というのは縮小経済であったということが分かっています"
+      ],
+      "segmentIndex": 2
+    },
+    {
+      "pattern": "〜ようになる",
+      "explanation": "Expresses a change of state into a new condition or ability. Indicates something that was not possible before has now become possible.",
+      "explanationKo": "이전에는 할 수 없었거나 그렇지 않았던 것이 어떤 변화를 통해 가능해지거나 그렇게 된 것을 나타낸다. '~하게 되다'의 의미.",
+      "examples": [
+        "可視化できるようになってきています",
+        "ニューラルネットワークが走るようになって",
+        "見えるようになっているということですね"
+      ],
+      "segmentIndex": 24
+    },
+    {
+      "pattern": "〜わけです",
+      "explanation": "Expresses logical conclusion or expected result; used to explain a natural/logical consequence or to confirm a conclusion.",
+      "explanationKo": "어떤 상황의 당연한 결과나 논리적 결론임을 나타내는 표현. '~인 것이다', '~인 셈이다'에 해당.",
+      "examples": [
+        "めちゃめちゃログデータが吹き出してきているわけです",
+        "でも我々は全然生産性が高く生きているわけです",
+        "驚くべき時代が来ているわけですよ"
+      ],
+      "segmentIndex": 17
+    },
+    {
+      "pattern": "〜てきている",
+      "explanation": "Expresses a change or progress that has been happening over time and continues up to the present moment.",
+      "explanationKo": "어떤 상태가 시간의 경과와 함께 점진적으로 변화해 왔음을 나타냄. '점점 ~해지고 있다'의 의미.",
+      "examples": [
+        "可視化できるようになってきています",
+        "なおかつ大気は異常な引きを得ていっています",
+        "処理できるものが増えていっていると"
+      ],
+      "segmentIndex": 9
+    },
+    {
+      "pattern": "〜んですけれども / 〜んですが",
+      "explanation": "Softened explanation or background-providing construction. The んです adds explanation, and けれども/が adds a soft contrast or connective meaning.",
+      "explanationKo": "「んです」(のです)로 설명이나 배경을 제시하고, 「けれども/が」로 부드럽게 이어지는 표현. 말을 잇거나 화제를 전환할 때 자주 쓰인다.",
+      "examples": [
+        "ちょっとリキャップ的にしたいんですけれども",
+        "言い張っている人がバークレーにいるんですけど",
+        "このコンピューターのおかげが結構大きいんですけど"
+      ],
+      "segmentIndex": 3
+    },
+    {
+      "pattern": "〜かけて",
+      "explanation": "Indicates time or effort spent over a period. Often used with time expressions to mean 'over a period of ~' or 'taking ~ to do something'.",
+      "explanationKo": "시간이나 노력을 들여서 어떤 행위를 하는 것을 나타냄. '~에 걸쳐서', '~을 들여서'의 의미.",
+      "examples": [
+        "2,300年かけて起こってきたわけですけれども",
+        "2000年かけて生産性は2倍にしか上がっていないです",
+        "150年かそこらかけて"
+      ],
+      "segmentIndex": 30
+    },
+    {
+      "pattern": "〜にしか〜ない",
+      "explanation": "Restrictive expression indicating only to a certain degree; implies a limited/insufficient extent.",
+      "explanationKo": "「しか」+ 부정형으로 '~밖에 ~하지 않다'의 뜻. 기대보다 적거나 불충분함을 강조하는 표현.",
+      "examples": [
+        "2000年かけて生産性は2倍にしか上がっていないです"
+      ],
+      "segmentIndex": 46
+    },
+    {
+      "pattern": "〜と思っています / 〜だと思います",
+      "explanation": "Expresses personal opinion or belief in a polite manner. More permanent/firm than 〜と思う alone.",
+      "explanationKo": "「思っています」는 단순히 지금 생각하는 것보다, 계속 그렇게 생각하고 있음을 나타내는 지속적 의견 표현.",
+      "examples": [
+        "コンピューターを持ち歩くことだと思っています",
+        "今我々が見ている時だと思います",
+        "言えるかなと思います"
+      ],
+      "segmentIndex": 4
+    },
+    {
+      "pattern": "〜ているということ（ですね）",
+      "explanation": "Nominalizes a clause with ということ to present a fact or conclusion for the listener's understanding.",
+      "explanationKo": "「ということ」로 절을 명사화하여 결론이나 사실을 정리해 제시하는 표현. 상대에게 이해를 구하거나 강조할 때 사용.",
+      "examples": [
+        "見えるようになっているということですね",
+        "日本というのは縮小経済であったということが分かっています",
+        "とても面白い時に僕らは生きているということは"
+      ],
+      "segmentIndex": 28
+    },
+    {
+      "pattern": "〜なきゃいけない",
+      "explanation": "Colloquial form of 〜なければいけない. Expresses obligation or necessity ('must', 'have to').",
+      "explanationKo": "「〜なければいけない」의 구어적 단축형. '~해야 한다'는 의무나 필요를 나타내는 표현.",
+      "examples": [
+        "やっぱりエンブレスしなきゃいけない"
+      ],
+      "segmentIndex": 41
+    },
+    {
+      "pattern": "〜んじゃないかというのが",
+      "explanation": "Indirect question/speculation construction using んじゃないか to present a hypothesis or expectation.",
+      "explanationKo": "「んじゃないか」는 추측이나 기대를 나타내는 구어 표현. '~하는 것이 아닌가'라는 의미로 완곡하게 의견을 제시할 때 사용.",
+      "examples": [
+        "これがもう一発跳ねるんじゃないかというのが"
+      ],
+      "segmentIndex": 50
+    },
+    {
+      "pattern": "〜によると",
+      "explanation": "According to ~; based on information from ~. Used to cite a source.",
+      "explanationKo": "정보의 출처를 나타내는 표현. '~에 따르면'의 의미.",
+      "examples": [
+        "彼によるとですよ"
+      ],
+      "segmentIndex": 44
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "videoId": "g8TEUFSiRPA",
+  "words": [
+    {
+      "word": "刀鍛冶",
+      "reading": "かたなかじ",
+      "meaning": "도검 제조 장인; 일본도를 만드는 장인",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "日本刀を生み出す刀鍛冶",
+      "exampleReading": "にほんとうをうみだすかたなかじ",
+      "exampleKo": "일본도를 만들어 내는 도검 장인",
+      "segmentIndex": 2
+    },
+    {
+      "word": "響き渡る",
+      "reading": "ひびきわたる",
+      "meaning": "울려 퍼지다; 소리가 멀리까지 울리다",
+      "partOfSpeech": "동사",
+      "level": "N2",
+      "exampleSentence": "響き渡る鉄を叩く音",
+      "exampleReading": "ひびきわたるてつをたたくおと",
+      "exampleKo": "울려 퍼지는 쇠를 두드리는 소리",
+      "segmentIndex": 0
+    },
+    {
+      "word": "工芸品",
+      "reading": "こうげいひん",
+      "meaning": "공예품; 수공예로 만든 물건",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "千年の歴史を持つ鉄の工芸品",
+      "exampleReading": "せんねんのれきしをもつてつのこうげいひん",
+      "exampleKo": "천 년의 역사를 가진 철의 공예품",
+      "segmentIndex": 1
+    },
+    {
+      "word": "伝統的工芸品",
+      "reading": "でんとうてきこうげいひん",
+      "meaning": "전통 공예품; 국가가 지정한 전통 공예",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "国の伝統的工芸品に指定される",
+      "exampleReading": "くにのでんとうてきこうげいひんにしていされる",
+      "exampleKo": "국가 전통 공예품으로 지정되다",
+      "segmentIndex": 5
+    },
+    {
+      "word": "不可欠",
+      "reading": "ふかけつ",
+      "meaning": "불가결; 없어서는 안 됨",
+      "partOfSpeech": "형용동사(な형용사)",
+      "level": "N2",
+      "exampleSentence": "多くの職人の連携が不可欠です",
+      "exampleReading": "おおくのしょくにんのれんけいがふかけつです",
+      "exampleKo": "많은 장인들의 협력이 필수입니다",
+      "segmentIndex": 7
+    },
+    {
+      "word": "連携",
+      "reading": "れんけい",
+      "meaning": "연계; 서로 협력하여 행동함",
+      "partOfSpeech": "명사·동사",
+      "level": "N2",
+      "exampleSentence": "職人の連携が不可欠です",
+      "exampleReading": "しょくにんのれんけいがふかけつです",
+      "exampleKo": "장인의 협력이 필수입니다",
+      "segmentIndex": 7
+    },
+    {
+      "word": "修行",
+      "reading": "しゅぎょう",
+      "meaning": "수련; 기술이나 학문을 익히기 위한 훈련",
+      "partOfSpeech": "명사·동사",
+      "level": "N2",
+      "exampleSentence": "少なくとも5年の修行が必要で",
+      "exampleReading": "すくなくともごねんのしゅぎょうがひつようで",
+      "exampleKo": "최소 5년의 수련이 필요하며",
+      "segmentIndex": 26
+    },
+    {
+      "word": "独立",
+      "reading": "どくりつ",
+      "meaning": "독립; 타인에게 의존하지 않고 혼자 서다",
+      "partOfSpeech": "명사·동사",
+      "level": "N3",
+      "exampleSentence": "独立を諦める人もいるといいます",
+      "exampleReading": "どくりつをあきらめるひともいるといいます",
+      "exampleKo": "독립을 포기하는 사람도 있다고 합니다",
+      "segmentIndex": 31
+    },
+    {
+      "word": "生計",
+      "reading": "せいけい",
+      "meaning": "생계; 살아가기 위한 경제적 수단",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "自分で生計を立てながら",
+      "exampleReading": "じぶんでせいけいをたてながら",
+      "exampleKo": "스스로 생계를 꾸리면서",
+      "segmentIndex": 28
+    },
+    {
+      "word": "試練",
+      "reading": "しれん",
+      "meaning": "시련; 어려운 상황, 고난",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "これらの試練を乗り越えても",
+      "exampleReading": "これらのしれんをのりこえても",
+      "exampleKo": "이런 시련들을 극복해도",
+      "segmentIndex": 29
+    },
+    {
+      "word": "助成金",
+      "reading": "じょせいきん",
+      "meaning": "보조금; 정부나 기관이 지원하는 자금",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "会社として助成金なども受けられるため",
+      "exampleReading": "かいしゃとしてじょせいきんなどもうけられるため",
+      "exampleKo": "회사로서 보조금 등도 받을 수 있기 때문에",
+      "segmentIndex": 42
+    },
+    {
+      "word": "美意識",
+      "reading": "びいしき",
+      "meaning": "미의식; 아름다움에 대한 감각이나 관점",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "海外の美意識の高い方々だとか",
+      "exampleReading": "かいがいのびいしきのたかいかたがただとか",
+      "exampleKo": "해외의 미의식이 높은 분들이라든가",
+      "segmentIndex": 51
+    },
+    {
+      "word": "ふるさと納税",
+      "reading": "ふるさとのうぜい",
+      "meaning": "고향납세; 태어난 고향이나 원하는 지자체에 기부하면 세금 공제를 받는 제도",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "市のふるさと納税の返礼品に登録することを",
+      "exampleReading": "しのふるさとのうぜいのへんれいひんにとうろくすることを",
+      "exampleKo": "시의 고향납세 답례품으로 등록하는 것을",
+      "segmentIndex": 57
+    },
+    {
+      "word": "返礼品",
+      "reading": "へんれいひん",
+      "meaning": "답례품; 기부나 선물에 대한 감사 선물",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "ふるさと納税の返礼品に登録する",
+      "exampleReading": "ふるさとのうぜいのへんれいひんにとうろくする",
+      "exampleKo": "고향납세 답례품으로 등록하다",
+      "segmentIndex": 57
+    },
+    {
+      "word": "後継者",
+      "reading": "こうけいしゃ",
+      "meaning": "후계자; 어떤 지위나 사업 등을 이어받는 사람",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "ここでも後継者不足は深刻",
+      "exampleReading": "ここでもこうけいしゃぶそくはしんこく",
+      "exampleKo": "여기서도 후계자 부족은 심각",
+      "segmentIndex": 101
+    },
+    {
+      "word": "担い手",
+      "reading": "にないて",
+      "meaning": "담당자; 어떤 일이나 역할을 맡아 이어가는 사람",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "全く新しい担い手が伝統をつないでいる",
+      "exampleReading": "まったくあたらしいにないてがでんとうをつないでいる",
+      "exampleKo": "완전히 새로운 계승자가 전통을 이어가고 있다",
+      "segmentIndex": 91
+    },
+    {
+      "word": "師匠",
+      "reading": "ししょう",
+      "meaning": "스승; 기예나 무술 등을 가르치는 사람",
+      "partOfSpeech": "명사",
+      "level": "N2",
+      "exampleSentence": "同じ師匠の下で7年ほど修行を積んだ",
+      "exampleReading": "おなじししょうのもとでななねんほどしゅぎょうをつんだ",
+      "exampleKo": "같은 스승 아래에서 약 7년간 수련을 쌓은",
+      "segmentIndex": 24
+    },
+    {
+      "word": "鍛冶場",
+      "reading": "かじば",
+      "meaning": "대장간; 금속을 달구어 두드려 물건을 만드는 곳",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "鍛冶場を構える資金や",
+      "exampleReading": "かじばをかまえるしきんや",
+      "exampleKo": "대장간을 차릴 자금이나",
+      "segmentIndex": 30
+    },
+    {
+      "word": "継承",
+      "reading": "けいしょう",
+      "meaning": "계승; 이전 사람의 지위, 기술, 정신 등을 이어받음",
+      "partOfSpeech": "명사·동사",
+      "level": "N2",
+      "exampleSentence": "くろうとの技を師から継承し",
+      "exampleReading": "くろうとのわざをしからけいしょうし",
+      "exampleKo": "전문가의 기술을 스승으로부터 계승하며",
+      "segmentIndex": 80
+    },
+    {
+      "word": "西陣織",
+      "reading": "にしじんおり",
+      "meaning": "니시진오리; 교토 니시진 지역의 전통 직물",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "全く新しい担い手が伝統をつないでいるのは京都西陣織です",
+      "exampleReading": "まったくあたらしいにないてがでんとうをつないでいるのはきょうとにしじんおりです",
+      "exampleKo": "완전히 새로운 계승자가 전통을 이어가고 있는 것은 교토 니시진오리입니다",
+      "segmentIndex": 92
+    },
+    {
+      "word": "分業",
+      "reading": "ぶんぎょう",
+      "meaning": "분업; 일을 나누어 담당함",
+      "partOfSpeech": "명사·동사",
+      "level": "N2",
+      "exampleSentence": "職人ごとに分業で受け持ちます",
+      "exampleReading": "しょくにんごとにぶんぎょうでうけもちます",
+      "exampleKo": "장인마다 분업으로 담당합니다",
+      "segmentIndex": 96
+    },
+    {
+      "word": "歯がゆさ",
+      "reading": "はがゆさ",
+      "meaning": "안타까움; 뜻대로 되지 않아 답답한 느낌",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "育てた弟子が独立できずに去る歯がゆさを",
+      "exampleReading": "そだてたでしがどくりつできずにさるはがゆさを",
+      "exampleKo": "키운 제자가 독립도 못 하고 떠나는 안타까움을",
+      "segmentIndex": 69
+    },
+    {
+      "word": "評価",
+      "reading": "ひょうか",
+      "meaning": "평가; 사물의 가치나 수준을 판단함",
+      "partOfSpeech": "명사·동사",
+      "level": "N3",
+      "exampleSentence": "技を磨いて評価を得れば",
+      "exampleReading": "わざをみがいてひょうかをえれば",
+      "exampleKo": "기술을 갈고닦아 평가를 받으면",
+      "segmentIndex": 37
+    },
+    {
+      "word": "訴えかける",
+      "reading": "うったえかける",
+      "meaning": "호소하다; 강하게 어필하다",
+      "partOfSpeech": "동사",
+      "level": "N1",
+      "exampleSentence": "そういうところにどんどん訴えかけて",
+      "exampleReading": "そういうところにどんどんうったえかけて",
+      "exampleKo": "그런 곳에 계속 호소하면서",
+      "segmentIndex": 52
+    },
+    {
+      "word": "縦糸",
+      "reading": "たていと",
+      "meaning": "날실; 직물에서 세로 방향으로 놓이는 실",
+      "partOfSpeech": "명사",
+      "level": "N1",
+      "exampleSentence": "縦糸の長さや本数を揃える成形に",
+      "exampleReading": "たていとのながさやほんすうをそろえるせいけいに",
+      "exampleKo": "날실의 길이와 수를 맞추는 성형에",
+      "segmentIndex": 97
+    }
+  ]
+}

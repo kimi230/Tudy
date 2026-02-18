@@ -1,0 +1,155 @@
+{
+  "videoId": "QQQVLZGWihQ",
+  "keigoItems": [
+    {
+      "type": "teineigo",
+      "originalText": "にぎわっています",
+      "reading": "にぎわっています",
+      "baseForm": "にぎわう",
+      "politeLevel": "polite",
+      "explanationKo": "にぎわう(북적이다)의 ています형 정중체. 현재 진행 상태를 정중하게 표현. 뉴스 보도 스타일.",
+      "usageContext": "뉴스 리포터가 현장 상황을 시청자에게 정중하게 보고하는 장면",
+      "segmentIndex": 2
+    },
+    {
+      "type": "teineigo",
+      "originalText": "ということなんです",
+      "reading": "ということなんです",
+      "baseForm": "ということだ",
+      "politeLevel": "polite",
+      "explanationKo": "のです의 구어체인 なんです를 사용한 정중한 설명 표현. 기자가 시청자에게 상황을 설명할 때 사용.",
+      "usageContext": "리포터가 현장에서 상황을 설명할 때",
+      "segmentIndex": 3
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "中国の方",
+      "reading": "ちゅうごくのかた",
+      "baseForm": "中国の人",
+      "politeLevel": "respectful",
+      "explanationKo": "방(方)는 사람을 높여 부르는 존경어. 중국인을 격식 있게 존중하여 부르는 표현. 一般的으로 인터뷰나 보도에서 사용.",
+      "usageContext": "인터뷰 대상자나 기자가 외국인 관광객을 정중하게 언급할 때",
+      "segmentIndex": 6
+    },
+    {
+      "type": "kenjougo",
+      "originalText": "うちは多かったので",
+      "reading": "うちはおおかったので",
+      "baseForm": "うちは多い",
+      "politeLevel": "humble",
+      "explanationKo": "うち는 자신의 가게/집을 낮추어 부르는 겸양 표현. 자신의 가게를 낮추어 이야기하는 겸손한 표현.",
+      "usageContext": "가게 주인이 자신의 가게 상황을 겸손하게 설명할 때",
+      "segmentIndex": 33
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "お客さん",
+      "reading": "おきゃくさん",
+      "baseForm": "客",
+      "politeLevel": "respectful",
+      "explanationKo": "접두사 お와 접미사 さん을 붙여 손님을 높이는 존경어. 가게나 서비스업에서 고객을 정중하게 부를 때 사용.",
+      "usageContext": "가게 주인이 손님을 지칭할 때",
+      "segmentIndex": 33
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "団体の方",
+      "reading": "だんたいのかた",
+      "baseForm": "団体の人",
+      "politeLevel": "respectful",
+      "explanationKo": "方(かた)를 사용해 단체 관광객을 정중하게 지칭하는 존경어. 불만을 표현하면서도 격식을 갖추는 일본식 화법.",
+      "usageContext": "인터뷰에서 단체 관광객에 대한 불만을 정중하게 표현할 때",
+      "segmentIndex": 40
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "お客様を対象とした",
+      "reading": "おきゃくさまをたいしょうとした",
+      "baseForm": "客を対象とした",
+      "politeLevel": "very respectful",
+      "explanationKo": "お客様는 お客さん보다 더 높은 존경어로, さま는 最上級 경어. 비즈니스 상황에서 고객을 최상의 예우로 부르는 표현.",
+      "usageContext": "상업 지구의 가게 대상 고객층을 설명할 때",
+      "segmentIndex": 50
+    },
+    {
+      "type": "kenjougo",
+      "originalText": "私どもと思っております",
+      "reading": "わたしどもとおもっております",
+      "baseForm": "私たちと思っています",
+      "politeLevel": "very humble",
+      "explanationKo": "私ども는 私たち의 겸양어로 자신/자신의 회사를 낮추는 표현. おります는 いる의 겸양어. 비즈니스 인터뷰에서 최고 수준의 겸손함을 나타냄.",
+      "usageContext": "호텔 관계자가 인터뷰에서 회사의 입장을 겸손하게 설명할 때",
+      "segmentIndex": 78
+    },
+    {
+      "type": "kenjougo",
+      "originalText": "我々も下げざるを得ない",
+      "reading": "われわれもさげざるをえない",
+      "baseForm": "私たちも下げなければならない",
+      "politeLevel": "formal",
+      "explanationKo": "我々(われわれ)는 격식 있는 一人称 복수형으로 비즈니스·공식 발화에서 사용. ざるを得ない는 어쩔 수 없다는 객관적·공식적인 표현.",
+      "usageContext": "호텔 관계자가 가격 인하가 불가피했음을 공식적으로 설명할 때",
+      "segmentIndex": 68
+    },
+    {
+      "type": "teineigo",
+      "originalText": "ご視聴ありがとうございました",
+      "reading": "ごしちょうありがとうございました",
+      "baseForm": "見てありがとう",
+      "politeLevel": "very polite",
+      "explanationKo": "접두사 ご를 붙인 ご視聴(시청)과 ありがとうございました의 조합으로, 방송 매체에서 시청자에게 감사를 전하는 정형화된 최상급 정중 표현.",
+      "usageContext": "방송 마무리에서 시청자에게 감사를 전하는 방송 관용구",
+      "segmentIndex": 88
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "いらっしゃらない",
+      "reading": "いらっしゃらない",
+      "baseForm": "いない / 来ない",
+      "politeLevel": "respectful",
+      "explanationKo": "いらっしゃる는 いる、来る、行く의 존경어. いらっしゃらない는 그 부정형으로 '오지 않으시다/없으시다'를 나타냄.",
+      "usageContext": "호텔 관계자가 중국인 고객이 오지 않는다는 것을 정중하게 표현할 때",
+      "segmentIndex": 76
+    },
+    {
+      "type": "teineigo",
+      "originalText": "様々な対策を行っていました",
+      "reading": "さまざまなたいさくをおこなっていました",
+      "baseForm": "様々な対策をする",
+      "politeLevel": "polite",
+      "explanationKo": "行う(おこなう)는 する의 격식 있는 표현. ていました는 과거 진행을 정중하게 나타내는 형태로 뉴스 보도에서 자주 사용.",
+      "usageContext": "리포터가 호텔의 대책을 보도할 때",
+      "segmentIndex": 65
+    },
+    {
+      "type": "sonkeigo",
+      "originalText": "日本の方が増えてきた",
+      "reading": "にほんのかたがふえてきた",
+      "baseForm": "日本の人が増えてきた",
+      "politeLevel": "respectful",
+      "explanationKo": "方(かた)는 사람을 높이는 존경어로 일본인 관광객을 정중하게 지칭. 인터뷰 대상자가 일본인 손님에 대한 존중을 표현.",
+      "usageContext": "관광업 종사자가 일본인 관광객 증가에 대해 말할 때",
+      "segmentIndex": 83
+    },
+    {
+      "type": "teineigo",
+      "originalText": "戻ってきてほしいですよね",
+      "reading": "もどってきてほしいですよね",
+      "baseForm": "戻ってきてほしい",
+      "politeLevel": "polite/conversational",
+      "explanationKo": "ほしい(원하다/해줬으면 하다)에 정중형 です를 붙인 표현. よね는 청자에게 공감을 구하는 종조사로 친근함과 정중함을 동시에 표현.",
+      "usageContext": "관광업 베테랑이 일본인 관광객 귀환을 바라는 마음을 표현할 때",
+      "segmentIndex": 87
+    },
+    {
+      "type": "teineigo",
+      "originalText": "にぎわっています",
+      "reading": "にぎわっています",
+      "baseForm": "にぎわう",
+      "politeLevel": "polite",
+      "explanationKo": "관용적 뉴스 어체로 현재 진행 상황을 시청자에게 정중히 설명. テレビ報道의 전형적인 어체.",
+      "usageContext": "기자가 번화한 거리 상황을 현장에서 보도할 때",
+      "segmentIndex": 54
+    }
+  ]
+}

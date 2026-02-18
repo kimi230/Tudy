@@ -1,0 +1,132 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 5,
+      "summary": "Introduction to keigo: explains what keigo is, its three types (sonkeigo, kenjougo, teineigo), and that even Japanese people find it difficult. Announces 20 key phrases to learn.",
+      "summaryKo": "경어 소개: 경어란 무엇인지, 세 가지 종류(존경어, 겸양어, 정중어)를 설명하고 일본인에게도 어렵다는 점을 언급. 외워야 할 20개의 핵심 표현을 소개 예고.",
+      "keyPoints": ["경어는 윗사람에게 사용하는 말", "존경어, 겸양어, 정중어 3가지 종류", "일본인도 어려워하는 경어", "20개 핵심 표현 학습 예고"]
+    },
+    {
+      "section": "8 Special Sonkeigo Verbs",
+      "startSegment": 6,
+      "endSegment": 30,
+      "summary": "Introduces 8 special honorific verbs that replace common verbs: ご覧になる(見る), おっしゃる(言う), 召し上がる(食べる/飲む), ご存知(知っている), なさる(する), いらっしゃる(いる/行く/来る). Includes dialogue practice between teachers.",
+      "summaryKo": "8개의 특별한 존경어 동사 소개: ご覧になる(보다), おっしゃる(말하다), 召し上がる(먹다/마시다), ご存知(알다), なさる(하다), いらっしゃる(있다/가다/오다). 선생님들 간의 대화 연습 포함.",
+      "keyPoints": ["見る → ご覧になる", "言う → おっしゃる", "食べる/飲む → 召し上がる", "知っている → ご存知", "する → なさる", "いる/行く/来る → いらっしゃる", "대화문을 통한 실전 연습"]
+    },
+    {
+      "section": "Passive Form Sonkeigo",
+      "startSegment": 31,
+      "endSegment": 38,
+      "summary": "Explains how the passive form (られる) can be used as honorific language. Two examples: 帰る→帰られる, 思う→思われる. Includes practice dialogues about a company president leaving and opinions about Vietnam.",
+      "summaryKo": "수동형(られる)을 존경어로 사용하는 방법 설명. 두 가지 예시: 帰る→帰られる, 思う→思われる. 사장님의 퇴근과 베트남에 대한 의견을 묻는 대화 연습 포함.",
+      "keyPoints": ["수동형을 존경어로 활용", "帰る → 帰られる", "思う → 思われる", "실전 대화 예시"]
+    },
+    {
+      "section": "お〜になります Pattern",
+      "startSegment": 39,
+      "endSegment": 46,
+      "summary": "Introduces the お + verb stem + になります pattern with one key example: 決まる→お決まりになる. Includes a restaurant ordering dialogue demonstrating its use.",
+      "summaryKo": "お + 동사 어간 + になります 패턴 소개. 핵심 예시: 決まる→お決まりになる. 레스토랑 주문 대화를 통한 실전 활용 시연.",
+      "keyPoints": ["お + 동사어간 + になります 패턴", "決まる → お決まりになる", "레스토랑 주문 장면 활용"]
+    },
+    {
+      "section": "お〜ください Pattern",
+      "startSegment": 47,
+      "endSegment": 62,
+      "summary": "Teaches the polite request pattern お + verb stem + ください. Examples: お座りください, おかけください, お入りください, お待ちください, お取りください. Includes various practical dialogue situations.",
+      "summaryKo": "공손한 요청 패턴 お + 동사 어간 + ください 학습. 예시: お座りください, おかけください, お入りください, お待ちください, お取りください. 다양한 실전 대화 상황 포함.",
+      "keyPoints": ["お + 동사어간 + ください 패턴", "座る → お座りください / おかけください", "入る → お入りください", "待つ → お待ちください", "取る → お取りください"]
+    },
+    {
+      "section": "ご〜ください Pattern",
+      "startSegment": 63,
+      "endSegment": 75,
+      "summary": "Teaches the polite request pattern for Sino-Japanese verbs: ご + noun + ください. Examples: ご検討ください, ご連絡ください, ご協力ください. Also introduces the even more polite ご〜いただけますか form.",
+      "summaryKo": "한자어 동사용 공손한 요청 패턴: ご + 한자어 명사 + ください 학습. 예시: ご検討ください, ご連絡ください, ご協力ください. 더 공손한 ご〜いただけますか 형태도 소개.",
+      "keyPoints": ["ご + 한자어명사 + ください 패턴", "検討する → ご検討ください", "連絡する → ご連絡ください", "協力する → ご協力ください", "더 공손한 형태: ご協力いただけますか"]
+    },
+    {
+      "section": "お〜ですか Pattern",
+      "startSegment": 76,
+      "endSegment": 81,
+      "summary": "Introduces the polite inquiry pattern お + noun/verb stem + ですか. Examples: お持ちですか (Do you have?), お考えですか (What do you think?). Includes dialogues about car ownership and political opinions.",
+      "summaryKo": "공손한 질문 패턴 お + 명사/동사어간 + ですか 소개. 예시: お持ちですか(가지고 계십니까?), お考えですか(어떻게 생각하십니까?). 자동차 소유와 정치 의견에 대한 대화 포함.",
+      "keyPoints": ["お + 명사/동사어간 + ですか 패턴", "持っている → お持ちですか", "考えている → お考えですか"]
+    },
+    {
+      "section": "Summary Review",
+      "startSegment": 82,
+      "endSegment": 108,
+      "summary": "Complete review of all 20 keigo expressions covered in the lesson. Goes through each pattern systematically: special sonkeigo verbs, passive form sonkeigo, お〜になります, お〜ください, ご〜ください, and お〜ですか.",
+      "summaryKo": "수업에서 다룬 20개 경어 표현의 전체 복습. 각 패턴을 체계적으로 복습: 특별한 존경어 동사, 수동형 존경어, お〜になります, お〜ください, ご〜ください, お〜ですか.",
+      "keyPoints": ["20개 핵심 경어 표현 총정리", "특별 존경어 6가지 복습", "수동형 존경어 2가지 복습", "패턴형 존경어 복습"]
+    },
+    {
+      "section": "Closing",
+      "startSegment": 109,
+      "endSegment": 111,
+      "summary": "Lesson conclusion with thanks for watching and invitation to leave comments and questions.",
+      "summaryKo": "수업 마무리. 시청에 대한 감사 인사와 댓글 및 질문 요청.",
+      "keyPoints": ["ご清聴ありがとうございました (경청 감사 인사)", "의견/질문 요청", "댓글 작성 권유"]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "これから",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "수업 시작을 알리는 도입 표현"
+    },
+    {
+      "expression": "最初は",
+      "type": "enumeration",
+      "segmentIndex": 5,
+      "role": "첫 번째 주제(8개 특별 존경어) 시작"
+    },
+    {
+      "expression": "次は",
+      "type": "transition",
+      "segmentIndex": 31,
+      "role": "두 번째 주제(수동형 존경어)로 전환"
+    },
+    {
+      "expression": "次は、おになります",
+      "type": "transition",
+      "segmentIndex": 39,
+      "role": "세 번째 주제(お〜になります 패턴)로 전환"
+    },
+    {
+      "expression": "次は、お ください",
+      "type": "transition",
+      "segmentIndex": 47,
+      "role": "네 번째 주제(お〜ください 패턴)로 전환"
+    },
+    {
+      "expression": "次は ご ください",
+      "type": "transition",
+      "segmentIndex": 63,
+      "role": "다섯 번째 주제(ご〜ください 패턴)로 전환"
+    },
+    {
+      "expression": "最後は、お ですか",
+      "type": "transition",
+      "segmentIndex": 76,
+      "role": "마지막 주제(お〜ですか 패턴)로 전환"
+    },
+    {
+      "expression": "ご清聴どうもありがとうございました",
+      "type": "closing",
+      "segmentIndex": 109,
+      "role": "수업 종료 및 감사 인사"
+    },
+    {
+      "expression": "何かご意見やご質問はございますか",
+      "type": "closing",
+      "segmentIndex": 110,
+      "role": "질문/의견 요청으로 마무리"
+    }
+  ]
+}

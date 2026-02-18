@@ -1,0 +1,68 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "本日は 古神道の本質について お伝えしたいと思っております",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ている",
+    "example": "それでやっているうちに このままいったら 確実にトップだなと思っているときに",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 36
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "最初は楽しいということもあって ずっと夢中になっておりました",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "本日は 古神道の本質について お伝えしたいと思っております",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜たい",
+    "example": "本日は 古神道の本質について お伝えしたいと思っております",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "言葉として読みますが 意味がわからないと",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "言葉として読みますが 意味がわからないと",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "〜ため",
+    "example": "先ほど 当然 少し僕たちも 今回お伝えするために",
+    "explanationKo": "목적 또는 이유를 나타냅니다.",
+    "segmentIndex": 82
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "まず一言 包み込むという一言で 皆さんどういう印象をお持ちでしょうか",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "ご職業何ですかと聞かれます",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "사역 〜させる",
+    "example": "まず 自己紹介させていただきます",
+    "explanationKo": "행위를 시키거나 유도하는 의미를 나타냅니다.",
+    "segmentIndex": 3
+  }
+]

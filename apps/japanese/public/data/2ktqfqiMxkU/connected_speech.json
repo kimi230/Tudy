@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "今、日本に住む外国人は過去最多の367万人",
+    "reading": "いま、にほんにすむがいこくじんはかこさいたのさんびゃくろくじゅうななまんにん",
+    "baseForm": "今、日本に住む外国人は過去最多の367万",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "casual",
+    "originalText": "日本のアニメを作る夢を叶えたポーランド人や",
+    "reading": "にほんのアニメをつくるゆめをかなえたポーランドじんや",
+    "baseForm": "日本のアニメを作る夢を叶えたポーランド人",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "casual",
+    "originalText": "日本が好きすぎて人力車のシャフになったフランス人も",
+    "reading": "にほんがすきすぎてじんりきしゃのシャフになったフランスじんも",
+    "baseForm": "日本が好きすぎて人力車のシャフになったフ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "casual",
+    "originalText": "給料はいくらでどんな生活をしているのか",
+    "reading": "きゅうりょうはいくらでどんなせいかつをしているのか",
+    "baseForm": "給料はいくらでどんな生活をしているのか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "casual",
+    "originalText": "それ、Nスタが調べてきました",
+    "reading": "それ、エヌスタがしらべてきました",
+    "baseForm": "それ、Nスタが調べてきました",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "頑張ります 今日本に住む外国人の人口は過去最多の367万人",
+    "reading": "がんばります いまにほんにすむがいこくじんのじんこうはかこさいたのさんびゃくろく",
+    "baseForm": "頑張り 今日本に住む外国人の人口は過去最",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "なぜ日本に住み、どんな仕事をして生活しているのか",
+    "reading": "なぜにほんにすみ、どんなしごとをしてせいかつしているのか",
+    "baseForm": "なぜ日本に住み、どんな仕事をして生活して",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "徹底調査です 働く上で気になるのがお給料",
+    "reading": "てっていちょうさです はたらくうえできになるのがおきゅうりょう",
+    "baseForm": "徹底調査 働く上で気になるのがお給料",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "casual",
+    "originalText": "去年の日本の平均月給はおよそ33万円と過去最高に",
+    "reading": "きょねんのにほんのへいきんつききゅうはおよそさんじゅうさんまんえんとかこさいこう",
+    "baseForm": "去年の日本の平均月給はおよそ33万円と過",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "では海外の給料事情はどうなのか",
+    "reading": "ではかいがいのきゅうりょうじじょうはどうなのか",
+    "baseForm": "では海外の給料事情はどうなのか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "まずは外国人観光客に聞いてみました",
+    "reading": "まずはがいこくじんかんこうきゃくにきいてみました",
+    "baseForm": "まずは外国人観光客に聞いてみました",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "casual",
+    "originalText": "アメリカ・カリフォルニア州から来た",
+    "reading": "アメリカ・カリフォルニアしゅうからきた",
+    "baseForm": "アメリカ・カリフォルニア州から来た",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "IT関係の仕事をしているこちらの男性",
+    "reading": "アイティーかんけいのしごとをしているこちらのだんせい",
+    "baseForm": "IT関係の仕事をしているこちらの男性",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "そのお給料は 年収はおよそ1100万円",
+    "reading": "そのおきゅうりょうは ねんしゅうはおよそせんひゃくまんえん",
+    "baseForm": "そのお給料は 年収はおよそ1100万円",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "単純計算で月90万円超えと",
+    "reading": "たんじゅんけいさんでつききゅうじゅうまんえんこえと",
+    "baseForm": "単純計算で月90万円超えと",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "teineigo",
+    "originalText": "日本の平均月給の3倍近くですが",
+    "reading": "にほんのへいきんつききゅうのさんばいちかくですが",
+    "baseForm": "日本の平均月給の3倍近くが",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 15
+  }
+]

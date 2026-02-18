@@ -1,0 +1,50 @@
+[
+  {
+    "pattern": "是...的",
+    "example": "《情商》 《情商》 《情商》 《情商》所在乎的就是",
+    "explanationKo": "특정 사실/상황을 강조할 때 쓰이는 구문입니다.",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "把字句",
+    "example": "只不過那個焦慮對你而言 你有沒有辦法把它當成是",
+    "explanationKo": "동작의 처리 대상과 결과를 강조하는 표현입니다.",
+    "segmentIndex": 27
+  },
+  {
+    "pattern": "被字句",
+    "example": "你其實要想一下是 你怎麼你這個人怎麼那麼容易被勒索呀",
+    "explanationKo": "수동 의미를 나타낼 때 쓰입니다.",
+    "segmentIndex": 41
+  },
+  {
+    "pattern": "동태조사 了",
+    "example": "有可能是你花了好多力氣拍了一張照片",
+    "explanationKo": "상태 변화나 동작 완료를 나타냅니다.",
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "조건문 如果...就...",
+    "example": "你就覺得他很耽誤別人嘛 就是人家如果真的相信你這個說法的話",
+    "explanationKo": "가정을 제시하고 결과를 말할 때 사용합니다.",
+    "segmentIndex": 36
+  },
+  {
+    "pattern": "비교문 比",
+    "example": "一個比較舒服的動力來源",
+    "explanationKo": "두 대상을 비교하는 데 쓰입니다.",
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "가능 표현 可以",
+    "example": "立刻當下就可以收到別人覺得好或者不好",
+    "explanationKo": "허가/가능성을 나타내는 표현입니다.",
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "의문문 吗/呢",
+    "example": "那你何必每件事情都要講成是 你是個受害者呢",
+    "explanationKo": "질문이나 확인을 나타내는 문장형입니다.",
+    "segmentIndex": 45
+  }
+]

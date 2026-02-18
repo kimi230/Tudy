@@ -1,15 +1,22 @@
-# App
-app/node_modules/
-app/dist/
+# Apps
+apps/*/node_modules/
+apps/*/dist/
+
+# Shared packages
+packages/*/node_modules/
+packages/*/dist/
+
+# pnpm
+node_modules/
 
 # Pipeline
 pipeline/.tmp/
 pipeline/__pycache__/
 
 # Intermediate processing data
-app/public/data/**/_raw_*.json
-app/public/data/**/_clean_*.json
-app/public/data/**/_translated_*.json
+apps/*/public/data/**/_raw_*.json
+apps/*/public/data/**/_clean_*.json
+apps/*/public/data/**/_translated_*.json
 
 # Environment
 .env
@@ -20,3 +27,7 @@ pipeline/.env
 .vscode/
 .idea/
 *.sw?
+
+# Local tool temp/state
+supabase/.temp/
+app/.vite/

@@ -1,0 +1,137 @@
+[
+  {
+    "type": "similar_sounds",
+    "originalText": "《情商》 《情商》 《情商》 《情商》所在乎的就是",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "你要設定好你自己的感覺跟目標",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "而不用企圖要改變別人",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.",
+    "practiceGuide": "bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "我就是會好好的照我的標準來完成我該完成的事情",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "如果一個人甘心閱讀很淺",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.",
+    "practiceGuide": "一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "我就不相信他有想要保持自己清醒的狀態",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.",
+    "practiceGuide": "bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "這兩個事情是舒毛對面",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "結果他如果有對自己有企圖心",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 7
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "他如果對自己是不甘於淺薄的話",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.",
+    "practiceGuide": "bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "他自然會找到好的東西來修煉自己",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "不要太有儀式的說我要開始展現最真實的我",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.",
+    "practiceGuide": "bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "similar_sounds",
+    "originalText": "然後接下來要面對它",
+    "pinyin": "",
+    "toneChange": "similar_sounds",
+    "explanationKo": "연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.",
+    "practiceGuide": "구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "就簡直像恐怖片一樣 就是不要這樣想",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.",
+    "practiceGuide": "bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "就是每個你都是你 一課Talks的各位你們好",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.",
+    "practiceGuide": "一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "我是蔡康永 只要有在創作恐怕都會一直焦慮吧",
+    "pinyin": "",
+    "toneChange": "tone_sandhi",
+    "explanationKo": "一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.",
+    "practiceGuide": "一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.",
+    "segmentIndex": 14
+  }
+]

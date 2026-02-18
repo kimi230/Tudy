@@ -1,0 +1,74 @@
+[
+  {
+    "pattern": "〜たとしたら (Hypothetical Conditional)",
+    "example": "もし今日が人生最後の日だとしたら",
+    "explanationKo": "~라고 가정한다면, ~이라면이라는 가정 조건을 나타냅니다. 과거형(た형) + としたら로 구성되며, 있을 법하지 않은 가정적 상황을 상상할 때 사용합니다.",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "〜そうです (Hearsay / Reported Information)",
+    "example": "大半の人はこんな後悔の言葉を口にするそうです",
+    "explanationKo": "동사/형용사의 보통형에 붙어 타인에게 들은 정보를 전달합니다: '~라고 합니다', '~라고 들었습니다'. 외관을 나타내는 そうです와 구별됩니다.",
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "〜ことになりました (It has been decided that ~)",
+    "example": "末期がんのおじいちゃんを担当することになりました",
+    "explanationKo": "상황이 그렇게 되었거나 결정되었음을 나타냅니다. 화자 자신의 의지보다는 외부 상황이나 타인에 의해 그렇게 되었다는 뉘앙스가 있습니다.",
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "おっしゃる (Special Honorific Verb for 言う)",
+    "example": "おじいちゃんはこうおっしゃっていました",
+    "explanationKo": "言う(말하다)의 특별 존경어 형태. 윗사람이나 공손하게 대해야 하는 사람이 말씀하실 때 사용합니다.",
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "〜ながら (While doing ~ / Simultaneous Actions)",
+    "example": "そうおっしゃいながら 涙を流されていました",
+    "explanationKo": "두 가지 동작이 동시에 이루어짐을 나타냅니다: 'A하면서 B하다'. 주어가 두 행동을 동시에 합니다. 주요 행동이나 감정은 두 번째 절에 옵니다.",
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "〜ながら逆接 (〜のに / Unexpected Contrast with ながら)",
+    "example": "世界第三位の経済大国でありながら 幸福度は90位",
+    "explanationKo": "ながら는 역접(반전)도 나타낼 수 있습니다: 'A이면서 B'. A라는 조건을 인정하면서 놀랍거나 모순된 결과 B를 보여줍니다.",
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "〜ないと〜ない / 〜なければ〜ない (Negative Conditional: must / cannot unless)",
+    "example": "有名大学を出ないと幸せになれないよ",
+    "explanationKo": "A가 이루어지지 않으면 B도 이루어질 수 없다는 조건 구조입니다. 이 강연에서는 사회적 압박을 열거하는 데 사용됩니다: '~하지 않으면 행복해질 수 없어'.",
+    "segmentIndex": 54
+  },
+  {
+    "pattern": "〜のだろうか (Rhetorical Wonder / Puzzlement)",
+    "example": "本当にこの後悔のない人生を歩んでいる人がいるのだろうかと思い始めました",
+    "explanationKo": "화자의 의문이나 궁금증을 표현합니다: '~이지 않을까?', '~인 걸까?'. 내성적이고 질문하는 어조를 더합니다.",
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "〜てみる (Try doing ~)",
+    "example": "ちょっと話してみることにしました",
+    "explanationKo": "동사의 て형에 붙어 시험삼아 해보는 것을 나타냅니다: '~해 보다'. 어떻게 될지 보기 위해 시험적으로 하는 행동임을 시사합니다.",
+    "segmentIndex": 69
+  },
+  {
+    "pattern": "〜じゃないかと思う (I think it might be ~)",
+    "example": "自分の幸せが何なのか 見えなくなっているからじゃないかと思うんですよ",
+    "explanationKo": "완곡한 주장 패턴: '~이 아닐까 생각합니다', '아마 ~인 것 같습니다'. 단순한 진술보다 부드럽고, 가능한 원인이나 설명을 제안할 때 사용합니다.",
+    "segmentIndex": 85
+  },
+  {
+    "pattern": "〜てみてください (Please try ~)",
+    "example": "自分の幸せと向き合う時間を作ってみてください",
+    "explanationKo": "て형 + みる + ください를 결합한 공손한 요청 표현으로 '~해 보세요'를 의미합니다. 직접적인 명령보다 부드럽고 권유적입니다.",
+    "segmentIndex": 97
+  },
+  {
+    "pattern": "〜なければなりません (Must / Have to ~)",
+    "example": "今この瞬間から始めなければなりません",
+    "explanationKo": "의무를 나타냅니다: '~해야 합니다', '~하지 않으면 안 됩니다'. 부정 조건형 なければ + なりません으로 구성되며 강한 필요성을 나타냅니다.",
+    "segmentIndex": 100
+  }
+]

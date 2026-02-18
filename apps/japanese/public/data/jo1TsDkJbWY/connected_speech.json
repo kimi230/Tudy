@@ -1,0 +1,156 @@
+{
+  "videoId": "jo1TsDkJbWY",
+  "connected_speech": [
+    {
+      "type": "音便 (onbin)",
+      "title": "テ形の音便",
+      "description": "動詞のテ形接続時に起きる音の変化",
+      "examples": [
+        {
+          "written": "売り切れてしまう",
+          "spoken": "うりきれてしまう → うりきれちゃう",
+          "explanation": "「〜てしまう」は口語で「〜ちゃう」に縮約されることが多い。本動画では書き言葉的な「〜てしまう」が使われている。",
+          "segmentIndex": 13
+        },
+        {
+          "written": "待っていてくれ",
+          "spoken": "まっていてくれ → まっててくれ",
+          "explanation": "「〜ていて」は口語で「〜てて」に縮約。本動画では「待ってて」の形で発音されている。",
+          "segmentIndex": 57
+        }
+      ]
+    },
+    {
+      "type": "促音化 (sokuonka)",
+      "title": "促音の挿入",
+      "description": "連続した子音の前に促音（っ）が挿入される現象",
+      "examples": [
+        {
+          "written": "スポット",
+          "spoken": "すぽっと",
+          "explanation": "外来語「spot」は日本語化する際に「っ」が挿入される。この動画全体に多数登場する。",
+          "segmentIndex": 0
+        },
+        {
+          "written": "セット",
+          "spoken": "せっと",
+          "explanation": "外来語「set」の日本語音写。中間に促音が入る。",
+          "segmentIndex": 55
+        }
+      ]
+    },
+    {
+      "type": "長音 (chōon)",
+      "title": "外来語の長音表記",
+      "description": "外来語の長母音を「ー」で表記する日本語の特徴",
+      "examples": [
+        {
+          "written": "ロマンスカー",
+          "spoken": "ろまんすかー",
+          "explanation": "英語「Romance Car」の長音を「ー」で表現。語末の長音はやや短く発音される傾向がある。",
+          "segmentIndex": 2
+        },
+        {
+          "written": "リーズナブル",
+          "spoken": "りーずなぶる",
+          "explanation": "英語「reasonable」の音写。「リー」の部分が長音。",
+          "segmentIndex": 45
+        },
+        {
+          "written": "テイクアウト",
+          "spoken": "ていくあうと",
+          "explanation": "英語「takeout」の音写。日本語化した際に「テイク」+「アウト」と分節化される。",
+          "segmentIndex": 7
+        }
+      ]
+    },
+    {
+      "type": "縮約形 (shukuyaku)",
+      "title": "口語の縮約・脱落",
+      "description": "話し言葉で起きる音節の短縮・省略",
+      "examples": [
+        {
+          "written": "知っておきたい",
+          "spoken": "しっておきたい",
+          "explanation": "「知って」が「しって」と促音化して短縮される。",
+          "segmentIndex": 56
+        },
+        {
+          "written": "それでは",
+          "spoken": "そいじゃ / そいでは",
+          "explanation": "「それでは」は話し言葉で「じゃ」に縮約されることがあるが、本動画では「それでは」と丁寧に発音されている。",
+          "segmentIndex": 58
+        }
+      ]
+    },
+    {
+      "type": "文末表現 (sentence-final particles)",
+      "title": "男性的な文末詞",
+      "description": "話者が使う男性的・断定的な文末表現",
+      "examples": [
+        {
+          "written": "紹介するぞ",
+          "spoken": "しょうかいするぞ",
+          "explanation": "「ぞ」は男性的で強調・断定を表す文末助詞。カジュアルな口語で使用される。",
+          "segmentIndex": 0
+        },
+        {
+          "written": "人気だな",
+          "spoken": "にんきだな",
+          "explanation": "「な」は確認・感慨を表す文末助詞。やや独り言的なニュアンスがある。",
+          "segmentIndex": 22
+        },
+        {
+          "written": "迫力満点だ",
+          "spoken": "はくりょくまんてんだ",
+          "explanation": "「だ」は断定の文末。ぞ・な・だが混在し、話者の個性的なスタイルを形成している。",
+          "segmentIndex": 51
+        }
+      ]
+    },
+    {
+      "type": "連濁 (rendaku)",
+      "title": "連濁 (複合語の濁音化)",
+      "description": "複合語の後半部分の語頭が清音から濁音に変化する現象",
+      "examples": [
+        {
+          "written": "街並み（まちなみ）",
+          "spoken": "まちなみ",
+          "explanation": "「まち」＋「なみ」の複合語。「なみ」は本来「なみ（並）」だが、連濁で濁音にはならない例。",
+          "segmentIndex": 8
+        },
+        {
+          "written": "かまぼこ作り",
+          "spoken": "かまぼこづくり",
+          "explanation": "「作り（つくり）」が連濁して「づくり」に変化。複合語の典型的な連濁例。",
+          "segmentIndex": 37
+        }
+      ]
+    },
+    {
+      "type": "ピッチアクセント (pitch accent)",
+      "title": "地名・固有名詞のピッチ",
+      "description": "日本語のピッチアクセントは地名などの固有名詞でも重要",
+      "examples": [
+        {
+          "written": "小田原（おだわら）",
+          "spoken": "お↗だわ↘ら",
+          "explanation": "「おだわら」は中高型アクセント。2拍目が高くなり3拍目以降で下がる。",
+          "segmentIndex": 2
+        },
+        {
+          "written": "箱根（はこね）",
+          "spoken": "は↗こ↘ね",
+          "explanation": "「はこね」は中高型で2拍目が最も高い。",
+          "segmentIndex": 40
+        },
+        {
+          "written": "大涌谷（おおわくだに）",
+          "spoken": "お↗おわくだ↘に",
+          "explanation": "「おおわくだに」は複合地名で、全体的に前半が高く後半が下がる平板に近い発音。",
+          "segmentIndex": 47
+        }
+      ]
+    }
+  ]
+}

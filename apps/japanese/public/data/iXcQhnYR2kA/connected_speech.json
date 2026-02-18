@@ -1,0 +1,132 @@
+[
+  {
+    "type": "sonkeigo",
+    "originalText": "おっしゃっていました",
+    "reading": "おっしゃっていました",
+    "baseForm": "言っていました",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'言っていました(말하고 있었습니다)'의 존경어 표현. 할아버지가 말씀하시던 내용을 화자가 경의를 담아 전달할 때 사용합니다.",
+    "usageContext": "윗사람(할아버지)이 하신 말씀을 제3자에게 경의를 갖고 전달할 때",
+    "segmentIndex": 15
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "おっしゃいながら",
+    "reading": "おっしゃいながら",
+    "baseForm": "言いながら",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'言いながら(말하면서)'의 존경어 표현. 할아버지가 말씀하시면서 눈물을 흘리시는 장면을 묘사할 때 사용합니다.",
+    "usageContext": "윗사람(할아버지)이 말씀하시는 동작을 공손하게 묘사할 때",
+    "segmentIndex": 19
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "流されていました",
+    "reading": "ながされていました",
+    "baseForm": "流していました",
+    "politeLevel": "尊敬語（受け身形）",
+    "explanationKo": "'流していました(흘리고 있었습니다)'의 수동형 존경어 표현. 할아버지가 눈물을 흘리시는 동작에 경의를 표하기 위해 수동형을 사용합니다.",
+    "usageContext": "윗사람(할아버지)의 행동(눈물을 흘리심)을 공손하게 묘사할 때. 수동형을 존경어로 활용하는 패턴.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "teineigo",
+    "originalText": "思います",
+    "reading": "おもいます",
+    "baseForm": "思う",
+    "politeLevel": "丁寧語",
+    "explanationKo": "청중(TEDx 관객)을 향한 정중한 발표 표현. 연사가 자신의 생각이나 견해를 공손하게 전달할 때 사용합니다.",
+    "usageContext": "TEDx 발표에서 청중에게 자신의 의견을 공손하게 전달할 때",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "思いますか",
+    "reading": "おもいますか",
+    "baseForm": "思う",
+    "politeLevel": "丁寧語",
+    "explanationKo": "청중에게 질문을 던지는 정중한 표현. TEDx 강연에서 청중 참여를 유도하기 위해 질문 형식으로 사용합니다.",
+    "usageContext": "TEDx 발표에서 청중에게 공손하게 질문하여 참여를 유도할 때",
+    "segmentIndex": 25
+  },
+  {
+    "type": "bikago",
+    "originalText": "ご飯",
+    "reading": "ごはん",
+    "baseForm": "飯",
+    "politeLevel": "美化語",
+    "explanationKo": "'飯(밥)'에 ご를 붙인 미화어. 일상 회화에서 음식/식사를 품위 있게 표현할 때 사용하는 표현으로, 특정 상대에 대한 경의가 아닌 표현 자체의 격을 높입니다.",
+    "usageContext": "일상적인 대화나 발표에서 음식/식사를 품위 있게 표현할 때",
+    "segmentIndex": 39
+  },
+  {
+    "type": "bikago",
+    "originalText": "お金",
+    "reading": "おかね",
+    "baseForm": "金",
+    "politeLevel": "美化語",
+    "explanationKo": "'金(돈)'에 お를 붙인 미화어. 일상 대화에서 돈을 가리킬 때 품위 있게 표현하기 위해 사용합니다.",
+    "usageContext": "일상적인 발표에서 '돈'을 품위 있게 표현할 때",
+    "segmentIndex": 16
+  },
+  {
+    "type": "bikago",
+    "originalText": "お話し",
+    "reading": "おはなし",
+    "baseForm": "話し",
+    "politeLevel": "美化語",
+    "explanationKo": "'話し(이야기)'에 お를 붙인 미화어. 대화나 이야기를 품위 있게 표현할 때 사용합니다.",
+    "usageContext": "마을 사람들과의 교류를 품위 있게 묘사할 때",
+    "segmentIndex": 39
+  },
+  {
+    "type": "teineigo",
+    "originalText": "みなさん",
+    "reading": "みなさん",
+    "baseForm": "みんな",
+    "politeLevel": "丁寧語",
+    "explanationKo": "'みんな(모두)'의 정중한 표현. TEDx 발표에서 청중 전체를 공손하게 부를 때 사용합니다.",
+    "usageContext": "TEDx 발표에서 청중 전체를 공손하게 호칭할 때",
+    "segmentIndex": 87
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ありがとうございました",
+    "reading": "ありがとうございました",
+    "baseForm": "ありがとう",
+    "politeLevel": "丁寧語（最上級）",
+    "explanationKo": "'ありがとう(감사합니다)'의 가장 격식 있는 과거형 표현. 강연 마무리에서 청중에게 깊은 감사를 전할 때 사용합니다.",
+    "usageContext": "TEDx 강연 마무리에서 청중에게 감사를 전할 때",
+    "segmentIndex": 103
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ご視聴ありがとうございました",
+    "reading": "ごしちょうありがとうございました",
+    "baseForm": "見てくれてありがとう",
+    "politeLevel": "丁寧語（最上級）",
+    "explanationKo": "'見てくれてありがとう(봐주셔서 감사합니다)'의 격식 있는 표현. ご視聴(시청)이라는 한자어에 ご를 붙인 미화어와 최상급 감사 표현을 결합합니다.",
+    "usageContext": "영상/강연 마무리에서 시청자/청중에게 최고의 감사를 전할 때",
+    "segmentIndex": 104
+  },
+  {
+    "type": "casual",
+    "originalText": "わしはなあ",
+    "reading": "わしはなあ",
+    "baseForm": "私は",
+    "politeLevel": "くだけた話し方（方言）",
+    "explanationKo": "'私は(저는/나는)'의 노인 남성 방언 표현. わし는 주로 나이 든 남성이나 서일본 방언에서 사용하는 1인칭 대명사입니다. なあ는 감탄/독백 어기조사입니다.",
+    "usageContext": "나이 든 남성 캐릭터(할아버지)의 직접 발화 인용. 지역/세대 특색이 있는 비격식 표현.",
+    "segmentIndex": 16
+  },
+  {
+    "type": "casual",
+    "originalText": "じゃないの",
+    "reading": "じゃないの",
+    "baseForm": "ではないのですか",
+    "politeLevel": "くだけた話し方",
+    "explanationKo": "'ではないのですか(~이 아닌가요?)'의 비격식 구어체 표현. 화자가 일반적인 통념에 의문을 제기하는 맥락에서 사용됩니다.",
+    "usageContext": "청중과 공감대를 형성하기 위해 일상적인 어조로 질문을 던질 때",
+    "segmentIndex": 30
+  }
+]

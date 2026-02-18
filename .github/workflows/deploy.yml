@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'apps/**'
+      - 'packages/shared/**'
+      - 'pnpm-workspace.yaml'
 
 permissions:
   contents: read
@@ -19,26 +23,48 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: app/package-lock.json
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm ci
-        working-directory: app
+        run: pnpm install --frozen-lockfile
 
-      - name: Build
-        run: npm run build
-        working-directory: app
+      - name: Build English
+        run: pnpm build:en
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
 
+      - name: Build Chinese
+        run: pnpm build:zh
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
+      - name: Build Japanese
+        run: pnpm build:ja
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
+      - name: Combine dist folders
+        run: |
+          mkdir -p _site
+          cp -r apps/english/dist/* _site/
+          mkdir -p _site/cn
+          cp -r apps/chinese/dist/* _site/cn/
+          mkdir -p _site/jp
+          cp -r apps/japanese/dist/* _site/jp/
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: app/dist
+          path: _site
 
   deploy:
     needs: build

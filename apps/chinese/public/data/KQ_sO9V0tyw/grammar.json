@@ -1,0 +1,44 @@
+[
+  {
+    "pattern": "대조 전환 (but/however)",
+    "example": "But it wasn't always the case. Three years ago, the demand for his dumpling was soaring",
+    "explanationKo": "상반된 관점을 대비해 메시지를 강화하는 전환 표현입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "원인-결과 (because/so)",
+    "example": "Because most Chinese entrepreneurs are very good at growth strategies.",
+    "explanationKo": "원인과 결과를 논리적으로 연결하는 문장 구조입니다.",
+    "segmentIndex": 46
+  },
+  {
+    "pattern": "조건문 (if)",
+    "example": "If I were to advise Gao back then,",
+    "explanationKo": "가정 상황을 제시하고 판단/행동 원칙을 설명하는 구조입니다.",
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "조동사 (can/should)",
+    "example": "While still doing their job. Things like what kinds of dumplings can be sold online,",
+    "explanationKo": "조언, 가능성, 원칙 제시에서 자주 쓰이는 조동사 패턴입니다.",
+    "segmentIndex": 37
+  },
+  {
+    "pattern": "비교급/강조 (more/less)",
+    "example": "Two years later, more talents with start-up dreams were attracted.",
+    "explanationKo": "비교를 통해 변화 방향이나 우선순위를 제시하는 표현입니다.",
+    "segmentIndex": 42
+  },
+  {
+    "pattern": "과거 서술 (was/were/did)",
+    "example": "But it wasn't always the case. Three years ago, the demand for his dumpling was soaring",
+    "explanationKo": "사례나 배경을 설명할 때 사용되는 과거 시제 패턴입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "현재 일반 진술",
+    "example": "I said, are you sure? I have seldom seen companies as large as yours",
+    "explanationKo": "일반 원칙/현재 상태를 설명하는 문장 패턴입니다.",
+    "segmentIndex": 30
+  }
+]

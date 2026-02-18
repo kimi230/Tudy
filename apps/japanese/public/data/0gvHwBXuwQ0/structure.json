@@ -1,0 +1,66 @@
+{
+  "videoId": "0gvHwBXuwQ0",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 17,
+      "summary": "'オリコンニュースをご覧の皆さん、こんにちは!'로 시작해 '先に杉田さんが主演で同じ旅をする役ですっていう風'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "ありがとうございます",
+        "なんか似てるというか",
+        "こんにちは"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 17,
+      "endSegment": 53,
+      "summary": "'先に杉田さんが主演で同じ旅をする役ですっていう風'로 시작해 '大概口パクには合わせてほしいっていうのは言われま'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "はい",
+        "けど"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 53,
+      "endSegment": 94,
+      "summary": "'大概口パクには合わせてほしいっていうのは言われま'로 시작해 '第1話の時に音響監督さんから'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    },
+    {
+      "section": "정리",
+      "startSegment": 94,
+      "endSegment": 117,
+      "summary": "'第1話の時に音響監督さんから'로 시작해 '相手のことを考えずに喋るとか じゃあ優しさがない'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "の姿勢をまず定めました",
+      "type": "enumeration",
+      "segmentIndex": 15,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "オリコンニュースをご覧の皆さん、こん",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "そういった印象から久木宮さんがそう",
+      "type": "transition",
+      "segmentIndex": 39,
+      "role": "중간 전개 전환"
+    },
+    {
+      "expression": "仲間のような存在で",
+      "type": "emphasis",
+      "segmentIndex": 78,
+      "role": "핵심 강조"
+    }
+  ]
+}

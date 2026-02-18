@@ -1,0 +1,222 @@
+[
+  {
+    "word": "はい",
+    "reading": "はい そんなにさはないとおもいますけど",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'はい'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "はい そんなに差はないと思いますけど"
+  },
+  {
+    "word": "ありがとうございます",
+    "reading": "えっぐやくのひきみやりえです ありがとう",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'ありがとうございます'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "エッグ役の久木宮理恵です ありがとうございます"
+  },
+  {
+    "word": "なんか似てるというか",
+    "reading": "なんかにてるというか いま、げんだいしゃ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'なんか似てるというか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "なんか似てるというか 今、現代社会"
+  },
+  {
+    "word": "けど",
+    "reading": "ひきみやさんとちかいとおもうんですけど ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'けど'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "久木宮さんと近いと思うんですけど なんか似てるというか"
+  },
+  {
+    "word": "こんにちは",
+    "reading": "おりこんにゅーすをごらんのみなさん、こん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'こんにちは'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "オリコンニュースをご覧の皆さん、こんにちは!"
+  },
+  {
+    "word": "面白いなと思って",
+    "reading": "おもしろいなとおもって げんおんからして",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'面白いなと思って'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "面白いなと思って 原音からして久木宮さんと近いと思うんですよね"
+  },
+  {
+    "word": "と思うんですよね",
+    "reading": "おもしろいなとおもって げんおんからして",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'と思うんですよね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "面白いなと思って 原音からして久木宮さんと近いと思うんですよね"
+  },
+  {
+    "word": "現代社会",
+    "reading": "なんかにてるというか いま、げんだいしゃ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'現代社会'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "なんか似てるというか 今、現代社会"
+  },
+  {
+    "word": "現代社会の闇みたいな",
+    "reading": "どうしたんですか？ げんだいしゃかいのや",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'現代社会の闇みたいな'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "どうしたんですか? 現代社会の闇みたいな"
+  },
+  {
+    "word": "どうしたんですか",
+    "reading": "どうしたんですか？ げんだいしゃかいのや",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'どうしたんですか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "どうしたんですか? 現代社会の闇みたいな"
+  },
+  {
+    "word": "読みちゃみたい",
+    "reading": "よみちゃみたい だんくのきゃらくたーのた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'読みちゃみたい'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "読みちゃみたい ダンクのキャラクターの立ち位置と同じく"
+  },
+  {
+    "word": "置と同じく",
+    "reading": "よみちゃみたい だんくのきゃらくたーのた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'置と同じく'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "読みちゃみたい ダンクのキャラクターの立ち位置と同じく"
+  },
+  {
+    "word": "調べたり見たり",
+    "reading": "げーむおぶすろーんずのほんへんをしらべた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'調べたり見たり'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "ゲームオブスローンズの本編を調べたり見たり"
+  },
+  {
+    "word": "なんだろう",
+    "reading": "ということをあえてしていません さいしょ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'なんだろう'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 9,
+    "contextSentence": "ということをあえてしていません 最初は視聴者がどうしてこの人なんだろう"
+  },
+  {
+    "word": "るんだろう",
+    "reading": "どうしてこんなやつがふきかえてるんだろう",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'るんだろう'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 10,
+    "contextSentence": "どうしてこんな奴が吹き替えてるんだろう 印象としてあった方がむしろいいかな"
+  },
+  {
+    "word": "いかな",
+    "reading": "どうしてこんなやつがふきかえてるんだろう",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'いかな'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 10,
+    "contextSentence": "どうしてこんな奴が吹き替えてるんだろう 印象としてあった方がむしろいいかな"
+  },
+  {
+    "word": "ダンクもまた",
+    "reading": "だんくもまた なぜこんなやつがきしなんか",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ダンクもまた'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "ダンクもまた なぜこんな奴が騎士なんか志すんだって言われてるところから始まるので"
+  },
+  {
+    "word": "始まるので",
+    "reading": "だんくもまた なぜこんなやつがきしなんか",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'始まるので'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "ダンクもまた なぜこんな奴が騎士なんか志すんだって言われてるところから始まるので"
+  },
+  {
+    "word": "なって",
+    "reading": "さいしゅうてきにはそこにとうたつするのか",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'なって'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 14,
+    "contextSentence": "最終的にはそこに到達するのかなって"
+  },
+  {
+    "word": "自分で予測を立てて",
+    "reading": "じぶんでよそくをたてて さくひんへのしせ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'自分で予測を立てて'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 15,
+    "contextSentence": "自分で予測を立てて 作品への姿勢をまず定めました"
+  }
+]

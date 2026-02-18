@@ -1,30 +1,35 @@
-# stdyEng
+# stdyLang
 
-YouTube 영상 기반 영어 학습 콘텐츠 자동 생성 시스템.
+YouTube 영상 기반 다국어 학습 콘텐츠 자동 생성 시스템. (영어/중국어/일본어)
 
 ## 프로젝트 구조
 
 ```
 stdyEng/
-├── app/                          ← 프론트엔드 (React + Vite)
-│   ├── src/
-│   ├── public/data/              ← 생성된 학습 데이터
-│   ├── package.json
-│   └── vite.config.ts
-├── pipeline/                     ← 데이터 파이프라인 (Python)
-│   ├── process_video.py
+├── pnpm-workspace.yaml
+├── package.json                     # root: dev:en, dev:zh, dev:ja, build:all
+├── packages/
+│   └── shared/                      # @stdylang/shared (공유 타입/컴포넌트/훅)
+│       ├── package.json
+│       └── src/
+├── apps/
+│   ├── english/                     # @stdylang/english (영어 학습)
+│   ├── chinese/                     # @stdylang/chinese (중국어 학습)
+│   └── japanese/                    # @stdylang/japanese (일본어 학습)
+├── pipeline/                        # 데이터 파이프라인 (Python)
+│   ├── process_video.py             # --language en/zh/ja 플래그
 │   ├── video_search.py
 │   ├── downloader.py
 │   ├── transcriber.py
-│   ├── common_words.py
-│   ├── requirements.txt
 │   ├── bootstrap.yaml
 │   ├── workflow.yaml
-│   ├── search_workflow.yaml
-│   └── .tmp/
-├── .github/workflows/deploy.yml
-├── CLAUDE.md
-└── .gitignore
+│   └── search_workflow.yaml
+├── supabase/
+├── .github/workflows/
+│   ├── deploy-english.yml
+│   ├── deploy-chinese.yml
+│   └── deploy-japanese.yml
+└── CLAUDE.md
 ```
 
 ## 워크플로우
@@ -40,16 +45,17 @@ stdyEng/
 ### 영상 처리 흐름 (3-Phase)
 
 ```
-Phase 1 (도구): python3 pipeline/process_video.py --url {url} --category {cat} --mechanical-only
+Phase 1 (도구): python3 pipeline/process_video.py --url {url} --category {cat} --language {lang} --mechanical-only
    → _raw_metadata.json, _clean_segments.json 생성
 
 Phase 2 (Claude Code 직접):
    1. _clean_segments.json 읽기
    2. 번역 → segments.json 작성
    3. 난이도 추정
-   4. 어휘/문법/연음/구조 분석 → 각 JSON 작성
+   4. 어휘/문법/발음분석/구조 분석 → 각 JSON 작성
+   (언어별로 분석 항목이 다름: EN=연음, ZH=성조, JA=경어)
 
-Phase 3 (도구): python3 pipeline/process_video.py --video-id {id} --finalize --category {cat} --difficulty {diff}
+Phase 3 (도구): python3 pipeline/process_video.py --video-id {id} --finalize --category {cat} --difficulty {diff} --language {lang}
    → meta.json 생성, videos.json 업데이트
 ```
 
@@ -65,6 +71,8 @@ Phase 3 (도구): python3 pipeline/process_video.py --video-id {id} --finalize -
 
 ### 데이터 경로
 
-- 학습 데이터: `app/public/data/{videoId}/`
-- 인덱스: `app/public/data/videos.json`
+- 영어 데이터: `apps/english/public/data/{videoId}/`
+- 중국어 데이터: `apps/chinese/public/data/{videoId}/`
+- 일본어 데이터: `apps/japanese/public/data/{videoId}/`
+- 인덱스: `apps/{language}/public/data/videos.json`
 - 임시 파일: `pipeline/.tmp/`

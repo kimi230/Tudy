@@ -1,0 +1,903 @@
+{
+  "videoId": "2K88pWCimZg",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.08,
+      "textZh": "《中国人》",
+      "pinyin": "《Zhōngguó rén》",
+      "textKo": "《중국인》",
+      "words": [
+        {"word": "中国", "start": 0.28, "end": 1.22},
+        {"word": "人", "start": 1.22, "end": 1.24}
+      ]
+    },
+    {
+      "index": 1,
+      "start": 6.68,
+      "end": 16.68,
+      "textZh": "在加利福尼亚州生活了十二年之后，中国公民蔡昌平准备回国探亲。",
+      "pinyin": "Zài Jiālìfúníyà zhōu shēnghuó le shí'èr nián zhīhòu, Zhōngguó gōngmín Cài Chāngpíng zhǔnbèi huíguó tànqīn.",
+      "textKo": "캘리포니아에서 12년을 산 후, 중국 시민 채창핑은 고국을 방문할 준비가 되었다.",
+      "words": [
+        {"word": "中国", "start": 6.72, "end": 7.32},
+        {"word": "公民", "start": 7.32, "end": 7.44},
+        {"word": "蔡昌平", "start": 10.3, "end": 11.3},
+        {"word": "准备", "start": 11.3, "end": 11.94},
+        {"word": "回国", "start": 11.94, "end": 12.64},
+        {"word": "探亲", "start": 12.64, "end": 13.22}
+      ]
+    },
+    {
+      "index": 2,
+      "start": 16.98,
+      "end": 21.12,
+      "textZh": "他办理了出行和返回所需的一切文件，",
+      "pinyin": "Tā bànlǐ le chūxíng hé fǎnhuí suǒxū de yīqiè wénjiàn,",
+      "textKo": "그는 출발과 귀환에 필요한 서류를 모두 준비하고,",
+      "words": [
+        {"word": "他", "start": 16.98, "end": 17.52},
+        {"word": "文件", "start": 18.12, "end": 19.08},
+        {"word": "出行", "start": 19.08, "end": 19.5},
+        {"word": "返回", "start": 19.5, "end": 19.82}
+      ]
+    },
+    {
+      "index": 3,
+      "start": 21.28,
+      "end": 26.34,
+      "textZh": "随后启程前往中国，在那里度过了一年，与亲友重聚。",
+      "pinyin": "Suíhòu qǐchéng qiánwǎng Zhōngguó, zài nàlǐ dùguò le yī nián, yǔ qīnyǒu chóngjù.",
+      "textKo": "이후 중국으로 출항해 그곳에서 1년을 보내며 친구와 가족과 재회했다.",
+      "words": [
+        {"word": "启程", "start": 21.6, "end": 21.86},
+        {"word": "前往", "start": 21.86, "end": 22.2},
+        {"word": "中国", "start": 22.42, "end": 22.82},
+        {"word": "重聚", "start": 24.32, "end": 24.74}
+      ]
+    },
+    {
+      "index": 4,
+      "start": 26.34,
+      "end": 31.14,
+      "textZh": "但当他于1888年10月8日返回旧金山时，",
+      "pinyin": "Dàn dāng tā yú yīqiānbābǎi bāshíbā nián shíyuè bā rì fǎnhuí Jiùjīnshān shí,",
+      "textKo": "하지만 1888년 10월 8일 샌프란시스코로 돌아왔을 때,",
+      "words": [
+        {"word": "返回", "start": 27.68, "end": 28.12},
+        {"word": "旧金山", "start": 28.36, "end": 29.14},
+        {"word": "1888年", "start": 29.48, "end": 31.14}
+      ]
+    },
+    {
+      "index": 5,
+      "start": 31.66,
+      "end": 35.18,
+      "textZh": "昌平和同船的移民乘客被禁止下船。",
+      "pinyin": "Chāngpíng hé tóngchuán de yímín chéngkè bèi jìnzhǐ xiàchuán.",
+      "textKo": "창핑과 함께 탄 이민자 승객들은 하선이 금지되었다.",
+      "words": [
+        {"word": "移民", "start": 32.56, "end": 33.06},
+        {"word": "乘客", "start": 33.06, "end": 33.56},
+        {"word": "被禁止", "start": 33.56, "end": 34.24},
+        {"word": "下船", "start": 34.5, "end": 35.18}
+      ]
+    },
+    {
+      "index": 6,
+      "start": 35.64,
+      "end": 41.1,
+      "textZh": "就在几天前，格罗弗·克利夫兰总统签署了《斯科特法案》，",
+      "pinyin": "Jiù zài jǐ tiān qián, Gēluòfú·Kèlìfūlán zǒngtǒng qiānshǔ le 《Sīkētè Fǎ'àn》,",
+      "textKo": "불과 며칠 전, 그로버 클리블랜드 대통령이 스콧법에 서명했는데,",
+      "words": [
+        {"word": "总统", "start": 37.74, "end": 38.64},
+        {"word": "签署", "start": 39.52, "end": 39.92},
+        {"word": "法案", "start": 40.16, "end": 41.1}
+      ]
+    },
+    {
+      "index": 7,
+      "start": 41.42,
+      "end": 45.84,
+      "textZh": "该法案使允许他们重新入境美国的合法文件失效。",
+      "pinyin": "Gāi fǎ'àn shǐ yǔnxǔ tāmen chóngxīn rùjìng Měiguó de héfǎ wénjiàn shīxiào.",
+      "textKo": "그 법안은 그들의 미국 재입국을 허가하는 합법적 서류를 무효화했다.",
+      "words": [
+        {"word": "法案", "start": 41.66, "end": 42.42},
+        {"word": "合法", "start": 42.56, "end": 42.78},
+        {"word": "文件", "start": 42.78, "end": 43.28},
+        {"word": "失效", "start": 43.28, "end": 44.1},
+        {"word": "入境", "start": 44.4, "end": 44.64}
+      ]
+    },
+    {
+      "index": 8,
+      "start": 46.14,
+      "end": 52.44,
+      "textZh": "这项政策威胁要拆散家庭，剥夺中国移民的家园和生计。",
+      "pinyin": "Zhè xiàng zhèngcè wēixié yào chāisàn jiātíng, bōduó Zhōngguó yímín de jiāyuán hé shēngjì.",
+      "textKo": "이 정책은 가족을 뿔뿔이 흩어놓고 중국 이민자들의 집과 생계를 빼앗을 위협이 되었다.",
+      "words": [
+        {"word": "政策", "start": 46.44, "end": 46.88},
+        {"word": "威胁", "start": 46.88, "end": 47.28},
+        {"word": "家庭", "start": 47.56, "end": 48.52},
+        {"word": "剥夺", "start": 48.96, "end": 49.46},
+        {"word": "移民", "start": 49.46, "end": 49.84},
+        {"word": "生计", "start": 51.64, "end": 52.44}
+      ]
+    },
+    {
+      "index": 9,
+      "start": 52.44,
+      "end": 58.74,
+      "textZh": "昌平对这一裁决提出了异议，为数千名中国移民的权利展开了一场法律斗争。",
+      "pinyin": "Chāngpíng duì zhè yī cáijué tíchū le yìyì, wèi shùqiān míng Zhōngguó yímín de quánlì zhǎnkāi le yī chǎng fǎlǜ dòuzhēng.",
+      "textKo": "창핑은 그 판결에 이의를 제기하며 수천 명의 중국 이민자들의 권리를 위한 법적 투쟁을 시작했다.",
+      "words": [
+        {"word": "裁决", "start": 54.24, "end": 54.58},
+        {"word": "异议", "start": 54.98, "end": 55.24},
+        {"word": "权利", "start": 56.5, "end": 56.8},
+        {"word": "法律", "start": 55.46, "end": 55.72}
+      ]
+    },
+    {
+      "index": 10,
+      "start": 59.04,
+      "end": 66.82,
+      "textZh": "但他的案件引发了一项更具争议性的政策，至今仍影响着全球各地的移民。",
+      "pinyin": "Dàn tā de ànjian yǐnfā le yī xiàng gèng jù zhēngyì xìng de zhèngcè, zhìjīn réng yǐngxiǎng zhe quánqiú gèdì de yímín.",
+      "textKo": "하지만 그의 사건은 훨씬 더 논란이 많은 정책을 낳았으며, 그 정책은 오늘날에도 전 세계 이민자들에게 영향을 미치고 있다.",
+      "words": [
+        {"word": "案件", "start": 59.7, "end": 59.98},
+        {"word": "引发", "start": 59.98, "end": 60.62},
+        {"word": "政策", "start": 62.44, "end": 63.12},
+        {"word": "移民", "start": 64.96, "end": 65.6}
+      ]
+    },
+    {
+      "index": 11,
+      "start": 67.24,
+      "end": 71.2,
+      "textZh": "对中国移民的歧视早在数十年前便已开始，",
+      "pinyin": "Duì Zhōngguó yímín de qíshì zǎo zài shùshí nián qián biàn yǐ kāishǐ,",
+      "textKo": "중국 이민자들에 대한 차별은 수십 년 전에 이미 시작되었는데,",
+      "words": [
+        {"word": "歧视", "start": 67.68, "end": 68.54},
+        {"word": "移民", "start": 68.54, "end": 69.5}
+      ]
+    },
+    {
+      "index": 12,
+      "start": 71.42,
+      "end": 75.26,
+      "textZh": "那时加利福尼亚淘金热创造了大量的劳动力需求。",
+      "pinyin": "Nà shí Jiālìfúníyà Táojīn Rè chuàngzào le dàliàng de láodònglì xūqiú.",
+      "textKo": "캘리포니아 골드러시가 엄청난 노동 수요를 창출했을 때였다.",
+      "words": [
+        {"word": "淘金热", "start": 71.86, "end": 73.08},
+        {"word": "劳动力", "start": 73.66, "end": 74.7},
+        {"word": "需求", "start": 74.7, "end": 75.26}
+      ]
+    },
+    {
+      "index": 13,
+      "start": 75.26,
+      "end": 82.48,
+      "textZh": "最初，中国移民作为可靠的工人受到欢迎，成为边疆社区不可或缺的一部分。",
+      "pinyin": "Zuìchū, Zhōngguó yímín zuòwéi kěkào de gōngrén shòudào huānyíng, chéngwéi biānjiāng shèqū bùkě huòquē de yī bùfèn.",
+      "textKo": "처음에 중국 이민자들은 믿음직스러운 일꾼으로 환영받았고 개척지 공동체의 필수적인 구성원이 되었다.",
+      "words": [
+        {"word": "移民", "start": 76.86, "end": 77.22},
+        {"word": "工人", "start": 78.24, "end": 79.26},
+        {"word": "边疆", "start": 81.28, "end": 81.74},
+        {"word": "社区", "start": 81.74, "end": 82.48}
+      ]
+    },
+    {
+      "index": 14,
+      "start": 82.82,
+      "end": 89.14,
+      "textZh": "许多人修建铁路、在矿山工作，另一些人则经营洗衣店、餐馆和杂货店。",
+      "pinyin": "Xǔduō rén xiūjiàn tiělù, zài kuàngshān gōngzuò, lìng yīxiē rén zé jīngyíng xǐyīdiàn, cānguǎn hé záhuòdiàn.",
+      "textKo": "많은 이들이 철도를 건설하고 광산에서 일했으며, 다른 이들은 세탁소, 식당, 잡화점을 운영했다.",
+      "words": [
+        {"word": "铁路", "start": 83.56, "end": 84.32},
+        {"word": "矿山", "start": 84.72, "end": 85.36},
+        {"word": "洗衣店", "start": 86.7, "end": 87.32},
+        {"word": "餐馆", "start": 87.48, "end": 87.96}
+      ]
+    },
+    {
+      "index": 15,
+      "start": 89.62,
+      "end": 96.42,
+      "textZh": "1868年的《蒲安臣条约》甚至赋予中国与美国最惠国贸易地位，",
+      "pinyin": "Yīqiānbābǎi liùshíbā nián de 《Pǔ'ānchén Tiáoyuē》 shènzhì fùyǔ Zhōngguó yǔ Měiguó zuì huìguó màoyì dìwèi,",
+      "textKo": "1868년의 벌링게임 조약은 심지어 중국에 미국과의 최혜국 무역 지위를 부여했으며,",
+      "words": [
+        {"word": "条约", "start": 91.78, "end": 92.06},
+        {"word": "贸易", "start": 94.12, "end": 94.62},
+        {"word": "地位", "start": 94.62, "end": 95.14}
+      ]
+    },
+    {
+      "index": 16,
+      "start": 96.42,
+      "end": 99.94,
+      "textZh": "并允许两国之间自由移民。",
+      "pinyin": "Bìng yǔnxǔ liǎng guó zhījiān zìyóu yímín.",
+      "textKo": "두 나라 사이의 자유로운 이민을 허용했다.",
+      "words": [
+        {"word": "允许", "start": 96.78, "end": 97.1},
+        {"word": "自由", "start": 97.1, "end": 97.84},
+        {"word": "移民", "start": 97.94, "end": 98.4}
+      ]
+    },
+    {
+      "index": 17,
+      "start": 102.04,
+      "end": 108.86,
+      "textZh": "但随着大量中国移民取得成功，美国工人开始将他们视为威胁。",
+      "pinyin": "Dàn suízhe dàliàng Zhōngguó yímín qǔdé chénggōng, Měiguó gōngrén kāishǐ jiāng tāmen shì wéi wēixié.",
+      "textKo": "하지만 다수의 중국 이민자들이 성공을 거두면서, 미국 노동자들은 그들을 위협으로 여기기 시작했다.",
+      "words": [
+        {"word": "移民", "start": 104.34, "end": 104.9},
+        {"word": "成功", "start": 105.26, "end": 105.84},
+        {"word": "工人", "start": 106.9, "end": 107.36},
+        {"word": "威胁", "start": 108.52, "end": 108.86}
+      ]
+    },
+    {
+      "index": 18,
+      "start": 109.4,
+      "end": 113.66,
+      "textZh": "政客和劳工领袖谴责他们压低工资，",
+      "pinyin": "Zhèngkè hé láogōng lǐngxiù qiǎnzé tāmen yā dī gōngzī,",
+      "textKo": "정치인들과 노동 지도자들은 그들이 임금을 낮춘다고 비난했으며,",
+      "words": [
+        {"word": "政客", "start": 109.4, "end": 110.4},
+        {"word": "劳工", "start": 110.66, "end": 110.98},
+        {"word": "谴责", "start": 111.4, "end": 111.94},
+        {"word": "工资", "start": 113.16, "end": 113.66}
+      ]
+    },
+    {
+      "index": 19,
+      "start": 114.04,
+      "end": 117.66,
+      "textZh": "针对中国人的暴力行为也日益普遍。",
+      "pinyin": "Zhēnduì Zhōngguó rén de bàolì xíngwéi yě rìyì pǔbiàn.",
+      "textKo": "중국인 개인에 대한 폭력도 점점 더 흔해졌다.",
+      "words": [
+        {"word": "暴力", "start": 114.24, "end": 114.72},
+        {"word": "普遍", "start": 116.52, "end": 117.66}
+      ]
+    },
+    {
+      "index": 20,
+      "start": 117.94,
+      "end": 122.62,
+      "textZh": "这种反华情绪很快蔓延至加利福尼亚的法院。",
+      "pinyin": "Zhè zhǒng fǎnhuá qíngsù hěn kuài mànyán zhì Jiālìfúníyà de fǎyuàn.",
+      "textKo": "이런 반중국 감정은 곧 캘리포니아 법원까지 스며들었다.",
+      "words": [
+        {"word": "情绪", "start": 119.4, "end": 119.92},
+        {"word": "法院", "start": 122.2, "end": 122.62}
+      ]
+    },
+    {
+      "index": 21,
+      "start": 122.62,
+      "end": 129.02,
+      "textZh": "1854年，在一起谋杀案审判中，一名白人男子被判对一名中国男子犯有谋杀罪，",
+      "pinyin": "Yīqiānbābǎi wǔshísì nián, zài yī qǐ móushā àn shěnpàn zhōng, yī míng báirén nánzǐ bèi pàn duì yī míng Zhōngguó nánzǐ fànyǒu móushā zuì,",
+      "textKo": "1854년, 한 살인 사건 재판에서 백인 남성이 중국인 남성을 살해한 죄로 유죄 판결을 받았는데,",
+      "words": [
+        {"word": "谋杀", "start": 124.92, "end": 125.2},
+        {"word": "审判", "start": 125.2, "end": 125.62},
+        {"word": "白人", "start": 126.0, "end": 126.58},
+        {"word": "被判", "start": 126.58, "end": 127.24}
+      ]
+    },
+    {
+      "index": 22,
+      "start": 129.4,
+      "end": 132.68,
+      "textZh": "加利福尼亚州最高法院推翻了这一定罪，",
+      "pinyin": "Jiālìfúníyà zhōu zuìgāo fǎyuàn tuīfān le zhè yī dìngzuì,",
+      "textKo": "캘리포니아 대법원이 그 유죄 판결을 뒤집었는데,",
+      "words": [
+        {"word": "最高法院", "start": 130.06, "end": 131.1},
+        {"word": "推翻", "start": 131.1, "end": 131.7},
+        {"word": "定罪", "start": 132.2, "end": 132.68}
+      ]
+    },
+    {
+      "index": 23,
+      "start": 133.18,
+      "end": 136.74,
+      "textZh": "裁定中国目击者的证词不被采信。",
+      "pinyin": "Cáidìng Zhōngguó mùjīzhě de zhèngsǔ bù bèi cǎixìn.",
+      "textKo": "중국인 목격자의 증언은 증거로 인정될 수 없다고 판시했다.",
+      "words": [
+        {"word": "目击者", "start": 134.24, "end": 134.92},
+        {"word": "证词", "start": 134.92, "end": 135.5}
+      ]
+    },
+    {
+      "index": 24,
+      "start": 136.94,
+      "end": 142.12,
+      "textZh": "法院宣布中国公民不得作为白人被告的证人，",
+      "pinyin": "Fǎyuàn xuānbù Zhōngguó gōngmín bù dé zuòwéi báirén bèigào de zhèngrén,",
+      "textKo": "법원은 중국 시민은 백인 피고에 불리한 증언을 할 수 없다고 선언했으며,",
+      "words": [
+        {"word": "法院", "start": 137.24, "end": 137.52},
+        {"word": "公民", "start": 138.68, "end": 139.18},
+        {"word": "被告", "start": 141.36, "end": 142.12},
+        {"word": "证人", "start": 139.84, "end": 140.96}
+      ]
+    },
+    {
+      "index": 25,
+      "start": 142.32,
+      "end": 147.02,
+      "textZh": "援引了类似的禁止黑人和美洲原住民作证的先例。",
+      "pinyin": "Yuǎnyǐn le lèisì de jìnzhǐ hēirén hé Měizhōu yuánzhùmín zuòzhèng de xiānlì.",
+      "textKo": "흑인과 미국 원주민의 증언을 금지하는 유사한 선례를 인용했다.",
+      "words": [
+        {"word": "先例", "start": 143.12, "end": 143.72},
+        {"word": "黑人", "start": 144.98, "end": 145.26}
+      ]
+    },
+    {
+      "index": 26,
+      "start": 147.02,
+      "end": 153.5,
+      "textZh": "这一裁决实际上使针对加利福尼亚华裔群体的暴力合法化，",
+      "pinyin": "Zhè yī cáijué shíjì shang shǐ zhēnduì Jiālìfúníyà huáyì qúntǐ de bàolì héfǎ huà,",
+      "textKo": "이 결정은 사실상 캘리포니아 화교 집단에 대한 폭력을 합법화하여,",
+      "words": [
+        {"word": "裁决", "start": 148.12, "end": 148.58},
+        {"word": "暴力", "start": 150.38, "end": 150.88},
+        {"word": "华裔", "start": 152.28, "end": 152.66},
+        {"word": "合法化", "start": 149.32, "end": 150.38}
+      ]
+    },
+    {
+      "index": 27,
+      "start": 153.98,
+      "end": 157.18,
+      "textZh": "激起了暴徒袭击和种族隔离运动。",
+      "pinyin": "Jīqǐ le bàotú xíjī hé zhǒngzú gélí yùndòng.",
+      "textKo": "폭도 공격과 분리정책 운동을 촉발시켰다.",
+      "words": [
+        {"word": "暴徒", "start": 154.54, "end": 154.94},
+        {"word": "种族隔离", "start": 155.7, "end": 156.62}
+      ]
+    },
+    {
+      "index": 28,
+      "start": 157.88,
+      "end": 161.7,
+      "textZh": "不久，反华情绪蔓延到了联邦层面。",
+      "pinyin": "Bùjiǔ, fǎnhuá qíngsù mànyán dào le liánbāng céngmiàn.",
+      "textKo": "머지않아 반중국 감정은 연방 차원으로 번졌다.",
+      "words": [
+        {"word": "情绪", "start": 159.86, "end": 160.26},
+        {"word": "联邦", "start": 160.92, "end": 161.28}
+      ]
+    },
+    {
+      "index": 29,
+      "start": 161.96,
+      "end": 166.1,
+      "textZh": "1882年，国会通过了《排华法案》，",
+      "pinyin": "Yīqiānbābǎi bāshí'èr nián, guóhuì tōngguò le 《Páihuá Fǎ'àn》,",
+      "textKo": "1882년, 의회는 중국인 배제법을 통과시켰는데,",
+      "words": [
+        {"word": "国会", "start": 163.3, "end": 163.6},
+        {"word": "通过", "start": 163.6, "end": 164.02},
+        {"word": "排华法案", "start": 164.18, "end": 166.1}
+      ]
+    },
+    {
+      "index": 30,
+      "start": 166.44,
+      "end": 171.62,
+      "textZh": "这是第一部明确基于国籍限制移民的联邦法律。",
+      "pinyin": "Zhè shì dì yī bù míngquè jīyú guójí xiànzhì yímín de liánbāng fǎlǜ.",
+      "textKo": "이것은 국적을 명시적 기준으로 이민을 제한한 최초의 연방법이었다.",
+      "words": [
+        {"word": "联邦", "start": 167.0, "end": 167.38},
+        {"word": "法律", "start": 167.38, "end": 167.76},
+        {"word": "限制", "start": 168.18, "end": 168.66},
+        {"word": "移民", "start": 168.66, "end": 169.18},
+        {"word": "国籍", "start": 170.84, "end": 171.62}
+      ]
+    },
+    {
+      "index": 31,
+      "start": 171.62,
+      "end": 177.48,
+      "textZh": "实际上，该法案禁止所有华裔移民入境，外交官除外，",
+      "pinyin": "Shíjì shang, gāi fǎ'àn jìnzhǐ suǒyǒu huáyì yímín rùjìng, wàijiāoguān chúwài,",
+      "textKo": "실제로 이 법은 외교관을 제외한 모든 중국계 이민자의 입국을 금지했으며,",
+      "words": [
+        {"word": "禁止", "start": 172.98, "end": 173.42},
+        {"word": "华裔", "start": 174.44, "end": 175.54},
+        {"word": "移民", "start": 175.54, "end": 176.2},
+        {"word": "外交官", "start": 176.64, "end": 177.48}
+      ]
+    },
+    {
+      "index": 32,
+      "start": 177.58,
+      "end": 180.66,
+      "textZh": "并禁止现有移民获得公民身份。",
+      "pinyin": "Bìng jìnzhǐ xiànyǒu yímín huòdé gōngmín shēnfèn.",
+      "textKo": "이미 거주 중인 이민자들이 시민권을 취득하는 것도 금지했다.",
+      "words": [
+        {"word": "禁止", "start": 177.78, "end": 178.3},
+        {"word": "移民", "start": 178.78, "end": 179.26},
+        {"word": "公民", "start": 179.96, "end": 180.66}
+      ]
+    },
+    {
+      "index": 33,
+      "start": 181.02,
+      "end": 185.22,
+      "textZh": "这也意味着中国人不能离开美国后再返回，",
+      "pinyin": "Zhè yě yìwèi zhe Zhōngguó rén bù néng líkāi Měiguó hòu zài fǎnhuí,",
+      "textKo": "이는 또한 중국인들이 미국을 떠났다가 다시 돌아올 수 없다는 것을 의미했는데,",
+      "words": [
+        {"word": "意味", "start": 181.48, "end": 181.84},
+        {"word": "离开", "start": 183.38, "end": 183.68},
+        {"word": "返回", "start": 184.82, "end": 185.22}
+      ]
+    },
+    {
+      "index": 34,
+      "start": 185.22,
+      "end": 188.46,
+      "textZh": "除非先申请再入境证书。",
+      "pinyin": "Chúfēi xiān shēnqǐng zài rùjìng zhèngshū.",
+      "textKo": "먼저 재입국 증명서를 신청하지 않는 한 말이다.",
+      "words": [
+        {"word": "申请", "start": 186.22, "end": 186.7},
+        {"word": "证书", "start": 187.12, "end": 187.44},
+        {"word": "入境", "start": 187.9, "end": 188.46}
+      ]
+    },
+    {
+      "index": 35,
+      "start": 188.72,
+      "end": 192.64,
+      "textZh": "该政策一直持续到1888年10月1日，",
+      "pinyin": "Gāi zhèngcè yīzhí chíxù dào yīqiānbābǎi bāshíbā nián shíyuè yī rì,",
+      "textKo": "이 정책은 1888년 10월 1일까지 유지되었는데,",
+      "words": [
+        {"word": "政策", "start": 189.06, "end": 189.46},
+        {"word": "持续", "start": 189.46, "end": 189.84}
+      ]
+    },
+    {
+      "index": 36,
+      "start": 193.02,
+      "end": 195.98,
+      "textZh": "斯科特法案完全禁止了再入境，",
+      "pinyin": "Sīkētè Fǎ'àn wánquán jìnzhǐ le zài rùjìng,",
+      "textKo": "스콧법이 재입국을 전면 금지했을 때였다.",
+      "words": [
+        {"word": "禁止", "start": 194.0, "end": 194.68},
+        {"word": "入境", "start": 194.68, "end": 195.28}
+      ]
+    },
+    {
+      "index": 37,
+      "start": 196.42,
+      "end": 200.24,
+      "textZh": "致使蔡昌平和数千名其他中国移民陷入困境。",
+      "pinyin": "Zhì shǐ Cài Chāngpíng hé shùqiān míng qítā Zhōngguó yímín xiànrù kùnjìng.",
+      "textKo": "채창핑과 수천 명의 다른 중국 이민자들을 발이 묶이게 했다.",
+      "words": [
+        {"word": "移民", "start": 199.24, "end": 199.7},
+        {"word": "困境", "start": 196.64, "end": 197.22}
+      ]
+    },
+    {
+      "index": 38,
+      "start": 202.04,
+      "end": 207.34,
+      "textZh": "在法庭上，昌平主张他已按正规程序申请了再入境证书，",
+      "pinyin": "Zài fǎtíng shàng, Chāngpíng zhǔzhāng tā yǐ àn zhèngguī chéngxù shēnqǐng le zài rùjìng zhèngshū,",
+      "textKo": "법정에서 창핑은 재입국 증명서를 적법한 절차에 따라 취득했다고 주장했으며,",
+      "words": [
+        {"word": "法庭", "start": 202.04, "end": 203.12},
+        {"word": "程序", "start": 205.04, "end": 205.52},
+        {"word": "证书", "start": 206.82, "end": 207.34}
+      ]
+    },
+    {
+      "index": 39,
+      "start": 207.6,
+      "end": 211.28,
+      "textZh": "而政府未能履行其合法发放的文件。",
+      "pinyin": "Ér zhèngfǔ wèi néng lǚxíng qí héfǎ fāfàng de wénjiàn.",
+      "textKo": "정부가 합법적으로 발급된 서류를 존중하지 않았다고 했다.",
+      "words": [
+        {"word": "政府", "start": 208.0, "end": 208.4},
+        {"word": "文件", "start": 210.22, "end": 211.28}
+      ]
+    },
+    {
+      "index": 40,
+      "start": 211.7,
+      "end": 216.46,
+      "textZh": "这一论点足够有力，使他的案件一路上诉到了最高法院，",
+      "pinyin": "Zhè yī lùndiǎn zúgòu yǒulì, shǐ tā de ànjian yī lù shàngsù dào le zuìgāo fǎyuàn,",
+      "textKo": "이 주장은 그의 사건이 대법원까지 올라가기에 충분히 강력했으나,",
+      "words": [
+        {"word": "论点", "start": 212.36, "end": 212.74},
+        {"word": "最高法院", "start": 215.58, "end": 216.46},
+        {"word": "上诉", "start": 213.8, "end": 214.0}
+      ]
+    },
+    {
+      "index": 41,
+      "start": 216.86,
+      "end": 219.34,
+      "textZh": "但大法官们最终裁定昌平败诉，",
+      "pinyin": "Dàn dà fǎguān men zuìzhōng cáidìng Chāngpíng bàisù,",
+      "textKo": "하지만 대법관들은 창핑에게 불리한 판결을 내렸으며,",
+      "words": [
+        {"word": "大法官", "start": 217.4, "end": 218.02},
+        {"word": "裁定", "start": 218.02, "end": 218.42}
+      ]
+    },
+    {
+      "index": 42,
+      "start": 219.9,
+      "end": 224.72,
+      "textZh": "一举废除了数千份合法的再入境证书。",
+      "pinyin": "Yī jǔ fèichú le shùqiān fèn héfǎ de zài rùjìng zhèngshū.",
+      "textKo": "단번에 수천 건의 합법적인 재입국 증명서를 무효화했다.",
+      "words": [
+        {"word": "废除", "start": 220.34, "end": 220.72},
+        {"word": "证书", "start": 222.6, "end": 223.16}
+      ]
+    },
+    {
+      "index": 43,
+      "start": 224.72,
+      "end": 233.72,
+      "textZh": "这一裁决导致昌平被驱逐出境，并使多达两万名中国移民无法返回美国。",
+      "pinyin": "Zhè yī cáijué dǎozhì Chāngpíng bèi qūzhú chūjìng, bìng shǐ duōdá liǎngwàn míng Zhōngguó yímín wúfǎ fǎnhuí Měiguó.",
+      "textKo": "이 판결로 창핑은 추방되었고, 최대 2만 명의 중국 이민자들이 미국으로 돌아오지 못하게 되었다.",
+      "words": [
+        {"word": "驱逐", "start": 226.98, "end": 227.78},
+        {"word": "移民", "start": 230.58, "end": 231.26},
+        {"word": "返回", "start": 232.42, "end": 232.8}
+      ]
+    },
+    {
+      "index": 44,
+      "start": 234.16,
+      "end": 240.88,
+      "textZh": "但可以说，比法院的种族主义裁决更重要的，是他们用来支持这一裁决的逻辑。",
+      "pinyin": "Dàn kěyǐ shuō, bǐ fǎyuàn de zhǒngzú zhǔyì cáijué gèng zhòngyào de, shì tāmen yòng lái zhīchí zhè yī cáijué de luójí.",
+      "textKo": "하지만 어찌 보면, 법원의 인종차별적 판결보다 더 중요한 것은 그들이 그 판결을 지지하는 데 사용한 논리였다.",
+      "words": [
+        {"word": "种族主义", "start": 237.22, "end": 238.12},
+        {"word": "裁决", "start": 238.12, "end": 238.66},
+        {"word": "逻辑", "start": 238.8, "end": 239.16}
+      ]
+    },
+    {
+      "index": 45,
+      "start": 241.1,
+      "end": 246.58,
+      "textZh": "传统上，最高法院被视为对美国政府另外两个部门的制衡，",
+      "pinyin": "Chuántǒng shang, zuìgāo fǎyuàn bèi shì wéi duì Měiguó zhèngfǔ lìngwài liǎng gè bùmén de zhìhéng,",
+      "textKo": "전통적으로 대법원은 미국 정부의 다른 두 부문에 대한 견제 역할로 여겨지며,",
+      "words": [
+        {"word": "最高法院", "start": 242.16, "end": 242.9},
+        {"word": "制衡", "start": 243.66, "end": 243.92},
+        {"word": "政府", "start": 245.56, "end": 246.58}
+      ]
+    },
+    {
+      "index": 46,
+      "start": 246.76,
+      "end": 250.68,
+      "textZh": "对国会和总统通过的政策进行裁判。",
+      "pinyin": "Duì guóhuì hé zǒngtǒng tōngguò de zhèngcè jìnxíng cáipàn.",
+      "textKo": "의회와 대통령이 통과시킨 정책에 대해 판단을 내린다.",
+      "words": [
+        {"word": "国会", "start": 249.28, "end": 249.68},
+        {"word": "总统", "start": 250.34, "end": 250.68},
+        {"word": "政策", "start": 248.08, "end": 248.58}
+      ]
+    },
+    {
+      "index": 47,
+      "start": 250.68,
+      "end": 257.44,
+      "textZh": "然而，在本案中，法院表示他们无权对斯科特法案进行裁判，",
+      "pinyin": "Rán'ér, zài běn àn zhōng, fǎyuàn biǎoshì tāmen wú quán duì Sīkētè Fǎ'àn jìnxíng cáipàn,",
+      "textKo": "하지만 이 사건에서 법원은 스콧법에 대해 판단할 권한이 없다고 밝혔는데,",
+      "words": [
+        {"word": "法院", "start": 253.4, "end": 253.64},
+        {"word": "权力", "start": 254.76, "end": 255.26}
+      ]
+    },
+    {
+      "index": 48,
+      "start": 257.6,
+      "end": 262.62,
+      "textZh": "因为国会已将该移民政策宣布为国家安全事项。",
+      "pinyin": "Yīnwèi guóhuì yǐ jiāng gāi yímín zhèngcè xuānbù wéi guójiā ānquán shìxiàng.",
+      "textKo": "의회가 그 이민 정책을 국가 안보 사항으로 선언했기 때문이었다.",
+      "words": [
+        {"word": "国会", "start": 258.04, "end": 258.48},
+        {"word": "移民", "start": 259.28, "end": 259.64},
+        {"word": "国家安全", "start": 261.48, "end": 262.62}
+      ]
+    },
+    {
+      "index": 49,
+      "start": 263.12,
+      "end": 265.76,
+      "textZh": "这一裁决树立了一个独特的先例。",
+      "pinyin": "Zhè yī cáijué shùlì le yī gè dútè de xiānlì.",
+      "textKo": "이 판결은 독특한 선례를 세웠다.",
+      "words": [
+        {"word": "裁决", "start": 263.42, "end": 263.86},
+        {"word": "先例", "start": 265.08, "end": 265.76}
+      ]
+    },
+    {
+      "index": 50,
+      "start": 266.14,
+      "end": 268.2,
+      "textZh": "除非昌平案被推翻，",
+      "pinyin": "Chúfēi Chāngpíng àn bèi tuīfān,",
+      "textKo": "창핑의 사건이 번복되지 않는 한,",
+      "words": [
+        {"word": "推翻", "start": 267.5, "end": 267.92}
+      ]
+    },
+    {
+      "index": 51,
+      "start": 268.52,
+      "end": 272.86,
+      "textZh": "国会和行政部门可以以国家安全为由，",
+      "pinyin": "Guóhuì hé xíngzhèng bùmén kěyǐ yǐ guójiā ānquán wéi yóu,",
+      "textKo": "의회와 행정부는 국가 안보를 이유로 들어",
+      "words": [
+        {"word": "国会", "start": 268.52, "end": 269.12},
+        {"word": "行政", "start": 269.36, "end": 269.8},
+        {"word": "国家安全", "start": 271.02, "end": 272.86}
+      ]
+    },
+    {
+      "index": 52,
+      "start": 272.86,
+      "end": 276.12,
+      "textZh": "随意制定任何移民法律。",
+      "pinyin": "Suíyì zhìdìng rènhé yímín fǎlǜ.",
+      "textKo": "원하는 대로 어떤 이민법도 통과시킬 수 있게 되었다.",
+      "words": [
+        {"word": "移民", "start": 274.26, "end": 274.86},
+        {"word": "法律", "start": 274.86, "end": 275.36}
+      ]
+    },
+    {
+      "index": 53,
+      "start": 276.74,
+      "end": 278.82,
+      "textZh": "整个二十世纪，",
+      "pinyin": "Zhěnggè èrshí shìjì,",
+      "textKo": "20세기 내내,",
+      "words": [
+        {"word": "整个", "start": 276.74, "end": 277.48},
+        {"word": "世纪", "start": 278.18, "end": 278.82}
+      ]
+    },
+    {
+      "index": 54,
+      "start": 279.34,
+      "end": 284.88,
+      "textZh": "仇外的政府官员利用这一权力，对移民群体进行任意歧视。",
+      "pinyin": "Chóuwài de zhèngfǔ guānyuán lìyòng zhè yī quánlì, duì yímín qúntǐ jìnxíng rènyì qíshì.",
+      "textKo": "외국인 혐오 성향의 정부 관리들은 이 권한을 이용해 이민자 집단을 마음대로 차별했다.",
+      "words": [
+        {"word": "官员", "start": 280.4, "end": 280.94},
+        {"word": "歧视", "start": 282.6, "end": 283.24},
+        {"word": "移民", "start": 283.8, "end": 284.3}
+      ]
+    },
+    {
+      "index": 55,
+      "start": 285.24,
+      "end": 291.26,
+      "textZh": "1917年《亚洲禁区法案》禁止了所有南亚人入境，",
+      "pinyin": "Yīqiānjiǔbǎi shíqī nián 《Yàzhōu Jìnqū Fǎ'àn》 jìnzhǐ le suǒyǒu Nányà rén rùjìng,",
+      "textKo": "1917년 아시아 금지 구역법은 모든 남아시아인의 입국을 금지했으며,",
+      "words": [
+        {"word": "禁止", "start": 288.6, "end": 289.22},
+        {"word": "入境", "start": 289.5, "end": 289.78}
+      ]
+    },
+    {
+      "index": 56,
+      "start": 291.54,
+      "end": 296.96,
+      "textZh": "1920年代的一系列移民法案将限制扩展到整个亚洲，",
+      "pinyin": "Yījiǔèrlíng niándài de yī xìliè yímín fǎ'àn jiāng xiànzhì kuòzhǎn dào zhěnggè Yàzhōu,",
+      "textKo": "1920년대의 일련의 이민법들은 제한을 아시아 전역으로 확대했고,",
+      "words": [
+        {"word": "移民", "start": 292.64, "end": 293.06},
+        {"word": "法案", "start": 293.06, "end": 293.44},
+        {"word": "限制", "start": 295.32, "end": 295.92}
+      ]
+    },
+    {
+      "index": 57,
+      "start": 297.34,
+      "end": 302.08,
+      "textZh": "东欧和南欧。这些限制大多在二战后被解除，",
+      "pinyin": "Dōng'ōu hé Nán'ōu. Zhèxiē xiànzhì dàduō zài Èr Zhàn hòu bèi jiěchú,",
+      "textKo": "동유럽과 남유럽으로도 확대되었다. 이 제한들 중 많은 것들이 제2차 세계대전 이후 해제되었는데,",
+      "words": [
+        {"word": "限制", "start": 299.98, "end": 300.4},
+        {"word": "二战", "start": 301.36, "end": 301.8}
+      ]
+    },
+    {
+      "index": 58,
+      "start": 302.3,
+      "end": 306.72,
+      "textZh": "《排华法案》本身最终于1943年被废除，",
+      "pinyin": "《Páihuá Fǎ'àn》 běnshēn zuìzhōng yú yījiǔsìsān nián bèi fèichú,",
+      "textKo": "중국인 배제법 자체는 마침내 1943년에 폐지되었는데,",
+      "words": [
+        {"word": "排华法案", "start": 302.68, "end": 303.9},
+        {"word": "废除", "start": 305.16, "end": 305.68}
+      ]
+    },
+    {
+      "index": 59,
+      "start": 307.32,
+      "end": 310.06,
+      "textZh": "距其颁布已超过六十年。",
+      "pinyin": "Jù qí bānbù yǐ chāoguò liùshí nián.",
+      "textKo": "시행된 지 60년이 넘었을 때였다.",
+      "words": [
+        {"word": "颁布", "start": 309.2, "end": 309.64}
+      ]
+    },
+    {
+      "index": 60,
+      "start": 310.32,
+      "end": 313.2,
+      "textZh": "但美国政府至今仍在援引这一先例，",
+      "pinyin": "Dàn Měiguó zhèngfǔ zhìjīn réng zài yuǎnyǐn zhè yī xiānlì,",
+      "textKo": "하지만 미국 정부는 이 선례를 계속 이용하여",
+      "words": [
+        {"word": "政府", "start": 311.1, "end": 311.34},
+        {"word": "先例", "start": 312.7, "end": 313.2}
+      ]
+    },
+    {
+      "index": 61,
+      "start": 313.2,
+      "end": 316.48,
+      "textZh": "推行突然而大范围的移民政策，",
+      "pinyin": "Tuīxíng tūrán ér dà fànwéi de yímín zhèngcè,",
+      "textKo": "갑작스럽고 전면적인 이민 정책을 시행하고 있으며,",
+      "words": [
+        {"word": "移民", "start": 315.16, "end": 315.76},
+        {"word": "政策", "start": 315.76, "end": 316.48}
+      ]
+    },
+    {
+      "index": 62,
+      "start": 316.62,
+      "end": 318.66,
+      "textZh": "针对记者和异见人士，",
+      "pinyin": "Zhēnduì jìzhě hé yìjiàn rénshì,",
+      "textKo": "언론인과 반체제 인사들을 표적으로 삼고,",
+      "words": [
+        {"word": "记者", "start": 317.14, "end": 317.78},
+        {"word": "异见人士", "start": 318.16, "end": 318.66}
+      ]
+    },
+    {
+      "index": 63,
+      "start": 318.84,
+      "end": 320.84,
+      "textZh": "以及各族裔群体。",
+      "pinyin": "Yǐjí gè zúyì qúntǐ.",
+      "textKo": "또한 각 민족 집단을 대상으로 한다.",
+      "words": [
+        {"word": "族裔", "start": 319.8, "end": 320.2},
+        {"word": "群体", "start": 320.2, "end": 320.84}
+      ]
+    },
+    {
+      "index": 64,
+      "start": 321.9,
+      "end": 326.34,
+      "textZh": "蔡昌平被驱逐出境后的遭遇几乎无从知晓，",
+      "pinyin": "Cài Chāngpíng bèi qūzhú chūjìng hòu de zāoyù jīhū wúcóng zhīxiǎo,",
+      "textKo": "채창핑이 추방된 이후 어떻게 되었는지는 거의 알려지지 않았지만,",
+      "words": [
+        {"word": "驱逐", "start": 325.6, "end": 325.92},
+        {"word": "遭遇", "start": 323.46, "end": 323.82}
+      ]
+    },
+    {
+      "index": 65,
+      "start": 326.34,
+      "end": 331.54,
+      "textZh": "但他和数千名其他华裔美国人所受到的不公正，",
+      "pinyin": "Dàn tā hé shùqiān míng qítā huáyì Měiguó rén suǒ shòudào de bù gōngzhèng,",
+      "textKo": "그와 수천 명의 다른 중국계 미국인들에게 가해진 불의는",
+      "words": [
+        {"word": "不公正", "start": 327.58, "end": 327.9},
+        {"word": "华裔", "start": 330.56, "end": 330.9}
+      ]
+    },
+    {
+      "index": 66,
+      "start": 331.54,
+      "end": 335.22,
+      "textZh": "继续影响着移民权利和自由。",
+      "pinyin": "Jìxù yǐngxiǎng zhe yímín quánlì hé zìyóu.",
+      "textKo": "이민자의 권리와 자유에 계속해서 영향을 미치고 있다.",
+      "words": [
+        {"word": "移民", "start": 333.48, "end": 333.96},
+        {"word": "权利", "start": 333.96, "end": 334.38},
+        {"word": "自由", "start": 334.84, "end": 335.22}
+      ]
+    },
+    {
+      "index": 67,
+      "start": 336.64,
+      "end": 342.18,
+      "textZh": "《排华法案》不会是美国最后一次以归属感的名义侵犯人权，",
+      "pinyin": "《Páihuá Fǎ'àn》 bù huì shì Měiguó zuìhòu yī cì yǐ guīshǔ gǎn de míngyì qīnfàn rénquán,",
+      "textKo": "중국인 배제법은 미국이 소속감이라는 명목으로 인권을 침해한 마지막 사례가 되지 않았으며,",
+      "words": [
+        {"word": "排华法案", "start": 337.4, "end": 338.8},
+        {"word": "人权", "start": 341.34, "end": 342.18}
+      ]
+    },
+    {
+      "index": 68,
+      "start": 342.18,
+      "end": 345.64,
+      "textZh": "以及违背自身原则的行为。",
+      "pinyin": "Yǐjí wéibèi zìshēn yuánzé de xíngwéi.",
+      "textKo": "자신의 원칙에도 어긋나는 일이었다.",
+      "words": [
+        {"word": "原则", "start": 343.14, "end": 343.7}
+      ]
+    },
+    {
+      "index": 69,
+      "start": 346.2,
+      "end": 352.04,
+      "textZh": "通过这段视频，了解二战期间的日裔美国人拘押事件。",
+      "pinyin": "Tōngguò zhè duàn shìpín, liǎojiě Èr Zhàn qījiān de Rìyì Měiguó rén jūyā shìjiàn.",
+      "textKo": "이 영상으로 제2차 세계대전 중 일본계 미국인 억류 수용소에 대해 알아보세요.",
+      "words": [
+        {"word": "日裔", "start": 347.1, "end": 347.52},
+        {"word": "拘押", "start": 348.32, "end": 349.02}
+      ]
+    }
+  ]
+}

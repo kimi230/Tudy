@@ -1,0 +1,119 @@
+[
+  {
+    "type": "tone_sandhi",
+    "originalText": "你好",
+    "pinyin": "nǐ hǎo → ní hǎo",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "3성+3성이 연속되면 앞 글자가 2성으로 변함. 你(nǐ)가 好(hǎo) 앞에서 ní로 발음됨.",
+    "practiceGuide": "ni↗ hao↘ 로 발음. 첫 글자의 성조가 올라감.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "你怎么了",
+    "pinyin": "nǐ zěnme le → ní zěnme le",
+    "toneChange": "3+3 → 2+3 (你怎)",
+    "explanationKo": "你(3성)가 怎(3성) 앞에서 2성으로 변함. 연속 3성의 첫 번째 글자가 2성으로 바뀌는 규칙.",
+    "practiceGuide": "ní zěnme le 로 발음. 你를 올려서 읽음.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "有点",
+    "pinyin": "yǒu diǎn → yóu diǎn",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "有(3성)가 点(3성) 앞에서 2성으로 변함. 일상 대화에서 아주 자주 나오는 조합.",
+    "practiceGuide": "yóu diǎn 으로 발음. '좀' 이라는 뜻의 매우 흔한 표현.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "好像",
+    "pinyin": "hǎo xiàng → háo xiàng",
+    "toneChange": "3+4 → half-3+4",
+    "explanationKo": "3성 뒤에 다른 성조가 오면 3성이 '반3성(half-third)'으로 발음됨. 완전히 내려갔다 올라오지 않고 낮게만 내림.",
+    "practiceGuide": "hǎo를 완전히 내렸다 올리지 않고 낮게만 발음한 뒤 xiàng으로 이어감.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "tone_change_yi",
+    "originalText": "一集",
+    "pinyin": "yī jí → yì jí",
+    "toneChange": "1 → 4 (before 2nd tone)",
+    "explanationKo": "一(yī)는 2성 앞에서 4성(yì)으로 변함. 一의 성조 변화 규칙: 4성 앞→2성, 1/2/3성 앞→4성.",
+    "practiceGuide": "yì jí 로 발음. 一를 강하게 내려서 읽음.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "tone_change_yi",
+    "originalText": "一整天",
+    "pinyin": "yī zhěng tiān → yì zhěng tiān",
+    "toneChange": "1 → 4 (before 3rd tone)",
+    "explanationKo": "一(yī)는 3성(zhěng) 앞에서 4성(yì)으로 변함.",
+    "practiceGuide": "yì zhěng tiān 으로 발음. 一를 4성으로 강하게 내림.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "tone_change_bu",
+    "originalText": "不是",
+    "pinyin": "bù shì → bú shì",
+    "toneChange": "4+4 → 2+4",
+    "explanationKo": "不(bù, 4성)는 4성 앞에서 2성(bú)으로 변함. 不의 성조 변화 규칙: 4성 앞에서만 2성으로 바뀜.",
+    "practiceGuide": "bú shì 로 발음. 不를 올려서 읽고 是를 내려서 읽음.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "tone_change_bu",
+    "originalText": "不错",
+    "pinyin": "bù cuò → bú cuò",
+    "toneChange": "4+4 → 2+4",
+    "explanationKo": "不(4성)가 错(4성) 앞에서 2성으로 변함. 칭찬할 때 자주 쓰는 '不错(괜찮다)'에서 항상 적용.",
+    "practiceGuide": "bú cuò 로 발음. 매우 자주 쓰는 표현이므로 덩어리로 연습.",
+    "segmentIndex": 60
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "可以",
+    "pinyin": "kěyǐ → kéyǐ",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "可(3성)가 以(3성) 앞에서 2성으로 변함. 아주 흔한 3성 연속 변조.",
+    "practiceGuide": "ké yǐ 로 발음. 첫 글자를 올려서 읽음.",
+    "segmentIndex": 36
+  },
+  {
+    "type": "neutral_tone",
+    "originalText": "东西",
+    "pinyin": "dōngxi (not dōngxī)",
+    "toneChange": "1+0 (경성)",
+    "explanationKo": "西는 원래 1성(xī)이지만 东西(물건)에서는 경성(轻声)으로 발음됨. 东西가 '동서(방향)'일 때는 dōngxī(1+1)로 읽음.",
+    "practiceGuide": "dōng·xi 로 발음. 西를 짧고 가볍게 읽음. 강세가 없음.",
+    "segmentIndex": 25
+  },
+  {
+    "type": "neutral_tone",
+    "originalText": "怎么样",
+    "pinyin": "zěnmeyàng (么 is neutral)",
+    "toneChange": "3+0+4",
+    "explanationKo": "么(me)는 어기조사로 쓰일 때 항상 경성으로 발음됨. 什么, 怎么, 那么 등에서 모두 경성.",
+    "practiceGuide": "zěn·me·yàng 으로 발음. 么를 가볍고 짧게.",
+    "segmentIndex": 14
+  },
+  {
+    "type": "er_hua",
+    "originalText": "哪儿",
+    "pinyin": "nǎr",
+    "toneChange": "儿化 (erhua)",
+    "explanationKo": "儿(ér)이 앞 글자에 붙어 하나의 음절이 됨. 哪+儿 → nǎr. 북방 방언의 특징으로 구어에서 자주 사용.",
+    "practiceGuide": "na↘↗r 로 한 음절처럼 발음. 혀를 말아올림.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "tone_sandhi",
+    "originalText": "很好",
+    "pinyin": "hěn hǎo → hén hǎo",
+    "toneChange": "3+3 → 2+3",
+    "explanationKo": "很(3성)이 好(3성) 앞에서 2성으로 변함. 가장 기본적이고 자주 나오는 3성 연속 변조 예시.",
+    "practiceGuide": "hén hǎo 로 발음. 很을 올려 읽고 好를 낮췄다 올림.",
+    "segmentIndex": 32
+  }
+]

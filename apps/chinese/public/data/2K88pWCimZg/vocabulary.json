@@ -1,0 +1,345 @@
+{
+  "videoId": "2K88pWCimZg",
+  "vocabulary": [
+    {
+      "word": "歧视",
+      "pinyin": "qíshì",
+      "tones": [2, 4],
+      "partOfSpeech": "动词/名词",
+      "definition": "To discriminate; discrimination",
+      "koreanMeaning": "차별하다; 차별",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "歧", "meaning": "diverge, branch"},
+        {"character": "视", "meaning": "look at, regard"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 11,
+      "contextSentence": "对中国移民的歧视早在数十年前便已开始。"
+    },
+    {
+      "word": "移民",
+      "pinyin": "yímín",
+      "tones": [2, 2],
+      "partOfSpeech": "名词/动词",
+      "definition": "Immigrant; to immigrate",
+      "koreanMeaning": "이민자; 이민하다",
+      "hskLevel": 5,
+      "measureWord": "名",
+      "components": [
+        {"character": "移", "meaning": "move, shift"},
+        {"character": "民", "meaning": "people, civilian"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 5,
+      "contextSentence": "昌平和同船的移民乘客被禁止下船。"
+    },
+    {
+      "word": "禁止",
+      "pinyin": "jìnzhǐ",
+      "tones": [4, 3],
+      "partOfSpeech": "动词",
+      "definition": "To prohibit, to forbid, to ban",
+      "koreanMeaning": "금지하다",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "禁", "meaning": "prohibit, forbid"},
+        {"character": "止", "meaning": "stop, halt"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 5,
+      "contextSentence": "昌平和同船的移民乘客被禁止下船。"
+    },
+    {
+      "word": "法案",
+      "pinyin": "fǎ'àn",
+      "tones": [3, 4],
+      "partOfSpeech": "名词",
+      "definition": "Bill, legislation, act",
+      "koreanMeaning": "법안",
+      "hskLevel": 6,
+      "measureWord": "个/项",
+      "components": [
+        {"character": "法", "meaning": "law, method"},
+        {"character": "案", "meaning": "case, plan, table"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 6,
+      "contextSentence": "格罗弗·克利夫兰总统签署了《斯科特法案》。"
+    },
+    {
+      "word": "裁决",
+      "pinyin": "cáijué",
+      "tones": [2, 2],
+      "partOfSpeech": "名词/动词",
+      "definition": "Ruling, decision, verdict; to rule",
+      "koreanMeaning": "판결; 판결하다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "裁", "meaning": "cut, decide, judge"},
+        {"character": "决", "meaning": "decide, determine"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 9,
+      "contextSentence": "昌平对这一裁决提出了异议。"
+    },
+    {
+      "word": "政策",
+      "pinyin": "zhèngcè",
+      "tones": [4, 4],
+      "partOfSpeech": "名词",
+      "definition": "Policy",
+      "koreanMeaning": "정책",
+      "hskLevel": 5,
+      "measureWord": "个/项",
+      "components": [
+        {"character": "政", "meaning": "government, politics"},
+        {"character": "策", "meaning": "plan, policy, whip"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 8,
+      "contextSentence": "这项政策威胁要拆散家庭，剥夺中国移民的家园和生计。"
+    },
+    {
+      "word": "先例",
+      "pinyin": "xiānlì",
+      "tones": [1, 4],
+      "partOfSpeech": "名词",
+      "definition": "Precedent",
+      "koreanMeaning": "선례",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "先", "meaning": "first, earlier"},
+        {"character": "例", "meaning": "example, precedent, case"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 49,
+      "contextSentence": "这一裁决树立了一个独特的先例。"
+    },
+    {
+      "word": "驱逐",
+      "pinyin": "qūzhú",
+      "tones": [1, 2],
+      "partOfSpeech": "动词",
+      "definition": "To expel, to deport, to drive out",
+      "koreanMeaning": "추방하다, 쫓아내다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "驱", "meaning": "drive, urge"},
+        {"character": "逐", "meaning": "chase, expel, one by one"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 43,
+      "contextSentence": "这一裁决导致昌平被驱逐出境。"
+    },
+    {
+      "word": "入境",
+      "pinyin": "rùjìng",
+      "tones": [4, 4],
+      "partOfSpeech": "动词",
+      "definition": "To enter a country, to enter the border",
+      "koreanMeaning": "입국하다, 입경하다",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "入", "meaning": "enter"},
+        {"character": "境", "meaning": "border, territory, situation"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 7,
+      "contextSentence": "该法案使允许他们重新入境美国的合法文件失效。"
+    },
+    {
+      "word": "废除",
+      "pinyin": "fèichú",
+      "tones": [4, 2],
+      "partOfSpeech": "动词",
+      "definition": "To abolish, to repeal, to annul",
+      "koreanMeaning": "폐지하다, 폐기하다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "废", "meaning": "abolish, waste, useless"},
+        {"character": "除", "meaning": "remove, get rid of"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 58,
+      "contextSentence": "《排华法案》本身最终于1943年被废除。"
+    },
+    {
+      "word": "公民",
+      "pinyin": "gōngmín",
+      "tones": [1, 2],
+      "partOfSpeech": "名词",
+      "definition": "Citizen",
+      "koreanMeaning": "시민",
+      "hskLevel": 5,
+      "measureWord": "名",
+      "components": [
+        {"character": "公", "meaning": "public, common, official"},
+        {"character": "民", "meaning": "people, civilian"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 1,
+      "contextSentence": "在加利福尼亚州生活了十二年之后，中国公民蔡昌平准备回国探亲。"
+    },
+    {
+      "word": "证书",
+      "pinyin": "zhèngshū",
+      "tones": [4, 1],
+      "partOfSpeech": "名词",
+      "definition": "Certificate, credential",
+      "koreanMeaning": "증명서, 자격증",
+      "hskLevel": 5,
+      "measureWord": "份/张",
+      "components": [
+        {"character": "证", "meaning": "prove, certificate"},
+        {"character": "书", "meaning": "book, document"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 34,
+      "contextSentence": "除非先申请再入境证书。"
+    },
+    {
+      "word": "联邦",
+      "pinyin": "liánbāng",
+      "tones": [2, 1],
+      "partOfSpeech": "名词/形容词",
+      "definition": "Federal; federation",
+      "koreanMeaning": "연방",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "联", "meaning": "connect, unite, join"},
+        {"character": "邦", "meaning": "state, nation, country"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 30,
+      "contextSentence": "这是第一部明确基于国籍限制移民的联邦法律。"
+    },
+    {
+      "word": "种族主义",
+      "pinyin": "zhǒngzú zhǔyì",
+      "tones": [3, 2, 3, 4],
+      "partOfSpeech": "名词",
+      "definition": "Racism",
+      "koreanMeaning": "인종주의, 인종차별주의",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "种族", "meaning": "race, ethnic group"},
+        {"character": "主义", "meaning": "-ism, doctrine"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 44,
+      "contextSentence": "比法院的种族主义裁决更重要的，是他们用来支持这一裁决的逻辑。"
+    },
+    {
+      "word": "最高法院",
+      "pinyin": "zuìgāo fǎyuàn",
+      "tones": [4, 1, 3, 4],
+      "partOfSpeech": "名词",
+      "definition": "Supreme Court",
+      "koreanMeaning": "대법원",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "最高", "meaning": "highest, supreme"},
+        {"character": "法院", "meaning": "court of law"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 22,
+      "contextSentence": "加利福尼亚州最高法院推翻了这一定罪。"
+    },
+    {
+      "word": "国会",
+      "pinyin": "guóhuì",
+      "tones": [2, 4],
+      "partOfSpeech": "名词",
+      "definition": "Congress, parliament, national assembly",
+      "koreanMeaning": "국회, 의회",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "国", "meaning": "country, nation"},
+        {"character": "会", "meaning": "meeting, assembly"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 29,
+      "contextSentence": "1882年，国会通过了《排华法案》。"
+    },
+    {
+      "word": "国家安全",
+      "pinyin": "guójiā ānquán",
+      "tones": [2, 1, 1, 2],
+      "partOfSpeech": "名词",
+      "definition": "National security",
+      "koreanMeaning": "국가 안보",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "国家", "meaning": "country, state"},
+        {"character": "安全", "meaning": "safety, security"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 48,
+      "contextSentence": "国会已将该移民政策宣布为国家安全事项。"
+    },
+    {
+      "word": "制衡",
+      "pinyin": "zhìhéng",
+      "tones": [4, 2],
+      "partOfSpeech": "动词/名词",
+      "definition": "Checks and balances; to check and balance",
+      "koreanMeaning": "견제와 균형; 견제하다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "制", "meaning": "control, system"},
+        {"character": "衡", "meaning": "balance, weigh"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 45,
+      "contextSentence": "最高法院被视为对美国政府另外两个部门的制衡。"
+    },
+    {
+      "word": "推翻",
+      "pinyin": "tuīfān",
+      "tones": [1, 1],
+      "partOfSpeech": "动词",
+      "definition": "To overturn, to overthrow, to reverse",
+      "koreanMeaning": "뒤집다, 번복하다",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "推", "meaning": "push"},
+        {"character": "翻", "meaning": "overturn, flip"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 22,
+      "contextSentence": "加利福尼亚州最高法院推翻了这一定罪。"
+    },
+    {
+      "word": "人权",
+      "pinyin": "rénquán",
+      "tones": [2, 2],
+      "partOfSpeech": "名词",
+      "definition": "Human rights",
+      "koreanMeaning": "인권",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "人", "meaning": "person, human"},
+        {"character": "权", "meaning": "right, power, authority"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 67,
+      "contextSentence": "《排华法案》不会是美国最后一次以归属感的名义侵犯人权。"
+    }
+  ]
+}

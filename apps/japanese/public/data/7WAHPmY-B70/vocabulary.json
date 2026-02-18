@@ -1,0 +1,344 @@
+[
+  {
+    "word": "皆様",
+    "reading": "みなさま",
+    "kanji": "皆様",
+    "partOfSpeech": "noun/pronoun",
+    "definition": "everyone, ladies and gentlemen (very polite)",
+    "koreanMeaning": "여러분 (매우 정중한 표현)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "皆", "onyomi": "カイ", "kunyomi": "みな、みんな", "meaning": "all, everyone"},
+      {"kanji": "様", "onyomi": "ヨウ", "kunyomi": "さま", "meaning": "manner, way, Mr./Ms. (honorific)"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "皆様は手の形で声が変わることをご存知でしょうか"
+  },
+  {
+    "word": "深呼吸",
+    "reading": "しんこきゅう",
+    "kanji": "深呼吸",
+    "partOfSpeech": "noun/verb (suru)",
+    "definition": "deep breath, deep breathing",
+    "koreanMeaning": "심호흡",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "深", "onyomi": "シン", "kunyomi": "ふか(い)", "meaning": "deep"},
+      {"kanji": "呼", "onyomi": "コ", "kunyomi": "よ(ぶ)", "meaning": "call, breathe"},
+      {"kanji": "吸", "onyomi": "キュウ", "kunyomi": "す(う)", "meaning": "suck, inhale"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "手の形をグーにしていただき深呼吸をします"
+  },
+  {
+    "word": "活発",
+    "reading": "かっぱつ",
+    "kanji": "活発",
+    "partOfSpeech": "na-adjective/noun",
+    "definition": "active, lively, energetic",
+    "koreanMeaning": "활발하다, 활동적인",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "活", "onyomi": "カツ", "kunyomi": "い(きる)", "meaning": "life, activity"},
+      {"kanji": "発", "onyomi": "ハツ、ホツ", "kunyomi": "た(つ)、はな(つ)", "meaning": "depart, emit"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "体のどこが活発に動きましたでしょうか"
+  },
+  {
+    "word": "筋肉",
+    "reading": "きんにく",
+    "kanji": "筋肉",
+    "partOfSpeech": "noun",
+    "definition": "muscle",
+    "koreanMeaning": "근육",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "筋", "onyomi": "キン", "kunyomi": "すじ", "meaning": "muscle, tendon, sinew"},
+      {"kanji": "肉", "onyomi": "ニク", "kunyomi": "", "meaning": "meat, flesh"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "胸の筋肉が活発に動きます"
+  },
+  {
+    "word": "小指",
+    "reading": "こゆび",
+    "kanji": "小指",
+    "partOfSpeech": "noun",
+    "definition": "little finger, pinky",
+    "koreanMeaning": "새끼손가락",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "小", "onyomi": "ショウ", "kunyomi": "ちい(さい)、こ、お", "meaning": "small"},
+      {"kanji": "指", "onyomi": "シ", "kunyomi": "ゆび、さ(す)", "meaning": "finger, point"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 10,
+    "contextSentence": "次に小指と薬指を折り曲げてください"
+  },
+  {
+    "word": "薬指",
+    "reading": "くすりゆび",
+    "kanji": "薬指",
+    "partOfSpeech": "noun",
+    "definition": "ring finger",
+    "koreanMeaning": "약지, 약손가락",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "薬", "onyomi": "ヤク", "kunyomi": "くすり", "meaning": "medicine, drug"},
+      {"kanji": "指", "onyomi": "シ", "kunyomi": "ゆび", "meaning": "finger"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 10,
+    "contextSentence": "次に小指と薬指を折り曲げてください"
+  },
+  {
+    "word": "折り曲げる",
+    "reading": "おりまげる",
+    "kanji": "折り曲げる",
+    "partOfSpeech": "verb (ichidan)",
+    "definition": "to fold, to bend",
+    "koreanMeaning": "구부리다, 접다",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "折", "onyomi": "セツ", "kunyomi": "お(る)、お(れる)", "meaning": "fold, break"},
+      {"kanji": "曲", "onyomi": "キョク", "kunyomi": "ま(がる)、ま(げる)", "meaning": "bend, curve"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 10,
+    "contextSentence": "小指と薬指を折り曲げてください"
+  },
+  {
+    "word": "安定",
+    "reading": "あんてい",
+    "kanji": "安定",
+    "partOfSpeech": "noun/verb (suru)/na-adjective",
+    "definition": "stability, steadiness",
+    "koreanMeaning": "안정",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "安", "onyomi": "アン", "kunyomi": "やす(い)", "meaning": "ease, cheap, safe"},
+      {"kanji": "定", "onyomi": "テイ、ジョウ", "kunyomi": "さだ(める)", "meaning": "determine, fix, settle"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 33,
+    "contextSentence": "安定した柔らかな声でなぜか起こすこともできます"
+  },
+  {
+    "word": "不安定",
+    "reading": "ふあんてい",
+    "kanji": "不安定",
+    "partOfSpeech": "na-adjective/noun",
+    "definition": "unstable, unsteady",
+    "koreanMeaning": "불안정",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "不", "onyomi": "フ、ブ", "kunyomi": "", "meaning": "not, un- (negative prefix)"},
+      {"kanji": "安", "onyomi": "アン", "kunyomi": "やす(い)", "meaning": "ease, safe"},
+      {"kanji": "定", "onyomi": "テイ", "kunyomi": "さだ(める)", "meaning": "determine, fix"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 29,
+    "contextSentence": "詰まった声が出てきます 不安定な声です"
+  },
+  {
+    "word": "状態",
+    "reading": "じょうたい",
+    "kanji": "状態",
+    "partOfSpeech": "noun",
+    "definition": "state, condition, situation",
+    "koreanMeaning": "상태",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "状", "onyomi": "ジョウ", "kunyomi": "", "meaning": "condition, form, letter"},
+      {"kanji": "態", "onyomi": "タイ", "kunyomi": "", "meaning": "attitude, condition"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 48,
+    "contextSentence": "この体の状態を覚えておいてください"
+  },
+  {
+    "word": "拝借",
+    "reading": "はいしゃく",
+    "kanji": "拝借",
+    "partOfSpeech": "noun/verb (suru)",
+    "definition": "borrowing (humble form)",
+    "koreanMeaning": "빌리다 (겸양어)",
+    "jlptLevel": 2,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "拝", "onyomi": "ハイ", "kunyomi": "おが(む)", "meaning": "worship, bow, humbly"},
+      {"kanji": "借", "onyomi": "シャク", "kunyomi": "か(りる)", "meaning": "borrow, rent"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 4,
+    "contextSentence": "お手を拝借いたします"
+  },
+  {
+    "word": "あがり症",
+    "reading": "あがりしょう",
+    "kanji": "あがり症",
+    "partOfSpeech": "noun",
+    "definition": "stage fright, nervousness in front of people",
+    "koreanMeaning": "무대 공포증, 대중 앞에서 긴장하는 증상",
+    "jlptLevel": 2,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "症", "onyomi": "ショウ", "kunyomi": "", "meaning": "disease, symptom, condition"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 79,
+    "contextSentence": "あがり症、喫音症の方々"
+  },
+  {
+    "word": "ご存知",
+    "reading": "ごぞんじ",
+    "kanji": "ご存知",
+    "partOfSpeech": "noun/expression",
+    "definition": "knowing (respectful form of 知っている)",
+    "koreanMeaning": "알고 계시다 (존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "存", "onyomi": "ソン、ゾン", "kunyomi": "あ(る)、お(る)", "meaning": "exist"},
+      {"kanji": "知", "onyomi": "チ", "kunyomi": "し(る)", "meaning": "know"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "皆様は手の形で声が変わることをご存知でしょうか"
+  },
+  {
+    "word": "打ち合わせ",
+    "reading": "うちあわせ",
+    "kanji": "打ち合わせ",
+    "partOfSpeech": "noun",
+    "definition": "meeting, arrangement, prior consultation",
+    "koreanMeaning": "사전 협의, 약속",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "打", "onyomi": "ダ", "kunyomi": "う(つ)", "meaning": "hit, strike"},
+      {"kanji": "合", "onyomi": "ゴウ、ガッ、カッ", "kunyomi": "あ(う)、あ(わせる)", "meaning": "fit, combine"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 34,
+    "contextSentence": "打ち合わせ通りです"
+  },
+  {
+    "word": "体感",
+    "reading": "たいかん",
+    "kanji": "体感",
+    "partOfSpeech": "noun/verb (suru)",
+    "definition": "physical sensation, experiencing with one's body",
+    "koreanMeaning": "체감, 몸으로 직접 느끼다",
+    "jlptLevel": 2,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "体", "onyomi": "タイ、テイ", "kunyomi": "からだ", "meaning": "body"},
+      {"kanji": "感", "onyomi": "カン", "kunyomi": "", "meaning": "feeling, sensation"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 34,
+    "contextSentence": "是非皆様一緒にご体感していただきたいと思います"
+  },
+  {
+    "word": "転倒予防",
+    "reading": "てんとうよぼう",
+    "kanji": "転倒予防",
+    "partOfSpeech": "noun",
+    "definition": "fall prevention",
+    "koreanMeaning": "낙상 예방, 넘어짐 방지",
+    "jlptLevel": 2,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "転", "onyomi": "テン", "kunyomi": "ころ(ぶ)、ころ(がる)", "meaning": "roll, fall over"},
+      {"kanji": "倒", "onyomi": "トウ", "kunyomi": "たお(れる)", "meaning": "fall, collapse"},
+      {"kanji": "予", "onyomi": "ヨ", "kunyomi": "かね(て)", "meaning": "beforehand, in advance"},
+      {"kanji": "防", "onyomi": "ボウ", "kunyomi": "ふせ(ぐ)", "meaning": "prevent, defend"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 94,
+    "contextSentence": "転倒予防です これから揺らします"
+  },
+  {
+    "word": "思い浮かべる",
+    "reading": "おもいうかべる",
+    "kanji": "思い浮かべる",
+    "partOfSpeech": "verb (ichidan)",
+    "definition": "to imagine, to picture in one's mind, to recall",
+    "koreanMeaning": "떠올리다, 상상하다",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "思", "onyomi": "シ", "kunyomi": "おも(う)", "meaning": "think"},
+      {"kanji": "浮", "onyomi": "フ", "kunyomi": "う(く)、う(かぶ)", "meaning": "float, surface"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 98,
+    "contextSentence": "卵を思い浮かべてください"
+  },
+  {
+    "word": "素晴らしい",
+    "reading": "すばらしい",
+    "kanji": "素晴らしい",
+    "partOfSpeech": "i-adjective",
+    "definition": "wonderful, splendid, magnificent",
+    "koreanMeaning": "훌륭하다, 대단하다",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "素", "onyomi": "ソ、ス", "kunyomi": "もと", "meaning": "elementary, naked, unadorned"},
+      {"kanji": "晴", "onyomi": "セイ", "kunyomi": "は(れる)、は(らす)", "meaning": "clear (weather), fair"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "素晴らしい 素晴らしい"
+  },
+  {
+    "word": "効果",
+    "reading": "こうか",
+    "kanji": "効果",
+    "partOfSpeech": "noun",
+    "definition": "effect, result, efficacy",
+    "koreanMeaning": "효과",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "効", "onyomi": "コウ", "kunyomi": "き(く)", "meaning": "effect, efficient"},
+      {"kanji": "果", "onyomi": "カ", "kunyomi": "は(てる)、くだ(もの)", "meaning": "fruit, result"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 89,
+    "contextSentence": "このぐらいで十分効果はあります"
+  },
+  {
+    "word": "申す",
+    "reading": "もうす",
+    "kanji": "申す",
+    "partOfSpeech": "verb (godan)",
+    "definition": "to say, to be called (humble form of 言う)",
+    "koreanMeaning": "말씀드리다 (겸양어, ~라고 합니다)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "申", "onyomi": "シン", "kunyomi": "もう(す)", "meaning": "say (humble), the 9th sign of the Chinese zodiac"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "林茂光と申します"
+  }
+]

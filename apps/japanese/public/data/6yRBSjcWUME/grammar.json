@@ -1,0 +1,62 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "いやー、なんか英語僕わかんないですけど",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "〜ている",
+    "example": "力を持っていると だって 笑ってしまうんですよ",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 122
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "お笑いのことについて話したいと思います よく質問されるんです",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "僕、日本語で言えんかなと思いながら ちょっと恐縮するんですけど",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜たい",
+    "example": "お笑いのことについて話したいと思います よく質問されるんです",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "いやー、なんか英語僕わかんないですけど",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "言われるときに 僕、いつも言うんですけども 必要かどうかわからないって、そんなことは",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "挫折もあるでしょう 陣内くんという芸人さんなんか 離婚もし 大変です",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 147
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "いやー、なんか英語僕わかんないですけど",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "수동/가능 〜れる・〜られる",
+    "example": "なんとなくはわかったんですけど 皆さんが英語で喋られるんで",
+    "explanationKo": "수동 또는 가능 의미를 나타냅니다.",
+    "segmentIndex": 4
+  }
+]

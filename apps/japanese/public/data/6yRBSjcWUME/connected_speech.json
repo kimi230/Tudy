@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "翻訳 字幕 初音ミク",
+    "reading": "",
+    "baseForm": "翻訳 字幕 初音ミク",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "いやー、なんか英語僕わかんないですけど",
+    "reading": "",
+    "baseForm": "いやー、なんか英語僕わかんないけど",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "casual",
+    "originalText": "なんか、ベリーフェーマスって言ってましたね",
+    "reading": "",
+    "baseForm": "なんか、ベリーフェーマスって言ってました",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "なんとなくはわかったんですけど 皆さんが英語で喋られるんで",
+    "reading": "",
+    "baseForm": "なんとなくはわかったんけど 皆さんが英語",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "僕、日本語で言えんかなと思いながら ちょっと恐縮するんですけど",
+    "reading": "",
+    "baseForm": "僕、日本語で言えんかなと思いながら ちょ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "実は僕、放送作家",
+    "reading": "",
+    "baseForm": "実は僕、放送作家",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "日本のテレビのバラエティー お笑いですよね",
+    "reading": "",
+    "baseForm": "日本のテレビのバラエティー お笑いよね",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "放送作家をしてましてですね ちょっと難しいですけど",
+    "reading": "",
+    "baseForm": "放送作家をしてましてね ちょっと難しいけ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "teineigo",
+    "originalText": "お笑いのことについて話したいと思います よく質問されるんです",
+    "reading": "",
+    "baseForm": "お笑いのことについて話したいと思い よく",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "teineigo",
+    "originalText": "いろんな取材を受けたときに こんなことなんです",
+    "reading": "",
+    "baseForm": "いろんな取材を受けたときに こんなことな",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "あ、違うな、間違ったな まあいいです",
+    "reading": "",
+    "baseForm": "あ、違うな、間違ったな まあいい",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "teineigo",
+    "originalText": "そう、オチ言っちゃいましたけども 言いますけども",
+    "reading": "",
+    "baseForm": "そう、オチ言っちゃいましたけども 言いけ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "teineigo",
+    "originalText": "笑いはね、なんで必要かって聞かれるんですよ",
+    "reading": "",
+    "baseForm": "笑いはね、なんで必要かって聞かれるんよ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "よくね 笑いは必要なのか、人にとってって",
+    "reading": "",
+    "baseForm": "よくね 笑いは必要なのか、人にとってって",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "teineigo",
+    "originalText": "言われるときに 僕、いつも言うんですけども 必要かどうかわからないって、そんなこ",
+    "reading": "",
+    "baseForm": "言われるときに 僕、いつも言うんけども ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 15
+  },
+  {
+    "type": "casual",
+    "originalText": "でもね、一つだけ言えるのは",
+    "reading": "",
+    "baseForm": "でもね、一つだけ言えるのは",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 16
+  }
+]

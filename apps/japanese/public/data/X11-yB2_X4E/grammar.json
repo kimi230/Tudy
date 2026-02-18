@@ -1,0 +1,137 @@
+[
+  {
+    "pattern": "〜をお見せします (Humble Verb: お〜します)",
+    "explanation": "The honorific humble form お + verb stem + します is used when the speaker does something for the listener, showing respect. Here お見せします = 'I will show you (humbly)'.",
+    "explanationKo": "お + 동사 어간 + します 형태는 화자가 청자를 위해 행동할 때 사용하는 겸양 표현입니다. お見せします = '(제가) 보여 드리겠습니다'.",
+    "examples": [
+      "今日は私たちの伝統的な日本の家をお見せします。",
+      "ご案内します。",
+      "お手伝いします。"
+    ],
+    "segmentIndex": 0,
+    "difficulty": "intermediate",
+    "keigo": {
+      "type": "謙譲語 (けんじょうご, humble language)",
+      "explanation": "謙譲語は話し手が自分の行為を低めて相手を立てる敬語。お〜するの形が典型的。",
+      "explanationKo": "겸양어(謙譲語)는 화자 자신의 행동을 낮추어 상대방을 높이는 경어 표현. お〜する 형태가 전형적."
+    }
+  },
+  {
+    "pattern": "〜ことができます (Potential: can do)",
+    "explanation": "verb dictionary form + ことができます expresses the potential/ability to do something. More formal than the plain potential form (〜られる).",
+    "explanationKo": "동사 기본형 + ことができます는 어떤 것을 할 수 있는 능력이나 가능성을 나타냅니다. 평어 가능형(〜られる)보다 격식체입니다.",
+    "examples": [
+      "この部屋はふすまで仕切ることができます。",
+      "体を洗うことができます。",
+      "水で洗うことができます。"
+    ],
+    "segmentIndex": 4,
+    "difficulty": "beginner",
+    "keigo": null
+  },
+  {
+    "pattern": "〜に関して (Regarding / About)",
+    "explanation": "〜に関して is a formal expression meaning 'regarding', 'about', or 'concerning'. It is used to introduce or elaborate on a topic.",
+    "explanationKo": "〜に関して는 '~에 관해서', '~에 대해서'를 의미하는 격식체 표현으로, 화제를 도입하거나 설명할 때 씁니다.",
+    "examples": [
+      "この部屋はふすまで仕切ることができます。",
+      "日本の文化についてお聞かせください。"
+    ],
+    "segmentIndex": 24,
+    "difficulty": "intermediate",
+    "keigo": null
+  },
+  {
+    "pattern": "〜と呼ばれています (Is called / Is known as)",
+    "explanation": "〜と呼ばれています is a passive expression meaning 'is called' or 'is known as'. と = quotation marker, 呼ばれる = passive of 呼ぶ (to call), います = ongoing state.",
+    "explanationKo": "〜と呼ばれています는 '~라고 불립니다', '~라고 알려져 있습니다'를 의미하는 수동태 표현입니다. と = 인용 조사, 呼ばれる = 呼ぶ의 수동형, います = 지속적 상태.",
+    "examples": [
+      "松竹梅と呼ばれています。",
+      "東京と呼ばれています。",
+      "侍と呼ばれていました。"
+    ],
+    "segmentIndex": 19,
+    "difficulty": "intermediate",
+    "keigo": null
+  },
+  {
+    "pattern": "〜てください (Polite Request: Please do〜)",
+    "explanation": "〜てください is a standard polite request form. te-form of verb + ください. More formal than just saying the te-form alone.",
+    "explanationKo": "〜てください는 표준적인 정중한 의뢰 표현입니다. 동사의 て형 + ください. て형만 단독으로 쓰는 것보다 격식 있습니다.",
+    "examples": [
+      "皆さんに質問があります。お聞かせください。",
+      "日本の文化についてお聞かせください。",
+      "日本のオタク文化を聞いてみてください。"
+    ],
+    "segmentIndex": 56,
+    "difficulty": "beginner",
+    "keigo": {
+      "type": "丁寧語 (ていねいご, polite language)",
+      "explanation": "ください is a polite imperative derived from くださる (an honorific verb meaning 'to give'). お〜くださいは更に丁寧。",
+      "explanationKo": "ください는 くださる(주시다)의 명령형으로 정중한 의뢰를 나타냅니다. お〜ください는 더욱 격식 있는 표현."
+    }
+  },
+  {
+    "pattern": "〜と言うことができます (One can say that〜)",
+    "explanation": "〜と言うことができます literally means 'one can say that〜'. It is used to introduce a description or name for something. More formal than just 〜です.",
+    "explanationKo": "〜と言うことができます는 '~라고 말할 수 있습니다'를 의미합니다. 무언가에 대한 설명이나 명칭을 소개할 때 씁니다. 단순 ~です보다 격식체입니다.",
+    "examples": [
+      "障子と言うことができます。",
+      "これを伝統的な建築と言うことができます。"
+    ],
+    "segmentIndex": 32,
+    "difficulty": "intermediate",
+    "keigo": null
+  },
+  {
+    "pattern": "〜てみてください (Please try doing〜)",
+    "explanation": "〜てみてください = te-form of verb + みて (try doing) + ください (please). Suggests the listener should try or attempt something.",
+    "explanationKo": "〜てみてください = 동사 て형 + みて (해보다) + ください (부탁). 청자에게 무언가를 시도해 보도록 권유하는 표현입니다.",
+    "examples": [
+      "日本のオタク文化を聞いてみてください。",
+      "これを食べてみてください。",
+      "日本語を話してみてください。"
+    ],
+    "segmentIndex": 59,
+    "difficulty": "beginner",
+    "keigo": null
+  },
+  {
+    "pattern": "〜に住んでいます (Ongoing State: living in〜)",
+    "explanation": "〜に住んでいます expresses a continuous state of living somewhere. に = location marker, 住む (すむ) = to live/reside, でいます = te-form of いる indicating ongoing state.",
+    "explanationKo": "〜に住んでいます는 어느 곳에 살고 있는 지속적인 상태를 나타냅니다. に = 장소 조사, 住む = 살다, でいます = 진행·상태의 て형 + いる.",
+    "examples": [
+      "今、秋葉原の東京に住んでいます。",
+      "日本の新しい家族として住んでいることについてお聞かせください。",
+      "大阪に住んでいます。"
+    ],
+    "segmentIndex": 60,
+    "difficulty": "beginner",
+    "keigo": null
+  },
+  {
+    "pattern": "〜を使うことで (By using〜)",
+    "explanation": "〜を使うことで means 'by using〜' or 'through the use of〜'. で here is the te-form equivalent of a noun clause meaning 'by means of'.",
+    "explanationKo": "〜を使うことで는 '~를 사용함으로써'를 의미합니다. で는 수단을 나타내는 조사로, 명사절 뒤에 붙어 '~를 통해'라는 의미를 줍니다.",
+    "examples": [
+      "これを使うことで、部屋が明るくなります。",
+      "障子を使うことで、自然光が入ります。"
+    ],
+    "segmentIndex": 33,
+    "difficulty": "intermediate",
+    "keigo": null
+  },
+  {
+    "pattern": "〜に興味があります (To be interested in〜)",
+    "explanation": "〜に興味があります is a standard expression for saying one is interested in something. に marks the object of interest, 興味 = interest, があります = exists/have.",
+    "explanationKo": "〜に興味があります는 무언가에 관심이 있다고 표현하는 기본적인 표현입니다. に = 관심의 대상을 나타내는 조사, 興味 = 흥미, があります = 있습니다.",
+    "examples": [
+      "私は、日本の人に興味があります。",
+      "日本語に興味があります。",
+      "伝統文化に興味があります。"
+    ],
+    "segmentIndex": 60,
+    "difficulty": "beginner",
+    "keigo": null
+  }
+]

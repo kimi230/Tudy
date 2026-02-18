@@ -1,0 +1,222 @@
+[
+  {
+    "word": "います",
+    "reading": "しゅういをこぶさせることをし じんせいを",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'います'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "周囲を鼓舞させることをし 人生をも変えるものだと思っています"
+  },
+  {
+    "word": "キャリアを変え",
+    "reading": "はなすちからのトレーニングというのは キ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'キャリアを変え'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "話す力のトレーニングというのは キャリアを変え"
+  },
+  {
+    "word": "ドを変えていくんです",
+    "reading": "はなしかたのがくしゅうはスキルとマインド",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ドを変えていくんです'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "話し方の学習はスキルとマインドを変えていくんです"
+  },
+  {
+    "word": "を指しています",
+    "reading": "6.1じかん これはにほんじんのへいじつ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'を指しています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "6.1時間 これは日本人の平日の平均話量を指しています"
+  },
+  {
+    "word": "時間",
+    "reading": "6.1じかん これはにほんじんのへいじつ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'時間'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "6.1時間 これは日本人の平日の平均話量を指しています"
+  },
+  {
+    "word": "つまり人生で",
+    "reading": "つまりじんせいで4ぶんの1のじかんも わ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'つまり人生で'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず"
+  },
+  {
+    "word": "の時間も",
+    "reading": "つまりじんせいで4ぶんの1のじかんも わ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'の時間も'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず"
+  },
+  {
+    "word": "わらず",
+    "reading": "つまりじんせいで4ぶんの1のじかんも わ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'わらず'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず"
+  },
+  {
+    "word": "分の",
+    "reading": "つまりじんせいで4ぶんの1のじかんも わ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'分の'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず"
+  },
+  {
+    "word": "ことによって",
+    "reading": "しつぎによるしんらいのしっついをしてしま",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ことによって'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "質疑による信頼の失墜をしてしまったり なかなかうまく話せないということによって"
+  },
+  {
+    "word": "まったり",
+    "reading": "しつぎによるしんらいのしっついをしてしま",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'まったり'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 5,
+    "contextSentence": "質疑による信頼の失墜をしてしまったり なかなかうまく話せないということによって"
+  },
+  {
+    "word": "あります",
+    "reading": "しんらいをそこねてしまうことはよくありま",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'あります'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 6,
+    "contextSentence": "信頼を損ねてしまうことはよくあります"
+  },
+  {
+    "word": "営業をするシーンでも",
+    "reading": "スピーチやプレゼンをするきかいでも えい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'営業をするシーンでも'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "スピーチやプレゼンをする機会でも 営業をするシーンでも"
+  },
+  {
+    "word": "でも",
+    "reading": "スピーチやプレゼンをするきかいでも えい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'でも'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 7,
+    "contextSentence": "スピーチやプレゼンをする機会でも 営業をするシーンでも"
+  },
+  {
+    "word": "おいても",
+    "reading": "キャリアアップをめざすばしょにおいても ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'おいても'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 8,
+    "contextSentence": "キャリアアップを目指す場所においても 話し方で評価が変わっていく"
+  },
+  {
+    "word": "だと思っています",
+    "reading": "はなしかたがひょうかをつくっていくじだい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'だと思っています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 9,
+    "contextSentence": "話し方が評価を作っていく時代だと思っています"
+  },
+  {
+    "word": "要だと思います",
+    "reading": "だからこそはなしかたをとおして ひょうか",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'要だと思います'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 10,
+    "contextSentence": "だからこそ話し方を通して 評価を勝ち取りにいくことが重要だと思います"
+  },
+  {
+    "word": "グサービス",
+    "reading": "こんかいのこうしははなしかたトレーニング",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'グサービス'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "今回の講師は話し方トレーニングサービス 会話代表"
+  },
+  {
+    "word": "会話代表",
+    "reading": "こんかいのこうしははなしかたトレーニング",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'会話代表'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "今回の講師は話し方トレーニングサービス 会話代表"
+  },
+  {
+    "word": "歳から弁論を始め",
+    "reading": "15さいからべんろんをはじめ ぜんこくべ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'歳から弁論を始め'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 13,
+    "contextSentence": "15歳から弁論を始め 全国弁論大会では3度優勝"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "1日で最も忙しい時間帯それが朝",
+    "reading": "いちにちでもっともいそがしいじかんたいそれがあさ",
+    "baseForm": "1日で最も忙しい時間帯それが朝",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "皆さん朝食はどうしていますか",
+    "reading": "みなさんちょうしょくはどうしていますか",
+    "baseForm": "皆さん朝食はどうしていか",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "casual",
+    "originalText": "一気に2,3個料理作ったりとか",
+    "reading": "いっきににさんこりょうりつくったりとか",
+    "baseForm": "一気に2,3個料理作ったりとか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "例えばまあ戦ですね ママは鬼のように",
+    "reading": "たとえばまあたたかいですね ままはおにのように",
+    "baseForm": "例えばまあ戦ね ママは鬼のように",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "casual",
+    "originalText": "朝食にいくらかけているのか",
+    "reading": "ちょうしょくにいくらかけているのか",
+    "baseForm": "朝食にいくらかけているのか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "casual",
+    "originalText": "さらに明日から実践できる",
+    "reading": "さらにあしたからじっせんできる",
+    "baseForm": "さらに明日から実践できる",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "バタバタの朝を乗り切る秘策も教えてもらいました",
+    "reading": "ばたばたのあさをのりきるひさくもおしえてもらいました",
+    "baseForm": "バタバタの朝を乗り切る秘策も教えてもらい",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "今日のソレスタテーマは朝食です",
+    "reading": "きょうのそれすたてーまはちょうしょくです",
+    "baseForm": "今日のソレスタテーマは朝食",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "皆さん何を食べ一体いくらかけているのでしょうか",
+    "reading": "みなさんなにをたべいったいいくらかけているのでしょうか",
+    "baseForm": "皆さん何を食べ一体いくらかけているのでし",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "질문/확인 발화",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "まずは千葉県の行列ができる激安スーパーで徹底調査",
+    "reading": "まずはちばけんのぎょうれつができるげきやすすーぱーでてっていちょうさ",
+    "baseForm": "まずは千葉県の行列ができる激安スーパーで",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "食べ盛り5人の子供がいる家庭は",
+    "reading": "たべざかりごにんのこどもがいるかていは",
+    "baseForm": "食べ盛り5人の子供がいる家庭は",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ご飯ですね大体 朝食はご飯派",
+    "reading": "ごはんですねだいたい ちょうしょくはごはんは",
+    "baseForm": "ご飯ね大体 朝食はご飯派",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "おかずの定番はハンバーグにミートボール",
+    "reading": "おかずのていばんははんばーぐにみーとぼーる",
+    "baseForm": "おかずの定番はハンバーグにミートボール",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "teineigo",
+    "originalText": "チキチキボーンやウインナーなど肉尽くしです",
+    "reading": "ちきちきぼーんやうぃんなーなどにくづくしです",
+    "baseForm": "チキチキボーンやウインナーなど肉尽くし",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "こちらはダンボール箱2つ分",
+    "reading": "こちらはだんぼーるばこふたつぶん",
+    "baseForm": "こちらはダンボール箱2つ分",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "大量に食材を購入した13歳と10歳の子供がいる女性",
+    "reading": "たいりょうにしょくざいをこうにゅうしたじゅうさんさいとじゅっさいのこどもがいるじ",
+    "baseForm": "大量に食材を購入した13歳と10歳の子供",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

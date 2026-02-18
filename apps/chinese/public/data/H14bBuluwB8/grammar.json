@@ -1,0 +1,221 @@
+{
+  "videoId": "H14bBuluwB8",
+  "patterns": [
+    {
+      "pattern": "A就是B（A jiù shì B）",
+      "explanation": "A is exactly B / A means B. '就是' emphasizes that A is definitively or precisely B. Used for strong definitions or equivalences.",
+      "explanationKo": "'A就是B' 는 'A가 바로 B이다'라는 뜻으로, '就是'는 강조와 확정을 나타냅니다. 어떤 것을 정의하거나 설명할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "毅力就是坚持自己的未来，日复一日。",
+          "pinyin": "Yìlì jiù shì jiānchí zìjǐ de wèilái, rì fù yī rì.",
+          "ko": "끈기란 바로 자신의 미래를 향해 하루하루 계속해 나가는 것입니다."
+        },
+        {
+          "zh": "毅力就是把生活当作马拉松，而不是短跑。",
+          "pinyin": "Yìlì jiù shì bǎ shēnghuó dàng zuò mǎlāsōng, ér bú shì duǎnpǎo.",
+          "ko": "끈기란 바로 삶을 단거리가 아닌 마라톤으로 사는 것입니다."
+        }
+      ],
+      "segmentIndex": 27
+    },
+    {
+      "pattern": "不只是……而是（bù zhǐ shì… ér shì）",
+      "explanation": "Not only… but (rather)… This pattern contrasts something that might be assumed with the actual broader reality. Similar to '不是…而是' but emphasizes 'not merely'.",
+      "explanationKo": "'不只是……而是'는 '단지 ~만이 아니라, ~이다'라는 의미로 대조와 확장을 나타냅니다. 예상되는 좁은 범위를 더 넓은 사실로 대체할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "不只是一周，不只是一个月，而是很多年。",
+          "pinyin": "Bù zhǐ shì yī zhōu, bù zhǐ shì yī gè yuè, ér shì hěn duō nián.",
+          "ko": "일주일만도 아니고, 한 달만도 아니고, 수년에 걸친 것입니다."
+        },
+        {
+          "zh": "不只是在西点军校，在学校里也很重要。",
+          "pinyin": "Bù zhǐ shì zài Xīdiǎn Jūnxiào, zài xuéxiào lǐ yě hěn zhòngyào.",
+          "ko": "단지 웨스트포인트에서만이 아니라, 학교에서도 중요합니다."
+        }
+      ],
+      "segmentIndex": 28
+    },
+    {
+      "pattern": "把A当作B（bǎ A dàng zuò B）",
+      "explanation": "To treat/regard A as B. The 把 construction moves the object before the verb. '当作' means 'to regard as' or 'to treat as'.",
+      "explanationKo": "'把A当作B'는 'A를 B로 여기다/취급하다'라는 뜻입니다. '把'는 목적어를 동사 앞으로 이동시키는 전치사이고, '当作'은 '~로 간주하다'라는 의미입니다.",
+      "examples": [
+        {
+          "zh": "毅力就是把生活当作马拉松，而不是短跑。",
+          "pinyin": "Yìlì jiù shì bǎ shēnghuó dàng zuò mǎlāsōng, ér bú shì duǎnpǎo.",
+          "ko": "끈기란 삶을 단거리가 아닌 마라톤으로 대하는 것입니다."
+        },
+        {
+          "zh": "我们不能把失败当作永久的状态。",
+          "pinyin": "Wǒmen bù néng bǎ shībài dàng zuò yǒngjiǔ de zhuàngtài.",
+          "ko": "우리는 실패를 영구적인 상태로 여겨서는 안 됩니다."
+        }
+      ],
+      "segmentIndex": 30
+    },
+    {
+      "pattern": "越A越B（yuè A yuè B）",
+      "explanation": "The more A, the more B. This pattern expresses a proportional or causal relationship between two qualities or actions.",
+      "explanationKo": "'越A越B'는 'A하면 할수록 B하다'라는 의미입니다. 두 가지 상태나 행동 사이의 비례 관계를 나타냅니다.",
+      "examples": [
+        {
+          "zh": "越有毅力的孩子越有可能毕业。",
+          "pinyin": "Yuè yǒu yìlì de háizi yuè yǒu kěnéng bìyè.",
+          "ko": "끈기가 강한 아이일수록 졸업할 가능성이 더 높습니다."
+        },
+        {
+          "zh": "他学习越努力，成绩越好。",
+          "pinyin": "Tā xuéxí yuè nǔlì, chéngjì yuè hǎo.",
+          "ko": "그가 더 열심히 공부할수록, 성적은 더 좋아집니다."
+        }
+      ],
+      "segmentIndex": 34
+    },
+    {
+      "pattern": "即使…也…（jíshǐ… yě…）",
+      "explanation": "Even if… still… This concessive conditional pattern means that regardless of the condition in the first clause, the result in the second clause remains true.",
+      "explanationKo": "'即使…也…'는 '설령 ~하더라도 여전히 ~하다'라는 의미의 양보 조건문입니다. 어떤 조건이 충족되더라도 결과가 변하지 않음을 나타냅니다.",
+      "examples": [
+        {
+          "zh": "即使我在各个方面都匹配了他们，有毅力的孩子也更有可能毕业。",
+          "pinyin": "Jíshǐ wǒ zài gège fāngmiàn dōu pǐpèi le tāmen, yǒu yìlì de háizi yě gèng yǒu kěnéng bìyè.",
+          "ko": "제가 모든 측면에서 맞췄더라도, 끈기 있는 아이들이 졸업할 가능성이 더 높습니다."
+        },
+        {
+          "zh": "即使失败了，也要重新开始。",
+          "pinyin": "Jíshǐ shībài le, yě yào chóngxīn kāishǐ.",
+          "ko": "설령 실패하더라도, 다시 시작해야 합니다."
+        }
+      ],
+      "segmentIndex": 35
+    },
+    {
+      "pattern": "尤其是（yóuqí shì）",
+      "explanation": "Especially; in particular; particularly. Used to single out a specific case from a more general statement, giving it special emphasis.",
+      "explanationKo": "'尤其是'는 '특히, 특별히'라는 의미로, 일반적인 진술에서 특정 경우를 강조하여 언급할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "毅力在学校里很重要，尤其是对于有辍学风险的孩子。",
+          "pinyin": "Yìlì zài xuéxiào lǐ hěn zhòngyào, yóuqí shì duìyú yǒu chuòxué fēngxiǎn de háizi.",
+          "ko": "끈기는 학교에서 매우 중요합니다, 특히 중퇴 위험이 있는 아이들에게는요."
+        },
+        {
+          "zh": "我喜欢运动，尤其是跑步。",
+          "pinyin": "Wǒ xǐhuān yùndòng, yóuqí shì pǎobù.",
+          "ko": "저는 운동을 좋아합니다, 특히 달리기를요."
+        }
+      ],
+      "segmentIndex": 41
+    },
+    {
+      "pattern": "对A来说（duì A lái shuō）",
+      "explanation": "For A; as far as A is concerned; from A's perspective. Used to introduce a viewpoint or judgment from a specific person's or group's standpoint.",
+      "explanationKo": "'对A来说'는 'A에게 있어서, A의 관점에서 보면'이라는 의미로, 특정 주체의 입장이나 관점을 도입할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "对我来说，关于毅力最令人震惊的是我们了解得多么少。",
+          "pinyin": "Duì wǒ lái shuō, guānyú yìlì zuì lìng rén zhènjīng de shì wǒmen liǎojiě de duōme shǎo.",
+          "ko": "저에게 있어서, 끈기에 관해 가장 충격적인 것은 우리가 얼마나 적게 알고 있는가입니다."
+        },
+        {
+          "zh": "对父母来说，孩子的教育最重要。",
+          "pinyin": "Duì fùmǔ lái shuō, háizi de jiàoyù zuì zhòngyào.",
+          "ko": "부모에게 있어서, 아이의 교육이 가장 중요합니다."
+        }
+      ],
+      "segmentIndex": 42
+    },
+    {
+      "pattern": "我所知道的是（wǒ suǒ zhīdào de shì）",
+      "explanation": "What I know is... The '所' + verb construction creates a nominalized clause meaning 'what one [verbs]'. This pattern is used to introduce a known fact after acknowledging uncertainty.",
+      "explanationKo": "'我所知道的是'는 '내가 아는 것은 ~이다'라는 의미입니다. '所+동사' 구조는 동사절을 명사화하며, 불확실성을 인정한 후 알고 있는 사실을 소개할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "我所知道的是，才能不能让你有毅力。",
+          "pinyin": "Wǒ suǒ zhīdào de shì, cáinéng bù néng ràng nǐ yǒu yìlì.",
+          "ko": "제가 아는 것은, 재능이 당신을 끈기 있게 만들어 주지 않는다는 것입니다."
+        },
+        {
+          "zh": "我所了解的是，努力比才能更重要。",
+          "pinyin": "Wǒ suǒ liǎojiě de shì, nǔlì bǐ cáinéng gèng zhòngyào.",
+          "ko": "내가 이해하는 것은, 노력이 재능보다 더 중요하다는 것입니다."
+        }
+      ],
+      "segmentIndex": 48
+    },
+    {
+      "pattern": "随着…而…（suí zhe… ér…）",
+      "explanation": "In accordance with / along with… changing accordingly. '随着' introduces the changing factor, and '而' introduces the resulting change. Used to express simultaneous or consequential changes.",
+      "explanationKo": "'随着…而…'는 '~에 따라서 ~하다'라는 의미로, 변화하는 요인('随着' 뒤)에 따라 그에 상응하는 결과('而' 뒤)가 함께 변함을 나타냅니다.",
+      "examples": [
+        {
+          "zh": "它会随着你的努力而改变。",
+          "pinyin": "Tā huì suí zhe nǐ de nǔlì ér gǎibiàn.",
+          "ko": "그것은 당신의 노력에 따라 변할 수 있습니다."
+        },
+        {
+          "zh": "我们的理解会随着研究的深入而增加。",
+          "pinyin": "Wǒmen de lǐjiě huì suí zhe yánjiū de shēnrù ér zēngjiā.",
+          "ko": "우리의 이해는 연구가 깊어짐에 따라 증가합니다."
+        }
+      ],
+      "segmentIndex": 57
+    },
+    {
+      "pattern": "因为……不相信……（yīnwèi… bù xiāngxìn…）",
+      "explanation": "Because… does not believe… The causal connector 因为 introduces the reason for a behavior or outcome. Combined with negation '不' and belief verb '相信', it explains how mindset drives action.",
+      "explanationKo": "'因为…不相信…'는 '~이기 때문에 ~를 믿지 않는다'는 구조입니다. '因为'는 이유를 도입하고, '不相信'은 믿음의 부재를 나타내어, 마음가짐이 행동에 어떤 영향을 미치는지를 설명합니다.",
+      "examples": [
+        {
+          "zh": "他们在失败时更有可能坚持下去，因为他们不相信失败是一种永久的状态。",
+          "pinyin": "Tāmen zài shībài shí gèng yǒu kěnéng jiānchí xiàqu, yīnwèi tāmen bù xiāngxìn shībài shì yī zhǒng yǒngjiǔ de zhuàngtài.",
+          "ko": "그들은 실패할 때 더욱 버틸 가능성이 높습니다. 왜냐하면 그들은 실패가 영구적인 상태라고 믿지 않기 때문입니다."
+        },
+        {
+          "zh": "他不放弃，因为他不相信这是不可能的。",
+          "pinyin": "Tā bù fàngqì, yīnwèi tā bù xiāngxìn zhè shì bù kěnéng de.",
+          "ko": "그는 포기하지 않습니다. 왜냐하면 이것이 불가능하다고 믿지 않기 때문입니다."
+        }
+      ],
+      "segmentIndex": 61
+    },
+    {
+      "pattern": "换句话说（huàn jù huà shuō）",
+      "explanation": "In other words; to put it differently; that is to say. This discourse marker is used to restate or summarize a previous point in simpler or more direct terms.",
+      "explanationKo": "'换句话说'는 '다시 말해서, 바꿔 말하자면'이라는 담화 표지어입니다. 앞서 말한 내용을 더 간단하거나 직접적인 표현으로 바꿔 요약할 때 사용합니다.",
+      "examples": [
+        {
+          "zh": "换句话说，我们需要用毅力来让孩子更有毅力。",
+          "pinyin": "Huàn jù huà shuō, wǒmen xūyào yòng yìlì lái ràng háizi gèng yǒu yìlì.",
+          "ko": "다시 말해서, 우리는 끈기를 발휘하여 아이들을 더 끈기 있게 만들어야 합니다."
+        },
+        {
+          "zh": "他没有回来。换句话说，他放弃了。",
+          "pinyin": "Tā méiyǒu huí lái. Huàn jù huà shuō, tā fàngqì le.",
+          "ko": "그는 돌아오지 않았습니다. 다시 말해서, 그는 포기했습니다."
+        }
+      ],
+      "segmentIndex": 69
+    },
+    {
+      "pattern": "需要A来B（xūyào A lái B）",
+      "explanation": "Need A (in order) to B. The word '来' here functions as 'in order to' or 'so as to', connecting the means (A) with the purpose (B).",
+      "explanationKo": "'需要A来B'는 'B하기 위해 A가 필요하다'는 의미입니다. '来'는 여기서 목적을 나타내는 '~하기 위해'라는 의미로, 수단(A)과 목적(B)을 연결합니다.",
+      "examples": [
+        {
+          "zh": "我们需要用毅力来让孩子更有毅力。",
+          "pinyin": "Wǒmen xūyào yòng yìlì lái ràng háizi gèng yǒu yìlì.",
+          "ko": "우리는 아이들을 더 끈기 있게 만들기 위해 끈기를 사용해야 합니다."
+        },
+        {
+          "zh": "我们需要更多数据来验证这个想法。",
+          "pinyin": "Wǒmen xūyào gèng duō shùjù lái yànzhèng zhège xiǎngfǎ.",
+          "ko": "이 아이디어를 검증하기 위해 더 많은 데이터가 필요합니다."
+        }
+      ],
+      "segmentIndex": 69
+    }
+  ]
+}

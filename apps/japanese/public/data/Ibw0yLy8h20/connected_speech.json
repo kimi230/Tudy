@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "翻訳 拍手",
+    "reading": "",
+    "baseForm": "翻訳 拍手",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "本日は 古神道の本質について お伝えしたいと思っております",
+    "reading": "",
+    "baseForm": "本日は 古神道の本質について お伝えした",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "特に 包み込むという考え方についてです",
+    "reading": "",
+    "baseForm": "特に 包み込むという考え方について",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "まず 自己紹介させていただきます",
+    "reading": "",
+    "baseForm": "まず 自己紹介させていただき",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "kenjougo",
+    "originalText": "よく私 自己紹介いたしますと",
+    "reading": "",
+    "baseForm": "よく私 自己紹介いたしと",
+    "politeLevel": "겸양어",
+    "explanationKo": "화자를 낮춰 상대를 높이는 겸양어 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ご職業何ですかと聞かれます",
+    "reading": "",
+    "baseForm": "ご職業何かと聞かれ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "casual",
+    "originalText": "名称を渡ししても だいたい無言でシーンと",
+    "reading": "",
+    "baseForm": "名称を渡ししても だいたい無言でシーンと",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ひどい方はそのまま 後ろにスーッと下がっていかれます",
+    "reading": "",
+    "baseForm": "ひどい方はそのまま 後ろにスーッと下がっ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "あ どっかいかれましたね って話です それで 名称を見ていただきますと",
+    "reading": "",
+    "baseForm": "あ どっかいかれましたね って話 それで",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "teineigo",
+    "originalText": "古道 古神道 御明道といった形で 書かれてはいるんですけど",
+    "reading": "",
+    "baseForm": "古道 古神道 御明道といった形で 書かれ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "teineigo",
+    "originalText": "言葉として読みますが 意味がわからないと",
+    "reading": "",
+    "baseForm": "言葉として読みが 意味がわからないと",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "それで私 一言 観主ですと",
+    "reading": "",
+    "baseForm": "それで私 一言 観主と",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "teineigo",
+    "originalText": "あるいは祭司ですとお伝えすると 皆さん ああ あの 言葉じゃないですけど 一言い",
+    "reading": "",
+    "baseForm": "あるいは祭司とお伝えすると 皆さん ああ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "この瞬間がとてもちょっと面白い",
+    "reading": "",
+    "baseForm": "この瞬間がとてもちょっと面白い",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "teineigo",
+    "originalText": "私は自己紹介の趣味といいますか 楽しんでおります",
+    "reading": "",
+    "baseForm": "私は自己紹介の趣味といいか 楽しんでおり",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "この世界に入りましたのは もうはや30年超えておりまして",
+    "reading": "",
+    "baseForm": "この世界に入りましたのは もうはや30年",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

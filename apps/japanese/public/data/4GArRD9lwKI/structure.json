@@ -1,0 +1,67 @@
+{
+  "videoId": "4GArRD9lwKI",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 28,
+      "summary": "'横須賀目線'로 시작해 '自虐戦略でそれを押し返していこうというところで'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "んですね",
+        "います",
+        "横須賀目線"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 28,
+      "endSegment": 85,
+      "summary": "'自虐戦略でそれを押し返していこうというところで'로 시작해 'これライブ配信を伊佐さんのチャンネルでやってるん'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "こちらです",
+        "こうというところで",
+        "けど"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 85,
+      "endSegment": 152,
+      "summary": "'これライブ配信を伊佐さんのチャンネルでやってるん'로 시작해 '自民党なんですよね これ2009年の政権交代の時'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    },
+    {
+      "section": "정리",
+      "startSegment": 152,
+      "endSegment": 189,
+      "summary": "'自民党なんですよね これ2009年の政権交代の時'로 시작해 '関西情報ネット10をよろしくお願いします'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "きたい まずはこのスタンスを変えて",
+      "type": "enumeration",
+      "segmentIndex": 180,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "そしてこの元立憲の幹事長を務めました",
+      "type": "transition",
+      "segmentIndex": 8,
+      "role": "연속 전개를 이어갑니다."
+    },
+    {
+      "expression": "つまり立憲としては",
+      "type": "summary",
+      "segmentIndex": 107,
+      "role": "핵심 요지를 재정리합니다."
+    },
+    {
+      "expression": "横須賀目線",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    }
+  ]
+}

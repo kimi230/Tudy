@@ -1,0 +1,222 @@
+[
+  {
+    "word": "こちらです",
+    "reading": "こちらです にいがたけんのろくじゅうだい",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'こちらです'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 51,
+    "contextSentence": "こちらです 新潟県の60代の米農家さんに取材しました"
+  },
+  {
+    "word": "んですね",
+    "reading": "やっぱりちゅうどうをかいたいしてりっけん",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'んですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって分かりやすい選択肢ではないのかという声も聞こえてくるんですね"
+  },
+  {
+    "word": "います",
+    "reading": "このしんだいひょうらをかげでなんとかささ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'います'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "この新代表らを陰で何とか支えるという構図になっていくと思います"
+  },
+  {
+    "word": "横須賀目線",
+    "reading": "よこすかめせん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'横須賀目線'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "横須賀目線"
+  },
+  {
+    "word": "主と公明分かれて別",
+    "reading": "やっぱりちゅうどうをかいたいしてりっけん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'主と公明分かれて別'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって分かりやすい選択肢ではないのかという声も聞こえてくるんですね"
+  },
+  {
+    "word": "めました",
+    "reading": "そしてこのもとりっけんのかんじちょうをつ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'めました'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 8,
+    "contextSentence": "そしてこの元立憲の幹事長を務めました"
+  },
+  {
+    "word": "やってましたよね",
+    "reading": "のださんがだいひょうのときのかんじちょう",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'やってましたよね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "野田さんが代表の時の幹事長をやってましたよね"
+  },
+  {
+    "word": "いうことになりました",
+    "reading": "おがわじゅんやさんがちゅうどうのしんだい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'いうことになりました'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 10,
+    "contextSentence": "小川淳也さんが中道の新代表ということになりました"
+  },
+  {
+    "word": "ところで",
+    "reading": "ここもすごくあぴーるしているところで",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ところで'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 14,
+    "contextSentence": "ここもすごくアピールしているところで"
+  },
+  {
+    "word": "している",
+    "reading": "わたしじしんのなかにいきづくしょみんせい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'している'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 16,
+    "contextSentence": "私自身の中に息づく庶民性がありますよというところも押し出している"
+  },
+  {
+    "word": "香川選出なんですけど",
+    "reading": "ここにとくちょうがありますよね こくみん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'香川選出なんですけど'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 18,
+    "contextSentence": "ここに特徴がありますよね 国民民主党の玉木雄一郎さんも香川選出なんですけど"
+  },
+  {
+    "word": "人ですよね",
+    "reading": "そのらいばるとずっといわれてきたふたりで",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'人ですよね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "そのライバルとずっと言われてきた2人ですよね"
+  },
+  {
+    "word": "きた",
+    "reading": "そのらいばるとずっといわれてきたふたりで",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'きた'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "そのライバルとずっと言われてきた2人ですよね"
+  },
+  {
+    "word": "すが",
+    "reading": "どっちがさきにそうりになるんだみたいなこ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'すが'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 20,
+    "contextSentence": "どっちが先に総理になるんだみたいなことも言われていたんですが"
+  },
+  {
+    "word": "すね",
+    "reading": "ちょっときになるこめんとがですね ぎいん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'すね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 22,
+    "contextSentence": "ちょっと気になるコメントがですね 議員総会の中でありました"
+  },
+  {
+    "word": "というところで",
+    "reading": "どうどうとまんなかのみちはあゆんでいきた",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'というところで'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 24,
+    "contextSentence": "堂々と真ん中の道は歩んでいきたいというところで"
+  },
+  {
+    "word": "そうですね",
+    "reading": "これせんきょせんでもありましたね そうで",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'そうですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 26,
+    "contextSentence": "これ選挙戦でもありましたね そうですね"
+  },
+  {
+    "word": "ということで",
+    "reading": "どうしてもちゅうどうはねがてぃぶなこめん",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ということで'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 27,
+    "contextSentence": "どうしても中道はネガティブなコメントがたくさん寄せられるということで"
+  },
+  {
+    "word": "こうというところで",
+    "reading": "じぎゃくせんりゃくでそれをおしかえしてい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'こうというところで'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 28,
+    "contextSentence": "自虐戦略でそれを押し返していこうというところで"
+  },
+  {
+    "word": "けど",
+    "reading": "このせんきょのたいはいがあったんですけど",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'けど'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 29,
+    "contextSentence": "この選挙の大敗があったんですけど やっぱり新代表を選ばれても"
+  }
+]

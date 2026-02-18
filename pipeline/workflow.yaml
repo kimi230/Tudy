@@ -19,13 +19,17 @@ input:
   required:
     url:
       type: string
-      pattern: "^https?://(www\\.)?(youtube\\.com/watch\\?v=|youtu\\.be/)[a-zA-Z0-9_-]{11}"
-      description: "YouTube 영상 URL"
+      description: "YouTube/bilibili 영상 URL"
     category:
       type: enum
       values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation]
       description: "학습 카테고리"
   optional:
+    language:
+      type: enum
+      values: [en, zh, ja]
+      default: en
+      description: "대상 언어 (en=영어, zh=중국어, ja=일본어)"
     difficulty:
       type: enum
       values: [beginner, elementary, intermediate, upper-intermediate, advanced]
@@ -38,15 +42,15 @@ input:
 # 출력
 # ==============================================================================
 output:
-  directory: "app/public/data/{videoId}/"
+  directory: "apps/{language_app}/public/data/{videoId}/"
   files:
     - meta.json
     - segments.json
     - vocabulary.json
     - grammar.json
-    - connected_speech.json
+    - connected_speech.json  # EN: 연음, ZH: tones.json, JA: keigo.json
     - structure.json
-  index: "app/public/data/videos.json"
+  index: "apps/{language_app}/public/data/videos.json"
 
 # ==============================================================================
 # Phase 1: 도구 (기계적 처리)
@@ -58,6 +62,7 @@ phase_1:
     python3 pipeline/process_video.py
     --url "{url}"
     --category "{category}"
+    --language "{language}"
     --mechanical-only
   steps:
     - extract_metadata   # yt-dlp로 메타데이터 추출
@@ -252,6 +257,7 @@ phase_3:
     --finalize
     --category "{category}"
     --difficulty "{difficulty}"
+    --language "{language}"
   actions:
     - "segments.json 등 분석 파일에서 통계 계산"
     - "meta.json 생성"

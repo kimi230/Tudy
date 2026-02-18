@@ -1,0 +1,60 @@
+{
+  "videoId": "R62xGeOhg5A",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 9,
+      "summary": "'1日で最も忙しい時間帯それが朝'로 시작해 'まずは千葉県の行列ができる激安スーパーで徹底調査'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "個料理作ったりとか",
+        "一気に",
+        "例えばまあ戦ですね"
+      ]
+    },
+    {
+      "section": "핵심 전개",
+      "startSegment": 9,
+      "endSegment": 33,
+      "summary": "'まずは千葉県の行列ができる激安スーパーで徹底調査'로 시작해 'フライパンで魚を焼いているんだそうです'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "安スーパーで徹底調査",
+        "人の子供がいる家庭は",
+        "食べ盛り"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 33,
+      "endSegment": 44,
+      "summary": "'フライパンで魚を焼いているんだそうです'로 시작해 'ソレスタハンの調査によると 朝食を食べると回答し'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "まずは千葉県の行列ができる激安スーパ",
+      "type": "enumeration",
+      "segmentIndex": 9,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "1日で最も忙しい時間帯それが朝",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "大量に食材を購入した13歳と10歳の",
+      "type": "transition",
+      "segmentIndex": 15,
+      "role": "중간 전개 전환"
+    },
+    {
+      "expression": "この焼き魚の調理法にこだわりが",
+      "type": "emphasis",
+      "segmentIndex": 30,
+      "role": "핵심 강조"
+    }
+  ]
+}

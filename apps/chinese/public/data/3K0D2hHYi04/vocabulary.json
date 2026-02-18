@@ -1,0 +1,396 @@
+[
+  {
+    "word": "周末",
+    "pinyin": "zhōumò",
+    "tones": [1, 4],
+    "partOfSpeech": "noun",
+    "definition": "weekend",
+    "koreanMeaning": "주말",
+    "hskLevel": 2,
+    "measureWord": "个",
+    "components": [
+      {"char": "周", "meaning": "week/cycle", "pinyin": "zhōu"},
+      {"char": "末", "meaning": "end", "pinyin": "mò"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "我感觉我的周末好像被偷走了"
+  },
+  {
+    "word": "精神",
+    "pinyin": "jīngshén",
+    "tones": [1, 2],
+    "partOfSpeech": "noun/adjective",
+    "definition": "spirit; energy; vigorous",
+    "koreanMeaning": "정신; 기운, 활기",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "精", "meaning": "essence/fine", "pinyin": "jīng"},
+      {"char": "神", "meaning": "spirit/god", "pinyin": "shén"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "今天看起来没什么精神"
+  },
+  {
+    "word": "计划",
+    "pinyin": "jìhuà",
+    "tones": [4, 4],
+    "partOfSpeech": "noun/verb",
+    "definition": "plan; to plan",
+    "koreanMeaning": "계획; 계획하다",
+    "hskLevel": 3,
+    "measureWord": "个",
+    "components": [
+      {"char": "计", "meaning": "to calculate/count", "pinyin": "jì"},
+      {"char": "划", "meaning": "to plan/draw", "pinyin": "huà"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "我本来计划得很好"
+  },
+  {
+    "word": "电视剧",
+    "pinyin": "diànshìjù",
+    "tones": [4, 4, 4],
+    "partOfSpeech": "noun",
+    "definition": "TV drama/TV series",
+    "koreanMeaning": "드라마, TV 연속극",
+    "hskLevel": 3,
+    "measureWord": "部",
+    "components": [
+      {"char": "电", "meaning": "electric", "pinyin": "diàn"},
+      {"char": "视", "meaning": "to watch/view", "pinyin": "shì"},
+      {"char": "剧", "meaning": "drama/play", "pinyin": "jù"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 15,
+    "contextSentence": "后来我朋友给我推荐了一个新的电视剧"
+  },
+  {
+    "word": "推荐",
+    "pinyin": "tuījiàn",
+    "tones": [1, 4],
+    "partOfSpeech": "verb",
+    "definition": "to recommend",
+    "koreanMeaning": "추천하다",
+    "hskLevel": 4,
+    "measureWord": null,
+    "components": [
+      {"char": "推", "meaning": "to push", "pinyin": "tuī"},
+      {"char": "荐", "meaning": "to recommend", "pinyin": "jiàn"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 15,
+    "contextSentence": "后来我朋友给我推荐了一个新的电视剧"
+  },
+  {
+    "word": "爬山",
+    "pinyin": "pá shān",
+    "tones": [2, 1],
+    "partOfSpeech": "verb",
+    "definition": "to climb a mountain; hiking",
+    "koreanMeaning": "등산하다",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "爬", "meaning": "to climb/crawl", "pinyin": "pá"},
+      {"char": "山", "meaning": "mountain", "pinyin": "shān"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 43,
+    "contextSentence": "去爬山了吗"
+  },
+  {
+    "word": "风景",
+    "pinyin": "fēngjǐng",
+    "tones": [1, 3],
+    "partOfSpeech": "noun",
+    "definition": "scenery; landscape",
+    "koreanMeaning": "풍경, 경치",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "风", "meaning": "wind", "pinyin": "fēng"},
+      {"char": "景", "meaning": "scenery/view", "pinyin": "jǐng"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 46,
+    "contextSentence": "风景也很美"
+  },
+  {
+    "word": "咖啡馆",
+    "pinyin": "kāfēiguǎn",
+    "tones": [1, 1, 3],
+    "partOfSpeech": "noun",
+    "definition": "coffee shop; café",
+    "koreanMeaning": "카페",
+    "hskLevel": 3,
+    "measureWord": "家",
+    "components": [
+      {"char": "咖啡", "meaning": "coffee", "pinyin": "kāfēi"},
+      {"char": "馆", "meaning": "hall/establishment", "pinyin": "guǎn"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 49,
+    "contextSentence": "然后去了一个新的咖啡馆"
+  },
+  {
+    "word": "麻婆豆腐",
+    "pinyin": "mápó dòufu",
+    "tones": [2, 2, 4, 0],
+    "partOfSpeech": "noun",
+    "definition": "mapo tofu (Sichuan dish)",
+    "koreanMeaning": "마파두부 (쓰촨 요리)",
+    "hskLevel": 4,
+    "measureWord": "份",
+    "components": [
+      {"char": "麻", "meaning": "numb/sesame", "pinyin": "má"},
+      {"char": "婆", "meaning": "old woman", "pinyin": "pó"},
+      {"char": "豆腐", "meaning": "tofu", "pinyin": "dòufu"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 59,
+    "contextSentence": "是四川的麻婆豆腐"
+  },
+  {
+    "word": "充电",
+    "pinyin": "chōngdiàn",
+    "tones": [1, 4],
+    "partOfSpeech": "verb/noun",
+    "definition": "to charge (battery); to recharge oneself",
+    "koreanMeaning": "충전하다; 재충전하다",
+    "hskLevel": 4,
+    "measureWord": null,
+    "components": [
+      {"char": "充", "meaning": "to fill/charge", "pinyin": "chōng"},
+      {"char": "电", "meaning": "electricity", "pinyin": "diàn"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 35,
+    "contextSentence": "你是怎么充电的"
+  },
+  {
+    "word": "放松",
+    "pinyin": "fàngsōng",
+    "tones": [4, 1],
+    "partOfSpeech": "verb/adjective",
+    "definition": "to relax; relaxed",
+    "koreanMeaning": "긴장을 풀다; 편안하다",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "放", "meaning": "to release/put", "pinyin": "fàng"},
+      {"char": "松", "meaning": "loose/pine tree", "pinyin": "sōng"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 13,
+    "contextSentence": "非常放松"
+  },
+  {
+    "word": "宅女",
+    "pinyin": "zháinǚ",
+    "tones": [2, 3],
+    "partOfSpeech": "noun",
+    "definition": "homebody (female); a girl who prefers staying home",
+    "koreanMeaning": "집순이",
+    "hskLevel": 5,
+    "measureWord": "个",
+    "components": [
+      {"char": "宅", "meaning": "house/home", "pinyin": "zhái"},
+      {"char": "女", "meaning": "woman/female", "pinyin": "nǚ"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 122,
+    "contextSentence": "我就是一个典型的宅女"
+  },
+  {
+    "word": "安排",
+    "pinyin": "ānpái",
+    "tones": [1, 2],
+    "partOfSpeech": "verb/noun",
+    "definition": "to arrange; arrangement",
+    "koreanMeaning": "배치하다, 계획하다; 배치",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "安", "meaning": "peace/safe", "pinyin": "ān"},
+      {"char": "排", "meaning": "to arrange/row", "pinyin": "pái"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "我喜欢把时间安排好"
+  },
+  {
+    "word": "陶艺",
+    "pinyin": "táoyì",
+    "tones": [2, 4],
+    "partOfSpeech": "noun",
+    "definition": "pottery; ceramic art",
+    "koreanMeaning": "도예, 도자기 공예",
+    "hskLevel": 5,
+    "measureWord": null,
+    "components": [
+      {"char": "陶", "meaning": "pottery/clay", "pinyin": "táo"},
+      {"char": "艺", "meaning": "art/skill", "pinyin": "yì"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 95,
+    "contextSentence": "下个星期六我要去参加一个陶艺体验课"
+  },
+  {
+    "word": "博物馆",
+    "pinyin": "bówùguǎn",
+    "tones": [2, 4, 3],
+    "partOfSpeech": "noun",
+    "definition": "museum",
+    "koreanMeaning": "박물관",
+    "hskLevel": 3,
+    "measureWord": "家/座",
+    "components": [
+      {"char": "博", "meaning": "broad/extensive", "pinyin": "bó"},
+      {"char": "物", "meaning": "thing/object", "pinyin": "wù"},
+      {"char": "馆", "meaning": "hall/building", "pinyin": "guǎn"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 103,
+    "contextSentence": "我打算去市中心的博物馆"
+  },
+  {
+    "word": "治愈",
+    "pinyin": "zhìyù",
+    "tones": [4, 4],
+    "partOfSpeech": "verb/adjective",
+    "definition": "to heal; healing; therapeutic",
+    "koreanMeaning": "치유하다; 힐링되는",
+    "hskLevel": 5,
+    "measureWord": null,
+    "components": [
+      {"char": "治", "meaning": "to cure/govern", "pinyin": "zhì"},
+      {"char": "愈", "meaning": "to heal/recover", "pinyin": "yù"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 100,
+    "contextSentence": "这个过程一定很治愈"
+  },
+  {
+    "word": "比喻",
+    "pinyin": "bǐyù",
+    "tones": [3, 4],
+    "partOfSpeech": "noun/verb",
+    "definition": "metaphor; to make a comparison",
+    "koreanMeaning": "비유; 비유하다",
+    "hskLevel": 4,
+    "measureWord": "个",
+    "components": [
+      {"char": "比", "meaning": "to compare", "pinyin": "bǐ"},
+      {"char": "喻", "meaning": "metaphor/analogy", "pinyin": "yù"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 113,
+    "contextSentence": "这个比喻太好了"
+  },
+  {
+    "word": "外卖",
+    "pinyin": "wàimài",
+    "tones": [4, 4],
+    "partOfSpeech": "noun",
+    "definition": "takeout food; food delivery",
+    "koreanMeaning": "배달 음식",
+    "hskLevel": 4,
+    "measureWord": "份",
+    "components": [
+      {"char": "外", "meaning": "outside", "pinyin": "wài"},
+      {"char": "卖", "meaning": "to sell", "pinyin": "mài"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 121,
+    "contextSentence": "一部好看的电影 还有好吃的外卖"
+  },
+  {
+    "word": "窍门",
+    "pinyin": "qiàomén",
+    "tones": [4, 2],
+    "partOfSpeech": "noun",
+    "definition": "knack; trick; tip",
+    "koreanMeaning": "요령, 비결",
+    "hskLevel": 5,
+    "measureWord": "个",
+    "components": [
+      {"char": "窍", "meaning": "opening/orifice", "pinyin": "qiào"},
+      {"char": "门", "meaning": "door/gate", "pinyin": "mén"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 185,
+    "contextSentence": "找到一些小窍门 就能解决大问题"
+  },
+  {
+    "word": "饺子",
+    "pinyin": "jiǎozi",
+    "tones": [3, 0],
+    "partOfSpeech": "noun",
+    "definition": "dumplings",
+    "koreanMeaning": "만두 (교자)",
+    "hskLevel": 3,
+    "measureWord": "个/盘",
+    "components": [
+      {"char": "饺", "meaning": "dumpling", "pinyin": "jiǎo"},
+      {"char": "子", "meaning": "suffix", "pinyin": "zi"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 202,
+    "contextSentence": "听说到不错 饺子"
+  },
+  {
+    "word": "打算",
+    "pinyin": "dǎsuàn",
+    "tones": [3, 4],
+    "partOfSpeech": "verb/noun",
+    "definition": "to plan; plan/intention",
+    "koreanMeaning": "~할 생각이다; 계획",
+    "hskLevel": 2,
+    "measureWord": null,
+    "components": [
+      {"char": "打", "meaning": "to hit/strike", "pinyin": "dǎ"},
+      {"char": "算", "meaning": "to calculate", "pinyin": "suàn"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 77,
+    "contextSentence": "那你有什么打算吗"
+  },
+  {
+    "word": "羽毛球",
+    "pinyin": "yǔmáoqiú",
+    "tones": [3, 2, 2],
+    "partOfSpeech": "noun",
+    "definition": "badminton",
+    "koreanMeaning": "배드민턴",
+    "hskLevel": 3,
+    "measureWord": null,
+    "components": [
+      {"char": "羽毛", "meaning": "feather", "pinyin": "yǔmáo"},
+      {"char": "球", "meaning": "ball", "pinyin": "qiú"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 144,
+    "contextSentence": "我约了朋友一起打羽毛球"
+  },
+  {
+    "word": "播客",
+    "pinyin": "bōkè",
+    "tones": [1, 4],
+    "partOfSpeech": "noun",
+    "definition": "podcast",
+    "koreanMeaning": "팟캐스트",
+    "hskLevel": 5,
+    "measureWord": "个",
+    "components": [
+      {"char": "播", "meaning": "to broadcast", "pinyin": "bō"},
+      {"char": "客", "meaning": "guest/visitor", "pinyin": "kè"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 221,
+    "contextSentence": "希望正在听我们播客的朋友们"
+  }
+]

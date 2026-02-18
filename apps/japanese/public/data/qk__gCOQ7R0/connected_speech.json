@@ -1,0 +1,142 @@
+[
+  {
+    "type": "sonkeigo",
+    "originalText": "ご覧になります",
+    "reading": "ごらんになります",
+    "baseForm": "見ます",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'見ます(봅니다)'의 존경어 표현. 상대방이 무언가를 볼 때 사용합니다.",
+    "usageContext": "윗사람이 무언가를 보거나 시청할 때",
+    "segmentIndex": 6
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "おっしゃいます",
+    "reading": "おっしゃいます",
+    "baseForm": "言います",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'言います(말합니다)'의 존경어 표현. 윗사람이 말씀하실 때 사용합니다.",
+    "usageContext": "윗사람이 무언가를 말씀하실 때",
+    "segmentIndex": 7
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "召し上がります",
+    "reading": "めしあがります",
+    "baseForm": "食べます / 飲みます",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'食べます(먹습니다)/飲みます(마십니다)'의 존경어 표현. 윗사람이 드실 때 사용합니다.",
+    "usageContext": "윗사람이 음식을 드시거나 음료를 마실 때",
+    "segmentIndex": 9
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "ご存知ですか",
+    "reading": "ごぞんじですか",
+    "baseForm": "知っていますか",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'知っていますか(알고 있습니까)'의 존경어 표현. 윗사람에게 아시는지 여쭤볼 때 사용합니다.",
+    "usageContext": "윗사람에게 무언가를 아시는지 물을 때",
+    "segmentIndex": 13
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "なさっています",
+    "reading": "なさっています",
+    "baseForm": "しています",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'しています(하고 있습니다)'의 존경어 표현. 윗사람이 무언가를 하고 계실 때 사용합니다.",
+    "usageContext": "윗사람이 무언가를 하고 계실 때",
+    "segmentIndex": 14
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "いらっしゃいます",
+    "reading": "いらっしゃいます",
+    "baseForm": "います / 行きます / 来ます",
+    "politeLevel": "尊敬語",
+    "explanationKo": "'います(있습니다)/行きます(갑니다)/来ます(옵니다)'의 존경어 표현. 윗사람의 존재/이동을 나타낼 때 사용합니다.",
+    "usageContext": "윗사람이 어딘가에 계시거나, 가시거나, 오실 때",
+    "segmentIndex": 16
+  },
+  {
+    "type": "sonkeigo-passive",
+    "originalText": "帰られましたか",
+    "reading": "かえられましたか",
+    "baseForm": "帰りましたか",
+    "politeLevel": "尊敬語（受け身形）",
+    "explanationKo": "'帰りましたか(돌아갔습니까)'의 수동형 존경어 표현. 특별한 존경어 동사가 없을 때 수동형으로 존경을 나타냅니다.",
+    "usageContext": "윗사람이 돌아가셨는지 물을 때. 수동형을 존경어로 사용하는 패턴.",
+    "segmentIndex": 32
+  },
+  {
+    "type": "sonkeigo-passive",
+    "originalText": "思われますか",
+    "reading": "おもわれますか",
+    "baseForm": "思いますか",
+    "politeLevel": "尊敬語（受け身形）",
+    "explanationKo": "'思いますか(생각합니까)'의 수동형 존경어 표현. 의견을 공손하게 물을 때 사용합니다.",
+    "usageContext": "윗사람에게 의견이나 생각을 공손하게 물을 때",
+    "segmentIndex": 34
+  },
+  {
+    "type": "sonkeigo-pattern",
+    "originalText": "お決まりになりましたか",
+    "reading": "おきまりになりましたか",
+    "baseForm": "決まりましたか",
+    "politeLevel": "尊敬語（お〜になる）",
+    "explanationKo": "'決まりましたか(정했습니까)'의 お〜になる 패턴 존경어. 레스토랑 등에서 주문을 정하셨는지 물을 때 사용합니다.",
+    "usageContext": "레스토랑에서 손님에게 주문을 여쭤볼 때",
+    "segmentIndex": 41
+  },
+  {
+    "type": "sonkeigo-pattern",
+    "originalText": "お座りください / おかけください",
+    "reading": "おすわりください / おかけください",
+    "baseForm": "座ってください",
+    "politeLevel": "尊敬語（お〜ください）",
+    "explanationKo": "'座ってください(앉아 주세요)'의 공손한 존경어 표현. おかけください가 더 격식 있는 표현입니다.",
+    "usageContext": "손님이나 윗사람에게 앉으시라고 권할 때",
+    "segmentIndex": 48
+  },
+  {
+    "type": "sonkeigo-pattern",
+    "originalText": "お入りください",
+    "reading": "おはいりください",
+    "baseForm": "入ってください",
+    "politeLevel": "尊敬語（お〜ください）",
+    "explanationKo": "'入ってください(들어와 주세요)'의 공손한 존경어 표현.",
+    "usageContext": "손님이나 윗사람에게 들어오시라고 권할 때",
+    "segmentIndex": 51
+  },
+  {
+    "type": "sonkeigo-pattern",
+    "originalText": "ご検討ください",
+    "reading": "ごけんとうください",
+    "baseForm": "検討してください",
+    "politeLevel": "尊敬語（ご〜ください）",
+    "explanationKo": "'検討してください(검토해 주세요)'의 공손한 존경어 표현. 한자어 동사에 ご를 붙이는 패턴입니다.",
+    "usageContext": "비즈니스에서 상대방에게 검토를 부탁할 때",
+    "segmentIndex": 65
+  },
+  {
+    "type": "sonkeigo-pattern",
+    "originalText": "お持ちですか",
+    "reading": "おもちですか",
+    "baseForm": "持っていますか",
+    "politeLevel": "尊敬語（お〜ですか）",
+    "explanationKo": "'持っていますか(가지고 있습니까)'의 공손한 존경어 표현. 상대방의 소유 여부를 공손하게 물을 때 사용합니다.",
+    "usageContext": "윗사람에게 무언가를 가지고 계시는지 물을 때",
+    "segmentIndex": 77
+  },
+  {
+    "type": "teinei",
+    "originalText": "かしこまりました",
+    "reading": "かしこまりました",
+    "baseForm": "わかりました",
+    "politeLevel": "丁寧語（最上級）",
+    "explanationKo": "'わかりました(알겠습니다)'의 가장 공손한 표현. 서비스업에서 고객에게 자주 사용합니다.",
+    "usageContext": "고객의 요청을 받아들일 때. 서비스업 필수 표현.",
+    "segmentIndex": 45
+  }
+]

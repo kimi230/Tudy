@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "横須賀目線",
+    "reading": "よこすかめせん",
+    "baseForm": "横須賀目線",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "皆さんと議論していきたいと思うんですが、そのポスターなどがこちらですね。",
+    "reading": "みなさんとぎろんしていきたいとおもうんですが、そのぽすたーなどがこちらですね。",
+    "baseForm": "皆さんと議論していきたいと思うんが、その",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "casual",
+    "originalText": "ポスターって本当にとにかく目に飛び込んできて",
+    "reading": "ぽすたーってほんとうにとにかくめにとびこんできて",
+    "baseForm": "ポスターって本当にとにかく目に飛び込んで",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "印象に残らなきゃいけないんですけど",
+    "reading": "いんしょうにのこらなきゃいけないんですけど",
+    "baseForm": "印象に残らなきゃいけないんけど",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "皆さん工夫されてますよね、それぞれね。",
+    "reading": "みなさんくふうされてますよね、それぞれね。",
+    "baseForm": "皆さん工夫されてよね、それぞれね。",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "casual",
+    "originalText": "どれが有権者の皆さんのハートに刺さるのか",
+    "reading": "どれがゆうけんしゃのみなさんのはーとにささるのか",
+    "baseForm": "どれが有権者の皆さんのハートに刺さるのか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "teineigo",
+    "originalText": "紹介したいと思います。自民党「日本列島を強く豊かに」というキャッチコピーです。",
+    "reading": "しょうかいしたいとおもいます。じみんとう「にほんれっとうをつよくゆたかに」という",
+    "baseForm": "紹介したいと思い。自民党「日本列島を強く",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "casual",
+    "originalText": "維新は「動かすぞ、維新が」",
+    "reading": "いしんは「うごかすぞ、いしんが」",
+    "baseForm": "維新は「動かすぞ、維新が」",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "casual",
+    "originalText": "それから中道改革連合は「生活者ファースト」",
+    "reading": "それからちゅうどうかいかくれんごうは「せいかつしゃふぁーすと」",
+    "baseForm": "それから中道改革連合は「生活者ファースト",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "そして国民民主党は「もっと手取りを増やす」",
+    "reading": "そしてこくみんみんしゅとうは「もっててどりをふやす」",
+    "baseForm": "そして国民民主党は「もっと手取りを増やす",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "賛成党は先ほど会見を行いまして発表されました。",
+    "reading": "さんせいとうはさきほどかいけんをおこないまして はっぴょうされました。",
+    "baseForm": "賛成党は先ほど会見を行いまして発表されま",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "casual",
+    "originalText": "キャッチコピーは「一人一人が日本」",
+    "reading": "きゃっちこぴーは「ひとりひとりがにほん」",
+    "baseForm": "キャッチコピーは「一人一人が日本」",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "teineigo",
+    "originalText": "そうですね。そして令和新選組です。",
+    "reading": "そうですね。そしてれいわしんせんぐみです。",
+    "baseForm": "そうね。そして令和新選組。",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "「日本を守ることはあなたを守ることから始まる」",
+    "reading": "「にほんをまもることはあなたをまもることからはじまる」",
+    "baseForm": "「日本を守ることはあなたを守ることから始",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "そして日本共産党は「国民のために」",
+    "reading": "そしてにほんきょうさんとうは「こくみんのために」",
+    "baseForm": "そして日本共産党は「国民のために」",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ブレずに働く、などとなっているんですけれども",
+    "reading": "ぶれずにはたらく、などとなっているんですけれども",
+    "baseForm": "ブレずに働く、などとなっているんけれども",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

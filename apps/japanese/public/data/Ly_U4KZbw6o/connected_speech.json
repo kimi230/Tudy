@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "日本が誇る伝統文化 盆栽",
+    "reading": "にほんがほこるでんとうぶんか ぼんさい",
+    "baseForm": "日本が誇る伝統文化 盆栽",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "その海外輸出には 大きな壁があります",
+    "reading": "そのかいがいゆしゅつには おおきなかべがあります",
+    "baseForm": "その海外輸出には 大きな壁があり",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "植物検疫という高いハードルです",
+    "reading": "しょくぶつけんえきというたかいハードルです",
+    "baseForm": "植物検疫という高いハードル",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "そこに革新的なアイデアで 挑んだ企業があります",
+    "reading": "そこにかくしんてきなアイデアで いどんだきぎょうがあります",
+    "baseForm": "そこに革新的なアイデアで 挑んだ企業があ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "伝統と革新が融合した 新たな挑戦が始まっています",
+    "reading": "でんとうとかくしんがゆうごうした あらたなちょうせんがはじまっています",
+    "baseForm": "伝統と革新が融合した 新たな挑戦が始まっ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "teineigo",
+    "originalText": "もう一つの伝統文化 有田焼も 世界に挑戦しています",
+    "reading": "もうひとつのでんとうぶんか ありたやきも せかいにちょうせんしています",
+    "baseForm": "もう一つの伝統文化 有田焼も 世界に挑戦",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "teineigo",
+    "originalText": "有田焼は400年の歴史を持つ 日本の磁器です",
+    "reading": "ありたやきは400ねんのれきしをもつ にほんのじきです",
+    "baseForm": "有田焼は400年の歴史を持つ 日本の磁器",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "casual",
+    "originalText": "東京 渋谷で開かれた ビジネス交流会",
+    "reading": "とうきょう しぶやでひらかれた ビジネスこうりゅうかい",
+    "baseForm": "東京 渋谷で開かれた ビジネス交流会",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "JETROが主催する 新規輸出支援プログラムです",
+    "reading": "ジェトロがしゅさいする しんきゆしゅつしえんプログラムです",
+    "baseForm": "JETROが主催する 新規輸出支援プログ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "teineigo",
+    "originalText": "参加企業は 海外バイヤーと商談を行います",
+    "reading": "さんかきぎょうは かいがいバイヤーとしょうだんをおこないます",
+    "baseForm": "参加企業は 海外バイヤーと商談を行い",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "teineigo",
+    "originalText": "金正道の社長 田中さんも参加しています",
+    "reading": "きんせいどうのしゃちょう たなかさんもさんかしています",
+    "baseForm": "金正道の社長 田中さんも参加してい",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "teineigo",
+    "originalText": "有田焼の金属質感シリーズ リンを 世界に広めたいと考えています",
+    "reading": "ありたやきのきんぞくしつかんシリーズ リンを せかいにひろめたいとかんがえていま",
+    "baseForm": "有田焼の金属質感シリーズ リンを 世界に",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "このシリーズはニューヨークの展示会で 賞を受賞しました",
+    "reading": "このシリーズはニューヨークのてんじかいで しょうをじゅしょうしました",
+    "baseForm": "このシリーズはニューヨークの展示会で 賞",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "NY Nowというデザイン賞で 最優秀賞を獲得しました",
+    "reading": "ニューヨークナウというデザインしょうで さいゆうしゅうしょうをかくとくしました",
+    "baseForm": "NY Nowというデザイン賞で 最優秀賞",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "teineigo",
+    "originalText": "有田焼の伝統的な製法に 金属の光沢を加えた革新的な作品です",
+    "reading": "ありたやきのでんとうてきなせいほうに きんぞくのこうたくをくわえたかくしんてきな",
+    "baseForm": "有田焼の伝統的な製法に 金属の光沢を加え",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "teineigo",
+    "originalText": "海外バイヤーとの商談で 手応えを感じています",
+    "reading": "かいがいバイヤーとのしょうだんで てごたえをかんじています",
+    "baseForm": "海外バイヤーとの商談で 手応えを感じてい",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "sections": [
+    {
+      "section": "導入（どうにゅう）",
+      "sectionKo": "도입부",
+      "startSegment": 0,
+      "endSegment": 3,
+      "summary": "The report opens with the scale of China's Spring Festival travel season — a record 9.5 billion trips expected. The reporter frames the context: a Chinese airline counter at the airport is crowded, but then pivots to reveal that Chinese visitors to Japan dropped by 54% compared to the same period last year, following a three-month travel restraint advisory.",
+      "summaryKo": "올해 춘제 기간 역대 최다 이동 인원을 소개하며 리포트를 시작. 공항 중국국제항공 카운터의 긴 줄을 보여주지만, 일본에 대한 도항 자제 권고 3개월 후 일본을 찾는 중국인이 작년 동기 대비 54% 감소했다는 통계를 제시.",
+      "keyPoints": [
+        "올해 춘제: 연인원 950억 명 이동 예상 (역대 최다)",
+        "공항 중국국제항공 카운터에 긴 줄",
+        "일본 방문 중국인 작년 동기 대비 약 54% 감소"
+      ]
+    },
+    {
+      "section": "羽田うどん店の現状（はねだうどんてんのげんじょう）",
+      "sectionKo": "하네다 우동 가게 현황",
+      "startSegment": 4,
+      "endSegment": 15,
+      "summary": "The report shifts to a udon restaurant near Haneda Airport that went viral on Chinese SNS. Two years ago, the shop had long queues during Spring Festival. Yesterday, only 14 people were queuing and no Chinese tourists were among them. However, the shop owner says foot traffic has not decreased much overall — other Asian nationalities (Vietnamese, Thai, Korean, Taiwanese) have filled the gap. The owner calls this situation a 'miracle'.",
+      "summaryKo": "하네다공항 근처, 중국 SNS에서 화제가 된 우동 가게의 현황 취재. 재작년 춘제에는 긴 줄이 있었지만 어제는 14명 뿐이고 중국인 관광객은 없었음. 그러나 가게 주인은 손님 발길이 크게 줄지 않았다고 함. 베트남, 태국, 한국, 대만 등 다른 아시아 국가 관광객이 중국인 관광객의 공백을 메우고 있음. 주인은 이를 '기적'이라고 표현.",
+      "keyPoints": [
+        "재작년에는 개점 전부터 긴 줄",
+        "어제는 14명, 중국인 관광객 없음",
+        "SNS 덕분에 베트남, 태국, 한국, 대만 관광객으로 대체",
+        "가게 주인: '기적 같은 느낌'"
+      ]
+    },
+    {
+      "section": "鎌倉市の現状（かまくらしのげんじょう）",
+      "sectionKo": "가마쿠라시 현황",
+      "startSegment": 16,
+      "endSegment": 20,
+      "summary": "The report visits Kamakura, a pilgrimage site for fans of the anime Slam Dunk. Two years ago during Spring Festival, Chinese tourists flocked here. Yesterday, a new photography spot was packed with tourists overflowing. But an interviewee notes there are fewer Chinese visitors. Official data from Kamakura City confirms that Chinese tourists using the tourist information center have decreased to about one-quarter of previous levels.",
+      "summaryKo": "애니메이션 '슬램덩크' 성지로 유명한 가마쿠라 취재. 재작년 춘제에는 중국인 관광객이 넘쳐났음. 어제는 새로 설치된 촬영 스팟에 관광객이 넘쳐났지만 인터뷰이는 중국인이 줄었다고 언급. 가마쿠라시 공식 데이터: 관광안내소 이용 중국인 관광객이 4분의 1로 감소.",
+      "keyPoints": [
+        "슬램덩크 성지 가마쿠라의 새 촬영 스팟은 여전히 붐빔",
+        "관광객 全体数는 유지되나 중국인이 크게 줄었다는 증언",
+        "가마쿠라시: 관광안내소 중국인 이용객 약 75% 감소"
+      ]
+    },
+    {
+      "section": "山梨・押野八海フルーツ店（やまなし・おしのはっかいフルーツてん）",
+      "sectionKo": "야마나시 오시노핫카이 과일 가게",
+      "startSegment": 21,
+      "endSegment": 35,
+      "summary": "The report visits a fruit store in Oshino Hakkai, Yamanashi. Two years ago, tour buses of Chinese tourists visited. Yesterday, only 3 tour buses were in the parking lot. Previously the shop had Chinese New Year decorations (lanterns) and used WeChat for Chinese customers. Now the menu is in Japanese and English only, and the lanterns are put away in a warehouse. The owner says Chinese customers have decreased but believes visitors from other countries have increased, and aspires to cater to all nationalities.",
+      "summaryKo": "야마나시현 오시노핫카이 과일 가게 취재. 재작년 춘제에는 단체 중국인 관광객이 찾아왔고 홍등 장식에 위챗도 사용했음. 어제는 관광버스 주차장에 대형버스가 단 3대. 메뉴는 일본어·영어만 있고 홍등은 창고에 보관 중. 주인은 중국 손님이 줄었지만 다른 나라 손님이 늘었다고 인식하며 모든 나라에 대응하고 싶다고 포부를 밝힘.",
+      "keyPoints": [
+        "재작년: 관광버스 다수, 홍등 장식, 위챗 대응",
+        "어제: 대형버스 3대만, 메뉴는 일·영어만, 홍등은 창고에",
+        "주인: 다른 나라 손님이 늘어나는 인상",
+        "포부: 중국만이 아닌 모든 나라에 대응하고 싶다"
+      ]
+    },
+    {
+      "section": "エンディング（エンディング）",
+      "sectionKo": "마무리",
+      "startSegment": 37,
+      "endSegment": 37,
+      "summary": "Brief closing acknowledgment of viewers.",
+      "summaryKo": "짧은 시청 감사 인사로 마무리.",
+      "keyPoints": [
+        "시청 감사 인사"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "しかし…",
+      "type": "contrast",
+      "segmentIndex": 1,
+      "role": "반전 예고 표현. 예상과 다른 상황이 이어질 것임을 암시"
+    },
+    {
+      "expression": "その観光地は今年どうなっているのでしょうか",
+      "type": "topic_transition",
+      "segmentIndex": 5,
+      "role": "현장 취재를 시작하는 전환 표현. '어떻게 되었을까요?'로 다음 내용으로 유도"
+    },
+    {
+      "expression": "一昨年の春節は〜いました。しかし…",
+      "type": "contrast",
+      "segmentIndex": 10,
+      "role": "과거(재작년)와 현재(어제)를 대비시키는 반전 구조. しかし로 전환"
+    },
+    {
+      "expression": "昨日、同じ〜に行ってみると",
+      "type": "time_shift",
+      "segmentIndex": 8,
+      "role": "취재 시점(어제)을 명시하며 현재 상황을 보여주는 전환 표현. 과거 영상과의 대비 시작"
+    },
+    {
+      "expression": "〜によると",
+      "type": "source_citation",
+      "segmentIndex": 20,
+      "role": "공식 데이터나 기관의 발표를 인용하는 뉴스 표현"
+    },
+    {
+      "expression": "その代わり",
+      "type": "contrast_positive",
+      "segmentIndex": 34,
+      "role": "부정적 상황(중국인 감소)에 이어 긍정적 측면(다른 나라 손님 증가)을 도입하는 전환어"
+    },
+    {
+      "expression": "中国だけじゃなく",
+      "type": "expansion",
+      "segmentIndex": 35,
+      "role": "범위를 중국에서 전 세계로 확장하는 표현. 가게 주인의 미래 지향적 태도를 보여줌"
+    }
+  ],
+  "overallTheme": "춘제 기간 중 일본을 찾는 중국인 관광객의 감소와 그 영향을 받은 일본 관광지·상점의 현황 취재. 중국인 감소를 다른 아시아 국가 관광객이 일부 대체하고 있으며, 점포 측에서도 새로운 고객층에 적응하려는 모습을 보임.",
+  "reportingStyle": "뉴스 현장 리포트. 과거 영상(재작년 춘제)과 현재(어제 취재)를 대비시키는 비교 구조가 반복적으로 사용됨. 인터뷰 발언과 공식 통계를 혼합하여 다각도에서 상황을 전달."
+}

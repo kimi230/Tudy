@@ -1,0 +1,205 @@
+{
+  "videoId": "joO4aOKi7k8",
+  "words": [
+    {
+      "word": "敬語",
+      "reading": "けいご",
+      "meaning": "경어, 존댓말",
+      "partOfSpeech": "명사",
+      "exampleSentence": "敬語を使いこなすことが大切です。",
+      "exampleReading": "けいごをつかいこなすことがたいせつです。",
+      "exampleKo": "경어를 능숙하게 구사하는 것이 중요합니다.",
+      "level": "N4"
+    },
+    {
+      "word": "社会に出る",
+      "reading": "しゃかいにでる",
+      "meaning": "사회에 나가다 (취직하다, 사회생활을 시작하다)",
+      "partOfSpeech": "동사구",
+      "exampleSentence": "社会に出るって大変ですね。",
+      "exampleReading": "しゃかいにでるってたいへんですね。",
+      "exampleKo": "사회에 나가는 건 정말 힘들죠.",
+      "level": "N3"
+    },
+    {
+      "word": "よそよそしい",
+      "reading": "よそよそしい",
+      "meaning": "쌀쌀맞다, 거리를 두다, 낯설다",
+      "partOfSpeech": "형용사",
+      "exampleSentence": "よそよそしい態度は相手を傷つけることがある。",
+      "exampleReading": "よそよそしいたいどはあいてをきずつけることがある。",
+      "exampleKo": "쌀쌀맞은 태도는 상대방에게 상처를 줄 수 있다.",
+      "level": "N2"
+    },
+    {
+      "word": "尊敬",
+      "reading": "そんけい",
+      "meaning": "존경",
+      "partOfSpeech": "명사·동사",
+      "exampleSentence": "尊敬していない相手にも礼儀は必要です。",
+      "exampleReading": "そんけいしていないあいてにもれいぎはひつようです。",
+      "exampleKo": "존경하지 않는 상대방에게도 예의는 필요합니다.",
+      "level": "N4"
+    },
+    {
+      "word": "余計に",
+      "reading": "よけいに",
+      "meaning": "더욱, 한층 더, 쓸데없이",
+      "partOfSpeech": "부사",
+      "exampleSentence": "それじゃあ余計に大変かもね。",
+      "exampleReading": "それじゃあよけいにたいへんかもね。",
+      "exampleKo": "그럼 더 힘들겠네.",
+      "level": "N3"
+    },
+    {
+      "word": "改めて",
+      "reading": "あらためて",
+      "meaning": "다시, 새삼스럽게",
+      "partOfSpeech": "부사",
+      "exampleSentence": "改めて言われると反論できない。",
+      "exampleReading": "あらためていわれるとはんろんできない。",
+      "exampleKo": "새삼 그렇게 말을 들으니 반론할 수가 없다.",
+      "level": "N3"
+    },
+    {
+      "word": "反論",
+      "reading": "はんろん",
+      "meaning": "반론",
+      "partOfSpeech": "명사·동사",
+      "exampleSentence": "改めて言われると反論できない。",
+      "exampleReading": "あらためていわれるとはんろんできない。",
+      "exampleKo": "새삼 그렇게 말을 들으니 반론할 수가 없다.",
+      "level": "N2"
+    },
+    {
+      "word": "相互尊重",
+      "reading": "そうごそんちょう",
+      "meaning": "상호 존중",
+      "partOfSpeech": "명사",
+      "exampleSentence": "これが相互尊重の考え方です。",
+      "exampleReading": "これがそうごそんちょうのかんがえかたです。",
+      "exampleKo": "이것이 상호 존중의 사고방식입니다.",
+      "level": "N2"
+    },
+    {
+      "word": "潤滑油",
+      "reading": "じゅんかつゆ",
+      "meaning": "윤활유 (비유적으로 관계를 원활하게 하는 것)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "人間関係の潤滑油の役割を果たすのが敬語です。",
+      "exampleReading": "にんげんかんけいのじゅんかつゆのやくわりをはたすのがけいごです。",
+      "exampleKo": "인간 관계의 윤활유 역할을 하는 것이 경어입니다.",
+      "level": "N1"
+    },
+    {
+      "word": "配慮",
+      "reading": "はいりょ",
+      "meaning": "배려, 고려",
+      "partOfSpeech": "명사·동사",
+      "exampleSentence": "相手への配慮が大切です。",
+      "exampleReading": "あいてへのはいりょがたいせつです。",
+      "exampleKo": "상대방에 대한 배려가 중요합니다.",
+      "level": "N2"
+    },
+    {
+      "word": "卑屈",
+      "reading": "ひくつ",
+      "meaning": "비굴함, 굴종",
+      "partOfSpeech": "형용동사",
+      "exampleSentence": "なんだか卑屈な感じに聞こえて。",
+      "exampleReading": "なんだかひくつなかんじにきこえて。",
+      "exampleKo": "왠지 비굴한 느낌이 들어서.",
+      "level": "N1"
+    },
+    {
+      "word": "違和感",
+      "reading": "いわかん",
+      "meaning": "어색함, 위화감",
+      "partOfSpeech": "명사",
+      "exampleSentence": "敬語の使いすぎは違和感を覚えます。",
+      "exampleReading": "けいごのつかいすぎはいわかんをおぼえます。",
+      "exampleKo": "경어의 과도한 사용은 어색함을 느끼게 합니다.",
+      "level": "N2"
+    },
+    {
+      "word": "身分制度",
+      "reading": "みぶんせいど",
+      "meaning": "신분 제도",
+      "partOfSpeech": "명사",
+      "exampleSentence": "身分制度の厳しい時代には特別な敬語がありました。",
+      "exampleReading": "みぶんせいどのきびしいじだいにはとくべつなけいごがありました。",
+      "exampleKo": "신분 제도가 엄격했던 시대에는 특별한 경어가 있었습니다.",
+      "level": "N2"
+    },
+    {
+      "word": "立場",
+      "reading": "たちば",
+      "meaning": "입장, 위치, 처지",
+      "partOfSpeech": "명사",
+      "exampleSentence": "相手の社会的な立場を尊重することが大切です。",
+      "exampleReading": "あいてのしゃかいてきなたちばをそんちょうすることがたいせつです。",
+      "exampleKo": "상대방의 사회적인 입장을 존중하는 것이 중요합니다.",
+      "level": "N3"
+    },
+    {
+      "word": "素直",
+      "reading": "すなお",
+      "meaning": "솔직함, 순수함",
+      "partOfSpeech": "형용동사",
+      "exampleSentence": "素直な気持ちで伝えることが大切です。",
+      "exampleReading": "すなおなきもちでつたえることがたいせつです。",
+      "exampleKo": "솔직한 마음으로 전달하는 것이 중요합니다.",
+      "level": "N3"
+    },
+    {
+      "word": "思いやり",
+      "reading": "おもいやり",
+      "meaning": "배려, 동정심, 마음씀씀이",
+      "partOfSpeech": "명사",
+      "exampleSentence": "迷ったら素直な気持ちと思いやりが大切です。",
+      "exampleReading": "まよったらすなおなきもちとおもいやりがたいせつです。",
+      "exampleKo": "망설여지면 솔직한 마음과 배려가 중요합니다.",
+      "level": "N3"
+    },
+    {
+      "word": "鋭い",
+      "reading": "するどい",
+      "meaning": "날카롭다, 예리하다",
+      "partOfSpeech": "형용사",
+      "exampleSentence": "なかなか鋭いご指摘ですね。",
+      "exampleReading": "なかなかするどいごしてきですね。",
+      "exampleKo": "꽤 날카로운 지적이네요.",
+      "level": "N2"
+    },
+    {
+      "word": "尊厳",
+      "reading": "そんげん",
+      "meaning": "존엄, 품위",
+      "partOfSpeech": "명사",
+      "exampleSentence": "自分の尊厳のためにも適切な敬語を使いましょう。",
+      "exampleReading": "じぶんのそんげんのためにもてきせつなけいごをつかいましょう。",
+      "exampleKo": "자신의 품위를 위해서도 적절한 경어를 씁시다.",
+      "level": "N1"
+    },
+    {
+      "word": "押し付ける",
+      "reading": "おしつける",
+      "meaning": "강요하다, 떠밀다",
+      "partOfSpeech": "동사",
+      "exampleSentence": "自分の判断を押し付けないことが配慮の表れです。",
+      "exampleReading": "じぶんのはんだんをおしつけないことがはいりょのあらわれです。",
+      "exampleKo": "자신의 판단을 강요하지 않는 것이 배려의 표현입니다.",
+      "level": "N2"
+    },
+    {
+      "word": "使いこなす",
+      "reading": "つかいこなす",
+      "meaning": "능숙하게 다루다, 자유자재로 쓰다",
+      "partOfSpeech": "동사",
+      "exampleSentence": "敬語を使いこなして社会人としての自分をアピールしましょう。",
+      "exampleReading": "けいごをつかいこなしてしゃかいじんとしてのじぶんをあぴーるしましょう。",
+      "exampleKo": "경어를 능숙하게 구사해서 사회인으로서의 자신을 어필합시다.",
+      "level": "N2"
+    }
+  ]
+}

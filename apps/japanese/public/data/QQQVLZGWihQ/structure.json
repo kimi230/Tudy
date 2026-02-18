@@ -1,0 +1,133 @@
+{
+  "videoId": "QQQVLZGWihQ",
+  "sections": [
+    {
+      "title": "オープニング：富士山と観光地の異変",
+      "titleKo": "오프닝: 후지산과 관광지의 이변",
+      "startSegment": 0,
+      "endSegment": 1,
+      "summary": "눈 덮인 후지산의 원풍경으로 시작하여, 인기 관광지에 이변이 생겼음을 예고하는 도입부."
+    },
+    {
+      "title": "富士山麓：中国人観光客の激減",
+      "titleKo": "후지산 기슭: 중국인 관광객 급감",
+      "startSegment": 2,
+      "endSegment": 9,
+      "summary": "야마나시현 오시노핫카이에서 기자가 현장 보도. 중국인 관광객이 전체의 10% 미만으로 줄었으며 평소에는 70%를 차지했다는 인터뷰."
+    },
+    {
+      "title": "中国の春節：恒例の大移動と日本回避",
+      "titleKo": "중국 춘절: 연례 대이동과 일본 기피",
+      "startSegment": 10,
+      "endSegment": 23,
+      "summary": "9연휴 춘절 시작과 함께 연 95억 명의 대이동 예상. 베이징 공항에서도 일본행 감소 확인. 중국 항공사의 일본 감편과 오사카 총영사관의 도항 자제 권고 보도."
+    },
+    {
+      "title": "京都・嵐山：団体客減少と観光業への影響",
+      "titleKo": "교토 아라시야마: 단체 관광객 감소와 관광업에 미치는 영향",
+      "startSegment": 24,
+      "endSegment": 38,
+      "summary": "교토 아라시야마에서 호주 등 서양 관광객은 증가, 중국 단체 관광객 감소. 기모노 렌탈 가게에서 30~40% 매출 감소, 월 200~300건 감소 인터뷰."
+    },
+    {
+      "title": "別の視点：住民目線での歓迎",
+      "titleKo": "다른 시각: 주민 관점에서의 환영",
+      "startSegment": 39,
+      "endSegment": 41,
+      "summary": "관광 수입 감소와 달리, 단체 관광객의 소란·민폐가 줄어 스트레스가 감소했다는 상인의 의견."
+    },
+    {
+      "title": "京都・祇園：オーバーツーリズムの実態",
+      "titleKo": "교토 기온: 오버투어리즘의 실태",
+      "startSegment": 42,
+      "endSegment": 52,
+      "summary": "교토 기온에서 역사적 거리와 주민 생활에 외국인 관광객 트러블 지속. 마이코·게이코 스토킹, 민가 무단 침입 등 오버투어리즘 문제. 기온 마을은 원래 인바운드 대상 가게가 거의 없어 영향 없음."
+    },
+    {
+      "title": "韓国：中国人観光客の増加と対応",
+      "titleKo": "한국: 중국인 관광객 증가와 대응",
+      "startSegment": 53,
+      "endSegment": 63,
+      "summary": "일본 대신 한국에 중국인 관광객 대폭 증가 예상. 명동의 화장품 가게 춘절 세일 포스터, 하루 평균 19만 명 방문 예상(작년 대비 44% 증가). 한국 여행 중인 중국인 인터뷰."
+    },
+    {
+      "title": "京都のホテル：市場転換の模索",
+      "titleKo": "교토 호텔: 시장 전환의 모색",
+      "startSegment": 64,
+      "endSegment": 78,
+      "summary": "중국 단체 관광객 취소로 가격 인하 불가피. 교토시관광협회 앙케이트에서 31% 이상 숙박시설이 가격 인하. 최대 20% 인하 불구 실적 회복 안 돼 예약 사이트를 영어로 전환, 구미 대상으로 시장 다양화. '한 시장에 집중하지 않는 것이 중요' 발언."
+    },
+    {
+      "title": "嵐山の変化：日本人観光客の回帰",
+      "titleKo": "아라시야마의 변화: 일본인 관광객 귀환",
+      "startSegment": 79,
+      "endSegment": 87,
+      "summary": "아라시야마에서 50년 관광업 종사자 고지마 씨 인터뷰. 작년 12월부터 일본인 관광객 증가 실감. 오버투어리즘으로 피했던 일본인이 돌아오는 변화. 아라시야마의 자연미를 일본인에게 전하고 싶다는 바람."
+    },
+    {
+      "title": "エンディング",
+      "titleKo": "엔딩",
+      "startSegment": 88,
+      "endSegment": 88,
+      "summary": "시청 감사 인사로 마무리."
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "ただ、",
+      "reading": "ただ、",
+      "type": "contrast",
+      "explanationKo": "다만, 그러나. 앞의 내용을 일부 인정하면서 대조되는 정보를 도입하는 접속어.",
+      "segmentIndex": 3
+    },
+    {
+      "expression": "一方、",
+      "reading": "いっぽう、",
+      "type": "contrast",
+      "explanationKo": "한편. 다른 장소나 상황으로 장면을 전환하거나 대비되는 사실을 도입할 때 사용.",
+      "segmentIndex": 14
+    },
+    {
+      "expression": "さらに",
+      "reading": "さらに",
+      "type": "addition",
+      "explanationKo": "게다가, 더욱이. 앞의 내용에 추가적인 정보나 사건을 더할 때 사용.",
+      "segmentIndex": 20
+    },
+    {
+      "expression": "一方でこんな意見も。",
+      "reading": "いっぽうでこんないけんも。",
+      "type": "contrast/transition",
+      "explanationKo": "한편 이런 의견도. 다른 관점의 인터뷰나 의견으로 전환을 예고하는 전형적인 뉴스 전환 표현.",
+      "segmentIndex": 39
+    },
+    {
+      "expression": "しかし、",
+      "reading": "しかし、",
+      "type": "contrast",
+      "explanationKo": "하지만. 앞의 긍정적/중립적 내용 뒤에 반전이나 문제점을 도입하는 역접 접속어.",
+      "segmentIndex": 44
+    },
+    {
+      "expression": "こうした中、",
+      "reading": "こうしたなか、",
+      "type": "transition",
+      "explanationKo": "이런 가운데. 앞서 설명한 상황 속에서 새로운 전개나 주제로 넘어갈 때 사용하는 뉴스 전형 표현.",
+      "segmentIndex": 9
+    },
+    {
+      "expression": "実際、",
+      "reading": "じっさい、",
+      "type": "exemplification",
+      "explanationKo": "실제로. 앞서 말한 내용을 구체적 사례나 현장 취재로 뒷받침하기 위해 도입하는 표현.",
+      "segmentIndex": 62
+    },
+    {
+      "expression": "〜によると、",
+      "reading": "〜によると、",
+      "type": "source citation",
+      "explanationKo": "~에 따르면. 뉴스 보도에서 정보 출처를 밝힐 때 사용하는 전형적인 인용 표현.",
+      "segmentIndex": 58
+    }
+  ]
+}

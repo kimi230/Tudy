@@ -1,0 +1,170 @@
+{
+  "videoId": "R_LJf7dIVR0",
+  "vocabulary": [
+    {
+      "word": "大統領",
+      "reading": "だいとうりょう",
+      "meaning": "대통령",
+      "partOfSpeech": "명사",
+      "exampleSentence": "トランプ大統領はアジアの平和に貢献をされました。",
+      "exampleReading": "とらんぷだいとうりょうはあじあのへいわにこうけんをされました。",
+      "exampleTranslation": "트럼프 대통령은 아시아의 평화에 공헌하셨습니다.",
+      "segmentIndex": 16,
+      "level": "N3"
+    },
+    {
+      "word": "友情",
+      "reading": "ゆうじょう",
+      "meaning": "우정",
+      "partOfSpeech": "명사",
+      "exampleSentence": "安倍総理に対する長きにわたる友情に感謝をしております。",
+      "exampleReading": "あべそうりにたいするながきにわたるゆうじょうにかんしゃをしております。",
+      "exampleTranslation": "아베 총리에 대한 오랜 우정에 감사드립니다.",
+      "segmentIndex": 12,
+      "level": "N3"
+    },
+    {
+      "word": "感謝",
+      "reading": "かんしゃ",
+      "meaning": "감사",
+      "partOfSpeech": "명사・する동사",
+      "exampleSentence": "お祝いの発信をいただきありがとうございました。",
+      "exampleReading": "おいわいのはっしんをいただきありがとうございました。",
+      "exampleTranslation": "축하 메시지를 보내주셔서 감사합니다.",
+      "segmentIndex": 11,
+      "level": "N4"
+    },
+    {
+      "word": "偉業",
+      "reading": "いぎょう",
+      "meaning": "위업, 위대한 업적",
+      "partOfSpeech": "명사",
+      "exampleSentence": "これはかつてない歴史的偉業です。",
+      "exampleReading": "これはかつてないれきしてきいぎょうです。",
+      "exampleTranslation": "이것은 전례 없는 역사적 위업입니다.",
+      "segmentIndex": 18,
+      "level": "N2"
+    },
+    {
+      "word": "揺るぎない",
+      "reading": "ゆるぎない",
+      "meaning": "확고한, 흔들리지 않는",
+      "partOfSpeech": "い형용사",
+      "exampleSentence": "トランプ大統領の揺るぎないコミットを高く評価します。",
+      "exampleReading": "とらんぷだいとうりょうのゆるぎないこみっとをたかくひょうかします。",
+      "exampleTranslation": "트럼프 대통령의 확고한 헌신을 높이 평가합니다.",
+      "segmentIndex": 19,
+      "level": "N1"
+    },
+    {
+      "word": "同盟",
+      "reading": "どうめい",
+      "meaning": "동맹",
+      "partOfSpeech": "명사",
+      "exampleSentence": "今や日米は世界で最も偉大な同盟になりました。",
+      "exampleReading": "いまやにちべいはせかいでもっともいだいなどうめいになりました。",
+      "exampleTranslation": "이제 일미는 세계에서 가장 위대한 동맹이 되었습니다.",
+      "segmentIndex": 21,
+      "level": "N2"
+    },
+    {
+      "word": "国益",
+      "reading": "こくえき",
+      "meaning": "국익",
+      "partOfSpeech": "명사",
+      "exampleSentence": "私は日本の国益を守り抜くためにも、強い日本外交を取り戻す決意です。",
+      "exampleReading": "わたしはにほんのこくえきをまもりぬくためにも、つよいにほんがいこうをとりもどすけついです。",
+      "exampleTranslation": "저는 일본의 국익을 끝까지 지키기 위해서도, 강한 일본 외교를 되찾겠다는 결의입니다.",
+      "segmentIndex": 23,
+      "level": "N2"
+    },
+    {
+      "word": "守り抜く",
+      "reading": "まもりぬく",
+      "meaning": "끝까지 지키다, 수호하다",
+      "partOfSpeech": "동사(5단)",
+      "exampleSentence": "私は日本の国益を守り抜くためにも、",
+      "exampleReading": "わたしはにほんのこくえきをまもりぬくためにも、",
+      "exampleTranslation": "저는 일본의 국익을 끝까지 지키기 위해서도,",
+      "segmentIndex": 23,
+      "level": "N2"
+    },
+    {
+      "word": "決意",
+      "reading": "けつい",
+      "meaning": "결의, 결심",
+      "partOfSpeech": "명사・する동사",
+      "exampleSentence": "強い日本外交を取り戻す決意です。",
+      "exampleReading": "つよいにほんがいこうをとりもどすけついです。",
+      "exampleTranslation": "강한 일본 외교를 되찾겠다는 결의입니다.",
+      "segmentIndex": 24,
+      "level": "N2"
+    },
+    {
+      "word": "インド太平洋",
+      "reading": "いんどたいへいよう",
+      "meaning": "인도태평양",
+      "partOfSpeech": "명사(고유)",
+      "exampleSentence": "自由で開かれたインド太平洋の進展に向けても、日米でさらに協力を進めたいと考えています。",
+      "exampleReading": "じゆうでひらかれたいんどたいへいようのしんてんにむけても、にちべいでさらにきょうりょくをすすめたいとかんがえています。",
+      "exampleTranslation": "자유롭고 열린 인도태평양의 발전을 위해서도, 일미가 더욱 협력을 진전시키고 싶다고 생각하고 있습니다.",
+      "segmentIndex": 25,
+      "level": "N1"
+    },
+    {
+      "word": "国力",
+      "reading": "こくりょく",
+      "meaning": "국력",
+      "partOfSpeech": "명사",
+      "exampleSentence": "私はこれから日本の国力を強くするリーダーとして働いてまいる決意です。",
+      "exampleReading": "わたしはこれからにほんのこくりょくをつよくするりーだーとしてはたらいてまいるけついです。",
+      "exampleTranslation": "저는 앞으로 일본의 국력을 강화하는 리더로서 힘써 나가겠다는 결의입니다.",
+      "segmentIndex": 27,
+      "level": "N2"
+    },
+    {
+      "word": "防衛力",
+      "reading": "ぼうえいりょく",
+      "meaning": "방위력",
+      "partOfSpeech": "명사",
+      "exampleSentence": "つまり外交力、防衛力、経済力、技術力、情報力、人材力を強くするリーダーとして、",
+      "exampleReading": "つまりがいこうりょく、ぼうえいりょく、けいざいりょく、ぎじゅつりょく、じょうほうりょく、じんざいりょくをつよくするりーだーとして、",
+      "exampleTranslation": "즉 외교력, 방위력, 경제력, 기술력, 정보력, 인재력을 강화하는 리더로서,",
+      "segmentIndex": 28,
+      "level": "N2"
+    },
+    {
+      "word": "寄付",
+      "reading": "きふ",
+      "meaning": "기부, 기증",
+      "partOfSpeech": "명사・する동사",
+      "exampleSentence": "ワシントンDCに250本の桜を寄付する予定です。",
+      "exampleReading": "わしんとんでぃーしーににひゃくごじゅっぽんのさくらをきふするよていです。",
+      "exampleTranslation": "워싱턴 DC에 250그루의 벚나무를 기증할 예정입니다.",
+      "segmentIndex": 31,
+      "level": "N3"
+    },
+    {
+      "word": "黄金時代",
+      "reading": "おうごんじだい",
+      "meaning": "황금 시대",
+      "partOfSpeech": "명사",
+      "exampleSentence": "日米同盟の新たな黄金時代をトランプ大統領と共に作り上げていきたいと願っております。",
+      "exampleReading": "にちべいどうめいのあらたなおうごんじだいをとらんぷだいとうりょうとともにつくりあげていきたいとねがっております。",
+      "exampleTranslation": "일미 동맟의 새로운 황금 시대를 트럼프 대통령과 함께 만들어 나가고 싶다고 바라고 있습니다.",
+      "segmentIndex": 35,
+      "level": "N2"
+    },
+    {
+      "word": "貢献",
+      "reading": "こうけん",
+      "meaning": "공헌, 기여",
+      "partOfSpeech": "명사・する동사",
+      "exampleSentence": "日本も共に世界の平和と安定に貢献をしてまいります。",
+      "exampleReading": "にほんもともにせかいのへいわとあんていにこうけんをしてまいります。",
+      "exampleTranslation": "일본도 함께 세계의 평화와 안정에 공헌해 나가겠습니다.",
+      "segmentIndex": 22,
+      "level": "N3"
+    }
+  ]
+}

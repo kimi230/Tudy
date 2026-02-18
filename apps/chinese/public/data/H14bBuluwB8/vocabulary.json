@@ -1,0 +1,352 @@
+{
+  "videoId": "H14bBuluwB8",
+  "vocabulary": [
+    {
+      "word": "毅力",
+      "pinyin": "yìlì",
+      "tones": [4, 4],
+      "partOfSpeech": "名词",
+      "definition": "The mental strength to continue despite difficulties; perseverance and persistence",
+      "koreanMeaning": "끈기, 인내력, 불굴의 의지",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "毅", "meaning": "resolute, firm, steadfast"},
+        {"character": "力", "meaning": "strength, power, force"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 27,
+      "contextSentence": "毅力就是坚持自己的未来，日复一日。"
+    },
+    {
+      "word": "坚持",
+      "pinyin": "jiānchí",
+      "tones": [1, 2],
+      "partOfSpeech": "动词",
+      "definition": "To persist; to persevere; to insist on; to keep doing something",
+      "koreanMeaning": "지속하다, 고집하다, 계속하다",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "坚", "meaning": "firm, strong, unyielding"},
+        {"character": "持", "meaning": "to hold, to maintain"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 27,
+      "contextSentence": "毅力就是坚持自己的未来，日复一日。"
+    },
+    {
+      "word": "日复一日",
+      "pinyin": "rì fù yī rì",
+      "tones": [4, 4, 1, 4],
+      "partOfSpeech": "成语",
+      "definition": "Day after day; repeatedly day by day; idiom expressing routine persistence over time",
+      "koreanMeaning": "하루하루, 날마다, 매일같이",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "日", "meaning": "day"},
+        {"character": "复", "meaning": "again, to repeat"},
+        {"character": "一", "meaning": "one"},
+        {"character": "日", "meaning": "day"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 27,
+      "contextSentence": "毅力就是坚持自己的未来，日复一日。"
+    },
+    {
+      "word": "培养",
+      "pinyin": "péiyǎng",
+      "tones": [2, 3],
+      "partOfSpeech": "动词",
+      "definition": "To cultivate; to foster; to train; to develop (a skill or quality)",
+      "koreanMeaning": "양성하다, 기르다, 육성하다",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "培", "meaning": "to cultivate, to train"},
+        {"character": "养", "meaning": "to raise, to nourish"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 43,
+      "contextSentence": "科学对如何培养毅力知之甚少。"
+    },
+    {
+      "word": "成长型思维",
+      "pinyin": "chéngzhǎng xíng sīwéi",
+      "tones": [2, 3, 2, 1, 2],
+      "partOfSpeech": "名词短语",
+      "definition": "Growth mindset; the belief that abilities can be developed through dedication and hard work",
+      "koreanMeaning": "성장형 사고방식, 성장 마인드셋",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "成长", "meaning": "to grow, growth"},
+        {"character": "型", "meaning": "type, model"},
+        {"character": "思维", "meaning": "thinking, mindset"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 54,
+      "contextSentence": "是一种叫「成长型思维」的东西。"
+    },
+    {
+      "word": "才能",
+      "pinyin": "cáinéng",
+      "tones": [2, 2],
+      "partOfSpeech": "名词",
+      "definition": "Talent; natural ability; gift; aptitude",
+      "koreanMeaning": "재능, 능력, 소질",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "才", "meaning": "talent, ability"},
+        {"character": "能", "meaning": "can, ability"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 48,
+      "contextSentence": "我所知道的是，才能不能让你有毅力。"
+    },
+    {
+      "word": "努力",
+      "pinyin": "nǔlì",
+      "tones": [3, 4],
+      "partOfSpeech": "动词/形容词",
+      "definition": "To work hard; to strive; to make an effort; diligent",
+      "koreanMeaning": "노력하다, 열심히 하다",
+      "hskLevel": 2,
+      "measureWord": null,
+      "components": [
+        {"character": "努", "meaning": "to exert, to strive"},
+        {"character": "力", "meaning": "strength, force"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 29,
+      "contextSentence": "并且非常努力地将那个未来变为现实。"
+    },
+    {
+      "word": "现实",
+      "pinyin": "xiànshí",
+      "tones": [4, 2],
+      "partOfSpeech": "名词/形容词",
+      "definition": "Reality; realistic; actuality; the real world",
+      "koreanMeaning": "현실, 실제",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "现", "meaning": "present, appear"},
+        {"character": "实", "meaning": "real, solid, actual"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 29,
+      "contextSentence": "并且非常努力地将那个未来变为现实。"
+    },
+    {
+      "word": "令人震惊",
+      "pinyin": "lìng rén zhènjīng",
+      "tones": [4, 2, 4, 1],
+      "partOfSpeech": "形容词短语",
+      "definition": "Astonishing; shocking; startling; to cause amazement",
+      "koreanMeaning": "놀랍다, 충격적이다, 경악스럽다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "令", "meaning": "to cause, to make"},
+        {"character": "人", "meaning": "person, people"},
+        {"character": "震惊", "meaning": "to shock, to astonish"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 42,
+      "contextSentence": "关于毅力最令人震惊的是我们了解得多么少。"
+    },
+    {
+      "word": "辍学",
+      "pinyin": "chuòxué",
+      "tones": [4, 2],
+      "partOfSpeech": "动词",
+      "definition": "To drop out of school; to leave school before finishing",
+      "koreanMeaning": "중퇴하다, 학교를 그만두다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "辍", "meaning": "to stop, to cease"},
+        {"character": "学", "meaning": "to study, learning"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 41,
+      "contextSentence": "尤其是对于有辍学风险的孩子。"
+    },
+    {
+      "word": "承诺",
+      "pinyin": "chéngnuò",
+      "tones": [2, 4],
+      "partOfSpeech": "名词/动词",
+      "definition": "Promise; commitment; to pledge; to commit to",
+      "koreanMeaning": "약속, 공약, 헌신",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "承", "meaning": "to bear, to accept"},
+        {"character": "诺", "meaning": "to promise, to agree"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 50,
+      "contextSentence": "根本不能坚持履行自己的承诺。"
+    },
+    {
+      "word": "知之甚少",
+      "pinyin": "zhī zhī shèn shǎo",
+      "tones": [1, 1, 4, 3],
+      "partOfSpeech": "成语",
+      "definition": "To know very little about something; have minimal knowledge of",
+      "koreanMeaning": "아는 바가 매우 적다, 거의 모르다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "知", "meaning": "to know"},
+        {"character": "之", "meaning": "of it (classical particle)"},
+        {"character": "甚", "meaning": "very, extremely"},
+        {"character": "少", "meaning": "few, little"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 43,
+      "contextSentence": "科学对如何培养毅力知之甚少。"
+    },
+    {
+      "word": "换句话说",
+      "pinyin": "huàn jù huà shuō",
+      "tones": [4, 4, 4, 1],
+      "partOfSpeech": "成语",
+      "definition": "In other words; that is to say; to put it another way",
+      "koreanMeaning": "다시 말해서, 바꿔 말하자면, 즉",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "换", "meaning": "to change, to exchange"},
+        {"character": "句话", "meaning": "sentence"},
+        {"character": "说", "meaning": "to say, to speak"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 69,
+      "contextSentence": "换句话说，我们需要用毅力来让孩子更有毅力。"
+    },
+    {
+      "word": "失败",
+      "pinyin": "shībài",
+      "tones": [1, 4],
+      "partOfSpeech": "动词/名词",
+      "definition": "To fail; failure; to be defeated",
+      "koreanMeaning": "실패하다, 실패",
+      "hskLevel": 3,
+      "measureWord": null,
+      "components": [
+        {"character": "失", "meaning": "to lose, to miss"},
+        {"character": "败", "meaning": "to fail, defeat"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 60,
+      "contextSentence": "他们在失败时更有可能坚持下去。"
+    },
+    {
+      "word": "动力",
+      "pinyin": "dònglì",
+      "tones": [4, 4],
+      "partOfSpeech": "名词",
+      "definition": "Motivation; driving force; momentum; incentive",
+      "koreanMeaning": "동기, 추진력, 원동력",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "动", "meaning": "to move, dynamic"},
+        {"character": "力", "meaning": "force, strength"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 46,
+      "contextSentence": "如何让他们保持长期的动力？"
+    },
+    {
+      "word": "永久",
+      "pinyin": "yǒngjiǔ",
+      "tones": [3, 3],
+      "partOfSpeech": "形容词",
+      "definition": "Permanent; perpetual; lasting forever; eternal",
+      "koreanMeaning": "영구적인, 영원한, 변치 않는",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "永", "meaning": "forever, eternal"},
+        {"character": "久", "meaning": "long time, lasting"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 61,
+      "contextSentence": "因为他们不相信失败是一种永久的状态。"
+    },
+    {
+      "word": "直觉",
+      "pinyin": "zhíjué",
+      "tones": [2, 2],
+      "partOfSpeech": "名词",
+      "definition": "Intuition; instinct; gut feeling",
+      "koreanMeaning": "직관, 직감, 본능적 느낌",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "直", "meaning": "straight, direct"},
+        {"character": "觉", "meaning": "to feel, sense"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 65,
+      "contextSentence": "我们需要采纳我们最好的想法，我们最强的直觉。"
+    },
+    {
+      "word": "验证",
+      "pinyin": "yànzhèng",
+      "tones": [4, 4],
+      "partOfSpeech": "动词",
+      "definition": "To verify; to validate; to test and prove",
+      "koreanMeaning": "검증하다, 입증하다, 확인하다",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "验", "meaning": "to examine, to test"},
+        {"character": "证", "meaning": "to prove, evidence"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 66,
+      "contextSentence": "我们需要验证它们。"
+    },
+    {
+      "word": "唯一",
+      "pinyin": "wéiyī",
+      "tones": [2, 1],
+      "partOfSpeech": "形容词",
+      "definition": "The only one; sole; unique; the one and only",
+      "koreanMeaning": "유일한, 단 하나의",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "唯", "meaning": "only, sole"},
+        {"character": "一", "meaning": "one"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 12,
+      "contextSentence": "这不是唯一的，尤其是……"
+    },
+    {
+      "word": "传统",
+      "pinyin": "chuántǒng",
+      "tones": [2, 3],
+      "partOfSpeech": "名词/形容词",
+      "definition": "Tradition; traditional; conventional practices passed down",
+      "koreanMeaning": "전통, 전통적인",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "传", "meaning": "to pass on, to transmit"},
+        {"character": "统", "meaning": "system, unify"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 15,
+      "contextSentence": "没有传统的，尤其是……"
+    }
+  ]
+}

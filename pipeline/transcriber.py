@@ -29,7 +29,7 @@ class TranscriptSegment(TypedDict):
     words: list[WordTimestamp]
 
 
-def transcribe_audio(audio_path: str) -> list[dict[str, Any]]:
+def transcribe_audio(audio_path: str, language: str = "en") -> list[dict[str, Any]]:
     """Transcribe an audio file using mlx-whisper.
 
     Args:
@@ -50,7 +50,7 @@ def transcribe_audio(audio_path: str) -> list[dict[str, Any]]:
         result = mlx_whisper.transcribe(
             audio_path,
             path_or_hf_repo=MODEL_NAME,
-            language="en",
+            language=language,
             word_timestamps=True,
         )
     except Exception as e:
@@ -90,7 +90,8 @@ def _normalize_text(text: str) -> str:
 def _is_sentence_boundary(text: str) -> bool:
     """Check if text ends at a sentence boundary."""
     text = text.rstrip()
-    return bool(text) and text[-1] in ".!?"
+    # Include Chinese/Japanese sentence-ending punctuation
+    return bool(text) and text[-1] in ".!?。！？"
 
 
 def _extract_words(segment: dict[str, Any]) -> list[WordTimestamp]:
@@ -117,6 +118,7 @@ def clean_and_merge_segments(
     raw_segments: list[dict[str, Any]],
     min_duration: float = 2.0,
     max_duration: float = 30.0,
+    language: str = "en",
 ) -> list[TranscriptSegment]:
     """Clean and merge raw whisper segments into well-formed transcript segments.
 
@@ -251,21 +253,24 @@ def clean_and_merge_segments(
                 )
 
     # Phase 4: Normalize and build final output
+    # Language-specific text field name
+    text_field_map = {"en": "textEn", "zh": "textZh", "ja": "textJa"}
+    text_field = text_field_map.get(language, "textEn")
+
     result: list[TranscriptSegment] = []
     for idx, seg in enumerate(split_segments):
         normalized_text = _normalize_text(seg["text"])
         if not normalized_text:
             continue
 
-        result.append(
-            TranscriptSegment(
-                index=idx,
-                start=round(seg["start"], 3),
-                end=round(seg["end"], 3),
-                textEn=normalized_text,
-                words=seg["words"],
-            )
-        )
+        entry: dict[str, Any] = {
+            "index": idx,
+            "start": round(seg["start"], 3),
+            "end": round(seg["end"], 3),
+            text_field: normalized_text,
+            "words": seg["words"],
+        }
+        result.append(entry)  # type: ignore
 
     # Re-index after possible filtering
     for i, seg in enumerate(result):

@@ -1,0 +1,62 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "こうやって写真出してますからね だいたいこれは僕のなわけなんですけれども",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ている",
+    "example": "これはどういうことかというと 自分にしか見えている世界",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "この当時僕はどんなことを考えていたのか",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "これが全てなのはなぜなんだろうかってずっと思ってたんですね",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "〜たい",
+    "example": "こうやって写真出してますからね だいたいこれは僕のなわけなんですけれども",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "なんで僕は見えないのかな 友達が見えている世界っていうのは",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "こうやって写真出してますからね だいたいこれは僕のなわけなんですけれども",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "この写真 誰だかお分かりになるでしょうか",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "この写真 誰だかお分かりになるでしょうか",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "수동/가능 〜れる・〜られる",
+    "example": "あるいはその社会の中では コミュニティと言われるいくつかの小さなグループがあったりしますよね",
+    "explanationKo": "수동 또는 가능 의미를 나타냅니다.",
+    "segmentIndex": 28
+  }
+]

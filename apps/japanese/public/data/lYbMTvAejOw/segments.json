@@ -1,0 +1,1114 @@
+{
+  "videoId": "lYbMTvAejOw",
+  "segments": [
+    {
+      "index": 0,
+      "start": 4.78,
+      "end": 8.44,
+      "textJa": "おとといから始まった中国の旧正月",
+      "reading": "おとといからはじまったちゅうごくのきゅうしょうがつ",
+      "textKo": "그저께부터 시작된 중국의 구정(음력 설)",
+      "words": [
+        {"word": "おととい", "reading": "おととい", "meaning": "그저께"},
+        {"word": "から", "reading": "から", "meaning": "부터"},
+        {"word": "始まった", "reading": "はじまった", "meaning": "시작된"},
+        {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "旧正月", "reading": "きゅうしょうがつ", "meaning": "구정, 음력 설"}
+      ]
+    },
+    {
+      "index": 1,
+      "start": 8.94,
+      "end": 11.54,
+      "textJa": "春節に伴う大型連休",
+      "reading": "しゅんせつにともなうおおがたれんきゅう",
+      "textKo": "춘절에 따른 대형 연휴",
+      "words": [
+        {"word": "春節", "reading": "しゅんせつ", "meaning": "춘절, 중국 설"},
+        {"word": "に伴う", "reading": "にともなう", "meaning": "에 따른"},
+        {"word": "大型", "reading": "おおがた", "meaning": "대형"},
+        {"word": "連休", "reading": "れんきゅう", "meaning": "연휴"}
+      ]
+    },
+    {
+      "index": 2,
+      "start": 15.06,
+      "end": 18.16,
+      "textJa": "今年は史上最長の旧連休",
+      "reading": "ことしはしじょうさいちょうのきゅうれんきゅう",
+      "textKo": "올해는 역사상 가장 긴 구정 연휴",
+      "words": [
+        {"word": "今年", "reading": "ことし", "meaning": "올해"},
+        {"word": "は", "reading": "は", "meaning": "은/는"},
+        {"word": "史上", "reading": "しじょう", "meaning": "역사상"},
+        {"word": "最長", "reading": "さいちょう", "meaning": "최장"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "旧連休", "reading": "きゅうれんきゅう", "meaning": "구정 연휴"}
+      ]
+    },
+    {
+      "index": 3,
+      "start": 19.04,
+      "end": 24.1,
+      "textJa": "過去最多延べ95億人の大移動が見込まれています",
+      "reading": "かこさいたのべきゅうじゅうごおくにんのだいいどうがみこまれています",
+      "textKo": "과거 최다인 연 95억 명의 대이동이 예상되고 있습니다",
+      "words": [
+        {"word": "過去最多", "reading": "かこさいた", "meaning": "과거 최다"},
+        {"word": "延べ", "reading": "のべ", "meaning": "연 (延), 누계"},
+        {"word": "95億人", "reading": "きゅうじゅうごおくにん", "meaning": "95억 명"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "大移動", "reading": "だいいどう", "meaning": "대이동"},
+        {"word": "が", "reading": "が", "meaning": "이/가"},
+        {"word": "見込まれています", "reading": "みこまれています", "meaning": "예상되고 있습니다"}
+      ]
+    },
+    {
+      "index": 4,
+      "start": 25.64,
+      "end": 28.52,
+      "textJa": "連休の始まった上海の駅構内ですが",
+      "reading": "れんきゅうのはじまったしゃんはいのえきこうないですが",
+      "textKo": "연휴가 시작된 상하이역 구내입니다만",
+      "words": [
+        {"word": "連休", "reading": "れんきゅう", "meaning": "연휴"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "始まった", "reading": "はじまった", "meaning": "시작된"},
+        {"word": "上海", "reading": "しゃんはい", "meaning": "상하이"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "駅構内", "reading": "えきこうない", "meaning": "역 구내"},
+        {"word": "ですが", "reading": "ですが", "meaning": "입니다만"}
+      ]
+    },
+    {
+      "index": 5,
+      "start": 28.52,
+      "end": 32.06,
+      "textJa": "前に進むのも難しいほど大変混雑しています",
+      "reading": "まえにすすむのもむずかしいほどたいへんこんざつしています",
+      "textKo": "앞으로 나아가기도 어려울 정도로 매우 혼잡합니다",
+      "words": [
+        {"word": "前に進む", "reading": "まえにすすむ", "meaning": "앞으로 나아가다"},
+        {"word": "のも", "reading": "のも", "meaning": "것도"},
+        {"word": "難しい", "reading": "むずかしい", "meaning": "어렵다"},
+        {"word": "ほど", "reading": "ほど", "meaning": "정도"},
+        {"word": "大変", "reading": "たいへん", "meaning": "매우"},
+        {"word": "混雑しています", "reading": "こんざつしています", "meaning": "혼잡합니다"}
+      ]
+    },
+    {
+      "index": 6,
+      "start": 35.6,
+      "end": 38.8,
+      "textJa": "ただ日中関係の緊張が続く中",
+      "reading": "ただにっちゅうかんけいのきんちょうがつづくなか",
+      "textKo": "그런데 일중 관계의 긴장이 이어지는 가운데",
+      "words": [
+        {"word": "ただ", "reading": "ただ", "meaning": "그런데, 다만"},
+        {"word": "日中関係", "reading": "にっちゅうかんけい", "meaning": "일중 관계"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "緊張", "reading": "きんちょう", "meaning": "긴장"},
+        {"word": "が続く", "reading": "がつづく", "meaning": "가 이어지다"},
+        {"word": "中", "reading": "なか", "meaning": "가운데"}
+      ]
+    },
+    {
+      "index": 7,
+      "start": 39.94,
+      "end": 44.22,
+      "textJa": "中国政府は日本への渡航自粛を呼びかけていて",
+      "reading": "ちゅうごくせいふはにほんへのとこうじしゅくをよびかけていて",
+      "textKo": "중국 정부는 일본으로의 여행 자제를 촉구하고 있어",
+      "words": [
+        {"word": "中国政府", "reading": "ちゅうごくせいふ", "meaning": "중국 정부"},
+        {"word": "は", "reading": "は", "meaning": "은/는"},
+        {"word": "日本", "reading": "にほん", "meaning": "일본"},
+        {"word": "への", "reading": "への", "meaning": "으로의"},
+        {"word": "渡航", "reading": "とこう", "meaning": "도항, 여행"},
+        {"word": "自粛", "reading": "じしゅく", "meaning": "자제, 자숙"},
+        {"word": "を呼びかけていて", "reading": "をよびかけていて", "meaning": "를 촉구하고 있어"}
+      ]
+    },
+    {
+      "index": 8,
+      "start": 46.92,
+      "end": 51.0,
+      "textJa": "日中関係があまり良くないから安全を心配しています",
+      "reading": "にっちゅうかんけいがあまりよくないからあんぜんをしんぱいしています",
+      "textKo": "일중 관계가 그다지 좋지 않아서 안전을 걱정하고 있습니다",
+      "words": [
+        {"word": "日中関係", "reading": "にっちゅうかんけい", "meaning": "일중 관계"},
+        {"word": "が", "reading": "が", "meaning": "이/가"},
+        {"word": "あまり", "reading": "あまり", "meaning": "그다지"},
+        {"word": "良くない", "reading": "よくない", "meaning": "좋지 않다"},
+        {"word": "から", "reading": "から", "meaning": "때문에"},
+        {"word": "安全", "reading": "あんぜん", "meaning": "안전"},
+        {"word": "を心配しています", "reading": "をしんぱいしています", "meaning": "을 걱정하고 있습니다"}
+      ]
+    },
+    {
+      "index": 9,
+      "start": 52.68,
+      "end": 56.74,
+      "textJa": "進めていないのもあってできるだけ国家の呼びかけに応えないと",
+      "reading": "すすめていないのもあってできるだけこっかのよびかけにこたえないと",
+      "textKo": "진전이 없는 것도 있어서 되도록 국가의 호소에 응하지 않으면",
+      "words": [
+        {"word": "進めていない", "reading": "すすめていない", "meaning": "진전이 없다"},
+        {"word": "のもあって", "reading": "のもあって", "meaning": "것도 있어서"},
+        {"word": "できるだけ", "reading": "できるだけ", "meaning": "되도록, 최대한"},
+        {"word": "国家", "reading": "こっか", "meaning": "국가"},
+        {"word": "の呼びかけ", "reading": "のよびかけ", "meaning": "의 호소"},
+        {"word": "に応えないと", "reading": "にこたえないと", "meaning": "에 응하지 않으면"}
+      ]
+    },
+    {
+      "index": 10,
+      "start": 60.36,
+      "end": 64.16,
+      "textJa": "東京浅草のこちらの抹茶専門店では",
+      "reading": "とうきょうあさくさのこちらのまっちゃせんもんてんでは",
+      "textKo": "도쿄 아사쿠사에 있는 이 말차 전문점에서는",
+      "words": [
+        {"word": "東京浅草", "reading": "とうきょうあさくさ", "meaning": "도쿄 아사쿠사"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "こちら", "reading": "こちら", "meaning": "이쪽, 여기"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "抹茶専門店", "reading": "まっちゃせんもんてん", "meaning": "말차 전문점"},
+        {"word": "では", "reading": "では", "meaning": "에서는"}
+      ]
+    },
+    {
+      "index": 11,
+      "start": 68.54,
+      "end": 72.06,
+      "textJa": "今日の抹茶作り体験の予約はゼロ",
+      "reading": "きょうのまっちゃづくりたいけんのよやくはぜろ",
+      "textKo": "오늘 말차 만들기 체험 예약은 제로",
+      "words": [
+        {"word": "今日", "reading": "きょう", "meaning": "오늘"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "抹茶作り体験", "reading": "まっちゃづくりたいけん", "meaning": "말차 만들기 체험"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "予約", "reading": "よやく", "meaning": "예약"},
+        {"word": "は", "reading": "は", "meaning": "은/는"},
+        {"word": "ゼロ", "reading": "ぜろ", "meaning": "제로, 0"}
+      ]
+    },
+    {
+      "index": 12,
+      "start": 73.12,
+      "end": 76.22,
+      "textJa": "予約が入っているのは珍しいことですか",
+      "reading": "よやくがはいっているのはめずらしいことですか",
+      "textKo": "예약이 들어와 있는 것은 드문 일인가요?",
+      "words": [
+        {"word": "予約", "reading": "よやく", "meaning": "예약"},
+        {"word": "が入っている", "reading": "がはいっている", "meaning": "이 들어와 있다"},
+        {"word": "のは", "reading": "のは", "meaning": "것은"},
+        {"word": "珍しい", "reading": "めずらしい", "meaning": "드문, 희귀한"},
+        {"word": "こと", "reading": "こと", "meaning": "일, 것"},
+        {"word": "ですか", "reading": "ですか", "meaning": "입니까?"}
+      ]
+    },
+    {
+      "index": 13,
+      "start": 77.08,
+      "end": 81.02,
+      "textJa": "例年ですとこの旧正月春節の時期に関しては",
+      "reading": "れいねんですとこのきゅうしょうがつしゅんせつのじきにかんしては",
+      "textKo": "평년 같으면 이 구정 춘절 시기에 관해서는",
+      "words": [
+        {"word": "例年", "reading": "れいねん", "meaning": "평년, 보통 해"},
+        {"word": "ですと", "reading": "ですと", "meaning": "라면 (정중체)"},
+        {"word": "この", "reading": "この", "meaning": "이"},
+        {"word": "旧正月", "reading": "きゅうしょうがつ", "meaning": "구정"},
+        {"word": "春節", "reading": "しゅんせつ", "meaning": "춘절"},
+        {"word": "の時期", "reading": "のじき", "meaning": "의 시기"},
+        {"word": "に関しては", "reading": "にかんしては", "meaning": "에 관해서는"}
+      ]
+    },
+    {
+      "index": 14,
+      "start": 81.02,
+      "end": 83.74,
+      "textJa": "中国の団体のお客様でしたり",
+      "reading": "ちゅうごくのだんたいのおきゃくさまでしたり",
+      "textKo": "중국 단체 고객님이시거나",
+      "words": [
+        {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "団体", "reading": "だんたい", "meaning": "단체"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "お客様", "reading": "おきゃくさま", "meaning": "고객님 (경어)"},
+        {"word": "でしたり", "reading": "でしたり", "meaning": "이시거나"}
+      ]
+    },
+    {
+      "index": 15,
+      "start": 83.74,
+      "end": 88.32,
+      "textJa": "またご家族でなどのお客様が多くいらっしゃるんですけれども",
+      "reading": "またごかぞくでなどのおきゃくさまがおおくいらっしゃるんですけれども",
+      "textKo": "또한 가족 단위 등의 고객님이 많이 오시는데요",
+      "words": [
+        {"word": "また", "reading": "また", "meaning": "또한"},
+        {"word": "ご家族", "reading": "ごかぞく", "meaning": "가족 (경어)"},
+        {"word": "で", "reading": "で", "meaning": "으로, 단위"},
+        {"word": "などの", "reading": "などの", "meaning": "등의"},
+        {"word": "お客様", "reading": "おきゃくさま", "meaning": "고객님 (경어)"},
+        {"word": "が多く", "reading": "がおおく", "meaning": "이 많이"},
+        {"word": "いらっしゃる", "reading": "いらっしゃる", "meaning": "오시다 (경어)"},
+        {"word": "んですけれども", "reading": "んですけれども", "meaning": "데요 (설명·완화)"}
+      ]
+    },
+    {
+      "index": 16,
+      "start": 88.32,
+      "end": 91.9,
+      "textJa": "2月に入ってからは一見も入っていないのが現状です",
+      "reading": "にがつにはいってからはいちけんもはいっていないのがげんじょうです",
+      "textKo": "2월에 들어서부터는 단 한 건도 들어오지 않은 것이 현 상황입니다",
+      "words": [
+        {"word": "2月に入ってから", "reading": "にがつにはいってから", "meaning": "2월에 들어서부터"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "一見も", "reading": "いちけんも", "meaning": "한 건도"},
+        {"word": "入っていない", "reading": "はいっていない", "meaning": "들어오지 않다"},
+        {"word": "のが", "reading": "のが", "meaning": "것이"},
+        {"word": "現状", "reading": "げんじょう", "meaning": "현 상황"},
+        {"word": "です", "reading": "です", "meaning": "입니다"}
+      ]
+    },
+    {
+      "index": 17,
+      "start": 92.88,
+      "end": 96.08,
+      "textJa": "店内のゆっくりと楽しめるというお声を",
+      "reading": "てんないのゆっくりとたのしめるというおこえを",
+      "textKo": "가게 안에서 천천히 즐길 수 있다는 목소리를",
+      "words": [
+        {"word": "店内", "reading": "てんない", "meaning": "가게 안"},
+        {"word": "の", "reading": "の", "meaning": "에서의"},
+        {"word": "ゆっくりと", "reading": "ゆっくりと", "meaning": "천천히"},
+        {"word": "楽しめる", "reading": "たのしめる", "meaning": "즐길 수 있다"},
+        {"word": "という", "reading": "という", "meaning": "라는"},
+        {"word": "お声", "reading": "おこえ", "meaning": "목소리 (경어)"},
+        {"word": "を", "reading": "を", "meaning": "을/를"}
+      ]
+    },
+    {
+      "index": 18,
+      "start": 96.08,
+      "end": 99.04,
+      "textJa": "かなり日本のお客様から多くいただけるので",
+      "reading": "かなりにほんのおきゃくさまからおおくいただけるので",
+      "textKo": "상당히 일본 고객님들로부터 많이 받을 수 있기 때문에",
+      "words": [
+        {"word": "かなり", "reading": "かなり", "meaning": "상당히"},
+        {"word": "日本", "reading": "にほん", "meaning": "일본"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "お客様", "reading": "おきゃくさま", "meaning": "고객님 (경어)"},
+        {"word": "から", "reading": "から", "meaning": "로부터"},
+        {"word": "多く", "reading": "おおく", "meaning": "많이"},
+        {"word": "いただける", "reading": "いただける", "meaning": "받을 수 있다 (겸양)"},
+        {"word": "ので", "reading": "ので", "meaning": "때문에"}
+      ]
+    },
+    {
+      "index": 19,
+      "start": 99.04,
+      "end": 102.16,
+      "textJa": "私たちとしては来ていただけるお客様に",
+      "reading": "わたしたちとしてはきていただけるおきゃくさまに",
+      "textKo": "저희로서는 와 주시는 고객님께",
+      "words": [
+        {"word": "私たち", "reading": "わたしたち", "meaning": "저희"},
+        {"word": "としては", "reading": "としては", "meaning": "로서는"},
+        {"word": "来ていただける", "reading": "きていただける", "meaning": "와 주실 수 있는 (겸양)"},
+        {"word": "お客様", "reading": "おきゃくさま", "meaning": "고객님 (경어)"},
+        {"word": "に", "reading": "に", "meaning": "께, 에게"}
+      ]
+    },
+    {
+      "index": 20,
+      "start": 102.16,
+      "end": 108.22,
+      "textJa": "より楽しい時間を あとは美味しい商品をゆっくりと楽しめる時間を",
+      "reading": "よりたのしいじかんを あとはおいしいしょうひんをゆっくりとたのしめるじかんを",
+      "textKo": "더욱 즐거운 시간을, 그리고 맛있는 상품을 천천히 즐길 수 있는 시간을",
+      "words": [
+        {"word": "より", "reading": "より", "meaning": "더욱"},
+        {"word": "楽しい", "reading": "たのしい", "meaning": "즐거운"},
+        {"word": "時間", "reading": "じかん", "meaning": "시간"},
+        {"word": "を", "reading": "を", "meaning": "을/를"},
+        {"word": "あとは", "reading": "あとは", "meaning": "그리고는"},
+        {"word": "美味しい", "reading": "おいしい", "meaning": "맛있는"},
+        {"word": "商品", "reading": "しょうひん", "meaning": "상품"},
+        {"word": "をゆっくりと", "reading": "をゆっくりと", "meaning": "을 천천히"},
+        {"word": "楽しめる", "reading": "たのしめる", "meaning": "즐길 수 있는"}
+      ]
+    },
+    {
+      "index": 21,
+      "start": 108.22,
+      "end": 111.68,
+      "textJa": "提供できればと思って接客に当たっています",
+      "reading": "ていきょうできればとおもってせっきゃくにあたっています",
+      "textKo": "제공할 수 있으면 한다고 생각하며 접객에 임하고 있습니다",
+      "words": [
+        {"word": "提供できれば", "reading": "ていきょうできれば", "meaning": "제공할 수 있으면"},
+        {"word": "と思って", "reading": "とおもって", "meaning": "라고 생각하며"},
+        {"word": "接客", "reading": "せっきゃく", "meaning": "접객"},
+        {"word": "に当たっています", "reading": "にあたっています", "meaning": "에 임하고 있습니다"}
+      ]
+    },
+    {
+      "index": 22,
+      "start": 115.66,
+      "end": 122.26,
+      "textJa": "春節の連休であれば 例年初日から中国人観光客が多いという",
+      "reading": "しゅんせつのれんきゅうであれば れいねんしょにちからちゅうごくじんかんこうきゃくがおおいという",
+      "textKo": "춘절 연휴라면 평년에는 첫날부터 중국인 관광객이 많다는",
+      "words": [
+        {"word": "春節の連休", "reading": "しゅんせつのれんきゅう", "meaning": "춘절 연휴"},
+        {"word": "であれば", "reading": "であれば", "meaning": "라면"},
+        {"word": "例年", "reading": "れいねん", "meaning": "평년"},
+        {"word": "初日から", "reading": "しょにちから", "meaning": "첫날부터"},
+        {"word": "中国人観光客", "reading": "ちゅうごくじんかんこうきゃく", "meaning": "중국인 관광객"},
+        {"word": "が多い", "reading": "がおおい", "meaning": "이 많다"},
+        {"word": "という", "reading": "という", "meaning": "라는"}
+      ]
+    },
+    {
+      "index": 23,
+      "start": 122.26,
+      "end": 124.54,
+      "textJa": "秋葉原のメイド喫茶も",
+      "reading": "あきはばらのめいどきっさも",
+      "textKo": "아키하바라의 메이드 카페도",
+      "words": [
+        {"word": "秋葉原", "reading": "あきはばら", "meaning": "아키하바라"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "メイド喫茶", "reading": "めいどきっさ", "meaning": "메이드 카페"},
+        {"word": "も", "reading": "も", "meaning": "도"}
+      ]
+    },
+    {
+      "index": 24,
+      "start": 131.3,
+      "end": 134.46,
+      "textJa": "去年と比べると10分の1ぐらいですかね",
+      "reading": "きょねんとくらべるとじゅうぶんのいちぐらいですかね",
+      "textKo": "작년과 비교하면 10분의 1 정도인가요",
+      "words": [
+        {"word": "去年と比べると", "reading": "きょねんとくらべると", "meaning": "작년과 비교하면"},
+        {"word": "10分の1", "reading": "じゅうぶんのいち", "meaning": "10분의 1"},
+        {"word": "ぐらい", "reading": "ぐらい", "meaning": "정도"},
+        {"word": "ですかね", "reading": "ですかね", "meaning": "인가요 (확인)"}
+      ]
+    },
+    {
+      "index": 25,
+      "start": 134.46,
+      "end": 137.84,
+      "textJa": "減っていて今までだと一番多かったのが",
+      "reading": "へっていてまでだといちばんおおかったのが",
+      "textKo": "줄어들고 있어서 지금까지라면 가장 많았던 것이",
+      "words": [
+        {"word": "減っていて", "reading": "へっていて", "meaning": "줄어들고 있어서"},
+        {"word": "今まで", "reading": "いままで", "meaning": "지금까지"},
+        {"word": "だと", "reading": "だと", "meaning": "라면"},
+        {"word": "一番多かった", "reading": "いちばんおおかった", "meaning": "가장 많았던"},
+        {"word": "のが", "reading": "のが", "meaning": "것이"}
+      ]
+    },
+    {
+      "index": 26,
+      "start": 137.84,
+      "end": 141.58,
+      "textJa": "中国の方なんですけど 今だと大体6番目とか7番目とか",
+      "reading": "ちゅうごくのかたなんですけど いまだとだいたいろくばんめとかしちばんめとか",
+      "textKo": "중국인이었는데요, 지금은 대략 6위라든가 7위라든가",
+      "words": [
+        {"word": "中国の方", "reading": "ちゅうごくのかた", "meaning": "중국인, 중국 분"},
+        {"word": "なんですけど", "reading": "なんですけど", "meaning": "인데요"},
+        {"word": "今だと", "reading": "いまだと", "meaning": "지금은"},
+        {"word": "大体", "reading": "だいたい", "meaning": "대략"},
+        {"word": "6番目とか7番目とか", "reading": "ろくばんめとかしちばんめとか", "meaning": "6위라든가 7위라든가"}
+      ]
+    },
+    {
+      "index": 27,
+      "start": 145.5,
+      "end": 148.44,
+      "textJa": "ただ売上への影響については",
+      "reading": "ただうりあげへのえいきょうについては",
+      "textKo": "다만 매출에 대한 영향에 대해서는",
+      "words": [
+        {"word": "ただ", "reading": "ただ", "meaning": "다만"},
+        {"word": "売上", "reading": "うりあげ", "meaning": "매출"},
+        {"word": "への", "reading": "への", "meaning": "에 대한"},
+        {"word": "影響", "reading": "えいきょう", "meaning": "영향"},
+        {"word": "については", "reading": "については", "meaning": "에 대해서는"}
+      ]
+    },
+    {
+      "index": 28,
+      "start": 163.58,
+      "end": 169.04,
+      "textJa": "こうした中中国以外からの観光客を狙った動きも",
+      "reading": "こうしたなかちゅうごくいがいからのかんこうきゃくをねらったうごきも",
+      "textKo": "이러한 가운데 중국 이외에서 온 관광객을 겨냥한 움직임도",
+      "words": [
+        {"word": "こうした中", "reading": "こうしたなか", "meaning": "이러한 가운데"},
+        {"word": "中国以外", "reading": "ちゅうごくいがい", "meaning": "중국 이외"},
+        {"word": "からの", "reading": "からの", "meaning": "에서 온"},
+        {"word": "観光客", "reading": "かんこうきゃく", "meaning": "관광객"},
+        {"word": "を狙った", "reading": "をねらった", "meaning": "을 겨냥한"},
+        {"word": "動き", "reading": "うごき", "meaning": "움직임"},
+        {"word": "も", "reading": "も", "meaning": "도"}
+      ]
+    },
+    {
+      "index": 29,
+      "start": 171.22,
+      "end": 175.96,
+      "textJa": "こちらは福岡空港で行われたイチゴの試食会",
+      "reading": "こちらはふくおかくうこうでおこなわれたいちごのししょくかい",
+      "textKo": "이쪽은 후쿠오카 공항에서 열린 딸기 시식회",
+      "words": [
+        {"word": "こちら", "reading": "こちら", "meaning": "이쪽"},
+        {"word": "は", "reading": "は", "meaning": "은/는"},
+        {"word": "福岡空港", "reading": "ふくおかくうこう", "meaning": "후쿠오카 공항"},
+        {"word": "で", "reading": "で", "meaning": "에서"},
+        {"word": "行われた", "reading": "おこなわれた", "meaning": "열린, 진행된"},
+        {"word": "イチゴ", "reading": "いちご", "meaning": "딸기"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "試食会", "reading": "ししょくかい", "meaning": "시식회"}
+      ]
+    },
+    {
+      "index": 30,
+      "start": 183.58,
+      "end": 187.84,
+      "textJa": "九州のイチゴの品質をアピールするイベントですが",
+      "reading": "きゅうしゅうのいちごのひんしつをあぴーるするいべんとですが",
+      "textKo": "규슈 딸기의 품질을 어필하는 이벤트입니다만",
+      "words": [
+        {"word": "九州", "reading": "きゅうしゅう", "meaning": "규슈"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "イチゴ", "reading": "いちご", "meaning": "딸기"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "品質", "reading": "ひんしつ", "meaning": "품질"},
+        {"word": "をアピールする", "reading": "をあぴーるする", "meaning": "을 어필하는"},
+        {"word": "イベント", "reading": "いべんと", "meaning": "이벤트"},
+        {"word": "ですが", "reading": "ですが", "meaning": "입니다만"}
+      ]
+    },
+    {
+      "index": 31,
+      "start": 188.42,
+      "end": 193.2,
+      "textJa": "主なターゲットは東南アジアからの観光客だといいます",
+      "reading": "おもなたーげっとはとうなんあじあからのかんこうきゃくだといいます",
+      "textKo": "주요 타겟은 동남아시아에서 온 관광객이라고 합니다",
+      "words": [
+        {"word": "主な", "reading": "おもな", "meaning": "주요한"},
+        {"word": "ターゲット", "reading": "たーげっと", "meaning": "타겟"},
+        {"word": "は", "reading": "は", "meaning": "은/는"},
+        {"word": "東南アジア", "reading": "とうなんあじあ", "meaning": "동남아시아"},
+        {"word": "からの", "reading": "からの", "meaning": "에서 온"},
+        {"word": "観光客", "reading": "かんこうきゃく", "meaning": "관광객"},
+        {"word": "だといいます", "reading": "だといいます", "meaning": "이라고 합니다"}
+      ]
+    },
+    {
+      "index": 32,
+      "start": 194.34,
+      "end": 199.62,
+      "textJa": "今までは中国とか韓国の方台湾の方が多いわけですけれども",
+      "reading": "いままではちゅうごくとかかんこくのかたたいわんのかたがおおいわけですけれども",
+      "textKo": "지금까지는 중국이라든가 한국 분, 대만 분이 많은 것이었는데요",
+      "words": [
+        {"word": "今まで", "reading": "いままで", "meaning": "지금까지"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "中国とか韓国の方", "reading": "ちゅうごくとかかんこくのかた", "meaning": "중국이라든가 한국 분"},
+        {"word": "台湾の方", "reading": "たいわんのかた", "meaning": "대만 분"},
+        {"word": "が多い", "reading": "がおおい", "meaning": "이 많다"},
+        {"word": "わけですけれども", "reading": "わけですけれども", "meaning": "것이었는데요"}
+      ]
+    },
+    {
+      "index": 33,
+      "start": 201.3,
+      "end": 204.48,
+      "textJa": "タイの方とかベトナムとかシンガポール",
+      "reading": "たいのかたとかべとなむとかしんがぽーる",
+      "textKo": "태국 분이라든가 베트남이라든가 싱가포르",
+      "words": [
+        {"word": "タイの方", "reading": "たいのかた", "meaning": "태국 분"},
+        {"word": "とか", "reading": "とか", "meaning": "라든가"},
+        {"word": "ベトナム", "reading": "べとなむ", "meaning": "베트남"},
+        {"word": "とか", "reading": "とか", "meaning": "라든가"},
+        {"word": "シンガポール", "reading": "しんがぽーる", "meaning": "싱가포르"}
+      ]
+    },
+    {
+      "index": 34,
+      "start": 204.48,
+      "end": 207.24,
+      "textJa": "東南アジアの皆さん方にもしっかりと",
+      "reading": "とうなんあじあのみなさんがたにもしっかりと",
+      "textKo": "동남아시아 여러분들께도 제대로",
+      "words": [
+        {"word": "東南アジア", "reading": "とうなんあじあ", "meaning": "동남아시아"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "皆さん方", "reading": "みなさんがた", "meaning": "여러분들 (경어)"},
+        {"word": "にも", "reading": "にも", "meaning": "께도"},
+        {"word": "しっかりと", "reading": "しっかりと", "meaning": "제대로, 확실히"}
+      ]
+    },
+    {
+      "index": 35,
+      "start": 211.0,
+      "end": 213.58,
+      "textJa": "中国の大手旅行会社によると",
+      "reading": "ちゅうごくのおおてりょこうがいしゃによると",
+      "textKo": "중국의 대형 여행사에 따르면",
+      "words": [
+        {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "大手", "reading": "おおて", "meaning": "대형"},
+        {"word": "旅行会社", "reading": "りょこうがいしゃ", "meaning": "여행사"},
+        {"word": "によると", "reading": "によると", "meaning": "에 따르면"}
+      ]
+    },
+    {
+      "index": 36,
+      "start": 213.58,
+      "end": 218.6,
+      "textJa": "春節の海外旅行先として例年人気だった日本",
+      "reading": "しゅんせつのかいがいりょこうさきとしてれいねんにんきだったにほん",
+      "textKo": "춘절 해외여행지로서 평년에 인기였던 일본",
+      "words": [
+        {"word": "春節", "reading": "しゅんせつ", "meaning": "춘절"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "海外旅行先", "reading": "かいがいりょこうさき", "meaning": "해외여행지"},
+        {"word": "として", "reading": "として", "meaning": "로서"},
+        {"word": "例年", "reading": "れいねん", "meaning": "평년"},
+        {"word": "人気だった", "reading": "にんきだった", "meaning": "인기였던"},
+        {"word": "日本", "reading": "にほん", "meaning": "일본"}
+      ]
+    },
+    {
+      "index": 37,
+      "start": 219.56,
+      "end": 221.56,
+      "textJa": "去年は3位でしたが",
+      "reading": "きょねんはさんいでしたが",
+      "textKo": "작년에는 3위였지만",
+      "words": [
+        {"word": "去年", "reading": "きょねん", "meaning": "작년"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "3位", "reading": "さんい", "meaning": "3위"},
+        {"word": "でしたが", "reading": "でしたが", "meaning": "였지만"}
+      ]
+    },
+    {
+      "index": 38,
+      "start": 221.56,
+      "end": 224.5,
+      "textJa": "今年は大きく順位を下げ",
+      "reading": "ことしはおおきくじゅんいをさげ",
+      "textKo": "올해는 크게 순위가 떨어져",
+      "words": [
+        {"word": "今年", "reading": "ことし", "meaning": "올해"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "大きく", "reading": "おおきく", "meaning": "크게"},
+        {"word": "順位", "reading": "じゅんい", "meaning": "순위"},
+        {"word": "を下げ", "reading": "をさげ", "meaning": "를 낮춰"}
+      ]
+    },
+    {
+      "index": 39,
+      "start": 224.5,
+      "end": 226.94,
+      "textJa": "トップ10にも入っておらず",
+      "reading": "とっぷてんにもはいっておらず",
+      "textKo": "상위 10위에도 들지 못하고",
+      "words": [
+        {"word": "トップ10", "reading": "とっぷてん", "meaning": "상위 10위"},
+        {"word": "にも", "reading": "にも", "meaning": "에도"},
+        {"word": "入っておらず", "reading": "はいっておらず", "meaning": "들지 못하고"}
+      ]
+    },
+    {
+      "index": 40,
+      "start": 227.48,
+      "end": 229.92,
+      "textJa": "1位は韓国という結果に",
+      "reading": "いちいはかんこくというけっかに",
+      "textKo": "1위는 한국이라는 결과로",
+      "words": [
+        {"word": "1位", "reading": "いちい", "meaning": "1위"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "韓国", "reading": "かんこく", "meaning": "한국"},
+        {"word": "という", "reading": "という", "meaning": "라는"},
+        {"word": "結果に", "reading": "けっかに", "meaning": "결과로"}
+      ]
+    },
+    {
+      "index": 41,
+      "start": 232.2,
+      "end": 236.18,
+      "textJa": "韓国メディアはあるシンクタンクの調査結果として",
+      "reading": "かんこくめでぃあはあるしんくたんくのちょうさけっかとして",
+      "textKo": "한국 미디어는 어떤 싱크탱크의 조사 결과로서",
+      "words": [
+        {"word": "韓国メディア", "reading": "かんこくめでぃあ", "meaning": "한국 미디어"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "ある", "reading": "ある", "meaning": "어떤"},
+        {"word": "シンクタンク", "reading": "しんくたんく", "meaning": "싱크탱크"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "調査結果", "reading": "ちょうさけっか", "meaning": "조사 결과"},
+        {"word": "として", "reading": "として", "meaning": "로서"}
+      ]
+    },
+    {
+      "index": 42,
+      "start": 236.84,
+      "end": 242.84,
+      "textJa": "春節の連休中に最大25万人の中国人観光客が",
+      "reading": "しゅんせつのれんきゅうちゅうにさいだいにじゅうごまんにんのちゅうごくじんかんこうきゃくが",
+      "textKo": "춘절 연휴 중에 최대 25만 명의 중국인 관광객이",
+      "words": [
+        {"word": "春節の連休中", "reading": "しゅんせつのれんきゅうちゅう", "meaning": "춘절 연휴 중"},
+        {"word": "に", "reading": "に", "meaning": "에"},
+        {"word": "最大", "reading": "さいだい", "meaning": "최대"},
+        {"word": "25万人", "reading": "にじゅうごまんにん", "meaning": "25만 명"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "中国人観光客", "reading": "ちゅうごくじんかんこうきゃく", "meaning": "중국인 관광객"},
+        {"word": "が", "reading": "が", "meaning": "이/가"}
+      ]
+    },
+    {
+      "index": 43,
+      "start": 242.84,
+      "end": 246.08,
+      "textJa": "韓国に訪れる見通しと伝えています",
+      "reading": "かんこくにおとずれるみとおしとつたえています",
+      "textKo": "한국을 방문할 전망이라고 전하고 있습니다",
+      "words": [
+        {"word": "韓国に", "reading": "かんこくに", "meaning": "한국을"},
+        {"word": "訪れる", "reading": "おとずれる", "meaning": "방문하다"},
+        {"word": "見通し", "reading": "みとおし", "meaning": "전망"},
+        {"word": "と", "reading": "と", "meaning": "이라고"},
+        {"word": "伝えています", "reading": "つたえています", "meaning": "전하고 있습니다"}
+      ]
+    },
+    {
+      "index": 44,
+      "start": 247.26,
+      "end": 251.46,
+      "textJa": "これは去年に比べ5割増しだということです",
+      "reading": "これはきょねんにくらべごわりましだということです",
+      "textKo": "이것은 작년에 비해 50% 증가라는 것입니다",
+      "words": [
+        {"word": "これは", "reading": "これは", "meaning": "이것은"},
+        {"word": "去年に比べ", "reading": "きょねんにくらべ", "meaning": "작년에 비해"},
+        {"word": "5割増し", "reading": "ごわりまし", "meaning": "5할 증가, 50% 증가"},
+        {"word": "だということ", "reading": "だということ", "meaning": "라는 것"},
+        {"word": "です", "reading": "です", "meaning": "입니다"}
+      ]
+    },
+    {
+      "index": 45,
+      "start": 252.98,
+      "end": 256.84,
+      "textJa": "ソウルの美容クリニックに話を聞いてみると",
+      "reading": "そうるのびようくりにっくにはなしをきいてみると",
+      "textKo": "서울의 미용 클리닉에 이야기를 들어봤더니",
+      "words": [
+        {"word": "ソウル", "reading": "そうる", "meaning": "서울"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "美容クリニック", "reading": "びようくりにっく", "meaning": "미용 클리닉"},
+        {"word": "に", "reading": "に", "meaning": "에"},
+        {"word": "話を聞いてみると", "reading": "はなしをきいてみると", "meaning": "이야기를 들어봤더니"}
+      ]
+    },
+    {
+      "index": 46,
+      "start": 258.7,
+      "end": 263.38,
+      "textJa": "今年は例年の2倍以上中国からのお客さんが増えました",
+      "reading": "ことしはれいねんのにばいいじょうちゅうごくからのおきゃくさんがふえました",
+      "textKo": "올해는 평년의 2배 이상 중국에서 온 고객이 늘었습니다",
+      "words": [
+        {"word": "今年", "reading": "ことし", "meaning": "올해"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "例年の2倍以上", "reading": "れいねんのにばいいじょう", "meaning": "평년의 2배 이상"},
+        {"word": "中国からの", "reading": "ちゅうごくからの", "meaning": "중국에서 온"},
+        {"word": "お客さん", "reading": "おきゃくさん", "meaning": "고객, 손님"},
+        {"word": "が増えました", "reading": "がふえました", "meaning": "이 늘었습니다"}
+      ]
+    },
+    {
+      "index": 47,
+      "start": 263.98,
+      "end": 267.02,
+      "textJa": "旧正月の間は予約がパンパンです",
+      "reading": "きゅうしょうがつのあいだはよやくがぱんぱんです",
+      "textKo": "구정 기간에는 예약이 꽉 찼습니다",
+      "words": [
+        {"word": "旧正月の間", "reading": "きゅうしょうがつのあいだ", "meaning": "구정 기간"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "予約", "reading": "よやく", "meaning": "예약"},
+        {"word": "が", "reading": "が", "meaning": "이/가"},
+        {"word": "パンパン", "reading": "ぱんぱん", "meaning": "가득, 꽉"},
+        {"word": "です", "reading": "です", "meaning": "입니다"}
+      ]
+    },
+    {
+      "index": 48,
+      "start": 268.7,
+      "end": 272.72,
+      "textJa": "こうした中中国国内の観光も人気に",
+      "reading": "こうしたなかちゅうごくこくないのかんこうもにんきに",
+      "textKo": "이러한 가운데 중국 국내 관광도 인기를 끌고",
+      "words": [
+        {"word": "こうした中", "reading": "こうしたなか", "meaning": "이러한 가운데"},
+        {"word": "中国国内", "reading": "ちゅうごくこくない", "meaning": "중국 국내"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "観光", "reading": "かんこう", "meaning": "관광"},
+        {"word": "も", "reading": "も", "meaning": "도"},
+        {"word": "人気に", "reading": "にんきに", "meaning": "인기를 끌다"}
+      ]
+    },
+    {
+      "index": 49,
+      "start": 273.88,
+      "end": 277.6,
+      "textJa": "政府はおよそ450億円を投じ",
+      "reading": "せいふはおよそよんひゃくごじゅうおくえんをとうじ",
+      "textKo": "정부는 약 450억 엔을 투입해",
+      "words": [
+        {"word": "政府", "reading": "せいふ", "meaning": "정부"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "およそ", "reading": "およそ", "meaning": "약"},
+        {"word": "450億円", "reading": "よんひゃくごじゅうおくえん", "meaning": "450억 엔"},
+        {"word": "を投じ", "reading": "をとうじ", "meaning": "을 투입해"}
+      ]
+    },
+    {
+      "index": 50,
+      "start": 277.6,
+      "end": 280.88,
+      "textJa": "お年玉や消費券を配布して",
+      "reading": "おとしだまやしょうひけんをはいふして",
+      "textKo": "세뱃돈과 소비 쿠폰을 배포해서",
+      "words": [
+        {"word": "お年玉", "reading": "おとしだま", "meaning": "세뱃돈, 설 용돈"},
+        {"word": "や", "reading": "や", "meaning": "와/과"},
+        {"word": "消費券", "reading": "しょうひけん", "meaning": "소비 쿠폰"},
+        {"word": "を配布して", "reading": "をはいふして", "meaning": "를 배포해서"}
+      ]
+    },
+    {
+      "index": 51,
+      "start": 280.88,
+      "end": 284.2,
+      "textJa": "国内での消費拡大を狙っています",
+      "reading": "こくないでのしょうひかくだいをねらっています",
+      "textKo": "국내 소비 확대를 노리고 있습니다",
+      "words": [
+        {"word": "国内での", "reading": "こくないでの", "meaning": "국내에서의"},
+        {"word": "消費拡大", "reading": "しょうひかくだい", "meaning": "소비 확대"},
+        {"word": "を狙っています", "reading": "をねらっています", "meaning": "를 노리고 있습니다"}
+      ]
+    },
+    {
+      "index": 52,
+      "start": 285.46,
+      "end": 290.06,
+      "textJa": "その恩恵はこれまで注目されていなかった地域にも",
+      "reading": "そのおんけいはこれまでちゅうもくされていなかったちいきにも",
+      "textKo": "그 혜택은 지금까지 주목받지 못했던 지역에도",
+      "words": [
+        {"word": "その", "reading": "その", "meaning": "그"},
+        {"word": "恩恵", "reading": "おんけい", "meaning": "혜택"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "これまで", "reading": "これまで", "meaning": "지금까지"},
+        {"word": "注目されていなかった", "reading": "ちゅうもくされていなかった", "meaning": "주목받지 못했던"},
+        {"word": "地域にも", "reading": "ちいきにも", "meaning": "지역에도"}
+      ]
+    },
+    {
+      "index": 53,
+      "start": 293.72,
+      "end": 298.74,
+      "textJa": "山々に囲まれた中国南西部紀州省の村",
+      "reading": "やまやまにかこまれたちゅうごくなんせいぶきしゅうしょうのむら",
+      "textKo": "산들에 둘러싸인 중국 남서부 귀주성의 마을",
+      "words": [
+        {"word": "山々に囲まれた", "reading": "やまやまにかこまれた", "meaning": "산들에 둘러싸인"},
+        {"word": "中国南西部", "reading": "ちゅうごくなんせいぶ", "meaning": "중국 남서부"},
+        {"word": "紀州省", "reading": "きしゅうしょう", "meaning": "귀주성 (贵州省)"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "村", "reading": "むら", "meaning": "마을"}
+      ]
+    },
+    {
+      "index": 54,
+      "start": 300.02,
+      "end": 305.06,
+      "textJa": "目玉は去年9月に開通したこの巨大な橋",
+      "reading": "めだまはきょねんくがつにかいつうしたこのきょだいなはし",
+      "textKo": "주목할 것은 작년 9월에 개통한 이 거대한 다리",
+      "words": [
+        {"word": "目玉", "reading": "めだま", "meaning": "주목할 것, 볼거리"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "去年9月", "reading": "きょねんくがつ", "meaning": "작년 9월"},
+        {"word": "に開通した", "reading": "にかいつうした", "meaning": "에 개통한"},
+        {"word": "この", "reading": "この", "meaning": "이"},
+        {"word": "巨大な", "reading": "きょだいな", "meaning": "거대한"},
+        {"word": "橋", "reading": "はし", "meaning": "다리"}
+      ]
+    },
+    {
+      "index": 55,
+      "start": 305.88,
+      "end": 312.38,
+      "textJa": "川の水面からの高さは625メートルで世界一です",
+      "reading": "かわのすいめんからのたかさはろっぴゃくにじゅうごめーとるでせかいいちです",
+      "textKo": "강의 수면으로부터 높이는 625미터로 세계 최고입니다",
+      "words": [
+        {"word": "川の水面から", "reading": "かわのすいめんから", "meaning": "강의 수면으로부터"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "高さ", "reading": "たかさ", "meaning": "높이"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "625メートル", "reading": "ろっぴゃくにじゅうごめーとる", "meaning": "625미터"},
+        {"word": "で", "reading": "で", "meaning": "으로"},
+        {"word": "世界一", "reading": "せかいいち", "meaning": "세계 최고"}
+      ]
+    },
+    {
+      "index": 56,
+      "start": 313.98,
+      "end": 319.1,
+      "textJa": "床がガラス張りの部分からは背筋が凍るような絶景が",
+      "reading": "ゆかががらすばりのぶぶんからはせすじがこおるようなぜっけいが",
+      "textKo": "바닥이 유리로 된 부분에서는 등골이 오싹해지는 절경이",
+      "words": [
+        {"word": "床", "reading": "ゆか", "meaning": "바닥"},
+        {"word": "が", "reading": "が", "meaning": "이/가"},
+        {"word": "ガラス張り", "reading": "がらすばり", "meaning": "유리로 된"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "部分から", "reading": "ぶぶんから", "meaning": "부분에서"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "背筋が凍るような", "reading": "せすじがこおるような", "meaning": "등골이 오싹해지는"},
+        {"word": "絶景", "reading": "ぜっけい", "meaning": "절경"},
+        {"word": "が", "reading": "が", "meaning": "이/가"}
+      ]
+    },
+    {
+      "index": 57,
+      "start": 327.36,
+      "end": 331.34,
+      "textJa": "地元政府は観光客を呼び込む起爆剤として",
+      "reading": "じもとせいふはかんこうきゃくをよびこむきばくざいとして",
+      "textKo": "지역 정부는 관광객을 끌어들이는 기폭제로서",
+      "words": [
+        {"word": "地元政府", "reading": "じもとせいふ", "meaning": "지역 정부"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "観光客を呼び込む", "reading": "かんこうきゃくをよびこむ", "meaning": "관광객을 끌어들이는"},
+        {"word": "起爆剤", "reading": "きばくざい", "meaning": "기폭제"},
+        {"word": "として", "reading": "として", "meaning": "로서"}
+      ]
+    },
+    {
+      "index": 58,
+      "start": 331.34,
+      "end": 334.34,
+      "textJa": "バンジージャンプも設置",
+      "reading": "ばんじーじゃんぷもせっち",
+      "textKo": "번지점프도 설치",
+      "words": [
+        {"word": "バンジージャンプ", "reading": "ばんじーじゃんぷ", "meaning": "번지점프"},
+        {"word": "も", "reading": "も", "meaning": "도"},
+        {"word": "設置", "reading": "せっち", "meaning": "설치"}
+      ]
+    },
+    {
+      "index": 59,
+      "start": 342.84,
+      "end": 344.94,
+      "textJa": "記者も挑戦してみました",
+      "reading": "きしゃもちょうせんしてみました",
+      "textKo": "기자도 도전해 봤습니다",
+      "words": [
+        {"word": "記者", "reading": "きしゃ", "meaning": "기자"},
+        {"word": "も", "reading": "も", "meaning": "도"},
+        {"word": "挑戦してみました", "reading": "ちょうせんしてみました", "meaning": "도전해 봤습니다"}
+      ]
+    },
+    {
+      "index": 60,
+      "start": 348.44,
+      "end": 350.78,
+      "textJa": "3,2,1,1",
+      "reading": "さん、に、いち、いち",
+      "textKo": "3, 2, 1, 1",
+      "words": [
+        {"word": "3", "reading": "さん", "meaning": "3"},
+        {"word": "2", "reading": "に", "meaning": "2"},
+        {"word": "1", "reading": "いち", "meaning": "1"}
+      ]
+    },
+    {
+      "index": 61,
+      "start": 371.04,
+      "end": 376.08,
+      "textJa": "625メートルもの高さから飛び降りたその景色は",
+      "reading": "ろっぴゃくにじゅうごめーとるものたかさからとびおりたそのけしきは",
+      "textKo": "625미터나 되는 높이에서 뛰어내린 그 경치는",
+      "words": [
+        {"word": "625メートルもの", "reading": "ろっぴゃくにじゅうごめーとるもの", "meaning": "625미터나 되는"},
+        {"word": "高さから", "reading": "たかさから", "meaning": "높이에서"},
+        {"word": "飛び降りた", "reading": "とびおりた", "meaning": "뛰어내린"},
+        {"word": "その", "reading": "その", "meaning": "그"},
+        {"word": "景色", "reading": "けしき", "meaning": "경치"},
+        {"word": "は", "reading": "は", "meaning": "는"}
+      ]
+    },
+    {
+      "index": 62,
+      "start": 377.9,
+      "end": 381.84,
+      "textJa": "世界一の橋ならではの爽快な体験ができました",
+      "reading": "せかいいちのはしならではのそうかいなたいけんができました",
+      "textKo": "세계 최고의 다리만이 줄 수 있는 상쾌한 체험을 할 수 있었습니다",
+      "words": [
+        {"word": "世界一の橋", "reading": "せかいいちのはし", "meaning": "세계 최고의 다리"},
+        {"word": "ならではの", "reading": "ならではの", "meaning": "만이 줄 수 있는"},
+        {"word": "爽快な", "reading": "そうかいな", "meaning": "상쾌한"},
+        {"word": "体験", "reading": "たいけん", "meaning": "체험"},
+        {"word": "ができました", "reading": "ができました", "meaning": "를 할 수 있었습니다"}
+      ]
+    },
+    {
+      "index": 63,
+      "start": 386.12,
+      "end": 389.54,
+      "textJa": "橋の周辺には観光客を見込んで",
+      "reading": "はしのしゅうへんにはかんこうきゃくをみこんで",
+      "textKo": "다리 주변에는 관광객을 예상해",
+      "words": [
+        {"word": "橋の周辺", "reading": "はしのしゅうへん", "meaning": "다리 주변"},
+        {"word": "には", "reading": "には", "meaning": "에는"},
+        {"word": "観光客を見込んで", "reading": "かんこうきゃくをみこんで", "meaning": "관광객을 예상해"}
+      ]
+    },
+    {
+      "index": 64,
+      "start": 389.54,
+      "end": 392.48,
+      "textJa": "飲食店などが続々とオープン",
+      "reading": "いんしょくてんなどがぞくぞくとおーぷん",
+      "textKo": "음식점 등이 잇따라 오픈",
+      "words": [
+        {"word": "飲食店", "reading": "いんしょくてん", "meaning": "음식점"},
+        {"word": "などが", "reading": "などが", "meaning": "등이"},
+        {"word": "続々と", "reading": "ぞくぞくと", "meaning": "잇따라"},
+        {"word": "オープン", "reading": "おーぷん", "meaning": "오픈"}
+      ]
+    },
+    {
+      "index": 65,
+      "start": 393.94,
+      "end": 397.64,
+      "textJa": "村はこれまでにない特殊に湧いています",
+      "reading": "むらはこれまでにないとくしゅにわいています",
+      "textKo": "마을은 지금까지 없었던 특별한 활기로 들떠 있습니다",
+      "words": [
+        {"word": "村", "reading": "むら", "meaning": "마을"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "これまでにない", "reading": "これまでにない", "meaning": "지금까지 없었던"},
+        {"word": "特殊に", "reading": "とくしゅに", "meaning": "특별하게"},
+        {"word": "湧いています", "reading": "わいています", "meaning": "들떠 있습니다, 활기차다"}
+      ]
+    },
+    {
+      "index": 66,
+      "start": 400.52,
+      "end": 404.88,
+      "textJa": "ここの住民にとって経済効果は目を見張るものがある",
+      "reading": "ここのじゅうみんにとってけいざいこうかはめをみはるものがある",
+      "textKo": "이곳 주민들에게 있어 경제 효과는 눈이 휘둥그래질 만한 것이 있다",
+      "words": [
+        {"word": "ここの住民にとって", "reading": "ここのじゅうみんにとって", "meaning": "이곳 주민들에게 있어"},
+        {"word": "経済効果", "reading": "けいざいこうか", "meaning": "경제 효과"},
+        {"word": "は", "reading": "は", "meaning": "는"},
+        {"word": "目を見張るものがある", "reading": "めをみはるものがある", "meaning": "눈이 휘둥그래질 만한 것이 있다"}
+      ]
+    },
+    {
+      "index": 67,
+      "start": 405.64,
+      "end": 409.02,
+      "textJa": "これも橋が私たちにもたらしたボーナスだ",
+      "reading": "これもはしがわたしたちにもたらしたぼーなすだ",
+      "textKo": "이것도 다리가 우리에게 가져다준 보너스다",
+      "words": [
+        {"word": "これも", "reading": "これも", "meaning": "이것도"},
+        {"word": "橋が", "reading": "はしが", "meaning": "다리가"},
+        {"word": "私たちに", "reading": "わたしたちに", "meaning": "우리에게"},
+        {"word": "もたらした", "reading": "もたらした", "meaning": "가져다준"},
+        {"word": "ボーナス", "reading": "ぼーなす", "meaning": "보너스"},
+        {"word": "だ", "reading": "だ", "meaning": "이다"}
+      ]
+    },
+    {
+      "index": 68,
+      "start": 411.04,
+      "end": 413.2,
+      "textJa": "日中関係が冷え込む中",
+      "reading": "にっちゅうかんけいがひえこむなか",
+      "textKo": "일중 관계가 냉각되는 가운데",
+      "words": [
+        {"word": "日中関係", "reading": "にっちゅうかんけい", "meaning": "일중 관계"},
+        {"word": "が", "reading": "が", "meaning": "이/가"},
+        {"word": "冷え込む", "reading": "ひえこむ", "meaning": "냉각되다"},
+        {"word": "中", "reading": "なか", "meaning": "가운데"}
+      ]
+    },
+    {
+      "index": 69,
+      "start": 413.76,
+      "end": 417.82,
+      "textJa": "日本と中国の観光業にも変化が出ています",
+      "reading": "にほんとちゅうごくのかんこうぎょうにもへんかがでています",
+      "textKo": "일본과 중국의 관광업에도 변화가 나타나고 있습니다",
+      "words": [
+        {"word": "日本と中国", "reading": "にほんとちゅうごく", "meaning": "일본과 중국"},
+        {"word": "の", "reading": "の", "meaning": "의"},
+        {"word": "観光業", "reading": "かんこうぎょう", "meaning": "관광업"},
+        {"word": "にも", "reading": "にも", "meaning": "에도"},
+        {"word": "変化", "reading": "へんか", "meaning": "변화"},
+        {"word": "が出ています", "reading": "がでています", "meaning": "가 나타나고 있습니다"}
+      ]
+    },
+    {
+      "index": 70,
+      "start": 417.82,
+      "end": 418.8,
+      "textJa": "ご視聴ありがとうございました",
+      "reading": "ごしちょうありがとうございました",
+      "textKo": "시청해 주셔서 감사합니다",
+      "words": [
+        {"word": "ご視聴", "reading": "ごしちょう", "meaning": "시청 (경어)"},
+        {"word": "ありがとうございました", "reading": "ありがとうございました", "meaning": "감사합니다"}
+      ]
+    }
+  ]
+}

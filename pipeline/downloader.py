@@ -148,23 +148,35 @@ def download_audio(
 
 
 def extract_video_id_from_url(url: str) -> Optional[str]:
-    """Extract video ID from various YouTube URL formats.
+    """Extract video ID from various YouTube and bilibili URL formats.
 
     Args:
-        url: YouTube URL in any common format.
+        url: YouTube or bilibili URL in any common format.
 
     Returns:
         Video ID string, or None if extraction fails.
     """
-    patterns = [
+    # YouTube patterns
+    yt_patterns = [
         r"(?:v=|/v/|youtu\.be/)([a-zA-Z0-9_-]{11})",
         r"(?:embed/)([a-zA-Z0-9_-]{11})",
         r"(?:shorts/)([a-zA-Z0-9_-]{11})",
     ]
-    for pattern in patterns:
+    for pattern in yt_patterns:
         match = re.search(pattern, url)
         if match:
             return match.group(1)
+
+    # Bilibili patterns (BV ID)
+    bili_patterns = [
+        r"bilibili\.com/video/(BV[a-zA-Z0-9]+)",
+        r"b23\.tv/(BV[a-zA-Z0-9]+)",
+    ]
+    for pattern in bili_patterns:
+        match = re.search(pattern, url)
+        if match:
+            return match.group(1)
+
     return None
 
 

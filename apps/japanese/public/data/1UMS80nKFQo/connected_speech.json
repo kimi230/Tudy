@@ -1,0 +1,162 @@
+[
+  {
+    "type": "teineigo",
+    "originalText": "この写真 誰だかお分かりになるでしょうか",
+    "reading": "このしゃしん だれだかおわかりになるでしょうか",
+    "baseForm": "この写真 誰だかお分かりになるでしょうか",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "こうやって写真出してますからね だいたいこれは僕のなわけなんですけれども",
+    "reading": "こうやってしゃしんだしてますからね だいたいこれはぼくのなわけなんですけれども",
+    "baseForm": "こうやって写真出してからね だいたいこれ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "もう40年以上前の写真になりますかね",
+    "reading": "もう40ねんいじょうまえのしゃしんになりますかね",
+    "baseForm": "もう40年以上前の写真になりかね",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "40年ぐらい経つと人って結構変わるもんなんですね",
+    "reading": "40ねんぐらいたつとひとってけっこうかわるもんなんですね",
+    "baseForm": "40年ぐらい経つと人って結構変わるもんな",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "teineigo",
+    "originalText": "ですけど人はどうやって変わるのかという話とはちょっと違うんですね",
+    "reading": "ですけどひとはどうやってかわるのかというはなしとはちょっとちがうんですね",
+    "baseForm": "けど人はどうやって変わるのかという話とは",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "casual",
+    "originalText": "この当時僕はどんなことを考えていたのか",
+    "reading": "このとうじぼくはどんなことをかんがえていたのか",
+    "baseForm": "この当時僕はどんなことを考えていたのか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "teineigo",
+    "originalText": "そして実はつい最近まで同じようなことにある意味悩んでいたんですね",
+    "reading": "そしてじつはついさいきんまでおなじようなことにあるいみなやんでいたんですね",
+    "baseForm": "そして実はつい最近まで同じようなことにあ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "casual",
+    "originalText": "これはどういうことかというと 自分にしか見えている世界",
+    "reading": "これはどういうことかというと じぶんにしかみえているせかい",
+    "baseForm": "これはどういうことかというと 自分にしか",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "teineigo",
+    "originalText": "これが全てなのはなぜなんだろうかってずっと思ってたんですね",
+    "reading": "これがすべてなのはなぜなんだろうかってずっとおもってたんですね",
+    "baseForm": "これが全てなのはなぜなんだろうかってずっ",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "casual",
+    "originalText": "つまり家族が見えている世界っていうのは",
+    "reading": "つまりかぞくがみえているせかいっていうのは",
+    "baseForm": "つまり家族が見えている世界っていうのは",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "casual",
+    "originalText": "なんで僕は見えないのかな 友達が見えている世界っていうのは",
+    "reading": "なんでぼくはみえないのかな ともだちがみえているせかいっていうのは",
+    "baseForm": "なんで僕は見えないのかな 友達が見えてい",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "casual",
+    "originalText": "なんで自分は目にすることができないんだろうか",
+    "reading": "なんでじぶんはめにすることができないんだろうか",
+    "baseForm": "なんで自分は目にすることができないんだろ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "질문/확인 발화",
+    "segmentIndex": 11
+  },
+  {
+    "type": "teineigo",
+    "originalText": "これがどうしても分からなかったんですね",
+    "reading": "これがどうしてもわからなかったんですね",
+    "baseForm": "これがどうしても分からなかったんね",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "他の人には世界はどういうふうに見えているんだろうか",
+    "reading": "ほかのひとにはせかいはどういうふうにみえているんだろうか",
+    "baseForm": "他の人には世界はどういうふうに見えている",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "질문/확인 발화",
+    "segmentIndex": 13
+  },
+  {
+    "type": "teineigo",
+    "originalText": "これが子供の頃にずっと不思議なことだったんです",
+    "reading": "これがこどものころにずっとふしぎなことだったんです",
+    "baseForm": "これが子供の頃にずっと不思議なことだった",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "というのも他の友達たちは",
+    "reading": "というのもほかのともだちたちは",
+    "baseForm": "というのも他の友達たちは",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

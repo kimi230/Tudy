@@ -1,0 +1,514 @@
+[
+  {
+    "word": "挑戦",
+    "reading": "ちょうせん",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "challenge, attempt",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 34,
+    "contextSentence": "自分の限界にチャレンジするような、そういったレースとしてやっています。",
+    "kanjiReadings": [
+      {
+        "kanji": "挑",
+        "onyomi": "チョウ",
+        "kunyomi": "いど.む",
+        "meaning": "challenge, fight"
+      },
+      {
+        "kanji": "戦",
+        "onyomi": "セン",
+        "kunyomi": "たたか.う",
+        "meaning": "war, battle"
+      }
+    ]
+  },
+  {
+    "word": "山岳レース",
+    "reading": "さんがくれーす",
+    "partOfSpeech": "noun",
+    "definition": "mountain race",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 27,
+    "contextSentence": "変わったですね、誰がそんなことをやるんだというような山岳レースがあります。",
+    "kanjiReadings": [
+      {
+        "kanji": "山",
+        "onyomi": "サン",
+        "kunyomi": "やま",
+        "meaning": "mountain"
+      },
+      {
+        "kanji": "岳",
+        "onyomi": "ガク",
+        "kunyomi": "たけ",
+        "meaning": "peak, summit"
+      }
+    ]
+  },
+  {
+    "word": "制限時間",
+    "reading": "せいげんじかん",
+    "partOfSpeech": "noun",
+    "definition": "time limit",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 28,
+    "contextSentence": "制限時間は1週間以内にゴールすること。",
+    "kanjiReadings": [
+      {
+        "kanji": "制",
+        "onyomi": "セイ",
+        "kunyomi": null,
+        "meaning": "regulate, control"
+      },
+      {
+        "kanji": "限",
+        "onyomi": "ゲン",
+        "kunyomi": "かぎ.る",
+        "meaning": "limit, restrict"
+      },
+      {
+        "kanji": "時",
+        "onyomi": "ジ",
+        "kunyomi": "とき",
+        "meaning": "time"
+      }
+    ]
+  },
+  {
+    "word": "書類選考",
+    "reading": "しょるいせんこう",
+    "partOfSpeech": "noun",
+    "definition": "document screening, application review",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "参加するにもですね、書類選考があったり予選会があったりして。",
+    "kanjiReadings": [
+      {
+        "kanji": "書",
+        "onyomi": "ショ",
+        "kunyomi": "か.く",
+        "meaning": "write"
+      },
+      {
+        "kanji": "類",
+        "onyomi": "ルイ",
+        "kunyomi": null,
+        "meaning": "kind, category"
+      },
+      {
+        "kanji": "選",
+        "onyomi": "セン",
+        "kunyomi": "えら.ぶ",
+        "meaning": "select, choose"
+      }
+    ]
+  },
+  {
+    "word": "幻聴",
+    "reading": "げんちょう",
+    "partOfSpeech": "noun",
+    "definition": "auditory hallucination",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 1,
+    "isEssential": true,
+    "segmentIndex": 96,
+    "contextSentence": "幻聴が聞こえたりとか、あとは幻覚を見ますね。",
+    "kanjiReadings": [
+      {
+        "kanji": "幻",
+        "onyomi": "ゲン",
+        "kunyomi": "まぼろし",
+        "meaning": "phantom, illusion"
+      },
+      {
+        "kanji": "聴",
+        "onyomi": "チョウ",
+        "kunyomi": "き.く",
+        "meaning": "listen, hear"
+      }
+    ]
+  },
+  {
+    "word": "幻覚",
+    "reading": "げんかく",
+    "partOfSpeech": "noun",
+    "definition": "hallucination, illusion",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 1,
+    "isEssential": true,
+    "segmentIndex": 96,
+    "contextSentence": "まあ幻聴が聞こえたりとか、あとは幻覚を見ますね。",
+    "kanjiReadings": [
+      {
+        "kanji": "幻",
+        "onyomi": "ゲン",
+        "kunyomi": "まぼろし",
+        "meaning": "phantom, illusion"
+      },
+      {
+        "kanji": "覚",
+        "onyomi": "カク",
+        "kunyomi": "おぼ.える",
+        "meaning": "sense, memorize"
+      }
+    ]
+  },
+  {
+    "word": "五感",
+    "reading": "ごかん",
+    "partOfSpeech": "noun",
+    "definition": "five senses",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 86,
+    "contextSentence": "五感が研ぎ澄まされてくるような感覚になるんですね。",
+    "kanjiReadings": [
+      {
+        "kanji": "五",
+        "onyomi": "ゴ",
+        "kunyomi": "いつ",
+        "meaning": "five"
+      },
+      {
+        "kanji": "感",
+        "onyomi": "カン",
+        "kunyomi": null,
+        "meaning": "feeling, sense"
+      }
+    ]
+  },
+  {
+    "word": "研ぎ澄ます",
+    "reading": "とぎすます",
+    "partOfSpeech": "verb (godan)",
+    "definition": "to sharpen, to hone (one's senses)",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 1,
+    "isEssential": true,
+    "segmentIndex": 86,
+    "contextSentence": "五感が研ぎ澄まされてくるような感覚になるんですね。",
+    "kanjiReadings": [
+      {
+        "kanji": "研",
+        "onyomi": "ケン",
+        "kunyomi": "と.ぐ",
+        "meaning": "sharpen, grind"
+      },
+      {
+        "kanji": "澄",
+        "onyomi": "チョウ",
+        "kunyomi": "す.む",
+        "meaning": "clear, pure"
+      }
+    ]
+  },
+  {
+    "word": "後悔",
+    "reading": "こうかい",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "regret, remorse",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 67,
+    "contextSentence": "後悔が続いてやってきた結果の4回もやってしまったという感じなんですけども。",
+    "kanjiReadings": [
+      {
+        "kanji": "後",
+        "onyomi": "ゴ/コウ",
+        "kunyomi": "のち/うし.ろ",
+        "meaning": "after, behind"
+      },
+      {
+        "kanji": "悔",
+        "onyomi": "カイ",
+        "kunyomi": "く.やむ",
+        "meaning": "regret, repent"
+      }
+    ]
+  },
+  {
+    "word": "限界",
+    "reading": "げんかい",
+    "partOfSpeech": "noun",
+    "definition": "limit, boundary",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 158,
+    "contextSentence": "もう限界に来てたんです。精神的にも肉体的にも。",
+    "kanjiReadings": [
+      {
+        "kanji": "限",
+        "onyomi": "ゲン",
+        "kunyomi": "かぎ.る",
+        "meaning": "limit, restrict"
+      },
+      {
+        "kanji": "界",
+        "onyomi": "カイ",
+        "kunyomi": null,
+        "meaning": "boundary, world"
+      }
+    ]
+  },
+  {
+    "word": "乗り越える",
+    "reading": "のりこえる",
+    "partOfSpeech": "verb (ichidan)",
+    "definition": "to overcome, to get over",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 135,
+    "contextSentence": "一つ一つずつ乗り越えてくることが自信につながる。",
+    "kanjiReadings": [
+      {
+        "kanji": "乗",
+        "onyomi": "ジョウ",
+        "kunyomi": "の.る",
+        "meaning": "ride, mount"
+      },
+      {
+        "kanji": "越",
+        "onyomi": "エツ",
+        "kunyomi": "こ.える",
+        "meaning": "exceed, surpass"
+      }
+    ]
+  },
+  {
+    "word": "自信",
+    "reading": "じしん",
+    "partOfSpeech": "noun",
+    "definition": "self-confidence",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 136,
+    "contextSentence": "一つ一つずつ乗り越えてくることが自信につながる。",
+    "kanjiReadings": [
+      {
+        "kanji": "自",
+        "onyomi": "ジ",
+        "kunyomi": "みずか.ら",
+        "meaning": "self"
+      },
+      {
+        "kanji": "信",
+        "onyomi": "シン",
+        "kunyomi": null,
+        "meaning": "trust, belief"
+      }
+    ]
+  },
+  {
+    "word": "受け入れる",
+    "reading": "うけいれる",
+    "partOfSpeech": "verb (ichidan)",
+    "definition": "to accept, to receive",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 198,
+    "contextSentence": "全てを受け入れられたからだと、僕は思っています。",
+    "kanjiReadings": [
+      {
+        "kanji": "受",
+        "onyomi": "ジュ",
+        "kunyomi": "う.ける",
+        "meaning": "receive, accept"
+      },
+      {
+        "kanji": "入",
+        "onyomi": "ニュウ",
+        "kunyomi": "い.れる",
+        "meaning": "enter, put in"
+      }
+    ]
+  },
+  {
+    "word": "恩返し",
+    "reading": "おんがえし",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "repaying a favor, returning a kindness",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 153,
+    "contextSentence": "何が恩返しができるかって考えた時に、やっぱりそういう記録とか結果を出して。",
+    "kanjiReadings": [
+      {
+        "kanji": "恩",
+        "onyomi": "オン",
+        "kunyomi": null,
+        "meaning": "grace, favor"
+      },
+      {
+        "kanji": "返",
+        "onyomi": "ヘン",
+        "kunyomi": "かえ.す",
+        "meaning": "return, give back"
+      }
+    ]
+  },
+  {
+    "word": "肩の荷",
+    "reading": "かたのに",
+    "partOfSpeech": "expression/noun",
+    "definition": "burden on one's shoulders",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 172,
+    "contextSentence": "そこで肩の荷が、ほっとしてですね。",
+    "kanjiReadings": [
+      {
+        "kanji": "肩",
+        "onyomi": "ケン",
+        "kunyomi": "かた",
+        "meaning": "shoulder"
+      },
+      {
+        "kanji": "荷",
+        "onyomi": "カ",
+        "kunyomi": "に",
+        "meaning": "load, baggage"
+      }
+    ]
+  },
+  {
+    "word": "過酷",
+    "reading": "かこく",
+    "partOfSpeech": "na-adjective/noun",
+    "definition": "severe, harsh, cruel",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 181,
+    "contextSentence": "やっぱりこのレース、こういう過酷なレースというか。",
+    "kanjiReadings": [
+      {
+        "kanji": "過",
+        "onyomi": "カ",
+        "kunyomi": "す.ぎる",
+        "meaning": "exceed, pass"
+      },
+      {
+        "kanji": "酷",
+        "onyomi": "コク",
+        "kunyomi": "ひど.い",
+        "meaning": "severe, cruel"
+      }
+    ]
+  },
+  {
+    "word": "灼熱",
+    "reading": "しゃくねつ",
+    "partOfSpeech": "noun",
+    "definition": "scorching heat, intense heat",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 1,
+    "isEssential": true,
+    "segmentIndex": 125,
+    "contextSentence": "そういったところでは37度とか38度の灼熱地獄がですね待ち構えてます。",
+    "kanjiReadings": [
+      {
+        "kanji": "灼",
+        "onyomi": "シャク",
+        "kunyomi": "や.く",
+        "meaning": "burn, scorch"
+      },
+      {
+        "kanji": "熱",
+        "onyomi": "ネツ",
+        "kunyomi": "あつ.い",
+        "meaning": "heat, fever"
+      }
+    ]
+  },
+  {
+    "word": "安堵",
+    "reading": "あんど",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "relief, reassurance",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 164,
+    "contextSentence": "ちょっと安堵の顔が出たんですね。",
+    "kanjiReadings": [
+      {
+        "kanji": "安",
+        "onyomi": "アン",
+        "kunyomi": "やす.い",
+        "meaning": "ease, relax"
+      },
+      {
+        "kanji": "堵",
+        "onyomi": "ト",
+        "kunyomi": null,
+        "meaning": "wall, fence"
+      }
+    ]
+  },
+  {
+    "word": "脅威",
+    "reading": "きょうい",
+    "partOfSpeech": "noun",
+    "definition": "threat, menace",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 184,
+    "contextSentence": "自然の脅威とか、自然の猛威っていうんですかね、そういったものも受け入れる。",
+    "kanjiReadings": [
+      {
+        "kanji": "脅",
+        "onyomi": "キョウ",
+        "kunyomi": "おびや.かす",
+        "meaning": "threaten, menace"
+      },
+      {
+        "kanji": "威",
+        "onyomi": "イ",
+        "kunyomi": null,
+        "meaning": "power, authority"
+      }
+    ]
+  },
+  {
+    "word": "踏み出す",
+    "reading": "ふみだす",
+    "partOfSpeech": "verb (godan)",
+    "definition": "to step out, to take a step forward",
+    "koreanMeaning": "영상에서 사용된 표현",
+    "jlptLevel": 3,
+    "isEssential": true,
+    "segmentIndex": 203,
+    "contextSentence": "ぜひ皆さんも楽しいなと思うことをですね、一歩踏み出して、これから挑戦して。",
+    "kanjiReadings": [
+      {
+        "kanji": "踏",
+        "onyomi": "トウ",
+        "kunyomi": "ふ.む",
+        "meaning": "step on, tread"
+      },
+      {
+        "kanji": "出",
+        "onyomi": "シュツ",
+        "kunyomi": "で.る",
+        "meaning": "exit, come out"
+      }
+    ]
+  }
+]

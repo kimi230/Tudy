@@ -1,0 +1,162 @@
+[
+  {
+    "type": "casual",
+    "originalText": "話す力のトレーニングというのは キャリアを変え",
+    "reading": "はなすちからのトレーニングというのは キャリアをかえ",
+    "baseForm": "話す力のトレーニングというのは キャリア",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 0
+  },
+  {
+    "type": "teineigo",
+    "originalText": "周囲を鼓舞させることをし 人生をも変えるものだと思っています",
+    "reading": "しゅういをこぶさせることをし じんせいをもかえるものだとおもっています",
+    "baseForm": "周囲を鼓舞させることをし 人生をも変える",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "話し方の学習はスキルとマインドを変えていくんです",
+    "reading": "はなしかたのがくしゅうはスキルとマインドをかえていくんです",
+    "baseForm": "話し方の学習はスキルとマインドを変えてい",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 2
+  },
+  {
+    "type": "teineigo",
+    "originalText": "6.1時間 これは日本人の平日の平均話量を指しています",
+    "reading": "6.1じかん これはにほんじんのへいじつのへいきんはなしりょうをさしています",
+    "baseForm": "6.1時間 これは日本人の平日の平均話量",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 3
+  },
+  {
+    "type": "casual",
+    "originalText": "つまり人生で4分の1の時間も 私たちは話しているのにもかかわらず",
+    "reading": "つまりじんせいで4ぶんの1のじかんも わたしたちははなしているのにもかかわらず",
+    "baseForm": "つまり人生で4分の1の時間も 私たちは話",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 4
+  },
+  {
+    "type": "casual",
+    "originalText": "質疑による信頼の失墜をしてしまったり なかなかうまく話せないということによって",
+    "reading": "しつぎによるしんらいのしっついをしてしまったり なかなかうまくはなせないというこ",
+    "baseForm": "質疑による信頼の失墜をしてしまったり な",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "도입/인사 구간",
+    "segmentIndex": 5
+  },
+  {
+    "type": "teineigo",
+    "originalText": "信頼を損ねてしまうことはよくあります",
+    "reading": "しんらいをそこねてしまうことはよくあります",
+    "baseForm": "信頼を損ねてしまうことはよくあり",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 6
+  },
+  {
+    "type": "casual",
+    "originalText": "スピーチやプレゼンをする機会でも 営業をするシーンでも",
+    "reading": "スピーチやプレゼンをするきかいでも えいぎょうをするシーンでも",
+    "baseForm": "スピーチやプレゼンをする機会でも 営業を",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 7
+  },
+  {
+    "type": "casual",
+    "originalText": "キャリアアップを目指す場所においても 話し方で評価が変わっていく",
+    "reading": "キャリアアップをめざすばしょにおいても はなしかたでひょうかがかわっていく",
+    "baseForm": "キャリアアップを目指す場所においても 話",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 8
+  },
+  {
+    "type": "teineigo",
+    "originalText": "話し方が評価を作っていく時代だと思っています",
+    "reading": "はなしかたがひょうかをつくっていくじだいだとおもっています",
+    "baseForm": "話し方が評価を作っていく時代だと思ってい",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 9
+  },
+  {
+    "type": "teineigo",
+    "originalText": "だからこそ話し方を通して 評価を勝ち取りにいくことが重要だと思います",
+    "reading": "だからこそはなしかたをとおして ひょうかをかちとりにいくことがじゅうようだとおも",
+    "baseForm": "だからこそ話し方を通して 評価を勝ち取り",
+    "politeLevel": "정중어",
+    "explanationKo": "공손한 전달을 위한 정중체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 10
+  },
+  {
+    "type": "casual",
+    "originalText": "今回の講師は話し方トレーニングサービス 会話代表",
+    "reading": "こんかいのこうしははなしかたトレーニングサービス かいわだいひょう",
+    "baseForm": "今回の講師は話し方トレーニングサービス ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 11
+  },
+  {
+    "type": "casual",
+    "originalText": "スピーチライターの千葉香里",
+    "reading": "スピーチライターのちばかおり",
+    "baseForm": "スピーチライターの千葉香里",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 12
+  },
+  {
+    "type": "casual",
+    "originalText": "15歳から弁論を始め 全国弁論大会では3度優勝",
+    "reading": "15さいからべんろんをはじめ ぜんこくべんろんたいかいでは3どゆうしょう",
+    "baseForm": "15歳から弁論を始め 全国弁論大会では3",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 13
+  },
+  {
+    "type": "casual",
+    "originalText": "内閣総理大臣賞を受賞している",
+    "reading": "ないかくそうりだいじんしょうをじゅしょうしている",
+    "baseForm": "内閣総理大臣賞を受賞している",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 14
+  },
+  {
+    "type": "casual",
+    "originalText": "千葉が立ち上げた話し方の トレーニングサービス",
+    "reading": "ちばがたちあげたはなしかたの トレーニングサービス",
+    "baseForm": "千葉が立ち上げた話し方の トレーニングサ",
+    "politeLevel": "보통체",
+    "explanationKo": "친근하거나 설명형 어조의 보통체 표현입니다.",
+    "usageContext": "핵심 설명 구간",
+    "segmentIndex": 15
+  }
+]

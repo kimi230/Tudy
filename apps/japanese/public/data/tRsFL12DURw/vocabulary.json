@@ -1,0 +1,399 @@
+{
+  "videoId": "tRsFL12DURw",
+  "vocabulary": [
+    {
+      "word": "蒔絵",
+      "reading": "まきえ",
+      "kanji": "蒔絵",
+      "partOfSpeech": "名詞",
+      "definition": "漆器の表面に漆で模様を描き、金粉・銀粉などを蒔きつける日本の伝統的な装飾技法",
+      "koreanMeaning": "마키에 (옻칠 면에 옻으로 문양을 그린 후 금가루·은가루를 뿌려 장식하는 일본 전통 기법)",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "蒔", "reading": "ま（く）", "meaning": "뿌리다" },
+        { "kanji": "絵", "reading": "え", "meaning": "그림" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 6,
+      "contextSentence": "私はマキエという日本の古来の伝統的な技術を使って作品を作ってますが"
+    },
+    {
+      "word": "漆",
+      "reading": "うるし",
+      "kanji": "漆",
+      "partOfSpeech": "名詞",
+      "definition": "ウルシの木から採取した樹液を加工した塗料。日本の伝統的な塗料として古くから使われる",
+      "koreanMeaning": "옻, 옻칠 (옻나무에서 채취한 수액으로 만든 전통 도료)",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "漆", "reading": "うるし", "meaning": "옻칠" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 11,
+      "contextSentence": "漆という塗料を使ってこういった模様を描いて金粉や銀粉を蒔きます"
+    },
+    {
+      "word": "伝統的",
+      "reading": "でんとうてき",
+      "kanji": "伝統的",
+      "partOfSpeech": "形容動詞",
+      "definition": "古くから受け継がれてきた様子・形式に関するさま",
+      "koreanMeaning": "전통적인",
+      "jlptLevel": "N3",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "伝", "reading": "でん", "meaning": "전하다" },
+        { "kanji": "統", "reading": "とう", "meaning": "통솔, 계통" },
+        { "kanji": "的", "reading": "てき", "meaning": "~적" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 6,
+      "contextSentence": "私はマキエという日本の古来の伝統的な技術を使って作品を作ってますが"
+    },
+    {
+      "word": "途絶える",
+      "reading": "とだえる",
+      "kanji": "途絶える",
+      "partOfSpeech": "動詞（下一段）",
+      "definition": "続いていたものが途中で切れて絶えてしまう",
+      "koreanMeaning": "단절되다, 끊기다",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "途", "reading": "と", "meaning": "길, 도중" },
+        { "kanji": "絶", "reading": "た（える）", "meaning": "끊어지다" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 9,
+      "contextSentence": "その間一度も途絶えることなくずっと続いています"
+    },
+    {
+      "word": "接着力",
+      "reading": "せっちゃくりょく",
+      "kanji": "接着力",
+      "partOfSpeech": "名詞",
+      "definition": "物と物をくっつける力・強さ",
+      "koreanMeaning": "접착력",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "接", "reading": "せつ", "meaning": "접촉하다" },
+        { "kanji": "着", "reading": "ちゃく", "meaning": "붙다" },
+        { "kanji": "力", "reading": "りょく", "meaning": "힘" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 43,
+      "contextSentence": "漆は接着力がとても強いです"
+    },
+    {
+      "word": "違和感",
+      "reading": "いわかん",
+      "kanji": "違和感",
+      "partOfSpeech": "名詞",
+      "definition": "何かがしっくりこない、不自然に感じる気持ち",
+      "koreanMeaning": "위화감, 이질감",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "違", "reading": "い", "meaning": "다르다" },
+        { "kanji": "和", "reading": "わ", "meaning": "어울리다" },
+        { "kanji": "感", "reading": "かん", "meaning": "느낌" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 2,
+      "contextSentence": "ちょっと違和感がありますが"
+    },
+    {
+      "word": "皮膜",
+      "reading": "ひまく",
+      "kanji": "皮膜",
+      "partOfSpeech": "名詞",
+      "definition": "表面を覆う薄い膜",
+      "koreanMeaning": "피막, 얇은 막",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "皮", "reading": "ひ", "meaning": "피부, 껍질" },
+        { "kanji": "膜", "reading": "まく", "meaning": "막" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 32,
+      "contextSentence": "固まった漆は皮膜を作って非常に頑丈になります"
+    },
+    {
+      "word": "天然素材",
+      "reading": "てんねんそざい",
+      "kanji": "天然素材",
+      "partOfSpeech": "名詞",
+      "definition": "自然界から得られる材料・素材",
+      "koreanMeaning": "천연 소재",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "天然", "reading": "てんねん", "meaning": "천연, 자연" },
+        { "kanji": "素材", "reading": "そざい", "meaning": "소재, 재료" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 25,
+      "contextSentence": "漆は天然素材で"
+    },
+    {
+      "word": "樹液",
+      "reading": "じゅえき",
+      "kanji": "樹液",
+      "partOfSpeech": "名詞",
+      "definition": "木から分泌される液体",
+      "koreanMeaning": "수액 (나무에서 분비되는 액체)",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "樹", "reading": "じゅ", "meaning": "나무" },
+        { "kanji": "液", "reading": "えき", "meaning": "액체" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 25,
+      "contextSentence": "木の樹液から作られる天然素材です"
+    },
+    {
+      "word": "遡る",
+      "reading": "さかのぼる",
+      "kanji": "遡る",
+      "partOfSpeech": "動詞（五段）",
+      "definition": "時間・歴史などを過去にさかのぼって調べること",
+      "koreanMeaning": "거슬러 올라가다, 소급하다",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "遡", "reading": "さかのぼ（る）", "meaning": "거슬러 올라가다" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 67,
+      "contextSentence": "日本での漆の利用はなんと1万年前まで遡ります"
+    },
+    {
+      "word": "工芸",
+      "reading": "こうげい",
+      "kanji": "工芸",
+      "partOfSpeech": "名詞",
+      "definition": "実用性と芸術性を兼ね備えた手工業的な技芸・その製品",
+      "koreanMeaning": "공예",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "工", "reading": "こう", "meaning": "공, 작업" },
+        { "kanji": "芸", "reading": "げい", "meaning": "예술, 기예" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 116,
+      "contextSentence": "工芸という言葉は日本では非常に幅広い意味を持っています"
+    },
+    {
+      "word": "氾濫",
+      "reading": "はんらん",
+      "kanji": "氾濫",
+      "partOfSpeech": "名詞・動詞（サ変）",
+      "definition": "水が溢れること。転じて、物・情報などが溢れかえること",
+      "koreanMeaning": "범람, 넘쳐남",
+      "jlptLevel": "N1",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "氾", "reading": "はん", "meaning": "넘치다" },
+        { "kanji": "濫", "reading": "らん", "meaning": "넘치다" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 73,
+      "contextSentence": "ここ50年くらいでプラスチックが氾濫して"
+    },
+    {
+      "word": "冒険家",
+      "reading": "ぼうけんか",
+      "kanji": "冒険家",
+      "partOfSpeech": "名詞",
+      "definition": "危険を冒して未知の世界を探求する人",
+      "koreanMeaning": "모험가",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "冒", "reading": "ぼう", "meaning": "무릅쓰다" },
+        { "kanji": "険", "reading": "けん", "meaning": "험하다" },
+        { "kanji": "家", "reading": "か", "meaning": "~가, 전문가" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 78,
+      "contextSentence": "日本を代表する冒険家の三浦雄一郎さん"
+    },
+    {
+      "word": "鎖国",
+      "reading": "さこく",
+      "kanji": "鎖国",
+      "partOfSpeech": "名詞",
+      "definition": "外国との交流・貿易を制限・禁止した江戸時代の日本の政策",
+      "koreanMeaning": "쇄국, 쇄국정책",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "鎖", "reading": "さ", "meaning": "자물쇠, 잠그다" },
+        { "kanji": "国", "reading": "こく", "meaning": "나라" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 100,
+      "contextSentence": "鎖国が終わった明治時代に英語の名前がついてしまって"
+    },
+    {
+      "word": "模様",
+      "reading": "もよう",
+      "kanji": "模様",
+      "partOfSpeech": "名詞",
+      "definition": "装飾のために描かれた図柄・デザイン",
+      "koreanMeaning": "무늬, 문양",
+      "jlptLevel": "N3",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "模", "reading": "も", "meaning": "본뜨다" },
+        { "kanji": "様", "reading": "よう", "meaning": "모양" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 11,
+      "contextSentence": "漆という塗料を使ってこういった模様を描いて"
+    },
+    {
+      "word": "金粉",
+      "reading": "きんぷん",
+      "kanji": "金粉",
+      "partOfSpeech": "名詞",
+      "definition": "金を細かく砕いた粉",
+      "koreanMeaning": "금가루",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "金", "reading": "きん", "meaning": "금" },
+        { "kanji": "粉", "reading": "ぷん", "meaning": "가루" }
+      ],
+      "isEssential": true,
+      "segmentIndex": 11,
+      "contextSentence": "金粉や銀粉を蒔きます"
+    },
+    {
+      "word": "先人",
+      "reading": "せんじん",
+      "kanji": "先人",
+      "partOfSpeech": "名詞",
+      "definition": "昔の人、先代の人、先祖",
+      "koreanMeaning": "선인, 선조, 옛사람",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "先", "reading": "せん", "meaning": "먼저" },
+        { "kanji": "人", "reading": "じん", "meaning": "사람" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 67,
+      "contextSentence": "先人たちはそれを使い続けてきました"
+    },
+    {
+      "word": "濃淡",
+      "reading": "のうたん",
+      "kanji": "濃淡",
+      "partOfSpeech": "名詞",
+      "definition": "色・味などの濃さと薄さ。グラデーション",
+      "koreanMeaning": "농담, 짙고 옅음, 그러데이션",
+      "jlptLevel": "N1",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "濃", "reading": "のう", "meaning": "짙다" },
+        { "kanji": "淡", "reading": "たん", "meaning": "옅다" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 19,
+      "contextSentence": "金粉の量によって濃淡が生まれます"
+    },
+    {
+      "word": "皮膚",
+      "reading": "ひふ",
+      "kanji": "皮膚",
+      "partOfSpeech": "名詞",
+      "definition": "動物の体の表面を覆う器官。肌",
+      "koreanMeaning": "피부",
+      "jlptLevel": "N3",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "皮", "reading": "ひ", "meaning": "피부" },
+        { "kanji": "膚", "reading": "ふ", "meaning": "살갗" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 31,
+      "contextSentence": "漆に触れるとかぶれる場合があります。漆は触れた皮膚に反応します"
+    },
+    {
+      "word": "耐薬品性",
+      "reading": "たいやくひんせい",
+      "kanji": "耐薬品性",
+      "partOfSpeech": "名詞",
+      "definition": "薬品（酸・アルカリなど）に対して変質・腐食しない性質",
+      "koreanMeaning": "내약품성, 화학약품에 대한 내성",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "耐", "reading": "たい", "meaning": "견디다, 내~" },
+        { "kanji": "薬品", "reading": "やくひん", "meaning": "약품" },
+        { "kanji": "性", "reading": "せい", "meaning": "성질, ~성" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 54,
+      "contextSentence": "漆は耐薬品性にも優れています"
+    },
+    {
+      "word": "古来",
+      "reading": "こらい",
+      "kanji": "古来",
+      "partOfSpeech": "名詞・副詞",
+      "definition": "昔から、古くから",
+      "koreanMeaning": "고래, 예로부터, 옛날부터",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "古", "reading": "こ", "meaning": "오래된" },
+        { "kanji": "来", "reading": "らい", "meaning": "이래, ~부터" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 6,
+      "contextSentence": "日本の古来の伝統的な技術"
+    },
+    {
+      "word": "頑丈",
+      "reading": "がんじょう",
+      "kanji": "頑丈",
+      "partOfSpeech": "形容動詞",
+      "definition": "丈夫でしっかりしている様子",
+      "koreanMeaning": "튼튼함, 견고함",
+      "jlptLevel": "N2",
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "頑", "reading": "がん", "meaning": "완고하다, 튼튼하다" },
+        { "kanji": "丈", "reading": "じょう", "meaning": "강하다" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 49,
+      "contextSentence": "固まった漆はとても頑丈になって"
+    },
+    {
+      "word": "脚光を浴びる",
+      "reading": "きゃっこうをあびる",
+      "kanji": "脚光を浴びる",
+      "partOfSpeech": "慣用句",
+      "definition": "世間から注目・関心を集めること",
+      "koreanMeaning": "각광을 받다, 주목을 받다",
+      "jlptLevel": null,
+      "pitchAccent": null,
+      "kanjiReadings": [
+        { "kanji": "脚光", "reading": "きゃっこう", "meaning": "각광" },
+        { "kanji": "浴", "reading": "あ（びる）", "meaning": "쬐다, 받다" }
+      ],
+      "isEssential": false,
+      "segmentIndex": 75,
+      "contextSentence": "漆が改めて脚光を浴びています"
+    }
+  ]
+}

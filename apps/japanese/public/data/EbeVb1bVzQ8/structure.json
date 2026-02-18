@@ -1,0 +1,145 @@
+{
+  "videoId": "EbeVb1bVzQ8",
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 1,
+      "endSegment": 15,
+      "summary": "The speaker introduces himself and the Trans Japan Alps Race. He mentions he came in casual clothes because it's cold, but is still wearing his race backpack. He previews what he wants to share today: things he felt through the race and the motivation it gave him.",
+      "keyPoints": [
+        "트랜스재팬알프스레이스 소개",
+        "415킬로미터 레이스",
+        "발표자의 레이스 배낭 등장",
+        "오늘 이야기할 내용 예고"
+      ]
+    },
+    {
+      "section": "Race Overview: Route and Rules",
+      "startSegment": 16,
+      "endSegment": 39,
+      "summary": "Detailed explanation of the race: from Uozu City (Sea of Japan) through the North, Central, and South Alps to Shizuoka's Pacific coast. Must be completed within one week. No outside support allowed (no food from others, no vehicles). Only 30 participants selected via document review and qualifying races.",
+      "keyPoints": [
+        "도야마 동해 → 시즈오카 태평양 415km",
+        "1주일 제한시간",
+        "외부 지원 완전 금지",
+        "30명 정원, 서류·예선 심사"
+      ]
+    },
+    {
+      "section": "The Race Experience: Nature's Beauty",
+      "startSegment": 40,
+      "endSegment": 62,
+      "summary": "The speaker describes the incredible scenery: starting alone in the dark with only a headlamp, watching the sunrise illuminate the mountain slopes, the blinding sun at the summit, and seeing the next 200km of Alps stretching ahead. This sense of awe is part of what keeps him coming back.",
+      "keyPoints": [
+        "한밤중 헤드라이트만 의지해 출발",
+        "일출의 아침놀로 물드는 산 비탈",
+        "정상에서 보이는 3000미터급 연봉",
+        "200km 앞 남알프스가 보이는 전망"
+      ]
+    },
+    {
+      "section": "The Race Experience: Physical and Mental Hardships",
+      "startSegment": 63,
+      "endSegment": 133,
+      "summary": "Describes the extreme hardships: only 2 hours of sleep per day (10-20 minute naps), hunger, pain in muscles and joints, being overtaken by other runners, extreme cold (below 10°C at 3000m) and scorching heat (37-38°C on the road), and typhoons with 40m/s winds on bare summits. The speaker also describes heightened senses, auditory hallucinations, and visual hallucinations (a hallucination beckoning toward a cliff).",
+      "keyPoints": [
+        "하루 2시간(10~20분 단위) 수면",
+        "고산의 추위와 도로의 폭염",
+        "태풍 풍속 40m/s에 피할 곳 없음",
+        "오감이 연마되는 감각"
+      ]
+    },
+    {
+      "section": "The Turning Point: The Sanpuku Pass Incident",
+      "startSegment": 134,
+      "endSegment": 177,
+      "summary": "The emotional climax of the talk. At the 2012 (2nd) race, at the Sanpuku Pass (2500m), the speaker was physically and mentally at his limit. He told his teammates—who had traveled 5 hours by car and hiked 7 hours to cheer him—that he wanted to retire. Instead of urging him to win, they said: 'We just want you to come back to Shizuoka safe and smiling.' This one sentence lifted the burden from his shoulders and allowed him to start running again.",
+      "keyPoints": [
+        "2012년 2회 대회, 산푸쿠 고개에서의 사건",
+        "정신적·육체적 한계 도달, 리타이어 선언",
+        "GPS도 없던 시대, 동료들이 언제 올지 모르며 추위 속에서 대기",
+        "동료의 한마디: '건강하게 웃는 얼굴로 돌아와 주면 된다'"
+      ]
+    },
+    {
+      "section": "Life Lesson: Acceptance and Joy",
+      "startSegment": 178,
+      "endSegment": 208,
+      "summary": "The speaker shares his core insight from the race: to finish, one must accept everything—nature's ferocity, extreme temperatures, and the feelings of supporters. In 2016 (4th attempt), he completed the race in 4 days 23 hours 52 minutes, arriving on Japan's Mountain Day. For the first time, nothing felt hard; everything was enjoyable. He concludes by encouraging the audience to take one step forward toward things that bring them joy and to keep challenging themselves.",
+      "keyPoints": [
+        "모든 것을 받아들이는 것이 완주의 열쇠",
+        "자연의 위협·응원자의 마음도 수용",
+        "2016년 4회 도전 완주: 4일 23시간 52분",
+        "'산의 날'에 골인"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "皆さんこんにちは",
+      "type": "opening",
+      "segmentIndex": 1,
+      "role": "TEDx 발표 시작 인사"
+    },
+    {
+      "expression": "今日は話したいと思います",
+      "type": "opening",
+      "segmentIndex": 16,
+      "role": "오늘 발표에서 이야기할 주제를 청중에게 예고"
+    },
+    {
+      "expression": "まずトランスジャパンアルプスレースというのは",
+      "type": "transition",
+      "segmentIndex": 16,
+      "role": "레이스 소개 섹션 시작"
+    },
+    {
+      "expression": "スタートは夜中の0時",
+      "type": "transition",
+      "segmentIndex": 40,
+      "role": "실제 레이스 체험 묘사 시작"
+    },
+    {
+      "expression": "でその中ではいろんな経験",
+      "type": "transition",
+      "segmentIndex": 71,
+      "role": "레이스 중 고난 경험 묘사로 전환"
+    },
+    {
+      "expression": "そんな中で一つ自分が、今でも思い残る出来事がありまして",
+      "type": "transition",
+      "segmentIndex": 139,
+      "role": "산푸쿠 고개 사건이라는 핵심 에피소드 도입"
+    },
+    {
+      "expression": "それは自分の中で三伏峠事件って言うんですけども",
+      "type": "transition",
+      "segmentIndex": 140,
+      "role": "산푸쿠 고개 사건의 명칭과 함께 본격 묘사 시작"
+    },
+    {
+      "expression": "そこで肩の荷が、ほっとしてですね",
+      "type": "transition",
+      "segmentIndex": 172,
+      "role": "감동적 전환점: 동료의 말에 어깨의 짐이 내려감"
+    },
+    {
+      "expression": "で、いろんなこの寒さとか暑さとかそういう精神的なところとかも、いろいろ経験してきた中で、僕は思ったんです",
+      "type": "transition",
+      "segmentIndex": 180,
+      "role": "경험을 통한 핵심 깨달음으로 전환"
+    },
+    {
+      "expression": "で、今年2016年4回目の挑戦してですね",
+      "type": "transition",
+      "segmentIndex": 191,
+      "role": "2016년 4번째 도전의 결과 및 결론 섹션으로 전환"
+    },
+    {
+      "expression": "どうもありがとうございました",
+      "type": "closing",
+      "segmentIndex": 205,
+      "role": "발표 마무리 인사"
+    }
+  ]
+}

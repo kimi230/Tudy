@@ -1,0 +1,8 @@
+[
+  {"id": "daily", "name": "일상 회화", "icon": "💬", "description": "일상 일본어 표현과 회화", "order": 1},
+  {"id": "business", "name": "비즈니스", "icon": "💼", "description": "비즈니스 일본어", "order": 2},
+  {"id": "culture", "name": "문화", "icon": "⛩️", "description": "일본 문화와 역사", "order": 3},
+  {"id": "news", "name": "뉴스", "icon": "📰", "description": "일본어 뉴스 청취", "order": 4},
+  {"id": "anime", "name": "애니/드라마", "icon": "🎬", "description": "애니메이션과 드라마 일본어", "order": 5},
+  {"id": "travel", "name": "여행", "icon": "✈️", "description": "여행 일본어", "order": 6}
+]

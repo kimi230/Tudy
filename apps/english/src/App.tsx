@@ -1,0 +1,37 @@
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import {
+  AuthProvider, XPToastProvider, Header, LoginPage,
+  HomePage, CategoryPage, StudyPage, DictationPage,
+  DailyLearningPage, LibraryPage, VocabularyPage,
+  ProfilePage, RequestPage,
+} from '@stdylang/shared';
+import About from './pages/About';
+
+export default function App() {
+  return (
+    <HashRouter>
+      <AuthProvider>
+        <XPToastProvider>
+        <div className="min-h-screen bg-gray-50">
+          <Header />
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/category/:categoryId" element={<CategoryPage />} />
+              <Route path="/study/:videoId" element={<StudyPage />} />
+              <Route path="/dictation/:videoId" element={<DictationPage />} />
+              <Route path="/daily" element={<DailyLearningPage />} />
+              <Route path="/request" element={<RequestPage />} />
+              <Route path="/vocabulary" element={<VocabularyPage />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/profile" element={<ProfilePage />} />
+              <Route path="/library" element={<LibraryPage />} />
+            </Routes>
+          </main>
+        </div>
+        </XPToastProvider>
+      </AuthProvider>
+    </HashRouter>
+  );
+}

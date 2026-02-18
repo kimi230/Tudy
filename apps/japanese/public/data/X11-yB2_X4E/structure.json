@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "section": "Introduction",
+      "startSegment": 0,
+      "endSegment": 5,
+      "summary": "The hosts greet viewers and introduce today's video: a tour of their traditional Japanese home. They begin outside, showing the exterior and entrance area.",
+      "summaryKo": "진행자들이 시청자를 맞이하고 오늘의 영상을 소개합니다: 전통 일본 가옥 투어. 집 외부와 입구 구역을 먼저 보여줍니다.",
+      "keyPoints": [
+        "おはようございます로 친근하게 인사 시작",
+        "오늘의 콘텐츠(집 투어) 예고",
+        "집 외관 및 고전적인 일본 건물임을 소개"
+      ]
+    },
+    {
+      "section": "Genkan (Entryway)",
+      "startSegment": 6,
+      "endSegment": 9,
+      "summary": "The hosts introduce and explain the genkan (玄関), the traditional Japanese entryway where shoes are removed. They explain its cultural significance as a transitional space between outside and inside.",
+      "summaryKo": "진행자들이 일본 전통 가옥의 현관(玄関)을 소개하고 설명합니다. 신발을 벗는 이 공간의 문화적 의미와 실내외 경계 역할을 설명합니다.",
+      "keyPoints": [
+        "玄関(현관)의 위치와 기능 설명",
+        "넓고 쾌적한 현관 공간 묘사",
+        "일본 가옥에서 현관이 중요한 공간임을 강조"
+      ]
+    },
+    {
+      "section": "Traditional Decorative Elements",
+      "startSegment": 16,
+      "endSegment": 21,
+      "summary": "The hosts highlight traditional decorative features inside the home, including the auspicious trio of pine, bamboo, and plum (松竹梅), handcrafted decorations, and lattice windows (格子窓). These elements reflect the aesthetic sensibility of traditional Japanese architecture.",
+      "summaryKo": "진행자들이 집 내부의 전통적인 장식 요소들을 소개합니다: 길상의 상징인 松竹梅(송죽매), 수공예 장식, 격자창(格子窓) 등. 이 요소들은 전통 일본 건축의 미학적 감각을 반영합니다.",
+      "keyPoints": [
+        "松竹梅(송죽매)이라는 세 가지 길상 식물 소개",
+        "수공예 장식(手作りの細工)의 존재",
+        "격자창(格子窓)과 틈새 디자인의 특징",
+        "대부분의 전통 가옥에서 볼 수 있는 요소임을 언급"
+      ]
+    },
+    {
+      "section": "Flexible Room Design (Fusuma & Shoji)",
+      "startSegment": 24,
+      "endSegment": 33,
+      "summary": "The hosts demonstrate the flexible room design using fusuma (ふすま) sliding doors that can divide or open up spaces. They also discuss the shoji (障子) translucent paper screens that allow natural light to filter through, and a Buddhist altar (仏壇) found in the room.",
+      "summaryKo": "진행자들이 방을 나누거나 열 수 있는 ふすま(후스마) 미닫이문의 유연한 공간 디자인을 시연합니다. 자연광을 투과시키는 障子(장지), 그리고 방에 있는 仏壇(불단)도 설명합니다.",
+      "keyPoints": [
+        "ふすまで방을 나누거나 하나로 통합 가능",
+        "열면 넓은 공간이 되는 유연한 구조",
+        "빛의 들어오는 방식과 색조 묘사",
+        "仏壇(불단)의 존재와 의미",
+        "障子(장지)가 방을 밝게 해주는 기능"
+      ]
+    },
+    {
+      "section": "Bathroom/Washing Area",
+      "startSegment": 46,
+      "endSegment": 52,
+      "summary": "The hosts show the bathroom and washing area, explaining how to use the bathing facilities. They highlight controls for water temperature and flow. The area is described as charming and cute.",
+      "summaryKo": "진행자들이 욕실과 세면 구역을 소개하며 목욕 시설 사용법을 설명합니다. 온수 조절 방법과 수압을 언급하며, 이 공간이 귀엽고 아름답다고 묘사합니다.",
+      "keyPoints": [
+        "몸을 씻는 공간 안내",
+        "온수 온도 및 수압 조절 방법 설명",
+        "공간이 かわいい(귀엽다)고 표현"
+      ]
+    },
+    {
+      "section": "Audience Interaction & Closing",
+      "startSegment": 56,
+      "endSegment": 64,
+      "summary": "The hosts wrap up the house tour with questions for the audience about living in Japan and Japanese culture. A brief conversation touches on otaku culture and Akihabara. The video ends with thanks to viewers and a see-you-next-week closing.",
+      "summaryKo": "진행자들이 일본 생활과 일본 문화에 관한 시청자 질문으로 집 투어를 마무리합니다. 오타쿠 문화와 아키하바라에 관한 짧은 대화도 있습니다. 시청자에 감사 인사와 다음 주 예고로 영상을 마무리합니다.",
+      "keyPoints": [
+        "시청자에게 질문(일본 생활·가족·문화)",
+        "오타쿠 문화 및 秋葉原(아키하바라) 언급",
+        "채널 방문에 감사 인사",
+        "また来週お会いしましょう로 마무리"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "おはようございます",
+      "type": "greeting_opening",
+      "segmentIndex": 0,
+      "role": "영상의 시작을 알리는 아침 인사"
+    },
+    {
+      "expression": "今日は〜お見せします",
+      "type": "content_preview",
+      "segmentIndex": 0,
+      "role": "오늘 다룰 내용(집 투어)을 예고하는 서론 표현"
+    },
+    {
+      "expression": "ここは、",
+      "type": "location_introduction",
+      "segmentIndex": 4,
+      "role": "특정 공간을 소개할 때 반복적으로 사용하는 표현"
+    },
+    {
+      "expression": "そして、",
+      "type": "addition_transition",
+      "segmentIndex": 7,
+      "role": "앞 내용에 추가 정보를 덧붙이는 접속 표현"
+    },
+    {
+      "expression": "〜の中で",
+      "type": "enumeration_context",
+      "segmentIndex": 18,
+      "role": "범주나 집합 속에서 구체적인 항목을 소개할 때 사용"
+    },
+    {
+      "expression": "この部屋は",
+      "type": "room_introduction",
+      "segmentIndex": 24,
+      "role": "특정 방이나 공간을 소개하는 투어 형식 표현"
+    },
+    {
+      "expression": "これが〜です",
+      "type": "object_identification",
+      "segmentIndex": 28,
+      "role": "특정 물건이나 공간을 가리키며 명칭을 알려주는 표현"
+    },
+    {
+      "expression": "皆さんに質問があります",
+      "type": "audience_engagement",
+      "segmentIndex": 56,
+      "role": "시청자와의 상호작용을 이끌어내는 클로징 표현"
+    },
+    {
+      "expression": "今日は、私たちのチャンネルに来てくれました",
+      "type": "closing_thanks",
+      "segmentIndex": 63,
+      "role": "시청자에게 감사 인사를 전하는 마무리 표현"
+    },
+    {
+      "expression": "また来週お会いしましょう",
+      "type": "closing_farewell",
+      "segmentIndex": 64,
+      "role": "다음 영상 시청을 유도하는 작별 인사"
+    }
+  ]
+}

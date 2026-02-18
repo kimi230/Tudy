@@ -1,0 +1,124 @@
+[
+  {
+    "pattern": "〜なければなりません",
+    "explanation": "Expresses obligation or necessity. Formed by negating the verb (ない form) and adding ければなりません. Equivalent to 'must' or 'have to'.",
+    "explanationKo": "의무나 필요성을 나타내는 표현. 동사의 부정형(ない형)에 ければなりません을 붙여서 만듦. '~해야 합니다'에 해당.",
+    "examples": [
+      "各機械が清潔に保たれているかを確認しなければなりません。",
+      "ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。",
+      "急がないといけません。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 60
+  },
+  {
+    "pattern": "〜ようにします",
+    "explanation": "Expresses making an effort toward a goal or ensuring a state is achieved. 'So that ~ / to make sure ~'. The ように portion marks the goal, する the intentional effort.",
+    "explanationKo": "목표를 향해 노력하거나 어떤 상태를 실현하기 위해 행동함을 나타냄. '~하도록 합니다/노력합니다'. ように가 목표를, する가 의도적 행동을 나타냄.",
+    "examples": [
+      "次のシフトと共有して、サービスの質を途切れさせないようにします。",
+      "極めて丁寧でありながら、お客様の邪魔にならないよう気をつけます。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 42
+  },
+  {
+    "pattern": "〜として",
+    "explanation": "Marks a role, capacity, or position. 'As a ~; in the capacity of ~'. Used to establish the subject's role before describing their action.",
+    "explanationKo": "역할, 자격, 입장을 나타내는 표현. '~로서, ~의 자격으로'. 주어의 역할을 밝힌 후 행동을 설명할 때 사용.",
+    "examples": [
+      "ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。",
+      "仕事の一環として、コンピューター作業もあります。",
+      "学びの機会として活用し、将来の業務向上に役立てます。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 82
+  },
+  {
+    "pattern": "〜にの（〜に）よって / 〜につれて",
+    "explanation": "〜につれて expresses 'as ~ happens, ~ follows'. It describes a parallel change between two things. Contrast with につれ (literary) and に伴い.",
+    "explanationKo": "〜につれて는 '~할수록 ~하다'는 뜻으로, 두 가지 변화가 함께 일어남을 나타냄. '기계가 사용될수록 청결 확인이 필요해진다'처럼 쓰임.",
+    "examples": [
+      "しかし機械がお客様に使われるにつれ、各機械が清潔に保たれているかを確認しなければなりません。"
+    ],
+    "difficulty": "upper-intermediate",
+    "segmentIndex": 60
+  },
+  {
+    "pattern": "〜ため（に）",
+    "explanation": "Used to express reason/cause ('because ~') or purpose ('in order to ~'). Distinguishing purpose from cause depends on verb form: dictionary form + ため = purpose; plain past/noun + ため = cause.",
+    "explanationKo": "이유/원인('~때문에') 또는 목적('~하기 위해')을 나타냄. 동사 기본형 + ため는 목적, 과거형/명사 + ため는 원인이 됨.",
+    "examples": [
+      "賭博が日本法で禁止されているため、現金と直接交換することはできません。",
+      "最後に、スタッフの窃盗防止のためポケットチェックを行います。",
+      "時間を節約するため、たいてい職場でコンビニ飯を食べます。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 54
+  },
+  {
+    "pattern": "〜ことができます / できます",
+    "explanation": "Expresses ability or possibility. 'Can do ~; it is possible to ~'. できます is the potential form of する; for other verbs, plain form + ことができます is a formal alternative.",
+    "explanationKo": "가능성이나 능력을 나타냄. '~할 수 있습니다'. する의 가능형이 できます이며, 다른 동사는 기본형 + ことができます로 표현.",
+    "examples": [
+      "顔認識システムで、マスクをしていてもお客様を特定できます。",
+      "そして近くのTUCショップで、ゴールドチップを現金に換えることができます。",
+      "賞金を使って様々な景品と交換できることです。"
+    ],
+    "difficulty": "beginner",
+    "segmentIndex": 53
+  },
+  {
+    "pattern": "〜ようです / ようだ",
+    "explanation": "Expresses an inference or conjecture based on evidence observed. 'It seems that ~; it appears that ~'. Used to avoid stating something as fact when the speaker is making a judgment.",
+    "explanationKo": "관찰한 증거를 바탕으로 한 추측이나 판단을 나타냄. '~인 것 같습니다'. 직접적으로 단정짓지 않을 때 사용.",
+    "examples": [
+      "お客様が食事休憩を取ったようです。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 70
+  },
+  {
+    "pattern": "〜てあります / ています (状態の継続)",
+    "explanation": "〜てあります describes a resultant state from a deliberate action, emphasizing that something has been prepared. 〜ています describes an ongoing state. Both indicate that the condition persists.",
+    "explanationKo": "〜てあります는 의도적인 행동의 결과 상태를 나타냄(준비된 상태). 〜ています는 지속 중인 상태. 둘 다 그 상태가 유지됨을 강조.",
+    "examples": [
+      "その日のスタッフの配置が決まっています。",
+      "盗まれないようにロックされています。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 17
+  },
+  {
+    "pattern": "〜ので",
+    "explanation": "Causal conjunction expressing 'because ~; since ~'. More objective and softer than から, often used in formal/polite contexts.",
+    "explanationKo": "이유/원인을 나타내는 접속사. '~이므로, ~이기 때문에'. から보다 객관적이고 부드러운 표현으로, 격식체에 자주 쓰임.",
+    "examples": [
+      "新宿の街がすごく汚いですので、店舗の周辺を清掃します。",
+      "ケントが仕事に来たので、彼は準備ができるようになります。"
+    ],
+    "difficulty": "beginner",
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "〜場合",
+    "explanation": "Expresses a hypothetical or conditional situation. 'In the case of ~; if ~'. More formal than 〜とき, often used in business or written contexts.",
+    "explanationKo": "가정적 또는 조건적 상황을 나타냄. '~의 경우, ~할 때'. 〜とき보다 격식 있는 표현으로, 비즈니스나 문어체에 자주 쓰임.",
+    "examples": [
+      "問題を発見した場合、即座にフロアスタッフに通知して解決を図ります。",
+      "床でボールを見つけました。この場合、通常は近くのお客様に渡します。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 66
+  },
+  {
+    "pattern": "〜ながら",
+    "explanation": "Used to express two simultaneous actions or a contrast. 'While doing ~; at the same time as ~'. When used contrastively (ながら も), it expresses 'despite ~'.",
+    "explanationKo": "두 행동의 동시 진행 또는 대조를 나타냄. '~하면서, ~하는 동시에'. ながらも처럼 대조적으로 쓰이면 '~임에도 불구하고'의 뜻.",
+    "examples": [
+      "極めて丁寧でありながら、お客様の邪魔にならないよう気をつけます。"
+    ],
+    "difficulty": "intermediate",
+    "segmentIndex": 65
+  }
+]

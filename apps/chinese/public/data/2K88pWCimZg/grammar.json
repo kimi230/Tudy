@@ -1,0 +1,199 @@
+{
+  "videoId": "2K88pWCimZg",
+  "grammar": [
+    {
+      "pattern": "被 + 动词 (被动句)",
+      "explanation": "The 被 (bèi) passive construction. Subject + 被 + agent + verb. Used when the subject undergoes an action performed by someone else.",
+      "explanationKo": "被(bèi) 수동태 구문. 주어 + 被 + 행위자 + 동사. 주어가 다른 사람이 수행한 행동을 당하는 경우 사용됩니다.",
+      "examples": [
+        {
+          "chinese": "昌平和同船的移民乘客被禁止下船。",
+          "pinyin": "Chāngpíng hé tóngchuán de yímín chéngkè bèi jìnzhǐ xiàchuán.",
+          "korean": "창핑과 같은 배를 탄 이민자 승객들은 하선이 금지되었다."
+        },
+        {
+          "chinese": "《排华法案》本身最终于1943年被废除。",
+          "pinyin": "《Páihuá Fǎ'àn》 běnshēn zuìzhōng yú yījiǔsìsān nián bèi fèichú.",
+          "korean": "중국인 배제법 자체는 마침내 1943년에 폐지되었다."
+        },
+        {
+          "chinese": "这一裁决导致昌平被驱逐出境。",
+          "pinyin": "Zhè yī cáijué dǎozhì Chāngpíng bèi qūzhú chūjìng.",
+          "korean": "이 판결로 창핑은 추방되었다."
+        }
+      ],
+      "segmentIndex": 5
+    },
+    {
+      "pattern": "随着 + 变化，结果 (随着…的变化)",
+      "explanation": "随着 (suízhe) means 'as' or 'along with', indicating a change that accompanies another change. Pattern: 随着 + [change/event], [result].",
+      "explanationKo": "随着(suízhe)는 '~함에 따라', '~와 함께'를 의미하며, 한 변화에 수반되는 또 다른 변화를 나타냅니다. 패턴: 随着 + [변화/사건], [결과].",
+      "examples": [
+        {
+          "chinese": "但随着大量中国移民取得成功，美国工人开始将他们视为威胁。",
+          "pinyin": "Dàn suízhe dàliàng Zhōngguó yímín qǔdé chénggōng, Měiguó gōngrén kāishǐ jiāng tāmen shì wéi wēixié.",
+          "korean": "하지만 다수의 중국 이민자들이 성공을 거두면서, 미국 노동자들은 그들을 위협으로 여기기 시작했다."
+        }
+      ],
+      "segmentIndex": 17
+    },
+    {
+      "pattern": "不仅…而且… (not only...but also)",
+      "explanation": "This correlative conjunction structure connects two clauses to indicate that both conditions apply. Similar pattern: 既…又… or 不但…还…",
+      "explanationKo": "두 절을 연결해 두 조건이 모두 적용됨을 나타내는 상관 접속사 구조입니다. 유사 패턴: 既…又… 또는 不但…还…",
+      "examples": [
+        {
+          "chinese": "许多人修建铁路、在矿山工作，另一些人则经营洗衣店、餐馆和杂货店。",
+          "pinyin": "Xǔduō rén xiūjiàn tiělù, zài kuàngshān gōngzuò, lìng yīxiē rén zé jīngyíng xǐyīdiàn, cānguǎn hé záhuòdiàn.",
+          "korean": "많은 이들이 철도를 건설하고 광산에서 일했으며, 다른 이들은 세탁소, 식당, 잡화점을 운영했다."
+        }
+      ],
+      "segmentIndex": 14
+    },
+    {
+      "pattern": "使 + 宾语 + 结果 (使字句 causative)",
+      "explanation": "使 (shǐ) is a causative verb meaning 'to cause' or 'to make'. Structure: [cause] + 使 + [object] + [result]. Formal and written Chinese register.",
+      "explanationKo": "使(shǐ)는 '~하게 만들다', '~하게 하다'를 의미하는 사역 동사입니다. 구조: [원인] + 使 + [대상] + [결과]. 격식체 문어체 표현.",
+      "examples": [
+        {
+          "chinese": "该法案使允许他们重新入境美国的合法文件失效。",
+          "pinyin": "Gāi fǎ'àn shǐ yǔnxǔ tāmen chóngxīn rùjìng Měiguó de héfǎ wénjiàn shīxiào.",
+          "korean": "그 법안은 그들의 미국 재입국을 허가하는 합법적 서류를 무효화했다."
+        },
+        {
+          "chinese": "这也意味着中国人不能离开美国后再返回。",
+          "pinyin": "Zhè yě yìwèizhe Zhōngguó rén bù néng líkāi Měiguó hòu zài fǎnhuí.",
+          "korean": "이는 또한 중국인들이 미국을 떠났다가 다시 돌아올 수 없다는 것을 의미했다."
+        }
+      ],
+      "segmentIndex": 7
+    },
+    {
+      "pattern": "以…为由 (on the grounds of / citing...as the reason)",
+      "explanation": "以 (yǐ) + noun + 为由 means 'using [noun] as a reason/pretext'. Common in legal and formal contexts.",
+      "explanationKo": "以(yǐ) + 명사 + 为由는 '[명사]를 이유/구실로 삼아'를 의미합니다. 법률적, 격식 문맥에서 자주 사용됩니다.",
+      "examples": [
+        {
+          "chinese": "国会和行政部门可以以国家安全为由，随意制定任何移民法律。",
+          "pinyin": "Guóhuì hé xíngzhèng bùmén kěyǐ yǐ guójiā ānquán wéi yóu, suíyì zhìdìng rènhé yímín fǎlǜ.",
+          "korean": "의회와 행정부는 국가 안보를 이유로 들어 원하는 대로 어떤 이민법도 통과시킬 수 있게 되었다."
+        }
+      ],
+      "segmentIndex": 51
+    },
+    {
+      "pattern": "导致 + 结果 (to lead to / resulting in)",
+      "explanation": "导致 (dǎozhì) means 'to lead to', 'to cause', or 'to result in'. It introduces a negative or undesired consequence. More formal than 让 or 使.",
+      "explanationKo": "导致(dǎozhì)는 '~으로 이어지다', '~을 초래하다'를 의미합니다. 주로 부정적이거나 원치 않는 결과를 도입하는 데 사용됩니다. 让이나 使보다 격식체.",
+      "examples": [
+        {
+          "chinese": "这一裁决导致昌平被驱逐出境，并使多达两万名中国移民无法返回美国。",
+          "pinyin": "Zhè yī cáijué dǎozhì Chāngpíng bèi qūzhú chūjìng.",
+          "korean": "이 판결로 창핑은 추방되었고, 최대 2만 명의 중국 이민자들이 미국으로 돌아오지 못하게 되었다."
+        }
+      ],
+      "segmentIndex": 43
+    },
+    {
+      "pattern": "不得 (not permitted to / must not)",
+      "explanation": "不得 (bùdé) is a formal/legal expression meaning 'must not' or 'is not permitted to'. Stronger and more official than 不能 (bù néng).",
+      "explanationKo": "不得(bùdé)는 '해서는 안 된다', '허용되지 않는다'를 의미하는 격식적/법률적 표현입니다. 不能(bù néng)보다 더 강하고 공식적인 어감입니다.",
+      "examples": [
+        {
+          "chinese": "法院宣布中国公民不得作为白人被告的证人。",
+          "pinyin": "Fǎyuàn xuānbù Zhōngguó gōngmín bù dé zuòwéi báirén bèigào de zhèngrén.",
+          "korean": "법원은 중국 시민은 백인 피고에 불리한 증언을 할 수 없다고 선언했다."
+        }
+      ],
+      "segmentIndex": 24
+    },
+    {
+      "pattern": "可以说 (it can be said / arguably)",
+      "explanation": "可以说 (kěyǐ shuō) is a discourse marker meaning 'one could say', 'arguably', or 'it can be said'. Used to introduce a claim or evaluation.",
+      "explanationKo": "可以说(kěyǐ shuō)는 '말할 수 있다', '어찌 보면', '~라고 할 수 있다'를 의미하는 담화 표지입니다. 주장이나 평가를 도입할 때 사용됩니다.",
+      "examples": [
+        {
+          "chinese": "但可以说，比法院的种族主义裁决更重要的，是他们用来支持这一裁决的逻辑。",
+          "pinyin": "Dàn kěyǐ shuō, bǐ fǎyuàn de zhǒngzú zhǔyì cáijué gèng zhòngyào de, shì tāmen yòng lái zhīchí zhè yī cáijué de luójí.",
+          "korean": "하지만 어찌 보면, 법원의 인종차별적 판결보다 더 중요한 것은 그들이 그 판결을 지지하는 데 사용한 논리였다."
+        }
+      ],
+      "segmentIndex": 44
+    },
+    {
+      "pattern": "至今 (up to now / still today)",
+      "explanation": "至今 (zhìjīn) means 'up to the present' or 'still today'. It emphasizes that a situation that began in the past continues into the present.",
+      "explanationKo": "至今(zhìjīn)는 '지금까지', '현재에도'를 의미합니다. 과거에 시작된 상황이 현재까지 계속되고 있음을 강조합니다.",
+      "examples": [
+        {
+          "chinese": "但他的案件引发了一项更具争议性的政策，至今仍影响着全球各地的移民。",
+          "pinyin": "Dàn tā de ànjian yǐnfā le yī xiàng gèng jù zhēngyì xìng de zhèngcè, zhìjīn réng yǐngxiǎng zhe quánqiú gèdì de yímín.",
+          "korean": "하지만 그의 사건은 훨씬 더 논란이 많은 정책을 낳았으며, 그 정책은 오늘날에도 전 세계 이민자들에게 영향을 미치고 있다."
+        }
+      ],
+      "segmentIndex": 10
+    },
+    {
+      "pattern": "除非 (unless)",
+      "explanation": "除非 (chúfēi) introduces a condition that is the only exception, meaning 'unless'. Often paired with 否则 (fǒuzé, 'otherwise') or 才 (cái, 'only then').",
+      "explanationKo": "除非(chúfēi)는 유일한 예외 조건을 도입하며 '~하지 않는 한', '~이 아니면'을 의미합니다. 종종 否则(fǒuzé, '그렇지 않으면')이나 才(cái, '그래야만')와 함께 사용됩니다.",
+      "examples": [
+        {
+          "chinese": "除非先申请再入境证书。",
+          "pinyin": "Chúfēi xiān shēnqǐng zài rùjìng zhèngshū.",
+          "korean": "먼저 재입국 증명서를 신청하지 않는 한 말이다."
+        },
+        {
+          "chinese": "除非昌平案被推翻，国会和行政部门可以以国家安全为由随意制定任何移民法律。",
+          "pinyin": "Chúfēi Chāngpíng àn bèi tuīfān, guóhuì hé xíngzhèng bùmén kěyǐ yǐ guójiā ānquán wéi yóu suíyì zhìdìng rènhé yímín fǎlǜ.",
+          "korean": "창핑의 사건이 번복되지 않는 한, 의회와 행정부는 국가 안보를 이유로 원하는 대로 어떤 이민법도 통과시킬 수 있게 되었다."
+        }
+      ],
+      "segmentIndex": 34
+    },
+    {
+      "pattern": "这一 (this particular / this specific)",
+      "explanation": "这一 (zhè yī) literally 'this one', used in formal/academic Chinese to refer to a specific previously mentioned item. More formal and precise than just 这.",
+      "explanationKo": "这一(zhè yī)는 문자 그대로 '이 하나'로, 격식체/학술체 중국어에서 이전에 언급된 특정 항목을 가리킵니다. 단순한 这보다 더 격식적이고 정확합니다.",
+      "examples": [
+        {
+          "chinese": "这一裁决树立了一个独特的先例。",
+          "pinyin": "Zhè yī cáijué shùlì le yī gè dútè de xiānlì.",
+          "korean": "이 판결은 독특한 선례를 세웠다."
+        },
+        {
+          "chinese": "这一政策威胁要拆散家庭，剥夺中国移民的家园和生计。",
+          "pinyin": "Zhè yī zhèngcè wēixié yào chāisàn jiātíng.",
+          "korean": "이 정책은 가족을 뿔뿔이 흩어놓을 위협이 되었다."
+        }
+      ],
+      "segmentIndex": 49
+    },
+    {
+      "pattern": "然而 (however / yet / nevertheless)",
+      "explanation": "然而 (rán'ér) is a formal conjunction meaning 'however' or 'nevertheless'. It introduces a contrasting or contradictory statement. More formal than 但是.",
+      "explanationKo": "然而(rán'ér)는 '그러나', '하지만', '그럼에도 불구하고'를 의미하는 격식체 접속사입니다. 대조적이거나 모순적인 진술을 도입합니다. 但是보다 더 격식체.",
+      "examples": [
+        {
+          "chinese": "然而，在本案中，法院表示他们无权对斯科特法案进行裁判。",
+          "pinyin": "Rán'ér, zài běn àn zhōng, fǎyuàn biǎoshì tāmen wú quán duì Sīkētè Fǎ'àn jìnxíng cáipàn.",
+          "korean": "하지만 이 사건에서 법원은 스콧법에 대해 판단할 권한이 없다고 밝혔다."
+        }
+      ],
+      "segmentIndex": 47
+    },
+    {
+      "pattern": "由于 / 因为 ... 所以 (because...therefore)",
+      "explanation": "由于 (yóuyú) or 因为 (yīnwèi) introduce cause, 所以 (suǒyǐ) introduces result. 由于 is more formal and usually used in written Chinese. Often the 所以 clause is implied rather than stated.",
+      "explanationKo": "由于(yóuyú) 또는 因为(yīnwèi)는 원인을 도입하고, 所以(suǒyǐ)는 결과를 도입합니다. 由于는 더 격식체이며 주로 문어체에서 사용됩니다.",
+      "examples": [
+        {
+          "chinese": "因为国会已将该移民政策宣布为国家安全事项，所以法院表示无权裁判。",
+          "pinyin": "Yīnwèi guóhuì yǐ jiāng gāi yímín zhèngcè xuānbù wéi guójiā ānquán shìxiàng, suǒyǐ fǎyuàn biǎoshì wú quán cáipàn.",
+          "korean": "의회가 그 이민 정책을 국가 안보 사항으로 선언했기 때문에, 법원은 판단할 권한이 없다고 밝혔다."
+        }
+      ],
+      "segmentIndex": 48
+    }
+  ]
+}

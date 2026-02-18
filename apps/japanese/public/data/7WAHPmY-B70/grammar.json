@@ -1,0 +1,143 @@
+[
+  {
+    "pattern": "〜と申します",
+    "explanation": "Humble expression for introducing oneself. 申す (mousu) is the humble form of 言う (iu). Used instead of 〜と言います in formal/polite settings.",
+    "explanationKo": "자기소개에 쓰이는 겸양 표현. 申す는 言う의 겸양어. 격식 있는 자리에서 「〜と言います」 대신 사용.",
+    "examples": [
+      "林茂光と申します。",
+      "田中と申しますが、部長はいらっしゃいますか？"
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜をご存知でしょうか",
+    "explanation": "Polite way to ask if someone knows something. ご存知 is the honorific form of 知っている. でしょうか softens the question further.",
+    "explanationKo": "상대방이 무언가를 알고 있는지 물어보는 정중한 표현. ご存知는 知っている의 존경어. でしょうか로 더욱 완곡하게 표현.",
+    "examples": [
+      "皆様は手の形で声が変わることをご存知でしょうか。",
+      "このお店をご存知でしょうか。"
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "〜ていただく",
+    "explanation": "A humble/respectful form expressing that one receives the favor of someone doing something. It is more polite than 〜てもらう and is widely used in formal situations.",
+    "explanationKo": "상대방이 어떤 행위를 해 주는 것을 겸손하게 받는 표현. 〜てもらう보다 더 정중하며 격식 있는 상황에서 자주 사용.",
+    "examples": [
+      "手の形をグーにしていただき深呼吸をします。",
+      "二人一組になっていただきましたら…",
+      "ご体感していただきたいと思います。"
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜ましたでしょうか",
+    "explanation": "An extremely polite form combining the past tense 〜ました with the soft interrogative でしょうか. Used when asking a respectful question about something that already happened.",
+    "explanationKo": "과거형 〜ました와 완곡한 의문형 でしょうか의 조합. 이미 일어난 일에 대해 정중하게 물어볼 때 사용.",
+    "examples": [
+      "体のどこが活発に動きましたでしょうか。",
+      "ご確認いただきましたでしょうか。"
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "〜てみたいと思います",
+    "explanation": "Expression of a speaker's intention or wish to try something. 〜てみる means 'to try doing', and と思います softens the statement.",
+    "explanationKo": "무언가를 시도해 보고자 하는 의향을 나타내는 표현. 〜てみる는 '해보다', と思います는 부드럽게 의도를 전달.",
+    "examples": [
+      "それを一つ試してみたいと思います。",
+      "日本語を勉強してみたいと思います。"
+    ],
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "〜ていただきたいと思います",
+    "explanation": "A very polite expression used to request that someone does something. More indirect and humble than a direct command. Common in formal speeches.",
+    "explanationKo": "상대방에게 무언가를 해 달라고 정중하게 부탁하는 표현. 직접 명령보다 간접적이고 겸손. 격식 있는 연설에서 자주 쓰임.",
+    "examples": [
+      "是非皆様一緒にご体感していただきたいと思います。",
+      "これをぜひまた皆様体感していただきたいと思います。"
+    ],
+    "segmentIndex": 34
+  },
+  {
+    "pattern": "〜ようにする / 〜まいとする",
+    "explanation": "〜まいとする expresses the intent NOT to do something (negative volitional form). Here 起こされまいとする means 'trying not to be made to stand up'.",
+    "explanationKo": "〜まいとする는 어떤 일을 하지 않으려고 의도하는 표현 (부정 의지형). 起こされまいとする는 '일으켜 세워지지 않으려고 하다'.",
+    "examples": [
+      "起こされまいとしてください。",
+      "負けまいと頑張った。"
+    ],
+    "segmentIndex": 40
+  },
+  {
+    "pattern": "〜てしまったら",
+    "explanation": "Conditional form combining 〜てしまう (an action completed, often with negative nuance) with conditional 〜たら. Meaning: 'if (something unwanted) ends up happening'.",
+    "explanationKo": "〜てしまう(완료, 주로 유감의 뉘앙스)와 조건형 〜たら의 조합. '(원치 않는 일이) 일어나 버렸다면'을 의미.",
+    "examples": [
+      "起こされてしまったら後でジュースをご紹介してください。",
+      "忘れてしまったら連絡してください。"
+    ],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "〜ておく",
+    "explanation": "Verb + ておく indicates doing something in advance or keeping a state for future use. 折り曲げておく means 'keep (the fingers) bent (for later benefit)'.",
+    "explanationKo": "동사 + ておく는 미래를 위해 미리 해 두거나 그 상태를 유지하는 것을 나타냄. 折り曲げておく는 '(나중을 위해) 구부려 두다'.",
+    "examples": [
+      "ぜひこの小指と薬指を折り曲げておくと声が安定します。",
+      "メモしておいてください。"
+    ],
+    "segmentIndex": 80
+  },
+  {
+    "pattern": "〜ば〜いいです",
+    "explanation": "A pattern meaning 'it's fine if ~' or 'all you need is ~'. Used to give relaxed conditions or permissions.",
+    "explanationKo": "〜이면 됩니다'라는 의미로 조건이나 충족 기준을 편안하게 제시할 때 사용.",
+    "examples": [
+      "小指と薬指が手のひらに近ければいいです。",
+      "このぐらいできれば十分いいです。"
+    ],
+    "segmentIndex": 87
+  },
+  {
+    "pattern": "〜ながら",
+    "explanation": "Expresses doing two actions simultaneously. スペースうまく取りながら means 'while effectively using the space'.",
+    "explanationKo": "두 가지 행동을 동시에 하는 것을 나타냄. 스페이스를 잘 활용하면서(동시에 다른 행동을 함).",
+    "examples": [
+      "スペースうまく取りながらやっていってください。",
+      "音楽を聴きながら勉強します。"
+    ],
+    "segmentIndex": 42
+  },
+  {
+    "pattern": "〜でしょうか",
+    "explanation": "A softened question form, more polite and less direct than 〜ですか. Used in formal and polite contexts to ask something gently.",
+    "explanationKo": "〜ですか보다 더 완곡하고 정중한 의문형. 격식 있는 맥락에서 부드럽게 질문할 때 사용.",
+    "examples": [
+      "息が詰まるの分かりますでしょうかね。",
+      "よろしいでしょうか。"
+    ],
+    "segmentIndex": 68
+  },
+  {
+    "pattern": "〜て + くれる (恩恵の授受)",
+    "explanation": "When combined with the directional particle, 〜てくれる indicates someone doing something for the speaker's benefit. 声が安定して出てきてくれます suggests the voice cooperates and comes out stably.",
+    "explanationKo": "〜てくれる는 화자에게 이익이 되는 행동을 상대방이 해 주는 것을 나타냄. 목소리가 (화자를 위해) 안정적으로 나와 준다는 뉘앙스.",
+    "examples": [
+      "声が安定して出てきてくれます。",
+      "友達が手伝ってくれました。"
+    ],
+    "segmentIndex": 81
+  },
+  {
+    "pattern": "〜のほかに / 〜よりも",
+    "explanation": "〜よりも means 'more than / rather than'. Used for comparison. この3本よりも (more/rather than these 3 fingers).",
+    "explanationKo": "〜よりも는 '~보다 더, ~보다는'이라는 비교 표현. この3本よりも는 '이 세 손가락보다'.",
+    "examples": [
+      "小指と薬指が手のひらに近ければ、この3本よりも効果的です。",
+      "昨日よりも元気です。"
+    ],
+    "segmentIndex": 88
+  }
+]

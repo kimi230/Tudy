@@ -1,0 +1,60 @@
+{
+  "videoId": "Uw__meqk20g",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 10,
+      "summary": "'話す力のトレーニングというのは キャリアを変え'로 시작해 'だからこそ話し方を通して 評価を勝ち取りにいくこ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "います",
+        "キャリアを変え",
+        "ドを変えていくんです"
+      ]
+    },
+    {
+      "section": "핵심 전개",
+      "startSegment": 10,
+      "endSegment": 37,
+      "summary": "'だからこそ話し方を通して 評価を勝ち取りにいくこ'로 시작해 '音声・動作の戦略とは 抑揚や身振り・手振りのこと'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "要だと思います",
+        "グサービス",
+        "会話代表"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 37,
+      "endSegment": 49,
+      "summary": "'音声・動作の戦略とは 抑揚や身振り・手振りのこと'로 시작해 '徹底的に磨くことで ビジネスシーンで'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "まずはその独自メソッドについて 明ら",
+      "type": "enumeration",
+      "segmentIndex": 21,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "つまり人生で4分の1の時間も 私たち",
+      "type": "summary",
+      "segmentIndex": 4,
+      "role": "핵심 요지를 재정리합니다."
+    },
+    {
+      "expression": "話す力のトレーニングというのは キャ",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "会話では政治家や経営者 ビジネスパー",
+      "type": "transition",
+      "segmentIndex": 16,
+      "role": "중간 전개 전환"
+    }
+  ]
+}

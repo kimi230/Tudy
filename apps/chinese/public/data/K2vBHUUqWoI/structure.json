@@ -1,0 +1,63 @@
+{
+  "videoId": "K2vBHUUqWoI",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 29,
+      "summary": "'《情商》 《情商》 《情商》 《情商》所在乎的就'로 시작해 '而不是一個壓垮你的負擔'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "情商",
+        "別人",
+        "你要設定好你自己"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 29,
+      "endSegment": 89,
+      "summary": "'而不是一個壓垮你的負擔'로 시작해 '因為在沒有這麼閱讀的瑣碎之前'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 89,
+      "endSegment": 159,
+      "summary": "'因為在沒有這麼閱讀的瑣碎之前'로 시작해 '那你的需求被滿足了 快樂的是你自己'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    },
+    {
+      "section": "정리",
+      "startSegment": 159,
+      "endSegment": 198,
+      "summary": "'那你的需求被滿足了 快樂的是你自己'로 시작해 '我是一刻talks的講者蔡康永'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "所以一方面很幸福就是 就是不像古人",
+      "type": "summary",
+      "segmentIndex": 22,
+      "role": "앞선 내용을 정리하며 결론으로 이동합니다."
+    },
+    {
+      "expression": "《情商》 《情商》 《情商》 《情商",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "讀完那個雞湯就更焦慮",
+      "type": "transition",
+      "segmentIndex": 66,
+      "role": "중간 전개 전환"
+    },
+    {
+      "expression": "情人與情人之間真的有追求這件事嗎",
+      "type": "emphasis",
+      "segmentIndex": 132,
+      "role": "핵심 강조"
+    }
+  ]
+}

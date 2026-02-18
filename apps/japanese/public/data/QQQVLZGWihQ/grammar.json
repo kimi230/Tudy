@@ -1,0 +1,197 @@
+{
+  "videoId": "QQQVLZGWihQ",
+  "grammarPatterns": [
+    {
+      "pattern": "〜に関しては",
+      "explanation": "Regarding ~; as for ~; concerning ~. A more formal expression of topic focus compared to simple は or について.",
+      "explanationKo": "~에 관해서는. ~에 대해서는. 단순한 は나 について보다 격식 있는 화제 제한 표현으로, 특정 사항에 대해 언급할 때 사용.",
+      "examples": [
+        {
+          "japanese": "中国人観光客に関しては例年よりも少ないということなんです。",
+          "korean": "중국인 관광객에 관해서는 예년보다 적다는 것입니다."
+        },
+        {
+          "japanese": "この件に関しては詳しく調べる必要があります。",
+          "korean": "이 건에 관해서는 자세히 조사할 필요가 있습니다."
+        }
+      ],
+      "segmentIndex": 3
+    },
+    {
+      "pattern": "〜ということなんです",
+      "explanation": "It is the case that ~; the thing is that ~. Used to explain or clarify something, adding a tone of emphasis or confirmation. なんです = のです (explanatory).",
+      "explanationKo": "~라는 것입니다. ~인 것입니다. 무언가를 설명하거나 확인하는 어조를 추가하는 표현으로, なんです는 のです의 구어체 형태.",
+      "examples": [
+        {
+          "japanese": "中国人観光客に関しては例年よりも少ないということなんです。",
+          "korean": "중국인 관광객에 관해서는 예년보다 적다는 것입니다."
+        },
+        {
+          "japanese": "問題はそこにあるということなんです。",
+          "korean": "문제는 거기에 있다는 것입니다."
+        }
+      ],
+      "segmentIndex": 3
+    },
+    {
+      "pattern": "〜に比べたら",
+      "explanation": "Compared to ~; if you compare to ~. たら is a conditional form, used here to make a comparison. Often colloquial.",
+      "explanationKo": "~에 비하면, ~에 비교하면. たら는 조건형으로 비교 시 사용. 일상 구어체에서 많이 쓰임.",
+      "examples": [
+        {
+          "japanese": "中国の方が去年に比べたらだいぶ減っています。",
+          "korean": "중국 분들이 작년에 비하면 꽤 줄었습니다."
+        },
+        {
+          "japanese": "去年に比べたら、今年の夏は涼しい。",
+          "korean": "작년에 비하면 올해 여름은 시원하다."
+        }
+      ],
+      "segmentIndex": 6
+    },
+    {
+      "pattern": "〜と見込まれています",
+      "explanation": "It is expected that ~; it is anticipated that ~. 見込む means to anticipate/expect. Used for predictions or forecasts, often in news reporting.",
+      "explanationKo": "~할 것으로 예상되고 있습니다. 見込む는 예상하다, 기대하다의 뜻으로 뉴스나 보도에서 예측을 나타낼 때 사용.",
+      "examples": [
+        {
+          "japanese": "延べ95億人が移動すると見込まれています。",
+          "korean": "연 95억 명이 이동할 것으로 예상되고 있습니다."
+        },
+        {
+          "japanese": "来年の成長率は3%と見込まれています。",
+          "korean": "내년 성장률은 3%로 예상되고 있습니다."
+        }
+      ],
+      "segmentIndex": 13
+    },
+    {
+      "pattern": "〜に限って言うと",
+      "explanation": "Strictly speaking about ~; if we limit ourselves to talking about ~. Used to narrow the scope of discussion to a specific subject.",
+      "explanationKo": "~에 한해서 말하자면. 말하는 범위를 특정 대상으로 좁힐 때 사용하는 표현.",
+      "examples": [
+        {
+          "japanese": "私とこの店に限って言うと、3割から4割は減っています。",
+          "korean": "저와 이 가게에 한해 말하자면, 30%에서 40%는 줄었습니다."
+        },
+        {
+          "japanese": "この地域に限って言うと、被害は少なかった。",
+          "korean": "이 지역에 한해 말하자면, 피해는 적었다."
+        }
+      ],
+      "segmentIndex": 32
+    },
+    {
+      "pattern": "〜というわけではなくて",
+      "explanation": "It's not that ~; it doesn't mean that ~. Used to negate a potential misunderstanding and then clarify the actual situation.",
+      "explanationKo": "~라는 것은 아니고. 상대방이 오해할 수 있는 내용을 부정하고 실제 상황을 설명할 때 사용.",
+      "examples": [
+        {
+          "japanese": "全てが店舗とかお茶屋さんとかいうわけではなくて、普通の一般のお家もあるんですよね。",
+          "korean": "전부 가게나 차야라는 것은 아니고, 평범한 일반 가정집도 있거든요."
+        },
+        {
+          "japanese": "嫌いというわけではなくて、少し苦手なんです。",
+          "korean": "싫다는 것은 아니고, 좀 어렵게 느껴지는 거예요."
+        }
+      ],
+      "segmentIndex": 47
+    },
+    {
+      "pattern": "〜ざるを得ない",
+      "explanation": "Cannot help but ~; have no choice but to ~. Expresses inevitability or compulsion. 〜ざる is the classical negative form + を得ない (cannot avoid).",
+      "explanationKo": "~하지 않을 수 없다, ~할 수밖에 없다. 어쩔 수 없는 상황이나 필연성을 나타냄. ざる는 고어의 부정형으로 を得ない(피할 수 없다)와 결합.",
+      "examples": [
+        {
+          "japanese": "我々も下げざるを得ないという状況になったというところがあります。",
+          "korean": "저희도 내리지 않을 수 없다는 상황이 됐다는 부분이 있습니다."
+        },
+        {
+          "japanese": "時間がないので、タクシーを使わざるを得ない。",
+          "korean": "시간이 없어서 택시를 이용하지 않을 수 없다."
+        }
+      ],
+      "segmentIndex": 68
+    },
+    {
+      "pattern": "〜つつある",
+      "explanation": "Is in the process of ~ing; is gradually ~ing. Expresses an ongoing progressive change over time.",
+      "explanationKo": "~하는 중이다, 점점 ~하고 있다. 시간이 지남에 따라 진행 중인 변화를 나타냄.",
+      "examples": [
+        {
+          "japanese": "離れつつある中国団体客依存。",
+          "korean": "멀어지고 있는 중국 단체 관광객 의존."
+        },
+        {
+          "japanese": "状況は改善されつつある。",
+          "korean": "상황은 개선되고 있는 중이다."
+        }
+      ],
+      "segmentIndex": 78
+    },
+    {
+      "pattern": "〜がちだ",
+      "explanation": "Tends to ~; is inclined to ~; often does ~. Expresses a tendency, often with a slightly negative connotation.",
+      "explanationKo": "~하는 경향이 있다, ~하기 쉽다. 어떤 경향이나 성향을 나타내며, 부정적인 뉘앙스를 갖는 경우가 많음.",
+      "examples": [
+        {
+          "japanese": "オーバーツーリズムで敬遠がちだった日本人観光客に、変化が見え始めたといいます。",
+          "korean": "오버투어리즘으로 피하는 경향이 있었던 일본인 관광객에게, 변화가 보이기 시작했다고 합니다."
+        },
+        {
+          "japanese": "彼は遅刻がちだ。",
+          "korean": "그는 지각하는 경향이 있다."
+        }
+      ],
+      "segmentIndex": 81
+    },
+    {
+      "pattern": "〜てもらわないと",
+      "explanation": "Unless ~; if I can't get someone to ~. Expresses that something needs to happen (receiving an action from someone). Implies an undesirable consequence if it doesn't happen.",
+      "explanationKo": "~해 주지 않으면. 누군가에게 무언가를 해줄 것을 기대하는데 그렇지 않으면 좋지 않은 결과가 생김을 내포함.",
+      "examples": [
+        {
+          "japanese": "この良さを日本の人に分かってもらわないと、この良さがなくなっていくと思うんですよ。",
+          "korean": "이 좋음을 일본 사람들에게 이해받지 못하면, 이 좋음이 사라져 갈 것 같아요."
+        },
+        {
+          "japanese": "先生に説明してもらわないと、分からないです。",
+          "korean": "선생님이 설명해 주시지 않으면 모르겠어요."
+        }
+      ],
+      "segmentIndex": 86
+    },
+    {
+      "pattern": "〜によると",
+      "explanation": "According to ~; based on ~. Used to cite a source of information, common in news reporting.",
+      "explanationKo": "~에 따르면, ~에 의하면. 정보의 출처를 인용할 때 사용하며 뉴스 보도에서 자주 등장함.",
+      "examples": [
+        {
+          "japanese": "韓国観光公社などの発表によると、この春節で韓国を訪れる中国人観光客は1日平均19万人と予想されていて、",
+          "korean": "한국관광공사 등의 발표에 따르면, 이번 춘절에 한국을 방문하는 중국인 관광객은 하루 평균 19만 명으로 예상되고 있으며,"
+        },
+        {
+          "japanese": "気象庁の発表によると、明日は雨の予報です。",
+          "korean": "기상청 발표에 따르면, 내일은 비 예보입니다."
+        }
+      ],
+      "segmentIndex": 58
+    },
+    {
+      "pattern": "〜一方（で）",
+      "explanation": "On the other hand ~; while ~. Used to contrast two different situations or facts.",
+      "explanationKo": "한편 ~. 반면에 ~. 두 가지 다른 상황이나 사실을 대조할 때 사용.",
+      "examples": [
+        {
+          "japanese": "中国人団体客は減っているという一方、個人旅行で来日する中国人は少なくないといいます。",
+          "korean": "중국인 단체 관광객은 줄고 있는 반면, 개인 여행으로 일본을 방문하는 중국인은 적지 않다고 합니다."
+        },
+        {
+          "japanese": "A国では景気が良い一方、B国では悪化している。",
+          "korean": "A국에서는 경기가 좋은 반면, B국에서는 악화되고 있다."
+        }
+      ],
+      "segmentIndex": 27
+    }
+  ]
+}

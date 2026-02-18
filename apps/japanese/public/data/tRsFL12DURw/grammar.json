@@ -1,0 +1,203 @@
+{
+  "videoId": "tRsFL12DURw",
+  "grammar": [
+    {
+      "pattern": "〜うちに",
+      "explanation": "During a certain period or state; while a condition holds. Used to express doing something within a particular time frame or situation.",
+      "explanationKo": "어떤 상태나 기간이 지속되는 동안에 무언가를 한다는 표현. '~하는 동안에', '~하는 사이에'의 의미.",
+      "examples": [
+        {
+          "sentence": "いくつか作ってるうちの一つです",
+          "reading": "いくつかつくってるうちのひとつです",
+          "translation": "여러 점 만들고 있는 것 중의 하나입니다"
+        },
+        {
+          "sentence": "練習しているうちに上手になった",
+          "reading": "れんしゅうしているうちにじょうずになった",
+          "translation": "연습하는 사이에 능숙해졌다"
+        }
+      ],
+      "segmentIndex": 6
+    },
+    {
+      "pattern": "〜ことなく",
+      "explanation": "Without doing something; expressing that an action or state has not occurred throughout a period. Formal expression equivalent to 〜ないで.",
+      "explanationKo": "'~하지 않고', '~함 없이'의 의미. 어떤 행위나 상태 없이 계속됨을 나타내는 격식체 표현.",
+      "examples": [
+        {
+          "sentence": "その間一度も途絶えることなくずっと続いています",
+          "reading": "そのあいだいちどもとだえることなくずっとつづいています",
+          "translation": "그 사이 한 번도 단절되는 일 없이 계속 이어져 오고 있습니다"
+        },
+        {
+          "sentence": "休むことなく働き続けた",
+          "reading": "やすむことなくはたらきつづけた",
+          "translation": "쉬는 일 없이 계속 일했다"
+        }
+      ],
+      "segmentIndex": 9
+    },
+    {
+      "pattern": "〜によって",
+      "explanation": "Due to; caused by; depending on. Indicates cause, means, or agent. Widely used in formal and written Japanese.",
+      "explanationKo": "'~에 의해', '~에 따라', '~로 인해'의 의미. 원인·수단·행위자를 나타내는 표현.",
+      "examples": [
+        {
+          "sentence": "金粉の量によって濃淡が生まれます",
+          "reading": "きんぷんのりょうによってのうたんがうまれます",
+          "translation": "금가루의 양에 따라 농담(짙고 옅음)이 생깁니다"
+        },
+        {
+          "sentence": "人によって感じ方が違う",
+          "reading": "ひとによってかんじかたがちがう",
+          "translation": "사람에 따라 느끼는 방식이 다르다"
+        }
+      ],
+      "segmentIndex": 19
+    },
+    {
+      "pattern": "〜に優れている",
+      "explanation": "Excellent at; superior in. Expresses that something excels in a particular quality or characteristic.",
+      "explanationKo": "'~에 뛰어나다', '~이 우수하다'의 의미. 특정 특성에서 탁월함을 나타내는 표현.",
+      "examples": [
+        {
+          "sentence": "漆は耐薬品性にも優れています",
+          "reading": "うるしはたいやくひんせいにもすぐれています",
+          "translation": "옻칠은 내약품성에도 뛰어납니다"
+        },
+        {
+          "sentence": "彼はスポーツに優れている",
+          "reading": "かれはすぽーつにすぐれている",
+          "translation": "그는 스포츠에 뛰어나다"
+        }
+      ],
+      "segmentIndex": 54
+    },
+    {
+      "pattern": "〜といえば",
+      "explanation": "Speaking of; when it comes to. Used to introduce a related topic or to define what something is known for.",
+      "explanationKo": "'~라고 하면', '~하면 말이죠'의 의미. 어떤 주제에 대한 이야기를 시작하거나 연상되는 것을 말할 때 쓰는 표현.",
+      "examples": [
+        {
+          "sentence": "漆といえば、日本の伝統的な塗料として有名です",
+          "reading": "うるしといえば、にほんのでんとうてきなとりょうとしてゆうめいです",
+          "translation": "옻칠이라고 하면 일본의 전통적인 도료로 유명합니다"
+        },
+        {
+          "sentence": "日本といえば富士山",
+          "reading": "にほんといえばふじさん",
+          "translation": "일본이라고 하면 후지산"
+        }
+      ],
+      "segmentIndex": 22
+    },
+    {
+      "pattern": "〜なんと",
+      "explanation": "An exclamatory adverb expressing surprise: 'as many as', 'as far back as', 'no less than'. Emphasizes the unexpectedly large/long scale of what follows.",
+      "explanationKo": "'무려', '놀랍게도', '자그마치'의 의미. 예상 밖의 큰 숫자나 범위를 강조할 때 쓰는 부사.",
+      "examples": [
+        {
+          "sentence": "日本での漆の利用はなんと1万年前まで遡ります",
+          "reading": "にほんでのうるしのりようはなんとひとまんねんまえまでさかのぼります",
+          "translation": "일본에서의 옻칠 이용은 무려 1만 년 전까지 거슬러 올라갑니다"
+        },
+        {
+          "sentence": "彼はなんと100キロも走った",
+          "reading": "かれはなんとひゃっきろもはしった",
+          "translation": "그는 무려 100킬로미터나 달렸다"
+        }
+      ],
+      "segmentIndex": 67
+    },
+    {
+      "pattern": "〜ために",
+      "explanation": "In order to; for the purpose of. Expresses purpose or reason. When used with a noun, means 'for the sake of' or 'due to'.",
+      "explanationKo": "'~하기 위해', '~를 위해'의 의미. 목적을 나타내는 표현. 명사와 함께 쓰이면 '~를 위해', '~로 인해'의 의미.",
+      "examples": [
+        {
+          "sentence": "漆を広めるために活動しています",
+          "reading": "うるしをひろめるためにかつどうしています",
+          "translation": "옻칠을 알리기 위해 활동하고 있습니다"
+        },
+        {
+          "sentence": "健康のために運動する",
+          "reading": "けんこうのためにうんどうする",
+          "translation": "건강을 위해 운동한다"
+        }
+      ],
+      "segmentIndex": 116
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "explanation": "Despite; in spite of; nevertheless. Expresses that the result is contrary to what might be expected from the preceding condition.",
+      "explanationKo": "'~에도 불구하고', '~임에도 불구하고'의 의미. 앞의 조건과 반대되는 결과가 이어질 때 쓰는 표현.",
+      "examples": [
+        {
+          "sentence": "高齢にもかかわらずエベレストに登ろうとしていた",
+          "reading": "こうれいにもかかわらずえべれすとにのぼろうとしていた",
+          "translation": "고령임에도 불구하고 에베레스트에 오르려 하고 있었다"
+        },
+        {
+          "sentence": "雨にもかかわらず試合は行われた",
+          "reading": "あめにもかかわらずしあいはおこなわれた",
+          "translation": "비에도 불구하고 경기는 진행되었다"
+        }
+      ],
+      "segmentIndex": 82
+    },
+    {
+      "pattern": "〜てしまう（〜ちゃう）",
+      "explanation": "Indicates completion of an action, often with a nuance of regret, undesirability, or unexpectedness. 〜ちゃう is the casual contracted form.",
+      "explanationKo": "'~해버리다'의 의미. 행위의 완료, 또는 아쉬움·후회·의도치 않음의 뉘앙스를 나타냄. 〜ちゃう는 구어적 축약형.",
+      "examples": [
+        {
+          "sentence": "英語の名前がついてしまって",
+          "reading": "えいごのなまえがついてしまって",
+          "translation": "영어 이름이 붙어버려서"
+        },
+        {
+          "sentence": "忘れちゃった",
+          "reading": "わすれちゃった",
+          "translation": "잊어버렸다"
+        }
+      ],
+      "segmentIndex": 100
+    },
+    {
+      "pattern": "〜として",
+      "explanation": "As; in the capacity of; in the role of. Indicates that the subject occupies a certain position, role, or status.",
+      "explanationKo": "'~로서', '~으로서'의 의미. 어떤 역할이나 자격, 입장을 나타내는 표현.",
+      "examples": [
+        {
+          "sentence": "漆は塗料として優れた特性を持っています",
+          "reading": "うるしはとりょうとしてすぐれたとくせいをもっています",
+          "translation": "옻칠은 도료로서 뛰어난 특성을 갖고 있습니다"
+        },
+        {
+          "sentence": "教師として働く",
+          "reading": "きょうしとしてはたらく",
+          "translation": "교사로서 일하다"
+        }
+      ],
+      "segmentIndex": 43
+    },
+    {
+      "pattern": "〜ている間に（〜てる間に）",
+      "explanation": "While doing something; during the process of an ongoing action. Indicates that another event occurs or a change happens during an ongoing state.",
+      "explanationKo": "'~하는 동안에', '~하고 있는 사이에'의 의미. 어떤 동작이 진행되는 동안 다른 일이 일어날 때 쓰는 표현.",
+      "examples": [
+        {
+          "sentence": "作っている間に気持ちが落ち着く",
+          "reading": "つくっているあいだにきもちがおちつく",
+          "translation": "만드는 동안 마음이 안정된다"
+        },
+        {
+          "sentence": "彼が話している間に、私はメモした",
+          "reading": "かれがはなしているあいだに、わたしはめもした",
+          "translation": "그가 이야기하는 동안 나는 메모했다"
+        }
+      ],
+      "segmentIndex": 90
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "videoId": "xW2mUoTjEMw",
+  "grammar": [
+    {
+      "pattern": "是…的 (shì…de)",
+      "explanation": "The 是…的 construction is used to emphasize background information about a completed action, especially time, place, manner, or purpose. The emphasized element is placed between 是 and 的.",
+      "explanationKo": "완료된 동작의 시간, 장소, 방법, 목적 등을 강조할 때 쓰는 구문입니다. 강조하려는 요소를 '是'와 '的' 사이에 놓습니다.",
+      "examples": [
+        {
+          "chinese": "也是仿照法国埃菲尔铁塔所建的",
+          "pinyin": "yě shì fǎngzhào Fǎguó Āifēiěr tiě tǎ suǒ jiàn de",
+          "korean": "이 또한 프랑스 에펠탑을 모방하여 건설된 것입니다"
+        },
+        {
+          "chinese": "建于1958年的东京塔 是日本战后重建的标志",
+          "pinyin": "jiànyú yījiǔwǔbā nián de Dōngjīng tǎ shì Rìběn zhànhòu chóngjiàn de biāozhì",
+          "korean": "1958년에 건설된 도쿄타워는 일본 전후 재건의 상징입니다"
+        }
+      ],
+      "segmentIndex": 72
+    },
+    {
+      "pattern": "以…而闻名 (yǐ…ér wénmíng)",
+      "explanation": "This pattern means 'to be famous for...' or 'to be well-known for...'. The thing for which something is famous comes after 以.",
+      "explanationKo": "어떤 것으로 유명하다는 표현입니다. '以' 뒤에 유명한 이유나 특징이 옵니다.",
+      "examples": [
+        {
+          "chinese": "银座以其高档购物场所和艺廊而闻名",
+          "pinyin": "Yínzuò yǐ qí gāodàng gòuwù chǎngsuǒ hé yìláng ér wénmíng",
+          "korean": "긴자는 고급 쇼핑 시설과 갤러리로 유명합니다"
+        },
+        {
+          "chinese": "皇居东御苑则以其精心护理的花园而闻名",
+          "pinyin": "Huángjū dōng yù yuàn zé yǐ qí jīngxīn hùlǐ de huāyuán ér wénmíng",
+          "korean": "황거 동어원은 정성껏 관리된 정원으로 유명합니다"
+        }
+      ],
+      "segmentIndex": 90
+    },
+    {
+      "pattern": "既…也… (jì…yě…)",
+      "explanation": "This correlative conjunction means 'not only…but also…'. It connects two parallel attributes or facts about the same subject.",
+      "explanationKo": "'~일 뿐만 아니라 ~이기도 하다'는 뜻의 병렬 접속 구문입니다. 같은 주어에 대한 두 가지 속성을 연결합니다.",
+      "examples": [
+        {
+          "chinese": "既是世界上最大的都会区 也是GDP总量排名世界第一的都会区",
+          "pinyin": "jì shì shìjiè shàng zuìdà de dūhuìqū yě shì GDP zǒngliàng páimíng shìjiè dìyī de dūhuìqū",
+          "korean": "세계 최대의 도시권일 뿐만 아니라 GDP 총량도 세界 1위인 도시권이기도 합니다"
+        }
+      ],
+      "segmentIndex": 84
+    },
+    {
+      "pattern": "以至于 (yǐzhìyú)",
+      "explanation": "A conjunction meaning 'so that', 'to such a degree that', or 'as a result'. It introduces a consequence that follows from the preceding situation.",
+      "explanationKo": "'~할 정도로', '그 결과 ~하다'는 뜻으로 앞 내용의 결과나 정도를 이끄는 접속사입니다.",
+      "examples": [
+        {
+          "chinese": "为了造出更多的建筑 以至于这里的马路都十分拥挤",
+          "pinyin": "wèile zào chū gèngduō de jiànzhù yǐzhìyú zhèlǐ de mǎlù dōu shífēn yōngjǐ",
+          "korean": "더 많은 건물을 짓기 위해 이곳의 도로는 매우 혼잡할 정도입니다"
+        }
+      ],
+      "segmentIndex": 5
+    },
+    {
+      "pattern": "被…所… (bèi…suǒ…)",
+      "explanation": "An emphatic passive construction meaning 'to be [verb-ed] by'. The 所 reinforces the passive meaning and is often used in formal or written Chinese.",
+      "explanationKo": "피동 구문의 강조형으로, '~에 의해 ~되다'는 뜻입니다. '所'가 피동 의미를 강조하며 문어체에서 자주 쓰입니다.",
+      "examples": [
+        {
+          "chinese": "其外形受传统日式五重塔所启发",
+          "pinyin": "qí wàixíng shòu chuántǒng Rìshì wǔchóng tǎ suǒ qǐfā",
+          "korean": "그 외형은 전통 일본식 오층탑에서 영감을 받았습니다"
+        },
+        {
+          "chinese": "狂野的场面早已被载入世界吉尼斯记录",
+          "pinyin": "kuángyě de chǎngmiàn zǎoyǐ bèi zàirù shìjiè Jínísī jìlù",
+          "korean": "그 장관은 이미 세계 기네스 기록에 올랐습니다"
+        }
+      ],
+      "segmentIndex": 82
+    },
+    {
+      "pattern": "作为…，… (zuòwéi…,…)",
+      "explanation": "This pattern introduces the role or status of the subject, meaning 'as', 'in the capacity of', or 'serving as'. It is used to establish a premise before making a statement.",
+      "explanationKo": "'~으로서', '~의 역할로'라는 뜻으로 주어의 자격이나 역할을 제시한 뒤 서술합니다.",
+      "examples": [
+        {
+          "chinese": "雷门 作为浅草寺的正门 是日本众所周知的标志性建筑",
+          "pinyin": "Léimén zuòwéi Qiǎncǎosì de zhèngmén shì Rìběn zhòngsuǒzhōuzhī de biāozhìxìng jiànzhù",
+          "korean": "뇌문은 센소지의 정문으로서 일본에서 널리 알려진 상징적인 건축물입니다"
+        },
+        {
+          "chinese": "涉谷 作为著名的年轻文化区 与原宿共同主导着东京的时尚和音乐潮流",
+          "pinyin": "Shèyù zuòwéi zhùmíng de niánqīng wénhuà qū yǔ Yuánsù gòngtóng zhǔdǎozhe Dōngjīng de shíshàng hé yīnyuè cháoliú",
+          "korean": "시부야는 유명한 젊은이 문화 지구로서 하라주쿠와 함께 도쿄의 패션과 음악 트렌드를 주도합니다"
+        }
+      ],
+      "segmentIndex": 55
+    },
+    {
+      "pattern": "乃至 (nǎizhì)",
+      "explanation": "A conjunction meaning 'and even', 'up to and including', or 'even'. It extends the range of what is being said, indicating that the scope is even wider than expected.",
+      "explanationKo": "'~은 물론이고', '심지어 ~까지'라는 뜻으로 범위를 더 넓힐 때 쓰는 접속사입니다.",
+      "examples": [
+        {
+          "chinese": "新宿是东京乃至日本人气最高、最繁华的地区之一",
+          "pinyin": "Xīnsù shì Dōngjīng nǎizhì Rìběn rénqì zuìgāo zuì fánhuá de dìqū zhī yī",
+          "korean": "신주쿠는 도쿄는 물론 일본에서 가장 인기 있고 가장 번화한 지역 중 하나입니다"
+        },
+        {
+          "chinese": "秋叶原 作为日本乃至全球著名的二次元文化圣地",
+          "pinyin": "Qiūyèyuán zuòwéi Rìběn nǎizhì quánqiú zhùmíng de èrcìyuán wénhuà shèngdì",
+          "korean": "아키하바라는 일본은 물론 전 세계적으로 유명한 오타쿠 문화의 성지입니다"
+        }
+      ],
+      "segmentIndex": 95
+    },
+    {
+      "pattern": "迄今为止 (qìjīn wéizhǐ)",
+      "explanation": "A fixed phrase meaning 'up to now', 'to date', or 'so far'. It indicates the present as the endpoint of a time range.",
+      "explanationKo": "'현재까지', '지금껏'이라는 뜻의 고정 표현으로, 현재를 시간의 종점으로 나타냅니다.",
+      "examples": [
+        {
+          "chinese": "这是我们这个地球上迄今为止最高的广播电视塔",
+          "pinyin": "zhè shì wǒmen zhège dìqiú shàng qìjīn wéizhǐ zuìgāo de guǎngbō diànshì tǎ",
+          "korean": "이것은 현재까지 지구상에서 가장 높은 방송 전파탑입니다"
+        },
+        {
+          "chinese": "自建成开放以来 迄今为止接待旅客已超过7亿人次",
+          "pinyin": "zì jiànchéng kāifàng yǐlái qìjīn wéizhǐ jiēdài lǚkè yǐ chāoguò qī yì rércì",
+          "korean": "개장 이후 현재까지 누적 방문객이 7억 명을 넘었습니다"
+        }
+      ],
+      "segmentIndex": 80
+    },
+    {
+      "pattern": "由…所构成/组成 (yóu…suǒ gòuchéng)",
+      "explanation": "This passive-like construction means 'to be composed of', 'to be formed by'. 由 introduces the components, and 所 (optional but common in formal usage) reinforces the passive meaning.",
+      "explanationKo": "'~으로 구성되다', '~으로 이루어지다'라는 뜻의 수동형 구문입니다. '由'가 구성 요소를 이끌고, '所'는 문어체에서 피동 의미를 강조합니다.",
+      "examples": [
+        {
+          "chinese": "由一都三县构成的东京都市圈",
+          "pinyin": "yóu yī dū sān xiàn gòuchéng de Dōngjīng dūshìquān",
+          "korean": "1도 3현으로 구성된 도쿄 도시권"
+        },
+        {
+          "chinese": "皇居占地约3.41平方公里 由护城河所围绕",
+          "pinyin": "Huángjū zhàndì yuē sān diǎn sìyī píngfāng gōnglǐ yóu hùchénghé suǒ wéirào",
+          "korean": "황거는 약 3.41 평방킬로미터 면적으로 해자로 둘러싸여 있습니다"
+        }
+      ],
+      "segmentIndex": 1
+    },
+    {
+      "pattern": "曾…过 / 曾两次… (céng…guò)",
+      "explanation": "曾 (céng) is an adverb meaning 'once', 'ever', or 'formerly', indicating that something happened in the past. Combined with 过 it emphasizes a past experience.",
+      "explanationKo": "'曾'은 '일찍이', '전에'라는 뜻의 부사로 과거에 있었던 일을 나타냅니다. '过'와 결합하면 과거 경험을 강조합니다.",
+      "examples": [
+        {
+          "chinese": "历史上东京曾两次被夷为平地",
+          "pinyin": "lìshǐ shàng Dōngjīng céng liǎng cì bèi yí wéi píngdì",
+          "korean": "역사적으로 도쿄는 두 번 완전히 폐허가 된 적이 있습니다"
+        }
+      ],
+      "segmentIndex": 64
+    }
+  ]
+}

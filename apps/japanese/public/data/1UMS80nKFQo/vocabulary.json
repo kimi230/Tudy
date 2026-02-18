@@ -1,0 +1,222 @@
+[
+  {
+    "word": "んですね",
+    "reading": "ですけどひとはどうやってかわるのかという",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'んですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "ですけど人はどうやって変わるのかという話とはちょっと違うんですね"
+  },
+  {
+    "word": "あるいは",
+    "reading": "あるいは もうみんなひとというのはなんら",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'あるいは'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 27,
+    "contextSentence": "あるいは もうみんな人というのは何らかの社会に属しています"
+  },
+  {
+    "word": "かもしれないし",
+    "reading": "かもしれないし これしゅくだいですよ",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'かもしれないし'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "かもしれないし これ宿題ですよ"
+  },
+  {
+    "word": "かもしれない",
+    "reading": "かもしれない あるいはしゃかいじょうしき",
+    "partOfSpeech": "표현",
+    "definition": "Frequently used expression in this Japanese talk",
+    "koreanMeaning": "'かもしれない'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 38,
+    "contextSentence": "かもしれない あるいは社会常識はこれですよ"
+  },
+  {
+    "word": "この写真",
+    "reading": "このしゃしん だれだかおわかりになるでし",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'この写真'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "この写真 誰だかお分かりになるでしょうか"
+  },
+  {
+    "word": "ですけれども",
+    "reading": "こうやってしゃしんだしてますからね だい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ですけれども'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "こうやって写真出してますからね だいたいこれは僕のなわけなんですけれども"
+  },
+  {
+    "word": "もう",
+    "reading": "もう40ねんいじょうまえのしゃしんになり",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'もう'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "もう40年以上前の写真になりますかね"
+  },
+  {
+    "word": "るもんなんですね",
+    "reading": "40ねんぐらいたつとひとってけっこうかわ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'るもんなんですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "40年ぐらい経つと人って結構変わるもんなんですね"
+  },
+  {
+    "word": "ていたのか",
+    "reading": "このとうじぼくはどんなことをかんがえてい",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ていたのか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "この当時僕はどんなことを考えていたのか"
+  },
+  {
+    "word": "ていうのは",
+    "reading": "つまりかぞくがみえているせかいっていうの",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'ていうのは'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "つまり家族が見えている世界っていうのは"
+  },
+  {
+    "word": "のは",
+    "reading": "なんでぼくはみえないのかな ともだちがみ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'のは'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 10,
+    "contextSentence": "なんで僕は見えないのかな 友達が見えている世界っていうのは"
+  },
+  {
+    "word": "きないんだろうか",
+    "reading": "なんでじぶんはめにすることができないんだ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'きないんだろうか'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 11,
+    "contextSentence": "なんで自分は目にすることができないんだろうか"
+  },
+  {
+    "word": "たんですね",
+    "reading": "これがどうしてもわからなかったんですね",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'たんですね'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 12,
+    "contextSentence": "これがどうしても分からなかったんですね"
+  },
+  {
+    "word": "なことだったんです",
+    "reading": "これがこどものころにずっとふしぎなことだ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'なことだったんです'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 4,
+    "isEssential": false,
+    "segmentIndex": 14,
+    "contextSentence": "これが子供の頃にずっと不思議なことだったんです"
+  },
+  {
+    "word": "見ているのに",
+    "reading": "ぼくがみえているのとおなじものをみている",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'見ているのに'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 16,
+    "contextSentence": "僕が見えているのと同じものを見ているのに"
+  },
+  {
+    "word": "けです",
+    "reading": "まぎゃくのことをしたりとかするわけです",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'けです'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 18,
+    "contextSentence": "真逆のことをしたりとかするわけです"
+  },
+  {
+    "word": "と考えてきて",
+    "reading": "そしてそれをてーまにいろいろとかんがえて",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'と考えてきて'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "そしてそれをテーマにいろいろと考えてきて"
+  },
+  {
+    "word": "んだ",
+    "reading": "さいきんこうやってうけとればいいんだ",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'んだ'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 5,
+    "isEssential": false,
+    "segmentIndex": 20,
+    "contextSentence": "最近こうやって受け取ればいいんだ"
+  },
+  {
+    "word": "なと思っています",
+    "reading": "そんなきづきをきょうははなそうかなとおも",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'なと思っています'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 21,
+    "contextSentence": "そんな気づきを今日は話そうかなと思っています"
+  },
+  {
+    "word": "これは僕です",
+    "reading": "これはぼくです がんばってじぶんでかいて",
+    "partOfSpeech": "표현",
+    "definition": "Topic-specific expression from this Japanese talk",
+    "koreanMeaning": "'これは僕です'를 중심으로 한 일본어 핵심 표현",
+    "jlptLevel": 2,
+    "isEssential": false,
+    "segmentIndex": 22,
+    "contextSentence": "これは僕です 頑張って自分で書いてみました"
+  }
+]

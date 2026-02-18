@@ -1,0 +1,74 @@
+[
+  {
+    "pattern": "〜です/〜ます (정중체)",
+    "example": "日本代表と喧嘩されてるんです",
+    "explanationKo": "청자에게 공손하게 말할 때 쓰는 기본 문체입니다.",
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "〜ている",
+    "example": "日本なりアメリカ整っていると思われますか",
+    "explanationKo": "동작의 진행/상태 지속을 나타냅니다.",
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "〜こと (명사화)",
+    "example": "人間関係崩したこともありましたしお金で",
+    "explanationKo": "동사/절을 명사처럼 다루는 표현입니다.",
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "〜と思う",
+    "example": "普段スポーツ番組とかで話さないようなお話できたらなと思って",
+    "explanationKo": "의견이나 생각을 완곡하게 제시할 때 씁니다.",
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "〜たい",
+    "example": "職業とかビジネスとしてのバスケットボール選手あるいはアスリートみたいな話なんですよ",
+    "explanationKo": "화자의 희망/의지를 나타냅니다.",
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "〜ない (부정)",
+    "example": "ライドですよねそれが全然足りてない",
+    "explanationKo": "부정 의미를 나타내는 기본 형태입니다.",
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜ので/〜から (이유)",
+    "example": "自分に近づいてくる人が自分が持ってるお金に近づいてきてるのかももはやわからなくなる",
+    "explanationKo": "이유/근거를 제시하는 연결 표현입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "〜ため",
+    "example": "視聴者のためにサインをいただくことは可能でしょうか",
+    "explanationKo": "목적 또는 이유를 나타냅니다.",
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "〜でしょう",
+    "example": "視聴者のためにサインをいただくことは可能でしょうか",
+    "explanationKo": "추정/완곡한 단정을 나타냅니다.",
+    "segmentIndex": 4
+  },
+  {
+    "pattern": "〜か (의문)",
+    "example": "自分に近づいてくる人が自分が持ってるお金に近づいてきてるのかももはやわからなくなる",
+    "explanationKo": "질문/확인 의미를 나타내는 형식입니다.",
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "수동/가능 〜れる・〜られる",
+    "example": "っていうのはみんなスポーツ選手に憧れる人が多いわけですが",
+    "explanationKo": "수동 또는 가능 의미를 나타냅니다.",
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "사역 〜させる",
+    "example": "1年に2,3回くらいはそういう教室みたいなのに出させられて",
+    "explanationKo": "행위를 시키거나 유도하는 의미를 나타냅니다.",
+    "segmentIndex": 26
+  }
+]

@@ -1,0 +1,581 @@
+[
+  {
+    "word": "谈判",
+    "pinyin": "tánpàn",
+    "tones": [
+      2,
+      4
+    ],
+    "partOfSpeech": "noun/verb",
+    "definition": "negotiation; to negotiate",
+    "koreanMeaning": "협상; 협상하다",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "当我们想到谈判时，我们想到的是强硬。",
+    "measureWord": "场/次",
+    "components": [
+      {
+        "char": "谈",
+        "meaning": "to talk/discuss",
+        "pinyin": "tán"
+      },
+      {
+        "char": "判",
+        "meaning": "to judge/decide",
+        "pinyin": "pàn"
+      }
+    ]
+  },
+  {
+    "word": "强硬",
+    "pinyin": "qiángyìng",
+    "tones": [
+      2,
+      4
+    ],
+    "partOfSpeech": "adjective",
+    "definition": "tough; hard-line; unyielding",
+    "koreanMeaning": "강경한, 완강한",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "当我们想到谈判时，我们想到的是强硬。",
+    "components": [
+      {
+        "char": "强",
+        "meaning": "strong/force",
+        "pinyin": "qiáng"
+      },
+      {
+        "char": "硬",
+        "meaning": "hard/stiff",
+        "pinyin": "yìng"
+      }
+    ]
+  },
+  {
+    "word": "影响力",
+    "pinyin": "yǐngxiǎnglì",
+    "tones": [
+      3,
+      3,
+      4
+    ],
+    "partOfSpeech": "noun",
+    "definition": "influence; power of influence",
+    "koreanMeaning": "영향력",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "挥舞着我们的影响力和权力手段。",
+    "components": [
+      {
+        "char": "影响",
+        "meaning": "influence/affect",
+        "pinyin": "yǐngxiǎng"
+      },
+      {
+        "char": "力",
+        "meaning": "power/strength",
+        "pinyin": "lì"
+      }
+    ]
+  },
+  {
+    "word": "自主权",
+    "pinyin": "zìzhǔquán",
+    "tones": [
+      4,
+      3,
+      2
+    ],
+    "partOfSpeech": "noun",
+    "definition": "autonomy; right of self-determination",
+    "koreanMeaning": "자율권, 자주권",
+    "hskLevel": 6,
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "我们为更高的薪资、晋升、假期甚至更大的自主权而谈判。",
+    "components": [
+      {
+        "char": "自",
+        "meaning": "self",
+        "pinyin": "zì"
+      },
+      {
+        "char": "主",
+        "meaning": "master/main",
+        "pinyin": "zhǔ"
+      },
+      {
+        "char": "权",
+        "meaning": "right/power",
+        "pinyin": "quán"
+      }
+    ]
+  },
+  {
+    "word": "薪资",
+    "pinyin": "xīnzī",
+    "tones": [
+      1,
+      1
+    ],
+    "partOfSpeech": "noun",
+    "definition": "salary; wages; remuneration",
+    "koreanMeaning": "급여, 임금",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "我们为更高的薪资、晋升、假期甚至更大的自主权而谈判。",
+    "components": [
+      {
+        "char": "薪",
+        "meaning": "firewood/salary",
+        "pinyin": "xīn"
+      },
+      {
+        "char": "资",
+        "meaning": "resources/funds",
+        "pinyin": "zī"
+      }
+    ]
+  },
+  {
+    "word": "晋升",
+    "pinyin": "jìnshēng",
+    "tones": [
+      4,
+      1
+    ],
+    "partOfSpeech": "verb/noun",
+    "definition": "to be promoted; promotion",
+    "koreanMeaning": "승진하다; 승진",
+    "hskLevel": 6,
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "我们为更高的薪资、晋升、假期甚至更大的自主权而谈判。",
+    "components": [
+      {
+        "char": "晋",
+        "meaning": "to advance/progress",
+        "pinyin": "jìn"
+      },
+      {
+        "char": "升",
+        "meaning": "to rise/promote",
+        "pinyin": "shēng"
+      }
+    ]
+  },
+  {
+    "word": "标准",
+    "pinyin": "biāozhǔn",
+    "tones": [
+      1,
+      3
+    ],
+    "partOfSpeech": "noun/adjective",
+    "definition": "standard; criterion; benchmark",
+    "koreanMeaning": "기준, 표준",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 22,
+    "contextSentence": "那不是个好标准。你可能最终要价太高或太低。",
+    "measureWord": "个",
+    "components": [
+      {
+        "char": "标",
+        "meaning": "mark/sign",
+        "pinyin": "biāo"
+      },
+      {
+        "char": "准",
+        "meaning": "accurate/standard",
+        "pinyin": "zhǔn"
+      }
+    ]
+  },
+  {
+    "word": "范围",
+    "pinyin": "fànwéi",
+    "tones": [
+      4,
+      2
+    ],
+    "partOfSpeech": "noun",
+    "definition": "scope; range; extent",
+    "koreanMeaning": "범위",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "相反，要了解什么是可能的范围。",
+    "components": [
+      {
+        "char": "范",
+        "meaning": "model/boundary",
+        "pinyin": "fàn"
+      },
+      {
+        "char": "围",
+        "meaning": "to surround/encircle",
+        "pinyin": "wéi"
+      }
+    ]
+  },
+  {
+    "word": "防御性悲观主义",
+    "pinyin": "fángyùxìng bēiguān zhǔyì",
+    "tones": [
+      2,
+      4,
+      4,
+      1,
+      1,
+      3,
+      4
+    ],
+    "partOfSpeech": "noun",
+    "definition": "defensive pessimism; a strategy of expecting the worst in order to be mentally prepared",
+    "koreanMeaning": "방어적 비관주의 (최악을 예상해 심리적으로 대비하는 전략)",
+    "hskLevel": 6,
+    "isEssential": true,
+    "segmentIndex": 47,
+    "contextSentence": "一个策略是采用防御性悲观主义的心态。",
+    "components": [
+      {
+        "char": "防御",
+        "meaning": "defense/guard",
+        "pinyin": "fángyù"
+      },
+      {
+        "char": "性",
+        "meaning": "nature/characteristic",
+        "pinyin": "xìng"
+      },
+      {
+        "char": "悲观",
+        "meaning": "pessimistic",
+        "pinyin": "bēiguān"
+      },
+      {
+        "char": "主义",
+        "meaning": "doctrine/-ism",
+        "pinyin": "zhǔyì"
+      }
+    ]
+  },
+  {
+    "word": "克服",
+    "pinyin": "kèfú",
+    "tones": [
+      4,
+      2
+    ],
+    "partOfSpeech": "verb",
+    "definition": "to overcome; to surmount",
+    "koreanMeaning": "극복하다",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 50,
+    "contextSentence": "放在想象克服这些障碍的方法上。",
+    "components": [
+      {
+        "char": "克",
+        "meaning": "to overcome/conquer",
+        "pinyin": "kè"
+      },
+      {
+        "char": "服",
+        "meaning": "to submit/serve",
+        "pinyin": "fú"
+      }
+    ]
+  },
+  {
+    "word": "障碍",
+    "pinyin": "zhàng'ài",
+    "tones": [
+      4,
+      4
+    ],
+    "partOfSpeech": "noun",
+    "definition": "obstacle; barrier; hindrance",
+    "koreanMeaning": "장애물, 방해",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 48,
+    "contextSentence": "你承认谈判中存在障碍和失败的可能。",
+    "measureWord": "个",
+    "components": [
+      {
+        "char": "障",
+        "meaning": "to block/obstruct",
+        "pinyin": "zhàng"
+      },
+      {
+        "char": "碍",
+        "meaning": "to hinder/impede",
+        "pinyin": "ài"
+      }
+    ]
+  },
+  {
+    "word": "情感距离化",
+    "pinyin": "qínggǎn jùlí huà",
+    "tones": [
+      2,
+      3,
+      4,
+      2,
+      4
+    ],
+    "partOfSpeech": "noun",
+    "definition": "emotional distancing; becoming less emotionally attached to outcomes",
+    "koreanMeaning": "감정적 거리두기",
+    "hskLevel": 6,
+    "isEssential": true,
+    "segmentIndex": 52,
+    "contextSentence": "另一个策略是情感距离化。",
+    "components": [
+      {
+        "char": "情感",
+        "meaning": "emotion/feeling",
+        "pinyin": "qínggǎn"
+      },
+      {
+        "char": "距离",
+        "meaning": "distance",
+        "pinyin": "jùlí"
+      },
+      {
+        "char": "化",
+        "meaning": "to transform/suffix -ize",
+        "pinyin": "huà"
+      }
+    ]
+  },
+  {
+    "word": "执着",
+    "pinyin": "zhízhuó",
+    "tones": [
+      2,
+      2
+    ],
+    "partOfSpeech": "adjective/verb",
+    "definition": "to be attached to; persistent; obsessed with",
+    "koreanMeaning": "집착하다; 집착",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 53,
+    "contextSentence": "这就是对任何特定结果减少执着的想法。",
+    "components": [
+      {
+        "char": "执",
+        "meaning": "to hold/grasp",
+        "pinyin": "zhí"
+      },
+      {
+        "char": "着",
+        "meaning": "attached/clinging",
+        "pinyin": "zhuó"
+      }
+    ]
+  },
+  {
+    "word": "设身处地",
+    "pinyin": "shèshēn chǔdì",
+    "tones": [
+      4,
+      1,
+      3,
+      4
+    ],
+    "partOfSpeech": "idiom",
+    "definition": "to put oneself in another's position; to be empathetic",
+    "koreanMeaning": "상대방의 입장이 되어 생각하다",
+    "hskLevel": 6,
+    "isEssential": true,
+    "segmentIndex": 69,
+    "contextSentence": "就是设身处地为对方着想。",
+    "components": [
+      {
+        "char": "设身",
+        "meaning": "to place oneself",
+        "pinyin": "shèshēn"
+      },
+      {
+        "char": "处地",
+        "meaning": "in someone's position",
+        "pinyin": "chǔdì"
+      }
+    ]
+  },
+  {
+    "word": "坚定",
+    "pinyin": "jiāndìng",
+    "tones": [
+      1,
+      4
+    ],
+    "partOfSpeech": "adjective/verb",
+    "definition": "firm; resolute; to be steadfast",
+    "koreanMeaning": "확고하다, 굳건하다",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 74,
+    "contextSentence": "要在坚定自信和关心他人之间取得平衡。",
+    "components": [
+      {
+        "char": "坚",
+        "meaning": "firm/solid",
+        "pinyin": "jiān"
+      },
+      {
+        "char": "定",
+        "meaning": "fixed/stable",
+        "pinyin": "dìng"
+      }
+    ]
+  },
+  {
+    "word": "理由",
+    "pinyin": "lǐyóu",
+    "tones": [
+      3,
+      2
+    ],
+    "partOfSpeech": "noun",
+    "definition": "reason; grounds; rationale",
+    "koreanMeaning": "이유, 근거",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 27,
+    "contextSentence": "建立充分的理由，说明为什么你高于平均水平。",
+    "measureWord": "个",
+    "components": [
+      {
+        "char": "理",
+        "meaning": "reason/logic",
+        "pinyin": "lǐ"
+      },
+      {
+        "char": "由",
+        "meaning": "cause/from",
+        "pinyin": "yóu"
+      }
+    ]
+  },
+  {
+    "word": "居家办公",
+    "pinyin": "jūjiā bàngōng",
+    "tones": [
+      1,
+      1,
+      4,
+      1
+    ],
+    "partOfSpeech": "verb phrase",
+    "definition": "to work from home; remote work",
+    "koreanMeaning": "재택근무하다",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "比如居家办公的能力，以便照顾年迈的父母。",
+    "components": [
+      {
+        "char": "居家",
+        "meaning": "at home/domestic",
+        "pinyin": "jūjiā"
+      },
+      {
+        "char": "办公",
+        "meaning": "to work/office work",
+        "pinyin": "bàngōng"
+      }
+    ]
+  },
+  {
+    "word": "核心",
+    "pinyin": "héxīn",
+    "tones": [
+      2,
+      1
+    ],
+    "partOfSpeech": "noun/adjective",
+    "definition": "core; essential; central",
+    "koreanMeaning": "핵심",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "当我们的核心身份受到威胁时，我们都会感受到愤怒和受伤等情绪。",
+    "components": [
+      {
+        "char": "核",
+        "meaning": "nucleus/core",
+        "pinyin": "hé"
+      },
+      {
+        "char": "心",
+        "meaning": "heart/center",
+        "pinyin": "xīn"
+      }
+    ]
+  },
+  {
+    "word": "威胁",
+    "pinyin": "wēixié",
+    "tones": [
+      1,
+      2
+    ],
+    "partOfSpeech": "verb/noun",
+    "definition": "to threaten; threat",
+    "koreanMeaning": "위협하다; 위협",
+    "hskLevel": 5,
+    "isEssential": true,
+    "segmentIndex": 56,
+    "contextSentence": "当我们的核心身份受到威胁时。",
+    "measureWord": "种",
+    "components": [
+      {
+        "char": "威",
+        "meaning": "authority/power",
+        "pinyin": "wēi"
+      },
+      {
+        "char": "胁",
+        "meaning": "to coerce/flank",
+        "pinyin": "xié"
+      }
+    ]
+  },
+  {
+    "word": "平均",
+    "pinyin": "píngjūn",
+    "tones": [
+      2,
+      1
+    ],
+    "partOfSpeech": "adjective/adverb",
+    "definition": "average; mean; on average",
+    "koreanMeaning": "평균; 평균적으로",
+    "hskLevel": 4,
+    "isEssential": true,
+    "segmentIndex": 25,
+    "contextSentence": "了解类似职位的最低、平均和最高薪资。",
+    "components": [
+      {
+        "char": "平",
+        "meaning": "flat/equal",
+        "pinyin": "píng"
+      },
+      {
+        "char": "均",
+        "meaning": "even/equal",
+        "pinyin": "jūn"
+      }
+    ]
+  }
+]

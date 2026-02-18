@@ -1,0 +1,152 @@
+[
+  {
+    "type": "kenjougo",
+    "originalText": "林茂光と申します",
+    "reading": "はやししげみつともうします",
+    "baseForm": "林茂光と言います",
+    "politeLevel": 4,
+    "explanationKo": "申す(もうす)는 言う의 겸양어. 자기 이름을 소개할 때 「〜と申します」는 청중에게 매우 정중한 자기소개 표현.",
+    "usageContext": "자기소개, 공식 발표 장면",
+    "segmentIndex": 1
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "皆様こんにちは",
+    "reading": "みなさまこんにちは",
+    "baseForm": "皆さんこんにちは",
+    "politeLevel": 5,
+    "explanationKo": "皆様(みなさま)는 皆さん보다 한 단계 더 높은 존경어. 발표, 연설 등 공식적인 자리에서 청중을 높여 부를 때 사용.",
+    "usageContext": "공식 연설, TED/강연 개회 인사",
+    "segmentIndex": 1
+  },
+  {
+    "type": "teineigo",
+    "originalText": "よろしくお願いいたします",
+    "reading": "よろしくおねがいいたします",
+    "baseForm": "よろしくお願いします",
+    "politeLevel": 5,
+    "explanationKo": "いたします는 します의 겸양어. よろしくお願いいたします는 「よろしくお願いします」보다 더 격식 있고 정중한 표현. 연설 첫머리에서 청중에게 인사.",
+    "usageContext": "인사, 강연 시작 시",
+    "segmentIndex": 1
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "ご存知でしょうか",
+    "reading": "ごぞんじでしょうか",
+    "baseForm": "知っていますか",
+    "politeLevel": 5,
+    "explanationKo": "ご存知는 知っている의 존경어. 청중이 무언가를 알고 있는지 정중하게 물어볼 때 사용. でしょうか로 더욱 부드럽게 표현.",
+    "usageContext": "청중에게 질문하는 강연 장면",
+    "segmentIndex": 2
+  },
+  {
+    "type": "kenjougo",
+    "originalText": "お手を拝借いたします",
+    "reading": "おてをはいしゃくいたします",
+    "baseForm": "手を借ります",
+    "politeLevel": 5,
+    "explanationKo": "拝借(はいしゃく)는 借りる의 매우 격식 있는 겸양어. お〜いたします 형식으로 이중 겸양. 청중의 협조를 구할 때 매우 정중하게 사용.",
+    "usageContext": "청중 참여를 요청하는 강연 장면",
+    "segmentIndex": 4
+  },
+  {
+    "type": "kenjougo",
+    "originalText": "〜していただき",
+    "reading": "〜していただき",
+    "baseForm": "〜してもらって",
+    "politeLevel": 4,
+    "explanationKo": "いただく는 もらう의 겸양어. 청중에게 어떤 행동을 부탁할 때 〜していただく를 사용하면 매우 정중한 요청이 됨.",
+    "usageContext": "청중에게 행동을 요청하는 맥락 전반",
+    "segmentIndex": 5
+  },
+  {
+    "type": "teineigo",
+    "originalText": "楽にしてください",
+    "reading": "らくにしてください",
+    "baseForm": "楽にして",
+    "politeLevel": 3,
+    "explanationKo": "〜てください는 정중한 명령·요청 표현. 청중에게 긴장을 풀도록 요청하는 강연 지시 표현.",
+    "usageContext": "실험 또는 체험 활동 중 청중에게 편안한 자세를 취하도록 지시",
+    "segmentIndex": 6
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "お一人は椅子におかけください",
+    "reading": "おひとりはいすにおかけください",
+    "baseForm": "一人は椅子に座ってください",
+    "politeLevel": 5,
+    "explanationKo": "おかけください는 座ってください의 존경어 표현. お一人(おひとり)도 一人를 높이는 표현. 청중을 매우 정중하게 대하는 태도.",
+    "usageContext": "참여자에게 착석을 요청하는 장면",
+    "segmentIndex": 38
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "どうぞお立ちくださいませ",
+    "reading": "どうぞおたちくださいませ",
+    "baseForm": "立ってください",
+    "politeLevel": 5,
+    "explanationKo": "お立ちくださいませ는 立ってください보다 더 격식 있는 존경 표현. ませ를 추가하면 더욱 정중해짐. どうぞ는 '부디'라는 뜻으로 더욱 공손하게 요청.",
+    "usageContext": "청중에게 기립을 요청하는 장면",
+    "segmentIndex": 35
+  },
+  {
+    "type": "kenjougo",
+    "originalText": "皆様にお伝えした",
+    "reading": "みなさまにおつたえした",
+    "baseForm": "皆さんに伝えた",
+    "politeLevel": 4,
+    "explanationKo": "お伝えする는 伝える의 겸양어. 자신이 정보를 전달하는 행위를 낮추어 표현. 청중(皆様)을 높이는 동시에 자신을 낮추는 겸양 표현.",
+    "usageContext": "청중에게 자신이 설명한 내용을 언급하는 장면",
+    "segmentIndex": 25
+  },
+  {
+    "type": "bikago",
+    "originalText": "お腹の筋肉",
+    "reading": "おなかのきんにく",
+    "baseForm": "腹の筋肉",
+    "politeLevel": 2,
+    "explanationKo": "お腹(おなか)의 お는 미화어(美化語). 단순히 배를 가리키는 腹(はら)에 お를 붙여 부드럽게 표현. 일상 회화에서도 자연스럽게 사용.",
+    "usageContext": "신체 부위를 언급하는 일반 대화",
+    "segmentIndex": 17
+  },
+  {
+    "type": "kenjougo",
+    "originalText": "ご体感していただきたいと思います",
+    "reading": "ごたいかんしていただきたいとおもいます",
+    "baseForm": "体感してほしいと思います",
+    "politeLevel": 5,
+    "explanationKo": "ご〜していただきたい는 상대방에게 무언가를 해 주기를 정중하게 바라는 표현. ご체감する에 いただきたい를 붙인 이중 경어 구조.",
+    "usageContext": "청중에게 체험을 권유하는 연설 장면",
+    "segmentIndex": 34
+  },
+  {
+    "type": "sonkeigo",
+    "originalText": "どうぞおかけくださいませ",
+    "reading": "どうぞおかけくださいませ",
+    "baseForm": "座ってください",
+    "politeLevel": 5,
+    "explanationKo": "おかけ는 かける(앉다)의 존경어. くださいませ는 ください보다 한층 더 정중한 형태. 연설 중 청중에게 착석을 권유하는 장면.",
+    "usageContext": "청중에게 다시 앉도록 권유하는 장면",
+    "segmentIndex": 76
+  },
+  {
+    "type": "teineigo",
+    "originalText": "私さんはただ立っていただくだけで結構です",
+    "reading": "わたしさんはただたっていただくだけでけっこうです",
+    "baseForm": "ただ立つだけでいいです",
+    "politeLevel": 4,
+    "explanationKo": "結構です(けっこうです)는 'それで十分です(충분합니다)'의 정중한 표현. いただく로 상대방의 행동을 높이고 있음. 격식 있는 지시.",
+    "usageContext": "참여자에게 단순히 서 있도록 요청하는 장면",
+    "segmentIndex": 95
+  },
+  {
+    "type": "casual",
+    "originalText": "いやー、これだけ多くの方々と打ち合わせするの大変でしたね",
+    "reading": "いやー、これだけおおくのかたがたとうちあわせするのたいへんでしたね",
+    "baseForm": "いやー、打ち合わせが大変だった",
+    "politeLevel": 2,
+    "explanationKo": "いやー는 놀람이나 감탄을 나타내는 구어적 표현. ね는 청중과 공감을 공유하는 종조사. 강연 중 유머러스하게 청중과 소통하는 장면.",
+    "usageContext": "유머로 청중과 소통하는 비격식 장면",
+    "segmentIndex": 77
+  }
+]

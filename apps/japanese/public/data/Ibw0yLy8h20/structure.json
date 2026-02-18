@@ -1,0 +1,70 @@
+{
+  "videoId": "Ibw0yLy8h20",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 17,
+      "summary": "'翻訳 拍手'로 시작해 'というのがまずきっかけです 最初は小さい頃からや'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "まず",
+        "拍手",
+        "皆さん"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 17,
+      "endSegment": 53,
+      "summary": "'というのがまずきっかけです 最初は小さい頃からや'로 시작해 'その瞬間から私は古神道と一緒に 生きている感覚に'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "当然",
+        "はい"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 53,
+      "endSegment": 94,
+      "summary": "'その瞬間から私は古神道と一緒に 生きている感覚に'로 시작해 'あえてそのまま受け取るということです これはそれ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "通と",
+        "ことです",
+        "つまり"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 94,
+      "endSegment": 117,
+      "summary": "'あえてそのまま受け取るということです これはそれ'로 시작해 'ありがとうございました 会場 拍手'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "まず 自己紹介させていただきます",
+      "type": "enumeration",
+      "segmentIndex": 3,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "では次にライバルとかの宿敵",
+      "type": "transition",
+      "segmentIndex": 61,
+      "role": "다음 내용으로 전환합니다."
+    },
+    {
+      "expression": "つまり先ほどの包み込むという 一つの",
+      "type": "summary",
+      "segmentIndex": 64,
+      "role": "핵심 요지를 재정리합니다."
+    },
+    {
+      "expression": "翻訳 拍手",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    }
+  ]
+}

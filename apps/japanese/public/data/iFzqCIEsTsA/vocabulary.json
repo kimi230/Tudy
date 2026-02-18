@@ -1,0 +1,295 @@
+{
+  "videoId": "iFzqCIEsTsA",
+  "vocabulary": [
+    {
+      "word": "具現化",
+      "reading": "ぐげんか",
+      "meaning": "구현화, 구체화",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "匿名さんの声の具現化についてお話ししたいと思います。",
+      "exampleKo": "익명씨의 목소리의 구현화에 대해 이야기하고 싶습니다.",
+      "level": "advanced",
+      "segmentIndex": 1
+    },
+    {
+      "word": "妖精",
+      "reading": "ようせい",
+      "meaning": "요정 (여기서는 익명 인터넷 유저를 가리킴)",
+      "partOfSpeech": "명사",
+      "exampleJa": "私自身も普段はネットの妖精さんです。",
+      "exampleKo": "저 자신도 평소에는 인터넷의 요정입니다.",
+      "level": "intermediate",
+      "segmentIndex": 2
+    },
+    {
+      "word": "うさんくさい",
+      "reading": "うさんくさい",
+      "meaning": "수상한, 의심스러운",
+      "partOfSpeech": "형용사",
+      "exampleJa": "うさんくさい感じで登壇してみました。",
+      "exampleKo": "수상한 느낌으로 등단해 보았습니다.",
+      "level": "intermediate",
+      "segmentIndex": 4
+    },
+    {
+      "word": "登壇",
+      "reading": "とうだん",
+      "meaning": "등단, 무대에 오름",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "ちょっと今日は登壇してみました。",
+      "exampleKo": "오늘은 잠깐 등단해 보았습니다.",
+      "level": "advanced",
+      "segmentIndex": 4
+    },
+    {
+      "word": "匿名",
+      "reading": "とくめい",
+      "meaning": "익명",
+      "partOfSpeech": "명사",
+      "exampleJa": "特に日本の匿名コミュニティの中では非常に面白いコンテンツが日々紹介されています。",
+      "exampleKo": "특히 일본의 익명 커뮤니티 안에서는 매우 재미있는 콘텐츠가 날마다 소개되고 있습니다.",
+      "level": "intermediate",
+      "segmentIndex": 14
+    },
+    {
+      "word": "非常に",
+      "reading": "ひじょうに",
+      "meaning": "매우, 굉장히",
+      "partOfSpeech": "부사",
+      "exampleJa": "非常に面白いコンテンツが日々紹介されています。",
+      "exampleKo": "매우 재미있는 콘텐츠가 날마다 소개되고 있습니다.",
+      "level": "basic",
+      "segmentIndex": 15
+    },
+    {
+      "word": "日々",
+      "reading": "ひび",
+      "meaning": "날마다, 매일매일",
+      "partOfSpeech": "부사·명사",
+      "exampleJa": "非常に面白いコンテンツが日々紹介されています。",
+      "exampleKo": "매우 재미있는 콘텐츠가 날마다 소개되고 있습니다.",
+      "level": "intermediate",
+      "segmentIndex": 15
+    },
+    {
+      "word": "であるがゆえに",
+      "reading": "であるがゆえに",
+      "meaning": "~이기 때문에 (문어체·강조)",
+      "partOfSpeech": "접속 표현",
+      "exampleJa": "匿名であるがゆえにですね、非常に自由活発な発想で。",
+      "exampleKo": "익명이기 때문에 매우 자유롭고 활발한 발상으로.",
+      "level": "advanced",
+      "segmentIndex": 17
+    },
+    {
+      "word": "発想",
+      "reading": "はっそう",
+      "meaning": "발상, 아이디어",
+      "partOfSpeech": "명사",
+      "exampleJa": "非常に自由活発な発想でデザインができる。",
+      "exampleKo": "매우 자유롭고 활발한 발상으로 디자인을 할 수 있다.",
+      "level": "intermediate",
+      "segmentIndex": 17
+    },
+    {
+      "word": "ハイコンテクスト",
+      "reading": "ハイコンテクスト",
+      "meaning": "하이 컨텍스트 (고맥락 문화)",
+      "partOfSpeech": "명사",
+      "exampleJa": "いわゆるハイコンテクストなカルチャーとも言うべきですけれども。",
+      "exampleKo": "이른바 하이 컨텍스트 문화라고도 할 수 있겠지만.",
+      "level": "advanced",
+      "segmentIndex": 23
+    },
+    {
+      "word": "いわゆる",
+      "reading": "いわゆる",
+      "meaning": "이른바, 소위",
+      "partOfSpeech": "연체사",
+      "exampleJa": "いわゆるハイコンテクストなカルチャーとも言うべきですけれども。",
+      "exampleKo": "이른바 하이 컨텍스트 문화라고도 할 수 있겠지만.",
+      "level": "intermediate",
+      "segmentIndex": 23
+    },
+    {
+      "word": "勝手に",
+      "reading": "かってに",
+      "meaning": "멋대로, 마음대로",
+      "partOfSpeech": "부사",
+      "exampleJa": "勝手に商標登録をしてしまったり。",
+      "exampleKo": "멋대로 상표 등록을 해 버리거나.",
+      "level": "intermediate",
+      "segmentIndex": 25
+    },
+    {
+      "word": "商標登録",
+      "reading": "しょうひょうとうろく",
+      "meaning": "상표 등록",
+      "partOfSpeech": "명사",
+      "exampleJa": "勝手に商標登録をしてしまったり。",
+      "exampleKo": "멋대로 상표 등록을 해 버리거나.",
+      "level": "advanced",
+      "segmentIndex": 25
+    },
+    {
+      "word": "圧殺",
+      "reading": "あっさつ",
+      "meaning": "억압, 묵살",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "匿名さんの声を圧殺してですね。",
+      "exampleKo": "익명씨의 목소리를 억압하면서요.",
+      "level": "advanced",
+      "segmentIndex": 27
+    },
+    {
+      "word": "炎上",
+      "reading": "えんじょう",
+      "meaning": "인터넷 집중 비난, 불타오름",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "ネットが炎上してしまうなんてことがたびたびあってですね。",
+      "exampleKo": "인터넷이 불타오르는 일이 종종 있었습니다.",
+      "level": "intermediate",
+      "segmentIndex": 28
+    },
+    {
+      "word": "たびたび",
+      "reading": "たびたび",
+      "meaning": "종종, 자주",
+      "partOfSpeech": "부사",
+      "exampleJa": "ネットが炎上してしまうなんてことがたびたびあってですね。",
+      "exampleKo": "인터넷이 불타오르는 일이 종종 있었습니다.",
+      "level": "intermediate",
+      "segmentIndex": 28
+    },
+    {
+      "word": "一部上場企業",
+      "reading": "いちぶじょうじょうきぎょう",
+      "meaning": "1부 상장 기업 (도쿄 증권거래소 1부 상장 대기업)",
+      "partOfSpeech": "명사",
+      "exampleJa": "一部上場企業ですらそういったことを起こして。",
+      "exampleKo": "1부 상장 기업조차 그런 일을 일으켜서.",
+      "level": "advanced",
+      "segmentIndex": 31
+    },
+    {
+      "word": "ですら",
+      "reading": "ですら",
+      "meaning": "~조차도",
+      "partOfSpeech": "조사",
+      "exampleJa": "一部上場企業ですらそういったことを起こして。",
+      "exampleKo": "1부 상장 기업조차 그런 일을 일으켜서.",
+      "level": "intermediate",
+      "segmentIndex": 31
+    },
+    {
+      "word": "著作権",
+      "reading": "ちょさくけん",
+      "meaning": "저작권",
+      "partOfSpeech": "명사",
+      "exampleJa": "いわゆる著作権をクリアすればですね。",
+      "exampleKo": "이른바 저작권을 해결하면.",
+      "level": "intermediate",
+      "segmentIndex": 36
+    },
+    {
+      "word": "商品化",
+      "reading": "しょうひんか",
+      "meaning": "상품화",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "商品化できるんです。",
+      "exampleKo": "상품화할 수 있는 겁니다.",
+      "level": "intermediate",
+      "segmentIndex": 37
+    },
+    {
+      "word": "擬人化",
+      "reading": "ぎじんか",
+      "meaning": "의인화",
+      "partOfSpeech": "명사·동사",
+      "exampleJa": "Windows MEを女の子に擬人化した。",
+      "exampleKo": "Windows ME를 여자아이로 의인화한.",
+      "level": "advanced",
+      "segmentIndex": 39
+    },
+    {
+      "word": "原作者",
+      "reading": "げんさくしゃ",
+      "meaning": "원작자",
+      "partOfSpeech": "명사",
+      "exampleJa": "作品の原作者を探し出して。",
+      "exampleKo": "작품의 원작자를 찾아내서.",
+      "level": "intermediate",
+      "segmentIndex": 35
+    },
+    {
+      "word": "代弁者",
+      "reading": "だいべんしゃ",
+      "meaning": "대변자",
+      "partOfSpeech": "명사",
+      "exampleJa": "そういった方の代弁者となって。",
+      "exampleKo": "그런 분들의 대변자가 되어서.",
+      "level": "advanced",
+      "segmentIndex": 55
+    },
+    {
+      "word": "下心",
+      "reading": "したごころ",
+      "meaning": "속셈, 딴마음",
+      "partOfSpeech": "명사",
+      "exampleJa": "下心のある人たちが非常に多い。",
+      "exampleKo": "속셈이 있는 사람들이 매우 많다.",
+      "level": "advanced",
+      "segmentIndex": 53
+    },
+    {
+      "word": "ブースター",
+      "reading": "ブースター",
+      "meaning": "부스터, 증폭기",
+      "partOfSpeech": "명사",
+      "exampleJa": "その匿名さんの声のブースターとなってですね。",
+      "exampleKo": "그 익명씨의 목소리의 부스터가 되어서요.",
+      "level": "intermediate",
+      "segmentIndex": 59
+    },
+    {
+      "word": "有益",
+      "reading": "ゆうえき",
+      "meaning": "유익",
+      "partOfSpeech": "명사·형용동사",
+      "exampleJa": "非常に有益な存在であると私はそのように考えております。",
+      "exampleKo": "매우 유익한 존재라고 저는 그렇게 생각하고 있습니다.",
+      "level": "intermediate",
+      "segmentIndex": 62
+    },
+    {
+      "word": "ノウハウ",
+      "reading": "ノウハウ",
+      "meaning": "노하우, 전문 지식",
+      "partOfSpeech": "명사",
+      "exampleJa": "自分がちょっとそういうノウハウがある。",
+      "exampleKo": "자신이 그런 노하우를 조금 가지고 있거나.",
+      "level": "intermediate",
+      "segmentIndex": 66
+    },
+    {
+      "word": "ぜひとも",
+      "reading": "ぜひとも",
+      "meaning": "꼭, 부디 (강한 권유)",
+      "partOfSpeech": "부사",
+      "exampleJa": "ぜひともですね、勇気を振るってそういう匿名さんにメールなり。",
+      "exampleKo": "꼭 용기를 내어 그런 익명씨에게 메일이나.",
+      "level": "intermediate",
+      "segmentIndex": 69
+    },
+    {
+      "word": "ご清聴ありがとうございました",
+      "reading": "ごせいちょうありがとうございました",
+      "meaning": "경청해 주셔서 감사합니다 (발표 마무리 관용구)",
+      "partOfSpeech": "인사 표현",
+      "exampleJa": "以上です。ご清聴ありがとうございました。",
+      "exampleKo": "이상입니다. 경청해 주셔서 감사합니다.",
+      "level": "intermediate",
+      "segmentIndex": 75
+    }
+  ]
+}

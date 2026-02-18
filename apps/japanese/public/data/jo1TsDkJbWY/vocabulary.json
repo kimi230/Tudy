@@ -1,0 +1,302 @@
+{
+  "videoId": "jo1TsDkJbWY",
+  "vocabulary": [
+    {
+      "word": "観光地",
+      "reading": "かんこうち",
+      "meaning": "관광지",
+      "partOfSpeech": "명사",
+      "exampleSentence": "小田原は人気観光地でもある。",
+      "exampleReading": "おだわらはにんきかんこうちでもある。",
+      "exampleTranslation": "오다와라는 인기 관광지이기도 하다.",
+      "level": "N4",
+      "segmentIndex": 0
+    },
+    {
+      "word": "アクセス",
+      "reading": "あくせす",
+      "meaning": "접근, 교통편",
+      "partOfSpeech": "명사",
+      "exampleSentence": "小田原駅へのアクセスは便利だ。",
+      "exampleReading": "おだわらえきへのあくせすはべんりだ。",
+      "exampleTranslation": "오다와라역으로의 접근은 편리하다.",
+      "level": "N3",
+      "segmentIndex": 2
+    },
+    {
+      "word": "ロマンスカー",
+      "reading": "ろまんすかー",
+      "meaning": "로맨스카 (소다큐 로맨스카 열차)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "新宿からロマンスカーで約1時間10分だ。",
+      "exampleReading": "しんじゅくからろまんすかーでやく1じかん10ぷんだ。",
+      "exampleTranslation": "신주쿠에서 로맨스카로 약 1시간 10분이다.",
+      "level": "N1",
+      "segmentIndex": 2
+    },
+    {
+      "word": "商業施設",
+      "reading": "しょうぎょうしせつ",
+      "meaning": "상업 시설",
+      "partOfSpeech": "명사",
+      "exampleSentence": "東口はビルや商業施設が多い。",
+      "exampleReading": "ひがしぐちはびるやしょうぎょうしせつがおおい。",
+      "exampleTranslation": "동쪽 출구는 빌딩과 상업 시설이 많다.",
+      "level": "N2",
+      "segmentIndex": 3
+    },
+    {
+      "word": "複合施設",
+      "reading": "ふくごうしせつ",
+      "meaning": "복합 시설",
+      "partOfSpeech": "명사",
+      "exampleSentence": "港小田原という複合施設がある。",
+      "exampleReading": "みなとおだわらというふくごうしせつがある。",
+      "exampleTranslation": "미나토 오다와라라는 복합 시설이 있다.",
+      "level": "N2",
+      "segmentIndex": 5
+    },
+    {
+      "word": "飲食フロア",
+      "reading": "いんしょくふろあ",
+      "meaning": "음식점 층(플로어)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "3階から6階はタワーレーンという飲食フロアだ。",
+      "exampleReading": "さんかいからろっかいはたわーれーんといういんしょくふろあだ。",
+      "exampleTranslation": "3층~6층은 타워 레인이라는 음식점 층이다.",
+      "level": "N3",
+      "segmentIndex": 6
+    },
+    {
+      "word": "テイクアウト",
+      "reading": "ていくあうと",
+      "meaning": "테이크아웃, 포장",
+      "partOfSpeech": "명사",
+      "exampleSentence": "テイクアウトエリアもある。",
+      "exampleReading": "ていくあうとえりあもある。",
+      "exampleTranslation": "테이크아웃 구역도 있다.",
+      "level": "N4",
+      "segmentIndex": 7
+    },
+    {
+      "word": "かまぼこ",
+      "reading": "かまぼこ",
+      "meaning": "어묵 (가마보코)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "寿司刺身かまぼこなど様々な種類が揃っている。",
+      "exampleReading": "すしさしみかまぼこなどさまざまなしゅるいがそろっている。",
+      "exampleTranslation": "초밥, 회, 어묵 등 다양한 종류가 갖추어져 있다.",
+      "level": "N3",
+      "segmentIndex": 7
+    },
+    {
+      "word": "街並み",
+      "reading": "まちなみ",
+      "meaning": "거리 풍경, 가로경관",
+      "partOfSpeech": "명사",
+      "exampleSentence": "小田原の昔の街並みを再現したエリアだ。",
+      "exampleReading": "おだわらのむかしのまちなみをさいげんしたえりあだ。",
+      "exampleTranslation": "오다와라의 옛 거리를 재현한 구역이다.",
+      "level": "N3",
+      "segmentIndex": 8
+    },
+    {
+      "word": "開放感",
+      "reading": "かいほうかん",
+      "meaning": "개방감",
+      "partOfSpeech": "명사",
+      "exampleSentence": "オープンエアになっていて開放感がある。",
+      "exampleReading": "おーぷんえあになっていてかいほうかんがある。",
+      "exampleTranslation": "오픈 에어 형태로 개방감이 있다.",
+      "level": "N2",
+      "segmentIndex": 9
+    },
+    {
+      "word": "売り切れ",
+      "reading": "うりきれ",
+      "meaning": "매진, 품절",
+      "partOfSpeech": "명사/동사",
+      "exampleSentence": "午前中には売り切れてしまう商品も多い。",
+      "exampleReading": "ごぜんちゅうにはうりきれてしまうしょうひんもおおい。",
+      "exampleTranslation": "오전 중에 매진되어 버리는 상품도 많다.",
+      "level": "N4",
+      "segmentIndex": 13
+    },
+    {
+      "word": "体験",
+      "reading": "たいけん",
+      "meaning": "체험",
+      "partOfSpeech": "명사",
+      "exampleSentence": "かまぼこ作りの体験が人気だ。",
+      "exampleReading": "かまぼこづくりのたいけんがにんきだ。",
+      "exampleTranslation": "어묵 만들기 체험이 인기다.",
+      "level": "N4",
+      "segmentIndex": 14
+    },
+    {
+      "word": "足湯",
+      "reading": "あしゆ",
+      "meaning": "족욕",
+      "partOfSpeech": "명사",
+      "exampleSentence": "14階には足湯ガーデンがある。",
+      "exampleReading": "14かいにはあしゆがーでんがある。",
+      "exampleTranslation": "14층에는 족욕 정원이 있다.",
+      "level": "N3",
+      "segmentIndex": 16
+    },
+    {
+      "word": "見渡せる",
+      "reading": "みわたせる",
+      "meaning": "내려다볼 수 있다, 한눈에 볼 수 있다",
+      "partOfSpeech": "동사 (가능형)",
+      "exampleSentence": "晴れた日には富士山や相模湾まで見渡せる。",
+      "exampleReading": "はれたひにはふじさんやさがみわんまでみわたせる。",
+      "exampleTranslation": "맑은 날에는 후지산과 사가미만까지 내려다볼 수 있다.",
+      "level": "N3",
+      "segmentIndex": 17
+    },
+    {
+      "word": "漁港",
+      "reading": "ぎょこう",
+      "meaning": "어항, 어업 항구",
+      "partOfSpeech": "명사",
+      "exampleSentence": "小田原漁港にあるととこ小田原という海鮮市場だ。",
+      "exampleReading": "おだわらぎょこうにあるととこおだわらというかいせんいちばだ。",
+      "exampleTranslation": "오다와라 어항에 있는 토토코 오다와라라는 해산물 시장이다.",
+      "level": "N3",
+      "segmentIndex": 19
+    },
+    {
+      "word": "水揚げ",
+      "reading": "みずあげ",
+      "meaning": "어획, 수확 (수산물)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "その日に水揚げされた新鮮な魚介を楽しめる。",
+      "exampleReading": "そのひにみずあげされたしんせんなぎょかいをたのしめる。",
+      "exampleTranslation": "그날 수확한 신선한 해산물을 즐길 수 있다.",
+      "level": "N2",
+      "segmentIndex": 21
+    },
+    {
+      "word": "海鮮丼",
+      "reading": "かいせんどん",
+      "meaning": "해산물 덮밥",
+      "partOfSpeech": "명사",
+      "exampleSentence": "特に人気なのは海鮮丼だ。",
+      "exampleReading": "とくににんきなのはかいせんどんだ。",
+      "exampleTranslation": "특히 인기 있는 것은 해산물 덮밥이다.",
+      "level": "N3",
+      "segmentIndex": 22
+    },
+    {
+      "word": "難攻不落",
+      "reading": "なんこうふらく",
+      "meaning": "함락하기 어려운, 불공불락",
+      "partOfSpeech": "사자성어",
+      "exampleSentence": "「難攻不落の城」と呼ばれた歴史的なお城だ。",
+      "exampleReading": "なんこうふらくのしろとよばれたれきしてきなおしろだ。",
+      "exampleTranslation": "'함락하기 어려운 성'이라 불린 역사적인 성이다.",
+      "level": "N1",
+      "segmentIndex": 25
+    },
+    {
+      "word": "天守閣",
+      "reading": "てんしゅかく",
+      "meaning": "천수각 (일본 성의 중심 건물)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "天守閣は展望台になっており市内が一望できる。",
+      "exampleReading": "てんしゅかくはてんぼうだいになっておりしないがいちぼうできる。",
+      "exampleTranslation": "천수각은 전망대로 되어 있어서 시내를 한눈에 볼 수 있다.",
+      "level": "N2",
+      "segmentIndex": 28
+    },
+    {
+      "word": "一望",
+      "reading": "いちぼう",
+      "meaning": "일망, 한눈에 바라봄",
+      "partOfSpeech": "명사",
+      "exampleSentence": "小田原市内が一望できる。",
+      "exampleReading": "おだわらしないがいちぼうできる。",
+      "exampleTranslation": "오다와라 시내를 한눈에 볼 수 있다.",
+      "level": "N2",
+      "segmentIndex": 28
+    },
+    {
+      "word": "甲冑",
+      "reading": "かっちゅう",
+      "meaning": "갑옷과 투구",
+      "partOfSpeech": "명사",
+      "exampleSentence": "甲冑を着て写真を撮ることができる。",
+      "exampleReading": "かっちゅうをきてしゃしんをとることができる。",
+      "exampleTranslation": "갑옷을 입고 사진을 찍을 수 있다.",
+      "level": "N1",
+      "segmentIndex": 30
+    },
+    {
+      "word": "フォトジェニック",
+      "reading": "ふぉとじぇにっく",
+      "meaning": "포토제닉 (사진에 잘 나오는)",
+      "partOfSpeech": "형용사",
+      "exampleSentence": "海岸沿いに続くフォトジェニックなスポットだ。",
+      "exampleReading": "かいがんぞいにつづくふぉとじぇにっくなすぽっとだ。",
+      "exampleTranslation": "해안을 따라 이어지는 포토제닉한 스팟이다.",
+      "level": "N1",
+      "segmentIndex": 32
+    },
+    {
+      "word": "老舗",
+      "reading": "しにせ",
+      "meaning": "노포, 오래된 가게",
+      "partOfSpeech": "명사",
+      "exampleSentence": "老舗和菓子屋の菊川商店では箱根まんじゅうが食べられる。",
+      "exampleReading": "しにせわがしやのきくかわしょうてんではこねまんじゅうがたべられる。",
+      "exampleTranslation": "노포 화과자 가게 기쿠카와 상점에서는 하코네 만주를 먹을 수 있다.",
+      "level": "N2",
+      "segmentIndex": 41
+    },
+    {
+      "word": "爆裂火口",
+      "reading": "ばくれつかこう",
+      "meaning": "폭발 분화구",
+      "partOfSpeech": "명사",
+      "exampleSentence": "3000年前水蒸気爆発を起こした爆裂火口だ。",
+      "exampleReading": "3000ねんまえすいじょうきばくはつをおこしたばくれつかこうだ。",
+      "exampleTranslation": "3000년 전 수증기 폭발을 일으킨 폭발 분화구다.",
+      "level": "N1",
+      "segmentIndex": 48
+    },
+    {
+      "word": "黒卵",
+      "reading": "くろたまご",
+      "meaning": "검은 달걀 (오와쿠다니 명물)",
+      "partOfSpeech": "명사",
+      "exampleSentence": "大涌谷温泉で茹でた名物の黒卵は食べると寿命が伸びると言われている。",
+      "exampleReading": "おおわくだにおんせんでゆでためいぶつのくろたまごはたべるとじゅみょうがのびるといわれている。",
+      "exampleTranslation": "오와쿠다니 온천에서 삶은 명물 검은 달걀은 먹으면 수명이 늘어난다고 알려져 있다.",
+      "level": "N2",
+      "segmentIndex": 50
+    },
+    {
+      "word": "露天風呂",
+      "reading": "ろてんぶろ",
+      "meaning": "노천탕",
+      "partOfSpeech": "명사",
+      "exampleSentence": "貸切の個室露天風呂を借りるのもおすすめだ。",
+      "exampleReading": "かしきりのこしつろてんぶろをかりるのもおすすめだ。",
+      "exampleTranslation": "전세 개인 노천탕을 빌리는 것도 추천이다.",
+      "level": "N3",
+      "segmentIndex": 54
+    },
+    {
+      "word": "定番",
+      "reading": "ていばん",
+      "meaning": "정석, 표준, 기본",
+      "partOfSpeech": "명사",
+      "exampleSentence": "絶対外せない箱根の定番スポットを紹介する。",
+      "exampleReading": "ぜったいはずせないはこねのていばんすぽっとをしょうかいする。",
+      "exampleTranslation": "꼭 빠뜨릴 수 없는 하코네의 정석 스팟을 소개한다.",
+      "level": "N3",
+      "segmentIndex": 56
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "videoId": "CVXgoi7O1lU",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 29,
+      "summary": "'日本代表と喧嘩されてるんです'로 시작해 'やっぱりこのドラフトというかNBAというのは'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "年に",
+        "てない",
+        "たしお金で"
+      ]
+    },
+    {
+      "section": "전개 1",
+      "startSegment": 29,
+      "endSegment": 89,
+      "summary": "'やっぱりこのドラフトというかNBAというのは'로 시작해 '何が変わってほしい変わるべきだと思われますか'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "はい",
+        "そうですね",
+        "すよね"
+      ]
+    },
+    {
+      "section": "전개 2",
+      "startSegment": 89,
+      "endSegment": 158,
+      "summary": "'何が変わってほしい変わるべきだと思われますか'로 시작해 'ビジネス、勝村類ブランドとして'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "ですけど"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 158,
+      "endSegment": 197,
+      "summary": "'ビジネス、勝村類ブランドとして'로 시작해 'ご視聴ありがとうございました'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": []
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "英語がまず日本人はできないのが多いの",
+      "type": "enumeration",
+      "segmentIndex": 60,
+      "role": "첫 번째 포인트를 제시합니다."
+    },
+    {
+      "expression": "そして何かスタートアップを育てる",
+      "type": "transition",
+      "segmentIndex": 151,
+      "role": "연속 전개를 이어갑니다."
+    },
+    {
+      "expression": "うです 最後に番組からとても意地の悪",
+      "type": "conclusion",
+      "segmentIndex": 186,
+      "role": "마무리 포인트를 제시합니다."
+    },
+    {
+      "expression": "日本代表と喧嘩されてるんです",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    }
+  ]
+}

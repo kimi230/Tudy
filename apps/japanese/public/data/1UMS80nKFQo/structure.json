@@ -1,0 +1,63 @@
+{
+  "videoId": "1UMS80nKFQo",
+  "sections": [
+    {
+      "section": "도입",
+      "startSegment": 0,
+      "endSegment": 10,
+      "summary": "'この写真 誰だかお分かりになるでしょうか'로 시작해 'なんで僕は見えないのかな 友達が見えている世界っ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "んですね",
+        "この写真",
+        "ですけれども"
+      ]
+    },
+    {
+      "section": "핵심 전개",
+      "startSegment": 10,
+      "endSegment": 37,
+      "summary": "'なんで僕は見えないのかな 友達が見えている世界っ'로 시작해 'かもしれないし これ宿題ですよ'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "あるいは",
+        "かもしれないし",
+        "のは"
+      ]
+    },
+    {
+      "section": "정리",
+      "startSegment": 37,
+      "endSegment": 49,
+      "summary": "'かもしれないし これ宿題ですよ'로 시작해 'それに返すという形で 時間やさまざまな'까지 이어지는 핵심 전개 구간입니다.",
+      "keyPoints": [
+        "かもしれないし",
+        "かもしれない"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "そして実はつい最近まで同じようなこと",
+      "type": "transition",
+      "segmentIndex": 6,
+      "role": "연속 전개를 이어갑니다."
+    },
+    {
+      "expression": "つまり家族が見えている世界っていうの",
+      "type": "summary",
+      "segmentIndex": 9,
+      "role": "핵심 요지를 재정리합니다."
+    },
+    {
+      "expression": "この写真 誰だかお分かりになるでしょ",
+      "type": "opening",
+      "segmentIndex": 0,
+      "role": "도입 메시지 제시"
+    },
+    {
+      "expression": "僕が見えているのと同じものを見ている",
+      "type": "transition",
+      "segmentIndex": 16,
+      "role": "중간 전개 전환"
+    }
+  ]
+}

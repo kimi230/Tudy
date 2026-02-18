@@ -53,9 +53,23 @@ except ImportError:
 # --- Constants ---
 
 PROJECT_ROOT = SCRIPT_DIR.parent
-DATA_DIR = Path(os.environ.get("STDYENG_DATA_DIR",
-    str(PROJECT_ROOT / "app" / "public" / "data")))
 TEMP_DIR = SCRIPT_DIR / ".tmp"
+
+# Language-to-app directory mapping
+LANGUAGE_APP_MAP = {
+    "en": "english",
+    "zh": "chinese",
+    "ja": "japanese",
+}
+
+def get_data_dir(language: str = "en") -> Path:
+    """Get data directory for a given language."""
+    app_name = LANGUAGE_APP_MAP.get(language, "english")
+    return Path(os.environ.get("STDYENG_DATA_DIR",
+        str(PROJECT_ROOT / "apps" / app_name / "public" / "data")))
+
+# Default to English for backward compatibility
+DATA_DIR = get_data_dir("en")
 VIDEOS_INDEX_PATH = DATA_DIR / "videos.json"
 
 PIPELINE_STEPS = [
@@ -114,14 +128,14 @@ def step_download_audio(url: str, video_id: str) -> str:
     return download_audio(url, video_id, temp_dir=str(TEMP_DIR))
 
 
-def step_transcribe(audio_path: str) -> list[dict[str, Any]]:
+def step_transcribe(audio_path: str, language: str = "en") -> list[dict[str, Any]]:
     """Step 3: Transcribe audio to raw segments."""
-    return transcribe_audio(audio_path)
+    return transcribe_audio(audio_path, language=language)
 
 
-def step_clean_segments(raw_segments: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def step_clean_segments(raw_segments: list[dict[str, Any]], language: str = "en") -> list[dict[str, Any]]:
     """Step 4: Clean and merge raw segments."""
-    return clean_and_merge_segments(raw_segments)
+    return clean_and_merge_segments(raw_segments, language=language)
 
 
 def step_translate(
@@ -418,14 +432,30 @@ def _run_finalize(
         # Try to read from segments_data if Claude Code set it
         difficulty = segments_data.get("difficulty", difficulty)
 
-    # Calculate stats
-    total_words = sum(len(seg.get("textEn", "").split()) for seg in segments)
+    # Calculate stats based on language
     duration = raw_meta.get("duration", 0)
-    speech_rate_wpm = round(total_words / (duration / 60)) if duration > 0 else 0
     today = datetime.now().strftime("%Y-%m-%d")
-
-    # Read descriptionKo if Claude Code wrote it in segments_data
     description_ko = segments_data.get("descriptionKo", "")
+
+    # Language-specific speed metric
+    lang = DATA_DIR.parent.parent.name  # infer from path: apps/{lang}/public/data
+    lang_code = {"english": "en", "chinese": "zh", "japanese": "ja"}.get(lang, "en")
+
+    if lang_code == "zh":
+        # Chinese: characters per minute (CPM)
+        total_chars = sum(len(seg.get("textZh", "").replace(" ", "")) for seg in segments)
+        speech_rate = round(total_chars / (duration / 60)) if duration > 0 else 0
+        speech_rate_key = "speechRateCpm"
+    elif lang_code == "ja":
+        # Japanese: morae per minute (MPM) - approximate by character count
+        total_chars = sum(len(seg.get("textJa", "").replace(" ", "")) for seg in segments)
+        speech_rate = round(total_chars / (duration / 60)) if duration > 0 else 0
+        speech_rate_key = "speechRateMpm"
+    else:
+        # English: words per minute (WPM)
+        total_words = sum(len(seg.get("textEn", "").split()) for seg in segments)
+        speech_rate = round(total_words / (duration / 60)) if duration > 0 else 0
+        speech_rate_key = "speechRateWpm"
 
     # Generate meta.json
     meta = {
@@ -437,7 +467,8 @@ def _run_finalize(
         "difficulty": difficulty,
         "duration": duration,
         "thumbnail": raw_meta.get("thumbnail", ""),
-        "speechRateWpm": speech_rate_wpm,
+        speech_rate_key: speech_rate,
+        "speechRateWpm": speech_rate if lang_code == "en" else 0,
         "addedAt": today,
         "segmentCount": len(segments),
         "vocabularyCount": len(vocabulary) if isinstance(vocabulary, list) else 0,
@@ -560,6 +591,7 @@ def run_pipeline(
     do_validate: bool = False,
     mechanical_only: bool = False,
     finalize: bool = False,
+    language: str = "en",
 ) -> None:
     """Run the full content processing pipeline.
 
@@ -578,6 +610,12 @@ def run_pipeline(
         finalize: Generate meta.json and update index from existing analysis files.
     """
     pipeline_start = time.time()
+
+    # Set DATA_DIR based on language
+    global DATA_DIR, VIDEOS_INDEX_PATH
+    DATA_DIR = get_data_dir(language)
+    VIDEOS_INDEX_PATH = DATA_DIR / "videos.json"
+    logger.info("Language: %s, Data dir: %s", language, DATA_DIR)
 
     # --- Finalize mode: generate meta.json + update index from existing files ---
     if finalize:
@@ -703,7 +741,7 @@ def run_pipeline(
                         "Audio file not found. Run download_audio step first."
                     )
                     sys.exit(1)
-            raw_segments = step_transcribe(audio_path)
+            raw_segments = step_transcribe(audio_path, language=language)
             save_intermediate(video_id, "_raw_segments.json", raw_segments)
 
     # === STEP 4: Clean segments ===
@@ -715,7 +753,7 @@ def run_pipeline(
             if not raw_segments:
                 logger.error("No raw segments found. Run transcribe step first.")
                 sys.exit(1)
-            segments = step_clean_segments(raw_segments)
+            segments = step_clean_segments(raw_segments, language=language)
             save_intermediate(video_id, "_clean_segments.json", segments)
 
     # Load segments if needed for subsequent steps
@@ -962,6 +1000,13 @@ Available steps:
              "Generates meta.json and updates videos.json index.",
     )
     parser.add_argument(
+        "--language",
+        type=str,
+        choices=["en", "zh", "ja"],
+        default="en",
+        help="Target language (en=English, zh=Chinese, ja=Japanese, default: en)",
+    )
+    parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Enable verbose/debug logging",
@@ -1030,6 +1075,7 @@ def main() -> None:
         do_validate=args.validate,
         mechanical_only=args.mechanical_only,
         finalize=args.finalize,
+        language=args.language,
     )
 
 

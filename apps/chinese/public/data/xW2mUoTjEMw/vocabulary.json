@@ -1,0 +1,320 @@
+{
+  "videoId": "xW2mUoTjEMw",
+  "vocabulary": [
+    {
+      "word": "都会区",
+      "pinyin": "dūhuìqū",
+      "tones": [1, 4, 1],
+      "partOfSpeech": "noun",
+      "definition": "metropolitan area; urban agglomeration",
+      "koreanMeaning": "광역도시권, 도시권",
+      "hskLevel": 6,
+      "measureWord": "个",
+      "components": [
+        {"character": "都", "meaning": "capital city / metropolis"},
+        {"character": "会", "meaning": "gather / assembly"},
+        {"character": "区", "meaning": "area / district"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 0,
+      "contextSentence": "这是世界上最大的城市都会区"
+    },
+    {
+      "word": "名副其实",
+      "pinyin": "míngfùqíshí",
+      "tones": [2, 4, 2, 2],
+      "partOfSpeech": "idiom",
+      "definition": "to be worthy of the name; to live up to its reputation",
+      "koreanMeaning": "명실공히, 이름에 걸맞은",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "名", "meaning": "name / reputation"},
+        {"character": "副", "meaning": "correspond to"},
+        {"character": "其", "meaning": "its"},
+        {"character": "实", "meaning": "reality / substance"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 2,
+      "contextSentence": "是名副其实的世界第一城"
+    },
+    {
+      "word": "尤为",
+      "pinyin": "yóuwéi",
+      "tones": [2, 2],
+      "partOfSpeech": "adverb",
+      "definition": "especially; particularly; all the more",
+      "koreanMeaning": "특히, 더욱이",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "尤", "meaning": "especially / outstanding"},
+        {"character": "为", "meaning": "be / as"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 4,
+      "contextSentence": "每村土地都显得尤为珍贵"
+    },
+    {
+      "word": "珍贵",
+      "pinyin": "zhēnguì",
+      "tones": [1, 4],
+      "partOfSpeech": "adjective",
+      "definition": "precious; valuable; rare",
+      "koreanMeaning": "귀중한, 소중한",
+      "hskLevel": 4,
+      "measureWord": null,
+      "components": [
+        {"character": "珍", "meaning": "treasure / rare"},
+        {"character": "贵", "meaning": "precious / expensive"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 4,
+      "contextSentence": "每村土地都显得尤为珍贵"
+    },
+    {
+      "word": "穿越",
+      "pinyin": "chuānyuè",
+      "tones": [1, 4],
+      "partOfSpeech": "verb",
+      "definition": "to cross; to pass through; to traverse",
+      "koreanMeaning": "건너다, 통과하다",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "穿", "meaning": "pierce through / wear"},
+        {"character": "越", "meaning": "cross / surpass"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 7,
+      "contextSentence": "就有上千人穿越"
+    },
+    {
+      "word": "幕府",
+      "pinyin": "mùfǔ",
+      "tones": [4, 3],
+      "partOfSpeech": "noun",
+      "definition": "shogunate; the Japanese military government",
+      "koreanMeaning": "막부 (일본 봉건 군사 정권)",
+      "hskLevel": 7,
+      "measureWord": null,
+      "components": [
+        {"character": "幕", "meaning": "curtain / behind the scenes"},
+        {"character": "府", "meaning": "government office / residence"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 29,
+      "contextSentence": "并将其作为幕府政治中心"
+    },
+    {
+      "word": "明治维新",
+      "pinyin": "Míngzhì wéixīn",
+      "tones": [2, 4, 2, 1],
+      "partOfSpeech": "proper noun",
+      "definition": "Meiji Restoration (1868); the political reform that modernized Japan",
+      "koreanMeaning": "메이지 유신 (1868년 일본 근대화 개혁)",
+      "hskLevel": 7,
+      "measureWord": null,
+      "components": [
+        {"character": "明治", "meaning": "Meiji (era name)"},
+        {"character": "维新", "meaning": "reform / renewal"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 31,
+      "contextSentence": "1868年明治维新后 日本天皇从京都皇宫迁至江户城"
+    },
+    {
+      "word": "护城河",
+      "pinyin": "hùchénghé",
+      "tones": [4, 2, 2],
+      "partOfSpeech": "noun",
+      "definition": "moat; a defensive ditch filled with water around a castle or palace",
+      "koreanMeaning": "해자 (성 주변의 물 해자)",
+      "hskLevel": 6,
+      "measureWord": "条",
+      "components": [
+        {"character": "护", "meaning": "protect"},
+        {"character": "城", "meaning": "city / fortress"},
+        {"character": "河", "meaning": "river"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 35,
+      "contextSentence": "皇居占地约3.41平方公里 由护城河所围绕"
+    },
+    {
+      "word": "供奉",
+      "pinyin": "gòngfèng",
+      "tones": [4, 4],
+      "partOfSpeech": "verb",
+      "definition": "to enshrine; to offer sacrifices to; to worship",
+      "koreanMeaning": "모시다, 봉안하다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "供", "meaning": "provide / offer"},
+        {"character": "奉", "meaning": "offer respectfully / serve"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 45,
+      "contextSentence": "这里供奉着慈悲观世音菩萨的"
+    },
+    {
+      "word": "标志性",
+      "pinyin": "biāozhìxìng",
+      "tones": [1, 4, 4],
+      "partOfSpeech": "adjective",
+      "definition": "iconic; landmark; symbolic",
+      "koreanMeaning": "상징적인, 아이코닉한",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "标志", "meaning": "sign / symbol / landmark"},
+        {"character": "性", "meaning": "nature / characteristic (suffix)"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 47,
+      "contextSentence": "是浅草地区的标志性建筑"
+    },
+    {
+      "word": "被夷为平地",
+      "pinyin": "bèi yí wéi píngdì",
+      "tones": [4, 2, 2, 2, 4],
+      "partOfSpeech": "verb phrase",
+      "definition": "to be razed to the ground; to be completely destroyed",
+      "koreanMeaning": "폐허가 되다, 완전히 파괴되다",
+      "hskLevel": 7,
+      "measureWord": null,
+      "components": [
+        {"character": "被", "meaning": "by (passive marker)"},
+        {"character": "夷", "meaning": "level / raze"},
+        {"character": "为", "meaning": "become"},
+        {"character": "平地", "meaning": "flat ground / level ground"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 64,
+      "contextSentence": "历史上东京曾两次被夷为平地"
+    },
+    {
+      "word": "轰炸",
+      "pinyin": "hōngzhà",
+      "tones": [1, 4],
+      "partOfSpeech": "verb / noun",
+      "definition": "to bomb; bombing; aerial bombardment",
+      "koreanMeaning": "폭격하다, 폭격",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "轰", "meaning": "rumble / blast"},
+        {"character": "炸", "meaning": "explode / bomb"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 66,
+      "contextSentence": "第二次是二次世界大战期间的美军轰炸"
+    },
+    {
+      "word": "仿照",
+      "pinyin": "fǎngzhào",
+      "tones": [3, 4],
+      "partOfSpeech": "verb",
+      "definition": "to model after; to imitate; to copy the style of",
+      "koreanMeaning": "모방하다, 본떠서 만들다",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "仿", "meaning": "imitate / copy"},
+        {"character": "照", "meaning": "according to / follow"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 72,
+      "contextSentence": "也是仿照法国埃菲尔铁塔所建的"
+    },
+    {
+      "word": "奢华",
+      "pinyin": "shēhuá",
+      "tones": [1, 2],
+      "partOfSpeech": "adjective",
+      "definition": "luxurious; lavish; extravagant",
+      "koreanMeaning": "호화로운, 사치스러운",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "奢", "meaning": "extravagant / wasteful"},
+        {"character": "华", "meaning": "splendid / magnificent"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 89,
+      "contextSentence": "世界三大奢华购物区之一"
+    },
+    {
+      "word": "二次元",
+      "pinyin": "èrcìyuán",
+      "tones": [4, 4, 2],
+      "partOfSpeech": "noun",
+      "definition": "two-dimensional; refers to anime/manga/otaku culture",
+      "koreanMeaning": "2차원; 오타쿠 문화 (애니메이션·만화 문화)",
+      "hskLevel": 7,
+      "measureWord": null,
+      "components": [
+        {"character": "二", "meaning": "two"},
+        {"character": "次", "meaning": "dimension / time"},
+        {"character": "元", "meaning": "origin / element"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 111,
+      "contextSentence": "秋叶原 作为日本乃至全球著名的二次元文化圣地"
+    },
+    {
+      "word": "融合",
+      "pinyin": "rónghé",
+      "tones": [2, 2],
+      "partOfSpeech": "verb / noun",
+      "definition": "to blend; to merge; fusion; integration",
+      "koreanMeaning": "융합하다, 통합하다",
+      "hskLevel": 5,
+      "measureWord": null,
+      "components": [
+        {"character": "融", "meaning": "melt / blend"},
+        {"character": "合", "meaning": "combine / join"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 117,
+      "contextSentence": "它融合了传统和现代的日本文化"
+    },
+    {
+      "word": "当之无愧",
+      "pinyin": "dāngzhīwúkuì",
+      "tones": [1, 1, 2, 4],
+      "partOfSpeech": "idiom",
+      "definition": "to fully deserve; to be worthy without shame",
+      "koreanMeaning": "당연히 그럴 자격이 있다, 손색없이 마땅하다",
+      "hskLevel": 6,
+      "measureWord": null,
+      "components": [
+        {"character": "当", "meaning": "deserve / should"},
+        {"character": "之", "meaning": "it (classical)"},
+        {"character": "无", "meaning": "no / without"},
+        {"character": "愧", "meaning": "shame / be ashamed"}
+      ],
+      "isEssential": true,
+      "segmentIndex": 25,
+      "contextSentence": "东京都是当之无愧的世界之最"
+    },
+    {
+      "word": "旗舰店",
+      "pinyin": "qíjiàndiàn",
+      "tones": [2, 4, 4],
+      "partOfSpeech": "noun",
+      "definition": "flagship store",
+      "koreanMeaning": "플래그십 스토어, 대표 매장",
+      "hskLevel": 6,
+      "measureWord": "家",
+      "components": [
+        {"character": "旗舰", "meaning": "flagship"},
+        {"character": "店", "meaning": "shop / store"}
+      ],
+      "isEssential": false,
+      "segmentIndex": 91,
+      "contextSentence": "在这里能看到各大高档品牌的旗舰店"
+    }
+  ]
+}

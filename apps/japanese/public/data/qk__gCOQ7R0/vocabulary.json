@@ -1,0 +1,351 @@
+[
+  {
+    "word": "敬語",
+    "reading": "けいご",
+    "kanji": "敬語",
+    "partOfSpeech": "noun",
+    "definition": "honorific language, polite speech",
+    "koreanMeaning": "경어, 존댓말",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "敬", "onyomi": "ケイ", "kunyomi": "うやま.う", "meaning": "respect"},
+      {"kanji": "語", "onyomi": "ゴ", "kunyomi": "かた.る", "meaning": "language"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "これから敬語を勉強します。"
+  },
+  {
+    "word": "尊敬語",
+    "reading": "そんけいご",
+    "kanji": "尊敬語",
+    "partOfSpeech": "noun",
+    "definition": "honorific language (elevating the listener)",
+    "koreanMeaning": "존경어",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "尊", "onyomi": "ソン", "kunyomi": "たっと.い", "meaning": "honor, respect"},
+      {"kanji": "敬", "onyomi": "ケイ", "kunyomi": "うやま.う", "meaning": "respect"},
+      {"kanji": "語", "onyomi": "ゴ", "kunyomi": "かた.る", "meaning": "language"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "敬語の中には尊敬語と謙譲語と丁寧語があります。"
+  },
+  {
+    "word": "謙譲語",
+    "reading": "けんじょうご",
+    "kanji": "謙譲語",
+    "partOfSpeech": "noun",
+    "definition": "humble language (lowering oneself)",
+    "koreanMeaning": "겸양어",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "謙", "onyomi": "ケン", "kunyomi": "へりくだ.る", "meaning": "humble"},
+      {"kanji": "譲", "onyomi": "ジョウ", "kunyomi": "ゆず.る", "meaning": "yield, defer"},
+      {"kanji": "語", "onyomi": "ゴ", "kunyomi": "かた.る", "meaning": "language"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "敬語の中には尊敬語と謙譲語と丁寧語があります。"
+  },
+  {
+    "word": "丁寧語",
+    "reading": "ていねいご",
+    "kanji": "丁寧語",
+    "partOfSpeech": "noun",
+    "definition": "polite language (desu/masu form)",
+    "koreanMeaning": "정중어",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "丁", "onyomi": "テイ", "kunyomi": null, "meaning": "block, counter"},
+      {"kanji": "寧", "onyomi": "ネイ", "kunyomi": "むし.ろ", "meaning": "rather, preferably"},
+      {"kanji": "語", "onyomi": "ゴ", "kunyomi": "かた.る", "meaning": "language"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "敬語の中には尊敬語と謙譲語と丁寧語があります。"
+  },
+  {
+    "word": "目上",
+    "reading": "めうえ",
+    "kanji": "目上",
+    "partOfSpeech": "noun",
+    "definition": "one's superior, elder",
+    "koreanMeaning": "윗사람",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "目", "onyomi": "モク", "kunyomi": "め", "meaning": "eye"},
+      {"kanji": "上", "onyomi": "ジョウ", "kunyomi": "うえ", "meaning": "above, upper"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "敬語というのは目上の人に使う言葉です。"
+  },
+  {
+    "word": "ご覧になる",
+    "reading": "ごらんになる",
+    "kanji": "ご覧になる",
+    "partOfSpeech": "verb",
+    "definition": "to see/look (honorific of 見る)",
+    "koreanMeaning": "보시다 (見る의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "覧", "onyomi": "ラン", "kunyomi": null, "meaning": "to look, to see"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "ご覧になります。"
+  },
+  {
+    "word": "おっしゃる",
+    "reading": "おっしゃる",
+    "kanji": null,
+    "partOfSpeech": "verb",
+    "definition": "to say (honorific of 言う)",
+    "koreanMeaning": "말씀하시다 (言う의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [],
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "おっしゃいます。"
+  },
+  {
+    "word": "召し上がる",
+    "reading": "めしあがる",
+    "kanji": "召し上がる",
+    "partOfSpeech": "verb",
+    "definition": "to eat/drink (honorific of 食べる/飲む)",
+    "koreanMeaning": "드시다 (食べる/飲む의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "召", "onyomi": "ショウ", "kunyomi": "め.す", "meaning": "to summon, to call"},
+      {"kanji": "上", "onyomi": "ジョウ", "kunyomi": "あ.がる", "meaning": "to rise, up"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "召し上がります。"
+  },
+  {
+    "word": "ご存知",
+    "reading": "ごぞんじ",
+    "kanji": "ご存知",
+    "partOfSpeech": "noun",
+    "definition": "knowing (honorific of 知っている)",
+    "koreanMeaning": "아시는 (知っている의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "存", "onyomi": "ソン/ゾン", "kunyomi": null, "meaning": "exist, know"},
+      {"kanji": "知", "onyomi": "チ", "kunyomi": "し.る", "meaning": "know"}
+    ],
+    "isEssential": true,
+    "segmentIndex": 13,
+    "contextSentence": "ご存知ですか?"
+  },
+  {
+    "word": "なさる",
+    "reading": "なさる",
+    "kanji": null,
+    "partOfSpeech": "verb",
+    "definition": "to do (honorific of する)",
+    "koreanMeaning": "하시다 (する의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [],
+    "isEssential": true,
+    "segmentIndex": 14,
+    "contextSentence": "今、何の仕事をなさっていますか?"
+  },
+  {
+    "word": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "kanji": null,
+    "partOfSpeech": "verb",
+    "definition": "to be/go/come (honorific of いる/行く/来る)",
+    "koreanMeaning": "계시다/가시다/오시다 (いる/行く/来る의 존경어)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [],
+    "isEssential": true,
+    "segmentIndex": 16,
+    "contextSentence": "今、どこにいらっしゃいますか?"
+  },
+  {
+    "word": "受け身形",
+    "reading": "うけみけい",
+    "kanji": "受け身形",
+    "partOfSpeech": "noun",
+    "definition": "passive form",
+    "koreanMeaning": "수동형",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "受", "onyomi": "ジュ", "kunyomi": "う.ける", "meaning": "receive"},
+      {"kanji": "身", "onyomi": "シン", "kunyomi": "み", "meaning": "body"},
+      {"kanji": "形", "onyomi": "ケイ", "kunyomi": "かたち", "meaning": "shape, form"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 31,
+    "contextSentence": "次は、2つの受け身形の尊敬語です。"
+  },
+  {
+    "word": "社長",
+    "reading": "しゃちょう",
+    "kanji": "社長",
+    "partOfSpeech": "noun",
+    "definition": "company president",
+    "koreanMeaning": "사장, 회사 대표",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "社", "onyomi": "シャ", "kunyomi": "やしろ", "meaning": "company, shrine"},
+      {"kanji": "長", "onyomi": "チョウ", "kunyomi": "なが.い", "meaning": "long, leader"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 37,
+    "contextSentence": "あれ?社長、もう帰られましたか?"
+  },
+  {
+    "word": "かしこまりました",
+    "reading": "かしこまりました",
+    "kanji": null,
+    "partOfSpeech": "expression",
+    "definition": "certainly, understood (very polite)",
+    "koreanMeaning": "알겠습니다 (매우 공손한 표현)",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [],
+    "isEssential": true,
+    "segmentIndex": 45,
+    "contextSentence": "はい。水ですね。 かしこまりました。"
+  },
+  {
+    "word": "検討",
+    "reading": "けんとう",
+    "kanji": "検討",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "examination, consideration, review",
+    "koreanMeaning": "검토",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "検", "onyomi": "ケン", "kunyomi": null, "meaning": "examine, inspect"},
+      {"kanji": "討", "onyomi": "トウ", "kunyomi": "う.つ", "meaning": "discuss, attack"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 64,
+    "contextSentence": "検討してください。"
+  },
+  {
+    "word": "協力",
+    "reading": "きょうりょく",
+    "kanji": "協力",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "cooperation, collaboration",
+    "koreanMeaning": "협력",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "協", "onyomi": "キョウ", "kunyomi": null, "meaning": "cooperate"},
+      {"kanji": "力", "onyomi": "リョク", "kunyomi": "ちから", "meaning": "power, strength"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 71,
+    "contextSentence": "協力してください。ご協力ください。"
+  },
+  {
+    "word": "紹介",
+    "reading": "しょうかい",
+    "kanji": "紹介",
+    "partOfSpeech": "noun/suru-verb",
+    "definition": "introduction",
+    "koreanMeaning": "소개",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "紹", "onyomi": "ショウ", "kunyomi": null, "meaning": "introduce"},
+      {"kanji": "介", "onyomi": "カイ", "kunyomi": null, "meaning": "mediate, between"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 4,
+    "contextSentence": "皆さんはまずこれから紹介する20個のフレーズを覚えてください。"
+  },
+  {
+    "word": "出身",
+    "reading": "しゅっしん",
+    "kanji": "出身",
+    "partOfSpeech": "noun",
+    "definition": "origin, birthplace",
+    "koreanMeaning": "출신",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "出", "onyomi": "シュツ", "kunyomi": "で.る", "meaning": "go out, exit"},
+      {"kanji": "身", "onyomi": "シン", "kunyomi": "み", "meaning": "body, oneself"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 17,
+    "contextSentence": "出身はどちらですか?"
+  },
+  {
+    "word": "事務所",
+    "reading": "じむしょ",
+    "kanji": "事務所",
+    "partOfSpeech": "noun",
+    "definition": "office",
+    "koreanMeaning": "사무실",
+    "jlptLevel": 4,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "事", "onyomi": "ジ", "kunyomi": "こと", "meaning": "matter, thing"},
+      {"kanji": "務", "onyomi": "ム", "kunyomi": "つと.める", "meaning": "duty, work"},
+      {"kanji": "所", "onyomi": "ショ", "kunyomi": "ところ", "meaning": "place"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 17,
+    "contextSentence": "はい、今事務所にいます。"
+  },
+  {
+    "word": "政治",
+    "reading": "せいじ",
+    "kanji": "政治",
+    "partOfSpeech": "noun",
+    "definition": "politics, government",
+    "koreanMeaning": "정치",
+    "jlptLevel": 3,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "政", "onyomi": "セイ", "kunyomi": "まつりごと", "meaning": "politics, government"},
+      {"kanji": "治", "onyomi": "ジ/チ", "kunyomi": "おさ.める", "meaning": "govern, rule"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 81,
+    "contextSentence": "日本の政治についてどうお考えですか?"
+  },
+  {
+    "word": "ご清聴",
+    "reading": "ごせいちょう",
+    "kanji": "ご清聴",
+    "partOfSpeech": "noun",
+    "definition": "your kind attention (formal closing phrase)",
+    "koreanMeaning": "경청 (발표 마무리 인사)",
+    "jlptLevel": 2,
+    "pitchAccent": null,
+    "kanjiReadings": [
+      {"kanji": "清", "onyomi": "セイ", "kunyomi": "きよ.い", "meaning": "clean, pure"},
+      {"kanji": "聴", "onyomi": "チョウ", "kunyomi": "き.く", "meaning": "listen"}
+    ],
+    "isEssential": false,
+    "segmentIndex": 109,
+    "contextSentence": "ご清聴どうもありがとうございました。"
+  }
+]

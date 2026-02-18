@@ -1,0 +1,72 @@
+[
+  {
+    "pattern": "特別な尊敬語 (Special Honorific Verbs)",
+    "explanation": "Certain common verbs have unique honorific replacements that must be memorized: 見る→ご覧になる, 言う→おっしゃる, 食べる/飲む→召し上がる, 知っている→ご存知, する→なさる, いる/行く/来る→いらっしゃる",
+    "explanationKo": "일부 동사는 고유한 존경어 형태가 있어 암기가 필요합니다: 見る→ご覧になる, 言う→おっしゃる, 食べる/飲む→召し上がる, 知っている→ご存知, する→なさる, いる/行く/来る→いらっしゃる",
+    "examples": ["ご覧になります", "おっしゃいます", "召し上がります", "ご存知ですか", "なさいます", "いらっしゃいます"],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "〜られます (Passive Form Honorific)",
+    "explanation": "The passive form (られる) can be used as a respectful expression for actions of superiors. Group 1 verbs change the final -u to -areru, Group 2 verbs add -rareru.",
+    "explanationKo": "수동형(られる)을 존경 표현으로 사용할 수 있습니다. 1그룹 동사는 어미 -u를 -areru로, 2그룹 동사는 -rareru를 붙입니다. 예: 帰る→帰られる, 思う→思われる",
+    "examples": ["帰られましたか?", "思われますか?"],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "お〜になります",
+    "explanation": "A productive honorific pattern: お + verb stem (masu-form without ます) + になります. Used when there is no special honorific verb available.",
+    "explanationKo": "생산적인 존경어 패턴: お + 동사 어간(ます형에서 ます 제거) + になります. 특별한 존경어 동사가 없을 때 사용합니다.",
+    "examples": ["お決まりになりましたか?"],
+    "segmentIndex": 41
+  },
+  {
+    "pattern": "お〜ください",
+    "explanation": "A polite request pattern: お + verb stem + ください. More formal and respectful than 〜てください.",
+    "explanationKo": "공손한 요청 패턴: お + 동사 어간 + ください. 〜てください보다 더 격식 있고 존경스러운 표현입니다.",
+    "examples": ["お座りください", "おかけください", "お入りください", "お待ちください", "お取りください"],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "ご〜ください",
+    "explanation": "A polite request pattern for Sino-Japanese (漢語) compound verbs: ご + noun + ください. Used with する-verbs of Chinese origin.",
+    "explanationKo": "한자어 동사에 사용하는 공손한 요청 패턴: ご + 한자어 명사 + ください. 중국어 기원의 する동사와 함께 사용합니다.",
+    "examples": ["ご検討ください", "ご連絡ください", "ご協力ください"],
+    "segmentIndex": 64
+  },
+  {
+    "pattern": "お〜ですか",
+    "explanation": "A polite question pattern: お + verb stem/noun + ですか. Used to politely inquire about someone's state or possession.",
+    "explanationKo": "공손한 질문 패턴: お + 동사 어간/명사 + ですか. 상대방의 상태나 소유에 대해 공손하게 물을 때 사용합니다.",
+    "examples": ["お持ちですか?", "お考えですか?"],
+    "segmentIndex": 77
+  },
+  {
+    "pattern": "〜というのは〜です",
+    "explanation": "A pattern used to define or explain a term: X というのは Y です means 'X is Y' or 'what we call X is Y'.",
+    "explanationKo": "용어를 정의하거나 설명할 때 사용하는 패턴: X というのは Y です는 'X란 Y입니다'라는 뜻입니다.",
+    "examples": ["敬語というのは目上の人に使う言葉です。"],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "〜にとって(も)",
+    "explanation": "Means 'for (someone)', 'from the standpoint of'. Adding も emphasizes 'even for'.",
+    "explanationKo": "~에게 있어서, ~의 입장에서라는 뜻입니다. も를 추가하면 '~에게조차'라는 강조 의미가 됩니다.",
+    "examples": ["日本人にとっても難しいものです。"],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "〜たことがありますか",
+    "explanation": "Pattern to ask about past experience: Have you ever ~? Uses the past tense (ta-form) + ことがある.",
+    "explanationKo": "과거 경험을 물을 때 사용하는 패턴: ~한 적이 있습니까? 과거형(た형) + ことがある를 사용합니다.",
+    "examples": ["神戸にいらっしゃったことがありますか?", "フォーを召し上がったことがありますか?"],
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "〜ていただけますか",
+    "explanation": "A very polite request form meaning 'could you please ~?' More humble and polite than ください.",
+    "explanationKo": "~해 주시겠습니까? 라는 매우 공손한 요청 표현입니다. ください보다 더 겸손하고 정중합니다.",
+    "examples": ["アンケートにご協力いただけますか?"],
+    "segmentIndex": 75
+  }
+]
