@@ -10,7 +10,8 @@
         "Shen Nong, the divine farmer, was poisoned 72 times",
         "A tea leaf accidentally revived him",
         "This is an ancient legend, not historical fact"
-      ]
+      ],
+      "titleKo": "신농씨의 신화를 통해 차의 전설적인 기원을 소개"
     },
     {
       "section": "body",
@@ -22,7 +23,8 @@
         "Tea cultivation dates back 6,000 years in China",
         "This predates the Great Pyramids by 1,500 years",
         "Tea was originally eaten as a vegetable or with porridge"
-      ]
+      ],
+      "titleKo": "전설에서 고고학적 증거로 전환하며, 차가 6,0…"
     },
     {
       "section": "body",
@@ -34,7 +36,8 @@
         "Heat and moisture unlocked complex flavors from tea leaves",
         "Matcha became the standard preparation method",
         "Tea culture included art, poetry, and foam art similar to modern latte art"
-      ]
+      ],
+      "titleKo": "1,500년 전에 차가 음식에서 음료로 바뀌었어…"
     },
     {
       "section": "body",
@@ -47,7 +50,8 @@
         "The Ming Dynasty shifted from cake tea to loose leaf tea",
         "China held a monopoly on tea alongside porcelain and silk",
         "Dutch traders brought tea to Europe in large quantities"
-      ]
+      ],
+      "titleKo": "9세기에 차가 일본에 전해져 다도가 탄생했어요"
     },
     {
       "section": "body",
@@ -60,7 +64,8 @@
         "Britain's colonial expansion spread tea culture globally",
         "Tea sold for 10 times the price of coffee in 1700",
         "Clipper Ships were built to race tea to Europe"
-      ]
+      ],
+      "titleKo": "차가 유럽, 특히 영국에서 엄청난 인기를 끌었어…"
     },
     {
       "section": "body",
@@ -73,7 +78,8 @@
         "Opium caused a public health crisis in China",
         "The first Opium War (1839-1842) resulted in China ceding Hong Kong",
         "The war weakened China's global standing for over a century"
-      ]
+      ],
+      "titleKo": "영국의 차 무역은 중국과의 파괴적인 아편 전쟁으…"
     },
     {
       "section": "body",
@@ -85,7 +91,8 @@
         "Robert Fortune disguised himself and infiltrated China's tea regions",
         "He smuggled tea plants and workers to Darjeeling, India",
         "This broke China's monopoly and made tea an everyday commodity worldwide"
-      ]
+      ],
+      "titleKo": "영국 동인도 회사가 로버트 포춘을 비밀 작전에…"
     },
     {
       "section": "conclusion",
@@ -97,7 +104,8 @@
         "Tea is the second most consumed beverage in the world",
         "Preparation styles range from sugary Turkish tea to salty Tibetan butter tea",
         "There are nearly as many tea traditions as there are cultures"
-      ]
+      ],
+      "titleKo": "오늘날 차는 물 다음으로 세계에서 두 번째로 많…"
     }
   ],
   "signalExpressions": [

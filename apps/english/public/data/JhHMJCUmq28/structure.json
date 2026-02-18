@@ -10,7 +10,8 @@
         "Computer power has grown exponentially since the 1960s",
         "Parts are approaching the size of an atom",
         "This creates a fundamental problem for further progress"
-      ]
+      ],
+      "titleKo": "컴퓨팅의 역사를 소개하고, 처리 능력의 기하급수…"
     },
     {
       "section": "How Traditional Computers Work",
@@ -22,7 +23,8 @@
         "Computers consist of transistors, logic gates, and modules",
         "Transistors are simple on/off switches processing bits",
         "Complex calculations emerge from combining simple operations"
-      ]
+      ],
+      "titleKo": "기존 컴퓨터의 기본 구성 요소인 트랜지스터, 논…"
     },
     {
       "section": "The Quantum Problem: Tunneling at Atomic Scale",
@@ -34,7 +36,8 @@
         "At atomic scale, quantum tunneling lets electrons pass through barriers",
         "Traditional computers stop working reliably at this scale",
         "Scientists aim to harness quantum properties for quantum computers"
-      ]
+      ],
+      "titleKo": "소형화가 양자 수준에서 왜 문제를 일으키는지 설…"
     },
     {
       "section": "Qubits and Superposition",
@@ -46,7 +49,8 @@
         "Qubits can be in superposition of both 0 and 1 simultaneously",
         "Measurement collapses the superposition to a definite state",
         "20 qubits can store a million values in parallel"
-      ]
+      ],
+      "titleKo": "큐비트와 중첩의 개념을 소개해"
     },
     {
       "section": "Entanglement and Quantum Gates",
@@ -58,7 +62,8 @@
         "Entanglement links qubits so measuring one reveals the other's state",
         "Quantum gates manipulate superpositions and probabilities",
         "Superposition and entanglement enable exponentially more efficient computation"
-      ]
+      ],
+      "titleKo": "얽힘, 양자 게이트, 양자 컴퓨팅의 실제 작동…"
     },
     {
       "section": "Applications: Databases, Encryption, and Drug Discovery",
@@ -70,7 +75,8 @@
         "Database searching becomes vastly faster with quantum algorithms",
         "Public-key encryption could be broken by quantum speed-up",
         "Quantum simulations could revolutionize medicine through protein modeling"
-      ]
+      ],
+      "titleKo": "양자 컴퓨터의 실용적 응용 분야를 소개해: 그로…"
     },
     {
       "section": "The Uncertain but Exciting Future",
@@ -82,7 +88,8 @@
         "The ultimate impact of quantum computers remains unknown",
         "They could be specialized tools or a revolution for humanity",
         "The only way to find out is to keep pushing forward"
-      ]
+      ],
+      "titleKo": "양자 컴퓨팅의 미래가 불확실하다는 점을 인정하며…"
     }
   ],
   "signalExpressions": [

@@ -9,7 +9,11 @@
         "교사로서의 경험을 통해 IQ가 성적의 유일한 요인이 아님을 발견",
         "성적 우수자가 반드시 IQ가 높지 않았고, IQ가 높아도 성적이 낮은 학생 존재"
       ],
-      "signalExpressions": ["When I was 27 years old", "What struck me was that"]
+      "signalExpressions": [
+        "When I was 27 years old",
+        "What struck me was that"
+      ],
+      "titleKo": "개인 경험"
     },
     {
       "section": "From Classroom to Graduate School",
@@ -21,7 +25,12 @@
         "교육에는 동기 부여/심리학적 관점의 이해가 필요",
         "핵심 질문: '학습 속도 이상의 것이 성공을 결정한다면?'"
       ],
-      "signalExpressions": ["And that got me thinking", "I came to the conclusion that", "But what if"]
+      "signalExpressions": [
+        "And that got me thinking",
+        "I came to the conclusion that",
+        "But what if"
+      ],
+      "titleKo": "핵심 내용"
     },
     {
       "section": "Research Across Extreme Environments",
@@ -33,7 +42,12 @@
         "웨스트포인트, 철자 맞히기 대회, 초임 교사, 영업사원 대상",
         "사회적 지능, 외모, 건강, IQ 모두 아닌 하나의 특성 발견"
       ],
-      "signalExpressions": ["I started studying", "My research team and I", "In all those very different contexts"]
+      "signalExpressions": [
+        "I started studying",
+        "My research team and I",
+        "In all those very different contexts"
+      ],
+      "titleKo": "연구 결과"
     },
     {
       "section": "Defining Grit: Passion and Perseverance",
@@ -46,7 +60,12 @@
         "시카고 연구: 그릿 높은 학생이 졸업률 유의미하게 높음",
         "가정 소득, 시험 점수 등 변수 통제 후에도 유효"
       ],
-      "signalExpressions": ["It was grit", "Grit is", "Turns out that"]
+      "signalExpressions": [
+        "It was grit",
+        "Grit is",
+        "Turns out that"
+      ],
+      "titleKo": "핵심 내용"
     },
     {
       "section": "The Gap: How to Build Grit",
@@ -59,7 +78,12 @@
         "캐럴 드웩의 성장 마인드셋이 현재 최선의 아이디어",
         "뇌가 변화할 수 있다는 믿음이 실패 후 끈기를 높임"
       ],
-      "signalExpressions": ["The most shocking thing", "The honest answer is", "So far, the best idea"]
+      "signalExpressions": [
+        "The most shocking thing",
+        "The honest answer is",
+        "So far, the best idea"
+      ],
+      "titleKo": "핵심 내용"
     },
     {
       "section": "Call to Action: Be Gritty About Building Grit",
@@ -71,7 +95,12 @@
         "최고의 아이디어를 검증하고, 실패를 감수해야 함",
         "재귀적 메시지: 그릿을 키우려면 우리 자신이 끈기를 가져야 함"
       ],
-      "signalExpressions": ["But we need more", "That's where I'm going to end my remarks", "In other words"]
+      "signalExpressions": [
+        "But we need more",
+        "That's where I'm going to end my remarks",
+        "In other words"
+      ],
+      "titleKo": "결론 및 행동 촉구"
     }
   ],
   "signalExpressions": [
