@@ -146,12 +146,6 @@ export async function loadCategories() {
   return fetchJSON<Category[]>('categories.json');
 }
 
-const HAN_RE = /[\u3400-\u9fff]/;
-
-function isLikelyChineseVideo(video: VideoEntry): boolean {
-  return HAN_RE.test(video.title) || HAN_RE.test(video.channel);
-}
-
 export async function loadVideos() {
   const lang = getLanguage();
   const sb = supabase;
@@ -183,22 +177,14 @@ export async function loadVideos() {
       });
 
       if (rows.length > 0) {
-        const videos = rows.map(mapCatalogRow);
-        if (lang !== 'zh') return videos;
-        const filtered = videos.filter(isLikelyChineseVideo);
-        return filtered.length > 0 ? filtered : videos;
+        return rows.map(mapCatalogRow);
       }
     } catch (error) {
       console.warn('Falling back to local video JSON:', error);
     }
   }
 
-  const videos = await fetchJSON<VideoEntry[]>('videos.json');
-  if (lang !== 'zh') return videos;
-
-  // Guard against mixed-language seed data in zh app.
-  const filtered = videos.filter(isLikelyChineseVideo);
-  return filtered.length > 0 ? filtered : videos;
+  return fetchJSON<VideoEntry[]>('videos.json');
 }
 
 async function loadVideoArtifactsFromDb(videoId: string): Promise<VideoArtifactsRow | null> {
