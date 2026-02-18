@@ -8,6 +8,7 @@ import type {
   ConnectedSpeech,
   SpeechStructure,
 } from '../types';
+import { getDefaultLanguage } from './supabaseSync';
 
 const BASE = import.meta.env.BASE_URL + 'data';
 
@@ -28,8 +29,19 @@ export function loadCategories() {
   return fetchJSON<Category[]>('categories.json');
 }
 
-export function loadVideos() {
-  return fetchJSON<VideoEntry[]>('videos.json');
+const HAN_RE = /[\u3400-\u9fff]/;
+
+function isLikelyChineseVideo(video: VideoEntry): boolean {
+  return HAN_RE.test(video.title) || HAN_RE.test(video.channel);
+}
+
+export async function loadVideos() {
+  const videos = await fetchJSON<VideoEntry[]>('videos.json');
+  if (getDefaultLanguage() !== 'zh') return videos;
+
+  // Guard against mixed-language seed data in zh app.
+  const filtered = videos.filter(isLikelyChineseVideo);
+  return filtered.length > 0 ? filtered : videos;
 }
 
 export function loadVideoMeta(videoId: string) {
