@@ -72,6 +72,8 @@ class SignalExpression(TypedDict, total=False):
 
 class SpeechStructureSection(TypedDict, total=False):
     section: str  # intro, body, conclusion
+    title: str
+    titleKo: str
     startSegment: int
     endSegment: int
     summary: str
@@ -638,6 +640,8 @@ Return a JSON object with TWO keys: "sections" and "signalExpressions".
 
    For each section:
    - "section": descriptive section name (e.g., "Introduction", "Main Argument", "Examples", "Conclusion")
+   - "title": concise section title in English (3-8 words)
+   - "titleKo": concise Korean subtitle describing what this section is about
    - "startSegment": first segment index
    - "endSegment": last segment index
    - "summary": brief summary in English
@@ -669,6 +673,8 @@ Return ONLY a JSON object with "sections" and "signalExpressions" keys."""
     fallback_sections = [
         SpeechStructureSection(
             section="Full Content",
+            title="Full Content",
+            titleKo="전체 내용",
             startSegment=0,
             endSegment=total_segments - 1,
             summary="Complete transcript content.",
@@ -706,9 +712,22 @@ Return ONLY a JSON object with "sections" and "signalExpressions" keys."""
         key_points = item.get("keyPoints", [])
         if not isinstance(key_points, list):
             key_points = [str(key_points)]
+        section_name = str(item.get("section") or item.get("title") or "Section")
+        title = str(item.get("title") or section_name)
+        title_ko = str(item.get("titleKo") or "").strip()
+        if not title_ko:
+            title_ko = str(item.get("summaryKo") or "").strip()
+            if title_ko:
+                title_ko = title_ko.split(".")[0].split("!")[0].split("?")[0].strip()
+                if len(title_ko) > 32:
+                    title_ko = title_ko[:32].rstrip() + "…"
+        if not title_ko:
+            title_ko = "핵심 내용"
         cleaned_sections.append(
             SpeechStructureSection(
-                section=str(item.get("section", "Section")),
+                section=section_name,
+                title=title,
+                titleKo=title_ko,
                 startSegment=int(item.get("startSegment", 0)),
                 endSegment=int(item.get("endSegment", total_segments - 1)),
                 summary=str(item.get("summary", "")),

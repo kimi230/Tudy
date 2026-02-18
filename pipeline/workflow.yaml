@@ -207,6 +207,7 @@ phase_2:
       action: |
         segments.json를 읽고 전체 스피치/영상의 구조 분석:
         - 서론/본론/결론 등 섹션 구분
+        - 각 섹션의 영어 제목(title) + 한국어 소제목(titleKo) 필수 생성
         - 각 섹션의 시작/끝 세그먼트 + 요약
         - 전환 표현 (signal expressions) 추출
       format:
@@ -214,6 +215,8 @@ phase_2:
           {
             "sections": [
               {
+                "title": "Opening Hook",
+                "titleKo": "도입: 관심 끌기",
                 "section": "Introduction",
                 "startSegment": 0,
                 "endSegment": 3,
@@ -278,5 +281,6 @@ quality_checklist:
   - "grammar.json: 문법 설명이 정확한가?"
   - "connected_speech.json: 연음 위치가 타임스탬프와 맞는가?"
   - "structure.json: 서론/본론/결론 구분이 적절한가?"
+  - "structure.json: 각 섹션에 title/titleKo가 모두 포함되어 있는가?"
   - "meta.json: 난이도 분류가 적절한가?"
   - "videos.json: 인덱스에 정상 추가되었는가?"

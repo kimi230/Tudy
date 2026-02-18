@@ -33,8 +33,8 @@ const TYPE_COLORS: Record<string, string> = {
   restatement: 'bg-violet-100 text-violet-700',
 };
 
-function getSectionTitle(sec: { section?: string; title?: string; type?: string }): string {
-  return sec.section || sec.title || sec.type || 'Section';
+function getSectionTitle(sec: { section?: string; title?: string; titleKo?: string; type?: string }): string {
+  return sec.titleKo || sec.title || sec.section || sec.type || 'Section';
 }
 
 export default function Step4_Compare({ segments, structure }: Props) {
@@ -144,4 +144,3 @@ export default function Step4_Compare({ segments, structure }: Props) {
     </>
   );
 }
-

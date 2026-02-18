@@ -113,7 +113,7 @@ claude_tasks:
   analyze_structure:
     input: "{videoId}/segments.json"
     output: "{videoId}/structure.json"
-    action: "스피치 구조 분석 (섹션 구분, 전환 표현 추출)"
+    action: "스피치 구조 분석 (섹션 구분, 영어 제목+한국어 소제목(titleKo), 전환 표현 추출)"
 
   evaluate_candidates:
     input: "pipeline/.tmp/candidates.json"
