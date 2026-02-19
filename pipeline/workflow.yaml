@@ -265,6 +265,7 @@ phase_3:
     --language "{language}"
   actions:
     - "segments.json 등 분석 파일에서 통계 계산"
+    - "structure.json의 descriptionKo(없으면 섹션 요약)로 영상 카드 소제목 자동 생성"
     - "meta.json 생성"
     - "videos.json 인덱스 업데이트"
     - "중간 파일 (_raw_*, _clean_*) 정리"

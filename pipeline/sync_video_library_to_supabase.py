@@ -27,6 +27,58 @@ APPS = [
 ]
 
 
+def _compact_text(value) -> str:
+    return " ".join(str(value or "").split()).strip()
+
+
+def _trim_description(value, max_len: int = 80) -> str:
+    text = _compact_text(value).strip(" .")
+    if not text:
+        return ""
+    for delimiter in (". ", "! ", "? "):
+        if delimiter in text:
+            text = text.split(delimiter, 1)[0].strip(" .")
+            break
+    if len(text) > max_len:
+        text = text[: max_len - 1].rstrip() + "…"
+    return text
+
+
+def _description_from_structure(structure: dict) -> str:
+    if not isinstance(structure, dict):
+        return ""
+
+    candidates = [structure.get("descriptionKo"), structure.get("titleKo"), structure.get("summary")]
+    sections = structure.get("sections")
+    if isinstance(sections, list) and sections:
+        first = sections[0]
+        if isinstance(first, dict):
+            candidates.extend([
+                first.get("titleKo"),
+                first.get("summaryKo"),
+                first.get("summary"),
+            ])
+
+    for candidate in candidates:
+        desc = _trim_description(candidate)
+        if len(desc) >= 6:
+            return desc
+    return ""
+
+
+def _resolve_description_ko(video_entry: dict, meta: dict, structure: dict) -> str:
+    candidates = [
+        meta.get("descriptionKo"),
+        video_entry.get("descriptionKo"),
+        _description_from_structure(structure),
+    ]
+    for candidate in candidates:
+        desc = _trim_description(candidate)
+        if len(desc) >= 6:
+            return desc
+    return ""
+
+
 def _require_env(name: str, fallback: str | None = None) -> str:
     value = os.environ.get(name, "").strip()
     if not value and fallback:
@@ -70,7 +122,16 @@ def _postgrest_upsert(
         raise RuntimeError(f"HTTPError upserting {table}: {e.code} {body}") from e
 
 
-def _catalog_row(lang: str, video_entry: dict, meta: dict, segments: dict, vocabulary, grammar) -> dict:
+def _catalog_row(
+    lang: str,
+    video_entry: dict,
+    meta: dict,
+    segments: dict,
+    vocabulary,
+    grammar,
+    structure: dict,
+) -> dict:
+    description_ko = _resolve_description_ko(video_entry, meta, structure)
     return {
         "language": lang,
         "video_id": video_entry["videoId"],
@@ -88,7 +149,7 @@ def _catalog_row(lang: str, video_entry: dict, meta: dict, segments: dict, vocab
         "segment_count": int(meta.get("segmentCount") or len(segments.get("segments", []))),
         "vocabulary_count": int(meta.get("vocabularyCount") or (len(vocabulary) if isinstance(vocabulary, list) else 0)),
         "grammar_pattern_count": int(meta.get("grammarPatternCount") or (len(grammar) if isinstance(grammar, list) else 0)),
-        "description_ko": meta.get("descriptionKo") or video_entry.get("descriptionKo"),
+        "description_ko": description_ko or None,
     }
 
 
@@ -112,7 +173,7 @@ def main() -> None:
             connected = _read_json(vdir / "connected_speech.json")
             structure = _read_json(vdir / "structure.json")
 
-            catalog = _catalog_row(lang, entry, meta, segments, vocabulary, grammar)
+            catalog = _catalog_row(lang, entry, meta, segments, vocabulary, grammar, structure)
             artifacts = {
                 "language": lang,
                 "video_id": video_id,

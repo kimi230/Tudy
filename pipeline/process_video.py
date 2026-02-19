@@ -152,6 +152,21 @@ def _extract_description_ko_from_structure(structure_data: Any) -> str:
     return ""
 
 
+def _ensure_structure_description_ko(structure_data: Any, description_ko: str) -> tuple[Any, bool]:
+    """Ensure structure root contains descriptionKo for downstream sync/consumers."""
+    if not isinstance(structure_data, dict):
+        return structure_data, False
+
+    current = _trim_description(structure_data.get("descriptionKo", ""))
+    if current:
+        return structure_data, False
+    if not description_ko:
+        return structure_data, False
+
+    structure_data["descriptionKo"] = description_ko
+    return structure_data, True
+
+
 # --- Intermediate state management ---
 
 
@@ -284,6 +299,7 @@ def step_generate_json(
     # structure.json - SpeechStructure object
     structure_data = {"sections": structure} if isinstance(structure, list) else structure
     description_ko = _extract_description_ko_from_structure(structure_data)
+    structure_data, _ = _ensure_structure_description_ko(structure_data, description_ko)
 
     # meta.json - matches frontend VideoMeta type
     meta = {
@@ -503,6 +519,9 @@ def _run_finalize(
         description_ko = _trim_description(existing_meta.get("descriptionKo", ""))
     if not description_ko:
         description_ko = _extract_description_ko_from_structure(structure_data)
+    structure_data, structure_updated = _ensure_structure_description_ko(structure_data, description_ko)
+    if structure_updated:
+        save_json(video_dir / "structure.json", structure_data)
 
     # Language-specific speed metric
     lang = DATA_DIR.parent.parent.name  # infer from path: apps/{lang}/public/data
