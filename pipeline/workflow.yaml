@@ -22,7 +22,7 @@ input:
       description: "YouTube/bilibili 영상 URL"
     category:
       type: enum
-      values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation]
+      values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation, news, anime]
       description: "학습 카테고리"
   optional:
     language:

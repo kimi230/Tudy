@@ -21,7 +21,7 @@ input:
     description: "학습 난이도"
   category:
     type: enum
-    values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation]
+    values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation, news, anime]
     description: "콘텐츠 카테고리"
   topics:
     type: list[string]
@@ -50,8 +50,8 @@ steps:
     description: |
       1. 레벨/카테고리/토픽으로 검색 쿼리 생성
       2. yt-dlp ytsearch로 후보 검색 (20~100개)
-      3. 길이/조회수/언어 필터 (10~30 후보)
-      4. 자막 다운로드 + WPM/어휘빈도/문장길이 분석
+      3. 길이/조회수/품질 신호/카테고리 적합도 필터 (10~30 후보)
+      4. 자막 다운로드 + 속도(WPM/CPM) + 어휘 접근성 + 카테고리 적합도 재검증
     fallback:
       - if: "candidates < 10 → --max-results 20 으로 쿼리 확장 재시도"
       - if: "candidates < 5 → 큐레이션 채널 직접 검색 폴백"
@@ -68,9 +68,11 @@ steps:
       2. content (1~10): 교육적, 긍정적, 사고 촉진
       3. clarity (1~10): 화자 발음 명료성 (자막 품질로 추정)
       4. engagement (1~10): 학습자 흥미도
-      5. category: 최적 카테고리 추천
-      6. summary: 1줄 한국어 요약
-    reject_if: "structure < 4 or content < 4"
+      5. safety (1~10): 학습용으로 안전한 콘텐츠인지
+      6. risk_flags: 위험 태그 배열 (예: ["sexual", "hate", "self_harm", "extremism", "violence"])
+      7. category: 최적 카테고리 추천
+      8. summary: 1줄 한국어 요약
+    reject_if: "structure < 4 or content < 4 or safety < 5 or risk_flags contains blocked tags"
     format:
       schema: |
         [
@@ -80,6 +82,8 @@ steps:
             "content": 7,
             "clarity": 9,
             "engagement": 8,
+            "safety": 9,
+            "risk_flags": [],
             "category": "motivation",
             "summary": "1줄 한국어 요약"
           }
@@ -99,11 +103,15 @@ steps:
     description: |
       1. 기존 videos.json과 비교하여 중복 제거
       2. 종합 스코어링:
-         - 난이도 적합도 35%
-         - 어휘 접근성 25%
+         - 난이도 적합도 30%
+         - 어휘 접근성 20%
          - 구조 20%
          - 콘텐츠 15%
          - 채널 5%
+         - 카테고리 적합도 5%
+         - 메타데이터 품질 5%
+         - 최신성 5%
+         - 안전성 4%
 
   # --- Step 4: 결과 표시 + 선택 → 처리 (Claude Code 직접) ---
   - id: present_and_process
