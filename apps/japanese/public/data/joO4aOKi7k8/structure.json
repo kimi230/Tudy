@@ -83,31 +83,56 @@
       "theme": "상호 존중 (相互尊重)",
       "themeJa": "相互尊重",
       "description": "현대 경어의 핵심 가치. 상대방의 사회적 위치와 존재를 인정하고 배려하는 것.",
-      "relatedSegments": [25, 26, 58]
+      "relatedSegments": [
+        25,
+        26,
+        58
+      ]
     },
     {
       "theme": "경어의 역사성",
       "themeJa": "敬語の歴史性",
       "description": "경어는 고대 일본어에서 계속 이어져 온 전통. 신분 제도와의 관계.",
-      "relatedSegments": [16, 17, 18]
+      "relatedSegments": [
+        16,
+        17,
+        18
+      ]
     },
     {
       "theme": "과도한 경어의 역효과",
       "themeJa": "過度な敬語の逆効果",
       "description": "경어를 너무 많이 사용하면 오히려 어색함과 불쾌감을 줄 수 있다.",
-      "relatedSegments": [9, 10, 37, 39]
+      "relatedSegments": [
+        9,
+        10,
+        37,
+        39
+      ]
     },
     {
       "theme": "배려로서의 겸양 표현",
       "themeJa": "思いやりとしての謙譲表現",
       "description": "「つまらないものですが」등의 겸양 표현은 비굴함이 아니라 상대방에 대한 배려.",
-      "relatedSegments": [43, 47, 48, 50]
+      "relatedSegments": [
+        43,
+        47,
+        48,
+        50
+      ]
     },
     {
       "theme": "솔직함과 배려의 조화",
       "themeJa": "素直さと思いやりの調和",
       "description": "경어의 본질은 형식이 아니라 솔직한 마음과 상대방에 대한 배려.",
-      "relatedSegments": [52, 53, 55, 59, 60, 61]
+      "relatedSegments": [
+        52,
+        53,
+        55,
+        59,
+        60,
+        61
+      ]
     }
   ],
   "speakerInfo": {
@@ -115,5 +140,6 @@
     "role": "경어 전문가 (敬語専門家)",
     "style": "강의체, 질문-응답 형식",
     "noteableFeatures": "정중어와 격식체를 적절히 혼용하며 청중에게 친근하게 설명. 「お答えいたします」등의 격식 있는 경어와 「そうそう」등의 구어체를 자연스럽게 섞어 사용."
-  }
+  },
+  "descriptionKo": "경어의 역사와 상호존중 원칙으로 배우는 자연스러운 경어 사용법"
 }

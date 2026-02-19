@@ -206,6 +206,7 @@ phase_2:
       output: "{videoId}/structure.json"
       action: |
         segments.json를 읽고 전체 스피치/영상의 구조 분석:
+        - 영상 카드용 한국어 한 줄 소제목(descriptionKo) 생성 (무엇에 대한 영상인지)
         - 서론/본론/결론 등 섹션 구분
         - 각 섹션의 영어 제목(title) + 한국어 소제목(titleKo) 필수 생성
         - 각 섹션의 시작/끝 세그먼트 + 요약
@@ -213,6 +214,7 @@ phase_2:
       format:
         schema: |
           {
+            "descriptionKo": "이 영상의 핵심 주제를 한 줄로 요약",
             "sections": [
               {
                 "title": "Opening Hook",

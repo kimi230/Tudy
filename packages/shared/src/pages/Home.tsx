@@ -199,7 +199,7 @@ export default function Home() {
                 <img src={v.thumbnail} alt={v.title} className="w-full aspect-video object-cover" />
                 <div className="p-3">
                   <h4 className="text-sm font-medium text-gray-900 line-clamp-2">{v.title}</h4>
-                  {lang === 'en' && v.descriptionKo && (
+                  {v.descriptionKo && (
                     <p className="text-xs text-gray-500 mt-1 line-clamp-1">{v.descriptionKo}</p>
                   )}
                   <p className="text-xs text-gray-400 mt-1">{v.channel}</p>

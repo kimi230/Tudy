@@ -177,7 +177,29 @@ export async function loadVideos() {
       });
 
       if (rows.length > 0) {
-        return rows.map(mapCatalogRow);
+        const mapped = rows.map(mapCatalogRow);
+        const needsDescriptionBackfill = mapped.some((video) => !video.descriptionKo);
+
+        if (!needsDescriptionBackfill) {
+          return mapped;
+        }
+
+        try {
+          const localVideos = await fetchJSON<VideoEntry[]>('videos.json');
+          const localDescriptionMap = new Map(
+            localVideos
+              .filter((video) => typeof video.descriptionKo === 'string' && video.descriptionKo.trim().length > 0)
+              .map((video) => [video.videoId, video.descriptionKo as string]),
+          );
+
+          return mapped.map((video) =>
+            video.descriptionKo
+              ? video
+              : { ...video, descriptionKo: localDescriptionMap.get(video.videoId) },
+          );
+        } catch {
+          return mapped;
+        }
       }
     } catch (error) {
       console.warn('Falling back to local video JSON:', error);

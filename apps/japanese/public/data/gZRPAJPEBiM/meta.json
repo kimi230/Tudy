@@ -12,5 +12,6 @@
   "addedAt": "2026-02-19",
   "segmentCount": 50,
   "vocabularyCount": 20,
-  "grammarPatternCount": 10
+  "grammarPatternCount": 10,
+  "descriptionKo": "총선 포스터 전략으로 읽는 일본 정당별 선거 메시지 분석"
 }

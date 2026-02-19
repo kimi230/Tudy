@@ -95,6 +95,63 @@ def save_videos_index(videos: list[dict[str, Any]]) -> None:
     save_json(VIDEOS_INDEX_PATH, videos)
 
 
+def _compact_text(value: Any) -> str:
+    """Normalize arbitrary values into a single-line string."""
+    return " ".join(str(value or "").split()).strip()
+
+
+def _trim_description(value: Any, max_len: int = 80) -> str:
+    """Create a concise one-line subtitle."""
+    text = _compact_text(value).strip(" .")
+    if not text:
+        return ""
+
+    for delimiter in (". ", "! ", "? "):
+        if delimiter in text:
+            text = text.split(delimiter, 1)[0].strip(" .")
+            break
+
+    if len(text) > max_len:
+        text = text[: max_len - 1].rstrip() + "…"
+    return text
+
+
+def _contains_hangul(text: str) -> bool:
+    return any("가" <= ch <= "힣" for ch in text)
+
+
+def _extract_description_ko_from_structure(structure_data: Any) -> str:
+    """Extract agent-generated Korean short description from structure data."""
+    if not isinstance(structure_data, dict):
+        return ""
+
+    candidates: list[Any] = [
+        structure_data.get("descriptionKo"),
+        structure_data.get("titleKo"),
+        structure_data.get("summary"),
+    ]
+
+    sections = structure_data.get("sections")
+    if isinstance(sections, list) and sections:
+        first = sections[0]
+        if isinstance(first, dict):
+            candidates.extend([
+                first.get("titleKo"),
+                first.get("summaryKo"),
+                first.get("summary"),
+            ])
+
+    normalized = [_trim_description(candidate) for candidate in candidates]
+
+    for text in normalized:
+        if len(text) >= 6 and _contains_hangul(text):
+            return text
+    for text in normalized:
+        if len(text) >= 6:
+            return text
+    return ""
+
+
 # --- Intermediate state management ---
 
 
@@ -224,6 +281,10 @@ def step_generate_json(
 
     today = datetime.now().strftime("%Y-%m-%d")
 
+    # structure.json - SpeechStructure object
+    structure_data = {"sections": structure} if isinstance(structure, list) else structure
+    description_ko = _extract_description_ko_from_structure(structure_data)
+
     # meta.json - matches frontend VideoMeta type
     meta = {
         "videoId": video_id,
@@ -240,6 +301,8 @@ def step_generate_json(
         "vocabularyCount": len(vocabulary),
         "grammarPatternCount": len(grammar),
     }
+    if description_ko:
+        meta["descriptionKo"] = description_ko
     save_json(video_dir / "meta.json", meta)
 
     # segments.json - matches frontend SegmentsData type
@@ -258,8 +321,6 @@ def step_generate_json(
     # connected_speech.json - array of ConnectedSpeech
     save_json(video_dir / "connected_speech.json", connected_speech)
 
-    # structure.json - SpeechStructure object
-    structure_data = {"sections": structure} if isinstance(structure, list) else structure
     save_json(video_dir / "structure.json", structure_data)
 
     logger.info("Generated JSON files in %s", video_dir)
@@ -425,6 +486,8 @@ def _run_finalize(
     # Load analysis files (written by Claude Code)
     vocabulary = load_json(video_dir / "vocabulary.json") or []
     grammar = load_json(video_dir / "grammar.json") or []
+    structure_data = load_json(video_dir / "structure.json") or {}
+    existing_meta = load_json(video_dir / "meta.json") or {}
 
     # Determine difficulty
     difficulty = difficulty_override or "intermediate"
@@ -435,7 +498,11 @@ def _run_finalize(
     # Calculate stats based on language
     duration = raw_meta.get("duration", 0)
     today = datetime.now().strftime("%Y-%m-%d")
-    description_ko = segments_data.get("descriptionKo", "")
+    description_ko = _trim_description(segments_data.get("descriptionKo", ""))
+    if not description_ko:
+        description_ko = _trim_description(existing_meta.get("descriptionKo", ""))
+    if not description_ko:
+        description_ko = _extract_description_ko_from_structure(structure_data)
 
     # Language-specific speed metric
     lang = DATA_DIR.parent.parent.name  # infer from path: apps/{lang}/public/data

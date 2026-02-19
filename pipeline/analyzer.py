@@ -617,8 +617,8 @@ def analyze_speech_structure(
         model: Ollama model identifier.
 
     Returns:
-        Dict with "sections" (list of section objects) and
-        "signalExpressions" (list of signal expression objects).
+        Dict with "descriptionKo", "sections" (list of section objects),
+        and "signalExpressions" (list of signal expression objects).
     """
     logger.info("Analyzing speech structure")
 
@@ -631,7 +631,10 @@ The transcript has {total_segments} segments (indexed 0 to {total_segments - 1})
 Transcript:
 {transcript_text}
 
-Return a JSON object with TWO keys: "sections" and "signalExpressions".
+Return a JSON object with THREE keys: "descriptionKo", "sections", and "signalExpressions".
+
+0. "descriptionKo": one concise Korean subtitle (max 60 chars) that explains what this video is about.
+   - This is used on video cards as the short content summary.
 
 1. "sections": Divide the speech into logical sections:
    - Introduction (opening, topic introduction)
@@ -668,7 +671,7 @@ These are phrases speakers use to guide the audience through their speech.
    - summary: summarizing a point
    - conclusion: wrapping up
 
-Return ONLY a JSON object with "sections" and "signalExpressions" keys."""
+Return ONLY a JSON object with "descriptionKo", "sections", and "signalExpressions" keys."""
 
     fallback_sections = [
         SpeechStructureSection(
@@ -687,22 +690,32 @@ Return ONLY a JSON object with "sections" and "signalExpressions" keys."""
         result = _call_ollama_json(prompt, model=model, retries=3)
     except (ValueError, json.JSONDecodeError) as e:
         logger.error("Structure analysis failed: %s", e)
-        return {"sections": fallback_sections, "signalExpressions": []}
+        return {
+            "descriptionKo": "핵심 내용 요약",
+            "sections": fallback_sections,
+            "signalExpressions": [],
+        }
 
-    # Handle both formats: array (legacy) or object with sections/signalExpressions
+    # Handle both formats: array (legacy) or object with descriptionKo/sections/signalExpressions
     if isinstance(result, list):
         raw_sections = result
         raw_signals: list[Any] = []
+        raw_description_ko = ""
     elif isinstance(result, dict):
         raw_sections = result.get("sections", [])
         raw_signals = result.get("signalExpressions", [])
+        raw_description_ko = str(result.get("descriptionKo", "")).strip()
         if not isinstance(raw_sections, list):
             raw_sections = []
         if not isinstance(raw_signals, list):
             raw_signals = []
     else:
         logger.error("Structure response is neither list nor dict")
-        return {"sections": fallback_sections, "signalExpressions": []}
+        return {
+            "descriptionKo": "핵심 내용 요약",
+            "sections": fallback_sections,
+            "signalExpressions": [],
+        }
 
     # Clean sections
     cleaned_sections: list[SpeechStructureSection] = []
@@ -757,8 +770,39 @@ Return ONLY a JSON object with "sections" and "signalExpressions" keys."""
             )
         )
 
-    logger.info("Identified %d structural sections, %d signal expressions", len(cleaned_sections), len(cleaned_signals))
-    return {"sections": cleaned_sections, "signalExpressions": cleaned_signals}
+    description_candidates = [raw_description_ko]
+    if cleaned_sections:
+        first = cleaned_sections[0]
+        description_candidates.extend([
+            str(first.get("titleKo", "")),
+            str(first.get("summaryKo", "")),
+            str(first.get("summary", "")),
+        ])
+
+    description_ko = ""
+    for candidate in description_candidates:
+        text = re.sub(r"\s+", " ", candidate).strip()
+        if not text:
+            continue
+        if len(text) > 60:
+            text = text[:60].rstrip() + "…"
+        if len(text) >= 6:
+            description_ko = text
+            break
+
+    if not description_ko:
+        description_ko = "핵심 내용 요약"
+
+    logger.info(
+        "Identified %d structural sections, %d signal expressions",
+        len(cleaned_sections),
+        len(cleaned_signals),
+    )
+    return {
+        "descriptionKo": description_ko,
+        "sections": cleaned_sections,
+        "signalExpressions": cleaned_signals,
+    }
 
 
 if __name__ == "__main__":

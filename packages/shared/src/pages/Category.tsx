@@ -55,7 +55,7 @@ export default function Category() {
               <img src={v.thumbnail} alt={v.title} className="w-full aspect-video object-cover" />
               <div className="p-4 space-y-2">
                 <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">{v.title}</h3>
-                {lang === 'en' && v.descriptionKo && (
+                {v.descriptionKo && (
                   <p className="text-xs text-gray-500 line-clamp-1">{v.descriptionKo}</p>
                 )}
                 <p className="text-xs text-gray-400">{v.channel}</p>
