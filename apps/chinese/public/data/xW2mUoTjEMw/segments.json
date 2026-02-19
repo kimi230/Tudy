@@ -212,9 +212,9 @@
       "index": 23,
       "start": 79.4,
       "end": 84.36,
-      "textZh": "但GDP却是北京的将近5倍",
-      "pinyin": "dàn GDP què shì Běijīng de jiāngjìn wǔ bèi",
-      "textKo": "하지만 GDP는 베이징의 거의 5배에 달합니다",
+      "textZh": "但国内生产总值却是北京的将近5倍",
+      "pinyin": "dàn guónèi shēngchǎn zǒngzhí què shì Běijīng de jiāngjìn wǔ bèi",
+      "textKo": "하지만 국내총생산은 베이징의 거의 5배에 달합니다",
       "words": []
     },
     {
@@ -770,27 +770,27 @@
       "index": 85,
       "start": 319.12,
       "end": 324.32,
-      "textZh": "也是GDP总量排名世界第一的都会区",
-      "pinyin": "yě shì GDP zǒngliàng páimíng shìjiè dìyī de dūhuìqū",
-      "textKo": "GDP 총량도 세계 1위인 도시권입니다",
+      "textZh": "也是国内生产总值总量排名世界第一的都会区",
+      "pinyin": "yě shì guónèi shēngchǎn zǒngzhí zǒngliàng páimíng shìjiè dìyī de dūhuìqū",
+      "textKo": "국내총생산 총량도 세계 1위인 도시권입니다",
       "words": []
     },
     {
       "index": 86,
       "start": 324.32,
       "end": 327.9,
-      "textZh": "东京的GDP约为1.07万亿美元",
-      "pinyin": "Dōngjīng de GDP yuē wéi yī diǎn líng qī wànyì měiyuán",
-      "textKo": "도쿄의 GDP는 약 1조 700억 달러입니다",
+      "textZh": "东京的国内生产总值约为1.07万亿美元",
+      "pinyin": "Dōngjīng de guónèi shēngchǎn zǒngzhí yuē wéi yī diǎn líng qī wànyì měiyuán",
+      "textKo": "도쿄의 국내총생산은 약 1조 700억 달러입니다",
       "words": []
     },
     {
       "index": 87,
       "start": 327.9,
       "end": 329.92,
-      "textZh": "相当于韩国全国GDP总和",
-      "pinyin": "xiāngdāng yú Hánguó quánguó GDP zǒnghé",
-      "textKo": "이는 한국 전체 GDP 합계에 맞먹는 수치입니다",
+      "textZh": "相当于韩国全国国内生产总值总和",
+      "pinyin": "xiāngdāng yú Hánguó quánguó guónèi shēngchǎn zǒngzhí zǒnghé",
+      "textKo": "이는 한국 전체 국내총생산 합계에 맞먹는 수치입니다",
       "words": []
     },
     {

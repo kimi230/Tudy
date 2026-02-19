@@ -18,14 +18,14 @@
       "section": "지리와 행정 구조",
       "startSegment": 16,
       "endSegment": 25,
-      "summary": "Tokyo's official name is Tokyo Metropolis (東京都), located in central Honshu on the Kanto Plain, covering 2,194 sq km. It administers three levels: special wards, cities, and towns/villages. The 23 Special Wards contain the urban core with 9 million residents. Tokyo's area is 1/8 of Beijing's but its GDP is nearly 5 times larger, making it the world's most efficient urban economy.",
-      "summaryKo": "도쿄도(東京都)는 혼슈 간토 평야에 위치하며 면적 2194㎢입니다. 구·시·정·촌 3단계 행정 구역을 관할하며 23개 특별구가 핵심 도시 지역(인구 900만 명)을 이룹니다. 면적은 베이징의 1/8이지만 GDP는 약 5배로 세계 최고 효율의 도시 경제입니다.",
+      "summary": "Tokyo's official name is Tokyo Metropolis (東京都), located in central Honshu on the Kanto Plain, covering 2,194 sq km. It administers three levels: special wards, cities, and towns/villages. The 23 Special Wards contain the urban core with 9 million residents. Tokyo's area is 1/8 of Beijing's but its domestic product (国内生产总值) is nearly 5 times larger, making it the world's most efficient urban economy.",
+      "summaryKo": "도쿄도(東京都)는 혼슈 간토 평야에 위치하며 면적 2194㎢입니다. 구·시·정·촌 3단계 행정 구역을 관할하며 23개 특별구가 핵심 도시 지역(인구 900만 명)을 이룹니다. 면적은 베이징의 1/8이지만 국내총생산은 약 5배로 세계 최고 효율의 도시 경제입니다.",
       "keyPoints": [
         "공식 명칭: 도쿄도(東京都)",
         "위치: 혼슈 간토 평야, 면적 2194㎢",
         "행정 구역: 구·시·정·촌 3단계, 23개 특별구(도심)",
         "23개 특별구 인구: 약 900만 명",
-        "면적 대비 GDP: 베이징 면적의 1/8이지만 GDP는 약 5배"
+        "면적 대비 국내총생산: 베이징 면적의 1/8이지만 국내총생산은 약 5배"
       ]
     },
     {
@@ -97,10 +97,10 @@
       "section": "경제와 상업 지구 (긴자·신주쿠·시부야·이케부쿠로·아키하바라)",
       "startSegment": 84,
       "endSegment": 118,
-      "summary": "Tokyo's metropolitan area has the world's largest GDP (~1.07 trillion USD, comparable to all of South Korea). Ginza is one of the world's three luxury shopping districts (alongside Paris's Champs-Élysées and NYC's Fifth Avenue). Shinjuku is Tokyo's most vibrant district with department stores, entertainment, and Kabukicho nightlife. Shibuya (with Harajuku) leads youth fashion and music trends. Ikebukuro is known as Tokyo's second Chinatown, featuring Seibu and Tobu department stores. Akihabara is the global mecca for otaku culture, electronics, manga, anime merchandise, and maid cafes.",
-      "summaryKo": "도쿄 광역권은 세계 최대 GDP(약 1조 700억 달러, 한국 전체 GDP에 맞먹음)를 자랑합니다. 긴자는 파리 샹젤리제·뉴욕 5번가와 함께 세계 3대 명품 쇼핑가입니다. 신주쿠는 백화점·유흥·가부키초 야간 문화의 중심입니다. 시부야(하라주쿠 포함)는 도쿄 젊은이 패션·음악의 선두입니다. 이케부쿠로는 도쿄 제2 차이나타운으로 세이부·도부 백화점이 유명합니다. 아키하바라는 전 세계 오타쿠 문화의 성지로 전자 제품·만화·애니·메이드 카페가 집결합니다.",
+      "summary": "Tokyo's metropolitan area has the world's largest domestic product (国内生产总值, ~1.07 trillion USD, comparable to all of South Korea). Ginza is one of the world's three luxury shopping districts (alongside Paris's Champs-Élysées and NYC's Fifth Avenue). Shinjuku is Tokyo's most vibrant district with department stores, entertainment, and Kabukicho nightlife. Shibuya (with Harajuku) leads youth fashion and music trends. Ikebukuro is known as Tokyo's second Chinatown, featuring Seibu and Tobu department stores. Akihabara is the global mecca for otaku culture, electronics, manga, anime merchandise, and maid cafes.",
+      "summaryKo": "도쿄 광역권은 세계 최대 국내총생산(약 1조 700억 달러, 한국 전체 국내총생산에 맞먹음)을 자랑합니다. 긴자는 파리 샹젤리제·뉴욕 5번가와 함께 세계 3대 명품 쇼핑가입니다. 신주쿠는 백화점·유흥·가부키초 야간 문화의 중심입니다. 시부야(하라주쿠 포함)는 도쿄 젊은이 패션·음악의 선두입니다. 이케부쿠로는 도쿄 제2 차이나타운으로 세이부·도부 백화점이 유명합니다. 아키하바라는 전 세계 오타쿠 문화의 성지로 전자 제품·만화·애니·메이드 카페가 집결합니다.",
       "keyPoints": [
-        "도쿄 광역권 GDP: 약 1.07조 달러 (한국 전체 GDP 수준)",
+        "도쿄 광역권 국내총생산: 약 1.07조 달러 (한국 전체 국내총생산 수준)",
         "긴자: 세계 3대 명품 쇼핑가 (샹젤리제·5번가와 나란히)",
         "신주쿠: 최대 번화가, 가부키초 야간 유흥",
         "시부야·하라주쿠: 도쿄 젊은이 패션·음악 트렌드 선두",
