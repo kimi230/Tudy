@@ -6,7 +6,10 @@
       "endSegment": 1,
       "summary": "Li Ming and Wang Yu greet each other; Wang Yu notices Li Ming looks tired",
       "summaryKo": "리밍과 왕위가 인사를 나누고, 왕위가 리밍의 피곤한 모습을 발견함",
-      "keyPoints": ["아침 인사 표현: 早上好", "상태를 묻는 표현: 你怎么了"]
+      "keyPoints": [
+        "아침 인사 표현: 早上好",
+        "상태를 묻는 표현: 你怎么了"
+      ]
     },
     {
       "section": "Wang Yu's Failed Weekend",
@@ -189,5 +192,6 @@
       "segmentIndex": 236,
       "role": "다음 만남에 대한 기대를 표현하는 마무리 인사"
     }
-  ]
+  ],
+  "descriptionKo": "HSK 초급 대화로 배우는 주말 활동·주간 일정·시간 표현"
 }
