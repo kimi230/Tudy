@@ -16,12 +16,9 @@ export interface QuizResult {
 
 /** Extract Korean meaning from a vocabulary item (handles field name variations) */
 function getKoreanMeaning(item: VocabularyItem): string {
-  return (
-    (item as Record<string, unknown>).koreanMeaning as string ??
-    (item as Record<string, unknown>).meaningKo as string ??
-    item.definition ??
-    ''
-  );
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const raw = item as any;
+  return raw.koreanMeaning ?? raw.meaningKo ?? item.definition ?? '';
 }
 
 /** Fisher-Yates shuffle (in-place) */

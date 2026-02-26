@@ -25,11 +25,9 @@ export default function VocabQuizQuestion({
   const answered = selectedIndex !== null;
   const isCorrect = answered && question.options[selectedIndex].isCorrect;
   const phonetic = getVocabPhonetic(question.targetItem);
-  const koreanMeaning =
-    (question.targetItem as Record<string, unknown>).koreanMeaning as string ??
-    (question.targetItem as Record<string, unknown>).meaningKo as string ??
-    question.targetItem.definition ??
-    '';
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const raw = question.targetItem as any;
+  const koreanMeaning: string = raw.koreanMeaning ?? raw.meaningKo ?? question.targetItem.definition ?? '';
 
   // Keyboard support
   useEffect(() => {
