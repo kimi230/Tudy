@@ -33,7 +33,14 @@ export const XP_RULES = {
   daily_streak: 10,
   daily_session_base: 10,
   daily_session_bonus_max: 40,
+  vocab_quiz_base: 5,
+  vocab_quiz_perfect: 15,
 } as const;
+
+export function calcVocabQuizXP(score: number): number {
+  if (score >= 100) return XP_RULES.vocab_quiz_perfect;
+  return XP_RULES.vocab_quiz_base + Math.round((score / 100) * (XP_RULES.vocab_quiz_perfect - XP_RULES.vocab_quiz_base));
+}
 
 export function calcDailySessionXP(avgScore: number): number {
   const bonus = Math.round((avgScore / 100) * XP_RULES.daily_session_bonus_max);

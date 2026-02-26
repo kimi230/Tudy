@@ -38,7 +38,7 @@ export { useDictation } from './hooks/useDictation.ts';
 export type { SegmentStat } from './hooks/useDictation.ts';
 export { useErrorNotes } from './hooks/useErrorNotes.ts';
 export { useRecording } from './hooks/useRecording.ts';
-export { useRewards, XP_RULES, calcDailySessionXP } from './hooks/useRewards.ts';
+export { useRewards, XP_RULES, calcDailySessionXP, calcVocabQuizXP } from './hooks/useRewards.ts';
 export { useYouTubePlayer } from './hooks/useYouTubePlayer.ts';
 export { useDailyLearning } from './hooks/useDailyLearning.ts';
 
@@ -90,6 +90,11 @@ export type { DifficultyFilter } from './components/dictation/DifficultySelector
 // Daily components
 export { default as DailyWorkflow } from './components/daily/DailyWorkflow.tsx';
 export { default as DailyVideoSelector } from './components/daily/DailyVideoSelector.tsx';
+export { default as VocabQuiz } from './components/daily/VocabQuiz.tsx';
+
+// Vocab quiz engine
+export { generateQuiz, calcQuizResult } from './lib/vocabQuizEngine.ts';
+export type { QuizQuestion, QuizResult } from './lib/vocabQuizEngine.ts';
 
 // Vocabulary components
 export { default as VocabCard } from './components/vocabulary/VocabCard.tsx';

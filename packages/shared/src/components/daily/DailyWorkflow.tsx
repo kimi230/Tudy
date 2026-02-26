@@ -1,14 +1,16 @@
 import { useEffect, useRef, useCallback, useContext, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { loadSegments, loadVideoMeta } from '../../lib/dataLoader';
+import { loadSegments, loadVideoMeta, loadVocabulary } from '../../lib/dataLoader';
 import { useDictation } from '../../hooks/useDictation';
 import { useAuth } from '../../hooks/useAuth';
-import { calcDailySessionXP } from '../../hooks/useRewards';
+import { calcDailySessionXP, calcVocabQuizXP } from '../../hooks/useRewards';
 import { awardXP } from '../../lib/xpService';
 import { XPToastContext } from '../../contexts/XPToastContext';
 import YouTubePlayer from '../common/YouTubePlayer';
 import DifficultyBadge from '../common/DifficultyBadge';
-import type { Segment, VideoMeta } from '../../types';
+import VocabQuiz from './VocabQuiz';
+import type { QuizResult } from '../../lib/vocabQuizEngine';
+import type { Segment, VideoMeta, VocabularyItem } from '../../types';
 import type { DailyLearningProgress } from '../../lib/dailyLearningSync';
 import type { YouTubePlayerHandle } from '../common/YouTubePlayer';
 import DictationPlayer from '../dictation/DictationPlayer';
@@ -25,8 +27,11 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   const navigate = useNavigate();
   const [meta, setMeta] = useState<VideoMeta | null>(null);
   const [allSegments, setAllSegments] = useState<Segment[]>([]);
+  const [vocabulary, setVocabulary] = useState<VocabularyItem[]>([]);
   const [dataLoading, setDataLoading] = useState(true);
   const [currentTime, setCurrentTime] = useState(0);
+  const [phase, setPhase] = useState<'dictation' | 'vocab_quiz' | 'completed'>('dictation');
+  const [quizResult, setQuizResult] = useState<QuizResult | null>(null);
   const playerRef = useRef<YouTubePlayerHandle>(null);
   const { loading: dictLoading, addAttempt, segmentStats } = useDictation(progress.videoId);
   const auth = useAuth();
@@ -34,15 +39,17 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   const userIdRef = useRef(auth.user?.id);
   userIdRef.current = auth.user?.id;
 
-  // Load segments and meta
+  // Load segments, meta, and vocabulary
   useEffect(() => {
     Promise.all([
       loadSegments(progress.videoId).then((d) => d.segments),
       loadVideoMeta(progress.videoId),
+      loadVocabulary(progress.videoId).catch(() => [] as VocabularyItem[]),
     ])
-      .then(([segs, m]) => {
+      .then(([segs, m, vocab]) => {
         setAllSegments(segs);
         setMeta(m);
+        setVocabulary(Array.isArray(vocab) ? vocab : []);
       })
       .finally(() => setDataLoading(false));
   }, [progress.videoId]);
@@ -87,13 +94,46 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   // Check if all segments in this session are done
   const allSessionDone = sessionAttemptedCount >= sessionSegments.length && sessionSegments.length > 0;
 
-  // Handle session completion
+  // Segment range for this session (used by vocab quiz)
+  const sessionSegmentRange = useMemo<[number, number]>(() => {
+    if (sessionSegments.length === 0) return [0, 0];
+    return [sessionSegments[0].index, sessionSegments[sessionSegments.length - 1].index + 1];
+  }, [sessionSegments]);
+
+  // When dictation is done, transition to vocab quiz (or skip if < 4 vocab items)
+  const handleDictationDone = useCallback(() => {
+    if (vocabulary.length >= 4) {
+      setPhase('vocab_quiz');
+    } else {
+      setPhase('completed');
+    }
+  }, [vocabulary.length]);
+
+  // Handle vocab quiz completion
+  const handleQuizComplete = useCallback((result: QuizResult) => {
+    setQuizResult(result);
+    setPhase('completed');
+
+    // Award quiz XP
+    const uid = userIdRef.current;
+    if (uid && result.totalQuestions > 0) {
+      const quizXP = calcVocabQuizXP(result.score);
+      awardXP(uid, 'vocab_quiz_complete', quizXP, {
+        videoId: progress.videoId, score: result.score, correct: result.correctCount, total: result.totalQuestions,
+      }).then(() => {
+        xpToast?.showXPToast(quizXP, `어휘 퀴즈 (${result.score}%)`);
+        auth.refreshProfile();
+      }).catch(() => { /* offline */ });
+    }
+  }, [progress.videoId, xpToast, auth]);
+
+  // Handle final session completion
   const handleSessionComplete = useCallback(async () => {
     const uid = userIdRef.current;
     const totalSegs = allSegments.length;
     const nextIdx = Math.min(progress.nextSegmentIndex + sessionSegments.length, totalSegs);
 
-    // Calculate score-based XP
+    // Calculate score-based XP for dictation
     const xp = calcDailySessionXP(sessionAvgScore);
 
     // Award daily session complete XP
@@ -162,39 +202,68 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
       </div>
 
       {/* Main layout */}
-      <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
-        <YouTubePlayer
-          ref={playerRef}
-          youtubeId={meta.youtubeId}
-          onTimeUpdate={setCurrentTime}
-          className="lg:col-span-2"
-        />
-        <div>
-          {allSessionDone ? (
-            <div className="space-y-4 text-center py-8">
-              <p className="text-lg font-semibold text-green-600">
-                {sessionSegments.length}문장 모두 완료!
-              </p>
-              <button
-                onClick={handleSessionComplete}
-                className="w-full py-3 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
-              >
-                학습 완료하기
-              </button>
-            </div>
-          ) : (
-            <DictationPlayer
-              segments={sessionSegments}
-              currentTime={currentTime}
-              player={playerRef.current}
-              segmentStats={segmentStats}
-              onAttempt={addAttempt}
-              initialIndex={initialIndexRef.current ?? 0}
-              hideProgress
-            />
-          )}
+      {phase === 'dictation' && (
+        <div className="lg:grid lg:grid-cols-3 lg:gap-6 space-y-4 lg:space-y-0">
+          <YouTubePlayer
+            ref={playerRef}
+            youtubeId={meta.youtubeId}
+            onTimeUpdate={setCurrentTime}
+            className="lg:col-span-2"
+          />
+          <div>
+            {allSessionDone ? (
+              <div className="space-y-4 text-center py-8">
+                <p className="text-lg font-semibold text-green-600">
+                  {sessionSegments.length}문장 모두 완료!
+                </p>
+                <button
+                  onClick={handleDictationDone}
+                  className="w-full py-3 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
+                >
+                  {vocabulary.length >= 4 ? '어휘 퀴즈 시작' : '학습 완료하기'}
+                </button>
+              </div>
+            ) : (
+              <DictationPlayer
+                segments={sessionSegments}
+                currentTime={currentTime}
+                player={playerRef.current}
+                segmentStats={segmentStats}
+                onAttempt={addAttempt}
+                initialIndex={initialIndexRef.current ?? 0}
+                hideProgress
+              />
+            )}
+          </div>
         </div>
-      </div>
+      )}
+
+      {phase === 'vocab_quiz' && (
+        <VocabQuiz
+          vocabulary={vocabulary}
+          sessionSegmentRange={sessionSegmentRange}
+          onComplete={handleQuizComplete}
+        />
+      )}
+
+      {phase === 'completed' && (
+        <div className="text-center space-y-4 py-8">
+          <p className="text-lg font-semibold text-green-600">
+            {sessionSegments.length}문장 받아쓰기 완료!
+          </p>
+          {quizResult && quizResult.totalQuestions > 0 && (
+            <p className="text-sm text-gray-500">
+              어휘 퀴즈: {quizResult.correctCount}/{quizResult.totalQuestions} ({quizResult.score}%)
+            </p>
+          )}
+          <button
+            onClick={handleSessionComplete}
+            className="px-8 py-3 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
+          >
+            학습 완료하기
+          </button>
+        </div>
+      )}
     </div>
   );
 }
