@@ -79,6 +79,12 @@ export default function Home() {
           >
             오늘의 학습 시작하기
           </Link>
+          <Link
+            to="/vocabulary"
+            className={`px-5 py-3.5 bg-white text-gray-600 border border-gray-200 rounded-full text-sm font-medium ${t.hoverBorder300} ${t.hoverText600} active:scale-95 transition-all`}
+          >
+            단어 연습
+          </Link>
           <button
             onClick={() => setShowGuide(true)}
             className={`px-5 py-3.5 bg-white text-gray-600 border border-gray-200 rounded-full text-sm font-medium ${t.hoverBorder300} ${t.hoverText600} active:scale-95 transition-all`}
