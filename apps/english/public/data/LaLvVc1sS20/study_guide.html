@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>The history of tea - Shunan Teng</h1>
+    <div class="subtitle">TED-Ed</div>
+    <div class="desc-ko">중국 황제부터 전 세계로, 차(茶)의 흥미로운 역사</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">4:58</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">155</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">62</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/LaLvVc1sS20/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/LaLvVc1sS20">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (11 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 4-minute video by TED-Ed is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">intro</span>
+        <span class="sec-time">0:06 ~ 0:28</span>
+    </div>
+    <div class="sec-summary">신농씨의 신화를 통해 차의 전설적인 기원을 소개해요. 독에 중독된 후 우연히 차를 발견한 이야기로 청중의 흥미를 끌어요.</div>
+    <div class="key-points"><span class="key-point">Shen Nong, the divine farmer, was poisoned 72 times</span><span class="key-point">A tea leaf accidentally revived him</span><span class="key-point">This is an ancient legend, not historical fact</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">0:28 ~ 0:58</span>
+    </div>
+    <div class="sec-summary">전설에서 고고학적 증거로 전환하며, 차가 6,000년 전 중국에서 재배되었고 원래는 음료가 아닌 음식으로 소비되었다고 설명해요.</div>
+    <div class="key-points"><span class="key-point">Tea cultivation dates back 6,000 years in China</span><span class="key-point">This predates the Great Pyramids by 1,500 years</span><span class="key-point">Tea was originally eaten as a vegetable or with porridge</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">0:58 ~ 1:41</span>
+    </div>
+    <div class="sec-summary">1,500년 전에 차가 음식에서 음료로 바뀌었어요. 준비 방법이 말차로 발전했고, 차가 예술과 시, 황제의 총애의 대상이 되면서 풍부한 중국 차 문화가 형성되었어요.</div>
+    <div class="key-points"><span class="key-point">Heat and moisture unlocked complex flavors from tea leaves</span><span class="key-point">Matcha became the standard preparation method</span><span class="key-point">Tea culture included art, poetry, and foam art similar to modern latte art</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">1:42 ~ 2:26</span>
+    </div>
+    <div class="sec-summary">9세기에 차가 일본에 전해져 다도가 탄생했어요. 명나라 때 잎차가 떡차를 대체했고, 중국은 차 독점권을 유지했으며, 1600년대에 네덜란드 상인들이 차를 유럽에 가져왔어요.</div>
+    <div class="key-points"><span class="key-point">A Japanese monk brought tea to Japan during the Tang Dynasty</span><span class="key-point">The Ming Dynasty shifted from cake tea to loose leaf tea</span><span class="key-point">China held a monopoly on tea alongside porcelain and silk</span><span class="key-point">Dutch traders brought tea to Europe in large quantities</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">2:26 ~ 3:08</span>
+    </div>
+    <div class="sec-summary">차가 유럽, 특히 영국에서 엄청난 인기를 끌었어요. 높은 가격과 중국의 독점이 치열한 경쟁을 부추겨 클리퍼선이 탄생하고 거대한 글로벌 무역이 형성되었어요.</div>
+    <div class="key-points"><span class="key-point">Queen Catherine of Braganza popularized tea in English aristocracy</span><span class="key-point">Britain&#x27;s colonial expansion spread tea culture globally</span><span class="key-point">Tea sold for 10 times the price of coffee in 1700</span><span class="key-point">Clipper Ships were built to race tea to Europe</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">3:08 ~ 3:50</span>
+    </div>
+    <div class="sec-summary">영국의 차 무역은 중국과의 파괴적인 아편 전쟁으로 이어졌어요. 영국이 차 대신 아편을 교역하면서 중독과 분쟁이 발생했고, 패배한 청나라는 홍콩을 할양하며 1세기 이상 약화되었어요.</div>
+    <div class="key-points"><span class="key-point">Britain traded opium for Chinese tea when silver became too expensive</span><span class="key-point">Opium caused a public health crisis in China</span><span class="key-point">The first Opium War (1839-1842) resulted in China ceding Hong Kong</span><span class="key-point">The war weakened China&#x27;s global standing for over a century</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">3:51 ~ 4:20</span>
+    </div>
+    <div class="sec-summary">영국 동인도 회사가 로버트 포춘을 비밀 작전에 보내 중국에서 차나무와 기술을 훔쳐왔어요. 인도 다르질링으로 밀반출하며 중국의 독점을 깨고 차의 세계적 확산을 이끌었어요.</div>
+    <div class="key-points"><span class="key-point">Robert Fortune disguised himself and infiltrated China&#x27;s tea regions</span><span class="key-point">He smuggled tea plants and workers to Darjeeling, India</span><span class="key-point">This broke China&#x27;s monopoly and made tea an everyday commodity worldwide</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">conclusion</span>
+        <span class="sec-time">4:20 ~ 4:57</span>
+    </div>
+    <div class="sec-summary">오늘날 차는 물 다음으로 세계에서 두 번째로 많이 소비되는 음료이며, 전 세계 문화마다 놀라울 정도로 다양한 준비 방법이 있어요.</div>
+    <div class="key-points"><span class="key-point">Tea is the second most consumed beverage in the world</span><span class="key-point">Preparation styles range from sugary Turkish tea to salty Tibetan butter tea</span><span class="key-point">There are nearly as many tea traditions as there are cultures</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">edible</span>
+        <span class="phonetic">/ˈɛdɪbl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">safe or suitable to be eaten</div>
+    <div class="meaning-ko">먹을 수 있는, 식용의</div>
+    <div class="etymology">Latin &#x27;edibilis&#x27; from &#x27;edere&#x27; meaning &#x27;to eat&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">ed (eat)</span><span class="root-part suffix">-ible</span></div>
+    <div class="context">"During a long day spent roaming the forest in search of edible grains and herbs."</div>
+    <div class='related'>Related: eat, inedible, edibility</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">weary</span>
+        <span class="phonetic">/ˈwɪəri/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">feeling or showing extreme tiredness, especially from excessive effort</div>
+    <div class="meaning-ko">지친, 피곤한, 싫증 난</div>
+    <div class="etymology">Old English &#x27;wērig&#x27; meaning &#x27;tired, exhausted&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">wear (tire)</span><span class="root-part suffix">-y</span></div>
+    <div class="context">"The weary divine farmer Shen Nong accidentally poisoned himself 72 times."</div>
+    <div class='related'>Related: weariness, wearisome, tired</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mythical</span>
+        <span class="phonetic">/ˈmɪθɪkəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">occurring in or characteristic of myths or folk tales; imaginary or fictitious</div>
+    <div class="meaning-ko">신화의, 신화적인, 상상 속의</div>
+    <div class="etymology">Greek &#x27;mythos&#x27; meaning &#x27;story, tale&#x27; + &#x27;-ical&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">myth (story)</span><span class="root-part suffix">-ical</span></div>
+    <div class="context">"The mythical Chinese inventor of agriculture, highlights tea&#x27;s importance to ancient China."</div>
+    <div class='related'>Related: myth, mythology, mythological</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">archaeological</span>
+        <span class="phonetic">/ˌɑːrkiəˈlɒdʒɪkəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to the study of human history through excavation of sites and analysis of artifacts</div>
+    <div class="meaning-ko">고고학의, 고고학적인</div>
+    <div class="etymology">Greek &#x27;arkhaios&#x27; (ancient) + &#x27;logos&#x27; (study)</div>
+    <div class="root-breakdown"><span class="root-part prefix">archaeo-</span><span class="root-part">log (study)</span><span class="root-part suffix">-ical</span></div>
+    <div class="context">"Archaeological evidence suggests tea was first cultivated there as early as 6,000 years ago."</div>
+    <div class='related'>Related: archaeology, archaeologist, archaic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">cultivated</span>
+        <span class="phonetic">/ˈkʌltɪveɪtɪd/</span>
+        <span class="pos">verb (past participle)</span>
+    </div>
+    <div class="definition">prepared and used land for growing crops; developed or improved through care</div>
+    <div class="meaning-ko">재배된, 경작된, 교양 있는</div>
+    <div class="etymology">Latin &#x27;cultivare&#x27; meaning &#x27;to till, tend&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">cultiv (till, grow)</span><span class="root-part suffix">-ated</span></div>
+    <div class="context">"Tea was first cultivated there as early as 6,000 years ago."</div>
+    <div class='related'>Related: cultivate, cultivation, culture</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">moisture</span>
+        <span class="phonetic">/ˈmɔɪstʃər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">water or other liquid diffused in a small quantity; dampness</div>
+    <div class="meaning-ko">수분, 습기</div>
+    <div class="etymology">Old French &#x27;moistour&#x27; from &#x27;moiste&#x27; meaning &#x27;damp&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">moist (damp)</span><span class="root-part suffix">-ure</span></div>
+    <div class="context">"When people realized that a combination of heat and moisture could create a complex and varied taste."</div>
+    <div class='related'>Related: moist, moisten, moisturize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">extravagant</span>
+        <span class="phonetic">/ɪkˈstrævəɡənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">exceeding what is reasonable or appropriate; elaborate and impressive</div>
+    <div class="meaning-ko">사치스러운, 화려한, 과도한</div>
+    <div class="etymology">Latin &#x27;extra-&#x27; (outside) + &#x27;vagari&#x27; (to wander)</div>
+    <div class="root-breakdown"><span class="root-part prefix">extra-</span><span class="root-part">vag (wander)</span><span class="root-part suffix">-ant</span></div>
+    <div class="context">"They would draw extravagant pictures in the foam of the tea."</div>
+    <div class='related'>Related: extravagance, vagrant, vagabond</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ritual</span>
+        <span class="phonetic">/ˈrɪtʃuəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a ceremony or series of acts regularly repeated in a set manner</div>
+    <div class="meaning-ko">의식, 의례, 관례</div>
+    <div class="etymology">Latin &#x27;ritualis&#x27; from &#x27;ritus&#x27; meaning &#x27;religious ceremony&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">rit (ceremony)</span><span class="root-part suffix">-ual</span></div>
+    <div class="context">"The Japanese eventually developed their own unique rituals around tea."</div>
+    <div class='related'>Related: rite, ritualistic, ceremony</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">monopoly</span>
+        <span class="phonetic">/məˈnɒpəli/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the exclusive possession or control of the supply of a commodity or service</div>
+    <div class="meaning-ko">독점, 독점권, 전매</div>
+    <div class="etymology">Greek &#x27;monos&#x27; (single) + &#x27;polein&#x27; (to sell)</div>
+    <div class="root-breakdown"><span class="root-part prefix">mono-</span><span class="root-part">poly (sell)</span></div>
+    <div class="context">"China still held a virtual monopoly on the world&#x27;s tea trees."</div>
+    <div class='related'>Related: monopolize, monopolistic, oligopoly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">aristocracy</span>
+        <span class="phonetic">/ˌærɪˈstɒkrəsi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the highest class in certain societies, typically comprising people of noble birth</div>
+    <div class="meaning-ko">귀족, 귀족 계급, 상류층</div>
+    <div class="etymology">Greek &#x27;aristokratia&#x27; from &#x27;aristos&#x27; (best) + &#x27;kratos&#x27; (power, rule)</div>
+    <div class="root-breakdown"><span class="root-part">aristo (best) + crat (rule)</span><span class="root-part suffix">-y</span></div>
+    <div class="context">"For making tea popular with the English aristocracy when she married King Charles II in 1661."</div>
+    <div class='related'>Related: aristocrat, aristocratic, democratic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">colonial</span>
+        <span class="phonetic">/kəˈloʊniəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to or characteristic of a colony or colonialism</div>
+    <div class="meaning-ko">식민지의, 식민지 시대의</div>
+    <div class="etymology">Latin &#x27;colonus&#x27; meaning &#x27;farmer, settler&#x27; from &#x27;colere&#x27; (to cultivate)</div>
+    <div class="root-breakdown"><span class="root-part">colon (settle, cultivate)</span><span class="root-part suffix">-ial</span></div>
+    <div class="context">"Great Britain was in the midst of expanding its colonial influence."</div>
+    <div class='related'>Related: colony, colonist, colonize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">lucrative</span>
+        <span class="phonetic">/ˈluːkrətɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">producing a great deal of profit; very profitable</div>
+    <div class="meaning-ko">수익성이 좋은, 돈벌이가 되는</div>
+    <div class="etymology">Latin &#x27;lucrativus&#x27; from &#x27;lucrari&#x27; meaning &#x27;to gain profit&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">lucr (profit, gain)</span><span class="root-part suffix">-ative</span></div>
+    <div class="context">"The tea trade was so lucrative that the world&#x27;s fastest sailboat, the Clipper Ship, was born."</div>
+    <div class='related'>Related: lucre, profitable, gainful</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">opium</span>
+        <span class="phonetic">/ˈoʊpiəm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a highly addictive narcotic drug obtained from the juice of the opium poppy</div>
+    <div class="meaning-ko">아편</div>
+    <div class="etymology">Greek &#x27;opion&#x27; meaning &#x27;poppy juice&#x27; from &#x27;opos&#x27; (vegetable juice)</div>
+    <div class="root-breakdown"><span class="root-part">opi (juice/poppy)</span><span class="root-part suffix">-um</span></div>
+    <div class="context">"They suggested trading tea for another substance, opium."</div>
+    <div class='related'>Related: opiate, opioid, narcotic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">addicted</span>
+        <span class="phonetic">/əˈdɪktɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">physically and mentally dependent on a particular substance or activity</div>
+    <div class="meaning-ko">중독된, 빠져 있는</div>
+    <div class="etymology">Latin &#x27;addictus&#x27; meaning &#x27;assigned, devoted&#x27; from &#x27;addicere&#x27; (to devote)</div>
+    <div class="root-breakdown"><span class="root-part prefix">ad-</span><span class="root-part">dict (say, assign)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"This triggered a public health problem within China, as people became addicted to the drug."</div>
+    <div class='related'>Related: addiction, addictive, addict</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ceded</span>
+        <span class="phonetic">/ˈsiːdɪd/</span>
+        <span class="pos">verb (past tense)</span>
+    </div>
+    <div class="definition">gave up power, territory, or rights, especially by treaty</div>
+    <div class="meaning-ko">할양한, 양도한</div>
+    <div class="etymology">Latin &#x27;cedere&#x27; meaning &#x27;to go, yield, give way&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">ced (go, yield)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"The defeated Qing Dynasty ceded the port of Hong Kong to the British."</div>
+    <div class='related'>Related: cede, concede, precede, secede</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">commissioned</span>
+        <span class="phonetic">/kəˈmɪʃənd/</span>
+        <span class="pos">verb (past tense)</span>
+    </div>
+    <div class="definition">ordered or authorized the production of something; gave an official task</div>
+    <div class="meaning-ko">위임한, 의뢰한, 임명한</div>
+    <div class="etymology">Latin &#x27;commissio&#x27; from &#x27;committere&#x27; meaning &#x27;to entrust&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">miss (send)</span><span class="root-part suffix">-ioned</span></div>
+    <div class="context">"They commissioned botanist Robert Fortune to steal tea from China in a covert operation."</div>
+    <div class='related'>Related: commission, missionary, mission</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">perilous</span>
+        <span class="phonetic">/ˈpɛrɪləs/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">full of danger or risk; hazardous</div>
+    <div class="meaning-ko">위험한, 위태로운</div>
+    <div class="etymology">Latin &#x27;periculosus&#x27; from &#x27;periculum&#x27; meaning &#x27;danger, risk&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">peril (danger)</span><span class="root-part suffix">-ous</span></div>
+    <div class="context">"He disguised himself and took a perilous journey through China&#x27;s mountainous tea regions."</div>
+    <div class='related'>Related: peril, imperil, hazardous</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">commodity</span>
+        <span class="phonetic">/kəˈmɒdɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a raw material or primary agricultural product that can be bought and sold</div>
+    <div class="meaning-ko">상품, 물자, 원자재</div>
+    <div class="etymology">Latin &#x27;commoditas&#x27; meaning &#x27;fitness, convenience&#x27; from &#x27;commodus&#x27; (convenient)</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">mod (measure, manner)</span><span class="root-part suffix">-ity</span></div>
+    <div class="context">"Helping drive tea&#x27;s rapid growth as an everyday commodity."</div>
+    <div class='related'>Related: commodities, accommodate, mode</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">porridge</span>
+        <span class="phonetic">/ˈpɒrɪdʒ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a soft food made by boiling grain or cereal in water or milk</div>
+    <div class="meaning-ko">죽, 포리지</div>
+    <div class="etymology">Middle English alteration of &#x27;pottage&#x27; meaning &#x27;soup, stew&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">porr (pot/cook)</span><span class="root-part suffix">-idge</span></div>
+    <div class="context">"It was eaten as a vegetable or cooked with grain porridge."</div>
+    <div class='related'>Related: pottage, oatmeal, gruel</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">porcelain</span>
+        <span class="phonetic">/ˈpɔːrsəlɪn/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a hard, white, translucent ceramic material used for making fine pottery</div>
+    <div class="meaning-ko">도자기, 자기</div>
+    <div class="etymology">Italian &#x27;porcellana&#x27; from &#x27;porcella&#x27; (cowrie shell), due to its resemblance</div>
+    <div class="root-breakdown"><span class="root-part">porcell (shell-like)</span><span class="root-part suffix">-ain</span></div>
+    <div class="context">"Making tea one of three essential Chinese export goods, along with porcelain and silk."</div>
+    <div class='related'>Related: ceramic, pottery, china</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Past participle phrase as modifier (spent + V-ing)</div>
+    <div class="explanation">A past participle phrase modifies a noun, adding descriptive information. &#x27;Spent roaming&#x27; describes how the day was occupied.</div>
+    <div class="explanation-ko">과거분사구가 명사를 수식하며 추가 정보를 제공해요. &#x27;spent roaming&#x27;은 하루를 어떻게 보냈는지 설명하는 구조로, &#x27;~하며 보낸&#x27;이라고 해석해요.</div>
+    <div class="example">During a long day spent roaming the forest in search of edible grains and herbs.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Before + subject + could + verb (temporal clause)</div>
+    <div class="explanation">Used to describe an action that almost happened but was prevented. It creates suspense by showing what nearly occurred before an interruption.</div>
+    <div class="explanation-ko">&#x27;before + 주어 + could + 동사&#x27;는 어떤 일이 일어나기 직전에 다른 일이 개입했음을 나타내요. &#x27;~하기 전에&#x27;라는 의미로 긴장감을 만들어요.</div>
+    <div class="example">But before the poisons could end his life, a leaf drifted into his mouth.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">As early as + time expression</div>
+    <div class="explanation">Used to emphasize that something happened surprisingly long ago. It highlights the ancient or early nature of an event.</div>
+    <div class="explanation-ko">&#x27;as early as + 시간 표현&#x27;은 어떤 일이 놀라울 정도로 오래전에 일어났음을 강조할 때 사용해요. &#x27;무려 ~이나 이른 시기에&#x27;라는 의미예요.</div>
+    <div class="example">Tea was first cultivated there as early as 6,000 years ago.</div><div class="example">Or 1,500 years before the pharaohs built the Great Pyramids of Giza.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Passive voice: was/were + past participle</div>
+    <div class="explanation">Used when the focus is on the action or result rather than the doer. Common in historical narratives and academic descriptions.</div>
+    <div class="explanation-ko">수동태(be동사 + 과거분사)는 행위자보다 행동이나 결과에 초점을 맞출 때 사용해요. 역사 서술과 학술적 설명에서 자주 쓰이며, &#x27;~되었다&#x27;로 해석해요.</div>
+    <div class="example">It was eaten as a vegetable or cooked with grain porridge.</div><div class="example">Tea was the subject of books and poetry.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Would + verb (past habitual / narrative future)</div>
+    <div class="explanation">Used in narratives to describe repeated actions in the past or to indicate future events from a past perspective.</div>
+    <div class="explanation-ko">&#x27;would + 동사원형&#x27;은 과거의 반복적 행동을 서술하거나, 과거 시점에서 미래를 이야기할 때 사용해요. &#x27;~하곤 했다&#x27; 또는 &#x27;~하게 될 것이었다&#x27;라는 의미예요.</div>
+    <div class="example">They would draw extravagant pictures in the foam of the tea.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Leading to + noun (result clause with present participle)</div>
+    <div class="explanation">A participial phrase that indicates a result or consequence of a previous action. It smoothly connects cause and effect.</div>
+    <div class="explanation-ko">&#x27;leading to + 명사&#x27;는 이전 행동의 결과나 귀결을 나타내는 분사구예요. 원인과 결과를 자연스럽게 연결하며, &#x27;~으로 이어졌다&#x27;라는 의미예요.</div>
+    <div class="example">Leading to the creation of the Japanese tea ceremony.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">So + adjective + that + clause (result clause)</div>
+    <div class="explanation">Used to express cause and effect: the degree of something is so great that it produces a specific result.</div>
+    <div class="explanation-ko">&#x27;so + 형용사/부사 + that + 절&#x27;은 정도가 너무 커서 특정 결과를 초래함을 표현해요. &#x27;너무 ~해서 …하다&#x27;라는 의미의 인과관계 구조예요.</div>
+    <div class="example">The tea trade was so lucrative that the world&#x27;s fastest sailboat, the Clipper Ship, was born.</div><div class="example">Matcha became so popular that a distinct Chinese tea culture emerged.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">When + clause (temporal transition in narrative)</div>
+    <div class="explanation">Used to indicate the specific time or condition under which an event occurred. It is a key structure for organizing chronological narratives.</div>
+    <div class="explanation-ko">&#x27;when + 절&#x27;은 특정 사건이 발생한 시점이나 조건을 나타내요. 시간 순서에 따른 서술을 정리하는 핵심 구조로, &#x27;~했을 때&#x27;라는 의미예요.</div>
+    <div class="example">When that proved too expensive, they suggested trading tea for another substance.</div><div class="example">When the defeated Qing Dynasty ceded the port of Hong Kong to the British.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present participle phrase as adverbial (helping drive...)</div>
+    <div class="explanation">A present participle phrase used to add information about how or why something happened, functioning as an adverbial modifier.</div>
+    <div class="explanation-ko">현재분사구가 부사적으로 쓰여 어떤 일이 어떻게 또는 왜 일어났는지 부가 설명을 해요. &#x27;~하면서, ~하여&#x27;라는 의미로 간결하게 정보를 덧붙여요.</div>
+    <div class="example">Helping drive tea&#x27;s rapid growth as an everyday commodity.</div><div class="example">Making tea one of three essential Chinese export goods.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">From A to B (range/contrast structure)</div>
+    <div class="explanation">Used to show the full range or variety of something by presenting two contrasting extremes. It emphasizes diversity.</div>
+    <div class="explanation-ko">&#x27;from A to B&#x27;는 두 가지 대조적인 극단을 제시하여 범위나 다양성을 보여주는 구조예요. &#x27;A에서 B까지&#x27;라는 의미로 다양성을 강조해요.</div>
+    <div class="example">And from sugary Turkish Riza tea to salty Tibetan butter tea.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">search of edible</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">서처베디블</span>
+    <div class="details">
+        <div class="phonetic-ipa">/sɜːrtʃ_əv_ˈɛdɪbl/</div>
+        <div class="explanation-text">&#x27;search&#x27;의 마지막 소리가 약화된 &#x27;of&#x27;(/əv/)와 연결되고, /v/가 &#x27;edible&#x27;의 첫 모음 /ɛ/과 이어져 세 단어가 매끄럽게 연결돼요.</div>
+        <div class="practice">&#x27;서치 오브 에디블&#x27;이 아니라 &#x27;서처베디블&#x27;처럼 끊지 않고 연결해서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">spread around</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스프레더라운드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/sprɛd_əˈraʊnd/</div>
+        <div class="explanation-text">&#x27;spread&#x27;의 마지막 /d/가 &#x27;around&#x27;의 첫 소리 /ə/와 부드럽게 연결돼요. 자음-모음 연결이 두 단어를 하나처럼 흐르게 해요.</div>
+        <div class="practice">&#x27;스프레드 어라운드&#x27;로 끊지 말고 &#x27;스프레더라운드&#x27;처럼 /d/와 /ə/를 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">smuggling tea trees and experienced</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스머글링 티 트리전딕스피어리언스트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈsmʌɡlɪŋ tiː triːz_ənd_ɪkˈspɪəriənst/</div>
+        <div class="explanation-text">&#x27;trees&#x27;의 /z/가 약화된 &#x27;and&#x27;와 연결되고, &#x27;and&#x27;의 /d/가 &#x27;experienced&#x27;의 /ɪ/와 이어져 매끄러운 소리 연쇄가 만들어져요.</div>
+        <div class="practice">&#x27;트리즈 앤드 익스피어리언스트&#x27;가 아니라 연결되는 부분을 끊지 않고 &#x27;트리전딕스피어리언스트&#x27;처럼 이어서 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">poisoned himself</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">포이즌딤셀프</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈpɔɪznd_ɪmˈsɛlf/</div>
+        <div class="explanation-text">&#x27;himself&#x27;의 /h/가 연결 발화에서 탈락하고, &#x27;poisoned&#x27;의 /d/가 바로 /ɪ/와 연결돼요. 대명사에서 /h/ 탈락은 매우 흔한 현상이에요.</div>
+        <div class="practice">&#x27;포이즌드 힘셀프&#x27;가 아니라 &#x27;포이즌딤셀프&#x27;처럼 /h/를 생략하고 바로 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">combination of heat and</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">컴비네이션어브 히른</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˌkɒmbɪˈneɪʃən_əv_hiːt_ən/</div>
+        <div class="explanation-text">&#x27;of&#x27;와 &#x27;and&#x27; 모두 크게 축약돼요. &#x27;of&#x27;는 /ə/로, &#x27;and&#x27;는 /ən/ 또는 /n/으로 줄어들어요. 기능어는 자연스러운 발화에서 일상적으로 약화돼요.</div>
+        <div class="practice">&#x27;컴비네이션 오브 히트 앤드&#x27;가 아니라 &#x27;of&#x27;를 /어/로, &#x27;and&#x27;를 /은/으로 가볍게 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">chewed on it</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">추도닛</span>
+    <div class="details">
+        <div class="phonetic-ipa">/tʃuːd_ɒnɪt/</div>
+        <div class="explanation-text">&#x27;chewed&#x27;의 /d/가 &#x27;on&#x27; 앞에서 부드러워지고, &#x27;on&#x27;의 /n/이 &#x27;it&#x27;의 /ɪ/와 연결되어 세 단어가 하나의 덩어리처럼 들려요.</div>
+        <div class="practice">&#x27;츄드 온 잇&#x27;이 아니라 &#x27;추도닛&#x27;처럼 자연스럽게 이어 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">first opium war</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">퍼스 오피엄 워</span>
+    <div class="details">
+        <div class="phonetic-ipa">/fɜːs ˈoʊpiəm wɔːr/</div>
+        <div class="explanation-text">&#x27;first&#x27;의 마지막 /t/가 &#x27;opium&#x27;의 /oʊ/ 앞에서 탈락해요. /st/ 자음군 뒤에 다른 단어가 오면 마지막 /t/가 흔히 생략돼요.</div>
+        <div class="practice">&#x27;퍼스트 오피엄&#x27;에서 /t/를 또렷이 발음하지 말고, &#x27;퍼스 오피엄&#x27;처럼 /t/를 생략해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">in earnest</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">이너니스트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɪˈnɜːrnɪst/</div>
+        <div class="explanation-text">&#x27;in&#x27;의 /n/이 &#x27;earnest&#x27;의 첫 모음 /ɜː/와 합쳐져 비음이 모음으로 자연스럽게 흘러가며, 두 단어가 하나의 단어처럼 들려요.</div>
+        <div class="practice">&#x27;인 어니스트&#x27;로 끊지 말고 &#x27;이너니스트&#x27;처럼 /n/과 /ɜː/를 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"During a long day spent roaming the forest"</div>
+        <div class="signal-role">서사적 묘사로 시작하여 이야기 속으로 청중을 끌어들이는 도입부예요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"And that is how we discovered tea"</div>
+        <div class="signal-role">전설의 핵심을 요약하며 이야기의 첫 번째 단락을 마무리해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Or so an ancient legend goes, at least"</div>
+        <div class="signal-role">전설에서 사실적 서술로 전환하며, 이야기의 신뢰성에 대한 여지를 남겨요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Archaeological evidence suggests"</div>
+        <div class="signal-role">신화에서 과학적 증거로 전환하며 역사적 서술을 시작해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Tea only shifted from food to drink 1,500 years ago"</div>
+        <div class="signal-role">차의 용도 변화라는 중요한 전환점을 알리며 새로운 시대로 넘어가요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"In the 9th century, during the Tang Dynasty"</div>
+        <div class="signal-role">구체적인 시대와 왕조를 제시하며 일본으로의 차 전파 이야기를 시작해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"That spread began in earnest around the early 1600s"</div>
+        <div class="signal-role">차의 세계적 확산이 본격화된 시점을 알리며 유럽 진출 이야기로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"At first, Britain paid for all this Chinese tea with silver"</div>
+        <div class="signal-role">무역 방식의 변화를 소개하며 아편 전쟁으로 이어지는 서술을 시작해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"This act triggered the first opium war"</div>
+        <div class="signal-role">인과관계를 명확히 하며 전쟁이라는 중대한 사건의 시작을 강조해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The British East India Company also wanted"</div>
+        <div class="signal-role">&#x27;also&#x27;를 통해 추가적인 영국의 행동을 소개하며 로버트 포춘의 이야기로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Today, tea is the second most consumed beverage"</div>
+        <div class="signal-role">과거 서술에서 현재로 돌아오며 결론부로 전환해요</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=LaLvVc1sS20
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>Our traditional Japanese home - Moving to Japan in 2022</h1>
+    <div class="subtitle">Our Traditional Japanese House</div>
+    <div class="desc-ko">일본 전통 가옥의 구조와 생활 문화를 집 투어로 쉽게 설명</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">10:36</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">42</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">15</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/X11-yB2_X4E/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/X11-yB2_X4E">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (8 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (7 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (11 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (10 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 10-minute video by Our Traditional Japanese House is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:00 ~ 0:30</span>
+    </div>
+    <div class="sec-summary">진행자들이 시청자를 맞이하고 오늘의 영상을 소개합니다: 전통 일본 가옥 투어. 집 외부와 입구 구역을 먼저 보여줍니다.</div>
+    <div class="key-points"><span class="key-point">おはようございます로 친근하게 인사 시작</span><span class="key-point">오늘의 콘텐츠(집 투어) 예고</span><span class="key-point">집 외관 및 고전적인 일본 건물임을 소개</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Genkan (Entryway)</span>
+        <span class="sec-time">0:36 ~ 0:50</span>
+    </div>
+    <div class="sec-summary">진행자들이 일본 전통 가옥의 현관(玄関)을 소개하고 설명합니다. 신발을 벗는 이 공간의 문화적 의미와 실내외 경계 역할을 설명합니다.</div>
+    <div class="key-points"><span class="key-point">玄関(현관)의 위치와 기능 설명</span><span class="key-point">넓고 쾌적한 현관 공간 묘사</span><span class="key-point">일본 가옥에서 현관이 중요한 공간임을 강조</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Traditional Decorative Elements</span>
+        <span class="sec-time">5:22 ~ 6:02</span>
+    </div>
+    <div class="sec-summary">진행자들이 집 내부의 전통적인 장식 요소들을 소개합니다: 길상의 상징인 松竹梅(송죽매), 수공예 장식, 격자창(格子窓) 등. 이 요소들은 전통 일본 건축의 미학적 감각을 반영합니다.</div>
+    <div class="key-points"><span class="key-point">松竹梅(송죽매)이라는 세 가지 길상 식물 소개</span><span class="key-point">수공예 장식(手作りの細工)의 존재</span><span class="key-point">격자창(格子窓)과 틈새 디자인의 특징</span><span class="key-point">대부분의 전통 가옥에서 볼 수 있는 요소임을 언급</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Flexible Room Design (Fusuma &amp; Shoji)</span>
+        <span class="sec-time">6:08 ~ 10:02</span>
+    </div>
+    <div class="sec-summary">진행자들이 방을 나누거나 열 수 있는 ふすま(후스마) 미닫이문의 유연한 공간 디자인을 시연합니다. 자연광을 투과시키는 障子(장지), 그리고 방에 있는 仏壇(불단)도 설명합니다.</div>
+    <div class="key-points"><span class="key-point">ふすまで방을 나누거나 하나로 통합 가능</span><span class="key-point">열면 넓은 공간이 되는 유연한 구조</span><span class="key-point">빛의 들어오는 방식과 색조 묘사</span><span class="key-point">仏壇(불단)의 존재와 의미</span><span class="key-point">障子(장지)가 방을 밝게 해주는 기능</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Bathroom/Washing Area</span>
+        <span class="sec-time"> ~ </span>
+    </div>
+    <div class="sec-summary">진행자들이 욕실과 세면 구역을 소개하며 목욕 시설 사용법을 설명합니다. 온수 조절 방법과 수압을 언급하며, 이 공간이 귀엽고 아름답다고 묘사합니다.</div>
+    <div class="key-points"><span class="key-point">몸을 씻는 공간 안내</span><span class="key-point">온수 온도 및 수압 조절 방법 설명</span><span class="key-point">공간이 かわいい(귀엽다)고 표현</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Audience Interaction &amp; Closing</span>
+        <span class="sec-time"> ~ </span>
+    </div>
+    <div class="sec-summary">진행자들이 일본 생활과 일본 문화에 관한 시청자 질문으로 집 투어를 마무리합니다. 오타쿠 문화와 아키하바라에 관한 짧은 대화도 있습니다. 시청자에 감사 인사와 다음 주 예고로 영상을 마무리합니다.</div>
+    <div class="key-points"><span class="key-point">시청자에게 질문(일본 생활·가족·문화)</span><span class="key-point">오타쿠 문화 및 秋葉原(아키하바라) 언급</span><span class="key-point">채널 방문에 감사 인사</span><span class="key-point">また来週お会いしましょう로 마무리</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">玄関</span>
+        <span class="phonetic">げんかん</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">The entryway or entrance hall of a Japanese home; the area where shoes are removed before stepping up into the house</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"ここは、玄関を置きます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">伝統的</span>
+        <span class="phonetic">でんとうてき</span>
+        <span class="pos">na-adjective</span>
+        
+    </div>
+    <div class="definition">Traditional; relating to customs, beliefs, and practices passed down through generations</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"今日は私たちの伝統的な日本の家をお見せします。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">仏壇</span>
+        <span class="phonetic">ぶつだん</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">A Buddhist household altar; a cabinet containing a miniature shrine used for ancestor worship in Japanese homes</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"これが仏壇です。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">障子</span>
+        <span class="phonetic">しょうじ</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">A traditional Japanese sliding door or window made of translucent paper stretched over a wooden lattice frame</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"障子と言うことができます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ふすま</span>
+        <span class="phonetic">ふすま</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">A type of opaque sliding door used in traditional Japanese architecture to partition rooms; made of thick paper or fabric on a wooden frame</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"この部屋はふすまで仕切ることができます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">松竹梅</span>
+        <span class="phonetic">しょうちくばい</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">Pine, bamboo, and plum; a traditional Japanese grouping of three auspicious plants symbolizing good fortune, resilience, and perseverance</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"松竹梅と呼ばれています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お見せする</span>
+        <span class="phonetic">おみせする</span>
+        <span class="pos">verb (humble form)</span>
+        
+    </div>
+    <div class="definition">To show (something to someone); the humble/polite form of 見せる (to show), used when the speaker does something for the listener</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"今日は私たちの伝統的な日本の家をお見せします。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お聞かせください</span>
+        <span class="phonetic">おきかせください</span>
+        <span class="pos">phrase (polite request)</span>
+        
+    </div>
+    <div class="definition">Please tell me / please let me hear; a polite phrase requesting someone to share information or their thoughts</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"皆さんに質問があります。"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">縁起</span>
+        <span class="phonetic">えんぎ</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">Omen, luck; a sign or symbol believed to bring good fortune or bad luck</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"日本の三つの縁起の良い木の中で"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">仕切る</span>
+        <span class="phonetic">しきる</span>
+        <span class="pos">verb (ru-verb)</span>
+        
+    </div>
+    <div class="definition">To partition, divide, or separate a space using a partition or divider</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"この部屋はふすまで仕切ることができます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">隙間</span>
+        <span class="phonetic">すきま</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">A gap, crack, or space between objects; in architecture, refers to deliberate spacing in lattice windows or screens</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"隙間のある窓、格子窓があります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">格子窓</span>
+        <span class="phonetic">こうしまど</span>
+        <span class="pos">noun</span>
+        
+    </div>
+    <div class="definition">A lattice window; a traditional Japanese window design featuring a grid or crossed-bar pattern</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"隙間のある窓、格子窓があります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">秋葉原</span>
+        <span class="phonetic">あきはばら</span>
+        <span class="pos">proper noun</span>
+        
+    </div>
+    <div class="definition">Akihabara; a district in Tokyo famous for electronics, anime, manga, and otaku culture</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"今、秋葉原の東京に住んでいます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">かわいい</span>
+        <span class="phonetic">かわいい</span>
+        <span class="pos">i-adjective</span>
+        
+    </div>
+    <div class="definition">Cute, adorable, charming; a highly versatile Japanese word expressing affection or aesthetic appeal</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"この場所は本当にかわいいです。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">興味がある</span>
+        <span class="phonetic">きょうみがある</span>
+        <span class="pos">phrase</span>
+        
+    </div>
+    <div class="definition">To be interested in (something); a common expression for expressing interest</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"私は、日本の人に興味があります。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜をお見せします (Humble Verb: お〜します)</div>
+    <div class="explanation">The honorific humble form お + verb stem + します is used when the speaker does something for the listener, showing respect. Here お見せします = &#x27;I will show you (humbly)&#x27;.</div>
+    <div class="explanation-ko">お + 동사 어간 + します 형태는 화자가 청자를 위해 행동할 때 사용하는 겸양 표현입니다. お見せします = &#x27;(제가) 보여 드리겠습니다&#x27;.</div>
+    <div class="example">今日は私たちの伝統的な日本の家をお見せします。</div><div class="example">ご案内します。</div><div class="example">お手伝いします。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ことができます (Potential: can do)</div>
+    <div class="explanation">verb dictionary form + ことができます expresses the potential/ability to do something. More formal than the plain potential form (〜られる).</div>
+    <div class="explanation-ko">동사 기본형 + ことができます는 어떤 것을 할 수 있는 능력이나 가능성을 나타냅니다. 평어 가능형(〜られる)보다 격식체입니다.</div>
+    <div class="example">この部屋はふすまで仕切ることができます。</div><div class="example">体を洗うことができます。</div><div class="example">水で洗うことができます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に関して (Regarding / About)</div>
+    <div class="explanation">〜に関して is a formal expression meaning &#x27;regarding&#x27;, &#x27;about&#x27;, or &#x27;concerning&#x27;. It is used to introduce or elaborate on a topic.</div>
+    <div class="explanation-ko">〜に関して는 &#x27;~에 관해서&#x27;, &#x27;~에 대해서&#x27;를 의미하는 격식체 표현으로, 화제를 도입하거나 설명할 때 씁니다.</div>
+    <div class="example">この部屋はふすまで仕切ることができます。</div><div class="example">日本の文化についてお聞かせください。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と呼ばれています (Is called / Is known as)</div>
+    <div class="explanation">〜と呼ばれています is a passive expression meaning &#x27;is called&#x27; or &#x27;is known as&#x27;. と = quotation marker, 呼ばれる = passive of 呼ぶ (to call), います = ongoing state.</div>
+    <div class="explanation-ko">〜と呼ばれています는 &#x27;~라고 불립니다&#x27;, &#x27;~라고 알려져 있습니다&#x27;를 의미하는 수동태 표현입니다. と = 인용 조사, 呼ばれる = 呼ぶ의 수동형, います = 지속적 상태.</div>
+    <div class="example">松竹梅と呼ばれています。</div><div class="example">東京と呼ばれています。</div><div class="example">侍と呼ばれていました。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てください (Polite Request: Please do〜)</div>
+    <div class="explanation">〜てください is a standard polite request form. te-form of verb + ください. More formal than just saying the te-form alone.</div>
+    <div class="explanation-ko">〜てください는 표준적인 정중한 의뢰 표현입니다. 동사의 て형 + ください. て형만 단독으로 쓰는 것보다 격식 있습니다.</div>
+    <div class="example">皆さんに質問があります。お聞かせください。</div><div class="example">日本の文化についてお聞かせください。</div><div class="example">日本のオタク文化を聞いてみてください。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と言うことができます (One can say that〜)</div>
+    <div class="explanation">〜と言うことができます literally means &#x27;one can say that〜&#x27;. It is used to introduce a description or name for something. More formal than just 〜です.</div>
+    <div class="explanation-ko">〜と言うことができます는 &#x27;~라고 말할 수 있습니다&#x27;를 의미합니다. 무언가에 대한 설명이나 명칭을 소개할 때 씁니다. 단순 ~です보다 격식체입니다.</div>
+    <div class="example">障子と言うことができます。</div><div class="example">これを伝統的な建築と言うことができます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てみてください (Please try doing〜)</div>
+    <div class="explanation">〜てみてください = te-form of verb + みて (try doing) + ください (please). Suggests the listener should try or attempt something.</div>
+    <div class="explanation-ko">〜てみてください = 동사 て형 + みて (해보다) + ください (부탁). 청자에게 무언가를 시도해 보도록 권유하는 표현입니다.</div>
+    <div class="example">日本のオタク文化を聞いてみてください。</div><div class="example">これを食べてみてください。</div><div class="example">日本語を話してみてください。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に住んでいます (Ongoing State: living in〜)</div>
+    <div class="explanation">〜に住んでいます expresses a continuous state of living somewhere. に = location marker, 住む (すむ) = to live/reside, でいます = te-form of いる indicating ongoing state.</div>
+    <div class="explanation-ko">〜に住んでいます는 어느 곳에 살고 있는 지속적인 상태를 나타냅니다. に = 장소 조사, 住む = 살다, でいます = 진행·상태의 て형 + いる.</div>
+    <div class="example">今、秋葉原の東京に住んでいます。</div><div class="example">日本の新しい家族として住んでいることについてお聞かせください。</div><div class="example">大阪に住んでいます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜を使うことで (By using〜)</div>
+    <div class="explanation">〜を使うことで means &#x27;by using〜&#x27; or &#x27;through the use of〜&#x27;. で here is the te-form equivalent of a noun clause meaning &#x27;by means of&#x27;.</div>
+    <div class="explanation-ko">〜を使うことで는 &#x27;~를 사용함으로써&#x27;를 의미합니다. で는 수단을 나타내는 조사로, 명사절 뒤에 붙어 &#x27;~를 통해&#x27;라는 의미를 줍니다.</div>
+    <div class="example">これを使うことで、部屋が明るくなります。</div><div class="example">障子を使うことで、自然光が入ります。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に興味があります (To be interested in〜)</div>
+    <div class="explanation">〜に興味があります is a standard expression for saying one is interested in something. に marks the object of interest, 興味 = interest, があります = exists/have.</div>
+    <div class="explanation-ko">〜に興味があります는 무언가에 관심이 있다고 표현하는 기본적인 표현입니다. に = 관심의 대상을 나타내는 조사, 興味 = 흥미, があります = 있습니다.</div>
+    <div class="example">私は、日本の人に興味があります。</div><div class="example">日本語に興味があります。</div><div class="example">伝統文化に興味があります。</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">Keigo Sonkeigo</div>
+<div class="cs-card">
+    <span class="original">お聞かせください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おきかせください</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">お聞かせください는 尊敬語(존경어) 의뢰 형태입니다: お + 聞かせ(聞く의 사역형 어간) + ください. 청자에게 무언가를 들려달라고 정중히 요청하는 표현.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Kenjougo</div>
+<div class="cs-card">
+    <span class="original">お見せします</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おみせします</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">お見せします는 謙譲語(겸양어) 형태입니다: お + 見せ(見せる의 어간) + します. 화자가 자신의 행동(보여주기)을 낮추어 청자를 높이는 표현.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Teineigo</div>
+<div class="cs-card">
+    <span class="original">ございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ございます</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">ございます는 あります(있습니다)의 가장 격식 높은 정중한 형태입니다. 매우 공식적이거나 정중한 상황에서 사용. おはようございます = 정중한 &#x27;안녕하세요(아침 인사)&#x27;.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Pitch Accent</div>
+<div class="cs-card">
+    <span class="original">玄関</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">げんかん</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">玄関(げんかん)은 평판형 악센트: げ(낮음)→ん(높음)→か(높음)→ん(높음). 첫 모라 げ가 낮고 이후 높아집니다. 도쿄 방언에서 복합 명사에 흔한 악센트 패턴.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">仏壇</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ぶつだん</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">仏壇(ぶつだん)은 頭高型(두고형) 악센트: ぶ(높음)→つ(낮음)→だ(낮음)→ん(낮음). 첫 모라 ぶ에서 높았다가 이후 낮아집니다.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Contraction Colloquial</div>
+<div class="cs-card">
+    <span class="original">わかりました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">わかりました</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">わかりました는 わかる(이해하다)의 격식 과거형입니다. 빠른 구어체에서는 わかった(반말)로 줄어들기도 하고, 매우 빠른 발화에서는 わかりまし로 끊어지기도 합니다.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Sound Change N Before Bilabial</div>
+<div class="cs-card">
+    <span class="original">伝統</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">でんとう</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">でんとう에서 ん은 치경 비음 [n]이지만, でんぱ(전파)처럼 ん이 p/b 앞에 오면 양순 비음 [m]으로 변합니다. ん의 이음 변이는 자연스러운 일본어 발음에 중요합니다.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Form Comparison</div>
+<div class="cs-card">
+    <span class="original">あります / ございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">あります / ございます</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">둘 다 &#x27;있다/있습니다&#x27;를 뜻하지만 경어 수준이 다릅니다: ある(반말) → あります(정중체) → ございます(매우 격식). 영상에서 두 형태 모두 사용됨.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Sound Reduction Fast Speech</div>
+<div class="cs-card">
+    <span class="original">おはようございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おはようございます</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">빠른 일상 발화에서 おはようございます는 おはよう(반말)나 おはよっす(매우 구어적)로 줄어듭니다. 영상에서는 정중한 상황에서 전체 형태를 사용.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Particle Topic Marker</div>
+<div class="cs-card">
+    <span class="original">〜は (topic marker)</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">は</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">조사 は는 문자는 &#x27;ha(は)&#x27;이지만 주제 조사로 쓰일 때는 &#x27;wa(わ)&#x27;로 발음됩니다. 예: 玄関は → げんかんわ. 초학자들이 자주 틀리는 발음 규칙.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Teineigo Ending</div>
+<div class="cs-card">
+    <span class="original">〜ます / 〜ません</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ます / 〜ません</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">ます 어미는 정중한 동사 활용형입니다. 영상의 모든 동사는 ます(긍정) 또는 ません(부정)으로 끝납니다. 공적·준공식 상황에서 기대되는 기본 丁寧語(정중체) 수준.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type greeting_opening">greeting_opening</span>
+    <div>
+        <div class="signal-expr">"おはようございます"</div>
+        <div class="signal-role">영상의 시작을 알리는 아침 인사</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type content_preview">content_preview</span>
+    <div>
+        <div class="signal-expr">"今日は〜お見せします"</div>
+        <div class="signal-role">오늘 다룰 내용(집 투어)을 예고하는 서론 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type location_introduction">location_introduction</span>
+    <div>
+        <div class="signal-expr">"ここは、"</div>
+        <div class="signal-role">특정 공간을 소개할 때 반복적으로 사용하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type addition_transition">addition_transition</span>
+    <div>
+        <div class="signal-expr">"そして、"</div>
+        <div class="signal-role">앞 내용에 추가 정보를 덧붙이는 접속 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type enumeration_context">enumeration_context</span>
+    <div>
+        <div class="signal-expr">"〜の中で"</div>
+        <div class="signal-role">범주나 집합 속에서 구체적인 항목을 소개할 때 사용</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type room_introduction">room_introduction</span>
+    <div>
+        <div class="signal-expr">"この部屋は"</div>
+        <div class="signal-role">특정 방이나 공간을 소개하는 투어 형식 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type object_identification">object_identification</span>
+    <div>
+        <div class="signal-expr">"これが〜です"</div>
+        <div class="signal-role">특정 물건이나 공간을 가리키며 명칭을 알려주는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type audience_engagement">audience_engagement</span>
+    <div>
+        <div class="signal-expr">"皆さんに質問があります"</div>
+        <div class="signal-role">시청자와의 상호작용을 이끌어내는 클로징 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing_thanks">closing_thanks</span>
+    <div>
+        <div class="signal-expr">"今日は、私たちのチャンネルに来てくれました"</div>
+        <div class="signal-role">시청자에게 감사 인사를 전하는 마무리 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing_farewell">closing_farewell</span>
+    <div>
+        <div class="signal-expr">"また来週お会いしましょう"</div>
+        <div class="signal-role">다음 영상 시청을 유도하는 작별 인사</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=X11-yB2_X4E
+    </div>
+</div>
+
+</body>
+</html>

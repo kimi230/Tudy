@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>匿名さんの声の具現化: エディ 宇賀田 at TEDxTokyo</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">익명 인터넷 창작자의 목소리와 저작권·정체성 문제를 다룬 TEDx</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">5:48</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">78</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/iFzqCIEsTsA/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/iFzqCIEsTsA">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (29 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (15 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 5-minute video by TEDx Talks is structured into 9 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">자기 소개 — 인터넷 요정</span>
+        <span class="sec-time">0:03 ~ 0:45</span>
+    </div>
+    <div class="sec-summary">초음 미쿠 소개 이후 화자가 자신을 익명 인터넷 유저(&#x27;요정&#x27;)로 소개하고 본명 검색으로는 잘 안 나온다고 설명합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">얼굴 사진 콜라주 — 인터넷의 어두운 면</span>
+        <span class="sec-time">0:46 ~ 1:03</span>
+    </div>
+    <div class="sec-summary">익명 인터넷에서 자신의 사진이 콜라주·악용되고 있다는 점을 밝히며 인터넷 문화 이야기의 출발점을 제시합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">일본 익명 커뮤니티의 특성</span>
+        <span class="sec-time">1:03 ~ 1:57</span>
+    </div>
+    <div class="sec-summary">일본 익명 커뮤니티의 활발한 창작 문화, 기브 앤 테이크 정신, 하이 컨텍스트 특성을 설명합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">외부 침입자의 문제 — 상표 등록과 炎上</span>
+        <span class="sec-time">2:01 ~ 2:33</span>
+    </div>
+    <div class="sec-summary">외부 기업·아티스트의 저작권 침해로 인한 炎上 문제를 설명합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">해결책 — 원작자를 찾아 허가를 받다</span>
+        <span class="sec-time">2:33 ~ 3:24</span>
+    </div>
+    <div class="sec-summary">원작자를 찾아 허가·저작권 해결 후 상품화하는 방법을 설명하고, ME탄 피규어 사례를 소개합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Twitter 사례 — 냥코 이어폰 잭</span>
+        <span class="sec-time">3:24 ~ 3:43</span>
+    </div>
+    <div class="sec-summary">Twitter에서 아이디어를 발견해 2개월 만에 상품화한 성공 사례를 소개합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">익명 크리에이터의 취약성과 대변자 역할</span>
+        <span class="sec-time">3:45 ~ 4:33</span>
+    </div>
+    <div class="sec-summary">익명 크리에이터의 취약성을 설명하고, 화자 스스로를 그들의 대변자·부스터라고 정의합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">청중에게 제안 — 직접 연락하고 구현화하라</span>
+        <span class="sec-time">4:33 ~ 5:17</span>
+    </div>
+    <div class="sec-summary">청중에게 익명 크리에이터에게 직접 연락해 아이디어를 구현화하는 데 동참하도록 촉구합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">마무리 인사</span>
+        <span class="sec-time">5:17 ~ 5:48</span>
+    </div>
+    <div class="sec-summary">정식 발표 종료 후 유머러스한 자기 소개로 마무리합니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">具現化</span>
+        <span class="phonetic">ぐげんか</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">妖精</span>
+        <span class="phonetic">ようせい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">うさんくさい</span>
+        <span class="phonetic">うさんくさい</span>
+        <span class="pos">형용사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">登壇</span>
+        <span class="phonetic">とうだん</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">匿名</span>
+        <span class="phonetic">とくめい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">非常に</span>
+        <span class="phonetic">ひじょうに</span>
+        <span class="pos">부사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">日々</span>
+        <span class="phonetic">ひび</span>
+        <span class="pos">부사·명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">であるがゆえに</span>
+        <span class="phonetic">であるがゆえに</span>
+        <span class="pos">접속 표현</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">発想</span>
+        <span class="phonetic">はっそう</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ハイコンテクスト</span>
+        <span class="phonetic">ハイコンテクスト</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いわゆる</span>
+        <span class="phonetic">いわゆる</span>
+        <span class="pos">연체사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">勝手に</span>
+        <span class="phonetic">かってに</span>
+        <span class="pos">부사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">商標登録</span>
+        <span class="phonetic">しょうひょうとうろく</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">圧殺</span>
+        <span class="phonetic">あっさつ</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">炎上</span>
+        <span class="phonetic">えんじょう</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">たびたび</span>
+        <span class="phonetic">たびたび</span>
+        <span class="pos">부사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">一部上場企業</span>
+        <span class="phonetic">いちぶじょうじょうきぎょう</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ですら</span>
+        <span class="phonetic">ですら</span>
+        <span class="pos">조사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">著作権</span>
+        <span class="phonetic">ちょさくけん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">商品化</span>
+        <span class="phonetic">しょうひんか</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">擬人化</span>
+        <span class="phonetic">ぎじんか</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">原作者</span>
+        <span class="phonetic">げんさくしゃ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">代弁者</span>
+        <span class="phonetic">だいべんしゃ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">下心</span>
+        <span class="phonetic">したごころ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ブースター</span>
+        <span class="phonetic">ブースター</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">有益</span>
+        <span class="phonetic">ゆうえき</span>
+        <span class="pos">명사·형용동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ノウハウ</span>
+        <span class="phonetic">ノウハウ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ぜひとも</span>
+        <span class="phonetic">ぜひとも</span>
+        <span class="pos">부사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご清聴ありがとうございました</span>
+        <span class="phonetic">ごせいちょうありがとうございました</span>
+        <span class="pos">인사 표현</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜についてお話ししたいと思います</div>
+    <div class="explanation">「〜について」는 &#x27;~에 대해&#x27;, 「お話ししたいと思います」는 겸양어로 &#x27;이야기하고 싶습니다&#x27;라는 뜻입니다. 강연이나 발표에서 주제를 제시할 때 자주 사용합니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と思います</div>
+    <div class="explanation">자신의 의견이나 추측을 부드럽게 표현하는 패턴. 단정적으로 말하지 않고 의견을 피력할 때 씁니다. 발표·회화에서 매우 빈번하게 나옵니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜であるがゆえに</div>
+    <div class="explanation">「〜であるがゆえに」는 원인·이유를 강조하는 문어체 표현입니다. 구어에서는 「〜だから」나 「〜なので」가 더 일반적이지만, 논리적이거나 공식적인 문맥에서 사용합니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜というのは〜</div>
+    <div class="explanation">「〜というのは」는 어떤 대상을 화제로 올려 그것에 대해 설명할 때 씁니다. 「匿名コミュニティというのはギブアンドテイクの精神が非常に強い」처럼 정의를 내릴 때 많이 사용합니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜とも言うべき</div>
+    <div class="explanation">「〜べき」는 &#x27;~해야 한다&#x27;는 당위·필연을 나타냅니다. 「〜とも言うべき」는 &#x27;~라고도 말할 수 있는&#x27;이라는 뉘앙스로 격식 있는 표현입니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てしまう</div>
+    <div class="explanation">「〜てしまう」는 동작의 완료를 나타내거나, 바람직하지 않은 일이 일어났음을 나타냅니다. 여기서는 &#x27;멋대로 상표 등록을 해 버리다&#x27;, &#x27;인터넷이 불타오르게 되어 버리다&#x27;처럼 부정적 결과를 표현할 때 사용되었습니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たり〜たりする</div>
+    <div class="explanation">「〜たり〜たりする」는 여러 가지 동작이나 상태를 병렬로 나열할 때 씁니다. 모든 것을 열거하지 않아도 됩니다. 이 강연에서는 「コラージュされたり」「おもちゃにされたりして」처럼 사용되었습니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただく</div>
+    <div class="explanation">「〜ていただく」는 「もらう」의 겸양어로 상대방이 자신을 위해 어떤 행동을 해줄 때 씁니다. 청중을 향한 경어 표현으로 강연에서 자주 등장합니다. (예: 「見ていただいたら」「検索していただいても」)</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜させていただく</div>
+    <div class="explanation">「〜させていただく」는 자신의 행동을 허가·혜택으로 간주하여 겸손하게 말하는 표현입니다. 「お話をさせていただきたい」「共有させていただきたい」처럼 발표나 공식 석상에서 자주 쓰입니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ている / 〜ておられる</div>
+    <div class="explanation">「〜ておられる」는 「〜ている」의 경어형으로 상대방 혹은 제3자의 상태를 존경하여 표현합니다. 「欲しておられる」는 &#x27;원하고 계신다&#x27;는 존경 표현입니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ということであれば</div>
+    <div class="explanation">「〜ということであれば」는 &#x27;만약 ~라는 것이라면&#x27;이라는 조건을 나타냅니다. 상대방의 상황을 전제로 조언이나 권유를 할 때 씁니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜なり〜なり</div>
+    <div class="explanation">「〜なり〜なり」는 여러 가지 방법 중 하나를 선택하도록 예시를 들 때 씁니다. 「メールなり」「Googleで検索してなり」처럼 선택지를 제시합니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜考えております</div>
+    <div class="explanation">「〜考えております」는 「〜考えています」의 겸양어입니다. 「おります」는 「います」의 겸양형으로 자신의 상태나 동작에 대해 겸손하게 표현할 때 씁니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜というふうに考えたりします</div>
+    <div class="explanation">「〜というふうに」는 &#x27;~이런 식으로, ~라고&#x27;의 뜻. 「〜たりします」는 여러 행동 중 하나임을 나타내며 전체적으로 단정을 피하고 부드럽게 의견을 표현합니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んです / 〜のです</div>
+    <div class="explanation">「〜んです」「〜のです」는 청자가 이미 알고 있거나 눈앞의 상황에 대해 설명·해석할 때 씁니다. 「商品化できるんです」는 &#x27;상품화할 수 있는 겁니다&#x27;처럼 이유를 제공하거나 강조할 때 사용됩니다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">縮約形 (축약)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">フィラー (필러)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">音便・連濁 (음편·탁음화)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">イントネーション・強調 (억양·강조)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">自然なつなぎ言葉 (자연스러운 연결어)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">間投詞 (간투사)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">ポーズと間 (일시 정지와 간격)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">カタカナ語の発音 (외래어 발음)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=iFzqCIEsTsA
+    </div>
+</div>
+
+</body>
+</html>

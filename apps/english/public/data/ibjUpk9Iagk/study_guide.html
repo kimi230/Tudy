@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>The history of chocolate - Deanna Pucciarelli</h1>
+    <div class="subtitle">TED-Ed</div>
+    <div class="desc-ko">고대 마야부터 현대까지, 초콜릿의 달콤한 역사</div>
+    <div><span class="diff-badge">Beginner</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">4:41</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">132</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">69</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">15</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/ibjUpk9Iagk/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/ibjUpk9Iagk">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (15 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (0 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (6 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 4-minute video by TED-Ed is structured into 4 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:00 ~ 0:50</span>
+    </div>
+    <div class="sec-summary">발표는 초콜릿의 역사적 중요성을 강조하며, 현대의 인식과 마eso아메리카에서의 출처를 대비합니다. 고대 문명에서 초콜릿의 문화적·종교적 중요성을 강조합니다.</div>
+    <div class="key-points"><span class="key-point">Chocolate&#x27;s origins in Mesoamerica before the 16th century</span><span class="key-point">Cacao&#x27;s sacred status as a gift from gods</span><span class="key-point">Cacao&#x27;s use as currency and in rituals</span><span class="key-point">Contrast between ancient and modern chocolate consumption</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Historical Development</span>
+        <span class="sec-time">0:50 ~ 2:17</span>
+    </div>
+    <div class="sec-summary">초콜릿이 마eso아메리카에서 유럽으로 확산되며, 스페인 식민지인들이 채택하고 1828년 코코아 프레스 발명으로 생산 방식이 혁신되었다는 점을 설명합니다.</div>
+    <div class="key-points"><span class="key-point">Cacao&#x27;s journey from Mesoamerica to Europe</span><span class="key-point">Spanish adaptation of cacao into sweetened chocolate</span><span class="key-point">Cocoa press invention in 1828</span><span class="key-point">Industrialization of chocolate production</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Modern Issues and Ethics</span>
+        <span class="sec-time">2:17 ~ 3:45</span>
+    </div>
+    <div class="sec-summary">현대 초콜릿 산업에서의 문제, 서아프리카 코코아 재배에서의 어린이 노동과 노예 문제, 그리고 산업의 해결을 위한 노력에 대해 다룹니다.</div>
+    <div class="key-points"><span class="key-point">Child labor and slavery in West African cocoa farms</span><span class="key-point">Estimates of over 2 million affected children</span><span class="key-point">Industry partnerships to combat labor abuses</span><span class="key-point">Persistent ethical challenges despite efforts</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Conclusion</span>
+        <span class="sec-time">3:45 ~ 4:36</span>
+    </div>
+    <div class="sec-summary">초콜릿의 문화적 의미를 반성하며, 청중이 초콜릿의 복잡한 역사에 대해 고민하도록 호소하고, &#x27;FINALLY&#x27; 반복으로 메시지를 강조합니다.</div>
+    <div class="key-points"><span class="key-point">Chocolate&#x27;s enduring cultural associations</span><span class="key-point">Reflection on its historical and ethical complexities</span><span class="key-point">Call to consider the &#x27;not everything about chocolate is sweet&#x27; message</span><span class="key-point">Repetition of &#x27;FINALLY&#x27; as a closing emphasis</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Conditional Type 2</div>
+    <div class="explanation">Used to talk about hypothetical situations in the present or future, with &#x27;if + past tense&#x27; and &#x27;would + base verb&#x27;.</div>
+    <div class="explanation-ko">현재나 미래에 발생할 수 있는 가상의 상황을 표현할 때 &#x27;if + 과거형&#x27;과 &#x27;would + 원형 동사&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;If you thought we make a big deal about it, you&#x27;re mistaken.&quot;, &#x27;segment&#x27;: &#x27;If you thought we make a big deal&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;If I were you, I would take the job.&#x27;, &#x27;segment&#x27;: &#x27;If I were you, I would take&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Past Perfect Tense</div>
+    <div class="explanation">Describes an action completed before another past action, using &#x27;had + past participle&#x27;.</div>
+    <div class="explanation-ko">과거에 있었던 두 가지 사건 중 먼저 일어난 사건을 나타내기 위해 &#x27;had + 과거분사&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;You&#x27;re lucky you weren&#x27;t born in the 18th century.&quot;, &#x27;segment&#x27;: &quot;you weren&#x27;t born&quot;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;By the 20th century, chocolate had become a treat for the public.&#x27;, &#x27;segment&#x27;: &#x27;had become&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Relative Clause</div>
+    <div class="explanation">Adds extra information about a noun using &#x27;which&#x27;, &#x27;that&#x27;, or &#x27;who&#x27;, often introduced by a relative pronoun.</div>
+    <div class="explanation-ko">명사에 대한 추가 정보를 제공하기 위해 &#x27;which&#x27;, &#x27;that&#x27;, 또는 &#x27;who&#x27;로 시작하는 관계절을 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;Missionaries&#x27; salacious accounts of native customs gave it a reputation as an aphrodisiac.&quot;, &#x27;segment&#x27;: &#x27;of native customs&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;This is a complex problem that persists.&#x27;, &#x27;segment&#x27;: &#x27;that persists&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present Perfect Tense</div>
+    <div class="explanation">Describes an action that started in the past and continues to the present, using &#x27;have/has + past participle&#x27;.</div>
+    <div class="explanation-ko">과거에 시작되어 현재까지 지속되는 행동을 나타내기 위해 &#x27;have/has + 과거분사&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;There have been horrific abuses of human rights.&#x27;, &#x27;segment&#x27;: &#x27;have been&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Chocolate has established itself as a global commodity.&#x27;, &#x27;segment&#x27;: &#x27;has established&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Passive Voice</div>
+    <div class="explanation">Focuses on the action rather than the actor, using &#x27;be + past participle&#x27;.</div>
+    <div class="explanation-ko">행동에 초점을 맞추고 행위자에 대한 강조를 줄이기 위해 &#x27;be + 과거분사&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;The earliest records tell us the beans were ground.&#x27;, &#x27;segment&#x27;: &#x27;were ground&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;The drink was difficult and time-consuming to produce.&#x27;, &#x27;segment&#x27;: &#x27;was difficult&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present Participle Phrase</div>
+    <div class="explanation">Acts as an adverbial or adjective, modifying the main clause or noun, using &#x27;verb + ing&#x27;.</div>
+    <div class="explanation-ko">주어절이나 명사에 대한 설명으로 사용되며 &#x27;동사 + ing&#x27; 형태로 표현됩니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;But sweetening it with honey, sugar, or vanilla made it popular.&#x27;, &#x27;segment&#x27;: &#x27;sweetening it with honey&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Inventing milk chocolate revolutionized the industry.&#x27;, &#x27;segment&#x27;: &#x27;Inventing milk chocolate&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Infinitive Phrase</div>
+    <div class="explanation">Expresses purpose, result, or additional information, using &#x27;to + base verb&#x27;.</div>
+    <div class="explanation-ko">목적, 결과, 또는 추가 정보를 표현하기 위해 &#x27;to + 원형 동사&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;To create the solid chocolate we know today, Van Houten&#x27;s invention was crucial.&quot;, &#x27;segment&#x27;: &#x27;To create the solid chocolate&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Take a moment to consider that not everything about chocolate is sweet.&#x27;, &#x27;segment&#x27;: &#x27;to consider that&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Time Adverbial Clause</div>
+    <div class="explanation">Indicates when an action happened, introduced by &#x27;when&#x27;, &#x27;while&#x27;, or &#x27;as&#x27;.</div>
+    <div class="explanation-ko">행동이 언제 일어났는지를 나타내기 위해 &#x27;when&#x27;, &#x27;while&#x27;, 또는 &#x27;as&#x27;로 시작하는 부사절을 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;When Hernán Cortés visited the court of Montezuma at Tenochtitlan, he saw the Aztec empire.&#x27;, &#x27;segment&#x27;: &#x27;When Hernán Cortés visited&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;While I was studying, I received a call from my friend.&#x27;, &#x27;segment&#x27;: &#x27;While I was studying&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Past Participle Phrase</div>
+    <div class="explanation">Acts as an adjective or adverb, describing a noun or modifying the main clause, using &#x27;verb + ed&#x27;.</div>
+    <div class="explanation-ko">명사에 대한 설명이나 주어절을 수정하는 부사절로 사용되며 &#x27;동사 + ed&#x27; 형태로 표현됩니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;As recorded by Cortés&#x27; lieutenant, the Aztecs had a complex society.&quot;, &#x27;segment&#x27;: &quot;As recorded by Cortés&#x27; lieutenant&quot;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Gave it a reputation as an aphrodisiac, the accounts spread rapidly.&#x27;, &#x27;segment&#x27;: &#x27;Gave it a reputation&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Prepositional Phrase</div>
+    <div class="explanation">Describes relationships between nouns, verbs, or adjectives, introduced by a preposition.</div>
+    <div class="explanation-ko">명사, 동사, 혹은 형용사 간의 관계를 설명하기 위해 전치사로 시작되는 부사절을 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Due to its colonial association with native cultures, chocolate became a symbol of power.&#x27;, &#x27;segment&#x27;: &#x27;Due to its colonial association&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Combined with the power of advertising, chocolate became a global icon.&#x27;, &#x27;segment&#x27;: &#x27;Combined with the power&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Simple Past Tense</div>
+    <div class="explanation">Describes completed actions in the past, using the base verb form with &#x27;ed&#x27; for regular verbs.</div>
+    <div class="explanation-ko">과거에 완료된 행동을 나타내기 위해 기본형 동사에 &#x27;ed&#x27;를 붙여 표현합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Aztecs used cacao beans as currency.&#x27;, &#x27;segment&#x27;: &#x27;used cacao beans&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;The Aztecs built a great empire in Mesoamerica.&#x27;, &#x27;segment&#x27;: &#x27;built a great empire&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Modal Verb + Base Verb</div>
+    <div class="explanation">Expresses ability, permission, or possibility, using a modal verb followed by the base form of the verb.</div>
+    <div class="explanation-ko">능력, 허락, 가능성 등을 표현하기 위해 모달 동사와 원형 동사를 함께 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;Van Houten&#x27;s invention could separate the cocoa&#x27;s natural fat.&quot;, &#x27;segment&#x27;: &#x27;could separate&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;You should study harder if you want to pass the exam.&#x27;, &#x27;segment&#x27;: &#x27;should study&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Adverbial Phrase with &#x27;as far back as&#x27;</div>
+    <div class="explanation">Describes a time period, using &#x27;as far back as&#x27; to indicate how long ago something happened.</div>
+    <div class="explanation-ko">어떤 사건이 얼마나 오래전에 일어났는지를 나타내기 위해 &#x27;as far back as&#x27;를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;As far back as the 16th century, chocolate was used in Europe.&#x27;, &#x27;segment&#x27;: &#x27;As far back as the 16th century&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;The tradition dates back as far as the Mayan civilization.&#x27;, &#x27;segment&#x27;: &#x27;as far as the Mayan civilization&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present Simple Tense</div>
+    <div class="explanation">Describes general truths, habitual actions, or facts, using the base form of the verb.</div>
+    <div class="explanation-ko">일반적인 진실, 습관적인 행동, 또는 사실을 나타내기 위해 기본형 동사를 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Cocoa plants use slave and child labor in some regions.&#x27;, &#x27;segment&#x27;: &#x27;use slave and child labor&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;The sun rises in the east every day.&#x27;, &#x27;segment&#x27;: &#x27;rises in the east&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional Sentences</div>
+    <div class="explanation">Expresses hypothetical situations, using &#x27;if&#x27; to introduce a condition and a result.</div>
+    <div class="explanation-ko">가상의 상황을 표현하기 위해 &#x27;if&#x27;로 조건을 시작하고 결과를 나타냅니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;If chocolate were free, everyone would eat it.&#x27;, &#x27;segment&#x27;: &#x27;If chocolate were free&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;If I had known about the festival, I would have come.&#x27;, &#x27;segment&#x27;: &#x27;If I had known&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"The The The"</div>
+        <div class="signal-role">발표의 시작을 강조하고 청중의 주의를 끌어당김</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Yet knowing more about its fascinating and often cruel history"</div>
+        <div class="signal-role">핵심 메시지 강조 — 역사적 맥락이 현대 연관성에 미치는 영향을 강조</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"So as you unwrap your next bar of chocolate"</div>
+        <div class="signal-role">종결적 호소 — 청중에게 사고를 유도하는 마무리</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"FINALLY"</div>
+        <div class="signal-role">강한 마무리 강조 — 메시지의 중요성을 반복 강조</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The world of chocolate would change forever"</div>
+        <div class="signal-role">새로운 주제로 전환 — 기술적 혁신으로 이어짐</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"The key is"</div>
+        <div class="signal-role">핵심 메시지 요약 — 역사적 맥락이 현대 연관성에 미치는 영향을 강조</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=ibjUpk9Iagk
+    </div>
+</div>
+
+</body>
+</html>

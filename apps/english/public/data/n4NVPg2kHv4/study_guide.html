@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>English Pronunciation Training | Improve Your Accent &amp; Speak Clearly</h1>
+    <div class="subtitle">mmmEnglish</div>
+    <div class="desc-ko">영어 발음 훈련 — 악센트 개선과 명확한 발음 연습</div>
+    <div><span class="diff-badge">Beginner</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">7:46</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">97</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">82</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/n4NVPg2kHv4/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/n4NVPg2kHv4">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (15 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (5 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (14 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 7-minute video by mmmEnglish is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:00 ~ 0:36</span>
+    </div>
+    <div class="sec-summary">진행자가 수업 주제를 소개합니다: IPA(국제 음성 기호)를 사용한 영어 발음 향상.</div>
+    <div class="key-points"><span class="key-point">영어 발음 향상에는 원어민과 IPA라는 도구가 필요하다</span><span class="key-point">IPA는 국제 음성 기호(International Phonetic Alphabet)의 약자이다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">The Problem with English Spelling</span>
+        <span class="sec-time">0:42 ~ 1:39</span>
+    </div>
+    <div class="sec-summary">같은 글자가 다른 소리를 나타낼 수 있음을 보여주며 영어 발음이 어려운 이유를 설명합니다. 글자 C를 예시로 사용합니다 (cup, place, chocolate, ache).</div>
+    <div class="key-points"><span class="key-point">많은 언어에서는 글자와 소리가 1:1로 대응하지만 영어는 그렇지 않다</span><span class="key-point">같은 글자 C가 단어에 따라 /k/, /s/, /tʃ/ 등 다르게 발음된다</span><span class="key-point">영어 철자만으로는 정확한 발음을 알 수 없다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Why IPA is Useful</span>
+        <span class="sec-time">1:41 ~ 2:25</span>
+    </div>
+    <div class="sec-summary">&#x27;though&#x27;, &#x27;thought&#x27;, &#x27;cough&#x27; 같은 단어들이 같은 철자(OUGH)를 가지지만 다른 발음을 가짐을 보여주며 IPA의 가치를 설명합니다.</div>
+    <div class="key-points"><span class="key-point">IPA에서는 모든 소리에 고유한 기호가 있다</span><span class="key-point">IPA를 읽으면 영어 단어를 정확히 어떻게 발음하는지 알 수 있다</span><span class="key-point">같은 OUGH 철자도 though, thought, cough에서 모두 다르게 발음된다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Getting Started with IPA</span>
+        <span class="sec-time">2:27 ~ 3:28</span>
+    </div>
+    <div class="sec-summary">IPA 기호에 겁먹지 말라고 격려하며, 영어에는 26개의 글자밖에 없지만 44개의 소리가 있어서 IPA가 필요하다고 설명합니다.</div>
+    <div class="key-points"><span class="key-point">IPA 기호가 처음에는 무섭게 보일 수 있지만 실제로는 매우 도움이 된다</span><span class="key-point">영어 알파벳에는 26개의 글자가 있지만 44개의 다른 소리가 있다</span><span class="key-point">소리가 글자보다 많기 때문에 IPA가 필요하다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Vowel Sounds</span>
+        <span class="sec-time">3:29 ~ 4:26</span>
+    </div>
+    <div class="sec-summary">영어 모음 소리를 다룹니다. 모음 글자는 5개(A, E, I, O, U)뿐이지만 긴 소리, 짧은 소리, 슈와 소리를 포함하여 훨씬 더 많은 모음 소리가 있음을 설명합니다.</div>
+    <div class="key-points"><span class="key-point">영어 모음 글자는 5개이지만 모음 소리는 훨씬 많다</span><span class="key-point">모음 소리에는 긴 소리, 짧은 소리, 게으른(슈와) 소리가 있다</span><span class="key-point">각 모음 소리의 IPA 기호를 배운다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Diphthongs</span>
+        <span class="sec-time">4:26 ~ 5:14</span>
+    </div>
+    <div class="sec-summary">이중모음을 소개합니다 — 같은 음절 안에서 한 소리에서 다른 소리로 전환되는 모음 소리입니다. 각 이중모음을 입 모양 변화와 함께 시범합니다.</div>
+    <div class="key-points"><span class="key-point">이중모음은 같은 음절 안에서 한 모음 소리에서 다른 모음 소리로 변하는 소리이다</span><span class="key-point">이중모음을 발음할 때 입 모양이 변하는 것을 관찰할 수 있다</span><span class="key-point">이중모음의 이름은 기억할 필요 없고 소리만 기억하면 된다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Consonant Sounds</span>
+        <span class="sec-time">5:16 ~ 7:00</span>
+    </div>
+    <div class="sec-summary">자음 소리를 다루며 유성음과 무성음의 차이를 설명합니다. 유성음은 성대 진동을 사용하고 무성음은 공기만 사용합니다.</div>
+    <div class="key-points"><span class="key-point">자음 소리는 공기가 입 뒤쪽에서 입술 밖으로 이동하며 만들어진다</span><span class="key-point">유성음은 성대를 진동시켜 만들어지고, 무성음은 공기만으로 만들어진다</span><span class="key-point">목에 손을 대면 유성음과 무성음의 차이를 느낄 수 있다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Conclusion</span>
+        <span class="sec-time">7:03 ~ 7:31</span>
+    </div>
+    <div class="sec-summary">수업을 마무리하고 시청자들에게 IPA 연습용 무료 학습지 다운로드, 채널 구독, 모음 소리에 대한 다음 영상 시청을 안내합니다.</div>
+    <div class="key-points"><span class="key-point">웹사이트에서 무료 IPA 연습 학습지를 다운로드할 수 있다</span><span class="key-point">채널을 구독하면 다음 수업을 받을 수 있다</span><span class="key-point">다음 영상은 영어 모음 소리에 대한 내용이다</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">pronunciation</span>
+        <span class="phonetic">/prəˌnʌnsiˈeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the way in which a word or language is spoken</div>
+    <div class="meaning-ko">발음</div>
+    <div class="etymology">Latin &#x27;pronuntiatio&#x27; meaning declaration or utterance</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro-</span><span class="root-part">nunci</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"I know you&#x27;re super keen to improve your English pronunciation."</div>
+    <div class='related'>Related: pronounce, pronouncing, mispronunciation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">alphabet</span>
+        <span class="phonetic">/ˈælfəˌbɛt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a set of letters or symbols used to write a language</div>
+    <div class="meaning-ko">알파벳, 글자 체계</div>
+    <div class="etymology">Greek &#x27;alpha&#x27; + &#x27;beta&#x27;, the first two letters of the Greek alphabet</div>
+    <div class="root-breakdown"><span class="root-part">alpha+beta</span></div>
+    <div class="context">"The International Phonetic Alphabet."</div>
+    <div class='related'>Related: alphabetical, alphabetize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">phonetic</span>
+        <span class="phonetic">/fəˈnɛtɪk/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to the sounds of speech</div>
+    <div class="meaning-ko">음성의, 음성학적인</div>
+    <div class="etymology">Greek &#x27;phonetikos&#x27; from &#x27;phone&#x27; meaning voice or sound</div>
+    <div class="root-breakdown"><span class="root-part">phon</span><span class="root-part suffix">-etic</span></div>
+    <div class="context">"The International Phonetic Alphabet."</div>
+    <div class='related'>Related: phonetics, phoneme, phonology</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vowel</span>
+        <span class="phonetic">/ˈvaʊəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a speech sound made with the vocal tract open, represented by the letters A, E, I, O, U</div>
+    <div class="meaning-ko">모음</div>
+    <div class="etymology">Latin &#x27;vocalis&#x27; meaning vocal, from &#x27;vox&#x27; meaning voice</div>
+    <div class="root-breakdown"><span class="root-part">vow</span><span class="root-part suffix">-el</span></div>
+    <div class="context">"Let&#x27;s look at vowels first."</div>
+    <div class='related'>Related: vowels, vocal, voice</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consonant</span>
+        <span class="phonetic">/ˈkɑːnsənənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a speech sound made by partially or fully blocking the flow of air</div>
+    <div class="meaning-ko">자음</div>
+    <div class="etymology">Latin &#x27;consonans&#x27; meaning sounding together</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">son</span><span class="root-part suffix">-ant</span></div>
+    <div class="context">"Consonant sounds which means that the sound is made by air moving from the back of your mouth."</div>
+    <div class='related'>Related: consonance, consonantal</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">diphthong</span>
+        <span class="phonetic">/ˈdɪfθɔːŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a sound formed by combining two vowels in a single syllable</div>
+    <div class="meaning-ko">이중모음</div>
+    <div class="etymology">Greek &#x27;diphthongos&#x27; from &#x27;di-&#x27; meaning two and &#x27;phthongos&#x27; meaning sound</div>
+    <div class="root-breakdown"><span class="root-part prefix">di-</span><span class="root-part">phthong</span></div>
+    <div class="context">"There&#x27;s another group of vowel sounds called diphthongs."</div>
+    <div class='related'>Related: monophthong, triphthong</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">syllable</span>
+        <span class="phonetic">/ˈsɪləbəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a unit of pronunciation having one vowel sound</div>
+    <div class="meaning-ko">음절</div>
+    <div class="etymology">Greek &#x27;syllabe&#x27; meaning that which is held together</div>
+    <div class="root-breakdown"><span class="root-part prefix">syl-</span><span class="root-part">lab</span><span class="root-part suffix">-le</span></div>
+    <div class="context">"Diphthongs are sounds that change from one vowel sound to another but in the same syllable."</div>
+    <div class='related'>Related: syllabic, monosyllable, polysyllabic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">symbol</span>
+        <span class="phonetic">/ˈsɪmbəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a mark, character, or sign used to represent something</div>
+    <div class="meaning-ko">기호, 상징</div>
+    <div class="etymology">Greek &#x27;symbolon&#x27; meaning token or sign</div>
+    <div class="root-breakdown"><span class="root-part prefix">sym-</span><span class="root-part">bol</span></div>
+    <div class="context">"In the IPA, every sound has a unique symbol."</div>
+    <div class='related'>Related: symbolic, symbolize, symbolism</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">pronounce</span>
+        <span class="phonetic">/prəˈnaʊns/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to make the sound of a word or letter</div>
+    <div class="meaning-ko">발음하다</div>
+    <div class="etymology">Latin &#x27;pronuntiare&#x27; meaning to proclaim</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro-</span><span class="root-part">nounce</span></div>
+    <div class="context">"So it&#x27;s easy to try and pronounce words."</div>
+    <div class='related'>Related: pronunciation, pronounced, mispronounce</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">improve</span>
+        <span class="phonetic">/ɪmˈpruːv/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to make or become better</div>
+    <div class="meaning-ko">향상시키다, 개선하다</div>
+    <div class="etymology">Anglo-French &#x27;emprower&#x27; meaning to profit</div>
+    <div class="root-breakdown"><span class="root-part prefix">im-</span><span class="root-part">prove</span></div>
+    <div class="context">"I know you&#x27;re super keen to improve your English pronunciation."</div>
+    <div class='related'>Related: improvement, improving</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">native</span>
+        <span class="phonetic">/ˈneɪtɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to the place or environment in which a person was born</div>
+    <div class="meaning-ko">원어민의, 태어난 곳의</div>
+    <div class="etymology">Latin &#x27;nativus&#x27; meaning born, natural</div>
+    <div class="root-breakdown"><span class="root-part">nat</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"A native English speaker and a super amazing tool called the IPA."</div>
+    <div class='related'>Related: natively, nativity</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">spelling</span>
+        <span class="phonetic">/ˈspɛlɪŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the way a word is written with letters in the correct order</div>
+    <div class="meaning-ko">철자, 맞춤법</div>
+    <div class="etymology">Old English &#x27;spellian&#x27; meaning to tell or relate</div>
+    <div class="root-breakdown"><span class="root-part">spell</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"All have the same O-U-G-H spelling."</div>
+    <div class='related'>Related: spell, misspelling, spelt</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vocal cords</span>
+        <span class="phonetic">/ˈvoʊkəl kɔːrdz/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">folds of tissue in the throat that vibrate to produce voice sounds</div>
+    <div class="meaning-ko">성대</div>
+    <div class="etymology">Latin &#x27;vocalis&#x27; meaning of the voice + &#x27;chorda&#x27; meaning string</div>
+    <div class="root-breakdown"><span class="root-part">vocal + cord</span><span class="root-part suffix">-s</span></div>
+    <div class="context">"The sound is made here with your vocal cords."</div>
+    <div class='related'>Related: voice, vocal, chord</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">voiced</span>
+        <span class="phonetic">/vɔɪst/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">produced with vibration of the vocal cords</div>
+    <div class="meaning-ko">유성의, 유성음의</div>
+    <div class="etymology">From &#x27;voice&#x27; + &#x27;-ed&#x27;, Old French &#x27;voiz&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">voice</span><span class="root-part suffix">-d</span></div>
+    <div class="context">"All the rest of the consonant sounds are voiced."</div>
+    <div class='related'>Related: unvoiced, voiceless, voice</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">unvoiced</span>
+        <span class="phonetic">/ʌnˈvɔɪst/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">produced without vibration of the vocal cords</div>
+    <div class="meaning-ko">무성의, 무성음의</div>
+    <div class="etymology">Prefix &#x27;un-&#x27; meaning not + &#x27;voiced&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">un-</span><span class="root-part">voice</span><span class="root-part suffix">-d</span></div>
+    <div class="context">"There is one extra letter that is unvoiced down the bottom."</div>
+    <div class='related'>Related: voiced, voiceless</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">unique</span>
+        <span class="phonetic">/juːˈniːk/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">being the only one of its kind; unlike anything else</div>
+    <div class="meaning-ko">고유한, 유일한</div>
+    <div class="etymology">Latin &#x27;unicus&#x27; meaning single, sole</div>
+    <div class="root-breakdown"><span class="root-part prefix">uni-</span><span class="root-part">que</span></div>
+    <div class="context">"In the IPA, every sound has a unique symbol."</div>
+    <div class='related'>Related: uniquely, uniqueness</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">represent</span>
+        <span class="phonetic">/ˌrɛprɪˈzɛnt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to stand for or correspond to something</div>
+    <div class="meaning-ko">나타내다, 대표하다</div>
+    <div class="etymology">Latin &#x27;repraesentare&#x27; meaning to show or display</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">present</span></div>
+    <div class="context">"In lots of languages, each letter represents only one sound."</div>
+    <div class='related'>Related: representation, representative</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">subscribe</span>
+        <span class="phonetic">/səbˈskraɪb/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to sign up to receive regular content or updates</div>
+    <div class="meaning-ko">구독하다</div>
+    <div class="etymology">Latin &#x27;subscribere&#x27; meaning to write beneath</div>
+    <div class="root-breakdown"><span class="root-part prefix">sub-</span><span class="root-part">scribe</span></div>
+    <div class="context">"Make sure you subscribe by clicking the red button."</div>
+    <div class='related'>Related: subscription, subscriber</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">keen</span>
+        <span class="phonetic">/kiːn/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">eager or enthusiastic about something</div>
+    <div class="meaning-ko">열심인, 열망하는</div>
+    <div class="etymology">Old English &#x27;cene&#x27; meaning bold, brave</div>
+    <div class="root-breakdown"><span class="root-part">keen</span></div>
+    <div class="context">"I know you&#x27;re super keen to improve your English pronunciation."</div>
+    <div class='related'>Related: keenly, keenness</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">worksheet</span>
+        <span class="phonetic">/ˈwɜːrkʃiːt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a sheet of paper with exercises or problems for students</div>
+    <div class="meaning-ko">학습지, 연습 문제지</div>
+    <div class="etymology">Compound of &#x27;work&#x27; + &#x27;sheet&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">work+sheet</span></div>
+    <div class="context">"Download the free worksheet to help you practice the IPA sounds."</div>
+    <div class='related'>Related: workbook, handout</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Present Simple for Facts</div>
+    <div class="explanation">The present simple tense is used to state general truths and facts. In this video, it describes how languages and sounds work.</div>
+    <div class="explanation-ko">현재 시제는 일반적인 진실과 사실을 설명할 때 사용됩니다. 이 영상에서는 언어와 소리가 어떻게 작동하는지를 설명하는 데 쓰입니다.</div>
+    <div class="example">Each letter represents only one sound.</div><div class="example">Every sound has a unique symbol.</div><div class="example">There are 44 different sounds.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Contractions (it&#x27;s, don&#x27;t, I&#x27;m, won&#x27;t, they&#x27;re)</div>
+    <div class="explanation">Contractions combine two words into one shorter form. They are essential in spoken English and very common in casual speech.</div>
+    <div class="explanation-ko">축약형은 두 단어를 하나의 짧은 형태로 결합한 것입니다. 구어 영어에서 필수적이며 일상 대화에서 매우 흔합니다.</div>
+    <div class="example">It&#x27;s easy to try and pronounce words.</div><div class="example">Don&#x27;t worry, I&#x27;m going to tell you all about it.</div><div class="example">They won&#x27;t always be pronounced the same way.</div><div class="example">They&#x27;re pronounced very differently.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Imperative for Instructions</div>
+    <div class="explanation">The imperative mood is used to give commands, instructions, or advice. The subject &#x27;you&#x27; is implied and omitted.</div>
+    <div class="explanation-ko">명령법은 명령, 지시, 또는 조언을 할 때 사용됩니다. 주어 &#x27;you&#x27;는 암시되어 생략됩니다.</div>
+    <div class="example">Take the letter C for example.</div><div class="example">Don&#x27;t freak out!</div><div class="example">Let&#x27;s look at vowels first.</div><div class="example">Make sure you subscribe by clicking the red button.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">be going to (Future Plans)</div>
+    <div class="explanation">The structure &#x27;be going to + verb&#x27; is used to talk about planned future actions or intentions.</div>
+    <div class="explanation-ko">&#x27;be going to + 동사&#x27; 구조는 계획된 미래 행동이나 의도에 대해 말할 때 사용됩니다.</div>
+    <div class="example">I&#x27;m going to tell you all about it in just a minute.</div><div class="example">We&#x27;re going to go through the International Phonetic Alphabet together.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Tag Questions (aren&#x27;t there? right?)</div>
+    <div class="explanation">Tag questions are short questions added to the end of a statement to confirm information or seek agreement.</div>
+    <div class="explanation-ko">부가 의문문은 문장 끝에 추가되는 짧은 질문으로, 정보를 확인하거나 동의를 구할 때 사용됩니다.</div>
+    <div class="example">There are five English vowels, aren&#x27;t there?</div><div class="example">There&#x27;s 26 letters in the English alphabet, right?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Passive Voice</div>
+    <div class="explanation">The passive voice is formed with &#x27;be + past participle&#x27; and is used when the focus is on the action rather than who does it.</div>
+    <div class="explanation-ko">수동태는 &#x27;be + 과거분사&#x27;로 구성되며 행위자보다 행동 자체에 초점을 맞출 때 사용됩니다.</div>
+    <div class="example">They won&#x27;t always be pronounced the same way.</div><div class="example">In the word cup, it&#x27;s pronounced...</div><div class="example">The sound is made by air moving from the back of your mouth.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Comparative with &#x27;more...than&#x27;</div>
+    <div class="explanation">Used to compare two things. &#x27;Way more than&#x27; adds emphasis to show a big difference.</div>
+    <div class="explanation-ko">두 가지를 비교할 때 사용됩니다. &#x27;Way more than&#x27;은 큰 차이를 강조합니다.</div>
+    <div class="example">Way more than there are letters.</div><div class="example">There are way more English vowel sounds.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present Continuous for Current Activities</div>
+    <div class="explanation">The present continuous (be + -ing) describes actions happening now or around the present time.</div>
+    <div class="explanation-ko">현재 진행형(be + -ing)은 지금 또는 현재 시점 주변에 일어나는 행동을 설명합니다.</div>
+    <div class="example">When I&#x27;m teaching pronunciation lessons.</div><div class="example">When they&#x27;re studying English pronunciation.</div><div class="example">Watch my mouth position change as I make each of these sounds.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional &#x27;when&#x27; Clauses</div>
+    <div class="explanation">When-clauses describe situations that happen at a particular time or under certain conditions.</div>
+    <div class="explanation-ko">when절은 특정 시간이나 조건에서 발생하는 상황을 설명합니다.</div>
+    <div class="example">When you see letters in an English word, they won&#x27;t always be pronounced the same way.</div><div class="example">When a C is next to a H, it&#x27;s often like in chocolate.</div><div class="example">When you read it, you know exactly how to pronounce the English word.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">This is why... (Cause and Result)</div>
+    <div class="explanation">The phrase &#x27;This is why...&#x27; connects a reason or cause to its result or consequence.</div>
+    <div class="explanation-ko">&#x27;This is why...&#x27; 구문은 이유나 원인을 결과에 연결합니다.</div>
+    <div class="example">This is why the International Phonetic Alphabet is such a great tool.</div><div class="example">That&#x27;s why I use the IPA to help my students.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">some...some...some (Parallel Structure)</div>
+    <div class="explanation">Repeating &#x27;some&#x27; creates a parallel structure to list different categories or types within a group.</div>
+    <div class="explanation-ko">&#x27;some&#x27;을 반복하면 그룹 내의 다른 범주나 유형을 나열하는 병렬 구조를 만듭니다.</div>
+    <div class="example">Some of them are long, some of them are short, and some of them are just lazy.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Make sure you... (Strong Advice)</div>
+    <div class="explanation">The phrase &#x27;Make sure you...&#x27; is used to give strong recommendations or reminders.</div>
+    <div class="explanation-ko">&#x27;Make sure you...&#x27;는 강한 권고나 당부를 할 때 사용됩니다.</div>
+    <div class="example">Make sure you go to my website.</div><div class="example">Make sure you subscribe by clicking the red button.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">you&#x27;re</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">유어 → 여</span>
+    <div class="details">
+        <div class="phonetic-ipa">/jʊr/ → /jər/</div>
+        <div class="explanation-text">&#x27;you&#x27;re&#x27;는 빠른 말에서 축약되며, 모음이 슈와 소리로 변합니다.</div>
+        <div class="practice">&#x27;유어&#x27;를 빠르게 &#x27;여&#x27;처럼 발음해 보세요. 강세가 없는 위치에서 자연스럽게 줄어듭니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">고잉 투 → 거나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɡoʊɪŋ tuː/ → /ˈɡɒnə/</div>
+        <div class="explanation-text">&#x27;going to&#x27;는 구어 영어에서 흔히 &#x27;gonna&#x27;로 축약되며, 특히 비격식적인 상황에서 그렇습니다.</div>
+        <div class="practice">&#x27;고잉 투&#x27; 대신 &#x27;거나&#x27;로 발음해 보세요. 일상 대화에서 매우 자연스럽습니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I&#x27;m going to tell you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아임 고잉 투 텔 유 → 아이머나 텔여</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪm ˈɡoʊɪŋ tə tɛl juː/ → /aɪmənə tɛljə/</div>
+        <div class="explanation-text">전체 구문이 빠른 말에서 크게 축약됩니다. &#x27;I&#x27;m going to&#x27;는 &#x27;I&#x27;m gonna&#x27;가 되고 &#x27;tell you&#x27;는 연결됩니다.</div>
+        <div class="practice">전체 문장을 한 호흡에 자연스럽게 &#x27;아이머나 텔여&#x27;로 말해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">for example</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">포 이그잼플 → 프리그잼플</span>
+    <div class="details">
+        <div class="phonetic-ipa">/fɔːr ɪɡˈzæmpəl/ → /frɪɡˈzæmpəl/</div>
+        <div class="explanation-text">&#x27;for&#x27;는 빠른 말에서 모음을 잃고 /fr/로 축약됩니다.</div>
+        <div class="practice">&#x27;포&#x27;를 완전히 발음하지 말고 &#x27;프&#x27;로 빠르게 지나가면서 바로 &#x27;이그잼플&#x27;로 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">them</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">뎀 → 덤 또는 엄</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ðɛm/ → /ðəm/ or /əm/</div>
+        <div class="explanation-text">대명사 &#x27;them&#x27;은 강세가 없는 위치에서 자주 축약되며, 모음이 슈와로 변합니다.</div>
+        <div class="practice">&#x27;뎀&#x27;을 완전히 발음하지 말고 &#x27;덤&#x27; 또는 &#x27;엄&#x27;으로 가볍게 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">and</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">앤드 → 언 또는 ㄴ</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ænd/ → /ən/ or /n/</div>
+        <div class="explanation-text">&#x27;and&#x27;는 연결 발화에서 거의 항상 축약되며, &#x27;d&#x27;를 잃고 종종 모음도 잃습니다.</div>
+        <div class="practice">&#x27;앤드&#x27;를 완전히 발음하지 말고 &#x27;언&#x27; 또는 &#x27;ㄴ&#x27;으로 가볍게 연결하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">keen to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">킨 투 → 킨터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/kiːn.tə/ → /kiːntə/</div>
+        <div class="explanation-text">&#x27;keen&#x27;의 마지막 &#x27;n&#x27;이 &#x27;to&#x27;의 &#x27;t&#x27;와 직접 연결되어 매끄러운 연결을 만듭니다.</div>
+        <div class="practice">&#x27;킨&#x27;과 &#x27;투&#x27;를 끊지 말고 &#x27;킨터&#x27;처럼 자연스럽게 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">it&#x27;s easy</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">잇츠 이지 → 잇시지</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɪts ˈiːzi/ → /ɪtsˈiːzi/</div>
+        <div class="explanation-text">&#x27;it&#x27;s&#x27;의 마지막 &#x27;s&#x27;가 &#x27;easy&#x27;의 첫 모음과 매끄럽게 연결됩니다.</div>
+        <div class="practice">&#x27;잇츠&#x27;와 &#x27;이지&#x27; 사이에 멈추지 말고 &#x27;잇시지&#x27;처럼 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">look at</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">룩 앳 → 루캣</span>
+    <div class="details">
+        <div class="phonetic-ipa">/lʊk æt/ → /lʊkæt/</div>
+        <div class="explanation-text">&#x27;look&#x27;의 마지막 &#x27;k&#x27;가 &#x27;at&#x27;의 모음 &#x27;a&#x27;와 직접 연결되어 매끄러운 연결이 됩니다.</div>
+        <div class="practice">&#x27;룩&#x27;과 &#x27;앳&#x27;을 끊지 말고 &#x27;루캣&#x27;처럼 하나의 단어처럼 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">all about it</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">올 어바웃 잇 → 올러바우딧</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɔːl əˈbaʊt ɪt/ → /ɔːləˈbaʊtɪt/</div>
+        <div class="explanation-text">단어들이 서로 연결됩니다: &#x27;all&#x27;이 모음을 통해 &#x27;about&#x27;에 연결되고, &#x27;about&#x27;의 &#x27;t&#x27;가 &#x27;it&#x27;에 연결됩니다.</div>
+        <div class="practice">세 단어를 한 덩어리로 &#x27;올러바우딧&#x27;처럼 끊지 않고 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">freak out</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">프릭 아웃 → 프리카웃</span>
+    <div class="details">
+        <div class="phonetic-ipa">/friːk aʊt/ → /friːkaʊt/</div>
+        <div class="explanation-text">&#x27;freak&#x27;의 마지막 &#x27;k&#x27;가 &#x27;out&#x27;의 첫 모음과 직접 연결됩니다.</div>
+        <div class="practice">&#x27;프릭&#x27;과 &#x27;아웃&#x27;을 끊지 말고 &#x27;프리카웃&#x27;처럼 연결하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">lots of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">랏츠 오브 → 랏써브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/lɒts ɒv/ → /lɒtsəv/</div>
+        <div class="explanation-text">&#x27;of&#x27;의 &#x27;o&#x27;가 슈와로 축약되고 구문이 한 단위로 발음됩니다.</div>
+        <div class="practice">&#x27;랏츠&#x27;와 &#x27;오브&#x27;를 분리하지 말고 &#x27;랏써브&#x27;처럼 한 덩어리로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">different to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">디퍼런트 투 → 디프런 터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdɪfərənt tuː/ → /ˈdɪfrənt tə/</div>
+        <div class="explanation-text">&#x27;different&#x27;의 가운데 모음이 탈락하여 세 음절 대신 두 음절이 됩니다. &#x27;to&#x27;는 /tə/로 축약됩니다.</div>
+        <div class="practice">&#x27;디퍼런트&#x27; 대신 &#x27;디프런&#x27;으로 발음하고, &#x27;to&#x27;도 &#x27;투&#x27; 대신 &#x27;터&#x27;로 가볍게 발음하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">don&#x27;t worry</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">돈트 워리 → 돈 워리</span>
+    <div class="details">
+        <div class="phonetic-ipa">/doʊnt ˈwʌri/ → /doʊn ˈwʌri/</div>
+        <div class="explanation-text">&#x27;don&#x27;t&#x27;의 끝에 있는 &#x27;t&#x27;는 &#x27;w&#x27; 소리 앞에서 종종 탈락하거나 불파음이 됩니다.</div>
+        <div class="practice">&#x27;돈트&#x27; 대신 &#x27;돈&#x27;으로 끝내고 바로 &#x27;워리&#x27;로 이어가세요. &#x27;t&#x27; 소리를 완전히 내지 않아도 됩니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">next to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">넥스트 투 → 넥스터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/nɛkst tuː/ → /nɛks tə/</div>
+        <div class="explanation-text">&#x27;next&#x27;의 끝에 있는 &#x27;t&#x27;가 &#x27;to&#x27;의 &#x27;t&#x27;와 합쳐지고, &#x27;to&#x27;는 /tə/로 축약됩니다.</div>
+        <div class="practice">&#x27;넥스트 투&#x27; 대신 &#x27;t&#x27;를 한 번만 발음하여 &#x27;넥스터&#x27;처럼 말하세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"Hey guys!"</div>
+        <div class="signal-role">시청자의 주의를 끄는 친근한 인사</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"I know you&#x27;re super keen to"</div>
+        <div class="signal-role">시청자의 동기와 욕구에 공감하여 관심을 유도</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Don&#x27;t worry"</div>
+        <div class="signal-role">시청자의 불안감을 줄이며 설명으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"This is why"</div>
+        <div class="signal-role">앞의 문제점에서 해결책(IPA)으로 연결하는 인과 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"For example"</div>
+        <div class="signal-role">구체적인 예시를 제시하며 설명을 뒷받침</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Don&#x27;t freak out!"</div>
+        <div class="signal-role">시청자를 안심시키며 실습 단계로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"In today&#x27;s lesson, we&#x27;re going to go through"</div>
+        <div class="signal-role">수업의 본론으로 들어가는 전환 신호</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Let&#x27;s look at vowels first"</div>
+        <div class="signal-role">첫 번째 주제(모음)로 전환하는 신호</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Let&#x27;s go through them"</div>
+        <div class="signal-role">실습 단계로 넘어가는 전환 신호</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"There&#x27;s another group of vowel sounds called diphthongs"</div>
+        <div class="signal-role">새로운 소리 그룹(이중모음)으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Watch my mouth position change"</div>
+        <div class="signal-role">시각적 시범으로 전환하는 지시 신호</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Well that&#x27;s it for this lesson"</div>
+        <div class="signal-role">수업의 종료를 알리는 마무리 신호</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Make sure you subscribe"</div>
+        <div class="signal-role">구독을 유도하는 행동 촉구(CTA)</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"See you then!"</div>
+        <div class="signal-role">다음 영상을 기대하게 하는 마무리 인사</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=n4NVPg2kHv4
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>WATCH THIS EVERYDAY AND CHANGE YOUR LIFE - Denzel Washington Motivational Speech</h1>
+    <div class="subtitle">AlexKaltsMotivation</div>
+    <div class="desc-ko">꿈을 향해 실패를 두려워하지 마라 — 덴젤 워싱턴 연설</div>
+    <div><span class="diff-badge">Beginner</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">10:05</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">152</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">79</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/tbnzAVRZ9Xc/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/tbnzAVRZ9Xc">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 10-minute video by AlexKaltsMotivation is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Nothing Is Worthwhile Unless You Take Risks</span>
+        <span class="sec-time">0:07 ~ 0:56</span>
+    </div>
+    <div class="sec-summary">덴젤은 작게 행동하는 것의 위험성에 대한 넬슨 만델라의 명언으로 시작해요. &#x27;뒤로 물러설 곳&#x27;을 마련하라는 생각을 거부하고, 핵심 비유인 &#x27;앞으로 넘어지라&#x27;를 소개해요.</div>
+    <div class="key-points"><span class="key-point">Nothing in life is worthwhile unless you take risks</span><span class="key-point">Rejects the concept of &#x27;falling back on&#x27; something safe</span><span class="key-point">Introduces the key metaphor: fall forward</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Take Risks: Reggie Jackson and Thomas Edison</span>
+        <span class="sec-time">0:59 ~ 2:20</span>
+    </div>
+    <div class="sec-summary">덴젤은 청중에게 꾸준하고 기회를 잡으며 틀 밖에서 생각하라고 격려해요. 레지 잭슨의 삼진과 토마스 에디슨의 실패한 실험을 예로 들어 실패가 성공으로 이어진다는 것을 보여줘요.</div>
+    <div class="key-points"><span class="key-point">Consistency is essential to finishing what you start</span><span class="key-point">Think outside the box and dream big</span><span class="key-point">Reggie Jackson&#x27;s 2,600 strikeouts vs. remembered home runs</span><span class="key-point">Edison&#x27;s 1,000 failed experiments led to the light bulb</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Personal Failure: The Broadway Audition</span>
+        <span class="sec-time">2:21 ~ 4:13</span>
+    </div>
+    <div class="sec-summary">덴젤은 노래를 못해서 브로드웨이 오디션에 떨어진 개인적인 이야기를 나눠요. 반복된 실패에도 포기하지 않았고, 수년 후 처음 떨어졌던 바로 그 극장에서 공연하며 끈기의 가치를 증명해요.</div>
+    <div class="key-points"><span class="key-point">Failure is inevitable — accept and embrace it</span><span class="key-point">Failed a Broadway audition because he couldn&#x27;t sing</span><span class="key-point">Kept preparing for the next audition without quitting</span><span class="key-point">Performed &#x27;Fences&#x27; at the same theater 30 years later</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Ghosts of Unfulfilled Potential</span>
+        <span class="sec-time">4:14 ~ 5:30</span>
+    </div>
+    <div class="sec-summary">덴젤은 임종의 침대 위 유령이라는 강력한 비유를 제시해요. 행동하지 않으면 함께 죽는 이루지 못한 아이디어, 재능, 잠재력을 나타내는 유령들이에요. 청중에게 &#x27;유령&#x27;을 줄이라고 도전해요.</div>
+    <div class="key-points"><span class="key-point">To get what you never had, do what you never did</span><span class="key-point">Ghosts of unfulfilled potential surround your deathbed</span><span class="key-point">These ghosts are angry because you could have brought them to life</span><span class="key-point">Challenge: How many ghosts will be at your bed?</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">The World Needs Your Help</span>
+        <span class="sec-time">5:42 ~ 6:58</span>
+    </div>
+    <div class="sec-summary">덴젤은 졸업생들에게 행동을 촉구하며, 아프리카에서 앨라배마까지 세상이 절실히 도움을 필요로 한다고 말해요. 시간이든 재능이든 인내든 사랑이든 가진 모든 것을 쏟으라고 요청해요.</div>
+    <div class="key-points"><span class="key-point">The world has terrible poverty and needs your help</span><span class="key-point">Give everything: time, talent, prayers, treasures</span><span class="key-point">It&#x27;s not about how much you have, but what you do with it</span><span class="key-point">Repeated rhetorical question: What are you going to do with what you have?</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">A Winding Path: From Failed Pre-Med to Actor</span>
+        <span class="sec-time">7:00 ~ 8:58</span>
+    </div>
+    <div class="sec-summary">덴젤은 실패한 의대 예과생에서 배우가 된 자신의 구불구불한 인생 경로를 나눠요. 가장 낮은 지점에서 어머니의 미용실에서 한 노부인이 수백만 명에게 말하게 될 거라고 예언했고, 영화 경력을 통해 실현됐어요.</div>
+    <div class="key-points"><span class="key-point">Life is never a straight path</span><span class="key-point">Failed pre-med, pre-law, and journalism before finding acting</span><span class="key-point">Had a 1.8 GPA and was asked to take time off from university</span><span class="key-point">An elderly woman prophesied he would speak to millions</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Never Be Discouraged, Fall Forward</span>
+        <span class="sec-time">9:00 ~ 10:05</span>
+    </div>
+    <div class="sec-summary">덴젤은 졸업생들에게 감사와 격려를 표현하며 마무리해요. 믿음을 붙잡고 절대 낙심하지 말며, 가진 모든 것을 주고, 항상 앞으로 넘어지라는 것을 기억하라고 촉구해요.</div>
+    <div class="key-points"><span class="key-point">Encouraged and strengthened by what he sees in the graduates</span><span class="key-point">Faith will define you</span><span class="key-point">Never be discouraged, never hold back</span><span class="key-point">Final message: Fall forward</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">worthwhile</span>
+        <span class="phonetic">/ˌwɜːrθˈwaɪl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">worth the time, effort, or money spent; of value or importance</div>
+    <div class="meaning-ko">가치 있는, 보람 있는</div>
+    <div class="etymology">Middle English &#x27;worth&#x27; + &#x27;while&#x27; — literally &#x27;worth the time spent&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">worth (value)</span><span class="root-part suffix">while (time)</span></div>
+    <div class="context">"I found that nothing in life is worthwhile unless you take risks."</div>
+    <div class='related'>Related: worthy, meanwhile, worthless</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">passion</span>
+        <span class="phonetic">/ˈpæʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a strong feeling of enthusiasm or excitement for something</div>
+    <div class="meaning-ko">열정, 열의</div>
+    <div class="etymology">Latin &#x27;passio&#x27; meaning &#x27;suffering, enduring&#x27; — later evolved to mean intense emotion</div>
+    <div class="root-breakdown"><span class="root-part">pass (feel, suffer)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"There is no passion to be found playing small."</div>
+    <div class='related'>Related: passionate, compassion, passive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">settling</span>
+        <span class="phonetic">/ˈsɛtlɪŋ/</span>
+        <span class="pos">verb (gerund)</span>
+    </div>
+    <div class="definition">accepting or agreeing to something less than desired; becoming content with less</div>
+    <div class="meaning-ko">안주하다, (불만족스러운 것에) 타협하다</div>
+    <div class="etymology">Old English &#x27;setlan&#x27; meaning &#x27;to seat, place&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">settle (come to rest)</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"Settling for a life that&#x27;s less than the one you&#x27;re capable of living."</div>
+    <div class='related'>Related: settle, settlement, unsettle</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">capable</span>
+        <span class="phonetic">/ˈkeɪpəbəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">having the ability, fitness, or quality necessary to do something</div>
+    <div class="meaning-ko">~할 수 있는, 유능한</div>
+    <div class="etymology">Late Latin &#x27;capabilis&#x27; from &#x27;capere&#x27; meaning &#x27;to take, hold&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">cap (take, hold)</span><span class="root-part suffix">-able</span></div>
+    <div class="context">"Capable of living."</div>
+    <div class='related'>Related: capability, capacity, incapable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consistency</span>
+        <span class="phonetic">/kənˈsɪstənsi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the quality of always behaving or performing in a similar way; steadfast adherence</div>
+    <div class="meaning-ko">꾸준함, 일관성</div>
+    <div class="etymology">Latin &#x27;consistere&#x27; meaning &#x27;to stand firm, stop&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">sist (stand)</span><span class="root-part suffix">-ency</span></div>
+    <div class="context">"Without consistency, you&#x27;ll never finish."</div>
+    <div class='related'>Related: consistent, consist, insist</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">experiment</span>
+        <span class="phonetic">/ɪkˈspɛrɪmənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a scientific procedure undertaken to test a hypothesis or demonstrate a fact</div>
+    <div class="meaning-ko">실험</div>
+    <div class="etymology">Latin &#x27;experimentum&#x27; from &#x27;experiri&#x27; meaning &#x27;to try, test&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ex-</span><span class="root-part">peri (try)</span><span class="root-part suffix">-ment</span></div>
+    <div class="context">"Thomas Edison conducted one thousand failed experiments."</div>
+    <div class='related'>Related: experience, expert, experimental</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">embarrass</span>
+        <span class="phonetic">/ɪmˈbærəs/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to cause someone to feel awkward, self-conscious, or ashamed</div>
+    <div class="meaning-ko">당황하게 하다, 창피를 주다</div>
+    <div class="etymology">French &#x27;embarrasser&#x27; from Spanish &#x27;embarazar&#x27; meaning &#x27;to obstruct&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">em-</span><span class="root-part">barrass (obstruct)</span></div>
+    <div class="context">"You will embarrass yourself."</div>
+    <div class='related'>Related: embarrassment, embarrassing, barrier</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inevitable</span>
+        <span class="phonetic">/ɪnˈɛvɪtəbəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">certain to happen; unavoidable</div>
+    <div class="meaning-ko">피할 수 없는, 불가피한</div>
+    <div class="etymology">Latin &#x27;inevitabilis&#x27; from &#x27;in-&#x27; (not) + &#x27;evitare&#x27; (to avoid)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in- (not)</span><span class="root-part">evit (avoid)</span><span class="root-part suffix">-able</span></div>
+    <div class="context">"Embrace it. Because it&#x27;s inevitable."</div>
+    <div class='related'>Related: inevitably, evitable, avoid</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">embrace</span>
+        <span class="phonetic">/ɪmˈbreɪs/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to accept something willingly or enthusiastically</div>
+    <div class="meaning-ko">받아들이다, 포용하다</div>
+    <div class="etymology">Old French &#x27;embracer&#x27; from &#x27;en-&#x27; (in) + &#x27;brace&#x27; (arms)</div>
+    <div class="root-breakdown"><span class="root-part prefix">em- (in)</span><span class="root-part">brace (arms)</span></div>
+    <div class="context">"I&#x27;m telling you, embrace it."</div>
+    <div class='related'>Related: embraceable, brace, bracelet</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">audition</span>
+        <span class="phonetic">/ɔːˈdɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">an interview for a performer in which they demonstrate their abilities</div>
+    <div class="meaning-ko">오디션, 시연</div>
+    <div class="etymology">Latin &#x27;auditio&#x27; from &#x27;audire&#x27; meaning &#x27;to hear&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">audit (hear)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"I auditioned for a part in a Broadway musical."</div>
+    <div class='related'>Related: audience, audio, auditorium</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">quit</span>
+        <span class="phonetic">/kwɪt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to stop doing something; to leave or give up</div>
+    <div class="meaning-ko">그만두다, 포기하다</div>
+    <div class="etymology">Old French &#x27;quiter&#x27; meaning &#x27;to release, set free&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">quit (free, release)</span></div>
+    <div class="context">"But here&#x27;s the thing. I didn&#x27;t quit."</div>
+    <div class='related'>Related: quitter, acquit, quite</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">graduate</span>
+        <span class="phonetic">/ˈɡrædʒuət/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a person who has successfully completed a course of study</div>
+    <div class="meaning-ko">졸업생, 졸업하다</div>
+    <div class="etymology">Medieval Latin &#x27;graduatus&#x27; from &#x27;gradus&#x27; meaning &#x27;step, degree&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">grad (step)</span><span class="root-part suffix">-uate</span></div>
+    <div class="context">"Every graduate here today has the training and the talent to succeed."</div>
+    <div class='related'>Related: graduation, gradual, grade</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">guts</span>
+        <span class="phonetic">/ɡʌts/</span>
+        <span class="pos">noun (informal)</span>
+    </div>
+    <div class="definition">courage or determination; personal bravery (informal)</div>
+    <div class="meaning-ko">용기, 배짱</div>
+    <div class="etymology">Old English &#x27;guttas&#x27; meaning &#x27;intestines&#x27; — extended to mean courage</div>
+    <div class="root-breakdown"><span class="root-part">gut (intestine → courage)</span><span class="root-part suffix">-s</span></div>
+    <div class="context">"But do you have the guts to fail?"</div>
+    <div class='related'>Related: gutsy, gut feeling, gutless</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">unfulfilled</span>
+        <span class="phonetic">/ˌʌnfʊlˈfɪld/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">not carried out or brought to completion; not satisfied</div>
+    <div class="meaning-ko">이루지 못한, 충족되지 않은</div>
+    <div class="etymology">Old English &#x27;un-&#x27; (not) + &#x27;fulfill&#x27; from &#x27;full&#x27; + &#x27;fill&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">un- (not)</span><span class="root-part">fulfill (complete)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"The ghosts representing your unfulfilled potential."</div>
+    <div class='related'>Related: fulfill, fulfillment, unfulfilling</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">potential</span>
+        <span class="phonetic">/pəˈtɛnʃəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">having the capacity to develop or become something in the future</div>
+    <div class="meaning-ko">잠재력, 가능성</div>
+    <div class="etymology">Latin &#x27;potentialis&#x27; from &#x27;potentia&#x27; meaning &#x27;power&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">potent (powerful)</span><span class="root-part suffix">-ial</span></div>
+    <div class="context">"The ghosts representing your unfulfilled potential."</div>
+    <div class='related'>Related: potent, potentially, potency</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">poverty</span>
+        <span class="phonetic">/ˈpɒvərti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the state of being extremely poor</div>
+    <div class="meaning-ko">빈곤, 가난</div>
+    <div class="etymology">Old French &#x27;poverte&#x27; from Latin &#x27;paupertas&#x27; meaning &#x27;poor&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">pover (poor)</span><span class="root-part suffix">-ty</span></div>
+    <div class="context">"There are places there with terrible poverty that need help."</div>
+    <div class='related'>Related: impoverished, poor, pauper</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">prophecy</span>
+        <span class="phonetic">/ˈprɒfəsi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a prediction of what will happen in the future</div>
+    <div class="meaning-ko">예언</div>
+    <div class="etymology">Greek &#x27;prophēteia&#x27; from &#x27;prophētēs&#x27; meaning &#x27;one who speaks for God&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro- (before)</span><span class="root-part">phe (speak)</span><span class="root-part suffix">-cy</span></div>
+    <div class="context">"I have a prophecy, a spiritual prophecy."</div>
+    <div class='related'>Related: prophet, prophesy, prophetic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">discouraged</span>
+        <span class="phonetic">/dɪsˈkʌrɪdʒd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">having lost confidence or enthusiasm; disheartened</div>
+    <div class="meaning-ko">낙담한, 의기소침한</div>
+    <div class="etymology">Old French &#x27;descouragier&#x27; from &#x27;des-&#x27; (away) + &#x27;courage&#x27; (heart, spirit)</div>
+    <div class="root-breakdown"><span class="root-part prefix">dis- (away)</span><span class="root-part">courage (heart)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"Never be discouraged, never hold back."</div>
+    <div class='related'>Related: encourage, courage, discouragement</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">deathbed</span>
+        <span class="phonetic">/ˈdɛθbɛd/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the bed where a person lies dying; the final moments before death</div>
+    <div class="meaning-ko">임종의 자리, 죽음의 침대</div>
+    <div class="etymology">Old English &#x27;death&#x27; + &#x27;bed&#x27; — a compound word</div>
+    <div class="root-breakdown"><span class="root-part">death + bed</span></div>
+    <div class="context">"Imagine you&#x27;re on your deathbed."</div>
+    <div class='related'>Related: deathbed confession, dying, mortality</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">theologian</span>
+        <span class="phonetic">/ˌθiːəˈloʊdʒən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a person who studies the nature of God and religious belief</div>
+    <div class="meaning-ko">신학자</div>
+    <div class="etymology">Greek &#x27;theologia&#x27; from &#x27;theos&#x27; (god) + &#x27;logos&#x27; (word, study)</div>
+    <div class="root-breakdown"><span class="root-part">theo (god) + log (study)</span><span class="root-part suffix">-ian</span></div>
+    <div class="context">"Some of you are theologians, nurses, sociologists."</div>
+    <div class='related'>Related: theology, theoretical, theocracy</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Nothing ... unless + clause</div>
+    <div class="explanation">Used to express that something has no value or meaning except under a specific condition. &#x27;Unless&#x27; introduces the only exception.</div>
+    <div class="explanation-ko">&#x27;Nothing ... unless + 절&#x27;은 특정 조건이 아니면 아무런 가치가 없다는 것을 강하게 표현할 때 사용해요. &#x27;unless&#x27;는 유일한 예외를 소개해요.</div>
+    <div class="example">Nothing in life is worthwhile unless you take risks.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Don&#x27;t be afraid to + verb</div>
+    <div class="explanation">An imperative structure used to encourage someone to take action without fear. It directly addresses the listener and motivates them.</div>
+    <div class="explanation-ko">&#x27;Don&#x27;t be afraid to + 동사원형&#x27;은 두려워하지 말고 행동하라고 격려하는 명령문이에요. 듣는 사람에게 직접적으로 동기를 부여하는 표현이에요.</div>
+    <div class="example">Don&#x27;t be afraid to fail.</div><div class="example">Don&#x27;t be afraid to think outside the box.</div><div class="example">Don&#x27;t be afraid to fail big, to dream big.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Dreams without goals are just dreams</div>
+    <div class="explanation">A &#x27;without&#x27; structure that defines a necessary condition. It emphasizes that one element alone is insufficient and needs another to have meaning.</div>
+    <div class="explanation-ko">&#x27;without&#x27;을 사용하여 필수 조건을 정의하는 구조예요. 한 가지 요소만으로는 충분하지 않고 다른 것이 함께해야 의미가 있다는 것을 강조해요.</div>
+    <div class="example">Dreams without goals are just dreams.</div><div class="example">Without consistency, you&#x27;ll never finish.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">You will + verb (future certainty)</div>
+    <div class="explanation">Used to state something as an absolute certainty about the future. The speaker presents failure and loss as unavoidable facts, not possibilities.</div>
+    <div class="explanation-ko">&#x27;You will + 동사원형&#x27;은 미래에 대한 절대적 확신을 표현할 때 사용해요. 화자가 실패와 상실을 가능성이 아닌 피할 수 없는 사실로 제시해요.</div>
+    <div class="example">You will fail at some point in your life.</div><div class="example">You will lose.</div><div class="example">You will embarrass yourself.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Here&#x27;s the thing / Here&#x27;s the kicker</div>
+    <div class="explanation">A discourse marker used to introduce an important or surprising point. It signals that the speaker is about to reveal something the listener should pay special attention to.</div>
+    <div class="explanation-ko">&#x27;Here&#x27;s the thing / Here&#x27;s the kicker&#x27;는 중요하거나 놀라운 요점을 소개할 때 쓰는 담화 표지예요. 듣는 사람이 특별히 주목해야 할 내용을 알려주는 신호예요.</div>
+    <div class="example">But here&#x27;s the thing. I didn&#x27;t quit.</div><div class="example">But here&#x27;s the kicker.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">To get something you never had, you have to do something you never did</div>
+    <div class="explanation">A parallel structure using &#x27;something you never + past tense&#x27; in both parts. It creates a memorable rhetorical balance and emphasizes the need for new action.</div>
+    <div class="explanation-ko">두 부분 모두에서 &#x27;something you never + 과거시제&#x27;를 사용하는 대구법이에요. 기억에 남는 수사적 균형을 만들어 새로운 행동의 필요성을 강조해요.</div>
+    <div class="example">To get something you never had, you have to do something you never did.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Imagine + clause (imperative for visualization)</div>
+    <div class="explanation">The imperative &#x27;imagine&#x27; followed by a scenario to create a vivid mental picture. Used to engage the audience emotionally by making them visualize a situation.</div>
+    <div class="explanation-ko">&#x27;Imagine + 절&#x27;은 생생한 정신적 이미지를 만들기 위한 명령문이에요. 청중이 상황을 시각화하게 해서 감정적으로 참여시키는 데 사용해요.</div>
+    <div class="example">Imagine you&#x27;re on your deathbed.</div><div class="example">And standing around your deathbed are the ghosts representing your unfulfilled potential.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">You&#x27;ve got to + verb (strong obligation)</div>
+    <div class="explanation">An informal way to express strong necessity or obligation. More emphatic than &#x27;you should&#x27; and conveys urgency.</div>
+    <div class="explanation-ko">&#x27;You&#x27;ve got to + 동사원형&#x27;은 강한 필요성이나 의무를 표현하는 비격식적 표현이에요. &#x27;you should&#x27;보다 더 강하고 긴급함을 전달해요.</div>
+    <div class="example">You&#x27;ve got to take risks.</div><div class="example">You got to get out there.</div><div class="example">You got to give it everything you got.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Whether it&#x27;s A, B, or C (listing alternatives)</div>
+    <div class="explanation">Used to present multiple options or possibilities, emphasizing that the statement applies regardless of which alternative is true.</div>
+    <div class="explanation-ko">&#x27;Whether it&#x27;s A, B, or C&#x27;는 여러 선택지나 가능성을 제시할 때 사용해요. 어떤 대안이 사실이든 해당 내용이 적용됨을 강조해요.</div>
+    <div class="example">Whether it&#x27;s your time, your talent, your prayers, or your treasures.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What are you going to do with what you have?</div>
+    <div class="explanation">A rhetorical question using &#x27;what + be going to&#x27; repeated for emphasis. It challenges the listener to reflect on their own resources and actions.</div>
+    <div class="explanation-ko">반복적으로 사용하는 수사적 질문이에요. &#x27;what + be going to&#x27; 구조로 듣는 사람에게 자신의 자원과 행동에 대해 성찰하도록 도전해요.</div>
+    <div class="example">What are you going to do with what you have?</div><div class="example">I&#x27;m not talking about how much you have.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈwɑnə/</div>
+        <div class="explanation-text">&#x27;want to&#x27;는 빠른 자연스러운 말에서 &#x27;wanna&#x27;로 축약돼요. /t/ 소리가 합쳐지고 &#x27;to&#x27;의 모음이 약화되어 &#x27;워나&#x27;처럼 들려요.</div>
+        <div class="practice">&#x27;원트 투&#x27;라고 또박또박 발음하지 말고, &#x27;워나&#x27;처럼 한 덩어리로 빠르게 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">고나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɡɒnə/</div>
+        <div class="explanation-text">&#x27;going to&#x27;가 일상 대화에서 &#x27;gonna&#x27;로 축약돼요. &#x27;-ing to&#x27; 부분이 비음 /nə/ 소리로 줄어들어요.</div>
+        <div class="practice">&#x27;고잉 투&#x27;가 아니라 &#x27;고나&#x27;처럼 발음해 보세요. 영어 원어민의 자연스러운 발화에서 매우 흔해요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">out of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아우러</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈaʊɾə/</div>
+        <div class="explanation-text">&#x27;out&#x27;의 /t/가 모음 사이에서 탄설음 /ɾ/로 바뀌고, &#x27;of&#x27;는 /ə/로만 축약돼요. 전체가 &#x27;outta&#x27;처럼 들려요.</div>
+        <div class="practice">&#x27;아웃 오브&#x27;라고 또박또박 발음하지 말고, &#x27;아우러&#x27;처럼 한 덩어리로 빠르게 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">fall forward</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">폴포워드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/fɔːl_fɔːrwərd/</div>
+        <div class="explanation-text">&#x27;fall&#x27;의 마지막 /l/ 소리가 &#x27;forward&#x27;의 첫 /f/와 자연스럽게 연결돼요. 두 단어 모두 /f/ 소리로 시작해 유창하게 흘러가요.</div>
+        <div class="practice">&#x27;폴&#x27;에서 멈추지 말고 바로 &#x27;포워드&#x27;로 이어서 &#x27;폴포워드&#x27;처럼 한 호흡으로 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">acted on</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">액티돈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈæktɪd_ɒn/</div>
+        <div class="explanation-text">&#x27;acted&#x27;의 마지막 /d/ 소리가 &#x27;on&#x27;의 첫 모음 /ɒ/와 연결되어 두 단어가 하나처럼 들려요.</div>
+        <div class="practice">&#x27;액티드 온&#x27;이 아니라 &#x27;액티돈&#x27;처럼 /d/와 /ɒ/를 끊지 않고 이어서 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">didn&#x27;t quit</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">디든 퀏</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdɪdən kwɪt/</div>
+        <div class="explanation-text">&#x27;didn&#x27;t&#x27;의 마지막 /t/ 소리가 &#x27;quit&#x27;의 /k/ 앞에서 탈락해요. 발음되는 /t/ 대신 성문폐쇄음이 사용돼요.</div>
+        <div class="practice">&#x27;디든트 퀏&#x27;이 아니라 &#x27;디든 퀏&#x27;처럼 /t/를 생략하고 바로 /k/로 넘어가 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">last point</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">래스 포인트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/læs pɔɪnt/</div>
+        <div class="explanation-text">&#x27;last&#x27;의 마지막 /t/가 &#x27;point&#x27;의 /p/ 앞에서 탈락해요. 두 파열음이 만나면 첫 번째가 발음되지 않는 경우가 많아요.</div>
+        <div class="practice">&#x27;래스트 포인트&#x27;가 아니라 &#x27;래스 포인트&#x27;처럼 /t/를 생략해 보세요. 더 자연스러운 발음이 돼요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">got to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">가라</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɡɒɾə/</div>
+        <div class="explanation-text">빠른 말에서 &#x27;got to&#x27;가 &#x27;gotta&#x27;로 변해요. &#x27;got&#x27;의 /t/가 모음 사이에서 탄설음 /ɾ/로 바뀌고, &#x27;to&#x27;는 /ə/로 축약돼요.</div>
+        <div class="practice">&#x27;갓 투&#x27;가 아니라 &#x27;가라&#x27;처럼 /t/를 가볍게 탄설음으로 발음해 보세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"I found that nothing in life is worthwhile unless you take risks"</div>
+        <div class="signal-role">강렬한 첫 문장으로 청중의 주의를 끌고 연설의 핵심 주제를 바로 제시해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"I want to fall forward"</div>
+        <div class="signal-role">연설의 핵심 비유를 소개하며 전체 메시지의 중심축을 설정해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Don&#x27;t be afraid to fail big, to dream big"</div>
+        <div class="signal-role">반복적인 명령문으로 청중에게 두려움을 극복하라고 직접적으로 격려해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Fall forward"</div>
+        <div class="signal-role">핵심 구절을 반복하며 예시들 사이의 전환 역할을 해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"You will fail at some point in your life. Accept it."</div>
+        <div class="signal-role">실패의 불가피성을 단정적으로 선언하며 새로운 논점으로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But here&#x27;s the thing"</div>
+        <div class="signal-role">중요한 반전 포인트를 알리며 실패 후 포기하지 않은 이야기로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"To get something you never had, you have to do something you never did"</div>
+        <div class="signal-role">대구법으로 기억에 남는 교훈을 전달하며 유령 비유의 도입부 역할을 해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"So I ask you today"</div>
+        <div class="signal-role">유령 비유를 마무리하며 청중에게 직접적인 질문으로 성찰을 촉구해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The world needs a lot and we need it from you"</div>
+        <div class="signal-role">개인적 이야기에서 사회적 책임으로 주제를 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"What are you going to do with what you have?"</div>
+        <div class="signal-role">반복되는 수사적 질문으로 청중의 능동적 참여와 자기 성찰을 유도해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Your life will never be a straight path"</div>
+        <div class="signal-role">개인적 경험담으로 전환하며 실패가 인생의 자연스러운 부분임을 보여줘요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"Never be discouraged, never hold back"</div>
+        <div class="signal-role">전체 연설의 메시지를 압축하며 마지막 당부로 마무리해요</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=tbnzAVRZ9Xc
+    </div>
+</div>
+
+</body>
+</html>

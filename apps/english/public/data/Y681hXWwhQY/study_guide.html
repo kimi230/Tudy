@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>The benefits of doing nothing - 6 Minute English</h1>
+    <div class="subtitle">BBC Learning English</div>
+    <div class="desc-ko">아무것도 하지 않는 것의 놀라운 효과 — BBC 6분 영어</div>
+    <div><span class="diff-badge">Beginner</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">6:19</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">152</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">42</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/Y681hXWwhQY/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/Y681hXWwhQY">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (17 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (3 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 6-minute video by BBC Learning English is structured into 5 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">intro</span>
+        <span class="sec-time">0:08 ~ 1:12</span>
+    </div>
+    <div class="sec-summary">베스와 닐이 주제를 소개해요. 닐은 바쁜 하루에 지쳐 있는 반면 베스는 아무것도 하지 않고 있었어요. 베스는 대부분의 동물이 대부분의 시간을 비활동 상태로 보낸다는 놀라운 사실을 소개하며, 왜 동물들이 아무것도 하지 않도록 진화했는지, 게으름이 인간에게도 도움이 될 수 있는지라는 핵심 질문을 던져요.</div>
+    <div class="key-points"><span class="key-point">Contrast between Neil&#x27;s busy day and Beth doing nothing</span><span class="key-point">Most animals spend most of their time doing nothing</span><span class="key-point">Central question: can laziness benefit humans?</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">1:12 ~ 2:24</span>
+    </div>
+    <div class="sec-summary">베스가 지구에서 가장 느린 동물에 대한 퀴즈를 내요. 부지런한 것으로 알려진 개미조차 절반의 시간을 아무것도 하지 않고 보낸다는 사실이 밝혀져요. 댄 샤르보노 교수의 개미 군체 연구가 소개돼요.</div>
+    <div class="key-points"><span class="key-point">Quiz: what is the slowest moving animal on earth?</span><span class="key-point">Even busy ants spend half their time motionless</span><span class="key-point">Introduction of Professor Dan Charbonneau&#x27;s ant research</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">2:24 ~ 3:22</span>
+    </div>
+    <div class="sec-summary">전문가 토론에서 개미가 근면함의 상징으로 여겨지지만 실제로 군체의 약 절반이 항상 비활동 상태라는 것이 밝혀져요. 비활동 개미가 비상시를 위한 예비 인력일 수 있다는 가능한 설명이 탐구되고, 인간 행동과의 유사점이 제시돼요.</div>
+    <div class="key-points"><span class="key-point">Ants symbolize industriousness but half are inactive</span><span class="key-point">Inactive ants may serve as reserves for emergencies</span><span class="key-point">Parallel drawn to human reluctance to work unnecessarily</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">3:23 ~ 4:50</span>
+    </div>
+    <div class="sec-summary">심리학자 샌디 만 박사는 생산적인 것이 과대평가되어 있으며 지루함에 중요한 장점이 있다고 주장해요. 지루함이 호기심과 발명을 촉진한다며 &#x27;지루함이 발명의 어머니&#x27;라는 생각을 제시해요. 하지만 현대 기술의 끊임없는 자극이 머리를 쉬게 하는 것을 더 어렵게 만들어요. 역설: 지루함을 극복하려면 오히려 더 많은 지루함을 허용해야 해요.</div>
+    <div class="key-points"><span class="key-point">Being productive is overrated according to Dr Sandy Mann</span><span class="key-point">Boredom fuels curiosity and invention</span><span class="key-point">Modern technology&#x27;s constant stimulation prevents switching off</span><span class="key-point">Paradox: allow more boredom to overcome boredom</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">conclusion</span>
+        <span class="sec-time">4:50 ~ 6:13</span>
+    </div>
+    <div class="sec-summary">베스가 퀴즈 정답(세 발가락 나무늘보)을 공개하고 진행자들이 핵심 어휘를 복습해요: kicking back, industrious, colony, productive, necessity is the mother of invention, switch off. 프로그램은 아무것도 하지 말라는 가벼운 격려로 마무리돼요.</div>
+    <div class="key-points"><span class="key-point">Quiz answer: three-toed sloth (30cm per minute, algae grows on coat)</span><span class="key-point">Vocabulary recap of six key terms</span><span class="key-point">Light-hearted closing: encouragement to do nothing</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">exhausted</span>
+        <span class="phonetic">/ɪɡˈzɔːstɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">extremely tired; completely drained of energy</div>
+    <div class="meaning-ko">기진맥진한, 완전히 지친</div>
+    <div class="etymology">Latin &#x27;exhaurire&#x27; meaning &#x27;to drain out&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ex-</span><span class="root-part">haust (draw, drain)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"I&#x27;m exhausted, Beth. What have you been doing today?"</div>
+    <div class='related'>Related: exhaust, exhaustion, exhausting</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">kicking back</span>
+        <span class="phonetic">/ˈkɪkɪŋ bæk/</span>
+        <span class="pos">phrasal verb</span>
+    </div>
+    <div class="definition">to stop doing things and relax completely</div>
+    <div class="meaning-ko">느긋하게 쉬다, 편하게 놀다</div>
+    <div class="etymology">American English slang from the imagery of leaning back in a chair with feet up</div>
+    <div class="root-breakdown"><span class="root-part">kick (push with foot)</span><span class="root-part suffix">back (behind)</span></div>
+    <div class="context">"Just sitting around, doing nothing, relaxing and kicking back."</div>
+    <div class='related'>Related: relax, unwind, chill out</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">documentary</span>
+        <span class="phonetic">/ˌdɒkjuˈmɛntəri/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a film or TV programme giving facts about a real subject</div>
+    <div class="meaning-ko">다큐멘터리, 기록 영화</div>
+    <div class="etymology">Latin &#x27;documentum&#x27; meaning &#x27;lesson, proof&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">document (evidence, record)</span><span class="root-part suffix">-ary</span></div>
+    <div class="context">"If you&#x27;ve seen nature documentaries about worker bees flying from flower to flower."</div>
+    <div class='related'>Related: document, documentation, documented</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">evolved</span>
+        <span class="phonetic">/ɪˈvɒlvd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">developed gradually over a long period of time through natural processes</div>
+    <div class="meaning-ko">진화한, 점진적으로 발달한</div>
+    <div class="etymology">Latin &#x27;evolvere&#x27; meaning &#x27;to unroll, to unfold&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">e- (out)</span><span class="root-part">volv (roll, turn)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"Why have some animals evolved to do nothing?"</div>
+    <div class='related'>Related: evolution, evolve, revolve</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">shelter</span>
+        <span class="phonetic">/ˈʃɛltər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a place giving protection from weather or danger</div>
+    <div class="meaning-ko">은신처, 피난처, 보호소</div>
+    <div class="etymology">Old English &#x27;scieldtruma&#x27; meaning &#x27;shield troop, protective formation&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">shelt (shield, protect)</span><span class="root-part suffix">-er</span></div>
+    <div class="context">"In the natural world, where finding food and shelter is hard work."</div>
+    <div class='related'>Related: sheltered, sheltering, shield</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">reputation</span>
+        <span class="phonetic">/ˌrɛpjuˈteɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the beliefs or opinions generally held about someone or something</div>
+    <div class="meaning-ko">평판, 명성</div>
+    <div class="etymology">Latin &#x27;reputatio&#x27; from &#x27;reputare&#x27; meaning &#x27;to think over&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">put (think, reckon)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"Some animals have a reputation for lounging about."</div>
+    <div class='related'>Related: repute, reputable, disreputable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">sloth</span>
+        <span class="phonetic">/slɒθ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a slow-moving tropical mammal; also means laziness or reluctance to work</div>
+    <div class="meaning-ko">나무늘보; 나태함, 게으름</div>
+    <div class="etymology">Old English &#x27;slæwth&#x27; from &#x27;slow&#x27; meaning &#x27;slow, inactive&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">slow (not fast)</span><span class="root-part suffix">-th</span></div>
+    <div class="context">"Well, I think it&#x27;s the three-toed sloth."</div>
+    <div class='related'>Related: slothful, slow, lazy</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">motionless</span>
+        <span class="phonetic">/ˈməʊʃənləs/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">not moving; completely still</div>
+    <div class="meaning-ko">움직이지 않는, 정지한</div>
+    <div class="etymology">Latin &#x27;motio&#x27; (movement) + English &#x27;-less&#x27; (without)</div>
+    <div class="root-breakdown"><span class="root-part">motion (movement)</span><span class="root-part suffix">-less (without)</span></div>
+    <div class="context">"Half of them just sitting there motionless."</div>
+    <div class='related'>Related: motion, motionlessness, still</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">colony</span>
+        <span class="phonetic">/ˈkɒləni/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a group of certain animals living together, such as ants or seabirds</div>
+    <div class="meaning-ko">군체, (동물의) 집단, 군락</div>
+    <div class="etymology">Latin &#x27;colonia&#x27; from &#x27;colonus&#x27; meaning &#x27;farmer, settler&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">colon (settle, cultivate)</span><span class="root-part suffix">-y</span></div>
+    <div class="context">"Dan&#x27;s research has focused on ant colonies."</div>
+    <div class='related'>Related: colonial, colonize, colonist</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">industrious</span>
+        <span class="phonetic">/ɪnˈdʌstriəs/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">diligent and hard-working</div>
+    <div class="meaning-ko">부지런한, 근면한</div>
+    <div class="etymology">Latin &#x27;industria&#x27; meaning &#x27;diligence, activity&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">industr (diligence)</span><span class="root-part suffix">-ious</span></div>
+    <div class="context">"I think ants are sort of a symbol of, like, industriousness."</div>
+    <div class='related'>Related: industry, industrial, industrialize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inactive</span>
+        <span class="phonetic">/ɪnˈæktɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">not doing anything; not active or working</div>
+    <div class="meaning-ko">비활동적인, 활동하지 않는</div>
+    <div class="etymology">Latin &#x27;in-&#x27; (not) + &#x27;activus&#x27; (active)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in- (not)</span><span class="root-part">act (do, perform)</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"Roughly about half the colony is inactive at any given time."</div>
+    <div class='related'>Related: active, inactivity, activate</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">reserve</span>
+        <span class="phonetic">/rɪˈzɜːv/</span>
+        <span class="pos">noun/adjective</span>
+    </div>
+    <div class="definition">kept back for future use; a supply stored for emergencies</div>
+    <div class="meaning-ko">예비의, 비축분, 대비용</div>
+    <div class="etymology">Latin &#x27;reservare&#x27; meaning &#x27;to keep back, save&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">re- (back)</span><span class="root-part">serv (keep, save)</span><span class="root-part suffix">-e</span></div>
+    <div class="context">"One possible answer is that they&#x27;re reserve ants, ready to step in if disease or disaster strike."</div>
+    <div class='related'>Related: reservation, reserved, preserve</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">productive</span>
+        <span class="phonetic">/prəˈdʌktɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">able to produce a lot for the amount of resources used</div>
+    <div class="meaning-ko">생산적인, 효율적인</div>
+    <div class="etymology">Latin &#x27;productivus&#x27; from &#x27;producere&#x27; meaning &#x27;to bring forth&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro- (forward)</span><span class="root-part">duct (lead, bring)</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"She thinks being productive is overrated."</div>
+    <div class='related'>Related: produce, production, productivity</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">overrated</span>
+        <span class="phonetic">/ˌəʊvəˈreɪtɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">rated or valued more highly than deserved</div>
+    <div class="meaning-ko">과대평가된</div>
+    <div class="etymology">English &#x27;over-&#x27; (excessively) + &#x27;rate&#x27; (evaluate) + &#x27;-ed&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">over- (too much)</span><span class="root-part">rate (evaluate)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"She thinks being productive is overrated."</div>
+    <div class='related'>Related: underrated, rate, rating</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">stimulation</span>
+        <span class="phonetic">/ˌstɪmjuˈleɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the action of encouraging interest or activity in something</div>
+    <div class="meaning-ko">자극, 흥분, 활성화</div>
+    <div class="etymology">Latin &#x27;stimulare&#x27; meaning &#x27;to goad, urge&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">stimul (goad, prick)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"But in this world of constant stimulation, switching off is harder than it&#x27;s ever been."</div>
+    <div class='related'>Related: stimulate, stimulus, stimulating</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">paradox</span>
+        <span class="phonetic">/ˈpærədɒks/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a statement or situation that seems contradictory but may be true</div>
+    <div class="meaning-ko">역설, 모순</div>
+    <div class="etymology">Greek &#x27;paradoxon&#x27; from &#x27;para-&#x27; (contrary to) + &#x27;doxa&#x27; (opinion)</div>
+    <div class="root-breakdown"><span class="root-part prefix">para- (contrary to)</span><span class="root-part">dox (opinion, belief)</span></div>
+    <div class="context">"So it&#x27;s a kind of paradox to get rid of this unpleasant state of boredom is actually to allow more boredom into your life."</div>
+    <div class='related'>Related: paradoxical, orthodox, unorthodox</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">curiosity</span>
+        <span class="phonetic">/ˌkjʊəriˈɒsɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a strong desire to know or learn something</div>
+    <div class="meaning-ko">호기심</div>
+    <div class="etymology">Latin &#x27;curiositas&#x27; from &#x27;curiosus&#x27; meaning &#x27;careful, inquisitive&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">cur (care)</span><span class="root-part suffix">-iosity</span></div>
+    <div class="context">"Doctor Mann doubts humans would have invented things without the curiosity that comes from being bored."</div>
+    <div class='related'>Related: curious, curiously, cure</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">lounging</span>
+        <span class="phonetic">/ˈlaʊndʒɪŋ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">relaxing or resting in a lazy, comfortable way</div>
+    <div class="meaning-ko">빈둥거리다, 느긋하게 쉬다</div>
+    <div class="etymology">Possibly from French &#x27;longis&#x27; meaning &#x27;a slow, lazy person&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">lounge (recline lazily)</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"Some animals have a reputation for lounging about."</div>
+    <div class='related'>Related: lounge, lounger, laze</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">idealised</span>
+        <span class="phonetic">/aɪˈdɪəlaɪzd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">regarded or represented as perfect or better than reality</div>
+    <div class="meaning-ko">이상화된, 실제보다 좋게 표현된</div>
+    <div class="etymology">Greek &#x27;idea&#x27; meaning &#x27;form, notion&#x27; + suffix &#x27;-ize&#x27; + &#x27;-ed&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">ideal (perfect standard)</span><span class="root-part suffix">-ised</span></div>
+    <div class="context">"There&#x27;s some idealised version of what humans might be."</div>
+    <div class='related'>Related: ideal, idealism, idealize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">algae</span>
+        <span class="phonetic">/ˈældʒiː/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">simple plants that grow in or near water, with no true stems, roots, or leaves</div>
+    <div class="meaning-ko">조류(藻類), 말(물속 식물)</div>
+    <div class="etymology">Latin &#x27;alga&#x27; meaning &#x27;seaweed&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">alga (seaweed)</span><span class="root-part suffix">-e (plural)</span></div>
+    <div class="context">"Three-toed sloths move so slowly that algae grows on their coats."</div>
+    <div class='related'>Related: algal, algae bloom, seaweed</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Present perfect continuous: have/has been + verb-ing</div>
+    <div class="explanation">Used to describe an action that started in the past and continues to the present, or has just stopped. Emphasizes the duration or ongoing nature of the activity.</div>
+    <div class="explanation-ko">현재완료 진행형(have/has been + 동사-ing)은 과거에 시작되어 현재까지 계속되거나 방금 멈춘 행동을 나타내요. 행동의 지속성이나 진행 중인 성격을 강조해요.</div>
+    <div class="example">What have you been doing today?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">as + adjective + as + noun (simile)</div>
+    <div class="explanation">A comparison structure used to say two things are equal in some quality. Often used in idiomatic expressions like &#x27;as busy as a bee.&#x27;</div>
+    <div class="explanation-ko">&#x27;as + 형용사 + as + 명사&#x27; 구조는 두 가지가 어떤 특성에서 동등하다고 비교할 때 사용해요. &#x27;as busy as a bee&#x27;(벌처럼 바쁜)처럼 관용적 표현에 자주 쓰여요.</div>
+    <div class="example">I&#x27;m actually as busy as a bee.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional: If + present perfect, present simple</div>
+    <div class="explanation">This mixed conditional links a past experience (present perfect) to a present result or belief. It connects something that has already happened to a current state of thinking.</div>
+    <div class="explanation-ko">&#x27;If + 현재완료, 현재시제&#x27; 혼합 조건문은 과거 경험(현재완료)을 현재의 결과나 믿음(현재시제)에 연결해요. 이미 일어난 일이 현재 생각에 어떻게 영향을 주는지 보여줘요.</div>
+    <div class="example">If you&#x27;ve seen nature documentaries about worker bees, you probably think animals are always on the move.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Where + clause (relative clause of place)</div>
+    <div class="explanation">A relative clause introduced by &#x27;where&#x27; to add information about a place or situation. It provides additional context without starting a new sentence.</div>
+    <div class="explanation-ko">&#x27;where&#x27;로 시작하는 관계절은 장소나 상황에 대한 추가 정보를 제공해요. 새로운 문장을 시작하지 않고 맥락을 더해줘요.</div>
+    <div class="example">In the natural world, where finding food and shelter is hard work, why have some animals evolved to do nothing?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Imperative: Look / verb + adverb for instructions</div>
+    <div class="explanation">The imperative form is used to give direct instructions or commands to the listener. Adding an adverb modifies how the action should be done.</div>
+    <div class="explanation-ko">명령형은 듣는 사람에게 직접적인 지시나 명령을 할 때 사용해요. 부사를 추가하면 행동을 어떻게 해야 하는지 구체화해요.</div>
+    <div class="example">Look carefully into an ant&#x27;s nest and you&#x27;ll see around half...</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional: Would + verb (hypothetical)</div>
+    <div class="explanation">Used to talk about imaginary or hypothetical situations. &#x27;Would&#x27; indicates something that is not real but is being considered as a possibility.</div>
+    <div class="explanation-ko">&#x27;would + 동사원형&#x27;은 가상의 상황이나 비현실적인 상황을 이야기할 때 사용해요. 실제가 아니지만 가능성으로 고려하는 것을 나타내요.</div>
+    <div class="example">Would you get out of bed on Monday morning if you didn&#x27;t have to?</div><div class="example">Would humans have invented bread or beer or fire if we hadn&#x27;t been bored?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Subjunctive / third conditional: If + past perfect, would have + past participle</div>
+    <div class="explanation">The third conditional expresses an unreal condition in the past and its hypothetical result. It talks about what would have happened if a past situation had been different.</div>
+    <div class="explanation-ko">3차 조건문(If + 과거완료, would have + 과거분사)은 과거의 비현실적 조건과 그 가상 결과를 표현해요. 과거 상황이 달랐다면 무엇이 일어났을지를 말해요.</div>
+    <div class="example">Would humans have invented bread or beer or fire if we hadn&#x27;t been bored?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Comparative + than + present perfect: harder than it&#x27;s ever been</div>
+    <div class="explanation">A comparative structure combined with present perfect to express that something has reached an extreme level compared to all past experience.</div>
+    <div class="explanation-ko">비교급 + than + 현재완료 구조는 모든 과거 경험과 비교하여 어떤 것이 극단적인 수준에 도달했음을 표현해요. &#x27;그 어느 때보다 더 ~한&#x27;이라는 의미예요.</div>
+    <div class="example">Switching off is harder than it&#x27;s ever been.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">That&#x27;s why + clause (cause-result)</div>
+    <div class="explanation">Used to explain the reason or cause for something that follows. It connects a previously stated fact to its consequence.</div>
+    <div class="explanation-ko">&#x27;That&#x27;s why + 절&#x27;은 이전에 언급한 사실과 그 결과를 연결하는 인과관계 표현이에요. &#x27;그래서 ~인 거예요&#x27;라고 해석해요.</div>
+    <div class="example">That&#x27;s why we&#x27;re constantly swiping and scrolling and looking for the next big thing.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">so + adjective + that + clause (result clause)</div>
+    <div class="explanation">A structure used to show that something has such an extreme quality that it leads to a particular result. Emphasizes degree and consequence.</div>
+    <div class="explanation-ko">&#x27;so + 형용사 + that + 절&#x27; 구조는 어떤 것의 정도가 극단적이어서 특정 결과를 초래함을 보여줘요. &#x27;너무 ~해서 ...하다&#x27;로 해석해요.</div>
+    <div class="example">Three-toed sloths move so slowly that algae grows on their coats.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">I&#x27;ve spent a</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이브 스펜터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪv spɛntə/</div>
+        <div class="explanation-text">&#x27;I have&#x27;가 &#x27;I&#x27;ve&#x27;로 축약되어 한 음절이 되고, 관사 &#x27;a&#x27;가 /ə/로 약화되어 &#x27;spent&#x27;와 자연스럽게 이어져요.</div>
+        <div class="practice">&#x27;아이 해브 스펜트 어&#x27;라고 또박또박 발음하지 말고, &#x27;아이브 스펜터&#x27;처럼 자연스럽게 연결해서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">sort of a</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">소러버</span>
+    <div class="details">
+        <div class="phonetic-ipa">/sɔːrtəvə/</div>
+        <div class="explanation-text">&#x27;of&#x27;와 &#x27;a&#x27; 모두 /ə/로 약화되어 세 단어가 하나로 합쳐져요. 자연스러운 발화에서 &#x27;소러버&#x27;처럼 들려요.</div>
+        <div class="practice">&#x27;소트 오브 어&#x27;라고 또박또박 발음하지 말고, &#x27;소러버&#x27;처럼 &#x27;of&#x27;와 &#x27;a&#x27;를 가볍게 /ə/로만 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">to allow more</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">터얼라우 모어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/tə əˈlaʊ mɔː/</div>
+        <div class="explanation-text">&#x27;to&#x27;가 비강세 위치에서 /tə/로 약화되고, &#x27;allow&#x27;의 모음과 자연스럽게 연결돼요. 기능어는 자연스러운 발화에서 보통 약하게 발음돼요.</div>
+        <div class="practice">&#x27;투 얼라우&#x27;라고 강하게 발음하지 말고, &#x27;to&#x27;를 /tə/로 약하게 하여 &#x27;터얼라우&#x27;처럼 이어 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">most of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">모스터브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/məʊstəv/</div>
+        <div class="explanation-text">&#x27;most&#x27;의 마지막 /t/가 약화된 &#x27;of&#x27;의 모음 /ə/와 연결되어 두 단어가 하나처럼 흘러가요.</div>
+        <div class="practice">&#x27;모스트 오브&#x27;라고 끊어 발음하지 말고, &#x27;모스터브&#x27;처럼 /t/와 /ə/를 부드럽게 연결해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">step in if</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스테피니프</span>
+    <div class="details">
+        <div class="phonetic-ipa">/stɛp ɪn ɪf/</div>
+        <div class="explanation-text">&#x27;step&#x27;의 /p/가 &#x27;in&#x27;의 /ɪ/와 연결되고, &#x27;in&#x27;의 /n/이 &#x27;if&#x27;의 /ɪ/와 이어져요. 자음-모음 연결이 세 단어를 매끄럽게 연쇄시켜요.</div>
+        <div class="practice">&#x27;스텝 인 이프&#x27;라고 끊어 발음하지 말고, &#x27;스테피니프&#x27;처럼 세 단어를 끊김 없이 이어서 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">work up the</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워컵더</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wɜːk ʌp ðə/</div>
+        <div class="explanation-text">&#x27;work&#x27;의 /k/가 &#x27;up&#x27;의 /ʌ/와 합쳐지고, &#x27;up&#x27;의 /p/가 약화된 &#x27;the&#x27; /ðə/와 연결돼요. 자음군이 단순화돼요.</div>
+        <div class="practice">&#x27;워크 업 더&#x27;라고 세 단어를 따로 발음하지 말고, &#x27;워컵더&#x27;처럼 빠르게 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">constant stimulation</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">콘스턴 스티뮬레이션</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkɒnstən stɪmjuˈleɪʃən/</div>
+        <div class="explanation-text">&#x27;constant&#x27;의 마지막 /t/가 &#x27;stimulation&#x27;의 /s/ 앞에서 탈락하는 경우가 많아요. 두 자음군이 만나면 파열음 하나가 보통 생략돼요.</div>
+        <div class="practice">&#x27;콘스탄트 스티뮬레이션&#x27;이라고 /t/를 분명히 발음하지 말고, &#x27;콘스턴 스티뮬레이션&#x27;처럼 /t/를 생략해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">ant&#x27;s nest and</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">앤츠 네스턴드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ænts nɛstənd/</div>
+        <div class="explanation-text">&#x27;nest&#x27;의 /t/가 뒤따르는 &#x27;and&#x27;의 /ə/와 동화되고, &#x27;and&#x27; 자체도 /ənd/ 또는 /ən/으로 축약돼요. 전체 구가 하나로 섞여 들려요.</div>
+        <div class="practice">&#x27;네스트 앤드&#x27;라고 강하게 발음하지 말고, &#x27;nest&#x27;의 /t/를 약하게 하면서 &#x27;and&#x27;를 /ən/으로 빠르게 이어 보세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Phew, I&#x27;ve spent a day in meetings"</div>
+        <div class="signal-role">바쁜 일상을 생생하게 보여주며 주제(아무것도 하지 않기)와의 대비를 만들어요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"It may not look it, Neil, but"</div>
+        <div class="signal-role">겉보기와 실제의 차이를 소개하며 동물 세계의 놀라운 사실로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"But the surprising truth is"</div>
+        <div class="signal-role">청중의 기대를 뒤집는 핵심 사실을 강조하며 소개해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"That&#x27;s what we&#x27;ll be discussing in this programme"</div>
+        <div class="signal-role">프로그램의 방향을 안내하며 본격적인 논의로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But first, let me work up the energy to ask you a question"</div>
+        <div class="signal-role">유머러스하게 퀴즈 코너를 소개하며 주제와 연결해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Here&#x27;s Professor Dan Charbonneau"</div>
+        <div class="signal-role">외부 전문가의 목소리를 도입하며 과학적 근거로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But then when you look at it"</div>
+        <div class="signal-role">이상과 현실의 차이를 드러내며 놀라운 연구 결과로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Not according to psychologist Dr Sandy Mann"</div>
+        <div class="signal-role">새로운 전문가 관점을 소개하며 지루함의 장점이라는 새 소주제로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But in this world of constant stimulation"</div>
+        <div class="signal-role">이론에서 현대 사회의 현실적 문제로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"So it&#x27;s a kind of paradox"</div>
+        <div class="signal-role">앞선 논의를 역설적 결론으로 요약하며 핵심 메시지를 전달해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"I think now is a good time to reveal the answer"</div>
+        <div class="signal-role">본론에서 마무리 단계로 자연스럽게 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"OK, let&#x27;s recap the vocabulary"</div>
+        <div class="signal-role">프로그램의 학습 목표를 정리하며 어휘 복습 코너로 전환해요</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=Y681hXWwhQY
+    </div>
+</div>
+
+</body>
+</html>

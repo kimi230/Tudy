@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #84cc16;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">中文 Study Guide</div>
+    <h1>HSK 1-2 | 中文对话：聊聊你的上个周末 | Talk About Your Weekend in Chinese</h1>
+    <div class="subtitle">Chinese Daily Podcast</div>
+    <div class="desc-ko">HSK 초급 대화로 배우는 주말 활동·주간 일정·시간 표현</div>
+    <div><span class="diff-badge">Elementary</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:03</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">323</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">239</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">23</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/3K0D2hHYi04/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyZh/#/study/3K0D2hHYi04">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (16 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (7 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Tones &amp; Pronunciation (13 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (9 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by Chinese Daily Podcast is structured into 11 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Opening &amp; Greeting</span>
+        <span class="sec-time">0:07 ~ 0:16</span>
+    </div>
+    <div class="sec-summary">리밍과 왕위가 인사를 나누고, 왕위가 리밍의 피곤한 모습을 발견함</div>
+    <div class="key-points"><span class="key-point">아침 인사 표현: 早上好</span><span class="key-point">상태를 묻는 표현: 你怎么了</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Wang Yu&#x27;s Failed Weekend</span>
+        <span class="sec-time">0:16 ~ 2:07</span>
+    </div>
+    <div class="sec-summary">왕위가 주말을 설명: 집에서 쉬려고 했지만 드라마를 밤새 몰아보고 일요일에 지쳐서 일어남</div>
+    <div class="key-points"><span class="key-point">주말 계획 표현: 我本来计划得很好</span><span class="key-point">한 편만 보려다 밤새 본 경험</span><span class="key-point">아무것도 안 했지만 피곤한 역설적 상황</span><span class="key-point">다른 방식으로 일한 것과 같다는 비유</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Li Ming&#x27;s Fulfilling Weekend</span>
+        <span class="sec-time">2:08 ~ 4:07</span>
+    </div>
+    <div class="sec-summary">리밍이 잘 계획된 주말을 공유: 아침에 등산, 오후에 카페에서 독서, 일요일에 장보기와 마파두부 요리</div>
+    <div class="key-points"><span class="key-point">계획적인 주말 보내기</span><span class="key-point">동정결합(動靜結合): 운동과 독서의 균형</span><span class="key-point">새로운 요리 도전: 쓰촨 마파두부</span><span class="key-point">좋아하는 일을 해서 피곤하지 않음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Comparing Rest Styles</span>
+        <span class="sec-time">4:07 ~ 5:18</span>
+    </div>
+    <div class="sec-summary">두 화자가 서로 다른 휴식 방식을 비교: 왕위는 아무것도 안 하기, 리밍은 적극적 계획 선호. &#x27;그때 가서 보자&#x27; 마인드 논의</div>
+    <div class="key-points"><span class="key-point">휴식 방식의 중요성</span><span class="key-point">자기에게 맞는 방식 찾기</span><span class="key-point">到时候再说 표현 설명</span><span class="key-point">주말의 불확실성과 깜짝 놀라움</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Li Ming&#x27;s Next Weekend Plans</span>
+        <span class="sec-time">5:18 ~ 6:25</span>
+    </div>
+    <div class="sec-summary">리밍이 다음 주말 계획을 공개: 토요일 도예 체험 수업, 일요일 박물관 중국 고대 서화 전시 관람</div>
+    <div class="key-points"><span class="key-point">陶艺(도예) 체험 수업</span><span class="key-point">박물관의 중국 고대 서화 전시</span><span class="key-point">새로운 경험을 찾아내는 능력</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Weekend as Charging Station Metaphor</span>
+        <span class="sec-time">6:25 ~ 7:04</span>
+    </div>
+    <div class="sec-summary">리밍이 주말을 핸드폰 충전소에 비유. 사람마다 다른 &#x27;충전기&#x27;를 논의 — 리밍은 운동과 학습, 왕위는 편안한 침대와 배달음식</div>
+    <div class="key-points"><span class="key-point">주말 = 충전소 비유</span><span class="key-point">사람마다 다른 충전 방식</span><span class="key-point">왕위의 충전기: 침대, 영화, 배달음식</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Vocabulary Lesson: 宅女/宅男</span>
+        <span class="sec-time">7:04 ~ 7:51</span>
+    </div>
+    <div class="sec-summary">왕위가 현대 중국어 속어 宅(zhái)을 설명 — 원래 &#x27;집&#x27;이라는 뜻이지만 지금은 외출보다 집에 있기를 좋아하는 젊은이를 묘사</div>
+    <div class="key-points"><span class="key-point">宅의 원래 의미와 현대적 용법</span><span class="key-point">宅男 = 집돌이, 宅女 = 집순이</span><span class="key-point">현대 유행어 설명</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">This Week&#x27;s Schedule</span>
+        <span class="sec-time">7:51 ~ 8:30</span>
+    </div>
+    <div class="sec-summary">이번 주 일정으로 화제 전환. 리밍은 월·수 회의, 목요일 배드민턴. 왕위는 여유로운 한 주</div>
+    <div class="key-points"><span class="key-point">이번 주 바쁜 정도 묻기: 忙不忙</span><span class="key-point">요일별 일정 말하기</span><span class="key-point">有条理(체계적이다) 표현</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">Chinese Time Words Lesson</span>
+        <span class="sec-time">8:30 ~ 10:13</span>
+    </div>
+    <div class="sec-summary">왕위가 헷갈리는 시간 표현(上/这/下)을 질문. 리밍이 시간선 비유로 설명: 뒤(과거/上), 발밑(현재/这), 앞(미래/下)</div>
+    <div class="key-points"><span class="key-point">上/这/下 시간 표현 구분법</span><span class="key-point">시간선 비유: 뒤=과거, 발밑=현재, 앞=미래</span><span class="key-point">昨天/今天/明天 시간 단어 연습</span><span class="key-point">작은 요령으로 큰 문제 해결</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">10</span>
+        <span class="sec-title">Practice with Time Words &amp; Lunch Plans</span>
+        <span class="sec-time">10:13 ~ 11:17</span>
+    </div>
+    <div class="sec-summary">왕위가 식사 예시로 시간 단어 연습(어제: 면, 오늘: 밥, 내일: 우유+계란). 새 만두집에서 같이 점심 먹기로 함</div>
+    <div class="key-points"><span class="key-point">시간 단어를 실제 문장에 적용</span><span class="key-point">음식 관련 어휘: 面条, 米饭, 炒菜, 牛奶, 鸡蛋, 饺子</span><span class="key-point">수다도 좋은 충전 방식</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">11</span>
+        <span class="sec-title">Closing &amp; Listener Engagement</span>
+        <span class="sec-time">11:17 ~ 13:03</span>
+    </div>
+    <div class="sec-summary">진행자들이 오늘 주제를 정리(주말 활동, 주간 일정, 시간 표현)하고 청취자들에게 간단한 중국어 질문 연습을 권장</div>
+    <div class="key-points"><span class="key-point">오늘 다룬 주제 정리</span><span class="key-point">청취자에게 연습 권유</span><span class="key-point">추천 질문: 你上个周末过得怎么样? / 这个周末你有什么打算?</span><span class="key-point">대화 시작 표현</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">周末</span>
+        <span class="phonetic">zhōumò</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 2</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 4</div>
+    <div class="definition">weekend</div>
+    <div class="meaning-ko">주말</div>
+    <div class="root-breakdown"><span class="root-part"> (week/cycle)</span><span class="root-part"> (end)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"我感觉我的周末好像被偷走了"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">精神</span>
+        <span class="phonetic">jīngshén</span>
+        <span class="pos">noun/adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 2</div>
+    <div class="definition">spirit; energy; vigorous</div>
+    <div class="meaning-ko">정신; 기운, 활기</div>
+    <div class="root-breakdown"><span class="root-part"> (essence/fine)</span><span class="root-part"> (spirit/god)</span></div>
+    
+    <div class="context">"今天看起来没什么精神"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">计划</span>
+        <span class="phonetic">jìhuà</span>
+        <span class="pos">noun/verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4</div>
+    <div class="definition">plan; to plan</div>
+    <div class="meaning-ko">계획; 계획하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to calculate/count)</span><span class="root-part"> (to plan/draw)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"我本来计划得很好"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">电视剧</span>
+        <span class="phonetic">diànshìjù</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4 4</div>
+    <div class="definition">TV drama/TV series</div>
+    <div class="meaning-ko">드라마, TV 연속극</div>
+    <div class="root-breakdown"><span class="root-part"> (electric)</span><span class="root-part"> (to watch/view)</span><span class="root-part"> (drama/play)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 部</div>
+    <div class="context">"后来我朋友给我推荐了一个新的电视剧"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">推荐</span>
+        <span class="phonetic">tuījiàn</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 4</div>
+    <div class="definition">to recommend</div>
+    <div class="meaning-ko">추천하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to push)</span><span class="root-part"> (to recommend)</span></div>
+    
+    <div class="context">"后来我朋友给我推荐了一个新的电视剧"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">爬山</span>
+        <span class="phonetic">pá shān</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 1</div>
+    <div class="definition">to climb a mountain; hiking</div>
+    <div class="meaning-ko">등산하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to climb/crawl)</span><span class="root-part"> (mountain)</span></div>
+    
+    <div class="context">"去爬山了吗"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">风景</span>
+        <span class="phonetic">fēngjǐng</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 3</div>
+    <div class="definition">scenery; landscape</div>
+    <div class="meaning-ko">풍경, 경치</div>
+    <div class="root-breakdown"><span class="root-part"> (wind)</span><span class="root-part"> (scenery/view)</span></div>
+    
+    <div class="context">"风景也很美"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">咖啡馆</span>
+        <span class="phonetic">kāfēiguǎn</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 1 3</div>
+    <div class="definition">coffee shop; café</div>
+    <div class="meaning-ko">카페</div>
+    <div class="root-breakdown"><span class="root-part"> (coffee)</span><span class="root-part"> (hall/establishment)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 家</div>
+    <div class="context">"然后去了一个新的咖啡馆"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">充电</span>
+        <span class="phonetic">chōngdiàn</span>
+        <span class="pos">verb/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 4</div>
+    <div class="definition">to charge (battery); to recharge oneself</div>
+    <div class="meaning-ko">충전하다; 재충전하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to fill/charge)</span><span class="root-part"> (electricity)</span></div>
+    
+    <div class="context">"你是怎么充电的"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">放松</span>
+        <span class="phonetic">fàngsōng</span>
+        <span class="pos">verb/adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 1</div>
+    <div class="definition">to relax; relaxed</div>
+    <div class="meaning-ko">긴장을 풀다; 편안하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to release/put)</span><span class="root-part"> (loose/pine tree)</span></div>
+    
+    <div class="context">"非常放松"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">宅女</span>
+        <span class="phonetic">zháinǚ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 3</div>
+    <div class="definition">homebody (female); a girl who prefers staying home</div>
+    <div class="meaning-ko">집순이</div>
+    <div class="root-breakdown"><span class="root-part"> (house/home)</span><span class="root-part"> (woman/female)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"我就是一个典型的宅女"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">安排</span>
+        <span class="phonetic">ānpái</span>
+        <span class="pos">verb/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 2</div>
+    <div class="definition">to arrange; arrangement</div>
+    <div class="meaning-ko">배치하다, 계획하다; 배치</div>
+    <div class="root-breakdown"><span class="root-part"> (peace/safe)</span><span class="root-part"> (to arrange/row)</span></div>
+    
+    <div class="context">"我喜欢把时间安排好"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">博物馆</span>
+        <span class="phonetic">bówùguǎn</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 4 3</div>
+    <div class="definition">museum</div>
+    <div class="meaning-ko">박물관</div>
+    <div class="root-breakdown"><span class="root-part"> (broad/extensive)</span><span class="root-part"> (thing/object)</span><span class="root-part"> (hall/building)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 家/座</div>
+    <div class="context">"我打算去市中心的博物馆"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">外卖</span>
+        <span class="phonetic">wàimài</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4</div>
+    <div class="definition">takeout food; food delivery</div>
+    <div class="meaning-ko">배달 음식</div>
+    <div class="root-breakdown"><span class="root-part"> (outside)</span><span class="root-part"> (to sell)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 份</div>
+    <div class="context">"一部好看的电影 还有好吃的外卖"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">饺子</span>
+        <span class="phonetic">jiǎozi</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 0</div>
+    <div class="definition">dumplings</div>
+    <div class="meaning-ko">만두 (교자)</div>
+    <div class="root-breakdown"><span class="root-part"> (dumpling)</span><span class="root-part"> (suffix)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个/盘</div>
+    <div class="context">"听说到不错 饺子"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">打算</span>
+        <span class="phonetic">dǎsuàn</span>
+        <span class="pos">verb/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 2</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 4</div>
+    <div class="definition">to plan; plan/intention</div>
+    <div class="meaning-ko">~할 생각이다; 계획</div>
+    <div class="root-breakdown"><span class="root-part"> (to hit/strike)</span><span class="root-part"> (to calculate)</span></div>
+    
+    <div class="context">"那你有什么打算吗"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">麻婆豆腐</span>
+        <span class="phonetic">mápó dòufu</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 2 4 0</div>
+    <div class="definition">mapo tofu (Sichuan dish)</div>
+    <div class="meaning-ko">마파두부 (쓰촨 요리)</div>
+    <div class="root-breakdown"><span class="root-part"> (numb/sesame)</span><span class="root-part"> (old woman)</span><span class="root-part"> (tofu)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 份</div>
+    <div class="context">"是四川的麻婆豆腐"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">陶艺</span>
+        <span class="phonetic">táoyì</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 4</div>
+    <div class="definition">pottery; ceramic art</div>
+    <div class="meaning-ko">도예, 도자기 공예</div>
+    <div class="root-breakdown"><span class="root-part"> (pottery/clay)</span><span class="root-part"> (art/skill)</span></div>
+    
+    <div class="context">"下个星期六我要去参加一个陶艺体验课"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">治愈</span>
+        <span class="phonetic">zhìyù</span>
+        <span class="pos">verb/adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4</div>
+    <div class="definition">to heal; healing; therapeutic</div>
+    <div class="meaning-ko">치유하다; 힐링되는</div>
+    <div class="root-breakdown"><span class="root-part"> (to cure/govern)</span><span class="root-part"> (to heal/recover)</span></div>
+    
+    <div class="context">"这个过程一定很治愈"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">比喻</span>
+        <span class="phonetic">bǐyù</span>
+        <span class="pos">noun/verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 4</div>
+    <div class="definition">metaphor; to make a comparison</div>
+    <div class="meaning-ko">비유; 비유하다</div>
+    <div class="root-breakdown"><span class="root-part"> (to compare)</span><span class="root-part"> (metaphor/analogy)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"这个比喻太好了"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">窍门</span>
+        <span class="phonetic">qiàomén</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 2</div>
+    <div class="definition">knack; trick; tip</div>
+    <div class="meaning-ko">요령, 비결</div>
+    <div class="root-breakdown"><span class="root-part"> (opening/orifice)</span><span class="root-part"> (door/gate)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"找到一些小窍门 就能解决大问题"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">羽毛球</span>
+        <span class="phonetic">yǔmáoqiú</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 3</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 2 2</div>
+    <div class="definition">badminton</div>
+    <div class="meaning-ko">배드민턴</div>
+    <div class="root-breakdown"><span class="root-part"> (feather)</span><span class="root-part"> (ball)</span></div>
+    
+    <div class="context">"我约了朋友一起打羽毛球"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">播客</span>
+        <span class="phonetic">bōkè</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 4</div>
+    <div class="definition">podcast</div>
+    <div class="meaning-ko">팟캐스트</div>
+    <div class="root-breakdown"><span class="root-part"> (to broadcast)</span><span class="root-part"> (guest/visitor)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个</div>
+    <div class="context">"希望正在听我们播客的朋友们"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">看起来 (kàn qǐlái) — looks like / seems</div>
+    <div class="explanation">Used to describe how someone or something appears from an observer&#x27;s perspective. Functions as an adverbial phrase meaning &#x27;it looks like&#x27; or &#x27;it seems&#x27;.</div>
+    <div class="explanation-ko">관찰자의 시각에서 누군가/무언가가 어떻게 보이는지 묘사할 때 사용. &#x27;~해 보이다&#x27;라는 뜻의 부사구.</div>
+    <div class="example">今天看起来没什么精神</div><div class="example">你看起来精神很好</div><div class="example">这个计划听起来确实很不错</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">好像...了 (hǎoxiàng...le) — it seems like...</div>
+    <div class="explanation">Expresses speculation or a feeling that something seems to have happened. 好像 means &#x27;as if / seems like&#x27; and 了 marks completion or change of state.</div>
+    <div class="explanation-ko">무언가 일어난 것 같다는 추측이나 느낌을 표현. 好像은 &#x27;마치 ~같다&#x27;, 了는 완료나 상태 변화를 나타냄.</div>
+    <div class="example">我感觉我的周末好像被偷走了</div><div class="example">你真比一说 好像真的简单多了</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">被 (bèi) — passive construction</div>
+    <div class="explanation">The 被 construction is used to form passive sentences in Chinese. The structure is: Subject + 被 + (agent) + Verb + complement. It often implies that the action is unfavorable or unexpected.</div>
+    <div class="explanation-ko">被 구문은 중국어 수동문을 만들 때 사용. 구조: 주어 + 被 + (행위자) + 동사 + 보어. 보통 부정적이거나 예상치 못한 행위를 암시.</div>
+    <div class="example">我的周末好像被偷走了</div><div class="example">被偷走了</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">是不是 (shì bú shì) — confirmation question</div>
+    <div class="explanation">A positive-negative question pattern used to seek confirmation. It can be placed at the beginning of a sentence or before the verb, meaning &#x27;is it that...?&#x27; or &#x27;isn&#x27;t it...?&#x27;.</div>
+    <div class="explanation-ko">확인을 구하는 긍정-부정 의문문 패턴. 문장 앞이나 동사 앞에 위치하며, &#x27;~인 거야?&#x27;, &#x27;~이지?&#x27;라는 뜻.</div>
+    <div class="example">是不是去参加什么很累的活动了</div><div class="example">你不是最喜欢在家的吗</div><div class="example">是不是又要去爬山或者去图书馆</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">哪儿都没/不... (nǎr dōu méi/bù...) — nowhere; not anywhere</div>
+    <div class="explanation">Interrogative pronoun 哪儿 (where) combined with 都 (all) and a negative creates a universal negation meaning &#x27;nowhere&#x27; or &#x27;not anywhere&#x27;. Similarly: 什么都没 (nothing), 谁都没 (nobody).</div>
+    <div class="explanation-ko">의문 대사 哪儿(어디)에 都(모두)와 부정어를 결합하면 &#x27;아무 데도 ~않다&#x27;라는 전면 부정을 나타냄. 마찬가지로: 什么都没(아무것도 ~않다), 谁都没(아무도 ~않다).</div>
+    <div class="example">我哪儿都没去</div><div class="example">我什么都没做</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">V了...又V (V le...yòu V) — did...and then did again</div>
+    <div class="explanation">Expresses repeated actions in sequence. The pattern Verb + 了 + Object + 又 + Verb shows one action being done and then being repeated, often implying inability to stop.</div>
+    <div class="explanation-ko">반복적인 행동을 순차적으로 표현. 동사+了+목적어+又+동사 패턴은 하나의 행동을 하고 다시 반복하는 것으로, 보통 멈출 수 없었음을 암시.</div>
+    <div class="example">我看了一集 又想看一集</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">动静结合 (dòng jìng jiéhé) — combining action and stillness</div>
+    <div class="explanation">A four-character expression (成语-like) describing a balanced lifestyle that combines active/dynamic activities with quiet/calm ones. Reflects Chinese philosophical balance.</div>
+    <div class="explanation-ko">동(動)과 정(靜)을 결합한다는 사자성어 형식의 표현. 활동적인 것과 조용한 것을 균형 있게 조합하는 생활 방식을 묘사. 중국 철학의 균형 사상을 반영.</div>
+    <div class="example">动静结合 上午运动 下午安静地看书</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">对...来说 (duì...lái shuō) — for someone; from someone&#x27;s perspective</div>
+    <div class="explanation">A prepositional phrase used to indicate a specific person&#x27;s perspective or viewpoint. Structure: 对 + person + 来说 + comment.</div>
+    <div class="explanation-ko">특정 사람의 관점이나 입장을 나타내는 전치사구. 구조: 对 + 사람 + 来说 + 서술.</div>
+    <div class="example">对你来说 周末的乐趣在于它的不确定性和惊喜</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">到时候再说 (dào shíhòu zài shuō) — we&#x27;ll see when the time comes</div>
+    <div class="explanation">A common conversational expression meaning to postpone a decision until the relevant time arrives. 到时候 means &#x27;when the time comes&#x27; and 再说 means &#x27;say/decide later&#x27;.</div>
+    <div class="explanation-ko">관련 시점이 올 때까지 결정을 미루겠다는 흔한 회화 표현. 到时候는 &#x27;때가 되면&#x27;, 再说은 &#x27;나중에 말하다/결정하다&#x27;.</div>
+    <div class="example">到时候再说 比较适合我</div><div class="example">就是现在不决定 等时间到了 再看情况决定</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">上/这/下 + time word — last/this/next</div>
+    <div class="explanation">Chinese uses 上 (shàng, &#x27;above/previous&#x27;), 这 (zhè, &#x27;this&#x27;), and 下 (xià, &#x27;below/next&#x27;) as prefixes to time words. 上个周末 = last weekend, 这个周末 = this weekend, 下个周末 = next weekend. Think of time as a line: behind you (上/past), at your feet (这/present), ahead of you (下/future).</div>
+    <div class="explanation-ko">중국어에서는 上(이전), 这(이번), 下(다음)을 시간 단어 앞에 붙임. 上个周末 = 지난 주말, 这个周末 = 이번 주말, 下个周末 = 다음 주말. 시간을 선으로 생각: 뒤쪽(上/과거), 발밑(这/현재), 앞쪽(下/미래).</div>
+    <div class="example">上个周末</div><div class="example">这个周末</div><div class="example">下个周末</div><div class="example">上个星期</div><div class="example">这个星期</div><div class="example">下个星期</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">V + 得 + complement — degree complement</div>
+    <div class="explanation">The 得 (de) particle connects a verb to its degree complement, describing how well or to what extent an action was performed. Structure: Verb + 得 + adjective/description.</div>
+    <div class="explanation-ko">得(de) 조사는 동사와 정도 보어를 연결하여, 어떤 행동이 얼마나 잘 또는 어느 정도로 수행되었는지 묘사. 구조: 동사 + 得 + 형용사/설명.</div>
+    <div class="example">我本来计划得很好</div><div class="example">你总是能把生活安排得这么好</div><div class="example">看电视剧看得比上班还累</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">把...V + result (bǎ construction)</div>
+    <div class="explanation">The 把 construction is used when the speaker wants to emphasize what happens to the object as a result of an action. Structure: Subject + 把 + Object + Verb + result/complement. It highlights the disposal or handling of the object.</div>
+    <div class="explanation-ko">把 구문은 행동의 결과로 목적어에 무슨 일이 일어나는지 강조할 때 사용. 구조: 주어 + 把 + 목적어 + 동사 + 결과/보어. 대상의 처리를 부각.</div>
+    <div class="example">我喜欢把时间安排好</div><div class="example">你总是能把生活安排得这么好</div><div class="example">用自己的手把一团泥土慢慢变成一个杯子</div><div class="example">把电充满</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Tones &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key tone patterns and pronunciation phenomena. Master these for natural-sounding Mandarin!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Tone Sandhi (변조)</div>
+<div class="cs-card">
+    <span class="original">你好</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">nǐ hǎo → ní hǎo</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+3 → 2+3</div>
+        <div class="explanation-text">3성+3성이 연속되면 앞 글자가 2성으로 변함. 你(nǐ)가 好(hǎo) 앞에서 ní로 발음됨.</div>
+        <div class="practice">ni↗ hao↘ 로 발음. 첫 글자의 성조가 올라감.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">你怎么了</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">nǐ zěnme le → ní zěnme le</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+3 → 2+3 (你怎)</div>
+        <div class="explanation-text">你(3성)가 怎(3성) 앞에서 2성으로 변함. 연속 3성의 첫 번째 글자가 2성으로 바뀌는 규칙.</div>
+        <div class="practice">ní zěnme le 로 발음. 你를 올려서 읽음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">有点</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yǒu diǎn → yóu diǎn</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+3 → 2+3</div>
+        <div class="explanation-text">有(3성)가 点(3성) 앞에서 2성으로 변함. 일상 대화에서 아주 자주 나오는 조합.</div>
+        <div class="practice">yóu diǎn 으로 발음. &#x27;좀&#x27; 이라는 뜻의 매우 흔한 표현.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">好像</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">hǎo xiàng → háo xiàng</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+4 → half-3+4</div>
+        <div class="explanation-text">3성 뒤에 다른 성조가 오면 3성이 &#x27;반3성(half-third)&#x27;으로 발음됨. 완전히 내려갔다 올라오지 않고 낮게만 내림.</div>
+        <div class="practice">hǎo를 완전히 내렸다 올리지 않고 낮게만 발음한 뒤 xiàng으로 이어감.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">可以</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">kěyǐ → kéyǐ</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+3 → 2+3</div>
+        <div class="explanation-text">可(3성)가 以(3성) 앞에서 2성으로 변함. 아주 흔한 3성 연속 변조.</div>
+        <div class="practice">ké yǐ 로 발음. 첫 글자를 올려서 읽음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">很好</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">hěn hǎo → hén hǎo</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+3 → 2+3</div>
+        <div class="explanation-text">很(3성)이 好(3성) 앞에서 2성으로 변함. 가장 기본적이고 자주 나오는 3성 연속 변조 예시.</div>
+        <div class="practice">hén hǎo 로 발음. 很을 올려 읽고 好를 낮췄다 올림.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Tone Change Yi</div>
+<div class="cs-card">
+    <span class="original">一集</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yī jí → yì jí</span>
+    <div class="details">
+        <div class="phonetic-ipa">1 → 4 (before 2nd tone)</div>
+        <div class="explanation-text">一(yī)는 2성 앞에서 4성(yì)으로 변함. 一의 성조 변화 규칙: 4성 앞→2성, 1/2/3성 앞→4성.</div>
+        <div class="practice">yì jí 로 발음. 一를 강하게 내려서 읽음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">一整天</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yī zhěng tiān → yì zhěng tiān</span>
+    <div class="details">
+        <div class="phonetic-ipa">1 → 4 (before 3rd tone)</div>
+        <div class="explanation-text">一(yī)는 3성(zhěng) 앞에서 4성(yì)으로 변함.</div>
+        <div class="practice">yì zhěng tiān 으로 발음. 一를 4성으로 강하게 내림.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Tone Change Bu</div>
+<div class="cs-card">
+    <span class="original">不是</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">bù shì → bú shì</span>
+    <div class="details">
+        <div class="phonetic-ipa">4+4 → 2+4</div>
+        <div class="explanation-text">不(bù, 4성)는 4성 앞에서 2성(bú)으로 변함. 不의 성조 변화 규칙: 4성 앞에서만 2성으로 바뀜.</div>
+        <div class="practice">bú shì 로 발음. 不를 올려서 읽고 是를 내려서 읽음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">不错</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">bù cuò → bú cuò</span>
+    <div class="details">
+        <div class="phonetic-ipa">4+4 → 2+4</div>
+        <div class="explanation-text">不(4성)가 错(4성) 앞에서 2성으로 변함. 칭찬할 때 자주 쓰는 &#x27;不错(괜찮다)&#x27;에서 항상 적용.</div>
+        <div class="practice">bú cuò 로 발음. 매우 자주 쓰는 표현이므로 덩어리로 연습.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Neutral Tone (경성)</div>
+<div class="cs-card">
+    <span class="original">东西</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">dōngxi (not dōngxī)</span>
+    <div class="details">
+        <div class="phonetic-ipa">1+0 (경성)</div>
+        <div class="explanation-text">西는 원래 1성(xī)이지만 东西(물건)에서는 경성(轻声)으로 발음됨. 东西가 &#x27;동서(방향)&#x27;일 때는 dōngxī(1+1)로 읽음.</div>
+        <div class="practice">dōng·xi 로 발음. 西를 짧고 가볍게 읽음. 강세가 없음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">怎么样</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">zěnmeyàng (么 is neutral)</span>
+    <div class="details">
+        <div class="phonetic-ipa">3+0+4</div>
+        <div class="explanation-text">么(me)는 어기조사로 쓰일 때 항상 경성으로 발음됨. 什么, 怎么, 那么 등에서 모두 경성.</div>
+        <div class="practice">zěn·me·yàng 으로 발음. 么를 가볍고 짧게.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Er Hua</div>
+<div class="cs-card">
+    <span class="original">哪儿</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">nǎr</span>
+    <div class="details">
+        <div class="phonetic-ipa">儿化 (erhua)</div>
+        <div class="explanation-text">儿(ér)이 앞 글자에 붙어 하나의 음절이 됨. 哪+儿 → nǎr. 북방 방언의 특징으로 구어에서 자주 사용.</div>
+        <div class="practice">na↘↗r 로 한 음절처럼 발음. 혀를 말아올림.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type complaint_opener">complaint_opener</span>
+    <div>
+        <div class="signal-expr">"别提了"</div>
+        <div class="signal-role">불만이나 안 좋은 경험을 시작할 때 쓰는 표현 (말도 마)</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type topic_shift">topic_shift</span>
+    <div>
+        <div class="signal-expr">"不说我了"</div>
+        <div class="signal-role">자기 이야기를 끝내고 화제를 상대방으로 전환하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type encouragement">encouragement</span>
+    <div>
+        <div class="signal-expr">"快说说"</div>
+        <div class="signal-role">상대방의 이야기를 빨리 듣고 싶을 때 재촉하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type encouragement">encouragement</span>
+    <div>
+        <div class="signal-expr">"说来听听"</div>
+        <div class="signal-role">상대방에게 이야기해보라고 권하는 표현 (한번 들어보자)</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type compliment">compliment</span>
+    <div>
+        <div class="signal-expr">"不愧是你"</div>
+        <div class="signal-role">상대방의 특성을 인정하는 칭찬 표현 (역시 너다워)</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type topic_transition">topic_transition</span>
+    <div>
+        <div class="signal-expr">"我们还是看看眼前吧"</div>
+        <div class="signal-role">먼 미래 이야기를 끝내고 현재로 돌아오자는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type topic_connection">topic_connection</span>
+    <div>
+        <div class="signal-expr">"说到午饭"</div>
+        <div class="signal-role">앞선 화제에서 자연스럽게 다음 화제로 연결하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"那我们今天就先聊到这里吧"</div>
+        <div class="signal-role">대화나 방송을 마무리할 때 쓰는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"期待和大家下次再聊"</div>
+        <div class="signal-role">다음 만남에 대한 기대를 표현하는 마무리 인사</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=3K0D2hHYi04
+    </div>
+</div>
+
+</body>
+</html>

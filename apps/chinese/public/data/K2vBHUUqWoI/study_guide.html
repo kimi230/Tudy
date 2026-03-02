@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">中文 Study Guide</div>
+    <h1>一刻演讲 |对话蔡康永：如何做一个温柔且清醒的人</h1>
+    <div class="subtitle">一刻演讲</div>
+    <div class="desc-ko">차이캉융 대담으로 배우는 따뜻하지만 흔들리지 않는 삶의 태도</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">12:35</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">240</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">199</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">8</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/K2vBHUUqWoI/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyZh/#/study/K2vBHUUqWoI">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (10 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (10 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (8 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Tones &amp; Pronunciation (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (4 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 12-minute video by 一刻演讲 is structured into 4 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입</span>
+        <span class="sec-time">0:00 ~ 2:32</span>
+    </div>
+    <div class="sec-summary">&#x27;《情商》 《情商》 《情商》 《情商》所在乎的就&#x27;로 시작해 &#x27;而不是一個壓垮你的負擔&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"><span class="key-point">情商</span><span class="key-point">別人</span><span class="key-point">你要設定好你自己</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">전개 1</span>
+        <span class="sec-time">2:29 ~ 6:05</span>
+    </div>
+    <div class="sec-summary">&#x27;而不是一個壓垮你的負擔&#x27;로 시작해 &#x27;因為在沒有這麼閱讀的瑣碎之前&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">전개 2</span>
+        <span class="sec-time">6:03 ~ 10:16</span>
+    </div>
+    <div class="sec-summary">&#x27;因為在沒有這麼閱讀的瑣碎之前&#x27;로 시작해 &#x27;那你的需求被滿足了 快樂的是你自己&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">정리</span>
+        <span class="sec-time">10:12 ~ 12:33</span>
+    </div>
+    <div class="sec-summary">&#x27;那你的需求被滿足了 快樂的是你自己&#x27;로 시작해 &#x27;我是一刻演讲的講者蔡康永&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">情商</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;情商&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"《情商》 《情商》 《情商》 《情商》所在乎的就是"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">別人</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;別人&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"而不用企圖要改變別人"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">你要設定好你自己</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;你要設定好你自己&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"你要設定好你自己的感覺跟目標"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">的感覺跟目標</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;的感覺跟目標&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"你要設定好你自己的感覺跟目標"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">而不用企圖要改變</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;而不用企圖要改變&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"而不用企圖要改變別人"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">我就是會好好的照</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;我就是會好好的照&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就是會好好的照我的標準來完成我該完成的事情"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">我的標準來完成我</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;我的標準來完成我&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就是會好好的照我的標準來完成我該完成的事情"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">該完成的事情</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;該完成的事情&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就是會好好的照我的標準來完成我該完成的事情"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">如果一個人甘心閱</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;如果一個人甘心閱&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"如果一個人甘心閱讀很淺"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">讀很淺</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;讀很淺&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"如果一個人甘心閱讀很淺"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">我就不相信他有想</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;我就不相信他有想&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就不相信他有想要保持自己清醒的狀態"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">要保持自己清醒的</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;要保持自己清醒的&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就不相信他有想要保持自己清醒的狀態"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">狀態</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;狀態&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"我就不相信他有想要保持自己清醒的狀態"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">結果他如果有對自</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;結果他如果有對自&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"結果他如果有對自己有企圖心"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">己有企圖心</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;己有企圖心&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"結果他如果有對自己有企圖心"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">他如果對自己是不</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;他如果對自己是不&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"他如果對自己是不甘於淺薄的話"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">甘於淺薄的話</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;甘於淺薄的話&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"他如果對自己是不甘於淺薄的話"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">他自然會找到好的</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;他自然會找到好的&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"他自然會找到好的東西來修煉自己"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">東西來修煉自己</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;東西來修煉自己&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"他自然會找到好的東西來修煉自己"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">不要太有儀式的說</span>
+        <span class="phonetic"></span>
+        <span class="pos">표현</span>
+        
+    </div>
+    
+    <div class="definition">Frequently used expression in this Chinese talk</div>
+    <div class="meaning-ko">&#x27;不要太有儀式的說&#x27;와 관련된 핵심 맥락 표현</div>
+    <div class="root-breakdown"></div>
+    
+    <div class="context">"不要太有儀式的說我要開始展現最真實的我"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">是...的</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">특정 사실/상황을 강조할 때 쓰이는 구문입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">把字句</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동작의 처리 대상과 결과를 강조하는 표현입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">被字句</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">수동 의미를 나타낼 때 쓰입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">동태조사 了</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">상태 변화나 동작 완료를 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">조건문 如果...就...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">가정을 제시하고 결과를 말할 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">비교문 比</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">두 대상을 비교하는 데 쓰입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">가능 표현 可以</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">허가/가능성을 나타내는 표현입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">의문문 吗/呢</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">질문이나 확인을 나타내는 문장형입니다.</div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Tones &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key tone patterns and pronunciation phenomena. Master these for natural-sounding Mandarin!
+</p>
+<div class="cs-type-header" style="background:#64748b;">Similar Sounds</div>
+<div class="cs-card">
+    <span class="original">《情商》 《情商》 《情商》 《情商》所在乎的就是</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">你要設定好你自己的感覺跟目標</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">我就是會好好的照我的標準來完成我該完成的事情</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">這兩個事情是舒毛對面</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">結果他如果有對自己有企圖心</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">他自然會找到好的東西來修煉自己</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">然後接下來要面對它</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">similar_sounds</div>
+        <div class="explanation-text">연속 발화에서 유사한 자음/모음이 겹치며 경계가 흐려질 수 있습니다.</div>
+        <div class="practice">구 단위로 끊어 읽은 뒤 연결 발화로 다시 반복해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Tone Sandhi (변조)</div>
+<div class="cs-card">
+    <span class="original">而不用企圖要改變別人</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.</div>
+        <div class="practice">bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">如果一個人甘心閱讀很淺</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.</div>
+        <div class="practice">一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">我就不相信他有想要保持自己清醒的狀態</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.</div>
+        <div class="practice">bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">他如果對自己是不甘於淺薄的話</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.</div>
+        <div class="practice">bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">不要太有儀式的說我要開始展現最真實的我</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.</div>
+        <div class="practice">bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">就簡直像恐怖片一樣 就是不要這樣想</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">不가 다음 음절과 결합할 때 성조가 변조되어 들릴 수 있습니다.</div>
+        <div class="practice">bu4가 빠른 발화에서 bu2처럼 들리는지 확인해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">就是每個你都是你 一課演讲的各位你們好</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.</div>
+        <div class="practice">一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">我是蔡康永 只要有在創作恐怕都會一直焦慮吧</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa">tone_sandhi</div>
+        <div class="explanation-text">一는 뒤 음절 환경에 따라 성조 실현이 달라질 수 있습니다.</div>
+        <div class="practice">一가 포함된 어절을 천천히/빠르게 각각 3회 읽어보세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"所以一方面很幸福就是 就是不像古人"</div>
+        <div class="signal-role">앞선 내용을 정리하며 결론으로 이동합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"《情商》 《情商》 《情商》 《情商"</div>
+        <div class="signal-role">도입 메시지 제시</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"讀完那個雞湯就更焦慮"</div>
+        <div class="signal-role">중간 전개 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"情人與情人之間真的有追求這件事嗎"</div>
+        <div class="signal-role">핵심 강조</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=K2vBHUUqWoI
+    </div>
+</div>
+
+</body>
+</html>

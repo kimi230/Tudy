@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>Why good leaders make you feel safe | Simon Sinek | TED</h1>
+    <div class="subtitle">TED</div>
+    <div class="desc-ko">좋은 리더는 안전감을 준다 — 사이먼 사이넥의 리더십 철학</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">11:59</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">155</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">187</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/lmyZMtPVodo/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/lmyZMtPVodo">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (17 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (3 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 11-minute video by TED is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Captain Swenson&#x27;s Medal of Honor</span>
+        <span class="sec-time">0:00 ~ 1:58</span>
+    </div>
+    <div class="sec-summary">사이먼 사이넥이 아프가니스탄에서 부상병을 구하기 위해 실탄이 오가는 속으로 뛰어든 캡틴 윌리엄 스웬슨의 이야기로 시작해요. 고프로 카메라가 스웬슨이 부상병에게 입맞춤하고 다시 구조하러 돌아가는 장면을 담았어요. 이 강렬한 이미지가 질문을 던져요: 이런 이타적인 사랑은 어디서 오는 걸까?</div>
+    <div class="key-points"><span class="key-point">Captain Swenson received the Congressional Medal of Honor</span><span class="key-point">He ran into live fire to rescue the wounded</span><span class="key-point">A GoPro captured his tender moment with a wounded soldier</span><span class="key-point">Sinek asks: where do people like that come from?</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Environment, Not Better People</span>
+        <span class="sec-time">1:58 ~ 2:39</span>
+    </div>
+    <div class="sec-summary">사이넥은 자기 희생을 보상하는 군대와 타인의 희생을 보상하는 비즈니스를 대비해요. 처음에는 군인 영웅들이 그냥 더 나은 사람이라고 생각했지만, 진짜 답은 환경이라는 걸 배웠어요. 올바른 환경이 갖춰지면 모든 사람에게 놀라운 이타심의 능력이 있어요.</div>
+    <div class="key-points"><span class="key-point">Military gives medals for self-sacrifice; business gives bonuses for sacrificing others</span><span class="key-point">It&#x27;s not about better people — it&#x27;s about the environment</span><span class="key-point">The right environment unlocks everyone&#x27;s capacity for remarkable things</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Trust and Cooperation Are Feelings</span>
+        <span class="sec-time">2:40 ~ 3:19</span>
+    </div>
+    <div class="sec-summary">그가 인터뷰한 영웅들은 모두 같은 말을 해요: &#x27;그들도 나를 위해 그렇게 했을 거야.&#x27; 신뢰와 협력은 감정이지 지시가 아니에요. 사람들에게 신뢰하라, 협력하라고 명령할 수 없어요 — 자연스럽게 내면에서 우러나와야 해요.</div>
+    <div class="key-points"><span class="key-point">&#x27;They would have done it for me&#x27; — universal answer from heroes</span><span class="key-point">Trust and cooperation are feelings, not instructions</span><span class="key-point">You cannot command someone to trust you</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">The Circle of Safety: 50,000 Years of Evolution</span>
+        <span class="sec-time">3:20 ~ 4:12</span>
+    </div>
+    <div class="sec-summary">5만 년 전으로 돌아가면, 인간은 사회적 동물로 진화했어요. 부족을 형성했는데, 이것이 &#x27;안전의 원&#x27;이에요. 소속감이 신뢰와 협력을 만들어냈어요. 안에 있는 사람들은 다른 사람이 위험을 감시해준다는 걸 알기에 밤에 잠들 수 있었어요. 신뢰 없이는 생존 시스템이 무너져요.</div>
+    <div class="key-points"><span class="key-point">Humans evolved as social animals in a dangerous world</span><span class="key-point">The &#x27;circle of safety&#x27; concept: tribes where people felt they belonged</span><span class="key-point">Safety produces trust and cooperation naturally</span><span class="key-point">Without trust, the survival system fails</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Modern Organizations Mirror the Paleolithic Era</span>
+        <span class="sec-time">4:13 ~ 5:12</span>
+    </div>
+    <div class="sec-summary">현대 세계는 구석기 시대를 반영해요: 경제적 불확실성, 신기술, 경쟁 같은 외부 위협은 우리가 통제할 수 없는 상수예요. 유일한 변수는 조직 내부의 조건이에요. 리더가 가시적 결과보다 사람들의 안전을 우선시하면 놀라운 일이 일어나요.</div>
+    <div class="key-points"><span class="key-point">External threats (economy, technology, competition) are uncontrollable constants</span><span class="key-point">Internal conditions are the only variable — and that&#x27;s where leadership matters</span><span class="key-point">Leaders set the tone by putting people&#x27;s safety first</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Unsafe Leaders Create Unsafe Behavior</span>
+        <span class="sec-time">5:14 ~ 6:58</span>
+    </div>
+    <div class="sec-summary">사이넥은 승객을 함부로 대한 항공사 직원의 이야기를 들려줘요 — 나쁜 사람이어서가 아니라 리더로부터 안전하다고 느끼지 못했기 때문이에요. 직원들이 리더십을 두려워하지 않는 사우스웨스트 항공과 대비해요. 훌륭한 리더십은 훌륭한 부모됨과 같아요: 기회, 교육, 훈육을 제공해서 사람들이 우리가 상상한 것 이상을 이룰 수 있게 하는 거예요.</div>
+    <div class="key-points"><span class="key-point">Airline gate agent story: she mistreated passengers because she felt unsafe</span><span class="key-point">Southwest Airlines succeeds because employees don&#x27;t fear their leaders</span><span class="key-point">Unsafe conditions force people to protect themselves from each other</span><span class="key-point">Great leaders are like great parents — they help people grow</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Three Cases: NextJump, Banking CEOs, Bob Chapman</span>
+        <span class="sec-time">6:59 ~ 9:57</span>
+    </div>
+    <div class="sec-summary">세 가지 강력한 사례: 찰리 킴의 넥스트점프 평생 고용 정책은 직원을 가족처럼 대해요. 불균형적 보너스를 받는 은행 CEO들은 숫자를 위해 사람을 희생시키며 리더십의 사회적 계약을 위반했어요. 배리-웨밀러의 밥 채프먼은 2008년 불경기에 해고 대신 순환 휴직을 선택하며 &#x27;모두가 조금 고통받는 게 낫다&#x27;고 했어요 — 사기가 올랐고, 2천만 달러를 절약했으며, 직원들이 자발적으로 휴가를 교환했어요.</div>
+    <div class="key-points"><span class="key-point">NextJump: lifetime employment, coaching instead of firing</span><span class="key-point">Banking CEOs violated leadership by sacrificing people for personal gain</span><span class="key-point">Bob Chapman chose furloughs over layoffs — &#x27;all suffer a little&#x27;</span><span class="key-point">Employees spontaneously traded furlough weeks to help each other</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Leadership Is a Choice, Not a Rank</span>
+        <span class="sec-time">9:58 ~ 11:52</span>
+    </div>
+    <div class="sec-summary">사이넥은 리더십은 선택이지 직급이 아니라고 선언해요. 진정한 리더는 권한을 가진 사람이 아니라 주변 사람을 돌보기로 선택한 사람이에요. 마지막에 먹은 해병대 장교 이야기로 마무리해요 — 부하들이 음식을 가져다줬어요. 리더가 먼저 가고, 먼저 위험을 감수하고, 먼저 희생하면, 사람들은 기꺼이 피와 땀과 눈물로 보답해요.</div>
+    <div class="key-points"><span class="key-point">Leadership is a choice, not a rank</span><span class="key-point">Authority is not the same as leadership</span><span class="key-point">True leaders look after the people around them</span><span class="key-point">Marine officer ate last — his men brought him their food</span><span class="key-point">Leaders go first, take risks first, sacrifice first</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ambush</span>
+        <span class="phonetic">/ˈæmbʊʃ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a surprise attack by people lying in wait in a concealed position</div>
+    <div class="meaning-ko">매복 공격, 기습</div>
+    <div class="etymology">Old French &#x27;embusche&#x27; from &#x27;embuscher&#x27; meaning &#x27;to set an ambush, to hide in the bushes&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">em-</span><span class="root-part">busch (bush, hiding place)</span></div>
+    <div class="context">"The column came under ambush and was surrounded on three sides."</div>
+    <div class='related'>Related: ambuscade, bushwhack, trap</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">sacrifice</span>
+        <span class="phonetic">/ˈsækrɪfaɪs/</span>
+        <span class="pos">verb/noun</span>
+    </div>
+    <div class="definition">to give up something valued for the sake of something else regarded as more important</div>
+    <div class="meaning-ko">희생하다, 희생</div>
+    <div class="etymology">Latin &#x27;sacrificium&#x27; from &#x27;sacer&#x27; (sacred) + &#x27;facere&#x27; (to make)</div>
+    <div class="root-breakdown"><span class="root-part">sacr (sacred) + fic (make)</span><span class="root-part suffix">-ice</span></div>
+    <div class="context">"Who are willing to sacrifice themselves so that others may gain."</div>
+    <div class='related'>Related: sacred, sacrificial, sacrament</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">capacity</span>
+        <span class="phonetic">/kəˈpæsɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the ability or power to do, experience, or understand something</div>
+    <div class="meaning-ko">능력, 역량, 수용력</div>
+    <div class="etymology">Latin &#x27;capacitas&#x27; from &#x27;capax&#x27; meaning &#x27;able to hold much&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">capac (hold, contain)</span><span class="root-part suffix">-ity</span></div>
+    <div class="context">"Every single one of us has the capacity to do these remarkable things."</div>
+    <div class='related'>Related: capable, incapacitate, capacious</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">cooperation</span>
+        <span class="phonetic">/koʊˌɒpəˈreɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the process of working together to achieve the same goal</div>
+    <div class="meaning-ko">협력, 협동</div>
+    <div class="etymology">Latin &#x27;cooperatio&#x27; from &#x27;co-&#x27; (together) + &#x27;operari&#x27; (to work)</div>
+    <div class="root-breakdown"><span class="root-part prefix">co-</span><span class="root-part">oper (work)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"It&#x27;s this deep sense of trust and cooperation."</div>
+    <div class='related'>Related: cooperate, cooperative, operation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">instruct</span>
+        <span class="phonetic">/ɪnˈstrʌkt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to direct or command someone to do something; to teach</div>
+    <div class="meaning-ko">지시하다, 가르치다</div>
+    <div class="etymology">Latin &#x27;instruere&#x27; from &#x27;in-&#x27; (upon) + &#x27;struere&#x27; (to build, pile up)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">struct (build)</span></div>
+    <div class="context">"I can&#x27;t simply instruct two people to cooperate and they will."</div>
+    <div class='related'>Related: instruction, construct, structure</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inherent</span>
+        <span class="phonetic">/ɪnˈhɪərənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">existing in something as a permanent, essential, or characteristic attribute</div>
+    <div class="meaning-ko">본질적인, 내재하는, 고유한</div>
+    <div class="etymology">Latin &#x27;inhaerere&#x27; from &#x27;in-&#x27; (in) + &#x27;haerere&#x27; (to stick)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">her (stick, cling)</span><span class="root-part suffix">-ent</span></div>
+    <div class="context">"There are inherent benefits to this."</div>
+    <div class='related'>Related: inherently, adhere, coherent</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">obsolete</span>
+        <span class="phonetic">/ˌɒbsəˈliːt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">no longer produced or used; out of date</div>
+    <div class="meaning-ko">쓸모없어진, 구식의</div>
+    <div class="etymology">Latin &#x27;obsoletus&#x27; past participle of &#x27;obsolescere&#x27; meaning &#x27;to fall into disuse&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ob-</span><span class="root-part">sol (accustomed)</span><span class="root-part suffix">-ete</span></div>
+    <div class="context">"A new technology that renders your business model obsolete overnight."</div>
+    <div class='related'>Related: obsolescence, obsolescent, disuse</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">tangible</span>
+        <span class="phonetic">/ˈtændʒɪbəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">clear and definite; real; able to be touched or felt</div>
+    <div class="meaning-ko">실질적인, 만질 수 있는, 구체적인</div>
+    <div class="etymology">Latin &#x27;tangibilis&#x27; from &#x27;tangere&#x27; meaning &#x27;to touch&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">tang (touch)</span><span class="root-part suffix">-ible</span></div>
+    <div class="context">"To sacrifice their comforts and sacrifice the tangible results."</div>
+    <div class='related'>Related: intangible, tangent, tactile</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">disproportionate</span>
+        <span class="phonetic">/ˌdɪsprəˈpɔːrʃənɪt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">too large or too small in comparison with something else; out of proportion</div>
+    <div class="meaning-ko">불균형적인, 비례하지 않는</div>
+    <div class="etymology">Latin &#x27;dis-&#x27; (apart, away) + &#x27;proportionatus&#x27; (made proportional)</div>
+    <div class="root-breakdown"><span class="root-part prefix">dis-</span><span class="root-part">proportion (balance)</span><span class="root-part suffix">-ate</span></div>
+    <div class="context">"With their disproportionate salaries and bonus structures."</div>
+    <div class='related'>Related: proportion, proportional, disproportionately</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">violated</span>
+        <span class="phonetic">/ˈvaɪəleɪtɪd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to break or fail to comply with a rule or formal agreement; to treat with disrespect</div>
+    <div class="meaning-ko">위반하다, 침해하다</div>
+    <div class="etymology">Latin &#x27;violare&#x27; meaning &#x27;to treat with violence&#x27; from &#x27;vis&#x27; (force)</div>
+    <div class="root-breakdown"><span class="root-part">viol (force, violence)</span><span class="root-part suffix">-ate</span></div>
+    <div class="context">"They have violated the very definition of leadership."</div>
+    <div class='related'>Related: violation, violate, violence</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">recession</span>
+        <span class="phonetic">/rɪˈsɛʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a period of temporary economic decline during which trade and industrial activity are reduced</div>
+    <div class="meaning-ko">경기 침체, 불경기</div>
+    <div class="etymology">Latin &#x27;recessio&#x27; from &#x27;recedere&#x27; meaning &#x27;to go back, retreat&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">cess (go, yield)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"He was hit very hard by the recession."</div>
+    <div class='related'>Related: recede, recess, concession</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">furlough</span>
+        <span class="phonetic">/ˈfɜːrloʊ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a temporary leave of absence, especially from military duty or employment</div>
+    <div class="meaning-ko">일시적 휴가, 순환 휴직</div>
+    <div class="etymology">Dutch &#x27;verlof&#x27; meaning &#x27;leave of absence, permission&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">fur-</span><span class="root-part">lough (leave, permission)</span></div>
+    <div class="context">"And so they came up with a furlough program."</div>
+    <div class='related'>Related: leave, sabbatical, layoff</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">morale</span>
+        <span class="phonetic">/məˈræl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the confidence, enthusiasm, and discipline of a person or group at a particular time</div>
+    <div class="meaning-ko">사기, 의욕</div>
+    <div class="etymology">French &#x27;moral&#x27; meaning &#x27;mental condition&#x27; from Latin &#x27;moralis&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">moral (spirit, mind)</span><span class="root-part suffix">-e</span></div>
+    <div class="context">"And morale went up."</div>
+    <div class='related'>Related: moral, morality, demoralize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">spontaneously</span>
+        <span class="phonetic">/spɒnˈteɪniəsli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in a way that is natural and without planning or prompting</div>
+    <div class="meaning-ko">자발적으로, 자연스럽게</div>
+    <div class="etymology">Latin &#x27;spontaneus&#x27; from &#x27;sponte&#x27; meaning &#x27;of one&#x27;s own accord&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">spont (free will)</span><span class="root-part suffix">-aneous + -ly</span></div>
+    <div class="context">"And quite spontaneously, nobody expected."</div>
+    <div class='related'>Related: spontaneous, spontaneity</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">authority</span>
+        <span class="phonetic">/əˈθɒrɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the power or right to give orders, make decisions, and enforce obedience</div>
+    <div class="meaning-ko">권위, 권한</div>
+    <div class="etymology">Latin &#x27;auctoritas&#x27; from &#x27;auctor&#x27; meaning &#x27;originator, promoter&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">auctor (originator)</span><span class="root-part suffix">-ity</span></div>
+    <div class="context">"They are authorities. And we do what they say because they have authority over us."</div>
+    <div class='related'>Related: authorize, authoritarian, author</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">tirelessly</span>
+        <span class="phonetic">/ˈtaɪərləsli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in a way that shows great effort and energy that does not stop</div>
+    <div class="meaning-ko">지치지 않고, 꾸준히</div>
+    <div class="etymology">Old English &#x27;tire&#x27; (to become weary) + &#x27;-less&#x27; (without) + &#x27;-ly&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">tire (become weary)</span><span class="root-part suffix">-less + -ly</span></div>
+    <div class="context">"And work tirelessly to face the dangers outside."</div>
+    <div class='related'>Related: tireless, tired, untiring</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">comrade</span>
+        <span class="phonetic">/ˈkɒmreɪd/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a companion who shares one&#x27;s activities or is a fellow member of an organization</div>
+    <div class="meaning-ko">동료, 전우</div>
+    <div class="etymology">Spanish &#x27;camarada&#x27; meaning &#x27;roommate&#x27; from Latin &#x27;camera&#x27; (room)</div>
+    <div class="root-breakdown"><span class="root-part">camar (room, chamber)</span><span class="root-part suffix">-ade</span></div>
+    <div class="context">"It shows Captain Swenson and his comrade bringing this wounded soldier."</div>
+    <div class='related'>Related: camaraderie, companion, fellow</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">medevac</span>
+        <span class="phonetic">/ˈmɛdɪvæk/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the evacuation of military or other casualties to a hospital, especially by helicopter</div>
+    <div class="meaning-ko">의무 후송, 응급 환자 수송</div>
+    <div class="etymology">Blend of &#x27;medical&#x27; and &#x27;evacuation,&#x27; coined during the Korean War era</div>
+    <div class="root-breakdown"><span class="root-part">med (medical) + evac (evacuation)</span></div>
+    <div class="context">"He and a comrade were making their way to a medevac helicopter."</div>
+    <div class='related'>Related: evacuate, medic, airlift</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">Paleolithic</span>
+        <span class="phonetic">/ˌpeɪliəˈlɪθɪk/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to the early phase of the Stone Age, lasting about 2.5 million years</div>
+    <div class="meaning-ko">구석기 시대의</div>
+    <div class="etymology">Greek &#x27;palaios&#x27; (old, ancient) + &#x27;lithos&#x27; (stone)</div>
+    <div class="root-breakdown"><span class="root-part">paleo (ancient) + lith (stone)</span><span class="root-part suffix">-ic</span></div>
+    <div class="context">"If you go back 50,000 years to the Paleolithic era."</div>
+    <div class='related'>Related: paleontology, Neolithic, monolith</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">visceral</span>
+        <span class="phonetic">/ˈvɪsərəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to deep inward feelings rather than to the intellect; instinctive</div>
+    <div class="meaning-ko">본능적인, 직감적인, 내장의</div>
+    <div class="etymology">Latin &#x27;viscera&#x27; meaning &#x27;internal organs, inner parts&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">viscer (internal organs)</span><span class="root-part suffix">-al</span></div>
+    <div class="context">"This is the reason so many people have such a visceral hatred."</div>
+    <div class='related'>Related: eviscerate, viscerally, gut feeling</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">There&#x27;s + noun phrase (existential &#x27;there&#x27;)</div>
+    <div class="explanation">Used to introduce the existence of something or someone new into a conversation. It draws attention to the subject that follows.</div>
+    <div class="explanation-ko">&#x27;There&#x27;s + 명사구&#x27;는 대화에서 새로운 존재를 소개할 때 사용해요. 뒤에 오는 주어에 청중의 관심을 끌어요. &#x27;~이 있어요&#x27;라는 의미예요.</div>
+    <div class="example">There&#x27;s a man by the name of Captain William Swenson.</div><div class="example">There&#x27;s a love there.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Who/that + relative clause (defining relative clause)</div>
+    <div class="explanation">Relative clauses beginning with &#x27;who&#x27; or &#x27;that&#x27; provide essential information about the noun they modify. They define or identify the person or thing being talked about.</div>
+    <div class="explanation-ko">&#x27;who/that + 관계절&#x27;은 수식하는 명사에 대한 필수적인 정보를 제공해요. 말하고 있는 사람이나 사물을 정의하거나 식별해요.</div>
+    <div class="example">Who recently was awarded the Congressional Medal of Honor.</div><div class="example">Who are willing to sacrifice themselves so that others may gain.</div><div class="example">People who are at the bottoms of organizations who have no authority.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">So that + clause (purpose clause)</div>
+    <div class="explanation">Used to express the purpose or reason for an action. It answers the question &#x27;why?&#x27; and connects the action to its intended result.</div>
+    <div class="explanation-ko">&#x27;so that + 절&#x27;은 행동의 목적이나 이유를 표현할 때 사용해요. &#x27;~하기 위해서&#x27;라는 의미로, 행동과 의도된 결과를 연결해요.</div>
+    <div class="example">Who are willing to sacrifice themselves so that others may gain.</div><div class="example">They sacrificed their people to protect their own interests.</div><div class="example">So that their people may be safe and protected.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What + clause as subject (nominal/noun clause)</div>
+    <div class="explanation">A &#x27;what&#x27; clause functions as the subject or complement of a sentence, replacing a noun. It adds emphasis and creates a dramatic or reflective tone.</div>
+    <div class="explanation-ko">&#x27;What + 절&#x27;이 문장의 주어나 보어 역할을 해요. 명사를 대신하며, 강조와 극적인 느낌 또는 사색적인 톤을 만들어요.</div>
+    <div class="example">What is that? That is some deep, deep emotion.</div><div class="example">What I learned is that it&#x27;s the environment.</div><div class="example">This is what so offends us, not the numbers.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">If + present simple, present simple (zero conditional)</div>
+    <div class="explanation">The zero conditional expresses general truths or habitual situations. When the &#x27;if&#x27; condition is met, the result always happens.</div>
+    <div class="explanation-ko">영 조건문(zero conditional)은 일반적인 사실이나 습관적인 상황을 표현해요. &#x27;if&#x27; 조건이 충족되면 결과가 항상 일어나요.</div>
+    <div class="example">If you get the environment right, every single one of us has the capacity to do these remarkable things.</div><div class="example">If we don&#x27;t trust each other, that means you won&#x27;t watch for danger.</div><div class="example">If I don&#x27;t follow the rules, I could get in trouble or lose my job.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Would + verb (hypothetical / narrative past future)</div>
+    <div class="explanation">Used to express willingness, hypothetical situations, or future-in-the-past. In narrative context, it describes what someone was going to do or what would happen.</div>
+    <div class="explanation-ko">&#x27;would + 동사&#x27;는 의지, 가정 상황, 또는 과거 시점에서 본 미래를 표현해요. 이야기 맥락에서 누군가가 하려던 것이나 일어날 일을 설명해요.</div>
+    <div class="example">Why would you do it?</div><div class="example">Because they would have done it for me.</div><div class="example">Would anybody be offended if we gave a 150 million dollar bonus to Gandhi?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">The reason (why) + clause + is that + clause</div>
+    <div class="explanation">A structure used to clearly state a cause-and-effect relationship. It frames the explanation by first identifying the reason, then providing it.</div>
+    <div class="explanation-ko">&#x27;The reason + 절 + is that + 절&#x27;은 인과 관계를 명확하게 설명하는 구조예요. 먼저 이유를 식별하고, 그 다음에 이유를 제공해요.</div>
+    <div class="example">The reason we like flying Southwest Airlines is not because they necessarily hire better people.</div><div class="example">This is the reason so many people have such a visceral hatred.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Comparative structure: It&#x27;s better that... than...</div>
+    <div class="explanation">Used to compare two options, expressing a preference for one over the other. Often used in persuasive or moral arguments.</div>
+    <div class="explanation-ko">&#x27;It&#x27;s better that... than...&#x27;은 두 가지 선택지를 비교하며 하나를 선호한다고 표현할 때 사용해요. 설득이나 도덕적 논증에서 자주 쓰여요.</div>
+    <div class="example">It&#x27;s better that we should all suffer a little than any of us should have to suffer a lot.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Not A but B (contrast/correction structure)</div>
+    <div class="explanation">Used to correct a potential assumption by negating one idea and presenting the true alternative. It creates a strong rhetorical contrast.</div>
+    <div class="explanation-ko">&#x27;Not A but B&#x27; 구조는 잘못된 가정을 부정하고 진짜 대안을 제시할 때 사용해요. 강한 수사적 대비를 만들어요. &#x27;A가 아니라 B&#x27;로 해석해요.</div>
+    <div class="example">But that&#x27;s completely wrong. What I learned is that it&#x27;s the environment.</div><div class="example">It&#x27;s not the numbers. It&#x27;s that they have violated the very definition of leadership.</div><div class="example">Leadership is a choice. It is not a rank.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">We call them... because + clause (parallel repetition)</div>
+    <div class="explanation">A rhetorical device using repetition to build emphasis and rhythm. The repeated structure reinforces the speaker&#x27;s key point through accumulated examples.</div>
+    <div class="explanation-ko">반복을 통해 강조와 리듬을 만드는 수사적 기법이에요. 반복되는 구조가 축적된 예시를 통해 화자의 핵심 요점을 강화해요.</div>
+    <div class="example">We call them leaders because they go first.</div><div class="example">We call them leaders because they take the risk before anybody else does.</div><div class="example">We call them leaders because they will choose to sacrifice.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">came under ambush</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">케이먼더램부쉬</span>
+    <div class="details">
+        <div class="phonetic-ipa">/keɪm_ʌndər_ˈæmbʊʃ/</div>
+        <div class="explanation-text">&#x27;came&#x27;의 /m/이 &#x27;under&#x27;의 모음 /ʌ/와 매끄럽게 연결되고, &#x27;under&#x27;의 /r/이 &#x27;ambush&#x27;의 /æ/와 이어져서 세 단어가 자연스러운 흐름을 만들어요.</div>
+        <div class="practice">&#x27;케임 언더 앰부쉬&#x27;로 끊지 말고, &#x27;케이먼더램부쉬&#x27;처럼 자음과 모음을 연결해서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">fall asleep at</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">폴러슬리펫</span>
+    <div class="details">
+        <div class="phonetic-ipa">/fɔːl_əˈsliːp_ət/</div>
+        <div class="explanation-text">&#x27;fall&#x27;의 /l/이 &#x27;asleep&#x27;의 /ə/와 연결되고, &#x27;asleep&#x27;의 /p/가 &#x27;at&#x27;의 /ə/와 이어져요. 자음-모음 연결을 통해 각 단어가 다음 단어로 흘러가요.</div>
+        <div class="practice">&#x27;폴 어슬립 앳&#x27;으로 끊지 말고, &#x27;폴러슬리펫&#x27;처럼 한 덩어리로 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">put him in</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">푸리민</span>
+    <div class="details">
+        <div class="phonetic-ipa">/pʊt_ɪm_ɪn/</div>
+        <div class="explanation-text">&#x27;put&#x27;의 /t/가 &#x27;him&#x27;의 모음 앞에서 탄설음(flap)이 되고 (&#x27;h&#x27;가 탈락), &#x27;him&#x27;의 /m/이 &#x27;in&#x27;의 /ɪ/와 연결돼요. 세 단어가 매끄럽게 연쇄해요.</div>
+        <div class="practice">&#x27;풋 힘 인&#x27;이 아니라 &#x27;푸리민&#x27;처럼 /t/를 가볍게 튕기고 세 단어를 이어 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wɒnə/</div>
+        <div class="explanation-text">빠른 말에서 &#x27;want to&#x27;는 &#x27;워너(wanna)&#x27;로 축약돼요. /t/가 탈락하고 &#x27;to&#x27;가 /ə/로만 남아요. 영어 구어에서 가장 흔한 축약 중 하나예요.</div>
+        <div class="practice">&#x27;원트 투&#x27;라고 또박또박 말하지 말고, &#x27;워너&#x27;처럼 자연스럽게 축약해서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">because they have</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">비커즈 데이브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/bɪkəz ðeɪv/</div>
+        <div class="explanation-text">&#x27;because&#x27;가 /bɪkəz/로 축약되고, &#x27;they have&#x27;가 &#x27;they&#x27;ve&#x27; /ðeɪv/로 줄어들어요. &#x27;have&#x27;의 /h/가 완전히 탈락해요.</div>
+        <div class="practice">&#x27;비코즈 데이 해브&#x27;라고 강하게 발음하지 말고, &#x27;because&#x27;의 첫 음절을 약하게 하고 &#x27;they&#x27;ve&#x27;로 축약해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">would you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">우쥬</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʊdʒə/</div>
+        <div class="explanation-text">&#x27;would&#x27;의 /d/와 &#x27;you&#x27;의 /j/가 구개음화를 통해 합쳐져서 /dʒ/ 소리가 돼요. 영어에서 전형적인 요드 합류(yod-coalescence) 현상이에요.</div>
+        <div class="practice">&#x27;우드 유&#x27;라고 분리해서 말하지 말고, &#x27;우쥬&#x27;처럼 /d/와 /y/를 합쳐 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">trust and cooperation</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">트러스튼 코아퍼레이션</span>
+    <div class="details">
+        <div class="phonetic-ipa">/trʌst_ən koʊˌɒpəˈreɪʃən/</div>
+        <div class="explanation-text">&#x27;and&#x27;의 /d/가 자음 사이에서 탈락하여 /ən/으로 줄어들어요. 내용어 사이에 &#x27;and&#x27;가 올 때 자연스러운 발화에서 매우 흔한 현상이에요.</div>
+        <div class="practice">&#x27;트러스트 앤드&#x27;라고 /d/를 분명히 발음하지 말고, &#x27;트러스튼&#x27;처럼 /d/를 생략해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">next jump</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">넥스점프</span>
+    <div class="details">
+        <div class="phonetic-ipa">/nɛks dʒʌmp/</div>
+        <div class="explanation-text">&#x27;next&#x27;의 마지막 /t/가 &#x27;jump&#x27;의 /dʒ/ 앞에서 탈락해요. 파열음 군이 /t/로 끝나고 다른 자음이 뒤따르면 /t/가 흔히 생략돼요.</div>
+        <div class="practice">&#x27;넥스트 점프&#x27;에서 /t/를 빼고 &#x27;넥스점프&#x27;처럼 발음해 보세요. 더 자연스럽고 원어민처럼 들려요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"There&#x27;s a man by the name of Captain William Swenson"</div>
+        <div class="signal-role">구체적인 인물 이야기로 시작하며 청중의 관심을 끌어요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"I saw this, and I thought to myself"</div>
+        <div class="signal-role">이야기에서 화자의 개인적 성찰로 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"You know, in the military, they give medals to people"</div>
+        <div class="signal-role">군대와 비즈니스의 대비를 도입하며 핵심 논점을 제시해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"But that&#x27;s completely wrong"</div>
+        <div class="signal-role">앞선 가정을 강하게 부정하며 반전을 만들어요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Because they would have done it for me"</div>
+        <div class="signal-role">영웅들의 공통된 대답으로 신뢰의 본질을 보여줘요 — 강연의 핵심 메시지</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"If you go back 50,000 years to the Paleolithic era"</div>
+        <div class="signal-role">시간적 맥락을 크게 전환하며 진화적 근거를 소개해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The modern day is exactly the same thing"</div>
+        <div class="signal-role">과거 원시시대에서 현대로 연결하며 비유를 완성해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"The only variable are the conditions inside the organization"</div>
+        <div class="signal-role">리더십의 역할을 강조하며 핵심 주장을 명확히 해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The closest analogy I can give to what a great leader is"</div>
+        <div class="signal-role">리더십을 부모됨에 비유하며 새로운 관점을 제시해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"This is what so offends us, not the numbers"</div>
+        <div class="signal-role">감정적 반응의 진짜 원인을 짚어주며 청중의 공감을 이끌어요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Leadership is a choice. It is not a rank."</div>
+        <div class="signal-role">결론부의 핵심 명제로, 강연 전체를 하나의 문장으로 압축해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"We call them leaders because they go first"</div>
+        <div class="signal-role">반복 구조로 리더의 정의를 강화하며 감동적으로 마무리해요</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=lmyZMtPVodo
+    </div>
+</div>
+
+</body>
+</html>

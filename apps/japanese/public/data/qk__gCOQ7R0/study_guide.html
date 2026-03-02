@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>尊敬語！これだけ覚えれば、とりあえず大丈夫！</h1>
+    <div class="subtitle">日本語の森</div>
+    <div class="desc-ko">비즈니스 현장에서 바로 쓰는 존경어 핵심 20표현 정리</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">8:29</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">112</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">21</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/qk__gCOQ7R0/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/qk__gCOQ7R0">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (12 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (9 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (14 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (9 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 8-minute video by 日本語の森 is structured into 9 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:00 ~ 0:31</span>
+    </div>
+    <div class="sec-summary">경어 소개: 경어란 무엇인지, 세 가지 종류(존경어, 겸양어, 정중어)를 설명하고 일본인에게도 어렵다는 점을 언급. 외워야 할 20개의 핵심 표현을 소개 예고.</div>
+    <div class="key-points"><span class="key-point">경어는 윗사람에게 사용하는 말</span><span class="key-point">존경어, 겸양어, 정중어 3가지 종류</span><span class="key-point">일본인도 어려워하는 경어</span><span class="key-point">20개 핵심 표현 학습 예고</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">8 Special Sonkeigo Verbs</span>
+        <span class="sec-time">0:55 ~ 2:42</span>
+    </div>
+    <div class="sec-summary">8개의 특별한 존경어 동사 소개: ご覧になる(보다), おっしゃる(말하다), 召し上がる(먹다/마시다), ご存知(알다), なさる(하다), いらっしゃる(있다/가다/오다). 선생님들 간의 대화 연습 포함.</div>
+    <div class="key-points"><span class="key-point">見る → ご覧になる</span><span class="key-point">言う → おっしゃる</span><span class="key-point">食べる/飲む → 召し上がる</span><span class="key-point">知っている → ご存知</span><span class="key-point">する → なさる</span><span class="key-point">いる/行く/来る → いらっしゃる</span><span class="key-point">대화문을 통한 실전 연습</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Passive Form Sonkeigo</span>
+        <span class="sec-time">2:44 ~ 3:22</span>
+    </div>
+    <div class="sec-summary">수동형(られる)을 존경어로 사용하는 방법 설명. 두 가지 예시: 帰る→帰られる, 思う→思われる. 사장님의 퇴근과 베트남에 대한 의견을 묻는 대화 연습 포함.</div>
+    <div class="key-points"><span class="key-point">수동형을 존경어로 활용</span><span class="key-point">帰る → 帰られる</span><span class="key-point">思う → 思われる</span><span class="key-point">실전 대화 예시</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">お〜になります Pattern</span>
+        <span class="sec-time">3:24 ~ 4:02</span>
+    </div>
+    <div class="sec-summary">お + 동사 어간 + になります 패턴 소개. 핵심 예시: 決まる→お決まりになる. 레스토랑 주문 대화를 통한 실전 활용 시연.</div>
+    <div class="key-points"><span class="key-point">お + 동사어간 + になります 패턴</span><span class="key-point">決まる → お決まりになる</span><span class="key-point">레스토랑 주문 장면 활용</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">お〜ください Pattern</span>
+        <span class="sec-time">4:03 ~ 5:19</span>
+    </div>
+    <div class="sec-summary">공손한 요청 패턴 お + 동사 어간 + ください 학습. 예시: お座りください, おかけください, お入りください, お待ちください, お取りください. 다양한 실전 대화 상황 포함.</div>
+    <div class="key-points"><span class="key-point">お + 동사어간 + ください 패턴</span><span class="key-point">座る → お座りください / おかけください</span><span class="key-point">入る → お入りください</span><span class="key-point">待つ → お待ちください</span><span class="key-point">取る → お取りください</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">ご〜ください Pattern</span>
+        <span class="sec-time">5:19 ~ 6:08</span>
+    </div>
+    <div class="sec-summary">한자어 동사용 공손한 요청 패턴: ご + 한자어 명사 + ください 학습. 예시: ご検討ください, ご連絡ください, ご協力ください. 더 공손한 ご〜いただけますか 형태도 소개.</div>
+    <div class="key-points"><span class="key-point">ご + 한자어명사 + ください 패턴</span><span class="key-point">検討する → ご検討ください</span><span class="key-point">連絡する → ご連絡ください</span><span class="key-point">協力する → ご協力ください</span><span class="key-point">더 공손한 형태: ご協力いただけますか</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">お〜ですか Pattern</span>
+        <span class="sec-time">6:08 ~ 6:41</span>
+    </div>
+    <div class="sec-summary">공손한 질문 패턴 お + 명사/동사어간 + ですか 소개. 예시: お持ちですか(가지고 계십니까?), お考えですか(어떻게 생각하십니까?). 자동차 소유와 정치 의견에 대한 대화 포함.</div>
+    <div class="key-points"><span class="key-point">お + 명사/동사어간 + ですか 패턴</span><span class="key-point">持っている → お持ちですか</span><span class="key-point">考えている → お考えですか</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Summary Review</span>
+        <span class="sec-time">6:41 ~ 8:13</span>
+    </div>
+    <div class="sec-summary">수업에서 다룬 20개 경어 표현의 전체 복습. 각 패턴을 체계적으로 복습: 특별한 존경어 동사, 수동형 존경어, お〜になります, お〜ください, ご〜ください, お〜ですか.</div>
+    <div class="key-points"><span class="key-point">20개 핵심 경어 표현 총정리</span><span class="key-point">특별 존경어 6가지 복습</span><span class="key-point">수동형 존경어 2가지 복습</span><span class="key-point">패턴형 존경어 복습</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">Closing</span>
+        <span class="sec-time">8:15 ~ 8:28</span>
+    </div>
+    <div class="sec-summary">수업 마무리. 시청에 대한 감사 인사와 댓글 및 질문 요청.</div>
+    <div class="key-points"><span class="key-point">ご清聴ありがとうございました (경청 감사 인사)</span><span class="key-point">의견/질문 요청</span><span class="key-point">댓글 작성 권유</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">敬語</span>
+        <span class="phonetic">けいご</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">honorific language, polite speech</div>
+    <div class="meaning-ko">경어, 존댓말</div>
+    <div class="context">"これから敬語を勉強します。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">尊敬語</span>
+        <span class="phonetic">そんけいご</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">honorific language (elevating the listener)</div>
+    <div class="meaning-ko">존경어</div>
+    <div class="context">"敬語の中には尊敬語と謙譲語と丁寧語があります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">謙譲語</span>
+        <span class="phonetic">けんじょうご</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">humble language (lowering oneself)</div>
+    <div class="meaning-ko">겸양어</div>
+    <div class="context">"敬語の中には尊敬語と謙譲語と丁寧語があります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">丁寧語</span>
+        <span class="phonetic">ていねいご</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">polite language (desu/masu form)</div>
+    <div class="meaning-ko">정중어</div>
+    <div class="context">"敬語の中には尊敬語と謙譲語と丁寧語があります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">目上</span>
+        <span class="phonetic">めうえ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">one&#x27;s superior, elder</div>
+    <div class="meaning-ko">윗사람</div>
+    <div class="context">"敬語というのは目上の人に使う言葉です。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご覧になる</span>
+        <span class="phonetic">ごらんになる</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to see/look (honorific of 見る)</div>
+    <div class="meaning-ko">보시다 (見る의 존경어)</div>
+    <div class="context">"ご覧になります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">おっしゃる</span>
+        <span class="phonetic">おっしゃる</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to say (honorific of 言う)</div>
+    <div class="meaning-ko">말씀하시다 (言う의 존경어)</div>
+    <div class="context">"おっしゃいます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">召し上がる</span>
+        <span class="phonetic">めしあがる</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to eat/drink (honorific of 食べる/飲む)</div>
+    <div class="meaning-ko">드시다 (食べる/飲む의 존경어)</div>
+    <div class="context">"召し上がります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご存知</span>
+        <span class="phonetic">ごぞんじ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">knowing (honorific of 知っている)</div>
+    <div class="meaning-ko">아시는 (知っている의 존경어)</div>
+    <div class="context">"ご存知ですか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">なさる</span>
+        <span class="phonetic">なさる</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to do (honorific of する)</div>
+    <div class="meaning-ko">하시다 (する의 존경어)</div>
+    <div class="context">"今、何の仕事をなさっていますか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いらっしゃる</span>
+        <span class="phonetic">いらっしゃる</span>
+        <span class="pos">verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to be/go/come (honorific of いる/行く/来る)</div>
+    <div class="meaning-ko">계시다/가시다/오시다 (いる/行く/来る의 존경어)</div>
+    <div class="context">"今、どこにいらっしゃいますか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">かしこまりました</span>
+        <span class="phonetic">かしこまりました</span>
+        <span class="pos">expression</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">certainly, understood (very polite)</div>
+    <div class="meaning-ko">알겠습니다 (매우 공손한 표현)</div>
+    <div class="context">"はい。水ですね。 かしこまりました。"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">受け身形</span>
+        <span class="phonetic">うけみけい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">passive form</div>
+    <div class="meaning-ko">수동형</div>
+    <div class="context">"次は、2つの受け身形の尊敬語です。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">社長</span>
+        <span class="phonetic">しゃちょう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">company president</div>
+    <div class="meaning-ko">사장, 회사 대표</div>
+    <div class="context">"あれ?社長、もう帰られましたか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">検討</span>
+        <span class="phonetic">けんとう</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">examination, consideration, review</div>
+    <div class="meaning-ko">검토</div>
+    <div class="context">"検討してください。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">協力</span>
+        <span class="phonetic">きょうりょく</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">cooperation, collaboration</div>
+    <div class="meaning-ko">협력</div>
+    <div class="context">"協力してください。ご協力ください。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">紹介</span>
+        <span class="phonetic">しょうかい</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">introduction</div>
+    <div class="meaning-ko">소개</div>
+    <div class="context">"皆さんはまずこれから紹介する20個のフレーズを覚えてください。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">出身</span>
+        <span class="phonetic">しゅっしん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">origin, birthplace</div>
+    <div class="meaning-ko">출신</div>
+    <div class="context">"出身はどちらですか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">事務所</span>
+        <span class="phonetic">じむしょ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">office</div>
+    <div class="meaning-ko">사무실</div>
+    <div class="context">"はい、今事務所にいます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">政治</span>
+        <span class="phonetic">せいじ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">politics, government</div>
+    <div class="meaning-ko">정치</div>
+    <div class="context">"日本の政治についてどうお考えですか?"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご清聴</span>
+        <span class="phonetic">ごせいちょう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">your kind attention (formal closing phrase)</div>
+    <div class="meaning-ko">경청 (발표 마무리 인사)</div>
+    <div class="context">"ご清聴どうもありがとうございました。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">特別な尊敬語 (Special Honorific Verbs)</div>
+    <div class="explanation">Certain common verbs have unique honorific replacements that must be memorized: 見る→ご覧になる, 言う→おっしゃる, 食べる/飲む→召し上がる, 知っている→ご存知, する→なさる, いる/行く/来る→いらっしゃる</div>
+    <div class="explanation-ko">일부 동사는 고유한 존경어 형태가 있어 암기가 필요합니다: 見る→ご覧になる, 言う→おっしゃる, 食べる/飲む→召し上がる, 知っている→ご存知, する→なさる, いる/行く/来る→いらっしゃる</div>
+    <div class="example">ご覧になります</div><div class="example">おっしゃいます</div><div class="example">召し上がります</div><div class="example">ご存知ですか</div><div class="example">なさいます</div><div class="example">いらっしゃいます</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜られます (Passive Form Honorific)</div>
+    <div class="explanation">The passive form (られる) can be used as a respectful expression for actions of superiors. Group 1 verbs change the final -u to -areru, Group 2 verbs add -rareru.</div>
+    <div class="explanation-ko">수동형(られる)을 존경 표현으로 사용할 수 있습니다. 1그룹 동사는 어미 -u를 -areru로, 2그룹 동사는 -rareru를 붙입니다. 예: 帰る→帰られる, 思う→思われる</div>
+    <div class="example">帰られましたか?</div><div class="example">思われますか?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">お〜になります</div>
+    <div class="explanation">A productive honorific pattern: お + verb stem (masu-form without ます) + になります. Used when there is no special honorific verb available.</div>
+    <div class="explanation-ko">생산적인 존경어 패턴: お + 동사 어간(ます형에서 ます 제거) + になります. 특별한 존경어 동사가 없을 때 사용합니다.</div>
+    <div class="example">お決まりになりましたか?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">お〜ください</div>
+    <div class="explanation">A polite request pattern: お + verb stem + ください. More formal and respectful than 〜てください.</div>
+    <div class="explanation-ko">공손한 요청 패턴: お + 동사 어간 + ください. 〜てください보다 더 격식 있고 존경스러운 표현입니다.</div>
+    <div class="example">お座りください</div><div class="example">おかけください</div><div class="example">お入りください</div><div class="example">お待ちください</div><div class="example">お取りください</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">ご〜ください</div>
+    <div class="explanation">A polite request pattern for Sino-Japanese (漢語) compound verbs: ご + noun + ください. Used with する-verbs of Chinese origin.</div>
+    <div class="explanation-ko">한자어 동사에 사용하는 공손한 요청 패턴: ご + 한자어 명사 + ください. 중국어 기원의 する동사와 함께 사용합니다.</div>
+    <div class="example">ご検討ください</div><div class="example">ご連絡ください</div><div class="example">ご協力ください</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">お〜ですか</div>
+    <div class="explanation">A polite question pattern: お + verb stem/noun + ですか. Used to politely inquire about someone&#x27;s state or possession.</div>
+    <div class="explanation-ko">공손한 질문 패턴: お + 동사 어간/명사 + ですか. 상대방의 상태나 소유에 대해 공손하게 물을 때 사용합니다.</div>
+    <div class="example">お持ちですか?</div><div class="example">お考えですか?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜というのは〜です</div>
+    <div class="explanation">A pattern used to define or explain a term: X というのは Y です means &#x27;X is Y&#x27; or &#x27;what we call X is Y&#x27;.</div>
+    <div class="explanation-ko">용어를 정의하거나 설명할 때 사용하는 패턴: X というのは Y です는 &#x27;X란 Y입니다&#x27;라는 뜻입니다.</div>
+    <div class="example">敬語というのは目上の人に使う言葉です。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にとって(も)</div>
+    <div class="explanation">Means &#x27;for (someone)&#x27;, &#x27;from the standpoint of&#x27;. Adding も emphasizes &#x27;even for&#x27;.</div>
+    <div class="explanation-ko">~에게 있어서, ~의 입장에서라는 뜻입니다. も를 추가하면 &#x27;~에게조차&#x27;라는 강조 의미가 됩니다.</div>
+    <div class="example">日本人にとっても難しいものです。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たことがありますか</div>
+    <div class="explanation">Pattern to ask about past experience: Have you ever ~? Uses the past tense (ta-form) + ことがある.</div>
+    <div class="explanation-ko">과거 경험을 물을 때 사용하는 패턴: ~한 적이 있습니까? 과거형(た형) + ことがある를 사용합니다.</div>
+    <div class="example">神戸にいらっしゃったことがありますか?</div><div class="example">フォーを召し上がったことがありますか?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただけますか</div>
+    <div class="explanation">A very polite request form meaning &#x27;could you please ~?&#x27; More humble and polite than ください.</div>
+    <div class="explanation-ko">~해 주시겠습니까? 라는 매우 공손한 요청 표현입니다. ください보다 더 겸손하고 정중합니다.</div>
+    <div class="example">アンケートにご協力いただけますか?</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Sonkeigo / 尊敬語 (존경어)</div>
+<div class="cs-card">
+    <span class="original">ご覧になります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごらんになります</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;見ます(봅니다)&#x27;의 존경어 표현. 상대방이 무언가를 볼 때 사용합니다.</div>
+        <div class="practice">윗사람이 무언가를 보거나 시청할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">おっしゃいます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おっしゃいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;言います(말합니다)&#x27;의 존경어 표현. 윗사람이 말씀하실 때 사용합니다.</div>
+        <div class="practice">윗사람이 무언가를 말씀하실 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">召し上がります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">めしあがります</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;食べます(먹습니다)/飲みます(마십니다)&#x27;의 존경어 표현. 윗사람이 드실 때 사용합니다.</div>
+        <div class="practice">윗사람이 음식을 드시거나 음료를 마실 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご存知ですか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごぞんじですか</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;知っていますか(알고 있습니까)&#x27;의 존경어 표현. 윗사람에게 아시는지 여쭤볼 때 사용합니다.</div>
+        <div class="practice">윗사람에게 무언가를 아시는지 물을 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">なさっています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">なさっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;しています(하고 있습니다)&#x27;의 존경어 표현. 윗사람이 무언가를 하고 계실 때 사용합니다.</div>
+        <div class="practice">윗사람이 무언가를 하고 계실 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">いらっしゃいます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いらっしゃいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;います(있습니다)/行きます(갑니다)/来ます(옵니다)&#x27;의 존경어 표현. 윗사람의 존재/이동을 나타낼 때 사용합니다.</div>
+        <div class="practice">윗사람이 어딘가에 계시거나, 가시거나, 오실 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Sonkeigo-Passive</div>
+<div class="cs-card">
+    <span class="original">帰られましたか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かえられましたか</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（受け身形）</div>
+        <div class="explanation-text">&#x27;帰りましたか(돌아갔습니까)&#x27;의 수동형 존경어 표현. 특별한 존경어 동사가 없을 때 수동형으로 존경을 나타냅니다.</div>
+        <div class="practice">윗사람이 돌아가셨는지 물을 때. 수동형을 존경어로 사용하는 패턴.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">思われますか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おもわれますか</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（受け身形）</div>
+        <div class="explanation-text">&#x27;思いますか(생각합니까)&#x27;의 수동형 존경어 표현. 의견을 공손하게 물을 때 사용합니다.</div>
+        <div class="practice">윗사람에게 의견이나 생각을 공손하게 물을 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Sonkeigo-Pattern</div>
+<div class="cs-card">
+    <span class="original">お決まりになりましたか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おきまりになりましたか</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（お〜になる）</div>
+        <div class="explanation-text">&#x27;決まりましたか(정했습니까)&#x27;의 お〜になる 패턴 존경어. 레스토랑 등에서 주문을 정하셨는지 물을 때 사용합니다.</div>
+        <div class="practice">레스토랑에서 손님에게 주문을 여쭤볼 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お座りください / おかけください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おすわりください / おかけください</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（お〜ください）</div>
+        <div class="explanation-text">&#x27;座ってください(앉아 주세요)&#x27;의 공손한 존경어 표현. おかけください가 더 격식 있는 표현입니다.</div>
+        <div class="practice">손님이나 윗사람에게 앉으시라고 권할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お入りください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おはいりください</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（お〜ください）</div>
+        <div class="explanation-text">&#x27;入ってください(들어와 주세요)&#x27;의 공손한 존경어 표현.</div>
+        <div class="practice">손님이나 윗사람에게 들어오시라고 권할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご検討ください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごけんとうください</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（ご〜ください）</div>
+        <div class="explanation-text">&#x27;検討してください(검토해 주세요)&#x27;의 공손한 존경어 표현. 한자어 동사에 ご를 붙이는 패턴입니다.</div>
+        <div class="practice">비즈니스에서 상대방에게 검토를 부탁할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お持ちですか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おもちですか</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（お〜ですか）</div>
+        <div class="explanation-text">&#x27;持っていますか(가지고 있습니까)&#x27;의 공손한 존경어 표현. 상대방의 소유 여부를 공손하게 물을 때 사용합니다.</div>
+        <div class="practice">윗사람에게 무언가를 가지고 계시는지 물을 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Teinei</div>
+<div class="cs-card">
+    <span class="original">かしこまりました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かしこまりました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（最上級）</div>
+        <div class="explanation-text">&#x27;わかりました(알겠습니다)&#x27;의 가장 공손한 표현. 서비스업에서 고객에게 자주 사용합니다.</div>
+        <div class="practice">고객의 요청을 받아들일 때. 서비스업 필수 표현.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"これから"</div>
+        <div class="signal-role">수업 시작을 알리는 도입 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type enumeration">enumeration</span>
+    <div>
+        <div class="signal-expr">"最初は"</div>
+        <div class="signal-role">첫 번째 주제(8개 특별 존경어) 시작</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"次は"</div>
+        <div class="signal-role">두 번째 주제(수동형 존경어)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"次は、おになります"</div>
+        <div class="signal-role">세 번째 주제(お〜になります 패턴)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"次は、お ください"</div>
+        <div class="signal-role">네 번째 주제(お〜ください 패턴)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"次は ご ください"</div>
+        <div class="signal-role">다섯 번째 주제(ご〜ください 패턴)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"最後は、お ですか"</div>
+        <div class="signal-role">마지막 주제(お〜ですか 패턴)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"ご清聴どうもありがとうございました"</div>
+        <div class="signal-role">수업 종료 및 감사 인사</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"何かご意見やご質問はございますか"</div>
+        <div class="signal-role">질문/의견 요청으로 마무리</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=qk__gCOQ7R0
+    </div>
+</div>
+
+</body>
+</html>

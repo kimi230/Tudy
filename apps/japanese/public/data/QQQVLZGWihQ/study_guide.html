@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>「日本への渡航自粛を」95億人大移動の「春節」に異変　ホテル側も長期化見据え対策(2026年2月15日)</h1>
+    <div class="subtitle">ANNnewsCH</div>
+    <div class="desc-ko">춘절 대이동 속 일본 여행 자제 여파와 관광 업계 대응 현황</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">8:58</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">89</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/QQQVLZGWihQ/sddefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/QQQVLZGWihQ">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (17 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (3 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (8 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 8-minute video by ANNnewsCH is structured into 10 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">オープニング：富士山と観光地の異変</span>
+        <span class="sec-time">0:00 ~ 0:09</span>
+    </div>
+    <div class="sec-summary">눈 덮인 후지산의 원풍경으로 시작하여, 인기 관광지에 이변이 생겼음을 예고하는 도입부.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">富士山麓：中国人観光客の激減</span>
+        <span class="sec-time">0:14 ~ 1:02</span>
+    </div>
+    <div class="sec-summary">야마나시현 오시노핫카이에서 기자가 현장 보도. 중국인 관광객이 전체의 10% 미만으로 줄었으며 평소에는 70%를 차지했다는 인터뷰.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">中国の春節：恒例の大移動と日本回避</span>
+        <span class="sec-time">1:05 ~ 2:37</span>
+    </div>
+    <div class="sec-summary">9연휴 춘절 시작과 함께 연 95억 명의 대이동 예상. 베이징 공항에서도 일본행 감소 확인. 중국 항공사의 일본 감편과 오사카 총영사관의 도항 자제 권고 보도.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">京都・嵐山：団体客減少と観光業への影響</span>
+        <span class="sec-time">2:39 ~ 4:12</span>
+    </div>
+    <div class="sec-summary">교토 아라시야마에서 호주 등 서양 관광객은 증가, 중국 단체 관광객 감소. 기모노 렌탈 가게에서 30~40% 매출 감소, 월 200~300건 감소 인터뷰.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">別の視点：住民目線での歓迎</span>
+        <span class="sec-time">4:13 ~ 4:30</span>
+    </div>
+    <div class="sec-summary">관광 수입 감소와 달리, 단체 관광객의 소란·민폐가 줄어 스트레스가 감소했다는 상인의 의견.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">京都・祇園：オーバーツーリズムの実態</span>
+        <span class="sec-time">4:31 ~ 5:50</span>
+    </div>
+    <div class="sec-summary">교토 기온에서 역사적 거리와 주민 생활에 외국인 관광객 트러블 지속. 마이코·게이코 스토킹, 민가 무단 침입 등 오버투어리즘 문제. 기온 마을은 원래 인바운드 대상 가게가 거의 없어 영향 없음.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">韓国：中国人観光客の増加と対応</span>
+        <span class="sec-time">5:51 ~ 6:53</span>
+    </div>
+    <div class="sec-summary">일본 대신 한국에 중국인 관광객 대폭 증가 예상. 명동의 화장품 가게 춘절 세일 포스터, 하루 평균 19만 명 방문 예상(작년 대비 44% 증가). 한국 여행 중인 중국인 인터뷰.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">京都のホテル：市場転換の模索</span>
+        <span class="sec-time">6:54 ~ 8:28</span>
+    </div>
+    <div class="sec-summary">중국 단체 관광객 취소로 가격 인하 불가피. 교토시관광협회 앙케이트에서 31% 이상 숙박시설이 가격 인하. 최대 20% 인하 불구 실적 회복 안 돼 예약 사이트를 영어로 전환, 구미 대상으로 시장 다양화. &#x27;한 시장에 집중하지 않는 것이 중요&#x27; 발언.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">嵐山の変化：日本人観光客の回帰</span>
+        <span class="sec-time">8:29 ~ 9:47</span>
+    </div>
+    <div class="sec-summary">아라시야마에서 50년 관광업 종사자 고지마 씨 인터뷰. 작년 12월부터 일본인 관광객 증가 실감. 오버투어리즘으로 피했던 일본인이 돌아오는 변화. 아라시야마의 자연미를 일본인에게 전하고 싶다는 바람.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">10</span>
+        <span class="sec-title">エンディング</span>
+        <span class="sec-time">9:49 ~ 9:52</span>
+    </div>
+    <div class="sec-summary">시청 감사 인사로 마무리.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">原風景</span>
+        <span class="phonetic">はらふうけい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">primordial landscape; archetypal scenery of one&#x27;s homeland</div>
+    <div class="meaning-ko">원풍경 (마음속 고향의 원초적 풍경)</div>
+    <div class="context">"雪をいただく富士山を望む日本の原風景。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">異変</span>
+        <span class="phonetic">いへん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">strange occurrence; unusual event; anomaly</div>
+    <div class="meaning-ko">이변, 변고</div>
+    <div class="context">"そんな人気の観光地に異変が起きていました。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">例年</span>
+        <span class="phonetic">れいねん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">average year; normal year; every year as usual</div>
+    <div class="meaning-ko">예년, 매년</div>
+    <div class="context">"中国人観光客に関しては例年よりも少ないということなんです。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">恒例</span>
+        <span class="phonetic">こうれい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">established custom; annual practice; regular event</div>
+    <div class="meaning-ko">매년 하는 관례, 연례행사</div>
+    <div class="context">"今日中国では恒例の大移動が始まっていました。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">大移動</span>
+        <span class="phonetic">だいいどう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">great migration; mass movement of people</div>
+    <div class="meaning-ko">대이동 (춘절 때 중국인의 대규모 이동)</div>
+    <div class="context">"今日中国では恒例の大移動が始まっていました。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">春節</span>
+        <span class="phonetic">しゅんせつ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Chinese New Year; Spring Festival</div>
+    <div class="meaning-ko">춘절 (중국 설날)</div>
+    <div class="context">"いよいよ春節の連休がスタートしました。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">過去最多</span>
+        <span class="phonetic">かこさいた</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">the highest ever recorded; unprecedented record</div>
+    <div class="meaning-ko">역대 최다</div>
+    <div class="context">"過去最多の延べ95億人が移動すると見込まれています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">延べ</span>
+        <span class="phonetic">のべ</span>
+        <span class="pos">noun/adverb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">total (counting duplicates); aggregate; gross</div>
+    <div class="meaning-ko">연(延), 총계 (중복 포함)</div>
+    <div class="context">"延べ95億人が移動すると見込まれています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">渡航自粛</span>
+        <span class="phonetic">とこうじしゅく</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">voluntary restraint from traveling abroad</div>
+    <div class="meaning-ko">도항 자제, 해외여행 자제</div>
+    <div class="context">"日本便の減便や国民に渡航自粛を要請。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">激減</span>
+        <span class="phonetic">げきげん</span>
+        <span class="pos">noun/verb (suru)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">sharp decrease; drastic reduction</div>
+    <div class="meaning-ko">격감, 급격한 감소</div>
+    <div class="context">"中国からの団体客が激減している京都。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">インバウンド</span>
+        <span class="phonetic">いんばうんど</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">inbound (tourism); foreign visitors to Japan</div>
+    <div class="meaning-ko">인바운드, 방일 외국인 관광</div>
+    <div class="context">"基本的にインバウンドのお客様を対象としたお店って、ほとんど皆無なんですよね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">皆無</span>
+        <span class="phonetic">かいむ</span>
+        <span class="pos">noun/na-adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">nothing at all; completely nonexistent</div>
+    <div class="meaning-ko">전무, 아예 없음</div>
+    <div class="context">"ほとんど皆無なんですよね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">オーバーツーリズム</span>
+        <span class="phonetic">おーばーつーりずむ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">overtourism; negative impact of excessive tourism</div>
+    <div class="meaning-ko">오버투어리즘, 과잉 관광</div>
+    <div class="context">"オーバーツーリズムで敬遠がちだった日本人観光客に、"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">敬遠</span>
+        <span class="phonetic">けいえん</span>
+        <span class="pos">noun/verb (suru)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">keeping at a respectful distance; avoiding</div>
+    <div class="meaning-ko">기피, 꺼려함</div>
+    <div class="context">"オーバーツーリズムで敬遠がちだった日本人観光客に、変化が見え始めたといいます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">肌で感じる</span>
+        <span class="phonetic">はだでかんじる</span>
+        <span class="pos">verb phrase</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">to feel firsthand; to sense physically; to experience directly</div>
+    <div class="meaning-ko">몸소 느끼다, 피부로 느끼다</div>
+    <div class="context">"常に現場にいると、それは肌で感じます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">欧米向け</span>
+        <span class="phonetic">おうべいむけ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">aimed at Western countries (Europe and America)</div>
+    <div class="meaning-ko">구미(서양) 대상, 서구권 향</div>
+    <div class="context">"欧米向けへと切り替えたのです。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">リスク回避</span>
+        <span class="phonetic">りすくかいひ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">risk avoidance; risk management</div>
+    <div class="meaning-ko">리스크 회피, 위험 회피</div>
+    <div class="context">"リスク回避としては、一つのマーケットに集中しないというのが大事かなと、"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">殺傷事件</span>
+        <span class="phonetic">さっしょうじけん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">incident involving killing or wounding; assault case</div>
+    <div class="meaning-ko">살상사건</div>
+    <div class="context">"午前0時ごろ、大阪で起きた殺傷事件を取り上げ、"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">稼働率</span>
+        <span class="phonetic">かどうりつ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">occupancy rate; utilization rate; operation rate</div>
+    <div class="meaning-ko">가동률, 점유율</div>
+    <div class="context">"稼働率を上げるため価格を下げたといいます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">値下げ率</span>
+        <span class="phonetic">ねさげりつ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">rate of price reduction; discount rate</div>
+    <div class="meaning-ko">가격 인하율</div>
+    <div class="context">"こちらのホテルの値下げ率は最大で20%。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜に関しては</div>
+    <div class="explanation">Regarding ~; as for ~; concerning ~. A more formal expression of topic focus compared to simple は or について.</div>
+    <div class="explanation-ko">~에 관해서는. ~에 대해서는. 단순한 は나 について보다 격식 있는 화제 제한 표현으로, 특정 사항에 대해 언급할 때 사용.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;中国人観光客に関しては例年よりも少ないということなんです。&#x27;, &#x27;korean&#x27;: &#x27;중국인 관광객에 관해서는 예년보다 적다는 것입니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;この件に関しては詳しく調べる必要があります。&#x27;, &#x27;korean&#x27;: &#x27;이 건에 관해서는 자세히 조사할 필요가 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ということなんです</div>
+    <div class="explanation">It is the case that ~; the thing is that ~. Used to explain or clarify something, adding a tone of emphasis or confirmation. なんです = のです (explanatory).</div>
+    <div class="explanation-ko">~라는 것입니다. ~인 것입니다. 무언가를 설명하거나 확인하는 어조를 추가하는 표현으로, なんです는 のです의 구어체 형태.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;中国人観光客に関しては例年よりも少ないということなんです。&#x27;, &#x27;korean&#x27;: &#x27;중국인 관광객에 관해서는 예년보다 적다는 것입니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;問題はそこにあるということなんです。&#x27;, &#x27;korean&#x27;: &#x27;문제는 거기에 있다는 것입니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に比べたら</div>
+    <div class="explanation">Compared to ~; if you compare to ~. たら is a conditional form, used here to make a comparison. Often colloquial.</div>
+    <div class="explanation-ko">~에 비하면, ~에 비교하면. たら는 조건형으로 비교 시 사용. 일상 구어체에서 많이 쓰임.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;中国の方が去年に比べたらだいぶ減っています。&#x27;, &#x27;korean&#x27;: &#x27;중국 분들이 작년에 비하면 꽤 줄었습니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;去年に比べたら、今年の夏は涼しい。&#x27;, &#x27;korean&#x27;: &#x27;작년에 비하면 올해 여름은 시원하다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と見込まれています</div>
+    <div class="explanation">It is expected that ~; it is anticipated that ~. 見込む means to anticipate/expect. Used for predictions or forecasts, often in news reporting.</div>
+    <div class="explanation-ko">~할 것으로 예상되고 있습니다. 見込む는 예상하다, 기대하다의 뜻으로 뉴스나 보도에서 예측을 나타낼 때 사용.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;延べ95億人が移動すると見込まれています。&#x27;, &#x27;korean&#x27;: &#x27;연 95억 명이 이동할 것으로 예상되고 있습니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;来年の成長率は3%と見込まれています。&#x27;, &#x27;korean&#x27;: &#x27;내년 성장률은 3%로 예상되고 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に限って言うと</div>
+    <div class="explanation">Strictly speaking about ~; if we limit ourselves to talking about ~. Used to narrow the scope of discussion to a specific subject.</div>
+    <div class="explanation-ko">~에 한해서 말하자면. 말하는 범위를 특정 대상으로 좁힐 때 사용하는 표현.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;私とこの店に限って言うと、3割から4割は減っています。&#x27;, &#x27;korean&#x27;: &#x27;저와 이 가게에 한해 말하자면, 30%에서 40%는 줄었습니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;この地域に限って言うと、被害は少なかった。&#x27;, &#x27;korean&#x27;: &#x27;이 지역에 한해 말하자면, 피해는 적었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜というわけではなくて</div>
+    <div class="explanation">It&#x27;s not that ~; it doesn&#x27;t mean that ~. Used to negate a potential misunderstanding and then clarify the actual situation.</div>
+    <div class="explanation-ko">~라는 것은 아니고. 상대방이 오해할 수 있는 내용을 부정하고 실제 상황을 설명할 때 사용.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;全てが店舗とかお茶屋さんとかいうわけではなくて、普通の一般のお家もあるんですよね。&#x27;, &#x27;korean&#x27;: &#x27;전부 가게나 차야라는 것은 아니고, 평범한 일반 가정집도 있거든요.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;嫌いというわけではなくて、少し苦手なんです。&#x27;, &#x27;korean&#x27;: &#x27;싫다는 것은 아니고, 좀 어렵게 느껴지는 거예요.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ざるを得ない</div>
+    <div class="explanation">Cannot help but ~; have no choice but to ~. Expresses inevitability or compulsion. 〜ざる is the classical negative form + を得ない (cannot avoid).</div>
+    <div class="explanation-ko">~하지 않을 수 없다, ~할 수밖에 없다. 어쩔 수 없는 상황이나 필연성을 나타냄. ざる는 고어의 부정형으로 を得ない(피할 수 없다)와 결합.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;我々も下げざるを得ないという状況になったというところがあります。&#x27;, &#x27;korean&#x27;: &#x27;저희도 내리지 않을 수 없다는 상황이 됐다는 부분이 있습니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;時間がないので、タクシーを使わざるを得ない。&#x27;, &#x27;korean&#x27;: &#x27;시간이 없어서 택시를 이용하지 않을 수 없다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜つつある</div>
+    <div class="explanation">Is in the process of ~ing; is gradually ~ing. Expresses an ongoing progressive change over time.</div>
+    <div class="explanation-ko">~하는 중이다, 점점 ~하고 있다. 시간이 지남에 따라 진행 중인 변화를 나타냄.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;離れつつある中国団体客依存。&#x27;, &#x27;korean&#x27;: &#x27;멀어지고 있는 중국 단체 관광객 의존.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;状況は改善されつつある。&#x27;, &#x27;korean&#x27;: &#x27;상황은 개선되고 있는 중이다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜がちだ</div>
+    <div class="explanation">Tends to ~; is inclined to ~; often does ~. Expresses a tendency, often with a slightly negative connotation.</div>
+    <div class="explanation-ko">~하는 경향이 있다, ~하기 쉽다. 어떤 경향이나 성향을 나타내며, 부정적인 뉘앙스를 갖는 경우가 많음.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;オーバーツーリズムで敬遠がちだった日本人観光客に、変化が見え始めたといいます。&#x27;, &#x27;korean&#x27;: &#x27;오버투어리즘으로 피하는 경향이 있었던 일본인 관광객에게, 변화가 보이기 시작했다고 합니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;彼は遅刻がちだ。&#x27;, &#x27;korean&#x27;: &#x27;그는 지각하는 경향이 있다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てもらわないと</div>
+    <div class="explanation">Unless ~; if I can&#x27;t get someone to ~. Expresses that something needs to happen (receiving an action from someone). Implies an undesirable consequence if it doesn&#x27;t happen.</div>
+    <div class="explanation-ko">~해 주지 않으면. 누군가에게 무언가를 해줄 것을 기대하는데 그렇지 않으면 좋지 않은 결과가 생김을 내포함.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;この良さを日本の人に分かってもらわないと、この良さがなくなっていくと思うんですよ。&#x27;, &#x27;korean&#x27;: &#x27;이 좋음을 일본 사람들에게 이해받지 못하면, 이 좋음이 사라져 갈 것 같아요.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;先生に説明してもらわないと、分からないです。&#x27;, &#x27;korean&#x27;: &#x27;선생님이 설명해 주시지 않으면 모르겠어요.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜によると</div>
+    <div class="explanation">According to ~; based on ~. Used to cite a source of information, common in news reporting.</div>
+    <div class="explanation-ko">~에 따르면, ~에 의하면. 정보의 출처를 인용할 때 사용하며 뉴스 보도에서 자주 등장함.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;韓国観光公社などの発表によると、この春節で韓国を訪れる中国人観光客は1日平均19万人と予想されていて、&#x27;, &#x27;korean&#x27;: &#x27;한국관광공사 등의 발표에 따르면, 이번 춘절에 한국을 방문하는 중국인 관광객은 하루 평균 19만 명으로 예상되고 있으며,&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;気象庁の発表によると、明日は雨の予報です。&#x27;, &#x27;korean&#x27;: &#x27;기상청 발표에 따르면, 내일은 비 예보입니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜一方（で）</div>
+    <div class="explanation">On the other hand ~; while ~. Used to contrast two different situations or facts.</div>
+    <div class="explanation-ko">한편 ~. 반면에 ~. 두 가지 다른 상황이나 사실을 대조할 때 사용.</div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;中国人団体客は減っているという一方、個人旅行で来日する中国人は少なくないといいます。&#x27;, &#x27;korean&#x27;: &#x27;중국인 단체 관광객은 줄고 있는 반면, 개인 여행으로 일본을 방문하는 중국인은 적지 않다고 합니다.&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;A国では景気が良い一方、B国では悪化している。&#x27;, &#x27;korean&#x27;: &#x27;A국에서는 경기가 좋은 반면, B국에서는 악화되고 있다.&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">にぎわっています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">にぎわっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">polite</div>
+        <div class="explanation-text">にぎわう(북적이다)의 ています형 정중체. 현재 진행 상태를 정중하게 표현. 뉴스 보도 스타일.</div>
+        <div class="practice">뉴스 리포터가 현장 상황을 시청자에게 정중하게 보고하는 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ということなんです</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ということなんです</span>
+    <div class="details">
+        <div class="phonetic-ipa">polite</div>
+        <div class="explanation-text">のです의 구어체인 なんです를 사용한 정중한 설명 표현. 기자가 시청자에게 상황을 설명할 때 사용.</div>
+        <div class="practice">리포터가 현장에서 상황을 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご視聴ありがとうございました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごしちょうありがとうございました</span>
+    <div class="details">
+        <div class="phonetic-ipa">very polite</div>
+        <div class="explanation-text">접두사 ご를 붙인 ご視聴(시청)과 ありがとうございました의 조합으로, 방송 매체에서 시청자에게 감사를 전하는 정형화된 최상급 정중 표현.</div>
+        <div class="practice">방송 마무리에서 시청자에게 감사를 전하는 방송 관용구</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">様々な対策を行っていました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">さまざまなたいさくをおこなっていました</span>
+    <div class="details">
+        <div class="phonetic-ipa">polite</div>
+        <div class="explanation-text">行う(おこなう)는 する의 격식 있는 표현. ていました는 과거 진행을 정중하게 나타내는 형태로 뉴스 보도에서 자주 사용.</div>
+        <div class="practice">리포터가 호텔의 대책을 보도할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">戻ってきてほしいですよね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">もどってきてほしいですよね</span>
+    <div class="details">
+        <div class="phonetic-ipa">polite/conversational</div>
+        <div class="explanation-text">ほしい(원하다/해줬으면 하다)에 정중형 です를 붙인 표현. よね는 청자에게 공감을 구하는 종조사로 친근함과 정중함을 동시에 표현.</div>
+        <div class="practice">관광업 베테랑이 일본인 관광객 귀환을 바라는 마음을 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">にぎわっています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">にぎわっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">polite</div>
+        <div class="explanation-text">관용적 뉴스 어체로 현재 진행 상황을 시청자에게 정중히 설명. テレビ報道의 전형적인 어체.</div>
+        <div class="practice">기자가 번화한 거리 상황을 현장에서 보도할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Sonkeigo / 尊敬語 (존경어)</div>
+<div class="cs-card">
+    <span class="original">中国の方</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ちゅうごくのかた</span>
+    <div class="details">
+        <div class="phonetic-ipa">respectful</div>
+        <div class="explanation-text">방(方)는 사람을 높여 부르는 존경어. 중국인을 격식 있게 존중하여 부르는 표현. 一般的으로 인터뷰나 보도에서 사용.</div>
+        <div class="practice">인터뷰 대상자나 기자가 외국인 관광객을 정중하게 언급할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お客さん</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おきゃくさん</span>
+    <div class="details">
+        <div class="phonetic-ipa">respectful</div>
+        <div class="explanation-text">접두사 お와 접미사 さん을 붙여 손님을 높이는 존경어. 가게나 서비스업에서 고객을 정중하게 부를 때 사용.</div>
+        <div class="practice">가게 주인이 손님을 지칭할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">団体の方</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">だんたいのかた</span>
+    <div class="details">
+        <div class="phonetic-ipa">respectful</div>
+        <div class="explanation-text">方(かた)를 사용해 단체 관광객을 정중하게 지칭하는 존경어. 불만을 표현하면서도 격식을 갖추는 일본식 화법.</div>
+        <div class="practice">인터뷰에서 단체 관광객에 대한 불만을 정중하게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お客様を対象とした</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おきゃくさまをたいしょうとした</span>
+    <div class="details">
+        <div class="phonetic-ipa">very respectful</div>
+        <div class="explanation-text">お客様는 お客さん보다 더 높은 존경어로, さま는 最上級 경어. 비즈니스 상황에서 고객을 최상의 예우로 부르는 표현.</div>
+        <div class="practice">상업 지구의 가게 대상 고객층을 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">いらっしゃらない</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いらっしゃらない</span>
+    <div class="details">
+        <div class="phonetic-ipa">respectful</div>
+        <div class="explanation-text">いらっしゃる는 いる、来る、行く의 존경어. いらっしゃらない는 그 부정형으로 &#x27;오지 않으시다/없으시다&#x27;를 나타냄.</div>
+        <div class="practice">호텔 관계자가 중국인 고객이 오지 않는다는 것을 정중하게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">日本の方が増えてきた</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">にほんのかたがふえてきた</span>
+    <div class="details">
+        <div class="phonetic-ipa">respectful</div>
+        <div class="explanation-text">方(かた)는 사람을 높이는 존경어로 일본인 관광객을 정중하게 지칭. 인터뷰 대상자가 일본인 손님에 대한 존중을 표현.</div>
+        <div class="practice">관광업 종사자가 일본인 관광객 증가에 대해 말할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Kenjougo / 謙譲語 (겸양어)</div>
+<div class="cs-card">
+    <span class="original">うちは多かったので</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">うちはおおかったので</span>
+    <div class="details">
+        <div class="phonetic-ipa">humble</div>
+        <div class="explanation-text">うち는 자신의 가게/집을 낮추어 부르는 겸양 표현. 자신의 가게를 낮추어 이야기하는 겸손한 표현.</div>
+        <div class="practice">가게 주인이 자신의 가게 상황을 겸손하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">私どもと思っております</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">わたしどもとおもっております</span>
+    <div class="details">
+        <div class="phonetic-ipa">very humble</div>
+        <div class="explanation-text">私ども는 私たち의 겸양어로 자신/자신의 회사를 낮추는 표현. おります는 いる의 겸양어. 비즈니스 인터뷰에서 최고 수준의 겸손함을 나타냄.</div>
+        <div class="practice">호텔 관계자가 인터뷰에서 회사의 입장을 겸손하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">我々も下げざるを得ない</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">われわれもさげざるをえない</span>
+    <div class="details">
+        <div class="phonetic-ipa">formal</div>
+        <div class="explanation-text">我々(われわれ)는 격식 있는 一人称 복수형으로 비즈니스·공식 발화에서 사용. ざるを得ない는 어쩔 수 없다는 객관적·공식적인 표현.</div>
+        <div class="practice">호텔 관계자가 가격 인하가 불가피했음을 공식적으로 설명할 때</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type contrast">contrast</span>
+    <div>
+        <div class="signal-expr">"ただ、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast">contrast</span>
+    <div>
+        <div class="signal-expr">"一方、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type addition">addition</span>
+    <div>
+        <div class="signal-expr">"さらに"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast/transition">contrast/transition</span>
+    <div>
+        <div class="signal-expr">"一方でこんな意見も。"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast">contrast</span>
+    <div>
+        <div class="signal-expr">"しかし、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"こうした中、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type exemplification">exemplification</span>
+    <div>
+        <div class="signal-expr">"実際、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type source citation">source citation</span>
+    <div>
+        <div class="signal-expr">"〜によると、"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=QQQVLZGWihQ
+    </div>
+</div>
+
+</body>
+</html>

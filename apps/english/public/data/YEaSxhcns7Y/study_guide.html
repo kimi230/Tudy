@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>Where did English come from? - Claire Bowern</h1>
+    <div class="subtitle">TED-Ed</div>
+    <div class="desc-ko">영어는 어디서 왔을까? — 인도유럽어족의 역사</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">4:53</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">133</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">61</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">21</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/YEaSxhcns7Y/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/YEaSxhcns7Y">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (16 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (5 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (13 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 4-minute video by TED-Ed is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction - The Question</span>
+        <span class="sec-time">0:00 ~ 0:22</span>
+    </div>
+    <div class="sec-summary">핵심 질문을 제시합니다: 다양한 영어 방언, 초서의 글, 베오울프가 어떤 공통점을 가지고 있을까요?</div>
+    <div class="key-points"><span class="key-point">영어를 단일 언어로 생각하지만 실제로는 다양한 방언이 있음</span><span class="key-point">현대 영어와 고대 문학 사이의 관계에 대한 질문 제기</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Core Answer - Language Evolution</span>
+        <span class="sec-time">0:22 ~ 0:47</span>
+    </div>
+    <div class="sec-summary">영어가 대부분의 언어처럼 세대를 거치며 진화해 왔음을 설명합니다. 현대 영어가 로망스어와 단어를 공유하지만, 대부분은 나중에 차용된 것입니다.</div>
+    <div class="key-points"><span class="key-point">영어는 여러 세대에 걸쳐 진화해 왔음</span><span class="key-point">라틴어 파생 로망스어와 유사한 단어는 원래 영어의 일부가 아니었음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Norman Invasion and French Influence</span>
+        <span class="sec-time">0:47 ~ 1:10</span>
+    </div>
+    <div class="sec-summary">1066년 노르만 침공이 프랑스어와 라틴어 어휘를 고대 영어에 가져온 과정을 설명합니다.</div>
+    <div class="key-points"><span class="key-point">1066년 노르만족의 잉글랜드 침공</span><span class="key-point">프랑스어를 사용하는 지배 계층이 대량의 프랑스어와 라틴어 어휘를 추가</span><span class="key-point">침공 이전의 언어를 고대 영어라고 부름</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Old English and Germanic Roots</span>
+        <span class="sec-time">1:10 ~ 1:42</span>
+    </div>
+    <div class="sec-summary">앵글족, 색슨족, 주트족이 가져온 고대 영어의 게르만어 기원과 바이킹 침략으로 인한 노르드어 차용을 설명합니다.</div>
+    <div class="key-points"><span class="key-point">고대 영어는 게르만어족에 속함</span><span class="key-point">5~6세기에 앵글족, 색슨족, 주트족이 브리튼 제도에 가져옴</span><span class="key-point">8~11세기 바이킹 침략자들이 고대 노르드어 차용어를 추가</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Comparative Linguistics Method</span>
+        <span class="sec-time">1:42 ~ 2:31</span>
+    </div>
+    <div class="sec-summary">문법 패턴, 음운 변화, 핵심 어휘를 통해 언어 기원을 추적하는 도구로서 비교언어학을 소개하며, P에서 PF로, SK에서 SH로의 변화 등 구체적 예를 제시합니다.</div>
+    <div class="key-points"><span class="key-point">비교언어학은 문법 구조, 음운 변화 패턴, 핵심 어휘에 초점</span><span class="key-point">독일어의 P에서 PF로의 변화 vs 영어의 P 유지</span><span class="key-point">스웨덴어 SK가 영어에서 SH로 변화</span><span class="key-point">skirt, skull 같은 단어는 SK-SH 변화 이후의 노르드어 차용어</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Proto-Germanic and Proto-Indo-European</span>
+        <span class="sec-time">2:31 ~ 3:28</span>
+    </div>
+    <div class="sec-summary">원시 게르만어(기원전 500년)에서 인도유럽조어(6,000년 전)까지의 언어 가계도를 추적하며, 거의 모든 유럽 언어와 많은 아시아 언어를 포괄합니다.</div>
+    <div class="key-points"><span class="key-point">영어, 스웨덴어, 독일어 등은 원시 게르만어(기원전 500년경)에서 파생</span><span class="key-point">원시 게르만어는 기록된 적이 없어 후손 언어 비교로만 재구성 가능</span><span class="key-point">원시 게르만어는 인도유럽조어에서 유래</span><span class="key-point">인도유럽조어는 약 6,000년 전 폰투스 초원에서 사용됨</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Sound Correspondences Across Indo-European</span>
+        <span class="sec-time">3:28 ~ 3:57</span>
+    </div>
+    <div class="sec-summary">영어와 라틴어 사이의 체계적 음운 대응(T/D, F/P)을 보여주고, 힌디어, 페르시아어, 켈트어 등 먼 친척 언어를 언급합니다.</div>
+    <div class="key-points"><span class="key-point">영어 T = 라틴어 D, 영어 F = 라틴어 P (단어 시작 부분)</span><span class="key-point">영어의 먼 친척: 힌디어, 페르시아어, 켈트어</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Conclusion - Remaining Mysteries and Wonder</span>
+        <span class="sec-time">3:57 ~ 4:35</span>
+    </div>
+    <div class="sec-summary">역사적 증거의 한계를 인정하면서도, 거의 30억 명이 6,000년의 공유된 역사에 의해 형성된 단어들을 사용하고 있다는 놀라운 사실을 강조합니다.</div>
+    <div class="key-points"><span class="key-point">인도유럽조어 이전의 언어는 추적 불가능</span><span class="key-point">인도유럽어와 다른 어족 사이의 연결 등 미스터리가 남아 있음</span><span class="key-point">거의 30억 명이 서로 이해할 수 없지만 6,000년 역사로 형성된 같은 단어들을 사용</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">dialect</span>
+        <span class="phonetic">/ˈdaɪəlekt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A regional or social variety of a language distinguished by pronunciation, grammar, or vocabulary.</div>
+    <div class="meaning-ko">방언, 사투리</div>
+    <div class="etymology">From Greek &#x27;dialektos&#x27; meaning &#x27;discourse, way of speaking&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">dia-</span><span class="root-part">lect</span></div>
+    <div class="context">"But what do the dialects spoken in dozens of countries around the world have in common?"</div>
+    <div class='related'>Related: dialectal, dialectic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">evolved</span>
+        <span class="phonetic">/ɪˈvɒlvd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">Developed gradually over time, especially from a simple to a more complex form.</div>
+    <div class="meaning-ko">진화하다, 발전하다</div>
+    <div class="etymology">From Latin &#x27;evolvere&#x27; meaning &#x27;to unroll, unfold&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">e-</span><span class="root-part">volv</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"English has evolved through generations of speakers."</div>
+    <div class='related'>Related: evolution, evolving, revolve</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">trace</span>
+        <span class="phonetic">/treɪs/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To find the origin or course of development of something.</div>
+    <div class="meaning-ko">추적하다, 더듬어 가다</div>
+    <div class="etymology">From Old French &#x27;tracier&#x27; meaning &#x27;to follow, track&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">trace</span></div>
+    <div class="context">"We can trace the language from the present day back to its ancient roots."</div>
+    <div class='related'>Related: traceable, retracing, tracing</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">invasion</span>
+        <span class="phonetic">/ɪnˈveɪʒən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">An instance of invading a country or region with an armed force.</div>
+    <div class="meaning-ko">침략, 침공</div>
+    <div class="etymology">From Latin &#x27;invasionem&#x27; meaning &#x27;an attack, invasion&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">vas</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"They started coming into the language with the Norman invasion of England in 1066."</div>
+    <div class='related'>Related: invade, invader, invasive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">conquered</span>
+        <span class="phonetic">/ˈkɒŋkərd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">Overcame and took control of a place or people by military force.</div>
+    <div class="meaning-ko">정복하다</div>
+    <div class="etymology">From Old French &#x27;conquerre&#x27;, from Latin &#x27;conquirere&#x27; meaning &#x27;to seek out, procure&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">quer</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"When the French-speaking Normans conquered England."</div>
+    <div class='related'>Related: conquer, conquest, conqueror</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vocabulary</span>
+        <span class="phonetic">/vəˈkæbjʊləri/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The body of words used in a particular language or known to an individual.</div>
+    <div class="meaning-ko">어휘, 단어</div>
+    <div class="etymology">From Medieval Latin &#x27;vocabularium&#x27;, from Latin &#x27;vocabulum&#x27; meaning &#x27;word, name&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">vocab</span><span class="root-part suffix">-ulary</span></div>
+    <div class="context">"Adding a massive amount of French and Latin vocabulary."</div>
+    <div class='related'>Related: vocal, vocalize, advocate</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">comparative</span>
+        <span class="phonetic">/kəmˈpærətɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Involving comparison between two or more things.</div>
+    <div class="meaning-ko">비교의, 비교적인</div>
+    <div class="etymology">From Latin &#x27;comparativus&#x27;, from &#x27;comparare&#x27; meaning &#x27;to compare&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">par</span><span class="root-part suffix">-ative</span></div>
+    <div class="context">"But comparative linguistics can help us by focusing on grammatical structure."</div>
+    <div class='related'>Related: compare, comparison, comparable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">linguistics</span>
+        <span class="phonetic">/lɪŋˈɡwɪstɪks/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The scientific study of language and its structure.</div>
+    <div class="meaning-ko">언어학</div>
+    <div class="etymology">From Latin &#x27;lingua&#x27; meaning &#x27;language, tongue&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">lingu</span><span class="root-part suffix">-istics</span></div>
+    <div class="context">"But comparative linguistics can help us by focusing on grammatical structure."</div>
+    <div class='related'>Related: linguist, linguistic, bilingual</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">grammatical</span>
+        <span class="phonetic">/ɡrəˈmætɪkəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Relating to grammar or conforming to the rules of grammar.</div>
+    <div class="meaning-ko">문법의, 문법적인</div>
+    <div class="etymology">From Greek &#x27;grammatikos&#x27; meaning &#x27;of letters&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">gramm</span><span class="root-part suffix">-atical</span></div>
+    <div class="context">"Comparative linguistics can help us by focusing on grammatical structure."</div>
+    <div class='related'>Related: grammar, grammarian, grammatically</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">counterparts</span>
+        <span class="phonetic">/ˈkaʊntəpɑːrts/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A person or thing that corresponds to or has the same function as another in a different context.</div>
+    <div class="meaning-ko">대응물, 상대</div>
+    <div class="etymology">From &#x27;counter&#x27; (opposite) + &#x27;part&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">counter-</span><span class="root-part">part</span><span class="root-part suffix">-s</span></div>
+    <div class="context">"While their Old English counterparts kept the P unchanged."</div>
+    <div class='related'>Related: counterpart, counterpoint, counterbalance</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">borrowings</span>
+        <span class="phonetic">/ˈbɒroʊɪŋz/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Words adopted from one language into another.</div>
+    <div class="meaning-ko">차용어</div>
+    <div class="etymology">From Old English &#x27;borgian&#x27; meaning &#x27;to lend, borrow&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">borrow</span><span class="root-part suffix">-ings</span></div>
+    <div class="context">"Viking invaders added more borrowings from Old Norse into the mix."</div>
+    <div class='related'>Related: borrow, borrowed, borrower</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">descended</span>
+        <span class="phonetic">/dɪˈsendɪd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">Originated or derived from an ancestor or earlier form.</div>
+    <div class="meaning-ko">파생되다, 유래하다</div>
+    <div class="etymology">From Latin &#x27;descendere&#x27; meaning &#x27;to come down, go down&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">de-</span><span class="root-part">scend</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"Just as the various Romance languages descended from Latin."</div>
+    <div class='related'>Related: descend, descendant, descent</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ancestor</span>
+        <span class="phonetic">/ˈænsestər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A person or thing from which later forms developed; a forefather.</div>
+    <div class="meaning-ko">조상, 선조</div>
+    <div class="etymology">From Old French &#x27;ancestre&#x27;, from Latin &#x27;antecessor&#x27; meaning &#x27;predecessor&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ante-</span><span class="root-part">cess</span><span class="root-part suffix">-or</span></div>
+    <div class="context">"Descended from their own common ancestor, known as Proto-Germanic."</div>
+    <div class='related'>Related: ancestry, ancestral</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">reconstruct</span>
+        <span class="phonetic">/ˌriːkənˈstrʌkt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To build or form again; to re-create or re-establish based on available evidence.</div>
+    <div class="meaning-ko">재구성하다, 복원하다</div>
+    <div class="etymology">From Latin &#x27;re-&#x27; (again) + &#x27;construere&#x27; (to build)</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">con-struct</span></div>
+    <div class="context">"We can only reconstruct it by comparing its descendants."</div>
+    <div class='related'>Related: reconstruction, construct, structure</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">correspondences</span>
+        <span class="phonetic">/ˌkɒrɪˈspɒndənsɪz/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Close similarities or connections between things; systematic relationships between sounds in related languages.</div>
+    <div class="meaning-ko">대응 관계, 유사점</div>
+    <div class="etymology">From Medieval Latin &#x27;correspondentia&#x27;, from &#x27;correspondere&#x27; meaning &#x27;to respond together&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">cor-</span><span class="root-part">respond</span><span class="root-part suffix">-ences</span></div>
+    <div class="context">"We can find the same systematic similarities, or correspondences."</div>
+    <div class='related'>Related: correspond, corresponding, correspondent</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">nevertheless</span>
+        <span class="phonetic">/ˌnevəðəˈles/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">In spite of that; however; all the same.</div>
+    <div class="meaning-ko">그럼에도 불구하고</div>
+    <div class="etymology">From &#x27;never&#x27; + &#x27;the&#x27; + &#x27;less&#x27;, Middle English compound</div>
+    <div class="root-breakdown"><span class="root-part prefix">never</span><span class="root-part">the</span><span class="root-part suffix">less</span></div>
+    <div class="context">"Are nevertheless speaking the same words shaped by 6,000 years of history."</div>
+    <div class='related'>Related: nonetheless, however, notwithstanding</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">massive</span>
+        <span class="phonetic">/ˈmæsɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Exceptionally large or extensive.</div>
+    <div class="meaning-ko">막대한, 거대한</div>
+    <div class="etymology">From French &#x27;massif&#x27;, from Latin &#x27;massa&#x27; meaning &#x27;lump, mass&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">mass</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"Adding a massive amount of French and Latin vocabulary."</div>
+    <div class='related'>Related: mass, massively, massiveness</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">systematically</span>
+        <span class="phonetic">/ˌsɪstəˈmætɪkli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">According to a fixed plan or system; in a methodical way.</div>
+    <div class="meaning-ko">체계적으로</div>
+    <div class="etymology">From Greek &#x27;systematikos&#x27; meaning &#x27;combined in a system&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">system</span><span class="root-part suffix">-atically</span></div>
+    <div class="context">"German words starting with P systematically shifted to a PF sound."</div>
+    <div class='related'>Related: system, systematic, systematize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consistency</span>
+        <span class="phonetic">/kənˈsɪstənsi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The quality of being unchanging or achieving the same standard repeatedly.</div>
+    <div class="meaning-ko">일관성</div>
+    <div class="etymology">From Latin &#x27;consistentia&#x27; meaning &#x27;standing firm&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">sist</span><span class="root-part suffix">-ency</span></div>
+    <div class="context">"Which is possible thanks to the consistency of the changes."</div>
+    <div class='related'>Related: consistent, consist, inconsistency</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">displaced</span>
+        <span class="phonetic">/dɪsˈpleɪst/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">Took the place of; forced something out of its position or role.</div>
+    <div class="meaning-ko">대체하다, 밀어내다</div>
+    <div class="etymology">From Old French &#x27;desplacer&#x27;, meaning &#x27;to move from a place&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">dis-</span><span class="root-part">place</span><span class="root-part suffix">-d</span></div>
+    <div class="context">"And the Celtic languages it displaced in what is now Britain."</div>
+    <div class='related'>Related: displace, displacement, replace</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">archaeological</span>
+        <span class="phonetic">/ˌɑːrkiəˈlɒdʒɪkəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Relating to the study of human history through excavation and analysis of physical remains.</div>
+    <div class="meaning-ko">고고학적인</div>
+    <div class="etymology">From Greek &#x27;arkhaios&#x27; (ancient) + &#x27;logos&#x27; (study)</div>
+    <div class="root-breakdown"><span class="root-part prefix">archaeo-</span><span class="root-part">log</span><span class="root-part suffix">-ical</span></div>
+    <div class="context">"This is as far back as historical and archaeological evidence will allow us to go."</div>
+    <div class='related'>Related: archaeology, archaeologist, archaic</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Present Perfect (has + past participle)</div>
+    <div class="explanation">Used to describe an action that started in the past and continues to the present, or an action with present relevance. Here &#x27;has evolved&#x27; shows an ongoing historical process.</div>
+    <div class="explanation-ko">과거에 시작되어 현재까지 계속되는 동작이나 현재와 관련이 있는 과거 동작을 나타냅니다. 여기서 &#x27;has evolved&#x27;는 지속적인 역사적 과정을 보여줍니다.</div>
+    <div class="example">English has evolved through generations of speakers.</div><div class="example">The language has changed over many centuries.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Passive Voice (was/were + past participle)</div>
+    <div class="explanation">Used when the focus is on the action or result rather than who performed it. Common in academic and historical writing to describe events objectively.</div>
+    <div class="explanation-ko">행위자보다 동작이나 결과에 초점을 맞출 때 사용합니다. 학술적, 역사적 서술에서 사건을 객관적으로 묘사할 때 흔히 쓰입니다.</div>
+    <div class="example">This historical language was never written down.</div><div class="example">First brought to the British Isles in the 5th and 6th centuries.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">By + gerund (means/method)</div>
+    <div class="explanation">The structure &#x27;by + verb-ing&#x27; is used to describe the method or means by which something is achieved.</div>
+    <div class="explanation-ko">&#x27;by + 동명사&#x27; 구조는 어떤 것을 달성하는 방법이나 수단을 설명할 때 사용합니다.</div>
+    <div class="example">By undoing these changes, we can trace the language.</div><div class="example">By focusing on grammatical structure.</div><div class="example">By comparing its descendants.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">While + contrast clause</div>
+    <div class="explanation">Used to introduce a contrasting idea. &#x27;While&#x27; connects two clauses that present different or opposing information.</div>
+    <div class="explanation-ko">&#x27;While&#x27;은 대조적인 내용을 소개할 때 사용합니다. 서로 다르거나 반대되는 정보를 제시하는 두 절을 연결합니다.</div>
+    <div class="example">While modern English shares many similar words with Latin-derived Romance languages, most of those words were not originally part of it.</div><div class="example">While their Old English counterparts kept the P unchanged.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Modal verb &#x27;may/might&#x27; for possibility</div>
+    <div class="explanation">&#x27;May&#x27; and &#x27;might&#x27; express possibility or uncertainty. &#x27;May&#x27; suggests a slightly higher probability than &#x27;might&#x27;.</div>
+    <div class="explanation-ko">&#x27;may&#x27;와 &#x27;might&#x27;는 가능성이나 불확실성을 표현합니다. &#x27;may&#x27;가 &#x27;might&#x27;보다 약간 더 높은 확률을 나타냅니다.</div>
+    <div class="example">It may be hard to see the roots of modern English.</div><div class="example">It might be more recognizable if you know some German.</div><div class="example">Whether there might be a link between Indo-European and other major language families.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional with &#x27;if&#x27; clause</div>
+    <div class="explanation">An &#x27;if&#x27; clause introduces a condition. Here it presents a hypothetical situation that would change the outcome.</div>
+    <div class="explanation-ko">&#x27;if&#x27; 절은 조건을 도입합니다. 여기서는 결과를 바꿀 수 있는 가정적 상황을 제시합니다.</div>
+    <div class="example">It might be more recognizable if you know some German.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Relative clause with &#x27;that/which/who&#x27;</div>
+    <div class="explanation">Relative clauses add extra information about a noun. &#x27;That&#x27; defines or restricts, &#x27;which&#x27; adds non-essential information, and &#x27;who&#x27; refers to people.</div>
+    <div class="explanation-ko">관계절은 명사에 대한 추가 정보를 더합니다. &#x27;that&#x27;은 제한적으로 정의하고, &#x27;which&#x27;는 비필수적 정보를 추가하며, &#x27;who&#x27;는 사람을 가리킵니다.</div>
+    <div class="example">Words that have SK sounds in Swedish developed an SH sound in English.</div><div class="example">Which is possible thanks to the consistency of the changes.</div><div class="example">Many of whom cannot understand each other.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Would + base verb (past future/habitual past)</div>
+    <div class="explanation">Used to talk about future events from a past perspective, or to describe habitual actions in the past.</div>
+    <div class="explanation-ko">과거 시점에서 미래의 사건을 이야기하거나, 과거의 습관적인 행동을 묘사할 때 사용합니다.</div>
+    <div class="example">The Germanic dialects they spoke would become known as Anglo-Saxon.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Just as... so too (comparison)</div>
+    <div class="explanation">Used to draw a parallel between two similar situations. &#x27;Just as&#x27; introduces the first situation, and the second follows with an implied or explicit &#x27;so too&#x27;.</div>
+    <div class="explanation-ko">두 가지 유사한 상황 사이에 유사점을 도출할 때 사용합니다. &#x27;just as&#x27;가 첫 번째 상황을 소개하고, 두 번째 상황이 암시적 또는 명시적 &#x27;so too&#x27;와 함께 따릅니다.</div>
+    <div class="example">Just as the various Romance languages descended from Latin, English, Swedish, German descended from their own common ancestor.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Known as + noun (naming/identification)</div>
+    <div class="explanation">Used to introduce an alternative name or designation for something previously mentioned.</div>
+    <div class="explanation-ko">이전에 언급된 것의 대안적 이름이나 명칭을 소개할 때 사용합니다.</div>
+    <div class="example">Known as Proto-Germanic, spoken around 500 BCE.</div><div class="example">Would become known as Anglo-Saxon.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Such as + examples</div>
+    <div class="explanation">&#x27;Such as&#x27; introduces specific examples to illustrate a general statement.</div>
+    <div class="explanation-ko">&#x27;such as&#x27;는 일반적인 진술을 설명하기 위해 구체적인 예를 도입합니다.</div>
+    <div class="example">Such as whether there might be a link between Indo-European and other major language families.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">As well as (addition)</div>
+    <div class="explanation">&#x27;As well as&#x27; is used to add additional information, meaning &#x27;in addition to&#x27; or &#x27;and also&#x27;.</div>
+    <div class="explanation-ko">&#x27;as well as&#x27;는 &#x27;~뿐만 아니라&#x27; 또는 &#x27;~도 또한&#x27;이라는 의미로 추가 정보를 더할 때 사용합니다.</div>
+    <div class="example">As well as large parts of southern and western Asia.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">think of it</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">씽커빗</span>
+    <div class="details">
+        <div class="phonetic-ipa">/θɪŋk_əv_ɪt/</div>
+        <div class="explanation-text">&#x27;think&#x27;의 &#x27;k&#x27;가 &#x27;of&#x27;의 모음과 연결되고, &#x27;of&#x27;가 /əv/로 약화되어 &#x27;it&#x27;과 매끄럽게 이어집니다.</div>
+        <div class="practice">&#x27;씽커빗&#x27;으로 빠르게 연결하여 발음하세요. &#x27;of&#x27;를 약하게 &#x27;어&#x27;로 발음합니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">most of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">모우스터브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/moʊstəv/</div>
+        <div class="explanation-text">&#x27;most&#x27;의 &#x27;t&#x27;가 축약된 &#x27;of&#x27; /əv/에 바로 연결되어 매끄러운 이음을 만듭니다.</div>
+        <div class="practice">&#x27;모우스트&#x27;와 &#x27;어브&#x27;를 자연스럽게 이어서 &#x27;모우스터브&#x27;로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">added more</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">애디드 모어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈædɪd_mɔːr/</div>
+        <div class="explanation-text">&#x27;added&#x27;의 마지막 &#x27;d&#x27;가 &#x27;more&#x27;의 &#x27;m&#x27;과 연결되면서 짧은 파열-비음 전환이 일어납니다.</div>
+        <div class="practice">&#x27;added&#x27;의 &#x27;d&#x27;를 가볍게 발음하면서 바로 &#x27;more&#x27;로 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">out of reach</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아우터브 리치</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aʊt_əv_riːtʃ/</div>
+        <div class="explanation-text">&#x27;out&#x27;의 &#x27;t&#x27;가 축약된 &#x27;of&#x27; /əv/에 연결되고, 이어서 &#x27;reach&#x27;로 이어집니다. 세 단어가 함께 흐릅니다.</div>
+        <div class="practice">&#x27;아웃 오브 리치&#x27;가 아니라 &#x27;아우터브리치&#x27;로 연결하여 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">same words shaped</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">세임 워즈 셰잎트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/seɪm wɜːrdz ʃeɪpt/</div>
+        <div class="explanation-text">&#x27;same&#x27;의 &#x27;m&#x27;이 &#x27;words&#x27;의 &#x27;w&#x27;와 연결되고, &#x27;words&#x27;의 &#x27;z&#x27;가 &#x27;shaped&#x27;의 &#x27;sh&#x27;와 이어집니다.</div>
+        <div class="practice">세 단어를 끊지 않고 자연스럽게 연결하여 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">prior to its</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">프라이어 터 잇츠</span>
+    <div class="details">
+        <div class="phonetic-ipa">/praɪər tə_ɪts/</div>
+        <div class="explanation-text">&#x27;to&#x27;가 /tə/로 축약되어 &#x27;its&#x27;와 매끄럽게 연결됩니다. 모음 소리가 함께 흐릅니다.</div>
+        <div class="practice">&#x27;to&#x27;를 &#x27;투&#x27;가 아닌 &#x27;터&#x27;로 발음하고, &#x27;its&#x27;와 자연스럽게 이어 말하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">dozens of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">더즌저브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdʌznzəv/</div>
+        <div class="explanation-text">&#x27;of&#x27;가 /əv/로 축약되어 앞 단어와 밀접하게 붙어 거의 한 단어처럼 들립니다.</div>
+        <div class="practice">&#x27;더즌즈&#x27;와 &#x27;어브&#x27;를 빠르게 붙여 &#x27;더즌저브&#x27;로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">a massive amount of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">어 매시브 어마운터브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ə ˈmæsɪv əˈmaʊntəv/</div>
+        <div class="explanation-text">관사 &#x27;a&#x27;가 슈와 /ə/로 축약되고, &#x27;of&#x27;가 /əv/로 축약되어 &#x27;amount&#x27;와 섞입니다.</div>
+        <div class="practice">&#x27;a&#x27;를 아주 약하게 &#x27;어&#x27;로 발음하고, &#x27;amount of&#x27;를 빠르게 &#x27;어마운터브&#x27;로 이어 말하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">would become</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워드 비컴</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʊd bɪˈkʌm/ → /wəd bɪˈkʌm/</div>
+        <div class="explanation-text">빠른 말에서 &#x27;would&#x27;가 /wʊd/에서 /wəd/로 축약되어 완전한 모음 소리를 잃습니다.</div>
+        <div class="practice">&#x27;would&#x27;를 &#x27;우드&#x27;로 강하게 발음하지 말고, 약하게 &#x27;워드&#x27;로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">them related to the</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">덤 릴레이리드 터 더</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ðəm rɪˈleɪtɪd tə ðə/</div>
+        <div class="explanation-text">빠른 말에서 &#x27;them&#x27;이 /ðəm/으로, &#x27;to&#x27;가 /tə/로, &#x27;the&#x27;가 /ðə/로 축약됩니다.</div>
+        <div class="practice">기능어들을 약하게 발음하고 내용어인 &#x27;related&#x27;에 강세를 두세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">can only</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">컨 오운리</span>
+    <div class="details">
+        <div class="phonetic-ipa">/kən ˈoʊnli/</div>
+        <div class="explanation-text">&#x27;can&#x27;이 강세 없는 위치에서 슈와 모음을 가진 /kən/으로 축약되어 강세가 있는 &#x27;only&#x27; 앞에 옵니다.</div>
+        <div class="practice">&#x27;캔&#x27;이 아니라 &#x27;컨&#x27;으로 약하게 발음하고, &#x27;only&#x27;에 강세를 두세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">can help</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">컹 헬프</span>
+    <div class="details">
+        <div class="phonetic-ipa">/kən_help/ → /kəŋ_help/</div>
+        <div class="explanation-text">&#x27;can&#x27;의 &#x27;n&#x27;이 뒤따르는 &#x27;h&#x27; 앞에서 동화되며, 강세가 없는 위치에서 &#x27;can&#x27;이 /kən/으로 축약됩니다.</div>
+        <div class="practice">&#x27;can&#x27;을 강하게 &#x27;캔&#x27;으로 발음하지 말고, 약하게 &#x27;컨&#x27;으로 발음하여 &#x27;help&#x27;에 이어 말하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">written down</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">뤼튼 다운</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈrɪtn̩ daʊn/</div>
+        <div class="explanation-text">&#x27;written&#x27;의 &#x27;tt&#x27;가 성문 파열음으로 축약되고, 음절적 &#x27;n&#x27;이 &#x27;down&#x27;과 연결됩니다.</div>
+        <div class="practice">&#x27;written&#x27;의 &#x27;t&#x27;를 가볍게 끊듯 발음하고 바로 &#x27;down&#x27;으로 이어가세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">doesn&#x27;t look</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">더즌(트) 룩</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdʌzn̩t lʊk/</div>
+        <div class="explanation-text">&#x27;doesn&#x27;t&#x27;의 끝 &#x27;t&#x27;가 &#x27;look&#x27;의 &#x27;l&#x27; 앞에서 탈락하거나 파열되지 않습니다.</div>
+        <div class="practice">&#x27;doesn&#x27;t&#x27;의 마지막 &#x27;t&#x27;를 거의 발음하지 말고, 바로 &#x27;look&#x27;으로 넘어가세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">just as</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">저스 애즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/dʒʌs_æz/</div>
+        <div class="explanation-text">연속된 말에서 &#x27;just&#x27;의 &#x27;t&#x27;가 &#x27;as&#x27;의 모음 앞에서 종종 탈락합니다.</div>
+        <div class="practice">&#x27;just&#x27;의 &#x27;t&#x27;를 거의 발음하지 않고 바로 &#x27;as&#x27;로 이어가세요. &#x27;저스애즈&#x27;로 발음합니다.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"When we talk about English, we often think of it as a single language."</div>
+        <div class="signal-role">일반적 인식을 제시하여 청중의 흥미를 유발하는 도입부</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"But what do the dialects spoken in dozens of countries..."</div>
+        <div class="signal-role">수사적 질문으로 호기심을 자극하며 영상의 핵심 주제를 제시</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The answer is that"</div>
+        <div class="signal-role">질문에서 설명으로 전환하는 신호 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Instead"</div>
+        <div class="signal-role">예상과 다른 사실을 소개하는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Today, we call that language Old English."</div>
+        <div class="signal-role">역사적 배경에서 구체적인 언어학 용어로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"That&#x27;s because"</div>
+        <div class="signal-role">이유를 설명하는 인과관계 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But comparative linguistics can help us"</div>
+        <div class="signal-role">문제에서 해결책(비교언어학)으로 전환하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"For example"</div>
+        <div class="signal-role">구체적인 예시를 도입하는 신호 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"These examples show us that"</div>
+        <div class="signal-role">구체적 예시에서 일반적 결론으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"We can even use the same process to go back one step further"</div>
+        <div class="signal-role">논의를 더 깊은 단계로 확장하는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But unfortunately, this is as far back as... will allow us to go."</div>
+        <div class="signal-role">연구의 한계를 인정하며 결론부로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"But the amazing fact remains that"</div>
+        <div class="signal-role">한계에도 불구하고 놀라운 결론을 제시하는 마무리 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Are nevertheless speaking the same words shaped by 6,000 years of history."</div>
+        <div class="signal-role">6,000년의 공유 역사를 강조하며 감동적으로 마무리</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=YEaSxhcns7Y
+    </div>
+</div>
+
+</body>
+</html>

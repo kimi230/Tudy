@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">아무 내용 없이 TED 강연처럼 보이는 법 — 유쾌한 패러디</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">5:56</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">177</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">71</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">25</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/8S0FDjFBj8o/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/8S0FDjFBj8o">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (21 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (4 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 5-minute video by TEDx Talks is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction / Hook</span>
+        <span class="sec-time">0:00 ~ 1:00</span>
+    </div>
+    <div class="sec-summary">윌 스티븐은 할 말이 전혀 없다고 선언하면서 시작하지만, 말하는 방식을 통해 훌륭하게 들리게 만들겠다고 약속합니다.</div>
+    <div class="key-points"><span class="key-point">연사가 아무 내용 없이 시작한다는 역설적 도입</span><span class="key-point">말하는 방식만으로 똑똑하게 들릴 수 있다는 주제 제시</span><span class="key-point">청중에게 무언가를 배운 것 같은 느낌이 들 것이라는 예고</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Opening Technique Demonstration</span>
+        <span class="sec-time">1:03 ~ 1:46</span>
+    </div>
+    <div class="sec-summary">손동작, 청중 설문, 개인적 일화, 감정적 연결 등 일반적인 TEDx 오프닝 기법을 시연하면서, 자신이 하고 있는 것을 공개적으로 설명합니다.</div>
+    <div class="key-points"><span class="key-point">손동작과 안경 만지기 같은 비언어적 기법 소개</span><span class="key-point">거수 투표를 통한 청중 참여 유도</span><span class="key-point">개인적 일화로 긴장을 풀고 호감을 얻는 전략 설명</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Building Authority with Visuals</span>
+        <span class="sec-time">1:47 ~ 3:33</span>
+    </div>
+    <div class="sec-summary">이미지, 숫자, 그래프를 사용하여 신뢰감을 주는 방법을 보여줍니다—무작위 숫자, 의미 없는 원형 차트와 막대 그래프를 통해 데이터 기반 프레젠테이션을 풍자합니다.</div>
+    <div class="key-points"><span class="key-point">구글 이미지 검색한 &#x27;과학자&#x27; 사진으로 지적인 느낌 연출</span><span class="key-point">의미 없는 숫자들로 데이터 제시 방식 패러디</span><span class="key-point">원형 차트와 막대 그래프로 시각 자료의 설득력 풍자</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Confession and Commitment</span>
+        <span class="sec-time">3:34 ~ 3:58</span>
+    </div>
+    <div class="sec-summary">자신이 당황하고 허둥대는 완전한 사기꾼이라고 고백하지만, TED 강연 제안을 받았으니 끝까지 하겠다고 선언합니다.</div>
+    <div class="key-points"><span class="key-point">사기꾼이라는 솔직한 고백으로 역설적 진정성 확보</span><span class="key-point">유튜브 무음 시청 시 전문가처럼 보일 것이라는 관찰</span><span class="key-point">끝까지 해내겠다는 유머러스한 결의</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Descent into Nonsense</span>
+        <span class="sec-time">4:01 ~ 5:05</span>
+    </div>
+    <div class="sec-summary">의미 없는 단어와 사진을 보여주다가 완전한 횡설수설로 내려가면서도, 매력적인 연사의 물리적 매너리즘은 유지합니다.</div>
+    <div class="key-points"><span class="key-point">사진과 단어의 무의미한 조합으로 시각 자료 풍자</span><span class="key-point">횡설수설하면서도 제스처와 페이싱으로 의미 있어 보이게 하기</span><span class="key-point">프레임 안경을 쓴 것을 공개하며 외모 조작 폭로</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Climax and Conclusion</span>
+        <span class="sec-time">5:07 ~ 5:55</span>
+    </div>
+    <div class="sec-summary">속도를 늦추고 가짜 감동적 결론을 향해 나아가며, 강연의 처음과 끝 모두 아무것도 없다는 것이 바로 요점이라고 지적합니다.</div>
+    <div class="key-points"><span class="key-point">톤 변화와 속도 조절로 감동적인 순간 연출</span><span class="key-point">처음과 끝 모두 아무것도 없었다는 메타적 결론</span><span class="key-point">청중에게 생각하라거나 안 해도 된다는 유머러스한 마무리</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">manner</span>
+        <span class="phonetic">/ˈmæn.ər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a way in which something is done or happens</div>
+    <div class="meaning-ko">방식, 방법</div>
+    <div class="etymology">From Old French &#x27;maniere&#x27;, from Latin &#x27;manuarius&#x27; (of the hand)</div>
+    <div class="root-breakdown"><span class="root-part">manu (hand)</span></div>
+    <div class="context">"And yet, through my manner of speaking,"</div>
+    <div class='related'>Related: mannerism, mannered, unmannered</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">brilliant</span>
+        <span class="phonetic">/ˈbrɪl.jənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">exceptionally clever or talented; outstanding</div>
+    <div class="meaning-ko">훌륭한, 뛰어난</div>
+    <div class="etymology">From French &#x27;brillant&#x27;, from Italian &#x27;brillare&#x27; (to shine)</div>
+    <div class="root-breakdown"><span class="root-part">brill (shine)</span><span class="root-part suffix">-ant (characterized by)</span></div>
+    <div class="context">"Like what I am saying is brilliant."</div>
+    <div class='related'>Related: brilliance, brilliantly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inspirational</span>
+        <span class="phonetic">/ˌɪn.spɪˈreɪ.ʃən.əl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">providing encouragement or motivation</div>
+    <div class="meaning-ko">영감을 주는</div>
+    <div class="etymology">From Latin &#x27;inspirare&#x27; (to breathe into)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in- (into)</span><span class="root-part">spir (breathe)</span><span class="root-part suffix">-ational (relating to)</span></div>
+    <div class="context">"Nothing smart. Nothing inspirational."</div>
+    <div class='related'>Related: inspire, inspiration, inspiring</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">remotely</span>
+        <span class="phonetic">/rɪˈmoʊt.li/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">to even the slightest degree; in the least</div>
+    <div class="meaning-ko">조금이라도, 약간이라도</div>
+    <div class="etymology">From Latin &#x27;remotus&#x27; (removed, distant)</div>
+    <div class="root-breakdown"><span class="root-part prefix">re- (back)</span><span class="root-part">mot (move)</span><span class="root-part suffix">-ly (in the manner of)</span></div>
+    <div class="context">"Nothing even remotely researched at all."</div>
+    <div class='related'>Related: remote, remoteness</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">whatsoever</span>
+        <span class="phonetic">/ˌwɒt.soʊˈev.ər/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">at all; used for emphasis after a negative statement</div>
+    <div class="meaning-ko">전혀, 조금도 (강조)</div>
+    <div class="etymology">From Middle English &#x27;what so ever&#x27;, a compound emphatic form</div>
+    <div class="root-breakdown"><span class="root-part">what + so + ever</span></div>
+    <div class="context">"I have absolutely nothing to say whatsoever."</div>
+    <div class='related'>Related: whatever, whoever, however</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">anecdote</span>
+        <span class="phonetic">/ˈæn.ɪk.doʊt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a short, interesting or amusing story about a real incident or person</div>
+    <div class="meaning-ko">일화, 짧은 이야기</div>
+    <div class="etymology">From Greek &#x27;anekdota&#x27; (things unpublished)</div>
+    <div class="root-breakdown"><span class="root-part prefix">an- (not)</span><span class="root-part">ekdotos (published)</span></div>
+    <div class="context">"I&#x27;m going to react to that and act like I&#x27;m telling you a personal anecdote."</div>
+    <div class='related'>Related: anecdotal, anecdotally</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">broader</span>
+        <span class="phonetic">/ˈbrɔː.dər/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">wider or more extensive in scope</div>
+    <div class="meaning-ko">더 넓은, 더 광범위한</div>
+    <div class="etymology">From Old English &#x27;brad&#x27; (broad, wide)</div>
+    <div class="root-breakdown"><span class="root-part">broad (wide)</span><span class="root-part suffix">-er (comparative)</span></div>
+    <div class="context">"And now, I&#x27;m going to bring it to a broader point."</div>
+    <div class='related'>Related: broad, broadly, broaden</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">intellectual</span>
+        <span class="phonetic">/ˌɪn.təˈlek.tʃu.əl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to or involving the intellect; requiring deep thinking</div>
+    <div class="meaning-ko">지적인, 지성적인</div>
+    <div class="etymology">From Latin &#x27;intellectualis&#x27;, from &#x27;intellectus&#x27; (understanding)</div>
+    <div class="root-breakdown"><span class="root-part prefix">intel- (between)</span><span class="root-part">lect (choose, read)</span><span class="root-part suffix">-ual (relating to)</span></div>
+    <div class="context">"I&#x27;m going to make it intellectual."</div>
+    <div class='related'>Related: intellect, intellectually, intelligence</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">staggering</span>
+        <span class="phonetic">/ˈstæɡ.ər.ɪŋ/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">extremely surprising or shocking; astonishing</div>
+    <div class="meaning-ko">놀라운, 엄청난</div>
+    <div class="etymology">From Old Norse &#x27;stakra&#x27; (to push, stagger)</div>
+    <div class="root-breakdown"><span class="root-part">stagger (totter)</span><span class="root-part suffix">-ing (causing)</span></div>
+    <div class="context">"Staggering. These are real numbers, all of them."</div>
+    <div class='related'>Related: stagger, staggeringly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">majority</span>
+        <span class="phonetic">/məˈdʒɔːr.ə.ti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the greater number or part; more than half</div>
+    <div class="meaning-ko">다수, 대부분</div>
+    <div class="etymology">From Latin &#x27;majoritas&#x27;, from &#x27;major&#x27; (greater)</div>
+    <div class="root-breakdown"><span class="root-part">major (greater)</span><span class="root-part suffix">-ity (state of)</span></div>
+    <div class="context">"The majority far exceeds the minority."</div>
+    <div class='related'>Related: major, minority, majorly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">irrelevant</span>
+        <span class="phonetic">/ɪˈrel.ə.vənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">not connected with or relevant to something</div>
+    <div class="meaning-ko">관련 없는, 상관없는</div>
+    <div class="etymology">From Latin &#x27;in-&#x27; (not) + &#x27;relevare&#x27; (to raise up, relieve)</div>
+    <div class="root-breakdown"><span class="root-part prefix">ir- (not)</span><span class="root-part">relev (raise, relate)</span><span class="root-part suffix">-ant (characterized by)</span></div>
+    <div class="context">"It shows similarly irrelevant data."</div>
+    <div class='related'>Related: relevant, relevance, irrelevance</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">phony</span>
+        <span class="phonetic">/ˈfoʊ.ni/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a person or thing that is not genuine; a fraud</div>
+    <div class="meaning-ko">사기꾼, 가짜</div>
+    <div class="etymology">Origin uncertain, possibly from &#x27;fawney&#x27; (a type of ring used in confidence tricks)</div>
+    <div class="root-breakdown"><span class="root-part">phon (fake, from slang)</span><span class="root-part suffix">-y (characterized by)</span></div>
+    <div class="context">"I&#x27;m a total and utter phony."</div>
+    <div class='related'>Related: phoniness, fake, fraud</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">utter</span>
+        <span class="phonetic">/ˈʌt.ər/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">complete; absolute; total</div>
+    <div class="meaning-ko">완전한, 순전한</div>
+    <div class="etymology">From Old English &#x27;utera&#x27; (outer, further)</div>
+    <div class="root-breakdown"><span class="root-part">ut (out)</span><span class="root-part suffix">-er (comparative)</span></div>
+    <div class="context">"I&#x27;m a total and utter phony."</div>
+    <div class='related'>Related: utterly, utterance</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vaguely</span>
+        <span class="phonetic">/ˈveɪɡ.li/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in a way that is not clear or certain; somewhat</div>
+    <div class="meaning-ko">막연하게, 어렴풋이</div>
+    <div class="etymology">From Latin &#x27;vagus&#x27; (wandering, uncertain)</div>
+    <div class="root-breakdown"><span class="root-part">vagu (wandering)</span><span class="root-part suffix">-ly (in the manner of)</span></div>
+    <div class="context">"These are just words paired with vaguely thought-provoking stock photos."</div>
+    <div class='related'>Related: vague, vagueness</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">thought-provoking</span>
+        <span class="phonetic">/ˈθɔːt prəˌvoʊ.kɪŋ/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">stimulating careful consideration or attention</div>
+    <div class="meaning-ko">생각을 자극하는, 시사적인</div>
+    <div class="etymology">Compound of &#x27;thought&#x27; (Old English) + &#x27;provoking&#x27; (from Latin &#x27;provocare&#x27;, to call forth)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro- (forth)</span><span class="root-part">voc (call)</span><span class="root-part suffix">-ing (causing)</span></div>
+    <div class="context">"These are just words paired with vaguely thought-provoking stock photos."</div>
+    <div class='related'>Related: provoke, provocative, thoughtful</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">gibberish</span>
+        <span class="phonetic">/ˈdʒɪb.ər.ɪʃ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">unintelligible or meaningless speech or writing; nonsense</div>
+    <div class="meaning-ko">횡설수설, 알아들을 수 없는 말</div>
+    <div class="etymology">Possibly from &#x27;jabber&#x27; or from Jabir ibn Hayyan (alchemist whose writings were obscure)</div>
+    <div class="root-breakdown"><span class="root-part">gibber (speak rapidly)</span><span class="root-part suffix">-ish (resembling)</span></div>
+    <div class="context">"I&#x27;m just going to start saying gibberish."</div>
+    <div class='related'>Related: gibber, jabber, babble</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">satisfying</span>
+        <span class="phonetic">/ˈsæt.ɪs.faɪ.ɪŋ/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">giving fulfillment or pleasure; meeting expectations</div>
+    <div class="meaning-ko">만족스러운</div>
+    <div class="etymology">From Latin &#x27;satisfacere&#x27; (to do enough)</div>
+    <div class="root-breakdown"><span class="root-part">satis (enough)</span><span class="root-part suffix">-fying (making)</span></div>
+    <div class="context">"Like maybe, just maybe, I&#x27;m building to some sort of satisfying conclusion."</div>
+    <div class='related'>Related: satisfy, satisfaction, satisfactory</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">intensity</span>
+        <span class="phonetic">/ɪnˈten.sə.ti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the quality of being intense; great energy, strength, or concentration</div>
+    <div class="meaning-ko">강도, 강렬함</div>
+    <div class="etymology">From Latin &#x27;intensitas&#x27;, from &#x27;intensus&#x27; (stretched, strained)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in- (into)</span><span class="root-part">tens (stretch)</span><span class="root-part suffix">-ity (state of)</span></div>
+    <div class="context">"I&#x27;m pacing, I&#x27;m growing in intensity."</div>
+    <div class='related'>Related: intense, intensify, intensive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">gesture</span>
+        <span class="phonetic">/ˈdʒes.tʃər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a movement of part of the body to express an idea or meaning</div>
+    <div class="meaning-ko">제스처, 손짓, 몸짓</div>
+    <div class="etymology">From Medieval Latin &#x27;gestura&#x27; (mode of action), from &#x27;gerere&#x27; (to carry, perform)</div>
+    <div class="root-breakdown"><span class="root-part">gest (carry, perform)</span><span class="root-part suffix">-ure (action or process)</span></div>
+    <div class="context">"I&#x27;m going to make a lot of hand gestures."</div>
+    <div class='related'>Related: gesticulate, gesticulation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">exceeds</span>
+        <span class="phonetic">/ɪkˈsiːdz/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to be greater than; to surpass</div>
+    <div class="meaning-ko">초과하다, 넘다</div>
+    <div class="etymology">From Latin &#x27;excedere&#x27; (to go beyond)</div>
+    <div class="root-breakdown"><span class="root-part prefix">ex- (out, beyond)</span><span class="root-part">ced (go)</span><span class="root-part suffix">-s (third person)</span></div>
+    <div class="context">"The majority far exceeds the minority."</div>
+    <div class='related'>Related: exceed, excess, excessive, exceedingly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">panicking</span>
+        <span class="phonetic">/ˈpæn.ɪ.kɪŋ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">feeling sudden uncontrollable fear or anxiety</div>
+    <div class="meaning-ko">당황하는, 공황에 빠진</div>
+    <div class="etymology">From Greek &#x27;panikos&#x27; (of or for Pan, the god who caused terror)</div>
+    <div class="root-breakdown"><span class="root-part">pan (Pan, Greek god)</span><span class="root-part suffix">-icking (present participle)</span></div>
+    <div class="context">"I&#x27;m floundering, panicking, I&#x27;ve got nothing."</div>
+    <div class='related'>Related: panic, panicky</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">endear</span>
+        <span class="phonetic">/ɪnˈdɪr/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to cause someone to be liked or loved</div>
+    <div class="meaning-ko">사랑받게 하다, 호감을 사다</div>
+    <div class="etymology">From &#x27;en-&#x27; (make) + &#x27;dear&#x27; (beloved)</div>
+    <div class="root-breakdown"><span class="root-part prefix">en- (cause to be)</span><span class="root-part">dear (beloved)</span></div>
+    <div class="context">"Something to endear myself a little bit."</div>
+    <div class='related'>Related: endearing, endearment, dear</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">imparted</span>
+        <span class="phonetic">/ɪmˈpɑːr.tɪd/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">communicated or made known; shared (information or knowledge)</div>
+    <div class="meaning-ko">전달된, 전해진</div>
+    <div class="etymology">From Latin &#x27;impartire&#x27; (to share, give a part of)</div>
+    <div class="root-breakdown"><span class="root-part prefix">im- (into)</span><span class="root-part">part (part, share)</span><span class="root-part suffix">-ed (past tense)</span></div>
+    <div class="context">"Interesting facts imparted thus far in said talk."</div>
+    <div class='related'>Related: impart, impartial, part</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">floundering</span>
+        <span class="phonetic">/ˈflaʊn.dər.ɪŋ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">struggling or stumbling helplessly; having difficulty</div>
+    <div class="meaning-ko">허둥대는, 갈팡질팡하는</div>
+    <div class="etymology">Possibly a blend of &#x27;flounder&#x27; (a fish) and &#x27;blunder&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">flounder (struggle)</span><span class="root-part suffix">-ing (present participle)</span></div>
+    <div class="context">"I&#x27;m floundering, panicking, I&#x27;ve got nothing."</div>
+    <div class='related'>Related: flounder, founder</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">gesticulating</span>
+        <span class="phonetic">/dʒɛˈstɪk.jə.leɪ.tɪŋ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">using gestures, especially dramatic ones, instead of or to emphasize speaking</div>
+    <div class="meaning-ko">몸짓을 하는, 손짓으로 표현하는</div>
+    <div class="etymology">From Latin &#x27;gesticulari&#x27; (to gesture), from &#x27;gesticulus&#x27; (a mimic gesture)</div>
+    <div class="root-breakdown"><span class="root-part">gest (carry, gesture)</span><span class="root-part suffix">-iculating (repeatedly doing)</span></div>
+    <div class="context">"I&#x27;m gesticulating as though I am."</div>
+    <div class='related'>Related: gesture, gesticulation</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Be going to (Future Plans)</div>
+    <div class="explanation">&#x27;Be going to + verb&#x27; is used to express future plans, intentions, or predictions. It implies a pre-decided plan.</div>
+    <div class="explanation-ko">&#x27;be going to + 동사&#x27;는 미래의 계획, 의도 또는 예측을 표현할 때 사용합니다. 미리 정해진 계획을 암시합니다.</div>
+    <div class="example">I&#x27;m going to get started with the opening.</div><div class="example">I&#x27;m going to make a lot of hand gestures.</div><div class="example">I&#x27;m going to do this with my right hand.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present Continuous for Ongoing Actions</div>
+    <div class="explanation">The present continuous (am/is/are + -ing) describes actions happening right now, giving a sense of immediacy and live narration.</div>
+    <div class="explanation-ko">현재 진행형(am/is/are + -ing)은 지금 일어나고 있는 행동을 묘사하며, 즉시성과 실시간 서술의 느낌을 줍니다.</div>
+    <div class="example">I&#x27;m floundering, panicking, I&#x27;ve got nothing.</div><div class="example">I&#x27;m seeing some hands.</div><div class="example">I&#x27;m pacing, I&#x27;m growing in intensity.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Make it seem like (Creating False Impressions)</div>
+    <div class="explanation">&#x27;Make it seem like&#x27; is used to describe creating a false appearance or impression. &#x27;Make&#x27; is a causative verb here.</div>
+    <div class="explanation-ko">&#x27;Make it seem like&#x27;는 거짓 외양이나 인상을 만드는 것을 묘사합니다. 여기서 &#x27;make&#x27;는 사역동사로 사용됩니다.</div>
+    <div class="example">I will make it seem like I do.</div><div class="example">I&#x27;d like it to seem like I&#x27;m making points.</div><div class="example">I&#x27;m going to make it seem like I&#x27;m building to a moment.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">By show of hands (Polling Expressions)</div>
+    <div class="explanation">&#x27;By show of hands&#x27; is a set phrase used to ask an audience to raise their hands to indicate agreement or experience.</div>
+    <div class="explanation-ko">&#x27;By show of hands&#x27;는 청중에게 동의나 경험을 나타내기 위해 손을 들어달라고 요청할 때 쓰는 고정 표현입니다.</div>
+    <div class="example">By show of hands, how many of you all have been asked a question before?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">And yet (Contrasting Connector)</div>
+    <div class="explanation">&#x27;And yet&#x27; introduces a surprising contrast or contradiction to what was previously stated. It is stronger than &#x27;but&#x27;.</div>
+    <div class="explanation-ko">&#x27;And yet&#x27;은 이전에 언급한 것과 놀라운 대조나 모순을 도입합니다. &#x27;but&#x27;보다 강한 표현입니다.</div>
+    <div class="example">And yet, through my manner of speaking, I will make it seem like I do.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">If you were... you might (Hypothetical Conditional)</div>
+    <div class="explanation">This second conditional structure (if + past tense, would/might + verb) describes an imaginary or unlikely situation and its probable result.</div>
+    <div class="explanation-ko">이 2차 조건문 구조(if + 과거 시제, would/might + 동사)는 상상 속의 또는 가능성 낮은 상황과 그 예상 결과를 묘사합니다.</div>
+    <div class="example">If you were, say, watching this on YouTube with the sound off, you might think, huh, okay.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">As though / As if (Manner Comparison)</div>
+    <div class="explanation">&#x27;As though&#x27; and &#x27;as if&#x27; introduce clauses that describe how something appears, often implying it is not actually true.</div>
+    <div class="explanation-ko">&#x27;as though&#x27;와 &#x27;as if&#x27;는 무언가가 어떻게 보이는지를 묘사하는 절을 도입하며, 종종 실제로는 그렇지 않음을 암시합니다.</div>
+    <div class="example">I&#x27;m gesticulating as though I am.</div><div class="example">I&#x27;m going to point at them like I&#x27;m making use of my time.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Maybe, just maybe (Emphatic Repetition)</div>
+    <div class="explanation">Repeating &#x27;maybe&#x27; with &#x27;just&#x27; inserted creates emphasis and dramatic effect, suggesting a hopeful but uncertain possibility.</div>
+    <div class="explanation-ko">&#x27;maybe&#x27;를 반복하고 사이에 &#x27;just&#x27;를 넣으면 강조와 극적인 효과를 만들어내며, 희망적이지만 불확실한 가능성을 제시합니다.</div>
+    <div class="example">And maybe, just maybe, you will feel like you&#x27;ve learned something.</div><div class="example">Like maybe, just maybe, I&#x27;m building to some sort of satisfying conclusion.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">I&#x27;d like you to (Polite Request)</div>
+    <div class="explanation">&#x27;I&#x27;d like you to + verb&#x27; is a polite way to make a request or express a wish about what someone else should do.</div>
+    <div class="explanation-ko">&#x27;I&#x27;d like you to + 동사&#x27;는 다른 사람이 해야 할 일에 대해 요청하거나 바람을 표현하는 정중한 방법입니다.</div>
+    <div class="example">I&#x27;d like you to think about what you heard at the beginning.</div><div class="example">I&#x27;d like it to seem like I&#x27;m making points.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">For one (Personal Opinion Marker)</div>
+    <div class="explanation">&#x27;For one&#x27; is used after &#x27;I&#x27; to emphasize that you are stating your own personal opinion, often implying others may disagree.</div>
+    <div class="explanation-ko">&#x27;for one&#x27;은 &#x27;I&#x27; 뒤에 사용되어 자신의 개인적인 의견을 강조하며, 종종 다른 사람들은 동의하지 않을 수 있음을 암시합니다.</div>
+    <div class="example">But I, for one, have no idea who he is.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What if (Speculative Question)</div>
+    <div class="explanation">&#x27;What if&#x27; introduces a hypothetical question, asking the listener to imagine a possible scenario.</div>
+    <div class="explanation-ko">&#x27;What if&#x27;는 가정적인 질문을 도입하여 청자에게 가능한 시나리오를 상상하도록 합니다.</div>
+    <div class="example">And what if I was? Amazing, isn&#x27;t it?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">If there&#x27;s one thing (Emphasis Phrase)</div>
+    <div class="explanation">&#x27;If there&#x27;s one thing you take away&#x27; is a rhetorical structure used to highlight the single most important point in a speech.</div>
+    <div class="explanation-ko">&#x27;If there&#x27;s one thing you take away&#x27;는 연설에서 가장 중요한 하나의 요점을 강조하기 위해 사용하는 수사적 구조입니다.</div>
+    <div class="example">If there&#x27;s one thing you take away from my talk, I&#x27;d like you to think about what you heard at the beginning.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">I&#x27;m going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아임 거나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪm ˈɡʌnə/</div>
+        <div class="explanation-text">&#x27;going to&#x27;는 빠른 말에서 &#x27;gonna&#x27;로 축약됩니다. 이것은 영어 구어에서 가장 흔한 축약 중 하나입니다.</div>
+        <div class="practice">&#x27;고잉 투&#x27; 대신 &#x27;거나&#x27;로 빠르게 발음하세요. &#x27;I&#x27;m gonna&#x27;를 한 덩어리로 연습하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">a lot of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">어 라러브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ə ˈlɒ.ɾəv/</div>
+        <div class="explanation-text">&#x27;lot&#x27;의 &#x27;t&#x27;가 &#x27;of&#x27;의 모음 앞에서 플랩 /ɾ/으로 변하고, &#x27;of&#x27;는 /əv/로 약화됩니다.</div>
+        <div class="practice">&#x27;어 랏 오브&#x27; 대신 &#x27;어 라러브&#x27;로 자연스럽게 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">you&#x27;ve</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">유브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/juːv/</div>
+        <div class="explanation-text">&#x27;you have&#x27;가 &#x27;you&#x27;ve&#x27;로 축약되어, &#x27;have&#x27;가 &#x27;you&#x27;에 붙는 /v/ 소리로만 남습니다.</div>
+        <div class="practice">&#x27;유 해브&#x27; 대신 &#x27;유브&#x27;로 한 음절로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈwɒn.ə/</div>
+        <div class="explanation-text">&#x27;want to&#x27;는 일상 대화에서 &#x27;t&#x27; 소리를 완전히 생략하고 &#x27;wanna&#x27;로 축약됩니다.</div>
+        <div class="practice">&#x27;원트 투&#x27; 대신 &#x27;워나&#x27;로 발음하세요. &#x27;t&#x27; 소리를 생략하는 것이 핵심입니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I&#x27;ve got</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이브 갓</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪv ˈɡɒt/</div>
+        <div class="explanation-text">&#x27;I have got&#x27;이 &#x27;I&#x27;ve got&#x27;으로 축약되어 &#x27;have&#x27;가 /v/ 소리만 남습니다. &#x27;I have&#x27;의 비격식 표현입니다.</div>
+        <div class="practice">&#x27;아이 해브 갓&#x27; 대신 &#x27;아이브 갓&#x27;으로 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">let&#x27;s take a look at</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">렛츠 테이커 루컫</span>
+    <div class="details">
+        <div class="phonetic-ipa">/lɛts ˈteɪ.kə ˈlʊ.kət/</div>
+        <div class="explanation-text">이 흔한 구문이 이어져 발음됩니다: &#x27;take a&#x27;가 /teɪkə/로 연결되고 &#x27;look at&#x27;은 마지막 &#x27;t&#x27;가 약화됩니다.</div>
+        <div class="practice">&#x27;렛츠 테이크 어 룩 앳&#x27; 대신 &#x27;렛츠 테이커 루컫&#x27;으로 한 호흡에 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">by the way</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">바이더웨이</span>
+    <div class="details">
+        <div class="phonetic-ipa">/baɪ.ðə.ˈweɪ/</div>
+        <div class="explanation-text">&#x27;by the way&#x27;는 하나의 단위로 발음되며 &#x27;the&#x27;가 /ðə/로 약화되고 모든 단어가 섞입니다.</div>
+        <div class="practice">세 단어를 따로 발음하지 말고 &#x27;바이더웨이&#x27;로 한 덩어리로 발음하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">kind of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">카인더브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkaɪn.dəv/</div>
+        <div class="explanation-text">&#x27;kind of&#x27;에서 &#x27;d&#x27;가 &#x27;of&#x27;와 연결되고, &#x27;of&#x27;는 /əv/로 약화됩니다. 종종 &#x27;kinda&#x27;로 더 축약됩니다.</div>
+        <div class="practice">&#x27;카인드 오브&#x27; 대신 &#x27;카인더브&#x27; 또는 &#x27;카인다&#x27;로 연습하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">what I am</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">와라이앰</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wɒ.ɾaɪ.æm/</div>
+        <div class="explanation-text">&#x27;what&#x27;의 &#x27;t&#x27;가 &#x27;I&#x27;의 모음 앞에서 플랩 /ɾ/으로 변하고, 세 단어가 매끄럽게 이어집니다.</div>
+        <div class="practice">&#x27;왓 아이 앰&#x27; 대신 &#x27;와라이앰&#x27;으로 끊김 없이 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">take away</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">테이커웨이</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈteɪ.kə.weɪ/</div>
+        <div class="explanation-text">&#x27;take&#x27; 끝의 &#x27;k&#x27;가 &#x27;away&#x27; 시작의 모음과 직접 연결되어 매끄러운 연결이 만들어집니다.</div>
+        <div class="practice">&#x27;테이크 어웨이&#x27; 대신 &#x27;테이커웨이&#x27;로 끊김 없이 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">reel you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">릴유</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈriːl.juː/</div>
+        <div class="explanation-text">&#x27;reel&#x27; 끝의 &#x27;l&#x27;이 &#x27;you&#x27;의 &#x27;y&#x27; 소리와 직접 연결되어 유창한 전환을 만듭니다.</div>
+        <div class="practice">&#x27;릴&#x27;과 &#x27;유&#x27;를 끊지 말고 &#x27;릴유&#x27;로 이어서 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">think about</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">띵커바웃</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈθɪŋ.kə.baʊt/</div>
+        <div class="explanation-text">&#x27;think&#x27; 끝의 &#x27;k&#x27; 소리가 &#x27;about&#x27;의 모음 &#x27;a&#x27;와 연결되고, &#x27;about&#x27;의 첫 음절이 약화됩니다.</div>
+        <div class="practice">&#x27;띵크 어바웃&#x27; 대신 &#x27;띵커바웃&#x27;으로 매끄럽게 연결하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">that&#x27;s nothing</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">댓츠 나띵</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ðæts ˈnʌθ.ɪŋ/</div>
+        <div class="explanation-text">&#x27;that&#x27;s&#x27; 끝의 &#x27;ts&#x27; 자음군이 &#x27;nothing&#x27;으로 바로 이어집니다. &#x27;nothing&#x27;의 모음이 약화됩니다.</div>
+        <div class="practice">&#x27;댓츠&#x27;와 &#x27;나띵&#x27;을 빠르게 연결하여 발음하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">hand gestures</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">행 제스처즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/hæŋ ˈdʒes.tʃərz/</div>
+        <div class="explanation-text">&#x27;hand&#x27; 끝의 &#x27;nd&#x27;에서 &#x27;n&#x27;이 &#x27;gestures&#x27;의 시작 앞에서 /ŋ/으로 동화되고, &#x27;d&#x27;는 부분적으로 탈락합니다.</div>
+        <div class="practice">&#x27;핸드 제스처즈&#x27; 대신 &#x27;행 제스처즈&#x27;로 &#x27;d&#x27;를 거의 생략하고 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">in reality</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">인 리앨러티</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɪn ri.ˈæl.ə.ti/</div>
+        <div class="explanation-text">&#x27;in&#x27; 끝의 &#x27;n&#x27;이 &#x27;reality&#x27;의 &#x27;r&#x27;과 부드럽게 연결됩니다. 구문이 하나의 단위로 흐릅니다.</div>
+        <div class="practice">&#x27;인&#x27;과 &#x27;리앨러티&#x27;를 끊지 말고 하나의 덩어리로 발음하세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"Hear that?"</div>
+        <div class="signal-role">청중의 주의를 환기하는 오프닝 질문으로, 호기심을 유발합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And yet"</div>
+        <div class="signal-role">앞의 내용(아무것도 없음)에서 반전(그럼에도 똑똑하게 들리게 하겠다)으로 전환합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Now, I&#x27;m going to get started with"</div>
+        <div class="signal-role">도입부에서 본격적인 시연으로 넘어가는 전환 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"By show of hands"</div>
+        <div class="signal-role">청중 참여를 유도하는 고전적인 프레젠테이션 기법입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And now, I&#x27;m going to bring it to a broader point"</div>
+        <div class="signal-role">개인적인 이야기에서 더 넓은 주제로 전환하는 신호 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Now, if you don&#x27;t believe me, let&#x27;s take a look at the numbers"</div>
+        <div class="signal-role">주장에서 증거 제시로 전환하며 신뢰성을 구축하는 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And to follow that up"</div>
+        <div class="signal-role">숫자 데이터에서 그래프 시각 자료로 넘어가는 연결 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But you know what?"</div>
+        <div class="signal-role">고백에서 결의로 전환하는 구어적 전환 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And now I&#x27;m going to slow things down a little bit"</div>
+        <div class="signal-role">페이스를 바꾸며 결론부로 진입하는 전환 신호입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"If there&#x27;s one thing you take away from my talk"</div>
+        <div class="signal-role">핵심 메시지를 요약하며 결론으로 향하는 고전적인 마무리 표현입니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Think about that. Or don&#x27;t, that&#x27;s fine."</div>
+        <div class="signal-role">유머러스한 반전으로 전통적인 TED 마무리를 패러디합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"And now I&#x27;m going to stop talking."</div>
+        <div class="signal-role">강연의 끝을 직접적으로 알리는 솔직한 마무리 표현입니다.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=8S0FDjFBj8o
+    </div>
+</div>
+
+</body>
+</html>

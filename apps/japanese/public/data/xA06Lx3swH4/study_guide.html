@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>新人が覚えておきたい『敬語一覧』</h1>
+    <div class="subtitle">人材育成トレーナー太田章代の【ビジネスコミュニケーション術】</div>
+    <div class="desc-ko">신입사원이 꼭 알아야 할 비즈니스 경어 표현과 올바른 사용 예문</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">7:38</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">115</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/xA06Lx3swH4/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/xA06Lx3swH4">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (26 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (15 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (10 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 7-minute video by 人材育成トレーナー太田章代の【ビジネスコミュニケーション術】 is structured into 17 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">イントロ・自己紹介</span>
+        <span class="sec-time">0:00 ~ 0:54</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">敬語の必要性</span>
+        <span class="sec-time">0:55 ~ 1:17</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">尊敬語とは</span>
+        <span class="sec-time">1:17 ~ 1:47</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">謙譲語とは</span>
+        <span class="sec-time">1:47 ~ 2:17</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">例文紹介・準備</span>
+        <span class="sec-time">2:17 ~ 2:27</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">「言う」の敬語</span>
+        <span class="sec-time">2:27 ~ 2:57</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">「知る」の敬語</span>
+        <span class="sec-time">2:57 ~ 3:15</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">「する」の敬語</span>
+        <span class="sec-time">3:15 ~ 3:34</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">「食べる」の敬語</span>
+        <span class="sec-time">3:34 ~ 4:01</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">10</span>
+        <span class="sec-title">「伝える」の敬語</span>
+        <span class="sec-time">4:01 ~ 4:29</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">11</span>
+        <span class="sec-title">「いる」の敬語</span>
+        <span class="sec-time">4:29 ~ 4:45</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">12</span>
+        <span class="sec-title">「行く」の敬語</span>
+        <span class="sec-time">4:45 ~ 5:00</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">13</span>
+        <span class="sec-title">「見る」の敬語</span>
+        <span class="sec-time">5:00 ~ 5:25</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">14</span>
+        <span class="sec-title">「聞く」の敬語</span>
+        <span class="sec-time">5:25 ~ 5:54</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">15</span>
+        <span class="sec-title">「来る」の敬語・御社</span>
+        <span class="sec-time">5:54 ~ 6:23</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">16</span>
+        <span class="sec-title">まとめ・敬語の重要性</span>
+        <span class="sec-time">6:23 ~ 7:07</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">17</span>
+        <span class="sec-title">エンディング</span>
+        <span class="sec-time">7:08 ~ 7:38</span>
+    </div>
+    <div class="sec-summary"></div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">敬語</span>
+        <span class="phonetic">けいご</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">尊敬語</span>
+        <span class="phonetic">そんけいご</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">謙譲語</span>
+        <span class="phonetic">けんじょうご</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">目上</span>
+        <span class="phonetic">めうえ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">人間関係</span>
+        <span class="phonetic">にんげんかんけい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">身につける</span>
+        <span class="phonetic">みにつける</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">おっしゃる</span>
+        <span class="phonetic">おっしゃる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">申し上げる</span>
+        <span class="phonetic">もうしあげる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご存知</span>
+        <span class="phonetic">ごぞんじ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">存じ上げる</span>
+        <span class="phonetic">ぞんじあげる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いたす</span>
+        <span class="phonetic">いたす</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">召し上がる</span>
+        <span class="phonetic">めしあがる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いただく</span>
+        <span class="phonetic">いただく</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">二重敬語</span>
+        <span class="phonetic">にじゅうけいご</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お伝えになる</span>
+        <span class="phonetic">おつたえになる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">申し伝える</span>
+        <span class="phonetic">もうしつたえる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いらっしゃる</span>
+        <span class="phonetic">いらっしゃる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">おる</span>
+        <span class="phonetic">おる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">うかがう</span>
+        <span class="phonetic">うかがう</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご覧になる</span>
+        <span class="phonetic">ごらんになる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">拝見する</span>
+        <span class="phonetic">はいけんする</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お越しになる</span>
+        <span class="phonetic">おこしになる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">参る</span>
+        <span class="phonetic">まいる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">御社</span>
+        <span class="phonetic">おんしゃ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">不快感</span>
+        <span class="phonetic">ふかいかん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">信用を損ねる</span>
+        <span class="phonetic">しんようをそこねる</span>
+        <span class="pos">동사구</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜ておきたい</div>
+    <div class="explanation">動詞のて形＋おきたい。準備や予防のために何かをしておく意志を表す。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ためにも</div>
+    <div class="explanation">動詞の辞書形／名詞＋のため＋にも。目的を示す「ために」に「も」が付いて、他の理由にも加えてという意味を加える。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ものです</div>
+    <div class="explanation">形容詞・動詞の普通形＋ものです。話し手の感想や一般的な事実を強調する表現。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ように</div>
+    <div class="explanation">動詞の辞書形・ない形＋ように。目的や目標を示す。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">いずれも</div>
+    <div class="explanation">複数の事柄すべてに当てはまることを示す副詞。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜を主語にして考える</div>
+    <div class="explanation">尊敬語は相手主語、謙譲語は自分主語という使い分けを示す学習上の重要なフレーズ。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜た通りに</div>
+    <div class="explanation">動詞の過去形＋通りに。誰かが言ったことや決まったことに従って行動することを示す。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てまいります</div>
+    <div class="explanation">「〜ていきます」の謙譲表現。「まいる」はいく・くるの謙譲語。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜されることを</div>
+    <div class="explanation">動詞の受身形（〜される）を尊敬の意味で使う表現。尊敬語として目上の人の動作に使う。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ておりました</div>
+    <div class="explanation">「おる」は「いる」の謙譲語。「〜ていました」の謙譲表現。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜そうです（伝聞）</div>
+    <div class="explanation">動詞の普通形＋そうです。他者から聞いた情報を伝える伝聞の表現。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ことなかったかもしれない</div>
+    <div class="explanation">「〜たことがない（경험없음）」＋「かもしれない（추측）」の組み合わせ。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようです</div>
+    <div class="explanation">動詞・形容詞の普通形＋ようです。推測や婉曲な表現に使う。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てくださる</div>
+    <div class="explanation">「くれる」의 존경어. 상대방이 자신을 위해 어떤 행동을 해 주는 것을 나타낸다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜しかできない</div>
+    <div class="explanation">名詞・動詞＋しか＋できない。限定を表す「しか」は必ず否定形とともに使う。</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">縮約形（축약형）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">フィラー（필러）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">イントネーション（억양）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">ポーズ（포즈/간격）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">長音（장음）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">省略（생략）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">発音変化（발음 변화）</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=xA06Lx3swH4
+    </div>
+</div>
+
+</body>
+</html>

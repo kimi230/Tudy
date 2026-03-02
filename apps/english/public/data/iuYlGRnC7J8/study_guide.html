@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>A Plan Is Not a Strategy</h1>
+    <div class="subtitle">Harvard Business Review</div>
+    <div class="desc-ko">계획은 전략이 아니다 — 진짜 전략적 사고란 무엇인가</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">9:31</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">155</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">86</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/iuYlGRnC7J8/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/iuYlGRnC7J8">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (10 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 9-minute video by Harvard Business Review is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction: Planning vs. Strategy</span>
+        <span class="sec-time">0:00 ~ 0:59</span>
+    </div>
+    <div class="sec-summary">로저 마틴이 계획과 전략의 핵심적인 차이를 소개해. &#x27;전략적 계획&#x27;이라는 용어가 오해를 불러일으킨다고 설명하면서, 대부분의 전략적 계획은 실제로 일관된 전략 없이 활동 목록을 나열한 것에 불과하다고 말해.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">What Strategy Really Is</span>
+        <span class="sec-time">1:02 ~ 2:08</span>
+    </div>
+    <div class="sec-summary">마틴은 전략을 선택한 경쟁의 장에서 이길 수 있도록 포지셔닝하는 통합적 선택의 집합이라고 정의해. 전략은 일관된 이론이 필요한 반면, 계획은 각 부서의 단절된 희망 목록이 되기 쉽다고 설명해.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Why Planning Feels Comfortable</span>
+        <span class="sec-time">2:10 ~ 3:52</span>
+    </div>
+    <div class="sec-summary">매니저들이 왜 계획에 끌리는지 설명해. 계획은 채용, 건설, 구매 등 통제 가능한 비용을 다루지만, 전략은 통제할 수 없는 고객에 달린 결과를 명시해야 해. 전략은 본질적으로 불확실하기 때문에 불편하게 느껴져.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">The Southwest Airlines Case Study</span>
+        <span class="sec-time">3:52 ~ 6:32</span>
+    </div>
+    <div class="sec-summary">사우스웨스트 항공을 강력한 사례로 들어. 주요 항공사들이 계획에 바쁜 동안, 사우스웨스트는 그레이하운드 버스의 대체재가 되겠다는 전략을 세웠어. 포인트 투 포인트 비행, 단일 기종, 기내식 없음, 온라인 예약으로 비용을 크게 낮추고 결국 미국 최대 항공사가 됐어.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">How to Escape the Planning Trap</span>
+        <span class="sec-time">6:34 ~ 8:26</span>
+    </div>
+    <div class="sec-summary">계획의 안주 함정에서 벗어나기 위한 실용적 조언을 제시해. 전략에는 불안과 불확실성이 수반된다는 걸 받아들이고, &#x27;무엇이 사실이어야 하는가&#x27;를 물어 논리를 명확히 하고, 전략을 지속적으로 조정하고 개선하는 여정으로 대해야 한다고 말해.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Conclusion: Keep It Simple, Start Winning</span>
+        <span class="sec-time">8:27 ~ 9:25</span>
+    </div>
+    <div class="sec-summary">전략을 단순하게 유지하라는 조언으로 마무리해. 어디서 싸울지, 어떻게 이길지, 어떤 역량이 필요한지, 무엇이 사실이어야 하는지를 한 페이지에 담는 것이 이상적이야. 계획만 하면 지는 걸 보장하지만, 전략은 이길 수 있는 최선의 기회를 줘.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">strategy</span>
+        <span class="phonetic">/ˈstrætədʒi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a plan of action designed to achieve a long-term or overall aim, especially in business or competition</div>
+    <div class="meaning-ko">전략, 장기적 목표를 달성하기 위한 계획</div>
+    <div class="etymology">Greek &#x27;strategia&#x27; meaning &#x27;generalship, art of war&#x27; from &#x27;strategos&#x27; (general)</div>
+    <div class="root-breakdown"><span class="root-part">strat (army) + eg (lead)</span><span class="root-part suffix">-y</span></div>
+    <div class="context">"A strategy is an integrative set of choices that positions you on a playing field of your choice in a way that you win."</div>
+    <div class='related'>Related: strategic, strategist, strategize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">integrative</span>
+        <span class="phonetic">/ˈɪntɪɡreɪtɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">combining two or more things to form an effective unit or system</div>
+    <div class="meaning-ko">통합적인, 여러 요소를 결합하는</div>
+    <div class="etymology">Latin &#x27;integrare&#x27; meaning &#x27;to make whole&#x27; from &#x27;integer&#x27; (whole, complete)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">tegr (whole)</span><span class="root-part suffix">-ative</span></div>
+    <div class="context">"A strategy is an integrative set of choices that positions you on a playing field of your choice in a way that you win."</div>
+    <div class='related'>Related: integrate, integrity, integral</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">coherent</span>
+        <span class="phonetic">/koʊˈhɪərənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">logical and consistent; forming a unified whole</div>
+    <div class="meaning-ko">일관된, 논리적으로 연결된</div>
+    <div class="etymology">Latin &#x27;cohaerere&#x27; meaning &#x27;to stick together&#x27; from &#x27;co-&#x27; (together) + &#x27;haerere&#x27; (to stick)</div>
+    <div class="root-breakdown"><span class="root-part prefix">co-</span><span class="root-part">her (stick, cling)</span><span class="root-part suffix">-ent</span></div>
+    <div class="context">"That theory has to be coherent."</div>
+    <div class='related'>Related: coherence, cohere, incoherent</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">specification</span>
+        <span class="phonetic">/ˌspɛsɪfɪˈkeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a detailed description of the design and materials used to make something; a clear statement of requirements</div>
+    <div class="meaning-ko">명세, 구체적인 명시, 사양</div>
+    <div class="etymology">Latin &#x27;specificare&#x27; meaning &#x27;to mention particularly&#x27; from &#x27;species&#x27; (kind) + &#x27;facere&#x27; (to make)</div>
+    <div class="root-breakdown"><span class="root-part">spec (look, kind) + fic (make)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"There tends to be a list that has no internal coherence to it and no specification of a way that that is going to accomplish collectively some goal for the company."</div>
+    <div class='related'>Related: specify, specific, specimen</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">collectively</span>
+        <span class="phonetic">/kəˈlɛktɪvli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">as a group; all together</div>
+    <div class="meaning-ko">집합적으로, 전체적으로</div>
+    <div class="etymology">Latin &#x27;collectivus&#x27; from &#x27;colligere&#x27; meaning &#x27;to gather together&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">col-</span><span class="root-part">lect (gather)</span><span class="root-part suffix">-ively</span></div>
+    <div class="context">"No specification of a way that that is going to accomplish collectively some goal for the company."</div>
+    <div class='related'>Related: collective, collect, collection</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">comforting</span>
+        <span class="phonetic">/ˈkʌmfərtɪŋ/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">giving a feeling of ease, consolation, or reassurance</div>
+    <div class="meaning-ko">편안한, 위안이 되는</div>
+    <div class="etymology">Latin &#x27;confortare&#x27; meaning &#x27;to strengthen greatly&#x27; from &#x27;con-&#x27; (together) + &#x27;fortis&#x27; (strong)</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">fort (strong)</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"Planning is quite comforting."</div>
+    <div class='related'>Related: comfort, comfortable, discomfort</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">competitive</span>
+        <span class="phonetic">/kəmˈpɛtɪtɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to or characterized by competition; having a strong desire to win</div>
+    <div class="meaning-ko">경쟁적인, 경쟁력 있는</div>
+    <div class="etymology">Latin &#x27;competere&#x27; meaning &#x27;to strive together&#x27; from &#x27;com-&#x27; (together) + &#x27;petere&#x27; (to seek)</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">pet (seek, strive)</span><span class="root-part suffix">-itive</span></div>
+    <div class="context">"A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve."</div>
+    <div class='related'>Related: compete, competition, competitor</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">profitability</span>
+        <span class="phonetic">/ˌprɒfɪtəˈbɪlɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the degree to which a business or activity yields profit or financial gain</div>
+    <div class="meaning-ko">수익성, 이윤을 낼 수 있는 정도</div>
+    <div class="etymology">Latin &#x27;profectus&#x27; meaning &#x27;advance, progress&#x27; from &#x27;proficere&#x27; (to accomplish)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro-</span><span class="root-part">fit (make, do)</span><span class="root-part suffix">-ability</span></div>
+    <div class="context">"Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you&#x27;d like to make."</div>
+    <div class='related'>Related: profit, profitable, profiteer</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">guarantee</span>
+        <span class="phonetic">/ˌɡærənˈtiː/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">a formal promise or assurance that certain conditions will be fulfilled</div>
+    <div class="meaning-ko">보장, 보증하다</div>
+    <div class="etymology">Old French &#x27;garantie&#x27; from &#x27;garant&#x27; meaning &#x27;protector, defender&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">garant (protect)</span><span class="root-part suffix">-ee</span></div>
+    <div class="context">"We can&#x27;t guarantee it."</div>
+    <div class='related'>Related: guarantor, warranty, assurance</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">substitute</span>
+        <span class="phonetic">/ˈsʌbstɪtjuːt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a person or thing acting or serving in place of another</div>
+    <div class="meaning-ko">대체물, 대용품, 대체하다</div>
+    <div class="etymology">Latin &#x27;substituere&#x27; meaning &#x27;to put in place of&#x27; from &#x27;sub-&#x27; (under) + &#x27;statuere&#x27; (to set up)</div>
+    <div class="root-breakdown"><span class="root-part prefix">sub-</span><span class="root-part">stit (stand, set up)</span><span class="root-part suffix">-ute</span></div>
+    <div class="context">"What they wanted to be is a substitute for Greyhound."</div>
+    <div class='related'>Related: substitution, institute, constitute</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">specialize</span>
+        <span class="phonetic">/ˈspɛʃəlaɪz/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to concentrate on and become expert in a particular subject or skill</div>
+    <div class="meaning-ko">전문화하다, 특화하다</div>
+    <div class="etymology">Latin &#x27;specialis&#x27; meaning &#x27;particular, individual&#x27; from &#x27;species&#x27; (kind, appearance)</div>
+    <div class="root-breakdown"><span class="root-part">spec (look, kind)</span><span class="root-part suffix">-ialize</span></div>
+    <div class="context">"We&#x27;re not going to offer meals on the flights because we&#x27;re going to specialize in short flights."</div>
+    <div class='related'>Related: special, specialist, specialty</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">substantially</span>
+        <span class="phonetic">/səbˈstænʃəli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">to a great or significant extent; considerably</div>
+    <div class="meaning-ko">상당히, 크게, 실질적으로</div>
+    <div class="etymology">Latin &#x27;substantialis&#x27; from &#x27;substantia&#x27; meaning &#x27;being, essence&#x27; from &#x27;sub-&#x27; (under) + &#x27;stare&#x27; (to stand)</div>
+    <div class="root-breakdown"><span class="root-part prefix">sub-</span><span class="root-part">stant (stand)</span><span class="root-part suffix">-ially</span></div>
+    <div class="context">"So their strategy ended up being having a substantially lower cost than any of the major carriers."</div>
+    <div class='related'>Related: substantial, substance, substantiate</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">carrier</span>
+        <span class="phonetic">/ˈkæriər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a company that transports goods or people, especially an airline</div>
+    <div class="meaning-ko">운송 회사, 항공사</div>
+    <div class="etymology">Anglo-French &#x27;carier&#x27; meaning &#x27;to transport in a vehicle&#x27; from Latin &#x27;carrus&#x27; (wagon)</div>
+    <div class="root-breakdown"><span class="root-part">carr (wagon, transport)</span><span class="root-part suffix">-ier</span></div>
+    <div class="context">"The major carriers were not trying to win against one another."</div>
+    <div class='related'>Related: carry, carriage, cargo</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">participate</span>
+        <span class="phonetic">/pɑːrˈtɪsɪpeɪt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to take part in an activity or event</div>
+    <div class="meaning-ko">참여하다, 참가하다</div>
+    <div class="etymology">Latin &#x27;participare&#x27; meaning &#x27;to share in&#x27; from &#x27;pars&#x27; (part) + &#x27;capere&#x27; (to take)</div>
+    <div class="root-breakdown"><span class="root-part">part (part) + cip (take)</span><span class="root-part suffix">-ate</span></div>
+    <div class="context">"They were playing to participate, maybe buy more planes, get more gates."</div>
+    <div class='related'>Related: participation, participant, participatory</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">segment</span>
+        <span class="phonetic">/ˈsɛɡmənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">each of the parts into which something is divided; a portion of a market</div>
+    <div class="meaning-ko">부분, 세그먼트, (시장의) 구간</div>
+    <div class="etymology">Latin &#x27;segmentum&#x27; meaning &#x27;a strip cut off&#x27; from &#x27;secare&#x27; (to cut)</div>
+    <div class="root-breakdown"><span class="root-part">seg (cut)</span><span class="root-part suffix">-ment</span></div>
+    <div class="context">"Here&#x27;s a way to be better than everybody else for this segment."</div>
+    <div class='related'>Related: section, sector, dissect</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">aspiration</span>
+        <span class="phonetic">/ˌæspɪˈreɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a hope or ambition of achieving something; a strong desire to reach a goal</div>
+    <div class="meaning-ko">열망, 포부, 갈망</div>
+    <div class="etymology">Latin &#x27;aspirare&#x27; meaning &#x27;to breathe upon, seek to reach&#x27; from &#x27;ad-&#x27; (to) + &#x27;spirare&#x27; (to breathe)</div>
+    <div class="root-breakdown"><span class="root-part prefix">a-</span><span class="root-part">spir (breathe)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"And that&#x27;s why it&#x27;s going to achieve this goal, this aspiration that we have."</div>
+    <div class='related'>Related: aspire, inspire, respiration</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">tweak</span>
+        <span class="phonetic">/twiːk/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to make small adjustments to improve or fine-tune something</div>
+    <div class="meaning-ko">미세 조정하다, 약간 수정하다</div>
+    <div class="etymology">Old English &#x27;twiccian&#x27; meaning &#x27;to pluck, pull sharply&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">tweak (pull, adjust)</span></div>
+    <div class="context">"What you want to have is a mechanism for tweaking it, toning it, and refining it so it gets better and better as you go along."</div>
+    <div class='related'>Related: adjust, fine-tune, modify</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mechanism</span>
+        <span class="phonetic">/ˈmɛkənɪzəm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a system of parts working together; a process or technique for achieving a result</div>
+    <div class="meaning-ko">메커니즘, 기제, 구조</div>
+    <div class="etymology">Greek &#x27;mēkhanē&#x27; meaning &#x27;machine, device, contrivance&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">mechan (machine)</span><span class="root-part suffix">-ism</span></div>
+    <div class="context">"What you want to have is a mechanism for tweaking it, toning it, and refining it."</div>
+    <div class='related'>Related: mechanic, mechanical, machine</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">extraordinarily</span>
+        <span class="phonetic">/ɪkˌstrɔːrdɪˈnɛrɪli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">to a very great degree; extremely; remarkably</div>
+    <div class="meaning-ko">극도로, 대단히, 놀랍게</div>
+    <div class="etymology">Latin &#x27;extraordinarius&#x27; from &#x27;extra ordinem&#x27; meaning &#x27;outside the normal order&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">extra-</span><span class="root-part">ordin (order)</span><span class="root-part suffix">-arily</span></div>
+    <div class="context">"A way more convenient way to get around at a price that wasn&#x27;t extraordinarily much greater than a Greyhound bus."</div>
+    <div class='related'>Related: extraordinary, ordinary, ordain</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">angst</span>
+        <span class="phonetic">/æŋst/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a feeling of deep anxiety or dread, typically about the human condition or state of the world</div>
+    <div class="meaning-ko">불안, 걱정, 근심</div>
+    <div class="etymology">German &#x27;Angst&#x27; meaning &#x27;fear, anxiety,&#x27; related to Latin &#x27;angustia&#x27; (tightness, distress)</div>
+    <div class="root-breakdown"><span class="root-part">angst (anxiety, dread)</span></div>
+    <div class="context">"The most important thing to recognize is that strategy will have angst associated with it."</div>
+    <div class='related'>Related: anxiety, anguish, anxious</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Present perfect: has/have + past participle</div>
+    <div class="explanation">Used to describe something that started in the past and continues to be relevant now, or to describe past experiences with present significance. Here it emphasizes the long-standing existence of planning.</div>
+    <div class="explanation-ko">현재완료(has/have + 과거분사)는 과거에 시작되어 현재까지 관련이 있는 일을 표현해. &#x27;계획이라는 것은 아주 오래전부터 존재해 왔다&#x27;처럼, 과거부터 지금까지 이어지는 상태를 나타내.</div>
+    <div class="example">This thing called planning has been around for a long, long time.</div><div class="example">People have put those two things together to call something strategic planning.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Gerund phrase as subject</div>
+    <div class="explanation">A verb in -ing form used as the subject of a sentence. This structure allows an action or activity to function as the topic of discussion, common in formal and academic English.</div>
+    <div class="explanation-ko">동명사(-ing)를 문장의 주어로 사용하는 구조야. 행동이나 활동을 주제로 만들 수 있어서 격식체나 학술 영어에서 자주 쓰여. &#x27;그냥 합치는 것은 도움이 안 된다&#x27;처럼 표현할 수 있어.</div>
+    <div class="example">So just putting them together and calling it strategic planning doesn&#x27;t help.</div><div class="example">Planning does not have to have any such coherence.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What + clause (nominal relative clause)</div>
+    <div class="explanation">A &#x27;what&#x27; clause used as the subject or object of a sentence, meaning &#x27;the thing that.&#x27; It allows the speaker to package an entire idea into a noun phrase.</div>
+    <div class="explanation-ko">&#x27;What + 절&#x27; 구조는 &#x27;~하는 것&#x27;이라는 의미로, 문장의 주어나 목적어 역할을 해. 전체 아이디어를 하나의 명사구로 묶을 수 있어서 복잡한 생각을 간결하게 표현할 수 있어.</div>
+    <div class="example">What most strategic planning is in the world of business has nothing to do with strategy.</div><div class="example">What they wanted to be is a substitute for Greyhound.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Has nothing to do with + noun</div>
+    <div class="explanation">An idiomatic expression meaning &#x27;is completely unrelated to.&#x27; Used to strongly deny a connection between two things.</div>
+    <div class="explanation-ko">&#x27;~와 아무 관련이 없다&#x27;는 뜻의 관용 표현이야. 두 가지 사이의 연결을 강하게 부정할 때 사용해. &#x27;has something to do with&#x27;는 &#x27;관련이 있다&#x27;로 반대 표현이야.</div>
+    <div class="example">What most strategic planning is in the world of business has nothing to do with strategy.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">On the other hand (contrastive transition)</div>
+    <div class="explanation">A transitional phrase used to introduce a contrasting point of view. It signals that the speaker is about to present the opposite side of an argument.</div>
+    <div class="explanation-ko">&#x27;반면에&#x27;라는 뜻의 전환 표현이야. 반대되는 관점을 소개할 때 사용해. 보통 앞에서 한 가지 측면을 설명한 뒤, 이 표현으로 다른 측면을 제시해.</div>
+    <div class="example">A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Enough + that clause (result clause)</div>
+    <div class="explanation">Used to indicate a sufficient degree or quantity that leads to a specific result. &#x27;Enough that&#x27; connects the condition to its consequence.</div>
+    <div class="explanation-ko">&#x27;~할 만큼 충분히&#x27;라는 뜻으로, 특정 결과로 이어지는 충분한 정도를 나타내. &#x27;enough that&#x27;은 조건과 그 결과를 연결해 주는 표현이야.</div>
+    <div class="example">Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you&#x27;d like to make.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">While + progressive (simultaneous contrast)</div>
+    <div class="explanation">Used to set up a temporal context that contrasts with another action happening at the same time. Emphasizes what is occurring simultaneously, often with an ironic or critical tone.</div>
+    <div class="explanation-ko">&#x27;~하는 동안&#x27;이라는 시간 표현으로, 동시에 일어나는 다른 행동과 대조할 때 사용해. 종종 아이러니하거나 비판적인 뉘앙스를 담아서 &#x27;이쪽에서는 이러는데 저쪽에서는 저러고 있었다&#x27;는 느낌을 줘.</div>
+    <div class="example">The tricky thing about planning is that while you&#x27;re planning, chances are at least one competitor is figuring out how to win.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What would have to be true (hypothetical analysis)</div>
+    <div class="explanation">A powerful analytical question structure used in strategic thinking. It asks what conditions must exist for something to work, using the conditional &#x27;would have to be&#x27; to explore hypothetical requirements.</div>
+    <div class="explanation-ko">&#x27;이것이 작동하려면 무엇이 사실이어야 할까&#x27;라는 전략적 분석 질문 구조야. 조건법 &#x27;would have to be&#x27;를 사용해서 가설적인 필요 조건을 탐색해. 비즈니스 분석에서 자주 쓰이는 표현이야.</div>
+    <div class="example">What would have to be true about ourselves, about the industry, about competition, about customers for this strategy to work?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">It&#x27;s great if you can + verb (conditional recommendation)</div>
+    <div class="explanation">A softened recommendation structure that presents an ideal scenario without being overly directive. It uses &#x27;if&#x27; to frame the advice as achievable rather than mandatory.</div>
+    <div class="explanation-ko">&#x27;~할 수 있으면 좋아&#x27;라는 부드러운 권유 표현이야. &#x27;if&#x27;를 사용해서 이상적인 시나리오를 제시하지만 강제하지 않아. 조언할 때 부담을 주지 않으면서 방향을 제시하는 데 유용해.</div>
+    <div class="example">It&#x27;s great if you can write your strategy on a single page.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">If you do X, it gives you + result (conditional cause-effect)</div>
+    <div class="explanation">A conditional structure that presents a clear cause-and-effect relationship. Used to persuade the listener by showing the direct benefit of taking an action.</div>
+    <div class="explanation-ko">&#x27;X를 하면, ~를 얻을 수 있다&#x27;는 조건-결과 구조야. 행동의 직접적인 이점을 보여줘서 상대를 설득할 때 사용해. 마지막에 핵심 메시지를 강조하는 데 효과적이야.</div>
+    <div class="example">If you do strategy, it gives you the best possible chance of winning.</div><div class="example">If you plan, that&#x27;s a way to guarantee losing.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">고나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɡɒnə/</div>
+        <div class="explanation-text">빠른 발화에서 &#x27;going to&#x27;가 &#x27;gonna&#x27; /ɡɒnə/로 축약돼. /ɪŋ tuː/가 단순한 /nə/로 줄어들어. 영어에서 가장 흔한 축약 중 하나야.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wɒnə/</div>
+        <div class="explanation-text">일상적인 발화에서 &#x27;want to&#x27;가 &#x27;wanna&#x27; /wɒnə/로 축약돼. /t tuː/가 /nə/로 단순화돼. &#x27;gonna&#x27;처럼 일상 구어 영어에서 매우 자주 나타나.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">set of activities</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">세러백티비티즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/sɛtəvækˈtɪvɪtiz/</div>
+        <div class="explanation-text">&#x27;set&#x27;의 /t/가 축약된 &#x27;of&#x27;의 /ə/와 연결되고, &#x27;of&#x27;의 /v/가 &#x27;activities&#x27;의 /æ/와 이어져서 세 단어가 하나의 덩어리처럼 흘러가.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">plan out the</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">플래나웃더</span>
+    <div class="details">
+        <div class="phonetic-ipa">/plænˌaʊtðə/</div>
+        <div class="explanation-text">&#x27;plan&#x27;의 /n/이 &#x27;out&#x27;의 이중모음 /aʊ/와 매끄럽게 연결되고, &#x27;out&#x27;의 /t/가 &#x27;the&#x27;의 /ð/와 이어져. 세 단어가 따로 끊기지 않고 하나의 덩어리처럼 흘러가.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">would you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">우쥐어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʊdʒə/</div>
+        <div class="explanation-text">&#x27;would&#x27;의 /d/와 &#x27;you&#x27;의 /j/가 구개 동화를 통해 /dʒ/ (ㅈ 소리)로 합쳐져. 자연스러운 영어에서 매우 흔한 동화 현상이야.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">don&#x27;t you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">돈츄</span>
+    <div class="details">
+        <div class="phonetic-ipa">/doʊntʃə/</div>
+        <div class="explanation-text">&#x27;don&#x27;t&#x27;의 /t/와 &#x27;you&#x27;의 /j/가 구개 동화를 거쳐 /tʃ/ (ㅊ 소리)를 만들어. &#x27;would you&#x27;에서 /dʒ/가 되는 것의 무성음 버전이야.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">just accept</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">저섹셉트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/dʒʌsəkˈsɛpt/</div>
+        <div class="explanation-text">&#x27;just&#x27;의 마지막 /t/가 &#x27;accept&#x27;의 모음 /ə/ 앞에서 탈락해. 연결 발화에서 /st/ 뒤에 모음이 오면 /t/가 생략되고 /s/가 다음 모음과 바로 연결되는 경우가 많아.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">best possible</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">베스파서블</span>
+    <div class="details">
+        <div class="phonetic-ipa">/bɛsˈpɒsɪbl/</div>
+        <div class="explanation-text">&#x27;best&#x27;의 /t/가 &#x27;possible&#x27;의 /p/ 앞에서 탈락해. 파열음(/t/) 뒤에 다른 파열음(/p/)이 오면, 첫 번째 파열음이 발음되지 않거나 완전히 생략되는 경우가 많아.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"This thing called planning has been around for a long, long time."</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Unfortunately, those things are not the same"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"So what&#x27;s a strategy?"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Planning is quite comforting."</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"A strategy, on the other hand"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"When U.S. air carriers were busily planning"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"If you&#x27;re trying to escape this planning trap"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"The second thing I do is say"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Another thing that helps with strategy is"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"But I would tell you that if you plan, that&#x27;s a way to guarantee losing."</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=iuYlGRnC7J8
+    </div>
+</div>
+
+</body>
+</html>

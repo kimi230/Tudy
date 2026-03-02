@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>Grit: The Power of Passion and Perseverance | Angela Lee Duckworth | TED</h1>
+    <div class="subtitle">TED</div>
+    <div class="desc-ko">성공의 비밀은 IQ가 아닌 끈기 — 그릿의 힘과 성장 마인드셋</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">6:13</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">143</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">89</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">15</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/H14bBuluwB8/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/H14bBuluwB8">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (9 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (6 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (12 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (10 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 6-minute video by TED is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Personal Story: IQ Isn&#x27;t Everything</span>
+        <span class="sec-time">0:01 ~ 0:53</span>
+    </div>
+    <div class="sec-summary">Opening: Personal story about teaching 7th grade math and discovering IQ isn&#x27;t everything</div>
+    <div class="key-points"><span class="key-point">교사로서의 경험을 통해 IQ가 성적의 유일한 요인이 아님을 발견</span><span class="key-point">성적 우수자가 반드시 IQ가 높지 않았고, IQ가 높아도 성적이 낮은 학생 존재</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">From Classroom to Graduate School</span>
+        <span class="sec-time">0:53 ~ 1:47</span>
+    </div>
+    <div class="sec-summary">Transition: From classroom observation to graduate school — reframing the question from IQ to motivation</div>
+    <div class="key-points"><span class="key-point">7학년 수학은 어렵지만 불가능하지 않음 — 노력의 문제</span><span class="key-point">교육에는 동기 부여/심리학적 관점의 이해가 필요</span><span class="key-point">핵심 질문: &#x27;학습 속도 이상의 것이 성공을 결정한다면?&#x27;</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Research Across Extreme Environments</span>
+        <span class="sec-time">1:47 ~ 2:58</span>
+    </div>
+    <div class="sec-summary">Research journey: Studies across West Point, Spelling Bee, schools, and companies — all pointing to one factor</div>
+    <div class="key-points"><span class="key-point">다양한 극한 환경에서 성공 예측 인자 연구</span><span class="key-point">웨스트포인트, 철자 맞히기 대회, 초임 교사, 영업사원 대상</span><span class="key-point">사회적 지능, 외모, 건강, IQ 모두 아닌 하나의 특성 발견</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Defining Grit: Passion and Perseverance</span>
+        <span class="sec-time">2:59 ~ 4:07</span>
+    </div>
+    <div class="sec-summary">Core concept: Defining grit and presenting evidence from Chicago public schools</div>
+    <div class="key-points"><span class="key-point">그릿 = 장기 목표에 대한 열정 + 인내</span><span class="key-point">마라톤 비유: 인생은 단거리가 아닌 마라톤</span><span class="key-point">시카고 연구: 그릿 높은 학생이 졸업률 유의미하게 높음</span><span class="key-point">가정 소득, 시험 점수 등 변수 통제 후에도 유효</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">The Gap: How to Build Grit</span>
+        <span class="sec-time">4:08 ~ 5:27</span>
+    </div>
+    <div class="sec-summary">The gap: We know little about building grit — growth mindset as the best lead so far</div>
+    <div class="key-points"><span class="key-point">그릿을 키우는 방법에 대한 과학적 지식 부족 고백</span><span class="key-point">재능 ≠ 그릿 (오히려 반비례)</span><span class="key-point">캐럴 드웩의 성장 마인드셋이 현재 최선의 아이디어</span><span class="key-point">뇌가 변화할 수 있다는 믿음이 실패 후 끈기를 높임</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Call to Action: Be Gritty About Building Grit</span>
+        <span class="sec-time">5:28 ~ 6:11</span>
+    </div>
+    <div class="sec-summary">Call to action: We need to be gritty about making kids grittier</div>
+    <div class="key-points"><span class="key-point">성장 마인드셋만으로는 부족, 더 많은 연구 필요</span><span class="key-point">최고의 아이디어를 검증하고, 실패를 감수해야 함</span><span class="key-point">재귀적 메시지: 그릿을 키우려면 우리 자신이 끈기를 가져야 함</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">grit</span>
+        <span class="phonetic">/ɡrɪt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">firmness of character; unyielding courage; passion and perseverance for long-term goals</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Old English &#x27;grēot&#x27; (sand, gravel) → Middle English &#x27;grit&#x27; (coarse particles) → metaphor for toughness and endurance</div>
+    <div class="root-breakdown"><span class="root-part">grit</span></div>
+    <div class="context">"It was grit. Grit is passion and perseverance for very long-term goals."</div>
+    <div class='related'>Related: gritty, grittiness, determination</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">perseverance</span>
+        <span class="phonetic">/ˌpɜːrsəˈvɪrəns/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">persistence in doing something despite difficulty or delay in achieving success</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;perseverare&#x27; (to persist) ← &#x27;per-&#x27; (thoroughly) + &#x27;severus&#x27; (strict, serious)</div>
+    <div class="root-breakdown"><span class="root-part prefix">per-</span><span class="root-part">sever</span><span class="root-part suffix">-ance</span></div>
+    <div class="context">"Grit is passion and perseverance for very long-term goals."</div>
+    <div class='related'>Related: persevere, persistent, persistence</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">stamina</span>
+        <span class="phonetic">/ˈstæmɪnə/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the ability to sustain prolonged physical or mental effort</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;stamina&#x27; (threads of life spun by the Fates) ← plural of &#x27;stamen&#x27; (thread, fiber)</div>
+    <div class="root-breakdown"><span class="root-part">stamen</span><span class="root-part suffix">-a</span></div>
+    <div class="context">"Grit is having stamina."</div>
+    <div class='related'>Related: endurance, resilience, vigor</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">predictor</span>
+        <span class="phonetic">/prɪˈdɪktər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a thing that predicts; a factor indicating a future outcome</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;praedicere&#x27; (to foretell) ← &#x27;prae-&#x27; (before) + &#x27;dicere&#x27; (to say)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pre-</span><span class="root-part">dict</span><span class="root-part suffix">-or</span></div>
+    <div class="context">"One characteristic emerged as a significant predictor of success."</div>
+    <div class='related'>Related: predict, prediction, predictable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inversely</span>
+        <span class="phonetic">/ɪnˈvɜːrsli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in an opposite manner; in reverse proportion</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;inversus&#x27; (turned upside down) ← &#x27;in-&#x27; (into) + &#x27;vertere&#x27; (to turn)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">vers</span><span class="root-part suffix">-ly</span></div>
+    <div class="context">"Grit is usually unrelated or even inversely related to measures of talent."</div>
+    <div class='related'>Related: inverse, invert, reverse, convert</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">intuition</span>
+        <span class="phonetic">/ˌɪntjuˈɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the ability to understand something immediately, without conscious reasoning</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;intuitio&#x27; (a looking at) ← &#x27;intueri&#x27; (to look at, consider) ← &#x27;in-&#x27; (at) + &#x27;tueri&#x27; (to look)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">tuit</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"We need to take our best ideas, our strongest intuitions, and we need to test them."</div>
+    <div class='related'>Related: intuitive, intuit, tuition</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">commitment</span>
+        <span class="phonetic">/kəˈmɪtmənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a pledge or obligation; dedication to a cause or activity</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;committere&#x27; (to connect, entrust) ← &#x27;com-&#x27; (together) + &#x27;mittere&#x27; (to send)</div>
+    <div class="root-breakdown"><span class="root-part prefix">com-</span><span class="root-part">mit</span><span class="root-part suffix">-ment</span></div>
+    <div class="context">"There are many talented individuals who simply do not follow through on their commitments."</div>
+    <div class='related'>Related: commit, committee, commission</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mindset</span>
+        <span class="phonetic">/ˈmaɪndˌsɛt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the established set of attitudes held by someone; a way of thinking</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">&#x27;mind&#x27; (Old English &#x27;gemynd&#x27;, memory) + &#x27;set&#x27; (Old English &#x27;settan&#x27;, to place) — compound coined 1930s</div>
+    <div class="root-breakdown"><span class="root-part">mind+set</span></div>
+    <div class="context">"The best idea I&#x27;ve heard about building grit in kids is something called growth mindset."</div>
+    <div class='related'>Related: mindful, mind-frame, attitude, outlook</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">significantly</span>
+        <span class="phonetic">/sɪɡˈnɪfɪkəntli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in a way that is large or important enough to have an effect or be noticed</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;significare&#x27; (to signify) ← &#x27;signum&#x27; (sign) + &#x27;facere&#x27; (to make) + &#x27;-ly&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">sign-</span><span class="root-part">fic</span><span class="root-part suffix">-antly</span></div>
+    <div class="context">"Grittier kids were significantly more likely to graduate."</div>
+    <div class='related'>Related: significant, significance, signify</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">stratospheric</span>
+        <span class="phonetic">/ˌstrætəˈsfɛrɪk/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">extremely high; reaching the stratosphere (figuratively: exceptionally great)</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;stratum&#x27; (layer) + Greek &#x27;sphaira&#x27; (sphere) + &#x27;-ic&#x27; → relating to the upper atmosphere → metaphor for extremely high</div>
+    <div class="root-breakdown"><span class="root-part prefix">strato-</span><span class="root-part">spher</span><span class="root-part suffix">-ic</span></div>
+    <div class="context">"Some of my strongest performers did not have stratospheric IQ scores."</div>
+    <div class='related'>Related: stratosphere, atmospheric, astronomical</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">parallelogram</span>
+        <span class="phonetic">/ˌpærəˈlɛləˌɡræm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a four-sided shape with opposite sides parallel and equal in length</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Greek &#x27;parallēlogrammon&#x27; ← &#x27;parallēlos&#x27; (parallel) + &#x27;grammē&#x27; (line)</div>
+    <div class="root-breakdown"><span class="root-part prefix">parallel-</span><span class="root-part">gram</span></div>
+    <div class="context">"Ratios, decimals, the area of a parallelogram."</div>
+    <div class='related'>Related: parallel, rectangle, rhombus</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">cadet</span>
+        <span class="phonetic">/kəˈdɛt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a young trainee in the armed services or police force</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">French &#x27;cadet&#x27; (younger son) ← Gascon &#x27;capdet&#x27; (captain, chief) ← Latin &#x27;caput&#x27; (head)</div>
+    <div class="root-breakdown"><span class="root-part">cadet</span></div>
+    <div class="context">"We tried to predict which cadets would stay in military training and which would drop out."</div>
+    <div class='related'>Related: cadre, captain, chief</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">questionnaire</span>
+        <span class="phonetic">/ˌkwɛstʃəˈnɛr/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a set of printed questions used for gathering information from respondents</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">French &#x27;questionnaire&#x27; ← &#x27;questionner&#x27; (to question) ← Latin &#x27;quaestio&#x27; (inquiry)</div>
+    <div class="root-breakdown"><span class="root-part">question</span><span class="root-part suffix">-naire</span></div>
+    <div class="context">"I asked thousands of high school juniors to take grit questionnaires."</div>
+    <div class='related'>Related: question, query, inquiry, survey</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consulting</span>
+        <span class="phonetic">/kənˈsʌltɪŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the business of giving expert advice to people working in a professional field</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">Latin &#x27;consultare&#x27; (to deliberate, take counsel) ← &#x27;consulere&#x27; (to take counsel)</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">sult</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"I left a very demanding job in management consulting."</div>
+    <div class='related'>Related: consultant, consult, consultation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">rookie</span>
+        <span class="phonetic">/ˈrʊki/</span>
+        <span class="pos">noun/adjective</span>
+    </div>
+    <div class="definition">a person new to a job, activity, or organization; a beginner</div>
+    <div class="meaning-ko"></div>
+    <div class="etymology">possibly alteration of &#x27;recruit&#x27;; origin uncertain, first recorded in American English 1890s</div>
+    <div class="root-breakdown"><span class="root-part">rookie</span></div>
+    <div class="context">"We studied rookie teachers working in really tough neighborhoods."</div>
+    <div class='related'>Related: novice, beginner, newcomer</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">What struck me was that...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">강조 구문 (Cleft sentence). &#x27;What + 동사 + me + was + that절&#x27;로 특정 사실을 강조합니다. What이 이끄는 명사절이 주어, that절이 보어 역할.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">What if + 주어 + 동사...?</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">가정/제안의 의문문. &#x27;What if...?&#x27;로 가능성을 제기하며 청중의 사고를 유도합니다. TED 강연에서 주제를 소개할 때 자주 사용되는 수사적 질문.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">It wasn&#x27;t X. It wasn&#x27;t Y. It was Z.</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">배제 후 공개 패턴 (Elimination reveal). &#x27;It wasn&#x27;t...&#x27;을 반복하여 오답을 배제한 후 핵심 답을 극적으로 공개합니다. 발표에서 긴장감 조성용.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">Grit is -ing (정의 나열)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동명사(-ing)를 사용한 정의 나열. 추상적 개념을 구체적 행동으로 풀어서 설명할 때 &#x27;X is -ing...&#x27;을 반복합니다. 병렬 구조(parallelism)의 대표적 활용.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">Turns out (that)...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">구어체 결과 보고. &#x27;It turns out that...&#x27;의 축약형으로, 연구 결과나 의외의 사실을 소개할 때 사용합니다. 학술 발표에서 자연스러움을 더하는 표현.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">Even when I matched them on...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;even when&#x27;으로 양보절을 이끌어, 결과가 변수를 통제한 후에도 유효함을 강조합니다. 연구 발표에서 결과의 신뢰성을 높이는 학술적 표현.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">The honest answer is...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">솔직한 고백 패턴. 청중의 기대를 인정한 뒤 정직하게 한계를 시인합니다. 신뢰를 구축하는 수사 전략으로, TED 강연에서 매우 효과적.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">So far, the best idea I&#x27;ve heard about...</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;So far&#x27;(지금까지)로 시간적 한정을 두고, 현재완료 &#x27;I&#x27;ve heard&#x27;로 경험을 기반으로 한 제안을 합니다. 겸손하면서도 권위 있는 추천 표현.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">In other words, we need to be X about Y-ing.</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">핵심 메시지 요약. &#x27;In other words&#x27;로 바꿔 말하기를 시작하며, 강연의 핵심을 한 문장으로 압축합니다. 재귀적 표현(그릿에 대해 그릿을 가져야 한다)으로 여운.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">not just X, not just Y, but for Z</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">점진적 확대 (Climax/Gradation). &#x27;not just...not just...but&#x27;로 시간 범위를 점점 넓혀가며 강조합니다. 청중의 기대를 단계적으로 확장하는 수사법.</div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">레프터</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;left&#x27;의 /t/가 &#x27;a&#x27;의 모음에 연결되어 한 덩어리로 발음됩니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스트럭 미</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;struck&#x27;의 /k/가 &#x27;me&#x27;의 /m/에 바로 연결됩니다. 자음+자음 연결.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">베스튼</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;best&#x27;의 /t/가 &#x27;and&#x27;의 /æ/에 연결되고, &#x27;and&#x27;가 /ən/으로 약화됩니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워크트 하든 롱이너프</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;hard&#x27;의 /d/가 &#x27;and&#x27;와 연결, &#x27;and&#x27;가 /ən/으로 약화. &#x27;long enough&#x27;는 /ŋ/+/ɪ/ 연음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스타르토우버어겐</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;start&#x27;의 /t/가 &#x27;over&#x27;의 /oʊ/에 연결. &#x27;over again&#x27;도 /r/+/ə/ 연음으로 이어집니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">그리리즈</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;grit&#x27;의 /t/가 &#x27;is&#x27;의 /ɪ/에 연결되어 flap /ɾ/로 발음됩니다. 미국 영어의 flapping 현상.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">데이인 데이아웃</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">관용 표현. &#x27;day&#x27;의 /eɪ/가 &#x27;in&#x27;의 /ɪ/에 자연스럽게 이어집니다. 강세 리듬이 핵심.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">팔로우 쓰루온</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">구동사 &#x27;follow through on&#x27;. &#x27;through&#x27;의 /uː/가 &#x27;on&#x27;의 /ɑː/에 연결됩니다.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">가&#x27;미</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;got&#x27;의 /t/가 성문파열음(glottal stop)으로 대체됩니다. 미국 영어 구어체에서 매우 흔한 현상.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">카인저브</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;of&#x27;가 /əv/로 약화되어 앞 단어에 붙어 발음됩니다. &#x27;kind of&#x27;는 일상에서 /kaɪndə/로도 축약.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">웬터</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">&#x27;to&#x27;가 약형 /tə/로 발음됩니다. 기능어(전치사, 관사 등)는 대부분 약형으로 발음.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">잇 워즌트</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice">축약형 &#x27;wasn&#x27;t&#x27;에서 /t/가 거의 안 들림. 반복 사용으로 리듬감 형성.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type narrative_opening">narrative_opening</span>
+    <div>
+        <div class="signal-expr">"When I was 27 years old"</div>
+        <div class="signal-role">개인 경험으로 시작하여 청중의 관심을 끄는 서사적 도입</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"What struck me was that"</div>
+        <div class="signal-role">핵심 관찰을 강조하는 강조 구문</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And that got me thinking"</div>
+        <div class="signal-role">관찰에서 탐구로의 전환을 알리는 연결 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type rhetorical_question">rhetorical_question</span>
+    <div>
+        <div class="signal-expr">"But what if"</div>
+        <div class="signal-role">기존 가정에 도전하는 수사적 질문으로 주제 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"In all those very different contexts"</div>
+        <div class="signal-role">다양한 연구를 종합하며 공통점을 도출하는 요약 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type reveal">reveal</span>
+    <div>
+        <div class="signal-expr">"It was grit"</div>
+        <div class="signal-role">배제법 후 핵심 답을 공개하는 극적 전환점</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type evidence">evidence</span>
+    <div>
+        <div class="signal-expr">"Turns out that"</div>
+        <div class="signal-role">연구 결과를 구어체로 자연스럽게 보고하는 학술 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type honesty">honesty</span>
+    <div>
+        <div class="signal-expr">"The honest answer is"</div>
+        <div class="signal-role">한계를 솔직히 인정하여 신뢰를 구축하는 고백 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type recommendation">recommendation</span>
+    <div>
+        <div class="signal-expr">"So far, the best idea I&#x27;ve heard"</div>
+        <div class="signal-role">겸손한 추천으로 성장 마인드셋 소개</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type restatement">restatement</span>
+    <div>
+        <div class="signal-expr">"In other words"</div>
+        <div class="signal-role">핵심 메시지를 한 문장으로 재정리하며 강연 마무리</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=H14bBuluwB8
+    </div>
+</div>
+
+</body>
+</html>

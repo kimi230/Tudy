@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>「プレステ5」大幅値下げの舞台裏を独自解説【経済記者インサイト】</h1>
+    <div class="subtitle">テレ東BIZ ダイジェスト</div>
+    <div class="desc-ko">PS5 가격 인하 배경과 콘솔 시장 경쟁 구도를 경제 기자 시선으로 해설</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">8:44</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">142</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/j9fJmTYdEyU/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/j9fJmTYdEyU">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (20 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (15 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (9 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 8-minute video by テレ東BIZ ダイジェスト is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">イントロ・出演者紹介</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">경제 기자 인사이트 프로그램 소개 및 출연자(아베 기자, 스가노 편집장) 소개.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">今日のニュース：PS5実質値下げ</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">소니 PS5가 1만 8천 엔 실질 할인해 세금 포함 5만 5천 엔에 출시. 닌텐도 스위치2(약 5만 엔)와의 가격 경쟁이 노림수. 일본 한정 모델로 변경. 11월 21일 발매 예정.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">出演者の体験談：ゲーム機との思い出</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">스가노 씨는 PS3를 직접 구매했고, 다케자키 씨는 1992년생으로 부모님이 구매해줬다고 회상. PS5의 &#x27;비싸다&#x27;는 인상이 이번 이야기의 포인트로 연결됨.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">PS5の値上がりの歴史</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">2020년 11월 출시 당시 4만 3천 엔대 → 2022년 4만 9천 엔대 → 2023년 약 6만 엔 → 2024년 9월 7만 엔 초과 → 현재 최고 모델 11만 엔 이상. 이번에 5만 5천 엔대로 실질 2만 엔 인하.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">値下げの理由①：円安の影響</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">PS5는 주로 해외(중국)에서 달러 기준 생산·수입. 2020년 1달러=104엔 → 현재 1달러=154엔으로 50엔 약세. 코로나 반도체 공급 부족·원자재 급등도 겹쳐 계속 상승. 환율 개선으로 이번 가격 인하가 가능해짐. 미국향 제품은 관세 문제로 일부 생산지 이관 중.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">任天堂スイッチ2との競争</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">스위치2는 5만 엔으로 부모 입장에서 더 접근하기 쉬운 가격. 4개월 만에 1,000만 대 판매(닌텐도 역대 최고 페이스). 가전양판점은 입고 대기·품절 상태. 어린이들 사이에서도 스위치2 압도적 인기. 이유는 휴대 가능성, 게임 편의성, 가격 모두에서 스위치2 우세. 소니는 기민하게 가격 인하로 반격 시도.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">値下げの理由②：日本限定モデルと転売対策</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">새 모델은 일본어만 지원, 일본 사이트에서만 구매 가능, 일본 계정 필요. 이유는 전매 방지: 엔화 약세로 해외 방문객이 일본에서 싸게 구매 후 타국에 전매하는 문제 발생. 메루카리·중국 쇼핑앱에서 PS5 일본판(日版)이 대량 유통 중. 전매 상품이 해외에서 유통되면 소니가 실질 손해를 입는 구조.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">秋葉原取材レポート</span>
+        <span class="sec-time">0:01 ~ 0:06</span>
+    </div>
+    <div class="sec-summary">기자가 직접 아키하바라를 방문해 PS5 판매 현황과 전매 실태를 여러 가게를 돌며 취재. 방송 말미에 결과 발표 도중 시청 감사 인사로 마무리.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">円安</span>
+        <span class="phonetic">えんやす</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">値下げ</span>
+        <span class="phonetic">ねさげ</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">値上がり</span>
+        <span class="phonetic">ねあがり</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">右肩上がり</span>
+        <span class="phonetic">みぎかたあがり</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">高止まり</span>
+        <span class="phonetic">たかどまり</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">転売</span>
+        <span class="phonetic">てんばい</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">半導体</span>
+        <span class="phonetic">はんどうたい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">供給不足</span>
+        <span class="phonetic">きょうきゅうふそく</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">高騰</span>
+        <span class="phonetic">こうとう</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">シェア</span>
+        <span class="phonetic">シェア</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">バカ売れ</span>
+        <span class="phonetic">バカうれ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">機敏</span>
+        <span class="phonetic">きびん</span>
+        <span class="pos">형용동사(な형)</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">据え置く</span>
+        <span class="phonetic">すえおく</span>
+        <span class="pos">동사(5단)</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">流通</span>
+        <span class="phonetic">りゅうつう</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">正規</span>
+        <span class="phonetic">せいき</span>
+        <span class="pos">명사/형용동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">比例</span>
+        <span class="phonetic">ひれい</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">推移</span>
+        <span class="phonetic">すいい</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">関税</span>
+        <span class="phonetic">かんぜい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">移管</span>
+        <span class="phonetic">いかん</span>
+        <span class="pos">명사/동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">フリマサイト</span>
+        <span class="phonetic">フリマサイト</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜によって / 〜による</div>
+    <div class="explanation">동작의 주체나 원인·수단을 나타냄. 명사에 접속. による는 명사를 수식할 때 사용.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただきます</div>
+    <div class="explanation">동사의 て형 + いただく. 상대방이 해준 것을 받는다는 뜻의 경어. お送りします도 경어 표현.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜というわけ</div>
+    <div class="explanation">이유나 결론을 명확하게 설명할 때 사용. 「というわけだ / というわけです / というわけですね」형태로 자주 쓰임.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に合わせる</div>
+    <div class="explanation">기준·기준점에 맞게 조정한다는 의미. 「〜に合わせてくる」는 &#x27;~에 맞춰오다(전략적 행동)&#x27;.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">なかなか〜ない</div>
+    <div class="explanation">기대와 달리 어떤 상태가 쉽게 실현되지 않을 때 사용. なかなか는 부정문과 함께 써야 이 의미가 됨.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜からすると / 〜からすれば</div>
+    <div class="explanation">어떤 관점·입장을 기준으로 판단할 때 사용. 「〜の立場から見ると」와 유사.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜しか〜ない</div>
+    <div class="explanation">「しか」는 부정을 동반해 한정을 나타냄. 「だけ」와 비교: しか는 제한의 뉘앙스가 강함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ない限りは</div>
+    <div class="explanation">어떤 조건이 충족되지 않으면 후술 내용이 실현되지 않음을 나타냄. 「〜なければ〜ない」보다 강한 조건.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てもらう / 〜てもらいたい</div>
+    <div class="explanation">상대방이 나를 위해 어떤 행동을 해주는 것을 나타냄. 「楽しんでもらう」= 즐겨 주기를 바라다.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜かもしれない</div>
+    <div class="explanation">불확실한 추측을 나타내는 문말 표현. 「〜だろう」보다 불확실성이 높음.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていくと</div>
+    <div class="explanation">어떤 과정이나 분석이 진행되어 가는 방향성을 나타냄. 변화의 진행을 설명할 때 사용.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">いずれにしろ</div>
+    <div class="explanation">여러 경우 중 어느 것이든 결론은 같다는 의미. 「とにかく」「どちらにせよ」와 유사.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にしろ (〜にせよ)</div>
+    <div class="explanation">いずれにしろ의 〜にしろ는 양보의 의미. 「〜であっても」와 유사.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">というふうに</div>
+    <div class="explanation">어떤 방식이나 내용을 부드럽게 인용·설명할 때 사용하는 구어적 표현.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てしまう</div>
+    <div class="explanation">의도치 않게 혹은 완전히 끝나버리는 동작을 나타냄. 후회·유감의 뉘앙스를 포함하기도 함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">縮約形 (축약형)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">フィラー (필러)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">音変化 (음 변화)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">リズム・イントネーション (리듬·억양)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">接続表現 (접속 표현)</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=j9fJmTYdEyU
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>「伝統を途絶えさせないために革新を」伝統工芸の町・京都で覆す『職人像』 新たな挑戦が生む未来とは【かんさい情報ネット ten.特集/カラフル】</h1>
+    <div class="subtitle">YOMIURI TELECASTING CORPORATION NEWS CHANNEL</div>
+    <div class="desc-ko">전통 공예를 살리기 위한 젊은 장인들의 혁신과 후계자 문제 해법</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:29</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">104</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/g8TEUFSiRPA/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/g8TEUFSiRPA">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (25 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (14 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (16 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by YOMIURI TELECASTING CORPORATION NEWS CHANNEL is structured into 8 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입: 일본도와 장인의 위기</span>
+        <span class="sec-time">0:05 ~ 0:39</span>
+    </div>
+    <div class="sec-summary">울려 퍼지는 쇠 두드리는 소리와 함께 천 년의 역사를 지닌 일본도를 소개. 일본도 자체는 남아도 도검 장인 자체가 사라질 수 있다는 위기의식을 제시하며, 전통을 남기기 위해 노력하겠다는 다짐으로 시작.</div>
+    <div class="key-points"><span class="key-point">일본도는 천 년의 역사를 가진 전통 공예품</span><span class="key-point">도검 제조 장인(刀鍛冶)이 사라질 위기에 처해 있음</span><span class="key-point">문화 자체가 소멸될 수 있다는 위기감</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">배경: 교탄고시와 전통 산업의 현황</span>
+        <span class="sec-time">0:41 ~ 1:19</span>
+    </div>
+    <div class="sec-summary">국가 전통 공예품으로 지정된 서신삼(西神森)의 소개와 함께, 20가지 이상의 공정을 거쳐 만들어지는 전통 산업의 현황을 설명. 전통 산업이 매우 힘든 상황에 있어 오히려 진심으로 뛰어들면 크게 환영받을 것이라는 역발상도 소개.</div>
+    <div class="key-points"><span class="key-point">20가지 이상의 공정을 거치는 복잡한 제조 과정</span><span class="key-point">많은 장인들의 협력이 필수</span><span class="key-point">전통 산업의 위기가 오히려 기회가 될 수 있음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">주인공 소개: 젊은 도검 장인 3명의 회사 설립</span>
+        <span class="sec-time">1:26 ~ 2:09</span>
+    </div>
+    <div class="sec-summary">교탄고시에서 3명의 젊은 도검 장인이 전국적으로 유례없는 주식회사를 설립했음을 소개. 혼자 일하는 것의 한계를 느끼고, 3명이 힘을 합쳐 지금까지 불가능했던 일도 해나가자는 목표로 회사 형태를 취하게 된 경위를 설명.</div>
+    <div class="key-points"><span class="key-point">교탄고시에서 전국 유례없는 도검 장인 회사 설립</span><span class="key-point">혼자 일하는 것의 한계를 인식</span><span class="key-point">3인의 협력으로 새로운 도전 가능</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">도검 장인의 혹독한 수련 제도</span>
+        <span class="sec-time">2:11 ~ 3:14</span>
+    </div>
+    <div class="sec-summary">도검 장인이 되기 위한 국가 공인 제도를 설명. 같은 스승 아래 7년의 수련을 쌓은 3인의 배경과 함께, 최소 5년간 무급으로 일하면서 스스로 생계를 꾸려야 하는 혹독한 현실을 소개. 아침부터 밤까지 수련 후 한밤중까지 아르바이트를 해야 했던 힘든 경험을 증언.</div>
+    <div class="key-points"><span class="key-point">도검 장인이 되려면 국가 공인 장인 밑에서 최소 5년 수련</span><span class="key-point">수련 기간은 일반적으로 무급</span><span class="key-point">스스로 생계를 꾸리면서 주 5일 하루 8시간 수련 의무</span><span class="key-point">수련 후 아르바이트를 이어가는 혹독한 현실</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">회사 설립의 혁신: 문제를 해결하는 새로운 모델</span>
+        <span class="sec-time">3:15 ~ 3:53</span>
+    </div>
+    <div class="sec-summary">기존 도검 장인 제도의 문제점(독립 자금·도구 부족으로 독립 포기)을 주식회사라는 형태로 해결하는 방안을 설명. 사원으로 제자를 받아 급료를 지급하면서 수련시키고, 보조금도 받을 수 있는 안정적 구조를 소개. 자신들이 좋아하는 일을 남기고, 미래 장인 지망자들에게도 길을 열어주겠다는 포부를 밝힘.</div>
+    <div class="key-points"><span class="key-point">기존 제도: 독립 자금/도구 부족으로 독립 포기하는 사람도 존재</span><span class="key-point">회사 형태: 사원으로 제자 채용, 급료 지급하며 수련</span><span class="key-point">보조금 수령 가능한 안정적 구조</span><span class="key-point">미래 도검 장인 지망자를 위한 길 개척</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">해외 시장 개척과 일본도의 새로운 가능성</span>
+        <span class="sec-time">3:55 ~ 5:33</span>
+    </div>
+    <div class="sec-summary">시대와 함께 수요가 감소하는 가운데 일본도의 가능성을 넓히기 위한 도전도 소개. 외국인을 위한 영어 자료 제작, 미의식이 높은 해외 소비자 공략, 시의 고향납세 답례품 등록 등 다양한 판로 개척 노력. 실용적인 것을 입문으로 일본도와 도검 장인에 대한 관심을 넓히려는 전략.</div>
+    <div class="key-points"><span class="key-point">시대와 함께 일본도 수요 저하</span><span class="key-point">외국인을 위한 영어 자료 제작</span><span class="key-point">해외 미의식 높은 고객층 타겟팅</span><span class="key-point">고향납세 답례품 등록으로 새 판로 개척</span><span class="key-point">전통 그대로는 살아남을 수 없다는 인식</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">스승의 지지와 전통 계승의 다짐</span>
+        <span class="sec-time">5:40 ~ 7:55</span>
+    </div>
+    <div class="sec-summary">도쿄에 거주하는 스승 요시하라 씨 등장. 도검 장인 최고봉에만 주어지는 무감사 칭호를 가진 제1인자. 키운 제자가 독립 자금을 모으지 못하고 떠나는 안타까움을 누구보다 잘 알기에 3인의 회사 설립을 크게 지지. 대장간과 도구를 제공하며 응원. 3인에게 간판 글씨를 써줌. &#x27;미래로 전해나간다&#x27;는 뜻의 회사명에 계승의 마음을 담음.</div>
+    <div class="key-points"><span class="key-point">스승은 무감사 칭호를 가진 도검 장인 제1인자</span><span class="key-point">제자가 독립 못 하고 떠나는 안타까움을 직접 경험</span><span class="key-point">대장간·도구 제공으로 3인의 도전 응원</span><span class="key-point">회사명에 &#x27;미래로 전해나간다&#x27;는 마음 담음</span><span class="key-point">3인이라면 잘 될 것이라고 확신</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">교토 니시진오리: 또 다른 전통 산업의 위기와 혁신</span>
+        <span class="sec-time">8:04 ~ 9:13</span>
+    </div>
+    <div class="sec-summary">완전히 새로운 계승자가 전통을 이어가는 또 다른 사례로 교토 니시진오리를 소개. 500년 이상의 역사를 가진 국가 전통 공예품으로, 20가지 이상의 복잡한 공정을 장인들이 분업으로 담당. 니시진 지구 일대에서 전통을 지켜왔으나 여기서도 후계자 부족이 심각한 문제. 니시진오리만의 고유한 문제도 존재함.</div>
+    <div class="key-points"><span class="key-point">니시진오리: 500년 이상의 역사를 가진 교토 전통 직물</span><span class="key-point">국가 전통 공예품으로 지정</span><span class="key-point">20가지 이상 복잡한 공정을 장인들이 분업</span><span class="key-point">후계자 부족이 심각한 문제</span><span class="key-point">니시진오리만의 고유한 문제도 존재</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">刀鍛冶</span>
+        <span class="phonetic">かたなかじ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">響き渡る</span>
+        <span class="phonetic">ひびきわたる</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">工芸品</span>
+        <span class="phonetic">こうげいひん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">伝統的工芸品</span>
+        <span class="phonetic">でんとうてきこうげいひん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">不可欠</span>
+        <span class="phonetic">ふかけつ</span>
+        <span class="pos">형용동사(な형용사)</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">連携</span>
+        <span class="phonetic">れんけい</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">修行</span>
+        <span class="phonetic">しゅぎょう</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">独立</span>
+        <span class="phonetic">どくりつ</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">生計</span>
+        <span class="phonetic">せいけい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">試練</span>
+        <span class="phonetic">しれん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">助成金</span>
+        <span class="phonetic">じょせいきん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">美意識</span>
+        <span class="phonetic">びいしき</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ふるさと納税</span>
+        <span class="phonetic">ふるさとのうぜい</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">返礼品</span>
+        <span class="phonetic">へんれいひん</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">後継者</span>
+        <span class="phonetic">こうけいしゃ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">担い手</span>
+        <span class="phonetic">にないて</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">師匠</span>
+        <span class="phonetic">ししょう</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">鍛冶場</span>
+        <span class="phonetic">かじば</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">継承</span>
+        <span class="phonetic">けいしょう</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">西陣織</span>
+        <span class="phonetic">にしじんおり</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">分業</span>
+        <span class="phonetic">ぶんぎょう</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">歯がゆさ</span>
+        <span class="phonetic">はがゆさ</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">評価</span>
+        <span class="phonetic">ひょうか</span>
+        <span class="pos">명사·동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">訴えかける</span>
+        <span class="phonetic">うったえかける</span>
+        <span class="pos">동사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">縦糸</span>
+        <span class="phonetic">たていと</span>
+        <span class="pos">명사</span>
+        
+    </div>
+    <div class="definition"></div>
+    <div class="meaning-ko"></div>
+    <div class="context">""</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜かもしれない</div>
+    <div class="explanation">어떤 사실에 대해 확신은 없지만 가능성이 있음을 나타내는 표현. 동사·형용사의 보통형에 접속함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていきたい</div>
+    <div class="explanation">동사 て형 + いきたい. 현재 상태에서 앞으로 계속 어떤 행동을 해나가겠다는 화자의 의지나 바람을 표현함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ように</div>
+    <div class="explanation">동사 사전형/ない형 + ように. 어떤 결과나 상태가 되도록 행동한다는 목적을 표현함. &#x27;~이 되도록&#x27;, &#x27;~할 수 있도록&#x27;의 의미.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜つつ</div>
+    <div class="explanation">동사 ます형 + つつ. 두 행위를 동시에 하는 것을 나타냄. 문어체적 표현으로 ながら보다 격식체임.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら</div>
+    <div class="explanation">동사 ます형 + ながら. 두 가지 행동이 동시에 일어남을 나타냄. 일상적으로 널리 쓰이는 표현.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜っていうのは / 〜っていう</div>
+    <div class="explanation">「という」의 구어 축약형. 일상 대화에서 자주 쓰임. 어떤 사실이나 개념을 설명하거나 인용할 때 사용.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜なければならない</div>
+    <div class="explanation">동사 ない형 + ければならない. 어떤 행동을 반드시 해야 한다는 강한 의무를 표현함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜とともに</div>
+    <div class="explanation">명사 + とともに. 어떤 것이 변화할 때 다른 것도 함께 변화함을 나타냄. &#x27;~함에 따라&#x27;, &#x27;~과 동시에&#x27;의 의미.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜からこそ</div>
+    <div class="explanation">명사·동사 보통형 + からこそ. 특정 이유가 바로 그 결과의 핵심 원인임을 강조하는 표현. &#x27;~이기 때문에 특히&#x27;의 뉘앙스.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜を経て</div>
+    <div class="explanation">명사 + を経て. 어떤 경험이나 단계를 통과한 후에 다음 단계로 나아감을 나타냄.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ならば / 〜なら</div>
+    <div class="explanation">명사·형용사·동사 보통형 + なら(ば). 어떤 조건이나 가정을 설정하고 그에 따른 결과를 말하는 표현.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ならでは</div>
+    <div class="explanation">명사 + ならでは. 그것에만 특유한 특징이나 장점을 강조하는 표현. &#x27;~만이 할 수 있는&#x27;, &#x27;~특유의&#x27; 의미.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただける</div>
+    <div class="explanation">동사 て형 + いただける. 「もらう」의 겸양어 「いただく」의 가능형. 상대방이 자신을 위해 무언가를 해줄 수 있음을 공손히 표현함.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜のが大事だ</div>
+    <div class="explanation">동사 사전형 + のが大事だ. 어떤 행위가 중요함을 나타내는 표현. の는 명사화 조사.</div>
+    <div class="explanation-ko"></div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">Keigo</div>
+<div class="cs-card">
+    <span class="original">不可欠です</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ふかけつです</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「不可欠だ」(불가결하다)에 정중한 어미 「です」를 붙인 형태. 사실을 정중하게 단정하는 표현.</div>
+        <div class="practice">나레이션이나 공식 발화에서 사실을 정중하게 설명할 때 사용</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">あります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">あります</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「ある」(있다)의 정중한 형태. 사물이나 상태의 존재를 정중하게 표현함. 사람에게는 「います」를 사용함에 주의.</div>
+        <div class="practice">인터뷰에서 자신의 상황을 정중하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">していただけると思うんですよ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">していただけるとおもうんですよ</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語</div>
+        <div class="explanation-text">「もらう」의 겸양어 「いただく」의 가능형 「いただける」를 사용한 표현. &#x27;상대방이 해줄 수 있다&#x27;는 것을 겸손하게 표현함. 〜んですよ는 설명이나 강조의 뉘앙스.</div>
+        <div class="practice">상대방에게 은혜를 입음을 겸손하게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">なりません</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">なりません</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「ならない」(안 된다)의 정중한 부정형. 「しなければならない」는 &#x27;해야 한다&#x27;는 의무를 나타내며, その丁寧形가 「しなければなりません」.</div>
+        <div class="practice">규칙이나 의무를 정중하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">立ち上げました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">たちあげました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">동사 「立ち上げる」(설립하다)의 과거형에 정중어미 「ました」를 붙인 형태. 과거의 완료된 행동을 정중하게 전달함.</div>
+        <div class="practice">과거에 완료된 사실이나 행동을 정중하게 보고할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">取りました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">とりました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">동사 「取る」(취하다)의 과거 정중형. 「〜という形を取りました」는 &#x27;〜라는 형태를 취하게 됐습니다&#x27;라는 뜻의 공손한 표현.</div>
+        <div class="practice">자신들의 결정이나 방법을 정중하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">いるといいます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いるといいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「〜といいます」는 &#x27;〜라고 합니다&#x27;라는 전문(傳聞) 표현의 정중형. 타인으로부터 들은 정보를 전달할 때 사용함.</div>
+        <div class="practice">나레이션에서 제3자에게 들은 정보를 정중하게 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">購入していただけるような</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">こうにゅうしていただけるような</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語</div>
+        <div class="explanation-text">「買ってもらえる」(사줄 수 있는)을 겸양어로 표현한 형태. 「いただく」는 「もらう」의 겸양어로 상대방의 행동에 감사를 나타냄.</div>
+        <div class="practice">고객이 자신들의 상품을 구입해 줄 것을 겸손하게 바랄 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">目指しています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">めざしています</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「目指している」(목표로 하고 있다)의 정중형. 현재 진행 중인 상태나 목표를 정중하게 표현함.</div>
+        <div class="practice">자신들의 목표나 활동을 정중하게 말할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">受け持ちます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">うけもちます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「受け持つ」(담당하다)의 정중형. 나레이션이나 설명에서 정중하게 사실을 전달할 때 사용.</div>
+        <div class="practice">분업 시스템을 나레이션에서 정중하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">応援してきました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おうえんしてきました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「応援してきた」(응원해 왔다)의 정중형. 과거부터 현재까지의 계속된 행동을 정중하게 표현함.</div>
+        <div class="practice">스승이 제자들에 대한 지속적인 지원을 정중하게 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">守ってきました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">まもってきました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「守ってきた」(지켜왔다)의 정중형. 과거부터 현재까지 계속되어 온 행동이나 상태를 정중하게 나타냄.</div>
+        <div class="practice">나레이션에서 전통이 오랜 시간 유지되어 왔음을 정중하게 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">込められています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">こめられています</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">수동형 「込められる」(담겨있다)의 현재 정중형. 어떤 의미나 감정이 담겨 있다는 것을 정중하게 표현함.</div>
+        <div class="practice">나레이션에서 회사 이름에 담긴 의미를 정중하게 설명할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">ですね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ですね</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「だ」의 정중형 「です」에 확인·공감을 구하는 종조사 「ね」가 붙은 형태. 상대방의 동의를 구하거나 감정을 부드럽게 전달할 때 사용. 이 영상에서 여러 번 등장하는 전형적인 구어 표현.</div>
+        <div class="practice">화자가 자신의 감정이나 판단을 상대방과 공유하고자 할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ですかね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ですかね</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">「です」에 의문의 「か」와 여운을 주는 「ね」가 결합한 형태. 자신의 생각을 단정짓지 않고 부드럽게, 다소 자문(自問)하는 듯한 뉘앙스로 표현함. 인터뷰에서 자주 등장하는 전형적인 말끝 표현.</div>
+        <div class="practice">인터뷰 대상자가 자신의 생각을 부드럽게 표현하거나 마무리할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Sonkeigo / 尊敬語 (존경어)</div>
+<div class="cs-card">
+    <span class="original">方々</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かたがた</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">「人々」(사람들)의 존경어. 여러 사람을 높여 부르는 표현으로, 특히 고객이나 존경해야 할 대상에게 사용. 「方」(가타) 하나도 「人」(히토)의 존경어.</div>
+        <div class="practice">고객이나 해외의 교양 있는 사람들을 높여 표현할 때</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=g8TEUFSiRPA
+    </div>
+</div>
+
+</body>
+</html>

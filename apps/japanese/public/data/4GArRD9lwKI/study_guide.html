@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>【ヨコスカ解説】きょう代表選の中道改革連合　小川氏が新代表に　中道の今後はどうなる？【かんさい情報ネットten.】</h1>
+    <div class="subtitle">YOMIURI TELECASTING CORPORATION NEWS CHANNEL</div>
+    <div class="desc-ko">일본 중도 정치 연합 대표 선출 이후 정국 전망을 해설</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:05</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">190</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/4GArRD9lwKI/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/4GArRD9lwKI">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (10 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (10 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (16 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (4 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by YOMIURI TELECASTING CORPORATION NEWS CHANNEL is structured into 4 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입</span>
+        <span class="sec-time">0:27 ~ 2:37</span>
+    </div>
+    <div class="sec-summary">&#x27;横須賀目線&#x27;로 시작해 &#x27;自虐戦略でそれを押し返していこうというところで&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"><span class="key-point">んですね</span><span class="key-point">います</span><span class="key-point">横須賀目線</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">전개 1</span>
+        <span class="sec-time">2:33 ~ 6:36</span>
+    </div>
+    <div class="sec-summary">&#x27;自虐戦略でそれを押し返していこうというところで&#x27;로 시작해 &#x27;これライブ配信を伊佐さんのチャンネルでやってるん&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"><span class="key-point">こちらです</span><span class="key-point">こうというところで</span><span class="key-point">けど</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">전개 2</span>
+        <span class="sec-time">6:32 ~ 10:45</span>
+    </div>
+    <div class="sec-summary">&#x27;これライブ配信を伊佐さんのチャンネルでやってるん&#x27;로 시작해 &#x27;自民党なんですよね これ2009年の政権交代の時&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">정리</span>
+        <span class="sec-time">10:41 ~ 13:02</span>
+    </div>
+    <div class="sec-summary">&#x27;自民党なんですよね これ2009年の政権交代の時&#x27;로 시작해 &#x27;関西情報ネット10をよろしくお願いします&#x27;까지 이어지는 핵심 전개 구간입니다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">こちらです</span>
+        <span class="phonetic">こちらです にいがたけんのろくじゅうだい</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Frequently used expression in this Japanese talk</div>
+    <div class="meaning-ko">&#x27;こちらです&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"こちらです 新潟県の60代の米農家さんに取材しました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">んですね</span>
+        <span class="phonetic">やっぱりちゅうどうをかいたいしてりっけん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Frequently used expression in this Japanese talk</div>
+    <div class="meaning-ko">&#x27;んですね&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって分かりやすい選択肢ではないのかという声も聞こえてくるんですね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">います</span>
+        <span class="phonetic">このしんだいひょうらをかげでなんとかささ</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N5</span>
+    </div>
+    <div class="definition">Frequently used expression in this Japanese talk</div>
+    <div class="meaning-ko">&#x27;います&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"この新代表らを陰で何とか支えるという構図になっていくと思います"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">横須賀目線</span>
+        <span class="phonetic">よこすかめせん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;横須賀目線&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"横須賀目線"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">主と公明分かれて別</span>
+        <span class="phonetic">やっぱりちゅうどうをかいたいしてりっけん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;主と公明分かれて別&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって分かりやすい選択肢ではないのかという声も聞こえてくるんですね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">めました</span>
+        <span class="phonetic">そしてこのもとりっけんのかんじちょうをつ</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;めました&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"そしてこの元立憲の幹事長を務めました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">やってましたよね</span>
+        <span class="phonetic">のださんがだいひょうのときのかんじちょう</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;やってましたよね&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"野田さんが代表の時の幹事長をやってましたよね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">いうことになりました</span>
+        <span class="phonetic">おがわじゅんやさんがちゅうどうのしんだい</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;いうことになりました&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"小川淳也さんが中道の新代表ということになりました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ところで</span>
+        <span class="phonetic">ここもすごくあぴーるしているところで</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;ところで&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"ここもすごくアピールしているところで"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">している</span>
+        <span class="phonetic">わたしじしんのなかにいきづくしょみんせい</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;している&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"私自身の中に息づく庶民性がありますよというところも押し出している"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">香川選出なんですけど</span>
+        <span class="phonetic">ここにとくちょうがありますよね こくみん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;香川選出なんですけど&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"ここに特徴がありますよね 国民民主党の玉木雄一郎さんも香川選出なんですけど"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">人ですよね</span>
+        <span class="phonetic">そのらいばるとずっといわれてきたふたりで</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;人ですよね&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"そのライバルとずっと言われてきた2人ですよね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">きた</span>
+        <span class="phonetic">そのらいばるとずっといわれてきたふたりで</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N5</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;きた&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"そのライバルとずっと言われてきた2人ですよね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">すが</span>
+        <span class="phonetic">どっちがさきにそうりになるんだみたいなこ</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N5</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;すが&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"どっちが先に総理になるんだみたいなことも言われていたんですが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">すね</span>
+        <span class="phonetic">ちょっときになるこめんとがですね ぎいん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N5</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;すね&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"ちょっと気になるコメントがですね 議員総会の中でありました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">というところで</span>
+        <span class="phonetic">どうどうとまんなかのみちはあゆんでいきた</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;というところで&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"堂々と真ん中の道は歩んでいきたいというところで"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">そうですね</span>
+        <span class="phonetic">これせんきょせんでもありましたね そうで</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;そうですね&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"これ選挙戦でもありましたね そうですね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ということで</span>
+        <span class="phonetic">どうしてもちゅうどうはねがてぃぶなこめん</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;ということで&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"どうしても中道はネガティブなコメントがたくさん寄せられるということで"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">こうというところで</span>
+        <span class="phonetic">じぎゃくせんりゃくでそれをおしかえしてい</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;こうというところで&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"自虐戦略でそれを押し返していこうというところで"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">けど</span>
+        <span class="phonetic">このせんきょのたいはいがあったんですけど</span>
+        <span class="pos">표현</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N5</span>
+    </div>
+    <div class="definition">Topic-specific expression from this Japanese talk</div>
+    <div class="meaning-ko">&#x27;けど&#x27;를 중심으로 한 일본어 핵심 표현</div>
+    <div class="context">"この選挙の大敗があったんですけど やっぱり新代表を選ばれても"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜です/〜ます (정중체)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">청자에게 공손하게 말할 때 쓰는 기본 문체입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ている</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동작의 진행/상태 지속을 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜こと (명사화)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동사/절을 명사처럼 다루는 표현입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と思う</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">의견이나 생각을 완곡하게 제시할 때 씁니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たい</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">화자의 희망/의지를 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ない (부정)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">부정 의미를 나타내는 기본 형태입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ので/〜から (이유)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">이유/근거를 제시하는 연결 표현입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ため</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">목적 또는 이유를 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜か (의문)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">질문/확인 의미를 나타내는 형식입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">수동/가능 〜れる・〜られる</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">수동 또는 가능 의미를 나타냅니다.</div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#10b981;">Casual / タメ口 (반말)</div>
+<div class="cs-card">
+    <span class="original">横須賀目線</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">よこすかめせん</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">やっぱり野田さんは何とかの党の立て直しのために今後尽力していくということなので</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">やっぱりのださんはなんとかのとうのたてなおしのためにこんごじんりょくしていくとい</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">そしてこの元立憲の幹事長を務めました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">そしてこのもとりっけんのかんじちょうをつとめました</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">野田さんが代表の時の幹事長をやってましたよね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">のださんがだいひょうのときのかんじちょうをやってましたよね</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">小川淳也さんが中道の新代表ということになりました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おがわじゅんやさんがちゅうどうのしんだいひょうということになりました</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ここもすごくアピールしているところで</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ここもすごくあぴーるしているところで</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">高松のパーマテンの息子であると</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">たかまつのぱーまてんのむすこであると</span>
+    <div class="details">
+        <div class="phonetic-ipa">보통체</div>
+        <div class="explanation-text">친근하거나 설명형 어조의 보통체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">やっぱり中道を解体して立憲民主と公明分かれて別々でやっていった方が有権者にとって</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">やっぱりちゅうどうをかいたいしてりっけんみんしゅとこうめいわかれてべつべつでやっ</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">このあたりのことを一緒に探っていただければと思うんですが</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">このあたりのことをいっしょにさぐっていただければとおもうんですが</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">これ投票風景なんですけれども今日の午後に行われました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">これとうひょうふうけいなんですけれどもきょうのごごにおこなわれました</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">結構接戦だったんですね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">けっこうせっせんだったんですね</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">接戦の末に小川淳也さんが選ばれたということになります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">せっせんのすえにおがわじゅんやさんがえらばれたということになります</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">この新代表らを陰で何とか支えるという構図になっていくと思います</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">このしんだいひょうらをかげでなんとかささえるというこうずになっていくとおもいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">香川一久の選出の方ですね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かがわいちくのせんしゅつのかたですね</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">東京大学法学部卒業です</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">とうきょうだいがくほうがくぶそつぎょうです</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">好きな食べ物はサヌキうどんとシュークリームというところなんですね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">すきなたべものはさぬきうどんとしゅーくりーむというところなんですね</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어</div>
+        <div class="explanation-text">공손한 전달을 위한 정중체 표현입니다.</div>
+        <div class="practice">도입/인사 구간</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type enumeration">enumeration</span>
+    <div>
+        <div class="signal-expr">"きたい まずはこのスタンスを変えて"</div>
+        <div class="signal-role">첫 번째 포인트를 제시합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"そしてこの元立憲の幹事長を務めました"</div>
+        <div class="signal-role">연속 전개를 이어갑니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"つまり立憲としては"</div>
+        <div class="signal-role">핵심 요지를 재정리합니다.</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"横須賀目線"</div>
+        <div class="signal-role">도입 메시지 제시</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=4GArRD9lwKI
+    </div>
+</div>
+
+</body>
+</html>

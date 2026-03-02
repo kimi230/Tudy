@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>幸せを探す旅 | 喜多 桜子 | TEDxNagoyaU</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">행복을 찾아가는 여정을 통해 삶의 우선순위를 묻는 TEDx 강연</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">14:18</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">105</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/iXcQhnYR2kA/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/iXcQhnYR2kA">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (17 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (3 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (13 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (14 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 14-minute video by TEDx Talks is structured into 9 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">The speaker opens with a powerful question: if today were your last day, what would you regret? She dismisses trivial regrets (drinking more, dating more) and proposes the real ones: not spending time with family, not chasing dreams, not living honestly.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">The speaker reveals she once worked as a nurse. She cared for a terminal cancer patient — a grandfather who cried every day, regretting that he spent his whole life working for money instead of living for happiness and family. His final words to her: &#x27;walk a life without regrets&#x27;.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">Moved by the grandfather&#x27;s words, the speaker begins researching happiness. She discovers on a TV program that Japan, the world&#x27;s third-largest economy, ranks only 90th in global happiness. She is baffled — shouldn&#x27;t money bring happiness? — and decides to travel the world to find out.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">The speaker&#x27;s first destination is Cambodia&#x27;s Rusai village — a poor community of about 1,000 people with no electricity, gas, or running water. Yet the children&#x27;s eyes sparkle and everyone smiles the most beautiful smiles. A villager even sings a song for her, moving her to tears. She realizes: happiness cannot be measured by money or possessions. A Cambodian friend named Sam later visits Japan and confirms: Japan has things but no place to heal the heart.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">Back in Japan, the speaker is bombarded by society&#x27;s happiness formula: graduate from a famous university, get a job at a big company, marry a good person, build a house, have children. Each time she hears these messages she feels something is wrong, but goes along with them to avoid standing out.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">At a group mixer, she meets an unemployed man who wants to travel the world. Rather than being put off, she is intrigued — he lives by his own convictions, outside society&#x27;s happiness formula. She starts dating him, and they decide to travel the world together.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">Now married, the couple has traveled 70+ countries across 2 full world trips, including the Uyuni Salt Flats, Machu Picchu, and Ukraine&#x27;s Tunnel of Love. Through these travels, the speaker&#x27;s key realization: happiness looks completely different for every person — for some it&#x27;s family time, for others it&#x27;s meaningful work or travel.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">The speaker&#x27;s answer to why Japanese people are unhappy: they have received too many messages from society about what happiness looks like and have lost sight of their own. She urges the audience to step away from those messages, face themselves honestly, and intentionally create time for self-reflection — away from smartphones and SNS.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">Section</span>
+        <span class="sec-time">0:16 ~ 0:19</span>
+    </div>
+    <div class="sec-summary">The speaker closes with a call to action: once you find what happiness means to you, take the first step toward it. Life is shorter than you think. A life without regrets must begin right now, this moment. She ends by asking the audience: what is happiness to you?</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">後悔</span>
+        <span class="phonetic">こうかい</span>
+        <span class="pos">名詞・サ変動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Having regret for a past action or decision</div>
+    <div class="meaning-ko">후회</div>
+    <div class="context">"あなたはどんなことを後悔しますか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">幸せ</span>
+        <span class="phonetic">しあわせ</span>
+        <span class="pos">名詞・形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Happiness; good fortune; wellbeing</div>
+    <div class="meaning-ko">행복</div>
+    <div class="context">"お金よりも幸せのために生きればよかったなあ"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">末期がん</span>
+        <span class="phonetic">まっきがん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Terminal cancer; end-stage cancer</div>
+    <div class="meaning-ko">말기 암</div>
+    <div class="context">"ある日 末期がんのおじいちゃんを担当することになりました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">余命宣告</span>
+        <span class="phonetic">よめいせんこく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">A terminal prognosis; being told one&#x27;s remaining lifespan</div>
+    <div class="meaning-ko">시한부 선고</div>
+    <div class="context">"余命宣告を受けたおじいちゃんは毎日毎日泣いていました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">幸福度</span>
+        <span class="phonetic">こうふくど</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Degree/level of happiness; happiness index</div>
+    <div class="meaning-ko">행복도</div>
+    <div class="context">"世界第三位の経済大国でありながら 幸福度は90位"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">貧しい</span>
+        <span class="phonetic">まずしい</span>
+        <span class="pos">形容詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Poor; impoverished; destitute</div>
+    <div class="meaning-ko">가난하다</div>
+    <div class="context">"そこでとても貧しい村 ルサイ村を訪れました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">豊か</span>
+        <span class="phonetic">ゆたか</span>
+        <span class="pos">形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Rich; abundant; wealthy (in spirit or material sense)</div>
+    <div class="meaning-ko">풍요롭다</div>
+    <div class="context">"こんなに貧しいのに こんなに豊かな心を持っているんだと感じました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">癒される</span>
+        <span class="phonetic">いやされる</span>
+        <span class="pos">動詞（受身形）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">To be healed; to be soothed; to find comfort</div>
+    <div class="meaning-ko">치유받다</div>
+    <div class="context">"日本は物はたくさんあるのに 心が癒される場所がない"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">もがく</span>
+        <span class="phonetic">もがく</span>
+        <span class="pos">動詞（五段活用）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">To struggle; to writhe; to flounder; to fight desperately</div>
+    <div class="meaning-ko">발버둥치다</div>
+    <div class="context">"でも 自分の幸せってなんだろうってすごくもがいていました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">合コン</span>
+        <span class="phonetic">ごうこん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Group blind date; mixer party between men and women</div>
+    <div class="meaning-ko">미팅 (남녀 단체 맞선)</div>
+    <div class="context">"そんなとき 合コンで1人の男性に出会いました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">無職</span>
+        <span class="phonetic">むしょく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Unemployment; having no job or occupation</div>
+    <div class="meaning-ko">무직</div>
+    <div class="context">"その人は無職の男性でした"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">信念</span>
+        <span class="phonetic">しんねん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Belief; faith; conviction; personal creed</div>
+    <div class="meaning-ko">신념</div>
+    <div class="context">"自分の信念を持って生きている人だということが分かりました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">公式</span>
+        <span class="phonetic">こうしき</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Formula; official rule; standard pattern</div>
+    <div class="meaning-ko">공식</div>
+    <div class="context">"この人は社会の言う幸せの公式に乗っかっていないなあ"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">向き合う</span>
+        <span class="phonetic">むきあう</span>
+        <span class="pos">動詞（五段活用）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">To face; to confront; to come face to face with</div>
+    <div class="meaning-ko">마주하다</div>
+    <div class="context">"自分の幸せと向き合ってみませんか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">見失う</span>
+        <span class="phonetic">みうしなう</span>
+        <span class="pos">動詞（五段活用）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">To lose sight of; to lose track of</div>
+    <div class="meaning-ko">잃어버리다, 놓치다</div>
+    <div class="context">"社会からのメッセージに流されて 自分の幸せを見失っているんじゃないかと"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">違和感</span>
+        <span class="phonetic">いわかん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">A sense of incongruity; unease; discomfort about something that feels &#x27;off&#x27;</div>
+    <div class="meaning-ko">위화감</div>
+    <div class="context">"社会の言う幸せに違和感を感じているなら"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">勇気</span>
+        <span class="phonetic">ゆうき</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN4</span>
+    </div>
+    <div class="definition">Courage; bravery</div>
+    <div class="meaning-ko">용기</div>
+    <div class="context">"自分の幸せを追い求める勇気を持ってほしいのです"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">経済大国</span>
+        <span class="phonetic">けいざいたいこく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Economic powerhouse; major economic nation</div>
+    <div class="meaning-ko">경제 대국</div>
+    <div class="context">"世界第三位の経済大国でありながら 幸福度は90位"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">キラキラ</span>
+        <span class="phonetic">きらきら</span>
+        <span class="pos">副詞・擬態語</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Glittering; sparkling; shining brightly (onomatopoeia)</div>
+    <div class="meaning-ko">반짝반짝</div>
+    <div class="context">"でも子供達の目はキラキラと輝いていました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">意図的</span>
+        <span class="phonetic">いとてき</span>
+        <span class="pos">形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Intentional; deliberate; purposeful</div>
+    <div class="meaning-ko">의도적인</div>
+    <div class="context">"自分と向き合う時間を意図的に作ることが大切だと思います"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜たとしたら (Hypothetical Conditional)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">~라고 가정한다면, ~이라면이라는 가정 조건을 나타냅니다. 과거형(た형) + としたら로 구성되며, 있을 법하지 않은 가정적 상황을 상상할 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜そうです (Hearsay / Reported Information)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동사/형용사의 보통형에 붙어 타인에게 들은 정보를 전달합니다: &#x27;~라고 합니다&#x27;, &#x27;~라고 들었습니다&#x27;. 외관을 나타내는 そうです와 구별됩니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ことになりました (It has been decided that ~)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">상황이 그렇게 되었거나 결정되었음을 나타냅니다. 화자 자신의 의지보다는 외부 상황이나 타인에 의해 그렇게 되었다는 뉘앙스가 있습니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">おっしゃる (Special Honorific Verb for 言う)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">言う(말하다)의 특별 존경어 형태. 윗사람이나 공손하게 대해야 하는 사람이 말씀하실 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら (While doing ~ / Simultaneous Actions)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">두 가지 동작이 동시에 이루어짐을 나타냅니다: &#x27;A하면서 B하다&#x27;. 주어가 두 행동을 동시에 합니다. 주요 행동이나 감정은 두 번째 절에 옵니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら逆接 (〜のに / Unexpected Contrast with ながら)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">ながら는 역접(반전)도 나타낼 수 있습니다: &#x27;A이면서 B&#x27;. A라는 조건을 인정하면서 놀랍거나 모순된 결과 B를 보여줍니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ないと〜ない / 〜なければ〜ない (Negative Conditional: must / cannot unless)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">A가 이루어지지 않으면 B도 이루어질 수 없다는 조건 구조입니다. 이 강연에서는 사회적 압박을 열거하는 데 사용됩니다: &#x27;~하지 않으면 행복해질 수 없어&#x27;.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜のだろうか (Rhetorical Wonder / Puzzlement)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">화자의 의문이나 궁금증을 표현합니다: &#x27;~이지 않을까?&#x27;, &#x27;~인 걸까?&#x27;. 내성적이고 질문하는 어조를 더합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てみる (Try doing ~)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">동사의 て형에 붙어 시험삼아 해보는 것을 나타냅니다: &#x27;~해 보다&#x27;. 어떻게 될지 보기 위해 시험적으로 하는 행동임을 시사합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜じゃないかと思う (I think it might be ~)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">완곡한 주장 패턴: &#x27;~이 아닐까 생각합니다&#x27;, &#x27;아마 ~인 것 같습니다&#x27;. 단순한 진술보다 부드럽고, 가능한 원인이나 설명을 제안할 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てみてください (Please try ~)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">て형 + みる + ください를 결합한 공손한 요청 표현으로 &#x27;~해 보세요&#x27;를 의미합니다. 직접적인 명령보다 부드럽고 권유적입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜なければなりません (Must / Have to ~)</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">의무를 나타냅니다: &#x27;~해야 합니다&#x27;, &#x27;~하지 않으면 안 됩니다&#x27;. 부정 조건형 なければ + なりません으로 구성되며 강한 필요성을 나타냅니다.</div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Sonkeigo / 尊敬語 (존경어)</div>
+<div class="cs-card">
+    <span class="original">おっしゃっていました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おっしゃっていました</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;言っていました(말하고 있었습니다)&#x27;의 존경어 표현. 할아버지가 말씀하시던 내용을 화자가 경의를 담아 전달할 때 사용합니다.</div>
+        <div class="practice">윗사람(할아버지)이 하신 말씀을 제3자에게 경의를 갖고 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">おっしゃいながら</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おっしゃいながら</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語</div>
+        <div class="explanation-text">&#x27;言いながら(말하면서)&#x27;의 존경어 표현. 할아버지가 말씀하시면서 눈물을 흘리시는 장면을 묘사할 때 사용합니다.</div>
+        <div class="practice">윗사람(할아버지)이 말씀하시는 동작을 공손하게 묘사할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">流されていました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ながされていました</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語（受け身形）</div>
+        <div class="explanation-text">&#x27;流していました(흘리고 있었습니다)&#x27;의 수동형 존경어 표현. 할아버지가 눈물을 흘리시는 동작에 경의를 표하기 위해 수동형을 사용합니다.</div>
+        <div class="practice">윗사람(할아버지)의 행동(눈물을 흘리심)을 공손하게 묘사할 때. 수동형을 존경어로 활용하는 패턴.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">思います</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おもいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">청중(TEDx 관객)을 향한 정중한 발표 표현. 연사가 자신의 생각이나 견해를 공손하게 전달할 때 사용합니다.</div>
+        <div class="practice">TEDx 발표에서 청중에게 자신의 의견을 공손하게 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">思いますか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おもいますか</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">청중에게 질문을 던지는 정중한 표현. TEDx 강연에서 청중 참여를 유도하기 위해 질문 형식으로 사용합니다.</div>
+        <div class="practice">TEDx 발표에서 청중에게 공손하게 질문하여 참여를 유도할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">みなさん</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさん</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">&#x27;みんな(모두)&#x27;의 정중한 표현. TEDx 발표에서 청중 전체를 공손하게 부를 때 사용합니다.</div>
+        <div class="practice">TEDx 발표에서 청중 전체를 공손하게 호칭할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ありがとうございました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ありがとうございました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（最上級）</div>
+        <div class="explanation-text">&#x27;ありがとう(감사합니다)&#x27;의 가장 격식 있는 과거형 표현. 강연 마무리에서 청중에게 깊은 감사를 전할 때 사용합니다.</div>
+        <div class="practice">TEDx 강연 마무리에서 청중에게 감사를 전할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご視聴ありがとうございました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごしちょうありがとうございました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（最上級）</div>
+        <div class="explanation-text">&#x27;見てくれてありがとう(봐주셔서 감사합니다)&#x27;의 격식 있는 표현. ご視聴(시청)이라는 한자어에 ご를 붙인 미화어와 최상급 감사 표현을 결합합니다.</div>
+        <div class="practice">영상/강연 마무리에서 시청자/청중에게 최고의 감사를 전할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Bikago</div>
+<div class="cs-card">
+    <span class="original">ご飯</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごはん</span>
+    <div class="details">
+        <div class="phonetic-ipa">美化語</div>
+        <div class="explanation-text">&#x27;飯(밥)&#x27;에 ご를 붙인 미화어. 일상 회화에서 음식/식사를 품위 있게 표현할 때 사용하는 표현으로, 특정 상대에 대한 경의가 아닌 표현 자체의 격을 높입니다.</div>
+        <div class="practice">일상적인 대화나 발표에서 음식/식사를 품위 있게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お金</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おかね</span>
+    <div class="details">
+        <div class="phonetic-ipa">美化語</div>
+        <div class="explanation-text">&#x27;金(돈)&#x27;에 お를 붙인 미화어. 일상 대화에서 돈을 가리킬 때 품위 있게 표현하기 위해 사용합니다.</div>
+        <div class="practice">일상적인 발표에서 &#x27;돈&#x27;을 품위 있게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お話し</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おはなし</span>
+    <div class="details">
+        <div class="phonetic-ipa">美化語</div>
+        <div class="explanation-text">&#x27;話し(이야기)&#x27;에 お를 붙인 미화어. 대화나 이야기를 품위 있게 표현할 때 사용합니다.</div>
+        <div class="practice">마을 사람들과의 교류를 품위 있게 묘사할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Casual / タメ口 (반말)</div>
+<div class="cs-card">
+    <span class="original">わしはなあ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">わしはなあ</span>
+    <div class="details">
+        <div class="phonetic-ipa">くだけた話し方（方言）</div>
+        <div class="explanation-text">&#x27;私は(저는/나는)&#x27;의 노인 남성 방언 표현. わし는 주로 나이 든 남성이나 서일본 방언에서 사용하는 1인칭 대명사입니다. なあ는 감탄/독백 어기조사입니다.</div>
+        <div class="practice">나이 든 남성 캐릭터(할아버지)의 직접 발화 인용. 지역/세대 특색이 있는 비격식 표현.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">じゃないの</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">じゃないの</span>
+    <div class="details">
+        <div class="phonetic-ipa">くだけた話し方</div>
+        <div class="explanation-text">&#x27;ではないのですか(~이 아닌가요?)&#x27;의 비격식 구어체 표현. 화자가 일반적인 통념에 의문을 제기하는 맥락에서 사용됩니다.</div>
+        <div class="practice">청중과 공감대를 형성하기 위해 일상적인 어조로 질문을 던질 때</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"もし今日が人生最後の日だとしたら"</div>
+        <div class="signal-role">청중의 주의를 끄는 강렬한 가정적 질문으로 강연 시작</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"じゃあ 何を思うのか"</div>
+        <div class="signal-role">사소한 후회를 제쳐두고 본론(진짜 후회)으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"私はこれが本当なんかどうかを確認したくて"</div>
+        <div class="signal-role">개인 경험(간호사 이야기)으로 전환하는 연결 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"そのおじいちゃんは最後にこんな言葉を私に残してくれました"</div>
+        <div class="signal-role">할아버지의 마지막 말을 소개하는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"幸せって一体なんだろう そう思い始めてから"</div>
+        <div class="signal-role">행복 연구를 시작하게 된 계기로 이야기 흐름 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"それを確かめるために私は世界を旅して"</div>
+        <div class="signal-role">세계 여행을 결심하게 된 이유를 제시하며 여행 이야기로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type keyPoint">keyPoint</span>
+    <div>
+        <div class="signal-expr">"そこで私が気づいたことがあります"</div>
+        <div class="signal-role">캄보디아 여행에서 얻은 핵심 깨달음을 소개하는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"じゃあ 幸せはどこにあるんだろうって"</div>
+        <div class="signal-role">다음 여행지/다음 발견으로 이야기를 전진시키는 연결 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type keyPoint">keyPoint</span>
+    <div>
+        <div class="signal-expr">"そんな旅をしながら 私が気づいたことがあります"</div>
+        <div class="signal-role">세계 여행 전체에서 얻은 핵심 통찰을 소개하는 전환 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"じゃあ なんで日本人は幸せじゃないんだろうって考えてみました"</div>
+        <div class="signal-role">강연의 핵심 분석 파트(일본인 불행의 원인)로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type callToAction">callToAction</span>
+    <div>
+        <div class="signal-expr">"皆さんも一度"</div>
+        <div class="signal-role">청중에게 직접 행동을 권유하는 핵심 호소 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type enumeration">enumeration</span>
+    <div>
+        <div class="signal-expr">"世界を旅しながら 私が気づいたことが もう一つあります"</div>
+        <div class="signal-role">두 번째 핵심 통찰(자기 자신과 마주하기)을 소개</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"最後に 皆さんに聞いてみたいことがあります"</div>
+        <div class="signal-role">강연 마무리를 알리고 청중에게 최종 질문을 던지는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"ありがとうございました"</div>
+        <div class="signal-role">청중에 대한 감사로 강연 마무리</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=iXcQhnYR2kA
+    </div>
+</div>
+
+</body>
+</html>

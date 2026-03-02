@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>【児童の6割が外国ルーツ】“超多国籍”な小学校 日本語より先に教えるのは「安心・安全」2070年には外国人の人口は1割に…取材で見えた多文化共生のヒント【news23】｜TBS NEWS DIG</h1>
+    <div class="subtitle">TBS NEWS DIG Powered by JNN</div>
+    <div class="desc-ko">외국 루트 아동이 많은 초등학교 사례로 보는 일본 다문화 공생 현장</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:34</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">126</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/LEgBOELrBcE/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/LEgBOELrBcE">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (13 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (12 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (13 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by TBS NEWS DIG Powered by JNN is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입: 일본 내 외국인 공생 문제</span>
+        <span class="sec-time">0:00 ~ 0:49</span>
+    </div>
+    <div class="sec-summary">2070년에는 일본 인구의 10명 중 1명이 외국 국적이 될 것으로 예측된다는 통계를 소개하며, 다문화 공생의 필요성을 제기한다.</div>
+    <div class="key-points"><span class="key-point">일본 내 외국인 인구 증가 추세</span><span class="key-point">2070년 외국 국적자 비율 예측 (10%)</span><span class="key-point">다문화 공생이라는 사회적 과제 소개</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">남요시다 초등학교 소개</span>
+        <span class="sec-time">0:52 ~ 2:02</span>
+    </div>
+    <div class="sec-summary">요코하마시 남요시다 초등학교를 취재. 전교생 약 580명 중 60% 가까이가 외국에 뿌리를 둔 아이들로, 18개국 출신이 재학 중인 일본에서 가장 다문화적인 학교 중 하나임을 소개한다.</div>
+    <div class="key-points"><span class="key-point">전교생 약 580명, 60% 가까이가 외국 뿌리</span><span class="key-point">18개국 출신 학생 재학</span><span class="key-point">요코하마시 소재</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">국제 교실과 일본어 초기 지도</span>
+        <span class="sec-time">2:03 ~ 4:26</span>
+    </div>
+    <div class="sec-summary">갓 일본에 온 아이들을 위한 국제 교실을 소개. 보조 지도원이 아이들의 모국어로 소통하며 일본어를 가르치는 초기 지도 과정을 보여준다. 네팔 출신 5학년 여학생의 사례를 중심으로 언어 학습의 어려움과 성장을 묘사한다.</div>
+    <div class="key-points"><span class="key-point">국제 교실: 일본어 초기 지도 전담</span><span class="key-point">보조 지도원(補助指導員)의 역할</span><span class="key-point">네팔 출신 5학년 학생 사례</span><span class="key-point">담임 교실에서 분리되어 지도받는 시스템</span><span class="key-point">일본어 50음도 학습 장면</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">학부모의 고민과 불안</span>
+        <span class="sec-time">4:26 ~ 6:35</span>
+    </div>
+    <div class="sec-summary">중국 출신 학부모 &#x27;아즈카&#x27;의 인터뷰를 통해 언어 장벽으로 인한 불안감을 전달한다. 수업을 따라갈 수 있을지, 친구를 사귈 수 있을지에 대한 걱정, 그리고 아이가 &#x27;갈 곳을 잃는다&#x27;는 두려움을 솔직하게 토로한다.</div>
+    <div class="key-points"><span class="key-point">학부모 아즈카(중국 출신)의 인터뷰</span><span class="key-point">수업 이해 및 친구 관계 걱정</span><span class="key-point">언어 장벽으로 인한 &#x27;거처를 잃는다&#x27;는 두려움</span><span class="key-point">아이의 일본어 실력 향상 과정</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">아이들 간의 상호 도움</span>
+        <span class="sec-time">6:39 ~ 8:53</span>
+    </div>
+    <div class="sec-summary">일본어를 배우는 아이들이 일본인 친구들의 도움을 받아 성장하는 모습을 보여준다. 말이 통하지 않아도 함께 웃고, 몸짓으로 소통하며 우정을 쌓는 아이들의 모습이 인상적이다. 자원봉사자들의 방과 후 지원 활동도 소개된다.</div>
+    <div class="key-points"><span class="key-point">일본인 친구들의 자연스러운 지원</span><span class="key-point">언어를 초월한 소통 장면</span><span class="key-point">자원봉사자들의 방과 후 일본어 지도</span><span class="key-point">다국적 학생들의 교류</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">지역 사회와의 연계: 상점가 자전거 안전 캠페인</span>
+        <span class="sec-time">8:55 ~ 10:41</span>
+    </div>
+    <div class="sec-summary">학교가 지역 상점가와 연계한 자전거 안전 캠페인 활동을 소개. 외국 출신 아이들이 직접 지역 주민들에게 일본어로 안전을 호소하며 지역 사회의 일원으로 성장하는 모습을 보여준다.</div>
+    <div class="key-points"><span class="key-point">지역 상점가와의 협력 활동</span><span class="key-point">자전거 안전 캠페인 (외국 출신 아이들이 주도)</span><span class="key-point">일본어로 지역 주민에게 호소하는 경험</span><span class="key-point">지역 사회 참여를 통한 일본어 실력 향상</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">마무리: 공생의 의미와 미래</span>
+        <span class="sec-time">10:41 ~ 11:19</span>
+    </div>
+    <div class="sec-summary">다문화 공생의 핵심은 단순히 외국인을 &#x27;도와주는&#x27; 것이 아니라 서로가 서로에게 배우며 함께 성장하는 것임을 강조하며 마무리한다. 아이들이 만들어 가는 공생의 미래에 대한 희망적 메시지로 끝맺는다.</div>
+    <div class="key-points"><span class="key-point">공생 = 일방적 지원이 아닌 상호 학습</span><span class="key-point">아이들이 만들어 가는 미래</span><span class="key-point">다문화 공생에 대한 희망적 전망</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">共生</span>
+        <span class="phonetic">きょうせい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">異なる者が共に生きること</div>
+    <div class="meaning-ko">공생, 함께 살아가는 것</div>
+    <div class="context">"日本で暮らす外国の方たちとの共生についてです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">多国籍</span>
+        <span class="phonetic">たこくせき</span>
+        <span class="pos">名詞・形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">多くの国の国籍を持つ人が混在すること</div>
+    <div class="meaning-ko">다국적</div>
+    <div class="context">"超多国籍な公立の小学校なんです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ルーツ</span>
+        <span class="phonetic">ルーツ</span>
+        <span class="pos">名詞（外来語）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">roots。出身地・祖先</div>
+    <div class="meaning-ko">뿌리, 출신</div>
+    <div class="context">"6割の子どもが外国にルーツを持つ"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">本格的</span>
+        <span class="phonetic">ほんかくてき</span>
+        <span class="pos">形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">本来の正式な形・やり方に沿っているさま</div>
+    <div class="meaning-ko">본격적인</div>
+    <div class="context">"日本は本格的な多国籍社会を迎えるということになります"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">国際教室</span>
+        <span class="phonetic">こくさいきょうしつ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">外国籍や外国にルーツを持つ児童が日本語を学ぶための特別教室</div>
+    <div class="meaning-ko">국제교실 (외국 출신 아이들을 위한 일본어 교실)</div>
+    <div class="context">"ここが国際教室の初期指導クラスといって"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">補助指導員</span>
+        <span class="phonetic">ほじょしどういん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">主担当者の補佐として指導・支援を行う人員</div>
+    <div class="meaning-ko">보조 지도원</div>
+    <div class="context">"英語や中国語などでサポートする外国語補助指導員です"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">来日</span>
+        <span class="phonetic">らいにち</span>
+        <span class="pos">名詞・自動詞（サ変）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">外国人が日本に来ること</div>
+    <div class="meaning-ko">도일, 일본에 옴</div>
+    <div class="context">"5月に来日したばかりで"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">保護者</span>
+        <span class="phonetic">ほごしゃ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">子どもを保護する立場にある親や後見人</div>
+    <div class="meaning-ko">보호자, 학부모</div>
+    <div class="context">"ただ過去には保護者からの不安の声もありました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">名乗りをあげる</span>
+        <span class="phonetic">なのりをあげる</span>
+        <span class="pos">慣用句</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">自ら進んで申し出ること</div>
+    <div class="meaning-ko">자청하다, 자진해서 나서다</div>
+    <div class="context">"名乗りをあげてくれたのです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">枠</span>
+        <span class="phonetic">わく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">物事の範囲・限界・틀</div>
+    <div class="meaning-ko">틀, 범위, 제약</div>
+    <div class="context">"枠にとらわれちゃうんですけど"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">資源</span>
+        <span class="phonetic">しげん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">活動・発展のために活用できる材料・人材・エネルギー</div>
+    <div class="meaning-ko">자원</div>
+    <div class="context">"豊かな社会を作っていくための資源なんだよっていうことを"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">揺らぎがち</span>
+        <span class="phonetic">ゆらぎがち</span>
+        <span class="pos">形容動詞的</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">ゆれ動きやすい傾向にあること</div>
+    <div class="meaning-ko">흔들리기 쉬운, 불안정하기 쉬운</div>
+    <div class="context">"国と国との間が揺らぎがちな空気の中で"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">胸を打たれる</span>
+        <span class="phonetic">むねをうたれる</span>
+        <span class="pos">慣用句</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">深く感動すること</div>
+    <div class="meaning-ko">가슴이 뭉클해지다, 깊이 감동받다</div>
+    <div class="context">"胸を打たれましたね"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">働き盛り</span>
+        <span class="phonetic">はたらきざかり</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">仕事に最も活気が溢れている年代（30代〜40代）</div>
+    <div class="meaning-ko">한창 일할 나이, 일하는 전성기</div>
+    <div class="context">"今の子どもたちが働き盛りになる頃"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">増加傾向</span>
+        <span class="phonetic">ぞうかけいこう</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">数や量が増えている傾向・流れ</div>
+    <div class="meaning-ko">증가 추세</div>
+    <div class="context">"そしてその人数は各地で増加傾向"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">教育委員会</span>
+        <span class="phonetic">きょういくいいんかい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">地方公共団体の教育行政機関</div>
+    <div class="meaning-ko">교육위원회</div>
+    <div class="context">"そこで教育委員会や自治体"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">自治体</span>
+        <span class="phonetic">じちたい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">地方公共団体。都道府県・市町村など</div>
+    <div class="meaning-ko">자치단체, 지방자치단체</div>
+    <div class="context">"そこで教育委員会や自治体"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">郊外学習</span>
+        <span class="phonetic">こうがいがくしゅう</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">学校の外での体験型学習活動</div>
+    <div class="meaning-ko">과외 학습, 교외 학습</div>
+    <div class="context">"郊外学習の一環として商店街の課題解決に動き出したのです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">課題解決</span>
+        <span class="phonetic">かだいかいけつ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">問題・課題を解消・解決すること</div>
+    <div class="meaning-ko">과제 해결</div>
+    <div class="context">"商店街の課題解決に動き出したのです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">啓発</span>
+        <span class="phonetic">けいはつ</span>
+        <span class="pos">名詞・他動詞（サ変）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">人の知識や意識を高め、理解を促すこと</div>
+    <div class="meaning-ko">계발, 계몽</div>
+    <div class="context">"啓発動画やポスターも作成"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ほころぶ</span>
+        <span class="phonetic">ほころぶ</span>
+        <span class="pos">自動詞（五段）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">縫い目がほどける。花が少し開く。表情が和らぐ</div>
+    <div class="meaning-ko">풀리다, 활짝 피다, (마음이) 녹다</div>
+    <div class="context">"本当に自然に心がほころんでいくような"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">営む</span>
+        <span class="phonetic">いとなむ</span>
+        <span class="pos">他動詞（五段）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">仕事や生活を継続して行う</div>
+    <div class="meaning-ko">영위하다, 운영하다</div>
+    <div class="context">"こうした日常が静かに営まれているということに"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">翻訳</span>
+        <span class="phonetic">ほんやく</span>
+        <span class="pos">名詞・他動詞（サ変）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">ある言語を別の言語に訳すこと</div>
+    <div class="meaning-ko">번역</div>
+    <div class="context">"仕事のメールを翻訳するなどを手伝います"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">不自由</span>
+        <span class="phonetic">ふじゆう</span>
+        <span class="pos">名詞・形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">自由でないこと。不便・不十分な状態</div>
+    <div class="meaning-ko">불편함, 부자유스러움</div>
+    <div class="context">"日本生まれの子どもは 日本語に不自由はありません"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">通訳</span>
+        <span class="phonetic">つうやく</span>
+        <span class="pos">名詞・自動詞（サ変）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">異なる言語間で話の内容を伝達すること。またその人</div>
+    <div class="meaning-ko">통역</div>
+    <div class="context">"横浜市から通訳などの支援を受けているほか"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜についてです</div>
+    <div class="explanation">뉴스나 공식 발표에서 주제를 도입할 때 쓰는 표현. 「〜について」(〜에 대해) + 「です」로 구성되며, 단정적이지 않고 정중하게 화제를 제시한다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 0, &#x27;japanese&#x27;: &#x27;日本で暮らす外国の方たちとの共生についてです&#x27;, &#x27;reading&#x27;: &#x27;にほんでくらすがいこくのかたたちとのきょうせいについてです&#x27;, &#x27;korean&#x27;: &#x27;일본에서 생활하는 외국인 분들과의 공생에 대한 이야기입니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ということです</div>
+    <div class="explanation">다른 출처(통계, 보고서, 인터뷰 등)에서 얻은 정보를 전달할 때 사용하는 간접 인용 표현. 뉴스 리포트에서 빈번히 등장하며 객관성을 강조한다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 5, &#x27;japanese&#x27;: &#x27;2070年には10人に1人が外国籍になるということです&#x27;, &#x27;reading&#x27;: &#x27;にせんななじゅうねんにはじゅうにんにひとりががいこくせきになるということです&#x27;, &#x27;korean&#x27;: &#x27;2070년에는 10명 중 1명이 외국 국적이 된다고 합니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に取り組む</div>
+    <div class="explanation">어떤 과제나 문제에 적극적으로 대처하는 것을 나타내는 동사구. 「取り組む」는 &#x27;씨름하다, 전력으로 임하다&#x27;는 뜻으로, 사회적 문제나 프로젝트에 자주 사용된다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 8, &#x27;japanese&#x27;: &#x27;多文化共生の取り組みを取材しました&#x27;, &#x27;reading&#x27;: &#x27;たぶんかきょうせいのとりくみをとりざいしました&#x27;, &#x27;korean&#x27;: &#x27;다문화 공생의 노력을 취재했습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ている（継続・状態）</div>
+    <div class="explanation">동작의 진행 또는 결과 상태의 지속을 나타낸다. 뉴스에서는 「通っている」「取り組んでいる」처럼 현재 진행 중인 상황을 설명할 때 자주 쓰인다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 12, &#x27;japanese&#x27;: &#x27;外国にルーツを持つ子どもたちが通っています&#x27;, &#x27;reading&#x27;: &#x27;がいこくにルーツをもつこどもたちがかよっています&#x27;, &#x27;korean&#x27;: &#x27;외국에 뿌리를 둔 아이들이 다니고 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜のうち〜が〜</div>
+    <div class="explanation">전체 집합 중 일부를 제시하는 표현. 통계나 수치를 제시할 때 자주 쓰이며 「全校児童約580人のうち60%近くが」처럼 비율을 표현하는 데 활용된다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 14, &#x27;japanese&#x27;: &#x27;全校児童約580人のうち60%近くが外国にルーツを持ちます&#x27;, &#x27;reading&#x27;: &#x27;ぜんこうじどうやく580にんのうち60パーセントちかくががいこくにルーツをもちます&#x27;, &#x27;korean&#x27;: &#x27;전교생 약 580명 중 60% 가까이가 외국에 뿌리를 두고 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜られる（受身）</div>
+    <div class="explanation">수동태 표현. 「受け入れられる」「配られる」처럼 동작을 받는 대상이 주어가 될 때 사용한다. 뉴스에서는 사회적 현상을 객관적으로 묘사할 때 자주 쓰인다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 20, &#x27;japanese&#x27;: &#x27;日本語の初期指導を受け入れられる&#x27;, &#x27;reading&#x27;: &#x27;にほんごのしょきしどうをうけいれられる&#x27;, &#x27;korean&#x27;: &#x27;일본어 초기 지도를 받아들여지다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んですね / 〜んです</div>
+    <div class="explanation">사실을 설명하거나 공감을 표현하는 「の(ん)です」 형태. 인터뷰에서 상대방의 말을 확인·공감할 때 「〜んですね」를 쓰며, 이유나 배경을 설명할 때는 「〜んです」를 쓴다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 35, &#x27;japanese&#x27;: &#x27;担任の先生から離れて来るんですね&#x27;, &#x27;reading&#x27;: &#x27;たんにんのせんせいからはなれてくるんですね&#x27;, &#x27;korean&#x27;: &#x27;담임 선생님에게서 떨어져 오는 거군요.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てあげる / 〜てもらう</div>
+    <div class="explanation">수수 표현(授受表現). 「〜てあげる」는 내가 남에게 무언가를 해 줄 때, 「〜てもらう」는 내가 남에게서 무언가를 받을 때 쓴다. 아이들 간의 도움을 묘사하는 장면에서 등장한다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 78, &#x27;japanese&#x27;: &#x27;友達が助けてくれたり教えてもらったりして&#x27;, &#x27;reading&#x27;: &#x27;ともだちがたすけてくれたりおしえてもらったりして&#x27;, &#x27;korean&#x27;: &#x27;친구가 도와주거나 가르쳐 받거나 해서.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たり〜たりする</div>
+    <div class="explanation">두 가지 이상의 동작을 나열하거나 반복·교대 동작을 표현할 때 사용. 「助けてくれたり教えてもらったりして」처럼 여러 경험이나 행동을 부드럽게 열거한다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 78, &#x27;japanese&#x27;: &#x27;友達が助けてくれたり教えてもらったりして&#x27;, &#x27;reading&#x27;: &#x27;ともだちがたすけてくれたりおしえてもらったりして&#x27;, &#x27;korean&#x27;: &#x27;친구가 도와주거나 가르쳐 받거나 해서.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようになる</div>
+    <div class="explanation">어떤 상태나 능력이 새롭게 생겨났음을 나타내는 변화 표현. 「言えるようになってきた」처럼 점진적 변화나 성장을 묘사할 때 자주 사용된다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 70, &#x27;japanese&#x27;: &#x27;少しずつ言えるようになってきた&#x27;, &#x27;reading&#x27;: &#x27;すこしずつえるようになってきた&#x27;, &#x27;korean&#x27;: &#x27;조금씩 말할 수 있게 되어 왔다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てくる</div>
+    <div class="explanation">시간의 경과에 따른 변화나 움직임이 화자 쪽으로 향함을 나타낸다. 「わかってきた」「増えてきた」처럼 상황이 점차 변해온 것을 표현할 때 쓰인다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 65, &#x27;japanese&#x27;: &#x27;だんだんわかってきました&#x27;, &#x27;reading&#x27;: &#x27;だんだんわかってきました&#x27;, &#x27;korean&#x27;: &#x27;점점 알게 되었습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜として</div>
+    <div class="explanation">어떤 역할이나 자격을 나타내는 조사구. 「ボランティアとして」「保護者として」처럼 사람의 입장이나 역할을 설명할 때 사용한다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 90, &#x27;japanese&#x27;: &#x27;ボランティアとして活動しています&#x27;, &#x27;reading&#x27;: &#x27;ボランティアとしてかつどうしています&#x27;, &#x27;korean&#x27;: &#x27;자원봉사자로서 활동하고 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜かどうか</div>
+    <div class="explanation">어떤 사실의 진위를 모르거나 확인할 때 쓰는 표현. 「ついていけるかどうか」처럼 가능성이나 결과를 아직 모를 때 불확실성을 나타낸다.</div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;segmentIndex&#x27;: 50, &#x27;japanese&#x27;: &#x27;授業についていけるかどうか心配だった&#x27;, &#x27;reading&#x27;: &#x27;じゅぎょうについていけるかどうかしんぱいだった&#x27;, &#x27;korean&#x27;: &#x27;수업을 따라갈 수 있을지 없을지 걱정이었다.&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">Other</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ています / 〜ております</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ました</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜でございます</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜おっしゃる</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜いただく</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜させていただく</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜のかた</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ていらっしゃる</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜てくださる</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜にうかがう</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごしえん・ごきょうりょく</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ございます</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ていただけますか</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">お〜する</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original"></span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜わけです / 〜わけですね</span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text"></div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=LEgBOELrBcE
+    </div>
+</div>
+
+</body>
+</html>

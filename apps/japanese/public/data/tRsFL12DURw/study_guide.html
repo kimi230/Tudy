@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>漆と日本文化: 室瀬 和美 at TEDxTokyo (日本語）</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">옻칠 장인이 말하는 일본 전통 공예의 가치와 문화적 의미</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">14:32</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">127</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/tRsFL12DURw/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/tRsFL12DURw">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (9 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (14 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (11 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (13 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 14-minute video by TEDx Talks is structured into 9 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">オープニング・自己紹介</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">기모노 차림으로 마이크 문제에 대한 유머로 시작해, 자신의 작품 &#x27;달걀&#x27;을 소개하고 자기 소개를 한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">蒔絵の紹介と歴史</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">마키에의 정의, 1000년 이상의 역사, 한 번도 단절되지 않고 이어온 전통에 대해 설명한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">蒔絵の技法実演</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">옻칠로 문양을 그리고 금가루를 뿌리는 기본 기법을 실연하면서 해설한다. 옻칠이 천연 소재임을 소개.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">漆の語源・漢字解説</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">옻(漆) 한자의 성립(木·人·水의 조합)을 해설하고, 수액으로서의 옻칠의 본질을 설명한다. 옻 오름(알레르기)에 대해서도 언급.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">漆の特性・性能</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">옻칠의 강한 접착력, 내약품성, 내수성, 내열성에 대해 구체적인 에피소드를 섞어 해설한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">漆の歴史・衰退と復活</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">일본에서의 옻칠 이용이 1만 년 전까지 거슬러 올라가며, 약 50년 전부터 플라스틱 범람으로 쇠퇴했지만 지금 다시 주목받고 있음을 설명.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">三浦雄一郎さんのエピソード</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">80세에 에베레스트 3번째 등정을 목표로 하는 모험가 미우라 유이치로 씨가 옻칠 그릇을 사용하는 이야기를 통해 옻칠의 실용성과 정신성을 전달한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">世界における漆の歴史・命名問題</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">16~19세기에 유럽과 미국에서 옻칠 제품이 &#x27;Japan&#x27;이라 불렸던 역사, 그 후 &#x27;lacquer&#x27;라는 잘못된 영어 이름이 정착된 경위를 설명한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">工芸の意義・まとめ</span>
+        <span class="sec-time">0:00 ~ 0:03</span>
+    </div>
+    <div class="sec-summary">공예라는 말의 넓은 의미(일용품부터 예술품까지), 일본 공예 문화의 독자성에 대해 이야기하고, 옻칠 문화의 계승·발전에 대한 바람으로 마무리한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">蒔絵</span>
+        <span class="phonetic">まきえ</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">漆器の表面に漆で模様を描き、金粉・銀粉などを蒔きつける日本の伝統的な装飾技法</div>
+    <div class="meaning-ko">마키에 (옻칠 면에 옻으로 문양을 그린 후 금가루·은가루를 뿌려 장식하는 일본 전통 기법)</div>
+    <div class="context">"私はマキエという日本の古来の伝統的な技術を使って作品を作ってますが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">漆</span>
+        <span class="phonetic">うるし</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">ウルシの木から採取した樹液を加工した塗料。日本の伝統的な塗料として古くから使われる</div>
+    <div class="meaning-ko">옻, 옻칠 (옻나무에서 채취한 수액으로 만든 전통 도료)</div>
+    <div class="context">"漆という塗料を使ってこういった模様を描いて金粉や銀粉を蒔きます"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">伝統的</span>
+        <span class="phonetic">でんとうてき</span>
+        <span class="pos">形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">古くから受け継がれてきた様子・形式に関するさま</div>
+    <div class="meaning-ko">전통적인</div>
+    <div class="context">"私はマキエという日本の古来の伝統的な技術を使って作品を作ってますが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">途絶える</span>
+        <span class="phonetic">とだえる</span>
+        <span class="pos">動詞（下一段）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">続いていたものが途中で切れて絶えてしまう</div>
+    <div class="meaning-ko">단절되다, 끊기다</div>
+    <div class="context">"その間一度も途絶えることなくずっと続いています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">接着力</span>
+        <span class="phonetic">せっちゃくりょく</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">物と物をくっつける力・強さ</div>
+    <div class="meaning-ko">접착력</div>
+    <div class="context">"漆は接着力がとても強いです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">樹液</span>
+        <span class="phonetic">じゅえき</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">木から分泌される液体</div>
+    <div class="meaning-ko">수액 (나무에서 분비되는 액체)</div>
+    <div class="context">"木の樹液から作られる天然素材です"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">遡る</span>
+        <span class="phonetic">さかのぼる</span>
+        <span class="pos">動詞（五段）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">時間・歴史などを過去にさかのぼって調べること</div>
+    <div class="meaning-ko">거슬러 올라가다, 소급하다</div>
+    <div class="context">"日本での漆の利用はなんと1万年前まで遡ります"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">工芸</span>
+        <span class="phonetic">こうげい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">実用性と芸術性を兼ね備えた手工業的な技芸・その製品</div>
+    <div class="meaning-ko">공예</div>
+    <div class="context">"工芸という言葉は日本では非常に幅広い意味を持っています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">金粉</span>
+        <span class="phonetic">きんぷん</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">金を細かく砕いた粉</div>
+    <div class="meaning-ko">금가루</div>
+    <div class="context">"金粉や銀粉を蒔きます"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">違和感</span>
+        <span class="phonetic">いわかん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">何かがしっくりこない、不自然に感じる気持ち</div>
+    <div class="meaning-ko">위화감, 이질감</div>
+    <div class="context">"ちょっと違和感がありますが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">皮膜</span>
+        <span class="phonetic">ひまく</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">表面を覆う薄い膜</div>
+    <div class="meaning-ko">피막, 얇은 막</div>
+    <div class="context">"固まった漆は皮膜を作って非常に頑丈になります"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">天然素材</span>
+        <span class="phonetic">てんねんそざい</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">自然界から得られる材料・素材</div>
+    <div class="meaning-ko">천연 소재</div>
+    <div class="context">"漆は天然素材で"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">氾濫</span>
+        <span class="phonetic">はんらん</span>
+        <span class="pos">名詞・動詞（サ変）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">水が溢れること。転じて、物・情報などが溢れかえること</div>
+    <div class="meaning-ko">범람, 넘쳐남</div>
+    <div class="context">"ここ50年くらいでプラスチックが氾濫して"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">冒険家</span>
+        <span class="phonetic">ぼうけんか</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">危険を冒して未知の世界を探求する人</div>
+    <div class="meaning-ko">모험가</div>
+    <div class="context">"日本を代表する冒険家の三浦雄一郎さん"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">鎖国</span>
+        <span class="phonetic">さこく</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">外国との交流・貿易を制限・禁止した江戸時代の日本の政策</div>
+    <div class="meaning-ko">쇄국, 쇄국정책</div>
+    <div class="context">"鎖国が終わった明治時代に英語の名前がついてしまって"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">模様</span>
+        <span class="phonetic">もよう</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">装飾のために描かれた図柄・デザイン</div>
+    <div class="meaning-ko">무늬, 문양</div>
+    <div class="context">"漆という塗料を使ってこういった模様を描いて"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">先人</span>
+        <span class="phonetic">せんじん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">昔の人、先代の人、先祖</div>
+    <div class="meaning-ko">선인, 선조, 옛사람</div>
+    <div class="context">"先人たちはそれを使い続けてきました"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">濃淡</span>
+        <span class="phonetic">のうたん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">色・味などの濃さと薄さ。グラデーション</div>
+    <div class="meaning-ko">농담, 짙고 옅음, 그러데이션</div>
+    <div class="context">"金粉の量によって濃淡が生まれます"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">皮膚</span>
+        <span class="phonetic">ひふ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">動物の体の表面を覆う器官。肌</div>
+    <div class="meaning-ko">피부</div>
+    <div class="context">"漆に触れるとかぶれる場合があります。漆は触れた皮膚に反応します"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">耐薬品性</span>
+        <span class="phonetic">たいやくひんせい</span>
+        <span class="pos">名詞</span>
+        
+    </div>
+    <div class="definition">薬品（酸・アルカリなど）に対して変質・腐食しない性質</div>
+    <div class="meaning-ko">내약품성, 화학약품에 대한 내성</div>
+    <div class="context">"漆は耐薬品性にも優れています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">古来</span>
+        <span class="phonetic">こらい</span>
+        <span class="pos">名詞・副詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">昔から、古くから</div>
+    <div class="meaning-ko">고래, 예로부터, 옛날부터</div>
+    <div class="context">"日本の古来の伝統的な技術"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">頑丈</span>
+        <span class="phonetic">がんじょう</span>
+        <span class="pos">形容動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">丈夫でしっかりしている様子</div>
+    <div class="meaning-ko">튼튼함, 견고함</div>
+    <div class="context">"固まった漆はとても頑丈になって"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">脚光を浴びる</span>
+        <span class="phonetic">きゃっこうをあびる</span>
+        <span class="pos">慣用句</span>
+        
+    </div>
+    <div class="definition">世間から注目・関心を集めること</div>
+    <div class="meaning-ko">각광을 받다, 주목을 받다</div>
+    <div class="context">"漆が改めて脚光を浴びています"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜うちに</div>
+    <div class="explanation">During a certain period or state; while a condition holds. Used to express doing something within a particular time frame or situation.</div>
+    <div class="explanation-ko">어떤 상태나 기간이 지속되는 동안에 무언가를 한다는 표현. &#x27;~하는 동안에&#x27;, &#x27;~하는 사이에&#x27;의 의미.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;いくつか作ってるうちの一つです&#x27;, &#x27;reading&#x27;: &#x27;いくつかつくってるうちのひとつです&#x27;, &#x27;translation&#x27;: &#x27;여러 점 만들고 있는 것 중의 하나입니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;練習しているうちに上手になった&#x27;, &#x27;reading&#x27;: &#x27;れんしゅうしているうちにじょうずになった&#x27;, &#x27;translation&#x27;: &#x27;연습하는 사이에 능숙해졌다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ことなく</div>
+    <div class="explanation">Without doing something; expressing that an action or state has not occurred throughout a period. Formal expression equivalent to 〜ないで.</div>
+    <div class="explanation-ko">&#x27;~하지 않고&#x27;, &#x27;~함 없이&#x27;의 의미. 어떤 행위나 상태 없이 계속됨을 나타내는 격식체 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;その間一度も途絶えることなくずっと続いています&#x27;, &#x27;reading&#x27;: &#x27;そのあいだいちどもとだえることなくずっとつづいています&#x27;, &#x27;translation&#x27;: &#x27;그 사이 한 번도 단절되는 일 없이 계속 이어져 오고 있습니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;休むことなく働き続けた&#x27;, &#x27;reading&#x27;: &#x27;やすむことなくはたらきつづけた&#x27;, &#x27;translation&#x27;: &#x27;쉬는 일 없이 계속 일했다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜によって</div>
+    <div class="explanation">Due to; caused by; depending on. Indicates cause, means, or agent. Widely used in formal and written Japanese.</div>
+    <div class="explanation-ko">&#x27;~에 의해&#x27;, &#x27;~에 따라&#x27;, &#x27;~로 인해&#x27;의 의미. 원인·수단·행위자를 나타내는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;金粉の量によって濃淡が生まれます&#x27;, &#x27;reading&#x27;: &#x27;きんぷんのりょうによってのうたんがうまれます&#x27;, &#x27;translation&#x27;: &#x27;금가루의 양에 따라 농담(짙고 옅음)이 생깁니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;人によって感じ方が違う&#x27;, &#x27;reading&#x27;: &#x27;ひとによってかんじかたがちがう&#x27;, &#x27;translation&#x27;: &#x27;사람에 따라 느끼는 방식이 다르다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜に優れている</div>
+    <div class="explanation">Excellent at; superior in. Expresses that something excels in a particular quality or characteristic.</div>
+    <div class="explanation-ko">&#x27;~에 뛰어나다&#x27;, &#x27;~이 우수하다&#x27;의 의미. 특정 특성에서 탁월함을 나타내는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;漆は耐薬品性にも優れています&#x27;, &#x27;reading&#x27;: &#x27;うるしはたいやくひんせいにもすぐれています&#x27;, &#x27;translation&#x27;: &#x27;옻칠은 내약품성에도 뛰어납니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;彼はスポーツに優れている&#x27;, &#x27;reading&#x27;: &#x27;かれはすぽーつにすぐれている&#x27;, &#x27;translation&#x27;: &#x27;그는 스포츠에 뛰어나다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜といえば</div>
+    <div class="explanation">Speaking of; when it comes to. Used to introduce a related topic or to define what something is known for.</div>
+    <div class="explanation-ko">&#x27;~라고 하면&#x27;, &#x27;~하면 말이죠&#x27;의 의미. 어떤 주제에 대한 이야기를 시작하거나 연상되는 것을 말할 때 쓰는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;漆といえば、日本の伝統的な塗料として有名です&#x27;, &#x27;reading&#x27;: &#x27;うるしといえば、にほんのでんとうてきなとりょうとしてゆうめいです&#x27;, &#x27;translation&#x27;: &#x27;옻칠이라고 하면 일본의 전통적인 도료로 유명합니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;日本といえば富士山&#x27;, &#x27;reading&#x27;: &#x27;にほんといえばふじさん&#x27;, &#x27;translation&#x27;: &#x27;일본이라고 하면 후지산&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜なんと</div>
+    <div class="explanation">An exclamatory adverb expressing surprise: &#x27;as many as&#x27;, &#x27;as far back as&#x27;, &#x27;no less than&#x27;. Emphasizes the unexpectedly large/long scale of what follows.</div>
+    <div class="explanation-ko">&#x27;무려&#x27;, &#x27;놀랍게도&#x27;, &#x27;자그마치&#x27;의 의미. 예상 밖의 큰 숫자나 범위를 강조할 때 쓰는 부사.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;日本での漆の利用はなんと1万年前まで遡ります&#x27;, &#x27;reading&#x27;: &#x27;にほんでのうるしのりようはなんとひとまんねんまえまでさかのぼります&#x27;, &#x27;translation&#x27;: &#x27;일본에서의 옻칠 이용은 무려 1만 년 전까지 거슬러 올라갑니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;彼はなんと100キロも走った&#x27;, &#x27;reading&#x27;: &#x27;かれはなんとひゃっきろもはしった&#x27;, &#x27;translation&#x27;: &#x27;그는 무려 100킬로미터나 달렸다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ために</div>
+    <div class="explanation">In order to; for the purpose of. Expresses purpose or reason. When used with a noun, means &#x27;for the sake of&#x27; or &#x27;due to&#x27;.</div>
+    <div class="explanation-ko">&#x27;~하기 위해&#x27;, &#x27;~를 위해&#x27;의 의미. 목적을 나타내는 표현. 명사와 함께 쓰이면 &#x27;~를 위해&#x27;, &#x27;~로 인해&#x27;의 의미.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;漆を広めるために活動しています&#x27;, &#x27;reading&#x27;: &#x27;うるしをひろめるためにかつどうしています&#x27;, &#x27;translation&#x27;: &#x27;옻칠을 알리기 위해 활동하고 있습니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;健康のために運動する&#x27;, &#x27;reading&#x27;: &#x27;けんこうのためにうんどうする&#x27;, &#x27;translation&#x27;: &#x27;건강을 위해 운동한다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にもかかわらず</div>
+    <div class="explanation">Despite; in spite of; nevertheless. Expresses that the result is contrary to what might be expected from the preceding condition.</div>
+    <div class="explanation-ko">&#x27;~에도 불구하고&#x27;, &#x27;~임에도 불구하고&#x27;의 의미. 앞의 조건과 반대되는 결과가 이어질 때 쓰는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;高齢にもかかわらずエベレストに登ろうとしていた&#x27;, &#x27;reading&#x27;: &#x27;こうれいにもかかわらずえべれすとにのぼろうとしていた&#x27;, &#x27;translation&#x27;: &#x27;고령임에도 불구하고 에베레스트에 오르려 하고 있었다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;雨にもかかわらず試合は行われた&#x27;, &#x27;reading&#x27;: &#x27;あめにもかかわらずしあいはおこなわれた&#x27;, &#x27;translation&#x27;: &#x27;비에도 불구하고 경기는 진행되었다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てしまう（〜ちゃう）</div>
+    <div class="explanation">Indicates completion of an action, often with a nuance of regret, undesirability, or unexpectedness. 〜ちゃう is the casual contracted form.</div>
+    <div class="explanation-ko">&#x27;~해버리다&#x27;의 의미. 행위의 완료, 또는 아쉬움·후회·의도치 않음의 뉘앙스를 나타냄. 〜ちゃう는 구어적 축약형.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;英語の名前がついてしまって&#x27;, &#x27;reading&#x27;: &#x27;えいごのなまえがついてしまって&#x27;, &#x27;translation&#x27;: &#x27;영어 이름이 붙어버려서&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;忘れちゃった&#x27;, &#x27;reading&#x27;: &#x27;わすれちゃった&#x27;, &#x27;translation&#x27;: &#x27;잊어버렸다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜として</div>
+    <div class="explanation">As; in the capacity of; in the role of. Indicates that the subject occupies a certain position, role, or status.</div>
+    <div class="explanation-ko">&#x27;~로서&#x27;, &#x27;~으로서&#x27;의 의미. 어떤 역할이나 자격, 입장을 나타내는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;漆は塗料として優れた特性を持っています&#x27;, &#x27;reading&#x27;: &#x27;うるしはとりょうとしてすぐれたとくせいをもっています&#x27;, &#x27;translation&#x27;: &#x27;옻칠은 도료로서 뛰어난 특성을 갖고 있습니다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;教師として働く&#x27;, &#x27;reading&#x27;: &#x27;きょうしとしてはたらく&#x27;, &#x27;translation&#x27;: &#x27;교사로서 일하다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ている間に（〜てる間に）</div>
+    <div class="explanation">While doing something; during the process of an ongoing action. Indicates that another event occurs or a change happens during an ongoing state.</div>
+    <div class="explanation-ko">&#x27;~하는 동안에&#x27;, &#x27;~하고 있는 사이에&#x27;의 의미. 어떤 동작이 진행되는 동안 다른 일이 일어날 때 쓰는 표현.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;作っている間に気持ちが落ち着く&#x27;, &#x27;reading&#x27;: &#x27;つくっているあいだにきもちがおちつく&#x27;, &#x27;translation&#x27;: &#x27;만드는 동안 마음이 안정된다&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;彼が話している間に、私はメモした&#x27;, &#x27;reading&#x27;: &#x27;かれがはなしているあいだに、わたしはめもした&#x27;, &#x27;translation&#x27;: &#x27;그가 이야기하는 동안 나는 메모했다&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">謙譲語</div>
+<div class="cs-card">
+    <span class="original">やってまいりました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">やってまいりました</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「まいりました」는 「きました（왔습니다）」의 겸양어. 화자가 자신의 이동 행위를 낮춰 표현하는 격식 있는 표현.</div>
+        <div class="practice">공개 강연·발표 등 공식 석상에서 자신의 행동을 겸손하게 표현할 때 사용</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">させていただく</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">させていただく</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「させていただく」는 상대방의 허가를 받아 행동한다는 의미의 겸양 표현. &#x27;~하도록 하겠습니다&#x27;, &#x27;~를 하게 해 주십시오&#x27;의 뜻으로 공식적인 자리에서 자주 쓰임.</div>
+        <div class="practice">허락을 구하거나 자신의 행동을 겸손하게 표현할 때. 강연·발표·업무 상황에서 매우 빈번하게 사용됨.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お会いする</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おあいする</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「お〜する」형태의 겸양어. 자신의 만나는 행위를 낮춰 상대방을 높이는 표현. &#x27;만나다&#x27;의 겸양어.</div>
+        <div class="practice">상대방을 만나는 행위를 겸손하게 표현할 때. 비즈니스나 공식적인 상황에서 사용.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">いただく</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いただく</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「もらう（받다）」의 겸양어. 상대방 또는 윗사람에게서 무언가를 받거나 해 받는 행위를 겸손하게 표현. 「〜ていただく」 형태로 &#x27;~해 주심을 받다&#x27;의 의미.</div>
+        <div class="practice">상대방의 도움·허락·호의를 받는 것을 겸손하게 표현할 때. 매우 광범위하게 쓰이는 겸양 표현.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">申し上げる</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">もうしあげる</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「言う（말하다）」의 최고 수준 겸양어. &#x27;말씀 드리다&#x27;에 해당. 강연·발표에서 청중에게 정중하게 말할 때 사용.</div>
+        <div class="practice">공식 강연이나 발표에서 청중에게 중요한 내용을 전달할 때 사용하는 최고 격식의 겸양 표현.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜てまいります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜てまいります</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「〜ていきます（~해 나가겠습니다）」의 겸양 표현. 앞으로의 행동·방침을 겸손하게 나타냄. 강연·발표의 마무리나 미래 계획 선언 시 자주 사용.</div>
+        <div class="practice">발표·강연 등에서 앞으로의 의지·방침을 겸손하게 표현할 때 사용.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜存じます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ぞんじます</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語 (humble)</div>
+        <div class="explanation-text">「思います（생각합니다）」의 겸양어. 「存ずる/存じる」는 「思う」의 겸양 표현. 공식 석상에서 자신의 생각·의견을 겸손하게 전달할 때 사용.</div>
+        <div class="practice">비즈니스 상황이나 공식 강연에서 자신의 의견이나 판단을 겸손하게 표현할 때 사용.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">丁寧語</div>
+<div class="cs-card">
+    <span class="original">〜でございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜でございます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語 (polite formal)</div>
+        <div class="explanation-text">「です」보다 격식 있는 정중체 표현. &#x27;〜입니다&#x27;에 해당하며 공식 석상·강연에서 자주 쓰임. 비즈니스 일본어의 핵심 표현.</div>
+        <div class="practice">공식 프레젠테이션, 비즈니스, 강연 등 격식을 요구하는 상황에서 사용.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜ております</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ております</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語 (polite formal)</div>
+        <div class="explanation-text">「〜ています」의 격식체. 현재 진행 중이거나 지속되는 상태를 정중하게 표현. &#x27;~하고 있습니다&#x27;에 해당하며 공식 석상에서 사용.</div>
+        <div class="practice">공식 설명·보고·발표 상황에서 현재 진행 중인 동작이나 상태를 표현할 때 사용.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜ます形 (連用形)</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語 (polite standard)</div>
+        <div class="explanation-text">일본어 표준 경어체인 「〜ます」형. 공식적·격식 있는 상황에서 동사를 정중하게 표현하는 가장 기본적인 형태.</div>
+        <div class="practice">공식 강연·발표·비즈니스 상황에서 기본적으로 사용되는 표준 정중체.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜ではないでしょうか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜ではないでしょうか</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語 (polite rhetorical)</div>
+        <div class="explanation-text">「〜ではないか（~가 아닌가）」의 정중 표현. 청중에게 완곡하게 의견을 제시하거나 공감을 구할 때 쓰는 완화된 반문 표현. &#x27;~가 아닐까요?&#x27;에 해당.</div>
+        <div class="practice">강연이나 발표에서 주장을 강요하지 않고 부드럽게 청중에게 의견을 제시할 때 사용.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">尊敬語</div>
+<div class="cs-card">
+    <span class="original">〜れる / 〜られる (尊敬)</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜れる / 〜られる</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語 (honorific)</div>
+        <div class="explanation-text">조동사 「れる/られる」가 존경의 의미로 사용될 때의 형태. 동작의 주체를 높여 표현. 예: 「言われました」→ 「言いました」의 존경어. 자연스러운 공식 표현에서 자주 등장.</div>
+        <div class="practice">윗사람이나 존경하는 사람의 동작을 높여 표현할 때 사용. 강연에서 타인의 행동을 언급할 때 등장.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">おっしゃる</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おっしゃる</span>
+    <div class="details">
+        <div class="phonetic-ipa">尊敬語 (honorific)</div>
+        <div class="explanation-text">「言う（말하다）」의 존경어. &#x27;말씀하시다&#x27;에 해당. 다른 사람의 발언을 인용하거나 소개할 때 그 사람을 높여 표현.</div>
+        <div class="practice">다른 사람의 말을 인용하거나 전달할 때 그 사람을 높여 표현. 강연에서 타인의 발언을 소개할 때 사용.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"まず"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"次に"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"実は"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"例えば"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"なんと"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"また"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"そして"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"実際に"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"最後に"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"〜ということです"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"ご存知ですか"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"〜のではないでしょうか"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=tRsFL12DURw
+    </div>
+</div>
+
+</body>
+</html>

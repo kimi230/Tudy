@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>3 tips for sounding like a native speaker</h1>
+    <div class="subtitle">Adam’s English Lessons · engVid</div>
+    <div class="desc-ko">원어민처럼 들리는 3가지 발음 팁</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">8:15</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">138</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">67</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/ChZJ1Q3GSuI/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/ChZJ1Q3GSuI">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (9 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (11 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (13 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 8-minute video by Adam’s English Lessons · engVid is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:02 ~ 0:35</span>
+    </div>
+    <div class="sec-summary">Adam이 수업 주제를 소개합니다: 원어민처럼 들리기 위한 3가지 팁. 향상에는 시간과 많은 연습이 필요하다고 기대치를 설정합니다.</div>
+    <div class="key-points"><span class="key-point">원어민처럼 들리려면 많은 연습이 필요합니다</span><span class="key-point">영어권 나라에 사는 것이 가장 좋은 방법입니다</span><span class="key-point">인내심을 갖고 연습하세요</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Tip 1: Connecting Words - Same Consonants</span>
+        <span class="sec-time">0:36 ~ 1:53</span>
+    </div>
+    <div class="sec-summary">첫 번째 팁은 같은 자음으로 끝나고 시작하는 단어 연결을 다룹니다. 첫 번째 자음을 생략합니다 (예: &#x27;black coffee&#x27;). 입에서 비슷하게 형성되는 T와 D에도 적용됩니다.</div>
+    <div class="key-points"><span class="key-point">같은 자음이 만나면 첫 번째를 생략합니다</span><span class="key-point">&#x27;black coffee&#x27;에서 K는 하나만 발음합니다</span><span class="key-point">T와 D도 같은 원리가 적용됩니다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Tip 1: Connecting Words - Consonant to Vowel</span>
+        <span class="sec-time">1:53 ~ 3:09</span>
+    </div>
+    <div class="sec-summary">단어 연결 팁 계속: 자음으로 끝나는 단어 다음에 모음으로 시작하는 단어가 오면 자음을 모음으로 굴려 넣습니다. 핵심 예시: &#x27;not at all&#x27;이 &#x27;na-ta-tal&#x27;이 됩니다. &#x27;What do you do?&#x27; 같은 축약도 다룹니다.</div>
+    <div class="key-points"><span class="key-point">자음 다음에 모음이 오면 연결하세요</span><span class="key-point">&#x27;not at all&#x27;이 자연스럽게 연결되는 예시</span><span class="key-point">&#x27;What do you do?&#x27;의 축약 발음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Application to Listening Tests</span>
+        <span class="sec-time">3:09 ~ 3:39</span>
+    </div>
+    <div class="sec-summary">Adam이 연결 발화 지식이 IELTS, TOEFL, TOEIC, CELPIP 같은 영어 시험의 듣기 영역에 어떻게 도움이 되는지 설명합니다. 시험 녹음은 학생들이 해독해야 하는 자연스러운 연결 발화를 사용합니다.</div>
+    <div class="key-points"><span class="key-point">듣기 시험에서 연결 발화를 이해해야 합니다</span><span class="key-point">녹음에서 개별 단어를 구분하는 것이 시험의 일부입니다</span><span class="key-point">말하기와 듣기 연습을 모두 하세요</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Tip 2: Squeezing Words (Syllable Reduction)</span>
+        <span class="sec-time">3:39 ~ 5:30</span>
+    </div>
+    <div class="sec-summary">두 번째 팁은 일반적인 단어에서의 음절 축소를 다룹니다. &#x27;Comfortable&#x27;은 &#x27;or&#x27;을 생략하고(4에서 3음절), &#x27;interesting&#x27;은 음절을 생략하고(4에서 3), &#x27;every&#x27;는 가운데 E를 생략합니다(3에서 2). 또렷한 발음 vs 자연스러운 발화 개념을 소개합니다.</div>
+    <div class="key-points"><span class="key-point">&#x27;comfortable&#x27;은 3음절로 발음합니다</span><span class="key-point">&#x27;interesting&#x27;은 3음절로 줄어듭니다</span><span class="key-point">&#x27;every&#x27;는 2음절로 발음합니다</span><span class="key-point">강조할 때만 모든 음절을 또렷하게 발음합니다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Tip 3: Squeezing Letters (Sound Changes)</span>
+        <span class="sec-time">5:30 ~ 7:00</span>
+    </div>
+    <div class="sec-summary">세 번째 팁은 자연스러운 발화에서 글자 조합이 소리를 어떻게 바꾸는지 다룹니다: TR은 CHR처럼(tree, country, treat), DR은 JR처럼(hundred), D+Y는 J가 됩니다(did you). 이것들은 연습이 필요한 습관입니다.</div>
+    <div class="key-points"><span class="key-point">TR은 CHR처럼 발음됩니다</span><span class="key-point">DR은 JR처럼 발음됩니다</span><span class="key-point">D+Y는 J 소리가 됩니다</span><span class="key-point">원어민은 이것을 무의식적으로 합니다</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Practice Advice and Conclusion</span>
+        <span class="sec-time">7:00 ~ 7:55</span>
+    </div>
+    <div class="sec-summary">Adam이 TV 시트콤, 라디오, TED.com 같은 웹사이트를 통한 듣기 연습을 추천합니다. 연결 발화에서 개별 단어를 식별하는 받아쓰기 연습을 제안합니다. engvid.com의 추가 발음 수업을 안내하며 마무리합니다.</div>
+    <div class="key-points"><span class="key-point">TV 시트콤과 라디오를 들으세요</span><span class="key-point">TED.com에서 원어민을 들을 수 있습니다</span><span class="key-point">받아쓰기 연습을 해보세요</span><span class="key-point">engvid.com에서 더 많은 발음 수업을 찾을 수 있습니다</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">pronunciation</span>
+        <span class="phonetic">/prəˌnʌnsiˈeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The way in which a word or language is spoken</div>
+    <div class="meaning-ko">발음</div>
+    <div class="etymology">From Latin pronuntiatio, from pronuntiare (to proclaim)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro-</span><span class="root-part">nuntia (announce)</span><span class="root-part suffix">-tion</span></div>
+    <div class="context">"So we&#x27;re looking at pronunciation."</div>
+    <div class='related'>Related: pronounce, enunciate, articulate</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consonant</span>
+        <span class="phonetic">/ˈkɑːnsənənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A speech sound made by partially or fully obstructing airflow, or a letter representing such a sound</div>
+    <div class="meaning-ko">자음</div>
+    <div class="etymology">From Latin consonans, from con- (together) + sonare (to sound)</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">son (sound)</span><span class="root-part suffix">-ant</span></div>
+    <div class="context">"You can connect consonant to consonant."</div>
+    <div class='related'>Related: consonance, dissonant, sonant</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vowel</span>
+        <span class="phonetic">/ˈvaʊəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A speech sound made with an open vocal tract, or a letter representing such a sound (A, E, I, O, U)</div>
+    <div class="meaning-ko">모음</div>
+    <div class="etymology">From Old French vouel, from Latin vocalis (vocal)</div>
+    <div class="root-breakdown"><span class="root-part">voc (voice)</span><span class="root-part suffix">-al</span></div>
+    <div class="context">"A vowel is A, E, I, O, U."</div>
+    <div class='related'>Related: vocal, voice, vocalize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">syllable</span>
+        <span class="phonetic">/ˈsɪləbəl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A unit of pronunciation having one vowel sound, forming the whole or part of a word</div>
+    <div class="meaning-ko">음절</div>
+    <div class="etymology">From Greek syllabe, from syn- (together) + lambanein (to take)</div>
+    <div class="root-breakdown"><span class="root-part prefix">syl- (together)</span><span class="root-part">lab (take)</span><span class="root-part suffix">-le</span></div>
+    <div class="context">"A syllable is the vowel sounds in a word."</div>
+    <div class='related'>Related: monosyllabic, polysyllabic, syllabify</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">enunciate</span>
+        <span class="phonetic">/ɪˈnʌnsieɪt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To pronounce words clearly and distinctly</div>
+    <div class="meaning-ko">또렷하게 발음하다</div>
+    <div class="etymology">From Latin enuntiare, from e- (out) + nuntiare (announce)</div>
+    <div class="root-breakdown"><span class="root-part prefix">e- (out)</span><span class="root-part">nuntia (announce)</span><span class="root-part suffix">-ate</span></div>
+    <div class="context">"We have a word called enunciate."</div>
+    <div class='related'>Related: enunciation, announce, pronounce</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">emphasize</span>
+        <span class="phonetic">/ˈemfəsaɪz/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To give special importance or stress to something</div>
+    <div class="meaning-ko">강조하다</div>
+    <div class="etymology">From Greek emphasis, from en- (in) + phainein (to show)</div>
+    <div class="root-breakdown"><span class="root-part prefix">em- (in)</span><span class="root-part">phas (show)</span><span class="root-part suffix">-ize</span></div>
+    <div class="context">"If you want to emphasize something."</div>
+    <div class='related'>Related: emphasis, emphatic, emphatically</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">native speaker</span>
+        <span class="phonetic">/ˈneɪtɪv ˈspiːkər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A person who has spoken a particular language since early childhood</div>
+    <div class="meaning-ko">원어민</div>
+    <div class="etymology">Native from Latin nativus (born); speaker from Old English sprecan (to speak)</div>
+    <div class="root-breakdown"><span class="root-part">nativ (born) + speak</span><span class="root-part suffix">-er</span></div>
+    <div class="context">"A little bit more like a native speaker, hopefully."</div>
+    <div class='related'>Related: fluent, mother tongue, first language</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">comfortable</span>
+        <span class="phonetic">/ˈkʌmftəbəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Providing physical ease and relaxation; used here as a key pronunciation example</div>
+    <div class="meaning-ko">편안한</div>
+    <div class="etymology">From Old French conforter (to comfort) + -able</div>
+    <div class="root-breakdown"><span class="root-part prefix">com- (with)</span><span class="root-part">fort (strong)</span><span class="root-part suffix">-able</span></div>
+    <div class="context">"I&#x27;ve heard many students say comf-or-ta-ble."</div>
+    <div class='related'>Related: comfort, uncomfortable, discomfort</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">roll off the tongue</span>
+        <span class="phonetic">/roʊl ɔːf ðə tʌŋ/</span>
+        <span class="pos">idiom</span>
+    </div>
+    <div class="definition">To be easy to say; to sound natural and effortless when spoken</div>
+    <div class="meaning-ko">자연스럽게 입에서 나오다</div>
+    <div class="etymology">Figurative expression comparing smooth speech to rolling motion</div>
+    <div class="root-breakdown"><span class="root-part">roll + tongue</span></div>
+    <div class="context">"It just rolls off the tongue just like that."</div>
+    <div class='related'>Related: fluent, smooth, natural</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">squeeze</span>
+        <span class="phonetic">/skwiːz/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To press firmly together; in this context, to compress words or sounds</div>
+    <div class="meaning-ko">압축하다, 짜내다</div>
+    <div class="etymology">From Old English cwysan (to squeeze, crush)</div>
+    <div class="root-breakdown"><span class="root-part">squeeze</span></div>
+    <div class="context">"You&#x27;re squeezing them together, you&#x27;re connecting them."</div>
+    <div class='related'>Related: compress, press, squish</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">blend</span>
+        <span class="phonetic">/blend/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To mix or merge smoothly together</div>
+    <div class="meaning-ko">섞다, 혼합하다</div>
+    <div class="etymology">From Old Norse blanda (to mix)</div>
+    <div class="root-breakdown"><span class="root-part">blend (mix)</span></div>
+    <div class="context">"Say it quickly, blend the letters one into the next."</div>
+    <div class='related'>Related: blender, mixture, combine</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">flow</span>
+        <span class="phonetic">/floʊ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To move smoothly and continuously in one direction</div>
+    <div class="meaning-ko">흐르다, 자연스럽게 이어지다</div>
+    <div class="etymology">From Old English flowan (to flow, stream)</div>
+    <div class="root-breakdown"><span class="root-part">flow</span></div>
+    <div class="context">"So one word flows into the next word."</div>
+    <div class='related'>Related: overflow, fluent, fluid</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">dictation</span>
+        <span class="phonetic">/dɪkˈteɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The activity of writing down words that are spoken aloud</div>
+    <div class="meaning-ko">받아쓰기</div>
+    <div class="etymology">From Latin dictatio, from dictare (to say repeatedly)</div>
+    <div class="root-breakdown"><span class="root-part">dict (say)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"What you can do is you can try to do dictation."</div>
+    <div class='related'>Related: dictate, diction, dictionary</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">tongue</span>
+        <span class="phonetic">/tʌŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The muscular organ in the mouth used for tasting, speaking, and swallowing</div>
+    <div class="meaning-ko">혀</div>
+    <div class="etymology">From Old English tunge (tongue, language)</div>
+    <div class="root-breakdown"><span class="root-part">tongue</span></div>
+    <div class="context">"But according to the tongue and the mouth, they almost sound the same."</div>
+    <div class='related'>Related: mother tongue, tongue-tied, bilingual</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">pronoun</span>
+        <span class="phonetic">/ˈproʊnaʊn/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A word used instead of a noun, such as I, me, my, mine</div>
+    <div class="meaning-ko">대명사</div>
+    <div class="etymology">From Latin pronomen, from pro- (for) + nomen (name)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro- (for)</span><span class="root-part">noun/nomen (name)</span></div>
+    <div class="context">"It is not a pronoun. A pronoun is I, me, my, mine."</div>
+    <div class='related'>Related: noun, pronominal, rename</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">patient</span>
+        <span class="phonetic">/ˈpeɪʃənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Able to accept or tolerate delays or problems without becoming annoyed</div>
+    <div class="meaning-ko">인내심 있는</div>
+    <div class="etymology">From Latin patiens, from pati (to suffer, endure)</div>
+    <div class="root-breakdown"><span class="root-part">pati (suffer/endure)</span><span class="root-part suffix">-ent</span></div>
+    <div class="context">"But it takes time, be patient."</div>
+    <div class='related'>Related: patience, impatient, patiently</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">separate</span>
+        <span class="phonetic">/ˈsepəreɪt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To divide or disconnect into distinct parts</div>
+    <div class="meaning-ko">분리하다, 나누다</div>
+    <div class="etymology">From Latin separare, from se- (apart) + parare (to prepare)</div>
+    <div class="root-breakdown"><span class="root-part prefix">se- (apart)</span><span class="root-part">par (prepare/arrange)</span><span class="root-part suffix">-ate</span></div>
+    <div class="context">"Separate the syllable before."</div>
+    <div class='related'>Related: separation, inseparable, apart</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">naturally</span>
+        <span class="phonetic">/ˈnætʃərəli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">In a natural, normal, or relaxed manner</div>
+    <div class="meaning-ko">자연스럽게</div>
+    <div class="etymology">From Latin naturalis (by birth, according to nature)</div>
+    <div class="root-breakdown"><span class="root-part">natur (nature)</span><span class="root-part suffix">-ally</span></div>
+    <div class="context">"That&#x27;s how a native speaker would say it naturally."</div>
+    <div class='related'>Related: natural, nature, unnatural</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">habit</span>
+        <span class="phonetic">/ˈhæbɪt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A settled or regular tendency or practice, especially one that is hard to give up</div>
+    <div class="meaning-ko">습관</div>
+    <div class="etymology">From Latin habitus (condition, appearance), from habere (to have)</div>
+    <div class="root-breakdown"><span class="root-part">hab (have/hold)</span><span class="root-part suffix">-it</span></div>
+    <div class="context">"It&#x27;s more a habit than anything else."</div>
+    <div class='related'>Related: habitual, inhabit, habitat</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">recording</span>
+        <span class="phonetic">/rɪˈkɔːrdɪŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A piece of audio or video that has been captured for playback</div>
+    <div class="meaning-ko">녹음, 녹화</div>
+    <div class="etymology">From Latin recordari (to remember, recall)</div>
+    <div class="root-breakdown"><span class="root-part prefix">re- (again)</span><span class="root-part">cord (heart/mind)</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"Somebody on the recording will say, not at all."</div>
+    <div class='related'>Related: record, recorder, recorded</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">I&#x27;m going to + verb</div>
+    <div class="explanation">Used to express future intentions or plans. &#x27;Going to&#x27; is often reduced to &#x27;gonna&#x27; in spoken English.</div>
+    <div class="explanation-ko">미래의 의도나 계획을 표현할 때 사용합니다. 구어체에서 &#x27;going to&#x27;는 종종 &#x27;gonna&#x27;로 축약됩니다.</div>
+    <div class="example">I&#x27;m going to help you sound a little bit more like a native speaker.</div><div class="example">I&#x27;m going to give you three tips.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">How can I + verb?</div>
+    <div class="explanation">A question structure used to ask for advice or methods to accomplish something.</div>
+    <div class="explanation-ko">무언가를 달성하기 위한 조언이나 방법을 물을 때 사용하는 의문문 구조입니다.</div>
+    <div class="example">How can I sound like a native speaker?</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Let me + verb</div>
+    <div class="explanation">Used to introduce an action the speaker is about to take, often to signal they are about to explain or demonstrate something.</div>
+    <div class="explanation-ko">화자가 곧 할 행동을 소개할 때 사용하며, 보통 무언가를 설명하거나 보여주려 할 때 씁니다.</div>
+    <div class="example">Let me just tell you that it will take time.</div><div class="example">Let me start with this word.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">The best way is to + verb</div>
+    <div class="explanation">Used to recommend the most effective method or approach for doing something.</div>
+    <div class="explanation-ko">무언가를 하기 위한 가장 효과적인 방법이나 접근법을 추천할 때 사용합니다.</div>
+    <div class="example">The best way is to live in an English-speaking country.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Whether... or...</div>
+    <div class="explanation">A conjunction structure used to present two or more alternatives, meaning &#x27;it doesn&#x27;t matter which one&#x27;.</div>
+    <div class="explanation-ko">&#x27;어느 것이든 상관없이&#x27;라는 의미로 두 가지 이상의 대안을 제시할 때 사용하는 접속사 구조입니다.</div>
+    <div class="example">Whether you&#x27;re speaking Spanish or Polish or Chinese, you do this in your language as well.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What this means is...</div>
+    <div class="explanation">A discourse marker used to clarify or explain a concept that was just introduced.</div>
+    <div class="explanation-ko">방금 소개한 개념을 명확히 하거나 설명할 때 사용하는 담화 표지입니다.</div>
+    <div class="example">What this means, when a word ends in a consonant...</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Make sure you + verb</div>
+    <div class="explanation">An imperative structure used to give advice or instruction, emphasizing that something should definitely be done.</div>
+    <div class="explanation-ko">조언이나 지시를 줄 때 사용하는 명령문 구조로, 반드시 해야 할 것을 강조합니다.</div>
+    <div class="example">Make sure you roll it in.</div><div class="example">Make sure you do a lot of listening.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">For those of you who...</div>
+    <div class="explanation">A phrase used to address a specific subset of the audience, narrowing down who the next information applies to.</div>
+    <div class="explanation-ko">청중 중 특정 그룹을 지칭할 때 사용하는 표현으로, 다음 정보가 누구에게 해당하는지 좁혀줍니다.</div>
+    <div class="example">For those of you who are going to be taking a test.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present continuous for future (be + going to be + -ing)</div>
+    <div class="explanation">Used to describe a future action that is planned or expected. Combines &#x27;going to&#x27; with the progressive form.</div>
+    <div class="explanation-ko">계획되었거나 예상되는 미래의 행동을 설명할 때 사용합니다. &#x27;going to&#x27;와 진행형을 결합합니다.</div>
+    <div class="example">For those of you who are going to be taking a test.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">I&#x27;ve heard + noun/clause</div>
+    <div class="explanation">Present perfect used to describe an experience that has occurred at some point before now, with relevance to the present.</div>
+    <div class="explanation-ko">현재까지의 경험을 설명할 때 사용하는 현재완료 시제로, 현재와 관련성이 있음을 나타냅니다.</div>
+    <div class="example">I&#x27;ve heard many students say comf-or-ta-ble.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Imperative for instruction (verb + object)</div>
+    <div class="explanation">Direct commands used in teaching to give clear, actionable instructions to the listener.</div>
+    <div class="explanation-ko">수업에서 청자에게 명확하고 실행 가능한 지시를 내릴 때 사용하는 직접 명령문입니다.</div>
+    <div class="example">Practice that.</div><div class="example">Say it quickly.</div><div class="example">Blend the letters.</div><div class="example">Listen to TV sitcoms.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">That&#x27;s what/how...</div>
+    <div class="explanation">A demonstrative structure used to summarize or refer back to what was just explained.</div>
+    <div class="explanation-ko">방금 설명한 것을 요약하거나 다시 언급할 때 사용하는 지시 구조입니다.</div>
+    <div class="example">That&#x27;s what we&#x27;re going to do here.</div><div class="example">That&#x27;s how a native speaker would say it naturally.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">black coffee</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">블래커피</span>
+    <div class="details">
+        <div class="phonetic-ipa">/blæˈkɒfi/</div>
+        <div class="explanation-text">단어가 자음으로 끝나고 다음 단어가 같은 자음으로 시작하면 첫 번째 자음이 생략됩니다. 두 K 소리가 하나로 합쳐집니다.</div>
+        <div class="practice">&#x27;black&#x27;의 마지막 K를 발음하지 말고 바로 &#x27;coffee&#x27;의 K로 넘어가세요. 블래-커피가 아니라 블래커피로 한 번에 말하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">not at all</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">나라톨</span>
+    <div class="details">
+        <div class="phonetic-ipa">/nɒɾəˈɾɔːl/</div>
+        <div class="explanation-text">자음-모음 연결: &#x27;not&#x27;의 T가 &#x27;at&#x27;의 A와 연결되고, &#x27;at&#x27;의 T가 &#x27;all&#x27;의 A와 연결됩니다. T 소리가 가볍게 튕기는 소리(플랩)가 됩니다.</div>
+        <div class="practice">&#x27;나-타-톨&#x27;처럼 세 음절로 나누어 연습한 후 점점 빠르게 말해보세요. T를 강하게 발음하지 말고 혀를 가볍게 윗잇몸에 튕기세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">consonant to consonant</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">칸서넌터칸서넌트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkɒnsənəntəˈkɒnsənənt/</div>
+        <div class="explanation-text">단어를 연결할 때, 첫 번째 단어의 마지막 T가 다음 단어의 시작 자음과 부드럽게 연결되어 사이에 멈춤이 없습니다.</div>
+        <div class="practice">두 단어 사이에 멈추지 말고 자연스럽게 이어서 발음하세요. 같은 자음이 만나면 하나만 발음합니다.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">roll it in</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">롤리린</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈroʊlɪɾɪn/</div>
+        <div class="explanation-text">자음-모음 연결: &#x27;roll&#x27;의 L이 &#x27;it&#x27;의 I와 연결되고, &#x27;it&#x27;의 T(가볍게 튕기는 소리로 변함)가 &#x27;in&#x27;의 I와 연결됩니다.</div>
+        <div class="practice">세 단어를 따로 끊지 말고 &#x27;롤리린&#x27;처럼 하나로 이어서 발음하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">sounds the same</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">사운즈더쎄임</span>
+    <div class="details">
+        <div class="phonetic-ipa">/saʊnzðəˈseɪm/</div>
+        <div class="explanation-text">&#x27;sounds&#x27;의 마지막 Z 소리가 &#x27;the&#x27;의 &#x27;th&#x27;와 끊김 없이 바로 연결되어 부드러운 자음 연쇄를 만듭니다.</div>
+        <div class="practice">&#x27;사운즈&#x27;와 &#x27;더&#x27; 사이에 멈추지 말고 자연스럽게 이어서 발음하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">What do you do?</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">와러여두</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʌɾəjəˈduː/</div>
+        <div class="explanation-text">여러 축약이 일어남: &#x27;What&#x27;의 마지막 T가 사라지고, &#x27;do&#x27;는 &#x27;duh/də&#x27;로 축약되며, &#x27;you&#x27;는 &#x27;yə&#x27;가 됩니다. 전체 구문이 더 적은 음절로 압축됩니다.</div>
+        <div class="practice">&#x27;왓 두 유 두&#x27;가 아니라 &#x27;와러여두&#x27;처럼 빠르게 연결해서 말해보세요. 강세는 마지막 &#x27;do&#x27;에만 주세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I&#x27;m going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아임거너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪmˈɡənə/</div>
+        <div class="explanation-text">&#x27;Going to&#x27;는 일상 대화에서 흔히 &#x27;gonna&#x27;로 축약됩니다. 모음 소리가 짧아지고 &#x27;going&#x27;의 마지막 G가 생략됩니다.</div>
+        <div class="practice">&#x27;아임 고잉 투&#x27;가 아니라 &#x27;아임거너&#x27;처럼 빠르게 말하세요. &#x27;going to&#x27;를 &#x27;거너&#x27;로 축약해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">a lot of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">어라러브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/əˈlɒɾəv/</div>
+        <div class="explanation-text">&#x27;lot&#x27;의 T가 모음 사이에서 플랩 소리(빠른 D처럼)가 되고, &#x27;of&#x27;는 /əv/로만 축약됩니다.</div>
+        <div class="practice">&#x27;어 랏 오브&#x27;가 아니라 &#x27;어라러브&#x27;처럼 자연스럽게 연결해서 말하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈwɒnə/</div>
+        <div class="explanation-text">&#x27;Want to&#x27;는 일상 대화에서 흔히 &#x27;wanna&#x27;로 축약됩니다. T가 생략되고 두 단어가 합쳐집니다.</div>
+        <div class="practice">&#x27;원트 투&#x27;가 아니라 &#x27;워너&#x27;로 한 단어처럼 발음하세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">comfortable</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">컴프터블</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkʌmftəbəl/</div>
+        <div class="explanation-text">음절 축소: 두 번째 음절 &#x27;or&#x27;이 완전히 생략됩니다. 4음절(com-for-ta-ble)에서 3음절(comf-ta-ble)로 줄어듭니다.</div>
+        <div class="practice">&#x27;컴포터블&#x27;이 아니라 &#x27;컴프터블&#x27;로 발음하세요. &#x27;for&#x27; 부분을 빼고 바로 &#x27;f&#x27; 다음에 &#x27;t&#x27;로 넘어가세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">interesting</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">인트러스팅</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɪntrəstɪŋ/</div>
+        <div class="explanation-text">음절 축소: 두 번째 음절 &#x27;er&#x27;이 생략됩니다. 4음절(in-ter-est-ing)에서 3음절(in-tre-sting)로 줄어듭니다. 또한 TR이 CHR처럼 소리납니다.</div>
+        <div class="practice">&#x27;인터레스팅&#x27;이 아니라 &#x27;인트러스팅&#x27;으로 발음하세요. 가운데 &#x27;er&#x27;을 빼고 &#x27;t&#x27;와 &#x27;r&#x27;을 합쳐서 &#x27;chr&#x27; 소리를 내세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">every</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">에브리</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈevri/</div>
+        <div class="explanation-text">가운데 모음 E가 생략되어 3음절(ev-er-y)에서 2음절(ev-ry)로 줄어듭니다.</div>
+        <div class="practice">&#x27;에버리&#x27;가 아니라 &#x27;에브리&#x27;로 두 음절만 발음하세요. 가운데 &#x27;er&#x27;을 빼세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">tree / treat / country</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">츄리 / 츄릿 / 컨츄리</span>
+    <div class="details">
+        <div class="phonetic-ipa">/tʃriː/ /tʃriːt/ /ˈkʌntʃri/</div>
+        <div class="explanation-text">T와 R이 함께 나타나면 T가 동화되어 CHR처럼 소리납니다. 이것을 파찰음화라고 합니다.</div>
+        <div class="practice">&#x27;트리&#x27;가 아니라 &#x27;츄리&#x27;처럼 발음하세요. 혀를 입천장에 대고 &#x27;ch&#x27; 소리를 내면서 바로 &#x27;r&#x27;로 연결하세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">hundred</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">헌쥐러드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈhʌndʒrəd/</div>
+        <div class="explanation-text">D와 R이 함께 나타나면 D가 동화되어 JR처럼 소리납니다. 혀가 D와 R 사이를 빠르게 전환할 수 없어서 합쳐집니다.</div>
+        <div class="practice">&#x27;헌드레드&#x27;가 아니라 &#x27;헌쥐러드&#x27;처럼 발음하세요. D를 J로 바꾸어 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">Did you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">디져</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdɪdʒə/</div>
+        <div class="explanation-text">단어 끝의 D가 다음 단어 시작의 Y를 만나면 합쳐져서 J(dʒ) 소리가 됩니다. 이것을 구개음화라고 합니다.</div>
+        <div class="practice">&#x27;디드 유&#x27;가 아니라 &#x27;디져&#x27;처럼 한 단어처럼 발음하세요. D와 Y를 합쳐서 &#x27;져&#x27; 소리를 내세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"Hi again. Welcome back to www.engvid.com."</div>
+        <div class="signal-role">인사와 채널 소개로 시청자의 관심을 끄는 도입부</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type hook">hook</span>
+    <div>
+        <div class="signal-expr">"Today, I&#x27;m going to help you sound a little bit more like a native speaker"</div>
+        <div class="signal-role">수업의 목표와 기대 효과를 명확하게 제시하는 도입</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Well, before I say anything, let me just tell you"</div>
+        <div class="signal-role">본론에 들어가기 전 중요한 전제 조건을 먼저 언급하는 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"So we&#x27;re looking at pronunciation"</div>
+        <div class="signal-role">주제를 명시적으로 선언하며 본론으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"We&#x27;re going to start with connecting words"</div>
+        <div class="signal-role">첫 번째 팁을 소개하며 구체적 내용으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Now, another thing is when a word ends in a consonant"</div>
+        <div class="signal-role">&#x27;Now&#x27;와 &#x27;another thing&#x27;으로 새로운 하위 주제로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"For those of you who are going to be taking a test"</div>
+        <div class="signal-role">특정 청중을 대상으로 한 실용적 응용 섹션으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Another thing we do is we squeeze some words"</div>
+        <div class="signal-role">두 번째 주요 팁(단어 압축)으로의 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Another word like that. Interesting."</div>
+        <div class="signal-role">같은 범주의 다른 예시로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Last. Squeeze letters."</div>
+        <div class="signal-role">세 번째이자 마지막 팁으로의 전환을 &#x27;Last&#x27;로 명시</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But also, make sure you do a lot of listening"</div>
+        <div class="signal-role">팁에서 연습 조언 섹션으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Thank you for joining me today"</div>
+        <div class="signal-role">감사 인사로 수업을 마무리하는 결론부</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion">conclusion</span>
+    <div>
+        <div class="signal-expr">"Please go to the YouTube channel, my channel on YouTube, subscribe"</div>
+        <div class="signal-role">구독 유도와 작별 인사로 영상을 마무리</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=ChZJ1Q3GSuI
+    </div>
+</div>
+
+</body>
+</html>

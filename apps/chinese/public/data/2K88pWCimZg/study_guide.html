@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">中文 Study Guide</div>
+    <h1>The dark history of the Chinese Exclusion Act - Robert Chang</h1>
+    <div class="subtitle">TED-Ed</div>
+    <div class="desc-ko">미국 배화법과 채창핑 사건으로 보는 이민 배제 정책의 역사</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">5:57</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">238</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">70</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/2K88pWCimZg/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyZh/#/study/2K88pWCimZg">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (19 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (1 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (13 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Tones &amp; Pronunciation (16 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (14 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 5-minute video by TED-Ed is structured into 5 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입 및 배경</span>
+        <span class="sec-time">0:00 ~ 1:06</span>
+    </div>
+    <div class="sec-summary">영상은 캘리포니아에서 12년을 살았던 중국 이민자 채창핑을 소개합니다. 그는 중국 방문에 필요한 서류를 제대로 준비했으나, 1888년 10월 샌프란시스코로 돌아왔을 때 스콧법으로 인해 입국이 거부됩니다. 창핑은 이에 이의를 제기하며 수천 명의 중국 이민자를 위한 법적 투쟁을 시작하지만, 그의 사건은 오늘날까지도 영향을 미치는 논란적인 정책을 낳게 됩니다.</div>
+    <div class="key-points"><span class="key-point">채창핑은 캘리포니아에서 12년 거주한 중국 시민권자</span><span class="key-point">스콧법(Scott Act)이 재입국 문서를 소급하여 무효화</span><span class="key-point">1888년 10월 샌프란시스코 항구에서 하선 금지</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">반중국 차별의 역사적 기원</span>
+        <span class="sec-time">1:07 ~ 2:37</span>
+    </div>
+    <div class="sec-summary">중국 이민자에 대한 차별은 캘리포니아 골드러시 시대에 시작되었습니다. 처음에는 믿음직스러운 노동자로 환영받아 철도 건설, 광산 작업, 사업 운영 등을 했으며, 1868년 버링게임 조약으로 호혜적 지위도 얻었습니다. 그러나 경제적으로 성공하면서 미국 노동자들의 위협 대상이 되었고, 1854년 캘리포니아 최고법원은 중국인 목격자의 증언을 인정하지 않겠다는 판결을 내려 중국인에 대한 폭력을 사실상 합법화했습니다.</div>
+    <div class="key-points"><span class="key-point">골드러시 시대에는 중국 이민자들이 환영받음</span><span class="key-point">경제적 성공 후 반중국 정서 고조</span><span class="key-point">1854년 법원 판결로 중국인 증언 금지 → 폭력 합법화</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">배화법과 재입국 문제</span>
+        <span class="sec-time">2:37 ~ 3:20</span>
+    </div>
+    <div class="sec-summary">반중국 정서가 연방 수준으로 확산되어 1882년 국회는 배화법을 통과시킵니다. 이는 국적에 근거해 이민을 명시적으로 제한한 최초의 연방법으로, 외교관을 제외한 중국계 이민자 입국을 금지하고, 시민권 취득도 막았습니다. 해외 여행 시에는 재입국 증명서를 신청해야 했는데, 1888년 스콧법은 아예 재입국을 전면 금지하여 창핑을 포함한 수천 명이 발이 묶이게 됩니다.</div>
+    <div class="key-points"><span class="key-point">1882년 배화법: 최초의 국적 기반 이민 제한 연방법</span><span class="key-point">외교관 제외 중국계 이민자 입국 전면 금지</span><span class="key-point">1888년 스콧법으로 재입국 완전 봉쇄</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">법정 투쟁과 대법원 판결</span>
+        <span class="sec-time">3:22 ~ 4:25</span>
+    </div>
+    <div class="sec-summary">법정에서 창핑은 재입국 증명서를 적법하게 취득했고 정부가 이를 이행하지 않았다고 주장하며 대법원까지 올라갔습니다. 그러나 대법관들은 창핑에게 불리한 판결을 내려 수천 건의 재입국 증명서를 일괄 무효화했습니다. 창핑은 추방되었고 2만 명의 중국 이민자가 귀환 불가 상태가 됩니다. 더 중요한 것은 판결의 논리로, 법원은 의회가 이민 정책을 국가 안보 사항으로 선언했기 때문에 스콧법을 심사할 권한이 없다고 선언했습니다(절대권력 원칙).</div>
+    <div class="key-points"><span class="key-point">대법원이 창핑 패소 판결 → 재입국 증명서 일괄 무효화</span><span class="key-point">2만 명의 중국 이민자 귀환 불가</span><span class="key-point">&#x27;절대권력 원칙(plenary power doctrine)&#x27; 수립: 이민은 국가 안보 사항</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">지속적인 영향과 유산</span>
+        <span class="sec-time">4:26 ~ 5:52</span>
+    </div>
+    <div class="sec-summary">채창핑 사건의 선례는 의회와 행정부가 국가 안보를 명목으로 어떤 이민법이든 통과시킬 수 있는 길을 열었습니다. 20세기 내내 외국인 혐오적 관료들이 이 권한을 남용했고, 1917년 아시아 금지 구역법, 1920년대 일련의 이민 제한법이 이어졌습니다. 이 제한들은 2차 세계대전 후 많이 해제되었고 배화법도 1943년에 폐지되었습니다. 그러나 미국 정부는 여전히 이 선례를 이용해 전면적인 이민 정책을 시행하며, 창핑이 겪은 불의는 오늘날 이민자 권리에도 계속 영향을 미치고 있습니다.</div>
+    <div class="key-points"><span class="key-point">절대권력 원칙이 20세기 내내 차별적 이민 정책에 활용</span><span class="key-point">배화법은 1943년에야 폐지 (시행 60년 이상 후)</span><span class="key-point">현재도 미국 정부가 동일한 선례를 이민 정책에 사용</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">歧视</span>
+        <span class="phonetic">qíshì</span>
+        <span class="pos">动词/名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 4</div>
+    <div class="definition">To discriminate; discrimination</div>
+    <div class="meaning-ko">차별하다; 차별</div>
+    <div class="root-breakdown"><span class="root-part">歧 (diverge, branch)</span><span class="root-part">视 (look at, regard)</span></div>
+    
+    <div class="context">"对中国移民的歧视早在数十年前便已开始。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">移民</span>
+        <span class="phonetic">yímín</span>
+        <span class="pos">名词/动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 2</div>
+    <div class="definition">Immigrant; to immigrate</div>
+    <div class="meaning-ko">이민자; 이민하다</div>
+    <div class="root-breakdown"><span class="root-part">移 (move, shift)</span><span class="root-part">民 (people, civilian)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 名</div>
+    <div class="context">"昌平和同船的移民乘客被禁止下船。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">禁止</span>
+        <span class="phonetic">jìnzhǐ</span>
+        <span class="pos">动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 3</div>
+    <div class="definition">To prohibit, to forbid, to ban</div>
+    <div class="meaning-ko">금지하다</div>
+    <div class="root-breakdown"><span class="root-part">禁 (prohibit, forbid)</span><span class="root-part">止 (stop, halt)</span></div>
+    
+    <div class="context">"昌平和同船的移民乘客被禁止下船。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">法案</span>
+        <span class="phonetic">fǎ&#x27;àn</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 4</div>
+    <div class="definition">Bill, legislation, act</div>
+    <div class="meaning-ko">법안</div>
+    <div class="root-breakdown"><span class="root-part">法 (law, method)</span><span class="root-part">案 (case, plan, table)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个/项</div>
+    <div class="context">"格罗弗·克利夫兰总统签署了《斯科特法案》。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">裁决</span>
+        <span class="phonetic">cáijué</span>
+        <span class="pos">名词/动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 2</div>
+    <div class="definition">Ruling, decision, verdict; to rule</div>
+    <div class="meaning-ko">판결; 판결하다</div>
+    <div class="root-breakdown"><span class="root-part">裁 (cut, decide, judge)</span><span class="root-part">决 (decide, determine)</span></div>
+    
+    <div class="context">"昌平对这一裁决提出了异议。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">政策</span>
+        <span class="phonetic">zhèngcè</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4</div>
+    <div class="definition">Policy</div>
+    <div class="meaning-ko">정책</div>
+    <div class="root-breakdown"><span class="root-part">政 (government, politics)</span><span class="root-part">策 (plan, policy, whip)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 个/项</div>
+    <div class="context">"这项政策威胁要拆散家庭，剥夺中国移民的家园和生计。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">先例</span>
+        <span class="phonetic">xiānlì</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 4</div>
+    <div class="definition">Precedent</div>
+    <div class="meaning-ko">선례</div>
+    <div class="root-breakdown"><span class="root-part">先 (first, earlier)</span><span class="root-part">例 (example, precedent, case)</span></div>
+    
+    <div class="context">"这一裁决树立了一个独特的先例。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">驱逐</span>
+        <span class="phonetic">qūzhú</span>
+        <span class="pos">动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 2</div>
+    <div class="definition">To expel, to deport, to drive out</div>
+    <div class="meaning-ko">추방하다, 쫓아내다</div>
+    <div class="root-breakdown"><span class="root-part">驱 (drive, urge)</span><span class="root-part">逐 (chase, expel, one by one)</span></div>
+    
+    <div class="context">"这一裁决导致昌平被驱逐出境。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">入境</span>
+        <span class="phonetic">rùjìng</span>
+        <span class="pos">动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 4</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 4</div>
+    <div class="definition">To enter a country, to enter the border</div>
+    <div class="meaning-ko">입국하다, 입경하다</div>
+    <div class="root-breakdown"><span class="root-part">入 (enter)</span><span class="root-part">境 (border, territory, situation)</span></div>
+    
+    <div class="context">"该法案使允许他们重新入境美国的合法文件失效。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">废除</span>
+        <span class="phonetic">fèichú</span>
+        <span class="pos">动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 2</div>
+    <div class="definition">To abolish, to repeal, to annul</div>
+    <div class="meaning-ko">폐지하다, 폐기하다</div>
+    <div class="root-breakdown"><span class="root-part">废 (abolish, waste, useless)</span><span class="root-part">除 (remove, get rid of)</span></div>
+    
+    <div class="context">"《排华法案》本身最终于1943年被废除。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">公民</span>
+        <span class="phonetic">gōngmín</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 2</div>
+    <div class="definition">Citizen</div>
+    <div class="meaning-ko">시민</div>
+    <div class="root-breakdown"><span class="root-part">公 (public, common, official)</span><span class="root-part">民 (people, civilian)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 名</div>
+    <div class="context">"在加利福尼亚州生活了十二年之后，中国公民蔡昌平准备回国探亲。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">证书</span>
+        <span class="phonetic">zhèngshū</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 1</div>
+    <div class="definition">Certificate, credential</div>
+    <div class="meaning-ko">증명서, 자격증</div>
+    <div class="root-breakdown"><span class="root-part">证 (prove, certificate)</span><span class="root-part">书 (book, document)</span></div>
+    <div style="font-size:8pt;color:#64748b;">Measure word: 份/张</div>
+    <div class="context">"除非先申请再入境证书。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">联邦</span>
+        <span class="phonetic">liánbāng</span>
+        <span class="pos">名词/形容词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 1</div>
+    <div class="definition">Federal; federation</div>
+    <div class="meaning-ko">연방</div>
+    <div class="root-breakdown"><span class="root-part">联 (connect, unite, join)</span><span class="root-part">邦 (state, nation, country)</span></div>
+    
+    <div class="context">"这是第一部明确基于国籍限制移民的联邦法律。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">种族主义</span>
+        <span class="phonetic">zhǒngzú zhǔyì</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 3 2 3 4</div>
+    <div class="definition">Racism</div>
+    <div class="meaning-ko">인종주의, 인종차별주의</div>
+    <div class="root-breakdown"><span class="root-part">种族 (race, ethnic group)</span><span class="root-part">主义 (-ism, doctrine)</span></div>
+    
+    <div class="context">"比法院的种族主义裁决更重要的，是他们用来支持这一裁决的逻辑。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">最高法院</span>
+        <span class="phonetic">zuìgāo fǎyuàn</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 1 3 4</div>
+    <div class="definition">Supreme Court</div>
+    <div class="meaning-ko">대법원</div>
+    <div class="root-breakdown"><span class="root-part">最高 (highest, supreme)</span><span class="root-part">法院 (court of law)</span></div>
+    
+    <div class="context">"加利福尼亚州最高法院推翻了这一定罪。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">国会</span>
+        <span class="phonetic">guóhuì</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 4</div>
+    <div class="definition">Congress, parliament, national assembly</div>
+    <div class="meaning-ko">국회, 의회</div>
+    <div class="root-breakdown"><span class="root-part">国 (country, nation)</span><span class="root-part">会 (meeting, assembly)</span></div>
+    
+    <div class="context">"1882年，国会通过了《排华法案》。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">国家安全</span>
+        <span class="phonetic">guójiā ānquán</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 1 1 2</div>
+    <div class="definition">National security</div>
+    <div class="meaning-ko">국가 안보</div>
+    <div class="root-breakdown"><span class="root-part">国家 (country, state)</span><span class="root-part">安全 (safety, security)</span></div>
+    
+    <div class="context">"国会已将该移民政策宣布为国家安全事项。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">推翻</span>
+        <span class="phonetic">tuīfān</span>
+        <span class="pos">动词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 1 1</div>
+    <div class="definition">To overturn, to overthrow, to reverse</div>
+    <div class="meaning-ko">뒤집다, 번복하다</div>
+    <div class="root-breakdown"><span class="root-part">推 (push)</span><span class="root-part">翻 (overturn, flip)</span></div>
+    
+    <div class="context">"加利福尼亚州最高法院推翻了这一定罪。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">人权</span>
+        <span class="phonetic">rénquán</span>
+        <span class="pos">名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 5</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 2 2</div>
+    <div class="definition">Human rights</div>
+    <div class="meaning-ko">인권</div>
+    <div class="root-breakdown"><span class="root-part">人 (person, human)</span><span class="root-part">权 (right, power, authority)</span></div>
+    
+    <div class="context">"《排华法案》不会是美国最后一次以归属感的名义侵犯人权。"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">制衡</span>
+        <span class="phonetic">zhìhéng</span>
+        <span class="pos">动词/名词</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">HSK 6</span>
+    </div>
+    <div style="font-size:8pt;color:#94a3b8;">Tones: 4 2</div>
+    <div class="definition">Checks and balances; to check and balance</div>
+    <div class="meaning-ko">견제와 균형; 견제하다</div>
+    <div class="root-breakdown"><span class="root-part">制 (control, system)</span><span class="root-part">衡 (balance, weigh)</span></div>
+    
+    <div class="context">"最高法院被视为对美国政府另外两个部门的制衡。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">被 + 动词 (被动句)</div>
+    <div class="explanation">The 被 (bèi) passive construction. Subject + 被 + agent + verb. Used when the subject undergoes an action performed by someone else.</div>
+    <div class="explanation-ko">被(bèi) 수동태 구문. 주어 + 被 + 행위자 + 동사. 주어가 다른 사람이 수행한 행동을 당하는 경우 사용됩니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;昌平和同船的移民乘客被禁止下船。&#x27;, &#x27;pinyin&#x27;: &#x27;Chāngpíng hé tóngchuán de yímín chéngkè bèi jìnzhǐ xiàchuán.&#x27;, &#x27;korean&#x27;: &#x27;창핑과 같은 배를 탄 이민자 승객들은 하선이 금지되었다.&#x27;}</div><div class="example">{&#x27;chinese&#x27;: &#x27;《排华法案》本身最终于1943年被废除。&#x27;, &#x27;pinyin&#x27;: &quot;《Páihuá Fǎ&#x27;àn》 běnshēn zuìzhōng yú yījiǔsìsān nián bèi fèichú.&quot;, &#x27;korean&#x27;: &#x27;중국인 배제법 자체는 마침내 1943년에 폐지되었다.&#x27;}</div><div class="example">{&#x27;chinese&#x27;: &#x27;这一裁决导致昌平被驱逐出境。&#x27;, &#x27;pinyin&#x27;: &#x27;Zhè yī cáijué dǎozhì Chāngpíng bèi qūzhú chūjìng.&#x27;, &#x27;korean&#x27;: &#x27;이 판결로 창핑은 추방되었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">随着 + 变化，结果 (随着…的变化)</div>
+    <div class="explanation">随着 (suízhe) means &#x27;as&#x27; or &#x27;along with&#x27;, indicating a change that accompanies another change. Pattern: 随着 + [change/event], [result].</div>
+    <div class="explanation-ko">随着(suízhe)는 &#x27;~함에 따라&#x27;, &#x27;~와 함께&#x27;를 의미하며, 한 변화에 수반되는 또 다른 변화를 나타냅니다. 패턴: 随着 + [변화/사건], [결과].</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;但随着大量中国移民取得成功，美国工人开始将他们视为威胁。&#x27;, &#x27;pinyin&#x27;: &#x27;Dàn suízhe dàliàng Zhōngguó yímín qǔdé chénggōng, Měiguó gōngrén kāishǐ jiāng tāmen shì wéi wēixié.&#x27;, &#x27;korean&#x27;: &#x27;하지만 다수의 중국 이민자들이 성공을 거두면서, 미국 노동자들은 그들을 위협으로 여기기 시작했다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">不仅…而且… (not only...but also)</div>
+    <div class="explanation">This correlative conjunction structure connects two clauses to indicate that both conditions apply. Similar pattern: 既…又… or 不但…还…</div>
+    <div class="explanation-ko">두 절을 연결해 두 조건이 모두 적용됨을 나타내는 상관 접속사 구조입니다. 유사 패턴: 既…又… 또는 不但…还…</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;许多人修建铁路、在矿山工作，另一些人则经营洗衣店、餐馆和杂货店。&#x27;, &#x27;pinyin&#x27;: &#x27;Xǔduō rén xiūjiàn tiělù, zài kuàngshān gōngzuò, lìng yīxiē rén zé jīngyíng xǐyīdiàn, cānguǎn hé záhuòdiàn.&#x27;, &#x27;korean&#x27;: &#x27;많은 이들이 철도를 건설하고 광산에서 일했으며, 다른 이들은 세탁소, 식당, 잡화점을 운영했다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">使 + 宾语 + 结果 (使字句 causative)</div>
+    <div class="explanation">使 (shǐ) is a causative verb meaning &#x27;to cause&#x27; or &#x27;to make&#x27;. Structure: [cause] + 使 + [object] + [result]. Formal and written Chinese register.</div>
+    <div class="explanation-ko">使(shǐ)는 &#x27;~하게 만들다&#x27;, &#x27;~하게 하다&#x27;를 의미하는 사역 동사입니다. 구조: [원인] + 使 + [대상] + [결과]. 격식체 문어체 표현.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;该法案使允许他们重新入境美国的合法文件失效。&#x27;, &#x27;pinyin&#x27;: &quot;Gāi fǎ&#x27;àn shǐ yǔnxǔ tāmen chóngxīn rùjìng Měiguó de héfǎ wénjiàn shīxiào.&quot;, &#x27;korean&#x27;: &#x27;그 법안은 그들의 미국 재입국을 허가하는 합법적 서류를 무효화했다.&#x27;}</div><div class="example">{&#x27;chinese&#x27;: &#x27;这也意味着中国人不能离开美国后再返回。&#x27;, &#x27;pinyin&#x27;: &#x27;Zhè yě yìwèizhe Zhōngguó rén bù néng líkāi Měiguó hòu zài fǎnhuí.&#x27;, &#x27;korean&#x27;: &#x27;이는 또한 중국인들이 미국을 떠났다가 다시 돌아올 수 없다는 것을 의미했다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">以…为由 (on the grounds of / citing...as the reason)</div>
+    <div class="explanation">以 (yǐ) + noun + 为由 means &#x27;using [noun] as a reason/pretext&#x27;. Common in legal and formal contexts.</div>
+    <div class="explanation-ko">以(yǐ) + 명사 + 为由는 &#x27;[명사]를 이유/구실로 삼아&#x27;를 의미합니다. 법률적, 격식 문맥에서 자주 사용됩니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;国会和行政部门可以以国家安全为由，随意制定任何移民法律。&#x27;, &#x27;pinyin&#x27;: &#x27;Guóhuì hé xíngzhèng bùmén kěyǐ yǐ guójiā ānquán wéi yóu, suíyì zhìdìng rènhé yímín fǎlǜ.&#x27;, &#x27;korean&#x27;: &#x27;의회와 행정부는 국가 안보를 이유로 들어 원하는 대로 어떤 이민법도 통과시킬 수 있게 되었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">导致 + 结果 (to lead to / resulting in)</div>
+    <div class="explanation">导致 (dǎozhì) means &#x27;to lead to&#x27;, &#x27;to cause&#x27;, or &#x27;to result in&#x27;. It introduces a negative or undesired consequence. More formal than 让 or 使.</div>
+    <div class="explanation-ko">导致(dǎozhì)는 &#x27;~으로 이어지다&#x27;, &#x27;~을 초래하다&#x27;를 의미합니다. 주로 부정적이거나 원치 않는 결과를 도입하는 데 사용됩니다. 让이나 使보다 격식체.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;这一裁决导致昌平被驱逐出境，并使多达两万名中国移民无法返回美国。&#x27;, &#x27;pinyin&#x27;: &#x27;Zhè yī cáijué dǎozhì Chāngpíng bèi qūzhú chūjìng.&#x27;, &#x27;korean&#x27;: &#x27;이 판결로 창핑은 추방되었고, 최대 2만 명의 중국 이민자들이 미국으로 돌아오지 못하게 되었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">不得 (not permitted to / must not)</div>
+    <div class="explanation">不得 (bùdé) is a formal/legal expression meaning &#x27;must not&#x27; or &#x27;is not permitted to&#x27;. Stronger and more official than 不能 (bù néng).</div>
+    <div class="explanation-ko">不得(bùdé)는 &#x27;해서는 안 된다&#x27;, &#x27;허용되지 않는다&#x27;를 의미하는 격식적/법률적 표현입니다. 不能(bù néng)보다 더 강하고 공식적인 어감입니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;法院宣布中国公民不得作为白人被告的证人。&#x27;, &#x27;pinyin&#x27;: &#x27;Fǎyuàn xuānbù Zhōngguó gōngmín bù dé zuòwéi báirén bèigào de zhèngrén.&#x27;, &#x27;korean&#x27;: &#x27;법원은 중국 시민은 백인 피고에 불리한 증언을 할 수 없다고 선언했다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">可以说 (it can be said / arguably)</div>
+    <div class="explanation">可以说 (kěyǐ shuō) is a discourse marker meaning &#x27;one could say&#x27;, &#x27;arguably&#x27;, or &#x27;it can be said&#x27;. Used to introduce a claim or evaluation.</div>
+    <div class="explanation-ko">可以说(kěyǐ shuō)는 &#x27;말할 수 있다&#x27;, &#x27;어찌 보면&#x27;, &#x27;~라고 할 수 있다&#x27;를 의미하는 담화 표지입니다. 주장이나 평가를 도입할 때 사용됩니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;但可以说，比法院的种族主义裁决更重要的，是他们用来支持这一裁决的逻辑。&#x27;, &#x27;pinyin&#x27;: &#x27;Dàn kěyǐ shuō, bǐ fǎyuàn de zhǒngzú zhǔyì cáijué gèng zhòngyào de, shì tāmen yòng lái zhīchí zhè yī cáijué de luójí.&#x27;, &#x27;korean&#x27;: &#x27;하지만 어찌 보면, 법원의 인종차별적 판결보다 더 중요한 것은 그들이 그 판결을 지지하는 데 사용한 논리였다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">至今 (up to now / still today)</div>
+    <div class="explanation">至今 (zhìjīn) means &#x27;up to the present&#x27; or &#x27;still today&#x27;. It emphasizes that a situation that began in the past continues into the present.</div>
+    <div class="explanation-ko">至今(zhìjīn)는 &#x27;지금까지&#x27;, &#x27;현재에도&#x27;를 의미합니다. 과거에 시작된 상황이 현재까지 계속되고 있음을 강조합니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;但他的案件引发了一项更具争议性的政策，至今仍影响着全球各地的移民。&#x27;, &#x27;pinyin&#x27;: &#x27;Dàn tā de ànjian yǐnfā le yī xiàng gèng jù zhēngyì xìng de zhèngcè, zhìjīn réng yǐngxiǎng zhe quánqiú gèdì de yímín.&#x27;, &#x27;korean&#x27;: &#x27;하지만 그의 사건은 훨씬 더 논란이 많은 정책을 낳았으며, 그 정책은 오늘날에도 전 세계 이민자들에게 영향을 미치고 있다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">除非 (unless)</div>
+    <div class="explanation">除非 (chúfēi) introduces a condition that is the only exception, meaning &#x27;unless&#x27;. Often paired with 否则 (fǒuzé, &#x27;otherwise&#x27;) or 才 (cái, &#x27;only then&#x27;).</div>
+    <div class="explanation-ko">除非(chúfēi)는 유일한 예외 조건을 도입하며 &#x27;~하지 않는 한&#x27;, &#x27;~이 아니면&#x27;을 의미합니다. 종종 否则(fǒuzé, &#x27;그렇지 않으면&#x27;)이나 才(cái, &#x27;그래야만&#x27;)와 함께 사용됩니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;除非先申请再入境证书。&#x27;, &#x27;pinyin&#x27;: &#x27;Chúfēi xiān shēnqǐng zài rùjìng zhèngshū.&#x27;, &#x27;korean&#x27;: &#x27;먼저 재입국 증명서를 신청하지 않는 한 말이다.&#x27;}</div><div class="example">{&#x27;chinese&#x27;: &#x27;除非昌平案被推翻，国会和行政部门可以以国家安全为由随意制定任何移民法律。&#x27;, &#x27;pinyin&#x27;: &#x27;Chúfēi Chāngpíng àn bèi tuīfān, guóhuì hé xíngzhèng bùmén kěyǐ yǐ guójiā ānquán wéi yóu suíyì zhìdìng rènhé yímín fǎlǜ.&#x27;, &#x27;korean&#x27;: &#x27;창핑의 사건이 번복되지 않는 한, 의회와 행정부는 국가 안보를 이유로 원하는 대로 어떤 이민법도 통과시킬 수 있게 되었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">这一 (this particular / this specific)</div>
+    <div class="explanation">这一 (zhè yī) literally &#x27;this one&#x27;, used in formal/academic Chinese to refer to a specific previously mentioned item. More formal and precise than just 这.</div>
+    <div class="explanation-ko">这一(zhè yī)는 문자 그대로 &#x27;이 하나&#x27;로, 격식체/학술체 중국어에서 이전에 언급된 특정 항목을 가리킵니다. 단순한 这보다 더 격식적이고 정확합니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;这一裁决树立了一个独特的先例。&#x27;, &#x27;pinyin&#x27;: &#x27;Zhè yī cáijué shùlì le yī gè dútè de xiānlì.&#x27;, &#x27;korean&#x27;: &#x27;이 판결은 독특한 선례를 세웠다.&#x27;}</div><div class="example">{&#x27;chinese&#x27;: &#x27;这一政策威胁要拆散家庭，剥夺中国移民的家园和生计。&#x27;, &#x27;pinyin&#x27;: &#x27;Zhè yī zhèngcè wēixié yào chāisàn jiātíng.&#x27;, &#x27;korean&#x27;: &#x27;이 정책은 가족을 뿔뿔이 흩어놓을 위협이 되었다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">然而 (however / yet / nevertheless)</div>
+    <div class="explanation">然而 (rán&#x27;ér) is a formal conjunction meaning &#x27;however&#x27; or &#x27;nevertheless&#x27;. It introduces a contrasting or contradictory statement. More formal than 但是.</div>
+    <div class="explanation-ko">然而(rán&#x27;ér)는 &#x27;그러나&#x27;, &#x27;하지만&#x27;, &#x27;그럼에도 불구하고&#x27;를 의미하는 격식체 접속사입니다. 대조적이거나 모순적인 진술을 도입합니다. 但是보다 더 격식체.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;然而，在本案中，法院表示他们无权对斯科特法案进行裁判。&#x27;, &#x27;pinyin&#x27;: &quot;Rán&#x27;ér, zài běn àn zhōng, fǎyuàn biǎoshì tāmen wú quán duì Sīkētè Fǎ&#x27;àn jìnxíng cáipàn.&quot;, &#x27;korean&#x27;: &#x27;하지만 이 사건에서 법원은 스콧법에 대해 판단할 권한이 없다고 밝혔다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">由于 / 因为 ... 所以 (because...therefore)</div>
+    <div class="explanation">由于 (yóuyú) or 因为 (yīnwèi) introduce cause, 所以 (suǒyǐ) introduces result. 由于 is more formal and usually used in written Chinese. Often the 所以 clause is implied rather than stated.</div>
+    <div class="explanation-ko">由于(yóuyú) 또는 因为(yīnwèi)는 원인을 도입하고, 所以(suǒyǐ)는 결과를 도입합니다. 由于는 더 격식체이며 주로 문어체에서 사용됩니다.</div>
+    <div class="example">{&#x27;chinese&#x27;: &#x27;因为国会已将该移民政策宣布为国家安全事项，所以法院表示无权裁判。&#x27;, &#x27;pinyin&#x27;: &#x27;Yīnwèi guóhuì yǐ jiāng gāi yímín zhèngcè xuānbù wéi guójiā ānquán shìxiàng, suǒyǐ fǎyuàn biǎoshì wú quán cáipàn.&#x27;, &#x27;korean&#x27;: &#x27;의회가 그 이민 정책을 국가 안보 사항으로 선언했기 때문에, 법원은 판단할 권한이 없다고 밝혔다.&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Tones &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key tone patterns and pronunciation phenomena. Master these for natural-sounding Mandarin!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Tone Sandhi (변조)</div>
+<div class="cs-card">
+    <span class="original">一举</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yī jǔ</span>
+    <div class="details">
+        <div class="phonetic-ipa">一 changes from Tone 1 (yī) to Tone 2 (yí) before Tone 3 (jǔ): yí jǔ</div>
+        <div class="explanation-text">一(yī)가 3성(jǔ) 앞에 올 때 2성(yí)으로 변합니다. 一 + 3성 = 2성 + 3성.</div>
+        <div class="practice">Practice: yī → yí before jǔ. Say slowly: yí jǔ → yíjǔ (in one fell swoop)</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">不得</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">bù dé</span>
+    <div class="details">
+        <div class="phonetic-ipa">不 changes from Tone 4 (bù) to Tone 2 (bú) before Tone 4 (dé): bú dé</div>
+        <div class="explanation-text">不(bù)가 4성(dé) 앞에 올 때 2성(bú)으로 변합니다. 不 + 4성 = 2성 + 4성.</div>
+        <div class="practice">Practice: bù → bú before dé. Say: bú dé (not permitted). Note: this is a fixed rule for 不 before 4th tone.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">不仅</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">bù jǐn</span>
+    <div class="details">
+        <div class="phonetic-ipa">不 stays Tone 4 (bù) before Tone 3 (jǐn). No change needed here, but note that 仅 is Tone 3.</div>
+        <div class="explanation-text">不(bù)는 3성(jǐn) 앞에서 변화 없이 4성을 유지합니다. 4성 + 3성 조합입니다.</div>
+        <div class="practice">Practice the 4th + 3rd tone combination: bù jǐn. Keep the bù short and falling, jǐn dipping down.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">可以</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">kě yǐ</span>
+    <div class="details">
+        <div class="phonetic-ipa">Two consecutive third tones: the first 可 (kě) changes to Tone 2 (ké): ké yǐ</div>
+        <div class="explanation-text">3성 + 3성 연속 시, 앞의 3성이 2성으로 변합니다. 可以(kě yǐ) → 발음 시 ké yǐ.</div>
+        <div class="practice">Two third tones together: 可(kě) + 以(yǐ). In natural speech, 可 becomes second tone: ké yǐ. Practice: ké-yǐ.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Neutral Tone (경성)</div>
+<div class="cs-card">
+    <span class="original">他们</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">tā men</span>
+    <div class="details">
+        <div class="phonetic-ipa">们 (men) is a neutral tone suffix. It should be pronounced lightly and briefly after the main syllable tā.</div>
+        <div class="explanation-text">们(men)은 중성조(경성) 접미사입니다. 주 음절 tā 뒤에 가볍고 짧게 발음합니다.</div>
+        <div class="practice">tā-men: 他(tā) gets full Tone 1, 们(men) is barely voiced — very short and light. Do not stress 们.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">我们</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">wǒ men</span>
+    <div class="details">
+        <div class="phonetic-ipa">们 (men) is neutral tone. The main syllable 我(wǒ) keeps its 3rd tone; 们 is reduced.</div>
+        <div class="explanation-text">们(men)은 경성으로, 주 음절 我(wǒ)의 3성을 유지하면서 们을 짧고 가볍게 발음합니다.</div>
+        <div class="practice">wǒ-men: stress the wǒ dip, then let men trail off softly. Common in everyday speech.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Erhua (얼화)</div>
+<div class="cs-card">
+    <span class="original">一点儿</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yīdiǎnr</span>
+    <div class="details">
+        <div class="phonetic-ipa">儿化 (erhua): 儿 is not a separate syllable but retroflexes the preceding vowel. 点儿 is pronounced diǎnr in one syllable.</div>
+        <div class="explanation-text">儿化(얼화): 儿는 독립된 음절이 아니라 앞 모음을 권설음화합니다. 点儿은 diǎnr로 한 음절처럼 발음됩니다.</div>
+        <div class="practice">diǎn + r → diǎnr. Curl the tip of the tongue up and back (retroflex) as you finish saying diǎn. Do not add an extra syllable.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Tone Change Yi</div>
+<div class="cs-card">
+    <span class="original">一直</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yī zhí</span>
+    <div class="details">
+        <div class="phonetic-ipa">一 before Tone 2 (zhí) stays Tone 1: yī zhí. (一 only changes before Tone 1, 2, 3 → becomes Tone 4; before Tone 3 → becomes Tone 2)</div>
+        <div class="explanation-text">一(yī)가 2성(zhí) 앞에서는 4성(yì)으로 변합니다: yì zhí. 실제 발음은 yì zhí로 읽습니다.</div>
+        <div class="practice">一直(yīzhí) in formal citation is Tone 1 + Tone 2, but in natural speech 一 becomes Tone 4: yì zhí. Practice both forms.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Sandhi In Compound</div>
+<div class="cs-card">
+    <span class="original">不公正</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">bù gōng zhèng</span>
+    <div class="details">
+        <div class="phonetic-ipa">不(bù) + Tone 1 gōng = no change. 不 only changes before Tone 4. Here 不 stays Tone 4 before Tone 1 (gōng).</div>
+        <div class="explanation-text">不(bù)는 1성(gōng) 앞에서 변화 없이 4성을 유지합니다. 不는 4성 앞에서만 2성으로 변합니다.</div>
+        <div class="practice">bù gōng zhèng: Tone 4, Tone 1, Tone 4. Practice the contrast: falling (bù), high level (gōng), falling (zhèng).</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Linking Sounds</div>
+<div class="cs-card">
+    <span class="original">发现了</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">fā xiàn le</span>
+    <div class="details">
+        <div class="phonetic-ipa">The particle 了(le) is neutral tone. When following a verb, it attaches naturally without pause. fā-xiàn-le flows as one unit.</div>
+        <div class="explanation-text">어기조사 了(le)는 경성으로, 동사 뒤에 자연스럽게 붙습니다. fā-xiàn-le는 끊지 않고 한 단위로 흐릅니다.</div>
+        <div class="practice">Verb + 了: Do not pause before 了. The 了 is just a light extra syllable: fā-xiàn-le (discovered/found). Practice linking the verb smoothly to 了.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Tone Pair Practice</div>
+<div class="cs-card">
+    <span class="original">歧视</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">qí shì</span>
+    <div class="details">
+        <div class="phonetic-ipa">Tone 2 + Tone 4: rising then falling. This is a very common combination in Chinese. The key is the rising of qí before the sharp fall of shì.</div>
+        <div class="explanation-text">2성 + 4성 조합: 올라갔다가 내려옵니다. 중국어에서 매우 흔한 성조 조합입니다. qí의 상승 후 shì의 급격한 하강이 핵심입니다.</div>
+        <div class="practice">qí (voice rises like a question: up) + shì (voice falls sharply: down). Practice: qí↑shì↓. Say it several times: qíshì, qíshì.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">移民</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">yí mín</span>
+    <div class="details">
+        <div class="phonetic-ipa">Tone 2 + Tone 2: both syllables rise. Keep each syllable distinctly rising, do not flatten them.</div>
+        <div class="explanation-text">2성 + 2성 조합: 두 음절 모두 올라갑니다. 각 음절이 분명히 올라가도록 유지하고 평탄하게 만들지 않습니다.</div>
+        <div class="practice">yí↑ mín↑: both tones rise. Imagine two question-like sounds in a row. Practice: yí-mín, yí-mín. Keep them energetic and rising.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">法律</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">fǎ lǜ</span>
+    <div class="details">
+        <div class="phonetic-ipa">Tone 3 + Tone 4: dip-then-fall pattern. 法(fǎ) dips down then rises slightly; 律(lǜ) falls sharply. Very common pattern for legal vocabulary.</div>
+        <div class="explanation-text">3성 + 4성 조합: 내려갔다 올라갔다가(3성) 급격히 내려갑니다(4성). 법률 어휘에서 매우 흔한 패턴입니다.</div>
+        <div class="practice">fǎ (dip down-up) + lǜ (sharp fall). The 3rd tone dip is important — do not skip the valley. fǎ↓↑lǜ↓. Practice slowly then faster.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Rhythm Pattern</div>
+<div class="cs-card">
+    <span class="original">国家安全</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">guó jiā ān quán</span>
+    <div class="details">
+        <div class="phonetic-ipa">Tone 2 + Tone 1 + Tone 1 + Tone 2: rising-high-high-rising pattern. Four syllable compound with a rhythmic flow.</div>
+        <div class="explanation-text">2성 + 1성 + 1성 + 2성: 올라가고-높고-높고-올라가는 패턴. 리드미컬한 흐름을 가진 4음절 복합어입니다.</div>
+        <div class="practice">guó↑ jiā→ ān→ quán↑: two rises with two high flats in the middle. Practice as one smooth four-syllable word: guójiā&#x27;ānquán.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Consonant Initial</div>
+<div class="cs-card">
+    <span class="original">歧视 vs 其次</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">qíshì vs qícì</span>
+    <div class="details">
+        <div class="phonetic-ipa">Both start with q- (aspirated). Practice the aspiration: q is like &#x27;ch&#x27; but with strong airflow. Put paper in front of your mouth — it should flutter.</div>
+        <div class="explanation-text">둘 다 q-로 시작합니다(유기음). 기식(aspiration) 연습: q는 &#x27;ch&#x27;와 비슷하지만 강한 기류가 필요합니다. 입 앞에 종이를 대면 펄럭여야 합니다.</div>
+        <div class="practice">q-: place your tongue near the hard palate, push air out forcefully: qi, qi, qi. Compare with no aspiration: j (no puff). Feel the difference.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Connected Flow</div>
+<div class="cs-card">
+    <span class="original">这项政策威胁要拆散家庭</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">zhè xiàng zhèngcè wēixié yào chāisàn jiātíng</span>
+    <div class="details">
+        <div class="phonetic-ipa">In natural speech, this phrase flows as two rhythm groups: [zhè-xiàng-zhèng-cè] [wēi-xié-yào-chāi-sàn-jiā-tíng]. Slight pause between them.</div>
+        <div class="explanation-text">자연스러운 발화에서 이 문장은 두 개의 리듬 그룹으로 흐릅니다: [这项政策] [威胁要拆散家庭]. 그 사이에 약간의 휴지(pause)가 있습니다.</div>
+        <div class="practice">Group 1: zhè-xiàng-zhèng-cè (this policy). Group 2: wēi-xié-yào-chāi-sàn-jiā-tíng (threatened to break apart families). Practice each group then combine with a brief pause.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type temporal_sequence">temporal_sequence</span>
+    <div>
+        <div class="signal-expr">"最初"</div>
+        <div class="signal-role">과거의 초기 상황을 도입 — &#x27;처음에는&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast_transition">contrast_transition</span>
+    <div>
+        <div class="signal-expr">"但随着"</div>
+        <div class="signal-role">상황 변화의 전환점 표시 — &#x27;하지만 ~함에 따라&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type historical_marker">historical_marker</span>
+    <div>
+        <div class="signal-expr">"在 [year] 年"</div>
+        <div class="signal-role">역사적 사건의 날짜 도입</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type setting_marker">setting_marker</span>
+    <div>
+        <div class="signal-expr">"在法庭上"</div>
+        <div class="signal-role">새로운 장면/환경 도입 — &#x27;법정에서&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast_conjunction">contrast_conjunction</span>
+    <div>
+        <div class="signal-expr">"但"</div>
+        <div class="signal-role">예상과 반대되는 결과 도입 — &#x27;하지만&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type evaluative_pivot">evaluative_pivot</span>
+    <div>
+        <div class="signal-expr">"但可以说"</div>
+        <div class="signal-role">더 중요한 요점으로 분석 전환 — &#x27;하지만 어찌 보면&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast_setup">contrast_setup</span>
+    <div>
+        <div class="signal-expr">"传统上"</div>
+        <div class="signal-role">일반적 기대치 설정 후 위반을 보여주기 위한 준비 — &#x27;전통적으로&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type contrast_conjunction">contrast_conjunction</span>
+    <div>
+        <div class="signal-expr">"然而"</div>
+        <div class="signal-role">앞서 설정한 기대에 반하는 내용 도입 — &#x27;그러나&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type significance_statement">significance_statement</span>
+    <div>
+        <div class="signal-expr">"这一裁决树立了一个独特的先例"</div>
+        <div class="signal-role">핵심 논제 진술 — 선례의 중요성 강조</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type temporal_sweep">temporal_sweep</span>
+    <div>
+        <div class="signal-expr">"整个二十世纪"</div>
+        <div class="signal-role">넓은 역사적 시간 범위 도입 — &#x27;20세기 내내&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type resolution_marker">resolution_marker</span>
+    <div>
+        <div class="signal-expr">"最终于 [year] 年"</div>
+        <div class="signal-role">마침내 이루어진 결과를 나타냄 — &#x27;마침내 ~년에&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type ongoing_impact">ongoing_impact</span>
+    <div>
+        <div class="signal-expr">"但…继续"</div>
+        <div class="signal-role">과거와 현재를 연결하며 지속적 영향 강조 — &#x27;하지만 계속&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type information_gap">information_gap</span>
+    <div>
+        <div class="signal-expr">"小是知晓 / 几乎无从知晓"</div>
+        <div class="signal-role">역사적 공백을 인정 — &#x27;거의 알려지지 않음&#x27;</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type conclusion_bridge">conclusion_bridge</span>
+    <div>
+        <div class="signal-expr">"继续影响着"</div>
+        <div class="signal-role">과거의 사건이 현재에도 영향을 미침을 강조하는 결론 표현</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=2K88pWCimZg
+    </div>
+</div>
+
+</body>
+</html>

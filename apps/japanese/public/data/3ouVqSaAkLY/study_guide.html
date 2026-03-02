@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>Day in the Life of a Japanese Casino Worker Pachinko</h1>
+    <div class="subtitle">Paolo fromTOKYO</div>
+    <div class="desc-ko">도쿄 파친코 홀 직원의 하루 업무와 일본 서비스 문화를 브이로그로 소개</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">14:51</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">101</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">16</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">11</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/3ouVqSaAkLY/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/3ouVqSaAkLY">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (11 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (5 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (11 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (10 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (10 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 14-minute video by Paolo fromTOKYO is structured into 10 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:00 ~ 2:03</span>
+    </div>
+    <div class="sec-summary">진행자(파올로 from TOKYO)가 도쿄의 대형 파친코 홀 마루한에서 일하는 27살 켄토를 소개한다.</div>
+    <div class="key-points"><span class="key-point">켄토는 27살, 도쿄 거주</span><span class="key-point">마루한 파친코 홀 근무</span><span class="key-point">이 영상은 그의 하루를 따라가는 &#x27;일상 브이로그&#x27;</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Arrival and Morning Preparation</span>
+        <span class="sec-time">2:06 ~ 5:25</span>
+    </div>
+    <div class="sec-summary">켄토가 출근해 유니폼으로 갈아입고, 그날의 직원 배치표를 확인한다. 플로어와 직원 배치가 설명된다.</div>
+    <div class="key-points"><span class="key-point">출근 후 유니폼 착용</span><span class="key-point">その日のスタッフの配置 확인</span><span class="key-point">床面(플로어) 구조 설명</span><span class="key-point">켄토의 담당 구역 파악</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Opening and Customer Service</span>
+        <span class="sec-time">6:27 ~ 7:54</span>
+    </div>
+    <div class="sec-summary">홀이 문을 열고 켄토는 손님 한 명 한 명에게 인사하며 환영한다. 플로어를 순회하며 고객을 지원한다.</div>
+    <div class="key-points"><span class="key-point">개장 시 전 고객에게 인사</span><span class="key-point">大きな歓迎 (큰 환영)의 중요성</span><span class="key-point">お客様は神様 정신 실천</span><span class="key-point">고객에게 친밀하되 방해되지 않는 거리 유지</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Lunch Break and Computer Work</span>
+        <span class="sec-time">7:56 ~ 8:40</span>
+    </div>
+    <div class="sec-summary">켄토는 30분 점심 휴식을 취하며 편의점 도시락을 먹는다. 이후 컴퓨터 작업으로 引き継ぎ(교대 인계 기록)를 확인한다.</div>
+    <div class="key-points"><span class="key-point">30분 점심 휴식, 코스트 절약을 위해 コンビニ弁当</span><span class="key-point">引き継ぎ 시스템: 교대별 업무 기록</span><span class="key-point">다음 시프트와 정보 공유로 서비스 연속성 유지</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Pachinko Hall Explanation</span>
+        <span class="sec-time">8:41 ~ 9:38</span>
+    </div>
+    <div class="sec-summary">켄토가 작업하는 동안 나레이터가 파친코 규칙을 설명한다: 볼 메커니즘, 잭팟 시스템, 골드칩 환전, 그리고 현금 교환을 위한 법적 우회 방법.</div>
+    <div class="key-points"><span class="key-point">パチンコ = 핀볼 유사 기계식 게임</span><span class="key-point">スタートチャッカーに入ると → 슬롯 회전 시작</span><span class="key-point">賞金を景品に交換可能 (경품 교환)</span><span class="key-point">賭博禁止法 → ゴールドチップ → TUCショップで現金化 (삼각 환전 구조)</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Afternoon Work: Maintenance and Service</span>
+        <span class="sec-time">9:42 ~ 11:01</span>
+    </div>
+    <div class="sec-summary">홀로 돌아온 켄토는 기계 청소, 쓰레기 수거, 특수 카트로 초과 당첨금 관리, 기계 수리, 슬롯용 동전 계수기 조작 등을 수행한다.</div>
+    <div class="key-points"><span class="key-point">機械の清掃 (기계 청소) 및 ゴミ収集</span><span class="key-point">勝ち続けるお客様のための空間確保</span><span class="key-point">特別なカートでボール・メダル保管</span><span class="key-point">コインカウンター 조작</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Data Check and Security</span>
+        <span class="sec-time">11:03 ~ 12:02</span>
+    </div>
+    <div class="sec-summary">켄토는 1160대 기계 전체의 데이터 체크를 수행하여 오류와 부정행위를 감지한다. 마스크를 착용해도 고객을 식별하는 얼굴 인식 시스템도 소개된다.</div>
+    <div class="key-points"><span class="key-point">1160台のデータを一日数回チェック</span><span class="key-point">不正行為の検出 및 フロアスタッフへの即時通知</span><span class="key-point">顔認識システム: マスク着用者も識別可能</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Staff Management and Evaluation</span>
+        <span class="sec-time">12:03 ~ 12:46</span>
+    </div>
+    <div class="sec-summary">홀 매니저로서 켄토는 플로어 직원들의 고객 서비스를 정기적으로 평가한다. 신입 직원을 지도하고, 다음 시프트를 위한 인계 기록도 작성한다.</div>
+    <div class="key-points"><span class="key-point">優れた顧客サービスの強調</span><span class="key-point">頻繁な評価 = 기본 원칙</span><span class="key-point">外国語ハウツープレイブック 제공</span><span class="key-point">新入社員指導 (신입 직원 멘토링)</span><span class="key-point">引き継ぎ作成 (다음 교대를 위한 기록)</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">End of Shift: Shurei and Pocket Check</span>
+        <span class="sec-time">12:49 ~ 13:09</span>
+    </div>
+    <div class="sec-summary">시프트가 終礼(종례)로 마무리된다. 하루의 사건들을 학습 기회로 검토한다. 직원들은 포켓 체크를 실시한다.</div>
+    <div class="key-points"><span class="key-point">終礼 = 시프트 마무리 회의</span><span class="key-point">학습 기회로 활용</span><span class="key-point">ポケットチェック = 직원 절도 방지</span><span class="key-point">今日も一日ありがとうございました (감사 인사)</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">10</span>
+        <span class="sec-title">After Work: Dinner and Outro</span>
+        <span class="sec-time">13:22 ~ 14:50</span>
+    </div>
+    <div class="sec-summary">퇴근 후 켄토와 진행자가 저녁을 먹으러 나간다. 영상은 お疲れ様でした와 また次回の動画でお会いしましょう로 마무리된다.</div>
+    <div class="key-points"><span class="key-point">ご飯！(밥!) = 퇴근 후 저녁 식사</span><span class="key-point">お疲れ様でした (수고 인사)</span><span class="key-point">また次回の動画でお会いしましょう (다음 영상에서 만나요)</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">引き継ぎ</span>
+        <span class="phonetic">ひきつぎ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">handover; shift handover report; passing on of duties</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"引き継ぎを確認する必要があります。これは基本的に日々の記録です。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お客様は神様</span>
+        <span class="phonetic">おきゃくさまはかみさま</span>
+        <span class="pos">慣用句</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">The customer is god; a Japanese saying emphasizing absolute customer respect</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"「お客様は神様」、直訳すると「お客様は神様です」"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">配置</span>
+        <span class="phonetic">はいち</span>
+        <span class="pos">名詞・動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">placement; arrangement; deployment (of staff)</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"その日のスタッフの配置が決まっています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ホールマネージャー</span>
+        <span class="phonetic">ホールマネージャー</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">hall manager; floor manager at a pachinko parlor</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">清掃</span>
+        <span class="phonetic">せいそう</span>
+        <span class="pos">名詞・動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">cleaning; sanitation; sweeping</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"新宿の街がすごく汚いですので、店舗の周辺を清掃します。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">景品</span>
+        <span class="phonetic">けいひん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">prize; gift; premium item (exchangeable for winnings)</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"面白いのは、賞金を使って様々な景品と交換できることです。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">賭博</span>
+        <span class="phonetic">とばく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">gambling; betting</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"賭博が日本法で禁止されているため、現金と直接交換することはできません。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">顔認識</span>
+        <span class="phonetic">かおにんしき</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">face recognition; facial identification system</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"顔認識システムで、マスクをしていてもお客様を特定できます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ポケットチェック</span>
+        <span class="phonetic">ポケットチェック</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT Nなし</span>
+    </div>
+    <div class="definition">pocket check; end-of-shift inspection to prevent staff theft</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"ポケットチェック、最後じゃ、じゃあ取り。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">終礼</span>
+        <span class="phonetic">しゅうれい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">end-of-shift meeting; closing ceremony/roll call</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"いよいよシフトを終礼で締めくくる時間です。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お疲れ様でした</span>
+        <span class="phonetic">おつかれさまでした</span>
+        <span class="pos">慣用句</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN4</span>
+    </div>
+    <div class="definition">Thank you for your hard work; You&#x27;ve worked hard (said at end of work)</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"お疲れ様でした。"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">定期的</span>
+        <span class="phonetic">ていきてき</span>
+        <span class="pos">な形容詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">regular; periodic; systematic</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご飯</span>
+        <span class="phonetic">ごはん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN5</span>
+    </div>
+    <div class="definition">rice; meal; food</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"ご飯の時間！やったー！"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">スタートチャッカー</span>
+        <span class="phonetic">スタートチャッカー</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT Nなし</span>
+    </div>
+    <div class="definition">start chacker; designated hole in pachinko that initiates slot roll</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"スタートチャッカーと呼ばれる指定のポケットにボールが入ると、"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">新入社員</span>
+        <span class="phonetic">しんにゅうしゃいん</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">new employee; new hire; freshman worker</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"新入社員ですね。シャツの黄緑バッジで分かります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">窃盗防止</span>
+        <span class="phonetic">せっとうぼうし</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">theft prevention; anti-theft measures</div>
+    <div class="meaning-ko"></div>
+    <div class="context">"最後に、スタッフの窃盗防止のためポケットチェックを行います。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜なければなりません</div>
+    <div class="explanation">Expresses obligation or necessity. Formed by negating the verb (ない form) and adding ければなりません. Equivalent to &#x27;must&#x27; or &#x27;have to&#x27;.</div>
+    <div class="explanation-ko">의무나 필요성을 나타내는 표현. 동사의 부정형(ない형)에 ければなりません을 붙여서 만듦. &#x27;~해야 합니다&#x27;에 해당.</div>
+    <div class="example">各機械が清潔に保たれているかを確認しなければなりません。</div><div class="example">ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。</div><div class="example">急がないといけません。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようにします</div>
+    <div class="explanation">Expresses making an effort toward a goal or ensuring a state is achieved. &#x27;So that ~ / to make sure ~&#x27;. The ように portion marks the goal, する the intentional effort.</div>
+    <div class="explanation-ko">목표를 향해 노력하거나 어떤 상태를 실현하기 위해 행동함을 나타냄. &#x27;~하도록 합니다/노력합니다&#x27;. ように가 목표를, する가 의도적 행동을 나타냄.</div>
+    <div class="example">次のシフトと共有して、サービスの質を途切れさせないようにします。</div><div class="example">極めて丁寧でありながら、お客様の邪魔にならないよう気をつけます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜として</div>
+    <div class="explanation">Marks a role, capacity, or position. &#x27;As a ~; in the capacity of ~&#x27;. Used to establish the subject&#x27;s role before describing their action.</div>
+    <div class="explanation-ko">역할, 자격, 입장을 나타내는 표현. &#x27;~로서, ~의 자격으로&#x27;. 주어의 역할을 밝힌 후 행동을 설명할 때 사용.</div>
+    <div class="example">ホールマネージャーとして、ケントはフロアスタッフを定期的に評価しなければなりません。</div><div class="example">仕事の一環として、コンピューター作業もあります。</div><div class="example">学びの機会として活用し、将来の業務向上に役立てます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にの（〜に）よって / 〜につれて</div>
+    <div class="explanation">〜につれて expresses &#x27;as ~ happens, ~ follows&#x27;. It describes a parallel change between two things. Contrast with につれ (literary) and に伴い.</div>
+    <div class="explanation-ko">〜につれて는 &#x27;~할수록 ~하다&#x27;는 뜻으로, 두 가지 변화가 함께 일어남을 나타냄. &#x27;기계가 사용될수록 청결 확인이 필요해진다&#x27;처럼 쓰임.</div>
+    <div class="example">しかし機械がお客様に使われるにつれ、各機械が清潔に保たれているかを確認しなければなりません。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ため（に）</div>
+    <div class="explanation">Used to express reason/cause (&#x27;because ~&#x27;) or purpose (&#x27;in order to ~&#x27;). Distinguishing purpose from cause depends on verb form: dictionary form + ため = purpose; plain past/noun + ため = cause.</div>
+    <div class="explanation-ko">이유/원인(&#x27;~때문에&#x27;) 또는 목적(&#x27;~하기 위해&#x27;)을 나타냄. 동사 기본형 + ため는 목적, 과거형/명사 + ため는 원인이 됨.</div>
+    <div class="example">賭博が日本法で禁止されているため、現金と直接交換することはできません。</div><div class="example">最後に、スタッフの窃盗防止のためポケットチェックを行います。</div><div class="example">時間を節約するため、たいてい職場でコンビニ飯を食べます。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ことができます / できます</div>
+    <div class="explanation">Expresses ability or possibility. &#x27;Can do ~; it is possible to ~&#x27;. できます is the potential form of する; for other verbs, plain form + ことができます is a formal alternative.</div>
+    <div class="explanation-ko">가능성이나 능력을 나타냄. &#x27;~할 수 있습니다&#x27;. する의 가능형이 できます이며, 다른 동사는 기본형 + ことができます로 표현.</div>
+    <div class="example">顔認識システムで、マスクをしていてもお客様を特定できます。</div><div class="example">そして近くのTUCショップで、ゴールドチップを現金に換えることができます。</div><div class="example">賞金を使って様々な景品と交換できることです。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようです / ようだ</div>
+    <div class="explanation">Expresses an inference or conjecture based on evidence observed. &#x27;It seems that ~; it appears that ~&#x27;. Used to avoid stating something as fact when the speaker is making a judgment.</div>
+    <div class="explanation-ko">관찰한 증거를 바탕으로 한 추측이나 판단을 나타냄. &#x27;~인 것 같습니다&#x27;. 직접적으로 단정짓지 않을 때 사용.</div>
+    <div class="example">お客様が食事休憩を取ったようです。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てあります / ています (状態の継続)</div>
+    <div class="explanation">〜てあります describes a resultant state from a deliberate action, emphasizing that something has been prepared. 〜ています describes an ongoing state. Both indicate that the condition persists.</div>
+    <div class="explanation-ko">〜てあります는 의도적인 행동의 결과 상태를 나타냄(준비된 상태). 〜ています는 지속 중인 상태. 둘 다 그 상태가 유지됨을 강조.</div>
+    <div class="example">その日のスタッフの配置が決まっています。</div><div class="example">盗まれないようにロックされています。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ので</div>
+    <div class="explanation">Causal conjunction expressing &#x27;because ~; since ~&#x27;. More objective and softer than から, often used in formal/polite contexts.</div>
+    <div class="explanation-ko">이유/원인을 나타내는 접속사. &#x27;~이므로, ~이기 때문에&#x27;. から보다 객관적이고 부드러운 표현으로, 격식체에 자주 쓰임.</div>
+    <div class="example">新宿の街がすごく汚いですので、店舗の周辺を清掃します。</div><div class="example">ケントが仕事に来たので、彼は準備ができるようになります。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜場合</div>
+    <div class="explanation">Expresses a hypothetical or conditional situation. &#x27;In the case of ~; if ~&#x27;. More formal than 〜とき, often used in business or written contexts.</div>
+    <div class="explanation-ko">가정적 또는 조건적 상황을 나타냄. &#x27;~의 경우, ~할 때&#x27;. 〜とき보다 격식 있는 표현으로, 비즈니스나 문어체에 자주 쓰임.</div>
+    <div class="example">問題を発見した場合、即座にフロアスタッフに通知して解決を図ります。</div><div class="example">床でボールを見つけました。この場合、通常は近くのお客様に渡します。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら</div>
+    <div class="explanation">Used to express two simultaneous actions or a contrast. &#x27;While doing ~; at the same time as ~&#x27;. When used contrastively (ながら も), it expresses &#x27;despite ~&#x27;.</div>
+    <div class="explanation-ko">두 행동의 동시 진행 또는 대조를 나타냄. &#x27;~하면서, ~하는 동시에&#x27;. ながらも처럼 대조적으로 쓰이면 &#x27;~임에도 불구하고&#x27;의 뜻.</div>
+    <div class="example">極めて丁寧でありながら、お客様の邪魔にならないよう気をつけます。</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">Keigo Sonkeigo</div>
+<div class="cs-card">
+    <span class="original">お客様</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">접두사 お와 접미사 様가 붙어 客(손님)을 극존칭으로 표현. 서비스업에서 고객에게 사용하는 표준 존경어.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご飯</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">接頭語 ご(혹은 お)가 명사에 붙으면 존경어 또는 정중한 표현이 됨. ご飯는 현재 일상어로 굳어졌지만, 원래 경어적 어감이 남아 있음.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Teineigo</div>
+<div class="cs-card">
+    <span class="original">確認します</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">ます 어미(정중체, teineigo)는 일본어 경어의 가장 기본적인 형태. 공식적/비즈니스 상황에서 모든 동사는 이 형태로 사용됨.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Kenjogo</div>
+<div class="cs-card">
+    <span class="original">もらった</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">いただく는 もらう(받다)의 겸양어(kenjogo). 격식 있는 말에서 상사나 고객에게 무언가를 받았을 때는 もらった 대신 いただきました를 씀.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Keigo Expression</div>
+<div class="cs-card">
+    <span class="original">今日も一日ありがとうございました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">ありがとうございました는 격식 있는 과거 감사 표현. 일본 직장에서는 종례(終礼) 때 동료에게 하루 수고에 대해 단체로 인사함. gozaimashita가 격식과 과거 시제를 추가함.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お疲れ様でした</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">하루 일과 종료 시 &#x27;수고하셨습니다&#x27;에 해당하는 말. 동등하거나 상위 지위의 동료에게 사용. 親한 동료 사이에서는 お疲れ로 줄여 씀.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ごめんなさい</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">ごめんなさい는 일반적인 사과 표현이지만 격식이 높지 않음. 직장이나 고객에게는 申し訳ございません이 사용됨. 영상에서는 켄토가 비격식 상황에서 사용.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">また次回の動画でお会いしましょう</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">お会いしましょう는 &#x27;또 만납시다&#x27;에 해당하는 격식 있는 작별 인사. 会い에 お가 붙어 品格을 높임. 일본 유튜브 영상 마무리 인사로 자주 쓰임.</div>
+        <div class="practice"></div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Pronunciation</div>
+<div class="cs-card">
+    <span class="original">ちょっとした</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">작은 っ(촉음)은 다음 음절 직전에 짧은 정지를 만들어 &#x27;이중 자음&#x27; 효과를 냄. ちょっと에서 っ가 と를 약간 지연/강조시킴.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ホールマネージャー</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic"></span>
+    <div class="details">
+        <div class="phonetic-ipa"></div>
+        <div class="explanation-text">가타카나의 장음 부호 ー는 앞 모음을 두 박자로 연장시킴. ホール에서 오 모음이 두 박자, マネージャー에서 에·아 모음도 연장됨. 일본어 음운의 핵심 특징.</div>
+        <div class="practice"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type introduction">introduction</span>
+    <div>
+        <div class="signal-expr">"このタイプはケント"</div>
+        <div class="signal-role">주인공 켄토를 소개하는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type time_transition">time_transition</span>
+    <div>
+        <div class="signal-expr">"少しずつ開店した後"</div>
+        <div class="signal-role">홀 개장 이후 장면 전환을 알리는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type time_marker">time_marker</span>
+    <div>
+        <div class="signal-expr">"ついにランチタイム！"</div>
+        <div class="signal-role">점심 시간 도래를 알리는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type topic_shift">topic_shift</span>
+    <div>
+        <div class="signal-expr">"少し施設を案内しましょうか"</div>
+        <div class="signal-role">파친코 홀 설명으로 화제 전환을 알리는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type sequential_connector">sequential_connector</span>
+    <div>
+        <div class="signal-expr">"そして近くのTUCショップで"</div>
+        <div class="signal-role">파친코 경품 교환 절차의 다음 단계를 소개</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type scene_return">scene_return</span>
+    <div>
+        <div class="signal-expr">"彼はホールに戻り"</div>
+        <div class="signal-role">홀 설명에서 켄토의 실제 업무 장면으로 돌아오는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type cultural_explanation">cultural_explanation</span>
+    <div>
+        <div class="signal-expr">"In Japanese customer service, there&#x27;s an old saying"</div>
+        <div class="signal-role">お客様は神様 문화 설명의 도입부</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type interview">interview</span>
+    <div>
+        <div class="signal-expr">"今何をしていますか？データチェックをしています"</div>
+        <div class="signal-role">켄토와의 직접 인터뷰를 알리는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing_marker">closing_marker</span>
+    <div>
+        <div class="signal-expr">"いよいよシフトを終礼で締めくくる時間です"</div>
+        <div class="signal-role">시프트 종료 절차 시작을 알리는 표현</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type sign_off">sign_off</span>
+    <div>
+        <div class="signal-expr">"また次回の動画でお会いしましょう"</div>
+        <div class="signal-role">영상 마무리 인사</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=3ouVqSaAkLY
+    </div>
+</div>
+
+</body>
+</html>

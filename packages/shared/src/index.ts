@@ -113,3 +113,4 @@ export { default as VocabularyPage } from './pages/Vocabulary.tsx';
 export { default as ErrorNotePage } from './pages/ErrorNote.tsx';
 export { default as ProfilePage } from './pages/Profile.tsx';
 export { default as RequestPage } from './pages/Request.tsx';
+export { default as SubscribePage } from './pages/Subscribe.tsx';

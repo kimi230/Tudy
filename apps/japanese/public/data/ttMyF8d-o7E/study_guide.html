@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>【初登場】自己紹介も面接も一発OK！「声」で差がつく３つの秘策（元NHK／滑舌／声量／呼吸法／アナウンサー／あなたの話が「伝わらない」のは声のせい／墨屋那津子）</h1>
+    <div class="subtitle">NewsPicks /ニューズピックス</div>
+    <div class="desc-ko">자기소개·면접에서 전달력을 높이는 목소리 훈련 3가지 비법</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:39</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">84</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/ttMyF8d-o7E/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/ttMyF8d-o7E">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (0 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by NewsPicks /ニューズピックス is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">오프닝 및 자기소개</span>
+        <span class="sec-time">0:00 ~ 0:25</span>
+    </div>
+    <div class="sec-summary">히가 기자와 코치 스미야의 첫 만남. 스미야는 &#x27;목소리의 힘으로 인생을 바꾸는 도움&#x27;을 한다고 자기소개.</div>
+    <div class="key-points"><span class="key-point">初めまして の使用</span><span class="key-point">ビジネス自己紹介の基本形</span><span class="key-point">申す(겸양어) 사용</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">트레이닝 경험 소개</span>
+        <span class="sec-time">0:25 ~ 0:54</span>
+    </div>
+    <div class="sec-summary">스미야의 트레이닝 이력 소개. 대기업 사장, 탤런트, 성우 등 2000명 이상. 목소리 고민을 5가지로 정리.</div>
+    <div class="key-points"><span class="key-point">ご依頼(겸양어)</span><span class="key-point">かれこれ(시간 경과)</span><span class="key-point">声の悩み 5つ</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">목소리 고민 5가지</span>
+        <span class="sec-time">0:58 ~ 2:37</span>
+    </div>
+    <div class="sec-summary">목소리 고민을 ①멘탈 부분과 ②목소리 부분으로 나눔. 구체적으로는 발음이 나쁨, 목소리가 작음/큼, 자신감 없음, 설득력 없음, 자신의 목소리가 싫음의 5가지. 히가 본인도 여러 항목에 해당됨을 고백.</div>
+    <div class="key-points"><span class="key-point">滑舌(かつぜつ)의 의미</span><span class="key-point">説得力</span><span class="key-point">自信</span><span class="key-point">聞き返される</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">코치의 개인 체험담</span>
+        <span class="sec-time">2:39 ~ 2:56</span>
+    </div>
+    <div class="sec-summary">스미야 자신도 과거에 동일한 고민을 가지고 있었음을 고백. &#x27;목소리의 힘은 재능이 아닌 노하우&#x27;라는 핵심 메시지 전달. 20세 때의 자신과 히가에게 이를 알려주고 싶다는 동기 부여.</div>
+    <div class="key-points"><span class="key-point">コンプレックス</span><span class="key-point">ノウハウ vs 才能</span><span class="key-point">체험을 통한 공감 형성</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">자기소개 코칭 실습</span>
+        <span class="sec-time">3:00 ~ 4:31</span>
+    </div>
+    <div class="sec-summary">히가의 자기소개문을 코칭. 취재 시 사장 인터뷰에서 &#x27;여기다&#x27;하는 순간에 히가 군이라 불리고 싶다는 목표 설정. 명함이 목소리의 단점을 보완해주는 &#x27;마법의 부적&#x27; 역할을 한다는 인사이트. 자기소개 첫 문장을 연습하고 피드백.</div>
+    <div class="key-points"><span class="key-point">名刺の役割</span><span class="key-point">魔法の札(부적)의 비유</span><span class="key-point">ブラッシュアップ</span><span class="key-point">ここぞという時</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">고정관념 3가지</span>
+        <span class="sec-time">4:35 ~ 5:36</span>
+    </div>
+    <div class="sec-summary">목소리에 관한 고정관념 3가지 소개: ①두려운 색조를 바꾸지 않아도 된다 ②또렷하게 말하지 않아도 된다 ③말에 손대지 않아도 된다. 첫 번째 고정관념에 대해 &#x27;자신의 목소리로 말해주는 것이 신뢰받기 쉽다&#x27;는 이유 설명.</div>
+    <div class="key-points"><span class="key-point">怖い色(목소리 색조)</span><span class="key-point">思い込み</span><span class="key-point">信頼されやすい</span><span class="key-point">自声(本来の声)</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">編集部</span>
+        <span class="phonetic">へんしゅうぶ</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">편집 부서, 편집국</div>
+    <div class="meaning-ko">편집부</div>
+    <div class="context">"編集部の日賀太一です"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">魔法</span>
+        <span class="phonetic">まほう</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">마법, 마술</div>
+    <div class="meaning-ko">마법</div>
+    <div class="context">"たった一つしかない魔法の型があるので一生楽になりますので"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">一生</span>
+        <span class="phonetic">いっしょう</span>
+        <span class="pos">명사/부사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">평생, 일생</div>
+    <div class="meaning-ko">평생, 일생</div>
+    <div class="context">"一生楽になりますので"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">申す</span>
+        <span class="phonetic">もうす</span>
+        <span class="pos">동사(겸양어)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">말하다 (겸양 표현, &#x27;言う&#x27;의 겸양어)</div>
+    <div class="meaning-ko">말씀드리다, ~라고 합니다</div>
+    <div class="context">"スミヤと申します"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">お手伝い</span>
+        <span class="phonetic">おてつだい</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN4</span>
+    </div>
+    <div class="definition">도움, 거들기 (공손한 표현)</div>
+    <div class="meaning-ko">도움, 거들기</div>
+    <div class="context">"そんなお手伝いをしているんです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">方々</span>
+        <span class="phonetic">かたがた</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">여러분, 분들 (방향/사람의 복수형, 경칭)</div>
+    <div class="meaning-ko">분들, 여러분</div>
+    <div class="context">"今までどのような方々をトレーニングされて"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご存知</span>
+        <span class="phonetic">ごぞんじ</span>
+        <span class="pos">명사/형용동사(존경어)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">알고 계심 (존경 표현)</div>
+    <div class="meaning-ko">알고 계시는, 잘 아시는</div>
+    <div class="context">"皆さんがよくご存知の大企業の社長さん"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">こっそり</span>
+        <span class="phonetic">こっそり</span>
+        <span class="pos">부사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">몰래, 은밀히</div>
+    <div class="meaning-ko">몰래, 몰래몰래</div>
+    <div class="context">"だいたいこっそり案件が多いんですけれども"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">かれこれ</span>
+        <span class="phonetic">かれこれ</span>
+        <span class="pos">부사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">벌써, 어느새, 이미 (시간 경과를 나타냄)</div>
+    <div class="meaning-ko">벌써, 어느새</div>
+    <div class="context">"かれこれ2000人以上ご依頼を受けてやっているんですけれども"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご依頼</span>
+        <span class="phonetic">ごいらい</span>
+        <span class="pos">명사(공손어)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">의뢰, 부탁 (공손한 표현)</div>
+    <div class="meaning-ko">의뢰, 부탁</div>
+    <div class="context">"かれこれ2000人以上ご依頼を受けてやっているんですけれども"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">滑舌</span>
+        <span class="phonetic">かつぜつ</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">발음의 명확함, 혀 놀림, 발음</div>
+    <div class="meaning-ko">발음 (명확도), 혀 굴림</div>
+    <div class="context">"滑舌が悪い"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">説得力</span>
+        <span class="phonetic">せっとくりょく</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">설득력</div>
+    <div class="meaning-ko">설득력</div>
+    <div class="context">"説得力がないんじゃないか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">聞き返す</span>
+        <span class="phonetic">ききかえす</span>
+        <span class="pos">동사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">되묻다, 다시 한번 듣다</div>
+    <div class="meaning-ko">되묻다, 다시 물어보다</div>
+    <div class="context">"自分の名前を言った時に聞き返されることが多い"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">コンプレックス</span>
+        <span class="phonetic">こんぷれっくす</span>
+        <span class="pos">명사(외래어)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">콤플렉스, 열등감</div>
+    <div class="meaning-ko">콤플렉스, 열등감</div>
+    <div class="context">"本当にコンプレックスだったのが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">才能</span>
+        <span class="phonetic">さいのう</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">재능</div>
+    <div class="meaning-ko">재능</div>
+    <div class="context">"才能じゃないってことを"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">自己紹介</span>
+        <span class="phonetic">じこしょうかい</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN4</span>
+    </div>
+    <div class="definition">자기소개</div>
+    <div class="meaning-ko">자기소개</div>
+    <div class="context">"自己紹介結構日頃するんですが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">思い込み</span>
+        <span class="phonetic">おもいこみ</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">고정관념, 편견, 믿어버림</div>
+    <div class="meaning-ko">고정관념, 착각, 선입견</div>
+    <div class="context">"皆さん思い込みっていうものがあって"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">信頼</span>
+        <span class="phonetic">しんらい</span>
+        <span class="pos">명사/동사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">신뢰</div>
+    <div class="meaning-ko">신뢰</div>
+    <div class="context">"怖い色を変えない方がいいという理由に信頼されやすい"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">獲得</span>
+        <span class="phonetic">かくとく</span>
+        <span class="pos">명사/동사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">획득, 취득</div>
+    <div class="meaning-ko">획득, 습득</div>
+    <div class="context">"本当にこれ獲得してほしいと思っています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">威厳</span>
+        <span class="phonetic">いげん</span>
+        <span class="pos">명사</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">위엄, 권위</div>
+    <div class="meaning-ko">위엄, 위신</div>
+    <div class="context">"ここは威厳を持たせたいから低い声"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜しかない</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;たった一つしかない魔法の型があるので&#x27;, &#x27;korean&#x27;: &#x27;단 하나밖에 없는 마법의 형태가 있어서&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;選択肢はこれしかない&#x27;, &#x27;korean&#x27;: &#x27;선택지는 이것밖에 없다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ので</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;魔法の型があるので一生楽になります&#x27;, &#x27;korean&#x27;: &#x27;마법의 형태가 있으므로 평생 편해집니다&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;声が小さいので聞き返されます&#x27;, &#x27;korean&#x27;: &#x27;목소리가 작으므로 되묻게 됩니다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と申します</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;スミヤと申します&#x27;, &#x27;korean&#x27;: &#x27;스미야라고 합니다&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;田中一郎と申します&#x27;, &#x27;korean&#x27;: &#x27;다나카 이치로라고 합니다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んですけれども / 〜んですけど</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;かれこれ2000人以上やっているんですけれども&#x27;, &#x27;korean&#x27;: &#x27;벌써 2000명 이상 해왔습니다만&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;社長のインタビューとかがあるんですよ、なりたいんですけど&#x27;, &#x27;korean&#x27;: &#x27;사장님 인터뷰가 있는데요, 되고 싶습니다만&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜っていう / 〜という</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;声の悩みっていうのがある程度5個ぐらいにまとまる&#x27;, &#x27;korean&#x27;: &#x27;목소리 고민이라는 것이 어느 정도 5가지 정도로 정리된다&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;思い込みっていうものがあって&#x27;, &#x27;korean&#x27;: &#x27;고정관념이라는 것이 있어서&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜かな（と思う）</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;5個ぐらいにまとまるかなと思ったので&#x27;, &#x27;korean&#x27;: &#x27;5가지 정도로 정리될 것 같다고 생각해서&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;大丈夫かなっていう風に&#x27;, &#x27;korean&#x27;: &#x27;괜찮을까 하는 식으로&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜こそ</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;大事な時こそこうなっちゃうんですよね&#x27;, &#x27;korean&#x27;: &#x27;중요한 순간일수록 이렇게 되어버리는 거죠&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;私こそありがとうございます&#x27;, &#x27;korean&#x27;: &#x27;저야말로 감사합니다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただく</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;日賀さんに今日分かっていただきたくて&#x27;, &#x27;korean&#x27;: &#x27;히가 씨에게 오늘 이해해주셨으면 해서&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;お名前を覚えていただきたいですよね&#x27;, &#x27;korean&#x27;: &#x27;이름을 기억해주셨으면 하죠&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たら</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;名刺出したら絶対に聞き返されないですね&#x27;, &#x27;korean&#x27;: &#x27;명함 내면 절대로 되묻지 않죠&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;社長さんだったらちょっとここは威厳を持たせたい&#x27;, &#x27;korean&#x27;: &#x27;사장님이라면 좀 여기서 위엄을 갖게 하고 싶다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜みたいな / 〜みたいに</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;魔法の札みたいな感じで&#x27;, &#x27;korean&#x27;: &#x27;마법의 부적 같은 느낌으로&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;日がくんって言われるような感じになりたい&#x27;, &#x27;korean&#x27;: &#x27;히가 군이라 불릴 것 같은 느낌이 되고 싶다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜方がいい</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;怖い色を変えない方がいいという理由に&#x27;, &#x27;korean&#x27;: &#x27;두려운 색조를 바꾸지 않는 편이 좋다는 이유로&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;早く行った方がいい&#x27;, &#x27;korean&#x27;: &#x27;빨리 가는 편이 좋다&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜やすい</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko"></div>
+    <div class="example">{&#x27;japanese&#x27;: &#x27;信頼されやすい&#x27;, &#x27;korean&#x27;: &#x27;신뢰받기 쉽다&#x27;}</div><div class="example">{&#x27;japanese&#x27;: &#x27;聞き取りやすい声&#x27;, &#x27;korean&#x27;: &#x27;듣기 쉬운 목소리&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#64748b;">겸양어(謙譲語)</div>
+<div class="cs-card">
+    <span class="original">スミヤと申します</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">すみやともうします</span>
+    <div class="details">
+        <div class="phonetic-ipa">겸양어(謙譲語I)</div>
+        <div class="explanation-text">&#x27;言う(말하다)&#x27;의 겸양어인 &#x27;申す&#x27;를 사용한 자기소개 표현. 비즈니스 첫 만남에서 자신의 이름을 소개할 때 필수적으로 사용되는 표현.</div>
+        <div class="practice">초대면 비즈니스 자기소개, 공식적 장소에서의 자기소개</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">かれこれ2000人以上ご依頼を受けてやっているんですけれども</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かれこれにせんにんいじょうごいらいをうけてやっているんですけれども</span>
+    <div class="details">
+        <div class="phonetic-ipa">겸양어/공손어</div>
+        <div class="explanation-text">&#x27;ご依頼&#x27;는 상대방의 요청을 높여 부르는 표현. 자신이 받은 의뢰를 &#x27;ご&#x27;로 공손하게 표현함으로써 의뢰인을 존중하는 태도를 보여준다.</div>
+        <div class="practice">자신의 서비스나 업무에 대해 고객의 요청을 언급할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">日賀さんに今日分かっていただきたくて</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ひがさんにきょうわかっていただきたくて</span>
+    <div class="details">
+        <div class="phonetic-ipa">겸양어(謙譲語II)</div>
+        <div class="explanation-text">&#x27;もらう(받다)&#x27;의 겸양어인 &#x27;いただく&#x27;를 사용. 상대방에게 혜택을 받음을 겸손하게 표현. &#x27;~ていただきたい&#x27;는 상대방에게 어떤 행위를 해주기를 바랄 때 쓰는 정중한 요청 표현.</div>
+        <div class="practice">상대방에게 무언가를 이해하거나 알아주기를 부탁할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お名前を覚えていただきたいですよね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おなまえをおぼえていただきたいですよね</span>
+    <div class="details">
+        <div class="phonetic-ipa">겸양어(謙譲語II)</div>
+        <div class="explanation-text">&#x27;お名前&#x27;는 상대방의 이름을 높여 부르는 표현. &#x27;~ていただきたい&#x27;로 상대방이 이름을 기억해주기를 바라는 소망을 정중하게 표현.</div>
+        <div class="practice">비즈니스 자기소개 상황, 상대방에게 기억을 부탁할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">わかりました 初めましてニュースピックス編集部の日型一と申します</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">わかりました はじめましてにゅーすぴっくすへんしゅうぶのひがたいちともうします</span>
+    <div class="details">
+        <div class="phonetic-ipa">겸양어(謙譲語I)</div>
+        <div class="explanation-text">비즈니스 자기소개의 모범적 형태. &#x27;わかりました&#x27;는 &#x27;わかった&#x27;의 정중형. &#x27;申します&#x27;는 &#x27;言います&#x27;의 겸양형으로, 이름을 밝힐 때 가장 정중한 표현.</div>
+        <div class="practice">공식적인 자기소개, 비즈니스 첫 만남</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">존경어(尊敬語)</div>
+<div class="cs-card">
+    <span class="original">今までどのような方々をトレーニングされて</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いままでどのようなかたがたをとれーにんぐされて</span>
+    <div class="details">
+        <div class="phonetic-ipa">존경어(尊敬語)</div>
+        <div class="explanation-text">&#x27;される&#x27;는 수동형이기도 하지만 여기서는 상대방의 행위에 대한 존경을 표현하는 존경어로 사용됨. &#x27;方々(かたがた)&#x27;도 사람을 높여 부르는 표현.</div>
+        <div class="practice">인터뷰나 정중한 대화에서 상대방의 활동을 묻는 상황</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">皆さんがよくご存知の</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさんがよくごぞんじの</span>
+    <div class="details">
+        <div class="phonetic-ipa">존경어(尊敬語)</div>
+        <div class="explanation-text">&#x27;知っている&#x27;의 존경어인 &#x27;ご存知&#x27;를 사용. &#x27;ご&#x27;는 한자어 앞에 붙는 공손 접두사. 상대방 또는 대중이 알고 있음을 높여 표현.</div>
+        <div class="practice">청중이나 상대방의 지식을 존중하면서 말할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">はいありがとうございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">はいありがとうございます</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어(丁寧語)</div>
+        <div class="explanation-text">감사를 표현하는 최고 수준의 정중한 표현. 비즈니스 현장에서 감사 표현의 기본. &#x27;ありがとう&#x27;만으로는 다소 가벼운 느낌이므로, &#x27;ございます&#x27;를 붙여 격식을 높인다.</div>
+        <div class="practice">서비스 제공자가 고객에게, 인터뷰에서 협조에 감사할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">社長さんね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">しゃちょうさんね</span>
+    <div class="details">
+        <div class="phonetic-ipa">존경어(尊敬語)</div>
+        <div class="explanation-text">&#x27;さん&#x27;은 일본어에서 가장 기본적인 경칭 접미사. 직위명에도 붙여서 존경을 표현할 수 있으며, &#x27;さん&#x27;을 붙임으로써 상대방에 대한 존중의 뜻을 나타낸다.</div>
+        <div class="practice">비즈니스 상황에서 거래처 임원이나 타사 직원을 언급할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">皆さん</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさん</span>
+    <div class="details">
+        <div class="phonetic-ipa">존경어(尊敬語)</div>
+        <div class="explanation-text">&#x27;みんな&#x27;의 정중한 표현인 &#x27;皆さん&#x27;. 청중이나 다수의 사람들을 존중하면서 부르는 표현. 강연, 발표, 수업 등에서 자주 사용.</div>
+        <div class="practice">강의, 발표, 공식 자리에서 다수의 청중에게 말을 걸 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">공손어(丁寧語)</div>
+<div class="cs-card">
+    <span class="original">よろしくお願いします</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">よろしくおねがいします</span>
+    <div class="details">
+        <div class="phonetic-ipa">공손어(丁寧語)</div>
+        <div class="explanation-text">부탁이나 협조를 요청할 때 쓰는 관용 표현. &#x27;お&#x27;는 미화어로 정중함을 더한다. 비즈니스·일상 모두에서 광범위하게 사용되는 필수 인사말.</div>
+        <div class="practice">처음 만나는 자리, 협력 요청, 거래 시작</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">本当にこれ獲得してほしいと思っています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ほんとうにこれかくとくしてほしいとおもっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">공손어(丁寧語)</div>
+        <div class="explanation-text">진행형에 정중어미 &#x27;ます&#x27;를 붙여 공손하게 의견을 표현. &#x27;~ています&#x27;는 단순한 현재 상태나 진행을 정중하게 나타내는 기본 표현.</div>
+        <div class="practice">트레이너가 수강생에게 소망을 정중하게 표현할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">あとはですね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">あとはですね</span>
+    <div class="details">
+        <div class="phonetic-ipa">공손어(丁寧語)</div>
+        <div class="explanation-text">&#x27;ですね&#x27;는 정중함을 더하면서 청자의 동의를 구하거나 부드럽게 화제를 이어가는 표현. &#x27;〜ですね&#x27;는 비즈니스 회화에서 연결을 자연스럽게 만드는 중요한 표현.</div>
+        <div class="practice">설명이나 목록을 이어갈 때 부드럽게 전환하는 표현</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">정중어(丁寧語)</div>
+<div class="cs-card">
+    <span class="original">失礼します</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">しつれいします</span>
+    <div class="details">
+        <div class="phonetic-ipa">정중어(丁寧語)</div>
+        <div class="explanation-text">&#x27;실례합니다&#x27;라는 뜻의 관용 표현. 화제를 바꾸거나, 방해가 될 수 있는 행위를 하기 전에, 혹은 자리를 뜰 때 사용하는 예의 표현.</div>
+        <div class="practice">화제 전환, 자리 이동, 상대방에게 방해가 될 수 있는 행위 전</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">미화어(美化語)</div>
+<div class="cs-card">
+    <span class="original">その5つのお悩みを</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">そのいつつのおなやみを</span>
+    <div class="details">
+        <div class="phonetic-ipa">미화어(美化語)</div>
+        <div class="explanation-text">&#x27;悩み(고민)&#x27;에 접두사 &#x27;お&#x27;를 붙여 미화어로 만든 표현. 상대방의 고민을 존중하고 배려하는 느낌을 준다.</div>
+        <div class="practice">상담이나 서비스 제공 상황에서 고객의 고민을 언급할 때</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=ttMyF8d-o7E
+    </div>
+</div>
+
+</body>
+</html>

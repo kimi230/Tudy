@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #ef4444;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>How to Make Learning as Addictive as Social Media | Duolingo&#x27;s Luis Von Ahn | TED</h1>
+    <div class="subtitle">TED</div>
+    <div class="desc-ko">듀오링고가 학습을 SNS만큼 중독적으로 만든 비결</div>
+    <div><span class="diff-badge">Advanced</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">12:54</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">160</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">234</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/P6FORpg0KVo/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/P6FORpg0KVo">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (17 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (3 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (10 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 12-minute video by TED is structured into 9 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction: Personal Background</span>
+        <span class="sec-time">0:05 ~ 0:53</span>
+    </div>
+    <div class="sec-summary">루이스 폰 안이 과테말라 출신이라고 소개하며, 과테말라와 멕시코 및 미국의 관계를 유머러스하게 설명해요. 가난과 불평등이라는 주제를 설정해요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Education and Inequality</span>
+        <span class="sec-time">0:53 ~ 1:35</span>
+    </div>
+    <div class="sec-summary">루이스는 교육이 불평등을 해소하기보다 오히려 강화한다고 주장해요. 어머니의 희생 덕분에 좋은 교육을 받고 컴퓨터 과학 박사 학위를 받은 개인적인 이야기를 나눠요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Why Foreign Languages?</span>
+        <span class="sec-time">1:37 ~ 3:28</span>
+    </div>
+    <div class="sec-summary">루이스는 듀오링고가 수학이나 컴퓨터 과학 대신 외국어로 시작한 이유를 설명해요. 핵심 이유는 영어 학습이 다른 과목과 달리 소득 잠재력을 직접적으로 높이기 때문이에요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Mobile-First and Freemium Model</span>
+        <span class="sec-time">3:28 ~ 5:03</span>
+    </div>
+    <div class="sec-summary">루이스는 스마트폰을 교육 전달 플랫폼으로 사용하기로 한 결정과 프리미엄 비즈니스 모델을 설명해요. 부유한 나라의 유료 구독자가 가난한 나라 사용자의 무료 교육비를 효과적으로 부담해요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Competing with Addictive Apps</span>
+        <span class="sec-time">5:06 ~ 5:56</span>
+    </div>
+    <div class="sec-summary">핵심 과제: 스마트폰에는 틱톡이나 인스타그램 같은 중독적인 앱이 있어요. 듀오링고의 해결책은 같은 심리적 기법을 사용해서 &#x27;브로콜리를 디저트 맛이 나게&#x27; 만드는 거예요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Technique 1: Streaks</span>
+        <span class="sec-time">5:56 ~ 6:57</span>
+    </div>
+    <div class="sec-summary">루이스는 연속 사용 일수를 세는 스트릭이 어떻게 매일 참여하게 하는지 설명해요. 300만 명 이상의 듀오링고 사용자가 365일 이상의 스트릭을 가지고 있고, 일본이 평균 스트릭이 가장 길어요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">Technique 2: Notifications</span>
+        <span class="sec-time">7:02 ~ 9:21</span>
+    </div>
+    <div class="sec-summary">루이스는 듀오링고의 알림 전략을 설명해요: AI 기반 타이밍(최적 시간 = 마지막 사용 후 24시간), 7일 비활성 후 중단, 그리고 놀랍도록 효과적인 소극적 공격적 작별 알림. 올빼미 마스코트는 밈이 되었어요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">8</span>
+        <span class="sec-title">The 80-90% Rule</span>
+        <span class="sec-time">9:21 ~ 11:07</span>
+    </div>
+    <div class="sec-summary">루이스는 교육 앱이 틱톡만큼 몰입하게 할 필요가 없다고 주장해요. 80-90%면 충분하고 내적 동기가 나머지를 채워준다고요. 듀오링고는 현재 미국 전체 고등학교보다 더 많은 언어 학습자를 보유하고 있어요. 스크린 타임이 모두에게 양질의 교육을 전달하는 미래를 그려요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">9</span>
+        <span class="sec-title">Q&amp;A: Applying to Other Subjects</span>
+        <span class="sec-time">11:07 ~ 12:54</span>
+    </div>
+    <div class="sec-summary">Q&amp;A에서 루이스는 듀오링고 방식이 반복으로 배우는 과목(읽기, 초등 수학)에 가장 잘 맞는다고 설명해요. 설명이 필요한 콘텐츠에는 칸 아카데미 같은 영상 기반 접근이 필요할 수 있대요.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">addictive</span>
+        <span class="phonetic">/əˈdɪktɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">causing a strong and harmful need to regularly have or do something</div>
+    <div class="meaning-ko">중독성이 있는, 빠져들게 하는</div>
+    <div class="etymology">Latin &#x27;addictus&#x27; meaning &#x27;assigned, surrendered&#x27; from &#x27;addicere&#x27; (to devote)</div>
+    <div class="root-breakdown"><span class="root-part prefix">ad-</span><span class="root-part">dict (say, declare)</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"Some of the most addictive drugs that humanity has ever engineered."</div>
+    <div class='related'>Related: addiction, addict, addicted</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">accessible</span>
+        <span class="phonetic">/əkˈsɛsɪbl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">able to be reached, entered, or used by everyone, including those with limited resources</div>
+    <div class="meaning-ko">접근 가능한, 이용할 수 있는</div>
+    <div class="etymology">Latin &#x27;accessibilis&#x27; from &#x27;accedere&#x27; meaning &#x27;to approach&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ac-</span><span class="root-part">cess (go, yield)</span><span class="root-part suffix">-ible</span></div>
+    <div class="context">"On a mobile phone that was accessible to everyone."</div>
+    <div class='related'>Related: access, accessibility, inaccessible</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">freemium</span>
+        <span class="phonetic">/ˈfriːmiəm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a business model in which basic services are free while advanced features require payment</div>
+    <div class="meaning-ko">프리미엄 (기본 무료, 추가 기능 유료) 모델</div>
+    <div class="etymology">Blend of &#x27;free&#x27; + &#x27;premium&#x27;, coined in 2006</div>
+    <div class="root-breakdown"><span class="root-part">free + premium (blend)</span></div>
+    <div class="context">"Duolingo uses a freemium model to support itself."</div>
+    <div class='related'>Related: premium, freemium model, subscription</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">inequality</span>
+        <span class="phonetic">/ˌɪnɪˈkwɒlɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the state of not being equal, especially in status, rights, or opportunities</div>
+    <div class="meaning-ko">불평등, 격차</div>
+    <div class="etymology">Latin &#x27;in-&#x27; (not) + &#x27;aequalis&#x27; (equal)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">equal (same, level)</span><span class="root-part suffix">-ity</span></div>
+    <div class="context">"I always saw it as the opposite, as something that brings inequality."</div>
+    <div class='related'>Related: equal, equality, inequitable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">streak</span>
+        <span class="phonetic">/striːk/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a continuous series of events; in apps, a count of consecutive days of use</div>
+    <div class="meaning-ko">연속 기록, 스트릭</div>
+    <div class="etymology">Old English &#x27;strica&#x27; meaning &#x27;a stroke, line&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">streak (line, mark)</span></div>
+    <div class="context">"One of the most powerful ones is the notion of a streak."</div>
+    <div class='related'>Related: streaky, winning streak, losing streak</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">consecutively</span>
+        <span class="phonetic">/kənˈsɛkjʊtɪvli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">following each other without interruption; in unbroken sequence</div>
+    <div class="meaning-ko">연속적으로, 잇따라</div>
+    <div class="etymology">Latin &#x27;consecutivus&#x27; from &#x27;consequi&#x27; meaning &#x27;to follow closely&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">secut (follow)</span><span class="root-part suffix">-ively</span></div>
+    <div class="context">"The number of days that you&#x27;ve used the product consecutively."</div>
+    <div class='related'>Related: consecutive, consequence, subsequent</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">engaged</span>
+        <span class="phonetic">/ɪnˈɡeɪdʒd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">involved and interested in an activity; actively participating</div>
+    <div class="meaning-ko">몰입한, 참여하는</div>
+    <div class="etymology">French &#x27;engager&#x27; from &#x27;en-&#x27; (in) + &#x27;gage&#x27; (pledge)</div>
+    <div class="root-breakdown"><span class="root-part prefix">en-</span><span class="root-part">gage (pledge)</span><span class="root-part suffix">-ed</span></div>
+    <div class="context">"We use them to keep people engaged but with education."</div>
+    <div class='related'>Related: engage, engagement, engaging</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">sophisticated</span>
+        <span class="phonetic">/səˈfɪstɪkeɪtɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">having a lot of experience and knowledge; highly developed and complex</div>
+    <div class="meaning-ko">정교한, 세련된, 복잡한</div>
+    <div class="etymology">Latin &#x27;sophisticatus&#x27; from Greek &#x27;sophistikos&#x27; meaning &#x27;wise, clever&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">sophist (wise person)</span><span class="root-part suffix">-icated</span></div>
+    <div class="context">"We have a very sophisticated AI system."</div>
+    <div class='related'>Related: sophistication, philosophy, sophomore</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">passive-aggressive</span>
+        <span class="phonetic">/ˌpæsɪv əˈɡrɛsɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">expressing hostility or resistance indirectly rather than openly</div>
+    <div class="meaning-ko">소극적 공격적인, 은근히 공격적인</div>
+    <div class="etymology">Latin &#x27;passivus&#x27; (enduring) + &#x27;aggressivus&#x27; (attacking)</div>
+    <div class="root-breakdown"><span class="root-part">passive (enduring) + aggressive (attacking)</span></div>
+    <div class="context">"Passive-aggressive. Works for my mother, works for Duolingo."</div>
+    <div class='related'>Related: passive, aggressive, assertive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">redistribution</span>
+        <span class="phonetic">/ˌriːdɪstrɪˈbjuːʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the act of distributing something again or in a different way, especially wealth</div>
+    <div class="meaning-ko">재분배</div>
+    <div class="etymology">Latin &#x27;re-&#x27; (again) + &#x27;distributio&#x27; (a dividing up)</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">distribut (divide, spread)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"It is a small form of wealth redistribution."</div>
+    <div class='related'>Related: distribute, distribution, redistribute</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">gamify</span>
+        <span class="phonetic">/ˈɡeɪmɪfaɪ/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to apply game-design elements to non-game contexts to make them more engaging</div>
+    <div class="meaning-ko">게이미피케이션하다, 게임화하다</div>
+    <div class="etymology">English &#x27;game&#x27; + &#x27;-ify&#x27; (to make)</div>
+    <div class="root-breakdown"><span class="root-part">game</span><span class="root-part suffix">-ify (to make)</span></div>
+    <div class="context">"You can actually gamify and turn into something like Duolingo."</div>
+    <div class='related'>Related: gamification, game, gameplay</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">predominantly</span>
+        <span class="phonetic">/prɪˈdɒmɪnəntli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">mainly; for the most part</div>
+    <div class="meaning-ko">주로, 대부분</div>
+    <div class="etymology">Latin &#x27;praedominari&#x27; from &#x27;prae-&#x27; (before) + &#x27;dominari&#x27; (to rule)</div>
+    <div class="root-breakdown"><span class="root-part prefix">pre-</span><span class="root-part">domin (rule)</span><span class="root-part suffix">-antly</span></div>
+    <div class="context">"Countries in which people are predominantly learning English."</div>
+    <div class='related'>Related: predominant, dominate, dominant</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">notification</span>
+        <span class="phonetic">/ˌnoʊtɪfɪˈkeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a message or alert sent to inform someone of something</div>
+    <div class="meaning-ko">알림, 통지</div>
+    <div class="etymology">Latin &#x27;notificatio&#x27; from &#x27;notificare&#x27; meaning &#x27;to make known&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">not (know)</span><span class="root-part suffix">-ification</span></div>
+    <div class="context">"Another important mechanism to get people to come back to your product are notifications."</div>
+    <div class='related'>Related: notify, notice, notable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mascot</span>
+        <span class="phonetic">/ˈmæskɒt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a person, animal, or object believed to bring good luck, used as a symbol for a group</div>
+    <div class="meaning-ko">마스코트, 상징 캐릭터</div>
+    <div class="etymology">French &#x27;mascotte&#x27; meaning &#x27;lucky charm&#x27;, from Provencal &#x27;masco&#x27; (witch)</div>
+    <div class="root-breakdown"><span class="root-part">masco (charm, witch)</span><span class="root-part suffix">-ot</span></div>
+    <div class="context">"Our green owl mascot has given up on them."</div>
+    <div class='related'>Related: symbol, icon, emblem</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">repetition</span>
+        <span class="phonetic">/ˌrɛpɪˈtɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the act of doing or saying something again; repeated practice</div>
+    <div class="meaning-ko">반복, 되풀이</div>
+    <div class="etymology">Latin &#x27;repetitio&#x27; from &#x27;repetere&#x27; meaning &#x27;to do or say again&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">petit (seek, aim at)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"Subjects that are learned through repetition."</div>
+    <div class='related'>Related: repeat, repetitive, repertoire</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">subscribe</span>
+        <span class="phonetic">/səbˈskraɪb/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to arrange to receive a product or service regularly by paying in advance</div>
+    <div class="meaning-ko">구독하다, 가입하다</div>
+    <div class="etymology">Latin &#x27;subscribere&#x27; from &#x27;sub-&#x27; (under) + &#x27;scribere&#x27; (to write)</div>
+    <div class="root-breakdown"><span class="root-part prefix">sub-</span><span class="root-part">scrib (write)</span><span class="root-part suffix">-e</span></div>
+    <div class="context">"You can also pay to subscribe to turn off the ads."</div>
+    <div class='related'>Related: subscription, subscriber, prescribe</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">motivation</span>
+        <span class="phonetic">/ˌmoʊtɪˈveɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the reason or desire for acting or behaving in a particular way</div>
+    <div class="meaning-ko">동기, 동기 부여</div>
+    <div class="etymology">Latin &#x27;motivus&#x27; from &#x27;movere&#x27; meaning &#x27;to move&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">mot (move)</span><span class="root-part suffix">-ivation</span></div>
+    <div class="context">"Will be provided by people&#x27;s internal motivation."</div>
+    <div class='related'>Related: motivate, motive, motor</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">zeitgeist</span>
+        <span class="phonetic">/ˈzaɪtɡaɪst/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the defining spirit or mood of a particular period of history</div>
+    <div class="meaning-ko">시대정신, 시대의 분위기</div>
+    <div class="etymology">German &#x27;Zeit&#x27; (time) + &#x27;Geist&#x27; (spirit)</div>
+    <div class="root-breakdown"><span class="root-part">Zeit (time) + Geist (spirit)</span></div>
+    <div class="context">"Duolingo has entered the zeitgeist."</div>
+    <div class='related'>Related: spirit, era, culture</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">humongous</span>
+        <span class="phonetic">/hjuːˈmʌŋɡəs/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">extremely large; enormous</div>
+    <div class="meaning-ko">엄청나게 큰, 거대한</div>
+    <div class="etymology">American English slang, likely a blend of &#x27;huge&#x27; + &#x27;monstrous&#x27; or &#x27;tremendous&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">huge + monstrous (blend)</span></div>
+    <div class="context">"You run into a humongous problem."</div>
+    <div class='related'>Related: enormous, gigantic, colossal</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">prominently</span>
+        <span class="phonetic">/ˈprɒmɪnəntli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">in a way that is easily noticeable or stands out</div>
+    <div class="meaning-ko">눈에 띄게, 두드러지게</div>
+    <div class="etymology">Latin &#x27;prominere&#x27; meaning &#x27;to jut out, project&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">pro-</span><span class="root-part">min (project, jut)</span><span class="root-part suffix">-ently</span></div>
+    <div class="context">"You put it very prominently in your product."</div>
+    <div class='related'>Related: prominent, prominence, eminent</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Comparative structure: Just like A, B...</div>
+    <div class="explanation">Used to draw a parallel between two similar situations. &#x27;Just like&#x27; introduces a familiar scenario to explain an unfamiliar one.</div>
+    <div class="explanation-ko">&#x27;Just like A, B...&#x27; 구조는 두 가지 비슷한 상황을 비교할 때 사용해요. 익숙한 상황을 먼저 제시해서 낯선 상황을 설명하는 표현이에요.</div>
+    <div class="example">Just like the U.S. doesn&#x27;t want illegal immigration from Mexico, Mexico doesn&#x27;t want illegal immigration from Guatemala.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Present perfect: have/has + past participle (experience/result)</div>
+    <div class="explanation">Used to describe actions completed at an unspecified time that have present relevance. Emphasizes result or accomplishment rather than timing.</div>
+    <div class="explanation-ko">현재완료(have/has + 과거분사)는 과거에 완료된 행동이 현재와 관련이 있을 때 사용해요. 시점보다 결과나 성취에 초점을 맞춰요.</div>
+    <div class="example">We&#x27;ve been able to do this.</div><div class="example">Duolingo has entered the zeitgeist.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional: If + present simple, can/will + verb</div>
+    <div class="explanation">Used to express a real or likely condition and its result. The &#x27;if&#x27; clause sets up the condition, and the main clause describes the consequence.</div>
+    <div class="explanation-ko">&#x27;If + 현재시제, can/will + 동사&#x27;는 실현 가능한 조건과 그 결과를 표현할 때 사용해요. &#x27;if&#x27; 절이 조건을 세우고, 주절이 결과를 설명해요.</div>
+    <div class="example">If you don&#x27;t pay, you may have to see an ad at the end of a lesson.</div><div class="example">If you really want to deliver education to everyone, you have to make it accessible.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Whereas + contrasting clause</div>
+    <div class="explanation">Used to introduce a contrasting fact or situation. It highlights the difference between two ideas within a single sentence.</div>
+    <div class="explanation-ko">&#x27;Whereas&#x27;는 대조되는 사실이나 상황을 소개할 때 사용해요. 한 문장 안에서 두 가지 아이디어의 차이를 부각시켜요. &#x27;반면에&#x27;로 해석해요.</div>
+    <div class="example">Whereas with languages, if you were a waiter and you learned English, now you can be a waiter at a hotel.</div><div class="example">When you&#x27;re learning something, you get meaning out of it, whereas when you&#x27;re scrolling for two hours on Instagram, you feel like you just wasted your time.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Not only A, but also B</div>
+    <div class="explanation">Used to add emphasis by presenting two related ideas where the second is more important or surprising. Often used in persuasive speech.</div>
+    <div class="explanation-ko">&#x27;Not only A, but also B&#x27;는 두 가지 관련된 아이디어를 제시하면서 두 번째를 더 강조할 때 사용해요. 설득적인 연설에서 자주 쓰여요.</div>
+    <div class="example">Not only do you have to make it accessible, but also you have to make it so that people want to actually learn.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">It turns out that + clause (revealing information)</div>
+    <div class="explanation">Used to introduce a surprising or previously unknown fact. It signals that what follows may contradict expectations.</div>
+    <div class="explanation-ko">&#x27;It turns out that&#x27;은 놀라운 사실이나 이전에 몰랐던 정보를 소개할 때 사용해요. 뒤에 오는 내용이 예상과 다를 수 있음을 알려줘요.</div>
+    <div class="example">It turns out that the vast majority of the revenue for Duolingo comes from people who pay to subscribe.</div><div class="example">It turns out that the algorithm for choosing what time to send you a notification is pretty simple.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">The reason (for/that/why) is (that/because)...</div>
+    <div class="explanation">Used to explain why something is the case. A direct and clear way to state a cause or justification.</div>
+    <div class="explanation-ko">&#x27;The reason (for/that/why) is (that/because)...&#x27;는 이유를 설명할 때 사용해요. 원인이나 정당성을 직접적이고 명확하게 제시하는 방법이에요.</div>
+    <div class="example">The reason for that is because English can truly transform your life.</div><div class="example">The reason people come back every day is because, well, if they don&#x27;t come back, that number resets to zero.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Gerund as subject: V-ing + verb</div>
+    <div class="explanation">Using a gerund (verb + -ing) as the subject of a sentence. This is common in formal and semi-formal English.</div>
+    <div class="explanation-ko">동명사(동사 + -ing)를 문장의 주어로 사용하는 구조예요. 격식체와 반격식체 영어에서 흔히 사용돼요.</div>
+    <div class="example">Delivering education over a smartphone is like hoping that people will eat their broccoli.</div><div class="example">Giving equal access to education to everyone.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Even if/though + concession clause</div>
+    <div class="explanation">Used to acknowledge a potential obstacle while maintaining that the main point still holds. Expresses resilience or determination.</div>
+    <div class="explanation-ko">&#x27;Even if/though&#x27;는 장애물을 인정하면서도 주요 주장이 여전히 유효하다는 것을 보여줄 때 사용해요. &#x27;~하더라도&#x27;라는 의미예요.</div>
+    <div class="example">Even if you&#x27;re not as engaging as those apps are, you can still get hundreds of millions of people to use your product.</div><div class="example">Even though I didn&#x27;t grow up rich.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Relative clause with where/which/that</div>
+    <div class="explanation">Used to add essential information about a noun. Relative clauses with &#x27;where&#x27;, &#x27;which&#x27;, and &#x27;that&#x27; modify nouns and provide more context.</div>
+    <div class="explanation-ko">관계절(where/which/that)은 명사에 대한 필수적인 정보를 추가할 때 사용해요. 명사를 수식하면서 더 많은 맥락을 제공해요.</div>
+    <div class="example">A future in which screen time is not a bad thing.</div><div class="example">Countries in which people are predominantly learning English.</div><div class="example">That is where Guatemala is.</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wɒnə/</div>
+        <div class="explanation-text">&#x27;want to&#x27;가 자연스러운 발화에서 &#x27;wanna&#x27; /wɒnə/로 축약돼요. &#x27;want&#x27;의 /t/와 &#x27;to&#x27;의 /t/가 합쳐지고 단순화되는 거예요.</div>
+        <div class="practice">&#x27;원트 투&#x27;라고 또박또박 발음하지 말고, &#x27;워너&#x27;처럼 부드럽게 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">거나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɡɒnə/</div>
+        <div class="explanation-text">&#x27;going to&#x27;(미래를 나타냄)가 일상 대화에서 &#x27;gonna&#x27; /ɡɒnə/로 축약돼요. /ɪŋ t/ 자음군이 크게 단순화되는 거예요.</div>
+        <div class="practice">&#x27;고잉 투&#x27;라고 발음하지 말고, &#x27;거나&#x27;처럼 자연스럽게 축약해서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">a lot of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">얼라러브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/əlɒdəv/</div>
+        <div class="explanation-text">&#x27;a lot of&#x27;가 자연스러운 발화에서 크게 압축돼요. &#x27;lot&#x27;의 /t/가 &#x27;of&#x27;의 모음 앞에서 탄설음 /d/가 되고, &#x27;of&#x27;는 /əv/로 축약돼요.</div>
+        <div class="practice">&#x27;어 롯 오브&#x27;라고 또박또박 발음하지 말고, &#x27;얼라러브&#x27;처럼 빠르게 이어서 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">think of it as</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">씽커비래즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/θɪŋkəvɪtæz/</div>
+        <div class="explanation-text">네 단어가 연쇄적으로 연결돼요: &#x27;think&#x27;의 /k/가 약화된 &#x27;of&#x27; /əv/로, &#x27;it&#x27;의 /ɪt/으로, &#x27;as&#x27;의 /æz/로 이어져 전체가 하나의 단위처럼 흘러요.</div>
+        <div class="practice">&#x27;씽크 오브 잇 애즈&#x27;라고 끊지 말고, &#x27;씽커비래즈&#x27;처럼 하나로 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">run into a</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">러닌투어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/rʌnɪntuːə/</div>
+        <div class="explanation-text">&#x27;run&#x27;의 /n/이 &#x27;into&#x27;의 /ɪ/와 자음-모음 연결을 통해 이어지고, &#x27;into&#x27;의 /uː/가 &#x27;a&#x27;의 /ə/와 자연스럽게 연결돼요.</div>
+        <div class="practice">&#x27;런 인투 어&#x27;라고 끊지 말고, &#x27;러닌투어&#x27;처럼 부드럽게 이어서 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">doesn&#x27;t want</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">더즌원</span>
+    <div class="details">
+        <div class="phonetic-ipa">/dʌzn wɒnt/</div>
+        <div class="explanation-text">&#x27;doesn&#x27;t&#x27;의 마지막 /t/가 &#x27;want&#x27;의 /w/ 앞에서 자주 탈락해요. 파열음 뒤에 또 다른 자음이 오면 발음되지 않는 경우가 많아요.</div>
+        <div class="practice">&#x27;더즌트 원트&#x27;에서 /t/를 생략하고 &#x27;더즌원&#x27;처럼 바로 이어 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">most ways</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">모스 웨이즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/moʊs weɪz/</div>
+        <div class="explanation-text">&#x27;most&#x27;의 마지막 /t/가 &#x27;ways&#x27;의 /w/ 앞에서 탈락하는 경우가 많아요. 파열음이 다른 자음 사이에 있을 때 생략되는 경향이 있어요.</div>
+        <div class="practice">&#x27;모스트 웨이즈&#x27;에서 /t/를 빼고 &#x27;모스 웨이즈&#x27;처럼 자연스럽게 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">did you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">디쥐</span>
+    <div class="details">
+        <div class="phonetic-ipa">/dɪdʒə/</div>
+        <div class="explanation-text">&#x27;did&#x27;의 /d/와 &#x27;you&#x27;의 /j/가 구개음화를 통해 합쳐져서 /dʒ/ 소리가 돼요. &#x27;you&#x27;가 /jə/로 축약된 후 동화돼요.</div>
+        <div class="practice">&#x27;디드 유&#x27;라고 따로 발음하지 말고, &#x27;디쥐&#x27;처럼 /d/와 /j/를 합쳐서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"So, I&#x27;m from Guatemala. This is a public service announcement."</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"And a lot of people talk about education as something that brings equality"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Oh, by the way, this is what I want to talk to you about today"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"And let me tell you why"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"However, if you&#x27;re trying to deliver education with a smartphone"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Let me give you some examples of these techniques"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"And this is a really important point, let me say this"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"My hope is that"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"But the single most important thing that I can end this talk with"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"How do you think that you can apply this type of thinking to other subjects?"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=P6FORpg0KVo
+    </div>
+</div>
+
+</body>
+</html>

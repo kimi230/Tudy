@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #ef4444;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>Quantum Computers Explained – Limits of Human Technology</h1>
+    <div class="subtitle">Kurzgesagt – In a Nutshell</div>
+    <div class="desc-ko">양자 컴퓨터란 무엇인가 — 인간 기술의 한계를 넘어서</div>
+    <div><span class="diff-badge">Advanced</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">7:17</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">155</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">73</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">10</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/JhHMJCUmq28/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/JhHMJCUmq28">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (10 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (8 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 7-minute video by Kurzgesagt – In a Nutshell is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Computing&#x27;s Exponential Growth Hits Physical Limits</span>
+        <span class="sec-time">0:00 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">컴퓨팅의 역사를 소개하고, 처리 능력의 기하급수적 성장이 부품이 원자 크기에 접근하면서 물리적 한계에 부딪히고 있다고 설명해.</div>
+    <div class="key-points"><span class="key-point">Computer power has grown exponentially since the 1960s</span><span class="key-point">Parts are approaching the size of an atom</span><span class="key-point">This creates a fundamental problem for further progress</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">How Traditional Computers Work</span>
+        <span class="sec-time">0:39 ~ 1:50</span>
+    </div>
+    <div class="sec-summary">기존 컴퓨터의 기본 구성 요소인 트랜지스터, 논리 게이트, 모듈을 설명해. 간단한 수학을 하는 7살짜리 아이들에 비유해서 단순한 연산이 어떻게 복잡한 컴퓨팅이 되는지 보여줘.</div>
+    <div class="key-points"><span class="key-point">Computers consist of transistors, logic gates, and modules</span><span class="key-point">Transistors are simple on/off switches processing bits</span><span class="key-point">Complex calculations emerge from combining simple operations</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">The Quantum Problem: Tunneling at Atomic Scale</span>
+        <span class="sec-time">1:51 ~ 2:49</span>
+    </div>
+    <div class="sec-summary">소형화가 양자 수준에서 왜 문제를 일으키는지 설명해. 양자 터널링으로 전자가 장벽을 통과할 수 있어서 기존 컴퓨팅이 작동하지 않게 돼. 과학자들은 양자 컴퓨터를 개발해 대응하고 있어.</div>
+    <div class="key-points"><span class="key-point">At atomic scale, quantum tunneling lets electrons pass through barriers</span><span class="key-point">Traditional computers stop working reliably at this scale</span><span class="key-point">Scientists aim to harness quantum properties for quantum computers</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Qubits and Superposition</span>
+        <span class="sec-time">2:49 ~ 4:07</span>
+    </div>
+    <div class="sec-summary">큐비트와 중첩의 개념을 소개해. 고전적 비트와 달리 큐비트는 여러 상태에 동시에 존재할 수 있어서 병렬 계산이 기하급수적으로 증가할 수 있어.</div>
+    <div class="key-points"><span class="key-point">Qubits can be in superposition of both 0 and 1 simultaneously</span><span class="key-point">Measurement collapses the superposition to a definite state</span><span class="key-point">20 qubits can store a million values in parallel</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Entanglement and Quantum Gates</span>
+        <span class="sec-time">4:07 ~ 5:20</span>
+    </div>
+    <div class="sec-summary">얽힘, 양자 게이트, 양자 컴퓨팅의 실제 작동 방식을 다뤄. 얽힌 큐비트는 서로 즉각적으로 반응하고, 양자 게이트는 중첩을 조작해서 대규모 병렬 계산을 수행해.</div>
+    <div class="key-points"><span class="key-point">Entanglement links qubits so measuring one reveals the other&#x27;s state</span><span class="key-point">Quantum gates manipulate superpositions and probabilities</span><span class="key-point">Superposition and entanglement enable exponentially more efficient computation</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Applications: Databases, Encryption, and Drug Discovery</span>
+        <span class="sec-time">5:21 ~ 6:33</span>
+    </div>
+    <div class="sec-summary">양자 컴퓨터의 실용적 응용 분야를 소개해: 그로버 알고리즘을 이용한 데이터베이스 검색, 암호화 시스템 해독, 신약 개발과 재료 과학을 위한 양자 물리학 시뮬레이션.</div>
+    <div class="key-points"><span class="key-point">Database searching becomes vastly faster with quantum algorithms</span><span class="key-point">Public-key encryption could be broken by quantum speed-up</span><span class="key-point">Quantum simulations could revolutionize medicine through protein modeling</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">The Uncertain but Exciting Future</span>
+        <span class="sec-time">6:34 ~ 6:45</span>
+    </div>
+    <div class="sec-summary">양자 컴퓨팅의 미래가 불확실하다는 점을 인정하며 마무리해. 전문적인 도구가 될 수도 있고 혁명이 될 수도 있으며, 탐구 정신을 강조해.</div>
+    <div class="key-points"><span class="key-point">The ultimate impact of quantum computers remains unknown</span><span class="key-point">They could be specialized tools or a revolution for humanity</span><span class="key-point">The only way to find out is to keep pushing forward</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">exponentially</span>
+        <span class="phonetic">/ˌɛkspəˈnɛnʃəli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">at a rate that becomes increasingly rapid in proportion to the growing total</div>
+    <div class="meaning-ko">기하급수적으로</div>
+    <div class="etymology">Latin &#x27;exponere&#x27; meaning &#x27;to put out, explain&#x27; via mathematical &#x27;exponent&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">ex-</span><span class="root-part">pon (put, place)</span><span class="root-part suffix">-entially</span></div>
+    <div class="context">"The power of our brain machines has kept growing exponentially."</div>
+    <div class='related'>Related: exponent, exponential, exponentiation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">transistor</span>
+        <span class="phonetic">/trænˈzɪstər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a semiconductor device used to amplify or switch electronic signals and electrical power</div>
+    <div class="meaning-ko">트랜지스터 (전자 신호를 증폭하거나 전환하는 반도체 소자)</div>
+    <div class="etymology">Blend of &#x27;transfer&#x27; + &#x27;resistor&#x27; — transfers current across a resistor</div>
+    <div class="root-breakdown"><span class="root-part prefix">trans-</span><span class="root-part">fer/resist (carry/oppose)</span><span class="root-part suffix">-or</span></div>
+    <div class="context">"A transistor is the simplest form of a data processor in computers."</div>
+    <div class='related'>Related: transfer, resistor, semiconductor</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">quantum</span>
+        <span class="phonetic">/ˈkwɒntəm/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">relating to the branch of physics dealing with the behavior of matter and energy at the smallest scales</div>
+    <div class="meaning-ko">양자의, 양자역학에 관한</div>
+    <div class="etymology">Latin &#x27;quantum&#x27; meaning &#x27;how much, how great&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">quant (how much)</span><span class="root-part suffix">-um</span></div>
+    <div class="context">"Electrons may just transfer themselves to the other side via a process called quantum tunneling."</div>
+    <div class='related'>Related: quantity, quantify, quantize</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">superposition</span>
+        <span class="phonetic">/ˌsuːpərpəˈzɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a quantum state in which a particle exists in multiple states simultaneously until measured</div>
+    <div class="meaning-ko">중첩 (양자역학에서 여러 상태가 동시에 존재하는 것)</div>
+    <div class="etymology">Latin &#x27;super-&#x27; (above, on top of) + &#x27;positio&#x27; (placing)</div>
+    <div class="root-breakdown"><span class="root-part prefix">super-</span><span class="root-part">posit (place)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"This is called superposition."</div>
+    <div class='related'>Related: position, superimpose, compose</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">entanglement</span>
+        <span class="phonetic">/ɪnˈtæŋɡəlmənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a quantum phenomenon where particles become interconnected so that the state of one instantly influences the other</div>
+    <div class="meaning-ko">얽힘, 양자 얽힘 (입자들이 상호 연결되어 한쪽의 상태가 즉시 다른 쪽에 영향을 미치는 현상)</div>
+    <div class="etymology">Old French &#x27;entangler&#x27; meaning &#x27;to tangle up, ensnare&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">en-</span><span class="root-part">tangle (twist together)</span><span class="root-part suffix">-ment</span></div>
+    <div class="context">"A really weird and unintuitive property qubits can have is entanglement."</div>
+    <div class='related'>Related: entangle, tangle, disentangle</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">polarization</span>
+        <span class="phonetic">/ˌpoʊlərɪˈzeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the orientation of vibrations of a wave, especially light, in a particular direction</div>
+    <div class="meaning-ko">편광 (빛 등의 파동이 특정 방향으로 진동하는 것)</div>
+    <div class="etymology">French &#x27;polarisation&#x27; from &#x27;polaire&#x27; (polar)</div>
+    <div class="root-breakdown"><span class="root-part">polar (of the pole)</span><span class="root-part suffix">-ization</span></div>
+    <div class="context">"Zero and one are this system&#x27;s possible states, like the photon&#x27;s horizontal or vertical polarization."</div>
+    <div class='related'>Related: polarize, polar, bipolar</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">qubit</span>
+        <span class="phonetic">/ˈkjuːbɪt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the basic unit of quantum information, capable of existing in superposition of states</div>
+    <div class="meaning-ko">큐비트 (양자 컴퓨터의 기본 정보 단위)</div>
+    <div class="etymology">Portmanteau of &#x27;quantum&#x27; + &#x27;bit&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">qu-</span><span class="root-part">bit (binary digit)</span></div>
+    <div class="context">"Quantum computers use qubits, which can also be set to one of two values."</div>
+    <div class='related'>Related: quantum, bit, byte</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">encryption</span>
+        <span class="phonetic">/ɪnˈkrɪpʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">the process of converting information into a secret code to prevent unauthorized access</div>
+    <div class="meaning-ko">암호화</div>
+    <div class="etymology">Greek &#x27;en-&#x27; (in) + &#x27;kryptein&#x27; (to hide)</div>
+    <div class="root-breakdown"><span class="root-part prefix">en-</span><span class="root-part">crypt (hide)</span><span class="root-part suffix">-ion</span></div>
+    <div class="context">"Your data is being kept secure by an encryption system."</div>
+    <div class='related'>Related: encrypt, decrypt, cryptography</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">simulation</span>
+        <span class="phonetic">/ˌsɪmjʊˈleɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">an imitation of a real-world process or system using a computer model</div>
+    <div class="meaning-ko">시뮬레이션, 모의 실험</div>
+    <div class="etymology">Latin &#x27;simulare&#x27; meaning &#x27;to imitate, represent&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">simul (imitate)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"Another really exciting new use is simulations."</div>
+    <div class='related'>Related: simulate, similar, simultaneous</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">tunneling</span>
+        <span class="phonetic">/ˈtʌnəlɪŋ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a quantum mechanical phenomenon where a particle passes through a potential energy barrier</div>
+    <div class="meaning-ko">터널링 (입자가 에너지 장벽을 통과하는 양자역학적 현상)</div>
+    <div class="etymology">Old French &#x27;tonel&#x27; (cask, barrel) — originally referring to a passage through something</div>
+    <div class="root-breakdown"><span class="root-part">tunnel (underground passage)</span><span class="root-part suffix">-ing</span></div>
+    <div class="context">"Electrons may just transfer themselves to the other side via a process called quantum tunneling."</div>
+    <div class='related'>Related: tunnel, channel, passage</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">nanometer</span>
+        <span class="phonetic">/ˈnænəˌmiːtər/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a unit of length equal to one billionth of a meter</div>
+    <div class="meaning-ko">나노미터 (10억분의 1미터)</div>
+    <div class="etymology">Greek &#x27;nanos&#x27; (dwarf) + &#x27;metron&#x27; (measure)</div>
+    <div class="root-breakdown"><span class="root-part prefix">nano-</span><span class="root-part">meter (measure)</span></div>
+    <div class="context">"A typical scale for transistors is 40 nanometers."</div>
+    <div class='related'>Related: nanotechnology, micrometer, kilometer</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">deduce</span>
+        <span class="phonetic">/dɪˈdjuːs/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to arrive at a conclusion by reasoning from given information</div>
+    <div class="meaning-ko">추론하다, 연역하다</div>
+    <div class="etymology">Latin &#x27;deducere&#x27; meaning &#x27;to lead down, derive&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">de-</span><span class="root-part">duc (lead)</span><span class="root-part suffix">-e</span></div>
+    <div class="context">"You can directly deduce properties of its partners without having to look."</div>
+    <div class='related'>Related: deduction, deduce, induce, reduce</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">instantaneously</span>
+        <span class="phonetic">/ˌɪnstənˈteɪniəsli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">happening or done in an instant; immediately</div>
+    <div class="meaning-ko">즉각적으로, 순간적으로</div>
+    <div class="etymology">Latin &#x27;instantaneus&#x27; from &#x27;instare&#x27; (to stand upon, be present)</div>
+    <div class="root-breakdown"><span class="root-part prefix">in-</span><span class="root-part">stant (stand)</span><span class="root-part suffix">-aneously</span></div>
+    <div class="context">"Each of the qubits react to a change in the other&#x27;s state instantaneously."</div>
+    <div class='related'>Related: instant, instantaneous, instance</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">configuration</span>
+        <span class="phonetic">/kənˌfɪɡjʊˈreɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">an arrangement of elements in a particular form or combination</div>
+    <div class="meaning-ko">구성, 배치, 설정</div>
+    <div class="etymology">Latin &#x27;configurare&#x27; meaning &#x27;to form, shape after&#x27;</div>
+    <div class="root-breakdown"><span class="root-part prefix">con-</span><span class="root-part">figur (shape, form)</span><span class="root-part suffix">-ation</span></div>
+    <div class="context">"Four classical bits can be in one of two to the power of four different configurations at a time."</div>
+    <div class='related'>Related: configure, figure, figurative</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">algorithm</span>
+        <span class="phonetic">/ˈælɡərɪðəm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a process or set of rules to be followed in calculations or problem-solving operations</div>
+    <div class="meaning-ko">알고리즘 (문제 해결을 위한 절차나 규칙의 집합)</div>
+    <div class="etymology">Named after al-Khwarizmi, a 9th-century Persian mathematician</div>
+    <div class="root-breakdown"><span class="root-part">algorithm (from al-Khwarizmi)</span></div>
+    <div class="context">"Quantum algorithms need only the square root of that time."</div>
+    <div class='related'>Related: algorithmic, logarithm, computation</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">molecule</span>
+        <span class="phonetic">/ˈmɒlɪkjuːl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a group of atoms bonded together, representing the smallest unit of a chemical compound</div>
+    <div class="meaning-ko">분자</div>
+    <div class="etymology">French &#x27;molécule&#x27; from Latin &#x27;moles&#x27; (mass) + diminutive &#x27;-cula&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">mol (mass)</span><span class="root-part suffix">-ecule (small)</span></div>
+    <div class="context">"Even for bigger structures such as molecules, they often lack accuracy."</div>
+    <div class='related'>Related: molecular, mole, atom</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">revolutionize</span>
+        <span class="phonetic">/ˌrɛvəˈluːʃənaɪz/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">to change something radically or fundamentally</div>
+    <div class="meaning-ko">혁명적으로 변화시키다</div>
+    <div class="etymology">Latin &#x27;revolutio&#x27; meaning &#x27;a turn around&#x27; from &#x27;revolvere&#x27; (to turn back)</div>
+    <div class="root-breakdown"><span class="root-part prefix">re-</span><span class="root-part">volut (turn)</span><span class="root-part suffix">-ionize</span></div>
+    <div class="context">"Quantum simulations could provide new insights on proteins that might revolutionize medicine."</div>
+    <div class='related'>Related: revolution, revolve, evolve</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">photon</span>
+        <span class="phonetic">/ˈfoʊtɒn/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">a particle representing a quantum of light or other electromagnetic radiation</div>
+    <div class="meaning-ko">광자 (빛이나 전자기 복사의 양자 단위)</div>
+    <div class="etymology">Greek &#x27;phos/phot-&#x27; meaning &#x27;light&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">phot (light)</span><span class="root-part suffix">-on (particle)</span></div>
+    <div class="context">"A qubit can be any two-level quantum system, such as a spin in a magnetic field or a single photon."</div>
+    <div class='related'>Related: photograph, photosynthesis, electron</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">unintuitive</span>
+        <span class="phonetic">/ˌʌnɪnˈtjuːɪtɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">not easy to understand or grasp by instinct; counterintuitive</div>
+    <div class="meaning-ko">직관에 반하는, 직감적으로 이해하기 어려운</div>
+    <div class="etymology">Latin &#x27;un-&#x27; (not) + &#x27;intueri&#x27; (to look at, consider)</div>
+    <div class="root-breakdown"><span class="root-part prefix">un-</span><span class="root-part">intuit (to perceive directly)</span><span class="root-part suffix">-ive</span></div>
+    <div class="context">"A really weird and unintuitive property qubits can have is entanglement."</div>
+    <div class='related'>Related: intuitive, intuition, counterintuitive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">vastly</span>
+        <span class="phonetic">/ˈvɑːstli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">to a very great extent; immensely</div>
+    <div class="meaning-ko">엄청나게, 대단히</div>
+    <div class="etymology">Latin &#x27;vastus&#x27; meaning &#x27;immense, huge, empty&#x27;</div>
+    <div class="root-breakdown"><span class="root-part">vast (huge)</span><span class="root-part suffix">-ly</span></div>
+    <div class="context">"In some areas they are vastly superior."</div>
+    <div class='related'>Related: vast, vastness, immensely</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Present perfect continuous: has/have + been + verb-ing</div>
+    <div class="explanation">Used to describe an action that started in the past and continues to the present with emphasis on duration. &#x27;Has kept growing&#x27; shows the ongoing nature of technological progress.</div>
+    <div class="explanation-ko">현재완료 진행형은 과거에 시작된 행동이 현재까지 계속되고 있음을 강조할 때 사용해. &#x27;has kept growing&#x27;은 기술 발전이 계속 진행 중임을 보여줘.</div>
+    <div class="example">The power of our brain machines has kept growing exponentially.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Be about to + verb (imminent future)</div>
+    <div class="explanation">Used to express that something is on the verge of happening. It creates a sense of urgency or immediacy about an upcoming event.</div>
+    <div class="explanation-ko">&#x27;be about to + 동사&#x27;는 어떤 일이 곧 일어나려 한다는 것을 표현할 때 사용해. 긴박감이나 즉각성을 줘. &#x27;막 ~하려 하다&#x27;라는 의미야.</div>
+    <div class="example">But this process is about to meet its physical limits.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Be made up of + noun (composition)</div>
+    <div class="explanation">Used to describe what something consists of or is composed of. It is a common way to explain the parts that form a whole.</div>
+    <div class="explanation-ko">&#x27;be made up of&#x27;는 어떤 것이 무엇으로 구성되어 있는지 설명할 때 사용해. &#x27;~로 이루어져 있다&#x27;라는 의미야.</div>
+    <div class="example">A computer is made up of very simple components doing very simple things.</div><div class="example">This information is made up of bits.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Once + clause, clause (conditional sequence)</div>
+    <div class="explanation">Used to show that one event triggers or enables another. It implies that the first action is a prerequisite for the second.</div>
+    <div class="explanation-ko">&#x27;Once + 절&#x27;은 한 가지 일이 다른 일을 가능하게 하거나 촉발함을 보여줘. 첫 번째 행동이 두 번째의 전제 조건임을 암시해. &#x27;일단 ~하면&#x27;이라는 뜻이야.</div>
+    <div class="example">Once you can add, you can also multiply, and once you can multiply, you can basically do anything.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">May/might + verb (possibility/speculation)</div>
+    <div class="explanation">Used to express that something is possible but not certain. In scientific contexts, it indicates theoretical possibility or uncertainty.</div>
+    <div class="explanation-ko">&#x27;may/might + 동사&#x27;는 가능하지만 확실하지 않은 일을 표현할 때 사용해. 과학적 맥락에서는 이론적 가능성이나 불확실성을 나타내.</div>
+    <div class="example">Electrons may just transfer themselves to the other side of a blocked passage.</div><div class="example">Quantum simulations could provide new insights on proteins that might revolutionize medicine.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">As long as + clause (condition duration)</div>
+    <div class="explanation">Used to set a condition that must remain true for the main clause to be valid. It means &#x27;during the entire time that&#x27; or &#x27;provided that.&#x27;</div>
+    <div class="explanation-ko">&#x27;as long as + 절&#x27;은 주절이 유효하기 위해 유지되어야 하는 조건을 설정할 때 사용해. &#x27;~하는 한&#x27;, &#x27;~하는 동안&#x27;이라는 뜻이야.</div>
+    <div class="example">So, as long as it&#x27;s unobserved, the qubit is in a superposition of probabilities for zero and one.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What this means is that + clause (reformulation)</div>
+    <div class="explanation">Used to rephrase or clarify a complex idea in simpler terms. It signals an explanation of the practical implications of what was just described.</div>
+    <div class="explanation-ko">&#x27;What this means is that&#x27;은 복잡한 아이디어를 더 쉽게 바꿔 설명할 때 사용해. 방금 설명한 것의 실질적인 의미를 풀어서 말하는 신호야.</div>
+    <div class="example">What this means is that you get the entire lot of calculations that are possible with your setup all done at the same time.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">So while + clause, clause (concession)</div>
+    <div class="explanation">Used to acknowledge one point while introducing a contrasting conclusion. It balances two ideas, recognizing a limitation before stating a strength.</div>
+    <div class="explanation-ko">&#x27;So while + 절&#x27;은 한 가지 점을 인정하면서 대조적인 결론을 소개할 때 사용해. &#x27;~이긴 하지만, ~이다&#x27;라는 의미로 두 아이디어의 균형을 잡아.</div>
+    <div class="example">So while quantum computers will probably not replace our home computers, in some areas they are vastly superior.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">By + verb-ing (means/method)</div>
+    <div class="explanation">Used to explain the method or means by which something is achieved. It answers the &#x27;how&#x27; of an action.</div>
+    <div class="explanation-ko">&#x27;by + 동명사(-ing)&#x27;는 어떤 것을 달성하는 방법이나 수단을 설명할 때 사용해. 행동의 &#x27;어떻게&#x27;에 답하는 표현이야.</div>
+    <div class="example">But by cleverly exploiting superposition and entanglement, this can be exponentially more efficient.</div><div class="example">Scientists are trying to use these unusual quantum properties to their advantage by building quantum computers.</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Why not + verb? (rhetorical suggestion)</div>
+    <div class="explanation">Used to propose an idea as if it is an obvious or natural solution. It is a rhetorical way to introduce an innovative approach.</div>
+    <div class="explanation-ko">&#x27;Why not + 동사?&#x27;는 어떤 아이디어를 당연하거나 자연스러운 해결책으로 제안할 때 사용해. 혁신적인 접근 방식을 수사적으로 소개하는 방법이야.</div>
+    <div class="example">So why not simulate quantum physics with actual quantum physics?</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">made up of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">메이더퍼브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/meɪdʌpəv/</div>
+        <div class="explanation-text">&#x27;made&#x27;의 /d/가 &#x27;up&#x27;의 모음 /ʌ/와 연결되고, &#x27;up&#x27;의 /p/가 약화된 &#x27;of&#x27; /əv/와 이어져서 세 단어가 하나의 덩어리처럼 흘러가요.</div>
+        <div class="practice">&#x27;메이드 업 오브&#x27;라고 따로 끊지 말고, &#x27;메이더퍼브&#x27;처럼 한 덩어리로 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">measure it</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">메저릿</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈmɛʒərɪt/</div>
+        <div class="explanation-text">&#x27;measure&#x27;의 마지막 소리가 &#x27;it&#x27;의 /ɪ/와 자연스럽게 연결되어 전체 구가 한 단어처럼 들려요.</div>
+        <div class="practice">&#x27;메저 잇&#x27;이라고 끊지 말고, &#x27;메저릿&#x27;처럼 /r/ 소리를 &#x27;it&#x27;과 이어서 발음해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">do it in a</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">두이리너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/duːɪtɪnə/</div>
+        <div class="explanation-text">여러 자음-모음 연결이 연쇄적으로 이어져요: &#x27;it&#x27;의 /t/가 &#x27;in&#x27;의 /ɪ/와, &#x27;in&#x27;의 /n/이 &#x27;a&#x27;의 /ə/와 연결되어 전체 구가 하나의 연속된 소리로 흘러가요.</div>
+        <div class="practice">&#x27;두 잇 인 어&#x27;라고 끊지 말고, &#x27;두이리너&#x27;처럼 자음과 모음을 연결하면서 한 호흡으로 발음해 보세요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">set to either</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">세터 이더</span>
+    <div class="details">
+        <div class="phonetic-ipa">/sɛtə ˈiːðər/</div>
+        <div class="explanation-text">&#x27;to&#x27;가 /tə/로 약화되고, &#x27;set&#x27;의 /t/와 바로 연결돼요. &#x27;either&#x27;도 첫 모음이 약해져서 전체 구가 매끄럽게 들려요.</div>
+        <div class="practice">&#x27;셋 투 이더&#x27;가 아니라 &#x27;세터 이더&#x27;처럼 &#x27;to&#x27;를 약하게 /tə/로 발음하며 앞 단어와 연결해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">can be</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">컨비</span>
+    <div class="details">
+        <div class="phonetic-ipa">/kənbi/</div>
+        <div class="explanation-text">&#x27;can&#x27;이 강세를 받지 않는 위치에서 약형 /kən/으로 축약돼요. 모음 /æ/가 슈와 /ə/로 변해서 구가 빠르게 흘러가요.</div>
+        <div class="practice">&#x27;캔 비&#x27;라고 강하게 발음하지 말고, &#x27;컨비&#x27;처럼 &#x27;can&#x27;을 약하게 발음해 보세요. 부정문 &#x27;can&#x27;t&#x27;와 구별하는 중요한 포인트예요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">just stop</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">저스 스탑</span>
+    <div class="details">
+        <div class="phonetic-ipa">/dʒʌs stɒp/</div>
+        <div class="explanation-text">&#x27;just&#x27;의 마지막 /t/가 &#x27;stop&#x27;의 /s/ 앞에서 탈락해요. 파열음 뒤에 다른 자음이 오면 첫 번째 파열음이 생략되는 경우가 많아요.</div>
+        <div class="practice">&#x27;저스트 스탑&#x27;이라고 /t/를 분명히 발음하지 말고, &#x27;저스 스탑&#x27;처럼 /t/를 생략해 보세요.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">most famous</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">모우스 페이머스</span>
+    <div class="details">
+        <div class="phonetic-ipa">/moʊs ˈfeɪməs/</div>
+        <div class="explanation-text">&#x27;most&#x27;의 마지막 /t/가 &#x27;famous&#x27;의 /f/ 앞에서 탈락해요. 영어에서 흔히 일어나는 자음군 단순화 현상이에요.</div>
+        <div class="practice">&#x27;모우스트 페이머스&#x27;가 아니라 &#x27;모우스 페이머스&#x27;처럼 /t/를 생략하면 더 자연스러워요.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">in parallel</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">임 패럴렐</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɪm ˈpærəlɛl/</div>
+        <div class="explanation-text">&#x27;in&#x27;의 /n/이 &#x27;parallel&#x27;의 양순음 /p/ 앞에서 /m/으로 동화돼요. 비음이 다음 자음의 조음 위치에 맞춰 변하는 조음위치 동화 현상이에요.</div>
+        <div class="practice">&#x27;인 패럴렐&#x27;이 아니라 &#x27;임 패럴렐&#x27;처럼 /n/을 /m/으로 바꿔서 발음해 보세요. 입술을 다물면서 자연스럽게 이어져요.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"For most of our history"</div>
+        <div class="signal-role">역사적 맥락을 설정하며 이야기를 시작해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"But this process is about to meet its physical limits"</div>
+        <div class="signal-role">핵심 문제를 예고하며 긴박감을 조성해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"To understand why this is a problem, we have to clear up some basics"</div>
+        <div class="signal-role">기본 개념 설명으로 전환하며 청중을 안내해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"However, with parts getting tinier and tinier"</div>
+        <div class="signal-role">양자 문제로의 전환을 알리는 역접 표현이에요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"In a nutshell"</div>
+        <div class="signal-role">복잡한 개념을 간결하게 요약하겠다는 신호예요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"To solve this problem, scientists are trying to"</div>
+        <div class="signal-role">문제에서 해결책으로 전환하며 양자 컴퓨터를 소개해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"This is called superposition"</div>
+        <div class="signal-role">핵심 용어를 정의하며 개념을 명확하게 해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type emphasis">emphasis</span>
+    <div>
+        <div class="signal-expr">"Superposition is a game-changer"</div>
+        <div class="signal-role">중첩의 중요성을 강조하며 실질적 의미를 설명하기 시작해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"What this means is that"</div>
+        <div class="signal-role">복잡한 설명을 실질적인 의미로 바꿔 설명해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"So while quantum computers will probably not replace our home computers"</div>
+        <div class="signal-role">이론에서 실제 응용 분야로 전환하며 기대를 조정해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Another really exciting new use is"</div>
+        <div class="signal-role">새로운 응용 분야로 자연스럽게 전환해요</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type summary">summary</span>
+    <div>
+        <div class="signal-expr">"We have no idea where the limits of technology are"</div>
+        <div class="signal-role">전체 영상을 마무리하며 열린 결론으로 끝내요</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=JhHMJCUmq28
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>日本縦断415km～全てを受け入れた旅 | Shogo Mochizuki | TEDxShizuokashi</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">일본 종단 415km 레이스 경험으로 전하는 수용과 성장의 메시지</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">13:58</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">209</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/EbeVb1bVzQ8/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/EbeVb1bVzQ8">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (20 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (0 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (12 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (11 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 13-minute video by TEDx Talks is structured into 6 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction</span>
+        <span class="sec-time">0:51 ~ 1:56</span>
+    </div>
+    <div class="sec-summary">The speaker introduces himself and the Trans Japan Alps Race. He mentions he came in casual clothes because it&#x27;s cold, but is still wearing his race backpack. He previews what he wants to share today: things he felt through the race and the motivation it gave him.</div>
+    <div class="key-points"><span class="key-point">트랜스재팬알프스레이스 소개</span><span class="key-point">415킬로미터 레이스</span><span class="key-point">발표자의 레이스 배낭 등장</span><span class="key-point">오늘 이야기할 내용 예고</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Race Overview: Route and Rules</span>
+        <span class="sec-time">1:56 ~ 3:29</span>
+    </div>
+    <div class="sec-summary">Detailed explanation of the race: from Uozu City (Sea of Japan) through the North, Central, and South Alps to Shizuoka&#x27;s Pacific coast. Must be completed within one week. No outside support allowed (no food from others, no vehicles). Only 30 participants selected via document review and qualifying races.</div>
+    <div class="key-points"><span class="key-point">도야마 동해 → 시즈오카 태평양 415km</span><span class="key-point">1주일 제한시간</span><span class="key-point">외부 지원 완전 금지</span><span class="key-point">30명 정원, 서류·예선 심사</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">The Race Experience: Nature&#x27;s Beauty</span>
+        <span class="sec-time">3:29 ~ 4:53</span>
+    </div>
+    <div class="sec-summary">The speaker describes the incredible scenery: starting alone in the dark with only a headlamp, watching the sunrise illuminate the mountain slopes, the blinding sun at the summit, and seeing the next 200km of Alps stretching ahead. This sense of awe is part of what keeps him coming back.</div>
+    <div class="key-points"><span class="key-point">한밤중 헤드라이트만 의지해 출발</span><span class="key-point">일출의 아침놀로 물드는 산 비탈</span><span class="key-point">정상에서 보이는 3000미터급 연봉</span><span class="key-point">200km 앞 남알프스가 보이는 전망</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">The Race Experience: Physical and Mental Hardships</span>
+        <span class="sec-time">4:54 ~ 9:34</span>
+    </div>
+    <div class="sec-summary">Describes the extreme hardships: only 2 hours of sleep per day (10-20 minute naps), hunger, pain in muscles and joints, being overtaken by other runners, extreme cold (below 10°C at 3000m) and scorching heat (37-38°C on the road), and typhoons with 40m/s winds on bare summits. The speaker also describes heightened senses, auditory hallucinations, and visual hallucinations (a hallucination beckoning toward a cliff).</div>
+    <div class="key-points"><span class="key-point">하루 2시간(10~20분 단위) 수면</span><span class="key-point">고산의 추위와 도로의 폭염</span><span class="key-point">태풍 풍속 40m/s에 피할 곳 없음</span><span class="key-point">오감이 연마되는 감각</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">The Turning Point: The Sanpuku Pass Incident</span>
+        <span class="sec-time">9:34 ~ 12:18</span>
+    </div>
+    <div class="sec-summary">The emotional climax of the talk. At the 2012 (2nd) race, at the Sanpuku Pass (2500m), the speaker was physically and mentally at his limit. He told his teammates—who had traveled 5 hours by car and hiked 7 hours to cheer him—that he wanted to retire. Instead of urging him to win, they said: &#x27;We just want you to come back to Shizuoka safe and smiling.&#x27; This one sentence lifted the burden from his shoulders and allowed him to start running again.</div>
+    <div class="key-points"><span class="key-point">2012년 2회 대회, 산푸쿠 고개에서의 사건</span><span class="key-point">정신적·육체적 한계 도달, 리타이어 선언</span><span class="key-point">GPS도 없던 시대, 동료들이 언제 올지 모르며 추위 속에서 대기</span><span class="key-point">동료의 한마디: &#x27;건강하게 웃는 얼굴로 돌아와 주면 된다&#x27;</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Life Lesson: Acceptance and Joy</span>
+        <span class="sec-time">12:19 ~ 13:58</span>
+    </div>
+    <div class="sec-summary">The speaker shares his core insight from the race: to finish, one must accept everything—nature&#x27;s ferocity, extreme temperatures, and the feelings of supporters. In 2016 (4th attempt), he completed the race in 4 days 23 hours 52 minutes, arriving on Japan&#x27;s Mountain Day. For the first time, nothing felt hard; everything was enjoyable. He concludes by encouraging the audience to take one step forward toward things that bring them joy and to keep challenging themselves.</div>
+    <div class="key-points"><span class="key-point">모든 것을 받아들이는 것이 완주의 열쇠</span><span class="key-point">자연의 위협·응원자의 마음도 수용</span><span class="key-point">2016년 4회 도전 완주: 4일 23시간 52분</span><span class="key-point">&#x27;산의 날&#x27;에 골인</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">挑戦</span>
+        <span class="phonetic">ちょうせん</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">challenge, attempt</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"自分の限界にチャレンジするような、そういったレースとしてやっています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">山岳レース</span>
+        <span class="phonetic">さんがくれーす</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">mountain race</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"変わったですね、誰がそんなことをやるんだというような山岳レースがあります。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">制限時間</span>
+        <span class="phonetic">せいげんじかん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">time limit</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"制限時間は1週間以内にゴールすること。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">書類選考</span>
+        <span class="phonetic">しょるいせんこう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">document screening, application review</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"参加するにもですね、書類選考があったり予選会があったりして。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">幻聴</span>
+        <span class="phonetic">げんちょう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N1</span>
+    </div>
+    <div class="definition">auditory hallucination</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"幻聴が聞こえたりとか、あとは幻覚を見ますね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">幻覚</span>
+        <span class="phonetic">げんかく</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N1</span>
+    </div>
+    <div class="definition">hallucination, illusion</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"まあ幻聴が聞こえたりとか、あとは幻覚を見ますね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">五感</span>
+        <span class="phonetic">ごかん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">five senses</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"五感が研ぎ澄まされてくるような感覚になるんですね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">研ぎ澄ます</span>
+        <span class="phonetic">とぎすます</span>
+        <span class="pos">verb (godan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N1</span>
+    </div>
+    <div class="definition">to sharpen, to hone (one&#x27;s senses)</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"五感が研ぎ澄まされてくるような感覚になるんですね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">後悔</span>
+        <span class="phonetic">こうかい</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">regret, remorse</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"後悔が続いてやってきた結果の4回もやってしまったという感じなんですけども。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">限界</span>
+        <span class="phonetic">げんかい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">limit, boundary</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"もう限界に来てたんです。精神的にも肉体的にも。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">乗り越える</span>
+        <span class="phonetic">のりこえる</span>
+        <span class="pos">verb (ichidan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to overcome, to get over</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"一つ一つずつ乗り越えてくることが自信につながる。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">自信</span>
+        <span class="phonetic">じしん</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">self-confidence</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"一つ一つずつ乗り越えてくることが自信につながる。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">受け入れる</span>
+        <span class="phonetic">うけいれる</span>
+        <span class="pos">verb (ichidan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to accept, to receive</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"全てを受け入れられたからだと、僕は思っています。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">恩返し</span>
+        <span class="phonetic">おんがえし</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">repaying a favor, returning a kindness</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"何が恩返しができるかって考えた時に、やっぱりそういう記録とか結果を出して。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">肩の荷</span>
+        <span class="phonetic">かたのに</span>
+        <span class="pos">expression/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">burden on one&#x27;s shoulders</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"そこで肩の荷が、ほっとしてですね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">過酷</span>
+        <span class="phonetic">かこく</span>
+        <span class="pos">na-adjective/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">severe, harsh, cruel</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"やっぱりこのレース、こういう過酷なレースというか。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">灼熱</span>
+        <span class="phonetic">しゃくねつ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N1</span>
+    </div>
+    <div class="definition">scorching heat, intense heat</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"そういったところでは37度とか38度の灼熱地獄がですね待ち構えてます。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">安堵</span>
+        <span class="phonetic">あんど</span>
+        <span class="pos">noun/suru-verb</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">relief, reassurance</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"ちょっと安堵の顔が出たんですね。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">脅威</span>
+        <span class="phonetic">きょうい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">threat, menace</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"自然の脅威とか、自然の猛威っていうんですかね、そういったものも受け入れる。"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">踏み出す</span>
+        <span class="phonetic">ふみだす</span>
+        <span class="pos">verb (godan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to step out, to take a step forward</div>
+    <div class="meaning-ko">영상에서 사용된 표현</div>
+    <div class="context">"ぜひ皆さんも楽しいなと思うことをですね、一歩踏み出して、これから挑戦して。"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜というのは</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~라는 것은&#x27;이라는 뜻으로, 어떤 주제를 소개하거나 정의할 때 사용합니다. 설명적인 말투에서 자주 나타납니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てはいけない</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~해서는 안 된다&#x27;는 금지 표현입니다. 규칙이나 규정을 설명할 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にもかかわらず / 〜でも〜てしまう</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~임에도 불구하고 ~해버린다&#x27;는 의미로, 예상을 벗어난 상황을 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜たことがある</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~한 적이 있다&#x27;는 과거 경험을 나타내는 표현입니다. た형 + ことがある를 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ておけばよかった</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~해두면 좋았을 텐데&#x27;라는 후회를 나타내는 표현입니다. て형 + おく (미리 해두다) + ばよかった를 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にとって</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~에게 있어서&#x27;, &#x27;~의 입장에서&#x27;라는 뜻입니다. 어떤 것이 특정 인물에게 어떤 의미인지 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~하면서&#x27;라는 동시 동작을 나타냅니다. 동사의 ます형 어간에 붙어 두 동작이 동시에 이루어짐을 표현합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜につながる</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~로 이어지다&#x27;, &#x27;~에 연결되다&#x27;라는 뜻입니다. 어떤 행동이나 경험이 결과로 이어질 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んですけども / 〜んですけど</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~인데요&#x27;라는 뜻으로 설명을 제공하면서 다음 말로 이어주는 완화 표현입니다. のだ(んだ) + けれども의 조합으로, 구어체에서 매우 자주 쓰입니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と言ってくれた</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~라고 말해줬다&#x27;는 표현으로, 상대방이 화자를 위해 말해준 것을 나타냅니다. くれた는 상대방의 행동이 화자에게 도움이 됨을 나타냅니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜じゃないのかな / 〜んじゃないかな</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~게 아닐까 (생각한다)&#x27;는 뜻의 부드럽고 추측적인 표현입니다. 자신의 생각을 강요하지 않고 조심스럽게 제시할 때 사용합니다.</div>
+    
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てもらえたら</div>
+    <div class="explanation"></div>
+    <div class="explanation-ko">&#x27;~해주신다면 (감사하겠습니다)&#x27;는 표현으로, 정중한 부탁이나 바람을 나타냅니다. もらう의 가능형 + 조건형 たら를 사용하여 부탁을 부드럽게 만듭니다.</div>
+    
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">ありがとうございます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ありがとうございます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">&#x27;감사합니다&#x27;의 정중한 표현. TEDx 발표에서 청중에게 감사를 전할 때 사용하는 기본 인사입니다.</div>
+        <div class="practice">발표자가 청중에게 감사를 표할 때. 예상보다 많이 손을 들어준 청중에 대한 감사.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">来させてもらって</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">こさせてもらって</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（〜させてもらう）</div>
+        <div class="explanation-text">&#x27;오게 되었습니다&#x27;라는 겸손한 표현. 〜させてもらう는 허가를 얻어 무언가를 한다는 겸양의 뉘앙스를 담고 있습니다.</div>
+        <div class="practice">발표자가 추운 날씨로 인해 달리기 복장 대신 다른 복장으로 온 것을 청중에게 겸손하게 설명할 때.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">話したいと思います</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">はなしたいとおもいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語</div>
+        <div class="explanation-text">&#x27;이야기하고 싶습니다&#x27;라는 정중한 표현. 〜たいと思います는 의향을 부드럽고 격식 있게 전달하는 패턴입니다.</div>
+        <div class="practice">발표자가 오늘 발표에서 다루고 싶은 주제를 청중에게 예고할 때.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">皆さんこんにちは</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさんこんにちは</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（挨拶）</div>
+        <div class="explanation-text">&#x27;여러분 안녕하세요&#x27;라는 정중한 인사. TEDx처럼 공식적인 자리에서 청중 전체에게 하는 격식 있는 인사입니다.</div>
+        <div class="practice">TEDx 발표의 첫 인사로 청중 전체를 향해 하는 공식적인 시작 인사.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">思っています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おもっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（〜ています）</div>
+        <div class="explanation-text">&#x27;생각하고 있습니다&#x27;라는 현재 진행형 정중 표현. 발표자의 현재 생각이나 확신을 청중에게 부드럽고 격식 있게 전달합니다.</div>
+        <div class="practice">발표자가 자신의 지속적인 생각이나 깨달음을 청중에게 공유할 때 반복적으로 사용.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">どうもありがとうございました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">どうもありがとうございました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（最上級の感謝）</div>
+        <div class="explanation-text">&#x27;정말 감사합니다&#x27;라는 최고 수준의 감사 인사. どうも를 더해 감사의 강도를 높인 표현으로, 발표 마무리의 공식 인사로 사용됩니다.</div>
+        <div class="practice">TEDx 발표를 마치며 청중에게 경청에 대한 감사를 전하는 마지막 인사.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">感じてきました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かんじてきました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（〜てくる）</div>
+        <div class="explanation-text">&#x27;느껴왔습니다&#x27;라는 정중한 표현. 〜てくる는 시간의 흐름에 따라 어떤 변화나 감각이 생겨온 것을 나타내며, 발표자의 경험이 축적되어온 과정을 강조합니다.</div>
+        <div class="practice">레이스를 통해 점차 쌓아온 깨달음이나 감각을 청중에게 설명할 때.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Kenjougo / 謙譲語 (겸양어)</div>
+<div class="cs-card">
+    <span class="original">背負わさせてもらってやらせてもらいます</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">せおわさせてもらってやらせてもらいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">謙譲語（〜させていただく系）</div>
+        <div class="explanation-text">&#x27;메고 진행하겠습니다&#x27;라는 겸양 표현. 〜させてもらう는 〜させていただく의 구어체로, 청중의 허락을 구하는 겸손한 뉘앙스가 있습니다.</div>
+        <div class="practice">발표자가 배낭을 메고 발표를 진행하는 것에 대해 청중에게 양해를 구하는 장면.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Casual / タメ口 (반말)</div>
+<div class="cs-card">
+    <span class="original">何なんだって</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">なんなんだって</span>
+    <div class="details">
+        <div class="phonetic-ipa">カジュアル（引用）</div>
+        <div class="explanation-text">&#x27;무엇인지&#x27;라는 캐주얼한 인용·의문 표현. って는 구어에서 ~と言う(~라고 하다)나 ~だと言う의 축약형으로, 타인의 반응이나 생각을 부드럽게 인용할 때 씁니다.</div>
+        <div class="practice">청중이 레이스 이름을 듣고 &#x27;이게 대체 뭐지?&#x27;라고 반응할 것을 상상하며 사용한 캐주얼한 표현.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">走り出すことができました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">はしりだすことができました</span>
+    <div class="details">
+        <div class="phonetic-ipa">丁寧語（〜ことができる）</div>
+        <div class="explanation-text">&#x27;달리기 시작할 수 있었습니다&#x27;라는 정중한 표현. 〜ことができる는 가능을 나타내는 문어·정중 표현으로, 감동적인 장면에서 공식적인 어조를 강조합니다.</div>
+        <div class="practice">동료의 말에 힘을 얻어 다시 레이스를 재개할 수 있었다는 감동적인 순간을 정중하게 묘사할 때.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">変わってる人なんですけどね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">かわってるひとなんですけどね</span>
+    <div class="details">
+        <div class="phonetic-ipa">カジュアル＋丁寧（混合）</div>
+        <div class="explanation-text">&#x27;특이한 사람인데요&#x27;라는 캐주얼과 정중어가 섞인 표현. 구어체(〜てる)와 정중어(〜ですけど)를 혼합하여 친근하면서도 격식을 잃지 않는 발표 스타일을 보여줍니다.</div>
+        <div class="practice">청중에게 친근감을 주기 위해 자기 자신과 참가자들을 &#x27;특이한 사람들&#x27;로 자조적으로 표현하는 유머러스한 장면.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Bikago</div>
+<div class="cs-card">
+    <span class="original">ご参加</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごさんか</span>
+    <div class="details">
+        <div class="phonetic-ipa">美化語（ご〜）</div>
+        <div class="explanation-text">&#x27;참가&#x27;에 ご를 붙인 미화어 표현. ご + 한자어 명사 형태로, 해당 행위를 격식 있게 표현합니다.</div>
+        <div class="practice">레이스 참가 자격을 설명하는 맥락에서 &#x27;참가&#x27;를 격식 있게 표현할 때.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"皆さんこんにちは"</div>
+        <div class="signal-role">TEDx 발표 시작 인사</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"今日は話したいと思います"</div>
+        <div class="signal-role">오늘 발표에서 이야기할 주제를 청중에게 예고</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"まずトランスジャパンアルプスレースというのは"</div>
+        <div class="signal-role">레이스 소개 섹션 시작</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"スタートは夜中の0時"</div>
+        <div class="signal-role">실제 레이스 체험 묘사 시작</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"でその中ではいろんな経験"</div>
+        <div class="signal-role">레이스 중 고난 경험 묘사로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"そんな中で一つ自分が、今でも思い残る出来事がありまして"</div>
+        <div class="signal-role">산푸쿠 고개 사건이라는 핵심 에피소드 도입</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"それは自分の中で三伏峠事件って言うんですけども"</div>
+        <div class="signal-role">산푸쿠 고개 사건의 명칭과 함께 본격 묘사 시작</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"そこで肩の荷が、ほっとしてですね"</div>
+        <div class="signal-role">감동적 전환점: 동료의 말에 어깨의 짐이 내려감</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"で、いろんなこの寒さとか暑さとかそういう精神的なところとかも、いろいろ経験してきた中で、僕は思ったんです"</div>
+        <div class="signal-role">경험을 통한 핵심 깨달음으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"で、今年2016年4回目の挑戦してですね"</div>
+        <div class="signal-role">2016년 4번째 도전의 결과 및 결론 섹션으로 전환</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing">closing</span>
+    <div>
+        <div class="signal-expr">"どうもありがとうございました"</div>
+        <div class="signal-role">발표 마무리 인사</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=EbeVb1bVzQ8
+    </div>
+</div>
+
+</body>
+</html>

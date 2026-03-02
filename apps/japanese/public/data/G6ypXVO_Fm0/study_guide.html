@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>シン・ニホン | 安宅 和人 | TEDxTokyo</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">디지털 전환 이후 일본의 구조 변화와 미래 전략을 짚는 TED 강연</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">11:56</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">67</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/G6ypXVO_Fm0/sddefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/G6ypXVO_Fm0">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (12 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 11-minute video by TEDx Talks is structured into 5 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">도입: 현재 상황 설명 (Introduction: Current Situation)</span>
+        <span class="sec-time">0:02 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">강연자가 지난 30년간 세상에서 가장 큰 변화에 대해 리캡하겠다고 소개하며, 그것이 &#x27;컴퓨터를 들고 다니는 것&#x27;임을 제시한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">컴퓨터 성능의 급격한 발전 (Rapid Advancement of Computer Performance)</span>
+        <span class="sec-time">0:02 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">30년 전 슈퍼컴퓨터와 현재 스마트폰의 성능 비교, 통신 속도(대역)의 1000배 이상 향상, 5G 도래 이후 추가 1000배 예측 등 구체적 수치로 기술 발전을 설명한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">빅데이터와 AI의 부상 (Rise of Big Data and AI)</span>
+        <span class="sec-time">0:02 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">빅데이터 폭발, 컴퓨터의 처리 능력 향상으로 이전에 불가능했던 데이터 시각화가 가능해지고, 뉴럴 네트워크와 딥러닝이 작동하게 되었음을 설명한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">역사적 맥락: 산업혁명과 생산성 (Historical Context: Industrial Revolution and Productivity)</span>
+        <span class="sec-time">0:02 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">산업혁명이 2300년에 걸쳐 발생했고 1800년대 이전에는 세계 인구의 90% 이상이 1차 산업에 종사했음을 설명한다. 로마 시대부터 산업혁명까지 2000년간 생산성은 2배에 그쳤으나, 이후 150년 만에 100배 가까이 올랐음을 설명하며, 현재 생산성이 다시 도약할 순간임을 시사한다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">ICT 섹터의 주도와 미래 전망 (ICT Sector Leadership and Future Outlook)</span>
+        <span class="sec-time">0:02 ~ 0:32</span>
+    </div>
+    <div class="sec-summary">시가총액 상위가 ICT 기업들로 채워지고, ICT가 없었다면 일본 경제는 수축했을 것임을 설명한다. ICT가 성장의 동력이 되고, 상상력이 부를 창출한다는 결론으로 이어진다.</div>
+    <div class="key-points"></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">置かれる</span>
+        <span class="phonetic">おかれる</span>
+        <span class="pos">動詞（受身）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">To be placed; to be put in a position/situation</div>
+    <div class="meaning-ko">놓이다, (상황에) 처하다</div>
+    <div class="context">"今私たちが置かれている状況というのを"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">状況</span>
+        <span class="phonetic">じょうきょう</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Situation; state of affairs; circumstances</div>
+    <div class="meaning-ko">상황, 형편</div>
+    <div class="context">"今私たちが置かれている状況というのを"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">変化</span>
+        <span class="phonetic">へんか</span>
+        <span class="pos">名詞・する動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN4</span>
+    </div>
+    <div class="definition">Change; variation; transformation</div>
+    <div class="meaning-ko">변화</div>
+    <div class="context">"世の中で一番起こっている変化は"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">持ち歩く</span>
+        <span class="phonetic">もちあるく</span>
+        <span class="pos">動詞（複合）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">To carry around; to walk around with something</div>
+    <div class="meaning-ko">들고 다니다, 휴대하다</div>
+    <div class="context">"コンピューターを持ち歩くことだと思っています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">数十倍</span>
+        <span class="phonetic">すうじゅうばい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Dozens of times; tens of times over</div>
+    <div class="meaning-ko">수십 배</div>
+    <div class="context">"数十倍早いコンピューターを皆さんがポケットに持っています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">とんでもない</span>
+        <span class="phonetic">とんでもない</span>
+        <span class="pos">形容詞（い形容詞）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Outrageous; incredible; unbelievable; extraordinary</div>
+    <div class="meaning-ko">터무니없다, 엄청나다, 대단하다</div>
+    <div class="context">"とんでもない早いコンピューターを皆さん持ち歩いているんですね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">異常</span>
+        <span class="phonetic">いじょう</span>
+        <span class="pos">名詞・な形容詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN3</span>
+    </div>
+    <div class="definition">Abnormal; extraordinary; unusual</div>
+    <div class="meaning-ko">이상, 비정상적인</div>
+    <div class="context">"大気は異常な引きを得ていっています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">可視化</span>
+        <span class="phonetic">かしか</span>
+        <span class="pos">名詞・する動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Visualization; making visible</div>
+    <div class="meaning-ko">가시화, 시각화</div>
+    <div class="context">"今までだったら絶対に可視化できなかったデータが"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ニューラルネットワーク</span>
+        <span class="phonetic">にゅーらるねっとわーく</span>
+        <span class="pos">名詞（外来語）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Neural network</div>
+    <div class="meaning-ko">뉴럴 네트워크, 신경망</div>
+    <div class="context">"ニューラルネットワークが走るようになってディープラーニングが動いています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">産業革命</span>
+        <span class="phonetic">さんぎょうかくめい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Industrial revolution</div>
+    <div class="meaning-ko">산업혁명</div>
+    <div class="context">"産業革命というのは2,300年かけて起こってきたわけですけれども"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">第一次産業</span>
+        <span class="phonetic">だいいちじさんぎょう</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Primary industry (agriculture, fishing, forestry)</div>
+    <div class="meaning-ko">1차 산업</div>
+    <div class="context">"第一次産業に従事していたことが分かっています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">従事する</span>
+        <span class="phonetic">じゅうじする</span>
+        <span class="pos">する動詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">To engage in; to be engaged in (work/occupation)</div>
+    <div class="meaning-ko">종사하다</div>
+    <div class="context">"第一次産業に従事していたことが分かっています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">生産性</span>
+        <span class="phonetic">せいさんせい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">Productivity</div>
+    <div class="meaning-ko">생산성</div>
+    <div class="context">"我々は全然生産性が高く生きているわけです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">解き放たれる</span>
+        <span class="phonetic">ときはなたれる</span>
+        <span class="pos">動詞（受身）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN2</span>
+    </div>
+    <div class="definition">To be released; to be liberated; to be freed</div>
+    <div class="meaning-ko">해방되다, 풀려나다</div>
+    <div class="context">"これが解き放たれるという非常に重要な時間というか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">妄想力</span>
+        <span class="phonetic">もうそうりょく</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Power of imagination; ability to envision wildly</div>
+    <div class="meaning-ko">상상력, 망상력</div>
+    <div class="context">"妄想力が富を生むという"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">付加価値</span>
+        <span class="phonetic">ふかかち</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Added value</div>
+    <div class="meaning-ko">부가가치</div>
+    <div class="context">"付加価値の総和で見た"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">縮小経済</span>
+        <span class="phonetic">しゅくしょうけいざい</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Shrinking economy; contracting economy</div>
+    <div class="meaning-ko">수축 경제</div>
+    <div class="context">"日本というのは縮小経済であったということが分かっています"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ディープラーニング</span>
+        <span class="phonetic">でぃーぷらーにんぐ</span>
+        <span class="pos">名詞（外来語）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Deep learning (machine learning method)</div>
+    <div class="meaning-ko">딥러닝</div>
+    <div class="context">"ディープラーニングが動いています"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">マーケットキャップ</span>
+        <span class="phonetic">まーけっときゃっぷ</span>
+        <span class="pos">名詞（外来語）</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">Market capitalization</div>
+    <div class="meaning-ko">시가총액</div>
+    <div class="context">"マーケットキャップのランキングを見てもですね"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">国富</span>
+        <span class="phonetic">こくふ</span>
+        <span class="pos">名詞</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT NN1</span>
+    </div>
+    <div class="definition">National wealth</div>
+    <div class="meaning-ko">국부</div>
+    <div class="context">"国富を生み出すのはですね"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜というのは〜だ</div>
+    <div class="explanation">A topic-marking construction using というのは to define or explain something. より強調的に話題を提示する表現。</div>
+    <div class="explanation-ko">「というのは」는 앞의 명사나 절을 주제로 삼아 뒤에서 설명하는 표현. &#x27;~라는 것은 ~이다&#x27;의 구조로, 단순한 「は」보다 강조 및 설명의 뉘앙스가 강하다.</div>
+    <div class="example">今私たちが置かれている状況というのを（ちょっとリキャップしたい）</div><div class="example">成長のドライブというのはこのICTになっています</div><div class="example">日本というのは縮小経済であったということが分かっています</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようになる</div>
+    <div class="explanation">Expresses a change of state into a new condition or ability. Indicates something that was not possible before has now become possible.</div>
+    <div class="explanation-ko">이전에는 할 수 없었거나 그렇지 않았던 것이 어떤 변화를 통해 가능해지거나 그렇게 된 것을 나타낸다. &#x27;~하게 되다&#x27;의 의미.</div>
+    <div class="example">可視化できるようになってきています</div><div class="example">ニューラルネットワークが走るようになって</div><div class="example">見えるようになっているということですね</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜わけです</div>
+    <div class="explanation">Expresses logical conclusion or expected result; used to explain a natural/logical consequence or to confirm a conclusion.</div>
+    <div class="explanation-ko">어떤 상황의 당연한 결과나 논리적 결론임을 나타내는 표현. &#x27;~인 것이다&#x27;, &#x27;~인 셈이다&#x27;에 해당.</div>
+    <div class="example">めちゃめちゃログデータが吹き出してきているわけです</div><div class="example">でも我々は全然生産性が高く生きているわけです</div><div class="example">驚くべき時代が来ているわけですよ</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てきている</div>
+    <div class="explanation">Expresses a change or progress that has been happening over time and continues up to the present moment.</div>
+    <div class="explanation-ko">어떤 상태가 시간의 경과와 함께 점진적으로 변화해 왔음을 나타냄. &#x27;점점 ~해지고 있다&#x27;의 의미.</div>
+    <div class="example">可視化できるようになってきています</div><div class="example">なおかつ大気は異常な引きを得ていっています</div><div class="example">処理できるものが増えていっていると</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んですけれども / 〜んですが</div>
+    <div class="explanation">Softened explanation or background-providing construction. The んです adds explanation, and けれども/が adds a soft contrast or connective meaning.</div>
+    <div class="explanation-ko">「んです」(のです)로 설명이나 배경을 제시하고, 「けれども/が」로 부드럽게 이어지는 표현. 말을 잇거나 화제를 전환할 때 자주 쓰인다.</div>
+    <div class="example">ちょっとリキャップ的にしたいんですけれども</div><div class="example">言い張っている人がバークレーにいるんですけど</div><div class="example">このコンピューターのおかげが結構大きいんですけど</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜かけて</div>
+    <div class="explanation">Indicates time or effort spent over a period. Often used with time expressions to mean &#x27;over a period of ~&#x27; or &#x27;taking ~ to do something&#x27;.</div>
+    <div class="explanation-ko">시간이나 노력을 들여서 어떤 행위를 하는 것을 나타냄. &#x27;~에 걸쳐서&#x27;, &#x27;~을 들여서&#x27;의 의미.</div>
+    <div class="example">2,300年かけて起こってきたわけですけれども</div><div class="example">2000年かけて生産性は2倍にしか上がっていないです</div><div class="example">150年かそこらかけて</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜にしか〜ない</div>
+    <div class="explanation">Restrictive expression indicating only to a certain degree; implies a limited/insufficient extent.</div>
+    <div class="explanation-ko">「しか」+ 부정형으로 &#x27;~밖에 ~하지 않다&#x27;의 뜻. 기대보다 적거나 불충분함을 강조하는 표현.</div>
+    <div class="example">2000年かけて生産性は2倍にしか上がっていないです</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜と思っています / 〜だと思います</div>
+    <div class="explanation">Expresses personal opinion or belief in a polite manner. More permanent/firm than 〜と思う alone.</div>
+    <div class="explanation-ko">「思っています」는 단순히 지금 생각하는 것보다, 계속 그렇게 생각하고 있음을 나타내는 지속적 의견 표현.</div>
+    <div class="example">コンピューターを持ち歩くことだと思っています</div><div class="example">今我々が見ている時だと思います</div><div class="example">言えるかなと思います</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ているということ（ですね）</div>
+    <div class="explanation">Nominalizes a clause with ということ to present a fact or conclusion for the listener&#x27;s understanding.</div>
+    <div class="explanation-ko">「ということ」로 절을 명사화하여 결론이나 사실을 정리해 제시하는 표현. 상대에게 이해를 구하거나 강조할 때 사용.</div>
+    <div class="example">見えるようになっているということですね</div><div class="example">日本というのは縮小経済であったということが分かっています</div><div class="example">とても面白い時に僕らは生きているということは</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜なきゃいけない</div>
+    <div class="explanation">Colloquial form of 〜なければいけない. Expresses obligation or necessity (&#x27;must&#x27;, &#x27;have to&#x27;).</div>
+    <div class="explanation-ko">「〜なければいけない」의 구어적 단축형. &#x27;~해야 한다&#x27;는 의무나 필요를 나타내는 표현.</div>
+    <div class="example">やっぱりエンブレスしなきゃいけない</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜んじゃないかというのが</div>
+    <div class="explanation">Indirect question/speculation construction using んじゃないか to present a hypothesis or expectation.</div>
+    <div class="explanation-ko">「んじゃないか」는 추측이나 기대를 나타내는 구어 표현. &#x27;~하는 것이 아닌가&#x27;라는 의미로 완곡하게 의견을 제시할 때 사용.</div>
+    <div class="example">これがもう一発跳ねるんじゃないかというのが</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜によると</div>
+    <div class="explanation">According to ~; based on information from ~. Used to cite a source.</div>
+    <div class="explanation-ko">정보의 출처를 나타내는 표현. &#x27;~에 따르면&#x27;의 의미.</div>
+    <div class="example">彼によるとですよ</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">だんだん分かってくると思うんですけれども</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">だんだんわかってくるとおもうんですけれども</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜んですけれども」는 「〜けど」의 정중한 형태. 청자에 대한 배려와 설명을 동반하는 정중한 표현.</div>
+        <div class="practice">강연 등 청중에게 설명할 때 사용하는 정중한 연결 표현</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ちょっとリキャップ的にしたいんですけれども</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ちょっとりきゃっぷてきにしたいんですけれども</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜んですけれども」를 사용해 청중에게 자신의 의도를 부드럽게 알리는 정중한 표현.</div>
+        <div class="practice">프레젠테이션이나 강연에서 주제를 전환할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">コンピューターを持ち歩くことだと思っています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">こんぴゅーたーをもちあるくことだとおもっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜ています」형식의 정중체. 개인적 의견을 청중에게 정중하게 전달하는 표현.</div>
+        <div class="practice">청중 앞에서 자신의 견해를 밝힐 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">数十倍早いコンピューターを皆さんがポケットに持っています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">すうじゅうばいはやいこんぴゅーたーをみなさんがぽけっとにもっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「皆さん」은 청중을 높여 부르는 정중한 호칭. 강연에서 청중을 지칭할 때 사용.</div>
+        <div class="practice">청중 전체를 상대로 말할 때 사용하는 정중한 호칭</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">大体この十数年で1000倍以上になりました</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">だいたいこのじゅうすうねんで1000ばいいじょうになりました</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜ました」는 정중체 과거형. 강연 등 공식 장면에서 과거 사실을 설명할 때 사용.</div>
+        <div class="practice">공식 강연에서 사실을 설명할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">いいですか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いいですか</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">청중의 주의를 환기시키는 정중한 표현. 강연자가 중요한 내용을 말하기 전에 청중의 집중을 요청할 때 사용.</div>
+        <div class="practice">강연에서 청중의 주의를 집중시킬 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">たぶんあと5年から10年でですね 1ヶ月のプランが5テラとかになります</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">たぶんあと5ねんから10ねんでですね 1かげつのぷらんが5てらとかになります</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜になります」는 「〜になる」의 정중형. 미래의 변화를 청중에게 설명할 때 사용.</div>
+        <div class="practice">미래 예측을 청중에게 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">言い張っている人がバークレーにいるんですけど 彼によるとですよ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いいはっているひとがばーくれーにいるんですけど かれによるとですよ</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜んですけど」로 부드럽게 배경 설명을 하고, 「〜によると」로 출처를 밝히는 정중한 표현 구조.</div>
+        <div class="practice">청중에게 정보 출처를 인용할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">今我々が見ている時だと思います</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いまわれわれがみているときだとおもいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜と思います」는 정중하게 의견을 전달하는 표현. 직접적으로 주장하지 않고 완곡하게 자신의 견해를 제시.</div>
+        <div class="practice">청중에게 자신의 분석이나 견해를 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">非常に面白いサインが生まれていて</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ひじょうにおもしろいさいんがうまれていて</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「非常に」는 「すごく」나 「とても」보다 격식 있는 부사. 강연에서 강조할 때 자주 사용되는 표현.</div>
+        <div class="practice">공식 강연에서 강조할 때 사용하는 격식체 부사</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">成長のドライブというのはこのICTになっています</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">せいちょうのどらいぶというのはこのあいしーてぃーになっています</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜になっています」는 현재의 상태를 정중하게 설명하는 표현. 결론을 청중에게 전달할 때 사용.</div>
+        <div class="practice">분석의 결론을 청중에게 전달할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">驚くべき時代が来ているわけですよ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おどろくべきじだいがきているわけですよ</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「〜べき」는 &#x27;~해야 할&#x27;, &#x27;~당연한&#x27;의 뜻으로 강조의 의미. 「わけですよ」로 논리적 결론을 청중과 공유하는 표현.</div>
+        <div class="practice">결론을 강조하며 청중과 공유할 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Bikago</div>
+<div class="cs-card">
+    <span class="original">皆さん</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさん</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「皆（みな）」에 「さん」을 붙인 미화어로, 청중이나 집단을 정중하게 칭할 때 사용. 직접적으로 높이는 존경어는 아니지만 정중함을 더하는 표현.</div>
+        <div class="practice">강연·발표에서 청중 전체를 가리킬 때</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Casual / タメ口 (반말)</div>
+<div class="cs-card">
+    <span class="original">そうなんですよ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">そうなんですよ</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">「そうなんです」에 「よ」를 더한 표현. 정중체이지만 「よ」로 인해 다소 친근한 어조. 상대에게 동의하거나 사실을 확인시켜줄 때 사용.</div>
+        <div class="practice">청중의 반응에 동의하거나 자신의 주장을 확인할 때</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">僕ら</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ぼくら</span>
+    <div class="details">
+        <div class="phonetic-ipa">2</div>
+        <div class="explanation-text">「僕（ぼく）」는 남성이 쓰는 1인칭으로 다소 캐주얼한 표현. 강연 중 사용하면 청중과의 친밀감을 높이는 효과. 「私たち」보다 편한 표현.</div>
+        <div class="practice">강연 중 청중과의 거리를 좁힐 때 사용하는 비교적 캐주얼한 1인칭</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"ちょっとリキャップ的にしたいんですけれども"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"いいですか"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"だけど幸いですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"またですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"もう一つラッキーなのはですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"結果として"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"そしてこれから"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"実際ですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"ただそこから後ですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"つまりですね"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"正確に言うと"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"だから"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=G6ypXVO_Fm0
+    </div>
+</div>
+
+</body>
+</html>

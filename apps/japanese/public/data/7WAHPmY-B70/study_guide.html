@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #eab308;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">日本語 Study Guide</div>
+    <h1>一瞬 で 惹き つける 声 を 出す方法 | Shigemitsu Hayashi | TEDxShinshuUniversity</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">청중을 사로잡는 목소리를 만드는 발성·호흡·제스처 실전 팁</div>
+    <div><span class="diff-badge">Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">12:37</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">0</div>
+            <div class="label">CPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">61</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">20</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">14</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/7WAHPmY-B70/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/stdyJa/#/study/7WAHPmY-B70">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (18 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (2 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (14 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Keigo &amp; Speech Styles (15 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (15 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 12-minute video by TEDx Talks is structured into 5 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Introduction and Opening Question</span>
+        <span class="sec-time">0:00 ~ 0:31</span>
+    </div>
+    <div class="sec-summary">발표자 하야시 시게미츠가 청중에게 자기소개를 하고 이 강연의 핵심 질문을 던진다: 손 모양에 따라 목소리가 달라진다는 것을 알고 계십니까?</div>
+    <div class="key-points"><span class="key-point">Self-introduction using humble speech (申します)</span><span class="key-point">Opening with a rhetorical question to engage the audience</span><span class="key-point">Playful comment: &#x27;If you already know, I have nothing to offer&#x27;</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Experiment 1: Fist (グー) vs. Bent Fingers — Breathing Muscles</span>
+        <span class="sec-time">0:32 ~ 2:01</span>
+    </div>
+    <div class="sec-summary">발표자는 청중을 두 가지 호흡 실험으로 안내한다. 주먹(グー)으로 쥐었을 때는 가슴 근육이, 새끼손가락과 약지만 구부렸을 때는 복부 근육이 활발해짐을 직접 체험하게 한다.</div>
+    <div class="key-points"><span class="key-point">Fist (グー) → chest muscles activate during deep breathing</span><span class="key-point">Ring + little finger bent → abdominal muscles activate</span><span class="key-point">Hand shape changes which breathing muscles are used</span><span class="key-point">Changing muscles changes the way the voice comes out</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Live Demonstration: Raising a Seated Person with Voice</span>
+        <span class="sec-time">2:01 ~ 3:11</span>
+    </div>
+    <div class="sec-summary">발표자는 청중 참가자(와타시 씨)를 활용한 라이브 시연을 보여준다. 주먹 쥔 상태에서는 막힌 불안정한 목소리가 나와 앉은 사람을 일으키지 못하고, 새끼·약지를 구부린 상태에서는 안정되고 부드러운 목소리로 사람을 일으킬 수 있음을 보여준다.</div>
+    <div class="key-points"><span class="key-point">Fist → blocked, unstable voice → cannot raise seated person</span><span class="key-point">Ring + little finger bent → stable, soft voice → can raise seated person</span><span class="key-point">Reveals the real-world vocal power of the finger technique</span><span class="key-point">打ち合わせ通り joke reveals pre-arranged participation</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Group Practice: Pairs Experiencing the Effect</span>
+        <span class="sec-time">3:11 ~ </span>
+    </div>
+    <div class="sec-summary">청중 전체가 일어서서 2인 1조를 이룬다. 한 사람은 앉고, 한 사람은 서서 목소리로 상대를 일으키는 체험을 한다. 먼저 주먹으로 시도하고, 이어 새끼·약지 구부리기로 시도하여 직접 차이를 체감한다. 역할을 바꿔 반복한다.</div>
+    <div class="key-points"><span class="key-point">Audience forms pairs — one sits, one stands</span><span class="key-point">First attempt with fist: breath gets stuck, belly engages</span><span class="key-point">Second attempt with bent fingers: stable voice, can raise partner</span><span class="key-point">Roles reversed so everyone experiences both sides</span><span class="key-point">Joyful, dynamic exercise creates shared experience</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Practical Applications and Mind-Body Connection</span>
+        <span class="sec-time"> ~ </span>
+    </div>
+    <div class="sec-summary">쌍 활동 후 발표자는 무대 공포증, 말더듬증 등 목소리 불안 문제를 가진 분들에게 실용적 해결책을 제시한다. 추가 시연으로 싫어하는 음식을 상상하면 신체가 불안정해지고, 좋아하는 음식을 상상하면 안정이 회복됨을 보여주며 심신의 연결을 드러낸다.</div>
+    <div class="key-points"><span class="key-point">Small finger + ring finger bent → stable voice for public speaking</span><span class="key-point">Applicable to stage fright (あがり症) and stuttering (喫音症)</span><span class="key-point">Only one hand is sufficient; can cover with other hand</span><span class="key-point">Mind also affects body: imagining disliked food → body weakens</span><span class="key-point">Imagining liked food → body stabilizes</span><span class="key-point">Physical + mental states are interconnected</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">皆様</span>
+        <span class="phonetic">みなさま</span>
+        <span class="pos">noun/pronoun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">everyone, ladies and gentlemen (very polite)</div>
+    <div class="meaning-ko">여러분 (매우 정중한 표현)</div>
+    <div class="context">"皆様は手の形で声が変わることをご存知でしょうか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">深呼吸</span>
+        <span class="phonetic">しんこきゅう</span>
+        <span class="pos">noun/verb (suru)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">deep breath, deep breathing</div>
+    <div class="meaning-ko">심호흡</div>
+    <div class="context">"手の形をグーにしていただき深呼吸をします"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">活発</span>
+        <span class="phonetic">かっぱつ</span>
+        <span class="pos">na-adjective/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">active, lively, energetic</div>
+    <div class="meaning-ko">활발하다, 활동적인</div>
+    <div class="context">"体のどこが活発に動きましたでしょうか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">筋肉</span>
+        <span class="phonetic">きんにく</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">muscle</div>
+    <div class="meaning-ko">근육</div>
+    <div class="context">"胸の筋肉が活発に動きます"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">小指</span>
+        <span class="phonetic">こゆび</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">little finger, pinky</div>
+    <div class="meaning-ko">새끼손가락</div>
+    <div class="context">"次に小指と薬指を折り曲げてください"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">薬指</span>
+        <span class="phonetic">くすりゆび</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">ring finger</div>
+    <div class="meaning-ko">약지, 약손가락</div>
+    <div class="context">"次に小指と薬指を折り曲げてください"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">折り曲げる</span>
+        <span class="phonetic">おりまげる</span>
+        <span class="pos">verb (ichidan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to fold, to bend</div>
+    <div class="meaning-ko">구부리다, 접다</div>
+    <div class="context">"小指と薬指を折り曲げてください"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">安定</span>
+        <span class="phonetic">あんてい</span>
+        <span class="pos">noun/verb (suru)/na-adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">stability, steadiness</div>
+    <div class="meaning-ko">안정</div>
+    <div class="context">"安定した柔らかな声でなぜか起こすこともできます"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">不安定</span>
+        <span class="phonetic">ふあんてい</span>
+        <span class="pos">na-adjective/noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">unstable, unsteady</div>
+    <div class="meaning-ko">불안정</div>
+    <div class="context">"詰まった声が出てきます 不安定な声です"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">状態</span>
+        <span class="phonetic">じょうたい</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">state, condition, situation</div>
+    <div class="meaning-ko">상태</div>
+    <div class="context">"この体の状態を覚えておいてください"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">あがり症</span>
+        <span class="phonetic">あがりしょう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">stage fright, nervousness in front of people</div>
+    <div class="meaning-ko">무대 공포증, 대중 앞에서 긴장하는 증상</div>
+    <div class="context">"あがり症、喫音症の方々"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ご存知</span>
+        <span class="phonetic">ごぞんじ</span>
+        <span class="pos">noun/expression</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">knowing (respectful form of 知っている)</div>
+    <div class="meaning-ko">알고 계시다 (존경어)</div>
+    <div class="context">"皆様は手の形で声が変わることをご存知でしょうか"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">打ち合わせ</span>
+        <span class="phonetic">うちあわせ</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">meeting, arrangement, prior consultation</div>
+    <div class="meaning-ko">사전 협의, 약속</div>
+    <div class="context">"打ち合わせ通りです"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">体感</span>
+        <span class="phonetic">たいかん</span>
+        <span class="pos">noun/verb (suru)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">physical sensation, experiencing with one&#x27;s body</div>
+    <div class="meaning-ko">체감, 몸으로 직접 느끼다</div>
+    <div class="context">"是非皆様一緒にご体感していただきたいと思います"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">思い浮かべる</span>
+        <span class="phonetic">おもいうかべる</span>
+        <span class="pos">verb (ichidan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to imagine, to picture in one&#x27;s mind, to recall</div>
+    <div class="meaning-ko">떠올리다, 상상하다</div>
+    <div class="context">"卵を思い浮かべてください"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">素晴らしい</span>
+        <span class="phonetic">すばらしい</span>
+        <span class="pos">i-adjective</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N4</span>
+    </div>
+    <div class="definition">wonderful, splendid, magnificent</div>
+    <div class="meaning-ko">훌륭하다, 대단하다</div>
+    <div class="context">"素晴らしい 素晴らしい"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">効果</span>
+        <span class="phonetic">こうか</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">effect, result, efficacy</div>
+    <div class="meaning-ko">효과</div>
+    <div class="context">"このぐらいで十分効果はあります"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">申す</span>
+        <span class="phonetic">もうす</span>
+        <span class="pos">verb (godan)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N3</span>
+    </div>
+    <div class="definition">to say, to be called (humble form of 言う)</div>
+    <div class="meaning-ko">말씀드리다 (겸양어, ~라고 합니다)</div>
+    <div class="context">"林茂光と申します"</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">拝借</span>
+        <span class="phonetic">はいしゃく</span>
+        <span class="pos">noun/verb (suru)</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">borrowing (humble form)</div>
+    <div class="meaning-ko">빌리다 (겸양어)</div>
+    <div class="context">"お手を拝借いたします"</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">転倒予防</span>
+        <span class="phonetic">てんとうよぼう</span>
+        <span class="pos">noun</span>
+        <span class="pos" style="background:#fef3c7;color:#92400e;">JLPT N2</span>
+    </div>
+    <div class="definition">fall prevention</div>
+    <div class="meaning-ko">낙상 예방, 넘어짐 방지</div>
+    <div class="context">"転倒予防です これから揺らします"</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">〜と申します</div>
+    <div class="explanation">Humble expression for introducing oneself. 申す (mousu) is the humble form of 言う (iu). Used instead of 〜と言います in formal/polite settings.</div>
+    <div class="explanation-ko">자기소개에 쓰이는 겸양 표현. 申す는 言う의 겸양어. 격식 있는 자리에서 「〜と言います」 대신 사용.</div>
+    <div class="example">林茂光と申します。</div><div class="example">田中と申しますが、部長はいらっしゃいますか？</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜をご存知でしょうか</div>
+    <div class="explanation">Polite way to ask if someone knows something. ご存知 is the honorific form of 知っている. でしょうか softens the question further.</div>
+    <div class="explanation-ko">상대방이 무언가를 알고 있는지 물어보는 정중한 표현. ご存知는 知っている의 존경어. でしょうか로 더욱 완곡하게 표현.</div>
+    <div class="example">皆様は手の形で声が変わることをご存知でしょうか。</div><div class="example">このお店をご存知でしょうか。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただく</div>
+    <div class="explanation">A humble/respectful form expressing that one receives the favor of someone doing something. It is more polite than 〜てもらう and is widely used in formal situations.</div>
+    <div class="explanation-ko">상대방이 어떤 행위를 해 주는 것을 겸손하게 받는 표현. 〜てもらう보다 더 정중하며 격식 있는 상황에서 자주 사용.</div>
+    <div class="example">手の形をグーにしていただき深呼吸をします。</div><div class="example">二人一組になっていただきましたら…</div><div class="example">ご体感していただきたいと思います。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ましたでしょうか</div>
+    <div class="explanation">An extremely polite form combining the past tense 〜ました with the soft interrogative でしょうか. Used when asking a respectful question about something that already happened.</div>
+    <div class="explanation-ko">과거형 〜ました와 완곡한 의문형 でしょうか의 조합. 이미 일어난 일에 대해 정중하게 물어볼 때 사용.</div>
+    <div class="example">体のどこが活発に動きましたでしょうか。</div><div class="example">ご確認いただきましたでしょうか。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てみたいと思います</div>
+    <div class="explanation">Expression of a speaker&#x27;s intention or wish to try something. 〜てみる means &#x27;to try doing&#x27;, and と思います softens the statement.</div>
+    <div class="explanation-ko">무언가를 시도해 보고자 하는 의향을 나타내는 표현. 〜てみる는 &#x27;해보다&#x27;, と思います는 부드럽게 의도를 전달.</div>
+    <div class="example">それを一つ試してみたいと思います。</div><div class="example">日本語を勉強してみたいと思います。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ていただきたいと思います</div>
+    <div class="explanation">A very polite expression used to request that someone does something. More indirect and humble than a direct command. Common in formal speeches.</div>
+    <div class="explanation-ko">상대방에게 무언가를 해 달라고 정중하게 부탁하는 표현. 직접 명령보다 간접적이고 겸손. 격식 있는 연설에서 자주 쓰임.</div>
+    <div class="example">是非皆様一緒にご体感していただきたいと思います。</div><div class="example">これをぜひまた皆様体感していただきたいと思います。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ようにする / 〜まいとする</div>
+    <div class="explanation">〜まいとする expresses the intent NOT to do something (negative volitional form). Here 起こされまいとする means &#x27;trying not to be made to stand up&#x27;.</div>
+    <div class="explanation-ko">〜まいとする는 어떤 일을 하지 않으려고 의도하는 표현 (부정 의지형). 起こされまいとする는 &#x27;일으켜 세워지지 않으려고 하다&#x27;.</div>
+    <div class="example">起こされまいとしてください。</div><div class="example">負けまいと頑張った。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜てしまったら</div>
+    <div class="explanation">Conditional form combining 〜てしまう (an action completed, often with negative nuance) with conditional 〜たら. Meaning: &#x27;if (something unwanted) ends up happening&#x27;.</div>
+    <div class="explanation-ko">〜てしまう(완료, 주로 유감의 뉘앙스)와 조건형 〜たら의 조합. &#x27;(원치 않는 일이) 일어나 버렸다면&#x27;을 의미.</div>
+    <div class="example">起こされてしまったら後でジュースをご紹介してください。</div><div class="example">忘れてしまったら連絡してください。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ておく</div>
+    <div class="explanation">Verb + ておく indicates doing something in advance or keeping a state for future use. 折り曲げておく means &#x27;keep (the fingers) bent (for later benefit)&#x27;.</div>
+    <div class="explanation-ko">동사 + ておく는 미래를 위해 미리 해 두거나 그 상태를 유지하는 것을 나타냄. 折り曲げておく는 &#x27;(나중을 위해) 구부려 두다&#x27;.</div>
+    <div class="example">ぜひこの小指と薬指を折り曲げておくと声が安定します。</div><div class="example">メモしておいてください。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ば〜いいです</div>
+    <div class="explanation">A pattern meaning &#x27;it&#x27;s fine if ~&#x27; or &#x27;all you need is ~&#x27;. Used to give relaxed conditions or permissions.</div>
+    <div class="explanation-ko">〜이면 됩니다&#x27;라는 의미로 조건이나 충족 기준을 편안하게 제시할 때 사용.</div>
+    <div class="example">小指と薬指が手のひらに近ければいいです。</div><div class="example">このぐらいできれば十分いいです。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜ながら</div>
+    <div class="explanation">Expresses doing two actions simultaneously. スペースうまく取りながら means &#x27;while effectively using the space&#x27;.</div>
+    <div class="explanation-ko">두 가지 행동을 동시에 하는 것을 나타냄. 스페이스를 잘 활용하면서(동시에 다른 행동을 함).</div>
+    <div class="example">スペースうまく取りながらやっていってください。</div><div class="example">音楽を聴きながら勉強します。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜でしょうか</div>
+    <div class="explanation">A softened question form, more polite and less direct than 〜ですか. Used in formal and polite contexts to ask something gently.</div>
+    <div class="explanation-ko">〜ですか보다 더 완곡하고 정중한 의문형. 격식 있는 맥락에서 부드럽게 질문할 때 사용.</div>
+    <div class="example">息が詰まるの分かりますでしょうかね。</div><div class="example">よろしいでしょうか。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜て + くれる (恩恵の授受)</div>
+    <div class="explanation">When combined with the directional particle, 〜てくれる indicates someone doing something for the speaker&#x27;s benefit. 声が安定して出てきてくれます suggests the voice cooperates and comes out stably.</div>
+    <div class="explanation-ko">〜てくれる는 화자에게 이익이 되는 행동을 상대방이 해 주는 것을 나타냄. 목소리가 (화자를 위해) 안정적으로 나와 준다는 뉘앙스.</div>
+    <div class="example">声が安定して出てきてくれます。</div><div class="example">友達が手伝ってくれました。</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">〜のほかに / 〜よりも</div>
+    <div class="explanation">〜よりも means &#x27;more than / rather than&#x27;. Used for comparison. この3本よりも (more/rather than these 3 fingers).</div>
+    <div class="explanation-ko">〜よりも는 &#x27;~보다 더, ~보다는&#x27;이라는 비교 표현. この3本よりも는 &#x27;이 세 손가락보다&#x27;.</div>
+    <div class="example">小指と薬指が手のひらに近ければ、この3本よりも効果的です。</div><div class="example">昨日よりも元気です。</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Keigo &amp; Speech Styles</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Politeness levels and speech styles used in this video. Understanding these is essential for natural Japanese!
+</p>
+<div class="cs-type-header" style="background:#f59e0b;">Kenjougo / 謙譲語 (겸양어)</div>
+<div class="cs-card">
+    <span class="original">林茂光と申します</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">はやししげみつともうします</span>
+    <div class="details">
+        <div class="phonetic-ipa">4</div>
+        <div class="explanation-text">申す(もうす)는 言う의 겸양어. 자기 이름을 소개할 때 「〜と申します」는 청중에게 매우 정중한 자기소개 표현.</div>
+        <div class="practice">자기소개, 공식 발표 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お手を拝借いたします</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おてをはいしゃくいたします</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">拝借(はいしゃく)는 借りる의 매우 격식 있는 겸양어. お〜いたします 형식으로 이중 겸양. 청중의 협조를 구할 때 매우 정중하게 사용.</div>
+        <div class="practice">청중 참여를 요청하는 강연 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">〜していただき</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">〜していただき</span>
+    <div class="details">
+        <div class="phonetic-ipa">4</div>
+        <div class="explanation-text">いただく는 もらう의 겸양어. 청중에게 어떤 행동을 부탁할 때 〜していただく를 사용하면 매우 정중한 요청이 됨.</div>
+        <div class="practice">청중에게 행동을 요청하는 맥락 전반</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">皆様にお伝えした</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさまにおつたえした</span>
+    <div class="details">
+        <div class="phonetic-ipa">4</div>
+        <div class="explanation-text">お伝えする는 伝える의 겸양어. 자신이 정보를 전달하는 행위를 낮추어 표현. 청중(皆様)을 높이는 동시에 자신을 낮추는 겸양 표현.</div>
+        <div class="practice">청중에게 자신이 설명한 내용을 언급하는 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご体感していただきたいと思います</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごたいかんしていただきたいとおもいます</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">ご〜していただきたい는 상대방에게 무언가를 해 주기를 정중하게 바라는 표현. ご체감する에 いただきたい를 붙인 이중 경어 구조.</div>
+        <div class="practice">청중에게 체험을 권유하는 연설 장면</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Sonkeigo / 尊敬語 (존경어)</div>
+<div class="cs-card">
+    <span class="original">皆様こんにちは</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">みなさまこんにちは</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">皆様(みなさま)는 皆さん보다 한 단계 더 높은 존경어. 발표, 연설 등 공식적인 자리에서 청중을 높여 부를 때 사용.</div>
+        <div class="practice">공식 연설, TED/강연 개회 인사</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">ご存知でしょうか</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">ごぞんじでしょうか</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">ご存知는 知っている의 존경어. 청중이 무언가를 알고 있는지 정중하게 물어볼 때 사용. でしょうか로 더욱 부드럽게 표현.</div>
+        <div class="practice">청중에게 질문하는 강연 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">お一人は椅子におかけください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おひとりはいすにおかけください</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">おかけください는 座ってください의 존경어 표현. お一人(おひとり)도 一人를 높이는 표현. 청중을 매우 정중하게 대하는 태도.</div>
+        <div class="practice">참여자에게 착석을 요청하는 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">どうぞお立ちくださいませ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">どうぞおたちくださいませ</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">お立ちくださいませ는 立ってください보다 더 격식 있는 존경 표현. ませ를 추가하면 더욱 정중해짐. どうぞ는 &#x27;부디&#x27;라는 뜻으로 더욱 공손하게 요청.</div>
+        <div class="practice">청중에게 기립을 요청하는 장면</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">どうぞおかけくださいませ</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">どうぞおかけくださいませ</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">おかけ는 かける(앉다)의 존경어. くださいませ는 ください보다 한층 더 정중한 형태. 연설 중 청중에게 착석을 권유하는 장면.</div>
+        <div class="practice">청중에게 다시 앉도록 권유하는 장면</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Teineigo / 丁寧語 (정중어)</div>
+<div class="cs-card">
+    <span class="original">よろしくお願いいたします</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">よろしくおねがいいたします</span>
+    <div class="details">
+        <div class="phonetic-ipa">5</div>
+        <div class="explanation-text">いたします는 します의 겸양어. よろしくお願いいたします는 「よろしくお願いします」보다 더 격식 있고 정중한 표현. 연설 첫머리에서 청중에게 인사.</div>
+        <div class="practice">인사, 강연 시작 시</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">楽にしてください</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">らくにしてください</span>
+    <div class="details">
+        <div class="phonetic-ipa">3</div>
+        <div class="explanation-text">〜てください는 정중한 명령·요청 표현. 청중에게 긴장을 풀도록 요청하는 강연 지시 표현.</div>
+        <div class="practice">실험 또는 체험 활동 중 청중에게 편안한 자세를 취하도록 지시</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">私さんはただ立っていただくだけで結構です</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">わたしさんはただたっていただくだけでけっこうです</span>
+    <div class="details">
+        <div class="phonetic-ipa">4</div>
+        <div class="explanation-text">結構です(けっこうです)는 &#x27;それで十分です(충분합니다)&#x27;의 정중한 표현. いただく로 상대방의 행동을 높이고 있음. 격식 있는 지시.</div>
+        <div class="practice">참여자에게 단순히 서 있도록 요청하는 장면</div>
+    </div>
+</div><div class="cs-type-header" style="background:#64748b;">Bikago</div>
+<div class="cs-card">
+    <span class="original">お腹の筋肉</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">おなかのきんにく</span>
+    <div class="details">
+        <div class="phonetic-ipa">2</div>
+        <div class="explanation-text">お腹(おなか)의 お는 미화어(美化語). 단순히 배를 가리키는 腹(はら)에 お를 붙여 부드럽게 표현. 일상 회화에서도 자연스럽게 사용.</div>
+        <div class="practice">신체 부위를 언급하는 일반 대화</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Casual / タメ口 (반말)</div>
+<div class="cs-card">
+    <span class="original">いやー、これだけ多くの方々と打ち合わせするの大変でしたね</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">いやー、これだけおおくのかたがたとうちあわせするのたいへんでしたね</span>
+    <div class="details">
+        <div class="phonetic-ipa">2</div>
+        <div class="explanation-text">いやー는 놀람이나 감탄을 나타내는 구어적 표현. ね는 청중과 공감을 공유하는 종조사. 강연 중 유머러스하게 청중과 소통하는 장면.</div>
+        <div class="practice">유머로 청중과 소통하는 비격식 장면</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type opening">opening</span>
+    <div>
+        <div class="signal-expr">"皆様こんにちは"</div>
+        <div class="signal-role">Formal greeting to open the talk</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type topic_introduction">topic_introduction</span>
+    <div>
+        <div class="signal-expr">"皆様は〜をご存知でしょうか"</div>
+        <div class="signal-role">Introduces the central question/theme of the talk</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type instruction_transition">instruction_transition</span>
+    <div>
+        <div class="signal-expr">"次に〜してください"</div>
+        <div class="signal-role">Transitions to the next step in the demonstration</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"それを一つ試してみたいと思います"</div>
+        <div class="signal-role">Announces the upcoming live demonstration</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"さて"</div>
+        <div class="signal-role">Signals a shift to inviting the audience to participate</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type audience_invitation">audience_invitation</span>
+    <div>
+        <div class="signal-expr">"是非皆様一緒にご体感していただきたいと思います"</div>
+        <div class="signal-role">Invites the entire audience to participate in the group exercise</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type instruction">instruction</span>
+    <div>
+        <div class="signal-expr">"どうぞお立ちくださいませ"</div>
+        <div class="signal-role">Requests audience to stand up for the group exercise</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type instruction">instruction</span>
+    <div>
+        <div class="signal-expr">"二人一組になってください"</div>
+        <div class="signal-role">Organizes the audience into pairs</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type instruction_transition">instruction_transition</span>
+    <div>
+        <div class="signal-expr">"はいそうしましたら"</div>
+        <div class="signal-role">Transitions to the next phase of instruction after a prior step is done</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type praise">praise</span>
+    <div>
+        <div class="signal-expr">"素晴らしい"</div>
+        <div class="signal-role">Praises audience participation and marks success of the exercise</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type closing_of_activity">closing_of_activity</span>
+    <div>
+        <div class="signal-expr">"ありがとうございます どうぞおかけくださいませ"</div>
+        <div class="signal-role">Thanks the audience and invites them to sit back down</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type problem_statement">problem_statement</span>
+    <div>
+        <div class="signal-expr">"人前でお話をするときに声が詰まってしまう〜方々"</div>
+        <div class="signal-role">Introduces the practical problem this technique addresses</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type solution_introduction">solution_introduction</span>
+    <div>
+        <div class="signal-expr">"ぜひこの小指と薬指を折り曲げておくと"</div>
+        <div class="signal-role">Presents the technique as a solution to the problem</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"さあもう一つ違うことを行います"</div>
+        <div class="signal-role">Introduces the second demonstration about mind-body connection</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type audience_invitation">audience_invitation</span>
+    <div>
+        <div class="signal-expr">"これをぜひまた皆様体感していただきたいと思います"</div>
+        <div class="signal-role">Invites the entire audience to experience the mind-body phenomenon</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=7WAHPmY-B70
+    </div>
+</div>
+
+</body>
+</html>

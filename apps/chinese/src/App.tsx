@@ -3,7 +3,7 @@ import {
   AuthProvider, XPToastProvider, Header, LoginPage,
   HomePage, CategoryPage, StudyPage, DictationPage,
   DailyLearningPage, LibraryPage, VocabularyPage,
-  ErrorNotePage, ProfilePage, RequestPage,
+  ErrorNotePage, ProfilePage, RequestPage, SubscribePage,
 } from '@stdylang/shared';
 
 export default function App() {
@@ -11,24 +11,29 @@ export default function App() {
     <HashRouter>
       <AuthProvider>
         <XPToastProvider>
-        <div className="min-h-screen bg-gray-50">
-          <Header />
-          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/category/:categoryId" element={<CategoryPage />} />
-              <Route path="/study/:videoId" element={<StudyPage />} />
-              <Route path="/dictation/:videoId" element={<DictationPage />} />
-              <Route path="/daily" element={<DailyLearningPage />} />
-              <Route path="/request" element={<RequestPage />} />
-              <Route path="/vocabulary" element={<VocabularyPage />} />
-              <Route path="/login" element={<LoginPage />} />
-              <Route path="/profile" element={<ProfilePage />} />
-              <Route path="/library" element={<LibraryPage />} />
-              <Route path="/error-notes" element={<ErrorNotePage />} />
-            </Routes>
-          </main>
-        </div>
+        <Routes>
+          <Route path="/subscribe" element={<SubscribePage />} />
+          <Route path="*" element={
+            <div className="min-h-screen bg-gray-50">
+              <Header />
+              <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <Routes>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/category/:categoryId" element={<CategoryPage />} />
+                  <Route path="/study/:videoId" element={<StudyPage />} />
+                  <Route path="/dictation/:videoId" element={<DictationPage />} />
+                  <Route path="/daily" element={<DailyLearningPage />} />
+                  <Route path="/request" element={<RequestPage />} />
+                  <Route path="/vocabulary" element={<VocabularyPage />} />
+                  <Route path="/login" element={<LoginPage />} />
+                  <Route path="/profile" element={<ProfilePage />} />
+                  <Route path="/library" element={<LibraryPage />} />
+                  <Route path="/error-notes" element={<ErrorNotePage />} />
+                </Routes>
+              </main>
+            </div>
+          } />
+        </Routes>
         </XPToastProvider>
       </AuthProvider>
     </HashRouter>
