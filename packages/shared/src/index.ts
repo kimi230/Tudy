@@ -100,6 +100,7 @@ export type { QuizQuestion, QuizResult } from './lib/vocabQuizEngine.ts';
 export { default as VocabCard } from './components/vocabulary/VocabCard.tsx';
 export { default as EtymologyView } from './components/vocabulary/EtymologyView.tsx';
 export { default as VocabDetailView } from './components/vocabulary/VocabDetailView.tsx';
+export { default as VocabPractice } from './components/vocabulary/VocabPractice.tsx';
 
 // Pages
 export { default as HomePage } from './pages/Home.tsx';

@@ -9,13 +9,14 @@ interface Props {
   vocabulary: VocabularyItem[];
   sessionSegmentRange: [number, number];
   onComplete: (result: QuizResult) => void;
+  quizSize?: number;
 }
 
-export default function VocabQuiz({ vocabulary, sessionSegmentRange, onComplete }: Props) {
+export default function VocabQuiz({ vocabulary, sessionSegmentRange, onComplete, quizSize }: Props) {
   const theme = getThemeColors();
   const questions = useMemo(
-    () => generateQuiz(vocabulary, sessionSegmentRange),
-    [vocabulary, sessionSegmentRange],
+    () => generateQuiz(vocabulary, sessionSegmentRange, quizSize),
+    [vocabulary, sessionSegmentRange, quizSize],
   );
 
   const [currentIndex, setCurrentIndex] = useState(0);

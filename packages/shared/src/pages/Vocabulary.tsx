@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { loadVideos, loadVocabulary } from '../lib/dataLoader';
 import VocabCard from '../components/vocabulary/VocabCard';
 import VocabDetailView from '../components/vocabulary/VocabDetailView';
+import VocabPractice from '../components/vocabulary/VocabPractice';
 import { getThemeColors } from '../lib/languageHelpers';
 import type { VocabularyItem, VideoEntry } from '../types';
 
@@ -17,6 +18,7 @@ export default function Vocabulary() {
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
+  const [practiceVideoId, setPracticeVideoId] = useState<string | null>(null);
   const t = getThemeColors();
 
   useEffect(() => {
@@ -73,8 +75,26 @@ export default function Vocabulary() {
     });
   };
 
+  const practiceVocab = useMemo(() => {
+    if (!practiceVideoId) return [];
+    return allVocab.filter((v) => v.videoId === practiceVideoId);
+  }, [allVocab, practiceVideoId]);
+
   if (loading) {
     return <div className="text-center py-20 text-gray-400">어휘 데이터를 불러오는 중...</div>;
+  }
+
+  if (practiceVideoId) {
+    const video = videoMap.get(practiceVideoId);
+    return (
+      <div className="max-w-2xl mx-auto">
+        <VocabPractice
+          vocabulary={practiceVocab}
+          videoTitle={video?.title ?? practiceVideoId}
+          onClose={() => setPracticeVideoId(null)}
+        />
+      </div>
+    );
   }
 
   return (
@@ -104,26 +124,39 @@ export default function Vocabulary() {
               const isCollapsed = collapsed.has(videoId);
               return (
                 <div key={videoId} className="border border-gray-200 rounded-xl overflow-hidden">
-                  <button
-                    onClick={() => toggleCollapse(videoId)}
-                    className="w-full flex items-center gap-3 px-4 py-3 bg-gray-50 hover:bg-gray-100 transition-colors text-left"
-                  >
-                    {video?.thumbnail && (
-                      <img src={video.thumbnail} alt="" className="w-16 h-10 object-cover rounded flex-shrink-0" />
-                    )}
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-gray-900 truncate">{video?.title ?? videoId}</p>
-                      <p className="text-xs text-gray-500 truncate">
-                        {video?.channel}<span className="mx-1.5">·</span>어휘 {vocabItems.length}개
-                      </p>
-                    </div>
-                    <svg
-                      className={`w-5 h-5 text-gray-400 flex-shrink-0 transition-transform ${isCollapsed ? '' : 'rotate-180'}`}
-                      fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                  <div className="flex items-center gap-2 px-4 py-3 bg-gray-50">
+                    <button
+                      onClick={() => toggleCollapse(videoId)}
+                      className="flex-1 flex items-center gap-3 hover:bg-gray-100 rounded-lg transition-colors text-left -ml-1 pl-1 py-0.5"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
+                      {video?.thumbnail && (
+                        <img src={video.thumbnail} alt="" className="w-16 h-10 object-cover rounded flex-shrink-0" />
+                      )}
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-medium text-gray-900 truncate">{video?.title ?? videoId}</p>
+                        <p className="text-xs text-gray-500 truncate">
+                          {video?.channel}<span className="mx-1.5">·</span>어휘 {vocabItems.length}개
+                        </p>
+                      </div>
+                      <svg
+                        className={`w-5 h-5 text-gray-400 flex-shrink-0 transition-transform ${isCollapsed ? '' : 'rotate-180'}`}
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    <button
+                      onClick={() => setPracticeVideoId(videoId)}
+                      disabled={vocabItems.length < 4}
+                      className={`flex-shrink-0 px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors ${
+                        vocabItems.length < 4
+                          ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                          : `${t.bg600} ${t.hoverBg700} text-white`
+                      }`}
+                    >
+                      단어 연습
+                    </button>
+                  </div>
                   {!isCollapsed && (
                     <div className="p-4">
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
