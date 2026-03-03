@@ -58,6 +58,7 @@ export { default as DifficultyBadge } from './components/common/DifficultyBadge.
 export { default as VideoModeModal } from './components/common/VideoModeModal.tsx';
 export { default as Header } from './components/layout/Header.tsx';
 export { default as MobileNav } from './components/layout/MobileNav.tsx';
+export { default as ScrollToTop } from './components/layout/ScrollToTop.tsx';
 export { default as XPBar } from './components/rewards/XPBar.tsx';
 export { default as BadgeGrid } from './components/rewards/BadgeGrid.tsx';
 export { default as StreakDisplay } from './components/rewards/StreakDisplay.tsx';

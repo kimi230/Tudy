@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import {
-  AuthProvider, XPToastProvider, Header, LoginPage,
+  AuthProvider, XPToastProvider, Header, ScrollToTop, LoginPage,
   HomePage, CategoryPage, StudyPage, DictationPage,
   DailyLearningPage, LibraryPage, VocabularyPage,
   ErrorNotePage, ProfilePage, RequestPage, SubscribePage,
@@ -9,6 +9,7 @@ import {
 export default function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <AuthProvider>
         <XPToastProvider>
         <Routes>
