@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { getDefaultLanguage } from '../../lib/supabaseSync';
 
 const LANG_CONFIG = [
@@ -19,10 +19,10 @@ export default function MobileNav({ links, onClose }: Props) {
   return (
     <nav className="md:hidden border-t border-gray-200 bg-white pb-3">
       {links.map((link) => (
-        <Link
+        <a
           key={link.to}
-          to={link.to}
-          onClick={onClose}
+          href={`#${link.to}`}
+          onClick={() => { window.scrollTo(0, 0); onClose(); }}
           className={`block px-4 py-3 text-sm font-medium ${
             location.pathname === link.to
               ? 'bg-indigo-50 text-indigo-700'
@@ -30,7 +30,7 @@ export default function MobileNav({ links, onClose }: Props) {
           }`}
         >
           {link.label}
-        </Link>
+        </a>
       ))}
 
       {/* Language switcher */}
