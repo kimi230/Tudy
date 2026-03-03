@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #f97316;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>How to Change the Way You See Yourself | Rock Thomas | Goalcast</h1>
+    <div class="subtitle">Goalcast</div>
+    <div class="desc-ko">Rock Thomas가 어린 시절의 힘든 환경과 아버지의 무관심 속에서 자아 정체성을 재정의하고 성공을 이룬 감동적인 자기 변화 이야기</div>
+    <div><span class="diff-badge">Upper-Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">8:07</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">212</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">103</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">24</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi_webp/1IH0digwjds/maxresdefault.webp" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/1IH0digwjds">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (20 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (4 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (18 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (8 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 8-minute video by Goalcast is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">opening</span>
+        <span class="sec-time">0:00 ~ 0:39</span>
+    </div>
+    <div class="sec-summary">Rock Thomas는 캐나다 농장에서의 어린 시절을 생생하게 묘사합니다. 여덟 살 반에 새벽 어둠 속에서 일어나 말에게 먹이를 주고 헛간의 쥐들과 마주하던 이야기입니다. 아버지는 그를 지지하지 않았고, 일이 끝날 때까지 밖으로 내보냈습니다.</div>
+    <div class="key-points"><span class="key-point">22마리 말에게 먹이를 줘야 아침 식사를 할 수 있었음</span><span class="key-point">지지적이지 않은 환경에서 자랐음을 깨달음</span><span class="key-point">열심히 일해야만 아버지의 관심을 얻을 수 있었음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">development</span>
+        <span class="sec-time">0:39 ~ 1:56</span>
+    </div>
+    <div class="sec-summary">아버지가 함께 미식축구를 하기로 약속했지만 대신 가족 부양의 부담에 대해 분노를 터뜨린 충격적인 날을 회상합니다. 이 순간이 아버지와의 놀이 관계에 대한 모든 희망을 끝냈습니다.</div>
+    <div class="key-points"><span class="key-point">아버지가 함께 놀기로 약속한 날</span><span class="key-point">아버지의 분노: 먹여 살리는 것이 얼마나 힘든지 아느냐</span><span class="key-point">다시는 아버지에게 같이 놀자고 하지 않았음</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">development</span>
+        <span class="sec-time">1:58 ~ 3:18</span>
+    </div>
+    <div class="sec-summary">아버지와 놀았던 기억이 전혀 없고 일을 통해서만 교감할 수 있었다고 묘사합니다. 학업 우등상을 받고 하키에서 골을 넣어도 아버지는 오지 않았습니다. 모든 것을 열심히 일하는 데 쏟아부어 십대에 자립했습니다.</div>
+    <div class="key-points"><span class="key-point">아버지와의 유일한 교감은 함께 일하는 것</span><span class="key-point">하키 경기, 학교 수상식에 아버지가 한 번도 오지 않음</span><span class="key-point">쉬운 일을 하면 인생이 어렵고, 어려운 일을 하면 인생이 쉬워진다는 깨달음</span><span class="key-point">14살에 스쿠터, 16살에 첫 차, 17살에 독립</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">development</span>
+        <span class="sec-time">3:18 ~ 5:00</span>
+    </div>
+    <div class="sec-summary">다양한 직업에서 수년간 열심히 일한 후, 아버지가 암에 걸리면서 인생이 급변합니다. 아버지를 도우며 모든 것을 쏟아부었지만, 아버지는 자랑스러웠던 적이 생각나지 않는다고 말합니다. 돌아와보니 해고당했고, 결혼도 파탄났고, 아파트에서 쫓겨나 서른에 어머니 집으로 돌아갑니다.</div>
+    <div class="key-points"><span class="key-point">택시 운전, 목공, 잔디 깎기 등 온갖 힘든 일을 함</span><span class="key-point">아버지의 암 소식에 모든 것을 바쳐 돌봄</span><span class="key-point">아버지에게 &#x27;자랑스러웠던 적이 있느냐&#x27; 물었더니 &#x27;없다&#x27;는 대답</span><span class="key-point">서른에 무일푼으로 어머니 집으로 돌아감</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">turning_point</span>
+        <span class="sec-time">4:56 ~ 6:30</span>
+    </div>
+    <div class="sec-summary">부동산에 뛰어들어 인생을 바꿔줄 멘토를 만납니다. 처음으로 누군가 그를 믿고 &#x27;대단하다&#x27;고 말해줍니다. 멘토는 그가 부정적 딱지(&#x27;바보&#x27;, &#x27;루저&#x27;, &#x27;마른 꼬마&#x27;)를 달고 살았다는 것을 깨닫게 하고, &#x27;나는&#x27; 뒤에 오는 긍정적 확언으로 뇌를 재프로그래밍하는 법을 가르칩니다.</div>
+    <div class="key-points"><span class="key-point">부동산에 입문하여 첫 멘토를 만남</span><span class="key-point">처음으로 누군가 자신을 믿어줌</span><span class="key-point">자기에게 붙인 부정적 딱지를 인식</span><span class="key-point">뇌는 소프트웨어처럼 재프로그래밍할 수 있다</span><span class="key-point">&#x27;루저&#x27; 대신 &#x27;남성미 넘치는 사람&#x27;으로 매일 천 번 반복</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">climax</span>
+        <span class="sec-time">6:30 ~ 7:12</span>
+    </div>
+    <div class="sec-summary">자기 이미지를 바꿀 수 있다는 발견의 흥분을 묘사합니다. &#x27;나는 남성미 넘친다&#x27;를 집착적으로 반복하다가, 자연스럽게 &#x27;나는 이 지역 최고의 부동산 중개인이다&#x27;라고 확언하기 시작했습니다. 한 건에서 백 건으로, 모든 기록을 깨고, 회사를 인수하여 농장 소년에서 경제적 자유를 이뤘습니다.</div>
+    <div class="key-points"><span class="key-point">차 안에서 소리 지르며 확언을 반복</span><span class="key-point">샤워 중 자발적으로 &#x27;나는 최고의 부동산 중개인&#x27;이라고 말함</span><span class="key-point">첫해 1건에서 수년 만에 100건으로 성장</span><span class="key-point">회사를 인수, 농장 소년에서 경제적 자유 달성</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">conclusion</span>
+        <span class="sec-time">7:12 ~ 7:52</span>
+    </div>
+    <div class="sec-summary">핵심 메시지를 전달합니다: 인간 심리에서 가장 강력한 힘은 우리가 자신을 어떻게 묘사하느냐입니다. 외부의 딱지를 거부하고 긍정적인 &#x27;나는&#x27; 확언으로 자신을 재정의하라고 청중에게 도전합니다. &#x27;나는이라는 말 뒤에 오는 단어들이 당신을 따라갑니다&#x27;라는 강력한 문구로 마무리합니다.</div>
+    <div class="key-points"><span class="key-point">인간 심리에서 가장 강력한 힘은 자기 묘사</span><span class="key-point">외부에서 부여된 딱지를 거부하라</span><span class="key-point">오늘이 남은 인생의 첫날, 자신을 재정의하라</span><span class="key-point">&#x27;나는&#x27;이라는 말 뒤에 오는 단어들이 당신을 따라간다</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">scurry</span>
+        <span class="phonetic">/ˈskɜːri/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To move hurriedly with short quick steps</div>
+    <div class="meaning-ko">종종걸음으로 황급히 움직이다</div>
+    <div class="etymology">Possibly from hurry-scurry, a reduplication of &#x27;hurry&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"They would scurry around and I would hope that none of them would stay around."</div>
+    <div class='related'>Related: scamper, dash, scramble, hustle</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">chores</span>
+        <span class="phonetic">/tʃɔːrz/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Routine tasks, especially household ones</div>
+    <div class="meaning-ko">집안일, 허드렟일</div>
+    <div class="etymology">From Middle English &#x27;chare&#x27; meaning &#x27;a turn of work&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Do your chores and don&#x27;t come back until they&#x27;re done."</div>
+    <div class='related'>Related: tasks, duties, errands, housework</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">supportive</span>
+        <span class="phonetic">/səˈpɔːrtɪv/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Providing encouragement or emotional help</div>
+    <div class="meaning-ko">지지하는, 도움이 되는</div>
+    <div class="etymology">From Latin &#x27;supportare&#x27; (to carry, bear) + &#x27;-ive&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"It was kind of the beginning of me realizing that I wasn&#x27;t in a supportive environment."</div>
+    <div class='related'>Related: encouraging, nurturing, caring, sympathetic</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">invariably</span>
+        <span class="phonetic">/ɪnˈveəriəbli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">In every case or on every occasion; always</div>
+    <div class="meaning-ko">변함없이, 항상, 어김없이</div>
+    <div class="etymology">From Latin &#x27;in-&#x27; (not) + &#x27;variabilis&#x27; (changeable)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I&#x27;d call him out to look at the task being done and invariably it was never good enough."</div>
+    <div class='related'>Related: always, consistently, unfailingly, perpetually</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">double down</span>
+        <span class="phonetic">/ˈdʌbl daʊn/</span>
+        <span class="pos">phrasal verb</span>
+    </div>
+    <div class="definition">To strengthen one&#x27;s commitment to a particular strategy or course of action</div>
+    <div class="meaning-ko">더 배로 집중하다, 더욱 전념하다</div>
+    <div class="etymology">Originally from blackjack: doubling your bet after seeing initial cards</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"So I doubled down on that and I worked hard."</div>
+    <div class='related'>Related: intensify, redouble, commit, persevere</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">solace</span>
+        <span class="phonetic">/ˈsɒlɪs/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Comfort or consolation in a time of distress or sadness</div>
+    <div class="meaning-ko">위안, 위로</div>
+    <div class="etymology">From Latin &#x27;solacium&#x27; (comfort, consolation)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"The only solace I had was to work hard."</div>
+    <div class='related'>Related: comfort, consolation, relief, refuge</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">evicted</span>
+        <span class="phonetic">/ɪˈvɪktɪd/</span>
+        <span class="pos">verb (past tense)</span>
+    </div>
+    <div class="definition">Expelled from a property, typically with the support of the law</div>
+    <div class="meaning-ko">(세입자를) 쫓아내다, 퇴거시키다</div>
+    <div class="etymology">From Latin &#x27;evictus&#x27;, past participle of &#x27;evincere&#x27; (to conquer)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I got evicted from my apartment and I went back in with my mom at the age of 30."</div>
+    <div class='related'>Related: expelled, ousted, ejected, displaced</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mentor</span>
+        <span class="phonetic">/ˈmentɔːr/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">An experienced and trusted adviser</div>
+    <div class="meaning-ko">멘토, 스승, 조언자</div>
+    <div class="etymology">From Greek &#x27;Mentor&#x27;, the adviser of the young Telemachus in Homer&#x27;s Odyssey</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"That&#x27;s when I met my first mentor that transformed my life."</div>
+    <div class='related'>Related: adviser, guide, coach, counselor</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">work ethic</span>
+        <span class="phonetic">/wɜːrk ˈeθɪk/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The principle that hard work is intrinsically virtuous or worthy of reward</div>
+    <div class="meaning-ko">직업 윤리, 근면한 태도</div>
+    <div class="etymology">work (일) + ethic from Greek &#x27;ethikos&#x27; (moral character)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Because you really have a great work ethic."</div>
+    <div class='related'>Related: diligence, industriousness, dedication, professionalism</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">persona</span>
+        <span class="phonetic">/pərˈsoʊnə/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The aspect of someone&#x27;s character that is presented to or perceived by others</div>
+    <div class="meaning-ko">페르소나, 외적 인격, 겉으로 보이는 모습</div>
+    <div class="etymology">From Latin &#x27;persona&#x27; meaning &#x27;mask, character&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"You take on those labels and you wear them like they&#x27;re your persona."</div>
+    <div class='related'>Related: identity, image, facade, character</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">psyche</span>
+        <span class="phonetic">/ˈsaɪki/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The human soul, mind, or spirit</div>
+    <div class="meaning-ko">정신, 심리, 영혼</div>
+    <div class="etymology">From Greek &#x27;psyche&#x27; meaning &#x27;breath, spirit, soul&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"The most powerful force in the human psyche is how we describe ourselves to ourself."</div>
+    <div class='related'>Related: mind, soul, consciousness, spirit</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">reprogram</span>
+        <span class="phonetic">/riːˈproʊɡræm/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To program again or differently</div>
+    <div class="meaning-ko">재프로그래밍하다, 다시 프로그래밍하다</div>
+    <div class="etymology">re- (again) + program (from Greek &#x27;programma&#x27; = public notice)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"We&#x27;re gonna reprogram your brain. Your brain is like software, we&#x27;re just gonna reprogram it."</div>
+    <div class='related'>Related: reconfigure, reset, rewire, recondition</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">resourceful</span>
+        <span class="phonetic">/rɪˈsɔːrsfəl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Having the ability to find quick and clever ways to overcome difficulties</div>
+    <div class="meaning-ko">재치 있는, 수완이 좋은</div>
+    <div class="etymology">From &#x27;resource&#x27; (Old French &#x27;resourdre&#x27; = to rise again) + &#x27;-ful&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I became resourceful. I became capable of doing things I didn&#x27;t know I was gonna do."</div>
+    <div class='related'>Related: ingenious, inventive, creative, adaptable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">introverted</span>
+        <span class="phonetic">/ˈɪntrəvɜːrtɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Shy and reticent; characterized by interest in one&#x27;s own mental life</div>
+    <div class="meaning-ko">내성적인, 내향적인</div>
+    <div class="etymology">From Latin &#x27;intro-&#x27; (inward) + &#x27;vertere&#x27; (to turn)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"You&#x27;re quiet, you&#x27;re introverted, and you take on those labels."</div>
+    <div class='related'>Related: shy, reserved, withdrawn, quiet</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">ruggedly</span>
+        <span class="phonetic">/ˈrʌɡɪdli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">In a strong, rough, and attractive manner</div>
+    <div class="meaning-ko">거칠면서도 매력적으로, 남성적으로</div>
+    <div class="etymology">From Scandinavian &#x27;rugg&#x27; (rough hair) + &#x27;-ed&#x27; + &#x27;-ly&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Loser out, ruggedly handsome in."</div>
+    <div class='related'>Related: roughly, sturdily, toughly, robustly</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">spontaneously</span>
+        <span class="phonetic">/spɒnˈteɪniəsli/</span>
+        <span class="pos">adverb</span>
+    </div>
+    <div class="definition">As a result of a sudden inner impulse without premeditation</div>
+    <div class="meaning-ko">자발적으로, 저절로, 즉흥적으로</div>
+    <div class="etymology">From Latin &#x27;spontaneus&#x27; (of one&#x27;s own free will)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Then spontaneously one morning I was in the shower and I said I&#x27;m the greatest real estate agent in my area."</div>
+    <div class='related'>Related: naturally, impulsively, instinctively, automatically</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">foundation</span>
+        <span class="phonetic">/faʊnˈdeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The lowest load-bearing part of a building; an underlying basis or principle</div>
+    <div class="meaning-ko">기초, 기반, 토대</div>
+    <div class="etymology">From Latin &#x27;fundatio&#x27; from &#x27;fundare&#x27; (to lay the bottom)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"When you&#x27;re down there and you think there&#x27;s nothing left, it&#x27;s the foundation to grow from."</div>
+    <div class='related'>Related: basis, groundwork, cornerstone, bedrock</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">transformed</span>
+        <span class="phonetic">/trænsˈfɔːrmd/</span>
+        <span class="pos">verb (past tense)</span>
+    </div>
+    <div class="definition">Made a thorough or dramatic change in form, appearance, or character</div>
+    <div class="meaning-ko">변화시키다, 탈바꿈시키다</div>
+    <div class="etymology">From Latin &#x27;transformare&#x27;: trans- (across) + formare (to form)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"That&#x27;s when I met my first mentor that transformed my life."</div>
+    <div class='related'>Related: changed, converted, metamorphosed, revolutionized</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">redefine</span>
+        <span class="phonetic">/ˌriːdɪˈfaɪn/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To define again or differently</div>
+    <div class="meaning-ko">재정의하다, 다시 정의하다</div>
+    <div class="etymology">re- (again) + define (from Latin &#x27;definire&#x27; = to set bounds)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Today is the first day of the rest of your life and you get to redefine yourself."</div>
+    <div class='related'>Related: reinterpret, reconceptualize, reshape, reimagine</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">rock bottom</span>
+        <span class="phonetic">/rɒk ˈbɒtəm/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The lowest possible level</div>
+    <div class="meaning-ko">최저점, 바닥</div>
+    <div class="etymology">From &#x27;rock&#x27; (stone) + &#x27;bottom&#x27; (the lowest part)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I don&#x27;t know if it broke my spirit or if I thought I&#x27;d hit rock bottom."</div>
+    <div class='related'>Related: nadir, lowest point, all-time low, depths</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">carpentry</span>
+        <span class="phonetic">/ˈkɑːrpəntri/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The activity or occupation of making or repairing things in wood</div>
+    <div class="meaning-ko">목공, 목수 일</div>
+    <div class="etymology">From Anglo-Norman French &#x27;carpenterie&#x27;, from Latin &#x27;carpentarius&#x27; (wagon maker)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I drove a taxi, I did carpentry, I cut lawns, I washed windows."</div>
+    <div class='related'>Related: woodwork, joinery, cabinet-making, craftsmanship</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">shrinking</span>
+        <span class="phonetic">/ˈʃrɪŋkɪŋ/</span>
+        <span class="pos">verb (present participle)</span>
+    </div>
+    <div class="definition">Becoming or making smaller in size or amount</div>
+    <div class="meaning-ko">줄어드는, 위축되는</div>
+    <div class="etymology">From Old English &#x27;scrincan&#x27; (to shrivel, dry up)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"He looked at me and I felt myself shrinking down."</div>
+    <div class='related'>Related: diminishing, contracting, withering, dwindling</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">idol</span>
+        <span class="phonetic">/ˈaɪdl/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A person greatly admired, loved, or revered</div>
+    <div class="meaning-ko">우상, 롤모델</div>
+    <div class="etymology">From Greek &#x27;eidolon&#x27; (image, idol)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Who&#x27;s an idol that you have?"</div>
+    <div class='related'>Related: hero, icon, role model, inspiration</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">cast</span>
+        <span class="phonetic">/kæst/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To throw (something) forcefully in a specified direction; to cause (light or shadow) to appear on a surface</div>
+    <div class="meaning-ko">(그림자를) 드리우다, 던지다</div>
+    <div class="etymology">From Old Norse &#x27;kasta&#x27; (to throw)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"This shadow cast over me and he goes, do you have any idea what it takes to put food on the table?"</div>
+    <div class='related'>Related: throw, project, shed, direct</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">had to + base verb (Past Obligation)</div>
+    <div class="explanation">Expresses obligation or necessity in the past. Indicates something was required or unavoidable at a previous time.</div>
+    <div class="explanation-ko">과거의 의무나 필요성을 나타내는 표현입니다. 과거에 무언가를 반드시 해야 했음을 의미합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;I had to feed 22 horses every morning before I earned the right to have breakfast.&#x27;, &#x27;translation&#x27;: &#x27;나는 매일 아침 아침 식사를 할 권리를 얻기 전에 22마리의 말에게 먹이를 줘야 했습니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;I remember the day I had to leave to go back to take care of my family.&#x27;, &#x27;translation&#x27;: &#x27;가족을 돌보러 돌아가야 했던 날을 기억합니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">would + base verb (Past Habitual Action)</div>
+    <div class="explanation">Used to describe repeated or habitual actions in the past. Similar to &#x27;used to&#x27; but emphasizes the repetitive nature of the action.</div>
+    <div class="explanation-ko">과거에 반복적으로 했던 행동을 묘사할 때 사용합니다. &#x27;used to&#x27;와 비슷하지만 행동의 반복성을 더 강조합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;I remember it would be like 30 rats every time I opened the barn door and they would scurry around.&#x27;, &#x27;translation&#x27;: &#x27;헛간 문을 열 때마다 쥐가 30마리쯤 있었고 이리저리 달아나곤 했던 걸 기억해요.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;I would try to score as many goals as I could so I could go in and tell him.&#x27;, &#x27;translation&#x27;: &#x27;아버지에게 말씀드리려고 가능한 한 많은 골을 넣으려 했습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Conditional: if + present, future result (Zero/First Conditional)</div>
+    <div class="explanation">Used to express general truths or real possibilities. &#x27;If you do X, Y happens/will happen.&#x27; The speaker uses this to share life philosophy.</div>
+    <div class="explanation-ko">일반적인 진리나 실제 가능성을 표현할 때 사용합니다. &#x27;만약 X를 하면, Y가 일어난다/일어날 것이다.&#x27; 화자가 인생 철학을 공유할 때 사용합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;If you do what is easy, life will be difficult. But if you do this difficult, life will be easy.&#x27;, &#x27;translation&#x27;: &#x27;쉬운 것을 하면 인생이 어려워지지만, 어려운 것을 하면 인생이 쉬워집니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;If I was willing to work hard then I could get my dad&#x27;s attention.&quot;, &#x27;translation&#x27;: &#x27;열심히 일할 의지가 있으면 아버지의 관심을 얻을 수 있었습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">by the time + clause (Time Reference)</div>
+    <div class="explanation">Used to indicate that something had happened or was completed before a specific point in time. Often paired with past perfect.</div>
+    <div class="explanation-ko">특정 시점 이전에 무언가가 이미 일어났거나 완료되었음을 나타낼 때 사용합니다. 과거완료와 함께 자주 쓰입니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;By the time I was 14 I saved up enough money to get a scooter.&#x27;, &#x27;translation&#x27;: &#x27;14살이 될 때까지 스쿠터를 살 만큼 돈을 모았습니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;By the time I was 16 I had my first car.&#x27;, &#x27;translation&#x27;: &#x27;16살이 되었을 때 첫 차를 가졌습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Narrative Present Tense (Historic Present)</div>
+    <div class="explanation">Using present tense to narrate past events, creating immediacy and dramatic effect. Common in storytelling and oral narratives.</div>
+    <div class="explanation-ko">과거 사건을 현재 시제로 서술하여 생동감과 극적 효과를 만드는 기법입니다. 스토리텔링과 구어 서술에서 흔합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;He walks in and he leans against the door and he goes, &#x27;you&#x27;re still here.&#x27;&quot;, &#x27;translation&#x27;: &quot;그분이 들어와서 문에 기대시더니 &#x27;아직도 여기 있어?&#x27; 하셨어요.&quot;}</div><div class="example">{&#x27;sentence&#x27;: &quot;He goes, &#x27;do you have any idea what it takes to put food on the table?&#x27;&quot;, &#x27;translation&#x27;: &quot;아버지가 말해요, &#x27;밥상에 음식을 올리려면 얼마나 힘든지 아느냐?&#x27;&quot;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">gonna (going to) - Informal Future</div>
+    <div class="explanation">Contracted spoken form of &#x27;going to&#x27; used to express future intentions or predictions. Extremely common in casual American English speech.</div>
+    <div class="explanation-ko">&#x27;going to&#x27;의 구어체 축약형으로, 미래의 의도나 예측을 표현할 때 사용합니다. 미국식 구어 영어에서 매우 흔합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;This was the day we were gonna play together.&#x27;, &#x27;translation&#x27;: &#x27;이날은 우리가 함께 놀기로 한 날이었어요.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;Now we&#x27;re gonna reprogram your brain.&quot;, &#x27;translation&#x27;: &#x27;이제 우리가 네 뇌를 다시 프로그래밍할 거야.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Emphatic &#x27;do/did&#x27; for Emphasis</div>
+    <div class="explanation">Using &#x27;do/did/does&#x27; before a main verb to add emphasis or contrast. Strengthens the assertion being made.</div>
+    <div class="explanation-ko">주동사 앞에 &#x27;do/did/does&#x27;를 사용하여 강조나 대조를 더합니다. 주장을 더 강하게 만듭니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;It didn&#x27;t feel good at the time but in life what you do if you do what is easy, life will be difficult.&quot;, &#x27;translation&#x27;: &#x27;그때는 기분이 좋지 않았지만, 인생에서 쉬운 것을 하면 인생이 어려워집니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Reported Speech with Direct Quotes</div>
+    <div class="explanation">The speaker frequently switches between reported speech and direct quotes without formal markers, creating a vivid conversational style typical of oral storytelling.</div>
+    <div class="explanation-ko">화자가 간접 화법과 직접 인용을 공식적 표지 없이 빈번히 전환하여, 구어 스토리텔링 특유의 생동감 있는 대화체를 만듭니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;I said dad can you come with me and he locked the door and he says go out and do your chores.&#x27;, &#x27;translation&#x27;: &#x27;아빠한테 같이 가달라고 했더니 문을 잠그고는 나가서 네 할 일을 하라고 했어요.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;He goes, &#x27;you&#x27;ve labeled yourself stupid, a loser, and a skinny little kid.&#x27;&quot;, &#x27;translation&#x27;: &quot;그분이 말했어요, &#x27;넌 자신에게 바보, 루저, 마른 꼬마라는 딱지를 붙인 거구나.&#x27;&quot;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">as + adjective/adverb + as + clause (Degree Comparison)</div>
+    <div class="explanation">Used to compare to the maximum extent possible. &#x27;As much as I could&#x27; / &#x27;as many goals as I could&#x27; indicates doing something to the fullest extent.</div>
+    <div class="explanation-ko">가능한 최대한의 정도로 비교할 때 사용합니다. &#x27;as much as I could&#x27; / &#x27;as many goals as I could&#x27;는 최대한으로 무언가를 함을 나타냅니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;I would try to score as many goals as I could.&#x27;, &#x27;translation&#x27;: &#x27;가능한 한 많은 골을 넣으려 했습니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;I&#x27;d say it as much as I possibly could.&quot;, &#x27;translation&#x27;: &#x27;가능한 한 최대한 많이 말했어요.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">The words that follow &#x27;I am&#x27; follow you (Defining Relative Clause)</div>
+    <div class="explanation">A powerful rhetorical construction using a defining relative clause. The repetition of &#x27;follow&#x27; with different meanings (come after / pursue) creates a memorable phrase.</div>
+    <div class="explanation-ko">&#x27;I am&#x27; 뒤에 오는 단어들이 당신을 따라간다는 강력한 수사적 구조로, 관계절을 사용합니다. &#x27;follow&#x27;의 반복이 다른 의미(뒤따르다/추구하다)로 기억에 남는 문구를 만듭니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;The words that follow &#x27;I am&#x27; follow you.&quot;, &#x27;translation&#x27;: &quot;&#x27;나는&#x27;이라는 말 뒤에 오는 단어들이 당신을 따라갑니다.&quot;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">not one / not once (Negative Emphasis)</div>
+    <div class="explanation">Using &#x27;not one&#x27; or &#x27;not once&#x27; at the beginning or end of a statement for dramatic negative emphasis. Stronger than simply saying &#x27;never&#x27;.</div>
+    <div class="explanation-ko">&#x27;not one&#x27; 또는 &#x27;not once&#x27;를 문장 앞이나 끝에 사용하여 극적인 부정 강조를 합니다. 단순히 &#x27;never&#x27;라고 하는 것보다 더 강한 표현입니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;I don&#x27;t have one memory of playing with my dad. Not one.&quot;, &#x27;translation&#x27;: &#x27;아버지와 놀았던 기억이 단 하나도 없습니다. 하나도.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;He never once came to my hockey games.&#x27;, &#x27;translation&#x27;: &#x27;아버지는 단 한 번도 제 하키 경기에 오지 않으셨습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">went from X to Y (Transformation Expression)</div>
+    <div class="explanation">A concise way to describe dramatic change or progress. Shows the starting point and end point of a transformation.</div>
+    <div class="explanation-ko">극적인 변화나 발전을 간결하게 묘사하는 표현입니다. 변화의 시작점과 끝점을 보여줍니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;I went from one sale in my first year to in a few years a hundred sales.&#x27;, &#x27;translation&#x27;: &#x27;첫해 한 건에서 몇 년 만에 백 건으로 성장했습니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Went from farm boy to financially free.&#x27;, &#x27;translation&#x27;: &#x27;농장 소년에서 경제적 자유를 이뤘습니다.&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">had to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">해프터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/hæftə/</div>
+        <div class="explanation-text">&#x27;had to&#x27;는 빠른 말에서 /hæftə/로 축약됩니다. /d/가 /t/ 앞에서 /f/로 동화됩니다.</div>
+        <div class="practice">Say &#x27;haf-tuh&#x27; quickly, blending the two words together. Practice: &#x27;I haf-tuh go&#x27; repeatedly.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">gonna</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">거나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɡʌnə/</div>
+        <div class="explanation-text">&#x27;going to&#x27;가 미국 구어체에서 보편적으로 &#x27;gonna&#x27; /ˈɡʌnə/로 축약됩니다. 영어에서 가장 흔한 축약 중 하나입니다.</div>
+        <div class="practice">Say &#x27;guh-nuh&#x27; with stress on the first syllable. Never pronounce the full &#x27;going to&#x27; in casual conversation.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">wanna</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워나</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈwɒnə/</div>
+        <div class="explanation-text">&#x27;want to&#x27;가 구어체에서 &#x27;wanna&#x27; /ˈwɒnə/로 축약됩니다. /t/가 완전히 탈락합니다.</div>
+        <div class="practice">Say &#x27;wah-nuh&#x27; smoothly. Practice: &#x27;I wanna go&#x27; = /aɪ ˈwɒnə ɡoʊ/.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">kind of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">카인다</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkaɪndə/</div>
+        <div class="explanation-text">&#x27;kind of&#x27;가 구어체에서 &#x27;kinda&#x27; /ˈkaɪndə/로 자주 축약됩니다. /v/ 소리가 완전히 탈락합니다.</div>
+        <div class="practice">Say &#x27;kine-duh&#x27; as one quick word. Practice: &#x27;It was kinda the beginning.&#x27;</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">out of here</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아우더 히어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˌaʊdə ˈhɪr/</div>
+        <div class="explanation-text">&#x27;out&#x27;의 /t/가 &#x27;of&#x27;의 모음 앞에서 탄설음 /d/가 되고, &#x27;of&#x27;는 /ə/로 약화됩니다. &#x27;Out of&#x27;가 &#x27;oudda&#x27;처럼 들립니다.</div>
+        <div class="practice">Say &#x27;ow-duh-here&#x27; blending &#x27;out of&#x27; into one smooth sound.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">you know what</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">여 노 왓</span>
+    <div class="details">
+        <div class="phonetic-ipa">/jə noʊ wʌt/</div>
+        <div class="explanation-text">&#x27;you&#x27;가 /jə/로 축약되고 전체 구절이 빠른 담화 표지가 됩니다. 미국 영어에서 흔한 간투사입니다.</div>
+        <div class="practice">Say &#x27;yuh-no-wut&#x27; as one quick unit. This is a filler, not a real question.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I&#x27;m talking to me</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아임 토킨 터 미</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪm ˈtɔːkɪn tə mi/</div>
+        <div class="explanation-text">&#x27;talking&#x27;의 마지막 /ŋ/이 구어체에서 /n/으로 축약됩니다(g-탈락). &#x27;to&#x27;는 /tə/로 약화됩니다.</div>
+        <div class="practice">Say &#x27;tahk-in&#x27; dropping the g. This g-dropping is standard in casual American English.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I don&#x27;t care</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이 돈 케어</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪ doʊn keər/</div>
+        <div class="explanation-text">&#x27;don&#x27;t&#x27;의 /t/가 &#x27;care&#x27;의 /k/ 앞에서 완전히 탈락합니다. 이 자음 군집 단순화는 자연스러운 말에서 자동으로 일어납니다.</div>
+        <div class="practice">Say &#x27;dohn-care&#x27; without any /t/ sound. The /n/ connects directly to /k/.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">earned the right to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">언드 더 라잇 터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɜːrnd ðə raɪt tə/</div>
+        <div class="explanation-text">&#x27;earned&#x27;의 끝 /d/가 &#x27;the&#x27;로 자연스럽게 연결됩니다. 이 구절이 하나의 연결된 단위로 흐릅니다.</div>
+        <div class="practice">Practice saying &#x27;earned-the-right-to&#x27; as one flowing phrase without pausing between words.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I earned</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이 여언드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪ_jɜːrnd/</div>
+        <div class="explanation-text">모음으로 끝나는 단어 뒤에 모음으로 시작하는 단어가 올 때, 부드러운 연결을 위해 /j/ 활음이 삽입됩니다.</div>
+        <div class="practice">Say &#x27;I-yearned&#x27; with a slight /y/ glide between &#x27;I&#x27; and &#x27;earned&#x27;.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">put it into</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">푸리린터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/pʊ.ɾɪ.ɾɪntə/</div>
+        <div class="explanation-text">두 /t/ 소리 모두 모음 사이에서 탄설음 /ɾ/가 됩니다(미국식 영어 탄설음화). &#x27;Put it into&#x27;가 /pʊɾɪɾɪntə/로 흐릅니다.</div>
+        <div class="practice">Say &#x27;puh-rih-rin-tuh&#x27; quickly, turning both t&#x27;s into quick d-like flaps.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">what it takes</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워릿 테잌스</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʌ.ɾɪt teɪks/</div>
+        <div class="explanation-text">&#x27;what&#x27;의 끝 /t/가 &#x27;it&#x27;의 모음 앞에서 탄설음 /ɾ/가 되어 부드럽게 연결됩니다.</div>
+        <div class="practice">Say &#x27;wuh-rit-takes&#x27; with the first t becoming a quick flap.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I am</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이 얨</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪ_jæm/</div>
+        <div class="explanation-text">&#x27;I&#x27;(/aɪ/로 끝남)와 &#x27;am&#x27;(/æ/로 시작)사이에 /j/ 활음이 삽입됩니다. 이것은 침입적 /j/ 연결입니다.</div>
+        <div class="practice">Say &#x27;I-yam&#x27; with a gentle /y/ glide. This is natural and happens automatically in fluent speech.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">don&#x27;t come back</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">돈 컴 백</span>
+    <div class="details">
+        <div class="phonetic-ipa">/doʊn kʌm bæk/</div>
+        <div class="explanation-text">&#x27;don&#x27;t&#x27;의 /t/가 &#x27;come&#x27;의 /k/ 앞에서 탈락(생략)됩니다. 이는 흔한 자음 군집 단순화입니다.</div>
+        <div class="practice">Say &#x27;dohn-come-back&#x27; letting the /t/ disappear naturally before /k/.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">I&#x27;d</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아이드</span>
+    <div class="details">
+        <div class="phonetic-ipa">/aɪd/</div>
+        <div class="explanation-text">&#x27;I would&#x27; 또는 &#x27;I had&#x27;의 축약형입니다. 화자가 서사 전반에 걸쳐 이 축약을 광범위하게 사용하며, 빠른 속도의 스토리텔링에 전형적입니다.</div>
+        <div class="practice">Practice distinguishing context: &#x27;I&#x27;d say&#x27; (I would say) vs &#x27;I&#x27;d gone&#x27; (I had gone).</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">doesn&#x27;t grow on trees</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">더즌 그로우 온 트리즈</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdʌzn ɡroʊ ɒn triːz/</div>
+        <div class="explanation-text">&#x27;doesn&#x27;t&#x27;의 /t/가 보통 탈락하여 /ˈdʌzn/이 됩니다. 이는 부정 축약의 표준 발음입니다.</div>
+        <div class="practice">Say &#x27;duh-zn&#x27; without the final /t/. Most native speakers never pronounce the /t/ in &#x27;doesn&#x27;t&#x27;.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">looked at me</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">룩트 엇 미</span>
+    <div class="details">
+        <div class="phonetic-ipa">/lʊkt ət mi/</div>
+        <div class="explanation-text">&#x27;looked&#x27;의 /ed/ 어미가 무성 자음 /k/ 뒤에서 /t/로 발음됩니다. &#x27;at&#x27;은 /ət/로 약화됩니다.</div>
+        <div class="practice">Say &#x27;lookt-ut-me&#x27; quickly. The -ed is always /t/ after voiceless consonants (k, p, s, f, sh).</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">used to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">유스터</span>
+    <div class="details">
+        <div class="phonetic-ipa">/juːstə/</div>
+        <div class="explanation-text">&#x27;used&#x27;의 /d/가 &#x27;to&#x27;의 /t/에 동화되어 /juːstə/가 됩니다. 이것은 연결된 말에서 거의 보편적인 발음입니다.</div>
+        <div class="practice">Say &#x27;yoos-tuh&#x27; as one unit. Never pause between &#x27;used&#x27; and &#x27;to&#x27;.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"I remember"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Imagine"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"I&#x27;ll tell you what"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"And then my life changed"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"The most powerful force"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"Today is the first day of the rest of your life"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"The words that follow I am follow you"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type other">other</span>
+    <div>
+        <div class="signal-expr">"went from X to Y"</div>
+        <div class="signal-role"></div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=1IH0digwjds
+    </div>
+</div>
+
+</body>
+</html>

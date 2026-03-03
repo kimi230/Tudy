@@ -1,0 +1,162 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "I'm going to show you",
+    "phonetic": "/aɪm ˈɡʌnə ʃoʊ jə/",
+    "koreanPhonetic": "아임 거나 쇼우 여",
+    "explanation": "'Going to' is reduced to 'gonna' in natural speech, and 'you' is reduced to 'ya/yə'. This is one of the most common reductions in American English.",
+    "explanationKo": "'going to'가 자연스러운 대화에서 'gonna'로 축약되고, 'you'가 'ya/yə'로 약화됩니다. 미국 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "Practice saying 'gonna' as a single unit rather than two separate words. The 'g' sound flows directly into the nasal 'n' sound.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "linking",
+    "originalText": "in its entirety",
+    "phonetic": "/ɪn‿ɪts ɪnˈtaɪərəti/",
+    "koreanPhonetic": "이닛츠 인타이어러티",
+    "explanation": "The 'n' at the end of 'in' links smoothly to the 'i' at the start of 'its', creating a continuous sound. This consonant-to-vowel linking is fundamental in English connected speech.",
+    "explanationKo": "'in'의 끝 'n'이 'its'의 시작 'i'와 부드럽게 연결되어 연속적인 소리를 만듭니다. 이 자음-모음 연음은 영어 연결 발음의 기본입니다.",
+    "practiceGuide": "Say 'in its' as if it were one word: 'inits'. Don't pause between the words.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "reduction",
+    "originalText": "What stands between us and",
+    "phonetic": "/wʌt stændz bəˈtwiːn‿əs æn/",
+    "koreanPhonetic": "웟 스탠즈 비트윈너스 앤",
+    "explanation": "'Between us' links the 'n' to the schwa of 'us', and 'and' is commonly reduced to just 'n' or 'ən' in rapid speech.",
+    "explanationKo": "'between us'에서 'n'이 'us'의 슈와 모음으로 연결되고, 'and'는 빠른 발화에서 'n' 또는 'ən'으로 흔히 축약됩니다.",
+    "practiceGuide": "Practice linking 'between us' as 'betweenəs'. Reduce 'and' to just 'n' sound.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "elision",
+    "originalText": "couldn't make every",
+    "phonetic": "/ˈkʊdnt meɪk‿ˈevri/",
+    "koreanPhonetic": "쿠든 메이 케브리",
+    "explanation": "The 't' at the end of 'couldn't' is often elided (dropped) when followed by another consonant. Also, 'every' often loses its middle vowel, becoming two syllables 'ev-ry' instead of three.",
+    "explanationKo": "'couldn't'의 끝 't'는 다른 자음이 뒤따를 때 종종 탈락됩니다. 또한 'every'는 중간 모음이 탈락하여 세 음절이 아닌 두 음절 'ev-ry'가 됩니다.",
+    "practiceGuide": "Say 'couldn' (without the final 't') and flow right into 'make'. Practice 'every' as 'ev-ry'.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "assimilation",
+    "originalText": "would you",
+    "phonetic": "/ˈwʊdʒu/",
+    "koreanPhonetic": "우쥬",
+    "explanation": "When 'd' is followed by 'y', they combine through palatalization to create a /dʒ/ sound (like the 'j' in 'judge'). This is called yod-coalescence.",
+    "explanationKo": "'d'가 'y' 앞에 올 때 구개음화를 통해 /dʒ/ 소리(judge의 'j')로 합쳐집니다. 이것을 '요드 합체(yod-coalescence)'라고 합니다.",
+    "practiceGuide": "Instead of saying 'would-you' as two separate words, blend them into 'wooju' with a soft 'j' sound.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/ə ˈlɒɾəv/",
+    "koreanPhonetic": "어 라러브",
+    "explanation": "In American English, the 't' in 'lot' becomes a flap /ɾ/ (sounds like a quick 'd') when between vowels. 'Of' reduces to just /əv/. The whole phrase sounds like 'a-lod-uv'.",
+    "explanationKo": "미국 영어에서 'lot'의 't'는 모음 사이에서 플랩 /ɾ/(빠른 'd' 소리)가 됩니다. 'of'는 /əv/로 축약됩니다. 전체 구문이 'a-lod-uv'처럼 들립니다.",
+    "practiceGuide": "Tap the 't' in 'lot' quickly like a 'd' and connect it directly to 'of'. Say 'uh-lahd-uhv'.",
+    "segmentIndex": 204
+  },
+  {
+    "type": "linking",
+    "originalText": "settle down and focus",
+    "phonetic": "/ˈsetl̩ daʊn‿ən ˈfoʊkəs/",
+    "koreanPhonetic": "세를 다우너ㄴ 포우커스",
+    "explanation": "The 'n' of 'down' links to the reduced 'and' (which becomes 'ən'), and then flows into 'focus'. The phrase becomes a smooth chain of sounds.",
+    "explanationKo": "'down'의 'n'이 축약된 'and'('ən')로 연결되고, 그 다음 'focus'로 흘러갑니다. 구문 전체가 부드러운 소리 연쇄가 됩니다.",
+    "practiceGuide": "Practice the flow: 'settle-dow-nən-focus'. Don't separate 'down' and 'and'.",
+    "segmentIndex": 51
+  },
+  {
+    "type": "reduction",
+    "originalText": "I want to",
+    "phonetic": "/aɪ ˈwɒnə/",
+    "koreanPhonetic": "아이 워나",
+    "explanation": "'Want to' is commonly reduced to 'wanna' in casual and semi-formal speech. Even in TED talks, speakers naturally use this reduction.",
+    "explanationKo": "'want to'가 일상적이고 반격식적인 대화에서 'wanna'로 흔히 축약됩니다. TED 강연에서도 화자들이 자연스럽게 이 축약을 사용합니다.",
+    "practiceGuide": "Merge 'want to' into a single word 'wanna'. The 't' disappears completely.",
+    "segmentIndex": 56
+  },
+  {
+    "type": "elision",
+    "originalText": "just five or ten minutes",
+    "phonetic": "/dʒʌs faɪv ɔːr ten ˈmɪnɪts/",
+    "koreanPhonetic": "저스 파이브 오어 텐 미닛츠",
+    "explanation": "The 't' at the end of 'just' is frequently elided before consonants, especially before 'f' and other fricatives. This is a very common elision in natural English speech.",
+    "explanationKo": "'just'의 끝 't'가 자음 앞에서, 특히 'f'와 다른 마찰음 앞에서 자주 탈락합니다. 자연스러운 영어 발화에서 매우 흔한 탈락 현상입니다.",
+    "practiceGuide": "Say 'jus' (dropping the 't') before 'five'. It should flow as 'jus-five'.",
+    "segmentIndex": 67
+  },
+  {
+    "type": "linking",
+    "originalText": "come back",
+    "phonetic": "/kʌm‿bæk/",
+    "koreanPhonetic": "컴백",
+    "explanation": "The 'm' at the end of 'come' links directly to the 'b' in 'back'. Since both are bilabial sounds (made with both lips), they merge seamlessly. The lips stay closed through both sounds.",
+    "explanationKo": "'come'의 끝 'm'이 'back'의 'b'로 직접 연결됩니다. 둘 다 양순음(두 입술로 만드는 소리)이므로 매끄럽게 합쳐집니다. 입술이 두 소리 모두에서 닫힌 상태를 유지합니다.",
+    "practiceGuide": "Keep your lips together from the 'm' sound directly into the 'b'. There should be no gap.",
+    "segmentIndex": 71
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of the",
+    "phonetic": "/ˈkaɪndə ðə/",
+    "koreanPhonetic": "카인더 더",
+    "explanation": "'Kind of' reduces to 'kinda' in rapid speech. The 'of' loses its consonant entirely and becomes just a schwa sound attached to 'kind'.",
+    "explanationKo": "'kind of'가 빠른 발화에서 'kinda'로 축약됩니다. 'of'가 자음을 완전히 잃고 'kind'에 붙는 슈와 모음만 됩니다.",
+    "practiceGuide": "Say 'kinda' as one word. The 'of' becomes just 'uh' sound: 'kine-duh'.",
+    "segmentIndex": 205
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't you",
+    "phonetic": "/ˈdoʊntʃuː/",
+    "koreanPhonetic": "돈추",
+    "explanation": "Similar to 'would you', when 't' meets 'y', they undergo palatalization and become /tʃ/ (the 'ch' sound). 'Don't you' becomes 'dontchu'.",
+    "explanationKo": "'would you'와 비슷하게, 't'가 'y'를 만나면 구개음화가 일어나 /tʃ/ ('ch' 소리)가 됩니다. 'Don't you'가 'dontchu'가 됩니다.",
+    "practiceGuide": "Blend the 't' and 'y' into a 'ch' sound: 'don-chew'. Practice it as a smooth two-syllable word.",
+    "segmentIndex": 34
+  },
+  {
+    "type": "linking",
+    "originalText": "put it down",
+    "phonetic": "/ˈpʊɾ‿ɪt daʊn/",
+    "koreanPhonetic": "푸릿 다운",
+    "explanation": "The 't' in 'put' becomes a flap /ɾ/ before the vowel 'i' in 'it', linking the two words. Then 'it' connects to 'down' in a continuous chain.",
+    "explanationKo": "'put'의 't'가 'it'의 모음 'i' 앞에서 플랩 /ɾ/가 되어 두 단어를 연결합니다. 그런 다음 'it'이 'down'으로 연속적으로 이어집니다.",
+    "practiceGuide": "Say 'puddit-down' with a quick 'd' sound for the 't' in 'put'. Link all three words.",
+    "segmentIndex": 138
+  },
+  {
+    "type": "reduction",
+    "originalText": "I've got this",
+    "phonetic": "/aɪv ˈɡɒt ðɪs/",
+    "koreanPhonetic": "아이브 갓 디스",
+    "explanation": "'I've got' is an informal alternative to 'I have' that is extremely common in spoken English. The 'have' is contracted and nearly invisible, with emphasis on 'got'.",
+    "explanationKo": "'I've got'은 구어 영어에서 'I have'의 매우 흔한 비격식 대안입니다. 'have'가 축약되어 거의 보이지 않으며 'got'에 강세가 옵니다.",
+    "practiceGuide": "The 've' should be very light, almost just a 'v' sound: 'ahyv-got'. Don't stress the 'have' part.",
+    "segmentIndex": 127
+  },
+  {
+    "type": "elision",
+    "originalText": "months",
+    "phonetic": "/mʌnts/",
+    "koreanPhonetic": "먼츠",
+    "explanation": "In rapid speech, the 'th' /θ/ in 'months' is often elided, simplifying the difficult consonant cluster /nθs/ to /nts/. Many native speakers naturally drop the 'th' sound.",
+    "explanationKo": "빠른 발화에서 'months'의 'th' /θ/가 종종 탈락하여 어려운 자음 연쇄 /nθs/가 /nts/로 단순화됩니다. 많은 원어민이 자연스럽게 'th' 소리를 생략합니다.",
+    "practiceGuide": "It's acceptable to say 'munts' instead of trying to pronounce the full 'th' sound in rapid speech.",
+    "segmentIndex": 201
+  },
+  {
+    "type": "linking",
+    "originalText": "one of us",
+    "phonetic": "/wʌn‿əv‿ʌs/",
+    "koreanPhonetic": "워너버스",
+    "explanation": "Three words link together as a smooth chain: the 'n' of 'one' links to 'of' (reduced to 'əv'), which links to 'us'. The result sounds like a single word 'wunuvus'.",
+    "explanationKo": "세 단어가 부드러운 연쇄로 연결됩니다: 'one'의 'n'이 'of'(축약된 'əv')로 연결되고, 이것이 'us'로 연결됩니다. 결과적으로 'wunuvus'라는 하나의 단어처럼 들립니다.",
+    "practiceGuide": "Practice this as one flowing unit: 'wun-uh-vus'. All three words should blend together with no pauses.",
+    "segmentIndex": 8
+  }
+]

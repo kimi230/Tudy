@@ -1,0 +1,476 @@
+[
+  {
+    "word": "lumberjack",
+    "phonetic": "/ˈlʌmbərˌdʒæk/",
+    "partOfSpeech": "noun",
+    "definition": "A person who fells trees, cuts them into logs, or transports them to a sawmill",
+    "meaningKo": "벌목꾼, 나무꾾",
+    "etymology": "From 'lumber' (timber) + 'jack' (common man)",
+    "rootBreakdown": "lumber (wood/timber) + jack (worker)",
+    "relatedWords": [
+      "woodcutter",
+      "logger",
+      "forester"
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "There's a great story of two lumberjacks."
+  },
+  {
+    "word": "sharpen",
+    "phonetic": "/ˈʃɑːrpən/",
+    "partOfSpeech": "verb",
+    "definition": "To make or become sharp or sharper",
+    "meaningKo": "날카롭게 하다, 갈다 (비유: 능력을 연마하다)",
+    "etymology": "From Old English 'scearpian' (to sharpen)",
+    "rootBreakdown": "sharp (adj: keen edge) + -en (verb suffix: to make)",
+    "relatedWords": [
+      "hone",
+      "whet",
+      "refine"
+    ],
+    "isEssential": true,
+    "segmentIndex": 11,
+    "contextSentence": "Oh, go home and sharpen my axe."
+  },
+  {
+    "word": "infinite",
+    "phonetic": "/ˈɪnfɪnɪt/",
+    "partOfSpeech": "adjective",
+    "definition": "Limitless or endless in space, extent, or size; impossible to measure or calculate",
+    "meaningKo": "무한한, 끝이 없는",
+    "etymology": "From Latin 'infinitus' (boundless, unlimited)",
+    "rootBreakdown": "in- (not) + finitus (finished, limited)",
+    "relatedWords": [
+      "infinity",
+      "finite",
+      "infinitesimal",
+      "indefinite"
+    ],
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "If you take an infinite mindset."
+  },
+  {
+    "word": "mindset",
+    "phonetic": "/ˈmaɪndset/",
+    "partOfSpeech": "noun",
+    "definition": "The established set of attitudes held by someone; a way of thinking",
+    "meaningKo": "사고방식, 마음가짐",
+    "etymology": "From 'mind' + 'set' (fixed position)",
+    "rootBreakdown": "mind (thinking faculty) + set (fixed arrangement)",
+    "relatedWords": [
+      "mentality",
+      "outlook",
+      "perspective",
+      "attitude"
+    ],
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "If you take an infinite mindset."
+  },
+  {
+    "word": "spark",
+    "phonetic": "/spɑːrk/",
+    "partOfSpeech": "noun",
+    "definition": "A small fiery particle; figuratively, a trace of a quality or intense feeling that can inspire action",
+    "meaningKo": "불꽃, 영감, 열정의 씨앗",
+    "etymology": "From Old English 'spearca' (spark)",
+    "rootBreakdown": "spark (original root: fiery particle)",
+    "relatedWords": [
+      "ignite",
+      "inspire",
+      "kindle",
+      "motivation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 16,
+    "contextSentence": "As you find your spark and bring your spark to life."
+  },
+  {
+    "word": "elite",
+    "phonetic": "/ɪˈliːt/",
+    "partOfSpeech": "adjective",
+    "definition": "A select group that is superior in terms of ability or qualities to the rest",
+    "meaningKo": "정예의, 엘리트의, 최고의",
+    "etymology": "From French 'élite' (selection, choice), from Latin 'eligere' (to choose)",
+    "rootBreakdown": "e- (out) + legere (to choose)",
+    "relatedWords": [
+      "exclusive",
+      "select",
+      "premier",
+      "top-tier"
+    ],
+    "isEssential": true,
+    "segmentIndex": 45,
+    "contextSentence": "The United States Navy SEALs are perhaps the most elite warriors in the world."
+  },
+  {
+    "word": "bulging",
+    "phonetic": "/ˈbʌldʒɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Swelling outward; protruding or sticking out",
+    "meaningKo": "불룩한, 튀어나온",
+    "etymology": "From Old French 'boulge' (leather bag), from Latin 'bulga' (bag)",
+    "rootBreakdown": "bulge (to swell outward) + -ing (present participle)",
+    "relatedWords": [
+      "swelling",
+      "protruding",
+      "protuberant"
+    ],
+    "isEssential": false,
+    "segmentIndex": 52,
+    "contextSentence": "The guys that show up with huge, bulging muscles covered in tattoos."
+  },
+  {
+    "word": "preening",
+    "phonetic": "/ˈpriːnɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Devoting effort to making oneself look attractive; behaving in a self-admiring way",
+    "meaningKo": "허세 부리는, 자만심에 찬",
+    "etymology": "From Middle English 'prenen' (to trim feathers)",
+    "rootBreakdown": "preen (to groom/admire oneself) + -ing",
+    "relatedWords": [
+      "vain",
+      "self-admiring",
+      "pompous",
+      "conceited"
+    ],
+    "isEssential": false,
+    "segmentIndex": 55,
+    "contextSentence": "The preening leaders who like to delegate all their responsibility."
+  },
+  {
+    "word": "delegate",
+    "phonetic": "/ˈdelɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To entrust a task or responsibility to another person, typically one who is less senior",
+    "meaningKo": "위임하다, 맡기다",
+    "etymology": "From Latin 'delegare' (to send as a representative)",
+    "rootBreakdown": "de- (away) + legare (to send, appoint)",
+    "relatedWords": [
+      "assign",
+      "entrust",
+      "deputize",
+      "delegation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "The preening leaders who like to delegate all their responsibility."
+  },
+  {
+    "word": "scrawny",
+    "phonetic": "/ˈskrɔːni/",
+    "partOfSpeech": "adjective",
+    "definition": "Unattractively thin and bony",
+    "meaningKo": "비쪸 마른, 빼빼한",
+    "etymology": "Possibly from Scandinavian 'skran' (lean, thin)",
+    "rootBreakdown": "scrawny (single root: thin and bony)",
+    "relatedWords": [
+      "skinny",
+      "gaunt",
+      "lanky",
+      "emaciated"
+    ],
+    "isEssential": false,
+    "segmentIndex": 60,
+    "contextSentence": "Some of the guys that make it through are skinny and scrawny."
+  },
+  {
+    "word": "commend",
+    "phonetic": "/kəˈmend/",
+    "partOfSpeech": "verb",
+    "definition": "To praise formally or officially; to express approval of",
+    "meaningKo": "칭찬하다, 치하하다",
+    "etymology": "From Latin 'commendare' (to entrust, recommend)",
+    "rootBreakdown": "com- (together, with) + mandare (to entrust)",
+    "relatedWords": [
+      "praise",
+      "applaud",
+      "recommend",
+      "commendation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 74,
+    "contextSentence": "If you find your spark, I commend you."
+  },
+  {
+    "word": "universally",
+    "phonetic": "/ˌjuːnɪˈvɜːrsəli/",
+    "partOfSpeech": "adverb",
+    "definition": "By everyone; in every case; without exception",
+    "meaningKo": "보편적으로, 전 세계적으로",
+    "etymology": "From Latin 'universalis' (of or belonging to all)",
+    "rootBreakdown": "uni- (one) + versus (turned) + -al + -ly",
+    "relatedWords": [
+      "globally",
+      "unanimously",
+      "universal"
+    ],
+    "isEssential": true,
+    "segmentIndex": 88,
+    "contextSentence": "He is universally regarded as a great leader."
+  },
+  {
+    "word": "render",
+    "phonetic": "/ˈrendər/",
+    "partOfSpeech": "verb",
+    "definition": "To provide or give (a service, help, etc.); to present or express",
+    "meaningKo": "제시하다, 내놓다 (의견을)",
+    "etymology": "From Old French 'rendre' (to give back), from Latin 'reddere'",
+    "rootBreakdown": "re- (back) + dare (to give)",
+    "relatedWords": [
+      "provide",
+      "deliver",
+      "present",
+      "rendering"
+    ],
+    "isEssential": true,
+    "segmentIndex": 106,
+    "contextSentence": "You get the benefit of hearing what everybody else has to think before you render your opinion."
+  },
+  {
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Based on, concerned with, or verifiable by observation or experience rather than theory",
+    "meaningKo": "경험적인, 실증적인",
+    "etymology": "From Greek 'empeirikos' (experienced)",
+    "rootBreakdown": "en- (in) + peira (trial, experiment) + -ical",
+    "relatedWords": [
+      "experimental",
+      "observational",
+      "evidence-based"
+    ],
+    "isEssential": true,
+    "segmentIndex": 122,
+    "contextSentence": "This was the time of empirical data and science."
+  },
+  {
+    "word": "autopsy",
+    "phonetic": "/ˈɔːtɑːpsi/",
+    "partOfSpeech": "noun",
+    "definition": "A post-mortem examination to discover the cause of death or extent of disease",
+    "meaningKo": "부검, 사체 해부",
+    "etymology": "From Greek 'autopsia' (seeing with one's own eyes)",
+    "rootBreakdown": "auto- (self) + opsis (sight, view)",
+    "relatedWords": [
+      "post-mortem",
+      "dissection",
+      "examination"
+    ],
+    "isEssential": true,
+    "segmentIndex": 127,
+    "contextSentence": "In the morning they would conduct autopsies."
+  },
+  {
+    "word": "sterilize",
+    "phonetic": "/ˈsterəlaɪz/",
+    "partOfSpeech": "verb",
+    "definition": "To make free from bacteria or other living microorganisms",
+    "meaningKo": "살균하다, 소독하다",
+    "etymology": "From Latin 'sterilis' (barren, unproductive)",
+    "rootBreakdown": "sterile (free from bacteria) + -ize (to make)",
+    "relatedWords": [
+      "disinfect",
+      "sanitize",
+      "purify",
+      "sterilization"
+    ],
+    "isEssential": true,
+    "segmentIndex": 132,
+    "contextSentence": "When they started sterilizing their instruments and washing their hands."
+  },
+  {
+    "word": "accountability",
+    "phonetic": "/əˌkaʊntəˈbɪləti/",
+    "partOfSpeech": "noun",
+    "definition": "The fact or condition of being accountable; responsibility for one's actions",
+    "meaningKo": "책임, 설명 의무",
+    "etymology": "From Old French 'aconter' (to account for)",
+    "rootBreakdown": "account (to explain) + -able + -ity",
+    "relatedWords": [
+      "responsibility",
+      "liability",
+      "answerability"
+    ],
+    "isEssential": true,
+    "segmentIndex": 134,
+    "contextSentence": "Take accountability for your actions."
+  },
+  {
+    "word": "undersecretary",
+    "phonetic": "/ˈʌndərˌsekrəteri/",
+    "partOfSpeech": "noun",
+    "definition": "A subordinate official, especially a senior civil servant or a minister's assistant in a government department",
+    "meaningKo": "차관, 부장관",
+    "etymology": "From 'under' (below) + 'secretary' (official)",
+    "rootBreakdown": "under- (subordinate) + secretary (official in charge)",
+    "relatedWords": [
+      "deputy",
+      "vice-minister",
+      "assistant secretary"
+    ],
+    "isEssential": false,
+    "segmentIndex": 138,
+    "contextSentence": "There was a former undersecretary of defense."
+  },
+  {
+    "word": "ceramic",
+    "phonetic": "/səˈræmɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Made of clay and hardened by heat; relating to pottery",
+    "meaningKo": "도자기의, 세라믹의",
+    "etymology": "From Greek 'keramikos' (of pottery), from 'keramos' (potter's clay)",
+    "rootBreakdown": "keramos (Greek: clay) + -ic (adjective suffix)",
+    "relatedWords": [
+      "porcelain",
+      "earthenware",
+      "pottery"
+    ],
+    "isEssential": false,
+    "segmentIndex": 147,
+    "contextSentence": "Handed me a cup of coffee in a beautiful ceramic cup."
+  },
+  {
+    "word": "styrofoam",
+    "phonetic": "/ˈstaɪrəfoʊm/",
+    "partOfSpeech": "noun",
+    "definition": "A form of lightweight rigid polystyrene plastic, used especially for food containers and insulation",
+    "meaningKo": "스티로폼, 발포 플라스틱",
+    "etymology": "Trademark, from 'styrene' (chemical compound) + 'foam'",
+    "rootBreakdown": "styrene (chemical) + foam (mass of bubbles)",
+    "relatedWords": [
+      "polystyrene",
+      "foam",
+      "insulation"
+    ],
+    "isEssential": false,
+    "segmentIndex": 139,
+    "contextSentence": "He was standing on the stage with his cup of coffee and a styrofoam cup."
+  },
+  {
+    "word": "humility",
+    "phonetic": "/hjuːˈmɪləti/",
+    "partOfSpeech": "noun",
+    "definition": "A modest or low view of one's own importance; humbleness",
+    "meaningKo": "겸손, 겸허함",
+    "etymology": "From Latin 'humilitas' (lowness, insignificance)",
+    "rootBreakdown": "humilis (lowly, humble) + -itas (-ity: quality of)",
+    "relatedWords": [
+      "modesty",
+      "humbleness",
+      "meekness",
+      "humble"
+    ],
+    "isEssential": true,
+    "segmentIndex": 163,
+    "contextSentence": "Remember that lesson of humility and gratitude."
+  },
+  {
+    "word": "gratitude",
+    "phonetic": "/ˈɡrætɪtjuːd/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being thankful; readiness to show appreciation",
+    "meaningKo": "감사, 고마움",
+    "etymology": "From Latin 'gratitudo' (thankfulness)",
+    "rootBreakdown": "gratus (thankful, pleasing) + -tudo (quality of)",
+    "relatedWords": [
+      "thankfulness",
+      "appreciation",
+      "grateful",
+      "gratefulness"
+    ],
+    "isEssential": true,
+    "segmentIndex": 163,
+    "contextSentence": "Remember that lesson of humility and gratitude."
+  },
+  {
+    "word": "empathy",
+    "phonetic": "/ˈempəθi/",
+    "partOfSpeech": "noun",
+    "definition": "The ability to understand and share the feelings of another",
+    "meaningKo": "공감, 감정이입",
+    "etymology": "From Greek 'empatheia' (passion, state of emotion)",
+    "rootBreakdown": "en- (in) + pathos (feeling)",
+    "relatedWords": [
+      "compassion",
+      "sympathy",
+      "understanding",
+      "empathize"
+    ],
+    "isEssential": true,
+    "segmentIndex": 171,
+    "contextSentence": "This is what empathy means."
+  },
+  {
+    "word": "dopamine",
+    "phonetic": "/ˈdoʊpəmiːn/",
+    "partOfSpeech": "noun",
+    "definition": "A chemical produced in the brain that acts as a neurotransmitter, associated with feelings of pleasure and reward",
+    "meaningKo": "도파민 (쯤감과 보상에 관여하는 뇌 신경전달물질)",
+    "etymology": "From DOPA (dihydroxyphenylalanine) + amine (organic compound)",
+    "rootBreakdown": "DOPA (chemical precursor) + -amine (nitrogen-containing compound)",
+    "relatedWords": [
+      "serotonin",
+      "neurotransmitter",
+      "endorphin"
+    ],
+    "isEssential": true,
+    "segmentIndex": 200,
+    "contextSentence": "Engagement with social media and our cell phones releases a chemical called dopamine."
+  },
+  {
+    "word": "unfettered",
+    "phonetic": "/ʌnˈfetərd/",
+    "partOfSpeech": "adjective",
+    "definition": "Released from restraint or inhibition; uncontrolled",
+    "meaningKo": "제한 없는, 무제한의",
+    "etymology": "From 'un-' (not) + 'fettered' (restrained)",
+    "rootBreakdown": "un- (not) + fetter (chain, shackle) + -ed",
+    "relatedWords": [
+      "unrestrained",
+      "unrestricted",
+      "unchecked",
+      "unbridled"
+    ],
+    "isEssential": true,
+    "segmentIndex": 209,
+    "contextSentence": "Because we're allowing unfettered access to these dopamine producing devices."
+  },
+  {
+    "word": "superficial",
+    "phonetic": "/ˌsuːpərˈfɪʃəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Existing or occurring at or on the surface; not thorough, deep, or complete",
+    "meaningKo": "피상적인, 겉핸기의",
+    "etymology": "From Latin 'superficialis' (of or pertaining to the surface)",
+    "rootBreakdown": "super- (above) + facies (face, surface) + -al",
+    "relatedWords": [
+      "shallow",
+      "surface-level",
+      "cursory",
+      "skin-deep"
+    ],
+    "isEssential": true,
+    "segmentIndex": 213,
+    "contextSentence": "They will admit that many of their friendships are superficial."
+  },
+  {
+    "word": "constituency",
+    "phonetic": "/kənˈstɪtʃuənsi/",
+    "partOfSpeech": "noun",
+    "definition": "A body of voters or supporters; a group of people with shared interests",
+    "meaningKo": "이해관계자, 유권자 집단",
+    "etymology": "From Latin 'constituere' (to establish, set up)",
+    "rootBreakdown": "con- (together) + statuere (to set up) + -ency",
+    "relatedWords": [
+      "electorate",
+      "stakeholders",
+      "constituents"
+    ],
+    "isEssential": false,
+    "segmentIndex": 235,
+    "contextSentence": "The priorities of some disinterested external constituency."
+  }
+]

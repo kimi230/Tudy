@@ -1,0 +1,434 @@
+[
+  {
+    "word": "scurry",
+    "phonetic": "/ˈskɜːri/",
+    "partOfSpeech": "verb",
+    "definition": "To move hurriedly with short quick steps",
+    "meaningKo": "종종걸음으로 황급히 움직이다",
+    "etymology": "Possibly from hurry-scurry, a reduplication of 'hurry'",
+    "rootBreakdown": "hurry-scurry → scurry (빠르게 서두르다)",
+    "relatedWords": [
+      "scamper",
+      "dash",
+      "scramble",
+      "hustle"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "They would scurry around and I would hope that none of them would stay around."
+  },
+  {
+    "word": "chores",
+    "phonetic": "/tʃɔːrz/",
+    "partOfSpeech": "noun",
+    "definition": "Routine tasks, especially household ones",
+    "meaningKo": "집안일, 허드렟일",
+    "etymology": "From Middle English 'chare' meaning 'a turn of work'",
+    "rootBreakdown": "chare (일의 차례) → chore (일상적인 일)",
+    "relatedWords": [
+      "tasks",
+      "duties",
+      "errands",
+      "housework"
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "Do your chores and don't come back until they're done."
+  },
+  {
+    "word": "supportive",
+    "phonetic": "/səˈpɔːrtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Providing encouragement or emotional help",
+    "meaningKo": "지지하는, 도움이 되는",
+    "etymology": "From Latin 'supportare' (to carry, bear) + '-ive'",
+    "rootBreakdown": "sub- (아래에서) + portare (나르다) + -ive (성질의)",
+    "relatedWords": [
+      "encouraging",
+      "nurturing",
+      "caring",
+      "sympathetic"
+    ],
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "It was kind of the beginning of me realizing that I wasn't in a supportive environment."
+  },
+  {
+    "word": "invariably",
+    "phonetic": "/ɪnˈveəriəbli/",
+    "partOfSpeech": "adverb",
+    "definition": "In every case or on every occasion; always",
+    "meaningKo": "변함없이, 항상, 어김없이",
+    "etymology": "From Latin 'in-' (not) + 'variabilis' (changeable)",
+    "rootBreakdown": "in- (아닌) + vari- (변하다) + -able (가능한) + -ly (부사형)",
+    "relatedWords": [
+      "always",
+      "consistently",
+      "unfailingly",
+      "perpetually"
+    ],
+    "isEssential": true,
+    "segmentIndex": 32,
+    "contextSentence": "I'd call him out to look at the task being done and invariably it was never good enough."
+  },
+  {
+    "word": "double down",
+    "phonetic": "/ˈdʌbl daʊn/",
+    "partOfSpeech": "phrasal verb",
+    "definition": "To strengthen one's commitment to a particular strategy or course of action",
+    "meaningKo": "더 배로 집중하다, 더욱 전념하다",
+    "etymology": "Originally from blackjack: doubling your bet after seeing initial cards",
+    "rootBreakdown": "double (두 배) + down (내려놓다, 강화하다)",
+    "relatedWords": [
+      "intensify",
+      "redouble",
+      "commit",
+      "persevere"
+    ],
+    "isEssential": true,
+    "segmentIndex": 31,
+    "contextSentence": "So I doubled down on that and I worked hard."
+  },
+  {
+    "word": "solace",
+    "phonetic": "/ˈsɒlɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Comfort or consolation in a time of distress or sadness",
+    "meaningKo": "위안, 위로",
+    "etymology": "From Latin 'solacium' (comfort, consolation)",
+    "rootBreakdown": "solari (위로하다) → solacium → solace",
+    "relatedWords": [
+      "comfort",
+      "consolation",
+      "relief",
+      "refuge"
+    ],
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "The only solace I had was to work hard."
+  },
+  {
+    "word": "carpentry",
+    "phonetic": "/ˈkɑːrpəntri/",
+    "partOfSpeech": "noun",
+    "definition": "The activity or occupation of making or repairing things in wood",
+    "meaningKo": "목공, 목수 일",
+    "etymology": "From Anglo-Norman French 'carpenterie', from Latin 'carpentarius' (wagon maker)",
+    "rootBreakdown": "carpentum (수레) + -arius (직업) + -ry (행위/기술)",
+    "relatedWords": [
+      "woodwork",
+      "joinery",
+      "cabinet-making",
+      "craftsmanship"
+    ],
+    "isEssential": false,
+    "segmentIndex": 40,
+    "contextSentence": "I drove a taxi, I did carpentry, I cut lawns, I washed windows."
+  },
+  {
+    "word": "evicted",
+    "phonetic": "/ɪˈvɪktɪd/",
+    "partOfSpeech": "verb (past tense)",
+    "definition": "Expelled from a property, typically with the support of the law",
+    "meaningKo": "(세입자를) 쫓아내다, 퇴거시키다",
+    "etymology": "From Latin 'evictus', past participle of 'evincere' (to conquer)",
+    "rootBreakdown": "e- (밖으로) + vincere (이기다, 정복하다)",
+    "relatedWords": [
+      "expelled",
+      "ousted",
+      "ejected",
+      "displaced"
+    ],
+    "isEssential": true,
+    "segmentIndex": 56,
+    "contextSentence": "I got evicted from my apartment and I went back in with my mom at the age of 30."
+  },
+  {
+    "word": "mentor",
+    "phonetic": "/ˈmentɔːr/",
+    "partOfSpeech": "noun",
+    "definition": "An experienced and trusted adviser",
+    "meaningKo": "멘토, 스승, 조언자",
+    "etymology": "From Greek 'Mentor', the adviser of the young Telemachus in Homer's Odyssey",
+    "rootBreakdown": "Mentor (오디세이의 인물) → 경험 많은 조언자",
+    "relatedWords": [
+      "adviser",
+      "guide",
+      "coach",
+      "counselor"
+    ],
+    "isEssential": true,
+    "segmentIndex": 62,
+    "contextSentence": "That's when I met my first mentor that transformed my life."
+  },
+  {
+    "word": "work ethic",
+    "phonetic": "/wɜːrk ˈeθɪk/",
+    "partOfSpeech": "noun",
+    "definition": "The principle that hard work is intrinsically virtuous or worthy of reward",
+    "meaningKo": "직업 윤리, 근면한 태도",
+    "etymology": "work (일) + ethic from Greek 'ethikos' (moral character)",
+    "rootBreakdown": "work (일) + ethikos (도덕적 성격)",
+    "relatedWords": [
+      "diligence",
+      "industriousness",
+      "dedication",
+      "professionalism"
+    ],
+    "isEssential": true,
+    "segmentIndex": 65,
+    "contextSentence": "Because you really have a great work ethic."
+  },
+  {
+    "word": "persona",
+    "phonetic": "/pərˈsoʊnə/",
+    "partOfSpeech": "noun",
+    "definition": "The aspect of someone's character that is presented to or perceived by others",
+    "meaningKo": "페르소나, 외적 인격, 겉으로 보이는 모습",
+    "etymology": "From Latin 'persona' meaning 'mask, character'",
+    "rootBreakdown": "persona (가면, 인물) → 외적 자아",
+    "relatedWords": [
+      "identity",
+      "image",
+      "facade",
+      "character"
+    ],
+    "isEssential": true,
+    "segmentIndex": 97,
+    "contextSentence": "You take on those labels and you wear them like they're your persona."
+  },
+  {
+    "word": "psyche",
+    "phonetic": "/ˈsaɪki/",
+    "partOfSpeech": "noun",
+    "definition": "The human soul, mind, or spirit",
+    "meaningKo": "정신, 심리, 영혼",
+    "etymology": "From Greek 'psyche' meaning 'breath, spirit, soul'",
+    "rootBreakdown": "psyche (숨, 영혼, 정신)",
+    "relatedWords": [
+      "mind",
+      "soul",
+      "consciousness",
+      "spirit"
+    ],
+    "isEssential": true,
+    "segmentIndex": 94,
+    "contextSentence": "The most powerful force in the human psyche is how we describe ourselves to ourself."
+  },
+  {
+    "word": "reprogram",
+    "phonetic": "/riːˈproʊɡræm/",
+    "partOfSpeech": "verb",
+    "definition": "To program again or differently",
+    "meaningKo": "재프로그래밍하다, 다시 프로그래밍하다",
+    "etymology": "re- (again) + program (from Greek 'programma' = public notice)",
+    "rootBreakdown": "re- (다시) + pro- (앞에) + gramma (쓰다)",
+    "relatedWords": [
+      "reconfigure",
+      "reset",
+      "rewire",
+      "recondition"
+    ],
+    "isEssential": true,
+    "segmentIndex": 78,
+    "contextSentence": "We're gonna reprogram your brain. Your brain is like software, we're just gonna reprogram it."
+  },
+  {
+    "word": "resourceful",
+    "phonetic": "/rɪˈsɔːrsfəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Having the ability to find quick and clever ways to overcome difficulties",
+    "meaningKo": "재치 있는, 수완이 좋은",
+    "etymology": "From 'resource' (Old French 'resourdre' = to rise again) + '-ful'",
+    "rootBreakdown": "re- (다시) + source (원천) + -ful (가득한)",
+    "relatedWords": [
+      "ingenious",
+      "inventive",
+      "creative",
+      "adaptable"
+    ],
+    "isEssential": true,
+    "segmentIndex": 93,
+    "contextSentence": "I became resourceful. I became capable of doing things I didn't know I was gonna do."
+  },
+  {
+    "word": "introverted",
+    "phonetic": "/ˈɪntrəvɜːrtɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Shy and reticent; characterized by interest in one's own mental life",
+    "meaningKo": "내성적인, 내향적인",
+    "etymology": "From Latin 'intro-' (inward) + 'vertere' (to turn)",
+    "rootBreakdown": "intro- (안으로) + vertere (돌리다) + -ed (형용사형)",
+    "relatedWords": [
+      "shy",
+      "reserved",
+      "withdrawn",
+      "quiet"
+    ],
+    "isEssential": true,
+    "segmentIndex": 96,
+    "contextSentence": "You're quiet, you're introverted, and you take on those labels."
+  },
+  {
+    "word": "ruggedly",
+    "phonetic": "/ˈrʌɡɪdli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a strong, rough, and attractive manner",
+    "meaningKo": "거칠면서도 매력적으로, 남성적으로",
+    "etymology": "From Scandinavian 'rugg' (rough hair) + '-ed' + '-ly'",
+    "rootBreakdown": "rugg (거친 털) → rugged (거친, 강인한) → ruggedly",
+    "relatedWords": [
+      "roughly",
+      "sturdily",
+      "toughly",
+      "robustly"
+    ],
+    "isEssential": true,
+    "segmentIndex": 77,
+    "contextSentence": "Loser out, ruggedly handsome in."
+  },
+  {
+    "word": "spontaneously",
+    "phonetic": "/spɒnˈteɪniəsli/",
+    "partOfSpeech": "adverb",
+    "definition": "As a result of a sudden inner impulse without premeditation",
+    "meaningKo": "자발적으로, 저절로, 즉흥적으로",
+    "etymology": "From Latin 'spontaneus' (of one's own free will)",
+    "rootBreakdown": "sponte (자유의지로) + -aneous + -ly",
+    "relatedWords": [
+      "naturally",
+      "impulsively",
+      "instinctively",
+      "automatically"
+    ],
+    "isEssential": true,
+    "segmentIndex": 89,
+    "contextSentence": "Then spontaneously one morning I was in the shower and I said I'm the greatest real estate agent in my area."
+  },
+  {
+    "word": "foundation",
+    "phonetic": "/faʊnˈdeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The lowest load-bearing part of a building; an underlying basis or principle",
+    "meaningKo": "기초, 기반, 토대",
+    "etymology": "From Latin 'fundatio' from 'fundare' (to lay the bottom)",
+    "rootBreakdown": "fundus (바닥) + -ation (행위/결과)",
+    "relatedWords": [
+      "basis",
+      "groundwork",
+      "cornerstone",
+      "bedrock"
+    ],
+    "isEssential": true,
+    "segmentIndex": 60,
+    "contextSentence": "When you're down there and you think there's nothing left, it's the foundation to grow from."
+  },
+  {
+    "word": "transformed",
+    "phonetic": "/trænsˈfɔːrmd/",
+    "partOfSpeech": "verb (past tense)",
+    "definition": "Made a thorough or dramatic change in form, appearance, or character",
+    "meaningKo": "변화시키다, 탈바꿈시키다",
+    "etymology": "From Latin 'transformare': trans- (across) + formare (to form)",
+    "rootBreakdown": "trans- (넘어서) + forma (형태) + -are (동사형)",
+    "relatedWords": [
+      "changed",
+      "converted",
+      "metamorphosed",
+      "revolutionized"
+    ],
+    "isEssential": true,
+    "segmentIndex": 62,
+    "contextSentence": "That's when I met my first mentor that transformed my life."
+  },
+  {
+    "word": "redefine",
+    "phonetic": "/ˌriːdɪˈfaɪn/",
+    "partOfSpeech": "verb",
+    "definition": "To define again or differently",
+    "meaningKo": "재정의하다, 다시 정의하다",
+    "etymology": "re- (again) + define (from Latin 'definire' = to set bounds)",
+    "rootBreakdown": "re- (다시) + de- (완전히) + finis (끝, 경계)",
+    "relatedWords": [
+      "reinterpret",
+      "reconceptualize",
+      "reshape",
+      "reimagine"
+    ],
+    "isEssential": true,
+    "segmentIndex": 101,
+    "contextSentence": "Today is the first day of the rest of your life and you get to redefine yourself."
+  },
+  {
+    "word": "shrinking",
+    "phonetic": "/ˈʃrɪŋkɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Becoming or making smaller in size or amount",
+    "meaningKo": "줄어드는, 위축되는",
+    "etymology": "From Old English 'scrincan' (to shrivel, dry up)",
+    "rootBreakdown": "scrincan (쪼그라들다) → shrink → shrinking",
+    "relatedWords": [
+      "diminishing",
+      "contracting",
+      "withering",
+      "dwindling"
+    ],
+    "isEssential": false,
+    "segmentIndex": 17,
+    "contextSentence": "He looked at me and I felt myself shrinking down."
+  },
+  {
+    "word": "idol",
+    "phonetic": "/ˈaɪdl/",
+    "partOfSpeech": "noun",
+    "definition": "A person greatly admired, loved, or revered",
+    "meaningKo": "우상, 롤모델",
+    "etymology": "From Greek 'eidolon' (image, idol)",
+    "rootBreakdown": "eidos (형태, 모습) → eidolon (이미지) → idol",
+    "relatedWords": [
+      "hero",
+      "icon",
+      "role model",
+      "inspiration"
+    ],
+    "isEssential": false,
+    "segmentIndex": 73,
+    "contextSentence": "Who's an idol that you have?"
+  },
+  {
+    "word": "rock bottom",
+    "phonetic": "/rɒk ˈbɒtəm/",
+    "partOfSpeech": "noun",
+    "definition": "The lowest possible level",
+    "meaningKo": "최저점, 바닥",
+    "etymology": "From 'rock' (stone) + 'bottom' (the lowest part)",
+    "rootBreakdown": "rock (바위) + bottom (바닥) = 가장 밑바닥",
+    "relatedWords": [
+      "nadir",
+      "lowest point",
+      "all-time low",
+      "depths"
+    ],
+    "isEssential": true,
+    "segmentIndex": 53,
+    "contextSentence": "I don't know if it broke my spirit or if I thought I'd hit rock bottom."
+  },
+  {
+    "word": "cast",
+    "phonetic": "/kæst/",
+    "partOfSpeech": "verb",
+    "definition": "To throw (something) forcefully in a specified direction; to cause (light or shadow) to appear on a surface",
+    "meaningKo": "(그림자를) 드리우다, 던지다",
+    "etymology": "From Old Norse 'kasta' (to throw)",
+    "rootBreakdown": "kasta (던지다) → cast",
+    "relatedWords": [
+      "throw",
+      "project",
+      "shed",
+      "direct"
+    ],
+    "isEssential": false,
+    "segmentIndex": 18,
+    "contextSentence": "This shadow cast over me and he goes, do you have any idea what it takes to put food on the table?"
+  }
+]

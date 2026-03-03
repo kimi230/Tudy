@@ -1,0 +1,405 @@
+[
+  {
+    "word": "replicate",
+    "phonetic": "/ˈreplɪkeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make an exact copy or reproduction of something",
+    "meaningKo": "복제하다, 재현하다",
+    "etymology": "Latin 'replicare' (to fold back, repeat)",
+    "rootBreakdown": "re- (again) + plicare (to fold)",
+    "relatedWords": [
+      "replica",
+      "replication",
+      "duplicate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "How many of you believe you could replicate this image of Brad Pitt?"
+  },
+  {
+    "word": "ambitious",
+    "phonetic": "/æmˈbɪʃəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing a strong desire and determination to succeed; requiring great effort or resources",
+    "meaningKo": "야심찬, 대담한",
+    "etymology": "Latin 'ambitiosus' (eager for public office)",
+    "rootBreakdown": "ambiti- (going around, canvassing) + -ous (full of)",
+    "relatedWords": [
+      "ambition",
+      "ambitiously",
+      "unambitious"
+    ],
+    "isEssential": true,
+    "segmentIndex": 19,
+    "contextSentence": "What stands between us and achieving even our most ambitious dreams."
+  },
+  {
+    "word": "marginal",
+    "phonetic": "/ˈmɑːrdʒɪnəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Small and not important; relating to a slight change or improvement",
+    "meaningKo": "아주 작은, 한계의, 점진적인",
+    "etymology": "Medieval Latin 'marginalis' (of the edge)",
+    "rootBreakdown": "margin- (edge, border) + -al (relating to)",
+    "relatedWords": [
+      "margin",
+      "marginally",
+      "marginalize"
+    ],
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "Even a marginal improvement in our process can have a huge impact on our end results."
+  },
+  {
+    "word": "compounding",
+    "phonetic": "/kəmˈpaʊndɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Increasing or growing by accumulation; building upon itself over time",
+    "meaningKo": "복합적인, 누적되는",
+    "etymology": "Latin 'componere' (to put together)",
+    "rootBreakdown": "com- (together) + ponere (to place)",
+    "relatedWords": [
+      "compound",
+      "compounded",
+      "compound interest"
+    ],
+    "isEssential": true,
+    "segmentIndex": 22,
+    "contextSentence": "Because of the continuous and compounding nature of all those millions of decisions."
+  },
+  {
+    "word": "quantify",
+    "phonetic": "/ˈkwɒntɪfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To express or measure the quantity of something; to put into numbers",
+    "meaningKo": "수치화하다, 정량화하다",
+    "etymology": "Medieval Latin 'quantificare'",
+    "rootBreakdown": "quant- (how much) + -ify (to make)",
+    "relatedWords": [
+      "quantity",
+      "quantifiable",
+      "quantification"
+    ],
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "We can quantify and track his progress in this area."
+  },
+  {
+    "word": "dominating",
+    "phonetic": "/ˈdɒmɪneɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a commanding position or influence; overwhelmingly superior",
+    "meaningKo": "압도적인, 지배적인",
+    "etymology": "Latin 'dominari' (to rule, govern)",
+    "rootBreakdown": "domin- (lord, master) + -ating (doing)",
+    "relatedWords": [
+      "dominate",
+      "dominant",
+      "dominance"
+    ],
+    "isEssential": false,
+    "segmentIndex": 32,
+    "contextSentence": "Winning a dominating 90% of his matches."
+  },
+  {
+    "word": "spectator",
+    "phonetic": "/spekˈteɪtər/",
+    "partOfSpeech": "noun",
+    "definition": "A person who watches something, especially an event, without being involved",
+    "meaningKo": "관중, 방관자, 구경꾼",
+    "etymology": "Latin 'spectator' (viewer)",
+    "rootBreakdown": "spect- (to look) + -ator (one who)",
+    "relatedWords": [
+      "spectate",
+      "spectacle",
+      "spectacular"
+    ],
+    "isEssential": true,
+    "segmentIndex": 57,
+    "contextSentence": "I'm going to stop being a spectator of my decision making."
+  },
+  {
+    "word": "exotic",
+    "phonetic": "/ɪɡˈzɒtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Originating from or characteristic of a distant foreign country; strikingly unusual or strange",
+    "meaningKo": "이국적인, 특이한 (금융: 복잡한 구조의)",
+    "etymology": "Greek 'exotikos' (foreign)",
+    "rootBreakdown": "exo- (outside) + -tic (relating to)",
+    "relatedWords": [
+      "exoticism",
+      "exotica"
+    ],
+    "isEssential": false,
+    "segmentIndex": 83,
+    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse."
+  },
+  {
+    "word": "derivatives",
+    "phonetic": "/dɪˈrɪvətɪvz/",
+    "partOfSpeech": "noun",
+    "definition": "Financial instruments whose value is based on the value of an underlying asset",
+    "meaningKo": "파생상품 (금융 용어)",
+    "etymology": "Latin 'derivativus' (drawn off)",
+    "rootBreakdown": "de- (from) + rivus (stream) + -ative (tending to)",
+    "relatedWords": [
+      "derive",
+      "derivation",
+      "derivative"
+    ],
+    "isEssential": false,
+    "segmentIndex": 83,
+    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse."
+  },
+  {
+    "word": "rectify",
+    "phonetic": "/ˈrektɪfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To put right; to correct or fix a problem or mistake",
+    "meaningKo": "바로잡다, 교정하다",
+    "etymology": "Latin 'rectificare' (to make right)",
+    "rootBreakdown": "rect- (right, straight) + -ify (to make)",
+    "relatedWords": [
+      "rectification",
+      "correct",
+      "direction"
+    ],
+    "isEssential": true,
+    "segmentIndex": 120,
+    "contextSentence": "And I wanted to rectify that."
+  },
+  {
+    "word": "temptation",
+    "phonetic": "/tempˈteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A desire to do something, especially something wrong or unwise; something that attracts",
+    "meaningKo": "유혹, 충동",
+    "etymology": "Latin 'temptatio' (a testing)",
+    "rootBreakdown": "tempt- (to try, test) + -ation (act of)",
+    "relatedWords": [
+      "tempt",
+      "tempting",
+      "tempted"
+    ],
+    "isEssential": true,
+    "segmentIndex": 101,
+    "contextSentence": "So I removed that temptation by removing all of the music."
+  },
+  {
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "partOfSpeech": "noun",
+    "definition": "A regular journey between one's home and workplace",
+    "meaningKo": "통근, 통학",
+    "etymology": "Latin 'commutare' (to change, exchange)",
+    "rootBreakdown": "com- (together) + mutare (to change)",
+    "relatedWords": [
+      "commuter",
+      "commutation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 92,
+    "contextSentence": "My commute was a walk from one end of Hyde Park to the other."
+  },
+  {
+    "word": "intensive",
+    "phonetic": "/ɪnˈtensɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Concentrated on a particular area or subject; thorough and vigorous",
+    "meaningKo": "집중적인, 강도 높은",
+    "etymology": "Medieval Latin 'intensivus'",
+    "rootBreakdown": "in- (into) + tens- (stretch) + -ive (tending to)",
+    "relatedWords": [
+      "intense",
+      "intensity",
+      "intensify"
+    ],
+    "isEssential": true,
+    "segmentIndex": 103,
+    "contextSentence": "I went to Berlin for a 16-day intensive German course."
+  },
+  {
+    "word": "garnered",
+    "phonetic": "/ˈɡɑːrnərd/",
+    "partOfSpeech": "verb",
+    "definition": "To gather or collect something, especially information, support, or attention",
+    "meaningKo": "모으다, 획득하다, 끌어모으다",
+    "etymology": "Old French 'gernier' (granary, to store grain)",
+    "rootBreakdown": "garn- (to gather, store) + -ed (past tense)",
+    "relatedWords": [
+      "garner",
+      "garnering"
+    ],
+    "isEssential": true,
+    "segmentIndex": 204,
+    "contextSentence": "I've garnered an awful lot of attention from my escapades."
+  },
+  {
+    "word": "escapades",
+    "phonetic": "/ˈeskəpeɪdz/",
+    "partOfSpeech": "noun",
+    "definition": "Wild, exciting, or adventurous acts or incidents",
+    "meaningKo": "모험담, 돌발 행동",
+    "etymology": "Spanish 'escapada' (escape, prank)",
+    "rootBreakdown": "escap- (to escape) + -ade (action, result)",
+    "relatedWords": [
+      "escape",
+      "escapade",
+      "escapism"
+    ],
+    "isEssential": false,
+    "segmentIndex": 204,
+    "contextSentence": "I've garnered an awful lot of attention from my escapades."
+  },
+  {
+    "word": "culminates",
+    "phonetic": "/ˈkʌlmɪneɪts/",
+    "partOfSpeech": "verb",
+    "definition": "To reach the highest point or final stage of development",
+    "meaningKo": "절정에 달하다, 마무리되다",
+    "etymology": "Latin 'culminare' (to crown)",
+    "rootBreakdown": "culmin- (summit, peak) + -ate (to make/do)",
+    "relatedWords": [
+      "culmination",
+      "culminating"
+    ],
+    "isEssential": true,
+    "segmentIndex": 186,
+    "contextSentence": "Which culminates in a project that is currently at TMC here in Tucson."
+  },
+  {
+    "word": "charitable",
+    "phonetic": "/ˈtʃærɪtəbəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the assistance of those in need; generous in giving to the poor",
+    "meaningKo": "자선의, 자비로운",
+    "etymology": "Old French 'charitable' from Latin 'caritas' (love)",
+    "rootBreakdown": "charit- (love, generosity) + -able (capable of)",
+    "relatedWords": [
+      "charity",
+      "charitably",
+      "uncharitable"
+    ],
+    "isEssential": false,
+    "segmentIndex": 160,
+    "contextSentence": "I did 12 charitable things that didn't involve writing a check."
+  },
+  {
+    "word": "possessing",
+    "phonetic": "/pəˈzesɪŋ/",
+    "partOfSpeech": "verb",
+    "definition": "Having or owning something; being endowed with a quality or ability",
+    "meaningKo": "소유하다, 갖추다",
+    "etymology": "Latin 'possidere' (to occupy, hold)",
+    "rootBreakdown": "pos- (able) + sid- (to sit) + -ing (present participle)",
+    "relatedWords": [
+      "possess",
+      "possession",
+      "possessive"
+    ],
+    "isEssential": false,
+    "segmentIndex": 20,
+    "contextSentence": "Has far less to do with possessing some magical skill or talent."
+  },
+  {
+    "word": "manageable",
+    "phonetic": "/ˈmænɪdʒəbəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Able to be controlled, dealt with, or accomplished without great difficulty",
+    "meaningKo": "관리할 수 있는, 감당할 수 있는",
+    "etymology": "Italian 'maneggiare' (to handle) + -able",
+    "rootBreakdown": "manage (to handle) + -able (capable of being)",
+    "relatedWords": [
+      "manage",
+      "management",
+      "unmanageable"
+    ],
+    "isEssential": true,
+    "segmentIndex": 79,
+    "contextSentence": "You break them down to much more manageable tasks."
+  },
+  {
+    "word": "undisciplined",
+    "phonetic": "/ʌnˈdɪsɪplɪnd/",
+    "partOfSpeech": "adjective",
+    "definition": "Lacking discipline or self-control; not trained to follow rules or a code of behavior",
+    "meaningKo": "자제력이 없는, 규율이 없는",
+    "etymology": "un- (not) + disciplined",
+    "rootBreakdown": "un- (not) + discipl- (learning, training) + -ined (having)",
+    "relatedWords": [
+      "discipline",
+      "disciplined",
+      "self-discipline"
+    ],
+    "isEssential": true,
+    "segmentIndex": 99,
+    "contextSentence": "Because the truth of the matter is, I'm an undisciplined person."
+  },
+  {
+    "word": "marvel",
+    "phonetic": "/ˈmɑːrvəl/",
+    "partOfSpeech": "verb",
+    "definition": "To be filled with wonder or astonishment at something",
+    "meaningKo": "경탄하다, 놀라워하다",
+    "etymology": "Old French 'merveille' from Latin 'mirabilia' (wonderful things)",
+    "rootBreakdown": "mir- (to wonder) + -vel (diminutive)",
+    "relatedWords": [
+      "marvelous",
+      "marveling"
+    ],
+    "isEssential": false,
+    "segmentIndex": 209,
+    "contextSentence": "Really big, ambitious projects that people seem to marvel at."
+  },
+  {
+    "word": "aerobatically",
+    "phonetic": "/ˌeəroʊˈbætɪkli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a manner involving spectacular flying maneuvers such as loops and rolls",
+    "meaningKo": "곡예 비행으로",
+    "etymology": "Greek 'aero' (air) + 'bat' (to walk/go) + '-ically'",
+    "rootBreakdown": "aero- (air) + bat- (to go) + -ically (in the manner of)",
+    "relatedWords": [
+      "aerobatics",
+      "aerobatic",
+      "acrobatic"
+    ],
+    "isEssential": false,
+    "segmentIndex": 116,
+    "contextSentence": "And learned how to fly planes aerobatically."
+  },
+  {
+    "word": "incorporate",
+    "phonetic": "/ɪnˈkɔːrpəreɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To include or contain something as part of a whole; to take in or absorb",
+    "meaningKo": "포함하다, 통합하다",
+    "etymology": "Latin 'incorporare' (to form into a body)",
+    "rootBreakdown": "in- (into) + corpor- (body) + -ate (to make)",
+    "relatedWords": [
+      "incorporation",
+      "incorporated",
+      "corporate"
+    ],
+    "isEssential": false,
+    "segmentIndex": 202,
+    "contextSentence": "Incorporated more than 30 miles of yarn."
+  },
+  {
+    "word": "resolution",
+    "phonetic": "/ˌrezəˈluːʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A firm decision to do or not to do something; a formal expression of intent",
+    "meaningKo": "결심, 결의, 다짐",
+    "etymology": "Latin 'resolutio' (a loosening, solving)",
+    "rootBreakdown": "re- (again) + solut- (loosen) + -ion (act of)",
+    "relatedWords": [
+      "resolve",
+      "resolute",
+      "resolved"
+    ],
+    "isEssential": true,
+    "segmentIndex": 130,
+    "contextSentence": "I set a resolution to hike all 33 trails in the front country."
+  }
+]

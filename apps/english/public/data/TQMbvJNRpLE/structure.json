@@ -1,0 +1,202 @@
+{
+  "descriptionKo": "큰 목표를 작은 결정들로 세분화하고 과정에 점진적 개선을 가하면 누구나 야심찬 꿈을 이룰 수 있다는 TEDx 강연",
+  "sections": [
+    {
+      "title": "The Art Analogy — Hook",
+      "titleKo": "예술 비유 — 도입부",
+      "section": "opening",
+      "startSegment": 0,
+      "endSegment": 18,
+      "summary": "Duneier opens by asking the audience if they could replicate a Brad Pitt portrait, then reveals that breaking it into gray squares makes it achievable. He introduces Chuck Close as proof that this grid technique produces world-class art.",
+      "summaryKo": "듀니어는 청중에게 브래드 피트 초상화를 재현할 수 있겠냐고 물은 후, 회색 정사각형으로 나누면 가능하다는 것을 보여줍니다. 이 기법으로 세계적 예술가가 된 척 클로스를 소개합니다.",
+      "keyPoints": [
+        "Any complex task can be broken into simple, achievable sub-tasks",
+        "Chuck Close uses this exact grid technique to create world-class art",
+        "The skill is not magical talent — it's the approach"
+      ]
+    },
+    {
+      "title": "The Core Thesis — Marginal Improvement in Decision-Making",
+      "titleKo": "핵심 논제 — 의사결정의 점진적 개선",
+      "section": "thesis",
+      "startSegment": 19,
+      "endSegment": 23,
+      "summary": "Duneier presents his central argument: achieving ambitious goals is not about talent or skill, but about how we approach problems and make decisions. Even marginal improvements to our process compound over time to produce dramatically better results.",
+      "summaryKo": "듀니어는 핵심 주장을 제시합니다: 야심찬 목표 달성은 재능이나 기술이 아니라, 문제에 접근하고 결정을 내리는 방법에 관한 것입니다. 과정에 대한 아주 작은 개선도 시간이 지나면 극적으로 더 나은 결과를 만듭니다.",
+      "keyPoints": [
+        "Success is about approach and decision-making, not talent",
+        "Millions of small decisions have a continuous and compounding nature",
+        "Marginal improvement in process yields huge impact on results"
+      ]
+    },
+    {
+      "title": "Proof Point — Novak Djokovic's Statistics",
+      "titleKo": "증거 — 노박 조코비치의 통계",
+      "section": "evidence-1",
+      "startSegment": 24,
+      "endSegment": 47,
+      "summary": "Using Djokovic's tennis career, Duneier demonstrates that the difference between being ranked 680th and becoming the world's number one player came down to improving his 'decision success rate' from 49% to just 55% — a marginal improvement with massive results.",
+      "summaryKo": "조코비치의 테니스 경력을 사용하여, 680위에서 세계 1위가 되기까지의 차이는 '의사결정 성공률'을 49%에서 겨우 55%로 개선한 것임을 보여줍니다 — 작은 개선이 거대한 결과를 만든 것입니다.",
+      "keyPoints": [
+        "Djokovic went from 680th to #1 with marginal improvement in point success rate",
+        "49% → 52% → 55% decision success rate corresponded to massive career jumps",
+        "Players don't control rankings or earnings — they control small decisions"
+      ]
+    },
+    {
+      "title": "Personal Story — From C-Student to Straight A's",
+      "titleKo": "개인 이야기 — C학생에서 올A 학생으로",
+      "section": "evidence-2",
+      "startSegment": 48,
+      "endSegment": 76,
+      "summary": "Duneier shares his struggle with attention and focus from kindergarten through college. Instead of fighting his nature, he made a marginal adjustment: breaking assignments into 5-10 minute tasks. This transformed him from a C- student to a straight-A student.",
+      "summaryKo": "듀니어는 유치원부터 대학까지 주의력과 집중력에 대한 고군분투를 공유합니다. 본성과 싸우는 대신 점진적 조정을 했습니다: 과제를 5-10분짜리 작업으로 세분화. 이것이 그를 C- 학생에서 올A 학생으로 변화시켰습니다.",
+      "keyPoints": [
+        "He was diagnosed as unable to focus for more than 5-10 minutes",
+        "Instead of fighting his nature, he adapted his approach",
+        "Breaking tasks into 5-10 minute chunks led to Dean's List and Honor Roll"
+      ]
+    },
+    {
+      "title": "Career Application — Wall Street Success",
+      "titleKo": "커리어 적용 — 월스트리트 성공",
+      "section": "evidence-3",
+      "startSegment": 77,
+      "endSegment": 91,
+      "summary": "The same approach propelled his financial career: from exotic derivatives trader at Credit Suisse to global head positions at Bank of America and AIG, then to running two award-winning hedge funds. He then asks why he wasn't applying this to his personal life.",
+      "summaryKo": "같은 접근법이 금융 커리어를 이끌었습니다: 크레디트 스위스의 파생상품 트레이더에서 뱅크 오브 아메리카와 AIG의 글로벌 책임자, 두 개의 수상 경력 헤지펀드 운영까지. 그런 다음 왜 개인 생활에 적용하지 않았는지 자문합니다.",
+      "keyPoints": [
+        "Same break-it-down approach worked in high-finance career",
+        "Led to leadership roles at major financial institutions",
+        "Realized he should apply the principle to personal ambitious goals"
+      ]
+    },
+    {
+      "title": "Learning German — Marginal Adjustment to Routine",
+      "titleKo": "독일어 학습 — 루틴의 점진적 조정",
+      "section": "evidence-4",
+      "startSegment": 92,
+      "endSegment": 116,
+      "summary": "Duneier replaced idle commute time with Pimsleur German CDs and removed all music to eliminate temptation. After 16 days in Berlin, he was speaking German. This success inspired him to pursue many other ambitious goals: racing, helicopter flying, skydiving, aerobatics.",
+      "summaryKo": "듀니어는 출퇴근 중 낭비하던 시간을 핌슬러 독일어 CD로 대체하고, 유혹을 제거하기 위해 모든 음악을 삭제했습니다. 베를린에서 16일 후 독일어를 할 수 있게 되었고, 이 성공이 레이싱, 헬리콥터, 스카이다이빙 등 다른 야심찬 목표들을 추구하게 했습니다.",
+      "keyPoints": [
+        "Replaced wasted commute time (360 hours/year) with language learning",
+        "Removed all music to eliminate temptation of switching back",
+        "Small routine change enabled learning a new language as an adult"
+      ]
+    },
+    {
+      "title": "Weight Loss — The Right Decisions Start on the Couch",
+      "titleKo": "체중 감량 — 올바른 결정은 소파에서 시작된다",
+      "section": "evidence-5",
+      "startSegment": 117,
+      "endSegment": 148,
+      "summary": "Rather than the typical gym membership or diet, Duneier leveraged his existing habits (daily walking, love of outdoors) and set a goal to hike 33 trails. He emphasizes that the critical decisions aren't at the mountaintop but on the couch — deciding to get up and take the first step.",
+      "summaryKo": "전형적인 헬스장 등록이나 다이어트 대신, 기존 습관(매일 걷기, 야외 사랑)을 활용하여 33개 등산로 하이킹 목표를 세웠습니다. 중요한 결정은 산 정상이 아니라 소파에서 — 일어나서 첫 걸음을 내딛기로 결정하는 것임을 강조합니다.",
+      "keyPoints": [
+        "Don't fight your nature — leverage existing habits and passions",
+        "The critical decisions happen at the very beginning (getting off the couch)",
+        "Lost 25 pounds and completed the hardest half marathon (Pier to Peak)"
+      ]
+    },
+    {
+      "title": "Reading 50 Books & Giving Resolutions",
+      "titleKo": "50권 읽기 & 기부 결심",
+      "section": "evidence-6",
+      "startSegment": 149,
+      "endSegment": 165,
+      "summary": "In 2009, he set out to read 50 books using the same principle: it starts with reading one word. In 2012, he set 24 resolutions including 12 'giving resolutions,' encountering humorous rejections in blood, sperm, and hair donation.",
+      "summaryKo": "2009년, 같은 원칙으로 50권 읽기에 도전합니다: 한 단어를 읽는 것에서 시작. 2012년에는 12개의 '기부 결심'을 포함한 24개의 결심을 세웠고, 헌혈/정자/머리카락 기부에서 유머러스한 거절을 경험합니다.",
+      "keyPoints": [
+        "Reading 50 books starts with reading one word — the snowball effect",
+        "Set 24 ambitious resolutions in one year",
+        "Failures are part of the journey (humorous donation rejections)"
+      ]
+    },
+    {
+      "title": "Yarn Bombing — From Knitting to World Records",
+      "titleKo": "얀 바밍 — 뜨개질에서 세계 기록까지",
+      "section": "evidence-7",
+      "startSegment": 166,
+      "endSegment": 203,
+      "summary": "His wife's suggestion to learn knitting led to yarn bombing — wrapping a eucalyptus tree in yarn. Over 82 days of knitting one stitch at a time, he completed his first yarn bomb. This evolved into wrapping 18 boulders, a children's hospital, and ultimately a Guinness World Record for the largest crocheted granny square.",
+      "summaryKo": "아내의 뜨개질 제안이 얀 바밍으로 이어졌습니다 — 유칼립투스 나무를 실로 감싸는 것. 82일간 한 땀 한 땀으로 첫 얀 바밍을 완성했고, 이것이 18개 바위, 어린이 병원 감싸기, 궁극적으로 가장 큰 코바늘 그래니 스퀘어 기네스 세계 기록으로 발전했습니다.",
+      "keyPoints": [
+        "Started from not liking knitting, found passion in yarn bombing",
+        "388 contributors from 36 countries helped wrap 18 boulders",
+        "2+ years of crocheting, one stitch at a time, earned a Guinness World Record"
+      ]
+    },
+    {
+      "title": "Closing — Still That C-Minus Student",
+      "titleKo": "마무리 — 여전히 그 C- 학생",
+      "section": "closing",
+      "startSegment": 204,
+      "endSegment": 216,
+      "summary": "Duneier reminds the audience that despite the media attention, he is still that kid who can't focus for more than 5-10 minutes. He possesses no special talent — he simply breaks big projects down, makes marginal improvements, and improves his odds. He urges the audience to pull their ambitious dreams off the shelf.",
+      "summaryKo": "듀니어는 미디어의 주목에도 불구하고 여전히 5-10분 이상 집중하지 못하는 아이라고 상기시킵니다. 특별한 재능은 없으며, 단지 큰 프로젝트를 세분화하고 점진적 개선을 하여 확률을 높일 뿐입니다. 청중에게 야심찬 꿈을 책장에서 꺼내라고 촉구합니다.",
+      "keyPoints": [
+        "No special talent or skill — just a better process",
+        "Break big projects into simplest form, make marginal improvements",
+        "Call to action: pull your ambitious dreams off the bookshelf and start"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "By a show of hands",
+      "function": "Audience engagement / opening hook",
+      "segmentIndex": 0
+    },
+    {
+      "expression": "And in so doing",
+      "function": "Connecting cause to effect / transition",
+      "segmentIndex": 4
+    },
+    {
+      "expression": "But before I do that",
+      "function": "Delaying technique to build anticipation",
+      "segmentIndex": 7
+    },
+    {
+      "expression": "I know what you're thinking",
+      "function": "Addressing audience's potential objection preemptively",
+      "segmentIndex": 14
+    },
+    {
+      "expression": "So let me introduce you to",
+      "function": "Introducing a supporting example or character",
+      "segmentIndex": 16
+    },
+    {
+      "expression": "You see",
+      "function": "Drawing attention to the core insight",
+      "segmentIndex": 19
+    },
+    {
+      "expression": "And I'll prove this to you by",
+      "function": "Signaling upcoming evidence to support the claim",
+      "segmentIndex": 24
+    },
+    {
+      "expression": "Now here's what's really interesting",
+      "function": "Highlighting a surprising or counterintuitive detail",
+      "segmentIndex": 33
+    },
+    {
+      "expression": "And I'll show you what I mean",
+      "function": "Transitioning from abstract concept to concrete example",
+      "segmentIndex": 48
+    },
+    {
+      "expression": "The truth of the matter is",
+      "function": "Introducing an honest or surprising admission",
+      "segmentIndex": 99
+    },
+    {
+      "expression": "So the whole reason I'm giving this talk",
+      "function": "Signaling the purpose and approaching conclusion",
+      "segmentIndex": 211
+    }
+  ]
+}

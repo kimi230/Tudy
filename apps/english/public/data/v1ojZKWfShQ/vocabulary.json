@@ -1,0 +1,432 @@
+[
+  {
+    "word": "procrastinate",
+    "phonetic": "/prəˈkræstɪneɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To delay or postpone action; to put off doing something",
+    "meaningKo": "미루다, 지연하다",
+    "etymology": "From Latin 'procrastinare' (pro- 'forward' + crastinus 'of tomorrow')",
+    "rootBreakdown": "pro- (forward) + crastinus (tomorrow, from cras)",
+    "relatedWords": [
+      "procrastination",
+      "procrastinator",
+      "delay",
+      "postpone"
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "Why is it that intelligent people procrastinate?"
+  },
+  {
+    "word": "self-sabotage",
+    "phonetic": "/ˌsɛlf ˈsæbətɑːʒ/",
+    "partOfSpeech": "verb/noun",
+    "definition": "To undermine one's own efforts or goals, often unconsciously",
+    "meaningKo": "자기 파괴하다, 스스로를 방해하다",
+    "etymology": "self + sabotage (from French 'sabot' meaning wooden shoe, workers threw shoes into machinery)",
+    "rootBreakdown": "self (자기) + sabotage (파괴, 방해 공작)",
+    "relatedWords": [
+      "self-defeating",
+      "self-destructive",
+      "undermine"
+    ],
+    "isEssential": true,
+    "segmentIndex": 2,
+    "contextSentence": "Why is it that people that are so self-motivated often self-sabotage?"
+  },
+  {
+    "word": "mediocre",
+    "phonetic": "/ˌmiːdiˈoʊkər/",
+    "partOfSpeech": "adjective",
+    "definition": "Of only average quality; not very good",
+    "meaningKo": "평범한, 보통의, 그저 그런",
+    "etymology": "From Latin 'mediocris' (of middle height or degree), from 'medius' (middle) + 'ocris' (rugged mountain)",
+    "rootBreakdown": "medi- (middle) + ocris (peak/height)",
+    "relatedWords": [
+      "mediocrity",
+      "average",
+      "ordinary",
+      "middling"
+    ],
+    "isEssential": true,
+    "segmentIndex": 22,
+    "contextSentence": "That causes the frustration for most people and keeps them on that hamster wheel of mediocrity."
+  },
+  {
+    "word": "neocortex",
+    "phonetic": "/ˌniːoʊˈkɔːrtɛks/",
+    "partOfSpeech": "noun",
+    "definition": "The outer layer of the cerebral hemispheres, responsible for higher-order brain functions such as reasoning and language",
+    "meaningKo": "신피질 (고차원적 사고를 담당하는 대뇌 겉질)",
+    "etymology": "From Greek 'neo-' (new) + Latin 'cortex' (bark, outer layer)",
+    "rootBreakdown": "neo- (new) + cortex (bark, rind)",
+    "relatedWords": [
+      "cortex",
+      "frontal lobe",
+      "cerebral",
+      "prefrontal"
+    ],
+    "isEssential": false,
+    "segmentIndex": 26,
+    "contextSentence": "What's known as the neocortex or the frontal lobe."
+  },
+  {
+    "word": "impressionable",
+    "phonetic": "/ɪmˈprɛʃənəbl/",
+    "partOfSpeech": "adjective",
+    "definition": "Easily influenced or affected by others; susceptible to forming strong impressions",
+    "meaningKo": "감수성이 예민한, 영향받기 쉬운",
+    "etymology": "From French 'impressionnable', from 'impression' (a pressing in)",
+    "rootBreakdown": "impress (to press upon) + -ion + -able (capable of)",
+    "relatedWords": [
+      "impression",
+      "impressionable",
+      "susceptible",
+      "malleable"
+    ],
+    "isEssential": true,
+    "segmentIndex": 31,
+    "contextSentence": "Now, it also means children are very impressionable."
+  },
+  {
+    "word": "hardwired",
+    "phonetic": "/ˈhɑːrdwaɪərd/",
+    "partOfSpeech": "adjective",
+    "definition": "Innately or permanently determined; built into the basic structure",
+    "meaningKo": "타고난, 본능적으로 내장된",
+    "etymology": "From electronics: 'hard' + 'wired' — circuits permanently connected rather than programmable",
+    "rootBreakdown": "hard (firm, permanent) + wired (connected by wires)",
+    "relatedWords": [
+      "innate",
+      "ingrained",
+      "built-in",
+      "instinctive"
+    ],
+    "isEssential": true,
+    "segmentIndex": 18,
+    "contextSentence": "You see, as human beings, our nervous system is hardwired for comfort."
+  },
+  {
+    "word": "unravel",
+    "phonetic": "/ʌnˈrævəl/",
+    "partOfSpeech": "verb",
+    "definition": "To investigate and solve; to undo or unwind something tangled or complex",
+    "meaningKo": "풀다, 해명하다, (실타래 등을) 풀어헤치다",
+    "etymology": "From Dutch 'ontrafel' (un- + ravel 'to tangle')",
+    "rootBreakdown": "un- (reverse) + ravel (to tangle/entangle)",
+    "relatedWords": [
+      "unwind",
+      "untangle",
+      "decipher",
+      "solve"
+    ],
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "So how do we unravel that?"
+  },
+  {
+    "word": "amygdala",
+    "phonetic": "/əˈmɪɡdələ/",
+    "partOfSpeech": "noun",
+    "definition": "A small almond-shaped brain structure involved in processing emotions, especially fear",
+    "meaningKo": "편도체 (감정, 특히 공포를 처리하는 뇌 구조)",
+    "etymology": "From Greek 'amygdale' (almond), named for its shape",
+    "rootBreakdown": "amygdale (almond)",
+    "relatedWords": [
+      "limbic system",
+      "hypothalamus",
+      "emotional response"
+    ],
+    "isEssential": false,
+    "segmentIndex": 148,
+    "contextSentence": "The job of the mainstream media is to stimulate another part of the brain called the amygdala."
+  },
+  {
+    "word": "conformity",
+    "phonetic": "/kənˈfɔːrmɪti/",
+    "partOfSpeech": "noun",
+    "definition": "Compliance with standards, rules, or laws; behavior in accordance with social norms",
+    "meaningKo": "동조, 순응, 일치",
+    "etymology": "From Latin 'conformare' (con- 'together' + formare 'to form')",
+    "rootBreakdown": "con- (together) + form (shape) + -ity (state)",
+    "relatedWords": [
+      "conform",
+      "conformist",
+      "compliance",
+      "adherence"
+    ],
+    "isEssential": true,
+    "segmentIndex": 126,
+    "contextSentence": "At some point you're going to start to believe it. That's the law of conformity."
+  },
+  {
+    "word": "psychotherapeutic",
+    "phonetic": "/ˌsaɪkoʊˌθɛrəˈpjuːtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to or involved in the treatment of mental disorders through psychological methods",
+    "meaningKo": "심리치료의, 정신치료의",
+    "etymology": "From Greek 'psyche' (mind/soul) + 'therapeutikos' (healing)",
+    "rootBreakdown": "psycho- (mind) + therapeutic (healing, from therapeuein 'to treat')",
+    "relatedWords": [
+      "psychotherapy",
+      "therapeutic",
+      "psychological",
+      "counseling"
+    ],
+    "isEssential": false,
+    "segmentIndex": 61,
+    "contextSentence": "I've come to know that the undisputed first law in psychotherapeutic intervention and other areas."
+  },
+  {
+    "word": "undisputed",
+    "phonetic": "/ˌʌndɪˈspjuːtɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Not questioned or doubted by anyone; universally accepted",
+    "meaningKo": "이론의 여지가 없는, 확실한",
+    "etymology": "From 'un-' (not) + 'disputed' (from Latin 'disputare' — to discuss, argue)",
+    "rootBreakdown": "un- (not) + dis- (apart) + putare (to reckon, think)",
+    "relatedWords": [
+      "indisputable",
+      "unquestioned",
+      "undeniable",
+      "incontestable"
+    ],
+    "isEssential": true,
+    "segmentIndex": 62,
+    "contextSentence": "The undisputed first law of personal growth is this."
+  },
+  {
+    "word": "innate",
+    "phonetic": "/ɪˈneɪt/",
+    "partOfSpeech": "adjective",
+    "definition": "Inborn; natural; existing from birth rather than acquired",
+    "meaningKo": "타고난, 선천적인",
+    "etymology": "From Latin 'innatus' (in- 'into' + natus 'born', past participle of nasci)",
+    "rootBreakdown": "in- (in, into) + natus (born)",
+    "relatedWords": [
+      "inborn",
+      "inherent",
+      "intrinsic",
+      "natural"
+    ],
+    "isEssential": true,
+    "segmentIndex": 21,
+    "contextSentence": "And the innate calling of our potential that lies outside of that."
+  },
+  {
+    "word": "reeling",
+    "phonetic": "/ˈriːlɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Feeling shocked, confused, or unsteady; staggering mentally or physically",
+    "meaningKo": "휘청거리는, 충격을 받은",
+    "etymology": "From Old English 'hreol' (a reel, winding device); metaphor of spinning/losing balance",
+    "rootBreakdown": "reel (to wind, spin unsteadily) + -ing",
+    "relatedWords": [
+      "stagger",
+      "stumble",
+      "reel",
+      "daze"
+    ],
+    "isEssential": true,
+    "segmentIndex": 42,
+    "contextSentence": "And he's still reeling from the lack of intimacy that morning."
+  },
+  {
+    "word": "persistent",
+    "phonetic": "/pərˈsɪstənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Continuing firmly in a course of action despite difficulty or opposition",
+    "meaningKo": "끈질긴, 집요한, 지속적인",
+    "etymology": "From Latin 'persistere' (per- 'through' + sistere 'to stand')",
+    "rootBreakdown": "per- (through) + sist (stand) + -ent",
+    "relatedWords": [
+      "persistence",
+      "persevere",
+      "tenacious",
+      "determined"
+    ],
+    "isEssential": true,
+    "segmentIndex": 49,
+    "contextSentence": "Children are prime examples of the ability to be persistent, are they not?"
+  },
+  {
+    "word": "industrious",
+    "phonetic": "/ɪnˈdʌstriəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Diligent and hard-working",
+    "meaningKo": "부지런한, 근면한",
+    "etymology": "From Latin 'industria' (diligence, activity)",
+    "rootBreakdown": "industri- (diligence) + -ous (characterized by)",
+    "relatedWords": [
+      "industry",
+      "diligent",
+      "assiduous",
+      "hardworking"
+    ],
+    "isEssential": true,
+    "segmentIndex": 87,
+    "contextSentence": "Ants are industrious."
+  },
+  {
+    "word": "analogy",
+    "phonetic": "/əˈnælədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "A comparison between things that have similar features to help explain an idea",
+    "meaningKo": "비유, 유추",
+    "etymology": "From Greek 'analogia' (ana- 'upon, according to' + logos 'ratio, word')",
+    "rootBreakdown": "ana- (according to) + logos (reason, ratio)",
+    "relatedWords": [
+      "analogous",
+      "metaphor",
+      "comparison",
+      "parallel"
+    ],
+    "isEssential": true,
+    "segmentIndex": 86,
+    "contextSentence": "In fact, I'll give you an analogy."
+  },
+  {
+    "word": "affirmation",
+    "phonetic": "/ˌæfərˈmeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A positive statement or declaration intended to provide encouragement or emotional support",
+    "meaningKo": "확언, 긍정적 선언",
+    "etymology": "From Latin 'affirmare' (ad- 'to' + firmare 'to strengthen')",
+    "rootBreakdown": "af- (to) + firm (strong) + -ation (action/process)",
+    "relatedWords": [
+      "affirm",
+      "affirmative",
+      "confirmation",
+      "assertion"
+    ],
+    "isEssential": true,
+    "segmentIndex": 122,
+    "contextSentence": "In other words, you can read all of the positive affirmations."
+  },
+  {
+    "word": "embodiment",
+    "phonetic": "/ɪmˈbɑːdimənt/",
+    "partOfSpeech": "noun",
+    "definition": "A tangible or visible form of an idea, quality, or feeling; the representation of something in a bodily form",
+    "meaningKo": "구현, 구체화, 화신",
+    "etymology": "From 'em-' (in) + 'body' + '-ment' (result of action)",
+    "rootBreakdown": "em- (in, into) + body + -ment (state/result)",
+    "relatedWords": [
+      "embody",
+      "incarnation",
+      "manifestation",
+      "personification"
+    ],
+    "isEssential": true,
+    "segmentIndex": 215,
+    "contextSentence": "And ultimately, be the embodiment of what Gandhi said."
+  },
+  {
+    "word": "imposition",
+    "phonetic": "/ˌɪmpəˈzɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The act of forcing something on someone; an unwelcome demand or burden",
+    "meaningKo": "강요, 부과, 부담",
+    "etymology": "From Latin 'imponere' (im- 'upon' + ponere 'to place')",
+    "rootBreakdown": "im- (upon) + posit (place) + -ion",
+    "relatedWords": [
+      "impose",
+      "imposing",
+      "position",
+      "deposit"
+    ],
+    "isEssential": true,
+    "segmentIndex": 210,
+    "contextSentence": "Not the imposition. Nobody changes because you tell them to."
+  },
+  {
+    "word": "minefield",
+    "phonetic": "/ˈmaɪnfiːld/",
+    "partOfSpeech": "noun",
+    "definition": "An area full of hidden dangers or difficulties (figuratively); literally an area with buried explosive mines",
+    "meaningKo": "지뢰밭 (비유적: 위험으로 가득한 영역)",
+    "etymology": "From 'mine' (explosive device) + 'field' (open area)",
+    "rootBreakdown": "mine (explosive) + field (area of land)",
+    "relatedWords": [
+      "hazardous",
+      "treacherous",
+      "pitfall",
+      "booby trap"
+    ],
+    "isEssential": false,
+    "segmentIndex": 189,
+    "contextSentence": "Work with a decent mentor or a coach that understands how to navigate the minefield of human behavior."
+  },
+  {
+    "word": "downsizing",
+    "phonetic": "/ˈdaʊnsaɪzɪŋ/",
+    "partOfSpeech": "noun/verb",
+    "definition": "The process of reducing the number of employees in a company; making something smaller",
+    "meaningKo": "감원, 구조조정, 규모 축소",
+    "etymology": "From 'down' (reduction) + 'size' + '-ing'",
+    "rootBreakdown": "down (reduce) + size + -ing",
+    "relatedWords": [
+      "layoff",
+      "restructure",
+      "cutback",
+      "redundancy"
+    ],
+    "isEssential": true,
+    "segmentIndex": 41,
+    "contextSentence": "He's worried about whether the boss is going to be downsizing soon."
+  },
+  {
+    "word": "recreational",
+    "phonetic": "/ˌrɛkriˈeɪʃənl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to or denoting activity done for enjoyment rather than as a necessity",
+    "meaningKo": "오락의, 기호용의, 여가의",
+    "etymology": "From Latin 'recreatio' (re- 'again' + creare 'to create')",
+    "rootBreakdown": "re- (again) + create + -tion + -al",
+    "relatedWords": [
+      "recreation",
+      "leisure",
+      "amusement",
+      "pastime"
+    ],
+    "isEssential": true,
+    "segmentIndex": 127,
+    "contextSentence": "If you hang out with nine recreational drug users, I've got news for you."
+  },
+  {
+    "word": "mastery",
+    "phonetic": "/ˈmæstəri/",
+    "partOfSpeech": "noun",
+    "definition": "Comprehensive knowledge or skill in a subject; complete control or dominance",
+    "meaningKo": "통달, 숙달, 지배",
+    "etymology": "From Old French 'maistrie', from Latin 'magister' (master, teacher)",
+    "rootBreakdown": "master (from magister 'chief, teacher') + -y (state/quality)",
+    "relatedWords": [
+      "master",
+      "masterful",
+      "expertise",
+      "proficiency"
+    ],
+    "isEssential": true,
+    "segmentIndex": 201,
+    "contextSentence": "That's when we can start to achieve the real game in town, which is self mastery."
+  },
+  {
+    "word": "descending",
+    "phonetic": "/dɪˈsɛndɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Moving downward; falling into a particular state",
+    "meaningKo": "내려가는, (상태가) 빠져드는",
+    "etymology": "From Latin 'descendere' (de- 'down' + scandere 'to climb')",
+    "rootBreakdown": "de- (down) + scend (climb) + -ing",
+    "relatedWords": [
+      "descend",
+      "descent",
+      "ascend",
+      "escalate"
+    ],
+    "isEssential": false,
+    "segmentIndex": 205,
+    "contextSentence": "We're able to walk into a room where everything's descending into chaos and retain our center."
+  }
+]

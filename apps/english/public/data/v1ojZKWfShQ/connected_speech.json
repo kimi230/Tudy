@@ -1,0 +1,162 @@
+[
+  {
+    "type": "linking",
+    "originalText": "stand in awe of",
+    "phonetic": "/stænd ɪn ɔː(r) ʌv/",
+    "koreanPhonetic": "스탠디너워브",
+    "explanation": "The 'd' in 'stand' links with the vowel 'i' in 'in', and 'awe' links with 'of' through an intrusive /r/ sound (non-rhotic) or vowel glide.",
+    "explanationKo": "'stand'의 'd'가 'in'의 모음 'i'와 연결되고, 'awe'가 'of'와 연결 /r/ 또는 모음 활음을 통해 이어집니다.",
+    "practiceGuide": "Say 'standinawe-of' as one fluid phrase. The /d/ connects to /ɪ/ without a pause.",
+    "segmentIndex": 14
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of a",
+    "phonetic": "/ˈkaɪndəvə/",
+    "koreanPhonetic": "카인더버",
+    "explanation": "'Kind of a' is heavily reduced in natural speech. 'Of' becomes a schwa /ə/ and 'a' merges with it, creating a rapid three-syllable unit.",
+    "explanationKo": "'Kind of a'는 자연스러운 발화에서 크게 축약됩니다. 'Of'가 슈와 /ə/로 되고 'a'와 합쳐져 빠른 3음절 단위가 됩니다.",
+    "practiceGuide": "Practice saying 'kinda' first, then add the unstressed 'a' — 'kindava'. This is extremely common in casual English.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "elision",
+    "originalText": "didn't know how",
+    "phonetic": "/ˈdɪdn̩ noʊ haʊ/",
+    "koreanPhonetic": "디든 노 하우",
+    "explanation": "The 't' in 'didn't' is often elided (dropped) in connected speech, replaced by a glottal stop. The nasal /n/ carries the syllable.",
+    "explanationKo": "'didn't'의 't'는 연결 발화에서 종종 탈락하고 성문폐쇄음으로 대체됩니다. 비음 /n/이 음절을 담당합니다.",
+    "practiceGuide": "Instead of clearly saying 'did-not', say 'dihn' with a subtle stop at the end, then flow into 'know how'.",
+    "segmentIndex": 7
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워너",
+    "explanation": "'Want to' commonly reduces to 'wanna' in casual spoken English. The /t/ and /t/ cluster between the words is simplified.",
+    "explanationKo": "'Want to'는 일상 영어에서 흔히 'wanna'로 축약됩니다. 두 단어 사이의 /t/ + /t/ 자음군이 단순화됩니다.",
+    "practiceGuide": "Say 'wanna' as one word. This is standard in all levels of informal speech. 'I wanna share' = 'I want to share'.",
+    "segmentIndex": 134
+  },
+  {
+    "type": "linking",
+    "originalText": "turned on until",
+    "phonetic": "/tɜːrnd ɒn ʌnˈtɪl/",
+    "koreanPhonetic": "턴돈 언틸",
+    "explanation": "The 'd' at the end of 'turned' links to the vowel 'o' in 'on', and the 'n' in 'on' links to the vowel 'u' in 'until', creating a smooth chain.",
+    "explanationKo": "'turned'의 'd'가 'on'의 모음 'o'에 연결되고, 'on'의 'n'이 'until'의 모음 'u'에 연결되어 매끄러운 체인을 만듭니다.",
+    "practiceGuide": "Practice the chain: 'turn-DON-untill'. Each consonant ending flows into the next vowel beginning.",
+    "segmentIndex": 28
+  },
+  {
+    "type": "assimilation",
+    "originalText": "good old midbrain",
+    "phonetic": "/ɡʊd oʊl ˈmɪdbreɪn/",
+    "koreanPhonetic": "구돌 미드브레인",
+    "explanation": "The /d/ in 'good' assimilates with the vowel in 'old', creating a smooth 'guh-dold' connection. 'Old' loses its /l/ slightly before 'midbrain'.",
+    "explanationKo": "'good'의 /d/가 'old'의 모음과 동화되어 부드러운 'guh-dold' 연결을 만듭니다.",
+    "practiceGuide": "Say 'goodold' as almost one word: 'guh-dold'. The /d/ flows right into the /oʊ/ vowel.",
+    "segmentIndex": 82
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɒnə/",
+    "koreanPhonetic": "거너",
+    "explanation": "'Going to' reduces to 'gonna' in virtually all casual spoken English. The entire '-ing to' cluster simplifies to /nə/.",
+    "explanationKo": "'Going to'는 거의 모든 일상 영어에서 'gonna'로 축약됩니다. '-ing to' 전체가 /nə/로 단순화됩니다.",
+    "practiceGuide": "Say 'gonna' as a two-syllable word: 'GAH-nuh'. This is the most common reduction in English.",
+    "segmentIndex": 41
+  },
+  {
+    "type": "linking",
+    "originalText": "an elephant",
+    "phonetic": "/ən ˈɛlɪfənt/",
+    "koreanPhonetic": "어넬러펀트",
+    "explanation": "The /n/ at the end of 'an' links directly to the /ɛ/ vowel at the start of 'elephant', creating a smooth nasal-vowel connection.",
+    "explanationKo": "'an'의 /n/이 'elephant'의 /ɛ/ 모음에 바로 연결되어 부드러운 비음-모음 연결을 만듭니다.",
+    "practiceGuide": "Say 'a-NELL-uh-funt' — the /n/ glides into the /ɛ/ without any pause.",
+    "segmentIndex": 91
+  },
+  {
+    "type": "elision",
+    "originalText": "most likely",
+    "phonetic": "/moʊs(t) ˈlaɪkli/",
+    "koreanPhonetic": "모스 라이클리",
+    "explanation": "The /t/ in 'most' is often dropped before the /l/ in 'likely'. This consonant cluster simplification is very natural in English.",
+    "explanationKo": "'most'의 /t/가 'likely'의 /l/ 앞에서 종종 탈락합니다. 이 자음군 단순화는 영어에서 매우 자연스럽습니다.",
+    "practiceGuide": "Say 'mohs-likely' — drop the /t/ and let the /s/ flow into /l/. This is standard native pronunciation.",
+    "segmentIndex": 128
+  },
+  {
+    "type": "reduction",
+    "originalText": "you know",
+    "phonetic": "/jə noʊ/",
+    "koreanPhonetic": "여노",
+    "explanation": "The filler phrase 'you know' is heavily reduced. 'You' becomes the unstressed /jə/ and merges with 'know'. Used as a discourse marker throughout the talk.",
+    "explanationKo": "필러 구 'you know'는 크게 축약됩니다. 'You'가 비강세 /jə/가 되어 'know'와 합쳐집니다. 이 강연에서 담화 표지어로 사용됩니다.",
+    "practiceGuide": "Say 'y'know' as almost one syllable. It functions as a pause filler and doesn't carry meaning.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "linking",
+    "originalText": "rise above",
+    "phonetic": "/raɪz əˈbʌv/",
+    "koreanPhonetic": "라이저버브",
+    "explanation": "The /z/ at the end of 'rise' links smoothly to the schwa /ə/ at the beginning of 'above', creating a voiced consonant-to-vowel liaison.",
+    "explanationKo": "'rise'의 /z/가 'above'의 슈와 /ə/에 부드럽게 연결되어 유성 자음-모음 연음을 만듭니다.",
+    "practiceGuide": "Say 'ri-ZUH-buv' — the /z/ naturally glides into the unstressed /ə/ of 'above'.",
+    "segmentIndex": 63
+  },
+  {
+    "type": "assimilation",
+    "originalText": "can't have",
+    "phonetic": "/kɑːn(t) hæv/",
+    "koreanPhonetic": "캔 해브",
+    "explanation": "The /t/ in 'can't' often assimilates or is unreleased before the /h/ in 'have'. The glottal quality of /h/ absorbs the /t/ release.",
+    "explanationKo": "'can't'의 /t/가 'have'의 /h/ 앞에서 종종 동화되거나 미파열됩니다. /h/의 성문적 특성이 /t/ 파열을 흡수합니다.",
+    "practiceGuide": "Say 'can-have' with a very brief stop between 'can' and 'have'. The /t/ becomes almost inaudible.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "reduction",
+    "originalText": "out of",
+    "phonetic": "/ˈaʊdəv/",
+    "koreanPhonetic": "아우러브",
+    "explanation": "The /t/ in 'out' is voiced to a flap /d/ (American English) before the unstressed 'of', and 'of' reduces to /əv/.",
+    "explanationKo": "'out'의 /t/가 비강세 'of' 앞에서 탄설음 /d/로 유성화되고(미국식), 'of'는 /əv/로 축약됩니다.",
+    "practiceGuide": "Say 'ouda' — the /t/ becomes a soft /d/ flap and 'of' reduces to just a schwa sound.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "elision",
+    "originalText": "let's look at the",
+    "phonetic": "/lɛts lʊk ət ðə/",
+    "koreanPhonetic": "렛스 루컫 더",
+    "explanation": "The /t/ in 'at' is often elided before 'the', and 'the' reduces to /ðə/. The whole phrase runs as a rapid unit.",
+    "explanationKo": "'at'의 /t/가 'the' 앞에서 종종 탈락하고, 'the'는 /ðə/로 축약됩니다. 전체 구가 빠른 단위로 이어집니다.",
+    "practiceGuide": "Practice the phrase as one unit: 'lets-LOOK-uh-thuh'. Keep it flowing without stopping at 'at'.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "linking",
+    "originalText": "take a swing at",
+    "phonetic": "/teɪk ə swɪŋ æt/",
+    "koreanPhonetic": "테이커 스윙앳",
+    "explanation": "The /k/ in 'take' links to the schwa /ə/ in 'a', and the /ŋ/ in 'swing' flows into the /æ/ in 'at'. Multiple liaison points in one phrase.",
+    "explanationKo": "'take'의 /k/가 'a'의 슈와에 연결되고, 'swing'의 /ŋ/이 'at'의 /æ/로 흘러갑니다. 하나의 구에서 여러 연음 지점이 있습니다.",
+    "practiceGuide": "Say 'tay-kuh-swing-at' as a rhythmic unit. The idiomatic phrase should flow as one connected expression.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "reduction",
+    "originalText": "what do you",
+    "phonetic": "/wʌdəjə/",
+    "koreanPhonetic": "워더여",
+    "explanation": "'What do you' reduces drastically in fast speech. 'What' loses its final /t/, 'do' reduces to /də/, and 'you' becomes /jə/.",
+    "explanationKo": "'What do you'는 빠른 발화에서 크게 축약됩니다. 'What'의 /t/가 탈락하고, 'do'는 /də/로, 'you'는 /jə/로 축약됩니다.",
+    "practiceGuide": "Practice saying 'whaddya' — three words compressed into two syllables. Very common in conversational English.",
+    "segmentIndex": 109
+  }
+]

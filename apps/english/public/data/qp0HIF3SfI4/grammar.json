@@ -1,0 +1,263 @@
+[
+  {
+    "pattern": "Rhetorical Questions for Engagement",
+    "explanation": "Rhetorical questions are questions asked for effect, not expecting an answer. They are used to make the audience think and engage with the speaker's argument. Simon Sinek uses them extensively to draw listeners into his reasoning.",
+    "explanationKo": "수사적 질문은 답을 기대하지 않고 효과를 위해 던지는 질문입니다. 청중이 화자의 논점에 대해 생각하고 관여하게 만드는 데 사용됩니다. 사이먼 사이넥은 청중을 자신의 논리로 끌어들이기 위해 이를 광범위하게 사용합니다.",
+    "examples": [
+      {
+        "text": "How do you explain when things don't go as we assume?",
+        "textKo": "일이 우리가 예상한 대로 되지 않을 때 어떻게 설명하시겠습니까?",
+        "segmentIndex": 0
+      },
+      {
+        "text": "Why is Apple so innovative?",
+        "textKo": "왜 애플은 그토록 혁신적일까요?",
+        "segmentIndex": 3
+      },
+      {
+        "text": "Why would you buy an MP3 player from a computer company?",
+        "textKo": "왜 컴퓨터 회사에서 MP3 플레이어를 사겠어요?",
+        "segmentIndex": 82
+      }
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Repetition for Emphasis (Anaphora)",
+    "explanation": "Anaphora is the deliberate repetition of a word or phrase at the beginning of successive clauses. Sinek uses this technique to reinforce his central message and make it memorable. The repeated phrase 'People don't buy what you do, they buy why you do it' appears throughout the talk as a refrain.",
+    "explanationKo": "반복법(아나포라)은 연속적인 절의 시작에서 단어나 구를 의도적으로 반복하는 것입니다. 사이넥은 이 기법을 사용하여 핵심 메시지를 강화하고 기억에 남게 합니다. '사람들은 당신이 무엇을 하는지를 사지 않습니다, 왜 하는지를 삽니다'라는 반복 구절이 강연 전체에 걸쳐 후렴구처럼 나타납니다.",
+    "examples": [
+      {
+        "text": "People don't buy what you do, people buy why you do it.",
+        "textKo": "사람들은 당신이 무엇을 하는지를 사지 않고, 왜 하는지를 삽니다.",
+        "segmentIndex": 68
+      },
+      {
+        "text": "Year after year after year after year.",
+        "textKo": "해마다 해마다 해마다 해마다.",
+        "segmentIndex": 4
+      },
+      {
+        "text": "I believe, I believe, I believe, he told people.",
+        "textKo": "나는 믿습니다, 나는 믿습니다, 나는 믿습니다, 그는 사람들에게 말했습니다.",
+        "segmentIndex": 216
+      }
+    ],
+    "segmentIndex": 68
+  },
+  {
+    "pattern": "Contrast with 'Not... but...'",
+    "explanation": "This structure presents a contrast by first negating one idea and then presenting the correct or preferred alternative. It creates a clear binary distinction and is highly effective in persuasive speech.",
+    "explanationKo": "'~이 아니라 ~이다' 구조는 먼저 하나의 아이디어를 부정한 후 올바른 또는 선호되는 대안을 제시합니다. 명확한 이분법적 구별을 만들며 설득적 연설에서 매우 효과적입니다.",
+    "examples": [
+      {
+        "text": "Not psychology. Biology.",
+        "textKo": "심리학이 아닙니다. 생물학이요.",
+        "segmentIndex": 88
+      },
+      {
+        "text": "We follow those who lead not because we have to, but because we want to.",
+        "textKo": "우리는 이끄는 사람들을 따릅니다, 해야 하기 때문이 아니라, 원하기 때문입니다.",
+        "segmentIndex": 234
+      },
+      {
+        "text": "We follow those who lead not for them, but for ourselves.",
+        "textKo": "우리는 이끄는 사람들을 그들을 위해서가 아니라 우리 자신을 위해 따릅니다.",
+        "segmentIndex": 235
+      }
+    ],
+    "segmentIndex": 88
+  },
+  {
+    "pattern": "Conditional Clauses ('If... then...')",
+    "explanation": "Conditional sentences express cause-and-effect relationships or hypothetical situations. Sinek uses both real conditionals (describing likely outcomes) and hypothetical conditionals to illustrate his points about leadership and motivation.",
+    "explanationKo": "조건절은 인과 관계나 가상의 상황을 표현합니다. 사이넥은 실제 조건(가능한 결과를 설명)과 가정법 조건을 모두 사용하여 리더십과 동기부여에 대한 자신의 요점을 설명합니다.",
+    "examples": [
+      {
+        "text": "If Apple were like everyone else, a marketing message from them might sound like this.",
+        "textKo": "만약 애플이 다른 모든 회사와 같았다면, 그들의 마케팅 메시지는 이렇게 들렸을 겁니다.",
+        "segmentIndex": 48
+      },
+      {
+        "text": "If you hire people who believe what you believe, they work for you with blood and sweat and tears.",
+        "textKo": "당신이 믿는 것을 믿는 사람을 고용하면, 그들은 피와 땀과 눈물로 당신을 위해 일합니다.",
+        "segmentIndex": 120
+      },
+      {
+        "text": "What if they had said, if you're the kind of person who likes to have total control...",
+        "textKo": "만약 그들이 이렇게 말했다면 어떨까요, 만약 당신이 인생의 모든 측면을 완전히 통제하고 싶어하는 사람이라면...",
+        "segmentIndex": 204
+      }
+    ],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "Subjunctive Mood ('Were' for Hypotheticals)",
+    "explanation": "The subjunctive mood uses 'were' instead of 'was' to express hypothetical or contrary-to-fact conditions. This formal structure appears in Sinek's hypothetical examples about Apple and business scenarios.",
+    "explanationKo": "가정법에서는 가상의 상황이나 사실과 반대되는 조건을 표현하기 위해 'was' 대신 'were'를 사용합니다. 이 격식체 구조는 사이넥의 애플과 비즈니스 시나리오에 대한 가정 예시에서 나타납니다.",
+    "examples": [
+      {
+        "text": "If Apple were like everyone else...",
+        "textKo": "만약 애플이 다른 모든 회사와 같았다면...",
+        "segmentIndex": 48
+      },
+      {
+        "text": "He could have said, that's an amazing discovery guys.",
+        "textKo": "그는 정말 놀라운 발견이군요라고 말할 수 있었습니다.",
+        "segmentIndex": 152
+      }
+    ],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "Parallel Structure in Lists",
+    "explanation": "Parallel structure (parallelism) involves using the same grammatical pattern for items in a list or comparison. This creates rhythm and balance, making ideas clearer and more memorable.",
+    "explanationKo": "병렬 구조(대구법)는 목록이나 비교에서 같은 문법 패턴을 사용하는 것입니다. 이는 리듬과 균형을 만들어 아이디어를 더 명확하고 기억에 남게 합니다.",
+    "examples": [
+      {
+        "text": "They all think, act, and communicate the exact same way.",
+        "textKo": "그들 모두는 정확히 같은 방식으로 생각하고, 행동하고, 소통합니다.",
+        "segmentIndex": 25
+      },
+      {
+        "text": "What's your purpose? What's your cause? What's your belief?",
+        "textKo": "당신의 목적은 무엇인가요? 당신의 대의는 무엇인가요? 당신의 신념은 무엇인가요?",
+        "segmentIndex": 39
+      },
+      {
+        "text": "He wasn't first, he didn't get rich, he didn't get famous, so he quit.",
+        "textKo": "그는 첫 번째가 아니었고, 부자가 되지 못했고, 유명해지지 못했기에, 그만두었습니다.",
+        "segmentIndex": 153
+      }
+    ],
+    "segmentIndex": 25
+  },
+  {
+    "pattern": "Cleft Sentences for Focus ('It's... that/who...')",
+    "explanation": "Cleft sentences split a simple sentence to emphasize a particular element by placing it after 'It is/was... that/who'. This structure draws the listener's attention to the most important part of the message.",
+    "explanationKo": "분열문은 'It is/was... that/who' 뒤에 특정 요소를 배치하여 강조하기 위해 단순한 문장을 분리합니다. 이 구조는 청자의 관심을 메시지의 가장 중요한 부분으로 끌어갑니다.",
+    "examples": [
+      {
+        "text": "It's what they believed about America that got them to travel on a bus for eight hours.",
+        "textKo": "미국에 대한 그들의 믿음이 8시간 동안 버스를 타게 만든 것입니다.",
+        "segmentIndex": 222
+      },
+      {
+        "text": "It's those who start with why that have the ability to inspire those around them.",
+        "textKo": "'왜'에서 시작하는 사람들이 주변 사람들에게 영감을 주는 능력을 가집니다.",
+        "segmentIndex": 236
+      }
+    ],
+    "segmentIndex": 222
+  },
+  {
+    "pattern": "Present Simple for General Truths",
+    "explanation": "The present simple tense is used to express timeless facts, general truths, and habitual actions. Sinek uses it extensively when stating his core principles to give them the weight of universal truths.",
+    "explanationKo": "현재 단순 시제는 시간을 초월한 사실, 일반적 진리, 습관적 행동을 표현하는 데 사용됩니다. 사이넥은 핵심 원칙을 말할 때 이를 광범위하게 사용하여 보편적 진리의 무게를 부여합니다.",
+    "examples": [
+      {
+        "text": "People don't buy what you do, they buy why you do it.",
+        "textKo": "사람들은 당신이 무엇을 하는지를 사지 않습니다, 왜 하는지를 삽니다.",
+        "segmentIndex": 83
+      },
+      {
+        "text": "The neocortex is responsible for all of our rational and analytical thought and language.",
+        "textKo": "신피질은 우리의 모든 합리적이고 분석적인 사고와 언어를 담당합니다.",
+        "segmentIndex": 92
+      },
+      {
+        "text": "Every single person, every single organization on the planet knows what they do.",
+        "textKo": "이 지구상의 모든 사람, 모든 조직은 자신이 무엇을 하는지 압니다.",
+        "segmentIndex": 31
+      }
+    ],
+    "segmentIndex": 83
+  },
+  {
+    "pattern": "Reported Speech / Embedded Quotation",
+    "explanation": "Reported speech conveys what someone said without quoting them exactly, while embedded quotation presents their words directly within the narrative. Sinek uses both to bring examples to life and make abstract ideas concrete.",
+    "explanationKo": "간접 화법은 누군가가 말한 것을 정확히 인용하지 않고 전달하며, 삽입 인용은 내러티브 안에서 그들의 말을 직접 제시합니다. 사이넥은 두 가지를 모두 사용하여 예시를 생생하게 만들고 추상적인 아이디어를 구체화합니다.",
+    "examples": [
+      {
+        "text": "They said, we have a product that pauses live TV, skips commercials...",
+        "textKo": "그들은 말했습니다, 우리는 생방송 TV를 일시정지하고, 광고를 건너뛰는 제품이 있습니다...",
+        "segmentIndex": 201
+      },
+      {
+        "text": "He could have said, that's an amazing discovery guys, now I will improve upon your technology.",
+        "textKo": "그는 '정말 놀라운 발견이군요, 이제 당신들의 기술을 개선하겠습니다'라고 말할 수 있었습니다.",
+        "segmentIndex": 152
+      },
+      {
+        "text": "And they say, I know what all the facts and details say, but it just doesn't feel right.",
+        "textKo": "그리고 그들은 '모든 사실과 세부사항이 무엇을 말하는지 알지만, 그냥 느낌이 맞지 않아요'라고 합니다.",
+        "segmentIndex": 105
+      }
+    ],
+    "segmentIndex": 201
+  },
+  {
+    "pattern": "'Whether... or...' for Inclusive Alternatives",
+    "explanation": "The 'whether... or...' construction presents two or more alternatives that lead to the same conclusion, emphasizing that the point holds true regardless of which option applies. It broadens the scope of an argument.",
+    "explanationKo": "'~이든 ~이든' 구조는 같은 결론으로 이어지는 두 가지 이상의 대안을 제시하여, 어떤 옵션이 적용되든 요점이 유효하다는 것을 강조합니다. 논점의 범위를 넓히는 데 사용됩니다.",
+    "examples": [
+      {
+        "text": "Whether it's Apple or Martin Luther King or the Wright brothers.",
+        "textKo": "애플이든 마틴 루터 킹이든 라이트 형제든.",
+        "segmentIndex": 24
+      },
+      {
+        "text": "Whether they're individuals or organizations, we follow those who lead.",
+        "textKo": "개인이든 조직이든, 우리는 이끄는 사람들을 따릅니다.",
+        "segmentIndex": 234
+      },
+      {
+        "text": "Regardless of their size, regardless of their industry.",
+        "textKo": "규모에 관계없이, 업종에 관계없이.",
+        "segmentIndex": 45
+      }
+    ],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "Discourse Markers for Transition",
+    "explanation": "Discourse markers are words or phrases that organize speech and signal transitions between ideas. They help listeners follow the logical flow of a presentation. Sinek uses various markers to guide his audience through his argument.",
+    "explanationKo": "담화 표지는 연설을 구성하고 아이디어 간의 전환을 알리는 단어나 구입니다. 청자가 발표의 논리적 흐름을 따라갈 수 있게 도와줍니다. 사이넥은 다양한 표지를 사용하여 청중을 자신의 논증을 통해 안내합니다.",
+    "examples": [
+      {
+        "text": "As it turns out, there's a pattern.",
+        "textKo": "알고 보니, 하나의 패턴이 있었습니다.",
+        "segmentIndex": 22
+      },
+      {
+        "text": "Here's the best part.",
+        "textKo": "여기 가장 좋은 부분이 있습니다.",
+        "segmentIndex": 86
+      },
+      {
+        "text": "In other words, when we communicate from the outside in...",
+        "textKo": "다시 말해, 우리가 바깥에서 안으로 소통할 때...",
+        "segmentIndex": 97
+      }
+    ],
+    "segmentIndex": 22
+  },
+  {
+    "pattern": "Emphatic 'do/does' for Stress",
+    "explanation": "Using 'do/does/did' before a main verb in an affirmative sentence adds emphasis, reinforcing the truth of the statement. It conveys strong conviction or contrasts with an expectation.",
+    "explanationKo": "긍정문에서 주동사 앞에 'do/does/did'를 사용하면 강조가 추가되어 진술의 진실성을 강화합니다. 강한 확신을 전달하거나 예상과 대비됩니다.",
+    "examples": [
+      {
+        "text": "But we do it every day.",
+        "textKo": "하지만 우리는 매일 그렇게 합니다.",
+        "segmentIndex": 82
+      },
+      {
+        "text": "They did it for themselves.",
+        "textKo": "그들은 자신을 위해서 그렇게 한 겁니다.",
+        "segmentIndex": 181
+      }
+    ],
+    "segmentIndex": 82
+  }
+]

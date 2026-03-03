@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+
+@page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+        content: counter(page);
+        font-size: 9pt;
+        color: #94a3b8;
+    }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic",
+                 "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.cover-wrapper {
+    page-break-after: always;
+    display: table;
+    width: 100%;
+    height: 700px;
+}
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
+.cover-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 9pt;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cover h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #0f172a;
+    margin: 0 auto 12px auto;
+    max-width: 480px;
+}
+.cover .subtitle {
+    font-size: 12pt;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+.cover-thumbnail {
+    margin: 40px auto 20px auto;
+    max-width: 400px;
+}
+.cover-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.cover .desc-ko {
+    font-size: 13pt;
+    font-weight: 500;
+    color: #475569;
+    margin: 0 auto 30px auto;
+}
+.cover-stats {
+    margin: 10px auto 0 auto;
+}
+.cover-stat {
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px;
+}
+.cover-stat .value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.cover-stat .label {
+    font-size: 8pt;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.diff-badge {
+    display: inline-block;
+    background: #f97316;
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 12px;
+}
+.cover-study-link {
+    margin-top: 16px;
+}
+.cover-study-link a {
+    font-size: 10pt;
+    color: #3b82f6;
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+.cover-footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #cbd5e1;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3b82f6;
+}
+h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #1e40af;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+.page-break { page-break-before: always; }
+
+.toc {
+    page-break-after: always;
+    padding-top: 40px;
+}
+.toc h2 { margin-bottom: 20px; }
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #e2e8f0;
+    font-size: 10.5pt;
+}
+.toc-item .num {
+    color: #3b82f6;
+    font-weight: 700;
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+.structure-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.structure-card .sec-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.structure-card .sec-num {
+    background: #3b82f6;
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure-card .sec-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1e293b;
+}
+.structure-card .sec-time {
+    font-size: 8pt;
+    color: #94a3b8;
+    margin-left: auto;
+}
+.structure-card .sec-summary {
+    font-size: 9.5pt;
+    color: #475569;
+    margin-top: 4px;
+}
+.key-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+.key-point {
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.vocab-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.vocab-card .word-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.vocab-card .word {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f172a;
+}
+.vocab-card .phonetic {
+    font-size: 9pt;
+    color: #64748b;
+    font-style: italic;
+}
+.vocab-card .pos {
+    font-size: 8pt;
+    background: #e0e7ff;
+    color: #4338ca;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+.vocab-card .definition {
+    font-size: 9.5pt;
+    color: #334155;
+    margin-bottom: 3px;
+}
+.vocab-card .meaning-ko {
+    font-size: 9.5pt;
+    color: #1e40af;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.vocab-card .etymology {
+    font-size: 8.5pt;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+.vocab-card .root-breakdown {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+.root-part {
+    font-size: 8pt;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #fef3c7;
+    color: #92400e;
+}
+.root-part.prefix { background: #dbeafe; color: #1e40af; }
+.root-part.suffix { background: #fce7f3; color: #9d174d; }
+.vocab-card .context {
+    font-size: 8.5pt;
+    color: #475569;
+    font-style: italic;
+    padding-left: 10px;
+    border-left: 2px solid #e2e8f0;
+}
+.vocab-card .related {
+    font-size: 8pt;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.grammar-card {
+    background: #fefce8;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+}
+.grammar-card .pattern {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation {
+    font-size: 9.5pt;
+    color: #451a03;
+    margin-bottom: 4px;
+}
+.grammar-card .explanation-ko {
+    font-size: 9.5pt;
+    color: #78350f;
+    margin-bottom: 8px;
+}
+.grammar-card .example {
+    font-size: 9pt;
+    color: #1e293b;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    border-left: 3px solid #f59e0b;
+}
+
+.cs-type-header {
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: white;
+}
+.cs-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+}
+.cs-card .original {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0f172a;
+    min-width: 100px;
+}
+.cs-card .arrow {
+    font-size: 14pt;
+    color: #94a3b8;
+}
+.cs-card .korean-phonetic {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #3b82f6;
+    min-width: 80px;
+}
+.cs-card .details {
+    flex: 1;
+}
+.cs-card .phonetic-ipa {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-style: italic;
+}
+.cs-card .explanation-text {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-top: 2px;
+}
+.cs-card .practice {
+    font-size: 8.5pt;
+    color: #059669;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.signal-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+    page-break-inside: avoid;
+}
+.signal-type {
+    font-size: 7.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 8px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+}
+.signal-type.hook { background: #ef4444; }
+.signal-type.introduction { background: #8b5cf6; }
+.signal-type.example { background: #f59e0b; }
+.signal-type.emphasis { background: #ec4899; }
+.signal-type.transition { background: #3b82f6; }
+.signal-type.enumeration { background: #10b981; }
+.signal-type.summary { background: #6366f1; }
+.signal-type.conclusion { background: #0ea5e9; }
+.signal-type.call-to-action { background: #ef4444; }
+.signal-expr {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #1e293b;
+    font-style: italic;
+}
+.signal-role {
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover-wrapper">
+<div class="cover">
+    <div class="cover-badge">English Study Guide</div>
+    <h1>How To Eliminate Self Doubt Forever &amp; The Power of Your Unconscious Mind | Peter Sage | TEDxPatras</h1>
+    <div class="subtitle">TEDx Talks</div>
+    <div class="desc-ko">도입: 자기 파괴의 문제</div>
+    <div><span class="diff-badge">Upper-Intermediate</span></div>
+    <div class="cover-stats">
+        <div class="cover-stat">
+            <div class="value">18:32</div>
+            <div class="label">Duration</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">179</div>
+            <div class="label">WPM</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">218</div>
+            <div class="label">Segments</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">24</div>
+            <div class="label">Vocabulary</div>
+        </div>
+        <div class="cover-stat">
+            <div class="value">12</div>
+            <div class="label">Grammar</div>
+        </div>
+    </div>
+    <div class="cover-thumbnail">
+        <img src="https://i.ytimg.com/vi/v1ojZKWfShQ/maxresdefault.jpg" alt="thumbnail">
+    </div>
+    <div class="cover-study-link">
+        <a href="https://kimi230.github.io/Tudy/#/study/v1ojZKWfShQ">10-Step Study &rarr;</a>
+    </div>
+    <div class="cover-footer">stdyLang &mdash; AI-Powered Language Learning</div>
+</div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-item"><span><span class="num">01</span>Video Structure Overview</span></div>
+    <div class="toc-item"><span><span class="num">02</span>Essential Vocabulary (19 words)</span></div>
+    <div class="toc-item"><span><span class="num">03</span>Additional Vocabulary (5 words)</span></div>
+    <div class="toc-item"><span><span class="num">04</span>Grammar Patterns (12 patterns)</span></div>
+    <div class="toc-item"><span><span class="num">05</span>Connected Speech &amp; Pronunciation (16 items)</span></div>
+    <div class="toc-item"><span><span class="num">06</span>Signal Expressions (14 expressions)</span></div>
+</div>
+
+<!-- 1. STRUCTURE OVERVIEW -->
+<h2>01 &nbsp; Video Structure Overview</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    This 18-minute video by TEDx Talks is structured into 7 key sections.
+</p>
+
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">1</span>
+        <span class="sec-title">introduction</span>
+        <span class="sec-time">0:00 ~ 1:41</span>
+    </div>
+    <div class="sec-summary">피터 세이지가 왜 똑똑하고 동기부여된 사람들이 미루고, 자기 파괴를 하며, 보이지 않는 천장에 부딪히는지에 대한 강력한 수사적 질문으로 시작합니다. 커널 샌더스, 오프라, 헬렌 켈러, 아인슈타인의 예를 들어 자원 부족이라는 변명을 반박합니다.</div>
+    <div class="key-points"><span class="key-point">Intelligent people still procrastinate and self-sabotage</span><span class="key-point">Many people find different ways to earn the same amount of money (glass ceiling effect)</span><span class="key-point">Lack of resources is not the real reason — proof lies in people who succeeded with nothing</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">2</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">1:41 ~ 2:55</span>
+    </div>
+    <div class="sec-summary">신경계의 편안함 추구와 영혼의 성장 추구 사이의 긴장을 설명합니다. 신피질(전두엽) 개념을 소개하고, 7세까지 활성화되지 않아 아이들이 델타/세타 뇌파 상태에서 매우 영향받기 쉽다고 설명합니다.</div>
+    <div class="key-points"><span class="key-point">Nervous system is hardwired for comfort; our essence is hardwired for growth</span><span class="key-point">The neocortex doesn&#x27;t turn on until age 7</span><span class="key-point">Children operate in delta and theta brainwave states with no critical thinking</span><span class="key-point">Aristotle: &#x27;Give me the child for seven years, and I&#x27;ll give you the man&#x27;</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">3</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">2:57 ~ 5:50</span>
+    </div>
+    <div class="sec-summary">계산대에서의 &#x27;꼬마 조니&#x27; 이야기를 통해, 스트레스 받은 아버지의 무심한 말(&#x27;넌 충분히 좋지 않아&#x27;)이 아이의 잠재의식에 깊이 각인되는 과정을 보여줍니다. &#x27;자기 성장의 첫 번째 법칙&#x27; — 사람은 결코 자기 자신에 대한 의견 이상으로 올라가지 못한다는 것을 소개합니다.</div>
+    <div class="key-points"><span class="key-point">Children don&#x27;t hear adult frustration — they only hear &#x27;I&#x27;m not good enough&#x27;</span><span class="key-point">Childhood experiences create unconscious limiting beliefs</span><span class="key-point">First law of personal growth: people never rise above the opinion of themselves</span><span class="key-point">Self-opinion is largely formed before age 7</span><span class="key-point">First law of relationships: no one can love us more than we love ourselves</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">4</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">5:51 ~ 9:04</span>
+    </div>
+    <div class="sec-summary">뇌가 반복된 결정을 습관으로 중뇌에 넘겨 에너지를 절약하는 방법을 설명합니다. 두 가지 강력한 비유를 사용합니다: 의식은 남쪽으로 향하는 코끼리(무의식) 등 위를 북쪽으로 행진하는 개미이며, 마음은 기본값이 부정인 나침반 바늘과 같다는 것입니다.</div>
+    <div class="key-points"><span class="key-point">The brain is 1/50th of body weight but uses 20% of calories</span><span class="key-point">Repeated decisions become unconscious habits (midbrain)</span><span class="key-point">Conscious mind (ant) = 5%, Unconscious mind (elephant) = 95%</span><span class="key-point">The compass needle analogy: free will lets us point it anywhere, but it defaults to negative</span><span class="key-point">We are &#x27;sleeping awake&#x27; 95% of the time</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">5</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">9:04 ~ 11:15</span>
+    </div>
+    <div class="sec-summary">핵심 원칙을 제시합니다: 환경은 시간이 지나면 항상 의도를 이깁니다. 재즈 음악 비유로 설명합니다 — 컨트리 팬이 5일간 노출 후 재즈를 흥얼거리게 되는 것. 이를 동조의 법칙과 연결합니다: 함께 시간을 보내는 사람들처럼 변하게 됩니다.</div>
+    <div class="key-points"><span class="key-point">Environment trumps will — &#x27;tattoo it on the inside of your eyelids&#x27;</span><span class="key-point">Jazz music analogy: programming happens regardless of conscious choice</span><span class="key-point">We are programmable by design — we can only choose HOW we get programmed</span><span class="key-point">Positive affirmations can&#x27;t overcome a toxic environment</span><span class="key-point">Law of conformity: hang out with 9 drug users, become the 10th</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">6</span>
+        <span class="sec-title">body</span>
+        <span class="sec-time">11:17 ~ 16:12</span>
+    </div>
+    <div class="sec-summary">세 가지 실천 팁을 공유합니다: (1) 잘못된 것 넣는 것 멈추기 — 주류 미디어와 유해한 또래 집단 피하기; (2) 올바른 것 넣기 시작하기 — 긍정적이고 성장 지향적인 콘텐츠 소비하기; (3) 잘못된 것 꺼내기 — 무의식적 패턴을 찾아 제거할 수 있는 멘토와 일하기. 시간 관리 고객의 진짜 문제가 거절에 대한 두려움이었던 예로 설명합니다.</div>
+    <div class="key-points"><span class="key-point">Tip 1: Stop the wrong inputs — stop watching news, curate your peer group</span><span class="key-point">CNN = &#x27;Constant Negative News&#x27; — media stimulates the amygdala</span><span class="key-point">Love your family, choose your friends</span><span class="key-point">Tip 2: Start the right inputs — podcasts, books, inspirational content</span><span class="key-point">Be the star of your life movie, not a film extra in someone else&#x27;s</span><span class="key-point">Tip 3: Remove wrong patterns — find a mentor who addresses root causes</span><span class="key-point">Time management example: the real issue was inability to deal with rejection</span></div>
+</div>
+<div class="structure-card">
+    <div class="sec-header">
+        <span class="sec-num">7</span>
+        <span class="sec-title">conclusion</span>
+        <span class="sec-time">16:13 ~ 18:08</span>
+    </div>
+    <div class="sec-summary">세 가지 팁을 모두 궁극적 목표인 자기 통달에 연결하며 결론을 맺습니다. 자아를 통달하는 것이 인류 역사를 통틀어 1순위 권고사항이었다고 주장합니다. 자기 통달은 혼돈 속에서도 중심을 유지하고, 불확실성을 다루며, 강요가 아닌 변화의 초대가 되게 합니다. 간디의 유명한 명언으로 마무리합니다.</div>
+    <div class="key-points"><span class="key-point">Self mastery is &#x27;the real game in town&#x27;</span><span class="key-point">Work on yourself before spending on workshops or skills</span><span class="key-point">Mastery allows you to be the eye of the storm in chaos</span><span class="key-point">Be the example and invitation, not the imposition</span><span class="key-point">People change because they&#x27;re inspired, not because they&#x27;re told to</span><span class="key-point">Be the change you wish to see in the world (Gandhi)</span></div>
+</div>
+<div class="page-break"></div>
+<h2>02 &nbsp; Essential Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Core words from the video that are high-value for learners.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">procrastinate</span>
+        <span class="phonetic">/prəˈkræstɪneɪt/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To delay or postpone action; to put off doing something</div>
+    <div class="meaning-ko">미루다, 지연하다</div>
+    <div class="etymology">From Latin &#x27;procrastinare&#x27; (pro- &#x27;forward&#x27; + crastinus &#x27;of tomorrow&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Why is it that intelligent people procrastinate?"</div>
+    <div class='related'>Related: procrastination, procrastinator, delay, postpone</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">self-sabotage</span>
+        <span class="phonetic">/ˌsɛlf ˈsæbətɑːʒ/</span>
+        <span class="pos">verb/noun</span>
+    </div>
+    <div class="definition">To undermine one&#x27;s own efforts or goals, often unconsciously</div>
+    <div class="meaning-ko">자기 파괴하다, 스스로를 방해하다</div>
+    <div class="etymology">self + sabotage (from French &#x27;sabot&#x27; meaning wooden shoe, workers threw shoes into machinery)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Why is it that people that are so self-motivated often self-sabotage?"</div>
+    <div class='related'>Related: self-defeating, self-destructive, undermine</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mediocre</span>
+        <span class="phonetic">/ˌmiːdiˈoʊkər/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Of only average quality; not very good</div>
+    <div class="meaning-ko">평범한, 보통의, 그저 그런</div>
+    <div class="etymology">From Latin &#x27;mediocris&#x27; (of middle height or degree), from &#x27;medius&#x27; (middle) + &#x27;ocris&#x27; (rugged mountain)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"That causes the frustration for most people and keeps them on that hamster wheel of mediocrity."</div>
+    <div class='related'>Related: mediocrity, average, ordinary, middling</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">impressionable</span>
+        <span class="phonetic">/ɪmˈprɛʃənəbl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Easily influenced or affected by others; susceptible to forming strong impressions</div>
+    <div class="meaning-ko">감수성이 예민한, 영향받기 쉬운</div>
+    <div class="etymology">From French &#x27;impressionnable&#x27;, from &#x27;impression&#x27; (a pressing in)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Now, it also means children are very impressionable."</div>
+    <div class='related'>Related: impression, impressionable, susceptible, malleable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">hardwired</span>
+        <span class="phonetic">/ˈhɑːrdwaɪərd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Innately or permanently determined; built into the basic structure</div>
+    <div class="meaning-ko">타고난, 본능적으로 내장된</div>
+    <div class="etymology">From electronics: &#x27;hard&#x27; + &#x27;wired&#x27; — circuits permanently connected rather than programmable</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"You see, as human beings, our nervous system is hardwired for comfort."</div>
+    <div class='related'>Related: innate, ingrained, built-in, instinctive</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">unravel</span>
+        <span class="phonetic">/ʌnˈrævəl/</span>
+        <span class="pos">verb</span>
+    </div>
+    <div class="definition">To investigate and solve; to undo or unwind something tangled or complex</div>
+    <div class="meaning-ko">풀다, 해명하다, (실타래 등을) 풀어헤치다</div>
+    <div class="etymology">From Dutch &#x27;ontrafel&#x27; (un- + ravel &#x27;to tangle&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"So how do we unravel that?"</div>
+    <div class='related'>Related: unwind, untangle, decipher, solve</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">conformity</span>
+        <span class="phonetic">/kənˈfɔːrmɪti/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Compliance with standards, rules, or laws; behavior in accordance with social norms</div>
+    <div class="meaning-ko">동조, 순응, 일치</div>
+    <div class="etymology">From Latin &#x27;conformare&#x27; (con- &#x27;together&#x27; + formare &#x27;to form&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"At some point you&#x27;re going to start to believe it. That&#x27;s the law of conformity."</div>
+    <div class='related'>Related: conform, conformist, compliance, adherence</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">undisputed</span>
+        <span class="phonetic">/ˌʌndɪˈspjuːtɪd/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Not questioned or doubted by anyone; universally accepted</div>
+    <div class="meaning-ko">이론의 여지가 없는, 확실한</div>
+    <div class="etymology">From &#x27;un-&#x27; (not) + &#x27;disputed&#x27; (from Latin &#x27;disputare&#x27; — to discuss, argue)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"The undisputed first law of personal growth is this."</div>
+    <div class='related'>Related: indisputable, unquestioned, undeniable, incontestable</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">innate</span>
+        <span class="phonetic">/ɪˈneɪt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Inborn; natural; existing from birth rather than acquired</div>
+    <div class="meaning-ko">타고난, 선천적인</div>
+    <div class="etymology">From Latin &#x27;innatus&#x27; (in- &#x27;into&#x27; + natus &#x27;born&#x27;, past participle of nasci)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"And the innate calling of our potential that lies outside of that."</div>
+    <div class='related'>Related: inborn, inherent, intrinsic, natural</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">reeling</span>
+        <span class="phonetic">/ˈriːlɪŋ/</span>
+        <span class="pos">verb (present participle)</span>
+    </div>
+    <div class="definition">Feeling shocked, confused, or unsteady; staggering mentally or physically</div>
+    <div class="meaning-ko">휘청거리는, 충격을 받은</div>
+    <div class="etymology">From Old English &#x27;hreol&#x27; (a reel, winding device); metaphor of spinning/losing balance</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"And he&#x27;s still reeling from the lack of intimacy that morning."</div>
+    <div class='related'>Related: stagger, stumble, reel, daze</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">persistent</span>
+        <span class="phonetic">/pərˈsɪstənt/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Continuing firmly in a course of action despite difficulty or opposition</div>
+    <div class="meaning-ko">끈질긴, 집요한, 지속적인</div>
+    <div class="etymology">From Latin &#x27;persistere&#x27; (per- &#x27;through&#x27; + sistere &#x27;to stand&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Children are prime examples of the ability to be persistent, are they not?"</div>
+    <div class='related'>Related: persistence, persevere, tenacious, determined</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">industrious</span>
+        <span class="phonetic">/ɪnˈdʌstriəs/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Diligent and hard-working</div>
+    <div class="meaning-ko">부지런한, 근면한</div>
+    <div class="etymology">From Latin &#x27;industria&#x27; (diligence, activity)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Ants are industrious."</div>
+    <div class='related'>Related: industry, diligent, assiduous, hardworking</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">analogy</span>
+        <span class="phonetic">/əˈnælədʒi/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A comparison between things that have similar features to help explain an idea</div>
+    <div class="meaning-ko">비유, 유추</div>
+    <div class="etymology">From Greek &#x27;analogia&#x27; (ana- &#x27;upon, according to&#x27; + logos &#x27;ratio, word&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"In fact, I&#x27;ll give you an analogy."</div>
+    <div class='related'>Related: analogous, metaphor, comparison, parallel</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">affirmation</span>
+        <span class="phonetic">/ˌæfərˈmeɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A positive statement or declaration intended to provide encouragement or emotional support</div>
+    <div class="meaning-ko">확언, 긍정적 선언</div>
+    <div class="etymology">From Latin &#x27;affirmare&#x27; (ad- &#x27;to&#x27; + firmare &#x27;to strengthen&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"In other words, you can read all of the positive affirmations."</div>
+    <div class='related'>Related: affirm, affirmative, confirmation, assertion</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">embodiment</span>
+        <span class="phonetic">/ɪmˈbɑːdimənt/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A tangible or visible form of an idea, quality, or feeling; the representation of something in a bodily form</div>
+    <div class="meaning-ko">구현, 구체화, 화신</div>
+    <div class="etymology">From &#x27;em-&#x27; (in) + &#x27;body&#x27; + &#x27;-ment&#x27; (result of action)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"And ultimately, be the embodiment of what Gandhi said."</div>
+    <div class='related'>Related: embody, incarnation, manifestation, personification</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">imposition</span>
+        <span class="phonetic">/ˌɪmpəˈzɪʃən/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The act of forcing something on someone; an unwelcome demand or burden</div>
+    <div class="meaning-ko">강요, 부과, 부담</div>
+    <div class="etymology">From Latin &#x27;imponere&#x27; (im- &#x27;upon&#x27; + ponere &#x27;to place&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Not the imposition. Nobody changes because you tell them to."</div>
+    <div class='related'>Related: impose, imposing, position, deposit</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">downsizing</span>
+        <span class="phonetic">/ˈdaʊnsaɪzɪŋ/</span>
+        <span class="pos">noun/verb</span>
+    </div>
+    <div class="definition">The process of reducing the number of employees in a company; making something smaller</div>
+    <div class="meaning-ko">감원, 구조조정, 규모 축소</div>
+    <div class="etymology">From &#x27;down&#x27; (reduction) + &#x27;size&#x27; + &#x27;-ing&#x27;</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"He&#x27;s worried about whether the boss is going to be downsizing soon."</div>
+    <div class='related'>Related: layoff, restructure, cutback, redundancy</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">recreational</span>
+        <span class="phonetic">/ˌrɛkriˈeɪʃənl/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Relating to or denoting activity done for enjoyment rather than as a necessity</div>
+    <div class="meaning-ko">오락의, 기호용의, 여가의</div>
+    <div class="etymology">From Latin &#x27;recreatio&#x27; (re- &#x27;again&#x27; + creare &#x27;to create&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"If you hang out with nine recreational drug users, I&#x27;ve got news for you."</div>
+    <div class='related'>Related: recreation, leisure, amusement, pastime</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">mastery</span>
+        <span class="phonetic">/ˈmæstəri/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">Comprehensive knowledge or skill in a subject; complete control or dominance</div>
+    <div class="meaning-ko">통달, 숙달, 지배</div>
+    <div class="etymology">From Old French &#x27;maistrie&#x27;, from Latin &#x27;magister&#x27; (master, teacher)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"That&#x27;s when we can start to achieve the real game in town, which is self mastery."</div>
+    <div class='related'>Related: master, masterful, expertise, proficiency</div>
+</div>
+<div class="page-break"></div>
+<h2>03 &nbsp; Additional Vocabulary</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Supplementary words that appear in the video and are useful for expanding your vocabulary.
+</p>
+
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">neocortex</span>
+        <span class="phonetic">/ˌniːoʊˈkɔːrtɛks/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">The outer layer of the cerebral hemispheres, responsible for higher-order brain functions such as reasoning and language</div>
+    <div class="meaning-ko">신피질 (고차원적 사고를 담당하는 대뇌 겉질)</div>
+    <div class="etymology">From Greek &#x27;neo-&#x27; (new) + Latin &#x27;cortex&#x27; (bark, outer layer)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"What&#x27;s known as the neocortex or the frontal lobe."</div>
+    <div class='related'>Related: cortex, frontal lobe, cerebral, prefrontal</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">amygdala</span>
+        <span class="phonetic">/əˈmɪɡdələ/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">A small almond-shaped brain structure involved in processing emotions, especially fear</div>
+    <div class="meaning-ko">편도체 (감정, 특히 공포를 처리하는 뇌 구조)</div>
+    <div class="etymology">From Greek &#x27;amygdale&#x27; (almond), named for its shape</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"The job of the mainstream media is to stimulate another part of the brain called the amygdala."</div>
+    <div class='related'>Related: limbic system, hypothalamus, emotional response</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">psychotherapeutic</span>
+        <span class="phonetic">/ˌsaɪkoʊˌθɛrəˈpjuːtɪk/</span>
+        <span class="pos">adjective</span>
+    </div>
+    <div class="definition">Relating to or involved in the treatment of mental disorders through psychological methods</div>
+    <div class="meaning-ko">심리치료의, 정신치료의</div>
+    <div class="etymology">From Greek &#x27;psyche&#x27; (mind/soul) + &#x27;therapeutikos&#x27; (healing)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"I&#x27;ve come to know that the undisputed first law in psychotherapeutic intervention and other areas."</div>
+    <div class='related'>Related: psychotherapy, therapeutic, psychological, counseling</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">minefield</span>
+        <span class="phonetic">/ˈmaɪnfiːld/</span>
+        <span class="pos">noun</span>
+    </div>
+    <div class="definition">An area full of hidden dangers or difficulties (figuratively); literally an area with buried explosive mines</div>
+    <div class="meaning-ko">지뢰밭 (비유적: 위험으로 가득한 영역)</div>
+    <div class="etymology">From &#x27;mine&#x27; (explosive device) + &#x27;field&#x27; (open area)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"Work with a decent mentor or a coach that understands how to navigate the minefield of human behavior."</div>
+    <div class='related'>Related: hazardous, treacherous, pitfall, booby trap</div>
+</div>
+<div class="vocab-card">
+    <div class="word-line">
+        <span class="word">descending</span>
+        <span class="phonetic">/dɪˈsɛndɪŋ/</span>
+        <span class="pos">verb (present participle)</span>
+    </div>
+    <div class="definition">Moving downward; falling into a particular state</div>
+    <div class="meaning-ko">내려가는, (상태가) 빠져드는</div>
+    <div class="etymology">From Latin &#x27;descendere&#x27; (de- &#x27;down&#x27; + scandere &#x27;to climb&#x27;)</div>
+    <div class="root-breakdown"></div>
+    <div class="context">"We&#x27;re able to walk into a room where everything&#x27;s descending into chaos and retain our center."</div>
+    <div class='related'>Related: descend, descent, ascend, escalate</div>
+</div>
+<div class="page-break"></div>
+<h2>04 &nbsp; Grammar Patterns</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key grammar structures used in the video. Each pattern includes real examples.
+</p>
+
+<div class="grammar-card">
+    <div class="pattern">Why is it that...?</div>
+    <div class="explanation">An emphatic cleft structure used to ask questions with extra emphasis. &#x27;It&#x27; is a dummy subject, and &#x27;that&#x27; introduces the main clause. This is more emphatic than simply asking &#x27;Why do...?&#x27;</div>
+    <div class="explanation-ko">&#x27;Why is it that...?&#x27;는 강조를 위한 분열문 구조입니다. &#x27;it&#x27;은 형식 주어이고 &#x27;that&#x27;절이 진짜 질문 내용을 담고 있습니다. &#x27;Why do...?&#x27;보다 더 강한 강조를 나타냅니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Why is it that intelligent people procrastinate?&#x27;, &#x27;translation&#x27;: &#x27;왜 똑똑한 사람들이 미루는 걸까요?&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Why is it that people that are so self-motivated often self-sabotage?&#x27;, &#x27;translation&#x27;: &#x27;왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">As if + past subjunctive</div>
+    <div class="explanation">Used to describe a hypothetical or unreal situation. &#x27;As if&#x27; introduces a clause that describes something that is not actually true but feels like it could be. The past tense (&#x27;was/were&#x27;) signals unreality.</div>
+    <div class="explanation-ko">&#x27;As if + 과거 가정법&#x27;은 실제가 아닌 가상의 상황을 묘사할 때 사용합니다. &#x27;As if&#x27;는 실제로는 사실이 아니지만 그렇게 느껴지는 상황을 소개합니다. 과거형이 비현실을 나타냅니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;As if there was kind of a glass ceiling above our head.&#x27;, &#x27;translation&#x27;: &#x27;마치 우리 머리 위에 유리 천장이 있는 것처럼.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">No matter how + adjective/adverb + clause</div>
+    <div class="explanation">A concessive structure meaning &#x27;regardless of how much/many.&#x27; It emphasizes that the result remains unchanged despite varying degrees of something.</div>
+    <div class="explanation-ko">&#x27;No matter how&#x27;는 &#x27;아무리 ~해도&#x27;라는 양보의 의미를 나타내는 구조입니다. 정도가 달라져도 결과는 변하지 않는다는 점을 강조합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;No matter how many new business opportunities we get.&#x27;, &#x27;translation&#x27;: &#x27;아무리 많은 새로운 사업 기회를 얻어도.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">What + be known as + noun (identification cleft)</div>
+    <div class="explanation">This structure is used to introduce a technical term or formal name for something. &#x27;What&#x27; functions as a relative pronoun meaning &#x27;the thing that.&#x27;</div>
+    <div class="explanation-ko">&#x27;What&#x27;s known as&#x27;는 전문 용어나 공식 명칭을 소개할 때 사용하는 구조입니다. &#x27;What&#x27;은 &#x27;~라고 알려진 것&#x27;이라는 의미의 관계대명사로 기능합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;What&#x27;s known as the neocortex or the frontal lobe.&quot;, &#x27;translation&#x27;: &#x27;신피질 또는 전두엽이라고 알려진 부분.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;What I call people sleeping awake.&#x27;, &#x27;translation&#x27;: &quot;제가 &#x27;깨어 있으면서 자는 상태&#x27;라고 부르는 것.&quot;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Give me + noun, and I&#x27;ll give you + noun</div>
+    <div class="explanation">A conditional promise structure expressing a cause-and-effect guarantee. It&#x27;s often used in persuasive or confident speech to convey certainty about an outcome.</div>
+    <div class="explanation-ko">&#x27;Give me A, and I&#x27;ll give you B&#x27;는 원인-결과의 보장을 표현하는 조건부 약속 구조입니다. 결과에 대한 확신을 전달할 때 설득적 화법에서 자주 사용됩니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;Give me the child for seven years, and I&#x27;ll give you the man.&quot;, &#x27;translation&#x27;: &#x27;저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">...are they not? / ...is it not? (Tag questions for emphasis)</div>
+    <div class="explanation">Inverted tag questions using formal structure to seek agreement or add rhetorical emphasis. More formal and persuasive than the contracted form &#x27;aren&#x27;t they?&#x27;</div>
+    <div class="explanation-ko">도치된 부가의문문으로, 동의를 구하거나 수사적 강조를 더할 때 사용합니다. 축약형 &#x27;aren&#x27;t they?&#x27;보다 더 격식적이고 설득적입니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Children are prime examples of the ability to be persistent, are they not?&#x27;, &#x27;translation&#x27;: &#x27;아이들은 끈기의 대표적인 예입니다, 그렇지 않나요?&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">It&#x27;s not down to + noun (British English causation)</div>
+    <div class="explanation">&#x27;Down to&#x27; means &#x27;caused by&#x27; or &#x27;attributable to.&#x27; This British English expression is used to identify or reject a cause. &#x27;Not down to&#x27; negates the proposed cause.</div>
+    <div class="explanation-ko">&#x27;Down to&#x27;는 &#x27;~때문이다, ~에 기인하다&#x27;라는 의미의 영국식 표현입니다. 원인을 식별하거나 부정할 때 사용됩니다. &#x27;Not down to&#x27;는 제시된 원인을 부정합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;It&#x27;s not down to lack of resources or opportunity.&quot;, &#x27;translation&#x27;: &#x27;자원이나 기회의 부족 때문이 아닙니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">Rather than + verb/noun (expressing preference or contrast)</div>
+    <div class="explanation">Used to present an alternative or contrast. It introduces what is not chosen or what happens instead. Often used to emphasize the unexpected or less desirable option.</div>
+    <div class="explanation-ko">&#x27;Rather than&#x27;은 대안이나 대조를 제시할 때 사용합니다. 선택되지 않은 것이나 대신 일어나는 것을 소개합니다. 예상치 못하거나 덜 바람직한 선택을 강조할 때 자주 씁니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;Rather than take up critical thinking, it hands it over to the midbrain.&#x27;, &#x27;translation&#x27;: &#x27;비판적 사고를 사용하는 대신 중뇌로 넘겨버립니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">If you + present simple, by default + future result</div>
+    <div class="explanation">A conditional structure where the speaker presents an automatic consequence of inaction. &#x27;By default&#x27; emphasizes that the outcome is inevitable without deliberate choice.</div>
+    <div class="explanation-ko">행동하지 않으면 자동으로 일어나는 결과를 제시하는 조건문 구조입니다. &#x27;By default&#x27;는 의도적 선택 없이는 결과가 불가피하다는 것을 강조합니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;If you&#x27;re not choosing to do that, by default you&#x27;re going to be hooked into somebody else&#x27;s agenda.&quot;, &#x27;translation&#x27;: &#x27;그것을 선택하지 않으면, 기본적으로 다른 누군가의 의제에 빠져들게 됩니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;If you don&#x27;t start filming as the star of the movie in your life, by default you&#x27;re going to end up as a film extra in somebody else&#x27;s.&quot;, &#x27;translation&#x27;: &#x27;자기 인생의 영화에서 주인공으로 촬영을 시작하지 않으면, 기본적으로 다른 누군가의 영화에서 엑스트라가 될 겁니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">When + clause, that&#x27;s when + result clause</div>
+    <div class="explanation">A temporal emphatic structure that highlights the specific moment or condition that enables a particular outcome. &#x27;That&#x27;s when&#x27; focuses attention on the timing or precondition.</div>
+    <div class="explanation-ko">&#x27;When + 절, that&#x27;s when + 결과절&#x27;은 특정 결과를 가능하게 하는 순간이나 조건을 강조하는 시간적 강조 구조입니다. &#x27;That&#x27;s when&#x27;이 타이밍이나 전제조건에 주의를 집중시킵니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;When we start grabbing that compass needle... That&#x27;s when we can start to achieve the real game in town, which is self mastery.&quot;, &#x27;translation&#x27;: &#x27;나침반 바늘을 잡기 시작할 때... 그때 우리는 진정한 게임인 자기 통달을 시작할 수 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">I&#x27;ve got news for you (rhetorical warning expression)</div>
+    <div class="explanation">A colloquial expression used as a rhetorical device to prepare the listener for an uncomfortable truth or surprise. Often used with irony or humor in speeches.</div>
+    <div class="explanation-ko">&#x27;I&#x27;ve got news for you&#x27;는 듣는 사람에게 불편한 진실이나 놀라움을 준비시키는 수사적 표현입니다. 연설에서 종종 아이러니나 유머와 함께 사용됩니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &quot;I&#x27;ve got news for you. You&#x27;re in Disneyland.&quot;, &#x27;translation&#x27;: &#x27;알려드릴 게 있습니다. 디즈니랜드에 계신 겁니다.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &quot;If you hang out with nine recreational drug users, I&#x27;ve got news for you.&quot;, &#x27;translation&#x27;: &#x27;9명의 기호용 마약 사용자와 어울리면, 알려드릴 게 있습니다.&#x27;}</div>
+</div>
+<div class="grammar-card">
+    <div class="pattern">People like + proper noun (exemplification pattern)</div>
+    <div class="explanation">A pattern used to provide concrete, well-known examples to support a general point. It makes abstract arguments tangible and persuasive by referencing real people.</div>
+    <div class="explanation-ko">&#x27;People like + 고유명사&#x27;는 일반적인 주장을 뒷받침하기 위해 구체적이고 유명한 예시를 제공하는 패턴입니다. 실제 인물을 참조하여 추상적 논증을 구체적이고 설득력 있게 만듭니다.</div>
+    <div class="example">{&#x27;sentence&#x27;: &#x27;People like Colonel Sanders, who retired broke at 65 before starting KFC.&#x27;, &#x27;translation&#x27;: &#x27;65세에 빈털터리로 은퇴한 후 KFC를 시작한 커널 샌더스 같은 사람들.&#x27;}</div><div class="example">{&#x27;sentence&#x27;: &#x27;Obviously Oprah, people like Helen Keller.&#x27;, &#x27;translation&#x27;: &#x27;물론 오프라, 헬렌 켈러 같은 분들.&#x27;}</div>
+</div>
+<div class="page-break"></div>
+<h2>05 &nbsp; Connected Speech &amp; Pronunciation</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Natural pronunciation patterns found in the talk. Practice these to sound more natural!
+</p>
+<div class="cs-type-header" style="background:#3b82f6;">Linking (연음)</div>
+<div class="cs-card">
+    <span class="original">stand in awe of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">스탠디너워브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/stænd ɪn ɔː(r) ʌv/</div>
+        <div class="explanation-text">&#x27;stand&#x27;의 &#x27;d&#x27;가 &#x27;in&#x27;의 모음 &#x27;i&#x27;와 연결되고, &#x27;awe&#x27;가 &#x27;of&#x27;와 연결 /r/ 또는 모음 활음을 통해 이어집니다.</div>
+        <div class="practice">Say &#x27;standinawe-of&#x27; as one fluid phrase. The /d/ connects to /ɪ/ without a pause.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">turned on until</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">턴돈 언틸</span>
+    <div class="details">
+        <div class="phonetic-ipa">/tɜːrnd ɒn ʌnˈtɪl/</div>
+        <div class="explanation-text">&#x27;turned&#x27;의 &#x27;d&#x27;가 &#x27;on&#x27;의 모음 &#x27;o&#x27;에 연결되고, &#x27;on&#x27;의 &#x27;n&#x27;이 &#x27;until&#x27;의 모음 &#x27;u&#x27;에 연결되어 매끄러운 체인을 만듭니다.</div>
+        <div class="practice">Practice the chain: &#x27;turn-DON-untill&#x27;. Each consonant ending flows into the next vowel beginning.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">an elephant</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">어넬러펀트</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ən ˈɛlɪfənt/</div>
+        <div class="explanation-text">&#x27;an&#x27;의 /n/이 &#x27;elephant&#x27;의 /ɛ/ 모음에 바로 연결되어 부드러운 비음-모음 연결을 만듭니다.</div>
+        <div class="practice">Say &#x27;a-NELL-uh-funt&#x27; — the /n/ glides into the /ɛ/ without any pause.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">rise above</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">라이저버브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/raɪz əˈbʌv/</div>
+        <div class="explanation-text">&#x27;rise&#x27;의 /z/가 &#x27;above&#x27;의 슈와 /ə/에 부드럽게 연결되어 유성 자음-모음 연음을 만듭니다.</div>
+        <div class="practice">Say &#x27;ri-ZUH-buv&#x27; — the /z/ naturally glides into the unstressed /ə/ of &#x27;above&#x27;.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">take a swing at</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">테이커 스윙앳</span>
+    <div class="details">
+        <div class="phonetic-ipa">/teɪk ə swɪŋ æt/</div>
+        <div class="explanation-text">&#x27;take&#x27;의 /k/가 &#x27;a&#x27;의 슈와에 연결되고, &#x27;swing&#x27;의 /ŋ/이 &#x27;at&#x27;의 /æ/로 흘러갑니다. 하나의 구에서 여러 연음 지점이 있습니다.</div>
+        <div class="practice">Say &#x27;tay-kuh-swing-at&#x27; as a rhythmic unit. The idiomatic phrase should flow as one connected expression.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#8b5cf6;">Reduction (축약)</div>
+<div class="cs-card">
+    <span class="original">kind of a</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">카인더버</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈkaɪndəvə/</div>
+        <div class="explanation-text">&#x27;Kind of a&#x27;는 자연스러운 발화에서 크게 축약됩니다. &#x27;Of&#x27;가 슈와 /ə/로 되고 &#x27;a&#x27;와 합쳐져 빠른 3음절 단위가 됩니다.</div>
+        <div class="practice">Practice saying &#x27;kinda&#x27; first, then add the unstressed &#x27;a&#x27; — &#x27;kindava&#x27;. This is extremely common in casual English.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">want to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈwɒnə/</div>
+        <div class="explanation-text">&#x27;Want to&#x27;는 일상 영어에서 흔히 &#x27;wanna&#x27;로 축약됩니다. 두 단어 사이의 /t/ + /t/ 자음군이 단순화됩니다.</div>
+        <div class="practice">Say &#x27;wanna&#x27; as one word. This is standard in all levels of informal speech. &#x27;I wanna share&#x27; = &#x27;I want to share&#x27;.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">going to</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">거너</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈɡɒnə/</div>
+        <div class="explanation-text">&#x27;Going to&#x27;는 거의 모든 일상 영어에서 &#x27;gonna&#x27;로 축약됩니다. &#x27;-ing to&#x27; 전체가 /nə/로 단순화됩니다.</div>
+        <div class="practice">Say &#x27;gonna&#x27; as a two-syllable word: &#x27;GAH-nuh&#x27;. This is the most common reduction in English.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">you know</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">여노</span>
+    <div class="details">
+        <div class="phonetic-ipa">/jə noʊ/</div>
+        <div class="explanation-text">필러 구 &#x27;you know&#x27;는 크게 축약됩니다. &#x27;You&#x27;가 비강세 /jə/가 되어 &#x27;know&#x27;와 합쳐집니다. 이 강연에서 담화 표지어로 사용됩니다.</div>
+        <div class="practice">Say &#x27;y&#x27;know&#x27; as almost one syllable. It functions as a pause filler and doesn&#x27;t carry meaning.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">out of</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">아우러브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈaʊdəv/</div>
+        <div class="explanation-text">&#x27;out&#x27;의 /t/가 비강세 &#x27;of&#x27; 앞에서 탄설음 /d/로 유성화되고(미국식), &#x27;of&#x27;는 /əv/로 축약됩니다.</div>
+        <div class="practice">Say &#x27;ouda&#x27; — the /t/ becomes a soft /d/ flap and &#x27;of&#x27; reduces to just a schwa sound.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">what do you</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">워더여</span>
+    <div class="details">
+        <div class="phonetic-ipa">/wʌdəjə/</div>
+        <div class="explanation-text">&#x27;What do you&#x27;는 빠른 발화에서 크게 축약됩니다. &#x27;What&#x27;의 /t/가 탈락하고, &#x27;do&#x27;는 /də/로, &#x27;you&#x27;는 /jə/로 축약됩니다.</div>
+        <div class="practice">Practice saying &#x27;whaddya&#x27; — three words compressed into two syllables. Very common in conversational English.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#f59e0b;">Elision (탈락)</div>
+<div class="cs-card">
+    <span class="original">didn&#x27;t know how</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">디든 노 하우</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ˈdɪdn̩ noʊ haʊ/</div>
+        <div class="explanation-text">&#x27;didn&#x27;t&#x27;의 &#x27;t&#x27;는 연결 발화에서 종종 탈락하고 성문폐쇄음으로 대체됩니다. 비음 /n/이 음절을 담당합니다.</div>
+        <div class="practice">Instead of clearly saying &#x27;did-not&#x27;, say &#x27;dihn&#x27; with a subtle stop at the end, then flow into &#x27;know how&#x27;.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">most likely</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">모스 라이클리</span>
+    <div class="details">
+        <div class="phonetic-ipa">/moʊs(t) ˈlaɪkli/</div>
+        <div class="explanation-text">&#x27;most&#x27;의 /t/가 &#x27;likely&#x27;의 /l/ 앞에서 종종 탈락합니다. 이 자음군 단순화는 영어에서 매우 자연스럽습니다.</div>
+        <div class="practice">Say &#x27;mohs-likely&#x27; — drop the /t/ and let the /s/ flow into /l/. This is standard native pronunciation.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">let&#x27;s look at the</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">렛스 루컫 더</span>
+    <div class="details">
+        <div class="phonetic-ipa">/lɛts lʊk ət ðə/</div>
+        <div class="explanation-text">&#x27;at&#x27;의 /t/가 &#x27;the&#x27; 앞에서 종종 탈락하고, &#x27;the&#x27;는 /ðə/로 축약됩니다. 전체 구가 빠른 단위로 이어집니다.</div>
+        <div class="practice">Practice the phrase as one unit: &#x27;lets-LOOK-uh-thuh&#x27;. Keep it flowing without stopping at &#x27;at&#x27;.</div>
+    </div>
+</div><div class="cs-type-header" style="background:#10b981;">Assimilation (동화)</div>
+<div class="cs-card">
+    <span class="original">good old midbrain</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">구돌 미드브레인</span>
+    <div class="details">
+        <div class="phonetic-ipa">/ɡʊd oʊl ˈmɪdbreɪn/</div>
+        <div class="explanation-text">&#x27;good&#x27;의 /d/가 &#x27;old&#x27;의 모음과 동화되어 부드러운 &#x27;guh-dold&#x27; 연결을 만듭니다.</div>
+        <div class="practice">Say &#x27;goodold&#x27; as almost one word: &#x27;guh-dold&#x27;. The /d/ flows right into the /oʊ/ vowel.</div>
+    </div>
+</div>
+<div class="cs-card">
+    <span class="original">can&#x27;t have</span>
+    <span class="arrow">&rarr;</span>
+    <span class="korean-phonetic">캔 해브</span>
+    <div class="details">
+        <div class="phonetic-ipa">/kɑːn(t) hæv/</div>
+        <div class="explanation-text">&#x27;can&#x27;t&#x27;의 /t/가 &#x27;have&#x27;의 /h/ 앞에서 종종 동화되거나 미파열됩니다. /h/의 성문적 특성이 /t/ 파열을 흡수합니다.</div>
+        <div class="practice">Say &#x27;can-have&#x27; with a very brief stop between &#x27;can&#x27; and &#x27;have&#x27;. The /t/ becomes almost inaudible.</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<h2>06 &nbsp; Signal Expressions</h2>
+<p style="font-size:9.5pt; color:#64748b; margin-bottom:14px;">
+    Key phrases used to structure the content. Learning these helps you follow presentations.
+</p>
+
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Why is it that...?"</div>
+        <div class="signal-role">Opening rhetorical questions to engage audience</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Now, one thing we do know is..."</div>
+        <div class="signal-role">Transitioning from problem to establishing a fact</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"You see, ..."</div>
+        <div class="signal-role">Drawing attention to a key point (used repeatedly throughout)</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"So how do we unravel that?"</div>
+        <div class="signal-role">Transitional rhetorical question moving from problem to explanation</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"I&#x27;ll give you an example."</div>
+        <div class="signal-role">Introducing a concrete illustration</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"But what&#x27;s happening right now is quite significant."</div>
+        <div class="signal-role">Signaling an important insight within a story</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"I&#x27;ve come to know that..."</div>
+        <div class="signal-role">Introducing a key law or principle from personal experience</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Let me give you another example, another analogy."</div>
+        <div class="signal-role">Transitioning between analogies</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"And that leads us to our third challenge."</div>
+        <div class="signal-role">Structural signpost numbering the key challenges</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Well, there&#x27;s three tips that I want to share with you."</div>
+        <div class="signal-role">Previewing the actionable framework</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"The first is... The second thing... And then the third point..."</div>
+        <div class="signal-role">Enumeration of key tips for audience retention</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Do you get the idea?"</div>
+        <div class="signal-role">Checking audience comprehension and engagement</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"That&#x27;s when we can start to achieve..."</div>
+        <div class="signal-role">Connecting conditions to the ultimate goal</div>
+    </div>
+</div>
+<div class="signal-card">
+    <span class="signal-type transition">transition</span>
+    <div>
+        <div class="signal-expr">"Thank you and God bless you."</div>
+        <div class="signal-role">Closing with gratitude and blessing</div>
+    </div>
+</div>
+<div class="page-break"></div>
+<div style="text-align:center; padding-top:200px;">
+    <div style="font-size:14pt; font-weight:700; color:#0f172a; margin-bottom:10px;">Keep Learning!</div>
+    <div style="font-size:9pt; color:#94a3b8; margin-top:40px;">
+        Generated by stdyLang &mdash; AI-Powered Language Learning<br>
+        youtube.com/watch?v=v1ojZKWfShQ
+    </div>
+</div>
+
+</body>
+</html>

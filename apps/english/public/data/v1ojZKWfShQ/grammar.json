@@ -1,0 +1,166 @@
+[
+  {
+    "pattern": "Why is it that...?",
+    "explanation": "An emphatic cleft structure used to ask questions with extra emphasis. 'It' is a dummy subject, and 'that' introduces the main clause. This is more emphatic than simply asking 'Why do...?'",
+    "explanationKo": "'Why is it that...?'는 강조를 위한 분열문 구조입니다. 'it'은 형식 주어이고 'that'절이 진짜 질문 내용을 담고 있습니다. 'Why do...?'보다 더 강한 강조를 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "Why is it that intelligent people procrastinate?",
+        "translation": "왜 똑똑한 사람들이 미루는 걸까요?"
+      },
+      {
+        "sentence": "Why is it that people that are so self-motivated often self-sabotage?",
+        "translation": "왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?"
+      }
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "As if + past subjunctive",
+    "explanation": "Used to describe a hypothetical or unreal situation. 'As if' introduces a clause that describes something that is not actually true but feels like it could be. The past tense ('was/were') signals unreality.",
+    "explanationKo": "'As if + 과거 가정법'은 실제가 아닌 가상의 상황을 묘사할 때 사용합니다. 'As if'는 실제로는 사실이 아니지만 그렇게 느껴지는 상황을 소개합니다. 과거형이 비현실을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "As if there was kind of a glass ceiling above our head.",
+        "translation": "마치 우리 머리 위에 유리 천장이 있는 것처럼."
+      }
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "No matter how + adjective/adverb + clause",
+    "explanation": "A concessive structure meaning 'regardless of how much/many.' It emphasizes that the result remains unchanged despite varying degrees of something.",
+    "explanationKo": "'No matter how'는 '아무리 ~해도'라는 양보의 의미를 나타내는 구조입니다. 정도가 달라져도 결과는 변하지 않는다는 점을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "No matter how many new business opportunities we get.",
+        "translation": "아무리 많은 새로운 사업 기회를 얻어도."
+      }
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "What + be known as + noun (identification cleft)",
+    "explanation": "This structure is used to introduce a technical term or formal name for something. 'What' functions as a relative pronoun meaning 'the thing that.'",
+    "explanationKo": "'What's known as'는 전문 용어나 공식 명칭을 소개할 때 사용하는 구조입니다. 'What'은 '~라고 알려진 것'이라는 의미의 관계대명사로 기능합니다.",
+    "examples": [
+      {
+        "sentence": "What's known as the neocortex or the frontal lobe.",
+        "translation": "신피질 또는 전두엽이라고 알려진 부분."
+      },
+      {
+        "sentence": "What I call people sleeping awake.",
+        "translation": "제가 '깨어 있으면서 자는 상태'라고 부르는 것."
+      }
+    ],
+    "segmentIndex": 26
+  },
+  {
+    "pattern": "Give me + noun, and I'll give you + noun",
+    "explanation": "A conditional promise structure expressing a cause-and-effect guarantee. It's often used in persuasive or confident speech to convey certainty about an outcome.",
+    "explanationKo": "'Give me A, and I'll give you B'는 원인-결과의 보장을 표현하는 조건부 약속 구조입니다. 결과에 대한 확신을 전달할 때 설득적 화법에서 자주 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "Give me the child for seven years, and I'll give you the man.",
+        "translation": "저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다."
+      }
+    ],
+    "segmentIndex": 33
+  },
+  {
+    "pattern": "...are they not? / ...is it not? (Tag questions for emphasis)",
+    "explanation": "Inverted tag questions using formal structure to seek agreement or add rhetorical emphasis. More formal and persuasive than the contracted form 'aren't they?'",
+    "explanationKo": "도치된 부가의문문으로, 동의를 구하거나 수사적 강조를 더할 때 사용합니다. 축약형 'aren't they?'보다 더 격식적이고 설득적입니다.",
+    "examples": [
+      {
+        "sentence": "Children are prime examples of the ability to be persistent, are they not?",
+        "translation": "아이들은 끈기의 대표적인 예입니다, 그렇지 않나요?"
+      }
+    ],
+    "segmentIndex": 49
+  },
+  {
+    "pattern": "It's not down to + noun (British English causation)",
+    "explanation": "'Down to' means 'caused by' or 'attributable to.' This British English expression is used to identify or reject a cause. 'Not down to' negates the proposed cause.",
+    "explanationKo": "'Down to'는 '~때문이다, ~에 기인하다'라는 의미의 영국식 표현입니다. 원인을 식별하거나 부정할 때 사용됩니다. 'Not down to'는 제시된 원인을 부정합니다.",
+    "examples": [
+      {
+        "sentence": "It's not down to lack of resources or opportunity.",
+        "translation": "자원이나 기회의 부족 때문이 아닙니다."
+      }
+    ],
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "Rather than + verb/noun (expressing preference or contrast)",
+    "explanation": "Used to present an alternative or contrast. It introduces what is not chosen or what happens instead. Often used to emphasize the unexpected or less desirable option.",
+    "explanationKo": "'Rather than'은 대안이나 대조를 제시할 때 사용합니다. 선택되지 않은 것이나 대신 일어나는 것을 소개합니다. 예상치 못하거나 덜 바람직한 선택을 강조할 때 자주 씁니다.",
+    "examples": [
+      {
+        "sentence": "Rather than take up critical thinking, it hands it over to the midbrain.",
+        "translation": "비판적 사고를 사용하는 대신 중뇌로 넘겨버립니다."
+      }
+    ],
+    "segmentIndex": 74
+  },
+  {
+    "pattern": "If you + present simple, by default + future result",
+    "explanation": "A conditional structure where the speaker presents an automatic consequence of inaction. 'By default' emphasizes that the outcome is inevitable without deliberate choice.",
+    "explanationKo": "행동하지 않으면 자동으로 일어나는 결과를 제시하는 조건문 구조입니다. 'By default'는 의도적 선택 없이는 결과가 불가피하다는 것을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "If you're not choosing to do that, by default you're going to be hooked into somebody else's agenda.",
+        "translation": "그것을 선택하지 않으면, 기본적으로 다른 누군가의 의제에 빠져들게 됩니다."
+      },
+      {
+        "sentence": "If you don't start filming as the star of the movie in your life, by default you're going to end up as a film extra in somebody else's.",
+        "translation": "자기 인생의 영화에서 주인공으로 촬영을 시작하지 않으면, 기본적으로 다른 누군가의 영화에서 엑스트라가 될 겁니다."
+      }
+    ],
+    "segmentIndex": 186
+  },
+  {
+    "pattern": "When + clause, that's when + result clause",
+    "explanation": "A temporal emphatic structure that highlights the specific moment or condition that enables a particular outcome. 'That's when' focuses attention on the timing or precondition.",
+    "explanationKo": "'When + 절, that's when + 결과절'은 특정 결과를 가능하게 하는 순간이나 조건을 강조하는 시간적 강조 구조입니다. 'That's when'이 타이밍이나 전제조건에 주의를 집중시킵니다.",
+    "examples": [
+      {
+        "sentence": "When we start grabbing that compass needle... That's when we can start to achieve the real game in town, which is self mastery.",
+        "translation": "나침반 바늘을 잡기 시작할 때... 그때 우리는 진정한 게임인 자기 통달을 시작할 수 있습니다."
+      }
+    ],
+    "segmentIndex": 199
+  },
+  {
+    "pattern": "I've got news for you (rhetorical warning expression)",
+    "explanation": "A colloquial expression used as a rhetorical device to prepare the listener for an uncomfortable truth or surprise. Often used with irony or humor in speeches.",
+    "explanationKo": "'I've got news for you'는 듣는 사람에게 불편한 진실이나 놀라움을 준비시키는 수사적 표현입니다. 연설에서 종종 아이러니나 유머와 함께 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "I've got news for you. You're in Disneyland.",
+        "translation": "알려드릴 게 있습니다. 디즈니랜드에 계신 겁니다."
+      },
+      {
+        "sentence": "If you hang out with nine recreational drug users, I've got news for you.",
+        "translation": "9명의 기호용 마약 사용자와 어울리면, 알려드릴 게 있습니다."
+      }
+    ],
+    "segmentIndex": 127
+  },
+  {
+    "pattern": "People like + proper noun (exemplification pattern)",
+    "explanation": "A pattern used to provide concrete, well-known examples to support a general point. It makes abstract arguments tangible and persuasive by referencing real people.",
+    "explanationKo": "'People like + 고유명사'는 일반적인 주장을 뒷받침하기 위해 구체적이고 유명한 예시를 제공하는 패턴입니다. 실제 인물을 참조하여 추상적 논증을 구체적이고 설득력 있게 만듭니다.",
+    "examples": [
+      {
+        "sentence": "People like Colonel Sanders, who retired broke at 65 before starting KFC.",
+        "translation": "65세에 빈털터리로 은퇴한 후 KFC를 시작한 커널 샌더스 같은 사람들."
+      },
+      {
+        "sentence": "Obviously Oprah, people like Helen Keller.",
+        "translation": "물론 오프라, 헬렌 켈러 같은 분들."
+      }
+    ],
+    "segmentIndex": 14
+  }
+]

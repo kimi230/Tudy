@@ -1,0 +1,182 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "had to",
+    "phonetic": "/hæftə/",
+    "koreanPhonetic": "해프터",
+    "explanation": "'had to' is commonly reduced to /hæftə/ in rapid speech. The /d/ assimilates to /f/ before the /t/ sound.",
+    "explanationKo": "'had to'는 빠른 말에서 /hæftə/로 축약됩니다. /d/가 /t/ 앞에서 /f/로 동화됩니다.",
+    "practiceGuide": "Say 'haf-tuh' quickly, blending the two words together. Practice: 'I haf-tuh go' repeatedly.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "earned the right to",
+    "phonetic": "/ɜːrnd ðə raɪt tə/",
+    "koreanPhonetic": "언드 더 라잇 터",
+    "explanation": "The /d/ at the end of 'earned' links smoothly to 'the'. The phrase flows as one connected unit.",
+    "explanationKo": "'earned'의 끝 /d/가 'the'로 자연스럽게 연결됩니다. 이 구절이 하나의 연결된 단위로 흐릅니다.",
+    "practiceGuide": "Practice saying 'earned-the-right-to' as one flowing phrase without pausing between words.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "gonna",
+    "phonetic": "/ˈɡʌnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is universally reduced to 'gonna' /ˈɡʌnə/ in casual American speech. This is one of the most common reductions in English.",
+    "explanationKo": "'going to'가 미국 구어체에서 보편적으로 'gonna' /ˈɡʌnə/로 축약됩니다. 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "Say 'guh-nuh' with stress on the first syllable. Never pronounce the full 'going to' in casual conversation.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "reduction",
+    "originalText": "wanna",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is reduced to 'wanna' /ˈwɒnə/ in casual speech. The /t/ is completely dropped.",
+    "explanationKo": "'want to'가 구어체에서 'wanna' /ˈwɒnə/로 축약됩니다. /t/가 완전히 탈락합니다.",
+    "practiceGuide": "Say 'wah-nuh' smoothly. Practice: 'I wanna go' = /aɪ ˈwɒnə ɡoʊ/.",
+    "segmentIndex": 101
+  },
+  {
+    "type": "elision",
+    "originalText": "don't come back",
+    "phonetic": "/doʊn kʌm bæk/",
+    "koreanPhonetic": "돈 컴 백",
+    "explanation": "The /t/ in 'don't' is often elided (dropped) before the /k/ of 'come'. This is a common consonant cluster simplification.",
+    "explanationKo": "'don't'의 /t/가 'come'의 /k/ 앞에서 탈락(생략)됩니다. 이는 흔한 자음 군집 단순화입니다.",
+    "practiceGuide": "Say 'dohn-come-back' letting the /t/ disappear naturally before /k/.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "linking",
+    "originalText": "I earned",
+    "phonetic": "/aɪ_jɜːrnd/",
+    "koreanPhonetic": "아이 여언드",
+    "explanation": "When a word ending in a vowel sound is followed by a word beginning with a vowel, a /j/ glide is often inserted for smooth linking.",
+    "explanationKo": "모음으로 끝나는 단어 뒤에 모음으로 시작하는 단어가 올 때, 부드러운 연결을 위해 /j/ 활음이 삽입됩니다.",
+    "practiceGuide": "Say 'I-yearned' with a slight /y/ glide between 'I' and 'earned'.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪndə/",
+    "koreanPhonetic": "카인다",
+    "explanation": "'Kind of' is frequently reduced to 'kinda' /ˈkaɪndə/ in casual speech. The /v/ sound is completely dropped.",
+    "explanationKo": "'kind of'가 구어체에서 'kinda' /ˈkaɪndə/로 자주 축약됩니다. /v/ 소리가 완전히 탈락합니다.",
+    "practiceGuide": "Say 'kine-duh' as one quick word. Practice: 'It was kinda the beginning.'",
+    "segmentIndex": 6
+  },
+  {
+    "type": "assimilation",
+    "originalText": "looked at me",
+    "phonetic": "/lʊkt ət mi/",
+    "koreanPhonetic": "룩트 엇 미",
+    "explanation": "The /ed/ ending of 'looked' is pronounced as /t/ because it follows the voiceless consonant /k/. The 'at' reduces to /ət/.",
+    "explanationKo": "'looked'의 /ed/ 어미가 무성 자음 /k/ 뒤에서 /t/로 발음됩니다. 'at'은 /ət/로 약화됩니다.",
+    "practiceGuide": "Say 'lookt-ut-me' quickly. The -ed is always /t/ after voiceless consonants (k, p, s, f, sh).",
+    "segmentIndex": 17
+  },
+  {
+    "type": "reduction",
+    "originalText": "out of here",
+    "phonetic": "/ˌaʊdə ˈhɪr/",
+    "koreanPhonetic": "아우더 히어",
+    "explanation": "The /t/ in 'out' becomes a flap /d/ before the vowel in 'of', and 'of' reduces to just /ə/. 'Out of' sounds like 'oudda'.",
+    "explanationKo": "'out'의 /t/가 'of'의 모음 앞에서 탄설음 /d/가 되고, 'of'는 /ə/로 약화됩니다. 'Out of'가 'oudda'처럼 들립니다.",
+    "practiceGuide": "Say 'ow-duh-here' blending 'out of' into one smooth sound.",
+    "segmentIndex": 38
+  },
+  {
+    "type": "elision",
+    "originalText": "I'd",
+    "phonetic": "/aɪd/",
+    "koreanPhonetic": "아이드",
+    "explanation": "Contraction of 'I would' or 'I had'. The speaker uses this extensively throughout the narrative, typical of fast-paced storytelling.",
+    "explanationKo": "'I would' 또는 'I had'의 축약형입니다. 화자가 서사 전반에 걸쳐 이 축약을 광범위하게 사용하며, 빠른 속도의 스토리텔링에 전형적입니다.",
+    "practiceGuide": "Practice distinguishing context: 'I'd say' (I would say) vs 'I'd gone' (I had gone).",
+    "segmentIndex": 23
+  },
+  {
+    "type": "linking",
+    "originalText": "put it into",
+    "phonetic": "/pʊ.ɾɪ.ɾɪntə/",
+    "koreanPhonetic": "푸리린터",
+    "explanation": "Both /t/ sounds become flap /ɾ/ between vowels (American English flapping). 'Put it into' flows as /pʊɾɪɾɪntə/.",
+    "explanationKo": "두 /t/ 소리 모두 모음 사이에서 탄설음 /ɾ/가 됩니다(미국식 영어 탄설음화). 'Put it into'가 /pʊɾɪɾɪntə/로 흐릅니다.",
+    "practiceGuide": "Say 'puh-rih-rin-tuh' quickly, turning both t's into quick d-like flaps.",
+    "segmentIndex": 85
+  },
+  {
+    "type": "reduction",
+    "originalText": "you know what",
+    "phonetic": "/jə noʊ wʌt/",
+    "koreanPhonetic": "여 노 왓",
+    "explanation": "'You' reduces to /jə/ and the whole phrase becomes a rapid discourse marker. Common filler phrase in American English.",
+    "explanationKo": "'you'가 /jə/로 축약되고 전체 구절이 빠른 담화 표지가 됩니다. 미국 영어에서 흔한 간투사입니다.",
+    "practiceGuide": "Say 'yuh-no-wut' as one quick unit. This is a filler, not a real question.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "assimilation",
+    "originalText": "used to",
+    "phonetic": "/juːstə/",
+    "koreanPhonetic": "유스터",
+    "explanation": "The /d/ in 'used' assimilates to the /t/ in 'to', making it /juːstə/. This is a near-universal pronunciation in connected speech.",
+    "explanationKo": "'used'의 /d/가 'to'의 /t/에 동화되어 /juːstə/가 됩니다. 이것은 연결된 말에서 거의 보편적인 발음입니다.",
+    "practiceGuide": "Say 'yoos-tuh' as one unit. Never pause between 'used' and 'to'.",
+    "segmentIndex": 24
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'm talking to me",
+    "phonetic": "/aɪm ˈtɔːkɪn tə mi/",
+    "koreanPhonetic": "아임 토킨 터 미",
+    "explanation": "The final /ŋ/ in 'talking' reduces to /n/ in casual speech (g-dropping). 'To' reduces to /tə/.",
+    "explanationKo": "'talking'의 마지막 /ŋ/이 구어체에서 /n/으로 축약됩니다(g-탈락). 'to'는 /tə/로 약화됩니다.",
+    "practiceGuide": "Say 'tahk-in' dropping the g. This g-dropping is standard in casual American English.",
+    "segmentIndex": 65
+  },
+  {
+    "type": "elision",
+    "originalText": "doesn't grow on trees",
+    "phonetic": "/ˈdʌzn ɡroʊ ɒn triːz/",
+    "koreanPhonetic": "더즌 그로우 온 트리즈",
+    "explanation": "The /t/ in 'doesn't' is typically elided, making it /ˈdʌzn/. This is a standard pronunciation of negative contractions.",
+    "explanationKo": "'doesn't'의 /t/가 보통 탈락하여 /ˈdʌzn/이 됩니다. 이는 부정 축약의 표준 발음입니다.",
+    "practiceGuide": "Say 'duh-zn' without the final /t/. Most native speakers never pronounce the /t/ in 'doesn't'.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "linking",
+    "originalText": "what it takes",
+    "phonetic": "/wʌ.ɾɪt teɪks/",
+    "koreanPhonetic": "워릿 테잌스",
+    "explanation": "The /t/ at the end of 'what' becomes a flap /ɾ/ before the vowel in 'it', linking them smoothly. Then 'it takes' links with the /t/.",
+    "explanationKo": "'what'의 끝 /t/가 'it'의 모음 앞에서 탄설음 /ɾ/가 되어 부드럽게 연결됩니다.",
+    "practiceGuide": "Say 'wuh-rit-takes' with the first t becoming a quick flap.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "reduction",
+    "originalText": "I don't care",
+    "phonetic": "/aɪ doʊn keər/",
+    "koreanPhonetic": "아이 돈 케어",
+    "explanation": "The /t/ in 'don't' is completely dropped before the /k/ of 'care'. This consonant cluster simplification is automatic in natural speech.",
+    "explanationKo": "'don't'의 /t/가 'care'의 /k/ 앞에서 완전히 탈락합니다. 이 자음 군집 단순화는 자연스러운 말에서 자동으로 일어납니다.",
+    "practiceGuide": "Say 'dohn-care' without any /t/ sound. The /n/ connects directly to /k/.",
+    "segmentIndex": 39
+  },
+  {
+    "type": "linking",
+    "originalText": "I am",
+    "phonetic": "/aɪ_jæm/",
+    "koreanPhonetic": "아이 얨",
+    "explanation": "A /j/ glide is inserted between 'I' (ending in /aɪ/) and 'am' (starting with /æ/). This is intrusive /j/ linking.",
+    "explanationKo": "'I'(/aɪ/로 끝남)와 'am'(/æ/로 시작)사이에 /j/ 활음이 삽입됩니다. 이것은 침입적 /j/ 연결입니다.",
+    "practiceGuide": "Say 'I-yam' with a gentle /y/ glide. This is natural and happens automatically in fluent speech.",
+    "segmentIndex": 81
+  }
+]

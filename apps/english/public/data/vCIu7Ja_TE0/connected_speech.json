@@ -1,0 +1,182 @@
+[
+  {
+    "type": "contraction",
+    "originalText": "There's two ways",
+    "phonetic": "/ðɛrz tuː weɪz/",
+    "koreanPhonetic": "데어즈 투 웨이즈",
+    "explanation": "Contraction of 'there is' to 'there's'. In casual speech, 'there's' is used even with plural nouns, which is grammatically informal but extremely common.",
+    "explanationKo": "'there is'가 'there's'로 축약됩니다. 일상 대화에서는 복수 명사와도 'there's'를 사용하는데, 문법적으로는 비격식이지만 매우 일반적입니다.",
+    "practiceGuide": "Practice saying 'there's' as a single syllable: /ðɛrz/. Don't pause between 'there' and 'is'.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "see the world",
+    "phonetic": "/siː ðə wɜːrld/",
+    "koreanPhonetic": "씨 더 월드",
+    "explanation": "The /iː/ sound at the end of 'see' links smoothly into the 'th' /ð/ of 'the' through a glide. The words flow together without any break.",
+    "explanationKo": "'see'의 /iː/ 소리가 'the'의 /ð/ 소리로 부드럽게 연결됩니다. 단어 사이에 끊김 없이 흘러갑니다.",
+    "practiceGuide": "Connect 'see the' so it sounds almost like 'see-the' as one unit. Don't insert a glottal stop.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɑnə/",
+    "koreanPhonetic": "워나",
+    "explanation": "'Want to' is reduced to 'wanna' /ˈwɑnə/ in fast speech. This is one of the most common reductions in American English.",
+    "explanationKo": "'want to'가 빠른 말에서 'wanna' /ˈwɑnə/로 축약됩니다. 미국 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "Practice: 'I wanna go' = /aɪ ˈwɑnə ɡoʊ/. Keep it as two syllables: WAN-na.",
+    "segmentIndex": 53
+  },
+  {
+    "type": "elision",
+    "originalText": "and every day",
+    "phonetic": "/ən ˈevri deɪ/",
+    "koreanPhonetic": "언 에브리 데이",
+    "explanation": "The 'd' in 'and' is typically elided (dropped) in fast speech, becoming /ən/. Additionally, 'every' often loses its middle vowel, becoming /ˈevri/ instead of /ˈevəri/.",
+    "explanationKo": "'and'의 'd'가 빠른 말에서 탈락하여 /ən/이 됩니다. 또한 'every'는 중간 모음이 탈락하여 /ˈevəri/ 대신 /ˈevri/가 되기도 합니다.",
+    "practiceGuide": "Say 'an every day' instead of 'and every day'. Drop the 'd' completely.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "linking",
+    "originalText": "chops more wood",
+    "phonetic": "/tʃɑps mɔːr wʊd/",
+    "koreanPhonetic": "쪱스 모어 우드",
+    "explanation": "The /s/ at the end of 'chops' links directly into the /m/ of 'more' without a pause. This consonant-to-consonant linking keeps the speech flowing.",
+    "explanationKo": "'chops'의 /s/가 'more'의 /m/으로 쉼 없이 바로 연결됩니다. 이 자음-자음 연결이 말의 흐름을 유지합니다.",
+    "practiceGuide": "Say 'chopsmore' as if it's one word, then add 'wood'. Keep the /s/ and /m/ connected.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "reduction",
+    "originalText": "go home and sharpen",
+    "phonetic": "/ɡoʊ hoʊm ən ˈʃɑːrpən/",
+    "koreanPhonetic": "고우 홈 언 샤픈",
+    "explanation": "'And' is reduced to just /ən/ between 'home' and 'sharpen'. In connected speech, function words like 'and' are almost always reduced.",
+    "explanationKo": "'and'가 'home'과 'sharpen' 사이에서 /ən/으로만 축약됩니다. 연결된 말에서 'and' 같은 기능어는 거의 항상 축약됩니다.",
+    "practiceGuide": "Practice: 'home-n-sharpen' - the 'and' should barely be audible, just a nasal /n/ sound.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't have to",
+    "phonetic": "/doʊnt ˈhæftə/",
+    "koreanPhonetic": "돈트 해프투",
+    "explanation": "In rapid speech, 'have to' undergoes assimilation where the /v/ becomes /f/ due to the voiceless /t/ influence, producing 'hafta'. The 't' in 'don't' may also become a glottal stop.",
+    "explanationKo": "빠른 말에서 'have to'가 동화 현상을 겪어 무성음 /t/의 영향으로 /v/가 /f/로 변하여 'hafta'가 됩니다. 'don't'의 't'도 성문 파열음이 될 수 있습니다.",
+    "practiceGuide": "Practice: 'don-hafta' - merge 'have to' into 'hafta' /ˈhæftə/.",
+    "segmentIndex": 40
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡɔnə/",
+    "koreanPhonetic": "거나",
+    "explanation": "'Going to' is frequently reduced to 'gonna' /ˈɡɔnə/ in spoken English. This is standard in casual and semi-formal speech.",
+    "explanationKo": "'going to'가 구어체 영어에서 'gonna' /ˈɡɔnə/로 자주 축약됩니다. 비격식 및 준격식 대화에서 표준입니다.",
+    "practiceGuide": "Two syllables: GON-na. Never pronounce the /ɡ/ sound at the beginning too hard.",
+    "segmentIndex": 75
+  },
+  {
+    "type": "linking",
+    "originalText": "learn to ask for",
+    "phonetic": "/lɜːrn tə ˈæsk fɔːr/",
+    "koreanPhonetic": "러른 투 애스크 포어",
+    "explanation": "The /n/ at the end of 'learn' links into the /t/ of 'to', and the /k/ of 'ask' links into the /f/ of 'for'. These consonant clusters flow smoothly in natural speech.",
+    "explanationKo": "'learn'의 /n/이 'to'의 /t/로, 'ask'의 /k/가 'for'의 /f/로 연결됩니다. 이 자음군들이 자연스러운 말에서 부드럽게 흐릅니다.",
+    "practiceGuide": "Say 'learn-to-ask-for' as a connected phrase. Don't release the /k/ in 'ask' before saying 'for'.",
+    "segmentIndex": 79
+  },
+  {
+    "type": "reduction",
+    "originalText": "interested in your opinion",
+    "phonetic": "/ˈɪntrəstɪd ɪn jər əˈpɪnjən/",
+    "koreanPhonetic": "인트레스티드 인 유어 어피념",
+    "explanation": "'Interested' loses its middle syllable, becoming three syllables /ˈɪntrəstɪd/ instead of four. 'Your' is reduced to /jər/. 'Opinion' stress falls on the second syllable.",
+    "explanationKo": "'interested'가 중간 음절을 잃어 4음절 대신 3음절 /ˈɪntrəstɪd/가 됩니다. 'your'는 /jər/로 축약됩니다.",
+    "practiceGuide": "Say 'IN-tres-tid' (3 syllables, not 4). Reduce 'your' to 'yer'.",
+    "segmentIndex": 102
+  },
+  {
+    "type": "elision",
+    "originalText": "last to speak",
+    "phonetic": "/læs tə spiːk/",
+    "koreanPhonetic": "래스 투 스피크",
+    "explanation": "The /t/ at the end of 'last' is often elided or unreleased before the /t/ of 'to', creating a single /t/ sound. This simplification of consonant clusters is natural in fluent speech.",
+    "explanationKo": "'last'의 /t/가 'to'의 /t/ 앞에서 탈락하거나 불파음이 되어 하나의 /t/ 소리를 만듭니다. 이런 자음군 단순화는 유창한 말에서 자연스럽습니다.",
+    "practiceGuide": "Don't say 'last-tuh'. Instead, say 'las-to-speak' with one clean /t/ between 'las' and 'speak'.",
+    "segmentIndex": 98
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of",
+    "phonetic": "/ə ˈlɑɹə/",
+    "koreanPhonetic": "어 로러",
+    "explanation": "In American English, 'a lot of' is often reduced where the /t/ in 'lot' becomes a flap /ɹ/ (sounds like a soft 'd'), and 'of' reduces to just /ə/.",
+    "explanationKo": "미국 영어에서 'a lot of'는 'lot'의 /t/가 설탄음 /ɹ/ (부드러운 'd' 소리)가 되고, 'of'가 /ə/로만 축약됩니다.",
+    "practiceGuide": "Practice: 'a-lod-uh' - the 't' in 'lot' sounds like a soft 'd', and 'of' is barely heard.",
+    "segmentIndex": 80
+  },
+  {
+    "type": "linking",
+    "originalText": "at the end",
+    "phonetic": "/æt ði ˈend/",
+    "koreanPhonetic": "앤 디 엔드",
+    "explanation": "The /t/ in 'at' links to the /ð/ in 'the' without a break, and 'the' before a vowel is pronounced /ðiː/ with a clear /iː/ sound, which then links into 'end'.",
+    "explanationKo": "'at'의 /t/가 'the'의 /ð/와 끊김 없이 연결되고, 모음 앞의 'the'는 /ðiː/로 발음되어 'end'로 연결됩니다.",
+    "practiceGuide": "Say 'at-thee-end' smoothly. Notice 'the' becomes 'thee' before a vowel.",
+    "segmentIndex": 114
+  },
+  {
+    "type": "contraction",
+    "originalText": "who've never",
+    "phonetic": "/huːv ˈnevər/",
+    "koreanPhonetic": "후브 네버",
+    "explanation": "'Who have' contracts to 'who've' /huːv/. This contraction with the relative pronoun 'who' and auxiliary 'have' is common in spoken English but often missed by learners.",
+    "explanationKo": "'who have'가 'who've' /huːv/로 축약됩니다. 관계대명사 'who'와 조동사 'have'의 이 축약은 구어체에서 흔하지만 학습자가 자주 놓칩니다.",
+    "practiceGuide": "Practice: 'whoov never' - the /v/ sound links directly to 'never'.",
+    "segmentIndex": 58
+  },
+  {
+    "type": "assimilation",
+    "originalText": "did you",
+    "phonetic": "/ˈdɪdʒuː/",
+    "koreanPhonetic": "디져",
+    "explanation": "When /d/ is followed by /j/ (the 'y' sound in 'you'), they assimilate into /dʒ/ (like the 'j' in 'judge'). This palatalization is a hallmark of natural English speech.",
+    "explanationKo": "/d/가 /j/ ('you'의 'y' 소리) 앞에 오면 /dʒ/ ('judge'의 'j'처럼)로 동화됩니다. 이 구개음화는 자연스러운 영어의 특징입니다.",
+    "practiceGuide": "Say 'di-joo' not 'did-you'. The /d/ and /j/ merge into a /dʒ/ sound.",
+    "segmentIndex": 203
+  },
+  {
+    "type": "reduction",
+    "originalText": "because",
+    "phonetic": "/kəz/",
+    "koreanPhonetic": "커즈",
+    "explanation": "In casual speech, 'because' is heavily reduced to just 'cuz' or ''cause' /kəz/, losing the first syllable entirely.",
+    "explanationKo": "비격식 말에서 'because'가 'cuz' 또는 ''cause' /kəz/로 크게 축약되어 첫 음절이 완전히 사라집니다.",
+    "practiceGuide": "Listen for 'cuz' in fast speech. Practice: 'cuz the rule is...' instead of 'because the rule is...'",
+    "segmentIndex": 38
+  },
+  {
+    "type": "linking",
+    "originalText": "figure it out",
+    "phonetic": "/ˈfɪɡjərɪt aʊt/",
+    "koreanPhonetic": "피겨릿 아웃",
+    "explanation": "The /r/ at the end of 'figure' links into the vowel /ɪ/ of 'it', and the /t/ of 'it' links into the vowel /aʊ/ of 'out'. This creates a smooth chain of sounds.",
+    "explanationKo": "'figure'의 /r/이 'it'의 모음 /ɪ/로, 'it'의 /t/가 'out'의 모음 /aʊ/로 연결됩니다. 부드러운 소리 사슬을 만듭니다.",
+    "practiceGuide": "Say 'figger-it-out' as one flowing phrase. The 'r' in 'figure' connects to 'it', and the 't' in 'it' becomes a flap.",
+    "segmentIndex": 196
+  },
+  {
+    "type": "elision",
+    "originalText": "instruments and washing",
+    "phonetic": "/ˈɪnstrəmənts ən ˈwɑʃɪŋ/",
+    "koreanPhonetic": "인스트러번츠 언 워싱",
+    "explanation": "The word 'instruments' often loses the /t/ before /s/, becoming /ˈɪnstrəməns/. 'And' reduces to /ən/ as usual in connected speech.",
+    "explanationKo": "'instruments'에서 /s/ 앞의 /t/가 종종 탈락하여 /ˈɪnstrəməns/가 됩니다. 'and'는 연결된 말에서 평소처럼 /ən/으로 축약됩니다.",
+    "practiceGuide": "Say 'instrumens-n-washing'. Drop the /t/ in 'instruments' and reduce 'and' to /n/.",
+    "segmentIndex": 132
+  }
+]

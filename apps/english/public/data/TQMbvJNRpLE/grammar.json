@@ -1,0 +1,122 @@
+[
+  {
+    "pattern": "By a show of hands, how many of you...?",
+    "explanation": "A rhetorical question used in presentations and speeches to engage the audience directly. 'By a show of hands' is a fixed expression used to request a visible vote or indication of agreement from a group.",
+    "explanationKo": "'손을 들어 보세요'라는 표현으로 청중에게 직접 참여를 요청하는 수사적 질문 형식입니다. 프레젠테이션이나 연설에서 자주 사용됩니다.",
+    "examples": [
+      "By a show of hands, how many of you have traveled abroad?",
+      "By a show of hands, who agrees with this proposal?"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "What stands between us and [goal] has far less to do with X and far more to do with Y",
+    "explanation": "A contrastive structure that minimizes one factor (X) and emphasizes another (Y). 'Has far less/more to do with' creates a powerful comparative argument. This construction is effective for reframing a discussion.",
+    "explanationKo": "한 요인(X)을 최소화하고 다른 요인(Y)을 강조하는 대조 구문입니다. 'has far less/more to do with'는 강력한 비교 논증을 만듭니다. 논의의 프레임을 전환할 때 효과적입니다.",
+    "examples": [
+      "Success has far less to do with natural talent and far more to do with consistent practice.",
+      "Happiness has far less to do with wealth and far more to do with relationships."
+    ],
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "It would be very difficult to argue that you couldn't...",
+    "explanation": "A persuasive construction using a double negative through understatement. Instead of saying 'you can obviously do this,' the speaker makes the counter-argument seem impossible to sustain, which is a stronger rhetorical device.",
+    "explanationKo": "이중 부정을 통한 완곡 표현으로, '이것을 할 수 있다'고 직접 말하는 대신 '할 수 없다고 주장하기 어렵다'고 하여 반론 자체가 불가능하게 만드는 더 강력한 수사법입니다.",
+    "examples": [
+      "It would be very difficult to argue that exercise isn't beneficial for health.",
+      "It would be hard to argue that this isn't an improvement over the previous version."
+    ],
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "If only he would just [verb]",
+    "explanation": "An expression of unfulfilled wish or regret about someone's behavior. 'If only' + 'would' indicates a desired but unrealized condition. Often used when quoting others' wishes about someone's behavior.",
+    "explanationKo": "누군가의 행동에 대한 이루어지지 않은 소망이나 아쉬움을 표현합니다. 'If only' + 'would'는 바라지만 실현되지 않는 조건을 나타냅니다. 타인의 바람을 인용할 때 자주 사용됩니다.",
+    "examples": [
+      "If only she would listen to our advice.",
+      "If only the weather would clear up for the weekend."
+    ],
+    "segmentIndex": 51
+  },
+  {
+    "pattern": "Instead of [pretending/doing X], I decided to [do Y]",
+    "explanation": "A structure that contrasts an abandoned approach with a new chosen strategy. It shows active decision-making and is used to describe a pivot or change in approach.",
+    "explanationKo": "버린 접근법과 새로 선택한 전략을 대조하는 구문입니다. 능동적인 의사결정을 보여주며, 접근 방식의 전환을 설명할 때 사용됩니다.",
+    "examples": [
+      "Instead of complaining about the situation, I decided to take action.",
+      "Instead of waiting for the perfect moment, she decided to start immediately."
+    ],
+    "segmentIndex": 59
+  },
+  {
+    "pattern": "The truth of the matter is, [statement]",
+    "explanation": "A discourse marker used to introduce an honest or frank admission. It signals that the speaker is about to reveal something genuine or contradictory to expectations. More formal and emphatic than simply saying 'actually.'",
+    "explanationKo": "솔직한 고백이나 인정을 도입할 때 사용하는 담화 표지어입니다. 화자가 기대와 다른 진실을 밝히려 한다는 신호입니다. 단순히 'actually'보다 더 격식 있고 강조적입니다.",
+    "examples": [
+      "The truth of the matter is, I never really enjoyed that job.",
+      "The truth of the matter is, most people give up too early."
+    ],
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "Not necessarily X, not even necessarily Y, but just Z",
+    "explanation": "A narrowing construction that eliminates larger expectations step by step to arrive at the simplest, most achievable action. Creates a sense of relief by showing that the required effort is much smaller than anticipated.",
+    "explanationKo": "큰 기대를 단계적으로 제거하여 가장 단순하고 달성 가능한 행동에 도달하는 축소 구문입니다. 필요한 노력이 예상보다 훨씬 작다는 것을 보여주어 안도감을 줍니다.",
+    "examples": [
+      "Not necessarily a full workout, not even necessarily going to the gym, but just a 10-minute walk.",
+      "Not necessarily a complete overhaul, not even a major change, but just a small tweak."
+    ],
+    "segmentIndex": 71
+  },
+  {
+    "pattern": "From [starting point] all the way through to [end point]",
+    "explanation": "A time/progression expression emphasizing the complete span from beginning to end. 'All the way through' adds emphasis showing continuity without interruption across the entire period.",
+    "explanationKo": "시작점부터 끝점까지의 전체 범위를 강조하는 시간/진행 표현입니다. 'all the way through'가 전체 기간에 걸친 연속성을 강조합니다.",
+    "examples": [
+      "From the first chapter all the way through to the conclusion, the book was captivating.",
+      "From elementary school all the way through to college, she excelled in mathematics."
+    ],
+    "segmentIndex": 48
+  },
+  {
+    "pattern": "I keep using this word, [word]. I don't want to imply [X].",
+    "explanation": "A self-correction or clarification technique where the speaker pauses to address potential misunderstanding of their own word choice. Shows awareness of audience interpretation and adds nuance.",
+    "explanationKo": "화자가 자신의 단어 선택에 대한 잠재적 오해를 해소하기 위해 잠시 멈추는 자기 교정 또는 명확화 기법입니다. 청중의 해석에 대한 인식을 보여주고 뉘앙스를 추가합니다.",
+    "examples": [
+      "I keep saying 'simple.' I don't want to imply it doesn't require effort.",
+      "I keep using the term 'easy.' I don't want to imply anyone can do it without practice."
+    ],
+    "segmentIndex": 46
+  },
+  {
+    "pattern": "It's not about X. It's about Y.",
+    "explanation": "A reframing structure that redirects attention from the obvious or surface-level interpretation (X) to the deeper, more important truth (Y). Very common in motivational and persuasive speaking.",
+    "explanationKo": "명백하거나 표면적인 해석(X)에서 더 깊고 중요한 진실(Y)로 주의를 전환하는 재프레이밍 구조입니다. 동기 부여 및 설득적 연설에서 매우 흔합니다.",
+    "examples": [
+      "It's not about the destination. It's about the journey.",
+      "It's not about how many hours you work. It's about how productive those hours are."
+    ],
+    "segmentIndex": 132
+  },
+  {
+    "pattern": "If you [do one small thing], you'll [do progressively bigger things]",
+    "explanation": "A chain reaction or snowball structure showing how one tiny action leads to increasingly larger outcomes. The progressive escalation from small to large creates a motivational cascade effect.",
+    "explanationKo": "하나의 작은 행동이 점점 더 큰 결과로 이어지는 연쇄 반응 또는 눈덩이 구조입니다. 작은 것에서 큰 것으로의 점진적 확대가 동기 부여의 연쇄 효과를 만듭니다.",
+    "examples": [
+      "If you write one sentence, you'll write a paragraph, a page, a chapter.",
+      "If you save one dollar, you'll save ten, a hundred, a thousand."
+    ],
+    "segmentIndex": 155
+  },
+  {
+    "pattern": "It turns out [surprising fact]",
+    "explanation": "A phrase used to introduce information that was discovered or realized, often with an element of surprise. Signals that reality differed from the speaker's prior assumption.",
+    "explanationKo": "발견하거나 깨달은 정보를 소개할 때 사용하는 구문으로, 종종 놀라움의 요소가 포함됩니다. 현실이 화자의 이전 가정과 달랐다는 것을 나타냅니다.",
+    "examples": [
+      "It turns out the restaurant was already closed.",
+      "It turns out she had been living next door the whole time."
+    ],
+    "segmentIndex": 163
+  }
+]

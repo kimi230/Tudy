@@ -1,0 +1,430 @@
+[
+  {
+    "word": "inspire",
+    "phonetic": "/ɪnˈspaɪər/",
+    "partOfSpeech": "verb",
+    "definition": "To fill someone with the urge or ability to do or feel something, especially something creative or positive",
+    "meaningKo": "영감을 주다, 고무하다",
+    "etymology": "Latin 'inspirare' (to breathe into)",
+    "rootBreakdown": "in- (into) + spirare (to breathe)",
+    "relatedWords": [
+      "inspiration",
+      "inspiring",
+      "inspired",
+      "aspirate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "Some leaders are able to inspire where others aren't."
+  },
+  {
+    "word": "innovative",
+    "phonetic": "/ˈɪnəveɪtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Introducing new ideas, methods, or products; being ahead of the times",
+    "meaningKo": "혁신적인",
+    "etymology": "Latin 'innovare' (to renew, alter)",
+    "rootBreakdown": "in- (into) + novare (to make new) from novus (new)",
+    "relatedWords": [
+      "innovate",
+      "innovation",
+      "innovator",
+      "novel"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "Why is Apple so innovative?"
+  },
+  {
+    "word": "assumption",
+    "phonetic": "/əˈsʌmpʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A thing that is accepted as true without proof; a belief taken for granted",
+    "meaningKo": "가정, 추정",
+    "etymology": "Latin 'assumptio' (a taking up)",
+    "rootBreakdown": "ad- (to) + sumere (to take)",
+    "relatedWords": [
+      "assume",
+      "presumption",
+      "presumptuous"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "That seem to defy all of the assumptions."
+  },
+  {
+    "word": "defy",
+    "phonetic": "/dɪˈfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To openly resist or refuse to obey; to challenge the power of",
+    "meaningKo": "거스르다, 저항하다, 무시하다",
+    "etymology": "Old French 'defier' (to challenge, defy)",
+    "rootBreakdown": "de- (away) + fidere (to trust) → to renounce faith",
+    "relatedWords": [
+      "defiance",
+      "defiant",
+      "defiantly"
+    ],
+    "isEssential": false,
+    "segmentIndex": 3,
+    "contextSentence": "That seem to defy all of the assumptions."
+  },
+  {
+    "word": "codify",
+    "phonetic": "/ˈkɒdɪfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To arrange laws, rules, or principles into a systematic collection or code",
+    "meaningKo": "체계화하다, 성문화하다",
+    "etymology": "Latin 'codex' (book of laws) + -fy (to make)",
+    "rootBreakdown": "cod- (code/system) + -ify (to make into)",
+    "relatedWords": [
+      "code",
+      "codification",
+      "decode"
+    ],
+    "isEssential": false,
+    "segmentIndex": 27,
+    "contextSentence": "All I did was codify it."
+  },
+  {
+    "word": "differentiating",
+    "phonetic": "/ˌdɪfəˈrenʃieɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Serving to make something distinct from others",
+    "meaningKo": "차별화하는",
+    "etymology": "Latin 'differentia' (difference)",
+    "rootBreakdown": "dis- (apart) + ferre (to carry) → to carry apart",
+    "relatedWords": [
+      "differentiate",
+      "different",
+      "differentiation",
+      "differential"
+    ],
+    "isEssential": true,
+    "segmentIndex": 34,
+    "contextSentence": "Whether you call it your differentiating value proposition."
+  },
+  {
+    "word": "proprietary",
+    "phonetic": "/prəˈpraɪətəri/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to an owner or ownership; belonging exclusively to a particular company",
+    "meaningKo": "독점적인, 소유권의",
+    "etymology": "Latin 'proprietarius' (owner)",
+    "rootBreakdown": "proprius (one's own) + -ary (relating to)",
+    "relatedWords": [
+      "property",
+      "proprietor",
+      "appropriate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 35,
+    "contextSentence": "Or your proprietary process or your USP."
+  },
+  {
+    "word": "neocortex",
+    "phonetic": "/ˌniːoʊˈkɔːrtɛks/",
+    "partOfSpeech": "noun",
+    "definition": "The part of the cerebral cortex concerned with sight and hearing, serving as the center of higher mental functions",
+    "meaningKo": "신피질",
+    "etymology": "Greek 'neo' (new) + Latin 'cortex' (bark, outer layer)",
+    "rootBreakdown": "neo- (new) + cortex (outer layer of brain)",
+    "relatedWords": [
+      "cortex",
+      "cortical",
+      "neocortical"
+    ],
+    "isEssential": true,
+    "segmentIndex": 91,
+    "contextSentence": "Our newest brain, our homo sapien brain, our neocortex, corresponds with the what level."
+  },
+  {
+    "word": "limbic",
+    "phonetic": "/ˈlɪmbɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the limbic system, the brain structures involved in emotion, behavior, and long-term memory",
+    "meaningKo": "변연계의",
+    "etymology": "Latin 'limbus' (border, edge)",
+    "rootBreakdown": "limbus (border) + -ic (relating to) — named for its border position in the brain",
+    "relatedWords": [
+      "limbus",
+      "limbo"
+    ],
+    "isEssential": true,
+    "segmentIndex": 93,
+    "contextSentence": "The middle two sections make up our limbic brains."
+  },
+  {
+    "word": "rationalize",
+    "phonetic": "/ˈræʃənəlaɪz/",
+    "partOfSpeech": "verb",
+    "definition": "To attempt to explain or justify behavior or an attitude with logical reasons, even if these are not appropriate",
+    "meaningKo": "합리화하다",
+    "etymology": "Latin 'rationalis' (of or belonging to reason)",
+    "rootBreakdown": "ratio (reason) + -al (relating to) + -ize (to make)",
+    "relatedWords": [
+      "rational",
+      "rationalization",
+      "irrational",
+      "rationale"
+    ],
+    "isEssential": true,
+    "segmentIndex": 102,
+    "contextSentence": "And then we allow people to rationalize it with the tangible things we say and do."
+  },
+  {
+    "word": "tangible",
+    "phonetic": "/ˈtændʒəbl/",
+    "partOfSpeech": "adjective",
+    "definition": "Clear and definite; real; that can be perceived by touch or understood concretely",
+    "meaningKo": "구체적인, 실체가 있는, 만질 수 있는",
+    "etymology": "Latin 'tangibilis' (that may be touched)",
+    "rootBreakdown": "tangere (to touch) + -ible (capable of)",
+    "relatedWords": [
+      "intangible",
+      "tangentially",
+      "tangent"
+    ],
+    "isEssential": false,
+    "segmentIndex": 102,
+    "contextSentence": "We allow people to rationalize it with the tangible things we say and do."
+  },
+  {
+    "word": "muster",
+    "phonetic": "/ˈmʌstər/",
+    "partOfSpeech": "verb",
+    "definition": "To summon up or gather (a feeling, attitude, or response); to assemble",
+    "meaningKo": "모으다, 소집하다, (용기 등을) 내다",
+    "etymology": "Old French 'mostre' (show, display)",
+    "rootBreakdown": "From Latin 'monstrare' (to show)",
+    "relatedWords": [
+      "musterable",
+      "unmuster"
+    ],
+    "isEssential": false,
+    "segmentIndex": 108,
+    "contextSentence": "And the best we can muster up is, I don't know, it just doesn't feel right."
+  },
+  {
+    "word": "loyal",
+    "phonetic": "/ˈlɔɪəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Giving or showing firm and constant support or allegiance to a person or institution",
+    "meaningKo": "충성스러운, 충실한",
+    "etymology": "Old French 'loial' from Latin 'legalis' (legal)",
+    "rootBreakdown": "lex/leg- (law) + -al (relating to) → faithful to the law/bond",
+    "relatedWords": [
+      "loyalty",
+      "loyalist",
+      "disloyal"
+    ],
+    "isEssential": true,
+    "segmentIndex": 115,
+    "contextSentence": "Or more importantly, be loyal, and want to be a part of what it is that you do."
+  },
+  {
+    "word": "pursuit",
+    "phonetic": "/pərˈsuːt/",
+    "partOfSpeech": "noun",
+    "definition": "The action of following or chasing someone or something; the act of striving toward a goal",
+    "meaningKo": "추구, 추격",
+    "etymology": "Anglo-French 'pursuite' (a following after)",
+    "rootBreakdown": "pur- (forward) + suit (follow) from Latin 'sequi' (to follow)",
+    "relatedWords": [
+      "pursue",
+      "pursuer",
+      "pursuance"
+    ],
+    "isEssential": true,
+    "segmentIndex": 123,
+    "contextSentence": "The pursuit of powered man flight was like the dot com of the day."
+  },
+  {
+    "word": "undercapitalized",
+    "phonetic": "/ˌʌndərˈkæpɪtəlaɪzd/",
+    "partOfSpeech": "adjective",
+    "definition": "Having insufficient capital or funding to operate effectively",
+    "meaningKo": "자본이 부족한",
+    "etymology": "English 'under-' + 'capitalized'",
+    "rootBreakdown": "under- (below/insufficient) + capital (wealth/funds) + -ized (made into)",
+    "relatedWords": [
+      "capitalize",
+      "capital",
+      "capitalization",
+      "overcapitalized"
+    ],
+    "isEssential": false,
+    "segmentIndex": 127,
+    "contextSentence": "Undercapitalized, the wrong people, bad market conditions."
+  },
+  {
+    "word": "permutation",
+    "phonetic": "/ˌpɜːrmjuˈteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A way of arranging things in different orders; each of several possible variations",
+    "meaningKo": "순열, 변형, 배열",
+    "etymology": "Latin 'permutatio' (a changing throughout)",
+    "rootBreakdown": "per- (through) + mutare (to change)",
+    "relatedWords": [
+      "permute",
+      "mutation",
+      "commute",
+      "transmute"
+    ],
+    "isEssential": false,
+    "segmentIndex": 126,
+    "contextSentence": "People always give you the same permutation of the same three things."
+  },
+  {
+    "word": "diffusion",
+    "phonetic": "/dɪˈfjuːʒən/",
+    "partOfSpeech": "noun",
+    "definition": "The spreading of something more widely; the process by which an innovation is communicated over time",
+    "meaningKo": "확산, 보급",
+    "etymology": "Latin 'diffusio' (a pouring forth)",
+    "rootBreakdown": "dis- (apart) + fundere (to pour)",
+    "relatedWords": [
+      "diffuse",
+      "infusion",
+      "transfusion",
+      "effusion"
+    ],
+    "isEssential": true,
+    "segmentIndex": 157,
+    "contextSentence": "Something called the law of diffusion of innovation."
+  },
+  {
+    "word": "tipping point",
+    "phonetic": "/ˈtɪpɪŋ pɔɪnt/",
+    "partOfSpeech": "noun",
+    "definition": "The critical point in a situation beyond which a significant and often unstoppable effect or change takes place",
+    "meaningKo": "전환점, 티핑 포인트",
+    "etymology": "English compound: 'tip' (to overturn) + 'point' (moment)",
+    "rootBreakdown": "tip (to cause to lean/fall) + point (a precise moment)",
+    "relatedWords": [
+      "threshold",
+      "turning point",
+      "watershed"
+    ],
+    "isEssential": true,
+    "segmentIndex": 164,
+    "contextSentence": "You cannot have it until you achieve this tipping point."
+  },
+  {
+    "word": "penetration",
+    "phonetic": "/ˌpenɪˈtreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The extent to which a product is recognized and used in a particular market",
+    "meaningKo": "침투, 보급률",
+    "etymology": "Latin 'penetratio' (a piercing)",
+    "rootBreakdown": "penetrare (to enter into) + -tion (act of)",
+    "relatedWords": [
+      "penetrate",
+      "impenetrable"
+    ],
+    "isEssential": false,
+    "segmentIndex": 165,
+    "contextSentence": "Between 15 and 18% market penetration, and then the system tips."
+  },
+  {
+    "word": "intuitive",
+    "phonetic": "/ɪnˈtuːɪtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Using or based on what one feels to be true even without conscious reasoning; instinctive",
+    "meaningKo": "직관적인",
+    "etymology": "Medieval Latin 'intuitivus' (to look at)",
+    "rootBreakdown": "in- (at) + tueri (to look, watch) + -ive (having the quality of)",
+    "relatedWords": [
+      "intuition",
+      "intuit",
+      "counterintuitive"
+    ],
+    "isEssential": true,
+    "segmentIndex": 175,
+    "contextSentence": "They're more comfortable making those intuitive decisions."
+  },
+  {
+    "word": "substandard",
+    "phonetic": "/sʌbˈstændərd/",
+    "partOfSpeech": "adjective",
+    "definition": "Below the usual or required standard; of inferior quality",
+    "meaningKo": "표준 이하의, 기준 미달의",
+    "etymology": "English prefix 'sub-' + 'standard'",
+    "rootBreakdown": "sub- (below/under) + standard (level of quality)",
+    "relatedWords": [
+      "standard",
+      "subpar",
+      "below-standard"
+    ],
+    "isEssential": false,
+    "segmentIndex": 179,
+    "contextSentence": "Even though the technology was substandard."
+  },
+  {
+    "word": "cynical",
+    "phonetic": "/ˈsɪnɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Believing that people are motivated purely by self-interest; distrustful of others' sincerity",
+    "meaningKo": "냉소적인, 비꼬는",
+    "etymology": "Greek 'kynikos' (dog-like, from the Cynic philosophers)",
+    "rootBreakdown": "kyon (dog) + -ical (relating to) — Cynic philosophers were called 'dog-like' for their contempt of convention",
+    "relatedWords": [
+      "cynic",
+      "cynicism",
+      "cynically"
+    ],
+    "isEssential": false,
+    "segmentIndex": 202,
+    "contextSentence": "And the cynical majority said, we don't believe you."
+  },
+  {
+    "word": "orator",
+    "phonetic": "/ˈɒrətər/",
+    "partOfSpeech": "noun",
+    "definition": "A public speaker, especially one who is eloquent or skilled",
+    "meaningKo": "연설가, 웅변가",
+    "etymology": "Latin 'orator' (speaker, pleader)",
+    "rootBreakdown": "orare (to speak, pray) + -tor (one who does)",
+    "relatedWords": [
+      "oration",
+      "oratory",
+      "oral"
+    ],
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "And he certainly wasn't the only great orator of the day."
+  },
+  {
+    "word": "status quo",
+    "phonetic": "/ˌsteɪtəs ˈkwoʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The existing state of affairs; the current situation or condition",
+    "meaningKo": "현상 유지, 현재 상태",
+    "etymology": "Latin, literally 'the state in which'",
+    "rootBreakdown": "status (state, condition) + quo (in which)",
+    "relatedWords": [
+      "status",
+      "state"
+    ],
+    "isEssential": true,
+    "segmentIndex": 61,
+    "contextSentence": "Everything we do, we believe in challenging the status quo."
+  },
+  {
+    "word": "chasm",
+    "phonetic": "/ˈkæzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A deep fissure or gap; a profound difference between two groups or viewpoints",
+    "meaningKo": "캐즘, 깊은 틈, 격차",
+    "etymology": "Greek 'khasma' (a yawning hollow)",
+    "rootBreakdown": "khasma (gaping void)",
+    "relatedWords": [
+      "abyss",
+      "gorge",
+      "divide"
+    ],
+    "isEssential": true,
+    "segmentIndex": 172,
+    "contextSentence": "As Jeffrey Moore calls it, crossing the chasm."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "type": "linking",
+    "originalText": "How do you explain",
+    "phonetic": "/haʊ dʒu ɪkˈspleɪn/",
+    "koreanPhonetic": "하우 쥬 익스플레인",
+    "explanation": "'How do you' is linked together where 'do you' becomes /dʒu/ through palatalization, a very common spoken English contraction.",
+    "explanationKo": "'How do you'가 연결되면서 'do you'가 구개음화를 통해 /dʒu/가 됩니다. 이것은 매우 일반적인 구어 영어 축약입니다.",
+    "practiceGuide": "Say 'how-djoo' as one smooth unit. The 'd' in 'do' blends with the 'y' in 'you' to create a 'j' sound.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to buy one",
+    "phonetic": "/ˈwɑnə baɪ wʌn/",
+    "koreanPhonetic": "워너 바이 원",
+    "explanation": "'Want to' reduces to 'wanna' /ˈwɑnə/ in natural speech. This is one of the most common reductions in American English.",
+    "explanationKo": "'Want to'가 자연스러운 대화에서 'wanna' /ˈwɑnə/로 축약됩니다. 이것은 미국 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "Practice saying 'wanna' instead of 'want to'. Keep it as two quick syllables: WA-nuh.",
+    "segmentIndex": 51
+  },
+  {
+    "type": "linking",
+    "originalText": "all of the assumptions",
+    "phonetic": "/ˈɔːləv ðə əˈsʌmpʃənz/",
+    "koreanPhonetic": "올러브 더 어썸션즈",
+    "explanation": "The final 'l' in 'all' links to the 'o' in 'of' creating a smooth connection. The 'f' in 'of' then links to 'the'. Vowel-to-vowel linking is a fundamental connected speech pattern.",
+    "explanationKo": "'all'의 마지막 'l'이 'of'의 'o'에 연결되어 부드러운 연결을 만듭니다. 그런 다음 'of'의 'f'가 'the'에 연결됩니다. 모음 간 연결은 기본적인 연음 패턴입니다.",
+    "practiceGuide": "Say 'all-uv-thuh' as a continuous flow. Don't pause between 'all' and 'of'.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "elision",
+    "originalText": "just a computer company",
+    "phonetic": "/ˈdʒʌsə kəmˈpjuːtər ˈkʌmpəni/",
+    "koreanPhonetic": "저서 컴퓨터 컴퍼니",
+    "explanation": "The 't' at the end of 'just' is elided (dropped) before the 'a', which is a very common pattern in American English where final /t/ is dropped before a vowel or consonant.",
+    "explanationKo": "'just'의 끝 't'가 'a' 앞에서 탈락(생략)됩니다. 이것은 미국 영어에서 어말 /t/가 모음이나 자음 앞에서 탈락하는 매우 일반적인 패턴입니다.",
+    "practiceGuide": "Say 'jus-a' instead of 'just a'. The 't' disappears completely. This sounds natural, not lazy.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "reduction",
+    "originalText": "because they can do a job",
+    "phonetic": "/bɪˈkɒz ðeɪ kən duː ə dʒɑːb/",
+    "koreanPhonetic": "비커즈 데이 큰 두어 잡",
+    "explanation": "'Because' reduces to /bɪˈkɒz/ or even /kəz/ in fast speech. 'Can' reduces to /kən/ (schwa vowel) when unstressed. These function word reductions are hallmarks of fluent English.",
+    "explanationKo": "'Because'가 빠른 말에서 /bɪˈkɒz/ 또는 /kəz/로 축약됩니다. 'Can'은 강세가 없을 때 /kən/(슈와 모음)으로 축약됩니다. 이러한 기능어 축약은 유창한 영어의 특징입니다.",
+    "practiceGuide": "Practice the unstressed 'can' as /kən/ — it should sound like 'kun', not 'KAN'. The strong form 'can' is only used for emphasis.",
+    "segmentIndex": 119
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't buy what you do",
+    "phonetic": "/doʊm baɪ wʌtʃu duː/",
+    "koreanPhonetic": "도움 바이 와츄 두",
+    "explanation": "The 'n't' in 'don't' assimilates to /m/ before 'b' in 'buy' (nasal assimilation). 'What you' becomes /wʌtʃu/ through palatalization where /t/ + /j/ = /tʃ/.",
+    "explanationKo": "'don't'의 'n't'가 'buy'의 'b' 앞에서 /m/으로 동화됩니다(비음 동화). 'What you'는 /t/ + /j/ = /tʃ/ 구개음화를 통해 /wʌtʃu/가 됩니다.",
+    "practiceGuide": "For 'don't buy', let the 'n' sound become 'm' before the 'b'. For 'what you', say 'wa-choo' as one unit.",
+    "segmentIndex": 67
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈgɒnə/",
+    "koreanPhonetic": "거너",
+    "explanation": "While not explicitly spoken in this talk, 'going to' commonly reduces to 'gonna' /ˈgɒnə/ in casual spoken English. The middle sounds are compressed significantly.",
+    "explanationKo": "이 강연에서 직접적으로 사용되지는 않지만, 'going to'는 일상 구어 영어에서 흔히 'gonna' /ˈgɒnə/로 축약됩니다. 가운데 소리가 상당히 압축됩니다.",
+    "practiceGuide": "Two syllables only: 'GUH-nuh'. Don't try to pronounce the 'ing' or 'to' separately.",
+    "segmentIndex": 114
+  },
+  {
+    "type": "linking",
+    "originalText": "from the outside in",
+    "phonetic": "/frʌm ðiː aʊtˌsaɪdɪn/",
+    "koreanPhonetic": "프럼 디 아웃사이딘",
+    "explanation": "The final 'd' in 'outside' links directly to 'in' creating /daɪdɪn/. When a word ending in a consonant is followed by a vowel, they naturally link together.",
+    "explanationKo": "'outside'의 마지막 'd'가 'in'에 직접 연결되어 /daɪdɪn/을 만듭니다. 자음으로 끝나는 단어 뒤에 모음이 오면 자연스럽게 연결됩니다.",
+    "practiceGuide": "Say 'outside-in' as one word: 'out-SY-din'. The 'd' smoothly connects to the 'i'.",
+    "segmentIndex": 42
+  },
+  {
+    "type": "elision",
+    "originalText": "most of us",
+    "phonetic": "/moʊstəv ʌs/",
+    "koreanPhonetic": "모스터브 어스",
+    "explanation": "The 't' in 'most' is softened or elided before the vowel in 'of'. The three words flow together as one rhythmic unit. Function words like 'of' and 'us' are typically unstressed.",
+    "explanationKo": "'most'의 't'가 'of'의 모음 앞에서 약화되거나 탈락합니다. 세 단어가 하나의 리듬 단위로 흘러갑니다. 'of'와 'us' 같은 기능어는 일반적으로 비강세입니다.",
+    "practiceGuide": "Say 'MOHS-tuhv-us' as one smooth phrase. Don't emphasize 'of' or 'us'.",
+    "segmentIndex": 52
+  },
+  {
+    "type": "reduction",
+    "originalText": "that's how",
+    "phonetic": "/ðæts haʊ/",
+    "koreanPhonetic": "대츠 하우",
+    "explanation": "'That's' is a contraction of 'that is' where the vowel in 'is' is completely eliminated. This type of contraction with 's is universal in spoken English.",
+    "explanationKo": "'That's'는 'that is'의 축약형으로 'is'의 모음이 완전히 제거됩니다. 's를 사용한 이 유형의 축약은 구어 영어에서 보편적입니다.",
+    "practiceGuide": "Always use contractions like 'that's', 'it's', 'he's' in spoken English. The full form sounds unnaturally formal.",
+    "segmentIndex": 52
+  },
+  {
+    "type": "assimilation",
+    "originalText": "used to",
+    "phonetic": "/juːstə/",
+    "koreanPhonetic": "유스터",
+    "explanation": "In 'used to', the 'd' in 'used' assimilates with the 't' in 'to', and the whole phrase becomes /juːstə/. The vowel in 'to' reduces to a schwa.",
+    "explanationKo": "'used to'에서 'used'의 'd'가 'to'의 't'와 동화되어 전체 구가 /juːstə/가 됩니다. 'to'의 모음은 슈와로 축약됩니다.",
+    "practiceGuide": "Say 'YOOS-tuh' — two syllables. The 'd' and 't' merge into a single 't' sound.",
+    "segmentIndex": 196
+  },
+  {
+    "type": "linking",
+    "originalText": "there's a pattern",
+    "phonetic": "/ðɛrzə ˈpætərn/",
+    "koreanPhonetic": "데어저 패턴",
+    "explanation": "The 'z' sound at the end of 'there's' links smoothly to the 'a' that follows. This consonant-to-vowel linking is one of the most natural connections in English.",
+    "explanationKo": "'there's' 끝의 'z' 소리가 뒤따르는 'a'에 부드럽게 연결됩니다. 이 자음-모음 연결은 영어에서 가장 자연스러운 연결 중 하나입니다.",
+    "practiceGuide": "Say 'therez-uh-PA-turn'. The 'z' glides directly into the unstressed 'a'.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "reduction",
+    "originalText": "sort of",
+    "phonetic": "/ˈsɔːrtəv/",
+    "koreanPhonetic": "소러브",
+    "explanation": "'Sort of' reduces to /ˈsɔːrtəv/ or even /ˈsɔːrdə/ in casual speech. The 't' may become a flap /ɾ/ and 'of' loses its vowel quality.",
+    "explanationKo": "'Sort of'가 일상적인 대화에서 /ˈsɔːrtəv/ 또는 /ˈsɔːrdə/로 축약됩니다. 't'가 탄설음 /ɾ/가 될 수 있고 'of'는 모음 특성을 잃습니다.",
+    "practiceGuide": "Say 'SOR-duv' or even 'SOR-duh'. Don't pronounce each word separately.",
+    "segmentIndex": 55
+  },
+  {
+    "type": "elision",
+    "originalText": "Wright brothers",
+    "phonetic": "/raɪt ˈbrʌðərz/",
+    "koreanPhonetic": "라잇 브라더즈",
+    "explanation": "The 'W' in 'Wright' is silent — a historical spelling artifact. The word is pronounced exactly like 'right'. Silent letters are common in English and must be memorized.",
+    "explanationKo": "'Wright'의 'W'는 묵음입니다 — 역사적 철자의 흔적이죠. 이 단어는 'right'와 정확히 같이 발음됩니다. 묵음은 영어에서 흔하며 외워야 합니다.",
+    "practiceGuide": "Pronounce 'Wright' as 'RITE' — identical to 'right' and 'write'. The 'wr' cluster always has a silent 'w'.",
+    "segmentIndex": 13
+  },
+  {
+    "type": "linking",
+    "originalText": "blood and sweat and tears",
+    "phonetic": "/blʌd ən swɛt ən tɪərz/",
+    "koreanPhonetic": "블러든 스웨른 티어즈",
+    "explanation": "'And' reduces to /ən/ or /n/ in connected speech. The 'd' in 'blood' links to the reduced 'and', and 't' in 'sweat' links to the next 'and'. This creates a rhythmic, flowing phrase.",
+    "explanationKo": "'And'가 연결된 말에서 /ən/ 또는 /n/으로 축약됩니다. 'blood'의 'd'가 축약된 'and'에 연결되고, 'sweat'의 't'가 다음 'and'에 연결됩니다. 이는 리듬감 있고 유창한 구를 만듭니다.",
+    "practiceGuide": "Say 'blud-n-swet-n-teerz'. Reduce every 'and' to just /n/. This is how native speakers naturally say it.",
+    "segmentIndex": 120
+  },
+  {
+    "type": "assimilation",
+    "originalText": "would you",
+    "phonetic": "/wʊdʒu/",
+    "koreanPhonetic": "우쥬",
+    "explanation": "'Would you' undergoes palatalization where /d/ + /j/ becomes /dʒ/. This is the same process as 'did you' → 'didja' and 'could you' → 'couldja'.",
+    "explanationKo": "'Would you'에서 /d/ + /j/가 /dʒ/가 되는 구개음화가 일어납니다. 이것은 'did you' → 'didja', 'could you' → 'couldja'와 같은 과정입니다.",
+    "practiceGuide": "Say 'WUH-joo' as two syllables. The 'd' and 'y' blend into a 'j' sound naturally.",
+    "segmentIndex": 82
+  },
+  {
+    "type": "reduction",
+    "originalText": "them",
+    "phonetic": "/əm/",
+    "koreanPhonetic": "엄",
+    "explanation": "The pronoun 'them' is commonly reduced to /əm/ in unstressed positions. The 'th' disappears entirely in fast speech, leaving only the schwa + m.",
+    "explanationKo": "대명사 'them'은 비강세 위치에서 흔히 /əm/으로 축약됩니다. 빠른 말에서 'th'가 완전히 사라지고 슈와 + m만 남습니다.",
+    "practiceGuide": "In phrases like 'tell them' or 'give them', say 'tell-um' and 'give-um'. Only stress 'them' when it's emphatic.",
+    "segmentIndex": 75
+  },
+  {
+    "type": "linking",
+    "originalText": "figure out",
+    "phonetic": "/ˈfɪɡjər aʊt/",
+    "koreanPhonetic": "피겨라웃",
+    "explanation": "The 'r' at the end of 'figure' (in American English, where the 'r' is pronounced) links to the vowel 'ou' in 'out'. This is called intrusive/linking R.",
+    "explanationKo": "'figure' 끝의 'r'(미국 영어에서 'r'이 발음됨)이 'out'의 모음 'ou'에 연결됩니다. 이를 연결 R이라고 합니다.",
+    "practiceGuide": "Say 'FIG-yer-out' — the 'r' at the end of 'figure' flows directly into 'out'.",
+    "segmentIndex": 14
+  }
+]

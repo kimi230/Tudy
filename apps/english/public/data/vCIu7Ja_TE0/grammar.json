@@ -1,0 +1,174 @@
+[
+  {
+    "pattern": "There's + noun phrase (existential 'there')",
+    "explanation": "The existential 'there' construction is used to introduce the existence or presence of something. 'There's' is a contraction of 'there is' and is commonly used in spoken English even with plural nouns (informal).",
+    "explanationKo": "존재를 나타내는 'there' 구문으로 무언가의 존재나 상태를 소개할 때 사용합니다. 'There's'는 'there is'의 축약형이며, 구어체에서는 복수 명사와도 자주 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "There's two ways to see the world.",
+        "translation": "세상을 보는 방법은 두 가지가 있습니다."
+      },
+      {
+        "sentence": "There's a great story of two lumberjacks.",
+        "translation": "두 명의 벌목꾼에 대한 좋은 이야기가 있습니다."
+      }
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "The thing that + clause (defining relative clause)",
+    "explanation": "A defining relative clause with 'that' specifies exactly which thing is being referred to. This pattern is used to narrow down or identify something specific from a broader category.",
+    "explanationKo": "'that'을 사용한 한정 관계절로, 정확히 어떤 것을 가리키는지 명시합니다. 넓은 범주에서 특정한 것을 좁혀서 식별하는 데 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "Some people see the thing that they want.",
+        "translation": "어떤 사람들은 자신이 원하는 것을 봅니다."
+      },
+      {
+        "sentence": "Some people see the thing that prevents them from getting the thing that they want.",
+        "translation": "어떤 사람들은 자신이 원하는 것을 얻지 못하게 막는 것을 봅니다."
+      }
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "It's not about X, it's about Y (contrastive focus)",
+    "explanation": "This pattern creates a contrast between two ideas, dismissing one perspective (X) and emphasizing another (Y). It's a powerful rhetorical device used frequently in motivational speeches.",
+    "explanationKo": "두 개의 아이디어를 대조하는 패턴으로, 한 관점(X)을 부정하고 다른 관점(Y)을 강조합니다. 동기부여 연설에서 자주 사용되는 강력한 수사적 장치입니다.",
+    "examples": [
+      {
+        "sentence": "It's not about how much you can get done each day. It's how much you can get done over the course of a career.",
+        "translation": "하루에 얼마나 많이 해내느냐가 아닙니다. 커리어 전체에 걸쳐 얼마나 많이 해낼 수 있느냐입니다."
+      },
+      {
+        "sentence": "It's not about how tough you are, it's not about how smart you are.",
+        "translation": "얼마나 강한지가 중요한 게 아닙니다, 얼마나 똑똑한지도 아닙니다."
+      }
+    ],
+    "segmentIndex": 13
+  },
+  {
+    "pattern": "You just cannot / You just can't (emphatic restriction)",
+    "explanation": "'Just' here serves as an intensifier meaning 'simply' or 'merely,' making the prohibition or restriction feel more absolute and direct. It softens the tone while maintaining firmness.",
+    "explanationKo": "여기서 'just'는 '단지', '그저'라는 의미의 강조어로, 금지나 제한을 더 절대적이고 직접적으로 느끼게 합니다. 단호함을 유지하면서도 어조를 부드럽게 합니다.",
+    "examples": [
+      {
+        "sentence": "You just cannot deny anyone else to go after whatever they want.",
+        "translation": "다만 다른 사람이 원하는 것을 추구할 권리를 빼앗으면 안 됩니다."
+      },
+      {
+        "sentence": "You just can't get in the way of somebody else getting what they want.",
+        "translation": "다만 다른 사람이 원하는 것을 얻는 데 방해가 되면 안 됩니다."
+      }
+    ],
+    "segmentIndex": 39
+  },
+  {
+    "pattern": "None of them + verb (emphatic negation with collective subject)",
+    "explanation": "'None of them' is used as a strong, emphatic way to say zero out of a group. It creates a dramatic, absolute statement. In this speech, it's used repetitively for rhetorical effect.",
+    "explanationKo": "'None of them'은 집단 중 아무도 없다는 것을 강하게 강조하는 방법입니다. 극적이고 절대적인 진술을 만듭니다. 이 연설에서는 수사적 효과를 위해 반복적으로 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "None of them make it through.",
+        "translation": "그들 중 아무도 통과하지 못합니다."
+      }
+    ],
+    "segmentIndex": 54
+  },
+  {
+    "pattern": "Somehow, some way + clause (expressing unlikely perseverance)",
+    "explanation": "This paired expression conveys that something happens despite seeming impossible. 'Somehow' (by some means) and 'some way' (through some method) together emphasize mysterious or unexplainable resilience.",
+    "explanationKo": "이 쌍으로 된 표현은 불가능해 보이는 상황에서도 무언가가 일어남을 전달합니다. 'somehow'(어떻게든)와 'some way'(어떤 방법으로든)가 함께 신비롭거나 설명할 수 없는 회복력을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "Somehow, some way, they are able to find the energy to dig down deep inside themselves.",
+        "translation": "어떻게든, 어떤 방법으로든, 자신의 깊은 내면을 파고들어 에너지를 찾아냅니다."
+      }
+    ],
+    "segmentIndex": 65
+  },
+  {
+    "pattern": "You'd better get really good at + gerund (strong advice/warning)",
+    "explanation": "'You'd better' (you had better) expresses strong advice or a warning about what someone should do. Combined with 'get really good at,' it emphasizes the importance of developing a specific skill.",
+    "explanationKo": "'You'd better'(~하는 게 좋겠다)는 누군가가 해야 할 일에 대한 강한 조언이나 경고를 표현합니다. 'get really good at'과 결합하여 특정 기술을 개발하는 것의 중요성을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "If you want to be an elite warrior, you better get really, really good at helping the person to the left of you.",
+        "translation": "정예 전사가 되고 싶다면, 왼쪽에 있는 사람을 돕는 것을 정말로 아주 잘해야 합니다."
+      }
+    ],
+    "segmentIndex": 70
+  },
+  {
+    "pattern": "The skill is to + infinitive (defining abstract abilities)",
+    "explanation": "This pattern defines what a particular skill consists of by using the infinitive. It's a clear, instructional way to specify exactly what behavior or action constitutes the skill being discussed.",
+    "explanationKo": "이 패턴은 부정사를 사용하여 특정 기술이 무엇으로 구성되는지 정의합니다. 논의 중인 기술을 구성하는 정확한 행동이나 행위를 명시하는 명확하고 교육적인 방법입니다.",
+    "examples": [
+      {
+        "sentence": "The skill is really to keep your opinions to yourself.",
+        "translation": "핵심 기술은 자기 의견을 참는 것입니다."
+      },
+      {
+        "sentence": "The skill to hold your opinions to yourself until everyone has spoken does two things.",
+        "translation": "모든 사람이 말할 때까지 의견을 참는 기술은 두 가지를 해냅니다."
+      }
+    ],
+    "segmentIndex": 107
+  },
+  {
+    "pattern": "As you + verb, subject + will + verb (temporal/consequential)",
+    "explanation": "This pattern links a condition or progression ('as you gain fame') with its consequence ('people will treat you better'). 'As' here means 'during the time that' or 'in proportion to.'",
+    "explanationKo": "이 패턴은 조건이나 진행('명성을 얻으면')과 그 결과('사람들이 더 잘 대해줄 것')를 연결합니다. 여기서 'as'는 '~하는 동안' 또는 '~에 비례하여'를 의미합니다.",
+    "examples": [
+      {
+        "sentence": "As you gain fame, as you gain fortune, as you gain position and seniority, people will treat you better.",
+        "translation": "명성을 얻고, 재산을 얻고, 지위와 직급이 올라가면, 사람들이 더 잘 대해줄 것입니다."
+      }
+    ],
+    "segmentIndex": 157
+  },
+  {
+    "pattern": "It's not X. It's Y. (redefinition through negation)",
+    "explanation": "This rhetorical pattern first negates an assumption, then provides the speaker's alternative interpretation. It forces the audience to reconsider their perspective.",
+    "explanationKo": "이 수사적 패턴은 먼저 가정을 부정한 다음, 화자의 대안적 해석을 제공합니다. 청중이 관점을 재고하도록 강제합니다.",
+    "examples": [
+      {
+        "sentence": "It is not a generation. It is not them. They are not difficult or hard to understand.",
+        "translation": "세대의 문제가 아닙니다. 그들의 문제가 아닙니다. 그들이 어렵거나 이해하기 힘든 것이 아닙니다."
+      },
+      {
+        "sentence": "Maybe it is not them. It is like... Me.",
+        "translation": "어쩌면 그들의 문제가 아닐 수 있습니다. 그건 마치... 접니다."
+      }
+    ],
+    "segmentIndex": 177
+  },
+  {
+    "pattern": "Working hard for something we X is called Y (definitional parallelism)",
+    "explanation": "This pattern creates memorable definitions by pairing a condition with its label. The parallel structure makes the contrast between 'stress' and 'passion' sharp and quotable.",
+    "explanationKo": "이 패턴은 조건과 그 명칭을 짝지어 기억에 남는 정의를 만듭니다. 병렬 구조가 '스트레스'와 '열정' 사이의 대비를 날카롭고 인용하기 좋게 만듭니다.",
+    "examples": [
+      {
+        "sentence": "Working hard for something we don't care about is called stress.",
+        "translation": "관심 없는 것을 위해 열심히 일하는 것을 스트레스라 부릅니다."
+      },
+      {
+        "sentence": "Working hard for something we love is called passion.",
+        "translation": "사랑하는 것을 위해 열심히 일하는 것을 열정이라 부릅니다."
+      }
+    ],
+    "segmentIndex": 240
+  },
+  {
+    "pattern": "How do I + verb (question as rhetorical device)",
+    "explanation": "Using 'How do I' framed as a question serves as a rhetorical device to challenge common assumptions. The speaker contrasts two versions of the question to highlight a different mindset.",
+    "explanationKo": "'How do I'를 질문 형태로 사용하여 일반적인 가정에 도전하는 수사적 장치입니다. 화자는 두 가지 버전의 질문을 대비시켜 다른 사고방식을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "How do I get the best out of my people? vs. How do I help my people be at their natural best?",
+        "translation": "'어떻게 하면 직원들에게서 최대한을 끌어낼까?' vs '어떻게 하면 직원들이 자연스럽게 최고의 모습을 발휘하도록 도울까?'"
+      }
+    ],
+    "segmentIndex": 185
+  }
+]
