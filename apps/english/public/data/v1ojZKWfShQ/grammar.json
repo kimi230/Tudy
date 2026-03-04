@@ -13,6 +13,10 @@
         "translation": "왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?"
       }
     ],
+    "examplesKo": [
+      "왜 똑똑한 사람들이 미루는 걸까요?",
+      "왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?"
+    ],
     "segmentIndex": 1
   },
   {
@@ -25,6 +29,9 @@
         "translation": "마치 우리 머리 위에 유리 천장이 있는 것처럼."
       }
     ],
+    "examplesKo": [
+      "마치 우리 머리 위에 유리 천장이 있는 것처럼."
+    ],
     "segmentIndex": 6
   },
   {
@@ -36,6 +43,9 @@
         "sentence": "No matter how many new business opportunities we get.",
         "translation": "아무리 많은 새로운 사업 기회를 얻어도."
       }
+    ],
+    "examplesKo": [
+      "아무리 많은 새로운 사업 기회를 얻어도."
     ],
     "segmentIndex": 3
   },
@@ -53,6 +63,10 @@
         "translation": "제가 '깨어 있으면서 자는 상태'라고 부르는 것."
       }
     ],
+    "examplesKo": [
+      "신피질 또는 전두엽이라고 알려진 부분.",
+      "제가 '깨어 있으면서 자는 상태'라고 부르는 것."
+    ],
     "segmentIndex": 26
   },
   {
@@ -64,6 +78,9 @@
         "sentence": "Give me the child for seven years, and I'll give you the man.",
         "translation": "저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다."
       }
+    ],
+    "examplesKo": [
+      "저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다."
     ],
     "segmentIndex": 33
   },
@@ -77,6 +94,9 @@
         "translation": "아이들은 끈기의 대표적인 예입니다, 그렇지 않나요?"
       }
     ],
+    "examplesKo": [
+      "아이들은 끈기의 대표적인 예입니다, 그렇지 않나요?"
+    ],
     "segmentIndex": 49
   },
   {
@@ -89,6 +109,9 @@
         "translation": "자원이나 기회의 부족 때문이 아닙니다."
       }
     ],
+    "examplesKo": [
+      "자원이나 기회의 부족 때문이 아닙니다."
+    ],
     "segmentIndex": 7
   },
   {
@@ -100,6 +123,9 @@
         "sentence": "Rather than take up critical thinking, it hands it over to the midbrain.",
         "translation": "비판적 사고를 사용하는 대신 중뇌로 넘겨버립니다."
       }
+    ],
+    "examplesKo": [
+      "비판적 사고를 사용하는 대신 중뇌로 넘겨버립니다."
     ],
     "segmentIndex": 74
   },
@@ -117,6 +143,10 @@
         "translation": "자기 인생의 영화에서 주인공으로 촬영을 시작하지 않으면, 기본적으로 다른 누군가의 영화에서 엑스트라가 될 겁니다."
       }
     ],
+    "examplesKo": [
+      "그것을 선택하지 않으면, 기본적으로 다른 누군가의 의제에 빠져들게 됩니다.",
+      "자기 인생의 영화에서 주인공으로 촬영을 시작하지 않으면, 기본적으로 다른 누군가의 영화에서 엑스트라가 될 겁니다."
+    ],
     "segmentIndex": 186
   },
   {
@@ -129,38 +159,9 @@
         "translation": "나침반 바늘을 잡기 시작할 때... 그때 우리는 진정한 게임인 자기 통달을 시작할 수 있습니다."
       }
     ],
+    "examplesKo": [
+      "나침반 바늘을 잡기 시작할 때... 그때 우리는 진정한 게임인 자기 통달을 시작할 수 있습니다."
+    ],
     "segmentIndex": 199
-  },
-  {
-    "pattern": "I've got news for you (rhetorical warning expression)",
-    "explanation": "A colloquial expression used as a rhetorical device to prepare the listener for an uncomfortable truth or surprise. Often used with irony or humor in speeches.",
-    "explanationKo": "'I've got news for you'는 듣는 사람에게 불편한 진실이나 놀라움을 준비시키는 수사적 표현입니다. 연설에서 종종 아이러니나 유머와 함께 사용됩니다.",
-    "examples": [
-      {
-        "sentence": "I've got news for you. You're in Disneyland.",
-        "translation": "알려드릴 게 있습니다. 디즈니랜드에 계신 겁니다."
-      },
-      {
-        "sentence": "If you hang out with nine recreational drug users, I've got news for you.",
-        "translation": "9명의 기호용 마약 사용자와 어울리면, 알려드릴 게 있습니다."
-      }
-    ],
-    "segmentIndex": 127
-  },
-  {
-    "pattern": "People like + proper noun (exemplification pattern)",
-    "explanation": "A pattern used to provide concrete, well-known examples to support a general point. It makes abstract arguments tangible and persuasive by referencing real people.",
-    "explanationKo": "'People like + 고유명사'는 일반적인 주장을 뒷받침하기 위해 구체적이고 유명한 예시를 제공하는 패턴입니다. 실제 인물을 참조하여 추상적 논증을 구체적이고 설득력 있게 만듭니다.",
-    "examples": [
-      {
-        "sentence": "People like Colonel Sanders, who retired broke at 65 before starting KFC.",
-        "translation": "65세에 빈털터리로 은퇴한 후 KFC를 시작한 커널 샌더스 같은 사람들."
-      },
-      {
-        "sentence": "Obviously Oprah, people like Helen Keller.",
-        "translation": "물론 오프라, 헬렌 켈러 같은 분들."
-      }
-    ],
-    "segmentIndex": 14
   }
 ]

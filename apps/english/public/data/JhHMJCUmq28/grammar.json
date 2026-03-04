@@ -6,6 +6,9 @@
     "examples": [
       "The power of our brain machines has kept growing exponentially."
     ],
+    "examplesKo": [
+      "우리 두뇌 기계의 성능은 기하급수적으로 계속 성장해 왔습니다."
+    ],
     "segmentIndex": 2
   },
   {
@@ -14,6 +17,9 @@
     "explanationKo": "'be about to + 동사'는 어떤 일이 곧 일어나려 한다는 것을 표현할 때 사용해. 긴박감이나 즉각성을 줘. '막 ~하려 하다'라는 의미야.",
     "examples": [
       "But this process is about to meet its physical limits."
+    ],
+    "examplesKo": [
+      "하지만 이 과정은 곧 물리적 한계에 도달하려 하고 있습니다."
     ],
     "segmentIndex": 3
   },
@@ -25,6 +31,10 @@
       "A computer is made up of very simple components doing very simple things.",
       "This information is made up of bits."
     ],
+    "examplesKo": [
+      "컴퓨터는 아주 단순한 일을 하는 아주 단순한 부품들로 이루어져 있습니다.",
+      "이 정보는 비트로 이루어져 있습니다."
+    ],
     "segmentIndex": 6
   },
   {
@@ -33,6 +43,9 @@
     "explanationKo": "'Once + 절'은 한 가지 일이 다른 일을 가능하게 하거나 촉발함을 보여줘. 첫 번째 행동이 두 번째의 전제 조건임을 암시해. '일단 ~하면'이라는 뜻이야.",
     "examples": [
       "Once you can add, you can also multiply, and once you can multiply, you can basically do anything."
+    ],
+    "examplesKo": [
+      "일단 덧셈을 할 수 있으면 곱셈도 할 수 있고, 일단 곱셈을 할 수 있으면 기본적으로 무엇이든 할 수 있습니다."
     ],
     "segmentIndex": 14
   },
@@ -44,6 +57,10 @@
       "Electrons may just transfer themselves to the other side of a blocked passage.",
       "Quantum simulations could provide new insights on proteins that might revolutionize medicine."
     ],
+    "examplesKo": [
+      "전자가 막힌 통로의 반대편으로 스스로 이동할 수도 있습니다.",
+      "양자 시뮬레이션은 의학에 혁명을 일으킬 수 있는 단백질에 대한 새로운 통찰을 제공할 수 있습니다."
+    ],
     "segmentIndex": 21
   },
   {
@@ -52,6 +69,9 @@
     "explanationKo": "'as long as + 절'은 주절이 유효하기 위해 유지되어야 하는 조건을 설정할 때 사용해. '~하는 한', '~하는 동안'이라는 뜻이야.",
     "examples": [
       "So, as long as it's unobserved, the qubit is in a superposition of probabilities for zero and one."
+    ],
+    "examplesKo": [
+      "따라서 관측되지 않는 한, 큐비트는 0과 1에 대한 확률의 중첩 상태에 있습니다."
     ],
     "segmentIndex": 31
   },
@@ -62,6 +82,9 @@
     "examples": [
       "What this means is that you get the entire lot of calculations that are possible with your setup all done at the same time."
     ],
+    "examplesKo": [
+      "이것이 의미하는 바는, 당신의 설정으로 가능한 모든 계산이 동시에 수행된다는 것입니다."
+    ],
     "segmentIndex": 45
   },
   {
@@ -70,6 +93,9 @@
     "explanationKo": "'So while + 절'은 한 가지 점을 인정하면서 대조적인 결론을 소개할 때 사용해. '~이긴 하지만, ~이다'라는 의미로 두 아이디어의 균형을 잡아.",
     "examples": [
       "So while quantum computers will probably not replace our home computers, in some areas they are vastly superior."
+    ],
+    "examplesKo": [
+      "따라서 양자 컴퓨터가 우리 가정용 컴퓨터를 대체하지는 않겠지만, 일부 분야에서는 압도적으로 뛰어납니다."
     ],
     "segmentIndex": 48
   },
@@ -81,6 +107,10 @@
       "But by cleverly exploiting superposition and entanglement, this can be exponentially more efficient.",
       "Scientists are trying to use these unusual quantum properties to their advantage by building quantum computers."
     ],
+    "examplesKo": [
+      "하지만 중첩과 얽힘을 영리하게 활용함으로써 이것은 기하급수적으로 더 효율적일 수 있습니다.",
+      "과학자들은 양자 컴퓨터를 만들어서 이 특이한 양자 특성을 유리하게 활용하려고 노력하고 있습니다."
+    ],
     "segmentIndex": 47
   },
   {
@@ -89,6 +119,9 @@
     "explanationKo": "'Why not + 동사?'는 어떤 아이디어를 당연하거나 자연스러운 해결책으로 제안할 때 사용해. 혁신적인 접근 방식을 수사적으로 소개하는 방법이야.",
     "examples": [
       "So why not simulate quantum physics with actual quantum physics?"
+    ],
+    "examplesKo": [
+      "그렇다면 실제 양자 물리학으로 양자 물리학을 시뮬레이션하면 안 될까요?"
     ],
     "segmentIndex": 60
   }

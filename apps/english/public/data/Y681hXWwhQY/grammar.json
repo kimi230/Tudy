@@ -6,6 +6,9 @@
     "examples": [
       "What have you been doing today?"
     ],
+    "examplesKo": [
+      "오늘 뭐 하고 있었어요?"
+    ],
     "segmentIndex": 2
   },
   {
@@ -14,6 +17,9 @@
     "explanationKo": "'as + 형용사 + as + 명사' 구조는 두 가지가 어떤 특성에서 동등하다고 비교할 때 사용해요. 'as busy as a bee'(벌처럼 바쁜)처럼 관용적 표현에 자주 쓰여요.",
     "examples": [
       "I'm actually as busy as a bee."
+    ],
+    "examplesKo": [
+      "사실 저는 벌처럼 정말 바빠요."
     ],
     "segmentIndex": 5
   },
@@ -24,6 +30,9 @@
     "examples": [
       "If you've seen nature documentaries about worker bees, you probably think animals are always on the move."
     ],
+    "examplesKo": [
+      "일벌에 관한 자연 다큐멘터리를 본 적이 있다면, 아마 동물은 항상 움직이고 있다고 생각할 거예요."
+    ],
     "segmentIndex": 5
   },
   {
@@ -33,6 +42,9 @@
     "examples": [
       "In the natural world, where finding food and shelter is hard work, why have some animals evolved to do nothing?"
     ],
+    "examplesKo": [
+      "먹이와 거처를 찾는 것이 힘든 일인 자연 세계에서, 왜 일부 동물들은 아무것도 하지 않도록 진화했을까요?"
+    ],
     "segmentIndex": 7
   },
   {
@@ -41,6 +53,9 @@
     "explanationKo": "명령형은 듣는 사람에게 직접적인 지시나 명령을 할 때 사용해요. 부사를 추가하면 행동을 어떻게 해야 하는지 구체화해요.",
     "examples": [
       "Look carefully into an ant's nest and you'll see around half..."
+    ],
+    "examplesKo": [
+      "개미 둥지를 자세히 들여다보면 약 절반은..."
     ],
     "segmentIndex": 10
   },
@@ -52,6 +67,10 @@
       "Would you get out of bed on Monday morning if you didn't have to?",
       "Would humans have invented bread or beer or fire if we hadn't been bored?"
     ],
+    "examplesKo": [
+      "안 해도 된다면 월요일 아침에 침대에서 일어나시겠어요?",
+      "우리가 지루하지 않았다면 인류는 빵이나 맥주나 불을 발명했을까요?"
+    ],
     "segmentIndex": 18
   },
   {
@@ -60,6 +79,9 @@
     "explanationKo": "3차 조건문(If + 과거완료, would have + 과거분사)은 과거의 비현실적 조건과 그 가상 결과를 표현해요. 과거 상황이 달랐다면 무엇이 일어났을지를 말해요.",
     "examples": [
       "Would humans have invented bread or beer or fire if we hadn't been bored?"
+    ],
+    "examplesKo": [
+      "우리가 지루하지 않았다면 인류는 빵이나 맥주나 불을 발명했을까요?"
     ],
     "segmentIndex": 22
   },
@@ -70,6 +92,9 @@
     "examples": [
       "Switching off is harder than it's ever been."
     ],
+    "examplesKo": [
+      "쉬는 것이 그 어느 때보다 더 어려워졌습니다."
+    ],
     "segmentIndex": 24
   },
   {
@@ -79,6 +104,9 @@
     "examples": [
       "That's why we're constantly swiping and scrolling and looking for the next big thing."
     ],
+    "examplesKo": [
+      "그래서 우리는 끊임없이 화면을 넘기고, 스크롤하고, 다음 대단한 것을 찾고 있는 거예요."
+    ],
     "segmentIndex": 25
   },
   {
@@ -87,6 +115,9 @@
     "explanationKo": "'so + 형용사 + that + 절' 구조는 어떤 것의 정도가 극단적이어서 특정 결과를 초래함을 보여줘요. '너무 ~해서 ...하다'로 해석해요.",
     "examples": [
       "Three-toed sloths move so slowly that algae grows on their coats."
+    ],
+    "examplesKo": [
+      "세 발가락 나무늘보는 너무 느리게 움직여서 털 위에 이끼가 자랍니다."
     ],
     "segmentIndex": 32
   }

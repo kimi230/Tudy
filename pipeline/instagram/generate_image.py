@@ -303,16 +303,24 @@ def generate_grammar_card(
     y += SECTION_GAP * 2
 
     # Examples with Korean translations
-    examples = item.get("examples", [])
+    # examples can be list[str] or list[dict] with {text, textKo}
+    examples_raw = item.get("examples", [])
     examples_ko = item.get("examplesKo", [])
-    for i, ex in enumerate(examples[:3]):
+    ex_en_font = semi(int(sizes["context"] * 1.5))
+    ex_ko_font = semi(int(sizes["context"] * 1.3))
+    for i, ex in enumerate(examples_raw[:3]):
+        # Normalize: dict → extract text/textKo, str → use as-is
+        if isinstance(ex, dict):
+            en_text = ex.get("text", "")
+            ko_text = ex.get("textKo", "")
+        else:
+            en_text = str(ex)
+            ko_text = examples_ko[i] if i < len(examples_ko) else ""
         draw.rectangle([(pad, y), (pad + 4, y + 60)], fill=hex_to_rgb(ACCENT_BLUE))
-        ex_en_font = semi(int(sizes["context"] * 1.5))    # 26→39 (feed), 28→42 (story)
-        ex_ko_font = semi(int(sizes["context"] * 1.3))    # 26→33 (feed), 28→36 (story)
-        y = draw_text_wrapped(draw, f'"{ex}"', pad + 20, y, ex_en_font, TEXT_LIGHT, max_w - 20)
-        if i < len(examples_ko) and examples_ko[i]:
+        y = draw_text_wrapped(draw, f'"{en_text}"', pad + 20, y, ex_en_font, TEXT_LIGHT, max_w - 20)
+        if ko_text:
             y += 4
-            y = draw_text_wrapped(draw, examples_ko[i], pad + 20, y, ex_ko_font, ACCENT_YELLOW, max_w - 20)
+            y = draw_text_wrapped(draw, ko_text, pad + 20, y, ex_ko_font, ACCENT_YELLOW, max_w - 20)
         y += SECTION_GAP
 
     y += SECTION_GAP

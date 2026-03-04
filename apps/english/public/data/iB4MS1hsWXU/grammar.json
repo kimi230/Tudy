@@ -8,6 +8,11 @@
       "My kids had left home for college or were leaving.",
       "Conservatism had changed, so I'd lost a lot of those friends."
     ],
+    "examplesKo": [
+      "내 결혼 생활은 막 끝났었다.",
+      "아이들은 대학에 가기 위해 집을 떠났거나 떠나는 중이었다.",
+      "보수주의가 변해버려서 많은 친구들을 잃었었다."
+    ],
     "segmentIndex": 1
   },
   {
@@ -18,16 +23,11 @@
       "If you open the kitchen drawers where there should have been utensils, there were Post-it notes.",
       "If nobody has ever loved you, do you think you can be a good father?"
     ],
-    "segmentIndex": 6
-  },
-  {
-    "pattern": "The + comparative, the + comparative",
-    "explanation": "While not directly used in this pattern, David Brooks uses escalating parallel structures to show cause and effect chains. The repetition reinforces escalation.",
-    "explanationKo": "데이비드 브룩스는 병렬 구조의 반복을 통해 점점 강해지는 인과관계를 보여줘요. 반복이 상승 효과를 만들어요.",
-    "examples": [
-      "The message of the meritocracy is... The myth of the meritocracy is... The emotion of the meritocracy is... The anthropology of the meritocracy is... The evil of the meritocracy is..."
+    "examplesKo": [
+      "주방 서랍을 열면 식기가 있어야 할 자리에 포스트잇이 붙어 있었다.",
+      "아무도 당신을 사랑해 준 적이 없다면, 좋은 아버지가 될 수 있다고 생각하세요?"
     ],
-    "segmentIndex": 27
+    "segmentIndex": 6
   },
   {
     "pattern": "Passive voice: was/were + past participle",
@@ -37,6 +37,11 @@
       "I was humiliated by that failed commitment.",
       "I was lonely.",
       "He'd been held back, been through the foster care system."
+    ],
+    "examplesKo": [
+      "나는 그 실패한 약속으로 인해 수치심을 느꼈다.",
+      "나는 외로웠다.",
+      "그는 유급을 당했고, 위탁 양육 시스템을 거쳤었다."
     ],
     "segmentIndex": 2
   },
@@ -49,6 +54,11 @@
       "What we really yearn for is longing and love for another.",
       "What they see is joy."
     ],
+    "examplesKo": [
+      "그래서 내가 한 것은 아파트에서 혼자 사는 것이었다.",
+      "우리가 정말로 갈망하는 것은 타인에 대한 그리움과 사랑이다.",
+      "그들이 보는 것은 기쁨이다."
+    ],
     "segmentIndex": 5
   },
   {
@@ -59,6 +69,11 @@
       "You're not a soul to be purified, you're a set of skills to be maximized.",
       "Joy is not the expansion of self, it's the dissolving of self.",
       "Not just as a word, but as a reality."
+    ],
+    "examplesKo": [
+      "당신은 정화되어야 할 영혼이 아니라, 극대화되어야 할 기술의 집합체이다.",
+      "기쁨은 자아의 확장이 아니라 자아의 해체이다.",
+      "단지 말로서가 아니라 현실로서."
     ],
     "segmentIndex": 30
   },
@@ -71,6 +86,11 @@
       "Not reaching out, failing to show up for my friends, evasion, avoiding conflict.",
       "Looking for her friends, wondering where her handbag was."
     ],
+    "examplesKo": [
+      "그냥 잘못된 결정을 내리거나 그냥 유동적으로.",
+      "연락하지 않고, 친구들 앞에 나타나지 않고, 회피하고, 갈등을 피하면서.",
+      "친구들을 찾으면서, 핸드백이 어디 있는지 궁금해하면서."
+    ],
     "segmentIndex": 34
   },
   {
@@ -81,6 +101,10 @@
       "Where there should have been utensils.",
       "Where there should have been plates."
     ],
+    "examplesKo": [
+      "식기가 있었어야 할 자리에.",
+      "접시가 있었어야 할 자리에."
+    ],
     "segmentIndex": 6
   },
   {
@@ -90,17 +114,9 @@
     "examples": [
       "You can either be broken or you can be broken open."
     ],
-    "segmentIndex": 66
-  },
-  {
-    "pattern": "As + noun/saying + is/says (citing authority)",
-    "explanation": "Used to introduce a quote, proverb, or authoritative reference. It lends credibility to the speaker's argument.",
-    "explanationKo": "'As + 명사/속담'은 인용문이나 권위 있는 참조를 소개할 때 사용해요. 화자의 주장에 신뢰성을 부여해요.",
-    "examples": [
-      "As the saying is, pain that is not transformed gets transmitted.",
-      "The Greeks used to say, you suffer your way to wisdom.",
-      "As she writes, a rail-thin man with enormous eyes reached across."
+    "examplesKo": [
+      "당신은 부서질 수도 있고, 마음이 열릴 수도 있다."
     ],
-    "segmentIndex": 69
+    "segmentIndex": 66
   }
 ]

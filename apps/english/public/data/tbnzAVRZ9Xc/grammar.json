@@ -6,6 +6,9 @@
     "examples": [
       "Nothing in life is worthwhile unless you take risks."
     ],
+    "examplesKo": [
+      "위험을 감수하지 않으면 인생에서 가치 있는 것은 아무것도 없습니다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -17,6 +20,11 @@
       "Don't be afraid to think outside the box.",
       "Don't be afraid to fail big, to dream big."
     ],
+    "examplesKo": [
+      "실패를 두려워하지 마세요.",
+      "틀을 벗어나 생각하는 것을 두려워하지 마세요.",
+      "크게 실패하는 것을, 크게 꿈꾸는 것을 두려워하지 마세요."
+    ],
     "segmentIndex": 8
   },
   {
@@ -26,6 +34,10 @@
     "examples": [
       "Dreams without goals are just dreams.",
       "Without consistency, you'll never finish."
+    ],
+    "examplesKo": [
+      "목표 없는 꿈은 그냥 꿈일 뿐입니다.",
+      "꾸준함 없이는 결코 완수하지 못할 겁니다."
     ],
     "segmentIndex": 11
   },
@@ -38,36 +50,12 @@
       "You will lose.",
       "You will embarrass yourself."
     ],
+    "examplesKo": [
+      "인생의 어느 시점에서 당신은 실패할 것입니다.",
+      "당신은 잃게 될 것입니다.",
+      "당신은 스스로 망신을 당하게 될 것입니다."
+    ],
     "segmentIndex": 17
-  },
-  {
-    "pattern": "Here's the thing / Here's the kicker",
-    "explanation": "A discourse marker used to introduce an important or surprising point. It signals that the speaker is about to reveal something the listener should pay special attention to.",
-    "explanationKo": "'Here's the thing / Here's the kicker'는 중요하거나 놀라운 요점을 소개할 때 쓰는 담화 표지예요. 듣는 사람이 특별히 주목해야 할 내용을 알려주는 신호예요.",
-    "examples": [
-      "But here's the thing. I didn't quit.",
-      "But here's the kicker."
-    ],
-    "segmentIndex": 22
-  },
-  {
-    "pattern": "To get something you never had, you have to do something you never did",
-    "explanation": "A parallel structure using 'something you never + past tense' in both parts. It creates a memorable rhetorical balance and emphasizes the need for new action.",
-    "explanationKo": "두 부분 모두에서 'something you never + 과거시제'를 사용하는 대구법이에요. 기억에 남는 수사적 균형을 만들어 새로운 행동의 필요성을 강조해요.",
-    "examples": [
-      "To get something you never had, you have to do something you never did."
-    ],
-    "segmentIndex": 30
-  },
-  {
-    "pattern": "Imagine + clause (imperative for visualization)",
-    "explanation": "The imperative 'imagine' followed by a scenario to create a vivid mental picture. Used to engage the audience emotionally by making them visualize a situation.",
-    "explanationKo": "'Imagine + 절'은 생생한 정신적 이미지를 만들기 위한 명령문이에요. 청중이 상황을 시각화하게 해서 감정적으로 참여시키는 데 사용해요.",
-    "examples": [
-      "Imagine you're on your deathbed.",
-      "And standing around your deathbed are the ghosts representing your unfulfilled potential."
-    ],
-    "segmentIndex": 31
   },
   {
     "pattern": "You've got to + verb (strong obligation)",
@@ -78,6 +66,11 @@
       "You got to get out there.",
       "You got to give it everything you got."
     ],
+    "examplesKo": [
+      "위험을 감수해야 합니다.",
+      "밖으로 나가야 합니다.",
+      "가진 모든 것을 쏟아부어야 합니다."
+    ],
     "segmentIndex": 16
   },
   {
@@ -87,16 +80,9 @@
     "examples": [
       "Whether it's your time, your talent, your prayers, or your treasures."
     ],
-    "segmentIndex": 44
-  },
-  {
-    "pattern": "What are you going to do with what you have?",
-    "explanation": "A rhetorical question using 'what + be going to' repeated for emphasis. It challenges the listener to reflect on their own resources and actions.",
-    "explanationKo": "반복적으로 사용하는 수사적 질문이에요. 'what + be going to' 구조로 듣는 사람에게 자신의 자원과 행동에 대해 성찰하도록 도전해요.",
-    "examples": [
-      "What are you going to do with what you have?",
-      "I'm not talking about how much you have."
+    "examplesKo": [
+      "당신의 시간이든, 재능이든, 기도이든, 재물이든."
     ],
-    "segmentIndex": 46
+    "segmentIndex": 44
   }
 ]

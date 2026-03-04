@@ -8,6 +8,11 @@
       "Every sound has a unique symbol.",
       "There are 44 different sounds."
     ],
+    "examplesKo": [
+      "각 글자는 하나의 소리만 나타낸다.",
+      "모든 소리에는 고유한 기호가 있다.",
+      "44개의 서로 다른 소리가 있다."
+    ],
     "segmentIndex": 5
   },
   {
@@ -19,6 +24,12 @@
       "Don't worry, I'm going to tell you all about it.",
       "They won't always be pronounced the same way.",
       "They're pronounced very differently."
+    ],
+    "examplesKo": [
+      "단어를 발음해 보는 건 쉬워요.",
+      "걱정 마세요, 제가 전부 알려드릴게요.",
+      "항상 같은 방식으로 발음되지는 않을 거예요.",
+      "아주 다르게 발음돼요."
     ],
     "segmentIndex": 4
   },
@@ -32,6 +43,12 @@
       "Let's look at vowels first.",
       "Make sure you subscribe by clicking the red button."
     ],
+    "examplesKo": [
+      "예를 들어 글자 C를 보세요.",
+      "놀라지 마세요!",
+      "먼저 모음부터 살펴봅시다.",
+      "빨간 버튼을 눌러서 꼭 구독하세요."
+    ],
     "segmentIndex": 13
   },
   {
@@ -42,6 +59,10 @@
       "I'm going to tell you all about it in just a minute.",
       "We're going to go through the International Phonetic Alphabet together."
     ],
+    "examplesKo": [
+      "잠시 후에 전부 다 알려드릴게요.",
+      "국제 음성 기호를 함께 살펴볼 거예요."
+    ],
     "segmentIndex": 4
   },
   {
@@ -51,6 +72,10 @@
     "examples": [
       "There are five English vowels, aren't there?",
       "There's 26 letters in the English alphabet, right?"
+    ],
+    "examplesKo": [
+      "영어 모음은 다섯 개잖아요, 그렇죠?",
+      "영어 알파벳에는 26개의 글자가 있죠, 맞죠?"
     ],
     "segmentIndex": 42
   },
@@ -63,6 +88,11 @@
       "In the word cup, it's pronounced...",
       "The sound is made by air moving from the back of your mouth."
     ],
+    "examplesKo": [
+      "항상 같은 방식으로 발음되지는 않을 거예요.",
+      "cup이라는 단어에서는 이렇게 발음돼요...",
+      "그 소리는 입 뒤쪽에서 공기가 이동하면서 만들어져요."
+    ],
     "segmentIndex": 12
   },
   {
@@ -72,6 +102,10 @@
     "examples": [
       "Way more than there are letters.",
       "There are way more English vowel sounds."
+    ],
+    "examplesKo": [
+      "글자 수보다 훨씬 더 많아요.",
+      "영어 모음 소리가 훨씬 더 많아요."
     ],
     "segmentIndex": 39
   },
@@ -84,6 +118,11 @@
       "When they're studying English pronunciation.",
       "Watch my mouth position change as I make each of these sounds."
     ],
+    "examplesKo": [
+      "제가 발음 수업을 할 때.",
+      "영어 발음을 공부할 때.",
+      "제가 이 소리들을 낼 때 입 모양이 바뀌는 걸 지켜보세요."
+    ],
     "segmentIndex": 20
   },
   {
@@ -95,6 +134,11 @@
       "When a C is next to a H, it's often like in chocolate.",
       "When you read it, you know exactly how to pronounce the English word."
     ],
+    "examplesKo": [
+      "영어 단어에서 글자를 보면 항상 같은 방식으로 발음되지는 않아요.",
+      "C가 H 옆에 있으면 chocolate에서처럼 발음되는 경우가 많아요.",
+      "그걸 읽으면 영어 단어를 정확히 어떻게 발음하는지 알 수 있어요."
+    ],
     "segmentIndex": 11
   },
   {
@@ -105,16 +149,11 @@
       "This is why the International Phonetic Alphabet is such a great tool.",
       "That's why I use the IPA to help my students."
     ],
-    "segmentIndex": 18
-  },
-  {
-    "pattern": "some...some...some (Parallel Structure)",
-    "explanation": "Repeating 'some' creates a parallel structure to list different categories or types within a group.",
-    "explanationKo": "'some'을 반복하면 그룹 내의 다른 범주나 유형을 나열하는 병렬 구조를 만듭니다.",
-    "examples": [
-      "Some of them are long, some of them are short, and some of them are just lazy."
+    "examplesKo": [
+      "이것이 바로 국제 음성 기호가 훌륭한 도구인 이유예요.",
+      "그래서 저는 학생들을 돕기 위해 IPA를 사용해요."
     ],
-    "segmentIndex": 46
+    "segmentIndex": 18
   },
   {
     "pattern": "Make sure you... (Strong Advice)",
@@ -123,6 +162,10 @@
     "examples": [
       "Make sure you go to my website.",
       "Make sure you subscribe by clicking the red button."
+    ],
+    "examplesKo": [
+      "꼭 제 웹사이트에 방문하세요.",
+      "빨간 버튼을 눌러서 꼭 구독하세요."
     ],
     "segmentIndex": 77
   }

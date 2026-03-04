@@ -7,6 +7,10 @@
       "This thing called planning has been around for a long, long time.",
       "People have put those two things together to call something strategic planning."
     ],
+    "examplesKo": [
+      "계획이라는 것은 아주 아주 오래전부터 존재해 왔습니다.",
+      "사람들은 이 두 가지를 합쳐서 전략적 계획이라고 불러 왔습니다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -16,6 +20,10 @@
     "examples": [
       "So just putting them together and calling it strategic planning doesn't help.",
       "Planning does not have to have any such coherence."
+    ],
+    "examplesKo": [
+      "그래서 그냥 그 둘을 합쳐서 전략적 계획이라고 부르는 건 도움이 안 됩니다.",
+      "계획 수립에는 그런 일관성이 반드시 필요한 건 아닙니다."
     ],
     "segmentIndex": 5
   },
@@ -27,6 +35,10 @@
       "What most strategic planning is in the world of business has nothing to do with strategy.",
       "What they wanted to be is a substitute for Greyhound."
     ],
+    "examplesKo": [
+      "비즈니스 세계에서 대부분의 전략적 계획이라고 불리는 것은 전략과 아무런 관련이 없습니다.",
+      "그들이 되고 싶었던 것은 그레이하운드의 대안이었습니다."
+    ],
     "segmentIndex": 6
   },
   {
@@ -36,16 +48,10 @@
     "examples": [
       "What most strategic planning is in the world of business has nothing to do with strategy."
     ],
-    "segmentIndex": 6
-  },
-  {
-    "pattern": "On the other hand (contrastive transition)",
-    "explanation": "A transitional phrase used to introduce a contrasting point of view. It signals that the speaker is about to present the opposite side of an argument.",
-    "explanationKo": "'반면에'라는 뜻의 전환 표현이야. 반대되는 관점을 소개할 때 사용해. 보통 앞에서 한 가지 측면을 설명한 뒤, 이 표현으로 다른 측면을 제시해.",
-    "examples": [
-      "A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve."
+    "examplesKo": [
+      "비즈니스 세계에서 대부분의 전략적 계획이라고 불리는 것은 전략과 아무런 관련이 없습니다."
     ],
-    "segmentIndex": 29
+    "segmentIndex": 6
   },
   {
     "pattern": "Enough + that clause (result clause)",
@@ -53,6 +59,9 @@
     "explanationKo": "'~할 만큼 충분히'라는 뜻으로, 특정 결과로 이어지는 충분한 정도를 나타내. 'enough that'은 조건과 그 결과를 연결해 주는 표현이야.",
     "examples": [
       "Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you'd like to make."
+    ],
+    "examplesKo": [
+      "이는 고객들이 당신의 제품이나 서비스를 충분히 원해서, 당신이 원하는 수익성을 달성할 만큼 충분히 구매하는 것을 의미합니다."
     ],
     "segmentIndex": 30
   },
@@ -63,6 +72,9 @@
     "examples": [
       "The tricky thing about planning is that while you're planning, chances are at least one competitor is figuring out how to win."
     ],
+    "examplesKo": [
+      "계획 수립의 까다로운 점은, 당신이 계획을 세우고 있는 동안 적어도 한 명의 경쟁자는 이기는 방법을 알아내고 있을 가능성이 높다는 것입니다."
+    ],
     "segmentIndex": 40
   },
   {
@@ -71,6 +83,9 @@
     "explanationKo": "'이것이 작동하려면 무엇이 사실이어야 할까'라는 전략적 분석 질문 구조야. 조건법 'would have to be'를 사용해서 가설적인 필요 조건을 탐색해. 비즈니스 분석에서 자주 쓰이는 표현이야.",
     "examples": [
       "What would have to be true about ourselves, about the industry, about competition, about customers for this strategy to work?"
+    ],
+    "examplesKo": [
+      "이 전략이 성공하려면 우리 자신에 대해, 산업에 대해, 경쟁에 대해, 고객에 대해 무엇이 사실이어야 할까요?"
     ],
     "segmentIndex": 72
   },
@@ -81,6 +96,9 @@
     "examples": [
       "It's great if you can write your strategy on a single page."
     ],
+    "examplesKo": [
+      "전략을 한 페이지에 쓸 수 있다면 정말 좋습니다."
+    ],
     "segmentIndex": 77
   },
   {
@@ -90,6 +108,10 @@
     "examples": [
       "If you do strategy, it gives you the best possible chance of winning.",
       "If you plan, that's a way to guarantee losing."
+    ],
+    "examplesKo": [
+      "전략을 세우면, 이길 수 있는 최고의 기회를 얻게 됩니다.",
+      "계획만 세우면, 그건 지는 것을 보장하는 방법입니다."
     ],
     "segmentIndex": 84
   }

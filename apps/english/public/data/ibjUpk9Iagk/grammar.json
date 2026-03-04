@@ -7,6 +7,10 @@
       "{'sentence': \"If you thought we make a big deal about it, you're mistaken.\", 'segment': 'If you thought we make a big deal'}",
       "{'sentence': 'If I were you, I would take the job.', 'segment': 'If I were you, I would take'}"
     ],
+    "examplesKo": [
+      "우리가 그걸 대단하게 여긴다고 생각했다면, 그건 착각이에요.",
+      "내가 당신이라면, 그 일자리를 잡겠어요."
+    ],
     "segmentIndex": 0
   },
   {
@@ -16,6 +20,10 @@
     "examples": [
       "{'sentence': \"You're lucky you weren't born in the 18th century.\", 'segment': \"you weren't born\"}",
       "{'sentence': 'By the 20th century, chocolate had become a treat for the public.', 'segment': 'had become'}"
+    ],
+    "examplesKo": [
+      "18세기에 태어나지 않은 게 다행이에요.",
+      "20세기에 이르러 초콜릿은 대중을 위한 간식이 되어 있었다."
     ],
     "segmentIndex": 0
   },
@@ -27,6 +35,10 @@
       "{'sentence': \"Missionaries' salacious accounts of native customs gave it a reputation as an aphrodisiac.\", 'segment': 'of native customs'}",
       "{'sentence': 'This is a complex problem that persists.', 'segment': 'that persists'}"
     ],
+    "examplesKo": [
+      "원주민 풍습에 대한 선교사들의 선정적인 기록이 초콜릿에 최음제라는 명성을 부여했다.",
+      "이것은 지속되는 복잡한 문제이다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -36,6 +48,10 @@
     "examples": [
       "{'sentence': 'There have been horrific abuses of human rights.', 'segment': 'have been'}",
       "{'sentence': 'Chocolate has established itself as a global commodity.', 'segment': 'has established'}"
+    ],
+    "examplesKo": [
+      "끔찍한 인권 유린이 있어 왔다.",
+      "초콜릿은 글로벌 상품으로 자리 잡았다."
     ],
     "segmentIndex": 0
   },
@@ -47,6 +63,10 @@
       "{'sentence': 'The earliest records tell us the beans were ground.', 'segment': 'were ground'}",
       "{'sentence': 'The drink was difficult and time-consuming to produce.', 'segment': 'was difficult'}"
     ],
+    "examplesKo": [
+      "가장 오래된 기록에 따르면 콩은 갈아서 사용했다.",
+      "그 음료는 만들기 어렵고 시간이 오래 걸렸다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -56,6 +76,10 @@
     "examples": [
       "{'sentence': 'But sweetening it with honey, sugar, or vanilla made it popular.', 'segment': 'sweetening it with honey'}",
       "{'sentence': 'Inventing milk chocolate revolutionized the industry.', 'segment': 'Inventing milk chocolate'}"
+    ],
+    "examplesKo": [
+      "하지만 꿀, 설탕, 또는 바닐라로 달게 만든 것이 초콜릿을 인기 있게 만들었다.",
+      "밀크 초콜릿을 발명한 것이 산업에 혁명을 일으켰다."
     ],
     "segmentIndex": 0
   },
@@ -67,6 +91,10 @@
       "{'sentence': \"To create the solid chocolate we know today, Van Houten's invention was crucial.\", 'segment': 'To create the solid chocolate'}",
       "{'sentence': 'Take a moment to consider that not everything about chocolate is sweet.', 'segment': 'to consider that'}"
     ],
+    "examplesKo": [
+      "오늘날 우리가 아는 고체 초콜릿을 만들기 위해 반 하우턴의 발명이 결정적이었다.",
+      "초콜릿에 관한 모든 것이 달콤하지는 않다는 점을 잠시 생각해 보세요."
+    ],
     "segmentIndex": 0
   },
   {
@@ -76,6 +104,10 @@
     "examples": [
       "{'sentence': 'When Hernán Cortés visited the court of Montezuma at Tenochtitlan, he saw the Aztec empire.', 'segment': 'When Hernán Cortés visited'}",
       "{'sentence': 'While I was studying, I received a call from my friend.', 'segment': 'While I was studying'}"
+    ],
+    "examplesKo": [
+      "에르난 코르테스가 테노치티틀란에서 몬테수마의 궁정을 방문했을 때, 그는 아즈텍 제국을 보았다.",
+      "공부하고 있는 동안 친구에게서 전화가 왔다."
     ],
     "segmentIndex": 0
   },
@@ -87,6 +119,10 @@
       "{'sentence': \"As recorded by Cortés' lieutenant, the Aztecs had a complex society.\", 'segment': \"As recorded by Cortés' lieutenant\"}",
       "{'sentence': 'Gave it a reputation as an aphrodisiac, the accounts spread rapidly.', 'segment': 'Gave it a reputation'}"
     ],
+    "examplesKo": [
+      "코르테스의 부관이 기록한 바와 같이, 아즈텍인들은 복잡한 사회를 가지고 있었다.",
+      "최음제라는 명성을 부여하면서, 그 기록들은 빠르게 퍼져 나갔다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -96,6 +132,10 @@
     "examples": [
       "{'sentence': 'Due to its colonial association with native cultures, chocolate became a symbol of power.', 'segment': 'Due to its colonial association'}",
       "{'sentence': 'Combined with the power of advertising, chocolate became a global icon.', 'segment': 'Combined with the power'}"
+    ],
+    "examplesKo": [
+      "원주민 문화와의 식민지적 연관성 때문에 초콜릿은 권력의 상징이 되었다.",
+      "광고의 힘과 결합하여 초콜릿은 세계적인 아이콘이 되었다."
     ],
     "segmentIndex": 0
   },
@@ -107,6 +147,10 @@
       "{'sentence': 'Aztecs used cacao beans as currency.', 'segment': 'used cacao beans'}",
       "{'sentence': 'The Aztecs built a great empire in Mesoamerica.', 'segment': 'built a great empire'}"
     ],
+    "examplesKo": [
+      "아즈텍인들은 카카오 콩을 화폐로 사용했다.",
+      "아즈텍인들은 메소아메리카에 거대한 제국을 건설했다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -116,6 +160,10 @@
     "examples": [
       "{'sentence': \"Van Houten's invention could separate the cocoa's natural fat.\", 'segment': 'could separate'}",
       "{'sentence': 'You should study harder if you want to pass the exam.', 'segment': 'should study'}"
+    ],
+    "examplesKo": [
+      "반 하우턴의 발명은 코코아의 천연 지방을 분리할 수 있었다.",
+      "시험에 통과하고 싶다면 더 열심히 공부해야 한다."
     ],
     "segmentIndex": 0
   },
@@ -127,6 +175,10 @@
       "{'sentence': 'As far back as the 16th century, chocolate was used in Europe.', 'segment': 'As far back as the 16th century'}",
       "{'sentence': 'The tradition dates back as far as the Mayan civilization.', 'segment': 'as far as the Mayan civilization'}"
     ],
+    "examplesKo": [
+      "16세기까지 거슬러 올라가면, 초콜릿은 유럽에서 사용되었다.",
+      "그 전통은 마야 문명까지 거슬러 올라간다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -137,6 +189,10 @@
       "{'sentence': 'Cocoa plants use slave and child labor in some regions.', 'segment': 'use slave and child labor'}",
       "{'sentence': 'The sun rises in the east every day.', 'segment': 'rises in the east'}"
     ],
+    "examplesKo": [
+      "일부 지역에서는 코코아 농장에서 노예 노동과 아동 노동을 사용한다.",
+      "태양은 매일 동쪽에서 뜬다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -146,6 +202,10 @@
     "examples": [
       "{'sentence': 'If chocolate were free, everyone would eat it.', 'segment': 'If chocolate were free'}",
       "{'sentence': 'If I had known about the festival, I would have come.', 'segment': 'If I had known'}"
+    ],
+    "examplesKo": [
+      "초콜릿이 공짜라면 모두가 먹을 것이다.",
+      "그 축제에 대해 알았더라면 갔을 텐데."
     ],
     "segmentIndex": 0
   }

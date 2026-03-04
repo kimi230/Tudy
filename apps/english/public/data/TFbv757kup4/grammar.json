@@ -7,6 +7,10 @@
       "I have a Facebook friend whose life seems perfect.",
       "My mother, who used to wake up in the morning saying..."
     ],
+    "examplesKo": [
+      "저에게는 삶이 완벽해 보이는 페이스북 친구가 있어요.",
+      "아침에 일어나면서 이렇게 말하곤 했던 제 어머니는..."
+    ],
     "segmentIndex": 0
   },
   {
@@ -17,28 +21,11 @@
       "She's always posting about how blessed she is.",
       "His blood sugar had gotten so high lately that it was starting to affect his vision."
     ],
+    "examplesKo": [
+      "그녀는 항상 자신이 얼마나 축복받았는지에 대해 게시하고 있어요.",
+      "그의 혈당이 최근 너무 높아져서 시력에 영향을 미치기 시작했습니다."
+    ],
     "segmentIndex": 5
-  },
-  {
-    "pattern": "Rhetorical Questions",
-    "explanation": "Questions asked not to get an answer but to make a point or engage the audience. Common in persuasive speech and presentations.",
-    "explanationKo": "답을 구하기 위해서가 아니라 요점을 전달하거나 청중을 참여시키기 위해 하는 질문입니다. 설득력 있는 연설과 프레젠테이션에서 흔합니다.",
-    "examples": [
-      "How many of you have a friend kind of like that?",
-      "How could it be hurting me?",
-      "How do you train your brain to think differently?"
-    ],
-    "segmentIndex": 9
-  },
-  {
-    "pattern": "Parallel Structure (keeps you... keeps you... keeps you...)",
-    "explanation": "Using the same grammatical form for items in a list or series to create rhythm, clarity, and emphasis.",
-    "explanationKo": "목록이나 일련의 항목에 같은 문법적 형태를 사용하여 리듬감, 명확성, 강조를 만드는 기법입니다.",
-    "examples": [
-      "Keeps you focused on the problem, keeps you from finding a solution.",
-      "Feeling sad or hurt or angry or scared, those things are all uncomfortable."
-    ],
-    "segmentIndex": 32
   },
   {
     "pattern": "Conditional with 'if' (Second Conditional)",
@@ -47,6 +34,10 @@
     "examples": [
       "If you wanted to be physically strong, you'd need to go to the gym and lift weights.",
       "If you really wanted to see results, you'd also have to give up eating junk food."
+    ],
+    "examplesKo": [
+      "신체적으로 강해지고 싶다면, 헬스장에 가서 역기를 들어야 할 거예요.",
+      "정말로 결과를 보고 싶다면, 정크푸드 먹는 것도 포기해야 할 거예요."
     ],
     "segmentIndex": 115
   },
@@ -57,6 +48,10 @@
     "examples": [
       "I swear that they must take a professional photographer along with them.",
       "Where you need all the mental strength that you can muster."
+    ],
+    "examplesKo": [
+      "그들은 분명히 전문 사진작가를 데리고 다니는 게 틀림없어요.",
+      "동원할 수 있는 모든 정신적 힘이 필요한 곳에서."
     ],
     "segmentIndex": 3
   },
@@ -69,6 +64,11 @@
       "I hadn't been back there since.",
       "His blood sugar had gotten so high."
     ],
+    "examplesKo": [
+      "그는 심장마비를 겪었어요.",
+      "그 이후로 거기에 다시 가본 적이 없었어요.",
+      "그의 혈당이 너무 높아져 있었어요."
+    ],
     "segmentIndex": 89
   },
   {
@@ -78,6 +78,10 @@
     "examples": [
       "He could see the TV just a little bit more clearly than he had before.",
       "A snack with a little less sugar."
+    ],
+    "examplesKo": [
+      "그는 이전보다 TV가 조금 더 선명하게 보였어요.",
+      "설탕이 조금 덜 든 간식."
     ],
     "segmentIndex": 166
   },
@@ -90,6 +94,11 @@
       "No matter how often that happens, it'll hold you back.",
       "No matter how small they might seem."
     ],
+    "examplesKo": [
+      "어디를 가든 무엇을 하든 상관없이.",
+      "그런 일이 아무리 자주 일어나도, 그것이 당신을 가로막을 거예요.",
+      "아무리 작아 보여도."
+    ],
     "segmentIndex": 4
   },
   {
@@ -99,6 +108,10 @@
     "examples": [
       "Feeling sad or hurt or angry or scared, those things are all uncomfortable.",
       "Expecting success to fall into your lap will only lead to disappointment."
+    ],
+    "examplesKo": [
+      "슬프거나 상처받거나 화나거나 두려운 감정, 그런 것들은 모두 불편합니다.",
+      "성공이 저절로 찾아오길 기대하면 실망만 할 뿐입니다."
     ],
     "segmentIndex": 124
   },
@@ -111,6 +124,11 @@
       "He said, I'll give up my two liter a day Pepsi habit.",
       "He said, I could trade in my nightly bowl of ice cream."
     ],
+    "examplesKo": [
+      "그녀는 어머니가 의식이 없는 상태로 발견되었다고 말했어요.",
+      "그는 하루에 2리터씩 마시던 펩시 습관을 끊겠다고 했어요.",
+      "그는 매일 밤 먹던 아이스크림 한 그릇을 바꿀 수 있다고 했어요."
+    ],
     "segmentIndex": 62
   },
   {
@@ -120,6 +138,10 @@
     "examples": [
       "Not just to create good habits in my life, but to get rid of those small habits.",
       "Not only did he lose weight, but one day he noticed he could see the TV."
+    ],
+    "examplesKo": [
+      "내 삶에 좋은 습관을 만드는 것뿐만 아니라, 그런 작은 나쁜 습관들을 없애기 위해서도.",
+      "그는 살이 빠졌을 뿐만 아니라, 어느 날 TV가 보이기 시작했다는 것을 알아챘어요."
     ],
     "segmentIndex": 96
   }

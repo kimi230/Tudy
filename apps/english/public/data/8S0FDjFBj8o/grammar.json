@@ -8,6 +8,11 @@
       "I'm going to make a lot of hand gestures.",
       "I'm going to do this with my right hand."
     ],
+    "examplesKo": [
+      "오프닝부터 시작하겠습니다.",
+      "손동작을 많이 할 거예요.",
+      "이건 오른손으로 할 거예요."
+    ],
     "segmentIndex": 11
   },
   {
@@ -18,6 +23,11 @@
       "I'm floundering, panicking, I've got nothing.",
       "I'm seeing some hands.",
       "I'm pacing, I'm growing in intensity."
+    ],
+    "examplesKo": [
+      "허둥대고 있고, 당황하고 있고, 아무것도 없어요.",
+      "손 드는 분들이 보이네요.",
+      "서성이고 있고, 점점 강도를 높이고 있어요."
     ],
     "segmentIndex": 46
   },
@@ -30,16 +40,12 @@
       "I'd like it to seem like I'm making points.",
       "I'm going to make it seem like I'm building to a moment."
     ],
-    "segmentIndex": 9
-  },
-  {
-    "pattern": "By show of hands (Polling Expressions)",
-    "explanation": "'By show of hands' is a set phrase used to ask an audience to raise their hands to indicate agreement or experience.",
-    "explanationKo": "'By show of hands'는 청중에게 동의나 경험을 나타내기 위해 손을 들어달라고 요청할 때 쓰는 고정 표현입니다.",
-    "examples": [
-      "By show of hands, how many of you all have been asked a question before?"
+    "examplesKo": [
+      "마치 그런 것처럼 보이게 할 거예요.",
+      "요점을 말하고 있는 것처럼 보이면 좋겠어요.",
+      "어떤 순간을 향해 쌓아가고 있는 것처럼 보이게 할 거예요."
     ],
-    "segmentIndex": 14
+    "segmentIndex": 9
   },
   {
     "pattern": "And yet (Contrasting Connector)",
@@ -47,6 +53,9 @@
     "explanationKo": "'And yet'은 이전에 언급한 것과 놀라운 대조나 모순을 도입합니다. 'but'보다 강한 표현입니다.",
     "examples": [
       "And yet, through my manner of speaking, I will make it seem like I do."
+    ],
+    "examplesKo": [
+      "그럼에도 불구하고, 말하는 방식을 통해 마치 그런 것처럼 보이게 할 거예요."
     ],
     "segmentIndex": 8
   },
@@ -56,6 +65,9 @@
     "explanationKo": "이 2차 조건문 구조(if + 과거 시제, would/might + 동사)는 상상 속의 또는 가능성 낮은 상황과 그 예상 결과를 묘사합니다.",
     "examples": [
       "If you were, say, watching this on YouTube with the sound off, you might think, huh, okay."
+    ],
+    "examplesKo": [
+      "만약 이걸 유튜브에서 소리를 끄고 보고 있다면, 음, 그렇구나 하고 생각할 수도 있어요."
     ],
     "segmentIndex": 44
   },
@@ -67,17 +79,11 @@
       "I'm gesticulating as though I am.",
       "I'm going to point at them like I'm making use of my time."
     ],
-    "segmentIndex": 58
-  },
-  {
-    "pattern": "Maybe, just maybe (Emphatic Repetition)",
-    "explanation": "Repeating 'maybe' with 'just' inserted creates emphasis and dramatic effect, suggesting a hopeful but uncertain possibility.",
-    "explanationKo": "'maybe'를 반복하고 사이에 'just'를 넣으면 강조와 극적인 효과를 만들어내며, 희망적이지만 불확실한 가능성을 제시합니다.",
-    "examples": [
-      "And maybe, just maybe, you will feel like you've learned something.",
-      "Like maybe, just maybe, I'm building to some sort of satisfying conclusion."
+    "examplesKo": [
+      "마치 그런 것처럼 몸짓을 하고 있어요.",
+      "시간을 잘 활용하고 있는 것처럼 그들을 가리킬 거예요."
     ],
-    "segmentIndex": 10
+    "segmentIndex": 58
   },
   {
     "pattern": "I'd like you to (Polite Request)",
@@ -86,6 +92,10 @@
     "examples": [
       "I'd like you to think about what you heard at the beginning.",
       "I'd like it to seem like I'm making points."
+    ],
+    "examplesKo": [
+      "처음에 들은 내용에 대해 생각해 보셨으면 합니다.",
+      "제가 요점을 말하고 있는 것처럼 보였으면 좋겠어요."
     ],
     "segmentIndex": 64
   },
@@ -96,6 +106,9 @@
     "examples": [
       "But I, for one, have no idea who he is."
     ],
+    "examplesKo": [
+      "하지만 저로서는 그가 누구인지 전혀 모르겠어요."
+    ],
     "segmentIndex": 23
   },
   {
@@ -105,6 +118,9 @@
     "examples": [
       "And what if I was? Amazing, isn't it?"
     ],
+    "examplesKo": [
+      "그리고 만약 제가 그랬다면? 놀랍지 않나요?"
+    ],
     "segmentIndex": 62
   },
   {
@@ -113,6 +129,9 @@
     "explanationKo": "'If there's one thing you take away'는 연설에서 가장 중요한 하나의 요점을 강조하기 위해 사용하는 수사적 구조입니다.",
     "examples": [
       "If there's one thing you take away from my talk, I'd like you to think about what you heard at the beginning."
+    ],
+    "examplesKo": [
+      "제 강연에서 한 가지만 가져가신다면, 처음에 들은 내용에 대해 생각해 보셨으면 합니다."
     ],
     "segmentIndex": 64
   }

@@ -6,6 +6,9 @@
     "examples": [
       "What if I told you there was something that you can do right now"
     ],
+    "examplesKo": [
+      "지금 당장 할 수 있는 무언가가 있다고 말한다면 어떨까요"
+    ],
     "segmentIndex": 0
   },
   {
@@ -15,6 +18,10 @@
     "examples": [
       "I have always been fascinated with the hippocampus.",
       "I've come to the following conclusion"
+    ],
+    "examplesKo": [
+      "저는 항상 해마에 매료되어 왔습니다.",
+      "저는 다음과 같은 결론에 도달했습니다."
     ],
     "segmentIndex": 31
   },
@@ -26,6 +33,10 @@
       "But it's one thing to talk about the brain, and it's another to see it.",
       "But it's one thing to talk about exercise, and it's another to do it."
     ],
+    "examplesKo": [
+      "하지만 뇌에 대해 이야기하는 것과 직접 보는 것은 다른 문제이다.",
+      "하지만 운동에 대해 이야기하는 것과 실제로 하는 것은 다른 문제이다."
+    ],
     "segmentIndex": 20
   },
   {
@@ -34,6 +45,9 @@
     "explanationKo": "'How could it be that...'은 경이로움을 표현하거나 설명을 이끌어내기 위한 수사적 질문 패턴입니다. 'that' 절이 화자가 의문을 품는 구체적인 현상을 소개합니다.",
     "examples": [
       "How could it be that an event that lasts just a moment... can form a memory that has changed your brain"
+    ],
+    "examplesKo": [
+      "단지 한순간에 불과한 사건이 어떻게 뇌를 변화시킨 기억을 형성할 수 있을까"
     ],
     "segmentIndex": 32
   },
@@ -45,6 +59,10 @@
       "You not only get better focus and attention, but the volume of the hippocampus increases as well.",
       "You not only get immediate effects of mood with exercise, but those last for a long time"
     ],
+    "examplesKo": [
+      "집중력과 주의력이 좋아질 뿐만 아니라, 해마의 부피도 증가한다.",
+      "운동으로 즉각적인 기분 개선 효과를 얻을 뿐만 아니라, 그 효과가 오래 지속된다."
+    ],
     "segmentIndex": 132
   },
   {
@@ -54,6 +72,10 @@
     "examples": [
       "The more I learned, the more I realized how powerful exercise was",
       "The more you're working out, the bigger and stronger your hippocampus and prefrontal cortex gets."
+    ],
+    "examplesKo": [
+      "더 많이 배울수록, 운동이 얼마나 강력한지 더 깨닫게 되었다.",
+      "더 많이 운동할수록, 해마와 전두엽 피질이 더 크고 강해진다."
     ],
     "segmentIndex": 96
   },
@@ -66,6 +88,11 @@
       "You're not going to cure dementia or Alzheimer's disease",
       "You're going to create the strongest, biggest hippocampus"
     ],
+    "examplesKo": [
+      "그것이 운동 직후 기분을 좋게 만들어 줄 것이다.",
+      "치매나 알츠하이머병을 치료하지는 못할 것이다.",
+      "가장 강하고 큰 해마를 만들게 될 것이다."
+    ],
     "segmentIndex": 108
   },
   {
@@ -76,6 +103,11 @@
       "Something that you can do right now",
       "A thought went through my mind that had never gone through my mind before",
       "The most transformative thing that you can do for your brain"
+    ],
+    "examplesKo": [
+      "지금 당장 할 수 있는 무언가",
+      "이전에는 한 번도 생각해 본 적 없는 생각이 머릿속을 스쳤다",
+      "뇌를 위해 할 수 있는 가장 변화를 주는 것"
     ],
     "segmentIndex": 0
   },
@@ -88,18 +120,12 @@
       "Studies have shown that a single workout will improve your reaction times",
       "I was becoming known in my field"
     ],
-    "segmentIndex": 19
-  },
-  {
-    "pattern": "Imperative for Audience Engagement",
-    "explanation": "Direct commands used to engage the audience and prompt action. Common in TED talks and persuasive presentations to create a sense of shared experience.",
-    "explanationKo": "청중을 참여시키고 행동을 유도하기 위해 사용되는 직접적 명령문입니다. TED 강연과 설득적 프레젠테이션에서 공유 경험을 만들기 위해 자주 사용됩니다.",
-    "examples": [
-      "Here you can think about the brain like a muscle.",
-      "Just do what I do, say what I say",
-      "You see stairs? Take stairs."
+    "examplesKo": [
+      "그것은 인류에게 알려진 가장 복잡한 구조이다.",
+      "연구에 따르면 단 한 번의 운동으로도 반응 시간이 향상된다.",
+      "나는 내 분야에서 알려지기 시작하고 있었다."
     ],
-    "segmentIndex": 165
+    "segmentIndex": 19
   },
   {
     "pattern": "Present Participle as Reason/Cause (Because + -ing clause)",
@@ -109,17 +135,10 @@
       "Because I was able to focus and maintain my attention for longer than I had before.",
       "Because I encountered something that was so amazing"
     ],
-    "segmentIndex": 84
-  },
-  {
-    "pattern": "Enumeration with Ordinal Markers (First/Number one, Second, Finally)",
-    "explanation": "A discourse organization pattern using ordinal markers to structure a series of points, making arguments clear and easy to follow for the audience.",
-    "explanationKo": "순서를 나타내는 표지어를 사용하여 일련의 논점을 구조화하는 담화 조직 패턴으로, 청중이 논증을 명확하고 쉽게 따라갈 수 있게 합니다.",
-    "examples": [
-      "Number one, it has immediate effects on your brain.",
-      "Number two, the most common finding...",
-      "And finally, you not only get immediate effects of mood with exercise"
+    "examplesKo": [
+      "이전보다 더 오래 집중력을 유지할 수 있었기 때문이다.",
+      "너무나 놀라운 것을 접했기 때문이다."
     ],
-    "segmentIndex": 105
+    "segmentIndex": 84
   }
 ]

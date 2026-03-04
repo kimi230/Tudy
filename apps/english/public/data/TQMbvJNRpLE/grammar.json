@@ -7,6 +7,10 @@
       "By a show of hands, how many of you have traveled abroad?",
       "By a show of hands, who agrees with this proposal?"
     ],
+    "examplesKo": [
+      "손 들어 주세요, 해외여행을 해보신 분이 얼마나 계신가요?",
+      "손 들어 주세요, 이 제안에 동의하시는 분?"
+    ],
     "segmentIndex": 0
   },
   {
@@ -16,6 +20,10 @@
     "examples": [
       "Success has far less to do with natural talent and far more to do with consistent practice.",
       "Happiness has far less to do with wealth and far more to do with relationships."
+    ],
+    "examplesKo": [
+      "성공은 타고난 재능과는 관련이 훨씬 적고, 꾸준한 연습과 관련이 훨씬 큽니다.",
+      "행복은 부와는 관련이 훨씬 적고, 인간관계와 관련이 훨씬 큽니다."
     ],
     "segmentIndex": 19
   },
@@ -27,6 +35,10 @@
       "It would be very difficult to argue that exercise isn't beneficial for health.",
       "It would be hard to argue that this isn't an improvement over the previous version."
     ],
+    "examplesKo": [
+      "운동이 건강에 유익하지 않다고 주장하기는 매우 어려울 것입니다.",
+      "이것이 이전 버전보다 개선된 것이 아니라고 주장하기는 어려울 것입니다."
+    ],
     "segmentIndex": 11
   },
   {
@@ -36,6 +48,10 @@
     "examples": [
       "If only she would listen to our advice.",
       "If only the weather would clear up for the weekend."
+    ],
+    "examplesKo": [
+      "그녀가 우리 조언을 들어주기만 하면 좋을 텐데.",
+      "주말에 날씨가 개기만 하면 좋을 텐데."
     ],
     "segmentIndex": 51
   },
@@ -47,6 +63,10 @@
       "Instead of complaining about the situation, I decided to take action.",
       "Instead of waiting for the perfect moment, she decided to start immediately."
     ],
+    "examplesKo": [
+      "상황에 대해 불평하는 대신, 행동에 나서기로 했습니다.",
+      "완벽한 순간을 기다리는 대신, 그녀는 바로 시작하기로 했습니다."
+    ],
     "segmentIndex": 59
   },
   {
@@ -57,17 +77,11 @@
       "The truth of the matter is, I never really enjoyed that job.",
       "The truth of the matter is, most people give up too early."
     ],
-    "segmentIndex": 10
-  },
-  {
-    "pattern": "Not necessarily X, not even necessarily Y, but just Z",
-    "explanation": "A narrowing construction that eliminates larger expectations step by step to arrive at the simplest, most achievable action. Creates a sense of relief by showing that the required effort is much smaller than anticipated.",
-    "explanationKo": "큰 기대를 단계적으로 제거하여 가장 단순하고 달성 가능한 행동에 도달하는 축소 구문입니다. 필요한 노력이 예상보다 훨씬 작다는 것을 보여주어 안도감을 줍니다.",
-    "examples": [
-      "Not necessarily a full workout, not even necessarily going to the gym, but just a 10-minute walk.",
-      "Not necessarily a complete overhaul, not even a major change, but just a small tweak."
+    "examplesKo": [
+      "사실을 말하자면, 그 일을 진심으로 즐긴 적이 없습니다.",
+      "사실을 말하자면, 대부분의 사람들은 너무 일찍 포기합니다."
     ],
-    "segmentIndex": 71
+    "segmentIndex": 10
   },
   {
     "pattern": "From [starting point] all the way through to [end point]",
@@ -76,6 +90,10 @@
     "examples": [
       "From the first chapter all the way through to the conclusion, the book was captivating.",
       "From elementary school all the way through to college, she excelled in mathematics."
+    ],
+    "examplesKo": [
+      "첫 번째 장부터 결론까지 쭉, 그 책은 매력적이었습니다.",
+      "초등학교부터 대학교까지 쭉, 그녀는 수학에서 뛰어났습니다."
     ],
     "segmentIndex": 48
   },
@@ -87,6 +105,10 @@
       "I keep saying 'simple.' I don't want to imply it doesn't require effort.",
       "I keep using the term 'easy.' I don't want to imply anyone can do it without practice."
     ],
+    "examplesKo": [
+      "저는 자꾸 '간단하다'고 말하는데, 노력이 필요 없다는 뜻은 아닙니다.",
+      "저는 자꾸 '쉽다'는 말을 쓰는데, 연습 없이 누구나 할 수 있다는 뜻은 아닙니다."
+    ],
     "segmentIndex": 46
   },
   {
@@ -96,6 +118,10 @@
     "examples": [
       "It's not about the destination. It's about the journey.",
       "It's not about how many hours you work. It's about how productive those hours are."
+    ],
+    "examplesKo": [
+      "목적지가 중요한 게 아닙니다. 여정이 중요합니다.",
+      "몇 시간 일하느냐가 중요한 게 아닙니다. 그 시간이 얼마나 생산적이냐가 중요합니다."
     ],
     "segmentIndex": 132
   },
@@ -107,6 +133,10 @@
       "If you write one sentence, you'll write a paragraph, a page, a chapter.",
       "If you save one dollar, you'll save ten, a hundred, a thousand."
     ],
+    "examplesKo": [
+      "한 문장을 쓰면, 한 단락을 쓰게 되고, 한 페이지, 한 챕터를 쓰게 됩니다.",
+      "1달러를 저축하면, 10달러를 모으게 되고, 100달러, 1000달러를 모으게 됩니다."
+    ],
     "segmentIndex": 155
   },
   {
@@ -116,6 +146,10 @@
     "examples": [
       "It turns out the restaurant was already closed.",
       "It turns out she had been living next door the whole time."
+    ],
+    "examplesKo": [
+      "알고 보니 그 식당은 이미 문을 닫았습니다.",
+      "알고 보니 그녀는 줄곧 바로 옆집에 살고 있었습니다."
     ],
     "segmentIndex": 163
   }

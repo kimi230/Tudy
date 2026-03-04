@@ -6,6 +6,9 @@
     "examples": [
       "During a long day spent roaming the forest in search of edible grains and herbs."
     ],
+    "examplesKo": [
+      "먹을 수 있는 곡식과 허브를 찾아 숲을 돌아다니며 보낸 긴 하루 동안."
+    ],
     "segmentIndex": 0
   },
   {
@@ -14,6 +17,9 @@
     "explanationKo": "'before + 주어 + could + 동사'는 어떤 일이 일어나기 직전에 다른 일이 개입했음을 나타내요. '~하기 전에'라는 의미로 긴장감을 만들어요.",
     "examples": [
       "But before the poisons could end his life, a leaf drifted into his mouth."
+    ],
+    "examplesKo": [
+      "하지만 독이 그의 생명을 앗아가기 전에, 나뭇잎 하나가 그의 입 안으로 떨어져 들어왔습니다."
     ],
     "segmentIndex": 2
   },
@@ -25,6 +31,10 @@
       "Tea was first cultivated there as early as 6,000 years ago.",
       "Or 1,500 years before the pharaohs built the Great Pyramids of Giza."
     ],
+    "examplesKo": [
+      "차는 무려 6,000년 전이나 이른 시기에 그곳에서 처음 재배되었습니다.",
+      "또는 파라오들이 기자의 대피라미드를 건설하기 1,500년 전이었습니다."
+    ],
     "segmentIndex": 7
   },
   {
@@ -35,6 +45,10 @@
       "It was eaten as a vegetable or cooked with grain porridge.",
       "Tea was the subject of books and poetry."
     ],
+    "examplesKo": [
+      "그것은 채소로 먹거나 곡물 죽에 넣어 끓여 먹었습니다.",
+      "차는 책과 시의 주제가 되었습니다."
+    ],
     "segmentIndex": 11
   },
   {
@@ -44,6 +58,9 @@
     "examples": [
       "They would draw extravagant pictures in the foam of the tea."
     ],
+    "examplesKo": [
+      "그들은 차의 거품 위에 화려한 그림을 그리곤 했습니다."
+    ],
     "segmentIndex": 20
   },
   {
@@ -52,6 +69,9 @@
     "explanationKo": "'leading to + 명사'는 이전 행동의 결과나 귀결을 나타내는 분사구예요. 원인과 결과를 자연스럽게 연결하며, '~으로 이어졌다'라는 의미예요.",
     "examples": [
       "Leading to the creation of the Japanese tea ceremony."
+    ],
+    "examplesKo": [
+      "이것이 일본 다도의 탄생으로 이어졌습니다."
     ],
     "segmentIndex": 24
   },
@@ -63,6 +83,10 @@
       "The tea trade was so lucrative that the world's fastest sailboat, the Clipper Ship, was born.",
       "Matcha became so popular that a distinct Chinese tea culture emerged."
     ],
+    "examplesKo": [
+      "차 무역이 너무 수익성이 좋아서 세계에서 가장 빠른 범선인 클리퍼선이 탄생했습니다.",
+      "말차가 너무 인기를 끌어서 독특한 중국 차 문화가 형성되었습니다."
+    ],
     "segmentIndex": 39
   },
   {
@@ -72,6 +96,10 @@
     "examples": [
       "When that proved too expensive, they suggested trading tea for another substance.",
       "When the defeated Qing Dynasty ceded the port of Hong Kong to the British."
+    ],
+    "examplesKo": [
+      "그것이 너무 비싸다는 것이 드러나자, 그들은 차를 다른 물질과 교환하자고 제안했습니다.",
+      "패배한 청나라가 홍콩 항구를 영국에 할양했을 때."
     ],
     "segmentIndex": 43
   },
@@ -83,6 +111,10 @@
       "Helping drive tea's rapid growth as an everyday commodity.",
       "Making tea one of three essential Chinese export goods."
     ],
+    "examplesKo": [
+      "이것이 차가 일상 상품으로 빠르게 성장하는 데 기여했습니다.",
+      "차를 중국의 3대 필수 수출품 중 하나로 만들었습니다."
+    ],
     "segmentIndex": 56
   },
   {
@@ -91,6 +123,9 @@
     "explanationKo": "'from A to B'는 두 가지 대조적인 극단을 제시하여 범위나 다양성을 보여주는 구조예요. 'A에서 B까지'라는 의미로 다양성을 강조해요.",
     "examples": [
       "And from sugary Turkish Riza tea to salty Tibetan butter tea."
+    ],
+    "examplesKo": [
+      "달콤한 터키식 리제 차에서 짭짤한 티베트식 버터 차까지."
     ],
     "segmentIndex": 58
   }

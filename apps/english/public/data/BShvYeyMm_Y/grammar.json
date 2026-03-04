@@ -8,6 +8,11 @@
       "something was happening in the late 1800s that would change the debate about American expansionism",
       "a global financial system that would prevent another Great Depression"
     ],
+    "examplesKo": [
+      "전례 없는 번영의 시대를 이끄는 데 도움을 준 거대하고 상호 연결된 글로벌 시스템",
+      "1800년대 후반에 미국 팽창주의에 대한 논쟁을 바꿀 무언가가 일어나고 있었다",
+      "또 다른 대공황을 방지할 글로벌 금융 시스템"
+    ],
     "segmentIndex": 1
   },
   {
@@ -18,6 +23,11 @@
       "making it easier for expansionist presidents to unilaterally push American influence abroad",
       "acquiring Puerto Rico, Guam, and the Philippines in the process",
       "seeing each of them as bulwarks against communist influence in their region"
+    ],
+    "examplesKo": [
+      "팽창주의적 대통령들이 일방적으로 해외에 미국의 영향력을 확대하기 더 쉽게 만들면서",
+      "그 과정에서 푸에르토리코, 괌, 필리핀을 획득하면서",
+      "각각을 해당 지역에서 공산주의 영향에 대한 방벽으로 간주하면서"
     ],
     "segmentIndex": 12
   },
@@ -30,6 +40,11 @@
       "the U.S. was pulled into unlikely alliances",
       "his attempts were all blocked by Congress"
     ],
+    "examplesKo": [
+      "권력이 연방 정부에 집중되었다",
+      "미국은 예상치 못한 동맹에 끌려 들어갔다",
+      "그의 시도는 모두 의회에 의해 저지되었다"
+    ],
     "segmentIndex": 12
   },
   {
@@ -39,6 +54,10 @@
     "examples": [
       "the U.S. could have withdrawn from the system, severing ties with its allies",
       "great powers could resolve their differences through compromise and law rather than war"
+    ],
+    "examplesKo": [
+      "미국은 동맹국들과의 관계를 끊고 그 체제에서 탈퇴할 수도 있었다",
+      "강대국들은 전쟁이 아닌 타협과 법을 통해 갈등을 해결할 수 있었다"
     ],
     "segmentIndex": 56
   },
@@ -51,6 +70,11 @@
       "the resulting agreement, called the Bretton Woods Agreement",
       "the world's second largest power, the Soviet Union"
     ],
+    "examplesKo": [
+      "평화를 증진하기 위해 설계된 국제기구인 국제연맹",
+      "그 결과로 나온 합의, 브레턴우즈 협정이라 불리는",
+      "세계 제2의 강대국인 소련"
+    ],
     "segmentIndex": 22
   },
   {
@@ -59,6 +83,9 @@
     "explanationKo": "'Not only ... but (also)' 상관접속사는 두 가지 관련 사항을 강조하며, 두 번째 사항이 더 놀랍거나 중요합니다. 강조를 위해 첫 번째 절에서 주어-동사 도치를 유발하기도 합니다.",
     "examples": [
       "Not only was American intervention a decisive factor in the war's end, but President Wilson attended the Paris Peace Conference"
+    ],
+    "examplesKo": [
+      "미국의 개입이 전쟁 종결의 결정적 요인이었을 뿐만 아니라, 윌슨 대통령은 파리 평화 회의에 참석했다"
     ],
     "segmentIndex": 21
   },
@@ -70,6 +97,10 @@
       "Their goal? To establish a global financial system that would prevent another Great Depression and World War.",
       "So will President Trump act on some of candidate Trump's ideas, and reverse decades' worth of institution building and alliances?"
     ],
+    "examplesKo": [
+      "그들의 목표는? 또 다른 대공황과 세계대전을 방지할 글로벌 금융 시스템을 수립하는 것이었다.",
+      "그렇다면 트럼프 대통령은 후보 시절의 아이디어 중 일부를 실행에 옮기고, 수십 년에 걸친 제도 구축과 동맹을 뒤집을 것인가?"
+    ],
     "segmentIndex": 39
   },
   {
@@ -78,6 +109,9 @@
     "explanationKo": "'As such'는 '그런 이유로' 또는 '그런 자격으로'를 의미하는 격식체 연결어입니다. 앞선 설명을 논리적 결과와 연결합니다.",
     "examples": [
       "As such, it was in a unique position to set the terms of the peace"
+    ],
+    "examplesKo": [
+      "따라서 미국은 평화의 조건을 설정할 수 있는 독보적인 위치에 있었다"
     ],
     "segmentIndex": 32
   },
@@ -89,16 +123,11 @@
       "The United States was the only major power to avoid economic ruin during the war, and it was the sole country equipped with atomic weapons.",
       "World War II had made allies out of the Democratic West and Communist East in the fight against Hitler, but that couldn't last."
     ],
-    "segmentIndex": 31
-  },
-  {
-    "pattern": "'So-called' for Naming Concepts",
-    "explanation": "'So-called' introduces the name or label of something, indicating that it is known by that name. It can be neutral (explaining a term) or slightly skeptical (questioning its accuracy).",
-    "explanationKo": "'So-called'는 무언가의 이름이나 명칭을 소개하며, 그 이름으로 알려져 있음을 나타냅니다. 중립적(용어 설명)이거나 약간 회의적(정확성에 의문)일 수 있습니다.",
-    "examples": [
-      "a strategy called containment, so-called because it was aimed at containing the spread of communism everywhere on the globe"
+    "examplesKo": [
+      "미국은 전쟁 중 경제적 파탄을 피한 유일한 강대국이었으며, 핵무기를 보유한 유일한 나라였다.",
+      "제2차 세계대전은 히틀러에 맞선 싸움에서 민주주의 서방과 공산주의 동방을 동맹으로 만들었지만, 그것은 지속될 수 없었다."
     ],
-    "segmentIndex": 48
+    "segmentIndex": 31
   },
   {
     "pattern": "Comparative Structure: 'rather than'",
@@ -108,6 +137,10 @@
       "great powers could resolve their differences through compromise and law rather than war",
       "the U.S. was much more focused on its own region than on European affairs"
     ],
+    "examplesKo": [
+      "강대국들은 전쟁이 아닌 타협과 법을 통해 갈등을 해결할 수 있었다",
+      "미국은 유럽 문제보다 자국 지역에 훨씬 더 집중하고 있었다"
+    ],
     "segmentIndex": 36
   },
   {
@@ -116,6 +149,9 @@
     "explanationKo": "'despite'는 주절과 대조되거나 예상치 못한 정보를 소개합니다. 양보를 나타내며 — 무언가를 인정하면서 반대 결과를 제시합니다.",
     "examples": [
       "President McKinley dragged the country into war with Spain over Cuba, despite some intense domestic opposition"
+    ],
+    "examplesKo": [
+      "매킨리 대통령은 강렬한 국내 반대에도 불구하고 쿠바 문제로 스페인과의 전쟁에 나라를 끌어들였다"
     ],
     "segmentIndex": 13
   }

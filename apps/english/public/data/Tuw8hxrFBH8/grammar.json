@@ -7,6 +7,10 @@
       "If I had never dropped in on that single course in college, the Mac would have never had multiple typefaces.",
       "If I had never dropped out, I would have never dropped in on that calligraphy class."
     ],
+    "examplesKo": [
+      "대학에서 그 수업을 청강하지 않았더라면, 맥은 여러 서체를 갖지 못했을 것입니다.",
+      "자퇴하지 않았더라면, 그 서예 수업을 청강하지도 못했을 것입니다."
+    ],
     "segmentIndex": 35
   },
   {
@@ -18,6 +22,11 @@
       "Remembering that you are going to die is the best way I know to avoid the trap.",
       "Believing that the dots will connect down the road will give you the confidence."
     ],
+    "examplesKo": [
+      "곧 죽을 것이라는 사실을 기억하는 것은 제가 접한 가장 중요한 도구입니다.",
+      "죽을 것이라는 사실을 기억하는 것은 제가 아는 함정을 피하는 최선의 방법입니다.",
+      "미래에 점들이 연결될 것이라고 믿는 것이 여러분에게 자신감을 줄 것입니다."
+    ],
     "segmentIndex": 82
   },
   {
@@ -27,6 +36,10 @@
     "examples": [
       "The heaviness of being successful was replaced by the lightness of being a beginner again.",
       "You can't connect the dots looking forward. You can only connect them looking backwards."
+    ],
+    "examplesKo": [
+      "성공의 무거움이 다시 초심자가 되는 가벼움으로 대체되었습니다.",
+      "앞을 보며 점들을 연결할 수는 없습니다. 뒤를 돌아봐야만 연결할 수 있습니다."
     ],
     "segmentIndex": 60
   },
@@ -40,6 +53,12 @@
       "Don't lose faith.",
       "Keep looking."
     ],
+    "examplesKo": [
+      "항상 갈망하세요. 우직하게 나아가세요.",
+      "안주하지 마세요.",
+      "믿음을 잃지 마세요.",
+      "계속 찾으세요."
+    ],
     "segmentIndex": 96
   },
   {
@@ -50,6 +69,11 @@
       "We hired someone who I thought was very talented to run the company with me.",
       "An amazing woman who would become my wife.",
       "Don't be trapped by dogma, which is living with the results of other people's thinking."
+    ],
+    "examplesKo": [
+      "저와 함께 회사를 운영할 매우 재능 있다고 생각한 사람을 고용했습니다.",
+      "제 아내가 될 놀라운 여성.",
+      "다른 사람들의 생각의 결과에 따라 사는 것인 도그마에 갇히지 마세요."
     ],
     "segmentIndex": 49
   },
@@ -63,18 +87,13 @@
       "Something slowly began to dawn on me.",
       "These things just fall away in the face of death."
     ],
-    "segmentIndex": 2
-  },
-  {
-    "pattern": "Rhetorical Question",
-    "explanation": "A question asked not to get an answer, but to make a point or create emphasis. Used frequently in speeches to engage the audience.",
-    "explanationKo": "대답을 얻기 위해서가 아니라 논점을 강조하거나 만들기 위해 던지는 질문입니다. 청중의 참여를 유도하기 위해 연설에서 자주 사용됩니다.",
-    "examples": [
-      "So why did I drop out?",
-      "How can you get fired from a company you started?",
-      "Do you want him?"
+    "examplesKo": [
+      "저는 리드 대학을 6개월 만에 자퇴했습니다.",
+      "필수 과목 수강을 그만두고 훨씬 더 흥미로워 보이는 수업을 청강하기 시작할 수 있었습니다.",
+      "서서히 무언가가 깨달아지기 시작했습니다.",
+      "이런 것들은 죽음 앞에서 그냥 사라져 버립니다."
     ],
-    "segmentIndex": 3
+    "segmentIndex": 2
   },
   {
     "pattern": "Passive Voice for Emphasis",
@@ -84,6 +103,11 @@
       "The heaviness of being successful was replaced by the lightness of being a beginner again.",
       "All of my working class parents' savings were being spent on my college tuition.",
       "I'd been rejected, but I was still in love."
+    ],
+    "examplesKo": [
+      "성공의 무거움이 다시 초심자가 되는 가벼움으로 대체되었습니다.",
+      "노동자 계층인 부모님의 저축이 전부 제 대학 등록금으로 쓰이고 있었습니다.",
+      "거절당했지만, 여전히 사랑하고 있었습니다."
     ],
     "segmentIndex": 61
   },
@@ -96,6 +120,11 @@
       "Remembering that I'll be dead soon is the most important tool I've ever encountered.",
       "Death is very likely the single best invention of life."
     ],
+    "examplesKo": [
+      "그것은 제가 내린 최고의 결정 중 하나였습니다.",
+      "곧 죽을 것이라는 사실을 기억하는 것은 제가 접한 가장 중요한 도구입니다.",
+      "죽음은 아마도 삶의 가장 위대한 발명일 것입니다."
+    ],
     "segmentIndex": 19
   },
   {
@@ -105,6 +134,10 @@
     "examples": [
       "And that is as true for work as it is for your lovers.",
       "A college that was almost as expensive as Stanford."
+    ],
+    "examplesKo": [
+      "그리고 그것은 연인에 대해서와 마찬가지로 일에 대해서도 마찬가지입니다.",
+      "스탠퍼드만큼이나 비싼 대학."
     ],
     "segmentIndex": 71
   },
@@ -117,6 +150,11 @@
       "I returned Coke bottles for the five-cent deposits to buy food with.",
       "I would walk the seven miles across town every Sunday night to get one good meal a week."
     ],
+    "examplesKo": [
+      "이것을 배우기 위해 서예 수업을 듣기로 결심했습니다.",
+      "음식을 사기 위해 코카콜라 병을 반납해서 5센트 보증금을 받았습니다.",
+      "일주일에 한 끼 제대로 된 식사를 하기 위해 매주 일요일 밤 시내를 가로질러 7마일을 걸었습니다."
+    ],
     "segmentIndex": 28
   },
   {
@@ -127,6 +165,11 @@
       "If you haven't found it yet, keep looking.",
       "No one has ever escaped it.",
       "I've looked in the mirror every morning and asked myself."
+    ],
+    "examplesKo": [
+      "아직 찾지 못했다면, 계속 찾으세요.",
+      "아무도 그것을 피하지 못했습니다.",
+      "매일 아침 거울을 보며 스스로에게 물었습니다."
     ],
     "segmentIndex": 74
   }

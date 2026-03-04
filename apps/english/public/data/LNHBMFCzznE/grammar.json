@@ -8,6 +8,11 @@
       "It turns out that even when you're at rest and thinking of nothing, your brain is highly active.",
       "It turns out to be very difficult to help the brain recover from stroke."
     ],
+    "examplesKo": [
+      "그리고 알고 보니 사실과는 전혀 달랐습니다.",
+      "알고 보니 쉬면서 아무 생각을 하지 않을 때도 뇌는 매우 활발하게 활동하고 있었습니다.",
+      "뇌가 뇌졸중에서 회복하도록 돕는 것은 매우 어려운 일로 밝혀졌습니다."
+    ],
     "segmentIndex": 16
   },
   {
@@ -19,6 +24,11 @@
       "Between brain cells, what we call neurons.",
       "So there are certain characteristics of brain structure and function that we call biomarkers."
     ],
+    "examplesKo": [
+      "이것은 우리가 신경가소성이라고 부르는 것입니다.",
+      "뇌세포들 사이, 우리가 뉴런이라고 부르는 것들 사이에서요.",
+      "뇌의 구조와 기능에는 우리가 생체지표라고 부르는 특정 특성들이 있습니다."
+    ],
     "segmentIndex": 25
   },
   {
@@ -28,18 +38,10 @@
     "examples": [
       "Increased difficulty, increased struggle, if you will, during practice actually leads to both more learning and greater structural change in the brain."
     ],
-    "segmentIndex": 124
-  },
-  {
-    "pattern": "Rhetorical Questions for Engagement",
-    "explanation": "Questions posed not to elicit answers but to engage the audience and introduce a new topic. Very common in TED talks and public speaking.",
-    "explanationKo": "답을 이끌어내기 위해서가 아니라 청중의 관심을 끌고 새로운 주제를 소개하기 위해 던지는 질문입니다. TED 강연과 대중 연설에서 매우 흔합니다.",
-    "examples": [
-      "So how do we learn? And why do some of us learn things more easily than others?",
-      "Why do our kids sometimes fail in school?",
-      "And why don't people fully recover from brain damage?"
+    "examplesKo": [
+      "연습 중에 난이도가 높아지고, 말하자면 더 많이 고군분투할수록, 실제로 더 많은 학습과 더 큰 뇌 구조 변화로 이어집니다."
     ],
-    "segmentIndex": 1
+    "segmentIndex": 124
   },
   {
     "pattern": "Not only A but also B (Additive Emphasis)",
@@ -48,6 +50,10 @@
     "examples": [
       "It's being shaped both structurally and functionally by everything you do, but also by everything that you don't do.",
       "The uniqueness of your brain will affect you, both as a learner and also as a teacher."
+    ],
+    "examplesKo": [
+      "뇌는 여러분이 하는 모든 것에 의해 구조적으로나 기능적으로 형성될 뿐만 아니라, 하지 않는 모든 것에 의해서도 형성됩니다.",
+      "뇌의 고유성은 학습자로서뿐만 아니라 교육자로서도 여러분에게 영향을 미칠 것입니다."
     ],
     "segmentIndex": 130
   },
@@ -60,6 +66,11 @@
       "And research from my group actually shows that the health-related quality of life of Canadians with stroke has declined.",
       "By studying the brain after stroke, we've learned a lot."
     ],
+    "examplesKo": [
+      "뇌에 대해 우리가 알고 있는 것은 놀라운 속도로 변하고 있습니다.",
+      "그리고 저희 연구팀의 연구에 따르면 뇌졸중을 겪은 캐나다인들의 건강 관련 삶의 질은 실제로 저하되었습니다.",
+      "뇌졸중 이후의 뇌를 연구함으로써 우리는 많은 것을 배웠습니다."
+    ],
     "segmentIndex": 10
   },
   {
@@ -71,6 +82,11 @@
       "Medical intervention studies are specifically designed to minimize variability.",
       "Your plastic brain is constantly being shaped by the world around you."
     ],
+    "examplesKo": [
+      "이러한 변화는 나이에 제한되지 않습니다.",
+      "의학적 중재 연구는 변동성을 최소화하도록 특별히 설계됩니다.",
+      "여러분의 가소적인 뇌는 주변 세계에 의해 끊임없이 형성되고 있습니다."
+    ],
     "segmentIndex": 31
   },
   {
@@ -81,29 +97,11 @@
       "Which is on the left side of your brain, if you're right-handed, is larger than the other side.",
       "So for you, learning music may come very easily, but learning to snowboard, much harder."
     ],
+    "examplesKo": [
+      "오른손잡이라면, 뇌의 왼쪽에 있는 부분이 반대쪽보다 더 큽니다.",
+      "그래서 여러분에게는 음악을 배우는 것이 매우 쉬울 수 있지만, 스노보드를 배우는 것은 훨씬 더 어려울 수 있습니다."
+    ],
     "segmentIndex": 69
-  },
-  {
-    "pattern": "Discourse Markers for Structure (So, Now, And)",
-    "explanation": "Words like 'so', 'now', and 'and' at the beginning of sentences serve as discourse markers to signal transitions between topics, add new information, or draw conclusions.",
-    "explanationKo": "'so', 'now', 'and'와 같은 단어들이 문장 시작에서 담화 표지로 사용되어 주제 간 전환, 새 정보 추가, 또는 결론 도출을 나타냅니다.",
-    "examples": [
-      "So brain research is one of the great frontiers.",
-      "Now, some of these misconceptions are more obvious than others.",
-      "And perhaps the most exciting, the most interesting and transformative."
-    ],
-    "segmentIndex": 5
-  },
-  {
-    "pattern": "Imperative for Call to Action",
-    "explanation": "Direct commands used at the end of the talk to motivate the audience to take action. Creates urgency and personal engagement.",
-    "explanationKo": "강연 끝에서 청중에게 행동을 촉구하기 위해 사용하는 직접 명령문입니다. 긴급감과 개인적 참여를 만듭니다.",
-    "examples": [
-      "Study how and what you learn best.",
-      "Repeat those behaviors that are healthy for your brain and break those behaviors and habits that are not.",
-      "Go out and build the brain you want."
-    ],
-    "segmentIndex": 166
   },
   {
     "pattern": "Cleft Sentences for Emphasis (It is/was...that)",
@@ -112,6 +110,10 @@
     "examples": [
       "That is, what is it that limits and facilitates neuroplasticity?",
       "It's these physical changes that are now going to support long-term memories."
+    ],
+    "examplesKo": [
+      "즉, 신경가소성을 제한하고 촉진하는 것은 무엇일까요?",
+      "바로 이러한 물리적 변화가 장기 기억을 뒷받침하게 될 것입니다."
     ],
     "segmentIndex": 60
   },
@@ -123,6 +125,11 @@
       "For some of us, it's going to take a lot more practice and for others it may take far less.",
       "As we age, do we tend to forget things?",
       "Learning music may come very easily, but learning to snowboard, much harder."
+    ],
+    "examplesKo": [
+      "우리 중 일부에게는 훨씬 더 많은 연습이 필요하고, 다른 사람들에게는 훨씬 더 적게 걸릴 수도 있습니다.",
+      "나이가 들면서 우리는 것들을 잊는 경향이 있을까요?",
+      "음악을 배우는 것은 매우 쉬울 수 있지만, 스노보드를 배우는 것은 훨씬 더 어렵습니다."
     ],
     "segmentIndex": 136
   }

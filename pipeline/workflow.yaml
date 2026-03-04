@@ -10,7 +10,7 @@
 
 workflow:
   name: video_process_pipeline
-  version: "3.0"
+  version: "3.1"
 
 # ==============================================================================
 # 입력
@@ -48,8 +48,10 @@ output:
     - segments.json
     - vocabulary.json
     - grammar.json
-    - connected_speech.json  # EN: 연음, ZH: tones.json, JA: keigo.json
+    - connected_speech.json  # EN: 연음, ZH: 성조, JA: 경어
     - structure.json
+    - study_guide.html
+    - study_guide.pdf
   index: "apps/{language_app}/public/data/videos.json"
 
 # ==============================================================================
@@ -132,7 +134,7 @@ phase_2:
         segments.json를 읽고 학습 가치가 높은 어휘 15~30개 추출:
         - 단어, 발음(IPA), 품사, 정의(영/한), 어원
         - 해당 단어가 등장하는 segmentIndex
-        - 예문 (영상 내 문맥)
+        - 예문 (영상 내 문맥) + 예문 한국어 번역 (contextSentenceKo) 필수
         - 어근 분해 (prefix/root/suffix)
         - 관련 단어 (같은 어근)
       format:
@@ -149,7 +151,8 @@ phase_2:
               "relatedWords": ["vulnerable", "invulnerable"],
               "isEssential": true,
               "segmentIndex": 3,
-              "contextSentence": "Vulnerability is the birthplace of innovation."
+              "contextSentence": "Vulnerability is the birthplace of innovation.",
+              "contextSentenceKo": "취약성은 혁신의 출발점입니다."
             }
           ]
 
@@ -162,6 +165,17 @@ phase_2:
         segments.json를 읽고 주요 문법 패턴 8~15개 분석:
         - 패턴명, 설명(영/한), 난이도
         - 영상 내 실제 사용 예시 + segmentIndex
+        - 각 예문의 한국어 번역 (examplesKo) 필수 포함
+        - ⚠️ 반드시 순수 문법 패턴만 포함. 아래 항목은 절대 포함하지 않음:
+          × 수사적 질문 (Rhetorical Questions)
+          × 반복/아나포라 (Repetition for Emphasis, Anaphora)
+          × 병렬 구조 (Parallel Structure)
+          × 담화 표지 (Discourse Markers: "In other words", "Here's the thing")
+          × 청중 참여 기법 ("By show of hands", Call to Action)
+          × 열거/순서 표지 (Enumeration: "Number one", "Finally")
+          × 수사적 장치 (Metaphor, Analogy, Chiasmus, Litotes)
+        - ✓ 포함해야 하는 것: 시제, 조건문, 가정법, 관계절, 분열문,
+          화법, 비교급, 수동태, 조동사, 동명사/부정사, 접속법 등
       format:
         schema: |
           [
@@ -170,6 +184,7 @@ phase_2:
               "explanation": "Used to talk about experiences without specifying when",
               "explanationKo": "구체적 시점 없이 경험을 이야기할 때 사용하는 현재완료",
               "examples": ["I have spent my career studying vulnerability."],
+              "examplesKo": ["저는 취약성을 연구하는 데 커리어를 보냈습니다."],
               "segmentIndex": 2
             }
           ]
@@ -273,17 +288,36 @@ phase_3:
     - "{videoId}/meta.json"
 
 # ==============================================================================
+# Phase 4: PDF 생성
+# ==============================================================================
+phase_4:
+  name: "학습 가이드 PDF 생성"
+  executor: bash
+  depends_on: [phase_3]
+  command: >
+    python3 pipeline/generate_pdf.py
+    --video-id "{videoId}"
+    --language "{language}"
+  output:
+    - "{videoId}/study_guide.html"
+    - "{videoId}/study_guide.pdf"
+  on_fail: warn  # PDF 생성 실패 시 경고만 (전체 파이프라인 중단하지 않음)
+
+# ==============================================================================
 # 품질 체크리스트
 # ==============================================================================
 quality_checklist:
-  - "segments.json: 세그먼트별 영어 텍스트가 정확한가?"
+  - "segments.json: 세그먼트별 텍스트가 정확한가?"
   - "segments.json: 타임스탬프가 영상과 일치하는가?"
   - "segments.json: 한국어 번역이 자연스러운가?"
-  - "vocabulary.json: 어원(etymology)이 정확한가?"
+  - "vocabulary.json: 어원/어근(etymology/components)이 정확한가?"
   - "vocabulary.json: 핵심 단어를 빠뜨리지 않았는가?"
   - "grammar.json: 문법 설명이 정확한가?"
-  - "connected_speech.json: 연음 위치가 타임스탬프와 맞는가?"
+  - "grammar.json: examplesKo가 모든 예문에 포함되어 있는가?"
+  - "grammar.json: 수사법/담화 전략이 아닌 실제 문법 패턴만 포함되어 있는가?"
+  - "connected_speech.json: 발음 분석이 정확한가?"
   - "structure.json: 서론/본론/결론 구분이 적절한가?"
   - "structure.json: 각 섹션에 title/titleKo가 모두 포함되어 있는가?"
   - "meta.json: 난이도 분류가 적절한가?"
   - "videos.json: 인덱스에 정상 추가되었는가?"
+  - "study_guide.pdf: PDF가 정상 생성되었는가?"

@@ -7,6 +7,10 @@
       "Yet I'd sit on these silent retreats,",
       "I'd take naps every chance I got because it was really hard work."
     ],
+    "examplesKo": [
+      "그런데도 나는 이 침묵 수련회에 앉아 있곤 했다,",
+      "기회가 될 때마다 낮잠을 잤다, 정말 힘든 일이었기 때문에."
+    ],
     "segmentIndex": 4
   },
   {
@@ -15,6 +19,9 @@
     "explanationKo": "'It turns out that...'은 놀랍거나 이전에 알려지지 않은 사실을 소개할 때 사용됩니다. 상황에 대한 청자의 이해를 바꿀 수 있는 정보를 드러낼 때 쓰이는 신호 표현입니다.",
     "examples": [
       "It turns out that we're fighting one of the most evolutionarily conserved learning processes currently known in science,"
+    ],
+    "examplesKo": [
+      "알고 보니 우리는 현재 과학에서 알려진 가장 진화적으로 보존된 학습 과정 중 하나와 싸우고 있었습니다,"
     ],
     "segmentIndex": 12
   },
@@ -26,19 +33,11 @@
       "What if instead of fighting our brains... we instead tapped into this natural reward-based learning process,",
       "What if instead, we just got really curious about what was happening in our momentary experience?"
     ],
-    "segmentIndex": 46
-  },
-  {
-    "pattern": "Rhetorical questions for engagement",
-    "explanation": "Rhetorical questions are asked not to get an answer but to make the audience think. They are a common public speaking technique to engage listeners and transition between ideas.",
-    "explanationKo": "수사적 질문은 답변을 얻기 위해서가 아니라 청중이 생각하게 만들기 위해 사용됩니다. 청취자의 관심을 끌고 아이디어 간 전환을 하기 위한 일반적인 발표 기법입니다.",
-    "examples": [
-      "So why is it so hard to pay attention?",
-      "So what's going on here?",
-      "Simple, right?",
-      "What does curiosity feel like?"
+    "examplesKo": [
+      "만약 우리 뇌와 싸우는 대신... 이 자연스러운 보상 기반 학습 과정을 활용한다면 어떨까요,",
+      "만약 대신에, 우리가 순간적인 경험에서 무슨 일이 일어나고 있는지 정말 호기심을 가진다면 어떨까요?"
     ],
-    "segmentIndex": 8
+    "segmentIndex": 46
   },
   {
     "pattern": "Passive voice with 'is called'",
@@ -47,6 +46,10 @@
     "examples": [
       "This reward-based learning process is called positive and negative reinforcement",
       "Called the default mode network were at play."
+    ],
+    "examplesKo": [
+      "이 보상 기반 학습 과정을 긍정적 강화와 부정적 강화라고 합니다",
+      "디폴트 모드 네트워크라 불리는 것이 작동하고 있었습니다."
     ],
     "segmentIndex": 15
   },
@@ -58,6 +61,10 @@
       "the posterior cingulate cortex is activated not necessarily by craving itself, but when we get caught up in it",
       "This isn't to say that, poof, magically we quit smoking, but over time..."
     ],
+    "examplesKo": [
+      "후대상피질은 반드시 갈망 자체에 의해서가 아니라, 거기에 빠져들 때 활성화됩니다",
+      "이것은 마법처럼 갑자기 담배를 끊는다는 뜻이 아니라, 시간이 지나면서..."
+    ],
     "segmentIndex": 118
   },
   {
@@ -67,6 +74,10 @@
     "examples": [
       "Rather than trying to make unpleasant cravings go away as quickly as possible.",
       "rather than getting clobbered by this huge, scary craving that we choke on."
+    ],
+    "examplesKo": [
+      "불쾌한 갈망을 최대한 빨리 없애려고 하기보다는.",
+      "숨이 막힐 정도로 거대하고 무서운 갈망에 두들겨 맞기보다는."
     ],
     "segmentIndex": 98
   },
@@ -78,16 +89,11 @@
       "We've gone from learning to survive to literally killing ourselves with these habits.",
       "the majority of them had tried this before and failed,"
     ],
-    "segmentIndex": 43
-  },
-  {
-    "pattern": "In other words (Rephrasing signal)",
-    "explanation": "'In other words' is a discourse marker used to restate or clarify a previous idea in simpler or different terms, helping the audience understand a complex concept.",
-    "explanationKo": "'In other words'는 이전 아이디어를 더 간단하거나 다른 용어로 재진술하거나 명확히 하기 위해 사용되는 담화 표지입니다. 복잡한 개념을 청중이 이해하도록 돕습니다.",
-    "examples": [
-      "In other words, when we get curious, we step out of our old fear-based reactive habit patterns,"
+    "examplesKo": [
+      "우리는 생존을 위해 배우던 것에서 이러한 습관으로 말 그대로 스스로를 죽이는 지경에 이르렀습니다.",
+      "그들 대다수는 이전에 시도했다가 실패한 적이 있었습니다,"
     ],
-    "segmentIndex": 107
+    "segmentIndex": 43
   },
   {
     "pattern": "Comparative structure with 'twice as... as'",
@@ -95,6 +101,9 @@
     "explanationKo": "'twice as [형용사] as' 구조는 정밀한 비교를 하며, 한 가지가 다른 것의 두 배임을 나타냅니다. 학술 및 연구 맥락에서 흔히 사용됩니다.",
     "examples": [
       "mindfulness training was twice as good as gold standard therapy at helping people quit smoking."
+    ],
+    "examplesKo": [
+      "마음챙김 훈련은 사람들의 금연을 돕는 데 있어 표준 치료법보다 두 배나 효과적이었습니다."
     ],
     "segmentIndex": 114
   },
@@ -106,6 +115,10 @@
       "Instead of this hunger signal coming from our stomach,",
       "Instead of see text message, compulsively text back,"
     ],
+    "examplesKo": [
+      "배에서 오는 배고픔 신호 대신에,",
+      "문자 메시지를 보고 강박적으로 답장하는 대신에,"
+    ],
     "segmentIndex": 31
   },
   {
@@ -114,6 +127,9 @@
     "explanationKo": "청중에게 향한 'if' 조건절은 청취자가 개인적으로 공감할 수 있는 조건적 시나리오를 만들어, 내용을 더 관련성 있고 설득력 있게 만듭니다.",
     "examples": [
       "So if you don't smoke or stress eat, maybe the next time you feel this urge to check your email when you're bored..."
+    ],
+    "examplesKo": [
+      "그러니까 만약 담배를 피우지 않거나 스트레스성 폭식을 하지 않는다면, 다음에 지루할 때 이메일을 확인하고 싶은 충동이 느껴지면..."
     ],
     "segmentIndex": 132
   }

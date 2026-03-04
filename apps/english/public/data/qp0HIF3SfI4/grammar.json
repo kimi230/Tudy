@@ -1,51 +1,5 @@
 [
   {
-    "pattern": "Rhetorical Questions for Engagement",
-    "explanation": "Rhetorical questions are questions asked for effect, not expecting an answer. They are used to make the audience think and engage with the speaker's argument. Simon Sinek uses them extensively to draw listeners into his reasoning.",
-    "explanationKo": "수사적 질문은 답을 기대하지 않고 효과를 위해 던지는 질문입니다. 청중이 화자의 논점에 대해 생각하고 관여하게 만드는 데 사용됩니다. 사이먼 사이넥은 청중을 자신의 논리로 끌어들이기 위해 이를 광범위하게 사용합니다.",
-    "examples": [
-      {
-        "text": "How do you explain when things don't go as we assume?",
-        "textKo": "일이 우리가 예상한 대로 되지 않을 때 어떻게 설명하시겠습니까?",
-        "segmentIndex": 0
-      },
-      {
-        "text": "Why is Apple so innovative?",
-        "textKo": "왜 애플은 그토록 혁신적일까요?",
-        "segmentIndex": 3
-      },
-      {
-        "text": "Why would you buy an MP3 player from a computer company?",
-        "textKo": "왜 컴퓨터 회사에서 MP3 플레이어를 사겠어요?",
-        "segmentIndex": 82
-      }
-    ],
-    "segmentIndex": 0
-  },
-  {
-    "pattern": "Repetition for Emphasis (Anaphora)",
-    "explanation": "Anaphora is the deliberate repetition of a word or phrase at the beginning of successive clauses. Sinek uses this technique to reinforce his central message and make it memorable. The repeated phrase 'People don't buy what you do, they buy why you do it' appears throughout the talk as a refrain.",
-    "explanationKo": "반복법(아나포라)은 연속적인 절의 시작에서 단어나 구를 의도적으로 반복하는 것입니다. 사이넥은 이 기법을 사용하여 핵심 메시지를 강화하고 기억에 남게 합니다. '사람들은 당신이 무엇을 하는지를 사지 않습니다, 왜 하는지를 삽니다'라는 반복 구절이 강연 전체에 걸쳐 후렴구처럼 나타납니다.",
-    "examples": [
-      {
-        "text": "People don't buy what you do, people buy why you do it.",
-        "textKo": "사람들은 당신이 무엇을 하는지를 사지 않고, 왜 하는지를 삽니다.",
-        "segmentIndex": 68
-      },
-      {
-        "text": "Year after year after year after year.",
-        "textKo": "해마다 해마다 해마다 해마다.",
-        "segmentIndex": 4
-      },
-      {
-        "text": "I believe, I believe, I believe, he told people.",
-        "textKo": "나는 믿습니다, 나는 믿습니다, 나는 믿습니다, 그는 사람들에게 말했습니다.",
-        "segmentIndex": 216
-      }
-    ],
-    "segmentIndex": 68
-  },
-  {
     "pattern": "Contrast with 'Not... but...'",
     "explanation": "This structure presents a contrast by first negating one idea and then presenting the correct or preferred alternative. It creates a clear binary distinction and is highly effective in persuasive speech.",
     "explanationKo": "'~이 아니라 ~이다' 구조는 먼저 하나의 아이디어를 부정한 후 올바른 또는 선호되는 대안을 제시합니다. 명확한 이분법적 구별을 만들며 설득적 연설에서 매우 효과적입니다.",
@@ -108,29 +62,6 @@
       }
     ],
     "segmentIndex": 48
-  },
-  {
-    "pattern": "Parallel Structure in Lists",
-    "explanation": "Parallel structure (parallelism) involves using the same grammatical pattern for items in a list or comparison. This creates rhythm and balance, making ideas clearer and more memorable.",
-    "explanationKo": "병렬 구조(대구법)는 목록이나 비교에서 같은 문법 패턴을 사용하는 것입니다. 이는 리듬과 균형을 만들어 아이디어를 더 명확하고 기억에 남게 합니다.",
-    "examples": [
-      {
-        "text": "They all think, act, and communicate the exact same way.",
-        "textKo": "그들 모두는 정확히 같은 방식으로 생각하고, 행동하고, 소통합니다.",
-        "segmentIndex": 25
-      },
-      {
-        "text": "What's your purpose? What's your cause? What's your belief?",
-        "textKo": "당신의 목적은 무엇인가요? 당신의 대의는 무엇인가요? 당신의 신념은 무엇인가요?",
-        "segmentIndex": 39
-      },
-      {
-        "text": "He wasn't first, he didn't get rich, he didn't get famous, so he quit.",
-        "textKo": "그는 첫 번째가 아니었고, 부자가 되지 못했고, 유명해지지 못했기에, 그만두었습니다.",
-        "segmentIndex": 153
-      }
-    ],
-    "segmentIndex": 25
   },
   {
     "pattern": "Cleft Sentences for Focus ('It's... that/who...')",
@@ -218,29 +149,6 @@
       }
     ],
     "segmentIndex": 24
-  },
-  {
-    "pattern": "Discourse Markers for Transition",
-    "explanation": "Discourse markers are words or phrases that organize speech and signal transitions between ideas. They help listeners follow the logical flow of a presentation. Sinek uses various markers to guide his audience through his argument.",
-    "explanationKo": "담화 표지는 연설을 구성하고 아이디어 간의 전환을 알리는 단어나 구입니다. 청자가 발표의 논리적 흐름을 따라갈 수 있게 도와줍니다. 사이넥은 다양한 표지를 사용하여 청중을 자신의 논증을 통해 안내합니다.",
-    "examples": [
-      {
-        "text": "As it turns out, there's a pattern.",
-        "textKo": "알고 보니, 하나의 패턴이 있었습니다.",
-        "segmentIndex": 22
-      },
-      {
-        "text": "Here's the best part.",
-        "textKo": "여기 가장 좋은 부분이 있습니다.",
-        "segmentIndex": 86
-      },
-      {
-        "text": "In other words, when we communicate from the outside in...",
-        "textKo": "다시 말해, 우리가 바깥에서 안으로 소통할 때...",
-        "segmentIndex": 97
-      }
-    ],
-    "segmentIndex": 22
   },
   {
     "pattern": "Emphatic 'do/does' for Stress",

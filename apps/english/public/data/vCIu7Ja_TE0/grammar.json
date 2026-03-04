@@ -13,6 +13,10 @@
         "translation": "두 명의 벌목꾼에 대한 좋은 이야기가 있습니다."
       }
     ],
+    "examplesKo": [
+      "세상을 보는 방법은 두 가지가 있습니다.",
+      "두 명의 벌목꾼에 대한 좋은 이야기가 있습니다."
+    ],
     "segmentIndex": 0
   },
   {
@@ -29,23 +33,11 @@
         "translation": "어떤 사람들은 자신이 원하는 것을 얻지 못하게 막는 것을 봅니다."
       }
     ],
-    "segmentIndex": 0
-  },
-  {
-    "pattern": "It's not about X, it's about Y (contrastive focus)",
-    "explanation": "This pattern creates a contrast between two ideas, dismissing one perspective (X) and emphasizing another (Y). It's a powerful rhetorical device used frequently in motivational speeches.",
-    "explanationKo": "두 개의 아이디어를 대조하는 패턴으로, 한 관점(X)을 부정하고 다른 관점(Y)을 강조합니다. 동기부여 연설에서 자주 사용되는 강력한 수사적 장치입니다.",
-    "examples": [
-      {
-        "sentence": "It's not about how much you can get done each day. It's how much you can get done over the course of a career.",
-        "translation": "하루에 얼마나 많이 해내느냐가 아닙니다. 커리어 전체에 걸쳐 얼마나 많이 해낼 수 있느냐입니다."
-      },
-      {
-        "sentence": "It's not about how tough you are, it's not about how smart you are.",
-        "translation": "얼마나 강한지가 중요한 게 아닙니다, 얼마나 똑똑한지도 아닙니다."
-      }
+    "examplesKo": [
+      "어떤 사람들은 자신이 원하는 것을 봅니다.",
+      "어떤 사람들은 자신이 원하는 것을 얻지 못하게 막는 것을 봅니다."
     ],
-    "segmentIndex": 13
+    "segmentIndex": 0
   },
   {
     "pattern": "You just cannot / You just can't (emphatic restriction)",
@@ -61,6 +53,10 @@
         "translation": "다만 다른 사람이 원하는 것을 얻는 데 방해가 되면 안 됩니다."
       }
     ],
+    "examplesKo": [
+      "다만 다른 사람이 원하는 것을 추구할 권리를 빼앗으면 안 됩니다.",
+      "다만 다른 사람이 원하는 것을 얻는 데 방해가 되면 안 됩니다."
+    ],
     "segmentIndex": 39
   },
   {
@@ -72,6 +68,9 @@
         "sentence": "None of them make it through.",
         "translation": "그들 중 아무도 통과하지 못합니다."
       }
+    ],
+    "examplesKo": [
+      "그들 중 아무도 통과하지 못합니다."
     ],
     "segmentIndex": 54
   },
@@ -85,6 +84,9 @@
         "translation": "어떻게든, 어떤 방법으로든, 자신의 깊은 내면을 파고들어 에너지를 찾아냅니다."
       }
     ],
+    "examplesKo": [
+      "어떻게든, 어떤 방법으로든, 자신의 깊은 내면을 파고들어 에너지를 찾아냅니다."
+    ],
     "segmentIndex": 65
   },
   {
@@ -96,6 +98,9 @@
         "sentence": "If you want to be an elite warrior, you better get really, really good at helping the person to the left of you.",
         "translation": "정예 전사가 되고 싶다면, 왼쪽에 있는 사람을 돕는 것을 정말로 아주 잘해야 합니다."
       }
+    ],
+    "examplesKo": [
+      "정예 전사가 되고 싶다면, 왼쪽에 있는 사람을 돕는 것을 정말로 아주 잘해야 합니다."
     ],
     "segmentIndex": 70
   },
@@ -113,6 +118,10 @@
         "translation": "모든 사람이 말할 때까지 의견을 참는 기술은 두 가지를 해냅니다."
       }
     ],
+    "examplesKo": [
+      "핵심 기술은 자기 의견을 참는 것입니다.",
+      "모든 사람이 말할 때까지 의견을 참는 기술은 두 가지를 해냅니다."
+    ],
     "segmentIndex": 107
   },
   {
@@ -124,6 +133,9 @@
         "sentence": "As you gain fame, as you gain fortune, as you gain position and seniority, people will treat you better.",
         "translation": "명성을 얻고, 재산을 얻고, 지위와 직급이 올라가면, 사람들이 더 잘 대해줄 것입니다."
       }
+    ],
+    "examplesKo": [
+      "명성을 얻고, 재산을 얻고, 지위와 직급이 올라가면, 사람들이 더 잘 대해줄 것입니다."
     ],
     "segmentIndex": 157
   },
@@ -141,34 +153,10 @@
         "translation": "어쩌면 그들의 문제가 아닐 수 있습니다. 그건 마치... 접니다."
       }
     ],
+    "examplesKo": [
+      "세대의 문제가 아닙니다. 그들의 문제가 아닙니다. 그들이 어렵거나 이해하기 힘든 것이 아닙니다.",
+      "어쩌면 그들의 문제가 아닐 수 있습니다. 그건 마치... 접니다."
+    ],
     "segmentIndex": 177
-  },
-  {
-    "pattern": "Working hard for something we X is called Y (definitional parallelism)",
-    "explanation": "This pattern creates memorable definitions by pairing a condition with its label. The parallel structure makes the contrast between 'stress' and 'passion' sharp and quotable.",
-    "explanationKo": "이 패턴은 조건과 그 명칭을 짝지어 기억에 남는 정의를 만듭니다. 병렬 구조가 '스트레스'와 '열정' 사이의 대비를 날카롭고 인용하기 좋게 만듭니다.",
-    "examples": [
-      {
-        "sentence": "Working hard for something we don't care about is called stress.",
-        "translation": "관심 없는 것을 위해 열심히 일하는 것을 스트레스라 부릅니다."
-      },
-      {
-        "sentence": "Working hard for something we love is called passion.",
-        "translation": "사랑하는 것을 위해 열심히 일하는 것을 열정이라 부릅니다."
-      }
-    ],
-    "segmentIndex": 240
-  },
-  {
-    "pattern": "How do I + verb (question as rhetorical device)",
-    "explanation": "Using 'How do I' framed as a question serves as a rhetorical device to challenge common assumptions. The speaker contrasts two versions of the question to highlight a different mindset.",
-    "explanationKo": "'How do I'를 질문 형태로 사용하여 일반적인 가정에 도전하는 수사적 장치입니다. 화자는 두 가지 버전의 질문을 대비시켜 다른 사고방식을 강조합니다.",
-    "examples": [
-      {
-        "sentence": "How do I get the best out of my people? vs. How do I help my people be at their natural best?",
-        "translation": "'어떻게 하면 직원들에게서 최대한을 끌어낼까?' vs '어떻게 하면 직원들이 자연스럽게 최고의 모습을 발휘하도록 도울까?'"
-      }
-    ],
-    "segmentIndex": 185
   }
 ]

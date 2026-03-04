@@ -6,6 +6,9 @@
     "examples": [
       "Just like the U.S. doesn't want illegal immigration from Mexico, Mexico doesn't want illegal immigration from Guatemala."
     ],
+    "examplesKo": [
+      "미국이 멕시코로부터의 불법 이민을 원치 않는 것처럼, 멕시코도 과테말라로부터의 불법 이민을 원치 않는다."
+    ],
     "segmentIndex": 6
   },
   {
@@ -15,6 +18,10 @@
     "examples": [
       "We've been able to do this.",
       "Duolingo has entered the zeitgeist."
+    ],
+    "examplesKo": [
+      "우리는 이것을 해낼 수 있었다.",
+      "듀오링고는 시대정신의 일부가 되었다."
     ],
     "segmentIndex": 95
   },
@@ -26,6 +33,10 @@
       "If you don't pay, you may have to see an ad at the end of a lesson.",
       "If you really want to deliver education to everyone, you have to make it accessible."
     ],
+    "examplesKo": [
+      "돈을 내지 않으면 수업 끝에 광고를 봐야 할 수도 있다.",
+      "정말로 모든 사람에게 교육을 제공하고 싶다면, 접근 가능하게 만들어야 한다."
+    ],
     "segmentIndex": 70
   },
   {
@@ -36,6 +47,10 @@
       "Whereas with languages, if you were a waiter and you learned English, now you can be a waiter at a hotel.",
       "When you're learning something, you get meaning out of it, whereas when you're scrolling for two hours on Instagram, you feel like you just wasted your time."
     ],
+    "examplesKo": [
+      "반면에 언어의 경우, 웨이터였는데 영어를 배우면 이제 호텔에서 웨이터를 할 수 있다.",
+      "뭔가를 배울 때는 의미를 얻지만, 반면에 인스타그램을 두 시간 동안 스크롤하면 시간을 낭비한 것 같은 기분이 든다."
+    ],
     "segmentIndex": 53
   },
   {
@@ -44,6 +59,9 @@
     "explanationKo": "'Not only A, but also B'는 두 가지 관련된 아이디어를 제시하면서 두 번째를 더 강조할 때 사용해요. 설득적인 연설에서 자주 쓰여요.",
     "examples": [
       "Not only do you have to make it accessible, but also you have to make it so that people want to actually learn."
+    ],
+    "examplesKo": [
+      "접근 가능하게 만들어야 할 뿐만 아니라, 사람들이 실제로 배우고 싶어하도록 만들어야 한다."
     ],
     "segmentIndex": 93
   },
@@ -55,6 +73,10 @@
       "It turns out that the vast majority of the revenue for Duolingo comes from people who pay to subscribe.",
       "It turns out that the algorithm for choosing what time to send you a notification is pretty simple."
     ],
+    "examplesKo": [
+      "알고 보니 듀오링고 수익의 대부분은 구독료를 내는 사람들에게서 나온다.",
+      "알고 보니 알림을 보낼 시간을 정하는 알고리즘은 꽤 단순하다."
+    ],
     "segmentIndex": 73
   },
   {
@@ -64,6 +86,10 @@
     "examples": [
       "The reason for that is because English can truly transform your life.",
       "The reason people come back every day is because, well, if they don't come back, that number resets to zero."
+    ],
+    "examplesKo": [
+      "그 이유는 영어가 정말로 삶을 바꿀 수 있기 때문이다.",
+      "사람들이 매일 돌아오는 이유는 돌아오지 않으면 그 숫자가 0으로 초기화되기 때문이다."
     ],
     "segmentIndex": 44
   },
@@ -75,6 +101,10 @@
       "Delivering education over a smartphone is like hoping that people will eat their broccoli.",
       "Giving equal access to education to everyone."
     ],
+    "examplesKo": [
+      "스마트폰으로 교육을 전달하는 것은 사람들이 브로콜리를 먹기를 바라는 것과 같다.",
+      "모든 사람에게 교육에 대한 평등한 접근을 제공하는 것."
+    ],
     "segmentIndex": 90
   },
   {
@@ -84,6 +114,10 @@
     "examples": [
       "Even if you're not as engaging as those apps are, you can still get hundreds of millions of people to use your product.",
       "Even though I didn't grow up rich."
+    ],
+    "examplesKo": [
+      "그런 앱들만큼 매력적이지 않더라도, 여전히 수억 명의 사람들이 제품을 사용하게 할 수 있다.",
+      "부유하게 자라지 않았음에도 불구하고."
     ],
     "segmentIndex": 182
   },
@@ -95,6 +129,11 @@
       "A future in which screen time is not a bad thing.",
       "Countries in which people are predominantly learning English.",
       "That is where Guatemala is."
+    ],
+    "examplesKo": [
+      "스크린 타임이 나쁜 것이 아닌 미래.",
+      "사람들이 주로 영어를 배우고 있는 나라들.",
+      "그곳이 과테말라가 있는 곳이다."
     ],
     "segmentIndex": 193
   }
