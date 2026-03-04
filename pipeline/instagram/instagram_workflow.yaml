@@ -1,0 +1,213 @@
+# ==============================================================================
+# Instagram Content Automation Workflow
+# ==============================================================================
+# 기존 영상 학습 데이터를 활용해 Instagram 콘텐츠를 자동 생성하는 워크플로우.
+# 포지셔닝: "인사이트 큐레이터" — 세계적 연사의 인사이트 + 고급 영어 체화
+# 퍼널: Instagram → /subscribe (무료 PDF) → 학습 플랫폼
+
+name: Instagram Content Pipeline
+version: "1.0"
+
+# ==============================================================================
+# 콘텐츠 유형 (주간 스케줄)
+# ==============================================================================
+schedule:
+  monday: vocabulary      # 어휘 카드
+  wednesday: grammar      # 문법 패턴 카드
+  thursday: reel          # 영상 클립 (릴스)
+  friday: pronunciation   # 발음/연음 카드
+
+# ==============================================================================
+# Phase 0: 데이터 보강 (Claude Code 직접)
+# ==============================================================================
+# grammar.json에 examplesKo가 없는 항목이 있으면 일괄 보강
+phase_0_backfill:
+  executor: claude
+  action: |
+    기존 grammar.json 파일 검사:
+    1. apps/english/public/data/*/grammar.json 전체 스캔
+    2. examplesKo 필드가 없는 항목 식별
+    3. 병렬 배치로 한국어 번역 추가 (examples와 동일 길이, 동일 순서)
+    4. 수사법/담화 전략 항목은 실제 문법 패턴이 아니므로 식별만 (제거는 수동)
+  skip_if: "모든 grammar.json에 examplesKo가 이미 존재"
+
+# ==============================================================================
+# Phase 1: 콘텐츠 선정 (bash: content_selector.py)
+# ==============================================================================
+# 기존 영상 데이터에서 Instagram 콘텐츠 후보를 스코어링/랭킹
+phase_1_select:
+  executor: bash
+  command: >
+    python3 pipeline/instagram/content_selector.py
+    --all --count {count}
+  output: "pipeline/.tmp/instagram_candidates.json"
+  description: >
+    어휘(어원 풍부도/교육 가치/시각적 매력/화자 명성/주제 매력),
+    문법(변환 명확성/예문 수/한국인 학습 가치),
+    발음(한국어 음독/연습 가이드/타입별 가중치),
+    릴스(임팩트/길이/난이도) 기준으로 스코어링.
+    content_log.json 참조해 기 사용 항목 제외.
+
+# ==============================================================================
+# Phase 2: 주간 캘린더 (bash: content_calendar.py)
+# ==============================================================================
+# 선정된 후보로 주간 콘텐츠 플랜 생성
+phase_2_plan:
+  executor: bash
+  command: >
+    python3 pipeline/instagram/content_calendar.py
+    --plan-week
+  output: "pipeline/instagram/output/queue.json"
+  description: >
+    주간 스케줄에 맞춰 콘텐츠 배정.
+    다양성 규칙: 같은 영상에서 주 2개 이하.
+    queue.json에 pending 상태로 추가.
+
+# ==============================================================================
+# Phase 3: 이미지 생성 (bash: generate_image.py)
+# ==============================================================================
+# queue.json의 pending 항목들에 대해 이미지 생성
+phase_3a_vocabulary:
+  workflow: "pipeline/instagram/vocabulary_workflow.yaml"
+  description: >
+    별도 워크플로우 참조. Claude Code가 어휘 선정 →
+    캐러셀 이미지 생성 (5장 어휘 카드 + Tudy CTA) → 캡션 작성.
+
+phase_3b_images:
+  executor: bash
+  command: >
+    python3 pipeline/instagram/generate_image.py --from-queue
+  output: "pipeline/instagram/output/{date}_{type}/feed_post.png, story.png"
+  description: >
+    Pillow로 문법/발음 카드 생성.
+    각 카드: feed(1080x1350) + story(1080x1920).
+    어두운 배경 + 한국어/영어 이중 표기 + 화자 귀속 + 브랜드 워터마크.
+
+# ==============================================================================
+# Phase 4: 릴스 생성 (bash: generate_reel.py)
+# ==============================================================================
+# queue.json의 reel 항목에 대해 영상 클립 생성
+phase_4_reels:
+  workflow: "pipeline/instagram/reel_workflow.yaml"
+  description: >
+    별도 워크플로우 참조. Claude Code가 segments.json 전체 스크립트를 읽고
+    핵심 인사이트 구간(~20초, 2-4 세그먼트)을 직접 선정 →
+    제목 작성 → 2-pass 릴스 생성 (1회차: 영어자막+카운트다운, 2회차: 이중언어자막).
+    content_selector.py의 메타데이터 기반 스코어링은 더 이상 사용하지 않음.
+
+# ==============================================================================
+# Phase 5: 캡션 생성 (Claude Code 직접)
+# ==============================================================================
+# Claude Code가 각 콘텐츠를 읽고 caption.json 직접 작성
+phase_5_captions:
+  executor: claude
+  action: >
+    queue.json의 각 항목에 대해:
+    1. 해당 콘텐츠 데이터(vocabulary/grammar/connected_speech/structure.json) 읽기
+    2. 호기심 유발 한국어 헤드라인 작성
+       (X: "이 표현 배워보세요" → O: "40대가 넘어도 뇌를 10대처럼 쓰는 방법")
+    3. 인사이트 요약 (2-3줄)
+    4. 영어 학습 포인트 정리
+    5. 해시태그 15-20개 (한국어+영어 혼합)
+    6. CTA (프로필 링크 유도)
+  output: "pipeline/instagram/output/{date}_{type}/caption.json"
+  schema:
+    headline: "호기심 유발 한국어 한 줄 (Instagram 첫 줄)"
+    body: "본문 (인사이트 + 학습 포인트)"
+    hashtags: ["#영어공부", "#TED영어", "..."]
+    cta: "프로필 링크에서 무료 스터디 가이드 받기"
+
+# ==============================================================================
+# Phase 6: 아카이브 + Telegram 전송 (bash + claude)
+# ==============================================================================
+# 생성된 콘텐츠를 아카이브하고 Telegram으로 파일 전송
+phase_6_archive_and_deliver:
+  executor: claude
+  depends_on: [phase_5_captions]
+  steps:
+    # 6-1. 아카이브
+    - id: archive
+      executor: bash
+      action: |
+        결과물을 날짜+영상ID 기반 아카이브 디렉토리로 복사:
+        pipeline/instagram/archive/{date}_{videoId}_{label}/
+          ├── {date}_vocabulary_{label}/  (slide_1~N.png + caption.json)
+          ├── {date}_grammar_{label}/     (feed_post.png + story.png + caption.json)
+          └── {date}_reel_{label}/        (clip.mp4 + caption.json)
+
+    # 6-2. Telegram 텍스트 요약
+    - id: send_summary
+      executor: bash
+      command: >
+        telegram send "{summary_text}"
+      description: "생성 결과 텍스트 요약 전송 (영상명, 콘텐츠 목록, 경로 등)"
+
+    # 6-3. Telegram 어휘 캐러셀 전송
+    - id: send_vocabulary
+      executor: bash
+      command: >
+        telegram album
+        {slide_1} {slide_2} ... {slide_N}
+        --caption "어휘 캐러셀: {words_summary}"
+      description: "어휘 캐러셀 이미지를 앨범으로 전송"
+
+    # 6-4. Telegram 문법 카드 전송
+    - id: send_grammar
+      executor: bash
+      command: >
+        telegram album
+        {feed_post.png} {story.png}
+        --caption "문법 카드: {pattern} (피드 + 스토리)"
+      description: "문법 카드 피드+스토리를 앨범으로 전송"
+
+    # 6-5. Telegram 릴스 전송
+    - id: send_reel
+      executor: bash
+      command: >
+        telegram video {clip.mp4}
+        "릴스: {headline} ({duration}, 세그먼트 {segments})"
+      description: "릴스 영상 파일 전송"
+
+    # 6-6. Telegram 캡션 텍스트 전송
+    - id: send_captions
+      executor: bash
+      action: |
+        각 콘텐츠의 caption.json을 읽고 게시용 텍스트로 조합하여 전송:
+        telegram send "{headline}\n\n{body}\n\n{hashtags}\n\n{cta}"
+      description: "각 콘텐츠별 Instagram 게시용 캡션을 텍스트 메시지로 전송"
+
+  telegram_commands:
+    text: "telegram send {message}"
+    photo: "telegram photo {path} [caption]"
+    video: "telegram video {path} [caption]"
+    album: "telegram album {path1} {path2} ... --caption {text}"
+
+# ==============================================================================
+# Phase 7: 마무리 (bash: content_calendar.py)
+# ==============================================================================
+# 포스팅 후 이력 추적
+phase_7_post:
+  executor: bash
+  command: >
+    python3 pipeline/instagram/content_calendar.py
+    --mark-posted --content-key "{content_key}"
+  description: >
+    실제 Instagram 포스팅 후 수동으로 실행.
+    queue.json → content_log.json 이동. 중복 방지용 이력 기록.
+
+# ==============================================================================
+# CLI Quick Reference
+# ==============================================================================
+cli_reference:
+  select: "python3 pipeline/instagram/content_selector.py --all --count 5"
+  plan: "python3 pipeline/instagram/content_calendar.py --plan-week"
+  images: "python3 pipeline/instagram/generate_image.py --from-queue"
+  reels: "python3 pipeline/instagram/generate_reel.py --from-candidates"
+  queue: "python3 pipeline/instagram/content_calendar.py --show-queue"
+  stats: "python3 pipeline/instagram/content_calendar.py --stats"
+  posted: "python3 pipeline/instagram/content_calendar.py --mark-posted --content-key {key}"
+  # Telegram 전송
+  send_text: "telegram send {message}"
+  send_photo: "telegram photo {path} [caption]"
+  send_video: "telegram video {path} [caption]"
+  send_album: "telegram album {path1} {path2} ... --caption {text}"

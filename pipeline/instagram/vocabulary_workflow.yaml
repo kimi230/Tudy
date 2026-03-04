@@ -1,0 +1,89 @@
+# ==============================================================================
+# Instagram Vocabulary Carousel Workflow
+# ==============================================================================
+# 영상의 어휘 데이터에서 상위 5개 선정 → 캐러셀 이미지 생성 (5장 + CTA)
+#
+# 캐러셀 구조:
+#   slide 1~5: 어휘 카드 (단어 + 발음 + 뜻 + 어원 + 예문 + 화자)
+#   slide 6:   Tudy 플랫폼 CTA 슬라이드
+#
+# Claude Code가 LLM 역할 수행 (어휘 선정 + 캡션 작성)
+
+name: Vocabulary Carousel Generation
+version: "1.0"
+
+# ==============================================================================
+# Step 1: 어휘 선정 (Claude Code 직접)
+# ==============================================================================
+step_1_select_vocabulary:
+  executor: claude
+  action: |
+    1. vocabulary.json 읽기 — 전체 어휘 목록 분석
+    2. 캐러셀에 적합한 상위 5개 어휘 선정 기준:
+       - 어원이 풍부한 단어 (rootBreakdown 3파트 존재)
+       - 한국어 뜻이 명확하고 학습 가치 높은 단어
+       - 시각적으로 인상적인 단어 (8글자 이상)
+       - 문맥 예문이 있는 단어
+       - 다양한 카테고리 (명사/동사/형용사 혼합 선호)
+    3. 5개 어휘의 인덱스 및 테마 정리
+  input:
+    - "apps/english/public/data/{videoId}/vocabulary.json"
+  output:
+    - item_indices (list[int]): 선정된 5개 어휘 인덱스
+    - theme: 5개 어휘를 관통하는 테마 (캡션 작성용)
+
+# ==============================================================================
+# Step 2: 캐러셀 생성 (bash: generate_image.py)
+# ==============================================================================
+step_2_generate:
+  executor: bash
+  command: >
+    python3 pipeline/instagram/generate_image.py
+    --carousel
+    --video-id "{videoId}"
+    --item-indices "{item_indices}"
+    --output-dir "pipeline/instagram/output/{date}_vocabulary"
+  output: "pipeline/instagram/output/{date}_vocabulary/slide_1.png ~ slide_6.png"
+  description: |
+    Pillow로 어휘 캐러셀 생성:
+    - slide 1~5: 어휘 카드 (1080x1350)
+      어두운 배경 + 단어(대) + 발음기호 + 한국어 뜻(노란)
+      + 어원 분해 + 문맥 예문 + 화자 귀속 + 슬라이드 번호
+    - slide 6: Tudy CTA 슬라이드
+      플랫폼명 + 태그라인 + 주요 기능 + CTA 버튼
+
+# ==============================================================================
+# Step 3: 캡션 작성 (Claude Code 직접)
+# ==============================================================================
+step_3_caption:
+  executor: claude
+  action: |
+    캐러셀 콘텐츠에 맞는 Instagram 캡션 작성:
+    1. 호기심 유발 첫 줄 (어휘 테마 기반)
+       (X: "오늘의 영어 단어 5개" → O: "뇌과학자가 매일 쓰는 단어, 당신은 몇 개나 아시나요?")
+    2. 각 단어 한 줄 요약 (이모지 + 단어 + 뜻)
+    3. "슬라이드 넘기면서 하나씩 익혀보세요" 안내
+    4. 해시태그 15-20개 (한국어+영어 혼합)
+    5. CTA (프로필 링크 유도)
+  output: "pipeline/instagram/output/{date}_vocabulary/caption.json"
+  schema:
+    headline: "호기심 유발 한국어 한 줄 (Instagram 첫 줄)"
+    body: "본문 (단어 요약 + 학습 안내)"
+    hashtags: ["#영어공부", "#영어어휘", "#TED영어", "..."]
+    cta: "프로필 링크에서 무료 스터디 가이드 받기"
+
+# ==============================================================================
+# CLI Quick Reference
+# ==============================================================================
+cli:
+  generate_manual: >
+    python3 pipeline/instagram/generate_image.py
+    --carousel
+    --video-id {videoId}
+    --item-indices "0,1,2,3,4"
+  generate_auto: >
+    python3 pipeline/instagram/generate_image.py
+    --carousel
+    --video-id {videoId}
+  from_queue: >
+    python3 pipeline/instagram/generate_image.py --from-queue
