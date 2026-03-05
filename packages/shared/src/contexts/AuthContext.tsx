@@ -30,19 +30,33 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
 
-  const fetchProfile = useCallback(async (userId: string) => {
+  const fetchOrCreateProfile = useCallback(async (user: User) => {
     if (!supabase) return;
     const { data } = await supabase
       .from('profiles')
       .select('*')
-      .eq('id', userId)
+      .eq('id', user.id)
       .single();
-    if (data) setProfile(data as Profile);
+    if (data) {
+      setProfile(data as Profile);
+    } else {
+      // Tudy 유저만 프로필 생성 (트리거 제거됨)
+      const { data: created } = await supabase
+        .from('profiles')
+        .upsert({
+          id: user.id,
+          display_name: user.user_metadata?.full_name || user.email || '',
+          avatar_url: user.user_metadata?.avatar_url || null,
+        })
+        .select()
+        .single();
+      if (created) setProfile(created as Profile);
+    }
   }, []);
 
   const refreshProfile = useCallback(async () => {
-    if (user) await fetchProfile(user.id);
-  }, [user, fetchProfile]);
+    if (user) await fetchOrCreateProfile(user);
+  }, [user, fetchOrCreateProfile]);
 
   useEffect(() => {
     if (!isSupabaseConfigured()) {
@@ -54,7 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     supabase!.auth.getSession().then(({ data: { session: s } }) => {
       setSession(s);
       setUser(s?.user ?? null);
-      if (s?.user) fetchProfile(s.user.id);
+      if (s?.user) fetchOrCreateProfile(s.user);
       setLoading(false);
     });
 
@@ -64,7 +78,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setSession(s);
         setUser(s?.user ?? null);
         if (s?.user) {
-          fetchProfile(s.user.id);
+          fetchOrCreateProfile(s.user);
         } else {
           setProfile(null);
         }
@@ -72,7 +86,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     );
 
     return () => subscription.unsubscribe();
-  }, [fetchProfile]);
+  }, [fetchOrCreateProfile]);
 
   const signInWithGoogle = useCallback(async () => {
     if (!supabase) return;
