@@ -1,8 +1,18 @@
 # stdyLang 업데이트 로그
 # 최신 항목이 위에 위치합니다.
 
+- date: "2026-03-06"
+  version: "0.0.1"
+  title: "Gamification 버그 수정 + 파이프라인 재편"
+  items:
+    - "XP 지급 원자성 보장 (award_xp_complete 단일 트랜잭션)"
+    - "XP 지급 실패 시 토스트 미표시"
+    - "오답노트 XP 파밍 방지 (중복 체크)"
+    - "연속 학습(daily_streak) XP 자동 지급"
+    - "Firebase Auth 마이그레이션"
+
 - date: "2026-02-27"
-  version: "1.1.0"
+  version: "0.0.0"
   title: "오늘의 학습 - 어휘 퀴즈 추가"
   items:
     - "받아쓰기 완료 후 어휘 4지선다 퀴즈 5문제 추가"

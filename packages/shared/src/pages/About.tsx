@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function About() {
   return (
     <article className="max-w-3xl mx-auto py-4">
@@ -354,6 +356,15 @@ export default function About() {
             이 학습법은 TED 강연을 기반으로 하지만,
             Tudy에서는 TED뿐만 아니라 모든 YouTube 영상에 동일한 10단계를 적용할 수 있습니다.
           </p>
+        </section>
+
+        <section className="border-t border-gray-200 pt-6 text-center">
+          <Link
+            to="/updates"
+            className="text-sm text-indigo-600 hover:text-indigo-800 hover:underline"
+          >
+            업데이트 기록 보기 →
+          </Link>
         </section>
       </div>
     </article>

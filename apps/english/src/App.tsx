@@ -3,7 +3,7 @@ import {
   AuthProvider, XPToastProvider, Header, ScrollToTop, LoginPage,
   HomePage, CategoryPage, StudyPage, DictationPage,
   DailyLearningPage, LibraryPage, VocabularyPage,
-  ErrorNotePage, ProfilePage, RequestPage, AboutPage, SubscribePage,
+  ErrorNotePage, ProfilePage, RequestPage, AboutPage, UpdatesPage, SubscribePage,
 } from '@stdylang/shared';
 
 export default function App() {
@@ -27,6 +27,7 @@ export default function App() {
                   <Route path="/request" element={<RequestPage />} />
                   <Route path="/vocabulary" element={<VocabularyPage />} />
                   <Route path="/about" element={<AboutPage />} />
+                  <Route path="/updates" element={<UpdatesPage />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/profile" element={<ProfilePage />} />
                   <Route path="/library" element={<LibraryPage />} />

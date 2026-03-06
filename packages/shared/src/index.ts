@@ -118,4 +118,5 @@ export { default as ErrorNotePage } from './pages/ErrorNote.tsx';
 export { default as ProfilePage } from './pages/Profile.tsx';
 export { default as RequestPage } from './pages/Request.tsx';
 export { default as AboutPage } from './pages/About.tsx';
+export { default as UpdatesPage } from './pages/Updates.tsx';
 export { default as SubscribePage } from './pages/Subscribe.tsx';
