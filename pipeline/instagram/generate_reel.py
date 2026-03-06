@@ -20,7 +20,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from pipeline.utils import load_json, save_json
+from pipeline.shared.utils import load_json, save_json
 from pipeline.instagram.templates import (
     OUTPUT_DIR, FONTS_DIR, FONT_BOLD, FONT_SEMIBOLD,
     REEL_SUB_EN_MARGIN_V, REEL_SUB_KO_MARGIN_V, REEL_HEADLINE_MARGIN_V,
@@ -96,7 +96,7 @@ def load_segments(video_id: str) -> list[dict]:
 
 def get_video_meta(video_id: str) -> dict:
     """Load video metadata from videos.json index."""
-    from pipeline.utils import load_videos_index
+    from pipeline.shared.utils import load_videos_index
     videos = load_videos_index(DATA_DIR)
     for v in videos:
         if v["videoId"] == video_id:
@@ -120,6 +120,7 @@ def generate_ass_subtitles(
     start_offset: float,
     clip_duration: float,
     headline: str | None = None,
+    series_title: str = "일일 쉐도잉",
 ) -> str:
     """Generate ASS for 2-pass reel: 1st pass (countdown, no subs) + 2nd pass (with subs).
 
@@ -157,10 +158,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
     events = []
 
-    # Series title: "일일 쉐도잉" shown for the entire duration
+    # Series title shown for the entire duration
     end_ts = _format_ass_time(total_duration)
     events.append(
-        f"Dialogue: 2,0:00:00.00,{end_ts},SeriesTitle,,0,0,0,,일일 쉐도잉"
+        f"Dialogue: 2,0:00:00.00,{end_ts},SeriesTitle,,0,0,0,,{series_title}"
     )
 
     # Headline: shown for the entire 2-pass duration
@@ -233,6 +234,7 @@ def generate_reel(
     end_segment: int,
     output_dir: Path | None = None,
     headline: str | None = None,
+    series_title: str = "일일 쉐도잉",
 ) -> dict:
     """Generate a reel clip from video segments.
 
@@ -270,7 +272,7 @@ def generate_reel(
 
     # Generate ASS subtitles for 2-pass structure
     ass_content = generate_ass_subtitles(
-        clip_segments, clip_start, clip_duration, headline,
+        clip_segments, clip_start, clip_duration, headline, series_title,
     )
     ass_path = output_dir / "subtitles.ass"
     ass_path.write_text(ass_content, encoding="utf-8")
@@ -387,6 +389,8 @@ def main():
     parser.add_argument("--start-segment", type=int, help="Start segment index")
     parser.add_argument("--end-segment", type=int, help="End segment index")
     parser.add_argument("--headline", help="Korean headline text for top overlay")
+    parser.add_argument("--series-title", default="일일 쉐도잉",
+                        help="Series title overlay (e.g. 퇴근길 쉐도잉, 출근길 쉐도잉)")
     parser.add_argument("--output-dir", help="Output directory")
     parser.add_argument("--from-candidates", action="store_true",
                         help="Generate from instagram_candidates.json")
@@ -399,7 +403,7 @@ def main():
         out_dir = Path(args.output_dir) if args.output_dir else None
         result = generate_reel(
             args.video_id, args.start_segment, args.end_segment,
-            out_dir, args.headline,
+            out_dir, args.headline, args.series_title,
         )
         logger.info("Generated: %s", result)
     else:

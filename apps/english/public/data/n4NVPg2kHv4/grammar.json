@@ -16,7 +16,7 @@
     "segmentIndex": 5
   },
   {
-    "pattern": "Contractions (it's, don't, I'm, won't, they're)",
+    "pattern": "축약형 (Contractions)",
     "explanation": "Contractions combine two words into one shorter form. They are essential in spoken English and very common in casual speech.",
     "explanationKo": "축약형은 두 단어를 하나의 짧은 형태로 결합한 것입니다. 구어 영어에서 필수적이며 일상 대화에서 매우 흔합니다.",
     "examples": [
@@ -52,7 +52,7 @@
     "segmentIndex": 13
   },
   {
-    "pattern": "be going to (Future Plans)",
+    "pattern": "be going to",
     "explanation": "The structure 'be going to + verb' is used to talk about planned future actions or intentions.",
     "explanationKo": "'be going to + 동사' 구조는 계획된 미래 행동이나 의도에 대해 말할 때 사용됩니다.",
     "examples": [
@@ -66,7 +66,7 @@
     "segmentIndex": 4
   },
   {
-    "pattern": "Tag Questions (aren't there? right?)",
+    "pattern": "Tag Questions",
     "explanation": "Tag questions are short questions added to the end of a statement to confirm information or seek agreement.",
     "explanationKo": "부가 의문문은 문장 끝에 추가되는 짧은 질문으로, 정보를 확인하거나 동의를 구할 때 사용됩니다.",
     "examples": [
@@ -96,7 +96,7 @@
     "segmentIndex": 12
   },
   {
-    "pattern": "Comparative with 'more...than'",
+    "pattern": "more...than",
     "explanation": "Used to compare two things. 'Way more than' adds emphasis to show a big difference.",
     "explanationKo": "두 가지를 비교할 때 사용됩니다. 'Way more than'은 큰 차이를 강조합니다.",
     "examples": [
@@ -126,7 +126,7 @@
     "segmentIndex": 20
   },
   {
-    "pattern": "Conditional 'when' Clauses",
+    "pattern": "when + 절 (시간 부사절)",
     "explanation": "When-clauses describe situations that happen at a particular time or under certain conditions.",
     "explanationKo": "when절은 특정 시간이나 조건에서 발생하는 상황을 설명합니다.",
     "examples": [
@@ -142,7 +142,7 @@
     "segmentIndex": 11
   },
   {
-    "pattern": "This is why... (Cause and Result)",
+    "pattern": "This is why...",
     "explanation": "The phrase 'This is why...' connects a reason or cause to its result or consequence.",
     "explanationKo": "'This is why...' 구문은 이유나 원인을 결과에 연결합니다.",
     "examples": [
@@ -156,7 +156,7 @@
     "segmentIndex": 18
   },
   {
-    "pattern": "Make sure you... (Strong Advice)",
+    "pattern": "Make sure you...",
     "explanation": "The phrase 'Make sure you...' is used to give strong recommendations or reminders.",
     "explanationKo": "'Make sure you...'는 강한 권고나 당부를 할 때 사용됩니다.",
     "examples": [

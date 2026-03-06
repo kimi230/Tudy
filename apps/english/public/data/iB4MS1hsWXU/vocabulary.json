@@ -10,6 +10,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/hjuːˈmɪlieɪtɪd/",
     "contextSentence": "And I was humiliated by that failed commitment.",
+    "contextSentenceKo": "그리고 저는 그 실패한 다짐 때문에 굴욕감을 느꼈습니다.",
     "segmentIndex": 2
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kənˈsɜːrvətɪzəm/",
     "contextSentence": "But conservatism had changed, so I'd lost a lot of those friends, too.",
+    "contextSentenceKo": "하지만 보수주의가 변했기 때문에, 저는 그 친구들도 많이 잃었습니다.",
     "segmentIndex": 4
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌmerɪˈtɒkrəsi/",
     "contextSentence": "The third lie is the lie of the meritocracy.",
+    "contextSentenceKo": "세 번째 거짓말은 능력주의라는 거짓말입니다.",
     "segmentIndex": 26
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌsɛlf.səˈfɪʃənsi/",
     "contextSentence": "And that's the lie of self-sufficiency.",
+    "contextSentenceKo": "그것이 바로 자급자족이라는 거짓말입니다.",
     "segmentIndex": 23
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/əˈmɪʃən/",
     "contextSentence": "And my sins were the sins of omission.",
+    "contextSentenceKo": "그리고 제 죄는 태만의 죄였습니다.",
     "segmentIndex": 33
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɪˈveɪʒən/",
     "contextSentence": "Not reaching out, failing to show up for my friends, evasion, avoiding conflict.",
+    "contextSentenceKo": "먼저 손 내밀지 않고, 친구들 곁에 나타나지 않고, 회피하고, 갈등을 피하는 것이었습니다.",
     "segmentIndex": 34
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/dɪˈtætʃt/",
     "contextSentence": "And so I was detached.",
+    "contextSentenceKo": "그래서 저는 초연한 상태였습니다.",
     "segmentIndex": 39
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˈkrɒnɪkli/",
     "contextSentence": "Thirty-five percent of Americans over 45 are chronically lonely.",
+    "contextSentenceKo": "45세 이상 미국인의 35%가 만성적으로 외로움을 느끼고 있습니다.",
     "segmentIndex": 41
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈfræɡmentɪd/",
     "contextSentence": "And isolated and fragmented from each other.",
+    "contextSentenceKo": "그리고 서로 고립되고 단절되어 있습니다.",
     "segmentIndex": 40
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌʌnəˈfɪlieɪtɪd/",
     "contextSentence": "The fastest-growing political party is unaffiliated.",
+    "contextSentenceKo": "가장 빠르게 성장하는 정당은 무소속입니다.",
     "segmentIndex": 44
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈraɪtʃəsnəs/",
     "contextSentence": "And what the soul does is it yearns for righteousness.",
+    "contextSentenceKo": "그리고 영혼이 하는 것은 의로움을 갈망하는 것입니다.",
     "segmentIndex": 97
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/əˌblɪtəˈreɪʃən/",
     "contextSentence": "Slavery is wrong because it's an obliteration of another soul.",
+    "contextSentenceKo": "노예제가 잘못된 것은 그것이 다른 사람의 영혼을 완전히 말살하는 것이기 때문입니다.",
     "segmentIndex": 94
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/voʊˈkeɪʃən/",
     "contextSentence": "And to find that level of vocation.",
+    "contextSentenceKo": "그리고 그 수준의 소명을 찾는 것입니다.",
     "segmentIndex": 186
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈɪntɪməsi/",
     "contextSentence": "And they demand intimacy.",
+    "contextSentenceKo": "그리고 그들은 친밀함을 요구합니다.",
     "segmentIndex": 128
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈempəθi/",
     "contextSentence": "There's a woman named Mary Gordon who runs something called Roots of Empathy.",
+    "contextSentenceKo": "메리 고든이라는 여성이 '공감의 뿌리'라는 프로그램을 운영하고 있습니다.",
     "segmentIndex": 158
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kæˈskeɪdz/",
     "contextSentence": "We've got cascades of lies coming out of Washington.",
+    "contextSentenceKo": "워싱턴에서 거짓말이 연쇄적으로 쏟아져 나오고 있습니다.",
     "segmentIndex": 54
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "noun/gerund",
     "phonetic": "/dɪˈzɒlvɪŋ/",
     "contextSentence": "It's the dissolving of self.",
+    "contextSentenceKo": "그것은 자아가 녹아 없어지는 것입니다.",
     "segmentIndex": 194
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˌsaɪməlˈteɪniəsli/",
     "contextSentence": "Yet I felt simultaneously overwhelmed with the light.",
+    "contextSentenceKo": "그럼에도 저는 동시에 그 빛에 압도당하는 느낌이었습니다.",
     "segmentIndex": 205
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "noun/adjective",
     "phonetic": "/rɪˈleɪʃənɪst/",
     "contextSentence": "They're living a relationist life.",
+    "contextSentenceKo": "그들은 관계 중심의 삶을 살고 있습니다.",
     "segmentIndex": 153
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/jɜːrnz/",
     "contextSentence": "The heart yearns for fusion with another, the soul yearns for righteousness.",
+    "contextSentenceKo": "마음은 다른 사람과의 융합을 갈망하고, 영혼은 의로움을 갈망합니다.",
     "segmentIndex": 98
   }
 ]

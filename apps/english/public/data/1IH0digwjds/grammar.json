@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "had to + base verb (Past Obligation)",
+    "pattern": "had to + base verb",
     "explanation": "Expresses obligation or necessity in the past. Indicates something was required or unavoidable at a previous time.",
     "explanationKo": "과거의 의무나 필요성을 나타내는 표현입니다. 과거에 무언가를 반드시 해야 했음을 의미합니다.",
     "examples": [
@@ -20,7 +20,7 @@
     "segmentIndex": 0
   },
   {
-    "pattern": "would + base verb (Past Habitual Action)",
+    "pattern": "would + base verb",
     "explanation": "Used to describe repeated or habitual actions in the past. Similar to 'used to' but emphasizes the repetitive nature of the action.",
     "explanationKo": "과거에 반복적으로 했던 행동을 묘사할 때 사용합니다. 'used to'와 비슷하지만 행동의 반복성을 더 강조합니다.",
     "examples": [
@@ -40,7 +40,7 @@
     "segmentIndex": 2
   },
   {
-    "pattern": "Conditional: if + present, future result (Zero/First Conditional)",
+    "pattern": "Conditional: if + present, future result",
     "explanation": "Used to express general truths or real possibilities. 'If you do X, Y happens/will happen.' The speaker uses this to share life philosophy.",
     "explanationKo": "일반적인 진리나 실제 가능성을 표현할 때 사용합니다. '만약 X를 하면, Y가 일어난다/일어날 것이다.' 화자가 인생 철학을 공유할 때 사용합니다.",
     "examples": [
@@ -60,7 +60,7 @@
     "segmentIndex": 8
   },
   {
-    "pattern": "by the time + clause (Time Reference)",
+    "pattern": "by the time + clause",
     "explanation": "Used to indicate that something had happened or was completed before a specific point in time. Often paired with past perfect.",
     "explanationKo": "특정 시점 이전에 무언가가 이미 일어났거나 완료되었음을 나타낼 때 사용합니다. 과거완료와 함께 자주 쓰입니다.",
     "examples": [
@@ -80,7 +80,7 @@
     "segmentIndex": 36
   },
   {
-    "pattern": "Narrative Present Tense (Historic Present)",
+    "pattern": "Narrative Present Tense",
     "explanation": "Using present tense to narrate past events, creating immediacy and dramatic effect. Common in storytelling and oral narratives.",
     "explanationKo": "과거 사건을 현재 시제로 서술하여 생동감과 극적 효과를 만드는 기법입니다. 스토리텔링과 구어 서술에서 흔합니다.",
     "examples": [
@@ -120,7 +120,7 @@
     "segmentIndex": 10
   },
   {
-    "pattern": "Emphatic 'do/did' for Emphasis",
+    "pattern": "do/did",
     "explanation": "Using 'do/did/does' before a main verb to add emphasis or contrast. Strengthens the assertion being made.",
     "explanationKo": "주동사 앞에 'do/did/does'를 사용하여 강조나 대조를 더합니다. 주장을 더 강하게 만듭니다.",
     "examples": [
@@ -155,7 +155,7 @@
     "segmentIndex": 5
   },
   {
-    "pattern": "as + adjective/adverb + as + clause (Degree Comparison)",
+    "pattern": "as + adjective/adverb + as + clause",
     "explanation": "Used to compare to the maximum extent possible. 'As much as I could' / 'as many goals as I could' indicates doing something to the fullest extent.",
     "explanationKo": "가능한 최대한의 정도로 비교할 때 사용합니다. 'as much as I could' / 'as many goals as I could'는 최대한으로 무언가를 함을 나타냅니다.",
     "examples": [
@@ -175,42 +175,7 @@
     "segmentIndex": 27
   },
   {
-    "pattern": "The words that follow 'I am' follow you (Defining Relative Clause)",
-    "explanation": "A powerful rhetorical construction using a defining relative clause. The repetition of 'follow' with different meanings (come after / pursue) creates a memorable phrase.",
-    "explanationKo": "'I am' 뒤에 오는 단어들이 당신을 따라간다는 강력한 수사적 구조로, 관계절을 사용합니다. 'follow'의 반복이 다른 의미(뒤따르다/추구하다)로 기억에 남는 문구를 만듭니다.",
-    "examples": [
-      {
-        "sentence": "The words that follow 'I am' follow you.",
-        "translation": "'나는'이라는 말 뒤에 오는 단어들이 당신을 따라갑니다."
-      }
-    ],
-    "examplesKo": [
-      "'나는'이라는 말 뒤에 오는 단어들이 당신을 따라갑니다."
-    ],
-    "segmentIndex": 81
-  },
-  {
-    "pattern": "not one / not once (Negative Emphasis)",
-    "explanation": "Using 'not one' or 'not once' at the beginning or end of a statement for dramatic negative emphasis. Stronger than simply saying 'never'.",
-    "explanationKo": "'not one' 또는 'not once'를 문장 앞이나 끝에 사용하여 극적인 부정 강조를 합니다. 단순히 'never'라고 하는 것보다 더 강한 표현입니다.",
-    "examples": [
-      {
-        "sentence": "I don't have one memory of playing with my dad. Not one.",
-        "translation": "아버지와 놀았던 기억이 단 하나도 없습니다. 하나도."
-      },
-      {
-        "sentence": "He never once came to my hockey games.",
-        "translation": "아버지는 단 한 번도 제 하키 경기에 오지 않으셨습니다."
-      }
-    ],
-    "examplesKo": [
-      "아버지와 놀았던 기억이 단 하나도 없습니다. 하나도.",
-      "아버지는 단 한 번도 제 하키 경기에 오지 않으셨습니다."
-    ],
-    "segmentIndex": 22
-  },
-  {
-    "pattern": "went from X to Y (Transformation Expression)",
+    "pattern": "went from X to Y",
     "explanation": "A concise way to describe dramatic change or progress. Shows the starting point and end point of a transformation.",
     "explanationKo": "극적인 변화나 발전을 간결하게 묘사하는 표현입니다. 변화의 시작점과 끝점을 보여줍니다.",
     "examples": [

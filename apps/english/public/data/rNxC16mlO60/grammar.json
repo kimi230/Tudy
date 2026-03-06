@@ -28,7 +28,7 @@
     "segmentIndex": 30
   },
   {
-    "pattern": "Negative Sentences with 'not'",
+    "pattern": "not + 형용사/부사 (부정 표현)",
     "explanation": "Used to express negation, often with 'am not', 'is not', or 'are not'.",
     "explanationKo": "부정을 표현할 때 'am not', 'is not', 또는 'are not' 등을 사용합니다.",
     "examples": [
@@ -42,7 +42,7 @@
     "segmentIndex": 55
   },
   {
-    "pattern": "Subordinate Clauses with 'as'",
+    "pattern": "as... as (동등 비교)",
     "explanation": "Used to introduce time, reason, or comparison in a sentence.",
     "explanationKo": "시간, 이유, 비교 등을 나타내는 부사절을 만들 때 사용합니다.",
     "examples": [
@@ -54,7 +54,7 @@
     "segmentIndex": 80
   },
   {
-    "pattern": "Emphasis with 'In no way'",
+    "pattern": "In no way",
     "explanation": "Used to stress the negation of a statement, emphasizing that something is not true.",
     "explanationKo": "어떤 것이 참이 아님을 강조하기 위해 사용되는 표현입니다.",
     "examples": [
@@ -66,7 +66,7 @@
     "segmentIndex": 55
   },
   {
-    "pattern": "Subordinate Clauses with 'as' for Reason",
+    "pattern": "as + 주어 + 동사 (이유/시간)",
     "explanation": "Used to indicate a reason or explanation for a main clause.",
     "explanationKo": "주문절의 이유나 설명을 나타내는 부사절로 사용됩니다.",
     "examples": [
@@ -78,16 +78,16 @@
     "segmentIndex": 80
   },
   {
-    "pattern": "Use of 'the' in Noun Phrases",
-    "explanation": "Used to specify a particular noun, indicating definiteness.",
-    "explanationKo": "특정 명사를 지정하여 명확성을 나타내는 데 사용됩니다.",
+    "pattern": "the + 비교급, the + 비교급",
+    "explanation": "A correlative comparative structure where two comparative clauses are linked. 'The more X, the more Y' expresses that as one thing increases, the other increases proportionally.",
+    "explanationKo": "'the + 비교급, the + 비교급' 구조는 두 비교절을 연결하는 상관 비교 구조입니다. '더 ~할수록, 더 ~하다'라는 의미로, 한 가지가 증가하면 다른 것도 비례해서 증가함을 표현합니다.",
     "examples": [
-      "the conversations in the room",
-      "the level of BDNF"
+      "The more you exercise, the higher the level of BDNF.",
+      "The longer the conversations in the room, the better the outcomes."
     ],
     "examplesKo": [
-      "방 안에서의 대화들",
-      "BDNF의 수준"
+      "운동을 많이 할수록 BDNF 수치가 더 높아진다.",
+      "방 안에서 대화가 길어질수록 결과가 더 좋아진다."
     ],
     "segmentIndex": 28
   },
@@ -106,7 +106,7 @@
     "segmentIndex": 36
   },
   {
-    "pattern": "Negative Sentences with 'not' and 'am'",
+    "pattern": "not A but B (대조)",
     "explanation": "Used to form negative statements in the first person singular.",
     "explanationKo": "첫 번째 인칭 단수의 부정 문장을 형성하는 데 사용됩니다.",
     "examples": [

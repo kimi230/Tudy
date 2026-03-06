@@ -6,7 +6,7 @@ import {
   getRecordingPublicUrl,
   type RecordingMeta,
 } from '../lib/supabaseSync';
-import { useAuth } from './useAuth';
+import { useUserIdRef } from './useUserIdRef';
 
 export function useRecording(sessionId: string, videoId: string) {
   const [isRecording, setIsRecording] = useState(false);
@@ -15,9 +15,7 @@ export function useRecording(sessionId: string, videoId: string) {
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
   const startTimeRef = useRef<number>(0);
-  const auth = useAuth();
-  const userIdRef = useRef<string | undefined>(undefined);
-  userIdRef.current = auth.user?.id;
+  const { userIdRef } = useUserIdRef();
 
   const loadRecordings = useCallback(async () => {
     const uid = userIdRef.current;

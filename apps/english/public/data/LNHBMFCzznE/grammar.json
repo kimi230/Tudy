@@ -16,7 +16,7 @@
     "segmentIndex": 16
   },
   {
-    "pattern": "What we call + noun (Appositive/Defining Expression)",
+    "pattern": "What we call + noun",
     "explanation": "Used to introduce or define a technical term or concept by renaming it in simpler or more formal terms. Common in academic and explanatory speaking.",
     "explanationKo": "기술 용어나 개념을 더 간단하거나 공식적인 용어로 재명명하여 소개하거나 정의할 때 사용합니다. 학술적이고 설명적인 말하기에서 흔합니다.",
     "examples": [
@@ -32,7 +32,7 @@
     "segmentIndex": 25
   },
   {
-    "pattern": "The more/increased X, the more Y (Comparative Correlation)",
+    "pattern": "The more/increased X, the more Y",
     "explanation": "Expresses a proportional relationship where an increase in one factor leads to an increase in another. Often used to emphasize cause and effect.",
     "explanationKo": "한 요소의 증가가 다른 요소의 증가로 이어지는 비례 관계를 표현합니다. 인과 관계를 강조할 때 자주 사용됩니다.",
     "examples": [
@@ -44,7 +44,7 @@
     "segmentIndex": 124
   },
   {
-    "pattern": "Not only A but also B (Additive Emphasis)",
+    "pattern": "Not only A but also B",
     "explanation": "Used to add a second, often more surprising or important point to the first. Creates emphasis by pairing two ideas together.",
     "explanationKo": "첫 번째 포인트에 두 번째, 종종 더 놀랍거나 중요한 포인트를 추가할 때 사용합니다. 두 가지 아이디어를 짝지어 강조를 만듭니다.",
     "examples": [
@@ -90,7 +90,7 @@
     "segmentIndex": 31
   },
   {
-    "pattern": "Conditional/Hypothetical with 'if' clauses",
+    "pattern": "If + 조건절 (조건문)",
     "explanation": "Uses 'if' clauses to set up conditions for discussing brain-related scenarios, often mixing real and hypothetical conditions in academic speaking.",
     "explanationKo": "뇌 관련 시나리오를 논의하기 위한 조건을 설정할 때 'if' 절을 사용하며, 학술적 말하기에서 현실적 조건과 가정적 조건을 혼합하는 경우가 많습니다.",
     "examples": [
@@ -104,7 +104,7 @@
     "segmentIndex": 69
   },
   {
-    "pattern": "Cleft Sentences for Emphasis (It is/was...that)",
+    "pattern": "Cleft Sentences for Emphasis",
     "explanation": "A cleft sentence splits a simple clause to emphasize one particular element, bringing focus to key information.",
     "explanationKo": "분열문(cleft sentence)은 단순 절을 나누어 특정 요소를 강조하며, 핵심 정보에 초점을 맞춥니다.",
     "examples": [
@@ -118,7 +118,7 @@
     "segmentIndex": 60
   },
   {
-    "pattern": "Hedging Language (may, can, tend to)",
+    "pattern": "Hedging Language",
     "explanation": "Modal verbs and hedging expressions soften claims and avoid absolute statements, which is a key feature of academic English.",
     "explanationKo": "조동사와 완화 표현은 주장을 부드럽게 하고 절대적 진술을 피하며, 이는 학술 영어의 핵심 특징입니다.",
     "examples": [

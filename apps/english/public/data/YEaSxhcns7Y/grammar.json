@@ -1,98 +1,166 @@
 [
   {
-    "pattern": "Present Perfect (has + past participle)",
+    "pattern": "Present Perfect",
     "explanation": "Used to describe an action that started in the past and continues to the present, or an action with present relevance. Here 'has evolved' shows an ongoing historical process.",
     "explanationKo": "과거에 시작되어 현재까지 계속되는 동작이나 현재와 관련이 있는 과거 동작을 나타냅니다. 여기서 'has evolved'는 지속적인 역사적 과정을 보여줍니다.",
-    "examples": ["English has evolved through generations of speakers.", "The language has changed over many centuries."],
-    "examplesKo": ["영어는 여러 세대의 화자들을 거치며 진화해 왔습니다.", "이 언어는 수세기에 걸쳐 변화해 왔습니다."],
+    "examples": [
+      "English has evolved through generations of speakers.",
+      "The language has changed over many centuries."
+    ],
+    "examplesKo": [
+      "영어는 여러 세대의 화자들을 거치며 진화해 왔습니다.",
+      "이 언어는 수세기에 걸쳐 변화해 왔습니다."
+    ],
     "segmentIndex": 5
   },
   {
-    "pattern": "Passive Voice (was/were + past participle)",
+    "pattern": "Passive Voice",
     "explanation": "Used when the focus is on the action or result rather than who performed it. Common in academic and historical writing to describe events objectively.",
     "explanationKo": "행위자보다 동작이나 결과에 초점을 맞출 때 사용합니다. 학술적, 역사적 서술에서 사건을 객관적으로 묘사할 때 흔히 쓰입니다.",
-    "examples": ["This historical language was never written down.", "First brought to the British Isles in the 5th and 6th centuries."],
-    "examplesKo": ["이 역사적 언어는 문자로 기록된 적이 없습니다.", "5세기와 6세기에 처음으로 영국 제도에 전해졌습니다."],
+    "examples": [
+      "This historical language was never written down.",
+      "First brought to the British Isles in the 5th and 6th centuries."
+    ],
+    "examplesKo": [
+      "이 역사적 언어는 문자로 기록된 적이 없습니다.",
+      "5세기와 6세기에 처음으로 영국 제도에 전해졌습니다."
+    ],
     "segmentIndex": 37
   },
   {
-    "pattern": "By + gerund (means/method)",
+    "pattern": "By + gerund",
     "explanation": "The structure 'by + verb-ing' is used to describe the method or means by which something is achieved.",
     "explanationKo": "'by + 동명사' 구조는 어떤 것을 달성하는 방법이나 수단을 설명할 때 사용합니다.",
-    "examples": ["By undoing these changes, we can trace the language.", "By focusing on grammatical structure.", "By comparing its descendants."],
-    "examplesKo": ["이러한 변화를 되돌림으로써 우리는 이 언어를 추적할 수 있습니다.", "문법 구조에 집중함으로써.", "그 후손 언어들을 비교함으로써."],
+    "examples": [
+      "By undoing these changes, we can trace the language.",
+      "By focusing on grammatical structure.",
+      "By comparing its descendants."
+    ],
+    "examplesKo": [
+      "이러한 변화를 되돌림으로써 우리는 이 언어를 추적할 수 있습니다.",
+      "문법 구조에 집중함으로써.",
+      "그 후손 언어들을 비교함으로써."
+    ],
     "segmentIndex": 7
   },
   {
     "pattern": "While + contrast clause",
     "explanation": "Used to introduce a contrasting idea. 'While' connects two clauses that present different or opposing information.",
     "explanationKo": "'While'은 대조적인 내용을 소개할 때 사용합니다. 서로 다르거나 반대되는 정보를 제시하는 두 절을 연결합니다.",
-    "examples": ["While modern English shares many similar words with Latin-derived Romance languages, most of those words were not originally part of it.", "While their Old English counterparts kept the P unchanged."],
-    "examplesKo": ["현대 영어가 라틴어에서 파생된 로망스어들과 많은 유사한 단어를 공유하지만, 그 단어들의 대부분은 원래 영어의 일부가 아니었습니다.", "반면 고대 영어의 대응어들은 P를 변하지 않은 채로 유지했습니다."],
+    "examples": [
+      "While modern English shares many similar words with Latin-derived Romance languages, most of those words were not originally part of it.",
+      "While their Old English counterparts kept the P unchanged."
+    ],
+    "examplesKo": [
+      "현대 영어가 라틴어에서 파생된 로망스어들과 많은 유사한 단어를 공유하지만, 그 단어들의 대부분은 원래 영어의 일부가 아니었습니다.",
+      "반면 고대 영어의 대응어들은 P를 변하지 않은 채로 유지했습니다."
+    ],
     "segmentIndex": 8
   },
   {
-    "pattern": "Modal verb 'may/might' for possibility",
+    "pattern": "may/might",
     "explanation": "'May' and 'might' express possibility or uncertainty. 'May' suggests a slightly higher probability than 'might'.",
     "explanationKo": "'may'와 'might'는 가능성이나 불확실성을 표현합니다. 'may'가 'might'보다 약간 더 높은 확률을 나타냅니다.",
-    "examples": ["It may be hard to see the roots of modern English.", "It might be more recognizable if you know some German.", "Whether there might be a link between Indo-European and other major language families."],
-    "examplesKo": ["현대 영어의 뿌리를 알아보기 어려울 수도 있습니다.", "독일어를 좀 안다면 더 알아볼 수 있을지도 모릅니다.", "인도유럽어와 다른 주요 어족 사이에 연관성이 있을 수도 있는지 여부."],
+    "examples": [
+      "It may be hard to see the roots of modern English.",
+      "It might be more recognizable if you know some German.",
+      "Whether there might be a link between Indo-European and other major language families."
+    ],
+    "examplesKo": [
+      "현대 영어의 뿌리를 알아보기 어려울 수도 있습니다.",
+      "독일어를 좀 안다면 더 알아볼 수 있을지도 모릅니다.",
+      "인도유럽어와 다른 주요 어족 사이에 연관성이 있을 수도 있는지 여부."
+    ],
     "segmentIndex": 24
   },
   {
-    "pattern": "Conditional with 'if' clause",
+    "pattern": "If + 조건절 (가정/조건문)",
     "explanation": "An 'if' clause introduces a condition. Here it presents a hypothetical situation that would change the outcome.",
     "explanationKo": "'if' 절은 조건을 도입합니다. 여기서는 결과를 바꿀 수 있는 가정적 상황을 제시합니다.",
-    "examples": ["It might be more recognizable if you know some German."],
-    "examplesKo": ["독일어를 좀 안다면 더 알아볼 수 있을지도 모릅니다."],
+    "examples": [
+      "It might be more recognizable if you know some German."
+    ],
+    "examplesKo": [
+      "독일어를 좀 안다면 더 알아볼 수 있을지도 모릅니다."
+    ],
     "segmentIndex": 18
   },
   {
-    "pattern": "Relative clause with 'that/which/who'",
+    "pattern": "that/which/who",
     "explanation": "Relative clauses add extra information about a noun. 'That' defines or restricts, 'which' adds non-essential information, and 'who' refers to people.",
     "explanationKo": "관계절은 명사에 대한 추가 정보를 더합니다. 'that'은 제한적으로 정의하고, 'which'는 비필수적 정보를 추가하며, 'who'는 사람을 가리킵니다.",
-    "examples": ["Words that have SK sounds in Swedish developed an SH sound in English.", "Which is possible thanks to the consistency of the changes.", "Many of whom cannot understand each other."],
-    "examplesKo": ["스웨덴어에서 SK 소리를 가진 단어들이 영어에서는 SH 소리로 발전했습니다.", "이는 변화의 일관성 덕분에 가능합니다.", "그들 중 많은 이들이 서로를 이해할 수 없습니다."],
+    "examples": [
+      "Words that have SK sounds in Swedish developed an SH sound in English.",
+      "Which is possible thanks to the consistency of the changes.",
+      "Many of whom cannot understand each other."
+    ],
+    "examplesKo": [
+      "스웨덴어에서 SK 소리를 가진 단어들이 영어에서는 SH 소리로 발전했습니다.",
+      "이는 변화의 일관성 덕분에 가능합니다.",
+      "그들 중 많은 이들이 서로를 이해할 수 없습니다."
+    ],
     "segmentIndex": 31
   },
   {
-    "pattern": "Would + base verb (past future/habitual past)",
+    "pattern": "Would + base verb",
     "explanation": "Used to talk about future events from a past perspective, or to describe habitual actions in the past.",
     "explanationKo": "과거 시점에서 미래의 사건을 이야기하거나, 과거의 습관적인 행동을 묘사할 때 사용합니다.",
-    "examples": ["The Germanic dialects they spoke would become known as Anglo-Saxon."],
-    "examplesKo": ["그들이 말하던 게르만 방언들은 앵글로색슨어로 알려지게 되었습니다."],
+    "examples": [
+      "The Germanic dialects they spoke would become known as Anglo-Saxon."
+    ],
+    "examplesKo": [
+      "그들이 말하던 게르만 방언들은 앵글로색슨어로 알려지게 되었습니다."
+    ],
     "segmentIndex": 22
   },
   {
-    "pattern": "Just as... so too (comparison)",
+    "pattern": "Just as... so too",
     "explanation": "Used to draw a parallel between two similar situations. 'Just as' introduces the first situation, and the second follows with an implied or explicit 'so too'.",
     "explanationKo": "두 가지 유사한 상황 사이에 유사점을 도출할 때 사용합니다. 'just as'가 첫 번째 상황을 소개하고, 두 번째 상황이 암시적 또는 명시적 'so too'와 함께 따릅니다.",
-    "examples": ["Just as the various Romance languages descended from Latin, English, Swedish, German descended from their own common ancestor."],
-    "examplesKo": ["다양한 로망스어들이 라틴어에서 유래한 것처럼, 영어, 스웨덴어, 독일어도 그들만의 공통 조상에서 유래했습니다."],
+    "examples": [
+      "Just as the various Romance languages descended from Latin, English, Swedish, German descended from their own common ancestor."
+    ],
+    "examplesKo": [
+      "다양한 로망스어들이 라틴어에서 유래한 것처럼, 영어, 스웨덴어, 독일어도 그들만의 공통 조상에서 유래했습니다."
+    ],
     "segmentIndex": 34
   },
   {
-    "pattern": "Known as + noun (naming/identification)",
+    "pattern": "Known as + noun",
     "explanation": "Used to introduce an alternative name or designation for something previously mentioned.",
     "explanationKo": "이전에 언급된 것의 대안적 이름이나 명칭을 소개할 때 사용합니다.",
-    "examples": ["Known as Proto-Germanic, spoken around 500 BCE.", "Would become known as Anglo-Saxon."],
-    "examplesKo": ["기원전 500년경에 사용된 원시 게르만어로 알려진.", "앵글로색슨어로 알려지게 된."],
+    "examples": [
+      "Known as Proto-Germanic, spoken around 500 BCE.",
+      "Would become known as Anglo-Saxon."
+    ],
+    "examplesKo": [
+      "기원전 500년경에 사용된 원시 게르만어로 알려진.",
+      "앵글로색슨어로 알려지게 된."
+    ],
     "segmentIndex": 36
   },
   {
     "pattern": "Such as + examples",
     "explanation": "'Such as' introduces specific examples to illustrate a general statement.",
     "explanationKo": "'such as'는 일반적인 진술을 설명하기 위해 구체적인 예를 도입합니다.",
-    "examples": ["Such as whether there might be a link between Indo-European and other major language families."],
-    "examplesKo": ["예를 들어 인도유럽어와 다른 주요 어족 사이에 연관성이 있을 수 있는지와 같은."],
+    "examples": [
+      "Such as whether there might be a link between Indo-European and other major language families."
+    ],
+    "examplesKo": [
+      "예를 들어 인도유럽어와 다른 주요 어족 사이에 연관성이 있을 수 있는지와 같은."
+    ],
     "segmentIndex": 56
   },
   {
-    "pattern": "As well as (addition)",
+    "pattern": "As well as",
     "explanation": "'As well as' is used to add additional information, meaning 'in addition to' or 'and also'.",
     "explanationKo": "'as well as'는 '~뿐만 아니라' 또는 '~도 또한'이라는 의미로 추가 정보를 더할 때 사용합니다.",
-    "examples": ["As well as large parts of southern and western Asia."],
-    "examplesKo": ["남아시아와 서아시아의 넓은 지역도 마찬가지입니다."],
+    "examples": [
+      "As well as large parts of southern and western Asia."
+    ],
+    "examplesKo": [
+      "남아시아와 서아시아의 넓은 지역도 마찬가지입니다."
+    ],
     "segmentIndex": 45
   }
 ]

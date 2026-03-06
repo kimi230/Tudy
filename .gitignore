@@ -11,7 +11,7 @@ node_modules/
 
 # Pipeline
 pipeline/.tmp/
-pipeline/__pycache__/
+**/__pycache__/
 
 # Intermediate processing data
 apps/*/public/data/**/_raw_*.json
@@ -27,6 +27,10 @@ pipeline/.env
 .vscode/
 .idea/
 *.sw?
+
+# Instagram pipeline
+pipeline/instagram/output/
+pipeline/instagram/fonts/
 
 # Local tool temp/state
 supabase/.temp/

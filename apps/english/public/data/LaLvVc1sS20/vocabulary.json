@@ -10,6 +10,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈɛdɪbl/",
     "contextSentence": "During a long day spent roaming the forest in search of edible grains and herbs.",
+    "contextSentenceKo": "먹을 수 있는 곡물과 약초를 찾아 숲을 돌아다니며 긴 하루를 보내던 중이었습니다.",
     "segmentIndex": 0
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈwɪəri/",
     "contextSentence": "The weary divine farmer Shen Nong accidentally poisoned himself 72 times.",
+    "contextSentenceKo": "지친 신농씨는 실수로 72번이나 자기 자신을 중독시켰습니다.",
     "segmentIndex": 1
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈmɪθɪkəl/",
     "contextSentence": "The mythical Chinese inventor of agriculture, highlights tea's importance to ancient China.",
+    "contextSentenceKo": "신화 속 중국 농업의 창시자는 고대 중국에서 차의 중요성을 잘 보여줍니다.",
     "segmentIndex": 6
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌɑːrkiəˈlɒdʒɪkəl/",
     "contextSentence": "Archaeological evidence suggests tea was first cultivated there as early as 6,000 years ago.",
+    "contextSentenceKo": "고고학적 증거에 따르면 차는 이미 6,000년 전에 그곳에서 처음 재배되었을 가능성이 있습니다.",
     "segmentIndex": 7
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "verb (past participle)",
     "phonetic": "/ˈkʌltɪveɪtɪd/",
     "contextSentence": "Tea was first cultivated there as early as 6,000 years ago.",
+    "contextSentenceKo": "차는 이미 6,000년 전에 그곳에서 처음 재배되었습니다.",
     "segmentIndex": 7
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈpɒrɪdʒ/",
     "contextSentence": "It was eaten as a vegetable or cooked with grain porridge.",
+    "contextSentenceKo": "차는 채소로 먹거나 곡물죽에 넣어 끓여 먹었습니다.",
     "segmentIndex": 11
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmɔɪstʃər/",
     "contextSentence": "When people realized that a combination of heat and moisture could create a complex and varied taste.",
+    "contextSentenceKo": "사람들이 열과 수분의 조합이 복잡하고 다양한 맛을 낼 수 있다는 것을 깨달았을 때였습니다.",
     "segmentIndex": 13
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪkˈstrævəɡənt/",
     "contextSentence": "They would draw extravagant pictures in the foam of the tea.",
+    "contextSentenceKo": "그들은 차의 거품 위에 화려한 그림을 그리곤 했습니다.",
     "segmentIndex": 20
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈrɪtʃuəl/",
     "contextSentence": "The Japanese eventually developed their own unique rituals around tea.",
+    "contextSentenceKo": "일본은 결국 차를 중심으로 자신들만의 독특한 의식을 발전시켰습니다.",
     "segmentIndex": 23
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/məˈnɒpəli/",
     "contextSentence": "China still held a virtual monopoly on the world's tea trees.",
+    "contextSentenceKo": "중국은 여전히 세계 차나무에 대한 사실상의 독점권을 쥐고 있었습니다.",
     "segmentIndex": 27
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈpɔːrsəlɪn/",
     "contextSentence": "Making tea one of three essential Chinese export goods, along with porcelain and silk.",
+    "contextSentenceKo": "차는 도자기, 비단과 함께 중국의 3대 필수 수출품이 되었습니다.",
     "segmentIndex": 28
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌærɪˈstɒkrəsi/",
     "contextSentence": "For making tea popular with the English aristocracy when she married King Charles II in 1661.",
+    "contextSentenceKo": "1661년 찰스 2세와 결혼하면서 영국 귀족 사회에 차를 유행시킨 것으로 유명합니다.",
     "segmentIndex": 33
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/kəˈloʊniəl/",
     "contextSentence": "Great Britain was in the midst of expanding its colonial influence.",
+    "contextSentenceKo": "영국은 한창 식민지 영향력을 확대하고 있었습니다.",
     "segmentIndex": 34
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈluːkrətɪv/",
     "contextSentence": "The tea trade was so lucrative that the world's fastest sailboat, the Clipper Ship, was born.",
+    "contextSentenceKo": "차 무역은 워낙 수익성이 좋아서 세계에서 가장 빠른 범선인 클리퍼선이 탄생하게 되었습니다.",
     "segmentIndex": 39
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈoʊpiəm/",
     "contextSentence": "They suggested trading tea for another substance, opium.",
+    "contextSentenceKo": "그들은 차를 다른 물질, 즉 아편과 교환할 것을 제안했습니다.",
     "segmentIndex": 43
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/əˈdɪktɪd/",
     "contextSentence": "This triggered a public health problem within China, as people became addicted to the drug.",
+    "contextSentenceKo": "이것은 중국 내에서 공중 보건 문제를 촉발시켰고, 사람들은 마약에 중독되어 갔습니다.",
     "segmentIndex": 44
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "verb (past tense)",
     "phonetic": "/ˈsiːdɪd/",
     "contextSentence": "The defeated Qing Dynasty ceded the port of Hong Kong to the British.",
+    "contextSentenceKo": "패배한 청나라는 홍콩 항구를 영국에 할양했습니다.",
     "segmentIndex": 49
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "verb (past tense)",
     "phonetic": "/kəˈmɪʃənd/",
     "contextSentence": "They commissioned botanist Robert Fortune to steal tea from China in a covert operation.",
+    "contextSentenceKo": "그들은 식물학자 로버트 포춘에게 비밀 작전으로 중국에서 차를 훔쳐오도록 의뢰했습니다.",
     "segmentIndex": 53
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈpɛrɪləs/",
     "contextSentence": "He disguised himself and took a perilous journey through China's mountainous tea regions.",
+    "contextSentenceKo": "그는 변장을 하고 중국의 산악 차 재배 지역을 통과하는 위험한 여정을 떠났습니다.",
     "segmentIndex": 54
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kəˈmɒdɪti/",
     "contextSentence": "Helping drive tea's rapid growth as an everyday commodity.",
+    "contextSentenceKo": "차가 일상적인 상품으로 빠르게 성장하는 데 기여했습니다.",
     "segmentIndex": 56
   }
 ]

@@ -15,7 +15,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 30,
-    "contextSentence": "Some leaders are able to inspire where others aren't."
+    "contextSentence": "Some leaders are able to inspire where others aren't.",
+    "contextSentenceKo": "어떤 리더들은 다른 사람들이 하지 못하는 곳에서 영감을 줄 수 있습니다."
   },
   {
     "word": "innovative",
@@ -33,7 +34,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 3,
-    "contextSentence": "Why is Apple so innovative?"
+    "contextSentence": "Why is Apple so innovative?",
+    "contextSentenceKo": "왜 애플은 그토록 혁신적일까요?"
   },
   {
     "word": "assumption",
@@ -50,7 +52,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 3,
-    "contextSentence": "That seem to defy all of the assumptions."
+    "contextSentence": "That seem to defy all of the assumptions.",
+    "contextSentenceKo": "모든 가정을 뒤엎는 것처럼 보이는 것들입니다."
   },
   {
     "word": "defy",
@@ -67,7 +70,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 3,
-    "contextSentence": "That seem to defy all of the assumptions."
+    "contextSentence": "That seem to defy all of the assumptions.",
+    "contextSentenceKo": "모든 가정을 뒤엎는 것처럼 보이는 것들입니다."
   },
   {
     "word": "codify",
@@ -84,7 +88,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 27,
-    "contextSentence": "All I did was codify it."
+    "contextSentence": "All I did was codify it.",
+    "contextSentenceKo": "제가 한 건 그것을 체계화한 것뿐입니다."
   },
   {
     "word": "differentiating",
@@ -102,7 +107,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 34,
-    "contextSentence": "Whether you call it your differentiating value proposition."
+    "contextSentence": "Whether you call it your differentiating value proposition.",
+    "contextSentenceKo": "그것을 차별화된 가치 제안이라고 부르든 뭐라고 부르든."
   },
   {
     "word": "proprietary",
@@ -119,7 +125,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 35,
-    "contextSentence": "Or your proprietary process or your USP."
+    "contextSentence": "Or your proprietary process or your USP.",
+    "contextSentenceKo": "독점적인 프로세스든 USP든 말이죠."
   },
   {
     "word": "neocortex",
@@ -136,7 +143,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 91,
-    "contextSentence": "Our newest brain, our homo sapien brain, our neocortex, corresponds with the what level."
+    "contextSentence": "Our newest brain, our homo sapien brain, our neocortex, corresponds with the what level.",
+    "contextSentenceKo": "우리의 가장 새로운 뇌, 호모 사피엔스의 뇌인 신피질은 '무엇' 수준에 해당합니다."
   },
   {
     "word": "limbic",
@@ -152,7 +160,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 93,
-    "contextSentence": "The middle two sections make up our limbic brains."
+    "contextSentence": "The middle two sections make up our limbic brains.",
+    "contextSentenceKo": "가운데 두 부분이 우리의 변연계 뇌를 구성합니다."
   },
   {
     "word": "rationalize",
@@ -170,7 +179,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 102,
-    "contextSentence": "And then we allow people to rationalize it with the tangible things we say and do."
+    "contextSentence": "And then we allow people to rationalize it with the tangible things we say and do.",
+    "contextSentenceKo": "그러면 사람들이 우리가 말하고 행동하는 구체적인 것들로 그것을 합리화할 수 있게 됩니다."
   },
   {
     "word": "tangible",
@@ -187,7 +197,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 102,
-    "contextSentence": "We allow people to rationalize it with the tangible things we say and do."
+    "contextSentence": "We allow people to rationalize it with the tangible things we say and do.",
+    "contextSentenceKo": "사람들이 우리가 말하고 행동하는 구체적인 것들로 그것을 합리화할 수 있게 합니다."
   },
   {
     "word": "muster",
@@ -203,7 +214,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 108,
-    "contextSentence": "And the best we can muster up is, I don't know, it just doesn't feel right."
+    "contextSentence": "And the best we can muster up is, I don't know, it just doesn't feel right.",
+    "contextSentenceKo": "우리가 겨우 내놓을 수 있는 말이라곤, 글쎄요, 그냥 뭔가 아닌 것 같다는 거예요."
   },
   {
     "word": "loyal",
@@ -220,7 +232,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 115,
-    "contextSentence": "Or more importantly, be loyal, and want to be a part of what it is that you do."
+    "contextSentence": "Or more importantly, be loyal, and want to be a part of what it is that you do.",
+    "contextSentenceKo": "더 중요한 건, 충성스럽게 따르며 당신이 하는 일의 일부가 되고 싶어 한다는 겁니다."
   },
   {
     "word": "pursuit",
@@ -237,7 +250,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 123,
-    "contextSentence": "The pursuit of powered man flight was like the dot com of the day."
+    "contextSentence": "The pursuit of powered man flight was like the dot com of the day.",
+    "contextSentenceKo": "동력 비행의 추구는 당시의 닷컴 열풍 같은 것이었습니다."
   },
   {
     "word": "undercapitalized",
@@ -255,7 +269,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 127,
-    "contextSentence": "Undercapitalized, the wrong people, bad market conditions."
+    "contextSentence": "Undercapitalized, the wrong people, bad market conditions.",
+    "contextSentenceKo": "자본 부족, 잘못된 인재, 나쁜 시장 상황."
   },
   {
     "word": "permutation",
@@ -273,7 +288,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 126,
-    "contextSentence": "People always give you the same permutation of the same three things."
+    "contextSentence": "People always give you the same permutation of the same three things.",
+    "contextSentenceKo": "사람들은 항상 같은 세 가지의 같은 조합을 제시합니다."
   },
   {
     "word": "diffusion",
@@ -291,7 +307,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 157,
-    "contextSentence": "Something called the law of diffusion of innovation."
+    "contextSentence": "Something called the law of diffusion of innovation.",
+    "contextSentenceKo": "혁신의 확산 법칙이라는 것이 있습니다."
   },
   {
     "word": "tipping point",
@@ -308,7 +325,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 164,
-    "contextSentence": "You cannot have it until you achieve this tipping point."
+    "contextSentence": "You cannot have it until you achieve this tipping point.",
+    "contextSentenceKo": "이 전환점에 도달하기 전까지는 그것을 가질 수 없습니다."
   },
   {
     "word": "penetration",
@@ -324,7 +342,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 165,
-    "contextSentence": "Between 15 and 18% market penetration, and then the system tips."
+    "contextSentence": "Between 15 and 18% market penetration, and then the system tips.",
+    "contextSentenceKo": "시장 보급률 15~18% 사이에서 시스템이 전환됩니다."
   },
   {
     "word": "intuitive",
@@ -341,7 +360,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 175,
-    "contextSentence": "They're more comfortable making those intuitive decisions."
+    "contextSentence": "They're more comfortable making those intuitive decisions.",
+    "contextSentenceKo": "그들은 직관적인 결정을 내리는 데 더 편안함을 느낍니다."
   },
   {
     "word": "substandard",
@@ -358,7 +378,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 179,
-    "contextSentence": "Even though the technology was substandard."
+    "contextSentence": "Even though the technology was substandard.",
+    "contextSentenceKo": "기술이 기준에 못 미쳤는데도 말이죠."
   },
   {
     "word": "cynical",
@@ -375,7 +396,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 202,
-    "contextSentence": "And the cynical majority said, we don't believe you."
+    "contextSentence": "And the cynical majority said, we don't believe you.",
+    "contextSentenceKo": "그리고 냉소적인 다수는 '당신을 믿지 않는다'고 말했습니다."
   },
   {
     "word": "orator",
@@ -392,7 +414,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "And he certainly wasn't the only great orator of the day."
+    "contextSentence": "And he certainly wasn't the only great orator of the day.",
+    "contextSentenceKo": "그리고 그가 당대 유일한 위대한 연설가는 분명 아니었습니다."
   },
   {
     "word": "status quo",
@@ -408,7 +431,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 61,
-    "contextSentence": "Everything we do, we believe in challenging the status quo."
+    "contextSentence": "Everything we do, we believe in challenging the status quo.",
+    "contextSentenceKo": "우리가 하는 모든 일에서 우리는 현상에 도전하는 것을 믿습니다."
   },
   {
     "word": "chasm",
@@ -425,6 +449,7 @@
     ],
     "isEssential": true,
     "segmentIndex": 172,
-    "contextSentence": "As Jeffrey Moore calls it, crossing the chasm."
+    "contextSentence": "As Jeffrey Moore calls it, crossing the chasm.",
+    "contextSentenceKo": "제프리 무어가 말하는 캐즘을 넘는 것입니다."
   }
 ]

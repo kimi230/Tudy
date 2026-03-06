@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "There's + noun phrase (existential 'there')",
+    "pattern": "There is/are + noun phrase (존재 표현)",
     "explanation": "Used to introduce the existence of something or someone new into a conversation. It draws attention to the subject that follows.",
     "explanationKo": "'There's + 명사구'는 대화에서 새로운 존재를 소개할 때 사용해요. 뒤에 오는 주어에 청중의 관심을 끌어요. '~이 있어요'라는 의미예요.",
     "examples": [
@@ -14,7 +14,7 @@
     "segmentIndex": 1
   },
   {
-    "pattern": "Who/that + relative clause (defining relative clause)",
+    "pattern": "Who/that + relative clause",
     "explanation": "Relative clauses beginning with 'who' or 'that' provide essential information about the noun they modify. They define or identify the person or thing being talked about.",
     "explanationKo": "'who/that + 관계절'은 수식하는 명사에 대한 필수적인 정보를 제공해요. 말하고 있는 사람이나 사물을 정의하거나 식별해요.",
     "examples": [
@@ -30,7 +30,7 @@
     "segmentIndex": 2
   },
   {
-    "pattern": "So that + clause (purpose clause)",
+    "pattern": "So that + clause",
     "explanation": "Used to express the purpose or reason for an action. It answers the question 'why?' and connects the action to its intended result.",
     "explanationKo": "'so that + 절'은 행동의 목적이나 이유를 표현할 때 사용해요. '~하기 위해서'라는 의미로, 행동과 의도된 결과를 연결해요.",
     "examples": [
@@ -46,7 +46,7 @@
     "segmentIndex": 25
   },
   {
-    "pattern": "What + clause as subject (nominal/noun clause)",
+    "pattern": "What + clause as subject",
     "explanation": "A 'what' clause functions as the subject or complement of a sentence, replacing a noun. It adds emphasis and creates a dramatic or reflective tone.",
     "explanationKo": "'What + 절'이 문장의 주어나 보어 역할을 해요. 명사를 대신하며, 강조와 극적인 느낌 또는 사색적인 톤을 만들어요.",
     "examples": [
@@ -62,7 +62,7 @@
     "segmentIndex": 21
   },
   {
-    "pattern": "If + present simple, present simple (zero conditional)",
+    "pattern": "If + present simple, present simple",
     "explanation": "The zero conditional expresses general truths or habitual situations. When the 'if' condition is met, the result always happens.",
     "explanationKo": "영 조건문(zero conditional)은 일반적인 사실이나 습관적인 상황을 표현해요. 'if' 조건이 충족되면 결과가 항상 일어나요.",
     "examples": [
@@ -78,7 +78,7 @@
     "segmentIndex": 31
   },
   {
-    "pattern": "Would + verb (hypothetical / narrative past future)",
+    "pattern": "Would + verb",
     "explanation": "Used to express willingness, hypothetical situations, or future-in-the-past. In narrative context, it describes what someone was going to do or what would happen.",
     "explanationKo": "'would + 동사'는 의지, 가정 상황, 또는 과거 시점에서 본 미래를 표현해요. 이야기 맥락에서 누군가가 하려던 것이나 일어날 일을 설명해요.",
     "examples": [
@@ -118,37 +118,5 @@
       "우리 중 누군가가 크게 고통받는 것보다 모두가 조금씩 고통받는 것이 더 낫습니다."
     ],
     "segmentIndex": 147
-  },
-  {
-    "pattern": "Not A but B (contrast/correction structure)",
-    "explanation": "Used to correct a potential assumption by negating one idea and presenting the true alternative. It creates a strong rhetorical contrast.",
-    "explanationKo": "'Not A but B' 구조는 잘못된 가정을 부정하고 진짜 대안을 제시할 때 사용해요. 강한 수사적 대비를 만들어요. 'A가 아니라 B'로 해석해요.",
-    "examples": [
-      "But that's completely wrong. What I learned is that it's the environment.",
-      "It's not the numbers. It's that they have violated the very definition of leadership.",
-      "Leadership is a choice. It is not a rank."
-    ],
-    "examplesKo": [
-      "하지만 그것은 완전히 틀렸습니다. 제가 배운 것은 그게 바로 환경이라는 겁니다.",
-      "숫자가 문제가 아닙니다. 그들이 리더십의 근본적인 정의를 위반했다는 것이 문제입니다.",
-      "리더십은 선택입니다. 직급이 아닙니다."
-    ],
-    "segmentIndex": 30
-  },
-  {
-    "pattern": "We call them... because + clause (parallel repetition)",
-    "explanation": "A rhetorical device using repetition to build emphasis and rhythm. The repeated structure reinforces the speaker's key point through accumulated examples.",
-    "explanationKo": "반복을 통해 강조와 리듬을 만드는 수사적 기법이에요. 반복되는 구조가 축적된 예시를 통해 화자의 핵심 요점을 강화해요.",
-    "examples": [
-      "We call them leaders because they go first.",
-      "We call them leaders because they take the risk before anybody else does.",
-      "We call them leaders because they will choose to sacrifice."
-    ],
-    "examplesKo": [
-      "우리가 그들을 리더라고 부르는 이유는 그들이 먼저 나서기 때문입니다.",
-      "우리가 그들을 리더라고 부르는 이유는 그들이 누구보다 먼저 위험을 감수하기 때문입니다.",
-      "우리가 그들을 리더라고 부르는 이유는 그들이 기꺼이 희생을 선택하기 때문입니다."
-    ],
-    "segmentIndex": 173
   }
 ]

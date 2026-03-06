@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
-import { useAuth } from './useAuth';
+import { useState, useEffect, useCallback } from 'react';
+import { useUserIdRef } from './useUserIdRef';
 import {
   getAllDailyProgress,
   getActiveDailyVideo,
@@ -12,10 +12,7 @@ export function useDailyLearning() {
   const [activeVideo, setActiveVideo] = useState<DailyLearningProgress | null>(null);
   const [allProgress, setAllProgress] = useState<DailyLearningProgress[]>([]);
   const [loading, setLoading] = useState(true);
-  const auth = useAuth();
-  const userId = auth.user?.id;
-  const userIdRef = useRef(userId);
-  userIdRef.current = userId;
+  const { userId, userIdRef } = useUserIdRef();
 
   const reload = useCallback(async () => {
     const uid = userIdRef.current;

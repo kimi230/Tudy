@@ -1,0 +1,58 @@
+# ==============================================================================
+# stdyLang PDF 일괄 생성 워크플로우
+# ==============================================================================
+# 참조: pipeline/bootstrap.yaml (마스터 정의)
+#
+# 기존 영상 데이터에서 study_guide.pdf가 없는 영상을 찾아 일괄 생성
+
+workflow:
+  name: pdf_batch_pipeline
+  version: "1.0"
+
+# ==============================================================================
+# 입력
+# ==============================================================================
+input:
+  optional:
+    language:
+      type: enum
+      values: [en, zh, ja]
+      default: null
+      description: "특정 언어만 처리 (미지정 시 전체)"
+
+# ==============================================================================
+# 단계
+# ==============================================================================
+steps:
+
+  # --- Stage 1: 대상 파악 ---
+  - id: enumerate_targets
+    name: "PDF 미생성 영상 목록 조회"
+    executor: bash
+    command: >
+      python3 pipeline/pdf/generate_pdf.py --list-missing
+    description: |
+      각 언어의 videos.json을 순회하여
+      study_guide.pdf가 없는 영상 목록을 출력한다.
+
+  # --- Stage 2: 일괄 생성 ---
+  - id: generate_all
+    name: "PDF 일괄 생성"
+    executor: bash
+    depends_on: [enumerate_targets]
+    command: >
+      python3 pipeline/pdf/generate_pdf.py --all
+    description: |
+      모든 대상 영상에 대해 study_guide.html + study_guide.pdf 생성.
+      개별 실패 시 경고 출력 후 계속 진행.
+    max_concurrency: 5
+
+  # --- Stage 3: 결과 요약 + 알림 ---
+  - id: summary
+    name: "결과 요약 + Telegram 알림"
+    executor: claude_code
+    depends_on: [generate_all]
+    action: |
+      1. generate_all 결과를 분석하여 성공/실패 요약 작성
+      2. telegram send로 결과 알림:
+         "PDF 일괄 생성 완료: {성공}건 성공, {실패}건 실패"

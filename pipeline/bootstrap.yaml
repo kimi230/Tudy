@@ -5,9 +5,28 @@
 # 모든 세션 시작 시 이 파일을 참조하여 시스템 동작 방식을 결정합니다.
 
 system:
-  name: stdyEng
-  description: "YouTube 영상 기반 영어 학습 콘텐츠 자동 생성 시스템"
-  version: "2.0"
+  name: stdyLang
+  description: "YouTube 영상 기반 다국어 학습 콘텐츠 자동 생성 시스템 (영어/중국어/일본어)"
+  version: "4.0"
+
+# ==============================================================================
+# 환경 점검 (health_check)
+# ==============================================================================
+health_check:
+  validate_env:
+    executor: bash
+    checks:
+      - "python3 --version"
+      - "python3 -c 'from weasyprint import HTML; print(\"weasyprint OK\")'"
+      - "yt-dlp --version"
+
+  validate_data:
+    executor: bash
+    parallel: true
+    checks:
+      - "python3 -c \"import json; json.load(open('apps/english/public/data/videos.json'))\""
+      - "python3 -c \"import json; json.load(open('apps/chinese/public/data/videos.json'))\""
+      - "python3 -c \"import json; json.load(open('apps/japanese/public/data/videos.json'))\""
 
 # ==============================================================================
 # 핵심 원칙
@@ -16,19 +35,35 @@ principles:
   - id: claude_is_the_model
     rule: "Claude Code 자체가 LLM이다. 번역, 분석, 평가 등 지능이 필요한 작업은 Claude Code가 직접 수행한다."
     forbidden:
-      - "translator.py 호출 (Anthropic API / Ollama 호출됨)"
-      - "analyzer.py 호출 (Ollama 호출됨)"
       - "외부 LLM API를 통한 번역/분석"
 
   - id: tools_are_mechanical
-    rule: "도구(bash)는 기계적 작업에만 사용한다: 다운로드, STT, 파일 정리, 인덱스 업데이트."
+    rule: "도구(bash)는 기계적 작업에만 사용한다: 다운로드, STT, 파일 정리, 인덱스 업데이트, PDF 생성, Instagram 콘텐츠 생성."
     allowed:
-      - "process_video.py --mechanical-only (다운로드 + STT)"
-      - "process_video.py --finalize (meta.json + 인덱스)"
-      - "video_search.py (YouTube 검색 + 필터링 + 랭킹)"
+      - "process/process_video.py --mechanical-only (다운로드 + STT)"
+      - "process/process_video.py --finalize (meta.json + 인덱스)"
+      - "search/video_search.py (YouTube 검색 + 필터링 + 랭킹)"
+      - "pdf/generate_pdf.py (학습 가이드 PDF 생성)"
+      - "instagram/content_selector.py (콘텐츠 스코어링 + 선정)"
+      - "instagram/content_calendar.py (주간 플래닝 + 큐 관리)"
+      - "instagram/generate_image.py (Pillow 이미지 생성)"
+      - "instagram/generate_reel.py (ffmpeg 릴스 생성)"
 
   - id: direct_file_io
     rule: "Claude Code는 JSON 파일을 직접 읽고 쓴다. 분석 결과를 파일로 저장할 때 Python 스크립트를 거치지 않는다."
+
+# ==============================================================================
+# 파이프라인 디렉토리 구조
+# ==============================================================================
+# pipeline/
+# ├── bootstrap.yaml          ← 이 파일 (마스터 정의)
+# ├── shared/                 ← 공유 모듈 (utils, downloader, transcriber, common_words)
+# ├── process/                ← 영상 처리 (process_video.py, difficulty_scorer.py, workflow.yaml)
+# ├── search/                 ← 영상 검색 (video_search.py, workflow.yaml)
+# ├── pdf/                    ← PDF 생성 (generate_pdf.py, workflow.yaml)
+# ├── instagram/              ← Instagram 콘텐츠 (기존 구조 유지)
+# ├── db/                     ← DB 동기화 (sync_to_supabase.py)
+# └── .tmp/                   ← 임시 파일 (mp3, 자막, 후보 JSON)
 
 # ==============================================================================
 # 도구 정의 (bash로 실행하는 기계적 명령)
@@ -36,30 +71,30 @@ principles:
 tools:
   download_and_transcribe:
     command: >
-      python3 pipeline/process_video.py
+      python3 pipeline/process/process_video.py
       --url "{url}"
       --category "{category}"
       --mechanical-only
     description: "Phase 1: 메타데이터 추출 → 오디오 다운로드 → Whisper STT → 세그먼트 정제"
     output:
-      - "app/public/data/{videoId}/_raw_metadata.json"
-      - "app/public/data/{videoId}/_clean_segments.json"
+      - "apps/{language}/public/data/{videoId}/_raw_metadata.json"
+      - "apps/{language}/public/data/{videoId}/_clean_segments.json"
 
   finalize:
     command: >
-      python3 pipeline/process_video.py
+      python3 pipeline/process/process_video.py
       --video-id "{videoId}"
       --finalize
       --category "{category}"
       --difficulty "{difficulty}"
     description: "Phase 3: meta.json 생성 + videos.json 인덱스 업데이트 + 중간 파일 정리"
     output:
-      - "app/public/data/{videoId}/meta.json"
-      - "app/public/data/videos.json (업데이트)"
+      - "apps/{language}/public/data/{videoId}/meta.json"
+      - "apps/{language}/public/data/videos.json (업데이트)"
 
   search_youtube:
     command: >
-      python3 pipeline/video_search.py
+      python3 pipeline/search/video_search.py
       --level "{level}"
       --category "{category}"
       --topics "{topics}"
@@ -69,13 +104,28 @@ tools:
 
   rank_candidates:
     command: >
-      python3 pipeline/video_search.py
+      python3 pipeline/search/video_search.py
       --rank
       --evaluated "pipeline/.tmp/evaluated.json"
       --count {count}
     description: "평가된 후보 중복 제거 + 종합 랭킹"
     output:
       - "pipeline/.tmp/recommendations.json"
+
+  generate_pdf:
+    command: >
+      python3 pipeline/pdf/generate_pdf.py
+      --video-id "{videoId}"
+      --language "{language}"
+    description: "Phase 4: 학습 가이드 HTML + PDF 생성"
+    output:
+      - "apps/{language_app}/public/data/{videoId}/study_guide.html"
+      - "apps/{language_app}/public/data/{videoId}/study_guide.pdf"
+
+  sync_to_db:
+    command: >
+      python3 pipeline/db/sync_to_supabase.py
+    description: "로컬 JSON → Supabase video_catalog + video_artifacts 동기화"
 
 # ==============================================================================
 # Claude Code 직접 수행 작업 (도구가 아님 — Claude Code 자체 능력)
@@ -103,7 +153,12 @@ claude_tasks:
   analyze_grammar:
     input: "{videoId}/segments.json"
     output: "{videoId}/grammar.json"
-    action: "주요 문법 패턴 8~15개 분석 (패턴명, 설명, 예시, 세그먼트 위치)"
+    action: "주요 문법 패턴 8~15개 분석 (패턴명, 설명, 예시+예시 한국어 번역, 세그먼트 위치). 순수 문법(시제/조건문/가정법/관계절/수동태/조동사 등)만 포함. 수사적 기법(수사적 질문, 반복, 리프레이밍), 담화 표지(It turns out, As such), 청중 참여 기법 절대 제외."
+
+  backfill_grammar_ko:
+    input: "apps/english/public/data/*/grammar.json"
+    output: "(in-place 업데이트)"
+    action: "기존 grammar.json에 examplesKo 필드가 없는 항목에 한국어 번역 추가. 병렬 배치 처리."
 
   analyze_connected_speech:
     input: "{videoId}/segments.json"
@@ -125,22 +180,57 @@ claude_tasks:
 # ==============================================================================
 workflows:
   process:
-    file: "pipeline/workflow.yaml"
-    description: "YouTube URL → 학습 콘텐츠 생성 (3-Phase)"
+    file: "pipeline/process/workflow.yaml"
+    description: "YouTube URL → 학습 콘텐츠 생성 (4-Phase: 다운로드+STT → 번역+분석 → 마무리 → PDF)"
     trigger: "사용자가 URL을 제공하거나 영상 처리 요청 시"
 
   search:
-    file: "pipeline/search_workflow.yaml"
+    file: "pipeline/search/workflow.yaml"
     description: "카테고리/난이도 기반 영상 검색 → 추천"
     trigger: "사용자가 '영상 찾아줘' 등 검색 요청 시"
+
+  pdf_batch:
+    file: "pipeline/pdf/workflow.yaml"
+    description: "기존 영상 데이터에서 PDF 일괄 생성"
+    trigger: "사용자가 'PDF 일괄 생성' 등 요청 시"
+
+  instagram:
+    file: "pipeline/instagram/instagram_workflow.yaml"
+    description: "기존 학습 데이터 → Instagram 콘텐츠 자동 생성 (어휘/문법/발음 카드 + 릴스)"
+    trigger: "사용자가 'Instagram 콘텐츠' 등 요청 시"
+
+# ==============================================================================
+# 데이터 흐름
+# ==============================================================================
+data_flow:
+  description: >
+    학습 데이터는 두 곳에 저장되며, 동기화 스크립트로 일관성을 유지한다.
+
+  static_json:
+    location: "apps/{language}/public/data/{videoId}/*.json"
+    purpose: "프론트엔드 정적 호스팅 (GitHub Pages). 빌드 없이 직접 서빙."
+    files: [meta.json, segments.json, vocabulary.json, grammar.json, connected_speech.json, structure.json]
+    index: "apps/{language}/public/data/videos.json"
+
+  supabase_db:
+    tables:
+      video_catalog: "영상 메타데이터 (language+video_id PK). 프론트엔드 카탈로그 조회용."
+      video_artifacts: "분석 결과 JSON blob (language+video_id PK). 프론트엔드 DB 우선 로딩."
+    purpose: "프론트엔드가 DB에서 먼저 로드 시도 → 실패 시 정적 JSON 폴백."
+
+  sync:
+    command: "python3 pipeline/db/sync_to_supabase.py"
+    direction: "정적 JSON → Supabase (단방향)"
+    trigger: "새 영상 처리 완료 후 또는 수동 실행"
+    env_vars: [SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY]
 
 # ==============================================================================
 # 경로
 # ==============================================================================
 paths:
-  project_root: "."  # relative to repository root
-  data_dir: "app/public/data"
-  index_file: "app/public/data/videos.json"
+  project_root: "."
+  data_dir: "apps/{language}/public/data"
+  index_file: "apps/{language}/public/data/videos.json"
   temp_dir: "pipeline/.tmp"
   pipeline_dir: "pipeline"
 

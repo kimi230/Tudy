@@ -1,25 +1,5 @@
 [
   {
-    "pattern": "Why is it that...?",
-    "explanation": "An emphatic cleft structure used to ask questions with extra emphasis. 'It' is a dummy subject, and 'that' introduces the main clause. This is more emphatic than simply asking 'Why do...?'",
-    "explanationKo": "'Why is it that...?'는 강조를 위한 분열문 구조입니다. 'it'은 형식 주어이고 'that'절이 진짜 질문 내용을 담고 있습니다. 'Why do...?'보다 더 강한 강조를 나타냅니다.",
-    "examples": [
-      {
-        "sentence": "Why is it that intelligent people procrastinate?",
-        "translation": "왜 똑똑한 사람들이 미루는 걸까요?"
-      },
-      {
-        "sentence": "Why is it that people that are so self-motivated often self-sabotage?",
-        "translation": "왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?"
-      }
-    ],
-    "examplesKo": [
-      "왜 똑똑한 사람들이 미루는 걸까요?",
-      "왜 스스로 동기부여가 잘 되는 사람들이 종종 자기 파괴를 할까요?"
-    ],
-    "segmentIndex": 1
-  },
-  {
     "pattern": "As if + past subjunctive",
     "explanation": "Used to describe a hypothetical or unreal situation. 'As if' introduces a clause that describes something that is not actually true but feels like it could be. The past tense ('was/were') signals unreality.",
     "explanationKo": "'As if + 과거 가정법'은 실제가 아닌 가상의 상황을 묘사할 때 사용합니다. 'As if'는 실제로는 사실이 아니지만 그렇게 느껴지는 상황을 소개합니다. 과거형이 비현실을 나타냅니다.",
@@ -50,7 +30,7 @@
     "segmentIndex": 3
   },
   {
-    "pattern": "What + be known as + noun (identification cleft)",
+    "pattern": "What + be known as + noun",
     "explanation": "This structure is used to introduce a technical term or formal name for something. 'What' functions as a relative pronoun meaning 'the thing that.'",
     "explanationKo": "'What's known as'는 전문 용어나 공식 명칭을 소개할 때 사용하는 구조입니다. 'What'은 '~라고 알려진 것'이라는 의미의 관계대명사로 기능합니다.",
     "examples": [
@@ -70,23 +50,8 @@
     "segmentIndex": 26
   },
   {
-    "pattern": "Give me + noun, and I'll give you + noun",
-    "explanation": "A conditional promise structure expressing a cause-and-effect guarantee. It's often used in persuasive or confident speech to convey certainty about an outcome.",
-    "explanationKo": "'Give me A, and I'll give you B'는 원인-결과의 보장을 표현하는 조건부 약속 구조입니다. 결과에 대한 확신을 전달할 때 설득적 화법에서 자주 사용됩니다.",
-    "examples": [
-      {
-        "sentence": "Give me the child for seven years, and I'll give you the man.",
-        "translation": "저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다."
-      }
-    ],
-    "examplesKo": [
-      "저에게 7년간 아이를 주시면, 그 사람을 만들어 드리겠습니다."
-    ],
-    "segmentIndex": 33
-  },
-  {
-    "pattern": "...are they not? / ...is it not? (Tag questions for emphasis)",
-    "explanation": "Inverted tag questions using formal structure to seek agreement or add rhetorical emphasis. More formal and persuasive than the contracted form 'aren't they?'",
+    "pattern": "...are they not? / ...is it not?",
+    "explanation": "Inverted tag questions use formal structure ('are they not?', 'is it not?') to seek confirmation or agreement. More formal than standard tag questions ('aren't they?', 'isn't it?').",
     "explanationKo": "도치된 부가의문문으로, 동의를 구하거나 수사적 강조를 더할 때 사용합니다. 축약형 'aren't they?'보다 더 격식적이고 설득적입니다.",
     "examples": [
       {
@@ -100,7 +65,7 @@
     "segmentIndex": 49
   },
   {
-    "pattern": "It's not down to + noun (British English causation)",
+    "pattern": "It's not down to + noun",
     "explanation": "'Down to' means 'caused by' or 'attributable to.' This British English expression is used to identify or reject a cause. 'Not down to' negates the proposed cause.",
     "explanationKo": "'Down to'는 '~때문이다, ~에 기인하다'라는 의미의 영국식 표현입니다. 원인을 식별하거나 부정할 때 사용됩니다. 'Not down to'는 제시된 원인을 부정합니다.",
     "examples": [
@@ -115,7 +80,7 @@
     "segmentIndex": 7
   },
   {
-    "pattern": "Rather than + verb/noun (expressing preference or contrast)",
+    "pattern": "Rather than + verb/noun",
     "explanation": "Used to present an alternative or contrast. It introduces what is not chosen or what happens instead. Often used to emphasize the unexpected or less desirable option.",
     "explanationKo": "'Rather than'은 대안이나 대조를 제시할 때 사용합니다. 선택되지 않은 것이나 대신 일어나는 것을 소개합니다. 예상치 못하거나 덜 바람직한 선택을 강조할 때 자주 씁니다.",
     "examples": [

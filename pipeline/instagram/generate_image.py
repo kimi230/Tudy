@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw, ImageFont
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from pipeline.utils import load_json, save_json
+from pipeline.shared.utils import load_json, save_json
 from pipeline.instagram.templates import (
     FONTS_DIR, OUTPUT_DIR, FEED_SIZE, STORY_SIZE,
     BG_PRIMARY, BG_CARD, BG_GRADIENT_BOTTOM,
@@ -183,6 +183,7 @@ def draw_speaker_attribution(
 
 def generate_vocabulary_card(
     item: dict, video: dict, speaker: str, canvas_size: tuple[int, int],
+    series_title: str = "일일",
 ) -> Image.Image:
     """Generate a vocabulary card image."""
     w, h = canvas_size
@@ -196,8 +197,8 @@ def generate_vocabulary_card(
 
     y = pad
 
-    # Title: 일일 Vocabulary (same size as grammar title for consistency)
-    y = draw_text_wrapped(draw, "일일 Vocabulary", pad, y, bold(sizes["word_main"]), ACCENT_ORANGE, max_w)
+    # Title
+    y = draw_text_wrapped(draw, f"{series_title} Vocabulary", pad, y, bold(sizes["word_main"]), ACCENT_ORANGE, max_w)
     y += SECTION_GAP * 2
 
     # Main word
@@ -270,6 +271,7 @@ def generate_vocabulary_card(
 
 def generate_grammar_card(
     item: dict, video: dict, speaker: str, canvas_size: tuple[int, int],
+    series_title: str = "일일",
 ) -> Image.Image:
     """Generate a grammar pattern card image."""
     w, h = canvas_size
@@ -283,8 +285,8 @@ def generate_grammar_card(
 
     y = pad
 
-    # Title: 일일 Grammar
-    y = draw_text_wrapped(draw, "일일 Grammar", pad, y, bold(sizes["word_main"]), ACCENT_BLUE, max_w)
+    # Title
+    y = draw_text_wrapped(draw, f"{series_title} Grammar", pad, y, bold(sizes["word_main"]), ACCENT_BLUE, max_w)
     y += SECTION_GAP * 2
 
     # Pattern (white, same size as vocabulary word_main)
@@ -334,6 +336,7 @@ def generate_grammar_card(
 
 def generate_pronunciation_card(
     item: dict, video: dict, speaker: str, canvas_size: tuple[int, int],
+    series_title: str = "일일",
 ) -> Image.Image:
     """Generate a connected speech / pronunciation card image."""
     w, h = canvas_size
@@ -520,6 +523,7 @@ def generate_carousel(
     video_id: str,
     item_indices: list[int],
     output_dir: Path,
+    series_title: str = "일일",
 ) -> dict:
     """Generate a carousel of content cards + CTA slide.
 
@@ -547,7 +551,7 @@ def generate_carousel(
             logger.warning("Item index %d out of range for %s, skipping", idx, video_id)
             continue
         item = items[idx]
-        img = gen_func(item, video, speaker, FEED_SIZE)
+        img = gen_func(item, video, speaker, FEED_SIZE, series_title=series_title)
         draw = ImageDraw.Draw(img)
         draw_slide_number(draw, slide_num, total_slides, FEED_SIZE[0], FONT_SIZES_FEED)
         path = output_dir / f"slide_{slide_num}.png"
@@ -607,7 +611,7 @@ def get_speaker_name(video: dict) -> str:
 
 
 def load_video_meta(video_id: str) -> dict | None:
-    from pipeline.utils import load_videos_index
+    from pipeline.shared.utils import load_videos_index
     videos = load_videos_index(DATA_DIR)
     for v in videos:
         if v["videoId"] == video_id:
@@ -628,6 +632,7 @@ def generate_card(
     item_index: int,
     output_dir: Path,
     headline: str | None = None,
+    series_title: str = "일일",
 ) -> dict:
     """Generate feed + story images for a single content item.
 
@@ -652,13 +657,13 @@ def generate_card(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Feed image
-    feed_img = gen_func(item, video, speaker, FEED_SIZE)
+    feed_img = gen_func(item, video, speaker, FEED_SIZE, series_title=series_title)
     feed_path = output_dir / "feed_post.png"
     feed_img.save(str(feed_path), "PNG")
     logger.info("Feed image saved: %s", feed_path)
 
     # Story image
-    story_img = gen_func(item, video, speaker, STORY_SIZE)
+    story_img = gen_func(item, video, speaker, STORY_SIZE, series_title=series_title)
     story_path = output_dir / "story.png"
     story_img.save(str(story_path), "PNG")
     logger.info("Story image saved: %s", story_path)
@@ -740,6 +745,8 @@ def main():
     parser.add_argument("--item-indices", help="Comma-separated indices for carousel (e.g. 0,1,2,3,4)")
     parser.add_argument("--carousel", action="store_true", help="Generate vocabulary carousel (5 cards + CTA)")
     parser.add_argument("--headline")
+    parser.add_argument("--series-title", default="일일",
+                        help="Series title prefix (e.g. 퇴근길, 출근길, 점심시간)")
     parser.add_argument("--output-dir")
     parser.add_argument("--from-queue", action="store_true", help="Generate from queue.json")
     parser.add_argument("--from-candidates", action="store_true",
@@ -763,11 +770,11 @@ def main():
             candidates = select_candidates(content_type=ctype, video_id=args.video_id, count=5)
             indices = [c["item_index"] for c in candidates]
             logger.info("Auto-selected indices: %s", indices)
-        result = generate_carousel(ctype, args.video_id, indices, out_dir)
+        result = generate_carousel(ctype, args.video_id, indices, out_dir, args.series_title)
         logger.info("Generated carousel: %s", result)
     elif args.type and args.video_id:
         out_dir = Path(args.output_dir) if args.output_dir else OUTPUT_DIR / "test"
-        result = generate_card(args.type, args.video_id, args.item_index, out_dir, args.headline)
+        result = generate_card(args.type, args.video_id, args.item_index, out_dir, args.headline, args.series_title)
         logger.info("Generated: %s", result)
     else:
         parser.print_help()

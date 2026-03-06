@@ -10,7 +10,8 @@
     "relatedWords": ["commence", "commencement address", "beginning"],
     "isEssential": true,
     "segmentIndex": 0,
-    "contextSentence": "Steve Jobs delivered a commencement address at Stanford University."
+    "contextSentence": "Steve Jobs delivered a commencement address at Stanford University.",
+    "contextSentenceKo": "스티브 잡스는 스탠퍼드 대학교에서 졸업 축사를 했습니다."
   },
   {
     "word": "adoption",
@@ -23,7 +24,8 @@
     "relatedWords": ["adopt", "adoptive", "adoptee"],
     "isEssential": true,
     "segmentIndex": 4,
-    "contextSentence": "She decided to put me up for adoption."
+    "contextSentence": "She decided to put me up for adoption.",
+    "contextSentenceKo": "그녀는 저를 입양 보내기로 결심했습니다."
   },
   {
     "word": "unwed",
@@ -36,7 +38,8 @@
     "relatedWords": ["unmarried", "single", "wedding"],
     "isEssential": false,
     "segmentIndex": 4,
-    "contextSentence": "My biological mother was a young, unwed graduate student."
+    "contextSentence": "My biological mother was a young, unwed graduate student.",
+    "contextSentenceKo": "제 생모는 젊은 미혼 대학원생이었습니다."
   },
   {
     "word": "relent",
@@ -49,7 +52,8 @@
     "relatedWords": ["relentless", "unrelenting"],
     "isEssential": true,
     "segmentIndex": 11,
-    "contextSentence": "She only relented a few months later when my parents promised that I would go to college."
+    "contextSentence": "She only relented a few months later when my parents promised that I would go to college.",
+    "contextSentenceKo": "부모님이 제가 대학에 가겠다고 약속한 후에야 몇 달 뒤에 그녀는 마음을 바꿨습니다."
   },
   {
     "word": "naively",
@@ -62,7 +66,8 @@
     "relatedWords": ["naive", "naivety", "ingenuousness"],
     "isEssential": true,
     "segmentIndex": 13,
-    "contextSentence": "But I naively chose a college that was almost as expensive as Stanford."
+    "contextSentence": "But I naively chose a college that was almost as expensive as Stanford.",
+    "contextSentenceKo": "하지만 저는 순진하게도 스탠퍼드만큼이나 비싼 대학을 선택했습니다."
   },
   {
     "word": "calligraphy",
@@ -75,7 +80,8 @@
     "relatedWords": ["calligrapher", "typography", "penmanship"],
     "isEssential": true,
     "segmentIndex": 26,
-    "contextSentence": "Reed College at that time offered perhaps the best calligraphy instruction in the country."
+    "contextSentence": "Reed College at that time offered perhaps the best calligraphy instruction in the country.",
+    "contextSentenceKo": "당시 리드 칼리지는 아마도 미국에서 최고의 서예 수업을 제공했습니다."
   },
   {
     "word": "serif",
@@ -88,7 +94,8 @@
     "relatedWords": ["sans-serif", "typeface", "font"],
     "isEssential": false,
     "segmentIndex": 29,
-    "contextSentence": "I learned about serif and sans-serif typefaces."
+    "contextSentence": "I learned about serif and sans-serif typefaces.",
+    "contextSentenceKo": "저는 세리프체와 산세리프체에 대해 배웠습니다."
   },
   {
     "word": "typography",
@@ -101,7 +108,8 @@
     "relatedWords": ["typographer", "typographic", "typeface"],
     "isEssential": true,
     "segmentIndex": 31,
-    "contextSentence": "It was beautiful, historical, artistically subtle in a way that science can't capture."
+    "contextSentence": "It was beautiful, historical, artistically subtle in a way that science can't capture.",
+    "contextSentenceKo": "그것은 과학으로는 포착할 수 없는 방식으로 아름답고, 역사적이며, 예술적으로 섬세했습니다."
   },
   {
     "word": "intuition",
@@ -114,7 +122,8 @@
     "relatedWords": ["intuitive", "intuit", "intuitively"],
     "isEssential": true,
     "segmentIndex": 25,
-    "contextSentence": "Curiosity and intuition turned out to be priceless later on."
+    "contextSentence": "Curiosity and intuition turned out to be priceless later on.",
+    "contextSentenceKo": "호기심과 직관은 나중에 값을 매길 수 없을 만큼 소중한 것으로 밝혀졌습니다."
   },
   {
     "word": "diverge",
@@ -127,7 +136,8 @@
     "relatedWords": ["divergence", "divergent", "converge"],
     "isEssential": true,
     "segmentIndex": 51,
-    "contextSentence": "But then our visions of the future began to diverge."
+    "contextSentence": "But then our visions of the future began to diverge.",
+    "contextSentenceKo": "하지만 미래에 대한 우리의 비전이 서로 갈라지기 시작했습니다."
   },
   {
     "word": "devastating",
@@ -140,7 +150,8 @@
     "relatedWords": ["devastate", "devastation", "devastating blow"],
     "isEssential": true,
     "segmentIndex": 53,
-    "contextSentence": "What had been the focus of my entire adult life was gone. And it was devastating."
+    "contextSentence": "What had been the focus of my entire adult life was gone. And it was devastating.",
+    "contextSentenceKo": "제 성인 생활 전체의 초점이었던 것이 사라졌습니다. 정말 충격적이었습니다."
   },
   {
     "word": "entrepreneur",
@@ -153,7 +164,8 @@
     "relatedWords": ["entrepreneurial", "entrepreneurship", "enterprise"],
     "isEssential": true,
     "segmentIndex": 55,
-    "contextSentence": "I felt that I had let the previous generation of entrepreneurs down."
+    "contextSentence": "I felt that I had let the previous generation of entrepreneurs down.",
+    "contextSentenceKo": "저는 이전 세대의 기업가들을 실망시켰다고 느꼈습니다."
   },
   {
     "word": "renaissance",
@@ -166,7 +178,8 @@
     "relatedWords": ["renew", "rebirth", "revival"],
     "isEssential": true,
     "segmentIndex": 67,
-    "contextSentence": "The technology we developed at Next is at the heart of Apple's current renaissance."
+    "contextSentence": "The technology we developed at Next is at the heart of Apple's current renaissance.",
+    "contextSentenceKo": "넥스트에서 개발한 기술이 애플의 현재 부흥의 핵심에 있습니다."
   },
   {
     "word": "dogma",
@@ -179,7 +192,8 @@
     "relatedWords": ["dogmatic", "dogmatism", "doctrine"],
     "isEssential": true,
     "segmentIndex": 92,
-    "contextSentence": "Don't be trapped by dogma, which is living with the results of other people's thinking."
+    "contextSentence": "Don't be trapped by dogma, which is living with the results of other people's thinking.",
+    "contextSentenceKo": "도그마에 갇히지 마세요. 그것은 다른 사람들의 생각의 결과에 따라 사는 것입니다."
   },
   {
     "word": "proportionally",
@@ -192,7 +206,8 @@
     "relatedWords": ["proportion", "proportional", "disproportionate"],
     "isEssential": false,
     "segmentIndex": 36,
-    "contextSentence": "The Mac would have never had multiple typefaces or proportionally spaced fonts."
+    "contextSentence": "The Mac would have never had multiple typefaces or proportionally spaced fonts.",
+    "contextSentenceKo": "맥은 다양한 서체나 비례 간격 폰트를 갖추지 못했을 것입니다."
   },
   {
     "word": "baton",
@@ -205,7 +220,8 @@
     "relatedWords": ["relay", "pass the baton", "conductor's baton"],
     "isEssential": false,
     "segmentIndex": 55,
-    "contextSentence": "That I had dropped the baton as it was being passed to me."
+    "contextSentence": "That I had dropped the baton as it was being passed to me.",
+    "contextSentenceKo": "바통이 제게 전달되는 과정에서 제가 그것을 놓쳐버렸다고요."
   },
   {
     "word": "stumble",
@@ -218,7 +234,8 @@
     "relatedWords": ["stumble upon", "stumbling block", "stagger"],
     "isEssential": true,
     "segmentIndex": 24,
-    "contextSentence": "Much of what I stumbled into by following my curiosity turned out to be priceless."
+    "contextSentence": "Much of what I stumbled into by following my curiosity turned out to be priceless.",
+    "contextSentenceKo": "호기심을 따라가다가 우연히 마주친 것들의 대부분이 나중에 매우 귀중한 것으로 밝혀졌습니다."
   },
   {
     "word": "priceless",
@@ -231,7 +248,8 @@
     "relatedWords": ["invaluable", "precious", "worthless"],
     "isEssential": true,
     "segmentIndex": 25,
-    "contextSentence": "Curiosity and intuition turned out to be priceless later on."
+    "contextSentence": "Curiosity and intuition turned out to be priceless later on.",
+    "contextSentenceKo": "호기심과 직관은 나중에 값을 매길 수 없을 만큼 소중한 것으로 밝혀졌습니다."
   },
   {
     "word": "karma",
@@ -244,7 +262,8 @@
     "relatedWords": ["destiny", "fate", "karmic"],
     "isEssential": false,
     "segmentIndex": 42,
-    "contextSentence": "You have to trust in something. Your gut, destiny, life, karma, whatever."
+    "contextSentence": "You have to trust in something. Your gut, destiny, life, karma, whatever.",
+    "contextSentenceKo": "무언가를 믿어야 합니다. 직감이든, 운명이든, 삶이든, 인연이든, 무엇이든."
   },
   {
     "word": "dawn",
@@ -257,7 +276,8 @@
     "relatedWords": ["dawning", "dawn on", "daybreak"],
     "isEssential": true,
     "segmentIndex": 57,
-    "contextSentence": "But something slowly began to dawn on me."
+    "contextSentence": "But something slowly began to dawn on me.",
+    "contextSentenceKo": "하지만 무언가가 서서히 제게 깨달아지기 시작했습니다."
   },
   {
     "word": "settle",
@@ -270,7 +290,8 @@
     "relatedWords": ["settlement", "settled", "unsettle"],
     "isEssential": true,
     "segmentIndex": 74,
-    "contextSentence": "If you haven't found it yet, keep looking and don't settle."
+    "contextSentence": "If you haven't found it yet, keep looking and don't settle.",
+    "contextSentenceKo": "아직 찾지 못했다면 계속 찾으세요. 안주하지 마세요."
   },
   {
     "word": "encounter",
@@ -283,7 +304,8 @@
     "relatedWords": ["encounter", "counter", "confront"],
     "isEssential": true,
     "segmentIndex": 82,
-    "contextSentence": "Remembering that I'll be dead soon is the most important tool I've ever encountered."
+    "contextSentence": "Remembering that I'll be dead soon is the most important tool I've ever encountered.",
+    "contextSentenceKo": "곧 죽게 된다는 사실을 기억하는 것이 제가 접한 것 중 가장 중요한 도구입니다."
   },
   {
     "word": "embarrassment",
@@ -296,7 +318,8 @@
     "relatedWords": ["embarrass", "embarrassing", "embarrassed"],
     "isEssential": false,
     "segmentIndex": 84,
-    "contextSentence": "All fear of embarrassment or failure, these things just fall away in the face of death."
+    "contextSentence": "All fear of embarrassment or failure, these things just fall away in the face of death.",
+    "contextSentenceKo": "창피함이나 실패에 대한 모든 두려움, 이런 것들은 죽음 앞에서 그저 사라져 버립니다."
   },
   {
     "word": "destination",
@@ -309,6 +332,7 @@
     "relatedWords": ["destiny", "destine", "predestination"],
     "isEssential": true,
     "segmentIndex": 88,
-    "contextSentence": "Death is the destination we all share."
+    "contextSentence": "Death is the destination we all share.",
+    "contextSentenceKo": "죽음은 우리 모두가 공유하는 목적지입니다."
   }
 ]

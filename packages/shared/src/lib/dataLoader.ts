@@ -268,6 +268,19 @@ export async function loadStructure(videoId: string) {
   return fetchJSON<SpeechStructure>(`${videoId}/structure.json`);
 }
 
+/** Load all video artifacts in a single DB query, with per-field JSON fallback. */
+export async function loadAllArtifacts(videoId: string) {
+  const row = await loadVideoArtifactsFromDb(videoId);
+  const [segments, vocabulary, grammar, connectedSpeech, structure] = await Promise.all([
+    row?.segments ? Promise.resolve(row.segments) : fetchJSON<SegmentsData>(`${videoId}/segments.json`),
+    row?.vocabulary ? Promise.resolve(row.vocabulary) : fetchJSON<VocabularyItem[]>(`${videoId}/vocabulary.json`).catch(() => [] as VocabularyItem[]),
+    row?.grammar ? Promise.resolve(row.grammar) : fetchJSON<GrammarPattern[]>(`${videoId}/grammar.json`).catch(() => [] as GrammarPattern[]),
+    row?.connected_speech ? Promise.resolve(row.connected_speech) : fetchJSON<ConnectedSpeech[]>(`${videoId}/connected_speech.json`).catch(() => [] as ConnectedSpeech[]),
+    row?.structure ? Promise.resolve(row.structure) : fetchJSON<SpeechStructure>(`${videoId}/structure.json`).catch(() => undefined),
+  ]);
+  return { segments, vocabulary, grammar, connectedSpeech, structure };
+}
+
 export async function loadVideosByCategory(categoryId: string) {
   const videos = await loadVideos();
   return videos.filter((v) => v.categoryId === categoryId);

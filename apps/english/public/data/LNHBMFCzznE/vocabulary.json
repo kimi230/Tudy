@@ -10,7 +10,8 @@
     "relatedWords": ["neuroplastic", "plasticity", "neural", "neuroscience"],
     "isEssential": true,
     "segmentIndex": 25,
-    "contextSentence": "You change your brain. It's something we call neuroplasticity."
+    "contextSentence": "You change your brain. It's something we call neuroplasticity.",
+    "contextSentenceKo": "당신은 뇌를 변화시킵니다. 이것을 우리는 신경가소성이라고 부릅니다."
   },
   {
     "word": "misconception",
@@ -23,7 +24,8 @@
     "relatedWords": ["misconceive", "concept", "conception", "preconception"],
     "isEssential": true,
     "segmentIndex": 13,
-    "contextSentence": "Now, some of these misconceptions are more obvious than others."
+    "contextSentence": "Now, some of these misconceptions are more obvious than others.",
+    "contextSentenceKo": "이러한 오해 중 일부는 다른 것들보다 더 명백합니다."
   },
   {
     "word": "physiology",
@@ -36,7 +38,8 @@
     "relatedWords": ["physiological", "physiologist", "physics", "physical"],
     "isEssential": true,
     "segmentIndex": 6,
-    "contextSentence": "In the understanding of human physiology."
+    "contextSentence": "In the understanding of human physiology.",
+    "contextSentenceKo": "인간 생리학에 대한 이해에 있어서 말입니다."
   },
   {
     "word": "rehabilitation",
@@ -49,7 +52,8 @@
     "relatedWords": ["rehabilitate", "habilitate", "ability", "enable"],
     "isEssential": true,
     "segmentIndex": 97,
-    "contextSentence": "And frankly, we have failed to develop effective rehabilitation interventions."
+    "contextSentence": "And frankly, we have failed to develop effective rehabilitation interventions.",
+    "contextSentenceKo": "솔직히 말해서, 우리는 효과적인 재활 치료법을 개발하는 데 실패했습니다."
   },
   {
     "word": "intervention",
@@ -62,7 +66,8 @@
     "relatedWords": ["intervene", "convention", "prevent", "invention"],
     "isEssential": true,
     "segmentIndex": 97,
-    "contextSentence": "And frankly, we have failed to develop effective rehabilitation interventions."
+    "contextSentence": "And frankly, we have failed to develop effective rehabilitation interventions.",
+    "contextSentenceKo": "솔직히 말해서, 우리는 효과적인 재활 치료 개입법을 개발하는 데 실패했습니다."
   },
   {
     "word": "biomarker",
@@ -75,7 +80,8 @@
     "relatedWords": ["biology", "biomedical", "marker", "benchmark"],
     "isEssential": false,
     "segmentIndex": 144,
-    "contextSentence": "So there are certain characteristics of brain structure and function that we call biomarkers."
+    "contextSentence": "So there are certain characteristics of brain structure and function that we call biomarkers.",
+    "contextSentenceKo": "뇌의 구조와 기능에는 우리가 바이오마커라고 부르는 특정 특성들이 있습니다."
   },
   {
     "word": "variability",
@@ -88,7 +94,8 @@
     "relatedWords": ["variable", "variation", "vary", "variety"],
     "isEssential": true,
     "segmentIndex": 113,
-    "contextSentence": "Now as a researcher, variability used to drive me crazy."
+    "contextSentence": "Now as a researcher, variability used to drive me crazy.",
+    "contextSentenceKo": "연구자로서 변이성은 저를 미치게 만들곤 했습니다."
   },
   {
     "word": "excitability",
@@ -101,7 +108,8 @@
     "relatedWords": ["excitable", "excite", "excitement", "excitation"],
     "isEssential": false,
     "segmentIndex": 75,
-    "contextSentence": "It becomes more and more excitable and easy to use again."
+    "contextSentence": "It becomes more and more excitable and easy to use again.",
+    "contextSentenceKo": "점점 더 흥분성이 높아지고 다시 사용하기 쉬워집니다."
   },
   {
     "word": "reorganization",
@@ -114,7 +122,8 @@
     "relatedWords": ["reorganize", "organize", "organization", "organic"],
     "isEssential": true,
     "segmentIndex": 29,
-    "contextSentence": "And then studies began to show remarkable amounts of reorganization in the adult brain."
+    "contextSentence": "And then studies began to show remarkable amounts of reorganization in the adult brain.",
+    "contextSentenceKo": "그리고 이후 연구들이 성인 뇌에서 놀라운 수준의 재조직화가 일어난다는 것을 보여주기 시작했습니다."
   },
   {
     "word": "facilitate",
@@ -127,7 +136,8 @@
     "relatedWords": ["facility", "facilitation", "facile", "faculty"],
     "isEssential": true,
     "segmentIndex": 90,
-    "contextSentence": "That is, what is it that limits and facilitates neuroplasticity?"
+    "contextSentence": "That is, what is it that limits and facilitates neuroplasticity?",
+    "contextSentenceKo": "즉, 신경가소성을 제한하고 촉진하는 것은 무엇일까요?"
   },
   {
     "word": "concentration",
@@ -140,7 +150,8 @@
     "relatedWords": ["concentrate", "concentrated", "concentric", "central"],
     "isEssential": true,
     "segmentIndex": 39,
-    "contextSentence": "Or the concentrations of these chemical signaling."
+    "contextSentence": "Or the concentrations of these chemical signaling.",
+    "contextSentenceKo": "또는 이러한 화학적 신호 전달 물질의 농도를 말합니다."
   },
   {
     "word": "structural",
@@ -153,7 +164,8 @@
     "relatedWords": ["structure", "construct", "infrastructure", "restructure"],
     "isEssential": true,
     "segmentIndex": 56,
-    "contextSentence": "But for some reason, those changes did not induce the structural change."
+    "contextSentence": "But for some reason, those changes did not induce the structural change.",
+    "contextSentenceKo": "하지만 어떤 이유에서인지, 그러한 변화들은 구조적 변화를 유발하지 못했습니다."
   },
   {
     "word": "induce",
@@ -166,7 +178,8 @@
     "relatedWords": ["induction", "produce", "reduce", "conduct"],
     "isEssential": true,
     "segmentIndex": 56,
-    "contextSentence": "But for some reason, those changes did not induce the structural change."
+    "contextSentence": "But for some reason, those changes did not induce the structural change.",
+    "contextSentenceKo": "하지만 어떤 이유에서인지, 그러한 변화들은 구조적 변화를 유발하지 못했습니다."
   },
   {
     "word": "disability",
@@ -179,7 +192,8 @@
     "relatedWords": ["disable", "disabled", "ability", "unable"],
     "isEssential": true,
     "segmentIndex": 98,
-    "contextSentence": "The net result of this is that stroke is the leading cause of long-term disability in adults."
+    "contextSentence": "The net result of this is that stroke is the leading cause of long-term disability in adults.",
+    "contextSentenceKo": "이것의 결과로 뇌졸중은 성인의 장기 장애 원인 1위입니다."
   },
   {
     "word": "transformative",
@@ -192,7 +206,8 @@
     "relatedWords": ["transform", "transformation", "reform", "inform"],
     "isEssential": false,
     "segmentIndex": 23,
-    "contextSentence": "And perhaps the most exciting, the most interesting and transformative."
+    "contextSentence": "And perhaps the most exciting, the most interesting and transformative.",
+    "contextSentenceKo": "그리고 아마도 가장 흥미롭고, 가장 관심을 끌며 변혁적인 것입니다."
   },
   {
     "word": "neuron",
@@ -205,7 +220,8 @@
     "relatedWords": ["neural", "neuroscience", "neurology", "neurological"],
     "isEssential": true,
     "segmentIndex": 37,
-    "contextSentence": "Between brain cells, what we call neurons. And these trigger a series of actions and reactions."
+    "contextSentence": "Between brain cells, what we call neurons. And these trigger a series of actions and reactions.",
+    "contextSentenceKo": "뇌 세포들, 즉 우리가 뉴런이라고 부르는 것들 사이에서요. 그리고 이것들이 일련의 작용과 반응을 촉발합니다."
   },
   {
     "word": "breathtaking",
@@ -218,7 +234,8 @@
     "relatedWords": ["breathless", "breathe", "painstaking", "groundbreaking"],
     "isEssential": false,
     "segmentIndex": 10,
-    "contextSentence": "What we know about the brain is changing at a breathtaking pace."
+    "contextSentence": "What we know about the brain is changing at a breathtaking pace.",
+    "contextSentenceKo": "뇌에 대한 우리의 지식은 숨 막힐 정도로 빠른 속도로 변화하고 있습니다."
   },
   {
     "word": "societal",
@@ -231,7 +248,8 @@
     "relatedWords": ["society", "social", "socialize", "antisocial"],
     "isEssential": true,
     "segmentIndex": 102,
-    "contextSentence": "And this is an enormous societal problem."
+    "contextSentence": "And this is an enormous societal problem.",
+    "contextSentenceKo": "그리고 이것은 엄청난 사회적 문제입니다."
   },
   {
     "word": "personalized",
@@ -244,7 +262,8 @@
     "relatedWords": ["personal", "personalize", "personality", "impersonal"],
     "isEssential": true,
     "segmentIndex": 138,
-    "contextSentence": "And now this realization have forced us to consider something called personalized medicine."
+    "contextSentence": "And now this realization have forced us to consider something called personalized medicine.",
+    "contextSentenceKo": "그리고 이제 이러한 깨달음이 우리로 하여금 개인 맞춤형 의학이라는 것을 고려하도록 했습니다."
   },
   {
     "word": "chemotherapy",
@@ -257,7 +276,8 @@
     "relatedWords": ["therapy", "chemical", "chemist", "therapeutic"],
     "isEssential": false,
     "segmentIndex": 141,
-    "contextSentence": "And here it turns out that genetics are very important in matching certain types of chemotherapy."
+    "contextSentence": "And here it turns out that genetics are very important in matching certain types of chemotherapy.",
+    "contextSentenceKo": "여기서 특정 유형의 화학요법을 맞추는 데 유전학이 매우 중요하다는 것이 밝혀졌습니다."
   },
   {
     "word": "chronic",
@@ -270,7 +290,8 @@
     "relatedWords": ["chronicle", "chronology", "chronological", "synchronize"],
     "isEssential": true,
     "segmentIndex": 129,
-    "contextSentence": "You become addicted to drugs. Maybe you have chronic pain."
+    "contextSentence": "You become addicted to drugs. Maybe you have chronic pain.",
+    "contextSentenceKo": "약물에 중독됩니다. 만성 통증이 있을 수도 있고요."
   },
   {
     "word": "stimulation",
@@ -283,7 +304,8 @@
     "relatedWords": ["stimulate", "stimulus", "stimulant", "stimulating"],
     "isEssential": true,
     "segmentIndex": 110,
-    "contextSentence": "And these have included brain stimulation, exercise, and robotics."
+    "contextSentence": "And these have included brain stimulation, exercise, and robotics.",
+    "contextSentenceKo": "여기에는 뇌 자극, 운동, 그리고 로봇 공학이 포함되었습니다."
   },
   {
     "word": "spatial",
@@ -296,7 +318,8 @@
     "relatedWords": ["space", "spacious", "spatially", "geospatial"],
     "isEssential": false,
     "segmentIndex": 72,
-    "contextSentence": "They have larger brain regions devoted to spatial or mapping memories."
+    "contextSentence": "They have larger brain regions devoted to spatial or mapping memories.",
+    "contextSentenceKo": "그들은 공간 기억이나 지도 기억에 할당된 더 큰 뇌 영역을 가지고 있습니다."
   },
   {
     "word": "dose",
@@ -309,7 +332,8 @@
     "relatedWords": ["dosage", "overdose", "underdose"],
     "isEssential": true,
     "segmentIndex": 106,
-    "contextSentence": "The problem is that the dose of behavior, the dose of practice that's required to learn."
+    "contextSentence": "The problem is that the dose of behavior, the dose of practice that's required to learn.",
+    "contextSentenceKo": "문제는 학습에 필요한 행동의 양, 연습의 양입니다."
   },
   {
     "word": "enormous",
@@ -322,6 +346,7 @@
     "relatedWords": ["enormity", "enormously", "abnormal", "normal"],
     "isEssential": false,
     "segmentIndex": 102,
-    "contextSentence": "And this is an enormous societal problem."
+    "contextSentence": "And this is an enormous societal problem.",
+    "contextSentenceKo": "그리고 이것은 막대한 사회적 문제입니다."
   }
 ]

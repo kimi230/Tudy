@@ -10,7 +10,8 @@
     "relatedWords": ["powerful", "powerhouse", "empowerment"],
     "isEssential": true,
     "segmentIndex": 58,
-    "contextSentence": "Presidents George H. W. Bush and Bill Clinton decided that it was in both America and the world's interests for the United States, now the sole superpower on earth, to continue actively managing global affairs."
+    "contextSentence": "Presidents George H. W. Bush and Bill Clinton decided that it was in both America and the world's interests for the United States, now the sole superpower on earth, to continue actively managing global affairs.",
+    "contextSentenceKo": "조지 H. W. 부시와 빌 클린턴 대통령은 이제 지구상 유일한 초강대국이 된 미국이 계속 세계 문제를 적극적으로 관리하는 것이 미국과 세계 모두의 이익에 부합한다고 판단했습니다."
   },
   {
     "word": "unprecedented",
@@ -23,7 +24,8 @@
     "relatedWords": ["precedent", "preceding", "precede"],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "The U.S. has become the leader of a vast interconnected global system that has helped usher in an era of unprecedented prosperity and low levels of conflict."
+    "contextSentence": "The U.S. has become the leader of a vast interconnected global system that has helped usher in an era of unprecedented prosperity and low levels of conflict.",
+    "contextSentenceKo": "미국은 전례 없는 번영과 낮은 수준의 분쟁을 이끌어낸 거대한 글로벌 시스템의 리더가 되었습니다."
   },
   {
     "word": "expansionism",
@@ -36,7 +38,8 @@
     "relatedWords": ["expansion", "expand", "expansionist"],
     "isEssential": true,
     "segmentIndex": 10,
-    "contextSentence": "But something was happening in the late 1800s that would change the debate about American expansionism."
+    "contextSentence": "But something was happening in the late 1800s that would change the debate about American expansionism.",
+    "contextSentenceKo": "하지만 1800년대 후반에 미국의 팽창주의에 대한 논쟁을 바꿀 일이 일어나고 있었습니다."
   },
   {
     "word": "isolationism",
@@ -49,7 +52,8 @@
     "relatedWords": ["isolation", "isolate", "isolationist"],
     "isEssential": true,
     "segmentIndex": 24,
-    "contextSentence": "Yet isolationism was still a major force in the United States."
+    "contextSentence": "Yet isolationism was still a major force in the United States.",
+    "contextSentenceKo": "그러나 고립주의는 여전히 미국에서 큰 힘을 가지고 있었습니다."
   },
   {
     "word": "imperialism",
@@ -62,7 +66,8 @@
     "relatedWords": ["imperial", "empire", "imperialist"],
     "isEssential": true,
     "segmentIndex": 7,
-    "contextSentence": "That's because some Americans, including many on Capitol Hill, had a strong anti-imperialist bent."
+    "contextSentence": "That's because some Americans, including many on Capitol Hill, had a strong anti-imperialist bent.",
+    "contextSentenceKo": "그 이유는 의회를 포함한 일부 미국인들이 강한 반제국주의 성향을 가지고 있었기 때문입니다."
   },
   {
     "word": "containment",
@@ -75,7 +80,8 @@
     "relatedWords": ["contain", "container", "containable"],
     "isEssential": true,
     "segmentIndex": 48,
-    "contextSentence": "Globally, the U.S. committed to a strategy called containment, so-called because it was aimed at containing the spread of communism everywhere on the globe."
+    "contextSentence": "Globally, the U.S. committed to a strategy called containment, so-called because it was aimed at containing the spread of communism everywhere on the globe.",
+    "contextSentenceKo": "전 세계적으로 미국은 봉쇄라 불리는 전략에 전념했는데, 이는 전 세계 공산주의 확산을 억제하는 것을 목표로 했기 때문입니다."
   },
   {
     "word": "pivotal",
@@ -88,7 +94,8 @@
     "relatedWords": ["pivot", "pivoting", "pivotally"],
     "isEssential": true,
     "segmentIndex": 2,
-    "contextSentence": "To understand America's position in the world, and why it's so pivotal for world politics as we know it, you have to go back to the country's founding."
+    "contextSentence": "To understand America's position in the world, and why it's so pivotal for world politics as we know it, you have to go back to the country's founding.",
+    "contextSentenceKo": "세계에서 미국의 위치와 그것이 왜 우리가 알고 있는 세계 정치에 그토록 중추적인지 이해하려면, 미국 건국으로 되돌아가야 합니다."
   },
   {
     "word": "annex",
@@ -101,7 +108,8 @@
     "relatedWords": ["annexation", "annex (noun)", "connect"],
     "isEssential": true,
     "segmentIndex": 15,
-    "contextSentence": "Over the next two years, the U.S. would annex the Kingdom of Hawaii, Wake Island, and American Samoa."
+    "contextSentence": "Over the next two years, the U.S. would annex the Kingdom of Hawaii, Wake Island, and American Samoa.",
+    "contextSentenceKo": "이후 2년에 걸쳐 미국은 하와이 왕국, 웨이크 섬, 아메리칸 사모아를 병합했습니다."
   },
   {
     "word": "entanglement",
@@ -114,7 +122,8 @@
     "relatedWords": ["entangle", "tangle", "disentangle"],
     "isEssential": false,
     "segmentIndex": 27,
-    "contextSentence": "Ultimately, America's ever-growing entanglements abroad made it impossible for it to stay out of global affairs entirely."
+    "contextSentence": "Ultimately, America's ever-growing entanglements abroad made it impossible for it to stay out of global affairs entirely.",
+    "contextSentenceKo": "결국, 해외에서 점점 커지는 미국의 얽힘은 세계 문제에서 완전히 빠져나오는 것을 불가능하게 만들었습니다."
   },
   {
     "word": "bureaucracy",
@@ -127,7 +136,8 @@
     "relatedWords": ["bureaucrat", "bureaucratic", "democracy"],
     "isEssential": false,
     "segmentIndex": 11,
-    "contextSentence": "The bigger U.S. economy required a more centralized state and bureaucracy to manage the growing economy."
+    "contextSentence": "The bigger U.S. economy required a more centralized state and bureaucracy to manage the growing economy.",
+    "contextSentenceKo": "더 커진 미국 경제는 성장하는 경제를 관리하기 위해 더 중앙 집중화된 국가와 관료제를 필요로 했습니다."
   },
   {
     "word": "unilaterally",
@@ -140,7 +150,8 @@
     "relatedWords": ["unilateral", "bilateral", "multilateral"],
     "isEssential": false,
     "segmentIndex": 12,
-    "contextSentence": "Power became concentrated in the federal government, making it easier for expansionist presidents, like William McKinley, to unilaterally push American influence abroad."
+    "contextSentence": "Power became concentrated in the federal government, making it easier for expansionist presidents, like William McKinley, to unilaterally push American influence abroad.",
+    "contextSentenceKo": "권력이 연방 정부에 집중되면서, 윌리엄 매킨리 같은 팽창주의 대통령이 일방적으로 미국의 영향력을 해외에 확대하기가 더 쉬워졌습니다."
   },
   {
     "word": "moribund",
@@ -153,7 +164,8 @@
     "relatedWords": ["mortal", "mortality", "mortify"],
     "isEssential": false,
     "segmentIndex": 14,
-    "contextSentence": "The rising United States easily defeated the Moribund Spanish Empire, acquiring Puerto Rico, Guam, and the Philippines in the process."
+    "contextSentence": "The rising United States easily defeated the Moribund Spanish Empire, acquiring Puerto Rico, Guam, and the Philippines in the process.",
+    "contextSentenceKo": "떠오르는 미국은 쇠퇴하는 스페인 제국을 쉽게 격파하며, 그 과정에서 푸에르토리코, 괌, 필리핀을 획득했습니다."
   },
   {
     "word": "usher",
@@ -166,7 +178,8 @@
     "relatedWords": ["ushering", "ushered"],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "The U.S. has become the leader of a vast interconnected global system that has helped usher in an era of unprecedented prosperity."
+    "contextSentence": "The U.S. has become the leader of a vast interconnected global system that has helped usher in an era of unprecedented prosperity.",
+    "contextSentenceKo": "미국은 전례 없는 번영의 시대를 여는 데 기여한 거대한 글로벌 시스템의 리더가 되었습니다."
   },
   {
     "word": "bulwark",
@@ -179,7 +192,8 @@
     "relatedWords": ["bastion", "rampart", "fortress"],
     "isEssential": false,
     "segmentIndex": 51,
-    "contextSentence": "The U.S. was pulled into unlikely alliances with countries like Saudi Arabia, Israel, and South Korea, seeing each of them as bulwarks against communist influence in their region."
+    "contextSentence": "The U.S. was pulled into unlikely alliances with countries like Saudi Arabia, Israel, and South Korea, seeing each of them as bulwarks against communist influence in their region.",
+    "contextSentenceKo": "미국은 사우디아라비아, 이스라엘, 한국 같은 나라들과 의외의 동맹을 맺게 되었는데, 각각을 해당 지역의 공산주의 영향에 대한 보루로 보았기 때문입니다."
   },
   {
     "word": "divergence",
@@ -192,7 +206,8 @@
     "relatedWords": ["diverge", "divergent", "convergence"],
     "isEssential": false,
     "segmentIndex": 70,
-    "contextSentence": "This is a sharp divergence from the consensus that has dominated U.S. foreign policy since 1945."
+    "contextSentence": "This is a sharp divergence from the consensus that has dominated U.S. foreign policy since 1945.",
+    "contextSentenceKo": "이것은 1945년 이래 미국 외교 정책을 지배해 온 합의에서 크게 이탈한 것입니다."
   },
   {
     "word": "acquisition",
@@ -205,7 +220,8 @@
     "relatedWords": ["acquire", "acquisitive", "requirement"],
     "isEssential": true,
     "segmentIndex": 17,
-    "contextSentence": "This period of rapid acquisition of far-flung territories put the U.S. on the map as a truly global power."
+    "contextSentence": "This period of rapid acquisition of far-flung territories put the U.S. on the map as a truly global power.",
+    "contextSentenceKo": "먼 곳의 영토를 빠르게 획득한 이 시기는 미국을 진정한 세계 강대국으로 자리매김하게 했습니다."
   },
   {
     "word": "culminate",
@@ -218,7 +234,8 @@
     "relatedWords": ["culmination", "culminating"],
     "isEssential": true,
     "segmentIndex": 29,
-    "contextSentence": "This culminated in the Pearl Harbor attack, bringing the United States into World War II."
+    "contextSentence": "This culminated in the Pearl Harbor attack, bringing the United States into World War II.",
+    "contextSentenceKo": "이것은 진주만 공격으로 절정에 달했고, 미국을 제2차 세계대전으로 끌어들였습니다."
   },
   {
     "word": "disband",
@@ -231,7 +248,8 @@
     "relatedWords": ["band", "dismantle", "disbandment"],
     "isEssential": false,
     "segmentIndex": 50,
-    "contextSentence": "Instead of disbanding the massive military machine created for World War II, the wheels mostly kept turning."
+    "contextSentence": "Instead of disbanding the massive military machine created for World War II, the wheels mostly kept turning.",
+    "contextSentenceKo": "제2차 세계대전을 위해 만들어진 거대한 군사 기구를 해체하는 대신, 대부분의 톱니바퀴는 계속 돌아갔습니다."
   },
   {
     "word": "consensus",
@@ -244,7 +262,8 @@
     "relatedWords": ["consent", "sensation", "sense"],
     "isEssential": true,
     "segmentIndex": 70,
-    "contextSentence": "This is a sharp divergence from the consensus that has dominated U.S. foreign policy since 1945."
+    "contextSentence": "This is a sharp divergence from the consensus that has dominated U.S. foreign policy since 1945.",
+    "contextSentenceKo": "이것은 1945년 이래 미국 외교 정책을 지배해 온 합의에서 크게 이탈한 것입니다."
   },
   {
     "word": "ostensibly",
@@ -257,7 +276,8 @@
     "relatedWords": ["ostensible", "ostentatious", "ostentation"],
     "isEssential": false,
     "segmentIndex": 61,
-    "contextSentence": "Washington's support for countries like Israel and Japan stayed intact, ostensibly as a means of preventing war in their respective regions."
+    "contextSentence": "Washington's support for countries like Israel and Japan stayed intact, ostensibly as a means of preventing war in their respective regions.",
+    "contextSentenceKo": "이스라엘과 일본 같은 나라에 대한 워싱턴의 지원은 그대로 유지되었으며, 표면상으로는 각 지역에서 전쟁을 방지하기 위한 수단이었습니다."
   },
   {
     "word": "encroach",
@@ -270,7 +290,8 @@
     "relatedWords": ["encroachment", "encroaching"],
     "isEssential": false,
     "segmentIndex": 46,
-    "contextSentence": "And the shadow is encroaching upon our own liberty."
+    "contextSentence": "And the shadow is encroaching upon our own liberty.",
+    "contextSentenceKo": "그리고 그 그림자는 우리 자신의 자유를 잠식하고 있습니다."
   },
   {
     "word": "regimentation",
@@ -283,7 +304,8 @@
     "relatedWords": ["regiment", "regime", "regulate"],
     "isEssential": false,
     "segmentIndex": 45,
-    "contextSentence": "Socialism has spread the shadow of human regimentation over most of the nations of the earth."
+    "contextSentence": "Socialism has spread the shadow of human regimentation over most of the nations of the earth.",
+    "contextSentenceKo": "사회주의는 지구상 대부분의 국가에 인간 통제의 그림자를 드리웠습니다."
   },
   {
     "word": "spearhead",
@@ -296,7 +318,8 @@
     "relatedWords": ["lead", "pioneer", "champion"],
     "isEssential": true,
     "segmentIndex": 22,
-    "contextSentence": "He spearheaded America's most ambitious foreign policy initiative yet, an international organization called the League of Nations."
+    "contextSentence": "He spearheaded America's most ambitious foreign policy initiative yet, an international organization called the League of Nations.",
+    "contextSentenceKo": "그는 미국 역사상 가장 야심찬 외교 정책 구상인 국제연맹이라는 국제기구를 주도했습니다."
   },
   {
     "word": "dismantle",
@@ -309,7 +332,8 @@
     "relatedWords": ["dismantlement", "mantle", "disassemble"],
     "isEssential": true,
     "segmentIndex": 63,
-    "contextSentence": "No leading American politicians since the Cold War seriously called for dismantling it."
+    "contextSentence": "No leading American politicians since the Cold War seriously called for dismantling it.",
+    "contextSentenceKo": "냉전 이후 미국의 주요 정치인 중 누구도 진지하게 그것의 해체를 주장하지 않았습니다."
   },
   {
     "word": "wholesale",
@@ -322,6 +346,7 @@
     "relatedWords": ["wholesale (noun)", "wholesome", "retail"],
     "isEssential": false,
     "segmentIndex": 3,
-    "contextSentence": "A wave of expansionism that resulted in the wholesale slaughter of the indigenous people who populated the continent."
+    "contextSentence": "A wave of expansionism that resulted in the wholesale slaughter of the indigenous people who populated the continent.",
+    "contextSentenceKo": "대륙에 거주하던 원주민에 대한 대규모 학살을 초래한 팽창주의 물결이었습니다."
   }
 ]

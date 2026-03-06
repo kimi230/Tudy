@@ -10,7 +10,8 @@
     "relatedWords": ["meditation", "meditative", "mediator"],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "When I was first learning to meditate,"
+    "contextSentence": "When I was first learning to meditate,",
+    "contextSentenceKo": "처음 명상을 배우기 시작했을 때,"
   },
   {
     "word": "evolutionarily",
@@ -23,7 +24,8 @@
     "relatedWords": ["evolution", "evolutionary", "evolve"],
     "isEssential": false,
     "segmentIndex": 12,
-    "contextSentence": "It turns out that we're fighting one of the most evolutionarily conserved"
+    "contextSentence": "It turns out that we're fighting one of the most evolutionarily conserved",
+    "contextSentenceKo": "알고 보니 우리는 진화적으로 가장 오래 보존된 것 중 하나와 싸우고 있었습니다"
   },
   {
     "word": "conserved",
@@ -36,7 +38,8 @@
     "relatedWords": ["conservation", "conservative", "conserve"],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "It turns out that we're fighting one of the most evolutionarily conserved"
+    "contextSentence": "It turns out that we're fighting one of the most evolutionarily conserved",
+    "contextSentenceKo": "알고 보니 우리는 진화적으로 가장 오래 보존된 것 중 하나와 싸우고 있었습니다"
   },
   {
     "word": "reinforcement",
@@ -49,7 +52,8 @@
     "relatedWords": ["reinforce", "reinforced", "enforcement"],
     "isEssential": true,
     "segmentIndex": 15,
-    "contextSentence": "This reward-based learning process is called positive and negative reinforcement"
+    "contextSentence": "This reward-based learning process is called positive and negative reinforcement",
+    "contextSentenceKo": "이 보상 기반 학습 과정을 긍정적 강화와 부정적 강화라고 합니다"
   },
   {
     "word": "context-dependent",
@@ -62,7 +66,8 @@
     "relatedWords": ["context", "dependent", "dependency"],
     "isEssential": true,
     "segmentIndex": 21,
-    "contextSentence": "We lay down this context-dependent memory"
+    "contextSentence": "We lay down this context-dependent memory",
+    "contextSentenceKo": "우리는 이 맥락 의존적인 기억을 형성합니다"
   },
   {
     "word": "mindfulness",
@@ -75,7 +80,8 @@
     "relatedWords": ["mindful", "mindless", "mindset"],
     "isEssential": true,
     "segmentIndex": 52,
-    "contextSentence": "In my lab, we studied whether mindfulness training could help people quit smoking."
+    "contextSentence": "In my lab, we studied whether mindfulness training could help people quit smoking.",
+    "contextSentenceKo": "저희 연구실에서는 마음챙김 훈련이 금연에 도움이 되는지 연구했습니다."
   },
   {
     "word": "cognitively",
@@ -88,7 +94,8 @@
     "relatedWords": ["cognitive", "cognition", "recognize"],
     "isEssential": true,
     "segmentIndex": 63,
-    "contextSentence": "Now, she knew cognitively that smoking was bad for her."
+    "contextSentence": "Now, she knew cognitively that smoking was bad for her.",
+    "contextSentenceKo": "그녀는 인지적으로는 흡연이 자신에게 해롭다는 것을 알고 있었습니다."
   },
   {
     "word": "disenchanted",
@@ -101,7 +108,8 @@
     "relatedWords": ["disenchantment", "enchanted", "enchantment"],
     "isEssential": true,
     "segmentIndex": 69,
-    "contextSentence": "She started to become disenchanted with her behavior."
+    "contextSentence": "She started to become disenchanted with her behavior.",
+    "contextSentenceKo": "그녀는 자신의 행동에 대해 환멸을 느끼기 시작했습니다."
   },
   {
     "word": "prefrontal cortex",
@@ -114,7 +122,8 @@
     "relatedWords": ["cortex", "frontal", "prefrontal"],
     "isEssential": true,
     "segmentIndex": 70,
-    "contextSentence": "Now, the prefrontal cortex,"
+    "contextSentence": "Now, the prefrontal cortex,",
+    "contextSentenceKo": "자, 전전두엽 피질은,"
   },
   {
     "word": "cognitive control",
@@ -127,7 +136,8 @@
     "relatedWords": ["cognition", "self-control", "executive function"],
     "isEssential": true,
     "segmentIndex": 75,
-    "contextSentence": "We call this cognitive control. We're using cognition to control our behavior."
+    "contextSentence": "We call this cognitive control. We're using cognition to control our behavior.",
+    "contextSentenceKo": "이것을 인지적 통제라고 합니다. 인지를 사용해서 행동을 조절하는 것이죠."
   },
   {
     "word": "visceral",
@@ -140,7 +150,8 @@
     "relatedWords": ["viscerally", "viscera", "eviscerate"],
     "isEssential": true,
     "segmentIndex": 89,
-    "contextSentence": "Becoming disenchanted on a visceral level,"
+    "contextSentence": "Becoming disenchanted on a visceral level,",
+    "contextSentenceKo": "본능적인 차원에서 환멸을 느끼게 되면,"
   },
   {
     "word": "paradox",
@@ -153,7 +164,8 @@
     "relatedWords": ["paradoxical", "paradoxically", "orthodox"],
     "isEssential": true,
     "segmentIndex": 94,
-    "contextSentence": "The paradox here is that mindfulness is just about being really interested"
+    "contextSentence": "The paradox here is that mindfulness is just about being really interested",
+    "contextSentenceKo": "여기서 역설적인 것은, 마음챙김이란 그저 진정으로 관심을 갖는 것이라는 점입니다"
   },
   {
     "word": "craving",
@@ -166,7 +178,8 @@
     "relatedWords": ["crave", "craved", "yearning"],
     "isEssential": true,
     "segmentIndex": 98,
-    "contextSentence": "Rather than trying to make unpleasant cravings go away"
+    "contextSentence": "Rather than trying to make unpleasant cravings go away",
+    "contextSentenceKo": "불쾌한 갈망을 억지로 없애려 하기보다는"
   },
   {
     "word": "restlessness",
@@ -179,7 +192,8 @@
     "relatedWords": ["restless", "rest", "unrest"],
     "isEssential": false,
     "segmentIndex": 103,
-    "contextSentence": "Oh, there's tightness, there's tension, there's restlessness,"
+    "contextSentence": "Oh, there's tightness, there's tension, there's restlessness,",
+    "contextSentenceKo": "아, 조임이 있고, 긴장이 있고, 안절부절못하는 느낌이 있고,"
   },
   {
     "word": "clobbered",
@@ -192,7 +206,8 @@
     "relatedWords": ["overwhelm", "batter", "pummel"],
     "isEssential": false,
     "segmentIndex": 106,
-    "contextSentence": "rather than getting clobbered by this huge, scary craving that we choke on."
+    "contextSentence": "rather than getting clobbered by this huge, scary craving that we choke on.",
+    "contextSentenceKo": "숨이 막힐 정도로 크고 무서운 갈망에 압도당하는 대신,"
   },
   {
     "word": "reactive",
@@ -205,7 +220,8 @@
     "relatedWords": ["reaction", "react", "proactive"],
     "isEssential": true,
     "segmentIndex": 108,
-    "contextSentence": "We step out of our old fear-based reactive habit patterns,"
+    "contextSentence": "We step out of our old fear-based reactive habit patterns,",
+    "contextSentenceKo": "우리는 두려움에 기반한 오래된 반응적 습관 패턴에서 벗어나,"
   },
   {
     "word": "self-referential",
@@ -218,7 +234,8 @@
     "relatedWords": ["reference", "referential", "self-aware"],
     "isEssential": false,
     "segmentIndex": 116,
-    "contextSentence": "We found that parts of a neural network of self-referential processing"
+    "contextSentence": "We found that parts of a neural network of self-referential processing",
+    "contextSentenceKo": "자기 참조적 처리를 담당하는 신경 네트워크의 일부가"
   },
   {
     "word": "default mode network",
@@ -231,7 +248,8 @@
     "relatedWords": ["neural network", "resting state", "brain connectivity"],
     "isEssential": true,
     "segmentIndex": 117,
-    "contextSentence": "Called the default mode network were at play."
+    "contextSentence": "Called the default mode network were at play.",
+    "contextSentenceKo": "디폴트 모드 네트워크라 불리는 것이 작동하고 있었습니다."
   },
   {
     "word": "posterior cingulate cortex",
@@ -244,7 +262,8 @@
     "relatedWords": ["anterior cingulate", "cortex", "cingulate gyrus"],
     "isEssential": false,
     "segmentIndex": 118,
-    "contextSentence": "Called the posterior cingulate cortex is activated not necessarily by craving itself,"
+    "contextSentence": "Called the posterior cingulate cortex is activated not necessarily by craving itself,",
+    "contextSentenceKo": "후대상피질이라 불리는 이 영역은 갈망 자체에 의해서가 아니라,"
   },
   {
     "word": "morbidity",
@@ -257,7 +276,8 @@
     "relatedWords": ["morbid", "mortality", "comorbidity"],
     "isEssential": true,
     "segmentIndex": 44,
-    "contextSentence": "Obesity and smoking are among the leading preventable causes of morbidity and mortality in the world."
+    "contextSentence": "Obesity and smoking are among the leading preventable causes of morbidity and mortality in the world.",
+    "contextSentenceKo": "비만과 흡연은 전 세계에서 예방 가능한 주요 질병 및 사망 원인입니다."
   },
   {
     "word": "mortality",
@@ -270,7 +290,8 @@
     "relatedWords": ["mortal", "immortal", "mortuary"],
     "isEssential": true,
     "segmentIndex": 45,
-    "contextSentence": "Of morbidity and mortality in the world."
+    "contextSentence": "Of morbidity and mortality in the world.",
+    "contextSentenceKo": "전 세계 질병과 사망의."
   },
   {
     "word": "compulsively",
@@ -283,7 +304,8 @@
     "relatedWords": ["compulsive", "compulsion", "impulse"],
     "isEssential": true,
     "segmentIndex": 135,
-    "contextSentence": "Or maybe to compulsively respond to that text message when you're driving,"
+    "contextSentence": "Or maybe to compulsively respond to that text message when you're driving,",
+    "contextSentenceKo": "아니면 운전 중에 문자 메시지에 강박적으로 답하는 것일 수도 있죠,"
   },
   {
     "word": "perpetuate",
@@ -296,7 +318,8 @@
     "relatedWords": ["perpetual", "perpetually", "perpetuity"],
     "isEssential": false,
     "segmentIndex": 138,
-    "contextSentence": "It will just be another chance to perpetuate"
+    "contextSentence": "It will just be another chance to perpetuate",
+    "contextSentenceKo": "그것은 단지 영속시킬 또 다른 기회가 될 뿐입니다"
   },
   {
     "word": "exhausting",
@@ -309,6 +332,7 @@
     "relatedWords": ["exhaust", "exhaustion", "exhaustive"],
     "isEssential": false,
     "segmentIndex": 7,
-    "contextSentence": "Actually, it was exhausting."
+    "contextSentence": "Actually, it was exhausting.",
+    "contextSentenceKo": "사실, 정말 지치는 일이었습니다."
   }
 ]

@@ -18,7 +18,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 0,
-    "contextSentence": "I know you're super keen to improve your English pronunciation."
+    "contextSentence": "I know you're super keen to improve your English pronunciation.",
+    "contextSentenceKo": "여러분이 영어 발음을 향상시키고 싶어 한다는 거 알아요."
   },
   {
     "word": "alphabet",
@@ -38,7 +39,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 3,
-    "contextSentence": "The International Phonetic Alphabet."
+    "contextSentence": "The International Phonetic Alphabet.",
+    "contextSentenceKo": "국제 음성 기호입니다."
   },
   {
     "word": "phonetic",
@@ -59,7 +61,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 3,
-    "contextSentence": "The International Phonetic Alphabet."
+    "contextSentence": "The International Phonetic Alphabet.",
+    "contextSentenceKo": "국제 음성 기호입니다."
   },
   {
     "word": "vowel",
@@ -80,7 +83,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 41,
-    "contextSentence": "Let's look at vowels first."
+    "contextSentence": "Let's look at vowels first.",
+    "contextSentenceKo": "먼저 모음을 살펴봅시다."
   },
   {
     "word": "consonant",
@@ -100,7 +104,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 69,
-    "contextSentence": "Consonant sounds which means that the sound is made by air moving from the back of your mouth."
+    "contextSentence": "Consonant sounds which means that the sound is made by air moving from the back of your mouth.",
+    "contextSentenceKo": "자음은 입 뒤쪽에서 공기가 이동하면서 만들어지는 소리입니다."
   },
   {
     "word": "diphthong",
@@ -120,7 +125,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 58,
-    "contextSentence": "There's another group of vowel sounds called diphthongs."
+    "contextSentence": "There's another group of vowel sounds called diphthongs.",
+    "contextSentenceKo": "이중모음이라고 불리는 또 다른 모음 소리 그룹이 있습니다."
   },
   {
     "word": "syllable",
@@ -141,7 +147,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 61,
-    "contextSentence": "Diphthongs are sounds that change from one vowel sound to another but in the same syllable."
+    "contextSentence": "Diphthongs are sounds that change from one vowel sound to another but in the same syllable.",
+    "contextSentenceKo": "이중모음은 같은 음절 안에서 하나의 모음 소리에서 다른 모음 소리로 변하는 소리입니다."
   },
   {
     "word": "symbol",
@@ -162,7 +169,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 21,
-    "contextSentence": "In the IPA, every sound has a unique symbol."
+    "contextSentence": "In the IPA, every sound has a unique symbol.",
+    "contextSentenceKo": "IPA에서는 모든 소리에 고유한 기호가 있습니다."
   },
   {
     "word": "unique",
@@ -182,7 +190,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 21,
-    "contextSentence": "In the IPA, every sound has a unique symbol."
+    "contextSentence": "In the IPA, every sound has a unique symbol.",
+    "contextSentenceKo": "IPA에서는 모든 소리에 고유한 기호가 있습니다."
   },
   {
     "word": "represent",
@@ -202,7 +211,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 5,
-    "contextSentence": "In lots of languages, each letter represents only one sound."
+    "contextSentence": "In lots of languages, each letter represents only one sound.",
+    "contextSentenceKo": "많은 언어에서 각 글자는 하나의 소리만 나타냅니다."
   },
   {
     "word": "pronounce",
@@ -223,7 +233,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 6,
-    "contextSentence": "So it's easy to try and pronounce words."
+    "contextSentence": "So it's easy to try and pronounce words.",
+    "contextSentenceKo": "그래서 단어를 발음해 보기가 쉽습니다."
   },
   {
     "word": "improve",
@@ -243,7 +254,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 0,
-    "contextSentence": "I know you're super keen to improve your English pronunciation."
+    "contextSentence": "I know you're super keen to improve your English pronunciation.",
+    "contextSentenceKo": "여러분이 영어 발음을 향상시키고 싶어 한다는 거 알아요."
   },
   {
     "word": "native",
@@ -263,7 +275,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 2,
-    "contextSentence": "A native English speaker and a super amazing tool called the IPA."
+    "contextSentence": "A native English speaker and a super amazing tool called the IPA.",
+    "contextSentenceKo": "영어 원어민과 IPA라는 아주 훌륭한 도구가 있습니다."
   },
   {
     "word": "spelling",
@@ -284,7 +297,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 25,
-    "contextSentence": "All have the same O-U-G-H spelling."
+    "contextSentence": "All have the same O-U-G-H spelling.",
+    "contextSentenceKo": "모두 O-U-G-H라는 같은 철자를 가지고 있습니다."
   },
   {
     "word": "vocal cords",
@@ -305,7 +319,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 72,
-    "contextSentence": "The sound is made here with your vocal cords."
+    "contextSentence": "The sound is made here with your vocal cords.",
+    "contextSentenceKo": "이 소리는 여기 성대에서 만들어집니다."
   },
   {
     "word": "voiced",
@@ -326,7 +341,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 71,
-    "contextSentence": "All the rest of the consonant sounds are voiced."
+    "contextSentence": "All the rest of the consonant sounds are voiced.",
+    "contextSentenceKo": "나머지 자음 소리는 모두 유성음입니다."
   },
   {
     "word": "unvoiced",
@@ -346,7 +362,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 71,
-    "contextSentence": "There is one extra letter that is unvoiced down the bottom."
+    "contextSentence": "There is one extra letter that is unvoiced down the bottom.",
+    "contextSentenceKo": "하단에 무성음인 글자가 하나 더 있습니다."
   },
   {
     "word": "subscribe",
@@ -366,7 +383,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 79,
-    "contextSentence": "Make sure you subscribe by clicking the red button."
+    "contextSentence": "Make sure you subscribe by clicking the red button.",
+    "contextSentenceKo": "빨간 버튼을 눌러서 꼭 구독해 주세요."
   },
   {
     "word": "keen",
@@ -386,7 +404,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 0,
-    "contextSentence": "I know you're super keen to improve your English pronunciation."
+    "contextSentence": "I know you're super keen to improve your English pronunciation.",
+    "contextSentenceKo": "여러분이 영어 발음을 향상시키고 싶어 한다는 거 알아요."
   },
   {
     "word": "worksheet",
@@ -406,6 +425,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 78,
-    "contextSentence": "Download the free worksheet to help you practice the IPA sounds."
+    "contextSentence": "Download the free worksheet to help you practice the IPA sounds.",
+    "contextSentenceKo": "IPA 소리를 연습하는 데 도움이 되는 무료 학습지를 다운로드하세요."
   }
 ]

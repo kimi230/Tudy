@@ -15,14 +15,15 @@
     ],
     "isEssential": true,
     "segmentIndex": 3,
-    "contextSentence": "They would scurry around and I would hope that none of them would stay around."
+    "contextSentence": "They would scurry around and I would hope that none of them would stay around.",
+    "contextSentenceKo": "그것들이 종종걸음으로 돌아다니면 나는 아무것도 주변에 남지 않기를 바랐습니다."
   },
   {
     "word": "chores",
     "phonetic": "/tʃɔːrz/",
     "partOfSpeech": "noun",
     "definition": "Routine tasks, especially household ones",
-    "meaningKo": "집안일, 허드렟일",
+    "meaningKo": "집안일, 허드렛일",
     "etymology": "From Middle English 'chare' meaning 'a turn of work'",
     "rootBreakdown": "chare (일의 차례) → chore (일상적인 일)",
     "relatedWords": [
@@ -33,7 +34,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 6,
-    "contextSentence": "Do your chores and don't come back until they're done."
+    "contextSentence": "Do your chores and don't come back until they're done.",
+    "contextSentenceKo": "집안일 하고 다 끝날 때까지 돌아오지 마."
   },
   {
     "word": "supportive",
@@ -51,7 +53,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 7,
-    "contextSentence": "It was kind of the beginning of me realizing that I wasn't in a supportive environment."
+    "contextSentence": "It was kind of the beginning of me realizing that I wasn't in a supportive environment.",
+    "contextSentenceKo": "그때부터 제가 지지적인 환경에 있지 않다는 것을 깨닫기 시작했습니다."
   },
   {
     "word": "invariably",
@@ -69,7 +72,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 32,
-    "contextSentence": "I'd call him out to look at the task being done and invariably it was never good enough."
+    "contextSentence": "I'd call him out to look at the task being done and invariably it was never good enough.",
+    "contextSentenceKo": "아버지를 불러서 끝낸 일을 보여드리면, 어김없이 충분하지 않았습니다."
   },
   {
     "word": "double down",
@@ -87,7 +91,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 31,
-    "contextSentence": "So I doubled down on that and I worked hard."
+    "contextSentence": "So I doubled down on that and I worked hard.",
+    "contextSentenceKo": "그래서 저는 거기에 더욱 매진했고 열심히 일했습니다."
   },
   {
     "word": "solace",
@@ -105,7 +110,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 30,
-    "contextSentence": "The only solace I had was to work hard."
+    "contextSentence": "The only solace I had was to work hard.",
+    "contextSentenceKo": "제가 가진 유일한 위안은 열심히 일하는 것이었습니다."
   },
   {
     "word": "carpentry",
@@ -123,7 +129,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 40,
-    "contextSentence": "I drove a taxi, I did carpentry, I cut lawns, I washed windows."
+    "contextSentence": "I drove a taxi, I did carpentry, I cut lawns, I washed windows.",
+    "contextSentenceKo": "택시를 몰고, 목공 일을 하고, 잔디를 깎고, 유리창을 닦았습니다."
   },
   {
     "word": "evicted",
@@ -141,7 +148,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 56,
-    "contextSentence": "I got evicted from my apartment and I went back in with my mom at the age of 30."
+    "contextSentence": "I got evicted from my apartment and I went back in with my mom at the age of 30.",
+    "contextSentenceKo": "아파트에서 쫓겨나서 서른 살에 다시 어머니 집으로 들어갔습니다."
   },
   {
     "word": "mentor",
@@ -159,7 +167,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 62,
-    "contextSentence": "That's when I met my first mentor that transformed my life."
+    "contextSentence": "That's when I met my first mentor that transformed my life.",
+    "contextSentenceKo": "그때 제 인생을 변화시킨 첫 번째 멘토를 만났습니다."
   },
   {
     "word": "work ethic",
@@ -177,7 +186,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 65,
-    "contextSentence": "Because you really have a great work ethic."
+    "contextSentence": "Because you really have a great work ethic.",
+    "contextSentenceKo": "왜냐하면 당신은 정말 훌륭한 직업 윤리를 가지고 있으니까요."
   },
   {
     "word": "persona",
@@ -195,7 +205,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 97,
-    "contextSentence": "You take on those labels and you wear them like they're your persona."
+    "contextSentence": "You take on those labels and you wear them like they're your persona.",
+    "contextSentenceKo": "그런 꼬리표를 받아들이고 마치 자신의 페르소나처럼 걸치고 다니게 됩니다."
   },
   {
     "word": "psyche",
@@ -213,7 +224,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 94,
-    "contextSentence": "The most powerful force in the human psyche is how we describe ourselves to ourself."
+    "contextSentence": "The most powerful force in the human psyche is how we describe ourselves to ourself.",
+    "contextSentenceKo": "인간의 정신에서 가장 강력한 힘은 스스로를 어떻게 묘사하느냐입니다."
   },
   {
     "word": "reprogram",
@@ -231,7 +243,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 78,
-    "contextSentence": "We're gonna reprogram your brain. Your brain is like software, we're just gonna reprogram it."
+    "contextSentence": "We're gonna reprogram your brain. Your brain is like software, we're just gonna reprogram it.",
+    "contextSentenceKo": "당신의 뇌를 재프로그래밍할 겁니다. 뇌는 소프트웨어와 같아서, 그냥 다시 프로그래밍하면 됩니다."
   },
   {
     "word": "resourceful",
@@ -249,7 +262,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 93,
-    "contextSentence": "I became resourceful. I became capable of doing things I didn't know I was gonna do."
+    "contextSentence": "I became resourceful. I became capable of doing things I didn't know I was gonna do.",
+    "contextSentenceKo": "저는 수완이 좋아졌습니다. 할 수 있을 줄 몰랐던 일들을 할 수 있게 되었죠."
   },
   {
     "word": "introverted",
@@ -267,7 +281,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 96,
-    "contextSentence": "You're quiet, you're introverted, and you take on those labels."
+    "contextSentence": "You're quiet, you're introverted, and you take on those labels.",
+    "contextSentenceKo": "넌 조용하고, 내성적이야, 그리고 그런 꼬리표를 받아들이게 됩니다."
   },
   {
     "word": "ruggedly",
@@ -285,7 +300,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 77,
-    "contextSentence": "Loser out, ruggedly handsome in."
+    "contextSentence": "Loser out, ruggedly handsome in.",
+    "contextSentenceKo": "루저는 빼고, 거칠면서도 잘생긴 모습을 넣는 거죠."
   },
   {
     "word": "spontaneously",
@@ -303,7 +319,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 89,
-    "contextSentence": "Then spontaneously one morning I was in the shower and I said I'm the greatest real estate agent in my area."
+    "contextSentence": "Then spontaneously one morning I was in the shower and I said I'm the greatest real estate agent in my area.",
+    "contextSentenceKo": "그러다 어느 날 아침 샤워를 하던 중 자발적으로 '나는 이 지역 최고의 부동산 중개인이다'라고 말했습니다."
   },
   {
     "word": "foundation",
@@ -321,7 +338,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 60,
-    "contextSentence": "When you're down there and you think there's nothing left, it's the foundation to grow from."
+    "contextSentence": "When you're down there and you think there's nothing left, it's the foundation to grow from.",
+    "contextSentenceKo": "바닥까지 내려가서 아무것도 남지 않았다고 생각할 때, 그것이 바로 성장의 토대입니다."
   },
   {
     "word": "transformed",
@@ -339,7 +357,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 62,
-    "contextSentence": "That's when I met my first mentor that transformed my life."
+    "contextSentence": "That's when I met my first mentor that transformed my life.",
+    "contextSentenceKo": "그때 제 인생을 변화시킨 첫 번째 멘토를 만났습니다."
   },
   {
     "word": "redefine",
@@ -357,7 +376,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 101,
-    "contextSentence": "Today is the first day of the rest of your life and you get to redefine yourself."
+    "contextSentence": "Today is the first day of the rest of your life and you get to redefine yourself.",
+    "contextSentenceKo": "오늘은 남은 인생의 첫날이며, 당신은 자신을 재정의할 수 있습니다."
   },
   {
     "word": "shrinking",
@@ -375,7 +395,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 17,
-    "contextSentence": "He looked at me and I felt myself shrinking down."
+    "contextSentence": "He looked at me and I felt myself shrinking down.",
+    "contextSentenceKo": "그가 나를 쳐다봤고 나는 스스로 위축되는 느낌이었습니다."
   },
   {
     "word": "idol",
@@ -393,7 +414,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 73,
-    "contextSentence": "Who's an idol that you have?"
+    "contextSentence": "Who's an idol that you have?",
+    "contextSentenceKo": "당신의 우상은 누구인가요?"
   },
   {
     "word": "rock bottom",
@@ -411,7 +433,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 53,
-    "contextSentence": "I don't know if it broke my spirit or if I thought I'd hit rock bottom."
+    "contextSentence": "I don't know if it broke my spirit or if I thought I'd hit rock bottom.",
+    "contextSentenceKo": "그것이 제 정신을 무너뜨린 건지, 바닥을 쳤다고 느낀 건지 모르겠습니다."
   },
   {
     "word": "cast",
@@ -429,6 +452,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 18,
-    "contextSentence": "This shadow cast over me and he goes, do you have any idea what it takes to put food on the table?"
+    "contextSentence": "This shadow cast over me and he goes, do you have any idea what it takes to put food on the table?",
+    "contextSentenceKo": "그림자가 저를 덮쳤고 그가 말했습니다, 밥벌이가 얼마나 힘든지 알기나 하냐?"
   }
 ]

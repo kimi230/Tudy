@@ -5,7 +5,7 @@ export * from './types/chinese.ts';
 export * from './types/japanese.ts';
 
 // Lib - dataLoader
-export { getDifficultyLabel, formatDuration, formatTime, loadCategories, loadVideos, loadVideosByCategory, loadVideoMeta, loadSegments, loadVocabulary, loadGrammar, loadConnectedSpeech, loadStructure } from './lib/dataLoader.ts';
+export { getDifficultyLabel, formatDuration, formatTime, loadCategories, loadVideos, loadVideosByCategory, loadVideoMeta, loadSegments, loadVocabulary, loadGrammar, loadConnectedSpeech, loadStructure, loadAllArtifacts } from './lib/dataLoader.ts';
 
 // Lib - supabase
 export { supabase } from './lib/supabase.ts';
@@ -117,4 +117,5 @@ export { default as VocabularyPage } from './pages/Vocabulary.tsx';
 export { default as ErrorNotePage } from './pages/ErrorNote.tsx';
 export { default as ProfilePage } from './pages/Profile.tsx';
 export { default as RequestPage } from './pages/Request.tsx';
+export { default as AboutPage } from './pages/About.tsx';
 export { default as SubscribePage } from './pages/Subscribe.tsx';

@@ -10,6 +10,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈæmbʊʃ/",
     "contextSentence": "The column came under ambush and was surrounded on three sides.",
+    "contextSentenceKo": "부대는 매복 공격을 받아 세 방향에서 포위당했습니다.",
     "segmentIndex": 8
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmɛdɪvæk/",
     "contextSentence": "He and a comrade were making their way to a medevac helicopter.",
+    "contextSentenceKo": "그와 전우는 의무 후송 헬기를 향해 이동하고 있었습니다.",
     "segmentIndex": 11
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "verb/noun",
     "phonetic": "/ˈsækrɪfaɪs/",
     "contextSentence": "Who are willing to sacrifice themselves so that others may gain.",
+    "contextSentenceKo": "다른 사람들이 이익을 얻을 수 있도록 기꺼이 자신을 희생하는 사람들입니다.",
     "segmentIndex": 25
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kəˈpæsɪti/",
     "contextSentence": "Every single one of us has the capacity to do these remarkable things.",
+    "contextSentenceKo": "우리 모두에게는 이런 놀라운 일을 해낼 수 있는 역량이 있습니다.",
     "segmentIndex": 31
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/koʊˌɒpəˈreɪʃən/",
     "contextSentence": "It's this deep sense of trust and cooperation.",
+    "contextSentenceKo": "그것은 바로 깊은 신뢰와 협력의 감각입니다.",
     "segmentIndex": 38
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ɪnˈstrʌkt/",
     "contextSentence": "I can't simply instruct two people to cooperate and they will.",
+    "contextSentenceKo": "단순히 두 사람에게 협력하라고 지시한다고 해서 협력이 되는 것은 아닙니다.",
     "segmentIndex": 43
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌpeɪliəˈlɪθɪk/",
     "contextSentence": "If you go back 50,000 years to the Paleolithic era.",
+    "contextSentenceKo": "5만 년 전 구석기 시대로 거슬러 올라가 보면요.",
     "segmentIndex": 45
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪnˈhɪərənt/",
     "contextSentence": "There are inherent benefits to this.",
+    "contextSentenceKo": "여기에는 본질적인 이점이 있습니다.",
     "segmentIndex": 56
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌɒbsəˈliːt/",
     "contextSentence": "A new technology that renders your business model obsolete overnight.",
+    "contextSentenceKo": "하룻밤 사이에 당신의 사업 모델을 구식으로 만들어 버리는 새로운 기술입니다.",
     "segmentIndex": 64
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈtændʒɪbəl/",
     "contextSentence": "To sacrifice their comforts and sacrifice the tangible results.",
+    "contextSentenceKo": "자신의 안락함을 희생하고 실질적인 성과를 포기하는 것입니다.",
     "segmentIndex": 73
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈvɪsərəl/",
     "contextSentence": "This is the reason so many people have such a visceral hatred.",
+    "contextSentenceKo": "이것이 바로 그토록 많은 사람들이 본능적인 증오심을 갖는 이유입니다.",
     "segmentIndex": 118
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌdɪsprəˈpɔːrʃənɪt/",
     "contextSentence": "With their disproportionate salaries and bonus structures.",
+    "contextSentenceKo": "그들의 불균형적인 급여와 보너스 구조와 함께 말입니다.",
     "segmentIndex": 120
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˈvaɪəleɪtɪd/",
     "contextSentence": "They have violated the very definition of leadership.",
+    "contextSentenceKo": "그들은 리더십의 본질적 정의 자체를 위반한 것입니다.",
     "segmentIndex": 121
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/rɪˈsɛʃən/",
     "contextSentence": "He was hit very hard by the recession.",
+    "contextSentenceKo": "그는 경기 침체에 큰 타격을 받았습니다.",
     "segmentIndex": 134
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈfɜːrloʊ/",
     "contextSentence": "And so they came up with a furlough program.",
+    "contextSentenceKo": "그래서 그들은 순환 휴직 프로그램을 고안해 냈습니다.",
     "segmentIndex": 143
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/məˈræl/",
     "contextSentence": "And morale went up.",
+    "contextSentenceKo": "그리고 사기가 올라갔습니다.",
     "segmentIndex": 149
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/spɒnˈteɪniəsli/",
     "contextSentence": "And quite spontaneously, nobody expected.",
+    "contextSentenceKo": "그리고 아무도 예상하지 못한 채, 아주 자발적으로 일어났습니다.",
     "segmentIndex": 153
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/əˈθɒrɪti/",
     "contextSentence": "They are authorities. And we do what they say because they have authority over us.",
+    "contextSentenceKo": "그들은 권위자입니다. 그리고 우리는 그들이 우리에 대한 권한을 가지고 있기 때문에 그들의 말을 따릅니다.",
     "segmentIndex": 159
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˈtaɪərləsli/",
     "contextSentence": "And work tirelessly to face the dangers outside.",
+    "contextSentenceKo": "그리고 바깥의 위험에 맞서기 위해 지치지 않고 일합니다.",
     "segmentIndex": 97
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈkɒmreɪd/",
     "contextSentence": "It shows Captain Swenson and his comrade bringing this wounded soldier.",
+    "contextSentenceKo": "스웬슨 대위와 그의 전우가 부상당한 병사를 데려오는 장면입니다.",
     "segmentIndex": 15
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "Conditional Past (If + had + past participle)",
+    "pattern": "Conditional Past",
     "explanation": "Used to describe hypothetical situations in the past that did not actually happen. The 'if' clause uses past perfect, and the main clause uses 'would have + past participle'.",
     "explanationKo": "과거에 실제로 일어나지 않은 가정적 상황을 설명할 때 사용합니다. 'if' 절은 과거완료형을 사용하고, 주절은 'would have + 과거분사'를 사용합니다. 제3조건문이라고도 합니다.",
     "examples": [
@@ -30,7 +30,7 @@
     "segmentIndex": 82
   },
   {
-    "pattern": "Parallel Structure (not A but B / A, not B)",
+    "pattern": "Parallel Structure",
     "explanation": "Using the same grammatical form for elements that are joined by conjunctions or compared. This creates rhythm and clarity in speech.",
     "explanationKo": "접속사로 연결되거나 비교되는 요소에 같은 문법 형태를 사용하는 것입니다. 연설에 리듬감과 명확성을 부여합니다.",
     "examples": [
@@ -62,7 +62,7 @@
     "segmentIndex": 96
   },
   {
-    "pattern": "Relative Clause with 'who/that/which'",
+    "pattern": "who/that/which",
     "explanation": "A clause that provides additional information about a noun, using relative pronouns like who, that, or which. Essential for adding detail and complexity to sentences.",
     "explanationKo": "who, that, which 같은 관계대명사를 사용하여 명사에 대한 추가 정보를 제공하는 절입니다. 문장에 세부 사항과 복잡성을 더하는 데 필수적입니다.",
     "examples": [
@@ -78,7 +78,7 @@
     "segmentIndex": 49
   },
   {
-    "pattern": "Phrasal Verbs (drop out, drop in, fall away, dawn on)",
+    "pattern": "Phrasal Verbs",
     "explanation": "Multi-word verbs consisting of a verb plus a preposition or adverb that creates a meaning different from the original verb. Very common in spoken English.",
     "explanationKo": "동사에 전치사나 부사가 결합되어 원래 동사와 다른 의미를 만드는 복합 동사입니다. 구어 영어에서 매우 일반적으로 사용됩니다.",
     "examples": [
@@ -128,7 +128,7 @@
     "segmentIndex": 19
   },
   {
-    "pattern": "Correlative Conjunctions (as...as, not only...but)",
+    "pattern": "Correlative Conjunctions",
     "explanation": "Pairs of conjunctions that work together to join equal grammatical elements. They create balanced, emphatic statements.",
     "explanationKo": "같은 문법 요소를 연결하기 위해 함께 사용되는 접속사 쌍입니다. 균형 잡히고 강조적인 문장을 만듭니다.",
     "examples": [
@@ -142,7 +142,7 @@
     "segmentIndex": 71
   },
   {
-    "pattern": "Infinitive of Purpose (to + verb)",
+    "pattern": "Infinitive of Purpose",
     "explanation": "Using 'to + base verb' to express the purpose or reason for an action. A fundamental structure for explaining motivations.",
     "explanationKo": "행동의 목적이나 이유를 표현하기 위해 'to + 동사 원형'을 사용합니다. 동기를 설명하기 위한 기본적인 구조입니다.",
     "examples": [

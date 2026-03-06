@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "Relative Clause with 'whose'",
+    "pattern": "whose + 명사 (소유격 관계대명사)",
     "explanation": "Used to show possession in a relative clause, connecting a noun to additional information about something belonging to it.",
     "explanationKo": "'whose'는 관계절에서 소유를 나타내며, 명사와 그에 속하는 것에 대한 추가 정보를 연결합니다. '~의'라는 의미를 가집니다.",
     "examples": [
@@ -14,7 +14,7 @@
     "segmentIndex": 0
   },
   {
-    "pattern": "Present Perfect Progressive (have/has been + -ing)",
+    "pattern": "Present Perfect Progressive",
     "explanation": "Expresses an action that started in the past and continues to the present, emphasizing the duration or ongoing nature of the action.",
     "explanationKo": "과거에 시작되어 현재까지 계속되는 동작을 표현하며, 동작의 지속 기간이나 진행 중인 성격을 강조합니다.",
     "examples": [
@@ -28,7 +28,7 @@
     "segmentIndex": 5
   },
   {
-    "pattern": "Conditional with 'if' (Second Conditional)",
+    "pattern": "If + 과거시제, would + 동사 (2차 조건문)",
     "explanation": "Used to talk about hypothetical situations and their consequences. Structure: If + past simple, would + base verb.",
     "explanationKo": "가정적인 상황과 그 결과에 대해 말할 때 사용합니다. 구조: If + 과거 단순, would + 동사 원형.",
     "examples": [
@@ -42,7 +42,7 @@
     "segmentIndex": 115
   },
   {
-    "pattern": "Modal Verb 'must' for Strong Deduction",
+    "pattern": "must + 동사원형 (강한 의무)",
     "explanation": "Using 'must' to express a strong belief or logical conclusion about something based on evidence.",
     "explanationKo": "'must'를 사용하여 증거에 기반한 강한 믿음이나 논리적 결론을 표현합니다.",
     "examples": [
@@ -56,7 +56,7 @@
     "segmentIndex": 3
   },
   {
-    "pattern": "Past Perfect (had + past participle)",
+    "pattern": "Past Perfect",
     "explanation": "Used to show that one action was completed before another action in the past, establishing a clear sequence of events.",
     "explanationKo": "과거의 다른 동작 이전에 하나의 동작이 완료되었음을 보여주기 위해 사용되며, 명확한 사건 순서를 설정합니다.",
     "examples": [
@@ -72,7 +72,7 @@
     "segmentIndex": 89
   },
   {
-    "pattern": "Comparative Structures (more... than / less... than)",
+    "pattern": "Comparative Structures",
     "explanation": "Used to compare two things, showing that one has more or less of a quality than the other.",
     "explanationKo": "두 가지를 비교하는 데 사용되며, 하나가 다른 것보다 어떤 특성이 더 많거나 적음을 보여줍니다.",
     "examples": [
@@ -86,7 +86,7 @@
     "segmentIndex": 166
   },
   {
-    "pattern": "'No matter' + WH-word (Concessive Clause)",
+    "pattern": "No matter",
     "explanation": "Used to express that something is true regardless of the condition. Equivalent to 'it doesn't matter what/where/how...'",
     "explanationKo": "조건에 상관없이 어떤 것이 사실임을 표현할 때 사용합니다. '무엇이든/어디든/어떻게든 상관없이'와 같은 의미입니다.",
     "examples": [
@@ -116,7 +116,7 @@
     "segmentIndex": 124
   },
   {
-    "pattern": "Reported Speech (said that...)",
+    "pattern": "Reported Speech",
     "explanation": "Reporting what someone else said using 'said/told/explained + that clause', often with a shift in tense.",
     "explanationKo": "'said/told/explained + that절'을 사용하여 다른 사람이 말한 것을 전달하며, 종종 시제가 바뀝니다.",
     "examples": [
@@ -132,7 +132,7 @@
     "segmentIndex": 62
   },
   {
-    "pattern": "Correlative Conjunctions (not just... but also)",
+    "pattern": "Correlative Conjunctions",
     "explanation": "Paired conjunctions used to join grammatically equal elements and add emphasis to the relationship between them.",
     "explanationKo": "문법적으로 동등한 요소를 연결하고 그 관계를 강조하기 위해 사용되는 짝을 이루는 접속사입니다.",
     "examples": [

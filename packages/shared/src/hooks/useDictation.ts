@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback, useMemo, useContext, useRef } from 'react';
+import { useState, useEffect, useCallback, useMemo, useContext } from 'react';
 import { syncDictationToCloud, pullDictationFromCloud, deleteDictationFromCloud } from '../lib/supabaseSync';
 import { awardXP } from '../lib/xpService';
-import { useAuth } from './useAuth';
+import { useUserIdRef } from './useUserIdRef';
 import { XPToastContext } from '../contexts/XPToastContext';
 import { XP_RULES } from './useRewards';
 import type { DictationAttempt, DictationWordResult } from '../types';
@@ -14,10 +14,7 @@ export interface SegmentStat {
 export function useDictation(videoId: string) {
   const [attempts, setAttempts] = useState<DictationAttempt[]>([]);
   const [loading, setLoading] = useState(true);
-  const auth = useAuth();
-  const userId = auth.user?.id;
-  const userIdRef = useRef(userId);
-  userIdRef.current = userId;
+  const { auth, userId, userIdRef } = useUserIdRef();
   const xpToast = useContext(XPToastContext);
 
   const reload = useCallback(async () => {
@@ -60,11 +57,11 @@ export function useDictation(videoId: string) {
 
       // Award XP
       try {
-        await awardXP(uid, 'dictation_attempt', XP_RULES.dictation_attempt, { videoId, segmentIndex: params.segmentIndex });
-        xpToast?.showXPToast(XP_RULES.dictation_attempt, '딕테이션 시도');
+        const attemptAwarded = await awardXP(uid, 'dictation_attempt', XP_RULES.dictation_attempt, { videoId, segmentIndex: params.segmentIndex });
+        if (attemptAwarded) xpToast?.showXPToast(attemptAwarded, '딕테이션 시도');
         if (params.score === 100) {
-          await awardXP(uid, 'dictation_perfect', XP_RULES.dictation_perfect, { videoId, segmentIndex: params.segmentIndex });
-          xpToast?.showXPToast(XP_RULES.dictation_perfect, '딕테이션 만점 보너스!');
+          const perfectAwarded = await awardXP(uid, 'dictation_perfect', XP_RULES.dictation_perfect, { videoId, segmentIndex: params.segmentIndex });
+          if (perfectAwarded) xpToast?.showXPToast(perfectAwarded, '딕테이션 만점 보너스!');
         }
         auth.refreshProfile();
       } catch { /* offline */ }

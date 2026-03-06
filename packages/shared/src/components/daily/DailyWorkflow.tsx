@@ -2,7 +2,7 @@ import { useEffect, useRef, useCallback, useContext, useMemo, useState } from 'r
 import { Link, useNavigate } from 'react-router-dom';
 import { loadSegments, loadVideoMeta, loadVocabulary } from '../../lib/dataLoader';
 import { useDictation } from '../../hooks/useDictation';
-import { useAuth } from '../../hooks/useAuth';
+import { useUserIdRef } from '../../hooks/useUserIdRef';
 import { calcDailySessionXP, calcVocabQuizXP } from '../../hooks/useRewards';
 import { awardXP } from '../../lib/xpService';
 import { XPToastContext } from '../../contexts/XPToastContext';
@@ -34,10 +34,8 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   const [quizResult, setQuizResult] = useState<QuizResult | null>(null);
   const playerRef = useRef<YouTubePlayerHandle>(null);
   const { loading: dictLoading, addAttempt, segmentStats } = useDictation(progress.videoId);
-  const auth = useAuth();
+  const { auth, userIdRef } = useUserIdRef();
   const xpToast = useContext(XPToastContext);
-  const userIdRef = useRef(auth.user?.id);
-  userIdRef.current = auth.user?.id;
 
   // Load segments, meta, and vocabulary
   useEffect(() => {
@@ -70,16 +68,17 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   }, [sessionSegments, segmentStats]);
 
   // Compute initial index for DictationPlayer (skip already attempted segments)
-  // Only set after data is loaded; ref ensures it's calculated once
   const initialIndexRef = useRef<number | null>(null);
-  if (initialIndexRef.current === null && !dictLoading) {
-    let idx = 0;
-    for (const seg of sessionSegments) {
-      if (segmentStats.has(seg.index)) idx++;
-      else break;
+  useEffect(() => {
+    if (initialIndexRef.current === null && !dictLoading && sessionSegments.length > 0) {
+      let idx = 0;
+      for (const seg of sessionSegments) {
+        if (segmentStats.has(seg.index)) idx++;
+        else break;
+      }
+      initialIndexRef.current = idx;
     }
-    initialIndexRef.current = idx;
-  }
+  }, [dictLoading, sessionSegments, segmentStats]);
 
   // Calculate session average score
   const sessionAvgScore = useMemo(() => {
@@ -120,8 +119,8 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
       const quizXP = calcVocabQuizXP(result.score);
       awardXP(uid, 'vocab_quiz_complete', quizXP, {
         videoId: progress.videoId, score: result.score, correct: result.correctCount, total: result.totalQuestions,
-      }).then(() => {
-        xpToast?.showXPToast(quizXP, `어휘 퀴즈 (${result.score}%)`);
+      }).then((awarded) => {
+        if (awarded) xpToast?.showXPToast(awarded, `어휘 퀴즈 (${result.score}%)`);
         auth.refreshProfile();
       }).catch(() => { /* offline */ });
     }
@@ -139,10 +138,10 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
     // Award daily session complete XP
     if (uid) {
       try {
-        await awardXP(uid, 'daily_session_complete', xp, {
+        const awarded = await awardXP(uid, 'daily_session_complete', xp, {
           videoId: progress.videoId, segmentsCompleted: sessionSegments.length, avgScore: sessionAvgScore,
         });
-        xpToast?.showXPToast(xp, `오늘의 학습 완료 (${sessionAvgScore}%)`);
+        if (awarded) xpToast?.showXPToast(awarded, `오늘의 학습 완료 (${sessionAvgScore}%)`);
         auth.refreshProfile();
       } catch { /* offline */ }
     }

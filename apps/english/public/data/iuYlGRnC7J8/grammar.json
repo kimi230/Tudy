@@ -28,7 +28,7 @@
     "segmentIndex": 5
   },
   {
-    "pattern": "What + clause (nominal relative clause)",
+    "pattern": "What + clause",
     "explanation": "A 'what' clause used as the subject or object of a sentence, meaning 'the thing that.' It allows the speaker to package an entire idea into a noun phrase.",
     "explanationKo": "'What + 절' 구조는 '~하는 것'이라는 의미로, 문장의 주어나 목적어 역할을 해. 전체 아이디어를 하나의 명사구로 묶을 수 있어서 복잡한 생각을 간결하게 표현할 수 있어.",
     "examples": [
@@ -54,7 +54,7 @@
     "segmentIndex": 6
   },
   {
-    "pattern": "Enough + that clause (result clause)",
+    "pattern": "Enough + that clause",
     "explanation": "Used to indicate a sufficient degree or quantity that leads to a specific result. 'Enough that' connects the condition to its consequence.",
     "explanationKo": "'~할 만큼 충분히'라는 뜻으로, 특정 결과로 이어지는 충분한 정도를 나타내. 'enough that'은 조건과 그 결과를 연결해 주는 표현이야.",
     "examples": [
@@ -66,7 +66,7 @@
     "segmentIndex": 30
   },
   {
-    "pattern": "While + progressive (simultaneous contrast)",
+    "pattern": "While + progressive",
     "explanation": "Used to set up a temporal context that contrasts with another action happening at the same time. Emphasizes what is occurring simultaneously, often with an ironic or critical tone.",
     "explanationKo": "'~하는 동안'이라는 시간 표현으로, 동시에 일어나는 다른 행동과 대조할 때 사용해. 종종 아이러니하거나 비판적인 뉘앙스를 담아서 '이쪽에서는 이러는데 저쪽에서는 저러고 있었다'는 느낌을 줘.",
     "examples": [
@@ -78,7 +78,7 @@
     "segmentIndex": 40
   },
   {
-    "pattern": "What would have to be true (hypothetical analysis)",
+    "pattern": "What would have to be true",
     "explanation": "A powerful analytical question structure used in strategic thinking. It asks what conditions must exist for something to work, using the conditional 'would have to be' to explore hypothetical requirements.",
     "explanationKo": "'이것이 작동하려면 무엇이 사실이어야 할까'라는 전략적 분석 질문 구조야. 조건법 'would have to be'를 사용해서 가설적인 필요 조건을 탐색해. 비즈니스 분석에서 자주 쓰이는 표현이야.",
     "examples": [
@@ -90,7 +90,7 @@
     "segmentIndex": 72
   },
   {
-    "pattern": "It's great if you can + verb (conditional recommendation)",
+    "pattern": "It's great if you can + verb",
     "explanation": "A softened recommendation structure that presents an ideal scenario without being overly directive. It uses 'if' to frame the advice as achievable rather than mandatory.",
     "explanationKo": "'~할 수 있으면 좋아'라는 부드러운 권유 표현이야. 'if'를 사용해서 이상적인 시나리오를 제시하지만 강제하지 않아. 조언할 때 부담을 주지 않으면서 방향을 제시하는 데 유용해.",
     "examples": [
@@ -102,7 +102,7 @@
     "segmentIndex": 77
   },
   {
-    "pattern": "If you do X, it gives you + result (conditional cause-effect)",
+    "pattern": "If you do X, it gives you + result",
     "explanation": "A conditional structure that presents a clear cause-and-effect relationship. Used to persuade the listener by showing the direct benefit of taking an action.",
     "explanationKo": "'X를 하면, ~를 얻을 수 있다'는 조건-결과 구조야. 행동의 직접적인 이점을 보여줘서 상대를 설득할 때 사용해. 마지막에 핵심 메시지를 강조하는 데 효과적이야.",
     "examples": [

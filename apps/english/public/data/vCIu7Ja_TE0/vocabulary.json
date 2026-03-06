@@ -14,7 +14,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 2,
-    "contextSentence": "There's a great story of two lumberjacks."
+    "contextSentence": "There's a great story of two lumberjacks.",
+    "contextSentenceKo": "두 명의 벌목꾼에 대한 멋진 이야기가 있습니다."
   },
   {
     "word": "sharpen",
@@ -31,7 +32,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 11,
-    "contextSentence": "Oh, go home and sharpen my axe."
+    "contextSentence": "Oh, go home and sharpen my axe.",
+    "contextSentenceKo": "아, 집에 가서 도끼를 갈아야겠어."
   },
   {
     "word": "infinite",
@@ -49,7 +51,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "If you take an infinite mindset."
+    "contextSentence": "If you take an infinite mindset.",
+    "contextSentenceKo": "무한한 사고방식을 취한다면."
   },
   {
     "word": "mindset",
@@ -67,7 +70,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "If you take an infinite mindset."
+    "contextSentence": "If you take an infinite mindset.",
+    "contextSentenceKo": "무한한 사고방식을 취한다면."
   },
   {
     "word": "spark",
@@ -85,7 +89,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 16,
-    "contextSentence": "As you find your spark and bring your spark to life."
+    "contextSentence": "As you find your spark and bring your spark to life.",
+    "contextSentenceKo": "여러분의 열정을 찾고 그 열정에 생명을 불어넣으세요."
   },
   {
     "word": "elite",
@@ -103,7 +108,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 45,
-    "contextSentence": "The United States Navy SEALs are perhaps the most elite warriors in the world."
+    "contextSentence": "The United States Navy SEALs are perhaps the most elite warriors in the world.",
+    "contextSentenceKo": "미국 해군 특수부대 네이비 실은 아마도 세계에서 가장 정예 전사들일 것입니다."
   },
   {
     "word": "bulging",
@@ -120,7 +126,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 52,
-    "contextSentence": "The guys that show up with huge, bulging muscles covered in tattoos."
+    "contextSentence": "The guys that show up with huge, bulging muscles covered in tattoos.",
+    "contextSentenceKo": "문신으로 뒤덮인 거대하고 불룩한 근육을 가진 사람들이 나타납니다."
   },
   {
     "word": "preening",
@@ -138,7 +145,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 55,
-    "contextSentence": "The preening leaders who like to delegate all their responsibility."
+    "contextSentence": "The preening leaders who like to delegate all their responsibility.",
+    "contextSentenceKo": "모든 책임을 위임하려는 허세 부리는 리더들."
   },
   {
     "word": "delegate",
@@ -156,7 +164,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 55,
-    "contextSentence": "The preening leaders who like to delegate all their responsibility."
+    "contextSentence": "The preening leaders who like to delegate all their responsibility.",
+    "contextSentenceKo": "모든 책임을 위임하려는 허세 부리는 리더들."
   },
   {
     "word": "scrawny",
@@ -174,7 +183,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 60,
-    "contextSentence": "Some of the guys that make it through are skinny and scrawny."
+    "contextSentence": "Some of the guys that make it through are skinny and scrawny.",
+    "contextSentenceKo": "통과하는 사람들 중에는 마르고 빼빼한 사람도 있습니다."
   },
   {
     "word": "commend",
@@ -192,7 +202,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 74,
-    "contextSentence": "If you find your spark, I commend you."
+    "contextSentence": "If you find your spark, I commend you.",
+    "contextSentenceKo": "여러분의 열정을 찾았다면, 대단합니다."
   },
   {
     "word": "universally",
@@ -209,7 +220,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 88,
-    "contextSentence": "He is universally regarded as a great leader."
+    "contextSentence": "He is universally regarded as a great leader.",
+    "contextSentenceKo": "그는 보편적으로 위대한 리더로 여겨집니다."
   },
   {
     "word": "render",
@@ -227,7 +239,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 106,
-    "contextSentence": "You get the benefit of hearing what everybody else has to think before you render your opinion."
+    "contextSentence": "You get the benefit of hearing what everybody else has to think before you render your opinion.",
+    "contextSentenceKo": "자신의 의견을 내놓기 전에 다른 모든 사람의 생각을 들을 수 있는 이점이 있습니다."
   },
   {
     "word": "empirical",
@@ -244,7 +257,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 122,
-    "contextSentence": "This was the time of empirical data and science."
+    "contextSentence": "This was the time of empirical data and science.",
+    "contextSentenceKo": "이것은 실증적 데이터와 과학의 시대였습니다."
   },
   {
     "word": "autopsy",
@@ -261,7 +275,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 127,
-    "contextSentence": "In the morning they would conduct autopsies."
+    "contextSentence": "In the morning they would conduct autopsies.",
+    "contextSentenceKo": "아침에 그들은 부검을 실시했습니다."
   },
   {
     "word": "sterilize",
@@ -279,7 +294,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 132,
-    "contextSentence": "When they started sterilizing their instruments and washing their hands."
+    "contextSentence": "When they started sterilizing their instruments and washing their hands.",
+    "contextSentenceKo": "그들이 기구를 소독하고 손을 씻기 시작했을 때."
   },
   {
     "word": "accountability",
@@ -296,7 +312,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 134,
-    "contextSentence": "Take accountability for your actions."
+    "contextSentence": "Take accountability for your actions.",
+    "contextSentenceKo": "자신의 행동에 책임을 지세요."
   },
   {
     "word": "undersecretary",
@@ -313,7 +330,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 138,
-    "contextSentence": "There was a former undersecretary of defense."
+    "contextSentence": "There was a former undersecretary of defense.",
+    "contextSentenceKo": "전직 국방부 차관이 한 명 있었습니다."
   },
   {
     "word": "ceramic",
@@ -330,7 +348,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 147,
-    "contextSentence": "Handed me a cup of coffee in a beautiful ceramic cup."
+    "contextSentence": "Handed me a cup of coffee in a beautiful ceramic cup.",
+    "contextSentenceKo": "아름다운 도자기 컵에 커피를 담아 건네주었습니다."
   },
   {
     "word": "styrofoam",
@@ -347,7 +366,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 139,
-    "contextSentence": "He was standing on the stage with his cup of coffee and a styrofoam cup."
+    "contextSentence": "He was standing on the stage with his cup of coffee and a styrofoam cup.",
+    "contextSentenceKo": "그는 커피 한 잔과 스티로폼 컵을 들고 무대 위에 서 있었습니다."
   },
   {
     "word": "humility",
@@ -365,7 +385,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 163,
-    "contextSentence": "Remember that lesson of humility and gratitude."
+    "contextSentence": "Remember that lesson of humility and gratitude.",
+    "contextSentenceKo": "겸손과 감사의 교훈을 기억하세요."
   },
   {
     "word": "gratitude",
@@ -383,7 +404,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 163,
-    "contextSentence": "Remember that lesson of humility and gratitude."
+    "contextSentence": "Remember that lesson of humility and gratitude.",
+    "contextSentenceKo": "겸손과 감사의 교훈을 기억하세요."
   },
   {
     "word": "empathy",
@@ -401,7 +423,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 171,
-    "contextSentence": "This is what empathy means."
+    "contextSentence": "This is what empathy means.",
+    "contextSentenceKo": "이것이 공감의 의미입니다."
   },
   {
     "word": "dopamine",
@@ -418,7 +441,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 200,
-    "contextSentence": "Engagement with social media and our cell phones releases a chemical called dopamine."
+    "contextSentence": "Engagement with social media and our cell phones releases a chemical called dopamine.",
+    "contextSentenceKo": "소셜 미디어와 휴대폰 사용은 도파민이라는 화학물질을 분비시킵니다."
   },
   {
     "word": "unfettered",
@@ -436,7 +460,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 209,
-    "contextSentence": "Because we're allowing unfettered access to these dopamine producing devices."
+    "contextSentence": "Because we're allowing unfettered access to these dopamine producing devices.",
+    "contextSentenceKo": "도파민을 생성하는 이러한 기기들에 대한 무제한 접근을 허용하고 있기 때문입니다."
   },
   {
     "word": "superficial",
@@ -454,7 +479,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 213,
-    "contextSentence": "They will admit that many of their friendships are superficial."
+    "contextSentence": "They will admit that many of their friendships are superficial.",
+    "contextSentenceKo": "그들은 자신의 우정 중 많은 것이 피상적이라고 인정할 것입니다."
   },
   {
     "word": "constituency",
@@ -471,6 +497,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 235,
-    "contextSentence": "The priorities of some disinterested external constituency."
+    "contextSentence": "The priorities of some disinterested external constituency.",
+    "contextSentenceKo": "이해관계가 없는 외부 집단의 우선순위."
   }
 ]

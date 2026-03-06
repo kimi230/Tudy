@@ -10,7 +10,8 @@
     "relatedWords": ["dialectal", "dialectic"],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "But what do the dialects spoken in dozens of countries around the world have in common?"
+    "contextSentence": "But what do the dialects spoken in dozens of countries around the world have in common?",
+    "contextSentenceKo": "하지만 전 세계 수십 개국에서 사용되는 방언들의 공통점은 무엇일까요?"
   },
   {
     "word": "evolved",
@@ -23,7 +24,8 @@
     "relatedWords": ["evolution", "evolving", "revolve"],
     "isEssential": true,
     "segmentIndex": 5,
-    "contextSentence": "English has evolved through generations of speakers."
+    "contextSentence": "English has evolved through generations of speakers.",
+    "contextSentenceKo": "영어는 여러 세대의 화자들을 거치며 진화해 왔습니다."
   },
   {
     "word": "trace",
@@ -36,7 +38,8 @@
     "relatedWords": ["traceable", "retracing", "tracing"],
     "isEssential": true,
     "segmentIndex": 7,
-    "contextSentence": "We can trace the language from the present day back to its ancient roots."
+    "contextSentence": "We can trace the language from the present day back to its ancient roots.",
+    "contextSentenceKo": "현재부터 고대 뿌리까지 그 언어의 역사를 추적할 수 있습니다."
   },
   {
     "word": "invasion",
@@ -49,7 +52,8 @@
     "relatedWords": ["invade", "invader", "invasive"],
     "isEssential": true,
     "segmentIndex": 11,
-    "contextSentence": "They started coming into the language with the Norman invasion of England in 1066."
+    "contextSentence": "They started coming into the language with the Norman invasion of England in 1066.",
+    "contextSentenceKo": "1066년 노르만의 잉글랜드 침공과 함께 그 단어들이 영어에 유입되기 시작했습니다."
   },
   {
     "word": "conquered",
@@ -62,7 +66,8 @@
     "relatedWords": ["conquer", "conquest", "conqueror"],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "When the French-speaking Normans conquered England."
+    "contextSentence": "When the French-speaking Normans conquered England.",
+    "contextSentenceKo": "프랑스어를 사용하는 노르만족이 잉글랜드를 정복했을 때."
   },
   {
     "word": "massive",
@@ -75,7 +80,8 @@
     "relatedWords": ["mass", "massively", "massiveness"],
     "isEssential": false,
     "segmentIndex": 14,
-    "contextSentence": "Adding a massive amount of French and Latin vocabulary."
+    "contextSentence": "Adding a massive amount of French and Latin vocabulary.",
+    "contextSentenceKo": "막대한 양의 프랑스어와 라틴어 어휘를 추가하면서."
   },
   {
     "word": "vocabulary",
@@ -88,7 +94,8 @@
     "relatedWords": ["vocal", "vocalize", "advocate"],
     "isEssential": true,
     "segmentIndex": 14,
-    "contextSentence": "Adding a massive amount of French and Latin vocabulary."
+    "contextSentence": "Adding a massive amount of French and Latin vocabulary.",
+    "contextSentenceKo": "막대한 양의 프랑스어와 라틴어 어휘를 추가하면서."
   },
   {
     "word": "comparative",
@@ -101,7 +108,8 @@
     "relatedWords": ["compare", "comparison", "comparable"],
     "isEssential": true,
     "segmentIndex": 26,
-    "contextSentence": "But comparative linguistics can help us by focusing on grammatical structure."
+    "contextSentence": "But comparative linguistics can help us by focusing on grammatical structure.",
+    "contextSentenceKo": "하지만 비교 언어학이 문법 구조에 초점을 맞춰 우리를 도울 수 있습니다."
   },
   {
     "word": "linguistics",
@@ -114,7 +122,8 @@
     "relatedWords": ["linguist", "linguistic", "bilingual"],
     "isEssential": true,
     "segmentIndex": 26,
-    "contextSentence": "But comparative linguistics can help us by focusing on grammatical structure."
+    "contextSentence": "But comparative linguistics can help us by focusing on grammatical structure.",
+    "contextSentenceKo": "하지만 비교 언어학이 문법 구조에 초점을 맞춰 우리를 도울 수 있습니다."
   },
   {
     "word": "grammatical",
@@ -127,7 +136,8 @@
     "relatedWords": ["grammar", "grammarian", "grammatically"],
     "isEssential": true,
     "segmentIndex": 26,
-    "contextSentence": "Comparative linguistics can help us by focusing on grammatical structure."
+    "contextSentence": "Comparative linguistics can help us by focusing on grammatical structure.",
+    "contextSentenceKo": "비교 언어학은 문법 구조에 초점을 맞춤으로써 우리를 도울 수 있습니다."
   },
   {
     "word": "systematically",
@@ -140,7 +150,8 @@
     "relatedWords": ["system", "systematic", "systematize"],
     "isEssential": false,
     "segmentIndex": 29,
-    "contextSentence": "German words starting with P systematically shifted to a PF sound."
+    "contextSentence": "German words starting with P systematically shifted to a PF sound.",
+    "contextSentenceKo": "P로 시작하는 독일어 단어들이 체계적으로 PF 발음으로 변했습니다."
   },
   {
     "word": "counterparts",
@@ -153,7 +164,8 @@
     "relatedWords": ["counterpart", "counterpoint", "counterbalance"],
     "isEssential": true,
     "segmentIndex": 30,
-    "contextSentence": "While their Old English counterparts kept the P unchanged."
+    "contextSentence": "While their Old English counterparts kept the P unchanged.",
+    "contextSentenceKo": "반면 그에 대응하는 고대 영어 단어들은 P를 그대로 유지했습니다."
   },
   {
     "word": "borrowings",
@@ -166,7 +178,8 @@
     "relatedWords": ["borrow", "borrowed", "borrower"],
     "isEssential": true,
     "segmentIndex": 23,
-    "contextSentence": "Viking invaders added more borrowings from Old Norse into the mix."
+    "contextSentence": "Viking invaders added more borrowings from Old Norse into the mix.",
+    "contextSentenceKo": "바이킹 침략자들이 고대 노르드어에서 더 많은 차용어를 추가했습니다."
   },
   {
     "word": "descended",
@@ -179,7 +192,8 @@
     "relatedWords": ["descend", "descendant", "descent"],
     "isEssential": true,
     "segmentIndex": 34,
-    "contextSentence": "Just as the various Romance languages descended from Latin."
+    "contextSentence": "Just as the various Romance languages descended from Latin.",
+    "contextSentenceKo": "다양한 로망스 언어들이 라틴어에서 파생된 것처럼."
   },
   {
     "word": "ancestor",
@@ -192,7 +206,8 @@
     "relatedWords": ["ancestry", "ancestral"],
     "isEssential": true,
     "segmentIndex": 36,
-    "contextSentence": "Descended from their own common ancestor, known as Proto-Germanic."
+    "contextSentence": "Descended from their own common ancestor, known as Proto-Germanic.",
+    "contextSentenceKo": "원시 게르만어로 알려진 공통 조상에서 파생되었습니다."
   },
   {
     "word": "reconstruct",
@@ -205,7 +220,8 @@
     "relatedWords": ["reconstruction", "construct", "structure"],
     "isEssential": true,
     "segmentIndex": 38,
-    "contextSentence": "We can only reconstruct it by comparing its descendants."
+    "contextSentence": "We can only reconstruct it by comparing its descendants.",
+    "contextSentenceKo": "후손 언어들을 비교해야만 그것을 재구성할 수 있습니다."
   },
   {
     "word": "consistency",
@@ -218,7 +234,8 @@
     "relatedWords": ["consistent", "consist", "inconsistency"],
     "isEssential": false,
     "segmentIndex": 39,
-    "contextSentence": "Which is possible thanks to the consistency of the changes."
+    "contextSentence": "Which is possible thanks to the consistency of the changes.",
+    "contextSentenceKo": "변화의 일관성 덕분에 그것이 가능합니다."
   },
   {
     "word": "correspondences",
@@ -231,7 +248,8 @@
     "relatedWords": ["correspond", "corresponding", "correspondent"],
     "isEssential": true,
     "segmentIndex": 47,
-    "contextSentence": "We can find the same systematic similarities, or correspondences."
+    "contextSentence": "We can find the same systematic similarities, or correspondences.",
+    "contextSentenceKo": "동일한 체계적 유사성, 즉 대응 관계를 찾을 수 있습니다."
   },
   {
     "word": "displaced",
@@ -244,7 +262,8 @@
     "relatedWords": ["displace", "displacement", "replace"],
     "isEssential": false,
     "segmentIndex": 52,
-    "contextSentence": "And the Celtic languages it displaced in what is now Britain."
+    "contextSentence": "And the Celtic languages it displaced in what is now Britain.",
+    "contextSentenceKo": "그리고 현재 영국 지역에서 밀어낸 켈트 언어들."
   },
   {
     "word": "archaeological",
@@ -257,7 +276,8 @@
     "relatedWords": ["archaeology", "archaeologist", "archaic"],
     "isEssential": false,
     "segmentIndex": 54,
-    "contextSentence": "This is as far back as historical and archaeological evidence will allow us to go."
+    "contextSentence": "This is as far back as historical and archaeological evidence will allow us to go.",
+    "contextSentenceKo": "이것이 역사적, 고고학적 증거가 허용하는 한계까지 거슬러 올라간 것입니다."
   },
   {
     "word": "nevertheless",
@@ -270,6 +290,7 @@
     "relatedWords": ["nonetheless", "however", "notwithstanding"],
     "isEssential": true,
     "segmentIndex": 60,
-    "contextSentence": "Are nevertheless speaking the same words shaped by 6,000 years of history."
+    "contextSentence": "Are nevertheless speaking the same words shaped by 6,000 years of history.",
+    "contextSentenceKo": "그럼에도 불구하고 6,000년의 역사를 거쳐 형성된 같은 단어들을 사용하고 있습니다."
   }
 ]

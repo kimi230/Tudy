@@ -14,7 +14,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "How many of you believe you could replicate this image of Brad Pitt?"
+    "contextSentence": "How many of you believe you could replicate this image of Brad Pitt?",
+    "contextSentenceKo": "여러분 중 이 브래드 피트의 이미지를 똑같이 재현할 수 있다고 생각하는 분이 몇이나 되시나요?"
   },
   {
     "word": "ambitious",
@@ -31,7 +32,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 19,
-    "contextSentence": "What stands between us and achieving even our most ambitious dreams."
+    "contextSentence": "What stands between us and achieving even our most ambitious dreams.",
+    "contextSentenceKo": "우리와 가장 야심찬 꿈의 실현 사이에 무엇이 가로막고 있는지."
   },
   {
     "word": "marginal",
@@ -48,7 +50,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 23,
-    "contextSentence": "Even a marginal improvement in our process can have a huge impact on our end results."
+    "contextSentence": "Even a marginal improvement in our process can have a huge impact on our end results.",
+    "contextSentenceKo": "과정에서의 아주 작은 개선만으로도 최종 결과에 큰 영향을 미칠 수 있습니다."
   },
   {
     "word": "compounding",
@@ -65,7 +68,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 22,
-    "contextSentence": "Because of the continuous and compounding nature of all those millions of decisions."
+    "contextSentence": "Because of the continuous and compounding nature of all those millions of decisions.",
+    "contextSentenceKo": "수백만 가지 결정들의 지속적이고 누적되는 특성 때문입니다."
   },
   {
     "word": "quantify",
@@ -82,7 +86,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 37,
-    "contextSentence": "We can quantify and track his progress in this area."
+    "contextSentence": "We can quantify and track his progress in this area.",
+    "contextSentenceKo": "우리는 이 분야에서 그의 진척 상황을 수치화하고 추적할 수 있습니다."
   },
   {
     "word": "dominating",
@@ -99,7 +104,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 32,
-    "contextSentence": "Winning a dominating 90% of his matches."
+    "contextSentence": "Winning a dominating 90% of his matches.",
+    "contextSentenceKo": "경기의 90%를 압도적으로 승리하면서."
   },
   {
     "word": "spectator",
@@ -116,7 +122,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 57,
-    "contextSentence": "I'm going to stop being a spectator of my decision making."
+    "contextSentence": "I'm going to stop being a spectator of my decision making.",
+    "contextSentenceKo": "저는 제 의사결정의 방관자가 되는 것을 그만둘 겁니다."
   },
   {
     "word": "exotic",
@@ -132,7 +139,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 83,
-    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse."
+    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse.",
+    "contextSentenceKo": "저는 크레디트 스위스에서 이색 파생상품 트레이더로 시작했습니다."
   },
   {
     "word": "derivatives",
@@ -149,7 +157,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 83,
-    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse."
+    "contextSentence": "I started out as an exotic derivatives trader at Credit Suisse.",
+    "contextSentenceKo": "저는 크레디트 스위스에서 이색 파생상품 트레이더로 시작했습니다."
   },
   {
     "word": "rectify",
@@ -166,7 +175,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 120,
-    "contextSentence": "And I wanted to rectify that."
+    "contextSentence": "And I wanted to rectify that.",
+    "contextSentenceKo": "그래서 저는 그것을 바로잡고 싶었습니다."
   },
   {
     "word": "temptation",
@@ -183,7 +193,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 101,
-    "contextSentence": "So I removed that temptation by removing all of the music."
+    "contextSentence": "So I removed that temptation by removing all of the music.",
+    "contextSentenceKo": "그래서 저는 음악을 모두 삭제함으로써 그 유혹을 없앴습니다."
   },
   {
     "word": "commute",
@@ -199,7 +210,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 92,
-    "contextSentence": "My commute was a walk from one end of Hyde Park to the other."
+    "contextSentence": "My commute was a walk from one end of Hyde Park to the other.",
+    "contextSentenceKo": "제 출퇴근길은 하이드 파크의 한쪽 끝에서 다른 쪽 끝까지 걸어가는 것이었습니다."
   },
   {
     "word": "intensive",
@@ -216,7 +228,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 103,
-    "contextSentence": "I went to Berlin for a 16-day intensive German course."
+    "contextSentence": "I went to Berlin for a 16-day intensive German course.",
+    "contextSentenceKo": "저는 16일간의 집중 독일어 과정을 위해 베를린에 갔습니다."
   },
   {
     "word": "garnered",
@@ -232,7 +245,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 204,
-    "contextSentence": "I've garnered an awful lot of attention from my escapades."
+    "contextSentence": "I've garnered an awful lot of attention from my escapades.",
+    "contextSentenceKo": "제 모험담으로 엄청나게 많은 관심을 받았습니다."
   },
   {
     "word": "escapades",
@@ -249,7 +263,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 204,
-    "contextSentence": "I've garnered an awful lot of attention from my escapades."
+    "contextSentence": "I've garnered an awful lot of attention from my escapades.",
+    "contextSentenceKo": "제 모험담으로 엄청나게 많은 관심을 받았습니다."
   },
   {
     "word": "culminates",
@@ -265,7 +280,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 186,
-    "contextSentence": "Which culminates in a project that is currently at TMC here in Tucson."
+    "contextSentence": "Which culminates in a project that is currently at TMC here in Tucson.",
+    "contextSentenceKo": "그리고 그것은 현재 여기 투손의 TMC에서 진행 중인 프로젝트로 마무리됩니다."
   },
   {
     "word": "charitable",
@@ -282,7 +298,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 160,
-    "contextSentence": "I did 12 charitable things that didn't involve writing a check."
+    "contextSentence": "I did 12 charitable things that didn't involve writing a check.",
+    "contextSentenceKo": "저는 수표를 쓰지 않고도 12가지 자선 활동을 했습니다."
   },
   {
     "word": "possessing",
@@ -299,7 +316,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 20,
-    "contextSentence": "Has far less to do with possessing some magical skill or talent."
+    "contextSentence": "Has far less to do with possessing some magical skill or talent.",
+    "contextSentenceKo": "어떤 마법 같은 기술이나 재능을 갖고 있는 것과는 훨씬 관련이 적습니다."
   },
   {
     "word": "manageable",
@@ -316,7 +334,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 79,
-    "contextSentence": "You break them down to much more manageable tasks."
+    "contextSentence": "You break them down to much more manageable tasks.",
+    "contextSentenceKo": "그것들을 훨씬 더 감당할 수 있는 작업들로 쪼개는 겁니다."
   },
   {
     "word": "undisciplined",
@@ -333,7 +352,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 99,
-    "contextSentence": "Because the truth of the matter is, I'm an undisciplined person."
+    "contextSentence": "Because the truth of the matter is, I'm an undisciplined person.",
+    "contextSentenceKo": "사실을 말씀드리자면, 저는 자제력이 없는 사람입니다."
   },
   {
     "word": "marvel",
@@ -349,7 +369,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 209,
-    "contextSentence": "Really big, ambitious projects that people seem to marvel at."
+    "contextSentence": "Really big, ambitious projects that people seem to marvel at.",
+    "contextSentenceKo": "사람들이 감탄하는 정말 크고 야심찬 프로젝트들."
   },
   {
     "word": "aerobatically",
@@ -366,7 +387,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 116,
-    "contextSentence": "And learned how to fly planes aerobatically."
+    "contextSentence": "And learned how to fly planes aerobatically.",
+    "contextSentenceKo": "그리고 곡예 비행으로 비행기를 조종하는 법을 배웠습니다."
   },
   {
     "word": "incorporate",
@@ -383,7 +405,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 202,
-    "contextSentence": "Incorporated more than 30 miles of yarn."
+    "contextSentence": "Incorporated more than 30 miles of yarn.",
+    "contextSentenceKo": "30마일 이상의 실을 사용했습니다."
   },
   {
     "word": "resolution",
@@ -400,6 +423,7 @@
     ],
     "isEssential": true,
     "segmentIndex": 130,
-    "contextSentence": "I set a resolution to hike all 33 trails in the front country."
+    "contextSentence": "I set a resolution to hike all 33 trails in the front country.",
+    "contextSentenceKo": "저는 앞쪽 지역의 33개 트레일을 모두 하이킹하겠다는 다짐을 세웠습니다."
   }
 ]

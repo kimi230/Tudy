@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useStudySession } from '../../hooks/useStudySession';
 import { useErrorNotes } from '../../hooks/useErrorNotes';
-import { loadSegments, loadVocabulary, loadGrammar, loadConnectedSpeech, loadStructure } from '../../lib/dataLoader';
+import { loadAllArtifacts } from '../../lib/dataLoader';
 import YouTubePlayer from '../common/YouTubePlayer';
 import DifficultyBadge from '../common/DifficultyBadge';
 import type { Segment, VocabularyItem, GrammarPattern, ConnectedSpeech, SpeechStructure, VideoMeta } from '../../types';
@@ -49,13 +49,13 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
   const playerRef = useRef<YouTubePlayerHandle>(null);
 
   useEffect(() => {
-    Promise.all([
-      loadSegments(videoId).then((d) => setSegments(d.segments)),
-      loadVocabulary(videoId).then(setVocabulary).catch(() => {}),
-      loadGrammar(videoId).then(setGrammar).catch(() => {}),
-      loadConnectedSpeech(videoId).then(setConnectedSpeech).catch(() => {}),
-      loadStructure(videoId).then(setStructure).catch(() => {}),
-    ]).finally(() => setDataLoading(false));
+    loadAllArtifacts(videoId).then(({ segments: segsData, vocabulary: vocab, grammar: gram, connectedSpeech: cs, structure: str }) => {
+      setSegments(segsData.segments);
+      setVocabulary(vocab);
+      setGrammar(gram);
+      setConnectedSpeech(cs);
+      if (str) setStructure(str);
+    }).finally(() => setDataLoading(false));
   }, [videoId]);
 
   // Pause YouTube & reset to 00:00 on step change
@@ -104,6 +104,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
           />
         );
       case 4:
+        // Step 4 has custom layout below (YouTube + notes + Step4_Compare), not rendered here
         return null;
       case 5:
         return (

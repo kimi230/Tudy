@@ -16,7 +16,7 @@
     "segmentIndex": 1
   },
   {
-    "pattern": "Conditional: If + present simple (zero conditional)",
+    "pattern": "Conditional: If + present simple",
     "explanation": "Used to express a general truth or habitual outcome. The 'if' clause sets up a condition that always leads to the stated result.",
     "explanationKo": "'If + 현재시제'는 일반적인 사실이나 항상 일어나는 결과를 표현할 때 사용해요. 조건이 충족되면 항상 같은 결과가 나온다는 의미예요.",
     "examples": [
@@ -46,7 +46,7 @@
     "segmentIndex": 2
   },
   {
-    "pattern": "What + clause + is/was (cleft sentence for emphasis)",
+    "pattern": "What + clause + is/was",
     "explanation": "A cleft sentence structure that emphasizes a specific piece of information by placing it in a 'what' clause. It highlights the key point.",
     "explanationKo": "'What + 절 + is/was' 구조는 강조하고 싶은 정보를 'what' 절로 묶어서 특정 요점을 부각시키는 강조 구문이에요.",
     "examples": [
@@ -60,22 +60,6 @@
       "그들이 보는 것은 기쁨이다."
     ],
     "segmentIndex": 5
-  },
-  {
-    "pattern": "Not A but B (contrast structure)",
-    "explanation": "Used to correct a potential assumption by negating one idea and presenting the true one. Creates a clear rhetorical contrast.",
-    "explanationKo": "'Not A but B' 구조는 잘못된 가정을 부정하고 실제 사실을 제시할 때 사용해요. 명확한 수사적 대비를 만들어 내요.",
-    "examples": [
-      "You're not a soul to be purified, you're a set of skills to be maximized.",
-      "Joy is not the expansion of self, it's the dissolving of self.",
-      "Not just as a word, but as a reality."
-    ],
-    "examplesKo": [
-      "당신은 정화되어야 할 영혼이 아니라, 극대화되어야 할 기술의 집합체이다.",
-      "기쁨은 자아의 확장이 아니라 자아의 해체이다.",
-      "단지 말로서가 아니라 현실로서."
-    ],
-    "segmentIndex": 30
   },
   {
     "pattern": "Present participle phrase as modifier",
@@ -94,7 +78,7 @@
     "segmentIndex": 34
   },
   {
-    "pattern": "Modal should + have + past participle (past obligation/expectation)",
+    "pattern": "Modal should + have + past participle",
     "explanation": "Used to express an expectation about the past that was not fulfilled. It implies something was expected but didn't happen.",
     "explanationKo": "'should have + 과거분사'는 과거에 기대했지만 실현되지 않은 일을 표현해요. '~이 있었어야 했는데'라는 의미로, 기대와 현실의 차이를 나타내요.",
     "examples": [
@@ -108,7 +92,7 @@
     "segmentIndex": 6
   },
   {
-    "pattern": "Either A or B (presenting alternatives)",
+    "pattern": "Either A or B",
     "explanation": "Used to present two possibilities or choices. Often creates a dramatic contrast between outcomes.",
     "explanationKo": "'Either A or B'는 두 가지 가능성이나 선택지를 제시할 때 사용해요. 결과 사이의 극적인 대비를 만들어 내요.",
     "examples": [

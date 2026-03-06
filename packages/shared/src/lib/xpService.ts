@@ -2,29 +2,30 @@ import { supabase } from './supabase';
 
 /**
  * Standalone XP awarding function.
- * Handles: xp_events insert, increment_xp, update_streak, check_and_award_badges.
- * Callers are responsible for toast display and profile refresh.
+ * Single RPC call: award_xp_complete handles insert, increment, streak, badges atomically.
+ * Returns xpAmount on success, null on failure or duplicate.
  */
 export async function awardXP(
   userId: string,
   eventType: string,
   xpAmount: number,
-  metadata?: Record<string, unknown>
-): Promise<boolean> {
-  if (!supabase) return false;
+  metadata?: Record<string, unknown>,
+  dedupKey?: string
+): Promise<number | null> {
+  if (!supabase) return null;
   try {
-    const { error } = await supabase.from('xp_events').insert({
-      user_id: userId,
-      event_type: eventType,
-      xp_amount: xpAmount,
-      metadata: metadata ?? null,
+    const { data, error } = await supabase.rpc('award_xp_complete', {
+      user_id_input: userId,
+      event_type_input: eventType,
+      xp_amount_input: xpAmount,
+      metadata_input: metadata ?? null,
+      dedup_key_input: dedupKey ?? null,
     });
-    if (error) return false;
-    await supabase.rpc('increment_xp', { user_id_input: userId, amount: xpAmount });
-    await supabase.rpc('update_streak', { user_id_input: userId });
-    await supabase.rpc('check_and_award_badges', { user_id_input: userId });
-    return true;
+    if (error) return null;
+    const result = data as { success: boolean; reason?: string };
+    if (!result?.success) return null;
+    return xpAmount;
   } catch {
-    return false;
+    return null;
   }
 }

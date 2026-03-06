@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "Past Habitual with 'would' (contracted 'd)",
+    "pattern": "would + 동사원형 (과거 습관)",
     "explanation": "The contracted form 'I'd' (I would) is used to describe repeated past actions or habits. This is common in storytelling to describe what someone used to do regularly.",
     "explanationKo": "'I'd' (I would의 축약형)는 과거에 반복적으로 했던 행동이나 습관을 설명할 때 사용됩니다. 이야기를 할 때 과거의 일상적 행동을 묘사하는 데 흔히 쓰입니다.",
     "examples": [
@@ -14,19 +14,7 @@
     "segmentIndex": 4
   },
   {
-    "pattern": "It turns out that...",
-    "explanation": "This expression is used to introduce a surprising or previously unknown fact. It signals that the speaker is about to reveal something that may change the listener's understanding of a situation.",
-    "explanationKo": "'It turns out that...'은 놀랍거나 이전에 알려지지 않은 사실을 소개할 때 사용됩니다. 상황에 대한 청자의 이해를 바꿀 수 있는 정보를 드러낼 때 쓰이는 신호 표현입니다.",
-    "examples": [
-      "It turns out that we're fighting one of the most evolutionarily conserved learning processes currently known in science,"
-    ],
-    "examplesKo": [
-      "알고 보니 우리는 현재 과학에서 알려진 가장 진화적으로 보존된 학습 과정 중 하나와 싸우고 있었습니다,"
-    ],
-    "segmentIndex": 12
-  },
-  {
-    "pattern": "What if + past tense (Hypothetical suggestion)",
+    "pattern": "What if + past tense",
     "explanation": "The 'What if + past tense' structure is used to propose a hypothetical scenario or suggestion. It softens the suggestion and makes it more tentative and inviting.",
     "explanationKo": "'What if + 과거 시제' 구조는 가상의 시나리오나 제안을 할 때 사용됩니다. 제안을 부드럽게 만들고 더 잠정적이고 초대하는 느낌을 줍니다.",
     "examples": [
@@ -40,7 +28,7 @@
     "segmentIndex": 46
   },
   {
-    "pattern": "Passive voice with 'is called'",
+    "pattern": "is called",
     "explanation": "The passive construction 'is called' is commonly used in academic and educational contexts to introduce or define technical terminology without focusing on who coined the term.",
     "explanationKo": "'is called' 수동태 구문은 학술적, 교육적 맥락에서 용어를 만든 사람에 초점을 두지 않고 전문 용어를 소개하거나 정의할 때 자주 사용됩니다.",
     "examples": [
@@ -54,7 +42,7 @@
     "segmentIndex": 15
   },
   {
-    "pattern": "Not... but (Contrast structure)",
+    "pattern": "Not... but",
     "explanation": "This structure sets up a contrast between what is not the case and what actually is. It is used to correct assumptions or redirect the listener's thinking.",
     "explanationKo": "'not... but' 구조는 사실이 아닌 것과 실제 사실 사이의 대조를 설정합니다. 가정을 수정하거나 청자의 생각을 전환하는 데 사용됩니다.",
     "examples": [
@@ -68,7 +56,7 @@
     "segmentIndex": 118
   },
   {
-    "pattern": "Rather than + gerund (Contrasting alternatives)",
+    "pattern": "Rather than + gerund",
     "explanation": "'Rather than' followed by a gerund is used to present an alternative action, often contrasting a less desirable approach with a preferred one.",
     "explanationKo": "'rather than + 동명사'는 대안적 행동을 제시할 때 사용되며, 덜 바람직한 접근법과 더 좋은 접근법을 대조합니다.",
     "examples": [
@@ -96,7 +84,7 @@
     "segmentIndex": 43
   },
   {
-    "pattern": "Comparative structure with 'twice as... as'",
+    "pattern": "twice as... as",
     "explanation": "The 'twice as [adjective] as' structure makes a precise comparison, indicating that one thing is double the degree of another. This is common in academic and research contexts.",
     "explanationKo": "'twice as [형용사] as' 구조는 정밀한 비교를 하며, 한 가지가 다른 것의 두 배임을 나타냅니다. 학술 및 연구 맥락에서 흔히 사용됩니다.",
     "examples": [
@@ -108,7 +96,7 @@
     "segmentIndex": 114
   },
   {
-    "pattern": "Instead of + noun/gerund (Substitution)",
+    "pattern": "Instead of + noun/gerund",
     "explanation": "'Instead of' introduces an alternative to something mentioned, often used to propose a different action or approach. It highlights the contrast between the rejected option and the chosen one.",
     "explanationKo": "'Instead of'는 언급된 것에 대한 대안을 소개하며, 다른 행동이나 접근법을 제안할 때 자주 사용됩니다. 거부된 선택과 선택된 것 사이의 대조를 강조합니다.",
     "examples": [
@@ -120,17 +108,5 @@
       "문자 메시지를 보고 강박적으로 답장하는 대신에,"
     ],
     "segmentIndex": 31
-  },
-  {
-    "pattern": "Conditional 'if' for audience engagement",
-    "explanation": "Using 'if' clauses directed at the audience creates a conditional scenario that listeners can personally relate to, making the content more relevant and persuasive.",
-    "explanationKo": "청중에게 향한 'if' 조건절은 청취자가 개인적으로 공감할 수 있는 조건적 시나리오를 만들어, 내용을 더 관련성 있고 설득력 있게 만듭니다.",
-    "examples": [
-      "So if you don't smoke or stress eat, maybe the next time you feel this urge to check your email when you're bored..."
-    ],
-    "examplesKo": [
-      "그러니까 만약 담배를 피우지 않거나 스트레스성 폭식을 하지 않는다면, 다음에 지루할 때 이메일을 확인하고 싶은 충동이 느껴지면..."
-    ],
-    "segmentIndex": 132
   }
 ]

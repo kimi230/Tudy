@@ -10,6 +10,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈstrætədʒi/",
     "contextSentence": "A strategy is an integrative set of choices that positions you on a playing field of your choice in a way that you win.",
+    "contextSentenceKo": "전략이란 자신이 선택한 경쟁의 장에서 이길 수 있도록 자리 잡게 해주는 통합적인 선택의 집합입니다.",
     "segmentIndex": 11
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈɪntɪɡreɪtɪv/",
     "contextSentence": "A strategy is an integrative set of choices that positions you on a playing field of your choice in a way that you win.",
+    "contextSentenceKo": "전략이란 자신이 선택한 경쟁의 장에서 이길 수 있도록 자리 잡게 해주는 통합적인 선택의 집합입니다.",
     "segmentIndex": 11
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/koʊˈhɪərənt/",
     "contextSentence": "That theory has to be coherent.",
+    "contextSentenceKo": "그 이론은 일관성이 있어야 합니다.",
     "segmentIndex": 15
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌspɛsɪfɪˈkeɪʃən/",
     "contextSentence": "There tends to be a list that has no internal coherence to it and no specification of a way that that is going to accomplish collectively some goal for the company.",
+    "contextSentenceKo": "보통은 내적 일관성도 없고, 그것이 어떻게 회사의 목표를 전체적으로 달성할 것인지에 대한 구체적 명시도 없는 목록이 되기 마련입니다.",
     "segmentIndex": 20
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/kəˈlɛktɪvli/",
     "contextSentence": "No specification of a way that that is going to accomplish collectively some goal for the company.",
+    "contextSentenceKo": "그것이 어떻게 회사의 목표를 전체적으로 달성할 것인지에 대한 구체적 명시가 없습니다.",
     "segmentIndex": 20
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈkʌmfərtɪŋ/",
     "contextSentence": "Planning is quite comforting.",
+    "contextSentenceKo": "계획을 세우는 것은 꽤 마음이 편합니다.",
     "segmentIndex": 21
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/kəmˈpɛtɪtɪv/",
     "contextSentence": "A strategy, on the other hand, specifies an outcome, a competitive outcome that you wish to achieve.",
+    "contextSentenceKo": "반면에 전략은 결과를, 즉 달성하고자 하는 경쟁적 결과를 구체적으로 명시합니다.",
     "segmentIndex": 29
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌprɒfɪtəˈbɪlɪti/",
     "contextSentence": "Which involves customers wanting your product or service enough that they will buy enough of it to make the profitability that you'd like to make.",
+    "contextSentenceKo": "고객이 여러분의 제품이나 서비스를 충분히 원해서 원하는 만큼의 수익성을 올릴 수 있을 정도로 구매하게 만드는 것을 포함합니다.",
     "segmentIndex": 30
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˌɡærənˈtiː/",
     "contextSentence": "We can't guarantee it.",
+    "contextSentenceKo": "우리는 그것을 보장할 수 없습니다.",
     "segmentIndex": 36
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈsʌbstɪtjuːt/",
     "contextSentence": "What they wanted to be is a substitute for Greyhound.",
+    "contextSentenceKo": "그들이 원했던 것은 그레이하운드 버스의 대안이 되는 것이었습니다.",
     "segmentIndex": 44
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ɪkˌstrɔːrdɪˈnɛrɪli/",
     "contextSentence": "A way more convenient way to get around at a price that wasn't extraordinarily much greater than a Greyhound bus.",
+    "contextSentenceKo": "그레이하운드 버스보다 가격이 엄청나게 비싸지 않으면서 훨씬 편리한 이동 수단이었습니다.",
     "segmentIndex": 45
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˈspɛʃəlaɪz/",
     "contextSentence": "We're not going to offer meals on the flights because we're going to specialize in short flights.",
+    "contextSentenceKo": "단거리 노선에 특화할 것이기 때문에 기내식을 제공하지 않을 것입니다.",
     "segmentIndex": 50
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/səbˈstænʃəli/",
     "contextSentence": "So their strategy ended up being having a substantially lower cost than any of the major carriers.",
+    "contextSentenceKo": "결국 그들의 전략은 어떤 대형 항공사보다도 상당히 낮은 비용 구조를 갖추는 것이었습니다.",
     "segmentIndex": 53
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈkæriər/",
     "contextSentence": "The major carriers were not trying to win against one another.",
+    "contextSentenceKo": "대형 항공사들은 서로를 상대로 이기려고 하지 않았습니다.",
     "segmentIndex": 55
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/pɑːrˈtɪsɪpeɪt/",
     "contextSentence": "They were playing to participate, maybe buy more planes, get more gates.",
+    "contextSentenceKo": "그들은 그저 참여하기 위해 경쟁하고 있었고, 비행기를 더 사고 탑승구를 더 확보하는 정도였습니다.",
     "segmentIndex": 57
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈsɛɡmənt/",
     "contextSentence": "Here's a way to be better than everybody else for this segment.",
+    "contextSentenceKo": "이 고객층에 대해 다른 모든 회사보다 더 나은 방법이 여기 있습니다.",
     "segmentIndex": 58
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/æŋst/",
     "contextSentence": "The most important thing to recognize is that strategy will have angst associated with it.",
+    "contextSentenceKo": "가장 중요하게 인식해야 할 점은 전략에는 반드시 불안감이 따른다는 것입니다.",
     "segmentIndex": 62
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌæspɪˈreɪʃən/",
     "contextSentence": "And that's why it's going to achieve this goal, this aspiration that we have.",
+    "contextSentenceKo": "그래서 이 목표, 우리가 가진 이 포부를 달성하게 될 것입니다.",
     "segmentIndex": 80
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/twiːk/",
     "contextSentence": "What you want to have is a mechanism for tweaking it, toning it, and refining it so it gets better and better as you go along.",
+    "contextSentenceKo": "여러분에게 필요한 것은 전략을 조금씩 조정하고 다듬어서 점점 더 나아지게 만드는 메커니즘입니다.",
     "segmentIndex": 75
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmɛkənɪzəm/",
     "contextSentence": "What you want to have is a mechanism for tweaking it, toning it, and refining it.",
+    "contextSentenceKo": "여러분에게 필요한 것은 그것을 조정하고 다듬고 정교하게 만드는 메커니즘입니다.",
     "segmentIndex": 75
   }
 ]

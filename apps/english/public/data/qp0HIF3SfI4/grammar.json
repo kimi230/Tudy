@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "Contrast with 'Not... but...'",
+    "pattern": "Not... but...",
     "explanation": "This structure presents a contrast by first negating one idea and then presenting the correct or preferred alternative. It creates a clear binary distinction and is highly effective in persuasive speech.",
     "explanationKo": "'~이 아니라 ~이다' 구조는 먼저 하나의 아이디어를 부정한 후 올바른 또는 선호되는 대안을 제시합니다. 명확한 이분법적 구별을 만들며 설득적 연설에서 매우 효과적입니다.",
     "examples": [
@@ -23,7 +23,7 @@
     "segmentIndex": 88
   },
   {
-    "pattern": "Conditional Clauses ('If... then...')",
+    "pattern": "If... then...",
     "explanation": "Conditional sentences express cause-and-effect relationships or hypothetical situations. Sinek uses both real conditionals (describing likely outcomes) and hypothetical conditionals to illustrate his points about leadership and motivation.",
     "explanationKo": "조건절은 인과 관계나 가상의 상황을 표현합니다. 사이넥은 실제 조건(가능한 결과를 설명)과 가정법 조건을 모두 사용하여 리더십과 동기부여에 대한 자신의 요점을 설명합니다.",
     "examples": [
@@ -46,7 +46,7 @@
     "segmentIndex": 48
   },
   {
-    "pattern": "Subjunctive Mood ('Were' for Hypotheticals)",
+    "pattern": "If + subject + were... (가정법)",
     "explanation": "The subjunctive mood uses 'were' instead of 'was' to express hypothetical or contrary-to-fact conditions. This formal structure appears in Sinek's hypothetical examples about Apple and business scenarios.",
     "explanationKo": "가정법에서는 가상의 상황이나 사실과 반대되는 조건을 표현하기 위해 'was' 대신 'were'를 사용합니다. 이 격식체 구조는 사이넥의 애플과 비즈니스 시나리오에 대한 가정 예시에서 나타납니다.",
     "examples": [
@@ -64,7 +64,7 @@
     "segmentIndex": 48
   },
   {
-    "pattern": "Cleft Sentences for Focus ('It's... that/who...')",
+    "pattern": "It's... that/who...",
     "explanation": "Cleft sentences split a simple sentence to emphasize a particular element by placing it after 'It is/was... that/who'. This structure draws the listener's attention to the most important part of the message.",
     "explanationKo": "분열문은 'It is/was... that/who' 뒤에 특정 요소를 배치하여 강조하기 위해 단순한 문장을 분리합니다. 이 구조는 청자의 관심을 메시지의 가장 중요한 부분으로 끌어갑니다.",
     "examples": [
@@ -128,7 +128,7 @@
     "segmentIndex": 201
   },
   {
-    "pattern": "'Whether... or...' for Inclusive Alternatives",
+    "pattern": "Whether... or...",
     "explanation": "The 'whether... or...' construction presents two or more alternatives that lead to the same conclusion, emphasizing that the point holds true regardless of which option applies. It broadens the scope of an argument.",
     "explanationKo": "'~이든 ~이든' 구조는 같은 결론으로 이어지는 두 가지 이상의 대안을 제시하여, 어떤 옵션이 적용되든 요점이 유효하다는 것을 강조합니다. 논점의 범위를 넓히는 데 사용됩니다.",
     "examples": [
@@ -151,7 +151,7 @@
     "segmentIndex": 24
   },
   {
-    "pattern": "Emphatic 'do/does' for Stress",
+    "pattern": "do/does (강조)",
     "explanation": "Using 'do/does/did' before a main verb in an affirmative sentence adds emphasis, reinforcing the truth of the statement. It conveys strong conviction or contrasts with an expectation.",
     "explanationKo": "긍정문에서 주동사 앞에 'do/does/did'를 사용하면 강조가 추가되어 진술의 진실성을 강화합니다. 강한 확신을 전달하거나 예상과 대비됩니다.",
     "examples": [

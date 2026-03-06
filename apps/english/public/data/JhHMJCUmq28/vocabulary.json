@@ -10,6 +10,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˌɛkspəˈnɛnʃəli/",
     "contextSentence": "The power of our brain machines has kept growing exponentially.",
+    "contextSentenceKo": "우리의 두뇌 기계의 성능은 기하급수적으로 계속 성장해 왔습니다.",
     "segmentIndex": 2
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/trænˈzɪstər/",
     "contextSentence": "A transistor is the simplest form of a data processor in computers.",
+    "contextSentenceKo": "트랜지스터는 컴퓨터에서 가장 단순한 형태의 데이터 처리 장치입니다.",
     "segmentIndex": 8
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈkwɒntəm/",
     "contextSentence": "Electrons may just transfer themselves to the other side via a process called quantum tunneling.",
+    "contextSentenceKo": "전자는 양자 터널링이라는 과정을 통해 반대편으로 스스로 이동할 수 있습니다.",
     "segmentIndex": 21
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌsuːpərpəˈzɪʃən/",
     "contextSentence": "This is called superposition.",
+    "contextSentenceKo": "이것을 중첩이라고 합니다.",
     "segmentIndex": 30
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɪnˈtæŋɡəlmənt/",
     "contextSentence": "A really weird and unintuitive property qubits can have is entanglement.",
+    "contextSentenceKo": "큐비트가 가질 수 있는 정말 기이하고 직관에 반하는 특성이 바로 양자 얽힘입니다.",
     "segmentIndex": 38
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌpoʊlərɪˈzeɪʃən/",
     "contextSentence": "Zero and one are this system's possible states, like the photon's horizontal or vertical polarization.",
+    "contextSentenceKo": "0과 1은 이 시스템의 가능한 상태로, 광자의 수평 또는 수직 편광과 같습니다.",
     "segmentIndex": 28
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈkjuːbɪt/",
     "contextSentence": "Quantum computers use qubits, which can also be set to one of two values.",
+    "contextSentenceKo": "양자 컴퓨터는 큐비트를 사용하며, 이 역시 두 가지 값 중 하나로 설정할 수 있습니다.",
     "segmentIndex": 26
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɪnˈkrɪpʃən/",
     "contextSentence": "Your data is being kept secure by an encryption system.",
+    "contextSentenceKo": "여러분의 데이터는 암호화 시스템에 의해 안전하게 보호되고 있습니다.",
     "segmentIndex": 52
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌsɪmjʊˈleɪʃən/",
     "contextSentence": "Another really exciting new use is simulations.",
+    "contextSentenceKo": "또 하나의 정말 흥미로운 새로운 활용은 시뮬레이션입니다.",
     "segmentIndex": 57
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈtʌnəlɪŋ/",
     "contextSentence": "Electrons may just transfer themselves to the other side via a process called quantum tunneling.",
+    "contextSentenceKo": "전자는 양자 터널링이라는 과정을 통해 반대편으로 스스로 이동할 수 있습니다.",
     "segmentIndex": 21
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈnænəˌmiːtər/",
     "contextSentence": "A typical scale for transistors is 40 nanometers.",
+    "contextSentenceKo": "트랜지스터의 일반적인 크기는 40나노미터입니다.",
     "segmentIndex": 20
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/dɪˈdjuːs/",
     "contextSentence": "You can directly deduce properties of its partners without having to look.",
+    "contextSentenceKo": "살펴보지 않고도 상대 입자의 속성을 직접 추론할 수 있습니다.",
     "segmentIndex": 39
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌʌnɪnˈtjuːɪtɪv/",
     "contextSentence": "A really weird and unintuitive property qubits can have is entanglement.",
+    "contextSentenceKo": "큐비트가 가질 수 있는 정말 기이하고 직관에 반하는 특성이 바로 얽힘입니다.",
     "segmentIndex": 38
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˌɪnstənˈteɪniəsli/",
     "contextSentence": "Each of the qubits react to a change in the other's state instantaneously.",
+    "contextSentenceKo": "각 큐비트는 상대방의 상태 변화에 즉각적으로 반응합니다.",
     "segmentIndex": 38
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kənˌfɪɡjʊˈreɪʃən/",
     "contextSentence": "Four classical bits can be in one of two to the power of four different configurations at a time.",
+    "contextSentenceKo": "4개의 고전적 비트는 한 번에 2의 4제곱 가지 서로 다른 구성 중 하나의 상태에 있을 수 있습니다.",
     "segmentIndex": 33
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈælɡərɪðəm/",
     "contextSentence": "Quantum algorithms need only the square root of that time.",
+    "contextSentenceKo": "양자 알고리즘은 그 시간의 제곱근만 있으면 됩니다.",
     "segmentIndex": 50
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmɒlɪkjuːl/",
     "contextSentence": "Even for bigger structures such as molecules, they often lack accuracy.",
+    "contextSentenceKo": "분자와 같은 더 큰 구조에 대해서는 정확도가 부족한 경우가 많습니다.",
     "segmentIndex": 59
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˈvɑːstli/",
     "contextSentence": "In some areas they are vastly superior.",
+    "contextSentenceKo": "일부 분야에서는 압도적으로 우월합니다.",
     "segmentIndex": 48
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˌrɛvəˈluːʃənaɪz/",
     "contextSentence": "Quantum simulations could provide new insights on proteins that might revolutionize medicine.",
+    "contextSentenceKo": "양자 시뮬레이션은 의학을 혁명적으로 변화시킬 수 있는 단백질에 대한 새로운 통찰을 제공할 수 있습니다.",
     "segmentIndex": 61
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈfoʊtɒn/",
     "contextSentence": "A qubit can be any two-level quantum system, such as a spin in a magnetic field or a single photon.",
+    "contextSentenceKo": "큐비트는 자기장 속의 스핀이나 단일 광자처럼 어떤 이중 준위 양자 시스템이든 될 수 있습니다.",
     "segmentIndex": 27
   }
 ]

@@ -18,7 +18,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career."
+    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career.",
+    "contextSentenceKo": "그녀는 멋진 집에 살고, 정말 보람 있는 직업을 가지고 있습니다."
   },
   {
     "word": "gorgeous",
@@ -38,7 +39,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career."
+    "contextSentence": "She lives in a gorgeous house, and she has a really rewarding career.",
+    "contextSentenceKo": "그녀는 멋진 집에 살고, 정말 보람 있는 직업을 가지고 있습니다."
   },
   {
     "word": "blessed",
@@ -59,7 +61,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 5,
-    "contextSentence": "And she's always posting about how blessed she is."
+    "contextSentence": "And she's always posting about how blessed she is.",
+    "contextSentenceKo": "그리고 그녀는 자신이 얼마나 축복받았는지 항상 올립니다."
   },
   {
     "word": "destructive",
@@ -80,7 +83,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 24,
-    "contextSentence": "There's three kinds of destructive beliefs."
+    "contextSentence": "There's three kinds of destructive beliefs.",
+    "contextSentenceKo": "세 가지 종류의 파괴적인 믿음이 있습니다."
   },
   {
     "word": "magnify",
@@ -101,7 +105,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 29,
-    "contextSentence": "It's when you start to magnify your misfortune."
+    "contextSentence": "It's when you start to magnify your misfortune.",
+    "contextSentenceKo": "자신의 불행을 확대하기 시작할 때입니다."
   },
   {
     "word": "misfortune",
@@ -122,7 +127,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 29,
-    "contextSentence": "It's when you start to magnify your misfortune."
+    "contextSentence": "It's when you start to magnify your misfortune.",
+    "contextSentenceKo": "자신의 불행을 확대하기 시작할 때입니다."
   },
   {
     "word": "self-pity",
@@ -143,7 +149,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 29,
-    "contextSentence": "Self-pity goes beyond that."
+    "contextSentence": "Self-pity goes beyond that.",
+    "contextSentenceKo": "자기연민은 그 이상입니다."
   },
   {
     "word": "consequences",
@@ -164,7 +171,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 41,
-    "contextSentence": "Yeah, maybe there'll be consequences if you don't work late."
+    "contextSentence": "Yeah, maybe there'll be consequences if you don't work late.",
+    "contextSentenceKo": "네, 야근을 안 하면 결과가 있을 수도 있겠죠."
   },
   {
     "word": "cosmic",
@@ -185,7 +193,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 50,
-    "contextSentence": "But expecting success to fall into your lap like some sort of cosmic reward."
+    "contextSentence": "But expecting success to fall into your lap like some sort of cosmic reward.",
+    "contextSentenceKo": "하지만 성공이 어떤 우주적 보상처럼 저절로 굴러들어 오기를 기대하는 것은."
   },
   {
     "word": "muster",
@@ -205,7 +214,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 55,
-    "contextSentence": "Where you need all the mental strength that you can muster."
+    "contextSentence": "Where you need all the mental strength that you can muster.",
+    "contextSentenceKo": "끌어모을 수 있는 모든 정신력이 필요한 곳입니다."
   },
   {
     "word": "therapist",
@@ -226,7 +236,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 57,
-    "contextSentence": "I landed my first big job as a therapist."
+    "contextSentence": "I landed my first big job as a therapist.",
+    "contextSentenceKo": "저는 치료사로서 첫 큰 일자리를 얻었습니다."
   },
   {
     "word": "unresponsive",
@@ -247,7 +258,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 62,
-    "contextSentence": "She said that our mother was found unresponsive."
+    "contextSentence": "She said that our mother was found unresponsive.",
+    "contextSentenceKo": "그녀는 어머니가 의식이 없는 상태로 발견됐다고 말했습니다."
   },
   {
     "word": "aneurysm",
@@ -266,7 +278,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 66,
-    "contextSentence": "Doctors explained she'd had a brain aneurysm."
+    "contextSentence": "Doctors explained she'd had a brain aneurysm.",
+    "contextSentenceKo": "의사들은 어머니가 뇌동맥류를 겪었다고 설명했습니다."
   },
   {
     "word": "devastating",
@@ -287,7 +300,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 69,
-    "contextSentence": "That news was devastating to me."
+    "contextSentence": "That news was devastating to me.",
+    "contextSentenceKo": "그 소식은 저에게 충격적이었습니다."
   },
   {
     "word": "intellectual",
@@ -308,7 +322,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 70,
-    "contextSentence": "I knew on an intellectual level how to go through grief."
+    "contextSentence": "I knew on an intellectual level how to go through grief.",
+    "contextSentenceKo": "저는 머리로는 슬픔을 극복하는 방법을 알고 있었습니다."
   },
   {
     "word": "grief",
@@ -329,7 +344,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 70,
-    "contextSentence": "I knew on an intellectual level how to go through grief."
+    "contextSentence": "I knew on an intellectual level how to go through grief.",
+    "contextSentenceKo": "저는 머리로는 슬픔을 극복하는 방법을 알고 있었습니다."
   },
   {
     "word": "coincidentally",
@@ -350,7 +366,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 75,
-    "contextSentence": "Coincidentally, it was being played at the same auditorium where I had last seen my mother."
+    "contextSentence": "Coincidentally, it was being played at the same auditorium where I had last seen my mother.",
+    "contextSentenceKo": "공교롭게도 그것은 제가 어머니를 마지막으로 뵀던 바로 그 강당에서 공연되고 있었습니다."
   },
   {
     "word": "understatement",
@@ -371,7 +388,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 93,
-    "contextSentence": "To describe that as a painful period in my life feels like an understatement."
+    "contextSentence": "To describe that as a painful period in my life feels like an understatement.",
+    "contextSentenceKo": "그 시기를 인생에서 힘든 시기였다고 표현하는 건 너무 절제된 표현 같습니다."
   },
   {
     "word": "terminal",
@@ -392,7 +410,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 103,
-    "contextSentence": "I got the news that Steve's dad had terminal cancer."
+    "contextSentence": "I got the news that Steve's dad had terminal cancer.",
+    "contextSentenceKo": "스티브의 아버지가 말기 암이라는 소식을 들었습니다."
   },
   {
     "word": "gratitude",
@@ -413,7 +432,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 117,
-    "contextSentence": "You need good habits like practicing gratitude."
+    "contextSentence": "You need good habits like practicing gratitude.",
+    "contextSentenceKo": "감사를 실천하는 것 같은 좋은 습관이 필요합니다."
   },
   {
     "word": "resenting",
@@ -434,7 +454,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 118,
-    "contextSentence": "You also have to give up bad habits like resenting somebody else's success."
+    "contextSentence": "You also have to give up bad habits like resenting somebody else's success.",
+    "contextSentenceKo": "다른 사람의 성공을 원망하는 것 같은 나쁜 습관도 버려야 합니다."
   },
   {
     "word": "liberating",
@@ -455,7 +476,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 142,
-    "contextSentence": "And that can be liberating."
+    "contextSentence": "And that can be liberating.",
+    "contextSentenceKo": "그것은 해방감을 줄 수 있습니다."
   },
   {
     "word": "doomed",
@@ -476,7 +498,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 149,
-    "contextSentence": "So he just believed he was doomed."
+    "contextSentence": "So he just believed he was doomed.",
+    "contextSentenceKo": "그래서 그는 자신이 운명적으로 정해져 있다고 믿었습니다."
   },
   {
     "word": "complications",
@@ -497,7 +520,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 148,
-    "contextSentence": "His mother had died from complications of diabetes at a young age."
+    "contextSentence": "His mother had died from complications of diabetes at a young age.",
+    "contextSentenceKo": "그의 어머니는 젊은 나이에 당뇨 합병증으로 돌아가셨습니다."
   },
   {
     "word": "diabetic",
@@ -517,6 +541,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 146,
-    "contextSentence": "I once worked with this man who had been diabetic for years."
+    "contextSentence": "I once worked with this man who had been diabetic for years.",
+    "contextSentenceKo": "저는 한때 수년간 당뇨를 앓고 있던 남성과 함께 일했습니다."
   }
 ]

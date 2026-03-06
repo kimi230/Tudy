@@ -12,7 +12,7 @@
     "segmentIndex": 6
   },
   {
-    "pattern": "Present perfect: have/has + past participle (experience/result)",
+    "pattern": "Present perfect: have/has + past participle",
     "explanation": "Used to describe actions completed at an unspecified time that have present relevance. Emphasizes result or accomplishment rather than timing.",
     "explanationKo": "현재완료(have/has + 과거분사)는 과거에 완료된 행동이 현재와 관련이 있을 때 사용해요. 시점보다 결과나 성취에 초점을 맞춰요.",
     "examples": [
@@ -66,7 +66,7 @@
     "segmentIndex": 93
   },
   {
-    "pattern": "It turns out that + clause (revealing information)",
+    "pattern": "It turns out that + clause",
     "explanation": "Used to introduce a surprising or previously unknown fact. It signals that what follows may contradict expectations.",
     "explanationKo": "'It turns out that'은 놀라운 사실이나 이전에 몰랐던 정보를 소개할 때 사용해요. 뒤에 오는 내용이 예상과 다를 수 있음을 알려줘요.",
     "examples": [

@@ -42,7 +42,7 @@
     "segmentIndex": 11
   },
   {
-    "pattern": "You will + verb (future certainty)",
+    "pattern": "You will + verb",
     "explanation": "Used to state something as an absolute certainty about the future. The speaker presents failure and loss as unavoidable facts, not possibilities.",
     "explanationKo": "'You will + 동사원형'은 미래에 대한 절대적 확신을 표현할 때 사용해요. 화자가 실패와 상실을 가능성이 아닌 피할 수 없는 사실로 제시해요.",
     "examples": [
@@ -58,7 +58,7 @@
     "segmentIndex": 17
   },
   {
-    "pattern": "You've got to + verb (strong obligation)",
+    "pattern": "You've got to + verb",
     "explanation": "An informal way to express strong necessity or obligation. More emphatic than 'you should' and conveys urgency.",
     "explanationKo": "'You've got to + 동사원형'은 강한 필요성이나 의무를 표현하는 비격식적 표현이에요. 'you should'보다 더 강하고 긴급함을 전달해요.",
     "examples": [
@@ -74,7 +74,7 @@
     "segmentIndex": 16
   },
   {
-    "pattern": "Whether it's A, B, or C (listing alternatives)",
+    "pattern": "Whether it's A, B, or C",
     "explanation": "Used to present multiple options or possibilities, emphasizing that the statement applies regardless of which alternative is true.",
     "explanationKo": "'Whether it's A, B, or C'는 여러 선택지나 가능성을 제시할 때 사용해요. 어떤 대안이 사실이든 해당 내용이 적용됨을 강조해요.",
     "examples": [

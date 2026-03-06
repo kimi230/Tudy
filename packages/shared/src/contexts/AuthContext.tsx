@@ -17,7 +17,6 @@ export interface Profile {
 export interface AuthContextType {
   user: { id: string; email?: string | null; user_metadata?: { full_name?: string; avatar_url?: string } } | null;
   profile: Profile | null;
-  session: null;
   loading: boolean;
   signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
@@ -107,7 +106,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   return (
     <AuthContext.Provider
-      value={{ user, profile, session: null, loading, signInWithGoogle, signOut, refreshProfile }}
+      value={{ user, profile, loading, signInWithGoogle, signOut, refreshProfile }}
     >
       {children}
     </AuthContext.Provider>

@@ -18,7 +18,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 13,
-    "contextSentence": "About how I used my deep understanding of neuroscience,"
+    "contextSentence": "About how I used my deep understanding of neuroscience,",
+    "contextSentenceKo": "제가 신경과학에 대한 깊은 이해를 어떻게 활용했는지에 대해,"
   },
   {
     "word": "transformative",
@@ -39,7 +40,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 16,
-    "contextSentence": "Is the most transformative thing that you can do for your brain today."
+    "contextSentence": "Is the most transformative thing that you can do for your brain today.",
+    "contextSentenceKo": "오늘 당신의 뇌를 위해 할 수 있는 가장 혁신적인 일입니다."
   },
   {
     "word": "prefrontal cortex",
@@ -60,7 +62,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 23,
-    "contextSentence": "The first is the prefrontal cortex right behind your forehead,"
+    "contextSentence": "The first is the prefrontal cortex right behind your forehead,",
+    "contextSentenceKo": "첫 번째는 이마 바로 뒤에 있는 전전두엽 피질로,"
   },
   {
     "word": "hippocampus",
@@ -80,7 +83,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 30,
-    "contextSentence": "And that structure is called the hippocampus."
+    "contextSentence": "And that structure is called the hippocampus.",
+    "contextSentenceKo": "그 구조가 바로 해마라고 불립니다."
   },
   {
     "word": "neurotransmitter",
@@ -101,7 +105,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 106,
-    "contextSentence": "A single workout that you do will immediately increase levels of neurotransmitters"
+    "contextSentence": "A single workout that you do will immediately increase levels of neurotransmitters",
+    "contextSentenceKo": "한 번의 운동만으로도 신경전달물질의 수치가 즉시 증가합니다"
   },
   {
     "word": "dopamine",
@@ -122,7 +127,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 107,
-    "contextSentence": "Like dopamine, serotonin and noradrenaline."
+    "contextSentence": "Like dopamine, serotonin and noradrenaline.",
+    "contextSentenceKo": "도파민, 세로토닌, 노르아드레날린 같은 것들입니다."
   },
   {
     "word": "serotonin",
@@ -143,7 +149,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 107,
-    "contextSentence": "Like dopamine, serotonin and noradrenaline."
+    "contextSentence": "Like dopamine, serotonin and noradrenaline.",
+    "contextSentenceKo": "도파민, 세로토닌, 노르아드레날린 같은 것들입니다."
   },
   {
     "word": "neurodegenerative",
@@ -164,7 +171,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 144,
-    "contextSentence": "To neurodegenerative diseases"
+    "contextSentence": "To neurodegenerative diseases",
+    "contextSentenceKo": "신경퇴행성 질환에 대해"
   },
   {
     "word": "dementia",
@@ -185,7 +193,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 6,
-    "contextSentence": "Like depression, Alzheimer's disease or dementia?"
+    "contextSentence": "Like depression, Alzheimer's disease or dementia?",
+    "contextSentenceKo": "우울증, 알츠하이머병이나 치매 같은 것 말이죠?"
   },
   {
     "word": "cardiorespiratory",
@@ -206,7 +215,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 118,
-    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function"
+    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function",
+    "contextSentenceKo": "즉, 운동 습관을 바꾸고 심폐 기능을 향상시키면"
   },
   {
     "word": "inadvertent",
@@ -227,7 +237,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 49,
-    "contextSentence": "And I did it in a completely inadvertent way."
+    "contextSentence": "And I did it in a completely inadvertent way.",
+    "contextSentenceKo": "그리고 저는 그것을 완전히 의도치 않게 하게 되었습니다."
   },
   {
     "word": "physiology",
@@ -248,7 +259,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 121,
-    "contextSentence": "Physiology and function."
+    "contextSentence": "Physiology and function.",
+    "contextSentenceKo": "생리학과 기능입니다."
   },
   {
     "word": "cognitive",
@@ -269,7 +281,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 145,
-    "contextSentence": "And normal cognitive decline in aging."
+    "contextSentence": "And normal cognitive decline in aging.",
+    "contextSentenceKo": "그리고 노화에 따른 정상적인 인지 기능 저하입니다."
   },
   {
     "word": "susceptible",
@@ -290,7 +303,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 143,
-    "contextSentence": "Are the two areas that are most susceptible"
+    "contextSentence": "Are the two areas that are most susceptible",
+    "contextSentenceKo": "가장 취약한 두 영역은"
   },
   {
     "word": "aerobic",
@@ -311,7 +325,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 162,
-    "contextSentence": "And you want to get aerobic exercise in."
+    "contextSentence": "And you want to get aerobic exercise in.",
+    "contextSentenceKo": "유산소 운동을 하고 싶을 겁니다."
   },
   {
     "word": "transient",
@@ -332,7 +347,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 116,
-    "contextSentence": "But these immediate effects are transient."
+    "contextSentence": "But these immediate effects are transient.",
+    "contextSentenceKo": "하지만 이러한 즉각적인 효과는 일시적입니다."
   },
   {
     "word": "prescription",
@@ -353,7 +369,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 173,
-    "contextSentence": "I want to understand the optimum exercise prescription"
+    "contextSentence": "I want to understand the optimum exercise prescription",
+    "contextSentenceKo": "최적의 운동 처방을 이해하고 싶습니다"
   },
   {
     "word": "trajectory",
@@ -374,7 +391,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 202,
-    "contextSentence": "And in this way, it will change the trajectory of your life for the better."
+    "contextSentence": "And in this way, it will change the trajectory of your life for the better.",
+    "contextSentenceKo": "그리고 이런 방식으로, 당신의 인생의 궤적을 더 나은 방향으로 바꿀 것입니다."
   },
   {
     "word": "regime",
@@ -395,7 +413,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 118,
-    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function"
+    "contextSentence": "That is, change your exercise regime, increase your cardiorespiratory function",
+    "contextSentenceKo": "즉, 운동 습관을 바꾸고 심폐 기능을 향상시키면"
   },
   {
     "word": "temporal lobe",
@@ -416,7 +435,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 25,
-    "contextSentence": "The second key area is located in the temporal lobe,"
+    "contextSentence": "The second key area is located in the temporal lobe,",
+    "contextSentenceKo": "두 번째 핵심 영역은 측두엽에 위치해 있습니다,"
   },
   {
     "word": "anatomy",
@@ -437,7 +457,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 120,
-    "contextSentence": "And these effects are long-lasting, because exercise actually changes the brain's anatomy,"
+    "contextSentence": "And these effects are long-lasting, because exercise actually changes the brain's anatomy,",
+    "contextSentenceKo": "그리고 이 효과는 오래 지속되는데, 운동이 실제로 뇌의 구조를 변화시키기 때문입니다,"
   },
   {
     "word": "optimum",
@@ -458,7 +479,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 173,
-    "contextSentence": "I want to understand the optimum exercise prescription"
+    "contextSentence": "I want to understand the optimum exercise prescription",
+    "contextSentenceKo": "최적의 운동 처방을 이해하고 싶습니다"
   },
   {
     "word": "triathlete",
@@ -479,7 +501,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 158,
-    "contextSentence": "First, good news, you don't have to become a triathlete to get these effects."
+    "contextSentence": "First, good news, you don't have to become a triathlete to get these effects.",
+    "contextSentenceKo": "먼저 좋은 소식은, 이런 효과를 얻기 위해 철인 3종 경기 선수가 될 필요는 없다는 것입니다."
   },
   {
     "word": "protective",
@@ -500,7 +523,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 10,
-    "contextSentence": "Has immediate, long-lasting and protective benefits for your brain,"
+    "contextSentence": "Has immediate, long-lasting and protective benefits for your brain,",
+    "contextSentenceKo": "뇌에 즉각적이고 오래 지속되는 보호 효과를 줍니다,"
   },
   {
     "word": "incurable",
@@ -521,6 +545,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 201,
-    "contextSentence": "But it will protect your brain from incurable diseases."
+    "contextSentence": "But it will protect your brain from incurable diseases.",
+    "contextSentenceKo": "하지만 불치병으로부터 당신의 뇌를 보호할 것입니다."
   }
 ]

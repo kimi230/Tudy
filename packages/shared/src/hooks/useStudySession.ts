@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef, useContext } from 'react';
 import { syncSessionToCloud, pullSessionsFromCloud } from '../lib/supabaseSync';
 import { awardXP } from '../lib/xpService';
-import { useAuth } from './useAuth';
+import { useUserIdRef } from './useUserIdRef';
 import { XPToastContext } from '../contexts/XPToastContext';
 import { XP_RULES } from './useRewards';
 import type { StudySession, MarkedSegment, CornellNotes } from '../types';
@@ -39,10 +39,7 @@ export function useStudySession(videoId: string) {
   const [loading, setLoading] = useState(true);
   const timerRef = useRef<number | null>(null);
   const startTimeRef = useRef<number>(0);
-  const auth = useAuth();
-  const userId = auth.user?.id;
-  const userIdRef = useRef(userId);
-  userIdRef.current = userId;
+  const { auth, userId, userIdRef } = useUserIdRef();
   const xpToast = useContext(XPToastContext);
 
   // Load or create session
@@ -137,11 +134,11 @@ export function useStudySession(videoId: string) {
       if (uid) {
         (async () => {
           try {
-            await awardXP(uid, 'step_complete', XP_RULES.step_complete, { step, videoId });
-            xpToast?.showXPToast(XP_RULES.step_complete, '학습 스텝 완료');
+            const stepAwarded = await awardXP(uid, 'step_complete', XP_RULES.step_complete, { step, videoId });
+            if (stepAwarded) xpToast?.showXPToast(stepAwarded, '학습 스텝 완료');
             if (isSessionComplete) {
-              await awardXP(uid, 'session_complete', XP_RULES.session_complete, { videoId });
-              xpToast?.showXPToast(XP_RULES.session_complete, '학습 세션 완료 보너스!');
+              const sessionAwarded = await awardXP(uid, 'session_complete', XP_RULES.session_complete, { videoId });
+              if (sessionAwarded) xpToast?.showXPToast(sessionAwarded, '학습 세션 완료 보너스!');
             }
             auth.refreshProfile();
           } catch { /* offline */ }

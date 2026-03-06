@@ -1,0 +1,218 @@
+# ==============================================================================
+# stdyEng 영상 검색 워크플로우
+# ==============================================================================
+# 참조: pipeline/bootstrap.yaml (마스터 정의)
+#
+# 사용자 요구에 맞는 YouTube 영상을 검색하고 추천
+# 예: "중급 동기부여 영상 찾아줘"
+
+workflow:
+  name: video_search_pipeline
+  version: "2.0"
+
+# ==============================================================================
+# 입력
+# ==============================================================================
+input:
+  level:
+    type: enum
+    values: [beginner, elementary, intermediate, upper-intermediate, advanced]
+    default: intermediate
+    description: "학습 난이도"
+  category:
+    type: enum
+    values: [pronunciation, business, daily, academic, travel, tech, current, culture, science, motivation, news, anime]
+    description: "콘텐츠 카테고리"
+  topics:
+    type: list[string]
+    default: []
+    description: "특정 토픽 (선택)"
+  count:
+    type: integer
+    default: 5
+    description: "최종 추천 영상 수"
+
+# ==============================================================================
+# 단계
+# ==============================================================================
+steps:
+
+  # --- Step 1: 검색 + 기초 분석 (도구) ---
+  - id: search_and_analyze
+    name: "검색 + 분석"
+    executor: bash
+    command: >
+      python3 pipeline/search/video_search.py
+      --level {level}
+      --category {category}
+      --topics "{topics}"
+    output: pipeline/.tmp/candidates.json
+    description: |
+      1. 레벨/카테고리/토픽으로 검색 쿼리 생성
+      2. yt-dlp ytsearch로 후보 검색 (20~100개)
+      3. 길이/조회수/품질 신호/카테고리 적합도 필터 (10~30 후보)
+      4. 자막 다운로드 + 속도(WPM/CPM) + 어휘 접근성 + 카테고리 적합도 재검증
+    fallback:
+      - if: "candidates < 10 → --max-results 20 으로 쿼리 확장 재시도"
+      - if: "candidates < 5 → 큐레이션 채널 직접 검색 폴백"
+
+  # --- Step 2: 구조/콘텐츠 평가 (Claude Code 직접) ---
+  - id: evaluate
+    name: "구조/콘텐츠 평가"
+    executor: claude_code
+    input: pipeline/.tmp/candidates.json
+    output: pipeline/.tmp/evaluated.json
+    action: |
+      candidates.json의 각 후보 영상 자막(subtitle_text)을 읽고 평가:
+      1. structure (1~10): 서론/본론/결론 구조 명확성
+      2. content (1~10): 교육적, 긍정적, 사고 촉진
+      3. clarity (1~10): 화자 발음 명료성 (자막 품질로 추정)
+      4. engagement (1~10): 학습자 흥미도
+      5. safety (1~10): 학습용으로 안전한 콘텐츠인지
+      6. risk_flags: 위험 태그 배열 (예: ["sexual", "hate", "self_harm", "extremism", "violence"])
+      7. category: 최적 카테고리 추천
+      8. summary: 1줄 한국어 요약
+    reject_if: "structure < 4 or content < 4 or safety < 5 or risk_flags contains blocked tags"
+    format:
+      schema: |
+        [
+          {
+            "video_id": "...",
+            "structure": 8,
+            "content": 7,
+            "clarity": 9,
+            "engagement": 8,
+            "safety": 9,
+            "risk_flags": [],
+            "category": "motivation",
+            "summary": "1줄 한국어 요약"
+          }
+        ]
+
+  # --- Step 3: 랭킹 (도구) ---
+  - id: rank
+    name: "중복체크 + 종합 랭킹"
+    executor: bash
+    command: >
+      python3 pipeline/search/video_search.py
+      --rank
+      --evaluated pipeline/.tmp/evaluated.json
+      --count {count}
+    input: pipeline/.tmp/evaluated.json
+    output: pipeline/.tmp/recommendations.json
+    description: |
+      1. 기존 videos.json과 비교하여 중복 제거
+      2. 종합 스코어링 (100점):
+         - 난이도 적합도 27%
+         - 구조 명확성 18%
+         - 어휘 접근성 17%
+         - 콘텐츠 가치 14%
+         - 채널 신뢰도 5%
+         - 카테고리 적합도 5%
+         - 메타데이터 품질 5%
+         - 최신성 5%
+         - 안전성 4%
+
+  # --- Step 4: 결과 표시 + 선택 → 처리 (Claude Code 직접) ---
+  - id: present_and_process
+    name: "결과 표시 + 영상 처리"
+    executor: claude_code
+    action: |
+      1. recommendations.json 읽어서 사용자에게 표 형태로 표시:
+         | # | 제목 | 채널 | 길이 | 점수 | 요약 |
+      2. 사용자가 선택하면 → workflow.yaml (영상 처리 워크플로우) 실행
+
+# ==============================================================================
+# 큐레이션 소스
+# ==============================================================================
+curated_sources:
+  high_priority_channels:
+    - TED
+    - TEDx Talks
+    - TED-Ed
+
+  category_channels:
+    science: [CrashCourse, Veritasium, "Kurzgesagt \u2013 In a Nutshell",
+              3Blue1Brown, SmarterEveryDay, Vsauce, Real Engineering,
+              MinutePhysics, PBS Space Time, Numberphile, Up and Atom]
+    business: [Harvard Business Review, Stanford Graduate School of Business, Talks at Google,
+               Economics Explained, The Economist, Y Combinator, a16z,
+               How Money Works, Patrick Boyle]
+    tech: [Google, MIT OpenCourseWare, Computerphile, Fireship, Two Minute Papers,
+           Marques Brownlee, Linus Tech Tips]
+    motivation: [Goalcast, Motivation2Study, After Skool, "Einzelg\xE4nger", Academy of Ideas]
+    academic: [MIT OpenCourseWare, Stanford, Yale Courses, Lex Fridman Podcast,
+               Talks at Google, Oxford Union, Intelligence Squared]
+    culture: [TED-Ed, National Geographic, OverSimplified, FRONTLINE PBS,
+              Vox, Johnny Harris, Knowing Better, CaspianReport]
+    current: [Wendover Productions, The Economist, TLDR News Global,
+              VisualPolitik EN, RealLifeLore]
+    news: [BBC News, CNN, Al Jazeera English, DW News, CNBC,
+           TLDR News Global, Channel 4 News]
+    anime: [Gigguk, "Mother's Basement", Super Eyepatch Wolf, Nux Taku, Trash Taste]
+    pronunciation: ["Rachel's English", English with Lucy, Speak English With Vanessa,
+                     Pronunciation with Emma, mmmEnglish]
+    daily: [English with Lucy, BBC Learning English, engVid, English Addict with Mr Duncan]
+    travel: ["Wolters World", "Rick Steves' Europe", Geography Now, Kara and Nate]
+
+  legendary_speakers:
+    # TED classics
+    - Simon Sinek
+    - "Bren\xE9 Brown"
+    - Tim Urban
+    - Dan Pink
+    - Amy Cuddy
+    - Hans Rosling
+    - Ken Robinson
+    - Yuval Noah Harari
+    - Malcolm Gladwell
+    - Angela Duckworth
+    - Adam Grant
+    - Susan Cain
+    - Chimamanda Ngozi Adichie
+    - Shawn Achor
+    - James Clear
+    - Cal Newport
+    - Robert Waldinger
+    - Carol Dweck
+    - Daniel Kahneman
+    - Steven Pinker
+    - Rutger Bregman
+    # Public figures
+    - Bill Gates
+    - Elon Musk
+    - Barack Obama
+    - Jordan Peterson
+    # YouTube educators
+    - Lex Fridman
+    - Andrew Huberman
+    - Grant Sanderson
+    - Destin Sandlin
+    - Michael Stevens
+    - Sam Wendover
+    - Derek Muller
+    - CGP Grey
+    - Hank Green
+    - John Green
+    - Ali Abdaal
+    - Mark Rober
+
+# ==============================================================================
+# 난이도 프로파일 (video_search.py DIFFICULTY_PROFILES와 동기화)
+# ==============================================================================
+difficulty_profiles:
+  beginner:
+    target_wpm: [90, 120]
+    duration_sec: [300, 480]
+  elementary:
+    target_wpm: [120, 140]
+    duration_sec: [360, 540]
+  intermediate:
+    target_wpm: [140, 160]
+    duration_sec: [420, 720]
+  upper-intermediate:
+    target_wpm: [160, 185]
+    duration_sec: [480, 840]
+  advanced:
+    target_wpm: [185, 220]
+    duration_sec: [540, 900]

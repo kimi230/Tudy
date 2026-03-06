@@ -3,9 +3,8 @@ import {
   AuthProvider, XPToastProvider, Header, ScrollToTop, LoginPage,
   HomePage, CategoryPage, StudyPage, DictationPage,
   DailyLearningPage, LibraryPage, VocabularyPage,
-  ProfilePage, RequestPage, SubscribePage,
+  ErrorNotePage, ProfilePage, RequestPage, AboutPage, SubscribePage,
 } from '@stdylang/shared';
-import About from './pages/About';
 
 export default function App() {
   return (
@@ -27,10 +26,11 @@ export default function App() {
                   <Route path="/daily" element={<DailyLearningPage />} />
                   <Route path="/request" element={<RequestPage />} />
                   <Route path="/vocabulary" element={<VocabularyPage />} />
-                  <Route path="/about" element={<About />} />
+                  <Route path="/about" element={<AboutPage />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/profile" element={<ProfilePage />} />
                   <Route path="/library" element={<LibraryPage />} />
+                  <Route path="/error-notes" element={<ErrorNotePage />} />
                 </Routes>
               </main>
             </div>

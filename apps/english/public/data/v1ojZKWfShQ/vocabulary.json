@@ -15,7 +15,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "Why is it that intelligent people procrastinate?"
+    "contextSentence": "Why is it that intelligent people procrastinate?",
+    "contextSentenceKo": "똑똒한 사람들이 왜 미루는 걸까요?"
   },
   {
     "word": "self-sabotage",
@@ -32,7 +33,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 2,
-    "contextSentence": "Why is it that people that are so self-motivated often self-sabotage?"
+    "contextSentence": "Why is it that people that are so self-motivated often self-sabotage?",
+    "contextSentenceKo": "자기 동기부여가 강한 사람들이 왜 종종 자기 자신을 방해할까요?"
   },
   {
     "word": "mediocre",
@@ -50,7 +52,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 22,
-    "contextSentence": "That causes the frustration for most people and keeps them on that hamster wheel of mediocrity."
+    "contextSentence": "That causes the frustration for most people and keeps them on that hamster wheel of mediocrity.",
+    "contextSentenceKo": "그것이 대부분의 사람들에게 좌절감을 안겨주고 평범함의 쳇바퀴에서 벗어나지 못하게 합니다."
   },
   {
     "word": "neocortex",
@@ -68,7 +71,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 26,
-    "contextSentence": "What's known as the neocortex or the frontal lobe."
+    "contextSentence": "What's known as the neocortex or the frontal lobe.",
+    "contextSentenceKo": "신피질 또는 전두엽이라고 불리는 부분입니다."
   },
   {
     "word": "impressionable",
@@ -86,7 +90,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 31,
-    "contextSentence": "Now, it also means children are very impressionable."
+    "contextSentence": "Now, it also means children are very impressionable.",
+    "contextSentenceKo": "또한 그것은 아이들이 매우 영향을 받기 쉽다는 뜻이기도 합니다."
   },
   {
     "word": "hardwired",
@@ -104,7 +109,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 18,
-    "contextSentence": "You see, as human beings, our nervous system is hardwired for comfort."
+    "contextSentence": "You see, as human beings, our nervous system is hardwired for comfort.",
+    "contextSentenceKo": "아시다시피 인간의 신경계는 편안함을 추구하도록 타고났습니다."
   },
   {
     "word": "unravel",
@@ -122,7 +128,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 23,
-    "contextSentence": "So how do we unravel that?"
+    "contextSentence": "So how do we unravel that?",
+    "contextSentenceKo": "그러면 그것을 어떻게 풀어낼 수 있을까요?"
   },
   {
     "word": "amygdala",
@@ -139,7 +146,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 148,
-    "contextSentence": "The job of the mainstream media is to stimulate another part of the brain called the amygdala."
+    "contextSentence": "The job of the mainstream media is to stimulate another part of the brain called the amygdala.",
+    "contextSentenceKo": "주류 미디어의 역할은 편도체라 불리는 뇌의 또 다른 부분을 자극하는 것입니다."
   },
   {
     "word": "conformity",
@@ -157,7 +165,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 126,
-    "contextSentence": "At some point you're going to start to believe it. That's the law of conformity."
+    "contextSentence": "At some point you're going to start to believe it. That's the law of conformity.",
+    "contextSentenceKo": "어느 순간 여러분은 그것을 믿기 시작할 겁니다. 그것이 동조의 법칙입니다."
   },
   {
     "word": "psychotherapeutic",
@@ -175,7 +184,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 61,
-    "contextSentence": "I've come to know that the undisputed first law in psychotherapeutic intervention and other areas."
+    "contextSentence": "I've come to know that the undisputed first law in psychotherapeutic intervention and other areas.",
+    "contextSentenceKo": "심리치료 개입 및 다른 분야에서 이론의 여지가 없는 제1법칙을 알게 되었습니다."
   },
   {
     "word": "undisputed",
@@ -193,7 +203,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 62,
-    "contextSentence": "The undisputed first law of personal growth is this."
+    "contextSentence": "The undisputed first law of personal growth is this.",
+    "contextSentenceKo": "개인 성장의 이론의 여지 없는 제1법칙은 바로 이것입니다."
   },
   {
     "word": "innate",
@@ -211,7 +222,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 21,
-    "contextSentence": "And the innate calling of our potential that lies outside of that."
+    "contextSentence": "And the innate calling of our potential that lies outside of that.",
+    "contextSentenceKo": "그리고 그 너머에 있는 우리 잠재력의 타고난 부름."
   },
   {
     "word": "reeling",
@@ -229,7 +241,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 42,
-    "contextSentence": "And he's still reeling from the lack of intimacy that morning."
+    "contextSentence": "And he's still reeling from the lack of intimacy that morning.",
+    "contextSentenceKo": "그리고 그는 그날 아침 친밀감이 부족했던 것에 여전히 충격을 받고 있습니다."
   },
   {
     "word": "persistent",
@@ -247,7 +260,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 49,
-    "contextSentence": "Children are prime examples of the ability to be persistent, are they not?"
+    "contextSentence": "Children are prime examples of the ability to be persistent, are they not?",
+    "contextSentenceKo": "아이들은 끈기 있게 행동하는 능력의 대표적인 예시 아닌가요?"
   },
   {
     "word": "industrious",
@@ -265,7 +279,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 87,
-    "contextSentence": "Ants are industrious."
+    "contextSentence": "Ants are industrious.",
+    "contextSentenceKo": "개미는 부지런합니다."
   },
   {
     "word": "analogy",
@@ -283,7 +298,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 86,
-    "contextSentence": "In fact, I'll give you an analogy."
+    "contextSentence": "In fact, I'll give you an analogy.",
+    "contextSentenceKo": "사실 비유를 하나 들어드리겠습니다."
   },
   {
     "word": "affirmation",
@@ -301,7 +317,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 122,
-    "contextSentence": "In other words, you can read all of the positive affirmations."
+    "contextSentence": "In other words, you can read all of the positive affirmations.",
+    "contextSentenceKo": "다시 말해, 긍정적인 확언을 아무리 많이 읽어도 소용없습니다."
   },
   {
     "word": "embodiment",
@@ -319,7 +336,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 215,
-    "contextSentence": "And ultimately, be the embodiment of what Gandhi said."
+    "contextSentence": "And ultimately, be the embodiment of what Gandhi said.",
+    "contextSentenceKo": "그리고 궁극적으로 간디가 말한 것의 화신이 되세요."
   },
   {
     "word": "imposition",
@@ -337,7 +355,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 210,
-    "contextSentence": "Not the imposition. Nobody changes because you tell them to."
+    "contextSentence": "Not the imposition. Nobody changes because you tell them to.",
+    "contextSentenceKo": "강요가 아닙니다. 누군가에게 변하라고 해서 변하는 사람은 없습니다."
   },
   {
     "word": "minefield",
@@ -355,7 +374,8 @@
     ],
     "isEssential": false,
     "segmentIndex": 189,
-    "contextSentence": "Work with a decent mentor or a coach that understands how to navigate the minefield of human behavior."
+    "contextSentence": "Work with a decent mentor or a coach that understands how to navigate the minefield of human behavior.",
+    "contextSentenceKo": "인간 행동이라는 지뢰밭을 헤쳐나가는 법을 아는 훌륭한 멘토나 코치와 함께하세요."
   },
   {
     "word": "downsizing",
@@ -373,7 +393,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 41,
-    "contextSentence": "He's worried about whether the boss is going to be downsizing soon."
+    "contextSentence": "He's worried about whether the boss is going to be downsizing soon.",
+    "contextSentenceKo": "그는 상사가 곧 구조조정을 할지 걱정하고 있습니다."
   },
   {
     "word": "recreational",
@@ -391,7 +412,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 127,
-    "contextSentence": "If you hang out with nine recreational drug users, I've got news for you."
+    "contextSentence": "If you hang out with nine recreational drug users, I've got news for you.",
+    "contextSentenceKo": "기호용 약물 사용자 아홉 명과 어울리면 안 좋은 소식이 있습니다."
   },
   {
     "word": "mastery",
@@ -409,7 +431,8 @@
     ],
     "isEssential": true,
     "segmentIndex": 201,
-    "contextSentence": "That's when we can start to achieve the real game in town, which is self mastery."
+    "contextSentence": "That's when we can start to achieve the real game in town, which is self mastery.",
+    "contextSentenceKo": "그때부터 진정한 목표인 자기 수양을 달성하기 시작할 수 있습니다."
   },
   {
     "word": "descending",
@@ -427,6 +450,7 @@
     ],
     "isEssential": false,
     "segmentIndex": 205,
-    "contextSentence": "We're able to walk into a room where everything's descending into chaos and retain our center."
+    "contextSentence": "We're able to walk into a room where everything's descending into chaos and retain our center.",
+    "contextSentenceKo": "모든 것이 혼돈에 빠져드는 방에 들어가서도 우리의 중심을 유지할 수 있게 됩니다."
   }
 ]

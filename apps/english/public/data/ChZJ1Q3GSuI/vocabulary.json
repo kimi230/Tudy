@@ -10,7 +10,8 @@
     "relatedWords": ["pronounce", "enunciate", "articulate"],
     "isEssential": true,
     "segmentIndex": 5,
-    "contextSentence": "So we're looking at pronunciation."
+    "contextSentence": "So we're looking at pronunciation.",
+    "contextSentenceKo": "그래서 우리는 발음을 살펴보겠습니다."
   },
   {
     "word": "consonant",
@@ -23,7 +24,8 @@
     "relatedWords": ["consonance", "dissonant", "sonant"],
     "isEssential": true,
     "segmentIndex": 12,
-    "contextSentence": "You can connect consonant to consonant."
+    "contextSentence": "You can connect consonant to consonant.",
+    "contextSentenceKo": "자음과 자음을 연결할 수 있습니다."
   },
   {
     "word": "vowel",
@@ -36,7 +38,8 @@
     "relatedWords": ["vocal", "voice", "vocalize"],
     "isEssential": true,
     "segmentIndex": 13,
-    "contextSentence": "A vowel is A, E, I, O, U."
+    "contextSentence": "A vowel is A, E, I, O, U.",
+    "contextSentenceKo": "모음은 A, E, I, O, U입니다."
   },
   {
     "word": "syllable",
@@ -49,7 +52,8 @@
     "relatedWords": ["monosyllabic", "polysyllabic", "syllabify"],
     "isEssential": true,
     "segmentIndex": 24,
-    "contextSentence": "A syllable is the vowel sounds in a word."
+    "contextSentence": "A syllable is the vowel sounds in a word.",
+    "contextSentenceKo": "음절이란 단어 안의 모음 소리를 말합니다."
   },
   {
     "word": "enunciate",
@@ -62,7 +66,8 @@
     "relatedWords": ["enunciation", "announce", "pronounce"],
     "isEssential": true,
     "segmentIndex": 40,
-    "contextSentence": "We have a word called enunciate."
+    "contextSentence": "We have a word called enunciate.",
+    "contextSentenceKo": "enunciate라는 단어가 있습니다."
   },
   {
     "word": "emphasize",
@@ -75,7 +80,8 @@
     "relatedWords": ["emphasis", "emphatic", "emphatically"],
     "isEssential": true,
     "segmentIndex": 39,
-    "contextSentence": "If you want to emphasize something."
+    "contextSentence": "If you want to emphasize something.",
+    "contextSentenceKo": "무언가를 강조하고 싶을 때 쓰입니다."
   },
   {
     "word": "squeeze",
@@ -88,7 +94,8 @@
     "relatedWords": ["compress", "press", "squish"],
     "isEssential": false,
     "segmentIndex": 11,
-    "contextSentence": "You're squeezing them together, you're connecting them."
+    "contextSentence": "You're squeezing them together, you're connecting them.",
+    "contextSentenceKo": "단어들을 함께 압축하고, 연결하는 거예요."
   },
   {
     "word": "blend",
@@ -101,7 +108,8 @@
     "relatedWords": ["blender", "mixture", "combine"],
     "isEssential": false,
     "segmentIndex": 27,
-    "contextSentence": "Say it quickly, blend the letters one into the next."
+    "contextSentence": "Say it quickly, blend the letters one into the next.",
+    "contextSentenceKo": "빨리 말하면서, 글자들을 하나씩 다음 글자에 섞어보세요."
   },
   {
     "word": "native speaker",
@@ -114,7 +122,8 @@
     "relatedWords": ["fluent", "mother tongue", "first language"],
     "isEssential": true,
     "segmentIndex": 1,
-    "contextSentence": "A little bit more like a native speaker, hopefully."
+    "contextSentence": "A little bit more like a native speaker, hopefully.",
+    "contextSentenceKo": "바라건대, 원어민처럼 조금 더 자연스럽게요."
   },
   {
     "word": "flow",
@@ -127,7 +136,8 @@
     "relatedWords": ["overflow", "fluent", "fluid"],
     "isEssential": false,
     "segmentIndex": 11,
-    "contextSentence": "So one word flows into the next word."
+    "contextSentence": "So one word flows into the next word.",
+    "contextSentenceKo": "그래서 한 단어가 다음 단어로 자연스럽게 이어집니다."
   },
   {
     "word": "dictation",
@@ -140,7 +150,8 @@
     "relatedWords": ["dictate", "diction", "dictionary"],
     "isEssential": false,
     "segmentIndex": 59,
-    "contextSentence": "What you can do is you can try to do dictation."
+    "contextSentence": "What you can do is you can try to do dictation.",
+    "contextSentenceKo": "여러분이 할 수 있는 것은 받아쓰기를 해보는 것입니다."
   },
   {
     "word": "tongue",
@@ -153,7 +164,8 @@
     "relatedWords": ["mother tongue", "tongue-tied", "bilingual"],
     "isEssential": false,
     "segmentIndex": 17,
-    "contextSentence": "But according to the tongue and the mouth, they almost sound the same."
+    "contextSentence": "But according to the tongue and the mouth, they almost sound the same.",
+    "contextSentenceKo": "하지만 혀와 입의 움직임에 따르면, 거의 같은 소리가 납니다."
   },
   {
     "word": "comfortable",
@@ -166,7 +178,8 @@
     "relatedWords": ["comfort", "uncomfortable", "discomfort"],
     "isEssential": true,
     "segmentIndex": 35,
-    "contextSentence": "I've heard many students say comf-or-ta-ble."
+    "contextSentence": "I've heard many students say comf-or-ta-ble.",
+    "contextSentenceKo": "많은 학생들이 comf-or-ta-ble이라고 발음하는 것을 들었습니다."
   },
   {
     "word": "pronoun",
@@ -179,7 +192,8 @@
     "relatedWords": ["noun", "pronominal", "rename"],
     "isEssential": false,
     "segmentIndex": 6,
-    "contextSentence": "It is not a pronoun. A pronoun is I, me, my, mine."
+    "contextSentence": "It is not a pronoun. A pronoun is I, me, my, mine.",
+    "contextSentenceKo": "그것은 대명사가 아닙니다. 대명사는 I, me, my, mine입니다."
   },
   {
     "word": "patient",
@@ -192,7 +206,8 @@
     "relatedWords": ["patience", "impatient", "patiently"],
     "isEssential": false,
     "segmentIndex": 4,
-    "contextSentence": "But it takes time, be patient."
+    "contextSentence": "But it takes time, be patient.",
+    "contextSentenceKo": "하지만 시간이 걸리니, 인내심을 가지세요."
   },
   {
     "word": "roll off the tongue",
@@ -205,7 +220,8 @@
     "relatedWords": ["fluent", "smooth", "natural"],
     "isEssential": true,
     "segmentIndex": 56,
-    "contextSentence": "It just rolls off the tongue just like that."
+    "contextSentence": "It just rolls off the tongue just like that.",
+    "contextSentenceKo": "그냥 그렇게 자연스럽게 입에서 나옵니다."
   },
   {
     "word": "separate",
@@ -218,7 +234,8 @@
     "relatedWords": ["separation", "inseparable", "apart"],
     "isEssential": false,
     "segmentIndex": 23,
-    "contextSentence": "Separate the syllable before."
+    "contextSentence": "Separate the syllable before.",
+    "contextSentenceKo": "앞의 음절을 분리하세요."
   },
   {
     "word": "naturally",
@@ -231,7 +248,8 @@
     "relatedWords": ["natural", "nature", "unnatural"],
     "isEssential": false,
     "segmentIndex": 22,
-    "contextSentence": "That's how a native speaker would say it naturally."
+    "contextSentence": "That's how a native speaker would say it naturally.",
+    "contextSentenceKo": "원어민이 자연스럽게 말하면 그렇게 됩니다."
   },
   {
     "word": "habit",
@@ -244,7 +262,8 @@
     "relatedWords": ["habitual", "inhabit", "habitat"],
     "isEssential": false,
     "segmentIndex": 55,
-    "contextSentence": "It's more a habit than anything else."
+    "contextSentence": "It's more a habit than anything else.",
+    "contextSentenceKo": "그것은 무엇보다도 습관에 가깝습니다."
   },
   {
     "word": "recording",
@@ -257,6 +276,7 @@
     "relatedWords": ["record", "recorder", "recorded"],
     "isEssential": false,
     "segmentIndex": 31,
-    "contextSentence": "Somebody on the recording will say, not at all."
+    "contextSentence": "Somebody on the recording will say, not at all.",
+    "contextSentenceKo": "녹음에서 누군가가 'not at all'이라고 말할 겁니다."
   }
 ]

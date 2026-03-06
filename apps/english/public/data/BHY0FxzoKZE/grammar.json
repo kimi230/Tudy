@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "What if + past tense (Hypothetical Conditional)",
+    "pattern": "What if + past tense",
     "explanation": "Used to introduce a hypothetical situation. 'What if I told you...' uses the past tense 'told' even though it refers to the present moment, creating a sense of an intriguing proposition.",
     "explanationKo": "'What if + 과거시제'는 가정적 상황을 제시할 때 사용합니다. 현재 상황을 말하지만 과거시제를 써서 흥미로운 제안의 느낌을 만듭니다.",
     "examples": [
@@ -26,8 +26,8 @@
     "segmentIndex": 31
   },
   {
-    "pattern": "It's one thing to... and (it's) another to... (Contrast Structure)",
-    "explanation": "A rhetorical structure used to contrast two actions or ideas, emphasizing that the second is more significant or different from the first. Commonly used in persuasive speech.",
+    "pattern": "It's one thing to... and it's another to...",
+    "explanation": "A contrast structure using paired infinitives: 'It's one thing to [verb A]' acknowledges something, while 'it's another to [verb B]' emphasizes that the second action is different or more significant.",
     "explanationKo": "두 가지 행동이나 아이디어를 대조하는 수사적 구조로, 두 번째가 첫 번째보다 더 중요하거나 다르다는 것을 강조합니다. 설득력 있는 연설에서 자주 사용됩니다.",
     "examples": [
       "But it's one thing to talk about the brain, and it's another to see it.",
@@ -40,19 +40,7 @@
     "segmentIndex": 20
   },
   {
-    "pattern": "How could it be that... (Rhetorical Question with Embedded Clause)",
-    "explanation": "A rhetorical question pattern used to express wonder or set up an explanation. The 'that' clause introduces the specific phenomenon the speaker is questioning.",
-    "explanationKo": "'How could it be that...'은 경이로움을 표현하거나 설명을 이끌어내기 위한 수사적 질문 패턴입니다. 'that' 절이 화자가 의문을 품는 구체적인 현상을 소개합니다.",
-    "examples": [
-      "How could it be that an event that lasts just a moment... can form a memory that has changed your brain"
-    ],
-    "examplesKo": [
-      "단지 한순간에 불과한 사건이 어떻게 뇌를 변화시킨 기억을 형성할 수 있을까"
-    ],
-    "segmentIndex": 32
-  },
-  {
-    "pattern": "Not only... but (also)... (Correlative Conjunction)",
+    "pattern": "Not only... but (also)...",
     "explanation": "Used to add emphasis by stating that two things are true, where the second is often surprising or especially important. Creates a building, cumulative effect in argumentation.",
     "explanationKo": "두 가지가 모두 사실임을 강조하면서, 두 번째 내용이 더 놀랍거나 중요하다는 것을 나타낼 때 사용합니다. 논증에서 점층적 효과를 만듭니다.",
     "examples": [
@@ -66,7 +54,7 @@
     "segmentIndex": 132
   },
   {
-    "pattern": "The more... the more... (Proportional Comparative)",
+    "pattern": "The more... the more...",
     "explanation": "A correlative structure expressing that two things increase together proportionally. Used to show cause-and-effect relationships that scale.",
     "explanationKo": "두 가지가 비례적으로 함께 증가한다는 것을 표현하는 상관 구조입니다. 규모에 따라 커지는 인과관계를 보여줄 때 사용합니다.",
     "examples": [
@@ -80,7 +68,7 @@
     "segmentIndex": 96
   },
   {
-    "pattern": "Going to (Future with intention/prediction)",
+    "pattern": "Going to",
     "explanation": "Used extensively in spoken English for both predictions and planned future actions. In this talk, 'going to' is used to make predictions about what exercise will do for listeners.",
     "explanationKo": "'going to'는 구어 영어에서 예측과 계획된 미래 행동 모두에 광범위하게 사용됩니다. 이 강연에서는 운동이 청자에게 가져다줄 변화를 예측할 때 사용됩니다.",
     "examples": [
@@ -96,7 +84,7 @@
     "segmentIndex": 108
   },
   {
-    "pattern": "Relative Clauses with 'that' (Defining Relative Clause)",
+    "pattern": "that + 관계절",
     "explanation": "Defining relative clauses with 'that' are used to specify which particular thing or person is being referred to. Essential for building complex, precise sentences in academic English.",
     "explanationKo": "'that'을 사용한 관계절은 어떤 특정한 사물이나 사람을 지칭하는지 명시할 때 사용됩니다. 학술 영어에서 복잡하고 정밀한 문장을 구성하는 데 필수적입니다.",
     "examples": [
@@ -128,7 +116,7 @@
     "segmentIndex": 19
   },
   {
-    "pattern": "Present Participle as Reason/Cause (Because + -ing clause)",
+    "pattern": "Present Participle as Reason/Cause",
     "explanation": "Using 'because + subject + was/were + -ing' to explain the reason for something, often describing an ongoing background activity that caused or accompanied another event.",
     "explanationKo": "'because + 주어 + was/were + -ing'를 사용하여 이유를 설명하며, 다른 사건을 유발하거나 동반한 진행 중인 배경 활동을 설명합니다.",
     "examples": [

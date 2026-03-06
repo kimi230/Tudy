@@ -10,6 +10,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/əˈdɪktɪv/",
     "contextSentence": "Some of the most addictive drugs that humanity has ever engineered.",
+    "contextSentenceKo": "인류가 만들어 낸 가장 중독성 강한 약물 중 일부입니다.",
     "segmentIndex": 88
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/əkˈsɛsɪbl/",
     "contextSentence": "On a mobile phone that was accessible to everyone.",
+    "contextSentenceKo": "누구나 이용할 수 있는 휴대폰으로요.",
     "segmentIndex": 64
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈfriːmiəm/",
     "contextSentence": "Duolingo uses a freemium model to support itself.",
+    "contextSentenceKo": "듀오링고는 프리미엄 모델을 사용하여 운영됩니다.",
     "segmentIndex": 67
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌɪnɪˈkwɒlɪti/",
     "contextSentence": "I always saw it as the opposite, as something that brings inequality.",
+    "contextSentenceKo": "저는 항상 그것을 반대로, 불평등을 가져오는 것으로 봤습니다.",
     "segmentIndex": 12
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/striːk/",
     "contextSentence": "One of the most powerful ones is the notion of a streak.",
+    "contextSentenceKo": "가장 강력한 것 중 하나가 바로 스트릭이라는 개념입니다.",
     "segmentIndex": 103
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/kənˈsɛkjʊtɪvli/",
     "contextSentence": "The number of days that you've used the product consecutively.",
+    "contextSentenceKo": "연속으로 제품을 사용한 일수를 말합니다.",
     "segmentIndex": 105
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪnˈɡeɪdʒd/",
     "contextSentence": "We use them to keep people engaged but with education.",
+    "contextSentenceKo": "우리는 사람들이 교육에 계속 참여하도록 그것들을 사용합니다.",
     "segmentIndex": 101
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/səˈfɪstɪkeɪtɪd/",
     "contextSentence": "We have a very sophisticated AI system.",
+    "contextSentenceKo": "우리는 매우 정교한 AI 시스템을 가지고 있습니다.",
     "segmentIndex": 125
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌpæsɪv əˈɡrɛsɪv/",
     "contextSentence": "Passive-aggressive. Works for my mother, works for Duolingo.",
+    "contextSentenceKo": "은근히 공격적인 방식이죠. 우리 엄마한테도 통하고, 듀오링고한테도 통합니다.",
     "segmentIndex": 145
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈzaɪtɡaɪst/",
     "contextSentence": "Duolingo has entered the zeitgeist.",
+    "contextSentenceKo": "듀오링고는 시대의 흐름 속에 자리 잡았습니다.",
     "segmentIndex": 160
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/hjuːˈmʌŋɡəs/",
     "contextSentence": "You run into a humongous problem.",
+    "contextSentenceKo": "어마어마한 문제에 부딪히게 됩니다.",
     "segmentIndex": 86
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌriːdɪstrɪˈbjuːʃən/",
     "contextSentence": "It is a small form of wealth redistribution.",
+    "contextSentenceKo": "이것은 작은 형태의 부의 재분배입니다.",
     "segmentIndex": 80
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˈɡeɪmɪfaɪ/",
     "contextSentence": "You can actually gamify and turn into something like Duolingo.",
+    "contextSentenceKo": "실제로 게임화해서 듀오링고 같은 것으로 만들 수 있습니다.",
     "segmentIndex": 209
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/prɪˈdɒmɪnəntli/",
     "contextSentence": "Countries in which people are predominantly learning English.",
+    "contextSentenceKo": "사람들이 주로 영어를 배우는 나라들입니다.",
     "segmentIndex": 43
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌnoʊtɪfɪˈkeɪʃən/",
     "contextSentence": "Another important mechanism to get people to come back to your product are notifications.",
+    "contextSentenceKo": "사람들을 제품으로 다시 돌아오게 하는 또 다른 중요한 장치가 알림입니다.",
     "segmentIndex": 122
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ˈprɒmɪnəntli/",
     "contextSentence": "You put it very prominently in your product.",
+    "contextSentenceKo": "제품에서 아주 눈에 띄게 배치합니다.",
     "segmentIndex": 106
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmæskɒt/",
     "contextSentence": "Our green owl mascot has given up on them.",
+    "contextSentenceKo": "우리의 초록색 부엉이 마스코트가 그들을 포기해 버렸습니다.",
     "segmentIndex": 148
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌrɛpɪˈtɪʃən/",
     "contextSentence": "Subjects that are learned through repetition.",
+    "contextSentenceKo": "반복을 통해 배우는 과목들입니다.",
     "segmentIndex": 205
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/səbˈskraɪb/",
     "contextSentence": "You can also pay to subscribe to turn off the ads.",
+    "contextSentenceKo": "광고를 없애려면 유료 구독을 할 수도 있습니다.",
     "segmentIndex": 72
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌmoʊtɪˈveɪʃən/",
     "contextSentence": "Will be provided by people's internal motivation.",
+    "contextSentenceKo": "사람들의 내적 동기에 의해 제공될 것입니다.",
     "segmentIndex": 178
   }
 ]

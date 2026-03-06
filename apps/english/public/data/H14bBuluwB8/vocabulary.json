@@ -10,6 +10,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɡrɪt/",
     "contextSentence": "It was grit. Grit is passion and perseverance for very long-term goals.",
+    "contextSentenceKo": "그것은 끈기였습니다. 끈기란 매우 장기적인 목표를 향한 열정과 인내입니다.",
     "segmentIndex": 39
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌpɜːrsəˈvɪrəns/",
     "contextSentence": "Grit is passion and perseverance for very long-term goals.",
+    "contextSentenceKo": "끈기란 매우 장기적인 목표를 향한 열정과 인내입니다.",
     "segmentIndex": 39
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈstæmɪnə/",
     "contextSentence": "Grit is having stamina.",
+    "contextSentenceKo": "끈기란 지구력을 갖는 것입니다.",
     "segmentIndex": 40
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌstrætəˈsfɛrɪk/",
     "contextSentence": "Some of my strongest performers did not have stratospheric IQ scores.",
+    "contextSentenceKo": "가장 뛰어난 성과를 낸 학생들 중 일부는 엄청나게 높은 IQ 점수를 가지고 있지 않았습니다.",
     "segmentIndex": 8
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌpærəˈlɛləˌɡræm/",
     "contextSentence": "Ratios, decimals, the area of a parallelogram.",
+    "contextSentenceKo": "비율, 소수, 평행사변형의 넓이.",
     "segmentIndex": 11
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/prɪˈdɪktər/",
     "contextSentence": "One characteristic emerged as a significant predictor of success.",
+    "contextSentenceKo": "하나의 특성이 성공의 유의미한 예측 인자로 나타났습니다.",
     "segmentIndex": 37
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kəˈdɛt/",
     "contextSentence": "We tried to predict which cadets would stay in military training and which would drop out.",
+    "contextSentenceKo": "어떤 사관생도가 군사 훈련에 남고 어떤 생도가 중퇴할지 예측하려고 했습니다.",
     "segmentIndex": 28
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/ɪnˈvɜːrsli/",
     "contextSentence": "Grit is usually unrelated or even inversely related to measures of talent.",
+    "contextSentenceKo": "끈기는 보통 재능의 척도와 무관하거나 심지어 반비례하는 관계입니다.",
     "segmentIndex": 66
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌkwɛstʃəˈnɛr/",
     "contextSentence": "I asked thousands of high school juniors to take grit questionnaires.",
+    "contextSentenceKo": "수천 명의 고등학교 3학년 학생들에게 끈기 설문지를 작성하도록 했습니다.",
     "segmentIndex": 47
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌɪntjuˈɪʃən/",
     "contextSentence": "We need to take our best ideas, our strongest intuitions, and we need to test them.",
+    "contextSentenceKo": "우리의 최고의 아이디어와 가장 강한 직관을 가지고 검증해야 합니다.",
     "segmentIndex": 79
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kənˈsʌltɪŋ/",
     "contextSentence": "I left a very demanding job in management consulting.",
+    "contextSentenceKo": "매우 힘든 경영 컨설팅 직장을 떠났습니다.",
     "segmentIndex": 1
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "noun/adjective",
     "phonetic": "/ˈrʊki/",
     "contextSentence": "We studied rookie teachers working in really tough neighborhoods.",
+    "contextSentenceKo": "정말 어려운 지역에서 일하는 신입 교사들을 연구했습니다.",
     "segmentIndex": 31
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kəˈmɪtmənt/",
     "contextSentence": "There are many talented individuals who simply do not follow through on their commitments.",
+    "contextSentenceKo": "자신의 약속을 끝까지 이행하지 않는 재능 있는 사람들이 많습니다.",
     "segmentIndex": 64
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈmaɪndˌsɛt/",
     "contextSentence": "The best idea I've heard about building grit in kids is something called growth mindset.",
+    "contextSentenceKo": "아이들의 끈기를 키우는 것에 대해 제가 들은 최고의 아이디어는 성장 마인드셋이라는 것입니다.",
     "segmentIndex": 68
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "adverb",
     "phonetic": "/sɪɡˈnɪfɪkəntli/",
     "contextSentence": "Grittier kids were significantly more likely to graduate.",
+    "contextSentenceKo": "끈기가 더 강한 아이들이 졸업할 가능성이 상당히 더 높았습니다.",
     "segmentIndex": 49
   }
 ]

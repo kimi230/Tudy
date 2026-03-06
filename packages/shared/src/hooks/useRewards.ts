@@ -95,13 +95,14 @@ export function useRewards() {
     async (
       eventType: string,
       xpAmount: number,
-      metadata?: Record<string, unknown>
+      metadata?: Record<string, unknown>,
+      dedupKey?: string
     ): Promise<number | null> => {
       if (!userId) return null;
-      const ok = await awardXPService(userId, eventType, xpAmount, metadata);
-      if (!ok) return null;
+      const result = await awardXPService(userId, eventType, xpAmount, metadata, dedupKey);
+      if (!result) return null;
       auth.refreshProfile();
-      return xpAmount;
+      return result;
     },
     [userId, auth]
   );

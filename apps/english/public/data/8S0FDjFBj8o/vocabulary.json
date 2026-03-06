@@ -10,7 +10,8 @@
     "relatedWords": ["mannerism", "mannered", "unmannered"],
     "isEssential": true,
     "segmentIndex": 8,
-    "contextSentence": "And yet, through my manner of speaking,"
+    "contextSentence": "And yet, through my manner of speaking,",
+    "contextSentenceKo": "그런데도, 제 말하는 방식을 통해,"
   },
   {
     "word": "brilliant",
@@ -23,7 +24,8 @@
     "relatedWords": ["brilliance", "brilliantly"],
     "isEssential": true,
     "segmentIndex": 9,
-    "contextSentence": "Like what I am saying is brilliant."
+    "contextSentence": "Like what I am saying is brilliant.",
+    "contextSentenceKo": "마치 제가 말하는 것이 훌륭한 것처럼요."
   },
   {
     "word": "inspirational",
@@ -36,7 +38,8 @@
     "relatedWords": ["inspire", "inspiration", "inspiring"],
     "isEssential": true,
     "segmentIndex": 6,
-    "contextSentence": "Nothing smart. Nothing inspirational."
+    "contextSentence": "Nothing smart. Nothing inspirational.",
+    "contextSentenceKo": "똑똑한 것도 없고, 영감을 주는 것도 없습니다."
   },
   {
     "word": "remotely",
@@ -49,7 +52,8 @@
     "relatedWords": ["remote", "remoteness"],
     "isEssential": true,
     "segmentIndex": 7,
-    "contextSentence": "Nothing even remotely researched at all."
+    "contextSentence": "Nothing even remotely researched at all.",
+    "contextSentenceKo": "조금이라도 조사된 내용도 전혀 없습니다."
   },
   {
     "word": "whatsoever",
@@ -62,7 +66,8 @@
     "relatedWords": ["whatever", "whoever", "however"],
     "isEssential": true,
     "segmentIndex": 7,
-    "contextSentence": "I have absolutely nothing to say whatsoever."
+    "contextSentence": "I have absolutely nothing to say whatsoever.",
+    "contextSentenceKo": "저는 할 말이 전혀 없습니다."
   },
   {
     "word": "anecdote",
@@ -75,7 +80,8 @@
     "relatedWords": ["anecdotal", "anecdotally"],
     "isEssential": true,
     "segmentIndex": 16,
-    "contextSentence": "I'm going to react to that and act like I'm telling you a personal anecdote."
+    "contextSentence": "I'm going to react to that and act like I'm telling you a personal anecdote.",
+    "contextSentenceKo": "거기에 반응하면서 마치 개인적인 일화를 들려주는 것처럼 하겠습니다."
   },
   {
     "word": "endear",
@@ -88,7 +94,8 @@
     "relatedWords": ["endearing", "endearment", "dear"],
     "isEssential": false,
     "segmentIndex": 17,
-    "contextSentence": "Something to endear myself a little bit."
+    "contextSentence": "Something to endear myself a little bit.",
+    "contextSentenceKo": "제 자신에게 조금이라도 호감을 사기 위한 것입니다."
   },
   {
     "word": "broader",
@@ -101,7 +108,8 @@
     "relatedWords": ["broad", "broadly", "broaden"],
     "isEssential": true,
     "segmentIndex": 20,
-    "contextSentence": "And now, I'm going to bring it to a broader point."
+    "contextSentence": "And now, I'm going to bring it to a broader point.",
+    "contextSentenceKo": "그리고 이제, 더 넓은 관점으로 이야기를 확장하겠습니다."
   },
   {
     "word": "intellectual",
@@ -114,7 +122,8 @@
     "relatedWords": ["intellect", "intellectually", "intelligence"],
     "isEssential": true,
     "segmentIndex": 21,
-    "contextSentence": "I'm going to make it intellectual."
+    "contextSentence": "I'm going to make it intellectual.",
+    "contextSentenceKo": "지적인 내용으로 만들어 보겠습니다."
   },
   {
     "word": "imparted",
@@ -127,7 +136,8 @@
     "relatedWords": ["impart", "impartial", "part"],
     "isEssential": false,
     "segmentIndex": 29,
-    "contextSentence": "Interesting facts imparted thus far in said talk."
+    "contextSentence": "Interesting facts imparted thus far in said talk.",
+    "contextSentenceKo": "이 강연에서 지금까지 전달된 흥미로운 사실들."
   },
   {
     "word": "staggering",
@@ -140,7 +150,8 @@
     "relatedWords": ["stagger", "staggeringly"],
     "isEssential": true,
     "segmentIndex": 38,
-    "contextSentence": "Staggering. These are real numbers, all of them."
+    "contextSentence": "Staggering. These are real numbers, all of them.",
+    "contextSentenceKo": "놀랍습니다. 이것들은 모두 실제 숫자입니다."
   },
   {
     "word": "majority",
@@ -153,7 +164,8 @@
     "relatedWords": ["major", "minority", "majorly"],
     "isEssential": true,
     "segmentIndex": 40,
-    "contextSentence": "The majority far exceeds the minority."
+    "contextSentence": "The majority far exceeds the minority.",
+    "contextSentenceKo": "다수가 소수를 훨씬 초과합니다."
   },
   {
     "word": "irrelevant",
@@ -166,7 +178,8 @@
     "relatedWords": ["relevant", "relevance", "irrelevance"],
     "isEssential": true,
     "segmentIndex": 42,
-    "contextSentence": "It shows similarly irrelevant data."
+    "contextSentence": "It shows similarly irrelevant data.",
+    "contextSentenceKo": "마찬가지로 상관없는 데이터를 보여줍니다."
   },
   {
     "word": "floundering",
@@ -179,7 +192,8 @@
     "relatedWords": ["flounder", "founder"],
     "isEssential": false,
     "segmentIndex": 46,
-    "contextSentence": "I'm floundering, panicking, I've got nothing."
+    "contextSentence": "I'm floundering, panicking, I've got nothing.",
+    "contextSentenceKo": "허둥대고, 당황하고, 아무것도 없습니다."
   },
   {
     "word": "phony",
@@ -192,7 +206,8 @@
     "relatedWords": ["phoniness", "fake", "fraud"],
     "isEssential": true,
     "segmentIndex": 47,
-    "contextSentence": "I'm a total and utter phony."
+    "contextSentence": "I'm a total and utter phony.",
+    "contextSentenceKo": "저는 완전한 사기꾼입니다."
   },
   {
     "word": "utter",
@@ -205,7 +220,8 @@
     "relatedWords": ["utterly", "utterance"],
     "isEssential": true,
     "segmentIndex": 47,
-    "contextSentence": "I'm a total and utter phony."
+    "contextSentence": "I'm a total and utter phony.",
+    "contextSentenceKo": "저는 완전한 사기꾼입니다."
   },
   {
     "word": "vaguely",
@@ -218,7 +234,8 @@
     "relatedWords": ["vague", "vagueness"],
     "isEssential": true,
     "segmentIndex": 49,
-    "contextSentence": "These are just words paired with vaguely thought-provoking stock photos."
+    "contextSentence": "These are just words paired with vaguely thought-provoking stock photos.",
+    "contextSentenceKo": "이것들은 그저 막연하게 생각을 자극하는 스톡 사진과 짝지어진 단어들일 뿐입니다."
   },
   {
     "word": "thought-provoking",
@@ -231,7 +248,8 @@
     "relatedWords": ["provoke", "provocative", "thoughtful"],
     "isEssential": true,
     "segmentIndex": 49,
-    "contextSentence": "These are just words paired with vaguely thought-provoking stock photos."
+    "contextSentence": "These are just words paired with vaguely thought-provoking stock photos.",
+    "contextSentenceKo": "이것들은 그저 막연하게 생각을 자극하는 스톡 사진과 짝지어진 단어들일 뿐입니다."
   },
   {
     "word": "gibberish",
@@ -244,7 +262,8 @@
     "relatedWords": ["gibber", "jabber", "babble"],
     "isEssential": true,
     "segmentIndex": 51,
-    "contextSentence": "I'm just going to start saying gibberish."
+    "contextSentence": "I'm just going to start saying gibberish.",
+    "contextSentenceKo": "그냥 횡설수설하기 시작하겠습니다."
   },
   {
     "word": "satisfying",
@@ -257,7 +276,8 @@
     "relatedWords": ["satisfy", "satisfaction", "satisfactory"],
     "isEssential": true,
     "segmentIndex": 57,
-    "contextSentence": "Like maybe, just maybe, I'm building to some sort of satisfying conclusion."
+    "contextSentence": "Like maybe, just maybe, I'm building to some sort of satisfying conclusion.",
+    "contextSentenceKo": "어쩌면, 정말 어쩌면, 어떤 만족스러운 결론을 향해 가고 있는 것 같습니다."
   },
   {
     "word": "gesticulating",
@@ -270,7 +290,8 @@
     "relatedWords": ["gesture", "gesticulation"],
     "isEssential": false,
     "segmentIndex": 58,
-    "contextSentence": "I'm gesticulating as though I am."
+    "contextSentence": "I'm gesticulating as though I am.",
+    "contextSentenceKo": "마치 그런 것처럼 몸짓을 하고 있습니다."
   },
   {
     "word": "intensity",
@@ -283,7 +304,8 @@
     "relatedWords": ["intense", "intensify", "intensive"],
     "isEssential": true,
     "segmentIndex": 58,
-    "contextSentence": "I'm pacing, I'm growing in intensity."
+    "contextSentence": "I'm pacing, I'm growing in intensity.",
+    "contextSentenceKo": "서성이면서, 점점 더 강렬해지고 있습니다."
   },
   {
     "word": "gesture",
@@ -296,7 +318,8 @@
     "relatedWords": ["gesticulate", "gesticulation"],
     "isEssential": true,
     "segmentIndex": 11,
-    "contextSentence": "I'm going to make a lot of hand gestures."
+    "contextSentence": "I'm going to make a lot of hand gestures.",
+    "contextSentenceKo": "손짓을 많이 하겠습니다."
   },
   {
     "word": "exceeds",
@@ -309,7 +332,8 @@
     "relatedWords": ["exceed", "excess", "excessive", "exceedingly"],
     "isEssential": true,
     "segmentIndex": 40,
-    "contextSentence": "The majority far exceeds the minority."
+    "contextSentence": "The majority far exceeds the minority.",
+    "contextSentenceKo": "다수가 소수를 훨씬 초과합니다."
   },
   {
     "word": "panicking",
@@ -322,6 +346,7 @@
     "relatedWords": ["panic", "panicky"],
     "isEssential": true,
     "segmentIndex": 46,
-    "contextSentence": "I'm floundering, panicking, I've got nothing."
+    "contextSentence": "I'm floundering, panicking, I've got nothing.",
+    "contextSentenceKo": "허둥대고, 당황하고, 아무것도 없습니다."
   }
 ]

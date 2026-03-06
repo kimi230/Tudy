@@ -10,6 +10,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌwɜːrθˈwaɪl/",
     "contextSentence": "I found that nothing in life is worthwhile unless you take risks.",
+    "contextSentenceKo": "저는 위험을 감수하지 않으면 인생에서 가치 있는 것은 없다는 걸 알게 됐습니다.",
     "segmentIndex": 0
   },
   {
@@ -23,6 +24,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈpæʃən/",
     "contextSentence": "There is no passion to be found playing small.",
+    "contextSentenceKo": "소극적으로 살아서는 열정을 찾을 수 없습니다.",
     "segmentIndex": 1
   },
   {
@@ -36,6 +38,7 @@
     "partOfSpeech": "verb (gerund)",
     "phonetic": "/ˈsɛtlɪŋ/",
     "contextSentence": "Settling for a life that's less than the one you're capable of living.",
+    "contextSentenceKo": "자신이 살 수 있는 삶보다 못한 삶에 안주하는 것입니다.",
     "segmentIndex": 1
   },
   {
@@ -49,6 +52,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈkeɪpəbəl/",
     "contextSentence": "Capable of living.",
+    "contextSentenceKo": "살아갈 수 있는.",
     "segmentIndex": 2
   },
   {
@@ -62,6 +66,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/kənˈsɪstənsi/",
     "contextSentence": "Without consistency, you'll never finish.",
+    "contextSentenceKo": "꾸준함이 없으면 절대 끝낼 수 없습니다.",
     "segmentIndex": 7
   },
   {
@@ -75,6 +80,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɪkˈspɛrɪmənt/",
     "contextSentence": "Thomas Edison conducted one thousand failed experiments.",
+    "contextSentenceKo": "토머스 에디슨은 천 번의 실패한 실험을 수행했습니다.",
     "segmentIndex": 13
   },
   {
@@ -88,6 +94,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ɪmˈbærəs/",
     "contextSentence": "You will embarrass yourself.",
+    "contextSentenceKo": "당신은 망신을 당할 겁니다.",
     "segmentIndex": 18
   },
   {
@@ -101,6 +108,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪnˈɛvɪtəbəl/",
     "contextSentence": "Embrace it. Because it's inevitable.",
+    "contextSentenceKo": "받아들이세요. 피할 수 없는 일이니까요.",
     "segmentIndex": 20
   },
   {
@@ -114,6 +122,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ɪmˈbreɪs/",
     "contextSentence": "I'm telling you, embrace it.",
+    "contextSentenceKo": "제가 말씀드리는 겁니다, 받아들이세요.",
     "segmentIndex": 19
   },
   {
@@ -127,6 +136,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ɔːˈdɪʃən/",
     "contextSentence": "I auditioned for a part in a Broadway musical.",
+    "contextSentenceKo": "저는 브로드웨이 뮤지컬 배역 오디션을 봤습니다.",
     "segmentIndex": 20
   },
   {
@@ -140,6 +150,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/kwɪt/",
     "contextSentence": "But here's the thing. I didn't quit.",
+    "contextSentenceKo": "하지만 중요한 건 이겁니다. 저는 포기하지 않았습니다.",
     "segmentIndex": 22
   },
   {
@@ -153,6 +164,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈɡrædʒuət/",
     "contextSentence": "Every graduate here today has the training and the talent to succeed.",
+    "contextSentenceKo": "오늘 이 자리의 모든 졸업생은 성공할 수 있는 훈련과 재능을 갖추고 있습니다.",
     "segmentIndex": 29
   },
   {
@@ -166,6 +178,7 @@
     "partOfSpeech": "noun (informal)",
     "phonetic": "/ɡʌts/",
     "contextSentence": "But do you have the guts to fail?",
+    "contextSentenceKo": "하지만 실패할 배짱이 있습니까?",
     "segmentIndex": 29
   },
   {
@@ -179,6 +192,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈdɛθbɛd/",
     "contextSentence": "Imagine you're on your deathbed.",
+    "contextSentenceKo": "임종의 자리에 있다고 상상해 보세요.",
     "segmentIndex": 31
   },
   {
@@ -192,6 +206,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌʌnfʊlˈfɪld/",
     "contextSentence": "The ghosts representing your unfulfilled potential.",
+    "contextSentenceKo": "이루지 못한 잠재력을 나타내는 유령들입니다.",
     "segmentIndex": 31
   },
   {
@@ -205,6 +220,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/pəˈtɛnʃəl/",
     "contextSentence": "The ghosts representing your unfulfilled potential.",
+    "contextSentenceKo": "이루지 못한 잠재력을 나타내는 유령들입니다.",
     "segmentIndex": 31
   },
   {
@@ -218,6 +234,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈpɒvərti/",
     "contextSentence": "There are places there with terrible poverty that need help.",
+    "contextSentenceKo": "그곳에는 도움이 필요한 극심한 빈곤 지역이 있습니다.",
     "segmentIndex": 38
   },
   {
@@ -231,6 +248,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌθiːəˈloʊdʒən/",
     "contextSentence": "Some of you are theologians, nurses, sociologists.",
+    "contextSentenceKo": "여러분 중에는 신학자, 간호사, 사회학자가 있습니다.",
     "segmentIndex": 47
   },
   {
@@ -244,6 +262,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈprɒfəsi/",
     "contextSentence": "I have a prophecy, a spiritual prophecy.",
+    "contextSentenceKo": "저에게는 예언이 있습니다, 영적인 예언이요.",
     "segmentIndex": 64
   },
   {
@@ -257,6 +276,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/dɪsˈkʌrɪdʒd/",
     "contextSentence": "Never be discouraged, never hold back.",
+    "contextSentenceKo": "절대 낙담하지 마세요, 절대 주저하지 마세요.",
     "segmentIndex": 75
   }
 ]

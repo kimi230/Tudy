@@ -18,6 +18,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪɡˈzɔːstɪd/",
     "contextSentence": "I'm exhausted, Beth. What have you been doing today?",
+    "contextSentenceKo": "나 완전 지쳤어, 베스. 오늘 뭐 했어?",
     "segmentIndex": 2
   },
   {
@@ -39,6 +40,7 @@
     "partOfSpeech": "phrasal verb",
     "phonetic": "/ˈkɪkɪŋ bæk/",
     "contextSentence": "Just sitting around, doing nothing, relaxing and kicking back.",
+    "contextSentenceKo": "그냥 앉아서 아무것도 안 하고, 편하게 쉬면서 느긋하게 보냈어.",
     "segmentIndex": 3
   },
   {
@@ -60,6 +62,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌdɒkjuˈmɛntəri/",
     "contextSentence": "If you've seen nature documentaries about worker bees flying from flower to flower.",
+    "contextSentenceKo": "꽃에서 꽃으로 날아다니는 일벌에 대한 자연 다큐멘터리를 본 적 있다면.",
     "segmentIndex": 5
   },
   {
@@ -81,6 +84,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ɪˈvɒlvd/",
     "contextSentence": "Why have some animals evolved to do nothing?",
+    "contextSentenceKo": "왜 어떤 동물들은 아무것도 하지 않는 쪽으로 진화했을까요?",
     "segmentIndex": 7
   },
   {
@@ -102,6 +106,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈʃɛltər/",
     "contextSentence": "In the natural world, where finding food and shelter is hard work.",
+    "contextSentenceKo": "먹이와 은신처를 찾는 것이 힘든 일인 자연 세계에서.",
     "segmentIndex": 7
   },
   {
@@ -123,6 +128,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌrɛpjuˈteɪʃən/",
     "contextSentence": "Some animals have a reputation for lounging about.",
+    "contextSentenceKo": "어떤 동물들은 빈둥거리는 것으로 유명합니다.",
     "segmentIndex": 8
   },
   {
@@ -144,6 +150,7 @@
     "partOfSpeech": "verb",
     "phonetic": "/ˈlaʊndʒɪŋ/",
     "contextSentence": "Some animals have a reputation for lounging about.",
+    "contextSentenceKo": "어떤 동물들은 빈둥거리는 것으로 유명합니다.",
     "segmentIndex": 8
   },
   {
@@ -165,6 +172,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/slɒθ/",
     "contextSentence": "Well, I think it's the three-toed sloth.",
+    "contextSentenceKo": "음, 세발가락나무늘보인 것 같아요.",
     "segmentIndex": 9
   },
   {
@@ -186,6 +194,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˈməʊʃənləs/",
     "contextSentence": "Half of them just sitting there motionless.",
+    "contextSentenceKo": "그중 절반은 그냥 미동도 없이 앉아 있었습니다.",
     "segmentIndex": 11
   },
   {
@@ -207,6 +216,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈkɒləni/",
     "contextSentence": "Dan's research has focused on ant colonies.",
+    "contextSentenceKo": "댄의 연구는 개미 군체에 초점을 맞추고 있습니다.",
     "segmentIndex": 12
   },
   {
@@ -228,6 +238,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪnˈdʌstriəs/",
     "contextSentence": "I think ants are sort of a symbol of, like, industriousness.",
+    "contextSentenceKo": "개미는 근면함의 상징 같은 존재라고 생각합니다.",
     "segmentIndex": 13
   },
   {
@@ -249,6 +260,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/aɪˈdɪəlaɪzd/",
     "contextSentence": "There's some idealised version of what humans might be.",
+    "contextSentenceKo": "인간이 어떤 존재여야 하는지에 대한 이상화된 모습이 있습니다.",
     "segmentIndex": 14
   },
   {
@@ -270,6 +282,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ɪnˈæktɪv/",
     "contextSentence": "Roughly about half the colony is inactive at any given time.",
+    "contextSentenceKo": "어느 시점에서든 군체의 약 절반은 활동하지 않습니다.",
     "segmentIndex": 15
   },
   {
@@ -291,6 +304,7 @@
     "partOfSpeech": "noun/adjective",
     "phonetic": "/rɪˈzɜːv/",
     "contextSentence": "One possible answer is that they're reserve ants, ready to step in if disease or disaster strike.",
+    "contextSentenceKo": "한 가지 가능한 답은 그들이 질병이나 재난이 닥치면 투입될 준비가 된 예비 개미라는 것입니다.",
     "segmentIndex": 17
   },
   {
@@ -312,6 +326,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/prəˈdʌktɪv/",
     "contextSentence": "She thinks being productive is overrated.",
+    "contextSentenceKo": "그녀는 생산적인 것이 과대평가되었다고 생각합니다.",
     "segmentIndex": 20
   },
   {
@@ -333,6 +348,7 @@
     "partOfSpeech": "adjective",
     "phonetic": "/ˌəʊvəˈreɪtɪd/",
     "contextSentence": "She thinks being productive is overrated.",
+    "contextSentenceKo": "그녀는 생산적인 것이 과대평가되었다고 생각합니다.",
     "segmentIndex": 20
   },
   {
@@ -354,6 +370,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌstɪmjuˈleɪʃən/",
     "contextSentence": "But in this world of constant stimulation, switching off is harder than it's ever been.",
+    "contextSentenceKo": "하지만 끊임없는 자극이 넘치는 이 세상에서, 멈추는 것은 그 어느 때보다 어렵습니다.",
     "segmentIndex": 24
   },
   {
@@ -375,6 +392,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈpærədɒks/",
     "contextSentence": "So it's a kind of paradox to get rid of this unpleasant state of boredom is actually to allow more boredom into your life.",
+    "contextSentenceKo": "지루함이라는 불쾌한 상태를 없애려면 오히려 삶에 더 많은 지루함을 허용해야 한다는 일종의 역설입니다.",
     "segmentIndex": 26
   },
   {
@@ -396,6 +414,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˌkjʊəriˈɒsɪti/",
     "contextSentence": "Doctor Mann doubts humans would have invented things without the curiosity that comes from being bored.",
+    "contextSentenceKo": "만 박사는 지루함에서 비롯되는 호기심이 없었다면 인간이 무언가를 발명하지 못했을 것이라고 봅니다.",
     "segmentIndex": 27
   },
   {
@@ -417,6 +436,7 @@
     "partOfSpeech": "noun",
     "phonetic": "/ˈældʒiː/",
     "contextSentence": "Three-toed sloths move so slowly that algae grows on their coats.",
+    "contextSentenceKo": "세발가락나무늘보는 너무 느리게 움직여서 털에 이끼가 자랍니다.",
     "segmentIndex": 32
   }
 ]

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useContext, useRef } from 'react';
+import { useState, useEffect, useCallback, useContext } from 'react';
 import {
   syncErrorNoteToCloud,
   pullErrorNotesFromCloud,
@@ -6,7 +6,7 @@ import {
   deleteErrorNoteFromCloud,
 } from '../lib/supabaseSync';
 import { awardXP } from '../lib/xpService';
-import { useAuth } from './useAuth';
+import { useUserIdRef } from './useUserIdRef';
 import { XPToastContext } from '../contexts/XPToastContext';
 import { XP_RULES } from './useRewards';
 import type { ErrorNote } from '../types';
@@ -14,10 +14,7 @@ import type { ErrorNote } from '../types';
 export function useErrorNotes(videoId?: string) {
   const [notes, setNotes] = useState<ErrorNote[]>([]);
   const [loading, setLoading] = useState(true);
-  const auth = useAuth();
-  const userId = auth.user?.id;
-  const userIdRef = useRef(userId);
-  userIdRef.current = userId;
+  const { auth, userId, userIdRef } = useUserIdRef();
   const xpToast = useContext(XPToastContext);
 
   const reload = useCallback(async () => {
@@ -56,11 +53,11 @@ export function useErrorNotes(videoId?: string) {
       if (!uid) return;
       await updateErrorNoteInCloud(id, { is_resolved: isResolved }, uid);
 
-      // Award XP when resolving an error note
+      // Award XP when resolving an error note (dedup prevents farming via toggle)
       if (isResolved) {
         try {
-          await awardXP(uid, 'error_note_resolved', XP_RULES.error_note_resolved, { noteId: id });
-          xpToast?.showXPToast(XP_RULES.error_note_resolved, '오답노트 해결');
+          const awarded = await awardXP(uid, 'error_note_resolved', XP_RULES.error_note_resolved, { noteId: id }, `error_resolved_${id}`);
+          if (awarded) xpToast?.showXPToast(awarded, '오답노트 해결');
           auth.refreshProfile();
         } catch { /* offline */ }
       }

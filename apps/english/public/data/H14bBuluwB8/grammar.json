@@ -14,7 +14,7 @@
     "segmentIndex": 21
   },
   {
-    "pattern": "Grit is -ing (정의 나열)",
+    "pattern": "Grit is -ing",
     "example": "Grit is having stamina. Grit is sticking with your future, day in, day out.",
     "exampleKo": "끈기란 인내심을 갖는 것입니다. 끈기란 매일매일 자신의 미래를 붙잡고 놓지 않는 것입니다.",
     "explanationKo": "동명사(-ing)를 사용한 정의 나열. 추상적 개념을 구체적 행동으로 풀어서 설명할 때 'X is -ing...'을 반복합니다. 병렬 구조(parallelism)의 대표적 활용.",
