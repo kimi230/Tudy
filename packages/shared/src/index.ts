@@ -8,7 +8,10 @@ export * from './types/japanese.ts';
 export { getDifficultyLabel, formatDuration, formatTime, loadCategories, loadVideos, loadVideosByCategory, loadVideoMeta, loadSegments, loadVocabulary, loadGrammar, loadConnectedSpeech, loadStructure } from './lib/dataLoader.ts';
 
 // Lib - supabase
-export { supabase, handleOAuthHashIfPresent } from './lib/supabase.ts';
+export { supabase } from './lib/supabase.ts';
+
+// Lib - firebase
+export { isFirebaseConfigured } from './lib/firebase.ts';
 
 // Lib - supabaseSync
 export { requireSupabase, setDefaultLanguage, getDefaultLanguage, syncSessionToCloud, pullSessionsFromCloud, getAllSessionsFromCloud, syncErrorNoteToCloud, pullErrorNotesFromCloud, updateErrorNoteInCloud, deleteErrorNoteFromCloud, syncDictationToCloud, pullDictationFromCloud, deleteDictationFromCloud, uploadRecordingToStorage, saveRecordingMeta, getRecordingsBySessionFromCloud, getRecordingPublicUrl } from './lib/supabaseSync.ts';

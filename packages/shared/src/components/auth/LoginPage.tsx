@@ -1,5 +1,5 @@
 import { useAuth } from '../../hooks/useAuth';
-import { isSupabaseConfigured } from '../../lib/supabase';
+import { isFirebaseConfigured } from '../../lib/firebase';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
@@ -11,7 +11,7 @@ export default function LoginPage() {
     if (user) navigate('/profile');
   }, [user, navigate]);
 
-  if (!isSupabaseConfigured()) {
+  if (!isFirebaseConfigured()) {
     return (
       <div className="max-w-md mx-auto mt-20 text-center">
         <h1 className="text-2xl font-bold text-gray-900 mb-4">로그인</h1>

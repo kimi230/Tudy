@@ -1,6 +1,8 @@
 import { createContext, useEffect, useState, useCallback, type ReactNode } from 'react';
-import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import type { User, Session } from '@supabase/supabase-js';
+import { signInWithPopup, signOut as firebaseSignOut, onAuthStateChanged, GoogleAuthProvider, type User as FirebaseUser } from 'firebase/auth';
+import { firebaseAuth, googleProvider, isFirebaseConfigured } from '../lib/firebase';
+import { supabase } from '../lib/supabase';
+import { firebaseUidToUuid } from '../lib/authBridge';
 
 export interface Profile {
   id: string;
@@ -13,9 +15,9 @@ export interface Profile {
 }
 
 export interface AuthContextType {
-  user: User | null;
+  user: { id: string; email?: string | null; user_metadata?: { full_name?: string; avatar_url?: string } } | null;
   profile: Profile | null;
-  session: Session | null;
+  session: null;
   loading: boolean;
   signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
@@ -24,29 +26,39 @@ export interface AuthContextType {
 
 export const AuthContext = createContext<AuthContextType | null>(null);
 
+function firebaseUserToAppUser(fbUser: FirebaseUser): NonNullable<AuthContextType['user']> {
+  const uuid = firebaseUidToUuid(fbUser.uid);
+  return {
+    id: uuid,
+    email: fbUser.email,
+    user_metadata: {
+      full_name: fbUser.displayName ?? undefined,
+      avatar_url: fbUser.photoURL ?? undefined,
+    },
+  };
+}
+
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
+  const [user, setUser] = useState<AuthContextType['user']>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
-  const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
 
-  const fetchOrCreateProfile = useCallback(async (user: User) => {
+  const fetchOrCreateProfile = useCallback(async (appUser: NonNullable<AuthContextType['user']>) => {
     if (!supabase) return;
     const { data } = await supabase
       .from('profiles')
       .select('*')
-      .eq('id', user.id)
+      .eq('id', appUser.id)
       .single();
     if (data) {
       setProfile(data as Profile);
     } else {
-      // Tudy 유저만 프로필 생성 (트리거 제거됨)
       const { data: created } = await supabase
         .from('profiles')
         .upsert({
-          id: user.id,
-          display_name: user.user_metadata?.full_name || user.email || '',
-          avatar_url: user.user_metadata?.avatar_url || null,
+          id: appUser.id,
+          display_name: appUser.user_metadata?.full_name || appUser.email || '',
+          avatar_url: appUser.user_metadata?.avatar_url || null,
         })
         .select()
         .single();
@@ -58,66 +70,44 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (user) await fetchOrCreateProfile(user);
   }, [user, fetchOrCreateProfile]);
 
+  const signInWithGoogle = useCallback(async () => {
+    if (!firebaseAuth) return;
+    await signInWithPopup(firebaseAuth, googleProvider);
+    // onAuthStateChanged will handle the rest
+  }, []);
+
+  const signOut = useCallback(async () => {
+    if (firebaseAuth) {
+      await firebaseSignOut(firebaseAuth).catch(() => {});
+    }
+    setUser(null);
+    setProfile(null);
+  }, []);
+
   useEffect(() => {
-    if (!isSupabaseConfigured()) {
+    if (!isFirebaseConfigured()) {
       setLoading(false);
       return;
     }
 
-    // Get initial session
-    supabase!.auth.getSession().then(({ data: { session: s } }) => {
-      setSession(s);
-      setUser(s?.user ?? null);
-      if (s?.user) fetchOrCreateProfile(s.user);
+    const unsubscribe = onAuthStateChanged(firebaseAuth!, (fbUser) => {
+      if (fbUser) {
+        const appUser = firebaseUserToAppUser(fbUser);
+        setUser(appUser);
+        fetchOrCreateProfile(appUser);
+      } else {
+        setUser(null);
+        setProfile(null);
+      }
       setLoading(false);
     });
 
-    // Listen for auth changes
-    const { data: { subscription } } = supabase!.auth.onAuthStateChange(
-      (_event, s) => {
-        setSession(s);
-        setUser(s?.user ?? null);
-        if (s?.user) {
-          fetchOrCreateProfile(s.user);
-        } else {
-          setProfile(null);
-        }
-      }
-    );
-
-    return () => subscription.unsubscribe();
+    return () => unsubscribe();
   }, [fetchOrCreateProfile]);
-
-  const signInWithGoogle = useCallback(async () => {
-    if (!supabase) return;
-    const redirectUrl = window.location.origin + '/Tudy/';
-    localStorage.setItem('auth_return_to', window.location.href);
-    const { data } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: redirectUrl,
-        skipBrowserRedirect: true,
-      },
-    });
-    if (data?.url) {
-      // debug: Supabase가 보내는 실제 URL 확인
-      console.log('[Auth] redirectTo:', redirectUrl);
-      console.log('[Auth] Full auth URL:', data.url);
-      window.location.href = data.url;
-    }
-  }, []);
-
-  const signOut = useCallback(async () => {
-    if (!supabase) return;
-    await supabase.auth.signOut();
-    setUser(null);
-    setProfile(null);
-    setSession(null);
-  }, []);
 
   return (
     <AuthContext.Provider
-      value={{ user, profile, session, loading, signInWithGoogle, signOut, refreshProfile }}
+      value={{ user, profile, session: null, loading, signInWithGoogle, signOut, refreshProfile }}
     >
       {children}
     </AuthContext.Provider>
