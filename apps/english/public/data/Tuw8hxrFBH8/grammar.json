@@ -90,7 +90,7 @@
     "examplesKo": [
       "저는 리드 대학을 6개월 만에 자퇴했습니다.",
       "필수 과목 수강을 그만두고 훨씬 더 흥미로워 보이는 수업을 청강하기 시작할 수 있었습니다.",
-      "서서히 무언가가 깨달아지기 시작했습니다.",
+      "서서히 깨달음이 찾아오기 시작했습니다.",
       "이런 것들은 죽음 앞에서 그냥 사라져 버립니다."
     ],
     "segmentIndex": 2
@@ -128,9 +128,9 @@
     "segmentIndex": 19
   },
   {
-    "pattern": "Correlative Conjunctions",
-    "explanation": "Pairs of conjunctions that work together to join equal grammatical elements. They create balanced, emphatic statements.",
-    "explanationKo": "같은 문법 요소를 연결하기 위해 함께 사용되는 접속사 쌍입니다. 균형 잡히고 강조적인 문장을 만듭니다.",
+    "pattern": "as + adjective + as (Equative Comparison)",
+    "explanation": "Using 'as...as' to express that two things are equal in some quality. The first 'as' is an adverb modifying the adjective, and the second 'as' is a conjunction introducing the comparison.",
+    "explanationKo": "두 대상이 어떤 성질에서 동등함을 표현할 때 'as...as' 구조를 사용합니다. 첫 번째 'as'는 형용사를 수식하는 부사이고, 두 번째 'as'는 비교 대상을 도입하는 접속사입니다.",
     "examples": [
       "And that is as true for work as it is for your lovers.",
       "A college that was almost as expensive as Stanford."
@@ -169,7 +169,7 @@
     "examplesKo": [
       "아직 찾지 못했다면, 계속 찾으세요.",
       "아무도 그것을 피하지 못했습니다.",
-      "매일 아침 거울을 보며 스스로에게 물었습니다."
+      "매일 아침 거울을 보며 자신에게 물었습니다."
     ],
     "segmentIndex": 74
   }

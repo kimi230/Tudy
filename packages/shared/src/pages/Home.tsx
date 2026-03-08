@@ -11,6 +11,7 @@ export default function Home() {
   const [videos, setVideos] = useState<VideoEntry[]>([]);
   const [showGuide, setShowGuide] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedVideo, setSelectedVideo] = useState<VideoEntry | null>(null);
   const t = getThemeColors();
   const lang = getDefaultLanguage();
@@ -23,6 +24,7 @@ export default function Home() {
   }, []);
 
   const countByCategory = (catId: string) => videos.filter((v) => v.categoryId === catId).length;
+  const filteredVideos = selectedCategory ? videos.filter((v) => v.categoryId === selectedCategory) : videos;
 
   // Phase colors per language
   const phaseA = lang === 'en' ? 'indigo' as const : lang === 'zh' ? 'red' as const : 'pink' as const;
@@ -179,35 +181,44 @@ export default function Home() {
         </div>
       )}
 
-      {/* 학습 카테고리 */}
-      {categories.length > 0 && (
-        <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">학습 카테고리</h2>
-          <div className="flex flex-wrap gap-2">
-            {categories
-              .sort((a, b) => a.order - b.order)
-              .map((cat) => (
-                <Link
-                  key={cat.id}
-                  to={`/category/${cat.id}`}
-                  className={`inline-flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-3 py-2 hover:shadow-md ${t.hoverBorder300} transition-all group`}
-                >
-                  <span className={`text-sm font-medium text-gray-900 ${t.groupHoverText600} transition-colors`}>
-                    {cat.name}
-                  </span>
-                  <span className="text-xs text-gray-400">{countByCategory(cat.id)}</span>
-                </Link>
-              ))}
-          </div>
-        </section>
-      )}
-
-      {/* 최근 영상 */}
+      {/* 학습 카테고리 + 영상 */}
       {videos.length > 0 && (
         <section id="videos">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4">최근 추가된 영상</h2>
+          {categories.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-6">
+              <button
+                onClick={() => { setSelectedCategory(null); setShowAll(false); }}
+                className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm font-medium transition-all ${
+                  selectedCategory === null
+                    ? `${t.bg600} text-white shadow-sm`
+                    : `bg-white border border-gray-200 text-gray-600 hover:border-gray-300`
+                }`}
+              >
+                전체
+                <span className={`text-xs ${selectedCategory === null ? 'text-white/70' : 'text-gray-400'}`}>{videos.length}</span>
+              </button>
+              {categories
+                .sort((a, b) => a.order - b.order)
+                .filter((cat) => countByCategory(cat.id) > 0)
+                .map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => { setSelectedCategory(selectedCategory === cat.id ? null : cat.id); setShowAll(false); }}
+                    className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm font-medium transition-all ${
+                      selectedCategory === cat.id
+                        ? `${t.bg600} text-white shadow-sm`
+                        : `bg-white border border-gray-200 text-gray-600 hover:border-gray-300`
+                    }`}
+                  >
+                    {cat.name}
+                    <span className={`text-xs ${selectedCategory === cat.id ? 'text-white/70' : 'text-gray-400'}`}>{countByCategory(cat.id)}</span>
+                  </button>
+                ))}
+            </div>
+          )}
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {(showAll ? videos : videos.slice(0, 6)).map((v) => (
+            {(showAll ? filteredVideos : filteredVideos.slice(0, 6)).map((v) => (
               <div
                 key={v.videoId}
                 onClick={() => setSelectedVideo(v)}
@@ -224,13 +235,13 @@ export default function Home() {
               </div>
             ))}
           </div>
-          {videos.length > 6 && (
+          {filteredVideos.length > 6 && (
             <div className="text-center mt-6">
               <button
                 onClick={() => setShowAll((prev) => !prev)}
                 className={`px-6 py-2 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-600 ${t.hoverBorder300} ${t.hoverText600} transition-all`}
               >
-                {showAll ? '접기' : `더보기 (${videos.length - 6}개)`}
+                {showAll ? '접기' : `더보기 (${filteredVideos.length - 6}개)`}
               </button>
             </div>
           )}
