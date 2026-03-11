@@ -40,125 +40,106 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Minimal top bar */}
-      <header className="max-w-3xl mx-auto px-4 pt-6 pb-2 flex items-center justify-between">
-        <Link to="/" className={`text-sm font-medium text-gray-500 ${t.hoverText600} transition-colors`}>
-          &larr; {langLabel} 학습 홈
+    <div className="min-h-screen bg-white">
+      <main className="max-w-xl mx-auto px-6 pt-12 sm:pt-20 pb-20">
+        {/* Back */}
+        <Link to="/" className="inline-block text-sm text-gray-400 hover:text-gray-600 transition-colors mb-16 sm:mb-20">
+          &larr; 홈으로
         </Link>
-      </header>
 
-      <main className="max-w-2xl mx-auto px-4 py-12 space-y-16">
         {/* Hero */}
-        <section className="text-center space-y-4">
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
-            AI가 분석한<br />
-            <span className={t.text600}>{langLabel} 학습 자료</span>를 받아보세요
-          </h1>
-          <p className="text-gray-500 text-lg max-w-md mx-auto">
-            YouTube 영상을 기반으로 어휘, 문법, 발음을 정리한 학습 가이드를 무료로 보내드립니다.
+        <div className="mb-14 sm:mb-20">
+          <p className="text-xs tracking-[0.2em] uppercase text-gray-400 font-medium mb-4">
+            Free Study Guide
           </p>
-        </section>
+          <h1 className="text-[2.5rem] sm:text-6xl font-extrabold text-gray-900 leading-[1.08] tracking-tight mb-6">
+            YouTube 한 편이면<br />
+            <span className={t.text600}>충분합니다.</span>
+          </h1>
+          <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-sm">
+            영상 속 어휘, 문법, 발음을 AI가 분석해서<br className="hidden sm:block" />
+            학습 가이드로 만들어 드립니다.
+          </p>
+        </div>
 
-        {/* What's included */}
-        <section className="space-y-6">
-          <h2 className="text-xl font-bold text-gray-900 text-center">학습 가이드에 포함되는 내용</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { icon: '📝', title: '전체 스크립트 + 번역', desc: '원문과 한국어 번역을 대조하며 학습' },
-              { icon: '📚', title: '핵심 어휘 정리', desc: '빈도순 어휘 목록, 뜻, 예문 포함' },
-              { icon: '🔤', title: '문법 포인트', desc: '영상에서 나온 주요 문법 패턴 해설' },
-              { icon: '🎯', title: '난이도 분석', desc: 'CEFR 기준 난이도와 학습 포인트' },
-            ].map((item) => (
-              <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-4 space-y-1">
-                <div className="text-2xl">{item.icon}</div>
-                <h3 className="font-semibold text-gray-900 text-sm">{item.title}</h3>
-                <p className="text-xs text-gray-500">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        {/* What you get — pills, not card grid */}
+        <div className="flex flex-wrap gap-2.5 mb-14 sm:mb-20">
+          {['스크립트 + 번역', '핵심 어휘', '문법 패턴', '발음 분석', '난이도 평가'].map((f) => (
+            <span
+              key={f}
+              className="px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 bg-gray-50 border border-gray-100"
+            >
+              {f}
+            </span>
+          ))}
+        </div>
 
-        {/* Sample download */}
-        <section className="text-center space-y-4">
-          <h2 className="text-xl font-bold text-gray-900">샘플 학습 가이드</h2>
-          <p className="text-sm text-gray-500">실제 영상에서 생성된 학습 가이드를 미리 확인해 보세요.</p>
-          <div className="flex items-center justify-center gap-3">
+        {/* Sample — minimal left-border callout */}
+        <div className={`border-l-[3px] ${t.border600} pl-5 mb-14 sm:mb-20`}>
+          <p className="text-sm text-gray-500 mb-2">먼저 확인해 보세요</p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <a
               href={`${import.meta.env.BASE_URL}data/${sampleId}/study_guide.pdf`}
               download
-              className={`inline-flex items-center gap-2 px-6 py-3 ${t.bg600} text-white rounded-full text-sm font-semibold ${t.hoverBg700} active:scale-95 transition-all shadow-lg ${t.shadow200}`}
+              className={`text-sm font-semibold ${t.text600} hover:underline underline-offset-2`}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              PDF 다운로드
+              샘플 PDF 다운로드 &rarr;
             </a>
             <a
               href={`${import.meta.env.BASE_URL}data/${sampleId}/study_guide.html`}
               target="_blank"
               rel="noopener noreferrer"
-              className={`inline-flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 rounded-full text-sm font-medium text-gray-600 ${t.hoverBorder300} ${t.hoverText600} active:scale-95 transition-all`}
+              className="text-sm text-gray-400 hover:text-gray-600 hover:underline underline-offset-2 transition-colors"
             >
               웹에서 보기
             </a>
           </div>
-        </section>
+        </div>
 
-        {/* Email form */}
-        <section className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm space-y-6">
-          <div className="text-center space-y-2">
-            <h2 className="text-xl font-bold text-gray-900">무료 학습 자료 구독</h2>
-            <p className="text-sm text-gray-500">
-              새로운 학습 가이드와 업데이트 소식을 이메일로 받아보세요.
+        {/* Email CTA */}
+        {status === 'success' ? (
+          <div className="py-10">
+            <p className={`text-2xl font-bold ${t.text600} mb-2`}>구독 완료!</p>
+            <p className="text-sm text-gray-400">
+              새 학습 가이드가 준비되면 바로 보내드릴게요.
             </p>
           </div>
-
-          {status === 'success' ? (
-            <div className="text-center py-6 space-y-2">
-              <div className="text-4xl">🎉</div>
-              <p className="text-lg font-semibold text-gray-900">구독이 완료되었습니다!</p>
-              <p className="text-sm text-gray-500">새로운 학습 자료가 준비되면 이메일로 알려드릴게요.</p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                  이메일 주소
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  required
-                  value={email}
-                  onChange={(e) => { setEmail(e.target.value); setStatus('idle'); }}
-                  placeholder="you@example.com"
-                  className={`w-full px-4 py-3 border border-gray-300 rounded-lg text-sm ${t.focusBorder500} ${t.focusRing500} focus:ring-1 outline-none transition-colors`}
-                />
-              </div>
-
-              {status === 'duplicate' && (
-                <p className="text-sm text-amber-600">이미 구독 중인 이메일입니다.</p>
-              )}
-              {status === 'error' && (
-                <p className="text-sm text-red-600">오류가 발생했습니다. 잠시 후 다시 시도해 주세요.</p>
-              )}
-
+        ) : (
+          <div>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+              이메일로 받아보기
+            </h2>
+            <p className="text-sm text-gray-400 mb-5">
+              새 가이드가 나올 때마다 보내드립니다. 광고 없음.
+            </p>
+            <form onSubmit={handleSubmit} className="flex gap-2 mb-3">
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(e) => { setEmail(e.target.value); setStatus('idle'); }}
+                placeholder="you@example.com"
+                className={`flex-1 min-w-0 px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm placeholder:text-gray-300 ${t.focusBorder500} focus:ring-1 ${t.focusRing500} focus:bg-white outline-none transition-all`}
+              />
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className={`w-full py-3 ${t.bg600} text-white rounded-lg text-sm font-semibold ${t.hoverBg700} active:scale-[0.98] transition-all disabled:opacity-50 disabled:cursor-not-allowed`}
+                className={`px-5 sm:px-7 py-3 ${t.bg600} text-white rounded-xl text-sm font-semibold ${t.hoverBg700} active:scale-[0.97] transition-all disabled:opacity-50 whitespace-nowrap`}
               >
-                {status === 'loading' ? '구독 중...' : '무료로 구독하기'}
+                {status === 'loading' ? '...' : '구독'}
               </button>
             </form>
-          )}
-        </section>
-
-        {/* Footer note */}
-        <p className="text-center text-xs text-gray-400 pb-8">
-          스팸 없이, 학습 자료만 보내드립니다. 언제든 구독 취소 가능합니다.
-        </p>
+            {status === 'duplicate' && (
+              <p className="text-sm text-amber-600">이미 구독 중인 이메일이에요.</p>
+            )}
+            {status === 'error' && (
+              <p className="text-sm text-red-500">잠시 후 다시 시도해 주세요.</p>
+            )}
+            {status === 'idle' && (
+              <p className="text-xs text-gray-300">스팸 없음 · 언제든 구독 취소</p>
+            )}
+          </div>
+        )}
       </main>
     </div>
   );
