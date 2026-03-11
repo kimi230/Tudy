@@ -62,17 +62,11 @@ export default function Subscribe() {
           </p>
         </div>
 
-        {/* What you get — pills, not card grid */}
-        <div className="flex flex-wrap gap-2.5 mb-14 sm:mb-20">
-          {['스크립트 + 번역', '핵심 어휘', '문법 패턴', '발음 분석', '난이도 평가'].map((f) => (
-            <span
-              key={f}
-              className="px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 bg-gray-50 border border-gray-100"
-            >
-              {f}
-            </span>
-          ))}
-        </div>
+        {/* What you get — sentence */}
+        <p className="text-sm sm:text-base text-gray-400 leading-relaxed mb-14 sm:mb-20">
+          스크립트와 번역, 핵심 어휘, 문법 패턴, 발음 분석까지 —<br className="hidden sm:block" />
+          영상 하나에서 이 모든 걸 뽑아서 정리해 드립니다.
+        </p>
 
         {/* Sample — minimal left-border callout */}
         <div className={`border-l-[3px] ${t.border600} pl-5 mb-14 sm:mb-20`}>
