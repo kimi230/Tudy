@@ -105,6 +105,7 @@ export interface ConnectedSpeech {
   original?: string;
   spoken?: string;
   type?: string;
+  phonetic?: string;
   koreanPhonetic?: string;
   practiceGuide?: string;
   start?: number;

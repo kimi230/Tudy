@@ -343,12 +343,16 @@ export default function Step5_Analyze({
                   <div key={i} className="bg-white border border-orange-200 rounded-lg p-2">
                     <div className="flex items-center gap-1.5 flex-wrap">
                       <span className="text-[10px] px-1 py-0.5 rounded bg-orange-100 text-orange-700">{c.type}</span>
-                      <span className="text-xs text-gray-500 line-through">{c.original}</span>
-                      <span className="text-gray-400 text-xs">→</span>
-                      <span className="text-xs text-gray-900 font-medium">{c.spoken}</span>
+                      <span className="text-xs text-gray-900 font-medium">{c.originalText}</span>
+                      {c.phonetic && (
+                        <span className="text-xs text-gray-400">{c.phonetic}</span>
+                      )}
                     </div>
                     {c.koreanPhonetic && (
                       <p className="text-[10px] text-amber-700 mt-0.5">발음: {c.koreanPhonetic}</p>
+                    )}
+                    {c.explanationKo && (
+                      <p className="text-[10px] text-gray-600 mt-0.5">{c.explanationKo}</p>
                     )}
                     {c.practiceGuide && (
                       <p className="text-[10px] text-blue-600 mt-0.5">따라하기: {c.practiceGuide}</p>
