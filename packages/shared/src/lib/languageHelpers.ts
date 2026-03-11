@@ -82,6 +82,12 @@ export function getVocabPhonetic(item: { phonetic?: string; pinyin?: string; rea
   }
 }
 
+/** Get Korean meaning from vocabulary item — handles both `koreanMeaning` and `meaningKo` field names */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function getKoreanMeaning(item: any): string {
+  return item.koreanMeaning ?? item.meaningKo ?? item.definition ?? '';
+}
+
 export interface ThemeColors {
   text600: string;
   bg100: string;

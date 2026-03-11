@@ -292,7 +292,14 @@ export default function Step5_Analyze({
               {segGrammar.map((g, i) => (
                 <div key={i} className="bg-white border border-green-200 rounded-lg p-2">
                   <h4 className="text-xs font-semibold text-gray-900">{g.pattern}</h4>
-                  <p className="text-xs text-gray-600 mt-0.5 italic">"{g.example}"</p>
+                  {(g.examples ?? (g.example ? [g.example] : [])).map((ex, j) => (
+                    <div key={j} className="mt-0.5">
+                      <p className="text-xs text-gray-600 italic">"{ex}"</p>
+                      {g.examplesKo?.[j] && (
+                        <p className="text-[10px] text-gray-400">{g.examplesKo[j]}</p>
+                      )}
+                    </div>
+                  ))}
                   <p className="text-xs text-indigo-600 mt-0.5">{g.explanationKo}</p>
                 </div>
               ))}

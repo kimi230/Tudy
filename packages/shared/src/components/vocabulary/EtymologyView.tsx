@@ -1,4 +1,5 @@
 import type { VocabularyItem } from '../../types';
+import { getKoreanMeaning } from '../../lib/languageHelpers';
 
 interface Props {
   item: VocabularyItem;
@@ -66,7 +67,7 @@ export default function EtymologyView({ item }: Props) {
       <div className="mt-3 pt-3 border-t border-amber-200">
         <p className="text-xs text-gray-500">{item.phonetic}</p>
         <p className="text-sm text-gray-600 mt-1">{item.definition}</p>
-        <p className="text-sm text-indigo-600 font-medium mt-1">{item.koreanMeaning}</p>
+        <p className="text-sm text-indigo-600 font-medium mt-1">{getKoreanMeaning(item)}</p>
       </div>
     </div>
   );

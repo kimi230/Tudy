@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 import { loadVideos, loadVocabulary } from '../lib/dataLoader';
+import { getKoreanMeaning } from '../lib/languageHelpers';
 import VocabCard from '../components/vocabulary/VocabCard';
 import VocabDetailView from '../components/vocabulary/VocabDetailView';
 import VocabPractice from '../components/vocabulary/VocabPractice';
@@ -54,7 +55,7 @@ export default function Vocabulary() {
     return allVocab.filter(
       (v) =>
         v.word.toLowerCase().includes(q) ||
-        v.koreanMeaning.includes(search) ||
+        getKoreanMeaning(v).includes(search) ||
         v.definition.toLowerCase().includes(q)
     );
   }, [allVocab, search]);

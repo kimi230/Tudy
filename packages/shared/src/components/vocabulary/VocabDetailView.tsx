@@ -1,5 +1,6 @@
 import type { VocabularyItem } from '../../types';
 import { getDefaultLanguage } from '../../lib/supabaseSync';
+import { getKoreanMeaning } from '../../lib/languageHelpers';
 import EtymologyView from './EtymologyView';
 
 interface Props {
@@ -65,7 +66,7 @@ function ChineseVocabDetail({ item }: Props) {
 
       <div className="mt-3 pt-3 border-t border-red-200">
         <p className="text-sm text-gray-600">{item.definition}</p>
-        <p className="text-sm text-indigo-600 font-medium mt-1">{item.koreanMeaning}</p>
+        <p className="text-sm text-indigo-600 font-medium mt-1">{getKoreanMeaning(item)}</p>
       </div>
     </div>
   );
@@ -118,7 +119,7 @@ function JapaneseVocabDetail({ item }: Props) {
 
       <div className="mt-3 pt-3 border-t border-pink-200">
         <p className="text-sm text-gray-600">{item.definition}</p>
-        <p className="text-sm text-indigo-600 font-medium mt-1">{item.koreanMeaning}</p>
+        <p className="text-sm text-indigo-600 font-medium mt-1">{getKoreanMeaning(item)}</p>
       </div>
     </div>
   );

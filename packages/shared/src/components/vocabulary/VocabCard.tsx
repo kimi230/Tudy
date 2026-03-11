@@ -1,5 +1,5 @@
 import type { VocabularyItem } from '../../types';
-import { getVocabPhonetic } from '../../lib/languageHelpers';
+import { getVocabPhonetic, getKoreanMeaning } from '../../lib/languageHelpers';
 
 interface Props {
   item: VocabularyItem;
@@ -20,7 +20,7 @@ export default function VocabCard({ item, onClick }: Props) {
       </div>
       <p className="text-sm text-gray-500 mb-1">{getVocabPhonetic(item)}</p>
       <p className="text-sm text-gray-700 mb-2">{item.definition}</p>
-      <p className="text-sm text-indigo-600 font-medium">{item.koreanMeaning}</p>
+      <p className="text-sm text-indigo-600 font-medium">{getKoreanMeaning(item)}</p>
       <p className="text-xs text-gray-400 mt-2 italic">"{item.contextSentence}"</p>
     </div>
   );

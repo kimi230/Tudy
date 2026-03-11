@@ -94,7 +94,10 @@ export interface VocabularyItem {
 // Grammar pattern
 export interface GrammarPattern {
   pattern: string;
-  example: string;
+  example?: string;
+  examples?: string[];
+  examplesKo?: string[];
+  explanation?: string;
   explanationKo: string;
   segmentIndex: number;
 }
