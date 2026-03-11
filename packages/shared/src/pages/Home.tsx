@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { loadCategories, loadVideos } from '../lib/dataLoader';
 import VideoModeModal from '../components/common/VideoModeModal';
 import { getLanguageLabel, getConnectedSpeechLabel, getThemeColors } from '../lib/languageHelpers';
@@ -13,6 +13,8 @@ export default function Home() {
   const [showAll, setShowAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedVideo, setSelectedVideo] = useState<VideoEntry | null>(null);
+  const [showVocabPicker, setShowVocabPicker] = useState(false);
+  const navigate = useNavigate();
   const t = getThemeColors();
   const lang = getDefaultLanguage();
   const langLabel = getLanguageLabel();
@@ -81,12 +83,12 @@ export default function Home() {
           >
             오늘의 학습 시작하기
           </Link>
-          <Link
-            to="/vocabulary"
+          <button
+            onClick={() => setShowVocabPicker(true)}
             className={`px-5 py-3.5 bg-white text-gray-600 border border-gray-200 rounded-full text-sm font-medium ${t.hoverBorder300} ${t.hoverText600} active:scale-95 transition-all`}
           >
             단어 연습
-          </Link>
+          </button>
           <button
             onClick={() => setShowGuide(true)}
             className={`px-5 py-3.5 bg-white text-gray-600 border border-gray-200 rounded-full text-sm font-medium ${t.hoverBorder300} ${t.hoverText600} active:scale-95 transition-all`}
@@ -249,6 +251,49 @@ export default function Home() {
       )}
 
       <VideoModeModal video={selectedVideo} onClose={() => setSelectedVideo(null)} />
+
+      {/* 단어 연습 영상 선택 팝업 */}
+      {showVocabPicker && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={() => setShowVocabPicker(false)}>
+          <div className="absolute inset-0 bg-black/40" />
+          <div
+            className="relative bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[85vh] overflow-y-auto p-6"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowVocabPicker(false)}
+              className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-600 transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <h2 className="text-xl font-bold text-gray-900 mb-1">단어 연습</h2>
+            <p className="text-sm text-gray-500 mb-5">연습할 영상을 선택하세요</p>
+            <div className="space-y-2">
+              {videos.map((v) => (
+                <div
+                  key={v.videoId}
+                  onClick={() => {
+                    setShowVocabPicker(false);
+                    navigate('/vocabulary', { state: { practiceVideoId: v.videoId } });
+                  }}
+                  className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors border border-transparent hover:border-gray-200"
+                >
+                  <img src={v.thumbnail} alt="" className="w-20 h-12 object-cover rounded flex-shrink-0" />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 line-clamp-1">{v.title}</p>
+                    <p className="text-xs text-gray-400">{v.channel}</p>
+                  </div>
+                </div>
+              ))}
+              {videos.length === 0 && (
+                <p className="text-center text-gray-400 py-8">아직 영상이 없습니다</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

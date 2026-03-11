@@ -33,6 +33,7 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
   const [phase, setPhase] = useState<'dictation' | 'vocab_quiz' | 'completed'>('dictation');
   const [quizResult, setQuizResult] = useState<QuizResult | null>(null);
   const playerRef = useRef<YouTubePlayerHandle>(null);
+  const [playerReady, setPlayerReady] = useState(false);
   const { loading: dictLoading, addAttempt, segmentStats } = useDictation(progress.videoId);
   const { auth, userIdRef } = useUserIdRef();
   const xpToast = useContext(XPToastContext);
@@ -207,6 +208,7 @@ export default function DailyWorkflow({ progress, onComplete, onChangeVideo }: P
             ref={playerRef}
             youtubeId={meta.youtubeId}
             onTimeUpdate={setCurrentTime}
+            onReady={() => setPlayerReady(true)}
             className="lg:col-span-2"
           />
           <div>

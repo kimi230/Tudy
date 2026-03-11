@@ -75,6 +75,7 @@ export interface VocabularyItem {
   partOfSpeech: string;
   phonetic?: string;
   contextSentence: string;
+  contextSentenceKo?: string;
   segmentIndex: number;
   // Chinese fields
   pinyin?: string;

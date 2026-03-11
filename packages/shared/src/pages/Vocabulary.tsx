@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
+import { useLocation } from 'react-router-dom';
 import { loadVideos, loadVocabulary } from '../lib/dataLoader';
 import VocabCard from '../components/vocabulary/VocabCard';
 import VocabDetailView from '../components/vocabulary/VocabDetailView';
@@ -12,13 +13,15 @@ interface VocabWithSource extends VocabularyItem {
 }
 
 export default function Vocabulary() {
+  const location = useLocation();
+  const initialPracticeId = (location.state as { practiceVideoId?: string } | null)?.practiceVideoId ?? null;
   const [allVocab, setAllVocab] = useState<VocabWithSource[]>([]);
   const [videos, setVideos] = useState<VideoEntry[]>([]);
   const [selectedWord, setSelectedWord] = useState<VocabWithSource | null>(null);
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
-  const [practiceVideoId, setPracticeVideoId] = useState<string | null>(null);
+  const [practiceVideoId, setPracticeVideoId] = useState<string | null>(initialPracticeId);
   const t = getThemeColors();
 
   useEffect(() => {

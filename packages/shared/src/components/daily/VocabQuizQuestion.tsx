@@ -119,6 +119,9 @@ export default function VocabQuizQuestion({
             <div className="bg-gray-50 rounded-lg p-3 text-sm text-gray-600">
               <span className="font-medium text-gray-500 text-xs block mb-1">예문</span>
               {question.targetItem.contextSentence}
+              {question.targetItem.contextSentenceKo && (
+                <p className="text-xs text-gray-400 mt-1">{question.targetItem.contextSentenceKo}</p>
+              )}
             </div>
           )}
           <button

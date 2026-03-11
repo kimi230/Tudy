@@ -88,7 +88,7 @@ export default function VocabPractice({ vocabulary, videoTitle, onClose }: Props
         key={key}
         vocabulary={vocabulary}
         sessionSegmentRange={[0, Infinity]}
-        quizSize={10}
+        quizSize={20}
         onComplete={handleComplete}
       />
     </div>
