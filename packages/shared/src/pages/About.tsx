@@ -92,18 +92,18 @@ export default function About() {
 
             {/* Phase A */}
             <div className="mb-14">
-              <p className="text-xs tracking-[0.15em] uppercase text-gray-400 font-medium mb-6">
+              <p className="text-xs tracking-[0.15em] uppercase text-indigo-400 font-medium mb-6">
                 A &middot; 듣기
               </p>
               <div className="space-y-6">
-                <Step n={1} title="그냥 듣기">
+                <Step n={1} title="그냥 듣기" color="indigo">
                   자막 없이 전체를 듣습니다. 모르는 것에 집착하지 않고, 흐름과 주제만 파악합니다.
                 </Step>
-                <Step n={2} title="노트테이킹하며 듣기">
+                <Step n={2} title="노트테이킹하며 듣기" color="indigo">
                   키워드, 시그널 표현, 스피치 구조를 메모합니다.
                   딕테이션이 아니라 핵심 키워드 위주 — 노트테이킹은 중심을 파악하는 도구입니다.
                 </Step>
-                <Step n={3} title="다시 들으며 보충">
+                <Step n={3} title="다시 들으며 보충" color="indigo">
                   놓친 부분을 다른 색으로 표시합니다. 청취 사각지대가 시각적으로 드러납니다.
                 </Step>
               </div>
@@ -111,19 +111,19 @@ export default function About() {
 
             {/* Phase B */}
             <div className="mb-14">
-              <p className="text-xs tracking-[0.15em] uppercase text-gray-400 font-medium mb-6">
+              <p className="text-xs tracking-[0.15em] uppercase text-amber-400 font-medium mb-6">
                 B &middot; 분석
               </p>
               <div className="space-y-6">
-                <Step n={4} title="자막 켜고 대조">
+                <Step n={4} title="자막 켜고 대조" color="amber">
                   노트와 실제 스크립트를 비교합니다.
                   전환 표현과 논증 흐름, 어디까지가 서론이고 어디서 본론이 시작되는지 분석합니다.
                 </Step>
-                <Step n={5} title="안 들린 원인 분석">
+                <Step n={5} title="안 들린 원인 분석" color="amber">
                   영어가 안 들리는 원인은 보통 세 가지 — 모르는 어휘, 구어체 문법, 연음 패턴.
                   모든 단어를 외우려 하지 말고, 중심 내용에 필수적인 단어만 선별합니다.
                 </Step>
-                <Step n={6} title="자막 끄고 직청직해">
+                <Step n={6} title="자막 끄고 직청직해" color="amber">
                   분석한 내용을 바탕으로 다시 자막 없이 들어봅니다.
                   내가 어느 파트가 유독 취약한지 파악하는 게 핵심입니다.
                 </Step>
@@ -132,22 +132,22 @@ export default function About() {
 
             {/* Phase C */}
             <div className="mb-6">
-              <p className="text-xs tracking-[0.15em] uppercase text-gray-400 font-medium mb-6">
+              <p className="text-xs tracking-[0.15em] uppercase text-emerald-400 font-medium mb-6">
                 C &middot; 아웃풋
               </p>
               <div className="space-y-6">
-                <Step n={7} title="오답노트 정리">
+                <Step n={7} title="오답노트 정리" color="emerald">
                   안 들렸던 어휘, 문법, 연음을 한 곳에 정리합니다.
                 </Step>
-                <Step n={8} title="쉐도잉">
+                <Step n={8} title="쉐도잉" color="emerald">
                   스크립트를 보며 천천히, 그 다음 원어민 속도로.
                   앞 단계의 분석 없이 하는 쉐도잉은 외계어를 따라 하는 것과 같습니다.
                 </Step>
-                <Step n={9} title="녹음 & 점검">
+                <Step n={9} title="녹음 & 점검" color="emerald">
                   자신의 발음을 녹음하고 원본과 비교합니다.
                   가장 하기 싫은 작업이지만, 하고 안 하고가 천지차이입니다.
                 </Step>
-                <Step n={10} title="내 말로 요약하기">
+                <Step n={10} title="내 말로 요약하기" color="emerald">
                   배운 내용을 자기 말로 요약합니다.
                   직접 써보는 Active Learning은 수동 암기보다 2배 이상 효과적입니다.
                 </Step>
@@ -272,10 +272,16 @@ export default function About() {
 
 /* ---- Sub-components ---- */
 
-function Step({ n, title, children }: { n: number; title: string; children: React.ReactNode }) {
+function Step({ n, title, color = 'gray', children }: { n: number; title: string; color?: 'indigo' | 'amber' | 'emerald' | 'gray'; children: React.ReactNode }) {
+  const styles = {
+    indigo: 'bg-indigo-50 text-indigo-600',
+    amber: 'bg-amber-50 text-amber-600',
+    emerald: 'bg-emerald-50 text-emerald-600',
+    gray: 'bg-gray-100 text-gray-500',
+  };
   return (
     <div className="flex gap-4">
-      <span className="shrink-0 w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-xs font-bold text-gray-500">
+      <span className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold ${styles[color]}`}>
         {n}
       </span>
       <div className="flex-1 min-w-0">
