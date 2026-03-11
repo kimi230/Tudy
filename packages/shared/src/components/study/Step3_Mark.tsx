@@ -42,7 +42,7 @@ export default function Step3_Mark({
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">Step 3: 재듣기 + 마킹</h3>
           <p className="text-sm text-gray-500">
-            <span className="inline-block w-2.5 h-2.5 bg-blue-200 rounded mr-1 align-middle" /> 캐치
+            <span className="inline-block w-2.5 h-2.5 bg-emerald-200 rounded mr-1 align-middle" /> 캐치
             <span className="inline-block w-2.5 h-2.5 bg-red-200 rounded ml-2 mr-1 align-middle" /> 안 들림
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function Step3_Mark({
       />
 
       <div className="flex gap-4 text-xs text-gray-500">
-        <span><span className="inline-block w-2 h-2 bg-blue-200 rounded mr-1" />{blueCount}개</span>
+        <span><span className="inline-block w-2 h-2 bg-emerald-200 rounded mr-1" />{blueCount}개</span>
         <span><span className="inline-block w-2 h-2 bg-red-200 rounded mr-1" />{redCount}개</span>
       </div>
     </div>

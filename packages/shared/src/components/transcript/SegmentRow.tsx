@@ -24,7 +24,7 @@ export default memo(function SegmentRow({
   onMark,
 }: Props) {
   const bgColor = markedColor === 'blue'
-    ? 'bg-blue-50 border-blue-200'
+    ? 'bg-emerald-50 border-emerald-200'
     : markedColor === 'red'
     ? 'bg-red-50 border-red-200'
     : isActive
@@ -70,7 +70,7 @@ export default memo(function SegmentRow({
         <div className="flex gap-1 shrink-0">
           <button
             onClick={(e) => { e.stopPropagation(); onMark('blue'); }}
-            className="w-6 h-6 rounded bg-blue-200 hover:bg-blue-300 text-xs"
+            className="w-6 h-6 rounded bg-emerald-200 hover:bg-emerald-300 text-xs"
             title="이해됨"
           />
           <button
