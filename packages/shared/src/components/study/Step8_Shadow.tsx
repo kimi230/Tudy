@@ -6,6 +6,7 @@ interface Props {
   currentTime: number;
   segments: Segment[];
   onComplete: () => void;
+  onSeek?: (time: number) => void;
 }
 
 type ShadowPhase = 1 | 2 | 3;
@@ -53,7 +54,7 @@ const PHASE_CONFIG: Record<ShadowPhase, {
   },
 };
 
-export default function Step8_Shadow({ currentTime, segments, onComplete }: Props) {
+export default function Step8_Shadow({ currentTime, segments, onComplete, onSeek }: Props) {
   const [phase, setPhase] = useState<ShadowPhase>(1);
 
   const config = PHASE_CONFIG[phase];
@@ -119,7 +120,7 @@ export default function Step8_Shadow({ currentTime, segments, onComplete }: Prop
           showKorean={phase === 1}
           highlightWords
           compact
-          onSegmentClick={() => {}}
+          onSegmentClick={(seg) => onSeek?.(seg.start)}
           maxHeight="340px"
         />
       ) : (

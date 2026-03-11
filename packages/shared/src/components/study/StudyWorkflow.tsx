@@ -147,6 +147,7 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
             currentTime={currentTime}
             segments={segments}
             onComplete={() => completeStep(8)}
+            onSeek={(t) => playerRef.current?.seekTo(t)}
           />
         );
       case 9:
