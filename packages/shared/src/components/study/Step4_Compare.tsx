@@ -71,6 +71,9 @@ export default function Step4_Compare({ segments, structure }: Props) {
                 <div key={i} className={`border rounded-lg px-3 py-2 ${colorClass}`}>
                   <p className="text-sm font-semibold">{getSectionTitle(sec)}</p>
                   <p className="text-xs mt-0.5">{sec.summary}</p>
+                  {sec.summaryKo && (
+                    <p className="text-xs mt-1 opacity-70">{sec.summaryKo}</p>
+                  )}
                   {sec.keyPoints && sec.keyPoints.length > 0 && (
                     <div className="mt-1.5 flex flex-wrap gap-1">
                       {sec.keyPoints.map((kp, j) => (
