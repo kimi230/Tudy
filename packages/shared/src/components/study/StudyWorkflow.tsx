@@ -228,14 +228,12 @@ export default function StudyWorkflow({ videoId, meta }: Props) {
               summary={session.summary}
               onSummaryChange={updateSummary}
               onComplete={() => completeStep(10)}
+              selfScore={session.selfScore}
+              totalStudyTimeSec={session.totalStudyTimeSec}
+              segmentCount={segments.length}
             />
           </div>
-          <Step10_Bottom
-            segments={segments}
-            structure={structure}
-            selfScore={session.selfScore}
-            totalStudyTimeSec={session.totalStudyTimeSec}
-          />
+          <Step10_Bottom structure={structure} />
         </>
       ) : step === 4 ? (
         <>
