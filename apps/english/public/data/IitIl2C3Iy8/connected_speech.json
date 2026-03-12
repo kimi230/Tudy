@@ -1,0 +1,132 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "asked me to",
+    "phonetic": "/æstmɪtə/",
+    "koreanPhonetic": "애스트미터",
+    "explanation": "'asked me to'에서 'asked'의 /d/가 탈락하고, 'me to'가 빠르게 연결되어 /mɪtə/로 축약됩니다.",
+    "explanationKo": "'asked me to'에서 'asked'의 끝 /d/ 소리가 생략되고 'me to'가 빠르게 연결되어 마치 '애스트미터'처럼 들립니다.",
+    "practiceGuide": "'ast-mi-tuh'로 빠르게 연습하세요. 'She ast-mi-tuh come.' 반복 연습.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "linking",
+    "originalText": "looked up",
+    "phonetic": "/lʊktʌp/",
+    "koreanPhonetic": "룩텁",
+    "explanation": "'looked'의 마지막 /t/와 'up'의 첫 모음이 연결되어 하나의 단위처럼 발음됩니다.",
+    "explanationKo": "'looked'의 /t/ 소리가 'up'의 모음과 자연스럽게 연결되어 '룩텁'처럼 들립니다.",
+    "practiceGuide": "'luk-tup'으로 두 단어를 끊지 않고 한 단어처럼 연습하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "reduction",
+    "originalText": "wanted to",
+    "phonetic": "/ˈwɑːnɪdə/",
+    "koreanPhonetic": "워니더",
+    "explanation": "'wanted to'에서 'to'가 약화되어 /tə/ 또는 /də/로 발음됩니다. 빠른 발화에서 매우 흔합니다.",
+    "explanationKo": "'wanted to'에서 'to'가 약화되어 /tə/로 축약됩니다. 일상 대화에서 매우 자주 나타나는 현상입니다.",
+    "practiceGuide": "'wanna-duh'로 빠르게 연습. 'I wanna-duh go home.' 반복.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "elision",
+    "originalText": "heads held high",
+    "phonetic": "/hedz eld haɪ/",
+    "koreanPhonetic": "헤즈 엘드 하이",
+    "explanation": "'held'의 /h/가 문장 중간에서 약화되거나 탈락할 수 있습니다. 'heads'와 'held'의 /dz/와 /h/ 사이가 빠르게 연결됩니다.",
+    "explanationKo": "'held'의 /h/가 문장 중간에서 약해지며, 'heads held'가 빠르게 이어져 '헤즈엘드'처럼 들릴 수 있습니다.",
+    "practiceGuide": "'hedz-eld-high'로 h를 가볍게 발음하며 연습하세요.",
+    "segmentIndex": 7
+  },
+  {
+    "type": "linking",
+    "originalText": "set out to achieve",
+    "phonetic": "/setaʊtəəˈtʃiːv/",
+    "koreanPhonetic": "세타우터 어치브",
+    "explanation": "'set'의 /t/가 'out'의 모음과 연결되고, 'out'의 /t/가 다시 'to'와 연결되어 연쇄적 연음이 일어납니다.",
+    "explanationKo": "'set out to achieve'에서 자음과 모음이 연쇄적으로 연결됩니다. /t/가 뒤따르는 모음과 자연스럽게 이어집니다.",
+    "practiceGuide": "'se-tow-tuh-achieve'로 끊지 않고 흐르듯 연습하세요.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "assimilation",
+    "originalText": "count yourself in",
+    "phonetic": "/kaʊntʃərˈselfɪn/",
+    "koreanPhonetic": "카운춰셀핀",
+    "explanation": "'count'의 /t/와 'yourself'의 /j/가 만나 /tʃ/ (치 소리)로 동화됩니다. 이것은 영어에서 /t/ + /j/ → /tʃ/ 동화의 전형적인 예입니다.",
+    "explanationKo": "'count'의 /t/와 'yourself'의 /j/가 결합하여 /tʃ/ 소리가 됩니다. 't + y → ch' 동화 현상입니다.",
+    "practiceGuide": "'coun-chur-self-in'으로 연습. 't+y=ch' 규칙 기억하세요.",
+    "segmentIndex": 27
+  },
+  {
+    "type": "reduction",
+    "originalText": "standing on the",
+    "phonetic": "/ˈstændɪnɑnðə/",
+    "koreanPhonetic": "스탠디난더",
+    "explanation": "'standing'의 마지막 /ŋ/이 'on'과 연결되면서 /n/으로 약화되고, 'on the'가 빠르게 연결됩니다.",
+    "explanationKo": "'standing on the'에서 단어 경계가 모호해지며 '스탠디난더'처럼 빠르게 흘러갑니다.",
+    "practiceGuide": "'standin-on-thuh'로 빠르게 연습. 끊지 말고 흐르듯이.",
+    "segmentIndex": 34
+  },
+  {
+    "type": "linking",
+    "originalText": "faced him head on",
+    "phonetic": "/feɪstɪm hedɑn/",
+    "koreanPhonetic": "페이스팀 헤단",
+    "explanation": "'faced'의 /t/가 'him'과 연결되고, 'him'의 /h/가 탈락합니다. 'head on'도 연결되어 발음됩니다.",
+    "explanationKo": "'faced him'에서 'him'의 /h/가 탈락하여 '페이스팀'처럼 들리고, 'head on'이 '헤단'으로 연결됩니다.",
+    "practiceGuide": "'faced-im head-on'으로 h 탈락에 주의하며 연습하세요.",
+    "segmentIndex": 36
+  },
+  {
+    "type": "reduction",
+    "originalText": "told myself",
+    "phonetic": "/toʊldmaɪˈself/",
+    "koreanPhonetic": "톨드마이셀프",
+    "explanation": "'told'와 'myself'가 빠르게 연결되어 하나의 단위처럼 발음됩니다. /d/와 /m/이 자연스럽게 이어집니다.",
+    "explanationKo": "'told myself'에서 두 단어가 끊김 없이 빠르게 연결되어 '톨드마이셀프'로 한 단어처럼 들립니다.",
+    "practiceGuide": "'told-my-self'를 빠르게, 끊지 않고 연습하세요.",
+    "segmentIndex": 46
+  },
+  {
+    "type": "reduction",
+    "originalText": "give yourself",
+    "phonetic": "/gɪvjərˈself/",
+    "koreanPhonetic": "기뷰어셀프",
+    "explanation": "'give'의 /v/와 'yourself'의 /j/가 빠르게 연결되며, 'your'가 /jər/로 약화됩니다.",
+    "explanationKo": "'give yourself'에서 'yourself'의 'your'가 약화되어 /jər/로 발음되며, '기뷰어셀프'처럼 들립니다.",
+    "practiceGuide": "'giv-yer-self'로 빠르게 연습. 'your'를 약하게 발음하세요.",
+    "segmentIndex": 46
+  },
+  {
+    "type": "elision",
+    "originalText": "kept breathing",
+    "phonetic": "/kepˈbriːðɪŋ/",
+    "koreanPhonetic": "켑브리딩",
+    "explanation": "'kept'의 마지막 /t/가 'breathing'의 /b/ 앞에서 탈락합니다. 파열음 연쇄에서 첫 번째 파열음이 생략되는 현상입니다.",
+    "explanationKo": "'kept'의 /t/ 소리가 'breathing'의 /b/ 앞에서 사라져 '켑브리딩'처럼 들립니다.",
+    "practiceGuide": "'kep-breathing'으로 t를 생략하고 바로 b로 넘어가세요.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "linking",
+    "originalText": "cheer someone else on",
+    "phonetic": "/tʃɪrsʌmwʌnelsɑn/",
+    "koreanPhonetic": "치어썸원엘선",
+    "explanation": "'someone else on'에서 각 단어의 마지막 자음이 다음 단어의 모음과 자연스럽게 연결됩니다.",
+    "explanationKo": "'someone else on'에서 단어들이 끊김 없이 연결되어 '썸원엘선'처럼 흘러갑니다.",
+    "practiceGuide": "'cheer-someone-else-on'을 끊지 않고 하나의 흐름으로 연습하세요.",
+    "segmentIndex": 61
+  },
+  {
+    "type": "assimilation",
+    "originalText": "meant to be",
+    "phonetic": "/mentəbi/",
+    "koreanPhonetic": "멘터비",
+    "explanation": "'meant'의 /t/와 'to'의 /t/가 하나로 합쳐지고, 'to'가 /tə/로 약화되어 빠르게 연결됩니다.",
+    "explanationKo": "'meant to'에서 두 개의 /t/ 소리가 하나로 합쳐지고 'to'가 약화되어 '멘터비'처럼 들립니다.",
+    "practiceGuide": "'men-tuh-be'로 t를 한 번만 발음하며 연습하세요.",
+    "segmentIndex": 47
+  }
+]

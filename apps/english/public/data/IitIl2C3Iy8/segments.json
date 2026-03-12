@@ -1,0 +1,8610 @@
+{
+  "videoId": "IitIl2C3Iy8",
+  "segments": [
+    {
+      "index": 0,
+      "start": 15.26,
+      "end": 20.06,
+      "textEn": "When I was in high school, my mom asked me to order a pizza for the family on a Friday night.",
+      "textKo": "고등학교 때, 엄마가 금요일 밤에 가족을 위해 피자를 주문해 달라고 하셨어요.",
+      "words": [
+        {
+          "word": "When",
+          "start": 15.26,
+          "end": 15.7
+        },
+        {
+          "word": "I",
+          "start": 15.7,
+          "end": 15.82
+        },
+        {
+          "word": "was",
+          "start": 15.82,
+          "end": 15.96
+        },
+        {
+          "word": "in",
+          "start": 15.96,
+          "end": 16.08
+        },
+        {
+          "word": "high",
+          "start": 16.08,
+          "end": 16.22
+        },
+        {
+          "word": "school,",
+          "start": 16.22,
+          "end": 16.52
+        },
+        {
+          "word": "my",
+          "start": 16.82,
+          "end": 16.98
+        },
+        {
+          "word": "mom",
+          "start": 16.98,
+          "end": 17.2
+        },
+        {
+          "word": "asked",
+          "start": 17.2,
+          "end": 17.42
+        },
+        {
+          "word": "me",
+          "start": 17.42,
+          "end": 17.54
+        },
+        {
+          "word": "to",
+          "start": 17.54,
+          "end": 17.64
+        },
+        {
+          "word": "order",
+          "start": 17.64,
+          "end": 17.82
+        },
+        {
+          "word": "a",
+          "start": 17.82,
+          "end": 17.98
+        },
+        {
+          "word": "pizza",
+          "start": 17.98,
+          "end": 18.26
+        },
+        {
+          "word": "for",
+          "start": 18.26,
+          "end": 18.46
+        },
+        {
+          "word": "the",
+          "start": 18.46,
+          "end": 18.56
+        },
+        {
+          "word": "family",
+          "start": 18.56,
+          "end": 18.94
+        },
+        {
+          "word": "on",
+          "start": 18.94,
+          "end": 19.32
+        },
+        {
+          "word": "a",
+          "start": 19.32,
+          "end": 19.42
+        },
+        {
+          "word": "Friday",
+          "start": 19.42,
+          "end": 19.72
+        },
+        {
+          "word": "night.",
+          "start": 19.72,
+          "end": 20.06
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 1,
+      "start": 20.6,
+      "end": 24.6,
+      "textEn": "I looked up the phone number in the phone book and promptly handed the phone to my older brother",
+      "textKo": "전화번호부에서 전화번호를 찾아보고 바로 전화기를 형에게 건넸어요.",
+      "words": [
+        {
+          "word": "I",
+          "start": 20.6,
+          "end": 21.04
+        },
+        {
+          "word": "looked",
+          "start": 21.04,
+          "end": 21.24
+        },
+        {
+          "word": "up",
+          "start": 21.24,
+          "end": 21.36
+        },
+        {
+          "word": "the",
+          "start": 21.36,
+          "end": 21.48
+        },
+        {
+          "word": "phone",
+          "start": 21.48,
+          "end": 21.7
+        },
+        {
+          "word": "number",
+          "start": 21.7,
+          "end": 21.92
+        },
+        {
+          "word": "in",
+          "start": 21.92,
+          "end": 22.02
+        },
+        {
+          "word": "the",
+          "start": 22.02,
+          "end": 22.1
+        },
+        {
+          "word": "phone",
+          "start": 22.1,
+          "end": 22.32
+        },
+        {
+          "word": "book",
+          "start": 22.32,
+          "end": 22.54
+        },
+        {
+          "word": "and",
+          "start": 22.54,
+          "end": 22.72
+        },
+        {
+          "word": "promptly",
+          "start": 22.72,
+          "end": 23.1
+        },
+        {
+          "word": "handed",
+          "start": 23.1,
+          "end": 23.42
+        },
+        {
+          "word": "the",
+          "start": 23.42,
+          "end": 23.6
+        },
+        {
+          "word": "phone",
+          "start": 23.6,
+          "end": 23.8
+        },
+        {
+          "word": "to",
+          "start": 23.8,
+          "end": 23.96
+        },
+        {
+          "word": "my",
+          "start": 23.96,
+          "end": 24.08
+        },
+        {
+          "word": "older",
+          "start": 24.08,
+          "end": 24.32
+        },
+        {
+          "word": "brother",
+          "start": 24.32,
+          "end": 24.6
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 2,
+      "start": 24.6,
+      "end": 29.92,
+      "textEn": "To place the call. I was too shy to talk to a stranger. Fast forward to college,",
+      "textKo": "전화를 걸도록요. 저는 낯선 사람과 통화하기가 너무 부끄러웠거든요. 대학교 시절로 넘어가면,",
+      "words": [
+        {
+          "word": "to",
+          "start": 24.6,
+          "end": 24.82
+        },
+        {
+          "word": "place",
+          "start": 24.82,
+          "end": 25.1
+        },
+        {
+          "word": "the",
+          "start": 25.1,
+          "end": 25.26
+        },
+        {
+          "word": "call.",
+          "start": 25.26,
+          "end": 25.58
+        },
+        {
+          "word": "I",
+          "start": 25.78,
+          "end": 26.12
+        },
+        {
+          "word": "was",
+          "start": 26.12,
+          "end": 26.32
+        },
+        {
+          "word": "too",
+          "start": 26.32,
+          "end": 26.64
+        },
+        {
+          "word": "shy",
+          "start": 26.64,
+          "end": 27.1
+        },
+        {
+          "word": "to",
+          "start": 27.1,
+          "end": 27.46
+        },
+        {
+          "word": "talk",
+          "start": 27.46,
+          "end": 27.7
+        },
+        {
+          "word": "to",
+          "start": 27.7,
+          "end": 27.84
+        },
+        {
+          "word": "a",
+          "start": 27.84,
+          "end": 27.94
+        },
+        {
+          "word": "stranger.",
+          "start": 27.94,
+          "end": 28.32
+        },
+        {
+          "word": "Fast",
+          "start": 28.88,
+          "end": 29.32
+        },
+        {
+          "word": "forward",
+          "start": 29.32,
+          "end": 29.5
+        },
+        {
+          "word": "to",
+          "start": 29.5,
+          "end": 29.62
+        },
+        {
+          "word": "college,",
+          "start": 29.62,
+          "end": 29.92
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 3,
+      "start": 29.92,
+      "end": 35.66,
+      "textEn": "At the University of Illinois, my first time away from my small town. I spent the first several weeks",
+      "textKo": "일리노이 대학교에서, 작은 마을을 처음 떠난 저는 처음 몇 주를",
+      "words": [
+        {
+          "word": "at",
+          "start": 29.92,
+          "end": 30.12
+        },
+        {
+          "word": "the",
+          "start": 30.12,
+          "end": 30.24
+        },
+        {
+          "word": "University",
+          "start": 30.24,
+          "end": 30.58
+        },
+        {
+          "word": "of",
+          "start": 30.58,
+          "end": 30.96
+        },
+        {
+          "word": "Illinois,",
+          "start": 30.96,
+          "end": 31.38
+        },
+        {
+          "word": "my",
+          "start": 31.66,
+          "end": 32.2
+        },
+        {
+          "word": "first",
+          "start": 32.2,
+          "end": 32.56
+        },
+        {
+          "word": "time",
+          "start": 32.56,
+          "end": 32.78
+        },
+        {
+          "word": "away",
+          "start": 32.78,
+          "end": 33.0
+        },
+        {
+          "word": "from",
+          "start": 33.0,
+          "end": 33.2
+        },
+        {
+          "word": "my",
+          "start": 33.2,
+          "end": 33.38
+        },
+        {
+          "word": "small",
+          "start": 33.38,
+          "end": 33.7
+        },
+        {
+          "word": "town.",
+          "start": 33.7,
+          "end": 34.02
+        },
+        {
+          "word": "I",
+          "start": 34.02,
+          "end": 34.48
+        },
+        {
+          "word": "spent",
+          "start": 34.48,
+          "end": 34.66
+        },
+        {
+          "word": "the",
+          "start": 34.66,
+          "end": 34.8
+        },
+        {
+          "word": "first",
+          "start": 34.8,
+          "end": 35.02
+        },
+        {
+          "word": "several",
+          "start": 35.02,
+          "end": 35.36
+        },
+        {
+          "word": "weeks",
+          "start": 35.36,
+          "end": 35.66
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 4,
+      "start": 35.66,
+      "end": 42.66,
+      "textEn": "Crying in my dorm room, too homesick to partake in early freshman partying. The one frat party I did",
+      "textKo": "기숙사 방에서 울며 보냈어요. 너무 향수병이 심해서 신입생 파티에 참여하지도 못했죠. 겨우 참석한 한 번의 동아리 파티는",
+      "words": [
+        {
+          "word": "crying",
+          "start": 35.66,
+          "end": 36.14
+        },
+        {
+          "word": "in",
+          "start": 36.14,
+          "end": 36.36
+        },
+        {
+          "word": "my",
+          "start": 36.36,
+          "end": 36.5
+        },
+        {
+          "word": "dorm",
+          "start": 36.5,
+          "end": 36.74
+        },
+        {
+          "word": "room,",
+          "start": 36.74,
+          "end": 37.08
+        },
+        {
+          "word": "too",
+          "start": 37.2,
+          "end": 37.66
+        },
+        {
+          "word": "homesick",
+          "start": 37.66,
+          "end": 38.24
+        },
+        {
+          "word": "to",
+          "start": 38.24,
+          "end": 38.42
+        },
+        {
+          "word": "partake",
+          "start": 38.42,
+          "end": 38.82
+        },
+        {
+          "word": "in",
+          "start": 38.82,
+          "end": 38.92
+        },
+        {
+          "word": "early",
+          "start": 38.92,
+          "end": 39.26
+        },
+        {
+          "word": "freshman",
+          "start": 39.26,
+          "end": 39.72
+        },
+        {
+          "word": "partying.",
+          "start": 39.72,
+          "end": 40.3
+        },
+        {
+          "word": "The",
+          "start": 40.74,
+          "end": 41.1
+        },
+        {
+          "word": "one",
+          "start": 41.1,
+          "end": 41.42
+        },
+        {
+          "word": "frat",
+          "start": 41.42,
+          "end": 41.84
+        },
+        {
+          "word": "party",
+          "start": 41.84,
+          "end": 42.16
+        },
+        {
+          "word": "I",
+          "start": 42.16,
+          "end": 42.44
+        },
+        {
+          "word": "did",
+          "start": 42.44,
+          "end": 42.66
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 5,
+      "start": 42.66,
+      "end": 48.14,
+      "textEn": "Attend was so disappointing, I wanted to trade in my books, abandon my major, and head back home to my",
+      "textKo": "너무 실망스러워서 책을 반납하고 전공을 포기하고 고향 작은 마을로 돌아가고 싶었어요.",
+      "words": [
+        {
+          "word": "attend",
+          "start": 42.66,
+          "end": 43.0
+        },
+        {
+          "word": "was",
+          "start": 43.0,
+          "end": 43.56
+        },
+        {
+          "word": "so",
+          "start": 43.56,
+          "end": 43.86
+        },
+        {
+          "word": "disappointing,",
+          "start": 43.86,
+          "end": 44.5
+        },
+        {
+          "word": "I",
+          "start": 44.78,
+          "end": 45.0
+        },
+        {
+          "word": "wanted",
+          "start": 45.0,
+          "end": 45.2
+        },
+        {
+          "word": "to",
+          "start": 45.2,
+          "end": 45.36
+        },
+        {
+          "word": "trade",
+          "start": 45.36,
+          "end": 45.58
+        },
+        {
+          "word": "in",
+          "start": 45.58,
+          "end": 45.72
+        },
+        {
+          "word": "my",
+          "start": 45.72,
+          "end": 45.86
+        },
+        {
+          "word": "books,",
+          "start": 45.86,
+          "end": 46.16
+        },
+        {
+          "word": "abandon",
+          "start": 46.34,
+          "end": 46.6
+        },
+        {
+          "word": "my",
+          "start": 46.6,
+          "end": 46.82
+        },
+        {
+          "word": "major,",
+          "start": 46.82,
+          "end": 47.12
+        },
+        {
+          "word": "and",
+          "start": 47.24,
+          "end": 47.28
+        },
+        {
+          "word": "head",
+          "start": 47.28,
+          "end": 47.48
+        },
+        {
+          "word": "back",
+          "start": 47.48,
+          "end": 47.7
+        },
+        {
+          "word": "home",
+          "start": 47.7,
+          "end": 47.88
+        },
+        {
+          "word": "to",
+          "start": 47.88,
+          "end": 48.0
+        },
+        {
+          "word": "my",
+          "start": 48.0,
+          "end": 48.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 6,
+      "start": 48.14,
+      "end": 55.1,
+      "textEn": "Small town. The confident behaviors I needed to pursue this stream were not yet available, and when",
+      "textKo": "이 꿈을 추구하는 데 필요한 자신감 있는 행동들은 아직 갖추어지지 않았고,",
+      "words": [
+        {
+          "word": "small",
+          "start": 48.14,
+          "end": 48.42
+        },
+        {
+          "word": "town.",
+          "start": 48.42,
+          "end": 48.8
+        },
+        {
+          "word": "The",
+          "start": 49.78,
+          "end": 50.34
+        },
+        {
+          "word": "confident",
+          "start": 50.34,
+          "end": 50.8
+        },
+        {
+          "word": "behaviors",
+          "start": 50.8,
+          "end": 51.32
+        },
+        {
+          "word": "I",
+          "start": 51.32,
+          "end": 51.58
+        },
+        {
+          "word": "needed",
+          "start": 51.58,
+          "end": 51.8
+        },
+        {
+          "word": "to",
+          "start": 51.8,
+          "end": 51.98
+        },
+        {
+          "word": "pursue",
+          "start": 51.98,
+          "end": 52.38
+        },
+        {
+          "word": "this",
+          "start": 52.38,
+          "end": 52.64
+        },
+        {
+          "word": "stream",
+          "start": 52.64,
+          "end": 53.0
+        },
+        {
+          "word": "were",
+          "start": 53.0,
+          "end": 53.54
+        },
+        {
+          "word": "not",
+          "start": 53.54,
+          "end": 53.72
+        },
+        {
+          "word": "yet",
+          "start": 53.72,
+          "end": 53.92
+        },
+        {
+          "word": "available,",
+          "start": 53.92,
+          "end": 54.38
+        },
+        {
+          "word": "and",
+          "start": 54.38,
+          "end": 54.96
+        },
+        {
+          "word": "when",
+          "start": 54.96,
+          "end": 55.1
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 7,
+      "start": 55.1,
+      "end": 61.14,
+      "textEn": "I looked around at the confident students walking around me around campus, heads held high, pursuing",
+      "textKo": "캠퍼스를 당당하게 걸어 다니는 자신감 있는 학생들을 둘러보니, 고개를 높이 들고,",
+      "words": [
+        {
+          "word": "I",
+          "start": 55.1,
+          "end": 55.22
+        },
+        {
+          "word": "looked",
+          "start": 55.22,
+          "end": 55.56
+        },
+        {
+          "word": "around",
+          "start": 55.56,
+          "end": 56.06
+        },
+        {
+          "word": "at",
+          "start": 56.06,
+          "end": 56.32
+        },
+        {
+          "word": "the",
+          "start": 56.32,
+          "end": 56.42
+        },
+        {
+          "word": "confident",
+          "start": 56.42,
+          "end": 56.88
+        },
+        {
+          "word": "students",
+          "start": 56.88,
+          "end": 57.28
+        },
+        {
+          "word": "walking",
+          "start": 57.28,
+          "end": 57.72
+        },
+        {
+          "word": "around",
+          "start": 57.72,
+          "end": 58.02
+        },
+        {
+          "word": "me",
+          "start": 58.02,
+          "end": 58.22
+        },
+        {
+          "word": "around",
+          "start": 58.22,
+          "end": 58.48
+        },
+        {
+          "word": "campus,",
+          "start": 58.48,
+          "end": 59.02
+        },
+        {
+          "word": "heads",
+          "start": 59.26,
+          "end": 59.8
+        },
+        {
+          "word": "held",
+          "start": 59.8,
+          "end": 60.08
+        },
+        {
+          "word": "high,",
+          "start": 60.08,
+          "end": 60.42
+        },
+        {
+          "word": "pursuing",
+          "start": 60.74,
+          "end": 61.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 8,
+      "start": 61.14,
+      "end": 68.3,
+      "textEn": "A dream that they had set out to achieve, I wanted that kind of confidence, too. But my behaviors did",
+      "textKo": "자신이 정한 꿈을 이루기 위해 나아가는 그들을 보며, 나도 그런 자신감을 갖고 싶었어요. 하지만 제 행동은",
+      "words": [
+        {
+          "word": "a",
+          "start": 61.14,
+          "end": 61.34
+        },
+        {
+          "word": "dream",
+          "start": 61.34,
+          "end": 61.68
+        },
+        {
+          "word": "that",
+          "start": 61.68,
+          "end": 62.08
+        },
+        {
+          "word": "they",
+          "start": 62.08,
+          "end": 62.32
+        },
+        {
+          "word": "had",
+          "start": 62.32,
+          "end": 62.56
+        },
+        {
+          "word": "set",
+          "start": 62.56,
+          "end": 62.84
+        },
+        {
+          "word": "out",
+          "start": 62.84,
+          "end": 63.12
+        },
+        {
+          "word": "to",
+          "start": 63.12,
+          "end": 63.56
+        },
+        {
+          "word": "achieve,",
+          "start": 63.56,
+          "end": 63.92
+        },
+        {
+          "word": "I",
+          "start": 64.22,
+          "end": 64.62
+        },
+        {
+          "word": "wanted",
+          "start": 64.62,
+          "end": 64.9
+        },
+        {
+          "word": "that",
+          "start": 64.9,
+          "end": 65.12
+        },
+        {
+          "word": "kind",
+          "start": 65.12,
+          "end": 65.32
+        },
+        {
+          "word": "of",
+          "start": 65.32,
+          "end": 65.48
+        },
+        {
+          "word": "confidence,",
+          "start": 65.48,
+          "end": 66.0
+        },
+        {
+          "word": "too.",
+          "start": 66.0,
+          "end": 66.38
+        },
+        {
+          "word": "But",
+          "start": 66.58,
+          "end": 67.06
+        },
+        {
+          "word": "my",
+          "start": 67.06,
+          "end": 67.24
+        },
+        {
+          "word": "behaviors",
+          "start": 67.24,
+          "end": 67.82
+        },
+        {
+          "word": "did",
+          "start": 67.82,
+          "end": 68.3
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 9,
+      "start": 68.3,
+      "end": 73.9,
+      "textEn": "Not align with these confident attitudes. Crying in my dorm room, shying away from social engagement,",
+      "textKo": "이런 자신감 있는 태도와 일치하지 않았어요. 기숙사 방에서 울고, 사교 활동을 피하고,",
+      "words": [
+        {
+          "word": "not",
+          "start": 68.3,
+          "end": 68.54
+        },
+        {
+          "word": "align",
+          "start": 68.54,
+          "end": 68.9
+        },
+        {
+          "word": "with",
+          "start": 68.9,
+          "end": 69.1
+        },
+        {
+          "word": "these",
+          "start": 69.1,
+          "end": 69.26
+        },
+        {
+          "word": "confident",
+          "start": 69.26,
+          "end": 69.72
+        },
+        {
+          "word": "attitudes.",
+          "start": 69.72,
+          "end": 70.44
+        },
+        {
+          "word": "Crying",
+          "start": 70.8,
+          "end": 71.34
+        },
+        {
+          "word": "in",
+          "start": 71.34,
+          "end": 71.44
+        },
+        {
+          "word": "my",
+          "start": 71.44,
+          "end": 71.6
+        },
+        {
+          "word": "dorm",
+          "start": 71.6,
+          "end": 71.86
+        },
+        {
+          "word": "room,",
+          "start": 71.86,
+          "end": 72.18
+        },
+        {
+          "word": "shying",
+          "start": 72.38,
+          "end": 72.68
+        },
+        {
+          "word": "away",
+          "start": 72.68,
+          "end": 72.84
+        },
+        {
+          "word": "from",
+          "start": 72.84,
+          "end": 73.06
+        },
+        {
+          "word": "social",
+          "start": 73.06,
+          "end": 73.38
+        },
+        {
+          "word": "engagement,",
+          "start": 73.38,
+          "end": 73.9
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 10,
+      "start": 74.36,
+      "end": 78.74,
+      "textEn": "Not showing up for class because I was worried others were smarter than me, these were not going",
+      "textKo": "다른 사람들이 나보다 더 똑똑할까 봐 수업에 나가지 않았던 건, 결코 제 목표를 이루는 데",
+      "words": [
+        {
+          "word": "not",
+          "start": 74.36,
+          "end": 74.58
+        },
+        {
+          "word": "showing",
+          "start": 74.58,
+          "end": 74.84
+        },
+        {
+          "word": "up",
+          "start": 74.84,
+          "end": 75.02
+        },
+        {
+          "word": "for",
+          "start": 75.02,
+          "end": 75.16
+        },
+        {
+          "word": "class",
+          "start": 75.16,
+          "end": 75.5
+        },
+        {
+          "word": "because",
+          "start": 75.5,
+          "end": 75.74
+        },
+        {
+          "word": "I",
+          "start": 75.74,
+          "end": 75.96
+        },
+        {
+          "word": "was",
+          "start": 75.96,
+          "end": 76.1
+        },
+        {
+          "word": "worried",
+          "start": 76.1,
+          "end": 76.4
+        },
+        {
+          "word": "others",
+          "start": 76.4,
+          "end": 76.62
+        },
+        {
+          "word": "were",
+          "start": 76.62,
+          "end": 76.8
+        },
+        {
+          "word": "smarter",
+          "start": 76.8,
+          "end": 77.1
+        },
+        {
+          "word": "than",
+          "start": 77.1,
+          "end": 77.34
+        },
+        {
+          "word": "me,",
+          "start": 77.34,
+          "end": 77.58
+        },
+        {
+          "word": "these",
+          "start": 77.8,
+          "end": 78.3
+        },
+        {
+          "word": "were",
+          "start": 78.3,
+          "end": 78.42
+        },
+        {
+          "word": "not",
+          "start": 78.42,
+          "end": 78.6
+        },
+        {
+          "word": "going",
+          "start": 78.6,
+          "end": 78.74
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 11,
+      "start": 78.74,
+      "end": 85.28,
+      "textEn": "To lead me to achieve my goal. So what I knew is that I needed to change. Research tells us that in",
+      "textKo": "도움이 되지 않을 거였어요. 그래서 제가 알게 된 것은 변해야 한다는 거였어요. 연구에 따르면",
+      "words": [
+        {
+          "word": "to",
+          "start": 78.74,
+          "end": 78.86
+        },
+        {
+          "word": "lead",
+          "start": 78.86,
+          "end": 79.0
+        },
+        {
+          "word": "me",
+          "start": 79.0,
+          "end": 79.24
+        },
+        {
+          "word": "to",
+          "start": 79.24,
+          "end": 79.56
+        },
+        {
+          "word": "achieve",
+          "start": 79.56,
+          "end": 79.88
+        },
+        {
+          "word": "my",
+          "start": 79.88,
+          "end": 80.12
+        },
+        {
+          "word": "goal.",
+          "start": 80.12,
+          "end": 80.46
+        },
+        {
+          "word": "So",
+          "start": 80.62,
+          "end": 80.92
+        },
+        {
+          "word": "what",
+          "start": 80.92,
+          "end": 81.06
+        },
+        {
+          "word": "I",
+          "start": 81.06,
+          "end": 81.08
+        },
+        {
+          "word": "knew",
+          "start": 81.08,
+          "end": 81.56
+        },
+        {
+          "word": "is",
+          "start": 81.56,
+          "end": 81.96
+        },
+        {
+          "word": "that",
+          "start": 81.96,
+          "end": 82.08
+        },
+        {
+          "word": "I",
+          "start": 82.08,
+          "end": 82.18
+        },
+        {
+          "word": "needed",
+          "start": 82.18,
+          "end": 82.42
+        },
+        {
+          "word": "to",
+          "start": 82.42,
+          "end": 82.74
+        },
+        {
+          "word": "change.",
+          "start": 82.74,
+          "end": 83.22
+        },
+        {
+          "word": "Research",
+          "start": 83.94,
+          "end": 84.5
+        },
+        {
+          "word": "tells",
+          "start": 84.5,
+          "end": 84.78
+        },
+        {
+          "word": "us",
+          "start": 84.78,
+          "end": 84.98
+        },
+        {
+          "word": "that",
+          "start": 84.98,
+          "end": 85.16
+        },
+        {
+          "word": "in",
+          "start": 85.16,
+          "end": 85.28
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 12,
+      "start": 85.28,
+      "end": 91.76,
+      "textEn": "Order to get people to change, you need to not start with the attitudes, but with the behaviors associated",
+      "textKo": "사람들을 변화시키려면 태도가 아닌, 그 태도와 관련된 행동부터 시작해야 한다고 합니다.",
+      "words": [
+        {
+          "word": "order",
+          "start": 85.28,
+          "end": 85.52
+        },
+        {
+          "word": "to",
+          "start": 85.52,
+          "end": 85.72
+        },
+        {
+          "word": "get",
+          "start": 85.72,
+          "end": 85.86
+        },
+        {
+          "word": "people",
+          "start": 85.86,
+          "end": 86.14
+        },
+        {
+          "word": "to",
+          "start": 86.14,
+          "end": 86.36
+        },
+        {
+          "word": "change,",
+          "start": 86.36,
+          "end": 86.78
+        },
+        {
+          "word": "you",
+          "start": 86.94,
+          "end": 87.26
+        },
+        {
+          "word": "need",
+          "start": 87.26,
+          "end": 87.44
+        },
+        {
+          "word": "to",
+          "start": 87.44,
+          "end": 87.64
+        },
+        {
+          "word": "not",
+          "start": 87.64,
+          "end": 87.82
+        },
+        {
+          "word": "start",
+          "start": 87.82,
+          "end": 88.14
+        },
+        {
+          "word": "with",
+          "start": 88.14,
+          "end": 88.42
+        },
+        {
+          "word": "the",
+          "start": 88.42,
+          "end": 88.72
+        },
+        {
+          "word": "attitudes,",
+          "start": 88.72,
+          "end": 89.46
+        },
+        {
+          "word": "but",
+          "start": 89.46,
+          "end": 90.02
+        },
+        {
+          "word": "with",
+          "start": 90.02,
+          "end": 90.2
+        },
+        {
+          "word": "the",
+          "start": 90.2,
+          "end": 90.32
+        },
+        {
+          "word": "behaviors",
+          "start": 90.32,
+          "end": 90.88
+        },
+        {
+          "word": "associated",
+          "start": 90.88,
+          "end": 91.76
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 13,
+      "start": 91.76,
+      "end": 98.86,
+      "textEn": "With those attitudes. When people can see themselves behaving differently, they then begin to act",
+      "textKo": "사람들이 자신이 다르게 행동하는 모습을 보게 되면, 그제서야 다르게 행동하기 시작합니다.",
+      "words": [
+        {
+          "word": "with",
+          "start": 91.76,
+          "end": 92.32
+        },
+        {
+          "word": "those",
+          "start": 92.32,
+          "end": 92.6
+        },
+        {
+          "word": "attitudes.",
+          "start": 92.6,
+          "end": 93.14
+        },
+        {
+          "word": "When",
+          "start": 93.42,
+          "end": 93.84
+        },
+        {
+          "word": "people",
+          "start": 93.84,
+          "end": 94.1
+        },
+        {
+          "word": "can",
+          "start": 94.1,
+          "end": 94.32
+        },
+        {
+          "word": "see",
+          "start": 94.32,
+          "end": 94.6
+        },
+        {
+          "word": "themselves",
+          "start": 94.6,
+          "end": 95.02
+        },
+        {
+          "word": "behaving",
+          "start": 95.02,
+          "end": 95.84
+        },
+        {
+          "word": "differently,",
+          "start": 95.84,
+          "end": 96.38
+        },
+        {
+          "word": "they",
+          "start": 96.68,
+          "end": 96.98
+        },
+        {
+          "word": "then",
+          "start": 96.98,
+          "end": 97.66
+        },
+        {
+          "word": "begin",
+          "start": 97.66,
+          "end": 98.06
+        },
+        {
+          "word": "to",
+          "start": 98.06,
+          "end": 98.52
+        },
+        {
+          "word": "act",
+          "start": 98.52,
+          "end": 98.86
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 14,
+      "start": 98.86,
+      "end": 107.32,
+      "textEn": "Differently. So the questions for me were, who am I? Who do I want to become? And how does this person I want",
+      "textKo": "그래서 저에게 던진 질문은, 나는 누구인가? 어떤 사람이 되고 싶은가? 그리고 내가 되고 싶은 사람은",
+      "words": [
+        {
+          "word": "differently.",
+          "start": 98.86,
+          "end": 99.5
+        },
+        {
+          "word": "So",
+          "start": 100.08,
+          "end": 100.64
+        },
+        {
+          "word": "the",
+          "start": 100.64,
+          "end": 100.76
+        },
+        {
+          "word": "questions",
+          "start": 100.76,
+          "end": 101.12
+        },
+        {
+          "word": "for",
+          "start": 101.12,
+          "end": 101.34
+        },
+        {
+          "word": "me",
+          "start": 101.34,
+          "end": 101.52
+        },
+        {
+          "word": "were,",
+          "start": 101.52,
+          "end": 101.8
+        },
+        {
+          "word": "who",
+          "start": 102.0,
+          "end": 102.72
+        },
+        {
+          "word": "am",
+          "start": 102.72,
+          "end": 102.96
+        },
+        {
+          "word": "I?",
+          "start": 102.96,
+          "end": 103.2
+        },
+        {
+          "word": "Who",
+          "start": 103.62,
+          "end": 104.18
+        },
+        {
+          "word": "do",
+          "start": 104.18,
+          "end": 104.3
+        },
+        {
+          "word": "I",
+          "start": 104.3,
+          "end": 104.4
+        },
+        {
+          "word": "want",
+          "start": 104.4,
+          "end": 104.58
+        },
+        {
+          "word": "to",
+          "start": 104.58,
+          "end": 104.74
+        },
+        {
+          "word": "become?",
+          "start": 104.74,
+          "end": 105.12
+        },
+        {
+          "word": "And",
+          "start": 105.58,
+          "end": 106.14
+        },
+        {
+          "word": "how",
+          "start": 106.14,
+          "end": 106.36
+        },
+        {
+          "word": "does",
+          "start": 106.36,
+          "end": 106.52
+        },
+        {
+          "word": "this",
+          "start": 106.52,
+          "end": 106.7
+        },
+        {
+          "word": "person",
+          "start": 106.7,
+          "end": 107.0
+        },
+        {
+          "word": "I",
+          "start": 107.0,
+          "end": 107.14
+        },
+        {
+          "word": "want",
+          "start": 107.14,
+          "end": 107.32
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 15,
+      "start": 107.32,
+      "end": 113.72,
+      "textEn": "To become? Behave? The answers were that I wanted a successful career, one that meant something,",
+      "textKo": "어떻게 행동하는가? 답은 성공적인 커리어를 원한다는 것이었어요. 의미 있는 커리어,",
+      "words": [
+        {
+          "word": "to",
+          "start": 107.32,
+          "end": 107.46
+        },
+        {
+          "word": "become?",
+          "start": 107.46,
+          "end": 107.84
+        },
+        {
+          "word": "Behave?",
+          "start": 108.18,
+          "end": 108.8
+        },
+        {
+          "word": "The",
+          "start": 109.32,
+          "end": 109.94
+        },
+        {
+          "word": "answers",
+          "start": 109.94,
+          "end": 110.3
+        },
+        {
+          "word": "were",
+          "start": 110.3,
+          "end": 110.54
+        },
+        {
+          "word": "that",
+          "start": 110.54,
+          "end": 110.68
+        },
+        {
+          "word": "I",
+          "start": 110.68,
+          "end": 110.8
+        },
+        {
+          "word": "wanted",
+          "start": 110.8,
+          "end": 110.98
+        },
+        {
+          "word": "a",
+          "start": 110.98,
+          "end": 111.14
+        },
+        {
+          "word": "successful",
+          "start": 111.14,
+          "end": 111.62
+        },
+        {
+          "word": "career,",
+          "start": 111.62,
+          "end": 112.12
+        },
+        {
+          "word": "one",
+          "start": 112.42,
+          "end": 112.56
+        },
+        {
+          "word": "that",
+          "start": 112.56,
+          "end": 112.76
+        },
+        {
+          "word": "meant",
+          "start": 112.76,
+          "end": 113.16
+        },
+        {
+          "word": "something,",
+          "start": 113.16,
+          "end": 113.72
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 16,
+      "start": 113.96,
+      "end": 119.2,
+      "textEn": "Allowed me to contribute. And for me, that was defined as a career as a sports executive.",
+      "textKo": "기여할 수 있는 커리어요. 그리고 저에게 그것은 스포츠 경영인으로서의 커리어를 의미했어요.",
+      "words": [
+        {
+          "word": "allowed",
+          "start": 113.96,
+          "end": 114.42
+        },
+        {
+          "word": "me",
+          "start": 114.42,
+          "end": 114.58
+        },
+        {
+          "word": "to",
+          "start": 114.58,
+          "end": 114.76
+        },
+        {
+          "word": "contribute.",
+          "start": 114.76,
+          "end": 115.32
+        },
+        {
+          "word": "And",
+          "start": 115.76,
+          "end": 116.02
+        },
+        {
+          "word": "for",
+          "start": 116.02,
+          "end": 116.2
+        },
+        {
+          "word": "me,",
+          "start": 116.2,
+          "end": 116.44
+        },
+        {
+          "word": "that",
+          "start": 116.54,
+          "end": 116.68
+        },
+        {
+          "word": "was",
+          "start": 116.68,
+          "end": 116.82
+        },
+        {
+          "word": "defined",
+          "start": 116.82,
+          "end": 117.2
+        },
+        {
+          "word": "as",
+          "start": 117.2,
+          "end": 117.4
+        },
+        {
+          "word": "a",
+          "start": 117.4,
+          "end": 117.48
+        },
+        {
+          "word": "career",
+          "start": 117.48,
+          "end": 117.8
+        },
+        {
+          "word": "as",
+          "start": 117.8,
+          "end": 118.14
+        },
+        {
+          "word": "a",
+          "start": 118.14,
+          "end": 118.24
+        },
+        {
+          "word": "sports",
+          "start": 118.24,
+          "end": 118.62
+        },
+        {
+          "word": "executive.",
+          "start": 118.62,
+          "end": 119.2
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 17,
+      "start": 119.8,
+      "end": 128.5,
+      "textEn": "In order to achieve this goal, I needed to begin to act more confidently. And I did. Because 13 years",
+      "textKo": "이 목표를 달성하기 위해, 저는 더 자신감 있게 행동하기 시작해야 했어요. 그리고 그렇게 했죠. 왜냐하면 13년 후,",
+      "words": [
+        {
+          "word": "In",
+          "start": 119.8,
+          "end": 120.38
+        },
+        {
+          "word": "order",
+          "start": 120.38,
+          "end": 120.6
+        },
+        {
+          "word": "to",
+          "start": 120.6,
+          "end": 120.84
+        },
+        {
+          "word": "achieve",
+          "start": 120.84,
+          "end": 121.22
+        },
+        {
+          "word": "this",
+          "start": 121.22,
+          "end": 121.5
+        },
+        {
+          "word": "goal,",
+          "start": 121.5,
+          "end": 121.8
+        },
+        {
+          "word": "I",
+          "start": 122.0,
+          "end": 122.36
+        },
+        {
+          "word": "needed",
+          "start": 122.36,
+          "end": 122.58
+        },
+        {
+          "word": "to",
+          "start": 122.58,
+          "end": 122.76
+        },
+        {
+          "word": "begin",
+          "start": 122.76,
+          "end": 123.1
+        },
+        {
+          "word": "to",
+          "start": 123.1,
+          "end": 123.46
+        },
+        {
+          "word": "act",
+          "start": 123.46,
+          "end": 123.82
+        },
+        {
+          "word": "more",
+          "start": 123.82,
+          "end": 124.4
+        },
+        {
+          "word": "confidently.",
+          "start": 124.4,
+          "end": 125.16
+        },
+        {
+          "word": "And",
+          "start": 125.82,
+          "end": 126.44
+        },
+        {
+          "word": "I",
+          "start": 126.44,
+          "end": 126.54
+        },
+        {
+          "word": "did.",
+          "start": 126.54,
+          "end": 126.76
+        },
+        {
+          "word": "Because",
+          "start": 127.18,
+          "end": 127.8
+        },
+        {
+          "word": "13",
+          "start": 127.8,
+          "end": 128.16
+        },
+        {
+          "word": "years",
+          "start": 128.16,
+          "end": 128.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 18,
+      "start": 128.5,
+      "end": 134.5,
+      "textEn": "Later, I became the first female general manager of a AAA baseball team in nearly 20 years.",
+      "textKo": "저는 거의 20년 만에 AAA 야구팀 최초의 여성 단장이 되었거든요.",
+      "words": [
+        {
+          "word": "later,",
+          "start": 128.5,
+          "end": 128.78
+        },
+        {
+          "word": "I",
+          "start": 128.92,
+          "end": 128.94
+        },
+        {
+          "word": "became",
+          "start": 128.94,
+          "end": 129.2
+        },
+        {
+          "word": "the",
+          "start": 129.2,
+          "end": 129.34
+        },
+        {
+          "word": "first",
+          "start": 129.34,
+          "end": 129.62
+        },
+        {
+          "word": "female",
+          "start": 129.62,
+          "end": 130.1
+        },
+        {
+          "word": "general",
+          "start": 130.1,
+          "end": 130.54
+        },
+        {
+          "word": "manager",
+          "start": 130.54,
+          "end": 131.04
+        },
+        {
+          "word": "of",
+          "start": 131.04,
+          "end": 131.62
+        },
+        {
+          "word": "a",
+          "start": 131.62,
+          "end": 131.76
+        },
+        {
+          "word": "AAA",
+          "start": 131.76,
+          "end": 132.04
+        },
+        {
+          "word": "baseball",
+          "start": 132.04,
+          "end": 132.48
+        },
+        {
+          "word": "team",
+          "start": 132.48,
+          "end": 132.9
+        },
+        {
+          "word": "in",
+          "start": 132.9,
+          "end": 133.38
+        },
+        {
+          "word": "nearly",
+          "start": 133.38,
+          "end": 133.68
+        },
+        {
+          "word": "20",
+          "start": 133.68,
+          "end": 134.08
+        },
+        {
+          "word": "years.",
+          "start": 134.08,
+          "end": 134.5
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 19,
+      "start": 136.0,
+      "end": 146.94,
+      "textEn": "Thank you. I also went on to host the Leadership is Female podcast, where I've interviewed over 90 female",
+      "textKo": "감사합니다. 저는 또한 '리더십 이즈 피메일' 팟캐스트를 진행하면서 90명 이상의 여성",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 136.0,
+          "end": 136.68
+        },
+        {
+          "word": "you.",
+          "start": 136.68,
+          "end": 136.98
+        },
+        {
+          "word": "I",
+          "start": 141.0,
+          "end": 141.68
+        },
+        {
+          "word": "also",
+          "start": 141.68,
+          "end": 142.06
+        },
+        {
+          "word": "went",
+          "start": 142.06,
+          "end": 142.26
+        },
+        {
+          "word": "on",
+          "start": 142.26,
+          "end": 142.38
+        },
+        {
+          "word": "to",
+          "start": 142.38,
+          "end": 142.52
+        },
+        {
+          "word": "host",
+          "start": 142.52,
+          "end": 142.78
+        },
+        {
+          "word": "the",
+          "start": 142.78,
+          "end": 142.96
+        },
+        {
+          "word": "Leadership",
+          "start": 142.96,
+          "end": 143.3
+        },
+        {
+          "word": "is",
+          "start": 143.3,
+          "end": 143.64
+        },
+        {
+          "word": "Female",
+          "start": 143.64,
+          "end": 143.92
+        },
+        {
+          "word": "podcast,",
+          "start": 143.92,
+          "end": 144.36
+        },
+        {
+          "word": "where",
+          "start": 144.36,
+          "end": 144.7
+        },
+        {
+          "word": "I've",
+          "start": 144.7,
+          "end": 144.88
+        },
+        {
+          "word": "interviewed",
+          "start": 144.88,
+          "end": 145.3
+        },
+        {
+          "word": "over",
+          "start": 145.3,
+          "end": 145.6
+        },
+        {
+          "word": "90",
+          "start": 145.6,
+          "end": 146.16
+        },
+        {
+          "word": "female",
+          "start": 146.16,
+          "end": 146.94
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 20,
+      "start": 146.94,
+      "end": 154.3,
+      "textEn": "Executives in sports, an industry that's over 80% male at management level and above. And time after",
+      "textKo": "스포츠 분야 임원들을 인터뷰했어요. 이 산업은 관리직 이상의 80% 이상이 남성인 분야예요. 그리고 매번",
+      "words": [
+        {
+          "word": "executives",
+          "start": 146.94,
+          "end": 147.56
+        },
+        {
+          "word": "in",
+          "start": 147.56,
+          "end": 147.94
+        },
+        {
+          "word": "sports,",
+          "start": 147.94,
+          "end": 148.48
+        },
+        {
+          "word": "an",
+          "start": 148.7,
+          "end": 149.0
+        },
+        {
+          "word": "industry",
+          "start": 149.0,
+          "end": 149.46
+        },
+        {
+          "word": "that's",
+          "start": 149.46,
+          "end": 149.74
+        },
+        {
+          "word": "over",
+          "start": 149.74,
+          "end": 149.94
+        },
+        {
+          "word": "80",
+          "start": 149.94,
+          "end": 150.38
+        },
+        {
+          "word": "%",
+          "start": 150.38,
+          "end": 150.76
+        },
+        {
+          "word": "male",
+          "start": 150.76,
+          "end": 151.18
+        },
+        {
+          "word": "at",
+          "start": 151.18,
+          "end": 151.4
+        },
+        {
+          "word": "management",
+          "start": 151.4,
+          "end": 151.88
+        },
+        {
+          "word": "level",
+          "start": 151.88,
+          "end": 152.28
+        },
+        {
+          "word": "and",
+          "start": 152.28,
+          "end": 152.48
+        },
+        {
+          "word": "above.",
+          "start": 152.48,
+          "end": 152.82
+        },
+        {
+          "word": "And",
+          "start": 153.16,
+          "end": 153.54
+        },
+        {
+          "word": "time",
+          "start": 153.54,
+          "end": 153.98
+        },
+        {
+          "word": "after",
+          "start": 153.98,
+          "end": 154.3
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 21,
+      "start": 154.3,
+      "end": 160.32,
+      "textEn": "Time, these women have told me that the number one skill they've improved in order to earn their spot at",
+      "textKo": "이 여성들은 최상위에 오르기 위해 향상시킨 가장 중요한 능력이",
+      "words": [
+        {
+          "word": "time,",
+          "start": 154.3,
+          "end": 154.58
+        },
+        {
+          "word": "these",
+          "start": 154.72,
+          "end": 154.8
+        },
+        {
+          "word": "women",
+          "start": 154.8,
+          "end": 155.0
+        },
+        {
+          "word": "have",
+          "start": 155.0,
+          "end": 155.18
+        },
+        {
+          "word": "told",
+          "start": 155.18,
+          "end": 155.42
+        },
+        {
+          "word": "me",
+          "start": 155.42,
+          "end": 155.64
+        },
+        {
+          "word": "that",
+          "start": 155.64,
+          "end": 156.06
+        },
+        {
+          "word": "the",
+          "start": 156.06,
+          "end": 156.24
+        },
+        {
+          "word": "number",
+          "start": 156.24,
+          "end": 156.74
+        },
+        {
+          "word": "one",
+          "start": 156.74,
+          "end": 157.14
+        },
+        {
+          "word": "skill",
+          "start": 157.14,
+          "end": 157.52
+        },
+        {
+          "word": "they've",
+          "start": 157.52,
+          "end": 157.96
+        },
+        {
+          "word": "improved",
+          "start": 157.96,
+          "end": 158.32
+        },
+        {
+          "word": "in",
+          "start": 158.32,
+          "end": 158.56
+        },
+        {
+          "word": "order",
+          "start": 158.56,
+          "end": 158.78
+        },
+        {
+          "word": "to",
+          "start": 158.78,
+          "end": 158.98
+        },
+        {
+          "word": "earn",
+          "start": 158.98,
+          "end": 159.26
+        },
+        {
+          "word": "their",
+          "start": 159.26,
+          "end": 159.74
+        },
+        {
+          "word": "spot",
+          "start": 159.74,
+          "end": 160.12
+        },
+        {
+          "word": "at",
+          "start": 160.12,
+          "end": 160.32
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 22,
+      "start": 160.32,
+      "end": 168.46,
+      "textEn": "The top of the sports industry is confidence. They, like me, did not possess this confidence necessary",
+      "textKo": "자신감이라고 말했어요. 저처럼, 그들도 커리어를 높이는 데 필요한 이 자신감을",
+      "words": [
+        {
+          "word": "the",
+          "start": 160.32,
+          "end": 160.44
+        },
+        {
+          "word": "top",
+          "start": 160.44,
+          "end": 160.64
+        },
+        {
+          "word": "of",
+          "start": 160.64,
+          "end": 160.78
+        },
+        {
+          "word": "the",
+          "start": 160.78,
+          "end": 160.86
+        },
+        {
+          "word": "sports",
+          "start": 160.86,
+          "end": 161.18
+        },
+        {
+          "word": "industry",
+          "start": 161.18,
+          "end": 161.66
+        },
+        {
+          "word": "is",
+          "start": 161.66,
+          "end": 162.4
+        },
+        {
+          "word": "confidence.",
+          "start": 162.4,
+          "end": 162.84
+        },
+        {
+          "word": "They,",
+          "start": 163.82,
+          "end": 164.42
+        },
+        {
+          "word": "like",
+          "start": 164.68,
+          "end": 165.08
+        },
+        {
+          "word": "me,",
+          "start": 165.08,
+          "end": 165.36
+        },
+        {
+          "word": "did",
+          "start": 165.78,
+          "end": 165.88
+        },
+        {
+          "word": "not",
+          "start": 165.88,
+          "end": 166.16
+        },
+        {
+          "word": "possess",
+          "start": 166.16,
+          "end": 166.62
+        },
+        {
+          "word": "this",
+          "start": 166.62,
+          "end": 167.0
+        },
+        {
+          "word": "confidence",
+          "start": 167.0,
+          "end": 167.48
+        },
+        {
+          "word": "necessary",
+          "start": 167.48,
+          "end": 168.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 23,
+      "start": 168.46,
+      "end": 175.76,
+      "textEn": "To increase their level in their career from the get-go. They had to work on the behaviors associated",
+      "textKo": "처음부터 갖고 있지 않았어요. 그들은 커리어를 발전시키기 위해 이 태도와 관련된 행동들을",
+      "words": [
+        {
+          "word": "to",
+          "start": 168.46,
+          "end": 169.3
+        },
+        {
+          "word": "increase",
+          "start": 169.3,
+          "end": 170.12
+        },
+        {
+          "word": "their",
+          "start": 170.12,
+          "end": 170.44
+        },
+        {
+          "word": "level",
+          "start": 170.44,
+          "end": 170.76
+        },
+        {
+          "word": "in",
+          "start": 170.76,
+          "end": 170.94
+        },
+        {
+          "word": "their",
+          "start": 170.94,
+          "end": 171.12
+        },
+        {
+          "word": "career",
+          "start": 171.12,
+          "end": 171.5
+        },
+        {
+          "word": "from",
+          "start": 171.5,
+          "end": 171.9
+        },
+        {
+          "word": "the",
+          "start": 171.9,
+          "end": 172.02
+        },
+        {
+          "word": "get",
+          "start": 172.02,
+          "end": 172.2
+        },
+        {
+          "word": "-go.",
+          "start": 172.2,
+          "end": 172.38
+        },
+        {
+          "word": "They",
+          "start": 172.74,
+          "end": 173.24
+        },
+        {
+          "word": "had",
+          "start": 173.24,
+          "end": 173.54
+        },
+        {
+          "word": "to",
+          "start": 173.54,
+          "end": 173.72
+        },
+        {
+          "word": "work",
+          "start": 173.72,
+          "end": 173.96
+        },
+        {
+          "word": "on",
+          "start": 173.96,
+          "end": 174.14
+        },
+        {
+          "word": "the",
+          "start": 174.14,
+          "end": 174.24
+        },
+        {
+          "word": "behaviors",
+          "start": 174.24,
+          "end": 174.82
+        },
+        {
+          "word": "associated",
+          "start": 174.82,
+          "end": 175.76
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 24,
+      "start": 175.76,
+      "end": 181.9,
+      "textEn": "With this attitude in order to propel their career forward. So I'm here today to share with you",
+      "textKo": "노력해야 했어요. 그래서 오늘 여러분과 나누고 싶은 것은",
+      "words": [
+        {
+          "word": "with",
+          "start": 175.76,
+          "end": 176.04
+        },
+        {
+          "word": "this",
+          "start": 176.04,
+          "end": 176.22
+        },
+        {
+          "word": "attitude",
+          "start": 176.22,
+          "end": 176.66
+        },
+        {
+          "word": "in",
+          "start": 176.66,
+          "end": 177.06
+        },
+        {
+          "word": "order",
+          "start": 177.06,
+          "end": 177.3
+        },
+        {
+          "word": "to",
+          "start": 177.3,
+          "end": 177.54
+        },
+        {
+          "word": "propel",
+          "start": 177.54,
+          "end": 177.94
+        },
+        {
+          "word": "their",
+          "start": 177.94,
+          "end": 178.12
+        },
+        {
+          "word": "career",
+          "start": 178.12,
+          "end": 178.5
+        },
+        {
+          "word": "forward.",
+          "start": 178.5,
+          "end": 179.18
+        },
+        {
+          "word": "So",
+          "start": 179.7,
+          "end": 180.3
+        },
+        {
+          "word": "I'm",
+          "start": 180.3,
+          "end": 180.6
+        },
+        {
+          "word": "here",
+          "start": 180.6,
+          "end": 180.76
+        },
+        {
+          "word": "today",
+          "start": 180.76,
+          "end": 181.0
+        },
+        {
+          "word": "to",
+          "start": 181.0,
+          "end": 181.26
+        },
+        {
+          "word": "share",
+          "start": 181.26,
+          "end": 181.5
+        },
+        {
+          "word": "with",
+          "start": 181.5,
+          "end": 181.7
+        },
+        {
+          "word": "you",
+          "start": 181.7,
+          "end": 181.9
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 25,
+      "start": 181.9,
+      "end": 189.14,
+      "textEn": "Six behaviors you can start today to increase your confidence. Why is it important to increase our",
+      "textKo": "자신감을 높이기 위해 오늘부터 시작할 수 있는 여섯 가지 행동입니다. 왜 자신감을 높이는 것이 중요할까요?",
+      "words": [
+        {
+          "word": "six",
+          "start": 181.9,
+          "end": 182.46
+        },
+        {
+          "word": "behaviors",
+          "start": 182.46,
+          "end": 183.06
+        },
+        {
+          "word": "you",
+          "start": 183.06,
+          "end": 183.6
+        },
+        {
+          "word": "can",
+          "start": 183.6,
+          "end": 183.78
+        },
+        {
+          "word": "start",
+          "start": 183.78,
+          "end": 184.08
+        },
+        {
+          "word": "today",
+          "start": 184.08,
+          "end": 184.6
+        },
+        {
+          "word": "to",
+          "start": 184.6,
+          "end": 185.26
+        },
+        {
+          "word": "increase",
+          "start": 185.26,
+          "end": 185.68
+        },
+        {
+          "word": "your",
+          "start": 185.68,
+          "end": 186.04
+        },
+        {
+          "word": "confidence.",
+          "start": 186.04,
+          "end": 186.64
+        },
+        {
+          "word": "Why",
+          "start": 187.28,
+          "end": 187.9
+        },
+        {
+          "word": "is",
+          "start": 187.9,
+          "end": 188.08
+        },
+        {
+          "word": "it",
+          "start": 188.08,
+          "end": 188.18
+        },
+        {
+          "word": "important",
+          "start": 188.18,
+          "end": 188.48
+        },
+        {
+          "word": "to",
+          "start": 188.48,
+          "end": 188.66
+        },
+        {
+          "word": "increase",
+          "start": 188.66,
+          "end": 188.98
+        },
+        {
+          "word": "our",
+          "start": 188.98,
+          "end": 189.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 26,
+      "start": 189.14,
+      "end": 196.46,
+      "textEn": "Confidence? Well, think of this. How would you behave or what could you achieve if you were 10 times",
+      "textKo": "이렇게 생각해 보세요. 만약 10배 더 자신감이 있다면 어떻게 행동하거나 무엇을 성취할 수 있을까요?",
+      "words": [
+        {
+          "word": "confidence?",
+          "start": 189.14,
+          "end": 189.58
+        },
+        {
+          "word": "Well,",
+          "start": 189.84,
+          "end": 189.94
+        },
+        {
+          "word": "think",
+          "start": 190.24,
+          "end": 190.6
+        },
+        {
+          "word": "of",
+          "start": 190.6,
+          "end": 190.76
+        },
+        {
+          "word": "this.",
+          "start": 190.76,
+          "end": 191.18
+        },
+        {
+          "word": "How",
+          "start": 191.46,
+          "end": 192.1
+        },
+        {
+          "word": "would",
+          "start": 192.1,
+          "end": 192.34
+        },
+        {
+          "word": "you",
+          "start": 192.34,
+          "end": 192.46
+        },
+        {
+          "word": "behave",
+          "start": 192.46,
+          "end": 192.88
+        },
+        {
+          "word": "or",
+          "start": 192.88,
+          "end": 193.22
+        },
+        {
+          "word": "what",
+          "start": 193.22,
+          "end": 193.46
+        },
+        {
+          "word": "could",
+          "start": 193.46,
+          "end": 193.7
+        },
+        {
+          "word": "you",
+          "start": 193.7,
+          "end": 193.96
+        },
+        {
+          "word": "achieve",
+          "start": 193.96,
+          "end": 194.38
+        },
+        {
+          "word": "if",
+          "start": 194.38,
+          "end": 194.96
+        },
+        {
+          "word": "you",
+          "start": 194.96,
+          "end": 195.08
+        },
+        {
+          "word": "were",
+          "start": 195.08,
+          "end": 195.26
+        },
+        {
+          "word": "10",
+          "start": 195.26,
+          "end": 195.74
+        },
+        {
+          "word": "times",
+          "start": 195.74,
+          "end": 196.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 27,
+      "start": 196.46,
+      "end": 204.48,
+      "textEn": "More confident? Number one, count yourself in. I spoke with a woman about her first time doing sideline",
+      "textKo": "첫 번째, 자신을 포함시키세요. 한 여성에게 전국 방송 농구 경기에서 처음 사이드라인 리포팅을 했던 이야기를 들었어요.",
+      "words": [
+        {
+          "word": "more",
+          "start": 196.46,
+          "end": 197.06
+        },
+        {
+          "word": "confident?",
+          "start": 197.06,
+          "end": 197.6
+        },
+        {
+          "word": "Number",
+          "start": 198.48,
+          "end": 199.12
+        },
+        {
+          "word": "one,",
+          "start": 199.12,
+          "end": 199.44
+        },
+        {
+          "word": "count",
+          "start": 199.92,
+          "end": 200.18
+        },
+        {
+          "word": "yourself",
+          "start": 200.18,
+          "end": 200.56
+        },
+        {
+          "word": "in.",
+          "start": 200.56,
+          "end": 200.86
+        },
+        {
+          "word": "I",
+          "start": 201.22,
+          "end": 201.78
+        },
+        {
+          "word": "spoke",
+          "start": 201.78,
+          "end": 202.08
+        },
+        {
+          "word": "with",
+          "start": 202.08,
+          "end": 202.28
+        },
+        {
+          "word": "a",
+          "start": 202.28,
+          "end": 202.4
+        },
+        {
+          "word": "woman",
+          "start": 202.4,
+          "end": 202.6
+        },
+        {
+          "word": "about",
+          "start": 202.6,
+          "end": 202.88
+        },
+        {
+          "word": "her",
+          "start": 202.88,
+          "end": 203.12
+        },
+        {
+          "word": "first",
+          "start": 203.12,
+          "end": 203.52
+        },
+        {
+          "word": "time",
+          "start": 203.52,
+          "end": 203.78
+        },
+        {
+          "word": "doing",
+          "start": 203.78,
+          "end": 204.0
+        },
+        {
+          "word": "sideline",
+          "start": 204.0,
+          "end": 204.48
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 28,
+      "start": 204.48,
+      "end": 210.76,
+      "textEn": "Reporting at a nationally televised basketball game. She was shaking in her heels, standing courtside,",
+      "textKo": "그녀는 코트사이드에 서서 하이힐을 신은 채 떨고 있었어요.",
+      "words": [
+        {
+          "word": "reporting",
+          "start": 204.48,
+          "end": 204.88
+        },
+        {
+          "word": "at",
+          "start": 204.88,
+          "end": 205.16
+        },
+        {
+          "word": "a",
+          "start": 205.16,
+          "end": 205.28
+        },
+        {
+          "word": "nationally",
+          "start": 205.28,
+          "end": 205.64
+        },
+        {
+          "word": "televised",
+          "start": 205.64,
+          "end": 206.18
+        },
+        {
+          "word": "basketball",
+          "start": 206.18,
+          "end": 206.6
+        },
+        {
+          "word": "game.",
+          "start": 206.6,
+          "end": 206.96
+        },
+        {
+          "word": "She",
+          "start": 207.16,
+          "end": 207.7
+        },
+        {
+          "word": "was",
+          "start": 207.7,
+          "end": 207.86
+        },
+        {
+          "word": "shaking",
+          "start": 207.86,
+          "end": 208.36
+        },
+        {
+          "word": "in",
+          "start": 208.36,
+          "end": 208.6
+        },
+        {
+          "word": "her",
+          "start": 208.6,
+          "end": 208.74
+        },
+        {
+          "word": "heels,",
+          "start": 208.74,
+          "end": 209.16
+        },
+        {
+          "word": "standing",
+          "start": 209.56,
+          "end": 209.84
+        },
+        {
+          "word": "courtside,",
+          "start": 209.84,
+          "end": 210.76
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 29,
+      "start": 210.92,
+      "end": 217.88,
+      "textEn": "Nerves overtaking her until she heard something familiar in her headset. We'll be on in five and",
+      "textKo": "긴장감이 밀려왔는데 헤드셋에서 익숙한 소리가 들렸어요. 5초 후 방송이고,",
+      "words": [
+        {
+          "word": "nerves",
+          "start": 210.92,
+          "end": 211.58
+        },
+        {
+          "word": "overtaking",
+          "start": 211.58,
+          "end": 212.58
+        },
+        {
+          "word": "her",
+          "start": 212.58,
+          "end": 212.84
+        },
+        {
+          "word": "until",
+          "start": 212.84,
+          "end": 213.12
+        },
+        {
+          "word": "she",
+          "start": 213.12,
+          "end": 213.38
+        },
+        {
+          "word": "heard",
+          "start": 213.38,
+          "end": 213.64
+        },
+        {
+          "word": "something",
+          "start": 213.64,
+          "end": 213.94
+        },
+        {
+          "word": "familiar",
+          "start": 213.94,
+          "end": 214.4
+        },
+        {
+          "word": "in",
+          "start": 214.4,
+          "end": 214.68
+        },
+        {
+          "word": "her",
+          "start": 214.68,
+          "end": 214.82
+        },
+        {
+          "word": "headset.",
+          "start": 214.82,
+          "end": 215.26
+        },
+        {
+          "word": "We'll",
+          "start": 215.58,
+          "end": 216.04
+        },
+        {
+          "word": "be",
+          "start": 216.04,
+          "end": 216.14
+        },
+        {
+          "word": "on",
+          "start": 216.14,
+          "end": 216.36
+        },
+        {
+          "word": "in",
+          "start": 216.36,
+          "end": 216.5
+        },
+        {
+          "word": "five",
+          "start": 216.5,
+          "end": 216.92
+        },
+        {
+          "word": "and",
+          "start": 216.92,
+          "end": 217.88
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 30,
+      "start": 217.88,
+      "end": 226.66,
+      "textEn": "Three, two, one, you're live. And she performed with excellence, the nerves melting away. She's an athlete,",
+      "textKo": "3, 2, 1, 라이브입니다. 그리고 그녀는 훌륭하게 해냈어요. 긴장감이 녹아내렸죠. 그녀는 운동선수였어요.",
+      "words": [
+        {
+          "word": "three,",
+          "start": 217.88,
+          "end": 218.22
+        },
+        {
+          "word": "two,",
+          "start": 218.6,
+          "end": 218.76
+        },
+        {
+          "word": "one,",
+          "start": 218.94,
+          "end": 219.28
+        },
+        {
+          "word": "you're",
+          "start": 219.46,
+          "end": 220.12
+        },
+        {
+          "word": "live.",
+          "start": 220.12,
+          "end": 220.42
+        },
+        {
+          "word": "And",
+          "start": 220.64,
+          "end": 221.3
+        },
+        {
+          "word": "she",
+          "start": 221.3,
+          "end": 221.46
+        },
+        {
+          "word": "performed",
+          "start": 221.46,
+          "end": 221.9
+        },
+        {
+          "word": "with",
+          "start": 221.9,
+          "end": 222.08
+        },
+        {
+          "word": "excellence,",
+          "start": 222.08,
+          "end": 222.66
+        },
+        {
+          "word": "the",
+          "start": 223.16,
+          "end": 223.26
+        },
+        {
+          "word": "nerves",
+          "start": 223.26,
+          "end": 223.6
+        },
+        {
+          "word": "melting",
+          "start": 223.6,
+          "end": 224.4
+        },
+        {
+          "word": "away.",
+          "start": 224.4,
+          "end": 224.98
+        },
+        {
+          "word": "She's",
+          "start": 225.46,
+          "end": 226.1
+        },
+        {
+          "word": "an",
+          "start": 226.1,
+          "end": 226.22
+        },
+        {
+          "word": "athlete,",
+          "start": 226.22,
+          "end": 226.66
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 31,
+      "start": 226.86,
+      "end": 232.64,
+      "textEn": "A former basketball player used to performing on the court by the clock. And the tactic remained true.",
+      "textKo": "전직 농구 선수로 시간에 맞춰 코트에서 경기하는 데 익숙했죠. 그리고 이 전략은 그대로 적용됐어요.",
+      "words": [
+        {
+          "word": "a",
+          "start": 226.86,
+          "end": 226.9
+        },
+        {
+          "word": "former",
+          "start": 226.9,
+          "end": 227.16
+        },
+        {
+          "word": "basketball",
+          "start": 227.16,
+          "end": 227.64
+        },
+        {
+          "word": "player",
+          "start": 227.64,
+          "end": 228.02
+        },
+        {
+          "word": "used",
+          "start": 228.02,
+          "end": 228.24
+        },
+        {
+          "word": "to",
+          "start": 228.24,
+          "end": 228.38
+        },
+        {
+          "word": "performing",
+          "start": 228.38,
+          "end": 228.82
+        },
+        {
+          "word": "on",
+          "start": 228.82,
+          "end": 229.12
+        },
+        {
+          "word": "the",
+          "start": 229.12,
+          "end": 229.26
+        },
+        {
+          "word": "court",
+          "start": 229.26,
+          "end": 229.56
+        },
+        {
+          "word": "by",
+          "start": 229.56,
+          "end": 230.12
+        },
+        {
+          "word": "the",
+          "start": 230.12,
+          "end": 230.32
+        },
+        {
+          "word": "clock.",
+          "start": 230.32,
+          "end": 230.78
+        },
+        {
+          "word": "And",
+          "start": 230.96,
+          "end": 231.4
+        },
+        {
+          "word": "the",
+          "start": 231.4,
+          "end": 231.52
+        },
+        {
+          "word": "tactic",
+          "start": 231.52,
+          "end": 231.92
+        },
+        {
+          "word": "remained",
+          "start": 231.92,
+          "end": 232.28
+        },
+        {
+          "word": "true.",
+          "start": 232.28,
+          "end": 232.64
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 32,
+      "start": 232.64,
+      "end": 240.02,
+      "textEn": "Counting will get you started and momentum will keep you going. I have used this technique. I've had more",
+      "textKo": "카운팅이 시작하게 해주고, 탄력이 계속 나아가게 해줘요. 저도 이 기법을 사용했어요. 기억하고 싶지 않은",
+      "words": [
+        {
+          "word": "Counting",
+          "start": 232.64,
+          "end": 233.7
+        },
+        {
+          "word": "will",
+          "start": 233.7,
+          "end": 233.82
+        },
+        {
+          "word": "get",
+          "start": 233.82,
+          "end": 233.96
+        },
+        {
+          "word": "you",
+          "start": 233.96,
+          "end": 234.08
+        },
+        {
+          "word": "started",
+          "start": 234.08,
+          "end": 234.48
+        },
+        {
+          "word": "and",
+          "start": 234.48,
+          "end": 235.14
+        },
+        {
+          "word": "momentum",
+          "start": 235.14,
+          "end": 235.62
+        },
+        {
+          "word": "will",
+          "start": 235.62,
+          "end": 236.06
+        },
+        {
+          "word": "keep",
+          "start": 236.06,
+          "end": 236.24
+        },
+        {
+          "word": "you",
+          "start": 236.24,
+          "end": 236.36
+        },
+        {
+          "word": "going.",
+          "start": 236.36,
+          "end": 236.64
+        },
+        {
+          "word": "I",
+          "start": 237.24,
+          "end": 237.8
+        },
+        {
+          "word": "have",
+          "start": 237.8,
+          "end": 237.96
+        },
+        {
+          "word": "used",
+          "start": 237.96,
+          "end": 238.28
+        },
+        {
+          "word": "this",
+          "start": 238.28,
+          "end": 238.5
+        },
+        {
+          "word": "technique.",
+          "start": 238.5,
+          "end": 238.88
+        },
+        {
+          "word": "I've",
+          "start": 238.9,
+          "end": 239.46
+        },
+        {
+          "word": "had",
+          "start": 239.46,
+          "end": 239.56
+        },
+        {
+          "word": "more",
+          "start": 239.56,
+          "end": 240.02
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 33,
+      "start": 240.02,
+      "end": 245.96,
+      "textEn": "Uncomfortable conversations than I care to recall, but one I'll share with you today. I vividly remember",
+      "textKo": "불편한 대화를 수도 없이 했지만, 오늘 하나를 공유할게요. 생생하게 기억나는 건",
+      "words": [
+        {
+          "word": "uncomfortable",
+          "start": 240.02,
+          "end": 240.9
+        },
+        {
+          "word": "conversations",
+          "start": 240.9,
+          "end": 241.6
+        },
+        {
+          "word": "than",
+          "start": 241.6,
+          "end": 241.92
+        },
+        {
+          "word": "I",
+          "start": 241.92,
+          "end": 242.04
+        },
+        {
+          "word": "care",
+          "start": 242.04,
+          "end": 242.26
+        },
+        {
+          "word": "to",
+          "start": 242.26,
+          "end": 242.4
+        },
+        {
+          "word": "recall,",
+          "start": 242.4,
+          "end": 242.74
+        },
+        {
+          "word": "but",
+          "start": 242.9,
+          "end": 242.96
+        },
+        {
+          "word": "one",
+          "start": 242.96,
+          "end": 243.22
+        },
+        {
+          "word": "I'll",
+          "start": 243.22,
+          "end": 243.42
+        },
+        {
+          "word": "share",
+          "start": 243.42,
+          "end": 243.64
+        },
+        {
+          "word": "with",
+          "start": 243.64,
+          "end": 243.84
+        },
+        {
+          "word": "you",
+          "start": 243.84,
+          "end": 243.96
+        },
+        {
+          "word": "today.",
+          "start": 243.96,
+          "end": 244.24
+        },
+        {
+          "word": "I",
+          "start": 244.38,
+          "end": 244.94
+        },
+        {
+          "word": "vividly",
+          "start": 244.94,
+          "end": 245.52
+        },
+        {
+          "word": "remember",
+          "start": 245.52,
+          "end": 245.96
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 34,
+      "start": 245.96,
+      "end": 251.88,
+      "textEn": "Standing on the warning track of the baseball field 45 minutes before game time, looking at the opposing",
+      "textKo": "경기 시작 45분 전, 야구장 워닝트랙에 서서 상대팀",
+      "words": [
+        {
+          "word": "standing",
+          "start": 245.96,
+          "end": 246.48
+        },
+        {
+          "word": "on",
+          "start": 246.48,
+          "end": 246.68
+        },
+        {
+          "word": "the",
+          "start": 246.68,
+          "end": 246.8
+        },
+        {
+          "word": "warning",
+          "start": 246.8,
+          "end": 247.02
+        },
+        {
+          "word": "track",
+          "start": 247.02,
+          "end": 247.32
+        },
+        {
+          "word": "of",
+          "start": 247.32,
+          "end": 247.5
+        },
+        {
+          "word": "the",
+          "start": 247.5,
+          "end": 247.6
+        },
+        {
+          "word": "baseball",
+          "start": 247.6,
+          "end": 247.94
+        },
+        {
+          "word": "field",
+          "start": 247.94,
+          "end": 248.4
+        },
+        {
+          "word": "45",
+          "start": 248.4,
+          "end": 249.0
+        },
+        {
+          "word": "minutes",
+          "start": 249.0,
+          "end": 249.54
+        },
+        {
+          "word": "before",
+          "start": 249.54,
+          "end": 249.88
+        },
+        {
+          "word": "game",
+          "start": 249.88,
+          "end": 250.16
+        },
+        {
+          "word": "time,",
+          "start": 250.16,
+          "end": 250.46
+        },
+        {
+          "word": "looking",
+          "start": 250.66,
+          "end": 251.26
+        },
+        {
+          "word": "at",
+          "start": 251.26,
+          "end": 251.42
+        },
+        {
+          "word": "the",
+          "start": 251.42,
+          "end": 251.54
+        },
+        {
+          "word": "opposing",
+          "start": 251.54,
+          "end": 251.88
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 35,
+      "start": 251.88,
+      "end": 258.2,
+      "textEn": "Manager and his team wearing the wrong color uniform. I wanted to turn and run back up to my office and",
+      "textKo": "감독과 그의 팀이 잘못된 색상의 유니폼을 입고 있는 것을 보았을 때예요. 저는 돌아서서 사무실로 도망가고 싶었어요.",
+      "words": [
+        {
+          "word": "manager",
+          "start": 251.88,
+          "end": 252.34
+        },
+        {
+          "word": "and",
+          "start": 252.34,
+          "end": 252.62
+        },
+        {
+          "word": "his",
+          "start": 252.62,
+          "end": 252.8
+        },
+        {
+          "word": "team",
+          "start": 252.8,
+          "end": 253.1
+        },
+        {
+          "word": "wearing",
+          "start": 253.1,
+          "end": 253.44
+        },
+        {
+          "word": "the",
+          "start": 253.44,
+          "end": 253.88
+        },
+        {
+          "word": "wrong",
+          "start": 253.88,
+          "end": 254.18
+        },
+        {
+          "word": "color",
+          "start": 254.18,
+          "end": 254.58
+        },
+        {
+          "word": "uniform.",
+          "start": 254.58,
+          "end": 255.02
+        },
+        {
+          "word": "I",
+          "start": 255.38,
+          "end": 255.94
+        },
+        {
+          "word": "wanted",
+          "start": 255.94,
+          "end": 256.16
+        },
+        {
+          "word": "to",
+          "start": 256.16,
+          "end": 256.34
+        },
+        {
+          "word": "turn",
+          "start": 256.34,
+          "end": 256.64
+        },
+        {
+          "word": "and",
+          "start": 256.64,
+          "end": 256.96
+        },
+        {
+          "word": "run",
+          "start": 256.96,
+          "end": 257.12
+        },
+        {
+          "word": "back",
+          "start": 257.12,
+          "end": 257.3
+        },
+        {
+          "word": "up",
+          "start": 257.3,
+          "end": 257.44
+        },
+        {
+          "word": "to",
+          "start": 257.44,
+          "end": 257.56
+        },
+        {
+          "word": "my",
+          "start": 257.56,
+          "end": 257.7
+        },
+        {
+          "word": "office",
+          "start": 257.7,
+          "end": 258.0
+        },
+        {
+          "word": "and",
+          "start": 258.0,
+          "end": 258.2
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 36,
+      "start": 258.2,
+      "end": 265.82,
+      "textEn": "Hide. But instead, I faced him head on. And I said in my mind, three, two, one, go. And I started walking",
+      "textKo": "숨고 싶었죠. 하지만 대신, 정면으로 맞섰어요. 마음속으로 3, 2, 1, 가! 라고 말하고 걸어가기 시작했어요.",
+      "words": [
+        {
+          "word": "hide.",
+          "start": 258.2,
+          "end": 258.52
+        },
+        {
+          "word": "But",
+          "start": 258.92,
+          "end": 258.96
+        },
+        {
+          "word": "instead,",
+          "start": 258.96,
+          "end": 259.3
+        },
+        {
+          "word": "I",
+          "start": 259.58,
+          "end": 259.84
+        },
+        {
+          "word": "faced",
+          "start": 259.84,
+          "end": 260.1
+        },
+        {
+          "word": "him",
+          "start": 260.1,
+          "end": 260.22
+        },
+        {
+          "word": "head",
+          "start": 260.22,
+          "end": 260.44
+        },
+        {
+          "word": "on.",
+          "start": 260.44,
+          "end": 260.66
+        },
+        {
+          "word": "And",
+          "start": 261.0,
+          "end": 261.48
+        },
+        {
+          "word": "I",
+          "start": 261.48,
+          "end": 261.58
+        },
+        {
+          "word": "said",
+          "start": 261.58,
+          "end": 261.78
+        },
+        {
+          "word": "in",
+          "start": 261.78,
+          "end": 261.9
+        },
+        {
+          "word": "my",
+          "start": 261.9,
+          "end": 262.08
+        },
+        {
+          "word": "mind,",
+          "start": 262.08,
+          "end": 262.46
+        },
+        {
+          "word": "three,",
+          "start": 262.84,
+          "end": 263.06
+        },
+        {
+          "word": "two,",
+          "start": 263.42,
+          "end": 263.56
+        },
+        {
+          "word": "one,",
+          "start": 263.84,
+          "end": 264.04
+        },
+        {
+          "word": "go.",
+          "start": 264.3,
+          "end": 264.44
+        },
+        {
+          "word": "And",
+          "start": 264.66,
+          "end": 265.02
+        },
+        {
+          "word": "I",
+          "start": 265.02,
+          "end": 265.12
+        },
+        {
+          "word": "started",
+          "start": 265.12,
+          "end": 265.44
+        },
+        {
+          "word": "walking",
+          "start": 265.44,
+          "end": 265.82
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 37,
+      "start": 265.82,
+      "end": 271.08,
+      "textEn": "Towards him. And when I arrived, we had a very uncomfortable conversation about his team wearing",
+      "textKo": "그를 향해서요. 도착했을 때, 우리는 그의 팀이 잘못된 색상의 유니폼을 입은 것에 대해 매우 불편한 대화를 나눴어요.",
+      "words": [
+        {
+          "word": "towards",
+          "start": 265.82,
+          "end": 266.2
+        },
+        {
+          "word": "him.",
+          "start": 266.2,
+          "end": 266.44
+        },
+        {
+          "word": "And",
+          "start": 266.68,
+          "end": 267.16
+        },
+        {
+          "word": "when",
+          "start": 267.16,
+          "end": 267.34
+        },
+        {
+          "word": "I",
+          "start": 267.34,
+          "end": 267.52
+        },
+        {
+          "word": "arrived,",
+          "start": 267.52,
+          "end": 267.9
+        },
+        {
+          "word": "we",
+          "start": 268.0,
+          "end": 268.04
+        },
+        {
+          "word": "had",
+          "start": 268.04,
+          "end": 268.14
+        },
+        {
+          "word": "a",
+          "start": 268.14,
+          "end": 268.28
+        },
+        {
+          "word": "very",
+          "start": 268.28,
+          "end": 268.64
+        },
+        {
+          "word": "uncomfortable",
+          "start": 268.64,
+          "end": 269.22
+        },
+        {
+          "word": "conversation",
+          "start": 269.22,
+          "end": 269.98
+        },
+        {
+          "word": "about",
+          "start": 269.98,
+          "end": 270.36
+        },
+        {
+          "word": "his",
+          "start": 270.36,
+          "end": 270.6
+        },
+        {
+          "word": "team",
+          "start": 270.6,
+          "end": 270.84
+        },
+        {
+          "word": "wearing",
+          "start": 270.84,
+          "end": 271.08
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 38,
+      "start": 271.08,
+      "end": 277.88,
+      "textEn": "The wrong color uniform. Yes, I had asked these grown men to change their clothes. It was so awkward. But",
+      "textKo": "네, 저는 이 어른 남성들에게 옷을 갈아입으라고 요청했어요. 정말 어색했어요. 하지만",
+      "words": [
+        {
+          "word": "the",
+          "start": 271.08,
+          "end": 271.22
+        },
+        {
+          "word": "wrong",
+          "start": 271.22,
+          "end": 271.42
+        },
+        {
+          "word": "color",
+          "start": 271.42,
+          "end": 271.68
+        },
+        {
+          "word": "uniform.",
+          "start": 271.68,
+          "end": 272.1
+        },
+        {
+          "word": "Yes,",
+          "start": 272.62,
+          "end": 273.1
+        },
+        {
+          "word": "I",
+          "start": 273.34,
+          "end": 273.46
+        },
+        {
+          "word": "had",
+          "start": 273.46,
+          "end": 273.6
+        },
+        {
+          "word": "asked",
+          "start": 273.6,
+          "end": 273.76
+        },
+        {
+          "word": "these",
+          "start": 273.76,
+          "end": 273.9
+        },
+        {
+          "word": "grown",
+          "start": 273.9,
+          "end": 274.14
+        },
+        {
+          "word": "men",
+          "start": 274.14,
+          "end": 274.42
+        },
+        {
+          "word": "to",
+          "start": 274.42,
+          "end": 274.6
+        },
+        {
+          "word": "change",
+          "start": 274.6,
+          "end": 274.92
+        },
+        {
+          "word": "their",
+          "start": 274.92,
+          "end": 275.12
+        },
+        {
+          "word": "clothes.",
+          "start": 275.12,
+          "end": 275.46
+        },
+        {
+          "word": "It",
+          "start": 275.84,
+          "end": 275.94
+        },
+        {
+          "word": "was",
+          "start": 275.94,
+          "end": 276.1
+        },
+        {
+          "word": "so",
+          "start": 276.1,
+          "end": 276.46
+        },
+        {
+          "word": "awkward.",
+          "start": 276.46,
+          "end": 277.0
+        },
+        {
+          "word": "But",
+          "start": 277.4,
+          "end": 277.88
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 39,
+      "start": 277.88,
+      "end": 284.8,
+      "textEn": "When I asked myself, who am I? And how do I behave? The answer was that I'm a person who's not too shy to",
+      "textKo": "저 자신에게 '나는 누구인가? 나는 어떻게 행동하는가?'라고 물었을 때, 답은 제가 자신의 신념과",
+      "words": [
+        {
+          "word": "when",
+          "start": 277.88,
+          "end": 278.22
+        },
+        {
+          "word": "I",
+          "start": 278.22,
+          "end": 278.34
+        },
+        {
+          "word": "asked",
+          "start": 278.34,
+          "end": 278.64
+        },
+        {
+          "word": "myself,",
+          "start": 278.64,
+          "end": 279.14
+        },
+        {
+          "word": "who",
+          "start": 279.3,
+          "end": 279.66
+        },
+        {
+          "word": "am",
+          "start": 279.66,
+          "end": 280.0
+        },
+        {
+          "word": "I?",
+          "start": 280.0,
+          "end": 280.24
+        },
+        {
+          "word": "And",
+          "start": 280.32,
+          "end": 280.62
+        },
+        {
+          "word": "how",
+          "start": 280.62,
+          "end": 280.82
+        },
+        {
+          "word": "do",
+          "start": 280.82,
+          "end": 280.96
+        },
+        {
+          "word": "I",
+          "start": 280.96,
+          "end": 281.12
+        },
+        {
+          "word": "behave?",
+          "start": 281.12,
+          "end": 281.5
+        },
+        {
+          "word": "The",
+          "start": 281.7,
+          "end": 281.82
+        },
+        {
+          "word": "answer",
+          "start": 281.82,
+          "end": 282.28
+        },
+        {
+          "word": "was",
+          "start": 282.28,
+          "end": 282.88
+        },
+        {
+          "word": "that",
+          "start": 282.88,
+          "end": 283.02
+        },
+        {
+          "word": "I'm",
+          "start": 283.02,
+          "end": 283.12
+        },
+        {
+          "word": "a",
+          "start": 283.12,
+          "end": 283.2
+        },
+        {
+          "word": "person",
+          "start": 283.2,
+          "end": 283.52
+        },
+        {
+          "word": "who's",
+          "start": 283.52,
+          "end": 283.78
+        },
+        {
+          "word": "not",
+          "start": 283.78,
+          "end": 284.04
+        },
+        {
+          "word": "too",
+          "start": 284.04,
+          "end": 284.28
+        },
+        {
+          "word": "shy",
+          "start": 284.28,
+          "end": 284.56
+        },
+        {
+          "word": "to",
+          "start": 284.56,
+          "end": 284.8
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 40,
+      "start": 285.48,
+      "end": 292.46,
+      "textEn": "Stand up for what I believe, what is right, and stand up to conflict. Counting got me started and",
+      "textKo": "옳은 것을 위해 당당히 맞서고, 갈등에 맞서는 사람이라는 것이었어요. 카운팅이 시작하게 해줬고",
+      "words": [
+        {
+          "word": "stand",
+          "start": 285.48,
+          "end": 286.16
+        },
+        {
+          "word": "up",
+          "start": 286.16,
+          "end": 286.46
+        },
+        {
+          "word": "for",
+          "start": 286.46,
+          "end": 286.64
+        },
+        {
+          "word": "what",
+          "start": 286.64,
+          "end": 286.82
+        },
+        {
+          "word": "I",
+          "start": 286.82,
+          "end": 286.94
+        },
+        {
+          "word": "believe,",
+          "start": 286.94,
+          "end": 287.3
+        },
+        {
+          "word": "what",
+          "start": 287.7,
+          "end": 288.12
+        },
+        {
+          "word": "is",
+          "start": 288.12,
+          "end": 288.28
+        },
+        {
+          "word": "right,",
+          "start": 288.28,
+          "end": 288.58
+        },
+        {
+          "word": "and",
+          "start": 288.74,
+          "end": 288.98
+        },
+        {
+          "word": "stand",
+          "start": 288.98,
+          "end": 289.26
+        },
+        {
+          "word": "up",
+          "start": 289.26,
+          "end": 289.46
+        },
+        {
+          "word": "to",
+          "start": 289.46,
+          "end": 289.6
+        },
+        {
+          "word": "conflict.",
+          "start": 289.6,
+          "end": 290.18
+        },
+        {
+          "word": "Counting",
+          "start": 290.46,
+          "end": 291.14
+        },
+        {
+          "word": "got",
+          "start": 291.14,
+          "end": 291.32
+        },
+        {
+          "word": "me",
+          "start": 291.32,
+          "end": 291.46
+        },
+        {
+          "word": "started",
+          "start": 291.46,
+          "end": 291.84
+        },
+        {
+          "word": "and",
+          "start": 291.84,
+          "end": 292.46
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 41,
+      "start": 292.46,
+      "end": 300.72,
+      "textEn": "Momentum kept me going. Number two, what if you only had to be brave for a total of 20 seconds?",
+      "textKo": "탄력이 계속 가게 해줬어요. 두 번째, 만약 단 20초만 용감하면 된다면 어떨까요?",
+      "words": [
+        {
+          "word": "momentum",
+          "start": 292.46,
+          "end": 292.96
+        },
+        {
+          "word": "kept",
+          "start": 292.96,
+          "end": 293.64
+        },
+        {
+          "word": "me",
+          "start": 293.64,
+          "end": 293.78
+        },
+        {
+          "word": "going.",
+          "start": 293.78,
+          "end": 294.06
+        },
+        {
+          "word": "Number",
+          "start": 294.9,
+          "end": 295.52
+        },
+        {
+          "word": "two,",
+          "start": 295.52,
+          "end": 295.86
+        },
+        {
+          "word": "what",
+          "start": 296.42,
+          "end": 296.94
+        },
+        {
+          "word": "if",
+          "start": 296.94,
+          "end": 297.1
+        },
+        {
+          "word": "you",
+          "start": 297.1,
+          "end": 297.24
+        },
+        {
+          "word": "only",
+          "start": 297.24,
+          "end": 297.66
+        },
+        {
+          "word": "had",
+          "start": 297.66,
+          "end": 298.0
+        },
+        {
+          "word": "to",
+          "start": 298.0,
+          "end": 298.14
+        },
+        {
+          "word": "be",
+          "start": 298.14,
+          "end": 298.28
+        },
+        {
+          "word": "brave",
+          "start": 298.28,
+          "end": 298.64
+        },
+        {
+          "word": "for",
+          "start": 298.64,
+          "end": 298.96
+        },
+        {
+          "word": "a",
+          "start": 298.96,
+          "end": 299.1
+        },
+        {
+          "word": "total",
+          "start": 299.1,
+          "end": 299.32
+        },
+        {
+          "word": "of",
+          "start": 299.32,
+          "end": 299.54
+        },
+        {
+          "word": "20",
+          "start": 299.54,
+          "end": 300.02
+        },
+        {
+          "word": "seconds?",
+          "start": 300.02,
+          "end": 300.72
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 42,
+      "start": 301.82,
+      "end": 309.58,
+      "textEn": "Give yourself 20 seconds of courage. This behavior helped me enormously when I published my podcast,",
+      "textKo": "20초의 용기를 가져보세요. 이 행동은 제가 팟캐스트를 발행했을 때 엄청난 도움이 됐어요.",
+      "words": [
+        {
+          "word": "Give",
+          "start": 301.82,
+          "end": 302.5
+        },
+        {
+          "word": "yourself",
+          "start": 302.5,
+          "end": 302.9
+        },
+        {
+          "word": "20",
+          "start": 302.9,
+          "end": 303.48
+        },
+        {
+          "word": "seconds",
+          "start": 303.48,
+          "end": 304.18
+        },
+        {
+          "word": "of",
+          "start": 304.18,
+          "end": 304.52
+        },
+        {
+          "word": "courage.",
+          "start": 304.52,
+          "end": 304.92
+        },
+        {
+          "word": "This",
+          "start": 305.22,
+          "end": 305.9
+        },
+        {
+          "word": "behavior",
+          "start": 305.9,
+          "end": 306.32
+        },
+        {
+          "word": "helped",
+          "start": 306.32,
+          "end": 306.8
+        },
+        {
+          "word": "me",
+          "start": 306.8,
+          "end": 306.98
+        },
+        {
+          "word": "enormously",
+          "start": 306.98,
+          "end": 307.76
+        },
+        {
+          "word": "when",
+          "start": 307.76,
+          "end": 308.42
+        },
+        {
+          "word": "I",
+          "start": 308.42,
+          "end": 308.52
+        },
+        {
+          "word": "published",
+          "start": 308.52,
+          "end": 308.84
+        },
+        {
+          "word": "my",
+          "start": 308.84,
+          "end": 309.02
+        },
+        {
+          "word": "podcast,",
+          "start": 309.02,
+          "end": 309.58
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 43,
+      "start": 309.58,
+      "end": 315.74,
+      "textEn": "Leadership is Female. Bold title and all for all the world to see, hear, critique, and have their",
+      "textKo": "'리더십 이즈 피메일'. 대담한 제목으로 온 세상이 보고, 듣고, 비평하고, 의견을 가질 수 있게요.",
+      "words": [
+        {
+          "word": "Leadership",
+          "start": 309.58,
+          "end": 310.04
+        },
+        {
+          "word": "is",
+          "start": 310.04,
+          "end": 310.4
+        },
+        {
+          "word": "Female.",
+          "start": 310.4,
+          "end": 310.68
+        },
+        {
+          "word": "Bold",
+          "start": 311.3,
+          "end": 311.82
+        },
+        {
+          "word": "title",
+          "start": 311.82,
+          "end": 312.2
+        },
+        {
+          "word": "and",
+          "start": 312.2,
+          "end": 312.36
+        },
+        {
+          "word": "all",
+          "start": 312.36,
+          "end": 312.62
+        },
+        {
+          "word": "for",
+          "start": 312.62,
+          "end": 313.1
+        },
+        {
+          "word": "all",
+          "start": 313.1,
+          "end": 313.26
+        },
+        {
+          "word": "the",
+          "start": 313.26,
+          "end": 313.38
+        },
+        {
+          "word": "world",
+          "start": 313.38,
+          "end": 313.62
+        },
+        {
+          "word": "to",
+          "start": 313.62,
+          "end": 313.86
+        },
+        {
+          "word": "see,",
+          "start": 313.86,
+          "end": 314.18
+        },
+        {
+          "word": "hear,",
+          "start": 314.36,
+          "end": 314.54
+        },
+        {
+          "word": "critique,",
+          "start": 314.78,
+          "end": 315.08
+        },
+        {
+          "word": "and",
+          "start": 315.14,
+          "end": 315.32
+        },
+        {
+          "word": "have",
+          "start": 315.32,
+          "end": 315.56
+        },
+        {
+          "word": "their",
+          "start": 315.56,
+          "end": 315.74
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 44,
+      "start": 315.74,
+      "end": 323.02,
+      "textEn": "Opinions. I vividly remember sitting on the carpet of my closet floor, holding my computer, looking at",
+      "textKo": "기억나는 건 옷방 바닥 카펫 위에 앉아서 컴퓨터를 들고",
+      "words": [
+        {
+          "word": "opinions.",
+          "start": 315.74,
+          "end": 316.12
+        },
+        {
+          "word": "I",
+          "start": 316.46,
+          "end": 316.96
+        },
+        {
+          "word": "vividly",
+          "start": 316.96,
+          "end": 317.52
+        },
+        {
+          "word": "remember",
+          "start": 317.52,
+          "end": 317.9
+        },
+        {
+          "word": "sitting",
+          "start": 317.9,
+          "end": 318.24
+        },
+        {
+          "word": "on",
+          "start": 318.24,
+          "end": 318.46
+        },
+        {
+          "word": "the",
+          "start": 318.46,
+          "end": 318.58
+        },
+        {
+          "word": "carpet",
+          "start": 318.58,
+          "end": 318.86
+        },
+        {
+          "word": "of",
+          "start": 318.86,
+          "end": 319.08
+        },
+        {
+          "word": "my",
+          "start": 319.08,
+          "end": 319.22
+        },
+        {
+          "word": "closet",
+          "start": 319.22,
+          "end": 319.6
+        },
+        {
+          "word": "floor,",
+          "start": 319.6,
+          "end": 320.04
+        },
+        {
+          "word": "holding",
+          "start": 320.26,
+          "end": 321.0
+        },
+        {
+          "word": "my",
+          "start": 321.0,
+          "end": 321.26
+        },
+        {
+          "word": "computer,",
+          "start": 321.26,
+          "end": 321.74
+        },
+        {
+          "word": "looking",
+          "start": 322.34,
+          "end": 322.58
+        },
+        {
+          "word": "at",
+          "start": 322.58,
+          "end": 323.02
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 45,
+      "start": 323.02,
+      "end": 329.52,
+      "textEn": "The upload button, thinking to myself, does it need any more edits? Should I listen to it one more time?",
+      "textKo": "업로드 버튼을 바라보며, '편집이 더 필요한가? 한 번 더 들어봐야 하나?' 생각했던 거예요.",
+      "words": [
+        {
+          "word": "the",
+          "start": 323.02,
+          "end": 323.18
+        },
+        {
+          "word": "upload",
+          "start": 323.18,
+          "end": 323.6
+        },
+        {
+          "word": "button,",
+          "start": 323.6,
+          "end": 324.08
+        },
+        {
+          "word": "thinking",
+          "start": 324.38,
+          "end": 324.56
+        },
+        {
+          "word": "to",
+          "start": 324.56,
+          "end": 324.78
+        },
+        {
+          "word": "myself,",
+          "start": 324.78,
+          "end": 325.24
+        },
+        {
+          "word": "does",
+          "start": 325.52,
+          "end": 326.34
+        },
+        {
+          "word": "it",
+          "start": 326.34,
+          "end": 326.44
+        },
+        {
+          "word": "need",
+          "start": 326.44,
+          "end": 326.62
+        },
+        {
+          "word": "any",
+          "start": 326.62,
+          "end": 326.76
+        },
+        {
+          "word": "more",
+          "start": 326.76,
+          "end": 326.94
+        },
+        {
+          "word": "edits?",
+          "start": 326.94,
+          "end": 327.28
+        },
+        {
+          "word": "Should",
+          "start": 327.58,
+          "end": 327.78
+        },
+        {
+          "word": "I",
+          "start": 327.78,
+          "end": 327.88
+        },
+        {
+          "word": "listen",
+          "start": 327.88,
+          "end": 328.14
+        },
+        {
+          "word": "to",
+          "start": 328.14,
+          "end": 328.34
+        },
+        {
+          "word": "it",
+          "start": 328.34,
+          "end": 328.46
+        },
+        {
+          "word": "one",
+          "start": 328.46,
+          "end": 328.98
+        },
+        {
+          "word": "more",
+          "start": 328.98,
+          "end": 329.16
+        },
+        {
+          "word": "time?",
+          "start": 329.16,
+          "end": 329.52
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 46,
+      "start": 329.78,
+      "end": 337.44,
+      "textEn": "And I told myself, Emily, give yourself 20 seconds of courage. And I hit publish and it was done. And guess",
+      "textKo": "그리고 스스로에게 말했어요. '에밀리, 20초의 용기를 가져.' 그리고 발행 버튼을 눌렀고, 끝이었어요. 그리고",
+      "words": [
+        {
+          "word": "And",
+          "start": 329.78,
+          "end": 330.3
+        },
+        {
+          "word": "I",
+          "start": 330.3,
+          "end": 330.38
+        },
+        {
+          "word": "told",
+          "start": 330.38,
+          "end": 330.54
+        },
+        {
+          "word": "myself,",
+          "start": 330.54,
+          "end": 330.86
+        },
+        {
+          "word": "Emily,",
+          "start": 331.0,
+          "end": 331.22
+        },
+        {
+          "word": "give",
+          "start": 331.44,
+          "end": 331.82
+        },
+        {
+          "word": "yourself",
+          "start": 331.82,
+          "end": 332.24
+        },
+        {
+          "word": "20",
+          "start": 332.24,
+          "end": 332.84
+        },
+        {
+          "word": "seconds",
+          "start": 332.84,
+          "end": 333.4
+        },
+        {
+          "word": "of",
+          "start": 333.4,
+          "end": 333.72
+        },
+        {
+          "word": "courage.",
+          "start": 333.72,
+          "end": 334.14
+        },
+        {
+          "word": "And",
+          "start": 334.64,
+          "end": 335.16
+        },
+        {
+          "word": "I",
+          "start": 335.16,
+          "end": 335.26
+        },
+        {
+          "word": "hit",
+          "start": 335.26,
+          "end": 335.46
+        },
+        {
+          "word": "publish",
+          "start": 335.46,
+          "end": 335.88
+        },
+        {
+          "word": "and",
+          "start": 335.88,
+          "end": 336.2
+        },
+        {
+          "word": "it",
+          "start": 336.2,
+          "end": 336.28
+        },
+        {
+          "word": "was",
+          "start": 336.28,
+          "end": 336.44
+        },
+        {
+          "word": "done.",
+          "start": 336.44,
+          "end": 336.82
+        },
+        {
+          "word": "And",
+          "start": 337.0,
+          "end": 337.24
+        },
+        {
+          "word": "guess",
+          "start": 337.24,
+          "end": 337.44
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 47,
+      "start": 337.44,
+      "end": 342.64,
+      "textEn": "What? I kept breathing and the world kept turning and the podcast grew into what it was meant to be.",
+      "textKo": "어떻게 됐냐고요? 계속 숨을 쉬었고 세상은 계속 돌아갔고 팟캐스트는 그 자체로 성장해 나갔어요.",
+      "words": [
+        {
+          "word": "what?",
+          "start": 337.44,
+          "end": 337.7
+        },
+        {
+          "word": "I",
+          "start": 337.86,
+          "end": 337.94
+        },
+        {
+          "word": "kept",
+          "start": 337.94,
+          "end": 338.1
+        },
+        {
+          "word": "breathing",
+          "start": 338.1,
+          "end": 338.48
+        },
+        {
+          "word": "and",
+          "start": 338.48,
+          "end": 339.0
+        },
+        {
+          "word": "the",
+          "start": 339.0,
+          "end": 339.1
+        },
+        {
+          "word": "world",
+          "start": 339.1,
+          "end": 339.32
+        },
+        {
+          "word": "kept",
+          "start": 339.32,
+          "end": 339.56
+        },
+        {
+          "word": "turning",
+          "start": 339.56,
+          "end": 339.92
+        },
+        {
+          "word": "and",
+          "start": 339.92,
+          "end": 340.44
+        },
+        {
+          "word": "the",
+          "start": 340.44,
+          "end": 340.54
+        },
+        {
+          "word": "podcast",
+          "start": 340.54,
+          "end": 340.9
+        },
+        {
+          "word": "grew",
+          "start": 340.9,
+          "end": 341.28
+        },
+        {
+          "word": "into",
+          "start": 341.28,
+          "end": 341.56
+        },
+        {
+          "word": "what",
+          "start": 341.56,
+          "end": 341.84
+        },
+        {
+          "word": "it",
+          "start": 341.84,
+          "end": 341.96
+        },
+        {
+          "word": "was",
+          "start": 341.96,
+          "end": 342.1
+        },
+        {
+          "word": "meant",
+          "start": 342.1,
+          "end": 342.24
+        },
+        {
+          "word": "to",
+          "start": 342.24,
+          "end": 342.42
+        },
+        {
+          "word": "be.",
+          "start": 342.42,
+          "end": 342.64
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 48,
+      "start": 342.76,
+      "end": 352.32,
+      "textEn": "All because of 20 seconds of courage. Number three, take a seat at the table. Not metaphorically speaking,",
+      "textKo": "20초의 용기 덕분에요. 세 번째, 테이블에 자리를 잡으세요. 비유적으로가 아니라,",
+      "words": [
+        {
+          "word": "All",
+          "start": 342.76,
+          "end": 343.24
+        },
+        {
+          "word": "because",
+          "start": 343.24,
+          "end": 343.58
+        },
+        {
+          "word": "of",
+          "start": 343.58,
+          "end": 344.08
+        },
+        {
+          "word": "20",
+          "start": 344.08,
+          "end": 344.48
+        },
+        {
+          "word": "seconds",
+          "start": 344.48,
+          "end": 345.02
+        },
+        {
+          "word": "of",
+          "start": 345.02,
+          "end": 345.34
+        },
+        {
+          "word": "courage.",
+          "start": 345.34,
+          "end": 345.72
+        },
+        {
+          "word": "Number",
+          "start": 346.6,
+          "end": 346.94
+        },
+        {
+          "word": "three,",
+          "start": 346.94,
+          "end": 347.28
+        },
+        {
+          "word": "take",
+          "start": 347.64,
+          "end": 348.1
+        },
+        {
+          "word": "a",
+          "start": 348.1,
+          "end": 348.4
+        },
+        {
+          "word": "seat",
+          "start": 348.4,
+          "end": 348.78
+        },
+        {
+          "word": "at",
+          "start": 348.78,
+          "end": 349.12
+        },
+        {
+          "word": "the",
+          "start": 349.12,
+          "end": 349.24
+        },
+        {
+          "word": "table.",
+          "start": 349.24,
+          "end": 349.62
+        },
+        {
+          "word": "Not",
+          "start": 350.32,
+          "end": 350.88
+        },
+        {
+          "word": "metaphorically",
+          "start": 350.88,
+          "end": 351.88
+        },
+        {
+          "word": "speaking,",
+          "start": 351.88,
+          "end": 352.32
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 49,
+      "start": 352.96,
+      "end": 359.44,
+      "textEn": "Actually take a seat at the table. I spoke with a woman who represents some of the biggest names in",
+      "textKo": "실제로 테이블에 앉으세요. 야구계에서 가장 큰 이름들을 대표하는 한 여성에게 이야기를 들었어요.",
+      "words": [
+        {
+          "word": "actually",
+          "start": 352.96,
+          "end": 353.52
+        },
+        {
+          "word": "take",
+          "start": 353.52,
+          "end": 354.02
+        },
+        {
+          "word": "a",
+          "start": 354.02,
+          "end": 354.2
+        },
+        {
+          "word": "seat",
+          "start": 354.2,
+          "end": 354.3
+        },
+        {
+          "word": "at",
+          "start": 354.3,
+          "end": 354.42
+        },
+        {
+          "word": "the",
+          "start": 354.42,
+          "end": 354.5
+        },
+        {
+          "word": "table.",
+          "start": 354.5,
+          "end": 354.78
+        },
+        {
+          "word": "I",
+          "start": 355.2,
+          "end": 355.76
+        },
+        {
+          "word": "spoke",
+          "start": 355.76,
+          "end": 356.06
+        },
+        {
+          "word": "with",
+          "start": 356.06,
+          "end": 356.28
+        },
+        {
+          "word": "a",
+          "start": 356.28,
+          "end": 356.42
+        },
+        {
+          "word": "woman",
+          "start": 356.42,
+          "end": 356.66
+        },
+        {
+          "word": "who",
+          "start": 356.66,
+          "end": 356.88
+        },
+        {
+          "word": "represents",
+          "start": 356.88,
+          "end": 357.46
+        },
+        {
+          "word": "some",
+          "start": 357.46,
+          "end": 357.94
+        },
+        {
+          "word": "of",
+          "start": 357.94,
+          "end": 358.1
+        },
+        {
+          "word": "the",
+          "start": 358.1,
+          "end": 358.28
+        },
+        {
+          "word": "biggest",
+          "start": 358.28,
+          "end": 358.72
+        },
+        {
+          "word": "names",
+          "start": 358.72,
+          "end": 359.2
+        },
+        {
+          "word": "in",
+          "start": 359.2,
+          "end": 359.44
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 50,
+      "start": 359.44,
+      "end": 364.64,
+      "textEn": "Baseball and she told me a story about taking a seat at the table. She noticed women waiting around the",
+      "textKo": "그녀는 테이블에 자리를 잡는 것에 대해 이야기했어요. 그녀는 여성들이 방 가장자리에서",
+      "words": [
+        {
+          "word": "baseball",
+          "start": 359.44,
+          "end": 359.88
+        },
+        {
+          "word": "and",
+          "start": 359.88,
+          "end": 360.1
+        },
+        {
+          "word": "she",
+          "start": 360.1,
+          "end": 360.24
+        },
+        {
+          "word": "told",
+          "start": 360.24,
+          "end": 360.48
+        },
+        {
+          "word": "me",
+          "start": 360.48,
+          "end": 360.62
+        },
+        {
+          "word": "a",
+          "start": 360.62,
+          "end": 360.78
+        },
+        {
+          "word": "story",
+          "start": 360.78,
+          "end": 361.0
+        },
+        {
+          "word": "about",
+          "start": 361.0,
+          "end": 361.24
+        },
+        {
+          "word": "taking",
+          "start": 361.24,
+          "end": 361.56
+        },
+        {
+          "word": "a",
+          "start": 361.56,
+          "end": 361.72
+        },
+        {
+          "word": "seat",
+          "start": 361.72,
+          "end": 361.88
+        },
+        {
+          "word": "at",
+          "start": 361.88,
+          "end": 362.0
+        },
+        {
+          "word": "the",
+          "start": 362.0,
+          "end": 362.08
+        },
+        {
+          "word": "table.",
+          "start": 362.08,
+          "end": 362.36
+        },
+        {
+          "word": "She",
+          "start": 362.68,
+          "end": 363.22
+        },
+        {
+          "word": "noticed",
+          "start": 363.22,
+          "end": 363.48
+        },
+        {
+          "word": "women",
+          "start": 363.48,
+          "end": 363.8
+        },
+        {
+          "word": "waiting",
+          "start": 363.8,
+          "end": 364.16
+        },
+        {
+          "word": "around",
+          "start": 364.16,
+          "end": 364.46
+        },
+        {
+          "word": "the",
+          "start": 364.46,
+          "end": 364.64
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 51,
+      "start": 364.64,
+      "end": 370.74,
+      "textEn": "Edges of the room, waiting for the seats to be filled. And worse yet, she was doing it too. In order to",
+      "textKo": "자리가 채워지길 기다리는 것을 발견했어요. 더 심각한 건, 자신도 그렇게 하고 있었다는 거예요.",
+      "words": [
+        {
+          "word": "edges",
+          "start": 364.64,
+          "end": 364.88
+        },
+        {
+          "word": "of",
+          "start": 364.88,
+          "end": 365.06
+        },
+        {
+          "word": "the",
+          "start": 365.06,
+          "end": 365.16
+        },
+        {
+          "word": "room,",
+          "start": 365.16,
+          "end": 365.4
+        },
+        {
+          "word": "waiting",
+          "start": 365.54,
+          "end": 365.72
+        },
+        {
+          "word": "for",
+          "start": 365.72,
+          "end": 365.92
+        },
+        {
+          "word": "the",
+          "start": 365.92,
+          "end": 366.06
+        },
+        {
+          "word": "seats",
+          "start": 366.06,
+          "end": 366.3
+        },
+        {
+          "word": "to",
+          "start": 366.3,
+          "end": 366.46
+        },
+        {
+          "word": "be",
+          "start": 366.46,
+          "end": 366.58
+        },
+        {
+          "word": "filled.",
+          "start": 366.58,
+          "end": 366.94
+        },
+        {
+          "word": "And",
+          "start": 367.12,
+          "end": 367.24
+        },
+        {
+          "word": "worse",
+          "start": 367.24,
+          "end": 367.52
+        },
+        {
+          "word": "yet,",
+          "start": 367.52,
+          "end": 367.82
+        },
+        {
+          "word": "she",
+          "start": 368.0,
+          "end": 368.46
+        },
+        {
+          "word": "was",
+          "start": 368.46,
+          "end": 368.7
+        },
+        {
+          "word": "doing",
+          "start": 368.7,
+          "end": 368.98
+        },
+        {
+          "word": "it",
+          "start": 368.98,
+          "end": 369.18
+        },
+        {
+          "word": "too.",
+          "start": 369.18,
+          "end": 369.52
+        },
+        {
+          "word": "In",
+          "start": 369.84,
+          "end": 370.38
+        },
+        {
+          "word": "order",
+          "start": 370.38,
+          "end": 370.6
+        },
+        {
+          "word": "to",
+          "start": 370.6,
+          "end": 370.74
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 52,
+      "start": 370.74,
+      "end": 378.62,
+      "textEn": "Become the more confident woman that she envisioned herself to be, she needed to go in, sit down, speak",
+      "textKo": "자신이 꿈꾸는 더 자신감 있는 여성이 되려면, 들어가서 앉고, 의견을 말하고,",
+      "words": [
+        {
+          "word": "become",
+          "start": 370.74,
+          "end": 371.02
+        },
+        {
+          "word": "the",
+          "start": 371.02,
+          "end": 371.2
+        },
+        {
+          "word": "more",
+          "start": 371.2,
+          "end": 371.54
+        },
+        {
+          "word": "confident",
+          "start": 371.54,
+          "end": 372.2
+        },
+        {
+          "word": "woman",
+          "start": 372.2,
+          "end": 372.6
+        },
+        {
+          "word": "that",
+          "start": 372.6,
+          "end": 373.12
+        },
+        {
+          "word": "she",
+          "start": 373.12,
+          "end": 373.34
+        },
+        {
+          "word": "envisioned",
+          "start": 373.34,
+          "end": 373.86
+        },
+        {
+          "word": "herself",
+          "start": 373.86,
+          "end": 374.26
+        },
+        {
+          "word": "to",
+          "start": 374.26,
+          "end": 374.58
+        },
+        {
+          "word": "be,",
+          "start": 374.58,
+          "end": 374.86
+        },
+        {
+          "word": "she",
+          "start": 375.12,
+          "end": 375.56
+        },
+        {
+          "word": "needed",
+          "start": 375.56,
+          "end": 375.88
+        },
+        {
+          "word": "to",
+          "start": 375.88,
+          "end": 376.42
+        },
+        {
+          "word": "go",
+          "start": 376.42,
+          "end": 376.98
+        },
+        {
+          "word": "in,",
+          "start": 376.98,
+          "end": 377.26
+        },
+        {
+          "word": "sit",
+          "start": 377.58,
+          "end": 377.82
+        },
+        {
+          "word": "down,",
+          "start": 377.82,
+          "end": 378.16
+        },
+        {
+          "word": "speak",
+          "start": 378.4,
+          "end": 378.62
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 53,
+      "start": 378.62,
+      "end": 384.6,
+      "textEn": "Her mind, and get the deal done. That started with one simple action, taking a seat at the table.",
+      "textKo": "거래를 성사시켜야 했어요. 그것은 하나의 간단한 행동에서 시작됐어요. 테이블에 자리를 잡는 것.",
+      "words": [
+        {
+          "word": "her",
+          "start": 378.62,
+          "end": 378.84
+        },
+        {
+          "word": "mind,",
+          "start": 378.84,
+          "end": 379.06
+        },
+        {
+          "word": "and",
+          "start": 379.08,
+          "end": 379.24
+        },
+        {
+          "word": "get",
+          "start": 379.24,
+          "end": 379.36
+        },
+        {
+          "word": "the",
+          "start": 379.36,
+          "end": 379.5
+        },
+        {
+          "word": "deal",
+          "start": 379.5,
+          "end": 379.7
+        },
+        {
+          "word": "done.",
+          "start": 379.7,
+          "end": 379.94
+        },
+        {
+          "word": "That",
+          "start": 380.08,
+          "end": 380.56
+        },
+        {
+          "word": "started",
+          "start": 380.56,
+          "end": 380.88
+        },
+        {
+          "word": "with",
+          "start": 380.88,
+          "end": 381.08
+        },
+        {
+          "word": "one",
+          "start": 381.08,
+          "end": 381.44
+        },
+        {
+          "word": "simple",
+          "start": 381.44,
+          "end": 381.86
+        },
+        {
+          "word": "action,",
+          "start": 381.86,
+          "end": 382.28
+        },
+        {
+          "word": "taking",
+          "start": 382.56,
+          "end": 383.24
+        },
+        {
+          "word": "a",
+          "start": 383.24,
+          "end": 383.56
+        },
+        {
+          "word": "seat",
+          "start": 383.56,
+          "end": 383.84
+        },
+        {
+          "word": "at",
+          "start": 383.84,
+          "end": 384.16
+        },
+        {
+          "word": "the",
+          "start": 384.16,
+          "end": 384.26
+        },
+        {
+          "word": "table.",
+          "start": 384.26,
+          "end": 384.6
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 54,
+      "start": 385.74,
+      "end": 393.48,
+      "textEn": "Number four, cheer for other people's success. They say that women will pull up the ladder behind them.",
+      "textKo": "네 번째, 다른 사람의 성공을 응원하세요. 여성들이 뒤에 오는 사다리를 치운다고들 하죠.",
+      "words": [
+        {
+          "word": "Number",
+          "start": 385.74,
+          "end": 386.3
+        },
+        {
+          "word": "four,",
+          "start": 386.3,
+          "end": 386.72
+        },
+        {
+          "word": "cheer",
+          "start": 387.38,
+          "end": 387.7
+        },
+        {
+          "word": "for",
+          "start": 387.7,
+          "end": 388.08
+        },
+        {
+          "word": "other",
+          "start": 388.08,
+          "end": 388.42
+        },
+        {
+          "word": "people's",
+          "start": 388.42,
+          "end": 389.2
+        },
+        {
+          "word": "success.",
+          "start": 389.2,
+          "end": 389.74
+        },
+        {
+          "word": "They",
+          "start": 390.36,
+          "end": 390.82
+        },
+        {
+          "word": "say",
+          "start": 390.82,
+          "end": 391.04
+        },
+        {
+          "word": "that",
+          "start": 391.04,
+          "end": 391.22
+        },
+        {
+          "word": "women",
+          "start": 391.22,
+          "end": 391.44
+        },
+        {
+          "word": "will",
+          "start": 391.44,
+          "end": 391.64
+        },
+        {
+          "word": "pull",
+          "start": 391.64,
+          "end": 391.92
+        },
+        {
+          "word": "up",
+          "start": 391.92,
+          "end": 392.2
+        },
+        {
+          "word": "the",
+          "start": 392.2,
+          "end": 392.46
+        },
+        {
+          "word": "ladder",
+          "start": 392.46,
+          "end": 392.72
+        },
+        {
+          "word": "behind",
+          "start": 392.72,
+          "end": 393.14
+        },
+        {
+          "word": "them.",
+          "start": 393.14,
+          "end": 393.48
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 55,
+      "start": 393.48,
+      "end": 399.5,
+      "textEn": "What if you didn't? What if you extended a hand back to lead her forward? What if you celebrated",
+      "textKo": "만약 그러지 않는다면요? 손을 뻗어 그녀를 앞으로 이끌어 준다면요? 동료의 성공을",
+      "words": [
+        {
+          "word": "What",
+          "start": 393.48,
+          "end": 394.24
+        },
+        {
+          "word": "if",
+          "start": 394.24,
+          "end": 394.38
+        },
+        {
+          "word": "you",
+          "start": 394.38,
+          "end": 394.5
+        },
+        {
+          "word": "didn't?",
+          "start": 394.5,
+          "end": 395.1
+        },
+        {
+          "word": "What",
+          "start": 395.34,
+          "end": 395.68
+        },
+        {
+          "word": "if",
+          "start": 395.68,
+          "end": 395.78
+        },
+        {
+          "word": "you",
+          "start": 395.78,
+          "end": 395.88
+        },
+        {
+          "word": "extended",
+          "start": 395.88,
+          "end": 396.24
+        },
+        {
+          "word": "a",
+          "start": 396.24,
+          "end": 396.42
+        },
+        {
+          "word": "hand",
+          "start": 396.42,
+          "end": 396.62
+        },
+        {
+          "word": "back",
+          "start": 396.62,
+          "end": 396.88
+        },
+        {
+          "word": "to",
+          "start": 396.88,
+          "end": 397.08
+        },
+        {
+          "word": "lead",
+          "start": 397.08,
+          "end": 397.44
+        },
+        {
+          "word": "her",
+          "start": 397.44,
+          "end": 397.86
+        },
+        {
+          "word": "forward?",
+          "start": 397.86,
+          "end": 398.28
+        },
+        {
+          "word": "What",
+          "start": 398.48,
+          "end": 398.56
+        },
+        {
+          "word": "if",
+          "start": 398.56,
+          "end": 398.7
+        },
+        {
+          "word": "you",
+          "start": 398.7,
+          "end": 398.82
+        },
+        {
+          "word": "celebrated",
+          "start": 398.82,
+          "end": 399.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 56,
+      "start": 399.5,
+      "end": 404.86,
+      "textEn": "The success of a colleague rather than feeling sorry for yourself that it was not you accepting",
+      "textKo": "축하하고, 그게 내가 아니라고 자기연민에 빠지는 대신 어떨까요?",
+      "words": [
+        {
+          "word": "the",
+          "start": 399.5,
+          "end": 400.06
+        },
+        {
+          "word": "success",
+          "start": 400.06,
+          "end": 400.42
+        },
+        {
+          "word": "of",
+          "start": 400.42,
+          "end": 400.76
+        },
+        {
+          "word": "a",
+          "start": 400.76,
+          "end": 400.86
+        },
+        {
+          "word": "colleague",
+          "start": 400.86,
+          "end": 401.3
+        },
+        {
+          "word": "rather",
+          "start": 401.3,
+          "end": 401.9
+        },
+        {
+          "word": "than",
+          "start": 401.9,
+          "end": 402.08
+        },
+        {
+          "word": "feeling",
+          "start": 402.08,
+          "end": 402.32
+        },
+        {
+          "word": "sorry",
+          "start": 402.32,
+          "end": 402.66
+        },
+        {
+          "word": "for",
+          "start": 402.66,
+          "end": 402.86
+        },
+        {
+          "word": "yourself",
+          "start": 402.86,
+          "end": 403.18
+        },
+        {
+          "word": "that",
+          "start": 403.18,
+          "end": 403.34
+        },
+        {
+          "word": "it",
+          "start": 403.34,
+          "end": 403.42
+        },
+        {
+          "word": "was",
+          "start": 403.42,
+          "end": 403.52
+        },
+        {
+          "word": "not",
+          "start": 403.52,
+          "end": 403.7
+        },
+        {
+          "word": "you",
+          "start": 403.7,
+          "end": 404.14
+        },
+        {
+          "word": "accepting",
+          "start": 404.14,
+          "end": 404.86
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 57,
+      "start": 404.86,
+      "end": 412.4,
+      "textEn": "The accolades? Confident people celebrate the success of others rather than feeling threatened.",
+      "textKo": "자신감 있는 사람들은 위협감을 느끼기보다 다른 사람의 성공을 축하합니다.",
+      "words": [
+        {
+          "word": "the",
+          "start": 404.86,
+          "end": 405.36
+        },
+        {
+          "word": "accolades?",
+          "start": 405.36,
+          "end": 406.08
+        },
+        {
+          "word": "Confident",
+          "start": 406.8,
+          "end": 407.46
+        },
+        {
+          "word": "people",
+          "start": 407.46,
+          "end": 408.0
+        },
+        {
+          "word": "celebrate",
+          "start": 408.0,
+          "end": 408.58
+        },
+        {
+          "word": "the",
+          "start": 408.58,
+          "end": 408.82
+        },
+        {
+          "word": "success",
+          "start": 408.82,
+          "end": 409.24
+        },
+        {
+          "word": "of",
+          "start": 409.24,
+          "end": 409.84
+        },
+        {
+          "word": "others",
+          "start": 409.84,
+          "end": 410.28
+        },
+        {
+          "word": "rather",
+          "start": 410.28,
+          "end": 410.88
+        },
+        {
+          "word": "than",
+          "start": 410.88,
+          "end": 411.2
+        },
+        {
+          "word": "feeling",
+          "start": 411.2,
+          "end": 411.62
+        },
+        {
+          "word": "threatened.",
+          "start": 411.62,
+          "end": 412.4
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 58,
+      "start": 413.04,
+      "end": 420.82,
+      "textEn": "Think of this great quote from Amy Poehler, good for her, not for me. It turns that pit in your",
+      "textKo": "에이미 폴러의 멋진 명언을 생각해 보세요. '그녀에겐 좋은 일이고, 나와는 다른 일이야.' 이것은 '아, 그녀는 해냈는데",
+      "words": [
+        {
+          "word": "Think",
+          "start": 413.04,
+          "end": 413.68
+        },
+        {
+          "word": "of",
+          "start": 413.68,
+          "end": 413.84
+        },
+        {
+          "word": "this",
+          "start": 413.84,
+          "end": 414.04
+        },
+        {
+          "word": "great",
+          "start": 414.04,
+          "end": 414.44
+        },
+        {
+          "word": "quote",
+          "start": 414.44,
+          "end": 414.84
+        },
+        {
+          "word": "from",
+          "start": 414.84,
+          "end": 415.1
+        },
+        {
+          "word": "Amy",
+          "start": 415.1,
+          "end": 415.34
+        },
+        {
+          "word": "Poehler,",
+          "start": 415.34,
+          "end": 415.76
+        },
+        {
+          "word": "good",
+          "start": 415.98,
+          "end": 416.64
+        },
+        {
+          "word": "for",
+          "start": 416.64,
+          "end": 416.86
+        },
+        {
+          "word": "her,",
+          "start": 416.86,
+          "end": 417.22
+        },
+        {
+          "word": "not",
+          "start": 417.4,
+          "end": 418.3
+        },
+        {
+          "word": "for",
+          "start": 418.3,
+          "end": 418.54
+        },
+        {
+          "word": "me.",
+          "start": 418.54,
+          "end": 418.76
+        },
+        {
+          "word": "It",
+          "start": 419.12,
+          "end": 419.76
+        },
+        {
+          "word": "turns",
+          "start": 419.76,
+          "end": 420.02
+        },
+        {
+          "word": "that",
+          "start": 420.02,
+          "end": 420.22
+        },
+        {
+          "word": "pit",
+          "start": 420.22,
+          "end": 420.48
+        },
+        {
+          "word": "in",
+          "start": 420.48,
+          "end": 420.66
+        },
+        {
+          "word": "your",
+          "start": 420.66,
+          "end": 420.82
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 59,
+      "start": 420.82,
+      "end": 428.04,
+      "textEn": "Stomach of, oh, she did that and I'm still here, into yes, good for her, not for me. This is her",
+      "textKo": "나는 아직 여기 있네'라는 속이 뒤틀리는 감정을, '그래, 그녀에겐 좋은 일이고 나와는 다른 일이야'로 바꿔줘요. 이것은 그녀의",
+      "words": [
+        {
+          "word": "stomach",
+          "start": 420.82,
+          "end": 421.12
+        },
+        {
+          "word": "of,",
+          "start": 421.12,
+          "end": 421.34
+        },
+        {
+          "word": "oh,",
+          "start": 421.6,
+          "end": 421.76
+        },
+        {
+          "word": "she",
+          "start": 422.02,
+          "end": 422.12
+        },
+        {
+          "word": "did",
+          "start": 422.12,
+          "end": 422.34
+        },
+        {
+          "word": "that",
+          "start": 422.34,
+          "end": 422.64
+        },
+        {
+          "word": "and",
+          "start": 422.64,
+          "end": 422.8
+        },
+        {
+          "word": "I'm",
+          "start": 422.8,
+          "end": 423.0
+        },
+        {
+          "word": "still",
+          "start": 423.0,
+          "end": 423.26
+        },
+        {
+          "word": "here,",
+          "start": 423.26,
+          "end": 423.6
+        },
+        {
+          "word": "into",
+          "start": 423.66,
+          "end": 423.88
+        },
+        {
+          "word": "yes,",
+          "start": 423.88,
+          "end": 424.44
+        },
+        {
+          "word": "good",
+          "start": 424.76,
+          "end": 425.1
+        },
+        {
+          "word": "for",
+          "start": 425.1,
+          "end": 425.36
+        },
+        {
+          "word": "her,",
+          "start": 425.36,
+          "end": 425.88
+        },
+        {
+          "word": "not",
+          "start": 426.06,
+          "end": 426.52
+        },
+        {
+          "word": "for",
+          "start": 426.52,
+          "end": 426.8
+        },
+        {
+          "word": "me.",
+          "start": 426.8,
+          "end": 427.16
+        },
+        {
+          "word": "This",
+          "start": 427.16,
+          "end": 427.66
+        },
+        {
+          "word": "is",
+          "start": 427.66,
+          "end": 427.8
+        },
+        {
+          "word": "her",
+          "start": 427.8,
+          "end": 428.04
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 60,
+      "start": 428.04,
+      "end": 435.04,
+      "textEn": "Celebration, not mine. And when my time comes, isn't it going to be great to have the support of so many",
+      "textKo": "축하이지, 내 것이 아니에요. 그리고 내 차례가 오면, 주변에 그렇게 많은 사람들의 응원을 받는 건",
+      "words": [
+        {
+          "word": "celebration,",
+          "start": 428.04,
+          "end": 428.74
+        },
+        {
+          "word": "not",
+          "start": 428.74,
+          "end": 429.6
+        },
+        {
+          "word": "mine.",
+          "start": 429.6,
+          "end": 430.14
+        },
+        {
+          "word": "And",
+          "start": 430.14,
+          "end": 430.72
+        },
+        {
+          "word": "when",
+          "start": 430.72,
+          "end": 430.9
+        },
+        {
+          "word": "my",
+          "start": 430.9,
+          "end": 431.26
+        },
+        {
+          "word": "time",
+          "start": 431.26,
+          "end": 431.58
+        },
+        {
+          "word": "comes,",
+          "start": 431.58,
+          "end": 432.02
+        },
+        {
+          "word": "isn't",
+          "start": 432.32,
+          "end": 432.54
+        },
+        {
+          "word": "it",
+          "start": 432.54,
+          "end": 432.62
+        },
+        {
+          "word": "going",
+          "start": 432.62,
+          "end": 432.7
+        },
+        {
+          "word": "to",
+          "start": 432.7,
+          "end": 432.76
+        },
+        {
+          "word": "be",
+          "start": 432.76,
+          "end": 432.88
+        },
+        {
+          "word": "great",
+          "start": 432.88,
+          "end": 433.26
+        },
+        {
+          "word": "to",
+          "start": 433.26,
+          "end": 433.46
+        },
+        {
+          "word": "have",
+          "start": 433.46,
+          "end": 433.6
+        },
+        {
+          "word": "the",
+          "start": 433.6,
+          "end": 433.74
+        },
+        {
+          "word": "support",
+          "start": 433.74,
+          "end": 434.1
+        },
+        {
+          "word": "of",
+          "start": 434.1,
+          "end": 434.32
+        },
+        {
+          "word": "so",
+          "start": 434.32,
+          "end": 434.68
+        },
+        {
+          "word": "many",
+          "start": 434.68,
+          "end": 435.04
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 61,
+      "start": 435.04,
+      "end": 443.42,
+      "textEn": "People around me? Wins are so much better celebrated together. Join in. Cheer someone else on.",
+      "textKo": "정말 멋지지 않을까요? 승리는 함께 축하할 때 훨씬 더 좋아요. 함께해요. 다른 사람을 응원해 주세요.",
+      "words": [
+        {
+          "word": "people",
+          "start": 435.04,
+          "end": 435.5
+        },
+        {
+          "word": "around",
+          "start": 435.5,
+          "end": 436.0
+        },
+        {
+          "word": "me?",
+          "start": 436.0,
+          "end": 436.36
+        },
+        {
+          "word": "Wins",
+          "start": 437.08,
+          "end": 437.68
+        },
+        {
+          "word": "are",
+          "start": 437.68,
+          "end": 437.92
+        },
+        {
+          "word": "so",
+          "start": 437.92,
+          "end": 438.26
+        },
+        {
+          "word": "much",
+          "start": 438.26,
+          "end": 438.5
+        },
+        {
+          "word": "better",
+          "start": 438.5,
+          "end": 438.8
+        },
+        {
+          "word": "celebrated",
+          "start": 438.8,
+          "end": 439.56
+        },
+        {
+          "word": "together.",
+          "start": 439.56,
+          "end": 440.24
+        },
+        {
+          "word": "Join",
+          "start": 441.06,
+          "end": 441.66
+        },
+        {
+          "word": "in.",
+          "start": 441.66,
+          "end": 441.92
+        },
+        {
+          "word": "Cheer",
+          "start": 442.46,
+          "end": 442.64
+        },
+        {
+          "word": "someone",
+          "start": 442.64,
+          "end": 442.92
+        },
+        {
+          "word": "else",
+          "start": 442.92,
+          "end": 443.16
+        },
+        {
+          "word": "on.",
+          "start": 443.16,
+          "end": 443.42
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 62,
+      "start": 443.42,
+      "end": 450.5,
+      "textEn": "Here's number four in action. Recently, a woman was promoted to chief marketing officer of a major",
+      "textKo": "네 번째의 실제 사례입니다. 최근, 한 여성이 주요 스포츠 리그의 최고 마케팅 책임자로 승진했어요.",
+      "words": [
+        {
+          "word": "Here's",
+          "start": 443.42,
+          "end": 444.74
+        },
+        {
+          "word": "number",
+          "start": 444.74,
+          "end": 444.94
+        },
+        {
+          "word": "four",
+          "start": 444.94,
+          "end": 445.22
+        },
+        {
+          "word": "in",
+          "start": 445.22,
+          "end": 445.4
+        },
+        {
+          "word": "action.",
+          "start": 445.4,
+          "end": 445.72
+        },
+        {
+          "word": "Recently,",
+          "start": 446.14,
+          "end": 446.82
+        },
+        {
+          "word": "a",
+          "start": 447.02,
+          "end": 447.12
+        },
+        {
+          "word": "woman",
+          "start": 447.12,
+          "end": 447.32
+        },
+        {
+          "word": "was",
+          "start": 447.32,
+          "end": 447.58
+        },
+        {
+          "word": "promoted",
+          "start": 447.58,
+          "end": 447.98
+        },
+        {
+          "word": "to",
+          "start": 447.98,
+          "end": 448.22
+        },
+        {
+          "word": "chief",
+          "start": 448.22,
+          "end": 448.48
+        },
+        {
+          "word": "marketing",
+          "start": 448.48,
+          "end": 448.86
+        },
+        {
+          "word": "officer",
+          "start": 448.86,
+          "end": 449.34
+        },
+        {
+          "word": "of",
+          "start": 449.34,
+          "end": 450.0
+        },
+        {
+          "word": "a",
+          "start": 450.0,
+          "end": 450.14
+        },
+        {
+          "word": "major",
+          "start": 450.14,
+          "end": 450.5
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 63,
+      "start": 450.5,
+      "end": 456.76,
+      "textEn": "Sports league. The offer to interview and ultimately land the job came after her public celebration and",
+      "textKo": "인터뷰 제안과 최종 채용은 새로 임명된 여성 리그 회장에 대한 공개적인 축하와",
+      "words": [
+        {
+          "word": "sports",
+          "start": 450.5,
+          "end": 451.08
+        },
+        {
+          "word": "league.",
+          "start": 451.08,
+          "end": 451.36
+        },
+        {
+          "word": "The",
+          "start": 451.66,
+          "end": 452.16
+        },
+        {
+          "word": "offer",
+          "start": 452.16,
+          "end": 452.38
+        },
+        {
+          "word": "to",
+          "start": 452.38,
+          "end": 452.52
+        },
+        {
+          "word": "interview",
+          "start": 452.52,
+          "end": 452.92
+        },
+        {
+          "word": "and",
+          "start": 452.92,
+          "end": 453.28
+        },
+        {
+          "word": "ultimately",
+          "start": 453.28,
+          "end": 453.72
+        },
+        {
+          "word": "land",
+          "start": 453.72,
+          "end": 454.06
+        },
+        {
+          "word": "the",
+          "start": 454.06,
+          "end": 454.22
+        },
+        {
+          "word": "job",
+          "start": 454.22,
+          "end": 454.5
+        },
+        {
+          "word": "came",
+          "start": 454.5,
+          "end": 455.04
+        },
+        {
+          "word": "after",
+          "start": 455.04,
+          "end": 455.32
+        },
+        {
+          "word": "her",
+          "start": 455.32,
+          "end": 455.52
+        },
+        {
+          "word": "public",
+          "start": 455.52,
+          "end": 455.88
+        },
+        {
+          "word": "celebration",
+          "start": 455.88,
+          "end": 456.48
+        },
+        {
+          "word": "and",
+          "start": 456.48,
+          "end": 456.76
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 64,
+      "start": 456.76,
+      "end": 464.06,
+      "textEn": "Sincere congratulatory outreach to the newly named female league president. Confident people support",
+      "textKo": "진심 어린 축하 연락 후에 이루어졌어요. 자신감 있는 사람들은",
+      "words": [
+        {
+          "word": "sincere",
+          "start": 456.76,
+          "end": 457.34
+        },
+        {
+          "word": "congratulatory",
+          "start": 457.34,
+          "end": 458.18
+        },
+        {
+          "word": "outreach",
+          "start": 458.18,
+          "end": 458.62
+        },
+        {
+          "word": "to",
+          "start": 458.62,
+          "end": 459.12
+        },
+        {
+          "word": "the",
+          "start": 459.12,
+          "end": 459.24
+        },
+        {
+          "word": "newly",
+          "start": 459.24,
+          "end": 459.48
+        },
+        {
+          "word": "named",
+          "start": 459.48,
+          "end": 459.88
+        },
+        {
+          "word": "female",
+          "start": 459.88,
+          "end": 460.42
+        },
+        {
+          "word": "league",
+          "start": 460.42,
+          "end": 460.86
+        },
+        {
+          "word": "president.",
+          "start": 460.86,
+          "end": 461.32
+        },
+        {
+          "word": "Confident",
+          "start": 462.02,
+          "end": 462.74
+        },
+        {
+          "word": "people",
+          "start": 462.74,
+          "end": 463.3
+        },
+        {
+          "word": "support",
+          "start": 463.3,
+          "end": 464.06
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 65,
+      "start": 464.06,
+      "end": 472.88,
+      "textEn": "Those around them. Cheer for someone else's success. Number five, bolster your confidence for a new",
+      "textKo": "주변 사람들을 지지해요. 다른 사람의 성공을 응원하세요. 다섯 번째, 이미 잘하고 있는 분야의 성과를 통해",
+      "words": [
+        {
+          "word": "those",
+          "start": 464.06,
+          "end": 464.68
+        },
+        {
+          "word": "around",
+          "start": 464.68,
+          "end": 465.16
+        },
+        {
+          "word": "them.",
+          "start": 465.16,
+          "end": 465.48
+        },
+        {
+          "word": "Cheer",
+          "start": 466.04,
+          "end": 466.24
+        },
+        {
+          "word": "for",
+          "start": 466.24,
+          "end": 466.56
+        },
+        {
+          "word": "someone",
+          "start": 466.56,
+          "end": 466.82
+        },
+        {
+          "word": "else's",
+          "start": 466.82,
+          "end": 467.32
+        },
+        {
+          "word": "success.",
+          "start": 467.32,
+          "end": 467.96
+        },
+        {
+          "word": "Number",
+          "start": 468.82,
+          "end": 469.44
+        },
+        {
+          "word": "five,",
+          "start": 469.44,
+          "end": 469.86
+        },
+        {
+          "word": "bolster",
+          "start": 470.32,
+          "end": 471.16
+        },
+        {
+          "word": "your",
+          "start": 471.16,
+          "end": 471.38
+        },
+        {
+          "word": "confidence",
+          "start": 471.38,
+          "end": 471.82
+        },
+        {
+          "word": "for",
+          "start": 471.82,
+          "end": 472.24
+        },
+        {
+          "word": "a",
+          "start": 472.24,
+          "end": 472.5
+        },
+        {
+          "word": "new",
+          "start": 472.5,
+          "end": 472.88
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 66,
+      "start": 472.88,
+      "end": 480.42,
+      "textEn": "Activity through your already great performance in another. What are you really good at? What is easier",
+      "textKo": "새로운 활동에 대한 자신감을 강화하세요. 당신이 정말 잘하는 건 뭔가요? 1년 전보다 지금 더 쉬워진 건 뭔가요?",
+      "words": [
+        {
+          "word": "activity",
+          "start": 472.88,
+          "end": 473.54
+        },
+        {
+          "word": "through",
+          "start": 473.54,
+          "end": 473.92
+        },
+        {
+          "word": "your",
+          "start": 473.92,
+          "end": 474.12
+        },
+        {
+          "word": "already",
+          "start": 474.12,
+          "end": 474.56
+        },
+        {
+          "word": "great",
+          "start": 474.56,
+          "end": 474.92
+        },
+        {
+          "word": "performance",
+          "start": 474.92,
+          "end": 475.52
+        },
+        {
+          "word": "in",
+          "start": 475.52,
+          "end": 475.9
+        },
+        {
+          "word": "another.",
+          "start": 475.9,
+          "end": 476.18
+        },
+        {
+          "word": "What",
+          "start": 476.76,
+          "end": 477.48
+        },
+        {
+          "word": "are",
+          "start": 477.48,
+          "end": 477.56
+        },
+        {
+          "word": "you",
+          "start": 477.56,
+          "end": 477.66
+        },
+        {
+          "word": "really",
+          "start": 477.66,
+          "end": 477.96
+        },
+        {
+          "word": "good",
+          "start": 477.96,
+          "end": 478.26
+        },
+        {
+          "word": "at?",
+          "start": 478.26,
+          "end": 478.62
+        },
+        {
+          "word": "What",
+          "start": 479.0,
+          "end": 479.66
+        },
+        {
+          "word": "is",
+          "start": 479.66,
+          "end": 479.82
+        },
+        {
+          "word": "easier",
+          "start": 479.82,
+          "end": 480.42
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 67,
+      "start": 480.42,
+      "end": 488.5,
+      "textEn": "Today than it was one year ago? What is your most proud accomplishment? Answer those questions. Think about",
+      "textKo": "가장 자랑스러운 성취는 무엇인가요? 이 질문들에 답해 보세요. 그 답들을 생각해 보세요.",
+      "words": [
+        {
+          "word": "today",
+          "start": 480.42,
+          "end": 480.76
+        },
+        {
+          "word": "than",
+          "start": 480.76,
+          "end": 480.96
+        },
+        {
+          "word": "it",
+          "start": 480.96,
+          "end": 481.08
+        },
+        {
+          "word": "was",
+          "start": 481.08,
+          "end": 481.38
+        },
+        {
+          "word": "one",
+          "start": 481.38,
+          "end": 481.7
+        },
+        {
+          "word": "year",
+          "start": 481.7,
+          "end": 482.0
+        },
+        {
+          "word": "ago?",
+          "start": 482.0,
+          "end": 482.28
+        },
+        {
+          "word": "What",
+          "start": 482.58,
+          "end": 483.2
+        },
+        {
+          "word": "is",
+          "start": 483.2,
+          "end": 483.36
+        },
+        {
+          "word": "your",
+          "start": 483.36,
+          "end": 483.52
+        },
+        {
+          "word": "most",
+          "start": 483.52,
+          "end": 483.82
+        },
+        {
+          "word": "proud",
+          "start": 483.82,
+          "end": 484.34
+        },
+        {
+          "word": "accomplishment?",
+          "start": 484.34,
+          "end": 485.14
+        },
+        {
+          "word": "Answer",
+          "start": 485.94,
+          "end": 486.66
+        },
+        {
+          "word": "those",
+          "start": 486.66,
+          "end": 487.0
+        },
+        {
+          "word": "questions.",
+          "start": 487.0,
+          "end": 487.66
+        },
+        {
+          "word": "Think",
+          "start": 488.04,
+          "end": 488.2
+        },
+        {
+          "word": "about",
+          "start": 488.2,
+          "end": 488.5
+        }
+      ],
+      "listenDifficulty": 1
+    },
+    {
+      "index": 68,
+      "start": 488.5,
+      "end": 496.98,
+      "textEn": "Those answers. Those answers is where your confidence is born. Confidence is born in all we've already done",
+      "textKo": "그 답들이 바로 자신감이 탄생하는 곳이에요. 자신감은 우리가 이미 한 일과 이미 성취한 것에서 태어나요.",
+      "words": [
+        {
+          "word": "those",
+          "start": 488.5,
+          "end": 488.78
+        },
+        {
+          "word": "answers.",
+          "start": 488.78,
+          "end": 489.42
+        },
+        {
+          "word": "Those",
+          "start": 489.78,
+          "end": 490.36
+        },
+        {
+          "word": "answers",
+          "start": 490.36,
+          "end": 490.88
+        },
+        {
+          "word": "is",
+          "start": 490.88,
+          "end": 491.2
+        },
+        {
+          "word": "where",
+          "start": 491.2,
+          "end": 491.36
+        },
+        {
+          "word": "your",
+          "start": 491.36,
+          "end": 491.52
+        },
+        {
+          "word": "confidence",
+          "start": 491.52,
+          "end": 492.12
+        },
+        {
+          "word": "is",
+          "start": 492.12,
+          "end": 492.84
+        },
+        {
+          "word": "born.",
+          "start": 492.84,
+          "end": 493.32
+        },
+        {
+          "word": "Confidence",
+          "start": 494.18,
+          "end": 494.76
+        },
+        {
+          "word": "is",
+          "start": 494.76,
+          "end": 495.0
+        },
+        {
+          "word": "born",
+          "start": 495.0,
+          "end": 495.3
+        },
+        {
+          "word": "in",
+          "start": 495.3,
+          "end": 495.5
+        },
+        {
+          "word": "all",
+          "start": 495.5,
+          "end": 495.82
+        },
+        {
+          "word": "we've",
+          "start": 495.82,
+          "end": 496.1
+        },
+        {
+          "word": "already",
+          "start": 496.1,
+          "end": 496.6
+        },
+        {
+          "word": "done",
+          "start": 496.6,
+          "end": 496.98
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 69,
+      "start": 496.98,
+      "end": 503.7,
+      "textEn": "And already achieved. Recently, a woman I interviewed on the Leadership is Female podcast was going after a",
+      "textKo": "최근, '리더십 이즈 피메일' 팟캐스트에서 인터뷰한 한 여성이 최고 팀에서의",
+      "words": [
+        {
+          "word": "and",
+          "start": 496.98,
+          "end": 497.84
+        },
+        {
+          "word": "already",
+          "start": 497.84,
+          "end": 498.34
+        },
+        {
+          "word": "achieved.",
+          "start": 498.34,
+          "end": 498.88
+        },
+        {
+          "word": "Recently,",
+          "start": 499.64,
+          "end": 500.22
+        },
+        {
+          "word": "a",
+          "start": 500.36,
+          "end": 500.42
+        },
+        {
+          "word": "woman",
+          "start": 500.42,
+          "end": 500.6
+        },
+        {
+          "word": "I",
+          "start": 500.6,
+          "end": 500.78
+        },
+        {
+          "word": "interviewed",
+          "start": 500.78,
+          "end": 501.1
+        },
+        {
+          "word": "on",
+          "start": 501.1,
+          "end": 501.32
+        },
+        {
+          "word": "the",
+          "start": 501.32,
+          "end": 501.4
+        },
+        {
+          "word": "Leadership",
+          "start": 501.4,
+          "end": 501.72
+        },
+        {
+          "word": "is",
+          "start": 501.72,
+          "end": 501.98
+        },
+        {
+          "word": "Female",
+          "start": 501.98,
+          "end": 502.22
+        },
+        {
+          "word": "podcast",
+          "start": 502.22,
+          "end": 502.66
+        },
+        {
+          "word": "was",
+          "start": 502.66,
+          "end": 502.98
+        },
+        {
+          "word": "going",
+          "start": 502.98,
+          "end": 503.18
+        },
+        {
+          "word": "after",
+          "start": 503.18,
+          "end": 503.48
+        },
+        {
+          "word": "a",
+          "start": 503.48,
+          "end": 503.7
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 70,
+      "start": 503.7,
+      "end": 510.14,
+      "textEn": "Big, big promotion at a top team. Before she went in to pitch her boss, she reviewed her current job",
+      "textKo": "큰 승진을 노리고 있었어요. 상사에게 제안하러 가기 전에, 현재 직무 기술서를 검토하고,",
+      "words": [
+        {
+          "word": "big,",
+          "start": 503.7,
+          "end": 504.26
+        },
+        {
+          "word": "big",
+          "start": 504.46,
+          "end": 505.12
+        },
+        {
+          "word": "promotion",
+          "start": 505.12,
+          "end": 505.56
+        },
+        {
+          "word": "at",
+          "start": 505.56,
+          "end": 505.76
+        },
+        {
+          "word": "a",
+          "start": 505.76,
+          "end": 505.82
+        },
+        {
+          "word": "top",
+          "start": 505.82,
+          "end": 506.02
+        },
+        {
+          "word": "team.",
+          "start": 506.02,
+          "end": 506.28
+        },
+        {
+          "word": "Before",
+          "start": 506.78,
+          "end": 507.36
+        },
+        {
+          "word": "she",
+          "start": 507.36,
+          "end": 507.54
+        },
+        {
+          "word": "went",
+          "start": 507.54,
+          "end": 507.7
+        },
+        {
+          "word": "in",
+          "start": 507.7,
+          "end": 507.8
+        },
+        {
+          "word": "to",
+          "start": 507.8,
+          "end": 507.9
+        },
+        {
+          "word": "pitch",
+          "start": 507.9,
+          "end": 508.12
+        },
+        {
+          "word": "her",
+          "start": 508.12,
+          "end": 508.26
+        },
+        {
+          "word": "boss,",
+          "start": 508.26,
+          "end": 508.62
+        },
+        {
+          "word": "she",
+          "start": 508.82,
+          "end": 509.22
+        },
+        {
+          "word": "reviewed",
+          "start": 509.22,
+          "end": 509.48
+        },
+        {
+          "word": "her",
+          "start": 509.48,
+          "end": 509.64
+        },
+        {
+          "word": "current",
+          "start": 509.64,
+          "end": 509.88
+        },
+        {
+          "word": "job",
+          "start": 509.88,
+          "end": 510.14
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 71,
+      "start": 510.14,
+      "end": 516.68,
+      "textEn": "Description, made notes of her accolades in all areas mentioned, and then was prepared with the examples",
+      "textKo": "언급된 모든 분야에서의 성과를 메모하고, 과거의 성공에 대한 자신감과 목표의 사례를 준비했어요.",
+      "words": [
+        {
+          "word": "description,",
+          "start": 510.14,
+          "end": 510.66
+        },
+        {
+          "word": "made",
+          "start": 510.88,
+          "end": 511.34
+        },
+        {
+          "word": "notes",
+          "start": 511.34,
+          "end": 511.66
+        },
+        {
+          "word": "of",
+          "start": 511.66,
+          "end": 511.84
+        },
+        {
+          "word": "her",
+          "start": 511.84,
+          "end": 511.98
+        },
+        {
+          "word": "accolades",
+          "start": 511.98,
+          "end": 512.5
+        },
+        {
+          "word": "in",
+          "start": 512.5,
+          "end": 512.68
+        },
+        {
+          "word": "all",
+          "start": 512.68,
+          "end": 513.08
+        },
+        {
+          "word": "areas",
+          "start": 513.08,
+          "end": 513.54
+        },
+        {
+          "word": "mentioned,",
+          "start": 513.54,
+          "end": 514.04
+        },
+        {
+          "word": "and",
+          "start": 514.22,
+          "end": 514.66
+        },
+        {
+          "word": "then",
+          "start": 514.66,
+          "end": 514.78
+        },
+        {
+          "word": "was",
+          "start": 514.78,
+          "end": 515.02
+        },
+        {
+          "word": "prepared",
+          "start": 515.02,
+          "end": 515.62
+        },
+        {
+          "word": "with",
+          "start": 515.62,
+          "end": 515.86
+        },
+        {
+          "word": "the",
+          "start": 515.86,
+          "end": 516.02
+        },
+        {
+          "word": "examples",
+          "start": 516.02,
+          "end": 516.68
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 72,
+      "start": 516.68,
+      "end": 524.82,
+      "textEn": "Of the goals and the confidence of the success she had in the past. She got the promotion. Use your prior success to",
+      "textKo": "그녀는 승진을 받았어요. 이전의 성공을 활용해",
+      "words": [
+        {
+          "word": "of",
+          "start": 516.68,
+          "end": 516.84
+        },
+        {
+          "word": "the",
+          "start": 516.84,
+          "end": 516.84
+        },
+        {
+          "word": "goals",
+          "start": 516.84,
+          "end": 516.84
+        },
+        {
+          "word": "and",
+          "start": 516.84,
+          "end": 517.04
+        },
+        {
+          "word": "the",
+          "start": 517.04,
+          "end": 517.16
+        },
+        {
+          "word": "confidence",
+          "start": 517.16,
+          "end": 517.62
+        },
+        {
+          "word": "of",
+          "start": 517.62,
+          "end": 518.26
+        },
+        {
+          "word": "the",
+          "start": 518.26,
+          "end": 518.38
+        },
+        {
+          "word": "success",
+          "start": 518.38,
+          "end": 518.7
+        },
+        {
+          "word": "she",
+          "start": 518.7,
+          "end": 518.92
+        },
+        {
+          "word": "had",
+          "start": 518.92,
+          "end": 519.1
+        },
+        {
+          "word": "in",
+          "start": 519.1,
+          "end": 519.2
+        },
+        {
+          "word": "the",
+          "start": 519.2,
+          "end": 519.26
+        },
+        {
+          "word": "past.",
+          "start": 519.26,
+          "end": 519.64
+        },
+        {
+          "word": "She",
+          "start": 519.9,
+          "end": 520.56
+        },
+        {
+          "word": "got",
+          "start": 520.56,
+          "end": 520.9
+        },
+        {
+          "word": "the",
+          "start": 520.9,
+          "end": 521.24
+        },
+        {
+          "word": "promotion.",
+          "start": 521.24,
+          "end": 521.76
+        },
+        {
+          "word": "Use",
+          "start": 522.42,
+          "end": 523.14
+        },
+        {
+          "word": "your",
+          "start": 523.14,
+          "end": 523.38
+        },
+        {
+          "word": "prior",
+          "start": 523.38,
+          "end": 523.76
+        },
+        {
+          "word": "success",
+          "start": 523.76,
+          "end": 524.3
+        },
+        {
+          "word": "to",
+          "start": 524.3,
+          "end": 524.82
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 73,
+      "start": 524.82,
+      "end": 534.26,
+      "textEn": "Propel yourself forward. And number six, celebrate constantly. How often do we reach our goals and then just",
+      "textKo": "자신을 앞으로 나아가게 하세요. 그리고 여섯 번째, 끊임없이 축하하세요. 우리는 얼마나 자주 목표를 달성하고",
+      "words": [
+        {
+          "word": "propel",
+          "start": 524.82,
+          "end": 525.3
+        },
+        {
+          "word": "yourself",
+          "start": 525.3,
+          "end": 525.86
+        },
+        {
+          "word": "forward.",
+          "start": 525.86,
+          "end": 526.56
+        },
+        {
+          "word": "And",
+          "start": 527.22,
+          "end": 527.68
+        },
+        {
+          "word": "number",
+          "start": 527.68,
+          "end": 527.9
+        },
+        {
+          "word": "six,",
+          "start": 527.9,
+          "end": 528.3
+        },
+        {
+          "word": "celebrate",
+          "start": 529.06,
+          "end": 529.84
+        },
+        {
+          "word": "constantly.",
+          "start": 529.84,
+          "end": 531.16
+        },
+        {
+          "word": "How",
+          "start": 531.62,
+          "end": 532.28
+        },
+        {
+          "word": "often",
+          "start": 532.28,
+          "end": 532.74
+        },
+        {
+          "word": "do",
+          "start": 532.74,
+          "end": 532.92
+        },
+        {
+          "word": "we",
+          "start": 532.92,
+          "end": 533.02
+        },
+        {
+          "word": "reach",
+          "start": 533.02,
+          "end": 533.3
+        },
+        {
+          "word": "our",
+          "start": 533.3,
+          "end": 533.44
+        },
+        {
+          "word": "goals",
+          "start": 533.44,
+          "end": 533.76
+        },
+        {
+          "word": "and",
+          "start": 533.76,
+          "end": 533.94
+        },
+        {
+          "word": "then",
+          "start": 533.94,
+          "end": 534.06
+        },
+        {
+          "word": "just",
+          "start": 534.06,
+          "end": 534.26
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 74,
+      "start": 534.26,
+      "end": 543.28,
+      "textEn": "Immediately move on? When we do this, the recollection of that success is diminished. How can we confidently move",
+      "textKo": "바로 다음으로 넘어가나요? 그렇게 하면 그 성공의 기억이 희미해져요. 자신감 있게 앞으로",
+      "words": [
+        {
+          "word": "immediately",
+          "start": 534.26,
+          "end": 534.84
+        },
+        {
+          "word": "move",
+          "start": 534.84,
+          "end": 535.24
+        },
+        {
+          "word": "on?",
+          "start": 535.24,
+          "end": 535.58
+        },
+        {
+          "word": "When",
+          "start": 535.82,
+          "end": 536.3
+        },
+        {
+          "word": "we",
+          "start": 536.3,
+          "end": 536.46
+        },
+        {
+          "word": "do",
+          "start": 536.46,
+          "end": 536.78
+        },
+        {
+          "word": "this,",
+          "start": 536.78,
+          "end": 537.2
+        },
+        {
+          "word": "the",
+          "start": 537.4,
+          "end": 537.56
+        },
+        {
+          "word": "recollection",
+          "start": 537.56,
+          "end": 538.12
+        },
+        {
+          "word": "of",
+          "start": 538.12,
+          "end": 538.44
+        },
+        {
+          "word": "that",
+          "start": 538.44,
+          "end": 538.62
+        },
+        {
+          "word": "success",
+          "start": 538.62,
+          "end": 539.06
+        },
+        {
+          "word": "is",
+          "start": 539.06,
+          "end": 539.5
+        },
+        {
+          "word": "diminished.",
+          "start": 539.5,
+          "end": 540.08
+        },
+        {
+          "word": "How",
+          "start": 540.4,
+          "end": 541.06
+        },
+        {
+          "word": "can",
+          "start": 541.06,
+          "end": 541.34
+        },
+        {
+          "word": "we",
+          "start": 541.34,
+          "end": 541.68
+        },
+        {
+          "word": "confidently",
+          "start": 541.68,
+          "end": 542.62
+        },
+        {
+          "word": "move",
+          "start": 542.62,
+          "end": 543.28
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 75,
+      "start": 543.28,
+      "end": 551.38,
+      "textEn": "Forward if we can't remember what we achieved or worse yet, link that accomplishment to stress? Find ways to",
+      "textKo": "나아가려면 우리가 무엇을 성취했는지 기억할 수 없다면, 혹은 더 나쁘게는 그 성취를 스트레스와 연결짓는다면 어떻게 하겠어요? 자신에게 의미 있는",
+      "words": [
+        {
+          "word": "forward",
+          "start": 543.28,
+          "end": 543.66
+        },
+        {
+          "word": "if",
+          "start": 543.66,
+          "end": 543.86
+        },
+        {
+          "word": "we",
+          "start": 543.86,
+          "end": 543.98
+        },
+        {
+          "word": "can't",
+          "start": 543.98,
+          "end": 544.32
+        },
+        {
+          "word": "remember",
+          "start": 544.32,
+          "end": 544.68
+        },
+        {
+          "word": "what",
+          "start": 544.68,
+          "end": 544.92
+        },
+        {
+          "word": "we",
+          "start": 544.92,
+          "end": 545.06
+        },
+        {
+          "word": "achieved",
+          "start": 545.06,
+          "end": 545.58
+        },
+        {
+          "word": "or",
+          "start": 545.58,
+          "end": 545.86
+        },
+        {
+          "word": "worse",
+          "start": 545.86,
+          "end": 546.18
+        },
+        {
+          "word": "yet,",
+          "start": 546.18,
+          "end": 546.5
+        },
+        {
+          "word": "link",
+          "start": 546.78,
+          "end": 547.16
+        },
+        {
+          "word": "that",
+          "start": 547.16,
+          "end": 547.38
+        },
+        {
+          "word": "accomplishment",
+          "start": 547.38,
+          "end": 547.96
+        },
+        {
+          "word": "to",
+          "start": 547.96,
+          "end": 548.3
+        },
+        {
+          "word": "stress?",
+          "start": 548.3,
+          "end": 548.74
+        },
+        {
+          "word": "Find",
+          "start": 549.66,
+          "end": 550.26
+        },
+        {
+          "word": "ways",
+          "start": 550.26,
+          "end": 550.9
+        },
+        {
+          "word": "to",
+          "start": 550.9,
+          "end": 551.38
+        }
+      ],
+      "listenDifficulty": 3
+    },
+    {
+      "index": 76,
+      "start": 551.38,
+      "end": 556.76,
+      "textEn": "Celebrate that are meaningful to you, like creating a highlight reel in your cell phone of your most proud",
+      "textKo": "축하 방법을 찾으세요. 예를 들어 휴대폰에 가장 자랑스러운 성취들의 하이라이트 릴을 만들거나,",
+      "words": [
+        {
+          "word": "celebrate",
+          "start": 551.38,
+          "end": 551.8
+        },
+        {
+          "word": "that",
+          "start": 551.8,
+          "end": 552.02
+        },
+        {
+          "word": "are",
+          "start": 552.02,
+          "end": 552.14
+        },
+        {
+          "word": "meaningful",
+          "start": 552.14,
+          "end": 552.56
+        },
+        {
+          "word": "to",
+          "start": 552.56,
+          "end": 552.84
+        },
+        {
+          "word": "you,",
+          "start": 552.84,
+          "end": 553.14
+        },
+        {
+          "word": "like",
+          "start": 553.3,
+          "end": 553.6
+        },
+        {
+          "word": "creating",
+          "start": 553.6,
+          "end": 553.9
+        },
+        {
+          "word": "a",
+          "start": 553.9,
+          "end": 554.04
+        },
+        {
+          "word": "highlight",
+          "start": 554.04,
+          "end": 554.38
+        },
+        {
+          "word": "reel",
+          "start": 554.38,
+          "end": 554.7
+        },
+        {
+          "word": "in",
+          "start": 554.7,
+          "end": 555.14
+        },
+        {
+          "word": "your",
+          "start": 555.14,
+          "end": 555.28
+        },
+        {
+          "word": "cell",
+          "start": 555.28,
+          "end": 555.5
+        },
+        {
+          "word": "phone",
+          "start": 555.5,
+          "end": 555.76
+        },
+        {
+          "word": "of",
+          "start": 555.76,
+          "end": 555.92
+        },
+        {
+          "word": "your",
+          "start": 555.92,
+          "end": 556.02
+        },
+        {
+          "word": "most",
+          "start": 556.02,
+          "end": 556.26
+        },
+        {
+          "word": "proud",
+          "start": 556.26,
+          "end": 556.76
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 77,
+      "start": 556.76,
+      "end": 563.0,
+      "textEn": "Accomplishments. Take your team out for celebratory drinks when you close the big deal. Buy yourself a",
+      "textKo": "큰 거래를 성사시켰을 때 팀과 축하 음료를 마시러 가세요.",
+      "words": [
+        {
+          "word": "accomplishments.",
+          "start": 556.76,
+          "end": 557.6
+        },
+        {
+          "word": "Take",
+          "start": 557.88,
+          "end": 558.48
+        },
+        {
+          "word": "your",
+          "start": 558.48,
+          "end": 558.66
+        },
+        {
+          "word": "team",
+          "start": 558.66,
+          "end": 558.98
+        },
+        {
+          "word": "out",
+          "start": 558.98,
+          "end": 559.2
+        },
+        {
+          "word": "for",
+          "start": 559.2,
+          "end": 559.38
+        },
+        {
+          "word": "celebratory",
+          "start": 559.38,
+          "end": 559.98
+        },
+        {
+          "word": "drinks",
+          "start": 559.98,
+          "end": 560.28
+        },
+        {
+          "word": "when",
+          "start": 560.28,
+          "end": 560.46
+        },
+        {
+          "word": "you",
+          "start": 560.46,
+          "end": 560.56
+        },
+        {
+          "word": "close",
+          "start": 560.56,
+          "end": 560.86
+        },
+        {
+          "word": "the",
+          "start": 560.86,
+          "end": 561.0
+        },
+        {
+          "word": "big",
+          "start": 561.0,
+          "end": 561.16
+        },
+        {
+          "word": "deal.",
+          "start": 561.16,
+          "end": 561.46
+        },
+        {
+          "word": "Buy",
+          "start": 561.94,
+          "end": 562.54
+        },
+        {
+          "word": "yourself",
+          "start": 562.54,
+          "end": 562.82
+        },
+        {
+          "word": "a",
+          "start": 562.82,
+          "end": 563.0
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 78,
+      "start": 563.0,
+      "end": 569.52,
+      "textEn": "Massage or maybe order a pizza when you reach your personal goals. It doesn't matter how you celebrate,",
+      "textKo": "개인 목표를 달성했을 때 마사지를 받거나 피자를 주문하세요. 어떻게 축하하느냐가 중요한 게 아니라,",
+      "words": [
+        {
+          "word": "massage",
+          "start": 563.0,
+          "end": 563.54
+        },
+        {
+          "word": "or",
+          "start": 563.54,
+          "end": 563.88
+        },
+        {
+          "word": "maybe",
+          "start": 563.88,
+          "end": 564.1
+        },
+        {
+          "word": "order",
+          "start": 564.1,
+          "end": 564.34
+        },
+        {
+          "word": "a",
+          "start": 564.34,
+          "end": 564.5
+        },
+        {
+          "word": "pizza",
+          "start": 564.5,
+          "end": 564.84
+        },
+        {
+          "word": "when",
+          "start": 564.84,
+          "end": 565.54
+        },
+        {
+          "word": "you",
+          "start": 565.54,
+          "end": 565.66
+        },
+        {
+          "word": "reach",
+          "start": 565.66,
+          "end": 565.86
+        },
+        {
+          "word": "your",
+          "start": 565.86,
+          "end": 566.0
+        },
+        {
+          "word": "personal",
+          "start": 566.0,
+          "end": 566.42
+        },
+        {
+          "word": "goals.",
+          "start": 566.42,
+          "end": 566.94
+        },
+        {
+          "word": "It",
+          "start": 567.04,
+          "end": 567.64
+        },
+        {
+          "word": "doesn't",
+          "start": 567.64,
+          "end": 568.08
+        },
+        {
+          "word": "matter",
+          "start": 568.08,
+          "end": 568.38
+        },
+        {
+          "word": "how",
+          "start": 568.38,
+          "end": 568.74
+        },
+        {
+          "word": "you",
+          "start": 568.74,
+          "end": 569.02
+        },
+        {
+          "word": "celebrate,",
+          "start": 569.02,
+          "end": 569.52
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 79,
+      "start": 569.52,
+      "end": 576.4,
+      "textEn": "It matters that you do. This will create a marker in your brain to rewire and reinforce the behaviors that",
+      "textKo": "축하한다는 것 자체가 중요해요. 이것은 뇌에 표시를 남겨 처음에 성공을 이끌었던 행동을 다시 강화하고",
+      "words": [
+        {
+          "word": "it",
+          "start": 569.52,
+          "end": 569.76
+        },
+        {
+          "word": "matters",
+          "start": 569.76,
+          "end": 570.22
+        },
+        {
+          "word": "that",
+          "start": 570.22,
+          "end": 570.48
+        },
+        {
+          "word": "you",
+          "start": 570.48,
+          "end": 570.72
+        },
+        {
+          "word": "do.",
+          "start": 570.72,
+          "end": 571.04
+        },
+        {
+          "word": "This",
+          "start": 571.32,
+          "end": 571.82
+        },
+        {
+          "word": "will",
+          "start": 571.82,
+          "end": 571.94
+        },
+        {
+          "word": "create",
+          "start": 571.94,
+          "end": 572.2
+        },
+        {
+          "word": "a",
+          "start": 572.2,
+          "end": 572.34
+        },
+        {
+          "word": "marker",
+          "start": 572.34,
+          "end": 572.62
+        },
+        {
+          "word": "in",
+          "start": 572.62,
+          "end": 572.88
+        },
+        {
+          "word": "your",
+          "start": 572.88,
+          "end": 573.04
+        },
+        {
+          "word": "brain",
+          "start": 573.04,
+          "end": 573.36
+        },
+        {
+          "word": "to",
+          "start": 573.36,
+          "end": 573.62
+        },
+        {
+          "word": "rewire",
+          "start": 573.62,
+          "end": 574.22
+        },
+        {
+          "word": "and",
+          "start": 574.22,
+          "end": 574.52
+        },
+        {
+          "word": "reinforce",
+          "start": 574.52,
+          "end": 575.12
+        },
+        {
+          "word": "the",
+          "start": 575.12,
+          "end": 575.68
+        },
+        {
+          "word": "behaviors",
+          "start": 575.68,
+          "end": 576.08
+        },
+        {
+          "word": "that",
+          "start": 576.08,
+          "end": 576.4
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 80,
+      "start": 576.4,
+      "end": 583.3,
+      "textEn": "Led to the success in the first place. I've come a long way from the girl who couldn't order a pizza",
+      "textKo": "재프로그래밍하게 해줘요. 저는 피자 주문도 못 하던 소녀에서",
+      "words": [
+        {
+          "word": "led",
+          "start": 576.4,
+          "end": 576.68
+        },
+        {
+          "word": "to",
+          "start": 576.68,
+          "end": 576.9
+        },
+        {
+          "word": "the",
+          "start": 576.9,
+          "end": 577.04
+        },
+        {
+          "word": "success",
+          "start": 577.04,
+          "end": 577.62
+        },
+        {
+          "word": "in",
+          "start": 577.62,
+          "end": 578.28
+        },
+        {
+          "word": "the",
+          "start": 578.28,
+          "end": 578.38
+        },
+        {
+          "word": "first",
+          "start": 578.38,
+          "end": 578.64
+        },
+        {
+          "word": "place.",
+          "start": 578.64,
+          "end": 579.0
+        },
+        {
+          "word": "I've",
+          "start": 579.64,
+          "end": 580.18
+        },
+        {
+          "word": "come",
+          "start": 580.18,
+          "end": 580.4
+        },
+        {
+          "word": "a",
+          "start": 580.4,
+          "end": 580.6
+        },
+        {
+          "word": "long",
+          "start": 580.6,
+          "end": 581.02
+        },
+        {
+          "word": "way",
+          "start": 581.02,
+          "end": 581.46
+        },
+        {
+          "word": "from",
+          "start": 581.46,
+          "end": 581.72
+        },
+        {
+          "word": "the",
+          "start": 581.72,
+          "end": 581.84
+        },
+        {
+          "word": "girl",
+          "start": 581.84,
+          "end": 582.04
+        },
+        {
+          "word": "who",
+          "start": 582.04,
+          "end": 582.22
+        },
+        {
+          "word": "couldn't",
+          "start": 582.22,
+          "end": 582.54
+        },
+        {
+          "word": "order",
+          "start": 582.54,
+          "end": 582.8
+        },
+        {
+          "word": "a",
+          "start": 582.8,
+          "end": 582.94
+        },
+        {
+          "word": "pizza",
+          "start": 582.94,
+          "end": 583.3
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 81,
+      "start": 583.3,
+      "end": 589.6,
+      "textEn": "To the woman who became GM of a minor league baseball team, started a podcast, and delivered a TEDx talk.",
+      "textKo": "마이너 리그 야구팀의 단장이 되고, 팟캐스트를 시작하고, TEDx 강연을 하는 여성이 되기까지 먼 길을 왔어요.",
+      "words": [
+        {
+          "word": "to",
+          "start": 583.3,
+          "end": 584.06
+        },
+        {
+          "word": "the",
+          "start": 584.06,
+          "end": 584.18
+        },
+        {
+          "word": "woman",
+          "start": 584.18,
+          "end": 584.38
+        },
+        {
+          "word": "who",
+          "start": 584.38,
+          "end": 584.54
+        },
+        {
+          "word": "became",
+          "start": 584.54,
+          "end": 584.88
+        },
+        {
+          "word": "GM",
+          "start": 584.88,
+          "end": 585.24
+        },
+        {
+          "word": "of",
+          "start": 585.24,
+          "end": 585.64
+        },
+        {
+          "word": "a",
+          "start": 585.64,
+          "end": 585.72
+        },
+        {
+          "word": "minor",
+          "start": 585.72,
+          "end": 585.92
+        },
+        {
+          "word": "league",
+          "start": 585.92,
+          "end": 586.08
+        },
+        {
+          "word": "baseball",
+          "start": 586.08,
+          "end": 586.46
+        },
+        {
+          "word": "team,",
+          "start": 586.46,
+          "end": 586.82
+        },
+        {
+          "word": "started",
+          "start": 587.3,
+          "end": 587.5
+        },
+        {
+          "word": "a",
+          "start": 587.5,
+          "end": 587.64
+        },
+        {
+          "word": "podcast,",
+          "start": 587.64,
+          "end": 588.02
+        },
+        {
+          "word": "and",
+          "start": 588.4,
+          "end": 588.46
+        },
+        {
+          "word": "delivered",
+          "start": 588.46,
+          "end": 588.78
+        },
+        {
+          "word": "a",
+          "start": 588.78,
+          "end": 588.92
+        },
+        {
+          "word": "TEDx",
+          "start": 588.92,
+          "end": 589.28
+        },
+        {
+          "word": "talk.",
+          "start": 589.28,
+          "end": 589.6
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 82,
+      "start": 590.08,
+      "end": 596.68,
+      "textEn": "All because I made the decision to become a more confident person. And I hope you do too,",
+      "textKo": "더 자신감 있는 사람이 되겠다는 결정을 했기 때문이에요. 여러분도 그러시길 바라요.",
+      "words": [
+        {
+          "word": "All",
+          "start": 590.08,
+          "end": 590.62
+        },
+        {
+          "word": "because",
+          "start": 590.62,
+          "end": 591.0
+        },
+        {
+          "word": "I",
+          "start": 591.0,
+          "end": 591.52
+        },
+        {
+          "word": "made",
+          "start": 591.52,
+          "end": 591.74
+        },
+        {
+          "word": "the",
+          "start": 591.74,
+          "end": 591.86
+        },
+        {
+          "word": "decision",
+          "start": 591.86,
+          "end": 592.22
+        },
+        {
+          "word": "to",
+          "start": 592.22,
+          "end": 592.74
+        },
+        {
+          "word": "become",
+          "start": 592.74,
+          "end": 593.0
+        },
+        {
+          "word": "a",
+          "start": 593.0,
+          "end": 593.22
+        },
+        {
+          "word": "more",
+          "start": 593.22,
+          "end": 593.6
+        },
+        {
+          "word": "confident",
+          "start": 593.6,
+          "end": 594.24
+        },
+        {
+          "word": "person.",
+          "start": 594.24,
+          "end": 594.7
+        },
+        {
+          "word": "And",
+          "start": 595.34,
+          "end": 595.88
+        },
+        {
+          "word": "I",
+          "start": 595.88,
+          "end": 595.96
+        },
+        {
+          "word": "hope",
+          "start": 595.96,
+          "end": 596.16
+        },
+        {
+          "word": "you",
+          "start": 596.16,
+          "end": 596.3
+        },
+        {
+          "word": "do",
+          "start": 596.3,
+          "end": 596.44
+        },
+        {
+          "word": "too,",
+          "start": 596.44,
+          "end": 596.68
+        }
+      ],
+      "listenDifficulty": 2
+    },
+    {
+      "index": 83,
+      "start": 596.68,
+      "end": 602.84,
+      "textEn": "Because how many runs could you score if you were 10 times more confident? Thank you.",
+      "textKo": "만약 10배 더 자신감이 있다면 얼마나 많은 점수를 낼 수 있을까요? 감사합니다.",
+      "words": [
+        {
+          "word": "because",
+          "start": 596.68,
+          "end": 597.56
+        },
+        {
+          "word": "how",
+          "start": 597.56,
+          "end": 597.82
+        },
+        {
+          "word": "many",
+          "start": 597.82,
+          "end": 597.98
+        },
+        {
+          "word": "runs",
+          "start": 597.98,
+          "end": 598.22
+        },
+        {
+          "word": "could",
+          "start": 598.22,
+          "end": 598.38
+        },
+        {
+          "word": "you",
+          "start": 598.38,
+          "end": 598.54
+        },
+        {
+          "word": "score",
+          "start": 598.54,
+          "end": 598.88
+        },
+        {
+          "word": "if",
+          "start": 598.88,
+          "end": 599.08
+        },
+        {
+          "word": "you",
+          "start": 599.08,
+          "end": 599.18
+        },
+        {
+          "word": "were",
+          "start": 599.18,
+          "end": 599.32
+        },
+        {
+          "word": "10",
+          "start": 599.32,
+          "end": 599.62
+        },
+        {
+          "word": "times",
+          "start": 599.62,
+          "end": 600.1
+        },
+        {
+          "word": "more",
+          "start": 600.1,
+          "end": 600.56
+        },
+        {
+          "word": "confident?",
+          "start": 600.56,
+          "end": 601.12
+        },
+        {
+          "word": "Thank",
+          "start": 602.08,
+          "end": 602.64
+        },
+        {
+          "word": "you.",
+          "start": 602.64,
+          "end": 602.84
+        }
+      ],
+      "listenDifficulty": 1
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+[
+  {
+    "pattern": "What + verb + object? (Wh- question)",
+    "explanation": "Wh- questions using 'what' at the beginning to ask about things, ideas, or situations. The auxiliary or main verb follows 'what' in interrogative word order.",
+    "explanationKo": "'what'으로 시작하는 의문문으로 사물, 개념, 상황에 대해 질문합니다. 'what' 뒤에 조동사나 본동사가 의문문 어순으로 따라옵니다.",
+    "examples": [
+      {
+        "sentence": "What keeps us healthy and happy as we go through life?",
+        "translation": "삶을 살아가면서 우리를 건강하고 행복하게 유지하는 것은 무엇일까요?"
+      },
+      {
+        "sentence": "What are the lessons that come from the tens of thousands of pages of information?",
+        "translation": "수만 페이지의 정보에서 나온 교훈은 무엇일까요?"
+      },
+      {
+        "sentence": "What might leaning into relationships even look like?",
+        "translation": "관계에 기대어 간다는 것은 어떤 모습일까요?"
+      }
+    ],
+    "examplesKo": [
+      "삶을 살아가면서 우리를 건강하고 행복하게 유지하는 것은 무엇일까요?",
+      "수만 페이지의 정보에서 나온 교훈은 무엇일까요?",
+      "관계에 기대어 간다는 것은 어떤 모습일까요?"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "If + past subjunctive, would + verb (Second conditional)",
+    "explanation": "The second conditional expresses hypothetical or unlikely situations in the present or future. It uses 'if' + past tense (subjunctive) in the condition clause and 'would' + base verb in the result clause.",
+    "explanationKo": "가정법 과거로 현재 또는 미래의 가상적이거나 비현실적인 상황을 표현합니다. 조건절에 'if + 과거시제'를, 결과절에 'would + 동사원형'을 사용합니다.",
+    "examples": [
+      {
+        "sentence": "If you were going to invest now in your future best self, where would you put your time and your energy?",
+        "translation": "만약 지금 미래의 최고의 자신에게 투자한다면, 시간과 에너지를 어디에 쏟으시겠습니까?"
+      }
+    ],
+    "examplesKo": [
+      "만약 지금 미래의 최고의 자신에게 투자한다면, 시간과 에너지를 어디에 쏟으시겠습니까?"
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "What if + subject + could + verb? (Hypothetical question)",
+    "explanation": "This pattern uses 'what if' to propose a hypothetical scenario, often combined with 'could' to suggest possibility. It is a powerful rhetorical device that invites the audience to imagine an alternative reality.",
+    "explanationKo": "'what if'로 가상의 시나리오를 제안하며, 'could'와 함께 사용해 가능성을 나타냅니다. 청중이 대안적 현실을 상상하도록 초대하는 표현입니다.",
+    "examples": [
+      {
+        "sentence": "But what if we could watch entire lives as they unfold through time?",
+        "translation": "하지만 시간이 흐르면서 펼쳐지는 전체 삶을 지켜볼 수 있다면 어떨까요?"
+      },
+      {
+        "sentence": "What if we could study people from the time that they were teenagers all the way into old age?",
+        "translation": "십대 시절부터 노년까지 사람들을 연구할 수 있다면 어떨까요?"
+      }
+    ],
+    "examplesKo": [
+      "하지만 시간이 흐르면서 펼쳐지는 전체 삶을 지켜볼 수 있다면 어떨까요?",
+      "십대 시절부터 노년까지 사람들을 연구할 수 있다면 어떨까요?"
+    ],
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "Present perfect continuous: have/has + been + -ing",
+    "explanation": "The present perfect continuous tense describes actions that started in the past and continue to the present, or recently completed actions with present relevance. It emphasizes the duration or ongoing nature of the activity.",
+    "explanationKo": "현재완료 진행형은 과거에 시작되어 현재까지 계속되는 동작이나 최근 완료된 동작을 설명합니다. 활동의 지속 기간이나 진행 중인 성격을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "For 75 years, we've tracked the lives of 724 men.",
+        "translation": "75년 동안 우리는 724명의 남성들의 삶을 추적해 왔습니다."
+      },
+      {
+        "sentence": "Since 1938, we've tracked the lives of two groups of men.",
+        "translation": "1938년부터 우리는 두 그룹의 남성들의 삶을 추적해 왔습니다."
+      }
+    ],
+    "examplesKo": [
+      "75년 동안 우리는 724명의 남성들의 삶을 추적해 왔습니다.",
+      "1938년부터 우리는 두 그룹의 남성들의 삶을 추적해 왔습니다."
+    ],
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "Passive voice: subject + was/were + past participle",
+    "explanation": "The passive voice shifts focus from the doer to the receiver of the action. It is formed with a form of 'be' + past participle. Useful when the agent is unknown, unimportant, or when emphasizing the action itself.",
+    "explanationKo": "수동태는 행위자에서 행위의 대상으로 초점을 전환합니다. 'be동사 + 과거분사'로 형성됩니다. 행위자가 불명확하거나 중요하지 않을 때, 또는 행위 자체를 강조할 때 유용합니다.",
+    "examples": [
+      {
+        "sentence": "All of these teenagers were interviewed.",
+        "translation": "이 모든 십대들은 면담을 받았습니다."
+      },
+      {
+        "sentence": "They were given medical exams.",
+        "translation": "그들은 건강 검진을 받았습니다."
+      },
+      {
+        "sentence": "Boys who were chosen for the study specifically.",
+        "translation": "특별히 이 연구를 위해 선발된 소년들."
+      }
+    ],
+    "examplesKo": [
+      "이 모든 십대들은 면담을 받았습니다.",
+      "그들은 건강 검진을 받았습니다.",
+      "특별히 이 연구를 위해 선발된 소년들."
+    ],
+    "segmentIndex": 49
+  },
+  {
+    "pattern": "Would + never + have + past participle (Past hypothetical negation)",
+    "explanation": "This structure expresses something that was considered impossible or unimaginable in the past. 'Would never have + past participle' conveys strong disbelief about a hypothetical past scenario from a past perspective.",
+    "explanationKo": "과거에 불가능하거나 상상할 수 없었던 일을 표현합니다. 'would never have + 과거분사'는 과거 시점에서 가상적 과거 상황에 대한 강한 불신을 전달합니다.",
+    "examples": [
+      {
+        "sentence": "The founders of this study would never in their wildest dreams have imagined that I would be standing here today.",
+        "translation": "이 연구의 설립자들은 꿈에도 제가 오늘 여기 서 있을 것이라고 상상하지 못했을 것입니다."
+      }
+    ],
+    "examplesKo": [
+      "이 연구의 설립자들은 꿈에도 제가 오늘 여기 서 있을 것이라고 상상하지 못했을 것입니다."
+    ],
+    "segmentIndex": 58
+  },
+  {
+    "pattern": "It turns out (that) + clause (Presenting findings)",
+    "explanation": "'It turns out (that)' introduces a fact or finding that may be surprising or contrary to expectations. It is commonly used in both formal and informal speech to reveal discoveries or results.",
+    "explanationKo": "'It turns out (that)'은 놀랍거나 기대에 반하는 사실이나 발견을 소개합니다. 공식적, 비공식적 연설에서 발견이나 결과를 밝힐 때 흔히 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "It turns out that people who are more socially connected to family, to friends, to community are happier.",
+        "translation": "가족, 친구, 공동체와 더 사회적으로 연결된 사람들이 더 행복하다는 것이 밝혀졌습니다."
+      },
+      {
+        "sentence": "It turns out that living in the midst of conflict is really bad for our health.",
+        "translation": "갈등의 한가운데서 사는 것이 건강에 정말 해롭다는 것이 밝혀졌습니다."
+      },
+      {
+        "sentence": "It turns out that being in a securely attached relationship to another person in your 80s is protective.",
+        "translation": "80대에 다른 사람과 안정적으로 애착된 관계에 있는 것이 보호적이라는 것이 밝혀졌습니다."
+      }
+    ],
+    "examplesKo": [
+      "가족, 친구, 공동체와 더 사회적으로 연결된 사람들이 더 행복하다는 것이 밝혀졌습니다.",
+      "갈등의 한가운데서 사는 것이 건강에 정말 해롭다는 것이 밝혀졌습니다.",
+      "80대에 다른 사람과 안정적으로 애착된 관계에 있는 것이 보호적이라는 것이 밝혀졌습니다."
+    ],
+    "segmentIndex": 87
+  },
+  {
+    "pattern": "Comparative adjective + than + noun/clause",
+    "explanation": "Comparative structures using '-er than' or 'more ... than' to compare two things. This pattern is fundamental for expressing differences between groups or situations.",
+    "explanationKo": "'-er than' 또는 'more ... than'을 사용하여 두 가지를 비교하는 구조입니다. 집단이나 상황 사이의 차이를 표현하는 데 기본적인 패턴입니다.",
+    "examples": [
+      {
+        "sentence": "And they live longer than people who are less well connected.",
+        "translation": "사회적 유대가 적은 사람들보다 더 오래 삽니다."
+      },
+      {
+        "sentence": "People who are more isolated than they want to be from others find that they are less happy.",
+        "translation": "원하는 것보다 더 고립된 사람들은 덜 행복하다는 것을 발견합니다."
+      },
+      {
+        "sentence": "Perhaps worse than getting divorced.",
+        "translation": "이혼하는 것보다 더 나쁠 수도 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "사회적 유대가 적은 사람들보다 더 오래 삽니다.",
+      "원하는 것보다 더 고립된 사람들은 덜 행복하다는 것을 발견합니다.",
+      "이혼하는 것보다 더 나쁠 수도 있습니다."
+    ],
+    "segmentIndex": 90
+  },
+  {
+    "pattern": "It's not X, but Y that matters (Cleft sentence for emphasis)",
+    "explanation": "A cleft sentence structure that first negates one factor (X), then highlights the actual important factor (Y) using 'but ... that'. This creates emphasis by contrasting what is NOT important with what IS.",
+    "explanationKo": "먼저 한 요소(X)를 부정한 후, 'but ... that'을 사용해 실제 중요한 요소(Y)를 강조하는 분열문 구조입니다. 중요하지 않은 것과 중요한 것을 대비시켜 강조합니다.",
+    "examples": [
+      {
+        "sentence": "It's not just the number of friends you have, and it's not whether or not you're in a committed relationship, but it's the quality of your close relationships that matters.",
+        "translation": "단지 친구의 수가 아니며, 헌신적인 관계에 있는지 여부도 아니라, 중요한 것은 가까운 관계의 질입니다."
+      },
+      {
+        "sentence": "It wasn't their middle-aged cholesterol levels that predicted how they were going to grow old.",
+        "translation": "어떻게 늙어갈지를 예측한 것은 중년 콜레스테롤 수치가 아니었습니다."
+      }
+    ],
+    "examplesKo": [
+      "단지 친구의 수가 아니며, 헌신적인 관계에 있는지 여부도 아니라, 중요한 것은 가까운 관계의 질입니다.",
+      "어떻게 늙어갈지를 예측한 것은 중년 콜레스테롤 수치가 아니었습니다."
+    ],
+    "segmentIndex": 101
+  },
+  {
+    "pattern": "As long as + clause (Conditional: necessary condition)",
+    "explanation": "'As long as' introduces a condition that must be met for the main clause to be true. It means 'provided that' or 'on the condition that'. It emphasizes that the condition is sufficient.",
+    "explanationKo": "'as long as'는 주절이 참이 되기 위해 충족되어야 할 조건을 소개합니다. 'provided that' 또는 '~하는 한'이라는 의미로, 그 조건이 충분조건임을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "But as long as they felt that they could really count on the other when the going got tough, those arguments didn't take a toll on their memories.",
+        "translation": "하지만 어려울 때 상대방에게 정말로 의지할 수 있다고 느끼기만 하면, 그 다툼들은 기억력에 타격을 주지 않았습니다."
+      }
+    ],
+    "examplesKo": [
+      "하지만 어려울 때 상대방에게 정말로 의지할 수 있다고 느끼기만 하면, 그 다툼들은 기억력에 타격을 주지 않았습니다."
+    ],
+    "segmentIndex": 138
+  },
+  {
+    "pattern": "Relative clause with 'where' (Describing situations/places)",
+    "explanation": "Relative clauses beginning with 'where' describe a place or situation in which something happens. 'Where' can refer to physical locations or abstract situations/relationships.",
+    "explanationKo": "'where'로 시작하는 관계절은 무언가가 일어나는 장소나 상황을 설명합니다. 'where'는 물리적 장소뿐만 아니라 추상적인 상황이나 관계도 지칭할 수 있습니다.",
+    "examples": [
+      {
+        "sentence": "The people in relationships where they feel they really can't count on the other one, those are the people who experience earlier memory decline.",
+        "translation": "상대방에게 정말로 의지할 수 없다고 느끼는 관계에 있는 사람들이 더 일찍 기억력 쇠퇴를 경험합니다."
+      },
+      {
+        "sentence": "The people who are in relationships where they really feel they can count on the other person in times of need.",
+        "translation": "필요할 때 상대방에게 정말로 의지할 수 있다고 느끼는 관계에 있는 사람들."
+      }
+    ],
+    "examplesKo": [
+      "상대방에게 정말로 의지할 수 없다고 느끼는 관계에 있는 사람들이 더 일찍 기억력 쇠퇴를 경험합니다.",
+      "필요할 때 상대방에게 정말로 의지할 수 있다고 느끼는 관계에 있는 사람들."
+    ],
+    "segmentIndex": 132
+  },
+  {
+    "pattern": "It might be + noun phrase (Expressing possibility)",
+    "explanation": "'It might be' expresses possibility or a suggestion without certainty. 'Might' is a modal verb indicating a lower degree of probability than 'may' or 'could', making it suitable for gentle suggestions.",
+    "explanationKo": "'It might be'는 확실하지 않은 가능성이나 제안을 표현합니다. 'might'는 'may'나 'could'보다 낮은 확률을 나타내는 조동사로, 부드러운 제안에 적합합니다.",
+    "examples": [
+      {
+        "sentence": "It might be something as simple as replacing screen time with people time.",
+        "translation": "화면 시간을 사람과의 시간으로 바꾸는 것처럼 간단한 것일 수도 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "화면 시간을 사람과의 시간으로 바꾸는 것처럼 간단한 것일 수도 있습니다."
+    ],
+    "segmentIndex": 164
+  },
+  {
+    "pattern": "Relative clause with 'who' (Defining people)",
+    "explanation": "Defining relative clauses with 'who' specify which people are being referred to. These clauses restrict the meaning of the noun they modify and are essential to the sentence's meaning.",
+    "explanationKo": "'who'를 사용한 한정 관계절은 어떤 사람을 가리키는지 구체적으로 명시합니다. 이 절은 수식하는 명사의 의미를 한정하며 문장의 의미에 필수적입니다.",
+    "examples": [
+      {
+        "sentence": "The people who were the most satisfied in their relationships at age 50 were the healthiest at age 80.",
+        "translation": "50세에 관계에서 가장 만족한 사람들이 80세에 가장 건강했습니다."
+      },
+      {
+        "sentence": "The people who fared the best were the people who leaned into relationships.",
+        "translation": "가장 잘 지낸 사람들은 관계에 기대어 간 사람들이었습니다."
+      },
+      {
+        "sentence": "The people who hold the grudges.",
+        "translation": "원한을 품고 있는 사람들."
+      }
+    ],
+    "examplesKo": [
+      "50세에 관계에서 가장 만족한 사람들이 80세에 가장 건강했습니다.",
+      "가장 잘 지낸 사람들은 관계에 기대어 간 사람들이었습니다.",
+      "원한을 품고 있는 사람들."
+    ],
+    "segmentIndex": 116
+  }
+]

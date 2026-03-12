@@ -1,0 +1,208 @@
+[
+  {
+    "pattern": "Superlative Adjectives",
+    "explanation": "The superlative form (the + adjective-est / the most + adjective) is used to express the highest degree of a quality among a group. Short adjectives add '-est', while longer adjectives use 'most'.",
+    "explanationKo": "최상급 형용사(the + 형용사-est / the most + 형용사)는 그룹 내에서 가장 높은 정도의 성질을 표현할 때 사용합니다. 짧은 형용사는 '-est'를, 긴 형용사는 'most'를 붙입니다.",
+    "examples": [
+      "The wisest person I ever met in my life.",
+      "We're not the smartest ones in our family.",
+      "I married the most beautiful woman I'd ever seen in my life.",
+      "This woman was the finest woman I'd ever seen in my life."
+    ],
+    "examplesKo": [
+      "제 인생에서 만난 가장 현명한 사람.",
+      "저희가 가족 중에 가장 똑똑한 건 아닙니다.",
+      "제 인생에서 본 가장 아름다운 여성과 결혼했습니다.",
+      "이 여성은 제 인생에서 본 가장 아름다운 분이었습니다."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Past Perfect (had + past participle)",
+    "explanation": "The past perfect tense (had + past participle) describes an action completed before another past action. It establishes a clear sequence of events in the past.",
+    "explanationKo": "과거완료 시제(had + 과거분사)는 과거의 다른 행동보다 먼저 완료된 행동을 묘사합니다. 과거의 사건 순서를 명확히 합니다.",
+    "examples": [
+      "I'd never seen my dad cry.",
+      "The blind side hadn't come out yet.",
+      "I married the most beautiful woman I'd ever seen in my life."
+    ],
+    "examplesKo": [
+      "아버지가 우시는 걸 본 적이 없었어요.",
+      "블라인드 사이드 영화도 아직 안 나왔을 때였어요.",
+      "제 인생에서 본 가장 아름다운 여성과 결혼했습니다."
+    ],
+    "segmentIndex": 134
+  },
+  {
+    "pattern": "Conditional with 'would' (Hypothetical Past)",
+    "explanation": "'Would + base verb' expresses hypothetical situations or past habits. 'Would have + past participle' expresses unreal past conditions (third conditional).",
+    "explanationKo": "'would + 동사원형'은 가정적 상황이나 과거 습관을 표현합니다. 'would have + 과거분사'는 실현되지 않은 과거 조건(3차 조건문)을 표현합니다.",
+    "examples": [
+      "Back in my day, we would have called her a brick house.",
+      "There would have been no reason for which to go on.",
+      "I wouldn't be standing here today."
+    ],
+    "examplesKo": [
+      "우리 시절에는 그런 여성을 '벽돌집'이라고 불렀을 거예요.",
+      "계속할 이유가 없었을 겁니다.",
+      "오늘 여기 서 있지 못했을 겁니다."
+    ],
+    "segmentIndex": 86
+  },
+  {
+    "pattern": "'Be going to' for Future Plans/Intentions",
+    "explanation": "'Be going to + base verb' expresses future plans, intentions, or strong predictions. It implies a pre-decided course of action.",
+    "explanationKo": "'be going to + 동사원형'은 미래 계획, 의도, 또는 강한 예측을 표현합니다. 미리 정해진 행동 방침을 암시합니다.",
+    "examples": [
+      "My father decided he was going to stand and be a man.",
+      "But I'm going to have a real issue if you aim low and hit.",
+      "If you're going to do something, you do it the right way."
+    ],
+    "examplesKo": [
+      "아버지는 당당히 서서 한 사람의 인간이 되겠다고 결심하셨습니다.",
+      "낮게 겨냥해서 맞추면 정말 문제가 될 거다.",
+      "무언가를 할 거라면, 제대로 하세요."
+    ],
+    "segmentIndex": 20
+  },
+  {
+    "pattern": "Comparative Structures (comparative adjective + than)",
+    "explanation": "Comparatives (adjective + -er / more + adjective + than) compare two things. Can be used in 'would rather... than' to express preference.",
+    "explanationKo": "비교급(형용사 + -er / more + 형용사 + than)은 두 가지를 비교합니다. 'would rather... than'으로 선호도를 표현할 수도 있습니다.",
+    "examples": [
+      "Son, you'd rather be an hour early than a minute late.",
+      "Make sure your servant's towel is bigger than your ego.",
+      "Good enough isn't good enough if it can be better."
+    ],
+    "examplesKo": [
+      "아들아, 1분 늦는 것보다 1시간 일찍 가는 게 낫다.",
+      "네 섬김의 수건이 네 자존심보다 크게 해라.",
+      "더 나아질 수 있다면, 그냥 괜찮은 건 충분하지 않습니다."
+    ],
+    "segmentIndex": 33
+  },
+  {
+    "pattern": "Conditional 'if' Clauses (Mixed Types)",
+    "explanation": "Conditional sentences with 'if' express conditions and their results. Zero conditional (if + present, present) for general truths; second conditional (if + past, would) for unreal present; third conditional (if + past perfect, would have) for unreal past.",
+    "explanationKo": "조건문 'if'는 조건과 결과를 표현합니다. 영조건(if + 현재, 현재)은 일반적 진리, 2차 조건(if + 과거, would)은 비현실적 현재, 3차 조건(if + 과거완료, would have)은 비현실적 과거를 나타냅니다.",
+    "examples": [
+      "If you think you can or if you think you can't, you're right.",
+      "If it wasn't for my faith in God, I wouldn't be standing here today.",
+      "Good enough isn't good enough if it can be better."
+    ],
+    "examplesKo": [
+      "할 수 있다고 생각하든 할 수 없다고 생각하든, 당신이 옳다.",
+      "하나님에 대한 믿음이 아니었다면, 오늘 여기 서 있지 못했을 겁니다.",
+      "더 나아질 수 있다면, 그냥 괜찮은 건 충분하지 않습니다."
+    ],
+    "segmentIndex": 30
+  },
+  {
+    "pattern": "Relative Clauses (who/that/which)",
+    "explanation": "Relative clauses provide additional information about a noun using relative pronouns (who, that, which). They can be defining (essential) or non-defining (extra information).",
+    "explanationKo": "관계절은 관계대명사(who, that, which)를 사용하여 명사에 대한 추가 정보를 제공합니다. 제한적(필수) 또는 비제한적(추가 정보) 관계절이 있습니다.",
+    "examples": [
+      "A third grade dropout daddy who was quoting Michelangelo.",
+      "A person that gets up off the canvas and keeps growing, that's the person that will continue to grow their influence.",
+      "Who have gone before you, who have invested in you."
+    ],
+    "examplesKo": [
+      "미켈란젤로를 인용하시던 초등학교 3학년 중퇴 아버지.",
+      "캔버스에서 일어나서 계속 성장하는 사람, 그런 사람이 계속 영향력을 키워갈 사람입니다.",
+      "여러분보다 앞서 가신 분들, 여러분에게 투자해 주신 분들."
+    ],
+    "segmentIndex": 26
+  },
+  {
+    "pattern": "Double Negation (Non-Standard English)",
+    "explanation": "In informal/colloquial English, double negatives are used for emphasis rather than creating a positive meaning. This is common in African American Vernacular English (AAVE). Standard English uses single negation.",
+    "explanationKo": "비격식/구어체 영어에서 이중 부정은 긍정 의미가 아닌 강조를 위해 사용됩니다. 이는 아프리카계 미국인 영어(AAVE)에서 흔합니다. 표준 영어에서는 단일 부정을 사용합니다.",
+    "examples": [
+      "Ain't nothing fun about it.",
+      "If mama ain't happy, ain't nobody happy.",
+      "If daddy ain't happy, don't nobody care."
+    ],
+    "examplesKo": [
+      "재미있는 건 하나도 없잖아요.",
+      "엄마가 행복하지 않으면 아무도 행복하지 않다.",
+      "아빠가 행복하지 않으면 아무도 신경 안 쓴다."
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Imperative Mood (Commands and Instructions)",
+    "explanation": "Imperatives use the base form of the verb without a subject to give commands, advice, or instructions. Negative imperatives use 'don't' or 'never' + base verb.",
+    "explanationKo": "명령법은 주어 없이 동사 원형을 사용하여 명령, 조언, 또는 지시를 합니다. 부정 명령은 'don't' 또는 'never' + 동사 원형을 사용합니다.",
+    "examples": [
+      "Don't ever forget that.",
+      "Never embarrass mama.",
+      "Find your broom.",
+      "Do it right."
+    ],
+    "examplesKo": [
+      "절대 잊지 마라.",
+      "엄마를 부끄럽게 하지 마라.",
+      "당신의 빗자루를 찾으세요.",
+      "제대로 해라."
+    ],
+    "segmentIndex": 40
+  },
+  {
+    "pattern": "Past Simple for Narrative Storytelling",
+    "explanation": "The past simple tense is used extensively in narrative storytelling to describe completed events in chronological order, creating a vivid sequence of past actions.",
+    "explanationKo": "과거 단순 시제는 서사적 스토리텔링에서 완료된 사건을 시간 순서대로 묘사하는 데 광범위하게 사용되며, 생생한 과거 행동의 연속을 만듭니다.",
+    "examples": [
+      "My father taught himself how to read, taught himself how to write.",
+      "We walked to Baskin and Robbins ice cream parlor.",
+      "Trina finds a lump in her left breast."
+    ],
+    "examplesKo": [
+      "아버지는 독학으로 읽는 법을 배우셨고, 쓰는 법도 독학하셨습니다.",
+      "배스킨라빈스 아이스크림 가게로 걸어갔습니다.",
+      "트리나가 왼쪽 가슴에서 혹을 발견했습니다."
+    ],
+    "segmentIndex": 18
+  },
+  {
+    "pattern": "'Used to' for Past Habits",
+    "explanation": "'Used to + base verb' describes habits or states that existed in the past but no longer exist now. It emphasizes the contrast between past and present.",
+    "explanationKo": "'used to + 동사원형'은 과거에 존재했지만 현재는 더 이상 존재하지 않는 습관이나 상태를 묘사합니다. 과거와 현재의 대비를 강조합니다.",
+    "examples": [
+      "I used to say like country music, but I've lived in Texas so long."
+    ],
+    "examplesKo": [
+      "예전에는 컨트리 음악도 모순이라고 했는데, 텍사스에 너무 오래 살았거든요."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "'No matter' + wh-clause (Concessive Clauses)",
+    "explanation": "'No matter + how/what/who' introduces concessive clauses that express something is true regardless of circumstances. Equivalent to 'regardless of' or 'however'.",
+    "explanationKo": "'No matter + how/what/who'는 상황에 관계없이 무언가가 사실임을 표현하는 양보절을 이끕니다. 'regardless of' 또는 'however'와 동등합니다.",
+    "examples": [
+      "No matter how rough the sea, you keep standing.",
+      "No matter what, you don't give up."
+    ],
+    "examplesKo": [
+      "바다가 아무리 거칠어도 계속 서 있어라.",
+      "무슨 일이 있어도 포기하지 마라."
+    ],
+    "segmentIndex": 144
+  },
+  {
+    "pattern": "Present Perfect for Life Experience",
+    "explanation": "The present perfect (have/has + past participle) connects past experience to the present. Often used with 'ever', 'never', 'always' to talk about life experiences up to now.",
+    "explanationKo": "현재완료(have/has + 과거분사)는 과거 경험을 현재와 연결합니다. 'ever', 'never', 'always'와 함께 현재까지의 인생 경험을 이야기할 때 자주 사용됩니다.",
+    "examples": [
+      "I've always been told how average I can be.",
+      "I've never allowed my schooling to get in the way of my education.",
+      "I've lived in Texas so long."
+    ],
+    "examplesKo": [
+      "저는 항상 제가 얼마나 평범한지 들어왔습니다.",
+      "학교 교육이 내 배움을 방해하도록 둔 적이 없다.",
+      "텍사스에 너무 오래 살았거든요."
+    ],
+    "segmentIndex": 63
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "pattern": "present perfect: have/has + past participle",
+    "explanation": "Used to describe actions completed at an unspecified time before now, or experiences up to the present. Connects past actions to the present moment.",
+    "explanationKo": "현재까지의 경험이나 과거의 불특정 시점에 완료된 행동을 나타냅니다. 과거의 행동이 현재와 연결됨을 표현합니다.",
+    "examples": [
+      {
+        "sentence": "I've assembled for your pleasure here seven deadly sins of speaking.",
+        "translation": "여러분을 위해 말하기의 7가지 대죄를 모아봤습니다."
+      },
+      {
+        "sentence": "We've all met this guy.",
+        "translation": "우리 모두 이런 사람을 만나본 적이 있습니다."
+      },
+      {
+        "sentence": "I have talked about that on this stage in different phases.",
+        "translation": "저는 이 무대에서 여러 차례에 걸쳐 이에 대해 이야기했습니다."
+      }
+    ],
+    "examplesKo": [
+      "여러분을 위해 말하기의 7가지 대죄를 모아봤습니다.",
+      "우리 모두 이런 사람을 만나본 적이 있습니다.",
+      "저는 이 무대에서 여러 차례에 걸쳐 이에 대해 이야기했습니다."
+    ],
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "can + base verb (ability/possibility)",
+    "explanation": "Expresses the ability or possibility of performing an action. Used to describe what is possible or within someone's capability.",
+    "explanationKo": "행동을 수행할 수 있는 능력이나 가능성을 표현합니다. 가능한 것이나 능력 범위 안의 것을 설명할 때 사용합니다.",
+    "examples": [
+      {
+        "sentence": "It's the only one that can start a war or say, I love you.",
+        "translation": "전쟁을 시작할 수도 있고, '사랑해'라고 말할 수도 있는 유일한 것입니다."
+      },
+      {
+        "sentence": "How can we speak powerfully to make change in the world?",
+        "translation": "어떻게 하면 세상을 변화시킬 만큼 강력하게 말할 수 있을까요?"
+      },
+      {
+        "sentence": "I'm not even sure you can do those two things simultaneously.",
+        "translation": "그 두 가지를 동시에 할 수 있는지도 확신이 없습니다."
+      }
+    ],
+    "examplesKo": [
+      "전쟁을 시작할 수도 있고, '사랑해'라고 말할 수도 있는 유일한 것입니다.",
+      "어떻게 하면 세상을 변화시킬 만큼 강력하게 말할 수 있을까요?",
+      "그 두 가지를 동시에 할 수 있는지도 확신이 없습니다."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "conditional: if + present simple, present simple / imperative",
+    "explanation": "Zero conditional or general truth conditional. Used to express a result that always happens when a certain condition is met, or to give instructions based on a condition.",
+    "explanationKo": "영조건문 또는 일반적 사실 조건문입니다. 특정 조건이 충족될 때 항상 일어나는 결과를 표현하거나, 조건에 따른 지시를 할 때 사용합니다.",
+    "examples": [
+      {
+        "sentence": "If I see something that really is awesome, what do I call it?",
+        "translation": "정말로 경이로운 것을 보면, 그걸 뭐라고 부를까요?"
+      },
+      {
+        "sentence": "If you're really wishing somebody well, it's very hard to judge them at the same time.",
+        "translation": "정말로 누군가의 안녕을 바란다면, 동시에 그 사람을 판단하기는 매우 어렵습니다."
+      },
+      {
+        "sentence": "If it's really important, you owe it to yourself to look at this toolbox.",
+        "translation": "정말 중요한 일이라면, 이 도구 상자를 살펴볼 의무가 자신에게 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "정말로 경이로운 것을 보면, 그걸 뭐라고 부를까요?",
+      "정말로 누군가의 안녕을 바란다면, 동시에 그 사람을 판단하기는 매우 어렵습니다.",
+      "정말 중요한 일이라면, 이 도구 상자를 살펴볼 의무가 자신에게 있습니다."
+    ],
+    "segmentIndex": 32
+  },
+  {
+    "pattern": "subjunctive conditional: What would + subject + be like if + past progressive?",
+    "explanation": "Second conditional used to imagine hypothetical situations. Describes imagined or unreal present/future scenarios and their likely results.",
+    "explanationKo": "가정법 과거(2조건문)로 가상의 상황을 상상할 때 사용합니다. 현재/미래의 비현실적 상황과 그 결과를 묘사합니다.",
+    "examples": [
+      {
+        "sentence": "What would the world be like if we were speaking powerfully to people who are listening consciously?",
+        "translation": "의식적으로 듣고 있는 사람들에게 강력하게 말하고 있다면 세상은 어떨까요?"
+      },
+      {
+        "sentence": "What would the world be like if we were creating sound consciously and consuming sound consciously?",
+        "translation": "의식적으로 소리를 만들고, 의식적으로 소리를 소비한다면 세상은 어떨까요?"
+      }
+    ],
+    "examplesKo": [
+      "의식적으로 듣고 있는 사람들에게 강력하게 말하고 있다면 세상은 어떨까요?",
+      "의식적으로 소리를 만들고, 의식적으로 소리를 소비한다면 세상은 어떨까요?"
+    ],
+    "segmentIndex": 126
+  },
+  {
+    "pattern": "passive voice: be + past participle",
+    "explanation": "Used when the focus is on the action or the receiver of the action rather than the doer. Changes the sentence emphasis from who does something to what is done.",
+    "explanationKo": "행위자보다 행동 자체나 행동의 대상에 초점을 맞출 때 사용합니다. 누가 했는지가 아니라 무엇이 되었는지에 강조점을 둡니다.",
+    "examples": [
+      {
+        "sentence": "You know that you're being judged and found wanting at the same time.",
+        "translation": "동시에 판단받고 부족하다는 평가를 받고 있다는 걸 알면."
+      },
+      {
+        "sentence": "How our words will be received if we stand on these four things.",
+        "translation": "이 네 가지 위에 서 있다면 우리의 말이 이렇게 받아들여질 것입니다."
+      }
+    ],
+    "examplesKo": [
+      "동시에 판단받고 부족하다는 평가를 받고 있다는 걸 알면.",
+      "이 네 가지 위에 서 있다면 우리의 말이 이렇게 받아들여질 것입니다."
+    ],
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "gerund (-ing) as subject",
+    "explanation": "Using the -ing form of a verb as the subject of a sentence. This turns an action into a noun phrase that can function as the topic of discussion.",
+    "explanationKo": "동사의 -ing 형태를 문장의 주어로 사용하는 것입니다. 행동을 명사구로 변환하여 논의의 주제로 삼습니다.",
+    "examples": [
+      {
+        "sentence": "Speaking ill of somebody who's not present.",
+        "translation": "자리에 없는 사람을 나쁘게 말하는 것."
+      },
+      {
+        "sentence": "Imposing your sound on people around you carelessly and inconsiderately.",
+        "translation": "주변 사람들에게 부주의하고 무신경하게 소리를 강요하는 것."
+      },
+      {
+        "sentence": "Being true in what you say, being straight and clear.",
+        "translation": "말하는 것에 진실되고, 솔직하고 명확한 것."
+      }
+    ],
+    "examplesKo": [
+      "자리에 없는 사람을 나쁘게 말하는 것.",
+      "주변 사람들에게 부주의하고 무신경하게 소리를 강요하는 것.",
+      "말하는 것에 진실되고, 솔직하고 명확한 것."
+    ],
+    "segmentIndex": 11
+  },
+  {
+    "pattern": "relative clause: who/which/that + verb",
+    "explanation": "A subordinate clause that modifies a noun, giving additional information about a person (who), thing (which/that), or concept. Essential for adding detail to sentences.",
+    "explanationKo": "명사를 수식하는 종속절로, 사람(who), 사물(which/that), 개념에 대한 추가 정보를 제공합니다. 문장에 세부 정보를 추가하는 데 필수적입니다.",
+    "examples": [
+      {
+        "sentence": "We know people who are like this in conversation.",
+        "translation": "대화에서 이런 사람들을 우리는 알고 있습니다."
+      },
+      {
+        "sentence": "We prefer voices which are rich, smooth, warm, like hot chocolate.",
+        "translation": "우리는 핫초콜릿처럼 풍부하고, 부드럽고, 따뜻한 목소리를 선호합니다."
+      },
+      {
+        "sentence": "This is a toolbox that very few people have ever opened.",
+        "translation": "이것은 아주 적은 사람들만이 열어본 도구 상자입니다."
+      }
+    ],
+    "examplesKo": [
+      "대화에서 이런 사람들을 우리는 알고 있습니다.",
+      "우리는 핫초콜릿처럼 풍부하고, 부드럽고, 따뜻한 목소리를 선호합니다.",
+      "이것은 아주 적은 사람들만이 열어본 도구 상자입니다."
+    ],
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "it's + adjective + to-infinitive",
+    "explanation": "A common pattern for evaluating or commenting on an action. Uses 'it' as a dummy subject with an adjective followed by a to-infinitive that describes the actual subject.",
+    "explanationKo": "행동에 대해 평가하거나 의견을 표현할 때 사용하는 일반적인 패턴입니다. 가주어 'it'을 쓰고, 형용사 뒤에 to-부정사로 실제 주어를 표현합니다.",
+    "examples": [
+      {
+        "sentence": "It's very hard to listen to somebody if you know that you're being judged.",
+        "translation": "판단받고 있다는 걸 알면 그 사람의 말을 듣기가 매우 어렵습니다."
+      },
+      {
+        "sentence": "It's hard to listen when somebody's that negative.",
+        "translation": "누군가가 그렇게 부정적이면 듣기가 어렵습니다."
+      },
+      {
+        "sentence": "It's difficult to listen to that.",
+        "translation": "그런 말을 듣기는 어렵습니다."
+      }
+    ],
+    "examplesKo": [
+      "판단받고 있다는 걸 알면 그 사람의 말을 듣기가 매우 어렵습니다.",
+      "누군가가 그렇게 부정적이면 듣기가 어렵습니다.",
+      "그런 말을 듣기는 어렵습니다."
+    ],
+    "segmentIndex": 15
+  },
+  {
+    "pattern": "as if + subjunctive (past tense for present unreal)",
+    "explanation": "Used to describe something in a way that is not true or real, comparing to a hypothetical situation. The past tense after 'as if' indicates the comparison is unreal.",
+    "explanationKo": "사실이 아닌 것을 비유적으로 묘사할 때 사용합니다. 'as if' 뒤에 과거 시제를 사용하여 비교가 비현실적임을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "Somebody is bombarding you with their opinions as if they were true.",
+        "translation": "누군가가 자신의 의견을 마치 사실인 것처럼 퍼붓는 거죠."
+      },
+      {
+        "sentence": "Every sentence ends as if it were a question.",
+        "translation": "모든 문장이 마치 질문처럼 끝나는 것입니다."
+      }
+    ],
+    "examplesKo": [
+      "누군가가 자신의 의견을 마치 사실인 것처럼 퍼붓는 거죠.",
+      "모든 문장이 마치 질문처럼 끝나는 것입니다."
+    ],
+    "segmentIndex": 37
+  },
+  {
+    "pattern": "need + to-infinitive (necessity/obligation)",
+    "explanation": "Expresses a necessity or requirement. Indicates that something is required or should be done.",
+    "explanationKo": "필요성이나 의무를 표현합니다. 무언가가 필요하거나 해야 한다는 것을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "There are a number of habits that we need to move away from.",
+        "translation": "우리가 벗어나야 할 여러 가지 습관이 있습니다."
+      },
+      {
+        "sentence": "These are things I think we need to avoid.",
+        "translation": "이것들은 우리가 피해야 할 것들이라고 생각합니다."
+      },
+      {
+        "sentence": "If you want weight, you need to go down here to the chest.",
+        "translation": "무게감을 원한다면, 여기 가슴까지 내려가야 합니다."
+      }
+    ],
+    "examplesKo": [
+      "우리가 벗어나야 할 여러 가지 습관이 있습니다.",
+      "이것들은 우리가 피해야 할 것들이라고 생각합니다.",
+      "무게감을 원한다면, 여기 가슴까지 내려가야 합니다."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "there is/are + noun (existential construction)",
+    "explanation": "Used to introduce the existence of something for the first time in a conversation. Commonly used to present new information or ideas to the listener.",
+    "explanationKo": "대화에서 무언가의 존재를 처음으로 소개할 때 사용합니다. 청자에게 새로운 정보나 아이디어를 제시하는 데 흔히 쓰입니다.",
+    "examples": [
+      {
+        "sentence": "There are a number of habits that we need to move away from.",
+        "translation": "우리가 벗어나야 할 여러 가지 습관이 있습니다."
+      },
+      {
+        "sentence": "There are four really powerful cornerstones.",
+        "translation": "네 가지 정말 강력한 초석이 있습니다."
+      },
+      {
+        "sentence": "There's nothing wrong with a bit of silence in a talk, is there?",
+        "translation": "강연에서 약간의 침묵은 아무 문제가 없죠, 그렇지 않나요?"
+      }
+    ],
+    "examplesKo": [
+      "우리가 벗어나야 할 여러 가지 습관이 있습니다.",
+      "네 가지 정말 강력한 초석이 있습니다.",
+      "강연에서 약간의 침묵은 아무 문제가 없죠, 그렇지 않나요?"
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "present progressive: be + verb-ing (ongoing/current action)",
+    "explanation": "Used to describe actions that are currently in progress or temporary states. Also used for actions happening around the present time.",
+    "explanationKo": "현재 진행 중인 행동이나 일시적인 상태를 묘사할 때 사용합니다. 현재 시점 주변에서 일어나는 행동에도 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "I'm not pretending this is an exhaustive list.",
+        "translation": "이것이 완전한 목록이라고 주장하는 것은 아닙니다."
+      },
+      {
+        "sentence": "I'm not talking about the stuff that falls from the sky.",
+        "translation": "하늘에서 떨어지는 것을 말하는 게 아닙니다."
+      },
+      {
+        "sentence": "I'm going to show you the six vocal warm-up exercises.",
+        "translation": "여섯 가지 발성 워밍업 운동을 보여드리겠습니다."
+      }
+    ],
+    "examplesKo": [
+      "이것이 완전한 목록이라고 주장하는 것은 아닙니다.",
+      "하늘에서 떨어지는 것을 말하는 게 아닙니다.",
+      "여섯 가지 발성 워밍업 운동을 보여드리겠습니다."
+    ],
+    "segmentIndex": 8
+  },
+  {
+    "pattern": "comparison with superlative: the most + adjective",
+    "explanation": "Used to express the highest degree of a quality among a group. Formed with 'the most' before multi-syllable adjectives.",
+    "explanationKo": "그룹 내에서 가장 높은 정도의 특성을 표현할 때 사용합니다. 다음절 형용사 앞에 'the most'를 붙여 만듭니다.",
+    "examples": [
+      {
+        "sentence": "It's the most powerful sound in the world, probably.",
+        "translation": "아마도 세상에서 가장 강력한 소리일 것입니다."
+      },
+      {
+        "sentence": "Where this all comes into play most of all, is when you've got something really important to do.",
+        "translation": "이 모든 것이 가장 중요해지는 때는 정말 중요한 일이 있을 때입니다."
+      }
+    ],
+    "examplesKo": [
+      "아마도 세상에서 가장 강력한 소리일 것입니다.",
+      "이 모든 것이 가장 중요해지는 때는 정말 중요한 일이 있을 때입니다."
+    ],
+    "segmentIndex": 1
+  }
+]

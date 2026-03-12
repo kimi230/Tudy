@@ -1,0 +1,132 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "in effect",
+    "phonetic": "/ɪnɪˈfɛkt/",
+    "koreanPhonetic": "이니펙트",
+    "explanation": "'in effect' is often reduced so that 'in' and 'effect' blend together with the /n/ linking smoothly to the vowel /ɪ/ of 'effect'.",
+    "explanationKo": "'in effect'에서 'in'의 /n/이 'effect'의 모음 /ɪ/와 자연스럽게 연결되어 하나의 단어처럼 들립니다.",
+    "practiceGuide": "'이니펙트'로 빠르게 발음하세요. 'in'과 'effect' 사이에 끊김 없이 연결하는 연습을 합니다.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "linking",
+    "originalText": "landed on",
+    "phonetic": "/ˈlændɪd ɒn/",
+    "koreanPhonetic": "랜디돈",
+    "explanation": "The final /d/ of 'landed' links directly to the vowel /ɒ/ of 'on', creating a smooth connection between the two words.",
+    "explanationKo": "'landed'의 마지막 /d/가 'on'의 모음 /ɒ/와 직접 연결되어 두 단어가 매끄럽게 이어집니다.",
+    "practiceGuide": "'랜디돈'으로 발음합니다. 'landed'의 'd'를 'on'의 시작으로 옮겨 붙여 말하세요.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "reduction",
+    "originalText": "going on",
+    "phonetic": "/ˈɡoʊɪn ɒn/",
+    "koreanPhonetic": "고인 온",
+    "explanation": "In casual speech, 'going' often reduces to /ˈɡoʊɪn/ with the final /ɡ/ dropped (g-dropping), and links to 'on'.",
+    "explanationKo": "일상적인 말에서 'going'은 끝의 /ɡ/가 탈락하여 /ˈɡoʊɪn/으로 줄어들고 'on'과 연결됩니다.",
+    "practiceGuide": "'고인 온'으로 자연스럽게 발음합니다. 'going'의 '-ng'를 '-n'으로 줄이는 연습을 하세요.",
+    "segmentIndex": 7
+  },
+  {
+    "type": "elision",
+    "originalText": "let's say",
+    "phonetic": "/lɛts seɪ/",
+    "koreanPhonetic": "렛쎄이",
+    "explanation": "The /t/ and /s/ in 'let's' blend together, and the transition to 'say' is very quick, making it sound like a single unit.",
+    "explanationKo": "'let's'의 /t/와 /s/가 합쳐지고 'say'로의 전환이 매우 빨라 하나의 단위처럼 들립니다.",
+    "practiceGuide": "'렛쎄이'를 빠르게 한 덩어리로 발음합니다. 중간에 멈추지 마세요.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "linking",
+    "originalText": "check your inbox",
+    "phonetic": "/tʃɛk jɔːr ˈɪnbɒks/",
+    "koreanPhonetic": "체켤 인박스",
+    "explanation": "The /k/ of 'check' links to the /j/ of 'your', and 'your' often reduces to /jər/. The /r/ then connects to the vowel /ɪ/ of 'inbox'.",
+    "explanationKo": "'check'의 /k/가 'your'의 /j/와 연결되고, 'your'는 /jər/로 축약됩니다. 그런 다음 /r/이 'inbox'의 모음 /ɪ/와 연결됩니다.",
+    "practiceGuide": "'체켤 인박스'를 빠르게 말하세요. 'your'를 '열'처럼 약하게 발음하는 것이 핵심입니다.",
+    "segmentIndex": 19
+  },
+  {
+    "type": "reduction",
+    "originalText": "you aren't spending",
+    "phonetic": "/juː ɑːrnt ˈspɛndɪŋ/",
+    "koreanPhonetic": "유 아른트 스펜딩",
+    "explanation": "'aren't' is a contraction of 'are not'. In connected speech, the vowel in 'are' reduces and the /t/ at the end of 'aren't' may be unreleased before /s/.",
+    "explanationKo": "'aren't'는 'are not'의 축약형입니다. 연결 발화에서 'are'의 모음이 축약되고, 'aren't' 끝의 /t/는 /s/ 앞에서 파열되지 않을 수 있습니다.",
+    "practiceGuide": "'아른(트) 스펜딩'으로 발음합니다. /t/를 거의 들리지 않게 처리하세요.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "assimilation",
+    "originalText": "what to switch to",
+    "phonetic": "/wɒt tə swɪtʃ tə/",
+    "koreanPhonetic": "왓 터 스위치 터",
+    "explanation": "The repeated 'to' reduces to /tə/ (schwa). The /t/ at the end of 'what' and the /t/ at the start of 'to' merge into a single /t/ sound.",
+    "explanationKo": "반복되는 'to'가 /tə/ (슈와)로 축약됩니다. 'what' 끝의 /t/와 'to' 시작의 /t/가 하나의 /t/ 소리로 합쳐집니다.",
+    "practiceGuide": "'왓 터 스위치 터'에서 'what to'를 '왓터'로, 두 개의 /t/를 하나로 합쳐 발음하세요.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "linking",
+    "originalText": "comes at a cost",
+    "phonetic": "/kʌmz æt ə kɒst/",
+    "koreanPhonetic": "컴즈 애러 코스트",
+    "explanation": "The /z/ of 'comes' links to /æ/ of 'at', and 'at a' blends together with the /t/ linking to the schwa /ə/, sounding like 'adda'.",
+    "explanationKo": "'comes'의 /z/가 'at'의 /æ/와 연결되고, 'at a'가 합쳐져 /t/가 슈와 /ə/와 연결되어 'adda'처럼 들립니다.",
+    "practiceGuide": "'컴즈 애러 코스트'로 발음합니다. 'at a'를 '애러'로 빠르게 연결하세요.",
+    "segmentIndex": 45
+  },
+  {
+    "type": "reduction",
+    "originalText": "you'd be better off",
+    "phonetic": "/juːd bi ˈbɛtər ɒf/",
+    "koreanPhonetic": "유드 비 베럴 오프",
+    "explanation": "'You'd' is a contraction of 'you would'. 'Better' reduces so the /tt/ becomes a flap /ɾ/ (like a quick 'd'), and 'off' attaches smoothly.",
+    "explanationKo": "'You'd'는 'you would'의 축약형입니다. 'better'에서 /tt/가 플랩 /ɾ/ (빠른 'd'처럼)로 바뀌고, 'off'가 매끄럽게 붙습니다.",
+    "practiceGuide": "'유드 비 베럴 오프'로 발음합니다. 'better'의 't'를 가볍게 'd'처럼 발음하세요.",
+    "segmentIndex": 37
+  },
+  {
+    "type": "linking",
+    "originalText": "strike that balance",
+    "phonetic": "/straɪk ðæt ˈbæləns/",
+    "koreanPhonetic": "스트라이크 댓 밸런스",
+    "explanation": "The /k/ of 'strike' connects to the /ð/ of 'that', and 'that' links to 'balance'. In fast speech, 'that' may reduce to /ðət/.",
+    "explanationKo": "'strike'의 /k/가 'that'의 /ð/와 연결되고, 'that'이 'balance'로 이어집니다. 빠른 말에서 'that'은 /ðət/로 축약될 수 있습니다.",
+    "practiceGuide": "'스트라이크댓 밸런스'로 끊김 없이 연결합니다. 'that'을 약하게 '덧'으로 처리하세요.",
+    "segmentIndex": 50
+  },
+  {
+    "type": "elision",
+    "originalText": "most important",
+    "phonetic": "/moʊs(t) ɪmˈpɔːrtənt/",
+    "koreanPhonetic": "모스 임포턴트",
+    "explanation": "The /t/ at the end of 'most' is often elided (dropped) before the /ɪ/ of 'important' in connected speech, especially at normal speed.",
+    "explanationKo": "'most' 끝의 /t/가 연결 발화에서 'important'의 /ɪ/ 앞에서 자주 탈락됩니다. 특히 보통 속도의 말에서 그렇습니다.",
+    "practiceGuide": "'모스 임포턴트'로 발음하세요. 'most'의 't'를 거의 발음하지 않는 것이 자연스럽습니다.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "reduction",
+    "originalText": "there's a",
+    "phonetic": "/ðɛrz ə/",
+    "koreanPhonetic": "데어저",
+    "explanation": "'There's' contracts 'there is', and the schwa /ə/ of 'a' attaches immediately, making the whole phrase sound like one word.",
+    "explanationKo": "'There's'는 'there is'의 축약이고, 'a'의 슈와 /ə/가 즉시 붙어 전체 구가 하나의 단어처럼 들립니다.",
+    "practiceGuide": "'데어저'를 한 단어처럼 빠르게 발음합니다. 'there's a'를 끊지 말고 연결하세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "assimilation",
+    "originalText": "interrupt coalescing",
+    "phonetic": "/ˌɪntəˈrʌpt koʊəˈlɛsɪŋ/",
+    "koreanPhonetic": "인터럽트 코얼레싱",
+    "explanation": "The final /t/ of 'interrupt' is unreleased before the /k/ of 'coalescing' — the tongue goes to the /t/ position but doesn't release air before moving to /k/.",
+    "explanationKo": "'interrupt' 끝의 /t/가 'coalescing'의 /k/ 앞에서 파열되지 않습니다. 혀가 /t/ 위치로 가지만 /k/로 이동하기 전에 공기를 방출하지 않습니다.",
+    "practiceGuide": "'인터럽(트) 코얼레싱'에서 'interrupt'의 마지막 't'를 입 안에서만 만들고 바로 'k'로 넘어가세요.",
+    "segmentIndex": 55
+  }
+]

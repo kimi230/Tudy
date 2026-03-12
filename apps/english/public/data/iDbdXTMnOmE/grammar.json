@@ -1,0 +1,247 @@
+[
+  {
+    "pattern": "Passive Voice (past simple)",
+    "explanation": "The passive voice is used when the focus is on the action or the object receiving the action, rather than who performed it. Formed with 'was/were + past participle'.",
+    "explanationKo": "수동태는 행위를 수행한 주체보다 행위 자체나 행위를 받는 대상에 초점을 맞출 때 사용됩니다. 'was/were + 과거분사'로 형성됩니다.",
+    "examples": [
+      {
+        "sentence": "NASA's Pathfinder spacecraft landed on the surface of Mars",
+        "translation": "NASA의 패스파인더 우주선이 화성 표면에 착륙했고"
+      },
+      {
+        "sentence": "Oh, the mouse was moved, a key was pressed, more of that file downloaded—",
+        "translation": "마우스가 움직였고, 키가 눌렸고, 파일이 더 다운로드되었고—"
+      }
+    ],
+    "examplesKo": [
+      "NASA의 패스파인더 우주선이 화성 표면에 착륙했고",
+      "마우스가 움직였고, 키가 눌렸고, 파일이 더 다운로드되었고—"
+    ],
+    "segmentIndex": 57
+  },
+  {
+    "pattern": "Present Participle as Adjective/Adverb",
+    "explanation": "Present participles (-ing forms) can function as adjectives modifying nouns or as reduced adverbial clauses describing simultaneous or related actions.",
+    "explanationKo": "현재분사(-ing 형태)는 명사를 수식하는 형용사로, 또는 동시에 일어나거나 관련된 동작을 설명하는 축약된 부사절로 기능할 수 있습니다.",
+    "examples": [
+      {
+        "sentence": "Keeping itself fully occupied but failing to do its most important work.",
+        "translation": "스스로를 완전히 바쁘게 유지하면서도 가장 중요한 작업을 수행하지 못하고 있었습니다."
+      },
+      {
+        "sentence": "Moving old data out of its memory, and new data in.",
+        "translation": "메모리에서 오래된 데이터를 빼내고 새 데이터를 넣어야 합니다."
+      }
+    ],
+    "examplesKo": [
+      "스스로를 완전히 바쁘게 유지하면서도 가장 중요한 작업을 수행하지 못하고 있었습니다.",
+      "메모리에서 오래된 데이터를 빼내고 새 데이터를 넣어야 합니다."
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "Conditional: 'would + base verb' (hypothetical/habitual)",
+    "explanation": "Used to describe hypothetical situations or what would happen under certain conditions. 'Would' softens the statement, making it less direct than 'will'.",
+    "explanationKo": "가상의 상황이나 특정 조건에서 일어날 일을 묘사할 때 사용합니다. 'would'는 진술을 부드럽게 만들어 'will'보다 덜 직접적으로 만듭니다.",
+    "examples": [
+      {
+        "sentence": "Linux would rank every single one of its tasks in order of importance,",
+        "translation": "리눅스는 모든 작업을 하나하나 중요도순으로 순위를 매겼고,"
+      },
+      {
+        "sentence": "You'd be better off replying in chronological order or even at random.",
+        "translation": "시간순으로 답장하거나 심지어 무작위로 하는 것이 더 나을 것입니다."
+      }
+    ],
+    "examplesKo": [
+      "리눅스는 모든 작업을 하나하나 중요도순으로 순위를 매겼고,",
+      "시간순으로 답장하거나 심지어 무작위로 하는 것이 더 나을 것입니다."
+    ],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "Comparative structures ('twice as... as', 'X times longer')",
+    "explanation": "Used to make comparisons showing proportional differences. 'Twice as + adjective + as' and 'X times + comparative' express multiples of a quality.",
+    "explanationKo": "비례적 차이를 나타내는 비교에 사용됩니다. 'twice as + 형용사 + as'와 'X times + 비교급'은 특성의 배수를 표현합니다.",
+    "examples": [
+      {
+        "sentence": "With an inbox that's twice as full, these passes will take twice as long,",
+        "translation": "두 배로 가득 찬 받은 편지함에서는 이 검토 과정이 두 배 더 오래 걸리고,"
+      },
+      {
+        "sentence": "Could take nine times longer to clear.",
+        "translation": "처리하는 데 아홉 배 더 오래 걸릴 수 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "두 배로 가득 찬 받은 편지함에서는 이 검토 과정이 두 배 더 오래 걸리고,",
+      "처리하는 데 아홉 배 더 오래 걸릴 수 있습니다."
+    ],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "Relative Clause with 'that'",
+    "explanation": "A relative clause beginning with 'that' modifies a noun by providing essential information about it. It defines or restricts the meaning of the noun it follows.",
+    "explanationKo": "'that'으로 시작하는 관계절은 명사에 대한 필수 정보를 제공하여 명사를 수식합니다. 뒤따르는 명사의 의미를 정의하거나 제한합니다.",
+    "examples": [
+      {
+        "sentence": "That tells the CPU how long to work on each task before switching",
+        "translation": "CPU에게 각 작업을 얼마나 오래 수행한 후 전환할지 알려주고"
+      },
+      {
+        "sentence": "And give us back one of the things that feels so rare in modern life— rest.",
+        "translation": "그리고 현대 생활에서 매우 드물게 느껴지는 것 중 하나를 되돌려줄지도 모릅니다— 바로 휴식입니다."
+      }
+    ],
+    "examplesKo": [
+      "CPU에게 각 작업을 얼마나 오래 수행한 후 전환할지 알려주고",
+      "그리고 현대 생활에서 매우 드물게 느껴지는 것 중 하나를 되돌려줄지도 모릅니다— 바로 휴식입니다."
+    ],
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "Modal 'can/could' for possibility",
+    "explanation": "'Can' expresses general possibility or ability; 'could' expresses conditional or tentative possibility. Both are used to suggest potential outcomes.",
+    "explanationKo": "'can'은 일반적인 가능성이나 능력을 표현하고, 'could'는 조건적이거나 잠정적인 가능성을 표현합니다. 둘 다 잠재적 결과를 제안하는 데 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "Can give us some ideas about our own human struggles with time.",
+        "translation": "시간과의 씨름에 대한 아이디어를 얻을 수 있을지도 모릅니다."
+      },
+      {
+        "sentence": "Could lead to a meltdown, waking up to an inbox three times fuller than normal",
+        "translation": "과부하로 이어질 수 있는데, 평소보다 세 배 가득 찬 받은 편지함은"
+      },
+      {
+        "sentence": "Could take nine times longer to clear.",
+        "translation": "처리하는 데 아홉 배 더 오래 걸릴 수 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "시간과의 씨름에 대한 아이디어를 얻을 수 있을지도 모릅니다.",
+      "과부하로 이어질 수 있는데, 평소보다 세 배 가득 찬 받은 편지함은",
+      "처리하는 데 아홉 배 더 오래 걸릴 수 있습니다."
+    ],
+    "segmentIndex": 16
+  },
+  {
+    "pattern": "'what's called/known as' (defining terms)",
+    "explanation": "A construction used to introduce and define technical terms or concepts for the audience. 'What's called' and 'what's known as' function as relative clause structures.",
+    "explanationKo": "청중에게 전문 용어나 개념을 소개하고 정의할 때 사용하는 구문입니다. 'what's called'와 'what's known as'는 관계절 구조로 기능합니다.",
+    "examples": [
+      {
+        "sentence": "This is what's known as a quadratic time algorithm.",
+        "translation": "이것은 이차 시간 알고리즘이라고 알려진 것입니다."
+      },
+      {
+        "sentence": "It has to do what's called a context switch—bookmarking its place in one task,",
+        "translation": "컨텍스트 스위치라고 불리는 것을 해야 하는데, 한 작업에서 현재 위치를 북마크하고,"
+      }
+    ],
+    "examplesKo": [
+      "이것은 이차 시간 알고리즘이라고 알려진 것입니다.",
+      "컨텍스트 스위치라고 불리는 것을 해야 하는데, 한 작업에서 현재 위치를 북마크하고,"
+    ],
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "Gerund as Subject",
+    "explanation": "A gerund (-ing form of a verb) used as the subject of a sentence. This turns an action into a noun concept, allowing it to be discussed as a thing.",
+    "explanationKo": "동명사(동사의 -ing 형태)가 문장의 주어로 사용됩니다. 행동을 명사 개념으로 바꾸어 하나의 대상으로 논의할 수 있게 합니다.",
+    "examples": [
+      {
+        "sentence": "Getting serious work done means minimizing context switches,",
+        "translation": "진지한 작업을 완수하려면 컨텍스트 스위치를 최소화해야 하지만,"
+      },
+      {
+        "sentence": "Recognizing this tension allows us to decide where we want to strike that balance.",
+        "translation": "이 긴장 관계를 인식하면 어디에서 균형을 맞출지 결정할 수 있습니다."
+      }
+    ],
+    "examplesKo": [
+      "진지한 작업을 완수하려면 컨텍스트 스위치를 최소화해야 하지만,",
+      "이 긴장 관계를 인식하면 어디에서 균형을 맞출지 결정할 수 있습니다."
+    ],
+    "segmentIndex": 47
+  },
+  {
+    "pattern": "Conditional: 'If + present simple, ... should/imperative'",
+    "explanation": "A first conditional variation using 'if' with present simple to state a real, likely condition, followed by advice or a logical conclusion with 'should' or imperative.",
+    "explanationKo": "'if'와 현재 시제를 사용하여 실제 가능한 조건을 제시하고, 'should'이나 명령형으로 조언이나 논리적 결론을 제시하는 1종 조건문의 변형입니다.",
+    "examples": [
+      {
+        "sentence": "If no notification or email requires a response more urgently than once an hour, say,",
+        "translation": "만약 어떤 알림이나 이메일도 한 시간에 한 번보다 더 급한 답변을 요하지 않는다면,"
+      },
+      {
+        "sentence": "Then that's exactly how often you should check them. No more.",
+        "translation": "바로 그만큼만 확인해야 합니다. 그 이상은 안 됩니다."
+      }
+    ],
+    "examplesKo": [
+      "만약 어떤 알림이나 이메일도 한 시간에 한 번보다 더 급한 답변을 요하지 않는다면,",
+      "바로 그만큼만 확인해야 합니다. 그 이상은 안 됩니다."
+    ],
+    "segmentIndex": 53
+  },
+  {
+    "pattern": "'Rather than + gerund' (contrast/alternative)",
+    "explanation": "Used to introduce an alternative or contrasting action. 'Rather than' is followed by a gerund (-ing form) to show what is being replaced or avoided.",
+    "explanationKo": "대안이나 대조적인 행동을 소개할 때 사용됩니다. 'Rather than' 뒤에 동명사(-ing 형태)가 와서 대체되거나 피하려는 것을 보여줍니다.",
+    "examples": [
+      {
+        "sentence": "Rather than dealing with things as they come up—",
+        "translation": "일이 발생할 때마다 바로 처리하는 대신에—"
+      }
+    ],
+    "examplesKo": [
+      "일이 발생할 때마다 바로 처리하는 대신에—"
+    ],
+    "segmentIndex": 56
+  },
+  {
+    "pattern": "'Let's say' (hypothetical scenario introduction)",
+    "explanation": "An informal way to introduce a hypothetical example or scenario for the purpose of explanation. Equivalent to 'suppose that' or 'imagine that'.",
+    "explanationKo": "설명을 위해 가상의 예시나 시나리오를 비격식적으로 도입하는 방식입니다. 'suppose that'이나 'imagine that'과 동등합니다.",
+    "examples": [
+      {
+        "sentence": "For instance, let's say when you check your inbox,",
+        "translation": "예를 들어, 받은 편지함을 확인할 때"
+      }
+    ],
+    "examplesKo": [
+      "예를 들어, 받은 편지함을 확인할 때"
+    ],
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "'Once + present perfect, ... present simple' (sequence)",
+    "explanation": "Used to describe a sequence where one action is completed before the next begins. 'Once' introduces the completed condition, followed by the resulting action.",
+    "explanationKo": "하나의 행동이 완료된 후 다음 행동이 시작되는 순서를 설명할 때 사용됩니다. 'Once'가 완료된 조건을 도입하고, 이어서 결과 행동이 옵니다.",
+    "examples": [
+      {
+        "sentence": "Once you've dealt with that one, you repeat.",
+        "translation": "그 하나를 처리하고 나면 같은 과정을 반복합니다."
+      }
+    ],
+    "examplesKo": [
+      "그 하나를 처리하고 나면 같은 과정을 반복합니다."
+    ],
+    "segmentIndex": 21
+  },
+  {
+    "pattern": "'This is because' (causal explanation)",
+    "explanation": "A structure used to provide a reason or explanation for a previously stated fact. 'This' refers back to the preceding statement, and 'because' introduces the cause.",
+    "explanationKo": "이전에 진술한 사실에 대한 이유나 설명을 제공할 때 사용하는 구조입니다. 'This'는 앞의 진술을 가리키고 'because'가 원인을 도입합니다.",
+    "examples": [
+      {
+        "sentence": "This is because deferring interruptions lets a system check everything at once,",
+        "translation": "인터럽트를 미루면 시스템이 모든 것을 한꺼번에 확인할 수 있고,"
+      }
+    ],
+    "examplesKo": [
+      "인터럽트를 미루면 시스템이 모든 것을 한꺼번에 확인할 수 있고,"
+    ],
+    "segmentIndex": 60
+  }
+]

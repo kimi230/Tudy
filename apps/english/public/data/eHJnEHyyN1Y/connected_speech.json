@@ -1,0 +1,142 @@
+[
+  {
+    "type": "contraction",
+    "originalText": "she needed a sandbox to play in with the",
+    "phonetic": "/ʃi ˈniːdɪd ə ˈsændbɑːks tə pleɪ ɪn wɪð ðə/",
+    "koreanPhonetic": "쉬 니디더 샌드박스 터 플레이 인 위드 더",
+    "explanation": "In rapid speech, 'to' reduces to /tə/ and 'with the' blends into /wɪð ðə/, creating a smooth continuous flow.",
+    "explanationKo": "빠른 발화에서 'to'는 /tə/로 약화되고 'with the'는 /wɪð ðə/로 매끄럽게 연결되어 연속적인 흐름을 만듭니다.",
+    "practiceGuide": "'to'를 '투'가 아닌 '터'로 발음하고, 'with the'를 '위드 더'가 아닌 '위더'처럼 빠르게 연결하세요.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "linking",
+    "originalText": "run counter to the best practices",
+    "phonetic": "/rʌn ˈkaʊntər tə ðə best ˈpræktɪsɪz/",
+    "koreanPhonetic": "런 카운터 터 더 베스트 프랙티시즈",
+    "explanation": "The final /n/ of 'run' links smoothly to the /k/ of 'counter'. 'to the' reduces to /tə ðə/ spoken almost as one syllable.",
+    "explanationKo": "'run'의 마지막 /n/이 'counter'의 /k/로 매끄럽게 연결됩니다. 'to the'는 /tə ðə/로 축약되어 거의 한 음절처럼 발음됩니다.",
+    "practiceGuide": "'런카운터'처럼 끊지 않고 이어 발음하세요. 'to the'는 '터더'로 빠르게 처리합니다.",
+    "segmentIndex": 9
+  },
+  {
+    "type": "reduction",
+    "originalText": "What we're supposed to do",
+    "phonetic": "/wʌt wɪr səˈpoʊst tə duː/",
+    "koreanPhonetic": "웟 위어 서포우스트 터 두",
+    "explanation": "'We're' contracts from 'we are' to /wɪr/. 'Supposed to' reduces to /səˈpoʊst tə/ with the 'd' in 'supposed' becoming almost silent before 'to'.",
+    "explanationKo": "'we are'가 'we're' /wɪr/로 축약됩니다. 'supposed to'에서 'supposed'의 'd'는 'to' 앞에서 거의 무음이 되어 /서포우스터/로 발음됩니다.",
+    "practiceGuide": "'supposed to'를 '서포우스투'가 아닌 '서포우스터'로 한 덩어리로 발음하세요.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "elision",
+    "originalText": "We've got to figure out",
+    "phonetic": "/wiːv ɡɑːtə ˈfɪɡjər aʊt/",
+    "koreanPhonetic": "위브 가터 피겨라웃",
+    "explanation": "'Got to' undergoes elision to become /ɡɑːtə/ ('gotta' in informal speech). The /t/ at the end of 'got' merges with the /t/ of 'to'.",
+    "explanationKo": "'got to'는 탈락 현상을 거쳐 /가터/('gotta')가 됩니다. 'got'의 끝 /t/가 'to'의 /t/와 합쳐집니다.",
+    "practiceGuide": "'got to'를 '갓 투'가 아닌 '가터(gotta)'로 자연스럽게 연결하세요. 일상 회화에서 매우 자주 쓰이는 축약입니다.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "linking",
+    "originalText": "stick to our knitting",
+    "phonetic": "/stɪk tʊ ɑːr ˈnɪtɪŋ/",
+    "koreanPhonetic": "스틱 투 아 니팅",
+    "explanation": "The /k/ of 'stick' links directly to /t/ of 'to' with no pause. 'Our' reduces from /aʊər/ to /ɑːr/ in fast speech.",
+    "explanationKo": "'stick'의 /k/가 'to'의 /t/로 바로 연결되어 끊김이 없습니다. 'our'는 빠른 발화에서 /아우어/가 아닌 /아/로 축약됩니다.",
+    "practiceGuide": "'스틱투아'를 한 호흡으로 끊지 않고 발음하세요. 'our'를 '아워'가 아닌 '아'로 짧게 처리합니다.",
+    "segmentIndex": 17
+  },
+  {
+    "type": "assimilation",
+    "originalText": "can you do something different",
+    "phonetic": "/kæn jə duː ˈsʌmθɪŋ ˈdɪfrənt/",
+    "koreanPhonetic": "캔 여 두 썸띵 디프런트",
+    "explanation": "'Can you' undergoes assimilation where the /n/ of 'can' assimilates with /j/ of 'you', producing /kænjə/. 'Something' often loses its second syllable: /ˈsʌmθɪŋ/.",
+    "explanationKo": "'can you'에서 'can'의 /n/이 'you'의 /j/와 동화되어 /캔여/로 발음됩니다. 'something'은 종종 두 번째 음절이 축약됩니다.",
+    "practiceGuide": "'캔 유'가 아닌 '캔여'로 빠르게 발음하세요. 'different'도 '디퍼런트'가 아닌 '디프런트'로 음절을 줄입니다.",
+    "segmentIndex": 20
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'm not so sure",
+    "phonetic": "/aɪm nɑːt soʊ ʃʊr/",
+    "koreanPhonetic": "아임 낫 쏘우 슈어",
+    "explanation": "'I am' contracts to 'I'm' /aɪm/. In rapid speech, the whole phrase flows as a single intonation unit with stress on 'sure'.",
+    "explanationKo": "'I am'이 'I'm' /아임/으로 축약됩니다. 빠른 발화에서 전체 구문이 하나의 억양 단위로 흐르며 'sure'에 강세가 옵니다.",
+    "practiceGuide": "'아이 엠'이 아닌 '아임'으로 자연스럽게 줄이고, 'sure'에 강세를 두어 발음하세요.",
+    "segmentIndex": 41
+  },
+  {
+    "type": "linking",
+    "originalText": "sticks to human tissue",
+    "phonetic": "/stɪks tə ˈhjuːmən ˈtɪʃuː/",
+    "koreanPhonetic": "스틱스 터 휴먼 티슈",
+    "explanation": "The /s/ at the end of 'sticks' connects directly to the /t/ of 'to'. 'To' reduces to /tə/. The combination creates a smooth /stɪkstə/ flow.",
+    "explanationKo": "'sticks'의 끝 /s/가 'to'의 /t/로 직접 연결됩니다. 'to'는 /터/로 약화됩니다. 조합이 매끄러운 /스틱스터/ 흐름을 만듭니다.",
+    "practiceGuide": "'스틱스 투'가 아닌 '스틱스터'로 한 호흡에 연결하세요.",
+    "segmentIndex": 47
+  },
+  {
+    "type": "elision",
+    "originalText": "kind of want to keep all the brain cells",
+    "phonetic": "/kaɪndə wɑːnə kiːp ɔːl ðə breɪn selz/",
+    "koreanPhonetic": "카인더 워너 킵 올 더 브레인 셀즈",
+    "explanation": "'Kind of' reduces to 'kinda' /kaɪndə/ with the /v/ elided. 'Want to' reduces to 'wanna' /wɑːnə/ with /t t/ merging. Both are extremely common in casual American English.",
+    "explanationKo": "'kind of'는 /v/가 탈락하여 'kinda' /카인더/로 축약됩니다. 'want to'는 /t t/가 합쳐져 'wanna' /워너/로 축약됩니다. 둘 다 미국식 일상 영어에서 매우 흔합니다.",
+    "practiceGuide": "'카인드 오브'가 아닌 '카인더', '원트 투'가 아닌 '워너'로 자연스럽게 발음하세요.",
+    "segmentIndex": 57
+  },
+  {
+    "type": "reduction",
+    "originalText": "what did they do",
+    "phonetic": "/wʌt dɪd ðeɪ duː/",
+    "koreanPhonetic": "웟 디 데이 두",
+    "explanation": "In rapid speech, 'did' often reduces to /dɪ/ with the final /d/ becoming very light. The entire question flows quickly with rising intonation.",
+    "explanationKo": "빠른 발화에서 'did'는 종종 마지막 /d/가 매우 가볍게 되어 /디/로 축약됩니다. 전체 의문문이 빠르게 흘러가며 상승 억양을 가집니다.",
+    "practiceGuide": "'디드'보다 '디'에 가깝게 발음하고, 전체 문장을 빠르게 한 호흡으로 말하세요.",
+    "segmentIndex": 79
+  },
+  {
+    "type": "linking",
+    "originalText": "cash on the barrelhead",
+    "phonetic": "/kæʃ ɑːn ðə ˈbærəlˌhed/",
+    "koreanPhonetic": "캐쉬 온 더 배럴헤드",
+    "explanation": "The /ʃ/ of 'cash' links to the vowel /ɑː/ of 'on', creating a smooth consonant-to-vowel connection. 'On the' flows as /ɑːn ðə/.",
+    "explanationKo": "'cash'의 /ʃ/가 'on'의 모음 /ɑː/로 연결되어 자연스러운 자음-모음 연결을 만듭니다. 'on the'는 /온 더/로 흐릅니다.",
+    "practiceGuide": "'캐쉬온'을 끊지 않고 연결하여 발음하세요. 이 관용구는 '즉석 현금 지불'을 의미합니다.",
+    "segmentIndex": 95
+  },
+  {
+    "type": "reduction",
+    "originalText": "figure out how much investment you have to do",
+    "phonetic": "/ˈfɪɡjər aʊt haʊ mʌtʃ ɪnˈvestmənt jə hæftə duː/",
+    "koreanPhonetic": "피겨라웃 하우 머치 인베스먼트 여 해프터 두",
+    "explanation": "'Figure out' links with intrusive /r/. 'You' reduces to /jə/. 'Have to' reduces to 'hafta' /hæftə/ with the /v/ becoming /f/ and merging with 'to'.",
+    "explanationKo": "'figure out'에서 연결 /r/이 삽입됩니다. 'you'는 /여/로 약화됩니다. 'have to'는 /v/가 /f/로 바뀌고 'to'와 합쳐져 'hafta' /해프터/가 됩니다.",
+    "practiceGuide": "'해브 투'가 아닌 '해프터'로 발음하세요. 'you'도 '유'가 아닌 '여'로 약하게 처리합니다.",
+    "segmentIndex": 106
+  },
+  {
+    "type": "assimilation",
+    "originalText": "wouldn't it be cool",
+    "phonetic": "/ˈwʊdn̩t ɪt bi kuːl/",
+    "koreanPhonetic": "우든릿 비 쿨",
+    "explanation": "The /t/ at the end of 'wouldn't' assimilates with the /ɪ/ of 'it', creating a flapped /t/ sound typical of American English. The two words blend together.",
+    "explanationKo": "'wouldn't'의 끝 /t/가 'it'의 /ɪ/와 만나 미국식 영어 특유의 탄설음(flap) /t/를 만듭니다. 두 단어가 하나로 섞입니다.",
+    "practiceGuide": "'우든트 잇'이 아닌 '우든릿'처럼 연결하세요. /t/를 강하게 발음하지 말고 가볍게 튕기듯 합니다.",
+    "segmentIndex": 31
+  },
+  {
+    "type": "elision",
+    "originalText": "lots of them, in all these Forestry Commission sites",
+    "phonetic": "/lɑːtsəv ðəm ɪn ɔːl ðiːz ˈfɔːrɪstri kəˈmɪʃən saɪts/",
+    "koreanPhonetic": "랏써브 덤 인 올 디즈 포리스트리 커미션 사잇스",
+    "explanation": "'Lots of' reduces to /lɑːtsəv/ with the /f/ of 'of' becoming /v/ and linking. 'Them' reduces to /ðəm/ or even /əm/.",
+    "explanationKo": "'lots of'에서 'of'의 /f/가 /v/로 바뀌며 연결되어 /랏써브/가 됩니다. 'them'은 /덤/ 또는 /엄/으로 축약됩니다.",
+    "practiceGuide": "'랏츠 오브'가 아닌 '랏써브'로 자연스럽게 이어 발음하세요.",
+    "segmentIndex": 115
+  }
+]

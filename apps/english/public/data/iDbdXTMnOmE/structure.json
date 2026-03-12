@@ -1,0 +1,136 @@
+{
+  "videoId": "iDbdXTMnOmE",
+  "descriptionKo": "컴퓨터 스케줄링의 원리를 통해 인간의 시간 관리 전략을 탐구하는 TED-Ed 강의. NASA 패스파인더의 버그 이야기로 시작하여, 우선순위 설정의 함정과 인터럽트 코얼레싱 기법을 소개합니다.",
+  "sections": [
+    {
+      "title": "The Pathfinder Bug: When Computers Procrastinate",
+      "titleKo": "패스파인더 버그: 컴퓨터도 미루기를 한다",
+      "section": "opening",
+      "startSegment": 0,
+      "endSegment": 14,
+      "summary": "The video opens with NASA's Pathfinder mission to Mars in 1997, which stopped transmitting data due to a scheduler bug. The spacecraft was fully occupied but couldn't complete its most important work — essentially procrastinating. This serves as a surprising parallel to human struggles with time management.",
+      "summaryKo": "1997년 NASA의 패스파인더 화성 탐사 임무가 스케줄러 버그로 인해 데이터 전송을 중단한 이야기로 시작합니다. 우주선은 완전히 바빴지만 가장 중요한 작업을 완수하지 못했습니다. 이것은 시간 관리와의 인간적 싸움과 놀라운 유사점을 제공합니다.",
+      "keyPoints": [
+        "패스파인더가 화성에서 데이터 전송을 중단",
+        "스케줄러 버그로 인해 컴퓨터가 사실상 '꾸물거림'",
+        "컴퓨터도 과부하에 걸린다는 사실이 우리에게 위안이 됨"
+      ]
+    },
+    {
+      "title": "The Prioritization Trap: Quadratic Time",
+      "titleKo": "우선순위의 함정: 이차 시간 알고리즘",
+      "section": "development",
+      "startSegment": 15,
+      "endSegment": 39,
+      "summary": "The first key insight: time spent prioritizing is time not spent doing. Scanning emails for the most important one follows a quadratic time algorithm — doubling the inbox means four times the work. Linux programmers solved this in 2003 by using priority buckets instead of full ranking. The counterintuitive conclusion: replying in chronological order or even randomly can be more efficient than always picking the most important task first.",
+      "summaryKo": "첫 번째 핵심 통찰: 우선순위를 정하는 시간은 일을 하지 못하는 시간입니다. 이메일에서 가장 중요한 것을 찾는 방식은 이차 시간 알고리즘을 따릅니다. 리눅스 프로그래머들은 2003년에 완전 순위 매기기 대신 우선순위 버킷을 사용하여 이를 해결했습니다. 직관에 반하는 결론: 시간순이나 무작위로 답장하는 것이 항상 가장 중요한 것을 먼저 하는 것보다 효율적일 수 있습니다.",
+      "keyPoints": [
+        "우선순위 정하는 데 쓰는 시간 = 일 못하는 시간",
+        "이차 시간 알고리즘: 받은 편지함 2배 → 작업량 4배",
+        "리눅스의 해결책: 완전 순위 → 우선순위 버킷",
+        "시간순/무작위 답장이 완벽한 순서보다 나을 수 있음"
+      ]
+    },
+    {
+      "title": "Context Switching: Productivity vs. Responsiveness",
+      "titleKo": "컨텍스트 스위치: 생산성 대 반응성",
+      "section": "development",
+      "startSegment": 40,
+      "endSegment": 54,
+      "summary": "The second insight concerns interruptions. When computers switch tasks, they must perform a 'context switch' — saving current state and loading new data, which is costly. There's a fundamental trade-off between productivity (minimizing switches) and responsiveness (reacting to new inputs). The less obvious solution is to group interruptions: check notifications at fixed intervals rather than as they arrive.",
+      "summaryKo": "두 번째 통찰은 방해에 관한 것입니다. 컴퓨터가 작업을 전환할 때 '컨텍스트 스위치'를 수행해야 합니다. 생산성(전환 최소화)과 반응성(새 입력에 대응) 사이에 근본적인 상충 관계가 있습니다. 덜 분명한 해결책은 방해를 묶어서 처리하는 것입니다.",
+      "keyPoints": [
+        "컨텍스트 스위치에는 비용이 발생",
+        "생산성과 반응성은 근본적으로 긴장 관계",
+        "방해를 최소화하거나 묶어서 처리하기",
+        "알림을 고정 간격으로만 확인하기"
+      ]
+    },
+    {
+      "title": "Interrupt Coalescing: Batching for Efficiency",
+      "titleKo": "인터럽트 코얼레싱: 효율을 위한 일괄 처리",
+      "section": "development",
+      "startSegment": 55,
+      "endSegment": 61,
+      "summary": "The computer science concept of 'interrupt coalescing' groups interruptions together based on urgency. Instead of handling each event as it occurs, the system batches them. In 2013, this technique massively improved laptop battery life by letting systems check everything at once then re-enter low-power states.",
+      "summaryKo": "'인터럽트 코얼레싱'이라는 컴퓨터 과학 개념은 인터럽트를 긴급성에 따라 묶어서 처리합니다. 각 이벤트를 발생 즉시 처리하는 대신 시스템이 일괄 처리합니다. 2013년 이 기법은 노트북 배터리 수명을 획기적으로 개선했습니다.",
+      "keyPoints": [
+        "인터럽트 코얼레싱: 기다릴 수 있는 시간에 따라 묶어 처리",
+        "2013년 노트북 배터리 수명 획기적 개선",
+        "모든 것을 한꺼번에 확인 → 저전력 상태 복귀"
+      ]
+    },
+    {
+      "title": "Applying Computer Science to Human Life",
+      "titleKo": "컴퓨터 과학을 인간의 삶에 적용하기",
+      "section": "conclusion",
+      "startSegment": 62,
+      "endSegment": 67,
+      "summary": "The video concludes by drawing a direct parallel: just as computers benefit from interrupt coalescing, humans can reclaim attention and rest by batching interruptions. It recommends the book 'Algorithms to Live By' for further exploration of applying computer science to human decision-making.",
+      "summaryKo": "컴퓨터가 인터럽트 코얼레싱으로 이득을 얻듯이, 인간도 방해를 묶어서 처리함으로써 주의력과 휴식을 되찾을 수 있다는 직접적인 비유로 마무리합니다. 컴퓨터 과학을 인간의 의사결정에 적용하는 것을 더 탐구하기 위해 '살기 위한 알고리즘'이라는 책을 추천합니다.",
+      "keyPoints": [
+        "컴퓨터가 그러하듯 우리도 마찬가지",
+        "인터럽트 묶기로 주의력과 휴식 되찾기",
+        "'살기 위한 알고리즘' 책 추천"
+      ]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "In the summer of 1997",
+      "meaningKo": "1997년 여름에",
+      "function": "Sets the temporal context for the opening anecdote",
+      "segmentIndex": [
+        1
+      ]
+    },
+    {
+      "expression": "What was going on?",
+      "meaningKo": "무슨 일이 일어난 걸까요?",
+      "function": "Rhetorical question that creates curiosity and transitions to the explanation",
+      "segmentIndex": [
+        7
+      ]
+    },
+    {
+      "expression": "One of the first insights is that",
+      "meaningKo": "첫 번째 통찰 중 하나는",
+      "function": "Signals the introduction of a key concept or lesson",
+      "segmentIndex": [
+        17
+      ]
+    },
+    {
+      "expression": "For instance",
+      "meaningKo": "예를 들어",
+      "function": "Introduces a concrete example to illustrate the concept",
+      "segmentIndex": [
+        19
+      ]
+    },
+    {
+      "expression": "Another insight that emerges from",
+      "meaningKo": "~에서 나오는 또 다른 통찰은",
+      "function": "Transitions to the second major concept, maintaining parallel structure",
+      "segmentIndex": [
+        40
+      ]
+    },
+    {
+      "expression": "The insight here is that",
+      "meaningKo": "여기서의 핵심 통찰은",
+      "function": "Highlights the core takeaway of the current section",
+      "segmentIndex": [
+        46
+      ]
+    },
+    {
+      "expression": "As with computers, so it is with us",
+      "meaningKo": "컴퓨터가 그러하듯 우리도 마찬가지입니다",
+      "function": "Draws the central analogy between computer science and human behavior",
+      "segmentIndex": [
+        62
+      ]
+    }
+  ]
+}

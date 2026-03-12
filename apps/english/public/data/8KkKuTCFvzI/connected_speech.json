@@ -1,0 +1,128 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡʌnə/",
+    "koreanPhonetic": "거나",
+    "explanationKo": "'going to'가 빠른 말에서 'gonna' /ˈɡʌnə/로 축약됩니다. 미래 의도를 표현할 때 매우 흔하게 사용되는 축약입니다.",
+    "practiceGuide": "Practice: 'going to invest' → 'gonna invest' /ˈɡʌnə ɪnˈvɛst/. Say it as two syllables: GUN-na.",
+    "segmentIndex": 1
+  },
+  {
+    "type": "linking",
+    "originalText": "lean in to",
+    "phonetic": "/liːn ɪn tə/",
+    "koreanPhonetic": "리닌 터",
+    "explanationKo": "'lean'의 /n/ 소리가 'in'의 /ɪ/와 부드럽게 연결되고, 'in'의 /n/이 'to'의 /t/와 자음-자음 연결됩니다. 세 단어가 거의 하나처럼 흘러갑니다.",
+    "practiceGuide": "Connect 'lean-in-to' smoothly: /liːnɪntə/. The /n/ links directly to the next vowel or consonant without pause.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "contraction",
+    "originalText": "we've tracked",
+    "phonetic": "/wiːv trækt/",
+    "koreanPhonetic": "위브 트랙트",
+    "explanationKo": "'we have'가 'we've' /wiːv/로 축약됩니다. /v/ 소리가 'tracked'의 /t/와 바로 연결되어 빠르게 발음됩니다.",
+    "practiceGuide": "Say 'weev tracked' as one unit. Don't pause between the /v/ and /t/ sounds: /wiːvtrækt/.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "elision",
+    "originalText": "most went off",
+    "phonetic": "/moʊs wɛnt ɔːf/",
+    "koreanPhonetic": "모우스 웬트 오프",
+    "explanationKo": "'most'의 /t/가 빠른 말에서 종종 탈락하여 /moʊs/가 됩니다. 'went'의 /t/도 'off' 앞에서 약해질 수 있습니다.",
+    "practiceGuide": "In fast speech, say 'mos went off' — drop the /t/ from 'most'. This is natural in connected speech.",
+    "segmentIndex": 42
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɑːnə/",
+    "koreanPhonetic": "워나",
+    "explanationKo": "'want to'가 빠른 말에서 'wanna' /ˈwɑːnə/로 축약됩니다. 미국 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "Practice: 'want to be' → 'wanna be' /ˈwɑːnəbi/. Keep it as two syllables: WAN-na.",
+    "segmentIndex": 92
+  },
+  {
+    "type": "linking",
+    "originalText": "turns out to be",
+    "phonetic": "/tɜːrnz aʊt tə bi/",
+    "koreanPhonetic": "턴즈 아웃 터 비",
+    "explanationKo": "'turns'의 /z/가 'out'의 모음 /aʊ/와 연결되어 부드럽게 흘러갑니다. 'out'의 /t/는 'to'의 /t/와 겹쳐져 한 번만 발음됩니다.",
+    "practiceGuide": "Link 'turns-out' so the /z/ flows into the vowel: /tɜːrnzaʊt/. Then 'out to' merges the two /t/ sounds: /aʊtə/.",
+    "segmentIndex": 91
+  },
+  {
+    "type": "assimilation",
+    "originalText": "good for",
+    "phonetic": "/ɡʊd fɔːr/",
+    "koreanPhonetic": "굳 포어",
+    "explanationKo": "'good'의 /d/가 'for'의 /f/ 앞에서 약화되어 거의 들리지 않게 됩니다. 유성 파열음 /d/가 무성 마찰음 /f/ 앞에서 무성화되는 현상입니다.",
+    "practiceGuide": "The /d/ in 'good' almost disappears before /f/. Say 'goo-for' with a very light /d/: /ɡʊʔfɔːr/.",
+    "segmentIndex": 86
+  },
+  {
+    "type": "elision",
+    "originalText": "don't just",
+    "phonetic": "/doʊn dʒʌst/",
+    "koreanPhonetic": "도운 저스트",
+    "explanationKo": "'don't'의 /t/가 'just'의 /dʒ/ 앞에서 탈락합니다. 파열음 /t/가 파찰음 /dʒ/ 앞에서 생략되는 자연스러운 현상입니다.",
+    "practiceGuide": "Say 'don-just' dropping the /t/ from 'don't'. The /n/ connects directly to /dʒ/: /doʊndʒʌst/.",
+    "segmentIndex": 69
+  },
+  {
+    "type": "linking",
+    "originalText": "happier and",
+    "phonetic": "/ˈhæpiər ænd/",
+    "koreanPhonetic": "해피어 앤드",
+    "explanationKo": "'happier'의 마지막 /r/ 소리가 'and'의 모음 /æ/와 연결됩니다. 이것은 영어에서 'linking r' 현상으로, 모음 앞에서 /r/이 연결음으로 작용합니다.",
+    "practiceGuide": "Connect the /r/ in 'happier' to the vowel in 'and': /ˈhæpiərænd/. The /r/ acts as a bridge between the two words.",
+    "segmentIndex": 84
+  },
+  {
+    "type": "reduction",
+    "originalText": "that'll",
+    "phonetic": "/ˈðæɾəl/",
+    "koreanPhonetic": "대럴",
+    "explanationKo": "'that will'이 'that'll' /ˈðæɾəl/로 축약됩니다. /t/가 모음 사이에서 탄설음(flap) /ɾ/로 변합니다. 빠른 말에서 매우 자연스러운 발음입니다.",
+    "practiceGuide": "Say 'that'll' as two syllables with a flap: /ˈðæɾəl/ — sounds like 'THAD-ul'. The /t/ becomes a quick tap.",
+    "segmentIndex": 145
+  },
+  {
+    "type": "contraction",
+    "originalText": "it's about time",
+    "phonetic": "/ɪts əˌbaʊt ˈtaɪm/",
+    "koreanPhonetic": "잇츠 어바웃 타임",
+    "explanationKo": "'it is'가 'it's' /ɪts/로 축약됩니다. /ts/ 소리가 'about'의 모음 /ə/와 바로 연결되어 빠르게 흘러갑니다.",
+    "practiceGuide": "Flow 'it's-about' together: /ɪtsəˌbaʊt/. The /ts/ links smoothly to the schwa /ə/ of 'about'.",
+    "segmentIndex": 76
+  },
+  {
+    "type": "linking",
+    "originalText": "close relationships",
+    "phonetic": "/kloʊz rɪˈleɪʃənˌʃɪps/",
+    "koreanPhonetic": "클로우즈 릴레이션십스",
+    "explanationKo": "'close'의 /z/ 소리가 'relationships'의 /r/과 자음-자음으로 연결됩니다. /z/에서 /r/로의 전환이 매끄럽게 이루어집니다.",
+    "practiceGuide": "Link the /z/ at the end of 'close' directly into the /r/ of 'relationships': /kloʊzrɪˈleɪʃənˌʃɪps/.",
+    "segmentIndex": 102
+  },
+  {
+    "type": "assimilation",
+    "originalText": "count on",
+    "phonetic": "/kaʊn ɒn/",
+    "koreanPhonetic": "카운 온",
+    "explanationKo": "'count'의 /t/가 'on'의 모음 앞에서 탈락하고, /n/이 바로 모음과 연결됩니다. /nt/ 뒤에 모음이 오면 /t/가 약화되는 전형적인 현상입니다.",
+    "practiceGuide": "Drop the /t/ in 'count' before 'on': say 'coun-on' /kaʊnɒn/. The /n/ links directly to the vowel.",
+    "segmentIndex": 132
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'd like to",
+    "phonetic": "/aɪd laɪk tə/",
+    "koreanPhonetic": "아이드 라이크 터",
+    "explanationKo": "'I would'가 'I'd' /aɪd/로 축약됩니다. 또한 'to'가 강세 없이 /tə/로 약화됩니다. 격식체에서도 흔히 사용되는 정중한 축약 표현입니다.",
+    "practiceGuide": "Say 'I'd-like-to' as a quick unit: /aɪdlaɪktə/. The 'to' is reduced to a quick schwa sound /tə/.",
+    "segmentIndex": 170
+  }
+]

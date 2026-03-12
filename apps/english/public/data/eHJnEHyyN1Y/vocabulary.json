@@ -1,0 +1,325 @@
+[
+  {
+    "word": "entrepreneur",
+    "phonetic": "/ˌɑːntrəprəˈnɜːr/",
+    "partOfSpeech": "noun",
+    "definition": "A person who organizes and operates a business, taking on financial risk to do so",
+    "meaningKo": "기업가, 사업가",
+    "etymology": "From French 'entreprendre' (to undertake)",
+    "rootBreakdown": "entre- (between/among) + prendre (to take)",
+    "relatedWords": [
+      "entrepreneurial",
+      "entrepreneurship",
+      "enterprise"
+    ],
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "In 1995, a graphic design teacher named Linda Weinman, and also an aspiring entrepreneur,",
+    "contextSentenceKo": "1995년, 그래픽 디자인 교사였던 린다 와인만은 야심 찬 기업가이기도 했는데,"
+  },
+  {
+    "word": "aspiring",
+    "phonetic": "/əˈspaɪərɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Having ambitions to achieve something, typically in a career",
+    "meaningKo": "야심 찬, ~을 열망하는",
+    "etymology": "From Latin 'aspirare' (to breathe upon, seek to reach)",
+    "rootBreakdown": "ad- (toward) + spirare (to breathe)",
+    "relatedWords": [
+      "aspire",
+      "aspiration",
+      "aspirant"
+    ],
+    "isEssential": true,
+    "segmentIndex": 0,
+    "contextSentence": "and also an aspiring entrepreneur,",
+    "contextSentenceKo": "야심 찬 기업가이기도 했는데,"
+  },
+  {
+    "word": "counter-conventional",
+    "phonetic": "/ˌkaʊntər kənˈvenʃənəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Going against established conventions or standard practices",
+    "meaningKo": "반(反)통념적인, 기존 관행에 반하는",
+    "etymology": "From Latin 'contra' (against) + 'conventionalis' (agreeing upon)",
+    "rootBreakdown": "counter- (against) + convention (agreement/custom) + -al (adjective suffix)",
+    "relatedWords": [
+      "unconventional",
+      "conventional",
+      "counterintuitive"
+    ],
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "Linda is the poster child for what I call the counter-conventional mindsets of entrepreneurs.",
+    "contextSentenceKo": "린다는 제가 기업가의 반통념적 사고방식이라 부르는 것의 대표적인 사례입니다."
+  },
+  {
+    "word": "mindset",
+    "phonetic": "/ˈmaɪndset/",
+    "partOfSpeech": "noun",
+    "definition": "A person's way of thinking and their established attitudes or mental inclinations",
+    "meaningKo": "사고방식, 마음가짐",
+    "etymology": "Compound of 'mind' (Old English 'gemynd') + 'set' (fixed position)",
+    "rootBreakdown": "mind (mental faculty) + set (fixed state)",
+    "relatedWords": [
+      "mindful",
+      "mentality",
+      "outlook"
+    ],
+    "isEssential": true,
+    "segmentIndex": 12,
+    "contextSentence": "Now, you might say, John, what do you mean by mindset?",
+    "contextSentenceKo": "여러분은 이렇게 물을 수 있겠죠. 존, 사고방식이란 무슨 뜻인가요?"
+  },
+  {
+    "word": "competency",
+    "phonetic": "/ˈkɒmpɪtənsi/",
+    "partOfSpeech": "noun",
+    "definition": "The ability to do something successfully or efficiently; a skill or capability",
+    "meaningKo": "역량, 능력",
+    "etymology": "From Latin 'competentia' (agreement, symmetry)",
+    "rootBreakdown": "com- (together) + petere (to seek) + -ency (state of)",
+    "relatedWords": [
+      "competent",
+      "compete",
+      "competition"
+    ],
+    "isEssential": true,
+    "segmentIndex": 18,
+    "contextSentence": "We call them core competencies, and we've got to build on them,",
+    "contextSentenceKo": "그것을 핵심 역량이라 부르고, 그것을 기반으로 발전시켜야 합니다."
+  },
+  {
+    "word": "nurture",
+    "phonetic": "/ˈnɜːrtʃər/",
+    "partOfSpeech": "verb",
+    "definition": "To care for and encourage the growth or development of something",
+    "meaningKo": "육성하다, 양육하다",
+    "etymology": "From Latin 'nutritura' (nourishment)",
+    "rootBreakdown": "nutri- (to nourish) + -ture (action/result)",
+    "relatedWords": [
+      "nourish",
+      "nurturing",
+      "nutrition"
+    ],
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "Invest in them, nurture them, make them more robust.",
+    "contextSentenceKo": "투자하고, 육성하고, 더 강하게 만들어야 합니다."
+  },
+  {
+    "word": "robust",
+    "phonetic": "/roʊˈbʌst/",
+    "partOfSpeech": "adjective",
+    "definition": "Strong and healthy; able to withstand adverse conditions",
+    "meaningKo": "강건한, 탄탄한",
+    "etymology": "From Latin 'robustus' (strong, firm), from 'robur' (oak, strength)",
+    "rootBreakdown": "robur (oak/strength) + -ustus (full of)",
+    "relatedWords": [
+      "robustness",
+      "corroborate"
+    ],
+    "isEssential": false,
+    "segmentIndex": 19,
+    "contextSentence": "Invest in them, nurture them, make them more robust.",
+    "contextSentenceKo": "투자하고, 육성하고, 더 강하게 만들어야 합니다."
+  },
+  {
+    "word": "surgical forceps",
+    "phonetic": "/ˈsɜːrdʒɪkəl ˈfɔːrseps/",
+    "partOfSpeech": "noun",
+    "definition": "A medical instrument resembling tongs, used for gripping and holding during surgery",
+    "meaningKo": "수술용 겸자 (집게)",
+    "etymology": "Latin 'forceps' (tongs, pincers), from 'formus' (hot) + 'capere' (to take)",
+    "rootBreakdown": "surgical (of surgery) + forceps (pincers/tongs)",
+    "relatedWords": [
+      "clamp",
+      "tweezers",
+      "tongs"
+    ],
+    "isEssential": false,
+    "segmentIndex": 46,
+    "contextSentence": "Is called a surgical forcep. It's the tool that almost every surgeon in any kind of medical discipline",
+    "contextSentenceKo": "수술용 겸자라고 합니다. 거의 모든 의료 분야의 외과의사가"
+  },
+  {
+    "word": "alloy",
+    "phonetic": "/ˈælɔɪ/",
+    "partOfSpeech": "noun",
+    "definition": "A metal made by combining two or more metallic elements to create desired properties",
+    "meaningKo": "합금",
+    "etymology": "From Old French 'aloi' (combining), from Latin 'alligare' (to bind)",
+    "rootBreakdown": "ad- (to) + ligare (to bind)",
+    "relatedWords": [
+      "amalgam",
+      "blend",
+      "composite"
+    ],
+    "isEssential": false,
+    "segmentIndex": 51,
+    "contextSentence": "that's a problem I think I can solve with a new silver nickel alloy that he had developed.",
+    "contextSentenceKo": "자신이 개발한 새로운 은-니켈 합금으로 그 문제를 해결할 수 있다고 생각했습니다."
+  },
+  {
+    "word": "lateral",
+    "phonetic": "/ˈlætərəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Of, at, toward, or from the side or sides",
+    "meaningKo": "측면의, 옆의",
+    "etymology": "From Latin 'lateralis', from 'latus' (side)",
+    "rootBreakdown": "later- (side) + -al (relating to)",
+    "relatedWords": [
+      "bilateral",
+      "unilateral",
+      "collateral"
+    ],
+    "isEssential": false,
+    "segmentIndex": 73,
+    "contextSentence": "So we're going to build a better shoe that's going to have better lateral stability,",
+    "contextSentenceKo": "그래서 측면 안정성이 더 좋고 발판이 더 넓은 더 좋은 신발을 만들 겁니다."
+  },
+  {
+    "word": "shin splints",
+    "phonetic": "/ʃɪn splɪnts/",
+    "partOfSpeech": "noun",
+    "definition": "Pain along the shin bone caused by excessive running or physical activity",
+    "meaningKo": "정강이 통증, 경골 과로성 골막염",
+    "etymology": "From Old English 'scinu' (shin) + Middle Dutch 'splinte' (splint)",
+    "rootBreakdown": "shin (front of lower leg) + splint (sharp pain/break)",
+    "relatedWords": [
+      "stress fracture",
+      "tendinitis"
+    ],
+    "isEssential": false,
+    "segmentIndex": 71,
+    "contextSentence": "and they get shin splints. Well, Knight and Bowerman said, we need better shoes,",
+    "contextSentenceKo": "정강이 통증이 생깁니다. 나이트와 바우어만은 더 좋은 신발이 필요하다고 했습니다."
+  },
+  {
+    "word": "awash",
+    "phonetic": "/əˈwɑːʃ/",
+    "partOfSpeech": "adjective",
+    "definition": "Covered or flooded with something; having an abundance of",
+    "meaningKo": "넘쳐나는, 가득한",
+    "etymology": "From 'a-' (on) + 'wash' (Old English 'wæscan')",
+    "rootBreakdown": "a- (in a state of) + wash (flood/cover with water)",
+    "relatedWords": [
+      "flooded",
+      "overflowing",
+      "abundant"
+    ],
+    "isEssential": false,
+    "segmentIndex": 82,
+    "contextSentence": "Big companies today are awash in cash.",
+    "contextSentenceKo": "오늘날 대기업들은 현금이 넘쳐납니다."
+  },
+  {
+    "word": "lifeblood",
+    "phonetic": "/ˈlaɪfblʌd/",
+    "partOfSpeech": "noun",
+    "definition": "The indispensable factor or influence that gives something its strength and vitality",
+    "meaningKo": "생명줄, 원동력, 핵심 요소",
+    "etymology": "Compound of 'life' (Old English 'lif') + 'blood' (Old English 'blod')",
+    "rootBreakdown": "life (existence) + blood (vital fluid)",
+    "relatedWords": [
+      "essence",
+      "backbone",
+      "cornerstone"
+    ],
+    "isEssential": true,
+    "segmentIndex": 86,
+    "contextSentence": "Cash is the lifeblood of the entrepreneurial venture.",
+    "contextSentenceKo": "현금은 기업 벤처의 생명줄입니다."
+  },
+  {
+    "word": "dividend",
+    "phonetic": "/ˈdɪvɪdend/",
+    "partOfSpeech": "noun",
+    "definition": "A sum of money paid regularly by a company to its shareholders from its profits",
+    "meaningKo": "배당금",
+    "etymology": "From Latin 'dividendum' (thing to be divided)",
+    "rootBreakdown": "divid- (to divide) + -end (thing to be)",
+    "relatedWords": [
+      "yield",
+      "payout",
+      "return"
+    ],
+    "isEssential": true,
+    "segmentIndex": 83,
+    "contextSentence": "Merck in 2018 spent all this money giving money back to shareholders through stock buybacks and dividends,",
+    "contextSentenceKo": "머크는 2018년에 자사주 매입과 배당을 통해 주주들에게 이 많은 돈을 돌려주었고,"
+  },
+  {
+    "word": "condone",
+    "phonetic": "/kənˈdoʊn/",
+    "partOfSpeech": "verb",
+    "definition": "To accept and allow behavior that is considered morally wrong or offensive to continue",
+    "meaningKo": "용인하다, 묵인하다",
+    "etymology": "From Latin 'condonare' (to give up, remit)",
+    "rootBreakdown": "con- (together/completely) + donare (to give)",
+    "relatedWords": [
+      "pardon",
+      "forgive",
+      "overlook"
+    ],
+    "isEssential": true,
+    "segmentIndex": 135,
+    "contextSentence": "Now I don't condone many of the things that Uber did along the journey,",
+    "contextSentenceKo": "우버가 여정 중에 한 많은 일들을 옹호하지는 않습니다."
+  },
+  {
+    "word": "ambiguous",
+    "phonetic": "/æmˈbɪɡjuəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Open to more than one interpretation; not having one obvious meaning; unclear",
+    "meaningKo": "모호한, 애매한",
+    "etymology": "From Latin 'ambiguus' (having double meaning), from 'ambigere' (to go around)",
+    "rootBreakdown": "ambi- (both/around) + agere (to drive/act)",
+    "relatedWords": [
+      "ambiguity",
+      "vague",
+      "equivocal"
+    ],
+    "isEssential": true,
+    "segmentIndex": 137,
+    "contextSentence": "when the regulations are perhaps ambiguous or haven't sort of considered what could be done today digitally,",
+    "contextSentenceKo": "규제가 아마도 모호하거나 오늘날 디지털로 무엇을 할 수 있는지 아직 고려하지 못했을 때,"
+  },
+  {
+    "word": "embody",
+    "phonetic": "/ɪmˈbɑːdi/",
+    "partOfSpeech": "verb",
+    "definition": "To give a body to; to represent or express something in a tangible or visible form",
+    "meaningKo": "체화하다, 구현하다",
+    "etymology": "From 'em-' (in) + 'body' (Old English 'bodig')",
+    "rootBreakdown": "em- (to put into) + body (physical form)",
+    "relatedWords": [
+      "embodyment",
+      "incarnate",
+      "personify"
+    ],
+    "isEssential": true,
+    "segmentIndex": 139,
+    "contextSentence": "Which of these mindsets are embodied in you today?",
+    "contextSentenceKo": "이 사고방식 중 오늘 당신 안에 이미 체화된 것은 무엇인가요?"
+  },
+  {
+    "word": "pertinent",
+    "phonetic": "/ˈpɜːrtɪnənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Relevant or applicable to a particular matter; apposite",
+    "meaningKo": "적절한, 관련 있는",
+    "etymology": "From Latin 'pertinere' (to pertain, relate to)",
+    "rootBreakdown": "per- (thoroughly) + tinere (to hold)",
+    "relatedWords": [
+      "pertinence",
+      "relevant",
+      "applicable",
+      "impertinent"
+    ],
+    "isEssential": false,
+    "segmentIndex": 142,
+    "contextSentence": "And more pertinently today, is there a challenge you face today",
+    "contextSentenceKo": "그리고 더 현실적으로 오늘, 이 사고방식 중 하나나 몇 개가"
+  }
+]

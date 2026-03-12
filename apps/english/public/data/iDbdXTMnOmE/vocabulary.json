@@ -1,0 +1,335 @@
+[
+  {
+    "word": "scheduler",
+    "phonetic": "/ˈskɛdʒuːlər/",
+    "partOfSpeech": "noun",
+    "definition": "A program that arranges jobs or tasks in an optimal order for a computer's CPU to execute",
+    "meaningKo": "작업을 최적의 순서로 배치하는 프로그램, 스케줄러",
+    "etymology": "From Latin 'schedula' (small piece of paper) + '-er' (agent suffix)",
+    "rootBreakdown": "schedule (일정) + -er (하는 것/사람)",
+    "relatedWords": [
+      "schedule",
+      "scheduling",
+      "reschedule"
+    ],
+    "isEssential": true,
+    "segmentIndex": 7,
+    "contextSentence": "There was a bug, it turned out, in its scheduler.",
+    "contextSentenceKo": "알고 보니 스케줄러에 버그가 있었습니다."
+  },
+  {
+    "word": "procrastinating",
+    "phonetic": "/prəˈkræstɪneɪtɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Delaying or postponing action; putting off doing something",
+    "meaningKo": "꾸물거리다, 미루다",
+    "etymology": "From Latin 'procrastinare': pro- (forward) + crastinus (of tomorrow)",
+    "rootBreakdown": "pro- (앞으로) + crastin- (내일의) + -ate (동사 접미사)",
+    "relatedWords": [
+      "procrastination",
+      "procrastinator",
+      "delay",
+      "postpone"
+    ],
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "Pathfinder was, in effect, procrastinating,",
+    "contextSentenceKo": "패스파인더는 사실상 꾸물거리고 있었는데,"
+  },
+  {
+    "word": "quadratic",
+    "phonetic": "/kwɒˈdrætɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Involving the second power of a quantity; growing at a rate proportional to the square of the input",
+    "meaningKo": "이차의, 제곱에 비례하는",
+    "etymology": "From Latin 'quadratus' (squared), from 'quattuor' (four)",
+    "rootBreakdown": "quadr- (네, 제곱) + -atic (형용사 접미사)",
+    "relatedWords": [
+      "quadrant",
+      "quadrilateral",
+      "square"
+    ],
+    "isEssential": false,
+    "segmentIndex": 23,
+    "contextSentence": "This is what's known as a quadratic time algorithm.",
+    "contextSentenceKo": "이것은 이차 시간 알고리즘이라고 알려진 것입니다."
+  },
+  {
+    "word": "algorithm",
+    "phonetic": "/ˈælɡərɪðəm/",
+    "partOfSpeech": "noun",
+    "definition": "A process or set of rules to be followed in calculations or problem-solving operations",
+    "meaningKo": "알고리즘, 문제 해결을 위한 절차나 규칙의 집합",
+    "etymology": "From the name of Persian mathematician al-Khwarizmi (9th century)",
+    "rootBreakdown": "al-Khwarizmi (페르시아 수학자 이름에서 유래)",
+    "relatedWords": [
+      "algorithmic",
+      "heuristic",
+      "computation"
+    ],
+    "isEssential": true,
+    "segmentIndex": 23,
+    "contextSentence": "This is what's known as a quadratic time algorithm.",
+    "contextSentenceKo": "이것은 이차 시간 알고리즘이라고 알려진 것입니다."
+  },
+  {
+    "word": "counterintuitive",
+    "phonetic": "/ˌkaʊntərɪnˈtjuːɪtɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Contrary to what one would intuitively expect; against common sense",
+    "meaningKo": "직관에 반하는, 상식에 어긋나는",
+    "etymology": "counter- (against) + intuitive (based on feelings rather than facts)",
+    "rootBreakdown": "counter- (반대) + in- (안으로) + tu- (보다) + -itive (형용사 접미사)",
+    "relatedWords": [
+      "intuitive",
+      "counterproductive",
+      "paradoxical"
+    ],
+    "isEssential": true,
+    "segmentIndex": 30,
+    "contextSentence": "The programmers' counterintuitive solution was to replace this full ranking",
+    "contextSentenceKo": "프로그래머들의 직관에 반하는 해결책은 이 완전한 순위 매기기를 대체하는 것이었습니다."
+  },
+  {
+    "word": "prevalent",
+    "phonetic": "/ˈprɛvələnt/",
+    "partOfSpeech": "adjective",
+    "definition": "Widespread in a particular area or at a particular time; common",
+    "meaningKo": "널리 퍼진, 보편적인",
+    "etymology": "From Latin 'praevalere': prae- (before) + valere (to be strong)",
+    "rootBreakdown": "pre- (앞서) + val- (힘있는) + -ent (형용사 접미사)",
+    "relatedWords": [
+      "prevail",
+      "prevalence",
+      "predominant"
+    ],
+    "isEssential": true,
+    "segmentIndex": 41,
+    "contextSentence": "Has to do with one of the most prevalent features of modern life—interruptions.",
+    "contextSentenceKo": "현대 생활의 가장 보편적인 특징 중 하나인 방해와 관련이 있습니다."
+  },
+  {
+    "word": "context switch",
+    "phonetic": "/ˈkɒntɛkst swɪtʃ/",
+    "partOfSpeech": "noun",
+    "definition": "The process of storing and restoring the state of a task so that execution can be resumed later; also used metaphorically for human task-switching",
+    "meaningKo": "컨텍스트 스위치, 작업 전환 (한 작업의 상태를 저장하고 다른 작업으로 넘어가는 과정)",
+    "etymology": "context (from Latin 'contextus', weaving together) + switch (from Middle Dutch 'swijch', flexible twig)",
+    "rootBreakdown": "con- (함께) + text- (짜다) + switch (전환하다)",
+    "relatedWords": [
+      "multitasking",
+      "task-switching",
+      "toggle"
+    ],
+    "isEssential": true,
+    "segmentIndex": 43,
+    "contextSentence": "It has to do what's called a context switch—bookmarking its place in one task,",
+    "contextSentenceKo": "컨텍스트 스위치라고 불리는 것을 해야 하는데, 한 작업에서 현재 위치를 북마크하고,"
+  },
+  {
+    "word": "trade-off",
+    "phonetic": "/ˈtreɪd ɒf/",
+    "partOfSpeech": "noun",
+    "definition": "A balance achieved between two desirable but incompatible features; a compromise",
+    "meaningKo": "상충 관계, 균형을 맞추기 위한 절충",
+    "etymology": "trade (exchange) + off (away), meaning exchanging one benefit for another",
+    "rootBreakdown": "trade (교환) + off (떨어져)",
+    "relatedWords": [
+      "compromise",
+      "balance",
+      "sacrifice",
+      "exchange"
+    ],
+    "isEssential": true,
+    "segmentIndex": 46,
+    "contextSentence": "The insight here is that there's a fundamental trade-off between productivity and responsiveness.",
+    "contextSentenceKo": "여기서의 핵심 통찰은 생산성과 반응성 사이에 근본적인 상충 관계가 있다는 것입니다."
+  },
+  {
+    "word": "responsiveness",
+    "phonetic": "/rɪˈspɒnsɪvnəs/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of reacting quickly and positively to requests or stimuli",
+    "meaningKo": "반응성, 신속하게 대응하는 능력",
+    "etymology": "From Latin 'respondere' (to answer back) + -ive + -ness",
+    "rootBreakdown": "re- (되돌아) + spond- (약속하다) + -ive (형용사) + -ness (명사)",
+    "relatedWords": [
+      "responsive",
+      "respond",
+      "response",
+      "responsible"
+    ],
+    "isEssential": true,
+    "segmentIndex": 46,
+    "contextSentence": "The insight here is that there's a fundamental trade-off between productivity and responsiveness.",
+    "contextSentenceKo": "여기서의 핵심 통찰은 생산성과 반응성 사이에 근본적인 상충 관계가 있다는 것입니다."
+  },
+  {
+    "word": "coalescing",
+    "phonetic": "/ˌkoʊəˈlɛsɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Coming together to form one mass or whole; merging",
+    "meaningKo": "합쳐지다, 하나로 뭉치다",
+    "etymology": "From Latin 'coalescere': co- (together) + alescere (to grow up)",
+    "rootBreakdown": "co- (함께) + al- (자라다) + -esce (되다) + -ing",
+    "relatedWords": [
+      "coalition",
+      "coalesce",
+      "merge",
+      "consolidate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 55,
+    "contextSentence": "In computer science, this idea goes by the name of interrupt coalescing.",
+    "contextSentenceKo": "컴퓨터 과학에서 이 개념은 인터럽트 코얼레싱이라는 이름으로 불립니다."
+  },
+  {
+    "word": "transmitting",
+    "phonetic": "/trænzˈmɪtɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Sending or conveying something (signals, data, images) from one place to another",
+    "meaningKo": "전송하다, 송신하다",
+    "etymology": "From Latin 'transmittere': trans- (across) + mittere (to send)",
+    "rootBreakdown": "trans- (가로질러) + mit- (보내다) + -ing",
+    "relatedWords": [
+      "transmission",
+      "transmitter",
+      "emit",
+      "submit"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "And began transmitting incredible, iconic images back to Earth.",
+    "contextSentenceKo": "놀라운 상징적인 이미지들을 지구로 전송하기 시작했습니다."
+  },
+  {
+    "word": "consolation",
+    "phonetic": "/ˌkɒnsəˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Comfort received after a loss or disappointment",
+    "meaningKo": "위안, 위로",
+    "etymology": "From Latin 'consolari': con- (together) + solari (to comfort)",
+    "rootBreakdown": "con- (함께) + sol- (위로하다) + -ation (명사 접미사)",
+    "relatedWords": [
+      "console",
+      "solace",
+      "comfort"
+    ],
+    "isEssential": false,
+    "segmentIndex": 13,
+    "contextSentence": "This should give us, if nothing else, some measure of consolation.",
+    "contextSentenceKo": "이것은 우리에게 다른 것은 몰라도 어느 정도의 위안을 줄 것입니다."
+  },
+  {
+    "word": "overwhelmed",
+    "phonetic": "/ˌoʊvərˈwɛlmd/",
+    "partOfSpeech": "adjective",
+    "definition": "Completely overcome in mind or feeling; unable to cope with excessive demands",
+    "meaningKo": "압도된, 감당할 수 없는",
+    "etymology": "over- (above, beyond) + whelm (to submerge, from Middle English)",
+    "rootBreakdown": "over- (넘어서) + whelm (뒤집어 덮다)",
+    "relatedWords": [
+      "overwhelming",
+      "overpower",
+      "inundate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 14,
+    "contextSentence": "Even computers get overwhelmed sometimes.",
+    "contextSentenceKo": "컴퓨터도 때때로 과부하에 걸립니다."
+  },
+  {
+    "word": "prioritizing",
+    "phonetic": "/praɪˈɒrɪtaɪzɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Determining the order for dealing with a series of items according to their relative importance",
+    "meaningKo": "우선순위를 정하다, 중요도 순으로 배열하다",
+    "etymology": "From Latin 'prior' (former, earlier) + -ity + -ize + -ing",
+    "rootBreakdown": "prior- (먼저의) + -ity (상태) + -ize (만들다) + -ing",
+    "relatedWords": [
+      "priority",
+      "prior",
+      "prioritization"
+    ],
+    "isEssential": true,
+    "segmentIndex": 17,
+    "contextSentence": "One of the first insights is that all the time you spend prioritizing your work",
+    "contextSentenceKo": "첫 번째 통찰 중 하나는, 업무의 우선순위를 정하는 데 쓰는 모든 시간이"
+  },
+  {
+    "word": "meltdown",
+    "phonetic": "/ˈmɛltdaʊn/",
+    "partOfSpeech": "noun",
+    "definition": "A disastrous collapse or breakdown; originally referring to a nuclear reactor failure",
+    "meaningKo": "붕괴, 과부하 (원래 원자로 노심 용융을 뜻하나 비유적으로 시스템 붕괴를 의미)",
+    "etymology": "melt (to dissolve) + down (downward), originally nuclear terminology",
+    "rootBreakdown": "melt (녹다) + down (아래로)",
+    "relatedWords": [
+      "breakdown",
+      "collapse",
+      "crash",
+      "failure"
+    ],
+    "isEssential": false,
+    "segmentIndex": 35,
+    "contextSentence": "Could lead to a meltdown, waking up to an inbox three times fuller than normal",
+    "contextSentenceKo": "과부하로 이어질 수 있는데, 평소보다 세 배 가득 찬 받은 편지함은"
+  },
+  {
+    "word": "chronological",
+    "phonetic": "/ˌkrɒnəˈlɒdʒɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Arranged in the order of time in which events occurred",
+    "meaningKo": "시간순의, 연대기적인",
+    "etymology": "From Greek 'chronos' (time) + 'logos' (study) + -ical",
+    "rootBreakdown": "chrono- (시간) + log- (학문) + -ical (형용사 접미사)",
+    "relatedWords": [
+      "chronicle",
+      "chronology",
+      "chronic",
+      "synchronize"
+    ],
+    "isEssential": true,
+    "segmentIndex": 37,
+    "contextSentence": "You'd be better off replying in chronological order or even at random.",
+    "contextSentenceKo": "시간순으로 답장하거나 심지어 무작위로 하는 것이 더 나을 것입니다."
+  },
+  {
+    "word": "deferring",
+    "phonetic": "/dɪˈfɜːrɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "definition": "Postponing or delaying an action or event to a later time",
+    "meaningKo": "미루다, 연기하다",
+    "etymology": "From Latin 'differre': dis- (apart) + ferre (to carry)",
+    "rootBreakdown": "de-/dis- (떨어져) + fer- (나르다) + -ing",
+    "relatedWords": [
+      "defer",
+      "deferment",
+      "deferred",
+      "transfer"
+    ],
+    "isEssential": true,
+    "segmentIndex": 60,
+    "contextSentence": "This is because deferring interruptions lets a system check everything at once,",
+    "contextSentenceKo": "인터럽트를 미루면 시스템이 모든 것을 한꺼번에 확인할 수 있고,"
+  },
+  {
+    "word": "fluidly",
+    "phonetic": "/ˈfluːɪdli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a smooth, flowing manner without interruption or awkwardness",
+    "meaningKo": "유연하게, 물 흐르듯이",
+    "etymology": "From Latin 'fluidus' (flowing) + -ly",
+    "rootBreakdown": "flu- (흐르다) + -id (상태) + -ly (부사 접미사)",
+    "relatedWords": [
+      "fluid",
+      "fluidity",
+      "fluent",
+      "flow"
+    ],
+    "isEssential": false,
+    "segmentIndex": 10,
+    "contextSentence": "Done right, computers move so fluidly between their various responsibilities,",
+    "contextSentenceKo": "제대로 작동하면 컴퓨터는 다양한 책임들 사이를 매우 유연하게 이동하여"
+  }
+]

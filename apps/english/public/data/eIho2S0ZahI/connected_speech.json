@@ -1,0 +1,128 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒnə/",
+    "koreanPhonetic": "워너",
+    "explanationKo": "'want to'가 빠른 발화에서 /wɒnə/로 축약됩니다. 't'와 'to'가 합쳐져 하나의 음절처럼 발음됩니다.",
+    "practiceGuide": "'워너'로 빠르게 발음하세요. 'I wanna go' → '아이 워너 고'로 연습합니다.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "linking",
+    "originalText": "speak powerfully",
+    "phonetic": "/spiːk_paʊəfəli/",
+    "koreanPhonetic": "스피크파워풀리",
+    "explanationKo": "'speak'의 마지막 자음 /k/가 다음 단어 'powerfully'의 /p/와 매끄럽게 연결됩니다. 두 파열음이 연속될 때 첫 번째는 파열 없이(unreleased) 발음됩니다.",
+    "practiceGuide": "'스피'에서 멈추지 말고 바로 '크파워풀리'로 이어가세요. /k/를 터뜨리지 않고 바로 /p/로 넘어갑니다.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "reduction",
+    "originalText": "going to",
+    "phonetic": "/ˈɡʌnə/",
+    "koreanPhonetic": "거나",
+    "explanationKo": "'going to'가 빠른 발화에서 'gonna' /ɡʌnə/로 축약됩니다. 미래 시제를 나타내는 매우 흔한 축약입니다.",
+    "practiceGuide": "'거나'로 빠르게 발음하세요. 'I'm gonna show you' → '아임 거나 쇼유'로 연습합니다.",
+    "segmentIndex": 70
+  },
+  {
+    "type": "linking",
+    "originalText": "fall into",
+    "phonetic": "/fɔːl_ɪntə/",
+    "koreanPhonetic": "폴린투",
+    "explanationKo": "'fall'의 마지막 /l/이 'into'의 첫 모음 /ɪ/와 자연스럽게 연결됩니다. 자음+모음 연음(linking)의 대표적인 예입니다.",
+    "practiceGuide": "'폴'과 '인투'를 끊지 말고 '폴린투'로 이어서 발음하세요. /l/이 다음 모음에 연결됩니다.",
+    "segmentIndex": 10
+  },
+  {
+    "type": "elision",
+    "originalText": "perfectly well",
+    "phonetic": "/ˈpɜːfɪkli wɛl/",
+    "koreanPhonetic": "퍼픽리 웰",
+    "explanationKo": "'perfectly'의 /t/가 탈락합니다. /kt/ 자음군에서 /t/가 생략되어 /ˈpɜːfɪkli/로 발음됩니다.",
+    "practiceGuide": "'퍼펙틀리'가 아닌 '퍼픽리'로 발음하세요. t를 생략하고 k에서 바로 l로 넘어갑니다.",
+    "segmentIndex": 12
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't take",
+    "phonetic": "/dəʊn(t)_teɪk/",
+    "koreanPhonetic": "돈테이크",
+    "explanationKo": "'don't'의 마지막 /t/와 'take'의 첫 /t/가 만나면 하나의 /t/로 합쳐집니다. 같은 자음이 연속될 때 하나로 발음하는 동화 현상입니다.",
+    "practiceGuide": "'돈트 테이크'가 아니라 '돈테이크'로 한 번만 /t/를 발음하세요.",
+    "segmentIndex": 29
+  },
+  {
+    "type": "reduction",
+    "originalText": "sort of",
+    "phonetic": "/ˈsɔːrɾəv/",
+    "koreanPhonetic": "소러브",
+    "explanationKo": "'sort of'가 빠른 발화에서 't'가 플랩(flap)으로 바뀌고 'of'의 /v/가 약화되어 한 단어처럼 발음됩니다.",
+    "practiceGuide": "두 단어를 끊지 말고 '소러브'로 빠르게 이어서 발음하세요.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "linking",
+    "originalText": "move away",
+    "phonetic": "/muːv_əˈweɪ/",
+    "koreanPhonetic": "무버웨이",
+    "explanationKo": "'move'의 마지막 자음 /v/가 'away'의 첫 모음 /ə/와 자연스럽게 연결됩니다. 자음으로 끝나는 단어 뒤에 모음이 오면 연음됩니다.",
+    "practiceGuide": "'무브'에서 끊지 말고 '무버웨이'로 이어가세요. /v/ 발음을 유지하면서 바로 모음으로 넘어갑니다.",
+    "segmentIndex": 6
+  },
+  {
+    "type": "reduction",
+    "originalText": "lots of",
+    "phonetic": "/lɒtsəv/",
+    "koreanPhonetic": "랏서브",
+    "explanationKo": "'lots of'에서 'of'가 /əv/로 약화되어 'lots'와 하나의 단어처럼 연결됩니다. 기능어 'of'는 거의 항상 약하게 발음됩니다.",
+    "practiceGuide": "'랏스 오브'가 아닌 '랏서브'로 빠르게 이어 발음하세요.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "elision",
+    "originalText": "most of the time",
+    "phonetic": "/məʊs(t) əv ðə taɪm/",
+    "koreanPhonetic": "모스어브더타임",
+    "explanationKo": "'most'의 마지막 /t/가 자주 탈락합니다. 자음 클러스터 /st/ 뒤에 모음이 와도 /t/가 생략되는 경우가 흔합니다.",
+    "practiceGuide": "'모스트'의 't'를 탈락시키고 '모스'에서 바로 '어브'로 넘어가세요.",
+    "segmentIndex": 69
+  },
+  {
+    "type": "linking",
+    "originalText": "an amazing",
+    "phonetic": "/ən_əˈmeɪzɪŋ/",
+    "koreanPhonetic": "어너메이징",
+    "explanationKo": "'an'의 /n/이 'amazing'의 첫 모음 /ə/와 연결되어 '어너메이징'처럼 들립니다. 관사와 다음 단어의 연음은 매우 흔합니다.",
+    "practiceGuide": "'언 어메이징'이 아니라 '어너메이징'으로 끊김 없이 발음하세요.",
+    "segmentIndex": 64
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in between",
+    "phonetic": "/ɪm bɪˈtwiːn/",
+    "koreanPhonetic": "임비트윈",
+    "explanationKo": "'in'의 /n/이 뒤따르는 양순음(bilabial) /b/ 앞에서 /m/으로 동화됩니다. 비음이 다음 자음의 조음 위치에 동화되는 현상입니다.",
+    "practiceGuide": "'인 비트윈'이 아니라 '임비트윈'으로 발음하세요. /n/을 /m/으로 바꿔 입술을 닫고 발음합니다.",
+    "segmentIndex": 70
+  },
+  {
+    "type": "reduction",
+    "originalText": "you're",
+    "phonetic": "/jɔː/",
+    "koreanPhonetic": "요",
+    "explanationKo": "'you are'가 'you're'로 축약되고, 빠른 발화에서는 /jɔː/ 한 음절로 더욱 줄어듭니다.",
+    "practiceGuide": "'유 아'가 아닌 '요'에 가깝게 한 음절로 빠르게 발음하세요. 'You're getting really good' → '요 게링 리얼리 굿'",
+    "segmentIndex": 115
+  },
+  {
+    "type": "linking",
+    "originalText": "stand on",
+    "phonetic": "/stænd_ɒn/",
+    "koreanPhonetic": "스탠돈",
+    "explanationKo": "'stand'의 마지막 /d/가 'on'의 첫 모음 /ɒ/와 연결됩니다. /d/가 다음 모음과 연결되면서 한 단어처럼 들립니다.",
+    "practiceGuide": "'스탠드 온'이 아니라 '스탠돈'으로 연결해서 발음하세요.",
+    "segmentIndex": 42
+  }
+]

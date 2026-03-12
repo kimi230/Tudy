@@ -1,0 +1,307 @@
+[
+  {
+    "pattern": "Past Simple for narrative storytelling (과거 시제 서사)",
+    "explanation": "The past simple tense is used to narrate completed events in sequence, common in storytelling and case studies. It establishes a clear timeline of what happened.",
+    "explanationKo": "과거 단순 시제는 완료된 사건을 순서대로 서술할 때 사용됩니다. 스토리텔링이나 사례 연구에서 흔히 사용되며 명확한 시간순서를 확립합니다.",
+    "examples": [
+      {
+        "sentence": "She discovered it could be much, much more.",
+        "translation": "그녀는 이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다."
+      },
+      {
+        "sentence": "So she moved all of her teaching online.",
+        "translation": "그래서 그녀는 모든 교육을 온라인으로 옮겼습니다."
+      },
+      {
+        "sentence": "The business was sold to LinkedIn.",
+        "translation": "이 사업은 링크드인에 매각되었습니다."
+      },
+      {
+        "sentence": "John Thorne built a fantastic business, sold it some years later to Stryker.",
+        "translation": "존 손은 환상적인 사업을 구축했고 몇 년 후 스트라이커에 매각했습니다."
+      }
+    ],
+    "examplesKo": [
+      "그녀는 이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다.",
+      "그래서 그녀는 모든 교육을 온라인으로 옮겼습니다.",
+      "이 사업은 링크드인에 매각되었습니다.",
+      "존 손은 환상적인 사업을 구축했고 몇 년 후 스트라이커에 매각했습니다."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Passive Voice (수동태)",
+    "explanation": "The passive voice ('be' + past participle) is used when the action is more important than the actor, or when the actor is unknown or less relevant. Common in business and academic contexts.",
+    "explanationKo": "수동태('be' + 과거분사)는 행위 자체가 행위자보다 중요하거나, 행위자가 불명확하거나 덜 중요할 때 사용됩니다. 비즈니스와 학술 맥락에서 자주 쓰입니다.",
+    "examples": [
+      {
+        "sentence": "The business was sold to LinkedIn, who renamed it LinkedIn Learning.",
+        "translation": "이 사업은 링크드인에 매각되었고, 링크드인 러닝으로 이름이 바뀌었습니다."
+      },
+      {
+        "sentence": "the digital tools that were being developed at that time",
+        "translation": "당시 개발되고 있던 디지털 도구들"
+      },
+      {
+        "sentence": "running shoes in those days were really made for sprinters",
+        "translation": "당시 러닝화는 실제로 단거리 선수용이었습니다"
+      }
+    ],
+    "examplesKo": [
+      "이 사업은 링크드인에 매각되었고, 링크드인 러닝으로 이름이 바뀌었습니다.",
+      "당시 개발되고 있던 디지털 도구들",
+      "당시 러닝화는 실제로 단거리 선수용이었습니다"
+    ],
+    "segmentIndex": 6
+  },
+  {
+    "pattern": "Modal verb 'could' for past ability and possibility (과거 능력/가능성의 could)",
+    "explanation": "'Could' is used to express past ability or past possibility. It indicates something was possible or someone had the ability to do something in the past.",
+    "explanationKo": "'could'는 과거의 능력이나 가능성을 표현할 때 사용됩니다. 과거에 무언가가 가능했거나 누군가가 할 수 있었음을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "She discovered it could be much, much more.",
+        "translation": "그녀는 이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다."
+      },
+      {
+        "sentence": "he could run almost not quite a four minute mile",
+        "translation": "그는 거의 4분 마일에 근접할 수 있었습니다."
+      },
+      {
+        "sentence": "could we put televisions in the training room of all my stores",
+        "translation": "우리 매장 교육실에 텔레비전을 설치할 수 있을까요"
+      }
+    ],
+    "examplesKo": [
+      "그녀는 이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다.",
+      "그는 거의 4분 마일에 근접할 수 있었습니다.",
+      "우리 매장 교육실에 텔레비전을 설치할 수 있을까요"
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Second Conditional (가정법 과거 / 2차 조건문)",
+    "explanation": "The second conditional (if + past simple, would + base verb) is used for hypothetical or unlikely situations. In spoken English, 'would' is often contracted or implied.",
+    "explanationKo": "2차 조건문(if + 과거 시제, would + 동사원형)은 가상의 또는 실현 가능성이 낮은 상황을 나타낼 때 사용됩니다. 구어체에서 'would'는 종종 축약되거나 암시됩니다.",
+    "examples": [
+      {
+        "sentence": "wouldn't it be cool if we had them on the sales floor?",
+        "translation": "매장 판매 구역에 있으면 더 좋지 않겠어요?"
+      },
+      {
+        "sentence": "Wouldn't you like to build your entrepreneurial venture with that kind of business model?",
+        "translation": "이런 비즈니스 모델로 기업을 세우고 싶지 않으세요?"
+      }
+    ],
+    "examplesKo": [
+      "매장 판매 구역에 있으면 더 좋지 않겠어요?",
+      "이런 비즈니스 모델로 기업을 세우고 싶지 않으세요?"
+    ],
+    "segmentIndex": 31
+  },
+  {
+    "pattern": "Relative Clauses with 'who/that/which' (관계절)",
+    "explanation": "Relative clauses provide additional information about a noun. 'Who' is used for people, 'which/that' for things. They can be defining (essential) or non-defining (extra information, set off by commas).",
+    "explanationKo": "관계절은 명사에 대한 추가 정보를 제공합니다. 'who'는 사람에, 'which/that'은 사물에 사용됩니다. 제한적(필수 정보) 또는 비제한적(추가 정보, 쉼표로 구분) 관계절이 있습니다.",
+    "examples": [
+      {
+        "sentence": "a graphic design teacher named Linda Weinman, and also an aspiring entrepreneur,",
+        "translation": "그래픽 디자인 교사였던 린다 와인만은 야심 찬 기업가이기도 했는데,"
+      },
+      {
+        "sentence": "The business was sold to LinkedIn, who renamed it LinkedIn Learning",
+        "translation": "이 사업은 링크드인에 매각되었고, 링크드인이 링크드인 러닝으로 이름을 바꿨습니다"
+      },
+      {
+        "sentence": "for Tristram Mayhew and Rebecca Mayhew, his wife, who built a wonderful business",
+        "translation": "트리스트람 메이휴와 그의 아내 레베카 메이휴는 멋진 사업을 만들었는데"
+      }
+    ],
+    "examplesKo": [
+      "그래픽 디자인 교사였던 린다 와인만은 야심 찬 기업가이기도 했는데,",
+      "이 사업은 링크드인에 매각되었고, 링크드인이 링크드인 러닝으로 이름을 바꿨습니다",
+      "트리스트람 메이휴와 그의 아내 레베카 메이휴는 멋진 사업을 만들었는데"
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Present Perfect for results relevant to now (현재완료)",
+    "explanation": "The present perfect (have/has + past participle) connects past actions to the present. It is used when the time is unspecified or the result is still relevant now.",
+    "explanationKo": "현재완료(have/has + 과거분사)는 과거의 행동을 현재와 연결합니다. 시점이 불특정하거나 결과가 현재에도 여전히 관련이 있을 때 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "He had already reinvented his business twice",
+        "translation": "그는 이미 사업을 두 번 재창조했습니다"
+      },
+      {
+        "sentence": "had never operated outside Sao Paulo",
+        "translation": "상파울루 밖에서 일해본 적이 없었습니다"
+      },
+      {
+        "sentence": "my family and I have used Tide for many years",
+        "translation": "우리 가족은 수년간 타이드를 사용해왔습니다"
+      }
+    ],
+    "examplesKo": [
+      "그는 이미 사업을 두 번 재창조했습니다",
+      "상파울루 밖에서 일해본 적이 없었습니다",
+      "우리 가족은 수년간 타이드를 사용해왔습니다"
+    ],
+    "segmentIndex": 23
+  },
+  {
+    "pattern": "Gerunds and Infinitives (동명사와 부정사)",
+    "explanation": "Gerunds (-ing form used as noun) and infinitives (to + base verb) function as subjects, objects, or complements. Certain verbs require one or the other.",
+    "explanationKo": "동명사(-ing형의 명사적 사용)와 부정사(to + 동사원형)는 주어, 목적어, 보어로 기능합니다. 특정 동사는 둘 중 하나만 요구합니다.",
+    "examples": [
+      {
+        "sentence": "She did so because she needed a sandbox to play in",
+        "translation": "실험할 샌드박스가 필요했기 때문입니다"
+      },
+      {
+        "sentence": "Decided to get the website lynda.com",
+        "translation": "lynda.com이라는 웹사이트를 개설하기로 했습니다"
+      },
+      {
+        "sentence": "I'd like to be able to broadcast training and motivational events",
+        "translation": "교육 및 동기부여 행사를 방송하고 싶습니다"
+      },
+      {
+        "sentence": "They said, well, we want to build a treetop adventure business",
+        "translation": "트리탑 어드벤처 사업을 하고 싶다고 했습니다"
+      }
+    ],
+    "examplesKo": [
+      "실험할 샌드박스가 필요했기 때문입니다",
+      "lynda.com이라는 웹사이트를 개설하기로 했습니다",
+      "교육 및 동기부여 행사를 방송하고 싶습니다",
+      "트리탑 어드벤처 사업을 하고 싶다고 했습니다"
+    ],
+    "segmentIndex": 1
+  },
+  {
+    "pattern": "Comparative and Superlative adjectives (비교급/최상급)",
+    "explanation": "Comparatives (adjective + -er / more + adjective) compare two things. Superlatives (the + adjective + -est / most + adjective) indicate the extreme degree.",
+    "explanationKo": "비교급(형용사 + -er / more + 형용사)은 두 가지를 비교합니다. 최상급(the + 형용사 + -est / most + 형용사)은 가장 극단적인 정도를 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "she discovered it could be much, much more",
+        "translation": "이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다"
+      },
+      {
+        "sentence": "a somewhat lower priced car",
+        "translation": "좀 더 저렴한 차"
+      },
+      {
+        "sentence": "a few ounces lighter times all the steps",
+        "translation": "몇 온스 더 가벼운 무게에 모든 걸음 수를 곱하면"
+      },
+      {
+        "sentence": "it's going to make for faster race times",
+        "translation": "더 빠른 기록을 낼 수 있을 것입니다"
+      }
+    ],
+    "examplesKo": [
+      "이것이 훨씬 더 큰 것이 될 수 있다는 것을 발견했습니다",
+      "좀 더 저렴한 차",
+      "몇 온스 더 가벼운 무게에 모든 걸음 수를 곱하면",
+      "더 빠른 기록을 낼 수 있을 것입니다"
+    ],
+    "segmentIndex": 88
+  },
+  {
+    "pattern": "'be going to' for planned future actions (계획된 미래 표현)",
+    "explanation": "'Be going to + base verb' expresses planned intentions or predictions based on present evidence. It implies a decision or plan has already been made.",
+    "explanationKo": "'be going to + 동사원형'은 계획된 의도나 현재 증거에 기반한 예측을 표현합니다. 이미 결정이나 계획이 이루어졌음을 암시합니다.",
+    "examples": [
+      {
+        "sentence": "So we're going to build a better shoe",
+        "translation": "그래서 더 좋은 신발을 만들 겁니다"
+      },
+      {
+        "sentence": "That's going to threaten the current taxi industry",
+        "translation": "그건 기존 택시 산업을 위협할 테니까요"
+      },
+      {
+        "sentence": "we're going to make a real dent in the emissions problem",
+        "translation": "배출 문제에 실질적인 변화를 만들겠다"
+      }
+    ],
+    "examplesKo": [
+      "그래서 더 좋은 신발을 만들 겁니다",
+      "그건 기존 택시 산업을 위협할 테니까요",
+      "배출 문제에 실질적인 변화를 만들겠다"
+    ],
+    "segmentIndex": 73
+  },
+  {
+    "pattern": "Reported Speech / Indirect questions (간접화법 / 간접의문문)",
+    "explanation": "Reported speech conveys what someone said without quoting them directly. Tense shifts typically occur (present → past). Indirect questions follow statement word order.",
+    "explanationKo": "간접화법은 누군가가 한 말을 직접 인용하지 않고 전달합니다. 시제 변환이 일어나고(현재→과거), 간접의문문은 평서문 어순을 따릅니다.",
+    "examples": [
+      {
+        "sentence": "one of his customers said to him, you know, I have 260 stores scattered all around Brazil",
+        "translation": "고객 중 한 명이 그에게 브라질 전역에 260개 매장이 있다고 말했습니다"
+      },
+      {
+        "sentence": "He said, yes, we could do that, even though we knew nothing about satellite technology",
+        "translation": "네, 그렇게 할 수 있다고 했습니다. 위성 기술에 대해 아무것도 몰랐지만"
+      },
+      {
+        "sentence": "So he said, I wonder if there's another surgical specialty",
+        "translation": "그래서 그는 다른 외과 전문 분야가 있을지 궁금해했습니다"
+      }
+    ],
+    "examplesKo": [
+      "고객 중 한 명이 그에게 브라질 전역에 260개 매장이 있다고 말했습니다",
+      "네, 그렇게 할 수 있다고 했습니다. 위성 기술에 대해 아무것도 몰랐지만",
+      "그래서 그는 다른 외과 전문 분야가 있을지 궁금해했습니다"
+    ],
+    "segmentIndex": 24
+  },
+  {
+    "pattern": "Concessive clauses with 'even though' (양보절)",
+    "explanation": "'Even though' introduces a concessive clause, presenting a surprising or contrasting fact that does not prevent the main clause from being true. Stronger than 'although'.",
+    "explanationKo": "'even though'는 양보절을 도입하며, 주절의 내용을 막지 못하는 놀랍거나 대조적인 사실을 제시합니다. 'although'보다 강한 표현입니다.",
+    "examples": [
+      {
+        "sentence": "He said, yes, we could do that, even though we knew nothing about satellite technology",
+        "translation": "네, 그렇게 할 수 있다고 했습니다. 위성 기술에 대해 아무것도 몰랐지만"
+      },
+      {
+        "sentence": "Even in these tricky times we're in today, there's cash all over the place",
+        "translation": "이 까다로운 시대에도 돈은 어디에나 있죠"
+      }
+    ],
+    "examplesKo": [
+      "네, 그렇게 할 수 있다고 했습니다. 위성 기술에 대해 아무것도 몰랐지만",
+      "이 까다로운 시대에도 돈은 어디에나 있죠"
+    ],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "Imperative mood for instructions (명령문)",
+    "explanation": "The imperative uses the base form of the verb without a subject to give commands, instructions, or advice. Often softened in spoken English with 'let's' or 'please'.",
+    "explanationKo": "명령문은 주어 없이 동사원형을 사용하여 명령, 지시, 조언을 합니다. 구어체에서는 'let's'나 'please'로 부드럽게 표현하기도 합니다.",
+    "examples": [
+      {
+        "sentence": "Do that math, half a million consumers, $1,000 each",
+        "translation": "계산해 보세요. 50만 소비자, 1,000달러씩"
+      },
+      {
+        "sentence": "So imagine you're having a facelift",
+        "translation": "얼굴 성형 수술을 받고 있다고 상상해 보세요"
+      },
+      {
+        "sentence": "well, let's go see if we can sell some cars",
+        "translation": "그럼 차를 좀 팔 수 있는지 보러 가자"
+      }
+    ],
+    "examplesKo": [
+      "계산해 보세요. 50만 소비자, 1,000달러씩",
+      "얼굴 성형 수술을 받고 있다고 상상해 보세요",
+      "그럼 차를 좀 팔 수 있는지 보러 가자"
+    ],
+    "segmentIndex": 96
+  }
+]

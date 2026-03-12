@@ -1,0 +1,338 @@
+[
+  {
+    "word": "millennials",
+    "phonetic": "/mɪˈlɛniəlz/",
+    "partOfSpeech": "noun",
+    "definition": "People born roughly between 1981 and 1996, the generation reaching adulthood around the year 2000",
+    "meaningKo": "밀레니얼 세대 (1981~1996년생, 2000년 전후로 성인이 된 세대)",
+    "etymology": "From Latin 'millennium' (a period of a thousand years) + -al",
+    "rootBreakdown": "mille (thousand) + annus (year) + -al (relating to)",
+    "relatedWords": [
+      "millennium",
+      "millennial",
+      "Generation Y"
+    ],
+    "isEssential": true,
+    "segmentIndex": 3,
+    "contextSentence": "There was a recent survey of millennials",
+    "contextSentenceKo": "최근 밀레니얼 세대를 대상으로 한 설문조사가 있었는데"
+  },
+  {
+    "word": "hindsight",
+    "phonetic": "/ˈhaɪndˌsaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "Understanding of a situation or event only after it has happened or developed",
+    "meaningKo": "뒤늦은 깨달음, 후견지명 (일이 벌어진 후에야 이해하는 것)",
+    "etymology": "From 'hind' (behind) + 'sight' (vision)",
+    "rootBreakdown": "hind (behind, after) + sight (the ability to see)",
+    "relatedWords": [
+      "foresight",
+      "insight",
+      "oversight",
+      "retrospect"
+    ],
+    "isEssential": true,
+    "segmentIndex": 15,
+    "contextSentence": "And so, as we know, hindsight is anything but 20-20.",
+    "contextSentenceKo": "우리가 알다시피, 후견지명은 결코 명확하지 않습니다."
+  },
+  {
+    "word": "unfold",
+    "phonetic": "/ʌnˈfoʊld/",
+    "partOfSpeech": "verb",
+    "definition": "To develop or be revealed gradually over time",
+    "meaningKo": "펼쳐지다, 전개되다 (시간에 따라 서서히 드러나다)",
+    "etymology": "From Old English 'unfealdan' (to open, spread out)",
+    "rootBreakdown": "un- (reversal) + fold (to bend over)",
+    "relatedWords": [
+      "unfurl",
+      "reveal",
+      "develop",
+      "emerge"
+    ],
+    "isEssential": true,
+    "segmentIndex": 18,
+    "contextSentence": "But what if we could watch entire lives as they unfold through time?",
+    "contextSentenceKo": "하지만 시간이 흐르면서 펼쳐지는 전체 삶을 지켜볼 수 있다면 어떨까요?"
+  },
+  {
+    "word": "exceedingly",
+    "phonetic": "/ɪkˈsiːdɪŋli/",
+    "partOfSpeech": "adverb",
+    "definition": "Extremely; to a very great degree",
+    "meaningKo": "극히, 대단히, 몹시",
+    "etymology": "From Latin 'excedere' (to go beyond) + -ing + -ly",
+    "rootBreakdown": "ex- (out, beyond) + cedere (to go) + -ing + -ly (adverb suffix)",
+    "relatedWords": [
+      "exceed",
+      "excessive",
+      "exceedance"
+    ],
+    "isEssential": true,
+    "segmentIndex": 27,
+    "contextSentence": "Studies like this are exceedingly rare.",
+    "contextSentenceKo": "이런 연구는 극히 드뭅니다."
+  },
+  {
+    "word": "persistence",
+    "phonetic": "/pərˈsɪstəns/",
+    "partOfSpeech": "noun",
+    "definition": "The firm or obstinate continuance in a course of action in spite of difficulty or opposition",
+    "meaningKo": "끈기, 인내, 지속 (어려움에도 불구하고 계속하는 것)",
+    "etymology": "From Latin 'persistentia', from 'persistere' (to continue steadfastly)",
+    "rootBreakdown": "per- (through, thoroughly) + sistere (to stand, cause to stand)",
+    "relatedWords": [
+      "persist",
+      "persistent",
+      "perseverance",
+      "tenacity"
+    ],
+    "isEssential": true,
+    "segmentIndex": 34,
+    "contextSentence": "And the persistence of several generations of researchers,",
+    "contextSentenceKo": "여러 세대 연구자들의 끈기가 결합되어"
+  },
+  {
+    "word": "sophomore",
+    "phonetic": "/ˈsɑːfəˌmɔːr/",
+    "partOfSpeech": "noun",
+    "definition": "A second-year university or high school student",
+    "meaningKo": "2학년생 (대학교 또는 고등학교)",
+    "etymology": "From Greek 'sophos' (wise) + 'moros' (foolish, dull)",
+    "rootBreakdown": "sophos (wise) + moros (foolish) — 'wise fool'",
+    "relatedWords": [
+      "freshman",
+      "junior",
+      "senior",
+      "sophomoric"
+    ],
+    "isEssential": true,
+    "segmentIndex": 40,
+    "contextSentence": "When they were sophomores at Harvard College.",
+    "contextSentenceKo": "하버드 대학 2학년이었습니다."
+  },
+  {
+    "word": "tenement",
+    "phonetic": "/ˈtɛnəmənt/",
+    "partOfSpeech": "noun",
+    "definition": "A run-down and often overcrowded apartment building, especially in a poor area of a city",
+    "meaningKo": "연립주택, 셋집 (도시 빈민 지역의 낡고 밀집된 아파트 건물)",
+    "etymology": "From Latin 'tenere' (to hold, keep) via Old French 'tenement'",
+    "rootBreakdown": "tenere (to hold) + -ment (noun suffix indicating result)",
+    "relatedWords": [
+      "tenant",
+      "tenure",
+      "tenancy",
+      "slum"
+    ],
+    "isEssential": true,
+    "segmentIndex": 48,
+    "contextSentence": "Most lived in tenements, many without hot and cold running water.",
+    "contextSentenceKo": "대부분 연립주택에 살았고, 많은 곳에는 온수나 냉수조차 없었습니다."
+  },
+  {
+    "word": "schizophrenia",
+    "phonetic": "/ˌskɪtsəˈfriːniə/",
+    "partOfSpeech": "noun",
+    "definition": "A long-term mental disorder involving a breakdown in the relation between thought, emotion, and behavior",
+    "meaningKo": "조현병 (사고, 감정, 행동 사이의 관계가 붕괴되는 장기적 정신 질환)",
+    "etymology": "From Greek 'skhizein' (to split) + 'phren' (mind)",
+    "rootBreakdown": "schizo- (split) + phren (mind) + -ia (condition)",
+    "relatedWords": [
+      "schizoid",
+      "schizophrenic",
+      "psychosis"
+    ],
+    "isEssential": false,
+    "segmentIndex": 55,
+    "contextSentence": "Some developed alcoholism. A few developed schizophrenia.",
+    "contextSentenceKo": "일부는 알코올 중독이 되었고, 몇몇은 조현병이 발병했습니다."
+  },
+  {
+    "word": "octogenarian",
+    "phonetic": "/ˌɑːktəˌdʒəˈnɛriən/",
+    "partOfSpeech": "noun",
+    "definition": "A person who is between 80 and 89 years old",
+    "meaningKo": "80대 노인 (80~89세인 사람)",
+    "etymology": "From Latin 'octogenarius' (containing eighty)",
+    "rootBreakdown": "octo- (eight) + -genarian (relating to a group of ten years)",
+    "relatedWords": [
+      "septuagenarian",
+      "nonagenarian",
+      "centenarian"
+    ],
+    "isEssential": false,
+    "segmentIndex": 110,
+    "contextSentence": "And to see if we could predict who was going to grow into a happy, healthy octogenarian",
+    "contextSentenceKo": "누가 행복하고 건강한 80대로 성장할지 예측할 수 있는지 알고 싶었습니다."
+  },
+  {
+    "word": "cholesterol",
+    "phonetic": "/kəˈlɛstəˌrɔːl/",
+    "partOfSpeech": "noun",
+    "definition": "A waxy substance found in blood that can build up in artery walls and is used as a health indicator",
+    "meaningKo": "콜레스테롤 (혈액 내 왁스 같은 물질로, 동맥벽에 쌓일 수 있으며 건강 지표로 사용)",
+    "etymology": "From Greek 'chole' (bile) + 'stereos' (solid) + -ol (alcohol/chemical suffix)",
+    "rootBreakdown": "chole- (bile) + stereos (solid) + -ol (chemical suffix)",
+    "relatedWords": [
+      "lipid",
+      "triglyceride",
+      "cardiovascular"
+    ],
+    "isEssential": true,
+    "segmentIndex": 113,
+    "contextSentence": "At age 50, it wasn't their middle-aged cholesterol levels",
+    "contextSentenceKo": "50세의 중년 콜레스테롤 수치가 아니라"
+  },
+  {
+    "word": "buffer",
+    "phonetic": "/ˈbʌfər/",
+    "partOfSpeech": "verb",
+    "definition": "To lessen or moderate the impact of something; to protect from harm",
+    "meaningKo": "완충하다, 보호하다 (충격이나 영향을 줄여주다)",
+    "etymology": "From Old French 'buffe' (a blow, puff) — originally meaning to absorb shocks",
+    "rootBreakdown": "buff (to absorb impact) + -er (agent suffix)",
+    "relatedWords": [
+      "cushion",
+      "shield",
+      "insulate",
+      "mitigate"
+    ],
+    "isEssential": true,
+    "segmentIndex": 119,
+    "contextSentence": "Seemed to buffer us from some of the slings and arrows of getting old.",
+    "contextSentenceKo": "늙어감의 갖은 고통과 시련으로부터 우리를 보호해주는 것 같았습니다."
+  },
+  {
+    "word": "magnify",
+    "phonetic": "/ˈmæɡnɪˌfaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To make something appear larger or more important than it is; to intensify",
+    "meaningKo": "확대하다, 증폭시키다 (무언가를 실제보다 크게 또는 강하게 만들다)",
+    "etymology": "From Latin 'magnificare' (to esteem greatly, extol)",
+    "rootBreakdown": "magn- (great, large) + -ify (to make)",
+    "relatedWords": [
+      "magnitude",
+      "magnificent",
+      "amplify"
+    ],
+    "isEssential": true,
+    "segmentIndex": 124,
+    "contextSentence": "It was magnified by more emotional pain.",
+    "contextSentenceKo": "더 많은 감정적 고통으로 증폭되었습니다."
+  },
+  {
+    "word": "securely",
+    "phonetic": "/sɪˈkjʊrli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a way that is fixed or fastened so as not to give way; safely and with confidence",
+    "meaningKo": "안정적으로, 안전하게 (확고하고 흔들리지 않는 방식으로)",
+    "etymology": "From Latin 'securus' (free from care) + -ly",
+    "rootBreakdown": "se- (without) + cura (care) + -ly (adverb suffix)",
+    "relatedWords": [
+      "secure",
+      "security",
+      "insecure",
+      "assure"
+    ],
+    "isEssential": true,
+    "segmentIndex": 129,
+    "contextSentence": "That being in a securely attached relationship",
+    "contextSentenceKo": "안정적으로 애착된 관계에 있는 것이"
+  },
+  {
+    "word": "bicker",
+    "phonetic": "/ˈbɪkər/",
+    "partOfSpeech": "verb",
+    "definition": "To argue about petty and trivial matters; to quarrel",
+    "meaningKo": "티격태격하다, 옥신각신하다 (사소한 일로 다투다)",
+    "etymology": "Middle English 'bikeren' (to attack, skirmish), possibly from Middle Dutch",
+    "rootBreakdown": "bicker (to skirmish, quarrel) — no clear prefix/suffix decomposition",
+    "relatedWords": [
+      "quarrel",
+      "squabble",
+      "wrangle",
+      "spat"
+    ],
+    "isEssential": true,
+    "segmentIndex": 137,
+    "contextSentence": "Some of our octogenarian couples could bicker with each other day in and day out,",
+    "contextSentenceKo": "우리의 80대 부부 중 일부는 날마다 서로 티격태격할 수 있었지만,"
+  },
+  {
+    "word": "glamorous",
+    "phonetic": "/ˈɡlæmərəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Attractive and exciting in a mysterious or special way; charmingly beautiful",
+    "meaningKo": "화려한, 매력적인 (특별하고 흥미롭게 아름다운)",
+    "etymology": "From Scottish 'glamour' (magic, enchantment) — alteration of 'grammar'",
+    "rootBreakdown": "glamour (enchantment, charm) + -ous (full of)",
+    "relatedWords": [
+      "glamour",
+      "glam",
+      "alluring",
+      "dazzling"
+    ],
+    "isEssential": true,
+    "segmentIndex": 148,
+    "contextSentence": "That's not sexy or glamorous.",
+    "contextSentenceKo": "매력적이거나 화려하지 않습니다."
+  },
+  {
+    "word": "feud",
+    "phonetic": "/fjuːd/",
+    "partOfSpeech": "noun",
+    "definition": "A prolonged and bitter quarrel or dispute, especially between families or groups",
+    "meaningKo": "불화, 앙숙 (특히 가족이나 집단 간의 오래된 쓰라린 다툼)",
+    "etymology": "From Old French 'fede' (enmity), from Germanic origins related to 'foe'",
+    "rootBreakdown": "feud (enmity, hostility) — root related to Germanic 'foe'",
+    "relatedWords": [
+      "vendetta",
+      "rivalry",
+      "grudge",
+      "enmity"
+    ],
+    "isEssential": true,
+    "segmentIndex": 168,
+    "contextSentence": "Because those all-too-common family feuds",
+    "contextSentenceKo": "너무나 흔한 가족 불화는"
+  },
+  {
+    "word": "grudge",
+    "phonetic": "/ɡrʌdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "A persistent feeling of ill will or resentment resulting from a past insult or injury",
+    "meaningKo": "원한, 앙심 (과거의 모욕이나 상처에서 비롯된 지속적인 악감정)",
+    "etymology": "From Old French 'grouchier' (to grumble, murmur)",
+    "rootBreakdown": "grudge (to resent, grumble) — from Old French 'grouchier'",
+    "relatedWords": [
+      "resentment",
+      "bitterness",
+      "animosity",
+      "rancor"
+    ],
+    "isEssential": true,
+    "segmentIndex": 169,
+    "contextSentence": "Take a terrible toll on the people who hold the grudges.",
+    "contextSentenceKo": "원한을 품고 있는 사람들에게 끔찍한 대가를 치르게 합니다."
+  },
+  {
+    "word": "protective",
+    "phonetic": "/prəˈtɛktɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of or intended to protect; serving as a defense against harm",
+    "meaningKo": "보호하는, 보호적인 (해로부터 지키는 역할을 하는)",
+    "etymology": "From Latin 'protectus', past participle of 'protegere' (to cover in front)",
+    "rootBreakdown": "pro- (in front of, for) + tegere (to cover) + -ive (adjective suffix)",
+    "relatedWords": [
+      "protect",
+      "protection",
+      "protector",
+      "unprotected"
+    ],
+    "isEssential": true,
+    "segmentIndex": 108,
+    "contextSentence": "And living in the midst of good, warm relationships is protective.",
+    "contextSentenceKo": "좋고 따뜻한 관계 속에서 사는 것은 보호적입니다."
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "word": "promptly",
+    "phonetic": "/ˈprɑːmptli/",
+    "partOfSpeech": "adverb",
+    "definition": "With little or no delay; immediately",
+    "meaningKo": "즉시, 곧바로",
+    "etymology": "From Latin 'promptus' (brought forth, at hand), past participle of 'promere' (to bring forth)",
+    "rootBreakdown": "pro- (앞으로) + emere (가져가다) → promptus (준비된) + -ly (부사 접미사)",
+    "relatedWords": [
+      "prompt",
+      "promptness",
+      "impromptu"
+    ],
+    "isEssential": true,
+    "segmentIndex": 1,
+    "contextSentence": "I looked up the phone number in the phone book and promptly handed the phone to my older brother.",
+    "contextSentenceKo": "전화번호부에서 전화번호를 찾아보고 바로 전화기를 형에게 건넸어요."
+  },
+  {
+    "word": "partake",
+    "phonetic": "/pɑːrˈteɪk/",
+    "partOfSpeech": "verb",
+    "definition": "To join in or take part in an activity",
+    "meaningKo": "참여하다, 함께하다",
+    "etymology": "From Middle English 'part taken' (to take part), back-formation from 'partaker'",
+    "rootBreakdown": "part (부분) + take (취하다) → 일부를 취하다, 참여하다",
+    "relatedWords": [
+      "participate",
+      "partaker",
+      "partaking"
+    ],
+    "isEssential": true,
+    "segmentIndex": 4,
+    "contextSentence": "Too homesick to partake in early freshman partying.",
+    "contextSentenceKo": "너무 향수병이 심해서 신입생 파티에 참여하지도 못했죠."
+  },
+  {
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "partOfSpeech": "verb",
+    "definition": "To give up completely; to cease to support or look after",
+    "meaningKo": "포기하다, 버리다",
+    "etymology": "From Old French 'abandoner' (to surrender, release), from 'a bandon' (at one's disposal)",
+    "rootBreakdown": "a- (에) + bandon (권한, 지배) → 통제에서 벗어나다 → 포기하다",
+    "relatedWords": [
+      "abandonment",
+      "abandoned",
+      "abandoning"
+    ],
+    "isEssential": true,
+    "segmentIndex": 5,
+    "contextSentence": "I wanted to trade in my books, abandon my major, and head back home.",
+    "contextSentenceKo": "책을 반납하고 전공을 포기하고 고향으로 돌아가고 싶었어요."
+  },
+  {
+    "word": "pursue",
+    "phonetic": "/pərˈsuː/",
+    "partOfSpeech": "verb",
+    "definition": "To follow or chase; to seek to attain or accomplish",
+    "meaningKo": "추구하다, 쫓다",
+    "etymology": "From Anglo-French 'pursuer', from Latin 'prosequi' (to follow up)",
+    "rootBreakdown": "pro- (앞으로) + sequi (따르다) → 앞으로 따라가다 → 추구하다",
+    "relatedWords": [
+      "pursuit",
+      "pursuer",
+      "pursuance"
+    ],
+    "isEssential": true,
+    "segmentIndex": 6,
+    "contextSentence": "The confident behaviors I needed to pursue this dream were not yet available.",
+    "contextSentenceKo": "이 꿈을 추구하는 데 필요한 자신감 있는 행동들은 아직 갖추어지지 않았어요."
+  },
+  {
+    "word": "align",
+    "phonetic": "/əˈlaɪn/",
+    "partOfSpeech": "verb",
+    "definition": "To place or arrange things in a straight line; to be in agreement",
+    "meaningKo": "일치시키다, 맞추다",
+    "etymology": "From French 'aligner', from 'à ligne' (into line)",
+    "rootBreakdown": "a- (으로) + ligne/line (선) → 한 줄로 맞추다 → 일치시키다",
+    "relatedWords": [
+      "alignment",
+      "aligned",
+      "misalign",
+      "realign"
+    ],
+    "isEssential": true,
+    "segmentIndex": 9,
+    "contextSentence": "My behaviors did not align with these confident attitudes.",
+    "contextSentenceKo": "제 행동은 이런 자신감 있는 태도와 일치하지 않았어요."
+  },
+  {
+    "word": "propel",
+    "phonetic": "/prəˈpel/",
+    "partOfSpeech": "verb",
+    "definition": "To drive or push something forward; to cause to move in a particular direction",
+    "meaningKo": "추진하다, 나아가게 하다",
+    "etymology": "From Latin 'propellere', from 'pro-' (forward) + 'pellere' (to drive)",
+    "rootBreakdown": "pro- (앞으로) + pellere (밀다) → 앞으로 밀어내다 → 추진하다",
+    "relatedWords": [
+      "propulsion",
+      "propeller",
+      "propellant"
+    ],
+    "isEssential": true,
+    "segmentIndex": 24,
+    "contextSentence": "They had to work on the behaviors associated with this attitude in order to propel their career forward.",
+    "contextSentenceKo": "그들은 커리어를 발전시키기 위해 이 태도와 관련된 행동들을 노력해야 했어요."
+  },
+  {
+    "word": "vividly",
+    "phonetic": "/ˈvɪvɪdli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a way that produces powerful feelings or strong, clear images in the mind",
+    "meaningKo": "생생하게, 선명하게",
+    "etymology": "From Latin 'vividus' (lively, animated), from 'vivere' (to live)",
+    "rootBreakdown": "viv- (살다) + -id (형용사) + -ly (부사) → 살아있는 듯이 → 생생하게",
+    "relatedWords": [
+      "vivid",
+      "vividness",
+      "vivacious",
+      "revive"
+    ],
+    "isEssential": true,
+    "segmentIndex": 33,
+    "contextSentence": "I vividly remember standing on the warning track of the baseball field.",
+    "contextSentenceKo": "야구장 워닝트랙에 서 있던 것이 생생하게 기억나요."
+  },
+  {
+    "word": "momentum",
+    "phonetic": "/moʊˈmentəm/",
+    "partOfSpeech": "noun",
+    "definition": "The force gained by a moving body; the impetus of continued progress",
+    "meaningKo": "추진력, 탄력",
+    "etymology": "From Latin 'momentum' (movement, moving power), from 'movere' (to move)",
+    "rootBreakdown": "mov-/mom- (움직이다) + -mentum (결과/수단) → 움직이는 힘 → 탄력",
+    "relatedWords": [
+      "moment",
+      "momentous",
+      "momentary"
+    ],
+    "isEssential": true,
+    "segmentIndex": 32,
+    "contextSentence": "Counting will get you started and momentum will keep you going.",
+    "contextSentenceKo": "카운팅이 시작하게 해주고, 탄력이 계속 나아가게 해줘요."
+  },
+  {
+    "word": "enormously",
+    "phonetic": "/ɪˈnɔːrməsli/",
+    "partOfSpeech": "adverb",
+    "definition": "To a very great degree or extent; tremendously",
+    "meaningKo": "엄청나게, 대단히",
+    "etymology": "From Latin 'enormis' (irregular, immense), from 'e-' (out of) + 'norma' (rule, pattern)",
+    "rootBreakdown": "e- (밖으로) + norma (규범) + -ous + -ly → 규범을 벗어날 정도로 → 엄청나게",
+    "relatedWords": [
+      "enormous",
+      "enormity",
+      "abnormal"
+    ],
+    "isEssential": false,
+    "segmentIndex": 42,
+    "contextSentence": "This behavior helped me enormously when I published my podcast.",
+    "contextSentenceKo": "이 행동은 제가 팟캐스트를 발행했을 때 엄청난 도움이 됐어요."
+  },
+  {
+    "word": "critique",
+    "phonetic": "/krɪˈtiːk/",
+    "partOfSpeech": "verb",
+    "definition": "To evaluate or analyze critically; to review or assess",
+    "meaningKo": "비평하다, 비판적으로 평가하다",
+    "etymology": "From French 'critique', from Greek 'kritikos' (able to judge)",
+    "rootBreakdown": "krit- (판단하다) + -ique (명사/동사 접미사) → 판단하다 → 비평하다",
+    "relatedWords": [
+      "critic",
+      "critical",
+      "criticism",
+      "criterion"
+    ],
+    "isEssential": true,
+    "segmentIndex": 43,
+    "contextSentence": "Bold title and all for all the world to see, hear, critique, and have their opinions.",
+    "contextSentenceKo": "대담한 제목으로 온 세상이 보고, 듣고, 비평하고, 의견을 가질 수 있게요."
+  },
+  {
+    "word": "metaphorically",
+    "phonetic": "/ˌmetəˈfɔːrɪkli/",
+    "partOfSpeech": "adverb",
+    "definition": "In a way that uses metaphor; not literally but as a figure of speech",
+    "meaningKo": "비유적으로, 은유적으로",
+    "etymology": "From Greek 'metaphora' (transfer), from 'meta-' (over) + 'pherein' (to carry)",
+    "rootBreakdown": "meta- (넘어서) + phor- (운반하다) + -ical + -ly → 의미를 옮겨서 → 비유적으로",
+    "relatedWords": [
+      "metaphor",
+      "metaphorical"
+    ],
+    "isEssential": true,
+    "segmentIndex": 48,
+    "contextSentence": "Take a seat at the table. Not metaphorically speaking, actually take a seat at the table.",
+    "contextSentenceKo": "테이블에 자리를 잡으세요. 비유적으로가 아니라, 실제로 테이블에 앉으세요."
+  },
+  {
+    "word": "accolades",
+    "phonetic": "/ˈækəleɪdz/",
+    "partOfSpeech": "noun",
+    "definition": "Awards or expressions of praise; honors given in recognition of achievement",
+    "meaningKo": "찬사, 영예, 수상",
+    "etymology": "From French 'accolade' (embrace), from Italian 'accollata' (embrace around the neck)",
+    "rootBreakdown": "ad- (으로) + collum (목) + -ade → 목에 걸어주는 것 → 영예/찬사",
+    "relatedWords": [
+      "acclaim",
+      "accolade"
+    ],
+    "isEssential": true,
+    "segmentIndex": 56,
+    "contextSentence": "Rather than feeling sorry for yourself that it was not you accepting the accolades.",
+    "contextSentenceKo": "그게 내가 아니라고 자기연민에 빠지는 대신 어떨까요?"
+  },
+  {
+    "word": "bolster",
+    "phonetic": "/ˈboʊlstər/",
+    "partOfSpeech": "verb",
+    "definition": "To support or strengthen; to prop up",
+    "meaningKo": "강화하다, 뒷받침하다",
+    "etymology": "From Old English 'bolster' (cushion, pillow), related to 'beal' (to swell)",
+    "rootBreakdown": "bolster (쿠션/베개) → 받치다 → 강화하다/뒷받침하다",
+    "relatedWords": [
+      "support",
+      "reinforce",
+      "buttress",
+      "strengthen"
+    ],
+    "isEssential": true,
+    "segmentIndex": 65,
+    "contextSentence": "Bolster your confidence for a new activity through your already great performance in another.",
+    "contextSentenceKo": "이미 잘하고 있는 분야의 성과를 통해 새로운 활동에 대한 자신감을 강화하세요."
+  },
+  {
+    "word": "accomplishment",
+    "phonetic": "/əˈkɑːmplɪʃmənt/",
+    "partOfSpeech": "noun",
+    "definition": "Something that has been achieved successfully; an achievement",
+    "meaningKo": "성취, 업적",
+    "etymology": "From Old French 'acomplir' (to complete), from Latin 'ad-' (to) + 'complere' (to fill up)",
+    "rootBreakdown": "ad- (으로) + com- (완전히) + plere (채우다) + -ment → 완전히 채우다 → 성취",
+    "relatedWords": [
+      "accomplish",
+      "accomplished",
+      "accomplishing"
+    ],
+    "isEssential": true,
+    "segmentIndex": 67,
+    "contextSentence": "What is your most proud accomplishment?",
+    "contextSentenceKo": "가장 자랑스러운 성취는 무엇인가요?"
+  },
+  {
+    "word": "diminished",
+    "phonetic": "/dɪˈmɪnɪʃt/",
+    "partOfSpeech": "adjective",
+    "definition": "Made smaller or less; reduced in size, importance, or value",
+    "meaningKo": "줄어든, 약해진",
+    "etymology": "From Latin 'diminuere' (to break into small pieces), from 'de-' (away) + 'minuere' (to lessen)",
+    "rootBreakdown": "de- (아래로) + minu- (작게 하다) + -ish → 작아지게 하다 → 줄어들다",
+    "relatedWords": [
+      "diminish",
+      "diminishing",
+      "diminution",
+      "minute"
+    ],
+    "isEssential": true,
+    "segmentIndex": 74,
+    "contextSentence": "The recollection of that success is diminished.",
+    "contextSentenceKo": "그 성공의 기억이 희미해져요."
+  },
+  {
+    "word": "recollection",
+    "phonetic": "/ˌrekəˈlekʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The action of remembering something; a memory",
+    "meaningKo": "기억, 회상",
+    "etymology": "From Latin 'recolligere' (to collect again), from 're-' (again) + 'colligere' (to gather)",
+    "rootBreakdown": "re- (다시) + col- (함께) + legere (모으다) + -tion → 다시 모으다 → 회상",
+    "relatedWords": [
+      "recollect",
+      "collect",
+      "collection"
+    ],
+    "isEssential": false,
+    "segmentIndex": 74,
+    "contextSentence": "The recollection of that success is diminished.",
+    "contextSentenceKo": "그 성공의 기억이 희미해져요."
+  },
+  {
+    "word": "reinforce",
+    "phonetic": "/ˌriːɪnˈfɔːrs/",
+    "partOfSpeech": "verb",
+    "definition": "To strengthen or support, especially by adding more material or effort",
+    "meaningKo": "강화하다, 보강하다",
+    "etymology": "From French 'renforcer', from 're-' (again) + 'enforcer' (to make strong)",
+    "rootBreakdown": "re- (다시) + in- (안으로) + force (힘) → 다시 힘을 불어넣다 → 강화하다",
+    "relatedWords": [
+      "reinforcement",
+      "enforce",
+      "force"
+    ],
+    "isEssential": true,
+    "segmentIndex": 79,
+    "contextSentence": "This will create a marker in your brain to rewire and reinforce the behaviors.",
+    "contextSentenceKo": "이것은 뇌에 표시를 남겨 행동을 다시 강화하고 재프로그래밍하게 해줘요."
+  },
+  {
+    "word": "rewire",
+    "phonetic": "/riːˈwaɪər/",
+    "partOfSpeech": "verb",
+    "definition": "To change the way something functions or is connected, especially neural pathways",
+    "meaningKo": "재설정하다, 다시 연결하다 (뇌의 회로를)",
+    "etymology": "From 're-' (again) + 'wire' (to connect with wires)",
+    "rootBreakdown": "re- (다시) + wire (전선/연결하다) → 다시 연결하다 → 재설정하다",
+    "relatedWords": [
+      "wire",
+      "wiring",
+      "rewiring"
+    ],
+    "isEssential": true,
+    "segmentIndex": 79,
+    "contextSentence": "This will create a marker in your brain to rewire and reinforce the behaviors that led to the success.",
+    "contextSentenceKo": "이것은 뇌에 표시를 남겨 성공을 이끌었던 행동을 다시 강화하고 재프로그래밍하게 해줘요."
+  }
+]

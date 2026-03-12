@@ -1,0 +1,4665 @@
+{
+  "videoId": "OKJImnk-gzQ",
+  "segments": [
+    {
+      "index": 0,
+      "start": 2.24,
+      "end": 6.12,
+      "textEn": "I'm gonna talk to you about some things I've learned in my journey most from",
+      "textKo": "제 여정에서 배운 것들에 대해 이야기하려고 합니다. 대부분은",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 2.24,
+          "end": 2.66
+        },
+        {
+          "word": "gonna",
+          "start": 2.66,
+          "end": 2.74
+        },
+        {
+          "word": "talk",
+          "start": 2.74,
+          "end": 3.0
+        },
+        {
+          "word": "to",
+          "start": 3.0,
+          "end": 3.14
+        },
+        {
+          "word": "you",
+          "start": 3.14,
+          "end": 3.22
+        },
+        {
+          "word": "about",
+          "start": 3.22,
+          "end": 3.46
+        },
+        {
+          "word": "some",
+          "start": 3.46,
+          "end": 3.66
+        },
+        {
+          "word": "things",
+          "start": 3.66,
+          "end": 3.96
+        },
+        {
+          "word": "I've",
+          "start": 3.96,
+          "end": 4.28
+        },
+        {
+          "word": "learned",
+          "start": 4.28,
+          "end": 4.5
+        },
+        {
+          "word": "in",
+          "start": 4.5,
+          "end": 4.64
+        },
+        {
+          "word": "my",
+          "start": 4.64,
+          "end": 4.78
+        },
+        {
+          "word": "journey",
+          "start": 4.78,
+          "end": 5.14
+        },
+        {
+          "word": "most",
+          "start": 5.14,
+          "end": 5.96
+        },
+        {
+          "word": "from",
+          "start": 5.96,
+          "end": 6.12
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 6.12,
+      "end": 9.7,
+      "textEn": "Experience some of my heard in passing many of them I'm still practicing but",
+      "textKo": "경험에서 얻은 것이고, 일부는 지나가며 들은 것입니다. 아직도 실천하고 있는 것들이 많지만",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "experience",
+          "start": 6.12,
+          "end": 6.56
+        },
+        {
+          "word": "some",
+          "start": 6.56,
+          "end": 6.84
+        },
+        {
+          "word": "of",
+          "start": 6.84,
+          "end": 6.98
+        },
+        {
+          "word": "my",
+          "start": 6.98,
+          "end": 7.1
+        },
+        {
+          "word": "heard",
+          "start": 7.1,
+          "end": 7.28
+        },
+        {
+          "word": "in",
+          "start": 7.28,
+          "end": 7.38
+        },
+        {
+          "word": "passing",
+          "start": 7.38,
+          "end": 7.76
+        },
+        {
+          "word": "many",
+          "start": 7.76,
+          "end": 8.46
+        },
+        {
+          "word": "of",
+          "start": 8.46,
+          "end": 8.62
+        },
+        {
+          "word": "them",
+          "start": 8.62,
+          "end": 8.7
+        },
+        {
+          "word": "I'm",
+          "start": 8.7,
+          "end": 8.86
+        },
+        {
+          "word": "still",
+          "start": 8.86,
+          "end": 9.0
+        },
+        {
+          "word": "practicing",
+          "start": 9.0,
+          "end": 9.48
+        },
+        {
+          "word": "but",
+          "start": 9.48,
+          "end": 9.7
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 9.7,
+      "end": 23.06,
+      "textEn": "All of them I do believe are true life is not easy it is not don't try to make it that way life's not fair it",
+      "textKo": "모두 진실이라고 믿습니다. 인생은 쉽지 않습니다. 쉽지 않아요. 쉽게 만들려고 하지 마세요. 인생은 공평하지 않습니다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "all",
+          "start": 9.7,
+          "end": 9.9
+        },
+        {
+          "word": "of",
+          "start": 9.9,
+          "end": 10.04
+        },
+        {
+          "word": "them",
+          "start": 10.04,
+          "end": 10.16
+        },
+        {
+          "word": "I",
+          "start": 10.16,
+          "end": 10.3
+        },
+        {
+          "word": "do",
+          "start": 10.3,
+          "end": 10.44
+        },
+        {
+          "word": "believe",
+          "start": 10.44,
+          "end": 10.74
+        },
+        {
+          "word": "are",
+          "start": 10.74,
+          "end": 10.92
+        },
+        {
+          "word": "true",
+          "start": 10.92,
+          "end": 11.22
+        },
+        {
+          "word": "life",
+          "start": 18.04,
+          "end": 18.46
+        },
+        {
+          "word": "is",
+          "start": 18.46,
+          "end": 18.82
+        },
+        {
+          "word": "not",
+          "start": 18.82,
+          "end": 19.06
+        },
+        {
+          "word": "easy",
+          "start": 19.06,
+          "end": 19.5
+        },
+        {
+          "word": "it",
+          "start": 19.5,
+          "end": 19.82
+        },
+        {
+          "word": "is",
+          "start": 19.82,
+          "end": 20.04
+        },
+        {
+          "word": "not",
+          "start": 20.04,
+          "end": 20.3
+        },
+        {
+          "word": "don't",
+          "start": 20.3,
+          "end": 20.66
+        },
+        {
+          "word": "try",
+          "start": 20.66,
+          "end": 20.82
+        },
+        {
+          "word": "to",
+          "start": 20.82,
+          "end": 20.98
+        },
+        {
+          "word": "make",
+          "start": 20.98,
+          "end": 21.14
+        },
+        {
+          "word": "it",
+          "start": 21.14,
+          "end": 21.28
+        },
+        {
+          "word": "that",
+          "start": 21.28,
+          "end": 21.44
+        },
+        {
+          "word": "way",
+          "start": 21.44,
+          "end": 21.76
+        },
+        {
+          "word": "life's",
+          "start": 21.76,
+          "end": 22.42
+        },
+        {
+          "word": "not",
+          "start": 22.42,
+          "end": 22.58
+        },
+        {
+          "word": "fair",
+          "start": 22.58,
+          "end": 22.9
+        },
+        {
+          "word": "it",
+          "start": 22.9,
+          "end": 23.06
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 23.06,
+      "end": 27.62,
+      "textEn": "Never was it isn't now and it won't ever be do not fall into the trap the",
+      "textKo": "공평했던 적이 없고, 지금도 아니며, 앞으로도 그럴 겁니다. 함정에 빠지지 마세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "never",
+          "start": 23.06,
+          "end": 23.26
+        },
+        {
+          "word": "was",
+          "start": 23.26,
+          "end": 23.56
+        },
+        {
+          "word": "it",
+          "start": 23.56,
+          "end": 23.76
+        },
+        {
+          "word": "isn't",
+          "start": 23.76,
+          "end": 24.02
+        },
+        {
+          "word": "now",
+          "start": 24.02,
+          "end": 24.18
+        },
+        {
+          "word": "and",
+          "start": 24.18,
+          "end": 24.32
+        },
+        {
+          "word": "it",
+          "start": 24.32,
+          "end": 24.4
+        },
+        {
+          "word": "won't",
+          "start": 24.4,
+          "end": 24.58
+        },
+        {
+          "word": "ever",
+          "start": 24.58,
+          "end": 24.74
+        },
+        {
+          "word": "be",
+          "start": 24.74,
+          "end": 25.0
+        },
+        {
+          "word": "do",
+          "start": 25.0,
+          "end": 25.42
+        },
+        {
+          "word": "not",
+          "start": 25.42,
+          "end": 25.72
+        },
+        {
+          "word": "fall",
+          "start": 25.72,
+          "end": 26.12
+        },
+        {
+          "word": "into",
+          "start": 26.12,
+          "end": 26.36
+        },
+        {
+          "word": "the",
+          "start": 26.36,
+          "end": 26.56
+        },
+        {
+          "word": "trap",
+          "start": 26.56,
+          "end": 26.96
+        },
+        {
+          "word": "the",
+          "start": 26.96,
+          "end": 27.62
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 27.62,
+      "end": 33.32,
+      "textEn": "Entitlement trap a feeling like you're a victim you are not get over it and get",
+      "textKo": "특권 의식이라는 함정, 자신이 피해자라는 느낌. 당신은 피해자가 아닙니다. 극복하고 앞으로 나아가세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "entitlement",
+          "start": 27.62,
+          "end": 28.26
+        },
+        {
+          "word": "trap",
+          "start": 28.26,
+          "end": 28.64
+        },
+        {
+          "word": "a",
+          "start": 28.64,
+          "end": 29.32
+        },
+        {
+          "word": "feeling",
+          "start": 29.32,
+          "end": 29.68
+        },
+        {
+          "word": "like",
+          "start": 29.68,
+          "end": 29.96
+        },
+        {
+          "word": "you're",
+          "start": 29.96,
+          "end": 30.24
+        },
+        {
+          "word": "a",
+          "start": 30.24,
+          "end": 30.36
+        },
+        {
+          "word": "victim",
+          "start": 30.36,
+          "end": 30.64
+        },
+        {
+          "word": "you",
+          "start": 30.64,
+          "end": 31.56
+        },
+        {
+          "word": "are",
+          "start": 31.56,
+          "end": 31.7
+        },
+        {
+          "word": "not",
+          "start": 31.7,
+          "end": 32.0
+        },
+        {
+          "word": "get",
+          "start": 32.0,
+          "end": 32.66
+        },
+        {
+          "word": "over",
+          "start": 32.66,
+          "end": 32.92
+        },
+        {
+          "word": "it",
+          "start": 32.92,
+          "end": 33.04
+        },
+        {
+          "word": "and",
+          "start": 33.04,
+          "end": 33.18
+        },
+        {
+          "word": "get",
+          "start": 33.18,
+          "end": 33.32
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 33.32,
+      "end": 42.32,
+      "textEn": "On with it so the question that we got to ask ourselves is what success is to us what",
+      "textKo": "그래서 우리가 스스로에게 물어야 할 질문은, 성공이 우리에게 무엇인가 하는 것입니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "on",
+          "start": 33.32,
+          "end": 33.52
+        },
+        {
+          "word": "with",
+          "start": 33.52,
+          "end": 33.68
+        },
+        {
+          "word": "it",
+          "start": 33.68,
+          "end": 33.84
+        },
+        {
+          "word": "so",
+          "start": 37.78,
+          "end": 38.22
+        },
+        {
+          "word": "the",
+          "start": 38.22,
+          "end": 38.32
+        },
+        {
+          "word": "question",
+          "start": 38.32,
+          "end": 38.7
+        },
+        {
+          "word": "that",
+          "start": 38.7,
+          "end": 38.86
+        },
+        {
+          "word": "we",
+          "start": 38.86,
+          "end": 38.94
+        },
+        {
+          "word": "got",
+          "start": 38.94,
+          "end": 39.06
+        },
+        {
+          "word": "to",
+          "start": 39.06,
+          "end": 39.16
+        },
+        {
+          "word": "ask",
+          "start": 39.16,
+          "end": 39.3
+        },
+        {
+          "word": "ourselves",
+          "start": 39.3,
+          "end": 39.58
+        },
+        {
+          "word": "is",
+          "start": 39.58,
+          "end": 39.82
+        },
+        {
+          "word": "what",
+          "start": 39.82,
+          "end": 40.16
+        },
+        {
+          "word": "success",
+          "start": 40.16,
+          "end": 41.08
+        },
+        {
+          "word": "is",
+          "start": 41.08,
+          "end": 41.76
+        },
+        {
+          "word": "to",
+          "start": 41.76,
+          "end": 41.92
+        },
+        {
+          "word": "us",
+          "start": 41.92,
+          "end": 42.12
+        },
+        {
+          "word": "what",
+          "start": 42.12,
+          "end": 42.32
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 42.32,
+      "end": 47.16,
+      "textEn": "Success is to you is it more money that's fine I got nothing against money",
+      "textKo": "성공이 당신에게 무엇인가요? 더 많은 돈인가요? 좋습니다. 돈에 반대할 것은 없어요.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "success",
+          "start": 42.32,
+          "end": 42.7
+        },
+        {
+          "word": "is",
+          "start": 42.7,
+          "end": 43.1
+        },
+        {
+          "word": "to",
+          "start": 43.1,
+          "end": 43.32
+        },
+        {
+          "word": "you",
+          "start": 43.32,
+          "end": 43.64
+        },
+        {
+          "word": "is",
+          "start": 43.64,
+          "end": 44.94
+        },
+        {
+          "word": "it",
+          "start": 44.94,
+          "end": 45.0
+        },
+        {
+          "word": "more",
+          "start": 45.0,
+          "end": 45.14
+        },
+        {
+          "word": "money",
+          "start": 45.14,
+          "end": 45.42
+        },
+        {
+          "word": "that's",
+          "start": 45.42,
+          "end": 46.0
+        },
+        {
+          "word": "fine",
+          "start": 46.0,
+          "end": 46.22
+        },
+        {
+          "word": "I",
+          "start": 46.22,
+          "end": 46.36
+        },
+        {
+          "word": "got",
+          "start": 46.36,
+          "end": 46.46
+        },
+        {
+          "word": "nothing",
+          "start": 46.46,
+          "end": 46.68
+        },
+        {
+          "word": "against",
+          "start": 46.68,
+          "end": 46.88
+        },
+        {
+          "word": "money",
+          "start": 46.88,
+          "end": 47.16
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 48.0,
+      "end": 52.14,
+      "textEn": "Maybe it's a healthy family maybe it's a happy marriage maybe it's to help others",
+      "textKo": "아마 건강한 가족일 수도, 행복한 결혼일 수도, 다른 사람을 돕는 것일 수도 있습니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "maybe",
+          "start": 48.0,
+          "end": 48.44
+        },
+        {
+          "word": "it's",
+          "start": 48.44,
+          "end": 48.64
+        },
+        {
+          "word": "a",
+          "start": 48.64,
+          "end": 48.72
+        },
+        {
+          "word": "healthy",
+          "start": 48.72,
+          "end": 48.98
+        },
+        {
+          "word": "family",
+          "start": 48.98,
+          "end": 49.42
+        },
+        {
+          "word": "maybe",
+          "start": 49.42,
+          "end": 50.26
+        },
+        {
+          "word": "it's",
+          "start": 50.26,
+          "end": 50.42
+        },
+        {
+          "word": "a",
+          "start": 50.42,
+          "end": 50.48
+        },
+        {
+          "word": "happy",
+          "start": 50.48,
+          "end": 50.72
+        },
+        {
+          "word": "marriage",
+          "start": 50.72,
+          "end": 51.08
+        },
+        {
+          "word": "maybe",
+          "start": 51.08,
+          "end": 51.36
+        },
+        {
+          "word": "it's",
+          "start": 51.36,
+          "end": 51.5
+        },
+        {
+          "word": "to",
+          "start": 51.5,
+          "end": 51.62
+        },
+        {
+          "word": "help",
+          "start": 51.62,
+          "end": 51.82
+        },
+        {
+          "word": "others",
+          "start": 51.82,
+          "end": 52.14
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 52.14,
+      "end": 56.5,
+      "textEn": "To be famous to be spiritually sound to leave the world a little bit better",
+      "textKo": "유명해지는 것, 영적으로 건전한 것, 세상을 조금이라도 더 나은 곳으로 만드는 것.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "to",
+          "start": 52.14,
+          "end": 52.32
+        },
+        {
+          "word": "be",
+          "start": 52.32,
+          "end": 52.46
+        },
+        {
+          "word": "famous",
+          "start": 52.46,
+          "end": 52.94
+        },
+        {
+          "word": "to",
+          "start": 52.94,
+          "end": 53.32
+        },
+        {
+          "word": "be",
+          "start": 53.32,
+          "end": 53.44
+        },
+        {
+          "word": "spiritually",
+          "start": 53.44,
+          "end": 53.9
+        },
+        {
+          "word": "sound",
+          "start": 53.9,
+          "end": 54.46
+        },
+        {
+          "word": "to",
+          "start": 54.46,
+          "end": 55.3
+        },
+        {
+          "word": "leave",
+          "start": 55.3,
+          "end": 55.46
+        },
+        {
+          "word": "the",
+          "start": 55.46,
+          "end": 55.58
+        },
+        {
+          "word": "world",
+          "start": 55.58,
+          "end": 55.82
+        },
+        {
+          "word": "a",
+          "start": 55.82,
+          "end": 56.0
+        },
+        {
+          "word": "little",
+          "start": 56.0,
+          "end": 56.14
+        },
+        {
+          "word": "bit",
+          "start": 56.14,
+          "end": 56.28
+        },
+        {
+          "word": "better",
+          "start": 56.28,
+          "end": 56.5
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 56.5,
+      "end": 62.36,
+      "textEn": "Place than you found it continue to ask yourself that question now your answer",
+      "textKo": "당신이 발견한 것보다 더 나은 곳으로. 계속 자신에게 그 질문을 하세요. 지금 당신의 대답은",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "place",
+          "start": 56.5,
+          "end": 56.84
+        },
+        {
+          "word": "than",
+          "start": 56.84,
+          "end": 57.02
+        },
+        {
+          "word": "you",
+          "start": 57.02,
+          "end": 57.12
+        },
+        {
+          "word": "found",
+          "start": 57.12,
+          "end": 57.38
+        },
+        {
+          "word": "it",
+          "start": 57.38,
+          "end": 57.56
+        },
+        {
+          "word": "continue",
+          "start": 57.56,
+          "end": 59.32
+        },
+        {
+          "word": "to",
+          "start": 59.32,
+          "end": 59.72
+        },
+        {
+          "word": "ask",
+          "start": 59.72,
+          "end": 60.06
+        },
+        {
+          "word": "yourself",
+          "start": 60.06,
+          "end": 60.46
+        },
+        {
+          "word": "that",
+          "start": 60.46,
+          "end": 60.74
+        },
+        {
+          "word": "question",
+          "start": 60.74,
+          "end": 61.2
+        },
+        {
+          "word": "now",
+          "start": 61.2,
+          "end": 62.04
+        },
+        {
+          "word": "your",
+          "start": 62.04,
+          "end": 62.16
+        },
+        {
+          "word": "answer",
+          "start": 62.16,
+          "end": 62.36
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 62.36,
+      "end": 65.86,
+      "textEn": "May change over time and that's fine but do yourself this favor",
+      "textKo": "시간이 지나면서 바뀔 수 있고, 그래도 괜찮습니다. 하지만 자신에게 이 호의를 베푸세요.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "may",
+          "start": 62.36,
+          "end": 62.52
+        },
+        {
+          "word": "change",
+          "start": 62.52,
+          "end": 62.82
+        },
+        {
+          "word": "over",
+          "start": 62.82,
+          "end": 63.02
+        },
+        {
+          "word": "time",
+          "start": 63.02,
+          "end": 63.24
+        },
+        {
+          "word": "and",
+          "start": 63.24,
+          "end": 63.42
+        },
+        {
+          "word": "that's",
+          "start": 63.42,
+          "end": 63.58
+        },
+        {
+          "word": "fine",
+          "start": 63.58,
+          "end": 63.9
+        },
+        {
+          "word": "but",
+          "start": 63.9,
+          "end": 64.9
+        },
+        {
+          "word": "do",
+          "start": 64.9,
+          "end": 65.02
+        },
+        {
+          "word": "yourself",
+          "start": 65.02,
+          "end": 65.38
+        },
+        {
+          "word": "this",
+          "start": 65.38,
+          "end": 65.6
+        },
+        {
+          "word": "favor",
+          "start": 65.6,
+          "end": 65.86
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 66.94,
+      "end": 72.74,
+      "textEn": "Whatever your answer is don't choose anything that will jeopardize yourself",
+      "textKo": "답이 무엇이든 자신을 위태롭게 하는 것은 선택하지 마세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "whatever",
+          "start": 66.94,
+          "end": 67.62
+        },
+        {
+          "word": "your",
+          "start": 67.62,
+          "end": 68.14
+        },
+        {
+          "word": "answer",
+          "start": 68.14,
+          "end": 68.58
+        },
+        {
+          "word": "is",
+          "start": 68.58,
+          "end": 68.96
+        },
+        {
+          "word": "don't",
+          "start": 68.96,
+          "end": 70.1
+        },
+        {
+          "word": "choose",
+          "start": 70.1,
+          "end": 70.46
+        },
+        {
+          "word": "anything",
+          "start": 70.46,
+          "end": 71.08
+        },
+        {
+          "word": "that",
+          "start": 71.08,
+          "end": 71.4
+        },
+        {
+          "word": "will",
+          "start": 71.4,
+          "end": 71.56
+        },
+        {
+          "word": "jeopardize",
+          "start": 71.56,
+          "end": 72.28
+        },
+        {
+          "word": "yourself",
+          "start": 72.28,
+          "end": 72.74
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 74.06,
+      "end": 80.02,
+      "textEn": "Prioritize who you are who you want to be and don't spend time with anything that",
+      "textKo": "당신이 누구인지, 누가 되고 싶은지 우선순위를 정하세요. 그리고 당신의 인격에 반하는 것에 시간을 쓰지 마세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "prioritize",
+          "start": 74.06,
+          "end": 74.74
+        },
+        {
+          "word": "who",
+          "start": 74.74,
+          "end": 75.16
+        },
+        {
+          "word": "you",
+          "start": 75.16,
+          "end": 75.36
+        },
+        {
+          "word": "are",
+          "start": 75.36,
+          "end": 75.72
+        },
+        {
+          "word": "who",
+          "start": 75.72,
+          "end": 76.16
+        },
+        {
+          "word": "you",
+          "start": 76.16,
+          "end": 76.3
+        },
+        {
+          "word": "want",
+          "start": 76.3,
+          "end": 76.6
+        },
+        {
+          "word": "to",
+          "start": 76.6,
+          "end": 76.78
+        },
+        {
+          "word": "be",
+          "start": 76.78,
+          "end": 77.04
+        },
+        {
+          "word": "and",
+          "start": 77.04,
+          "end": 77.4
+        },
+        {
+          "word": "don't",
+          "start": 77.4,
+          "end": 77.74
+        },
+        {
+          "word": "spend",
+          "start": 77.74,
+          "end": 78.04
+        },
+        {
+          "word": "time",
+          "start": 78.04,
+          "end": 78.4
+        },
+        {
+          "word": "with",
+          "start": 78.4,
+          "end": 78.7
+        },
+        {
+          "word": "anything",
+          "start": 78.7,
+          "end": 79.34
+        },
+        {
+          "word": "that",
+          "start": 79.34,
+          "end": 80.02
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 80.02,
+      "end": 82.12,
+      "textEn": "Antagonizes your character",
+      "textKo": "당신의 인격에 반하는 것 말입니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "antagonizes",
+          "start": 80.02,
+          "end": 81.16
+        },
+        {
+          "word": "your",
+          "start": 81.16,
+          "end": 81.66
+        },
+        {
+          "word": "character",
+          "start": 81.66,
+          "end": 82.12
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 85.68,
+      "end": 92.88,
+      "textEn": "Be brave take the hill but first answer that question what's my hill so first we",
+      "textKo": "용감해지세요. 언덕을 점령하세요. 하지만 먼저 이 질문에 답하세요. 나의 언덕은 무엇인가? 그러니 먼저 우리는",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "be",
+          "start": 85.68,
+          "end": 86.32
+        },
+        {
+          "word": "brave",
+          "start": 86.32,
+          "end": 86.78
+        },
+        {
+          "word": "take",
+          "start": 86.78,
+          "end": 87.32
+        },
+        {
+          "word": "the",
+          "start": 87.32,
+          "end": 87.5
+        },
+        {
+          "word": "hill",
+          "start": 87.5,
+          "end": 87.72
+        },
+        {
+          "word": "but",
+          "start": 87.72,
+          "end": 87.94
+        },
+        {
+          "word": "first",
+          "start": 87.94,
+          "end": 88.24
+        },
+        {
+          "word": "answer",
+          "start": 88.24,
+          "end": 88.6
+        },
+        {
+          "word": "that",
+          "start": 88.6,
+          "end": 88.82
+        },
+        {
+          "word": "question",
+          "start": 88.82,
+          "end": 89.26
+        },
+        {
+          "word": "what's",
+          "start": 89.26,
+          "end": 89.8
+        },
+        {
+          "word": "my",
+          "start": 89.8,
+          "end": 89.96
+        },
+        {
+          "word": "hill",
+          "start": 89.96,
+          "end": 90.32
+        },
+        {
+          "word": "so",
+          "start": 90.32,
+          "end": 91.62
+        },
+        {
+          "word": "first",
+          "start": 91.62,
+          "end": 92.06
+        },
+        {
+          "word": "we",
+          "start": 92.06,
+          "end": 92.88
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 92.88,
+      "end": 97.32,
+      "textEn": "Have to define success for ourselves and then we have to put in the work to",
+      "textKo": "스스로를 위해 성공을 정의해야 하고, 그런 다음 그것을 유지하기 위한 노력을 기울여야 합니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "have",
+          "start": 92.88,
+          "end": 92.98
+        },
+        {
+          "word": "to",
+          "start": 92.98,
+          "end": 93.08
+        },
+        {
+          "word": "define",
+          "start": 93.08,
+          "end": 93.48
+        },
+        {
+          "word": "success",
+          "start": 93.48,
+          "end": 93.98
+        },
+        {
+          "word": "for",
+          "start": 93.98,
+          "end": 94.22
+        },
+        {
+          "word": "ourselves",
+          "start": 94.22,
+          "end": 94.66
+        },
+        {
+          "word": "and",
+          "start": 94.66,
+          "end": 95.52
+        },
+        {
+          "word": "then",
+          "start": 95.52,
+          "end": 95.78
+        },
+        {
+          "word": "we",
+          "start": 95.78,
+          "end": 96.32
+        },
+        {
+          "word": "have",
+          "start": 96.32,
+          "end": 96.42
+        },
+        {
+          "word": "to",
+          "start": 96.42,
+          "end": 96.54
+        },
+        {
+          "word": "put",
+          "start": 96.54,
+          "end": 96.76
+        },
+        {
+          "word": "in",
+          "start": 96.76,
+          "end": 96.9
+        },
+        {
+          "word": "the",
+          "start": 96.9,
+          "end": 96.98
+        },
+        {
+          "word": "work",
+          "start": 96.98,
+          "end": 97.16
+        },
+        {
+          "word": "to",
+          "start": 97.16,
+          "end": 97.32
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 97.32,
+      "end": 101.86,
+      "textEn": "Maintain take that daily tally tend our garden keep the things that are important",
+      "textKo": "매일 점검하고, 정원을 가꾸고, 중요한 것들을 잘 관리하세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "maintain",
+          "start": 97.32,
+          "end": 97.76
+        },
+        {
+          "word": "take",
+          "start": 97.76,
+          "end": 98.24
+        },
+        {
+          "word": "that",
+          "start": 98.24,
+          "end": 98.48
+        },
+        {
+          "word": "daily",
+          "start": 98.48,
+          "end": 98.82
+        },
+        {
+          "word": "tally",
+          "start": 98.82,
+          "end": 99.22
+        },
+        {
+          "word": "tend",
+          "start": 99.22,
+          "end": 99.78
+        },
+        {
+          "word": "our",
+          "start": 99.78,
+          "end": 100.1
+        },
+        {
+          "word": "garden",
+          "start": 100.1,
+          "end": 100.5
+        },
+        {
+          "word": "keep",
+          "start": 100.5,
+          "end": 100.86
+        },
+        {
+          "word": "the",
+          "start": 100.86,
+          "end": 101.02
+        },
+        {
+          "word": "things",
+          "start": 101.02,
+          "end": 101.28
+        },
+        {
+          "word": "that",
+          "start": 101.28,
+          "end": 101.44
+        },
+        {
+          "word": "are",
+          "start": 101.44,
+          "end": 101.52
+        },
+        {
+          "word": "important",
+          "start": 101.52,
+          "end": 101.86
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 101.86,
+      "end": 109.68,
+      "textEn": "To us in good shape where you are not is as important as where you are it is just as",
+      "textKo": "당신이 있지 않은 곳도 당신이 있는 곳만큼 중요합니다. 바로 이것과 같습니다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "to",
+          "start": 101.86,
+          "end": 102.0
+        },
+        {
+          "word": "us",
+          "start": 102.0,
+          "end": 102.26
+        },
+        {
+          "word": "in",
+          "start": 102.26,
+          "end": 102.7
+        },
+        {
+          "word": "good",
+          "start": 102.7,
+          "end": 102.92
+        },
+        {
+          "word": "shape",
+          "start": 102.92,
+          "end": 103.24
+        },
+        {
+          "word": "where",
+          "start": 103.24,
+          "end": 104.74
+        },
+        {
+          "word": "you",
+          "start": 104.74,
+          "end": 104.92
+        },
+        {
+          "word": "are",
+          "start": 104.92,
+          "end": 105.1
+        },
+        {
+          "word": "not",
+          "start": 105.1,
+          "end": 105.44
+        },
+        {
+          "word": "is",
+          "start": 105.44,
+          "end": 105.78
+        },
+        {
+          "word": "as",
+          "start": 105.78,
+          "end": 106.0
+        },
+        {
+          "word": "important",
+          "start": 106.0,
+          "end": 106.38
+        },
+        {
+          "word": "as",
+          "start": 106.38,
+          "end": 106.62
+        },
+        {
+          "word": "where",
+          "start": 106.62,
+          "end": 106.84
+        },
+        {
+          "word": "you",
+          "start": 106.84,
+          "end": 107.02
+        },
+        {
+          "word": "are",
+          "start": 107.02,
+          "end": 107.34
+        },
+        {
+          "word": "it",
+          "start": 107.34,
+          "end": 109.16
+        },
+        {
+          "word": "is",
+          "start": 109.16,
+          "end": 109.28
+        },
+        {
+          "word": "just",
+          "start": 109.28,
+          "end": 109.48
+        },
+        {
+          "word": "as",
+          "start": 109.48,
+          "end": 109.68
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 109.68,
+      "end": 119.98,
+      "textEn": "Important where we are not as it is where we are look the first step that leads to our",
+      "textKo": "우리가 있지 않은 곳이 우리가 있는 곳만큼 중요합니다. 보세요, 우리의 정체성으로 이끄는 첫 번째 단계는",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "important",
+          "start": 109.68,
+          "end": 110.24
+        },
+        {
+          "word": "where",
+          "start": 110.24,
+          "end": 111.58
+        },
+        {
+          "word": "we",
+          "start": 111.58,
+          "end": 111.8
+        },
+        {
+          "word": "are",
+          "start": 111.8,
+          "end": 112.04
+        },
+        {
+          "word": "not",
+          "start": 112.04,
+          "end": 112.5
+        },
+        {
+          "word": "as",
+          "start": 112.5,
+          "end": 113.8
+        },
+        {
+          "word": "it",
+          "start": 113.8,
+          "end": 113.96
+        },
+        {
+          "word": "is",
+          "start": 113.96,
+          "end": 114.2
+        },
+        {
+          "word": "where",
+          "start": 114.2,
+          "end": 114.5
+        },
+        {
+          "word": "we",
+          "start": 114.5,
+          "end": 114.84
+        },
+        {
+          "word": "are",
+          "start": 114.84,
+          "end": 115.3
+        },
+        {
+          "word": "look",
+          "start": 115.3,
+          "end": 117.54
+        },
+        {
+          "word": "the",
+          "start": 117.54,
+          "end": 117.72
+        },
+        {
+          "word": "first",
+          "start": 117.72,
+          "end": 117.98
+        },
+        {
+          "word": "step",
+          "start": 117.98,
+          "end": 118.4
+        },
+        {
+          "word": "that",
+          "start": 118.4,
+          "end": 119.1
+        },
+        {
+          "word": "leads",
+          "start": 119.1,
+          "end": 119.46
+        },
+        {
+          "word": "to",
+          "start": 119.46,
+          "end": 119.74
+        },
+        {
+          "word": "our",
+          "start": 119.74,
+          "end": 119.98
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 119.98,
+      "end": 127.64,
+      "textEn": "Identity life is usually not I know who I am I know who I am that's not the first",
+      "textKo": "보통 '나는 내가 누구인지 안다'가 아닙니다. '나는 내가 누구인지 안다', 그것이 첫 번째 단계가 아닙니다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "identity",
+          "start": 119.98,
+          "end": 120.6
+        },
+        {
+          "word": "life",
+          "start": 120.6,
+          "end": 121.16
+        },
+        {
+          "word": "is",
+          "start": 121.16,
+          "end": 122.72
+        },
+        {
+          "word": "usually",
+          "start": 122.72,
+          "end": 123.06
+        },
+        {
+          "word": "not",
+          "start": 123.06,
+          "end": 123.36
+        },
+        {
+          "word": "I",
+          "start": 123.36,
+          "end": 124.46
+        },
+        {
+          "word": "know",
+          "start": 124.46,
+          "end": 124.64
+        },
+        {
+          "word": "who",
+          "start": 124.64,
+          "end": 124.8
+        },
+        {
+          "word": "I",
+          "start": 124.8,
+          "end": 125.0
+        },
+        {
+          "word": "am",
+          "start": 125.0,
+          "end": 125.26
+        },
+        {
+          "word": "I",
+          "start": 125.26,
+          "end": 125.98
+        },
+        {
+          "word": "know",
+          "start": 125.98,
+          "end": 126.26
+        },
+        {
+          "word": "who",
+          "start": 126.26,
+          "end": 126.5
+        },
+        {
+          "word": "I",
+          "start": 126.5,
+          "end": 126.66
+        },
+        {
+          "word": "am",
+          "start": 126.66,
+          "end": 126.92
+        },
+        {
+          "word": "that's",
+          "start": 126.92,
+          "end": 127.18
+        },
+        {
+          "word": "not",
+          "start": 127.18,
+          "end": 127.28
+        },
+        {
+          "word": "the",
+          "start": 127.28,
+          "end": 127.4
+        },
+        {
+          "word": "first",
+          "start": 127.4,
+          "end": 127.64
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 127.64,
+      "end": 135.4,
+      "textEn": "Step the first steps usually I know who I am NOT process of elimination defining",
+      "textKo": "첫 번째 단계는 보통 '나는 내가 누구가 아닌지 안다'입니다. 소거법으로, 우리 자신을",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "step",
+          "start": 127.64,
+          "end": 127.86
+        },
+        {
+          "word": "the",
+          "start": 127.86,
+          "end": 128.0
+        },
+        {
+          "word": "first",
+          "start": 128.0,
+          "end": 128.18
+        },
+        {
+          "word": "steps",
+          "start": 128.18,
+          "end": 128.4
+        },
+        {
+          "word": "usually",
+          "start": 128.4,
+          "end": 128.74
+        },
+        {
+          "word": "I",
+          "start": 128.74,
+          "end": 129.4
+        },
+        {
+          "word": "know",
+          "start": 129.4,
+          "end": 129.58
+        },
+        {
+          "word": "who",
+          "start": 129.58,
+          "end": 129.74
+        },
+        {
+          "word": "I",
+          "start": 129.74,
+          "end": 129.94
+        },
+        {
+          "word": "am",
+          "start": 129.94,
+          "end": 130.1
+        },
+        {
+          "word": "NOT",
+          "start": 130.1,
+          "end": 130.58
+        },
+        {
+          "word": "process",
+          "start": 130.58,
+          "end": 132.72
+        },
+        {
+          "word": "of",
+          "start": 132.72,
+          "end": 132.98
+        },
+        {
+          "word": "elimination",
+          "start": 132.98,
+          "end": 133.46
+        },
+        {
+          "word": "defining",
+          "start": 133.46,
+          "end": 135.4
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 135.4,
+      "end": 139.9,
+      "textEn": "Ourselves by what we are not is the first step that leads us to really knowing who",
+      "textKo": "우리가 아닌 것으로 정의하는 것이 진정 우리가 누구인지 아는 것으로 이끄는 첫걸음입니다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "ourselves",
+          "start": 135.4,
+          "end": 135.74
+        },
+        {
+          "word": "by",
+          "start": 135.74,
+          "end": 136.06
+        },
+        {
+          "word": "what",
+          "start": 136.06,
+          "end": 136.28
+        },
+        {
+          "word": "we",
+          "start": 136.28,
+          "end": 136.44
+        },
+        {
+          "word": "are",
+          "start": 136.44,
+          "end": 136.62
+        },
+        {
+          "word": "not",
+          "start": 136.62,
+          "end": 136.98
+        },
+        {
+          "word": "is",
+          "start": 136.98,
+          "end": 137.66
+        },
+        {
+          "word": "the",
+          "start": 137.66,
+          "end": 137.78
+        },
+        {
+          "word": "first",
+          "start": 137.78,
+          "end": 138.0
+        },
+        {
+          "word": "step",
+          "start": 138.0,
+          "end": 138.26
+        },
+        {
+          "word": "that",
+          "start": 138.26,
+          "end": 138.4
+        },
+        {
+          "word": "leads",
+          "start": 138.4,
+          "end": 138.6
+        },
+        {
+          "word": "us",
+          "start": 138.6,
+          "end": 138.8
+        },
+        {
+          "word": "to",
+          "start": 138.8,
+          "end": 138.94
+        },
+        {
+          "word": "really",
+          "start": 138.94,
+          "end": 139.14
+        },
+        {
+          "word": "knowing",
+          "start": 139.14,
+          "end": 139.46
+        },
+        {
+          "word": "who",
+          "start": 139.46,
+          "end": 139.9
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 139.9,
+      "end": 144.72,
+      "textEn": "We are you know that group of friends that you hang out with and they really",
+      "textKo": "같이 어울리는 친구 그룹 있잖아요, 그 친구들이 정말로",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "we",
+          "start": 139.9,
+          "end": 140.06
+        },
+        {
+          "word": "are",
+          "start": 140.06,
+          "end": 140.34
+        },
+        {
+          "word": "you",
+          "start": 140.34,
+          "end": 142.06
+        },
+        {
+          "word": "know",
+          "start": 142.06,
+          "end": 142.14
+        },
+        {
+          "word": "that",
+          "start": 142.14,
+          "end": 142.26
+        },
+        {
+          "word": "group",
+          "start": 142.26,
+          "end": 142.42
+        },
+        {
+          "word": "of",
+          "start": 142.42,
+          "end": 142.54
+        },
+        {
+          "word": "friends",
+          "start": 142.54,
+          "end": 142.8
+        },
+        {
+          "word": "that",
+          "start": 142.8,
+          "end": 142.94
+        },
+        {
+          "word": "you",
+          "start": 142.94,
+          "end": 143.04
+        },
+        {
+          "word": "hang",
+          "start": 143.04,
+          "end": 143.22
+        },
+        {
+          "word": "out",
+          "start": 143.22,
+          "end": 143.38
+        },
+        {
+          "word": "with",
+          "start": 143.38,
+          "end": 143.6
+        },
+        {
+          "word": "and",
+          "start": 143.6,
+          "end": 143.86
+        },
+        {
+          "word": "they",
+          "start": 143.86,
+          "end": 144.02
+        },
+        {
+          "word": "really",
+          "start": 144.02,
+          "end": 144.72
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 144.72,
+      "end": 149.5,
+      "textEn": "Might not bring out the best in you you know they gossip too much or they're kind of",
+      "textKo": "당신의 최선을 끌어내지 못할 수도 있어요. 험담을 너무 많이 하거나 약간 수상한",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "might",
+          "start": 144.72,
+          "end": 144.92
+        },
+        {
+          "word": "not",
+          "start": 144.92,
+          "end": 145.06
+        },
+        {
+          "word": "bring",
+          "start": 145.06,
+          "end": 145.26
+        },
+        {
+          "word": "out",
+          "start": 145.26,
+          "end": 145.4
+        },
+        {
+          "word": "the",
+          "start": 145.4,
+          "end": 145.54
+        },
+        {
+          "word": "best",
+          "start": 145.54,
+          "end": 145.74
+        },
+        {
+          "word": "in",
+          "start": 145.74,
+          "end": 145.92
+        },
+        {
+          "word": "you",
+          "start": 145.92,
+          "end": 146.04
+        },
+        {
+          "word": "you",
+          "start": 146.04,
+          "end": 147.22
+        },
+        {
+          "word": "know",
+          "start": 147.22,
+          "end": 147.28
+        },
+        {
+          "word": "they",
+          "start": 147.28,
+          "end": 147.48
+        },
+        {
+          "word": "gossip",
+          "start": 147.48,
+          "end": 147.96
+        },
+        {
+          "word": "too",
+          "start": 147.96,
+          "end": 148.24
+        },
+        {
+          "word": "much",
+          "start": 148.24,
+          "end": 148.54
+        },
+        {
+          "word": "or",
+          "start": 148.54,
+          "end": 148.78
+        },
+        {
+          "word": "they're",
+          "start": 148.78,
+          "end": 149.24
+        },
+        {
+          "word": "kind",
+          "start": 149.24,
+          "end": 149.42
+        },
+        {
+          "word": "of",
+          "start": 149.42,
+          "end": 149.5
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 149.5,
+      "end": 156.24,
+      "textEn": "Shady they really aren't gonna be there for you in a pinch or how about that bar that",
+      "textKo": "사람들이죠. 정작 어려울 때 곁에 있어주지 않을 거예요. 아니면 계속 가는 그 술집은요?",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "shady",
+          "start": 149.5,
+          "end": 149.92
+        },
+        {
+          "word": "they",
+          "start": 149.92,
+          "end": 150.96
+        },
+        {
+          "word": "really",
+          "start": 150.96,
+          "end": 151.14
+        },
+        {
+          "word": "aren't",
+          "start": 151.14,
+          "end": 151.36
+        },
+        {
+          "word": "gonna",
+          "start": 151.36,
+          "end": 151.48
+        },
+        {
+          "word": "be",
+          "start": 151.48,
+          "end": 151.7
+        },
+        {
+          "word": "there",
+          "start": 151.7,
+          "end": 151.9
+        },
+        {
+          "word": "for",
+          "start": 151.9,
+          "end": 152.12
+        },
+        {
+          "word": "you",
+          "start": 152.12,
+          "end": 152.26
+        },
+        {
+          "word": "in",
+          "start": 152.26,
+          "end": 152.36
+        },
+        {
+          "word": "a",
+          "start": 152.36,
+          "end": 152.44
+        },
+        {
+          "word": "pinch",
+          "start": 152.44,
+          "end": 152.78
+        },
+        {
+          "word": "or",
+          "start": 152.78,
+          "end": 154.28
+        },
+        {
+          "word": "how",
+          "start": 154.28,
+          "end": 154.42
+        },
+        {
+          "word": "about",
+          "start": 154.42,
+          "end": 154.58
+        },
+        {
+          "word": "that",
+          "start": 154.58,
+          "end": 154.78
+        },
+        {
+          "word": "bar",
+          "start": 154.78,
+          "end": 155.28
+        },
+        {
+          "word": "that",
+          "start": 155.28,
+          "end": 156.24
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 156.24,
+      "end": 161.44,
+      "textEn": "We keep going to that we always seem to have the worst hangover from or that",
+      "textKo": "갈 때마다 항상 최악의 숙취에 시달리는 곳. 아니면 그",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "we",
+          "start": 156.24,
+          "end": 156.36
+        },
+        {
+          "word": "keep",
+          "start": 156.36,
+          "end": 156.62
+        },
+        {
+          "word": "going",
+          "start": 156.62,
+          "end": 157.02
+        },
+        {
+          "word": "to",
+          "start": 157.02,
+          "end": 157.34
+        },
+        {
+          "word": "that",
+          "start": 157.34,
+          "end": 157.58
+        },
+        {
+          "word": "we",
+          "start": 157.58,
+          "end": 157.7
+        },
+        {
+          "word": "always",
+          "start": 157.7,
+          "end": 157.98
+        },
+        {
+          "word": "seem",
+          "start": 157.98,
+          "end": 158.18
+        },
+        {
+          "word": "to",
+          "start": 158.18,
+          "end": 158.32
+        },
+        {
+          "word": "have",
+          "start": 158.32,
+          "end": 158.44
+        },
+        {
+          "word": "the",
+          "start": 158.44,
+          "end": 158.56
+        },
+        {
+          "word": "worst",
+          "start": 158.56,
+          "end": 158.9
+        },
+        {
+          "word": "hangover",
+          "start": 158.9,
+          "end": 159.48
+        },
+        {
+          "word": "from",
+          "start": 159.48,
+          "end": 159.84
+        },
+        {
+          "word": "or",
+          "start": 159.84,
+          "end": 161.28
+        },
+        {
+          "word": "that",
+          "start": 161.28,
+          "end": 161.44
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 161.44,
+      "end": 165.98,
+      "textEn": "Computer screen right the computer screen that keeps giving us an excuse not to get",
+      "textKo": "컴퓨터 화면, 맞죠? 집 밖으로 나가지 않을 핑계를 계속 제공하는 컴퓨터 화면.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "computer",
+          "start": 161.44,
+          "end": 161.92
+        },
+        {
+          "word": "screen",
+          "start": 161.92,
+          "end": 162.42
+        },
+        {
+          "word": "right",
+          "start": 162.42,
+          "end": 162.74
+        },
+        {
+          "word": "the",
+          "start": 162.74,
+          "end": 162.94
+        },
+        {
+          "word": "computer",
+          "start": 162.94,
+          "end": 163.26
+        },
+        {
+          "word": "screen",
+          "start": 163.26,
+          "end": 163.5
+        },
+        {
+          "word": "that",
+          "start": 163.5,
+          "end": 163.64
+        },
+        {
+          "word": "keeps",
+          "start": 163.64,
+          "end": 163.96
+        },
+        {
+          "word": "giving",
+          "start": 163.96,
+          "end": 164.22
+        },
+        {
+          "word": "us",
+          "start": 164.22,
+          "end": 164.48
+        },
+        {
+          "word": "an",
+          "start": 164.48,
+          "end": 164.62
+        },
+        {
+          "word": "excuse",
+          "start": 164.62,
+          "end": 165.02
+        },
+        {
+          "word": "not",
+          "start": 165.02,
+          "end": 165.62
+        },
+        {
+          "word": "to",
+          "start": 165.62,
+          "end": 165.82
+        },
+        {
+          "word": "get",
+          "start": 165.82,
+          "end": 165.98
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 165.98,
+      "end": 169.76,
+      "textEn": "Out of the house and engage with the world and get some real human interaction",
+      "textKo": "세상과 소통하고 진정한 인간적 교류를 할 기회를 막는 것.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "out",
+          "start": 165.98,
+          "end": 166.16
+        },
+        {
+          "word": "of",
+          "start": 166.16,
+          "end": 166.24
+        },
+        {
+          "word": "the",
+          "start": 166.24,
+          "end": 166.32
+        },
+        {
+          "word": "house",
+          "start": 166.32,
+          "end": 166.6
+        },
+        {
+          "word": "and",
+          "start": 166.6,
+          "end": 166.98
+        },
+        {
+          "word": "engage",
+          "start": 166.98,
+          "end": 167.34
+        },
+        {
+          "word": "with",
+          "start": 167.34,
+          "end": 167.72
+        },
+        {
+          "word": "the",
+          "start": 167.72,
+          "end": 167.86
+        },
+        {
+          "word": "world",
+          "start": 167.86,
+          "end": 168.16
+        },
+        {
+          "word": "and",
+          "start": 168.16,
+          "end": 168.34
+        },
+        {
+          "word": "get",
+          "start": 168.34,
+          "end": 168.44
+        },
+        {
+          "word": "some",
+          "start": 168.44,
+          "end": 168.6
+        },
+        {
+          "word": "real",
+          "start": 168.6,
+          "end": 168.82
+        },
+        {
+          "word": "human",
+          "start": 168.82,
+          "end": 169.18
+        },
+        {
+          "word": "interaction",
+          "start": 169.18,
+          "end": 169.76
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 171.1,
+      "end": 175.26,
+      "textEn": "How about that food that we keep eating stuff that tastes so good going down makes",
+      "textKo": "계속 먹는 그 음식은요? 먹을 때는 맛있는데",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "how",
+          "start": 171.1,
+          "end": 171.58
+        },
+        {
+          "word": "about",
+          "start": 171.58,
+          "end": 171.72
+        },
+        {
+          "word": "that",
+          "start": 171.72,
+          "end": 171.86
+        },
+        {
+          "word": "food",
+          "start": 171.86,
+          "end": 172.2
+        },
+        {
+          "word": "that",
+          "start": 172.2,
+          "end": 172.4
+        },
+        {
+          "word": "we",
+          "start": 172.4,
+          "end": 172.5
+        },
+        {
+          "word": "keep",
+          "start": 172.5,
+          "end": 172.7
+        },
+        {
+          "word": "eating",
+          "start": 172.7,
+          "end": 172.94
+        },
+        {
+          "word": "stuff",
+          "start": 172.94,
+          "end": 173.22
+        },
+        {
+          "word": "that",
+          "start": 173.22,
+          "end": 173.38
+        },
+        {
+          "word": "tastes",
+          "start": 173.38,
+          "end": 173.6
+        },
+        {
+          "word": "so",
+          "start": 173.6,
+          "end": 173.78
+        },
+        {
+          "word": "good",
+          "start": 173.78,
+          "end": 173.98
+        },
+        {
+          "word": "going",
+          "start": 173.98,
+          "end": 174.2
+        },
+        {
+          "word": "down",
+          "start": 174.2,
+          "end": 174.54
+        },
+        {
+          "word": "makes",
+          "start": 174.54,
+          "end": 175.26
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 175.26,
+      "end": 180.82,
+      "textEn": "Us feel like crap the next week we feel lethargic we keep putting on weight well",
+      "textKo": "다음 주에는 기분이 엉망이 되죠. 무기력해지고, 계속 살이 찝니다. 자, 그러면",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "us",
+          "start": 175.26,
+          "end": 175.38
+        },
+        {
+          "word": "feel",
+          "start": 175.38,
+          "end": 175.52
+        },
+        {
+          "word": "like",
+          "start": 175.52,
+          "end": 175.68
+        },
+        {
+          "word": "crap",
+          "start": 175.68,
+          "end": 176.04
+        },
+        {
+          "word": "the",
+          "start": 176.04,
+          "end": 176.24
+        },
+        {
+          "word": "next",
+          "start": 176.24,
+          "end": 176.44
+        },
+        {
+          "word": "week",
+          "start": 176.44,
+          "end": 176.76
+        },
+        {
+          "word": "we",
+          "start": 176.76,
+          "end": 177.36
+        },
+        {
+          "word": "feel",
+          "start": 177.36,
+          "end": 177.56
+        },
+        {
+          "word": "lethargic",
+          "start": 177.56,
+          "end": 178.1
+        },
+        {
+          "word": "we",
+          "start": 178.1,
+          "end": 178.26
+        },
+        {
+          "word": "keep",
+          "start": 178.26,
+          "end": 178.44
+        },
+        {
+          "word": "putting",
+          "start": 178.44,
+          "end": 178.62
+        },
+        {
+          "word": "on",
+          "start": 178.62,
+          "end": 178.76
+        },
+        {
+          "word": "weight",
+          "start": 178.76,
+          "end": 179.02
+        },
+        {
+          "word": "well",
+          "start": 179.02,
+          "end": 180.82
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 180.82,
+      "end": 186.74,
+      "textEn": "Those people those places those things stop giving them your time and energy just",
+      "textKo": "그 사람들, 그 장소들, 그것들에 당신의 시간과 에너지를 주는 걸 멈추세요. 그냥",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "those",
+          "start": 180.82,
+          "end": 181.1
+        },
+        {
+          "word": "people",
+          "start": 181.1,
+          "end": 181.46
+        },
+        {
+          "word": "those",
+          "start": 181.46,
+          "end": 181.78
+        },
+        {
+          "word": "places",
+          "start": 181.78,
+          "end": 182.22
+        },
+        {
+          "word": "those",
+          "start": 182.22,
+          "end": 182.6
+        },
+        {
+          "word": "things",
+          "start": 182.6,
+          "end": 183.14
+        },
+        {
+          "word": "stop",
+          "start": 183.14,
+          "end": 184.54
+        },
+        {
+          "word": "giving",
+          "start": 184.54,
+          "end": 184.86
+        },
+        {
+          "word": "them",
+          "start": 184.86,
+          "end": 185.02
+        },
+        {
+          "word": "your",
+          "start": 185.02,
+          "end": 185.18
+        },
+        {
+          "word": "time",
+          "start": 185.18,
+          "end": 185.42
+        },
+        {
+          "word": "and",
+          "start": 185.42,
+          "end": 185.62
+        },
+        {
+          "word": "energy",
+          "start": 185.62,
+          "end": 185.86
+        },
+        {
+          "word": "just",
+          "start": 185.86,
+          "end": 186.74
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 186.74,
+      "end": 191.54,
+      "textEn": "Don't go there I mean put them down and when you do this when you do put them down",
+      "textKo": "거기 가지 마세요. 내려놓으라는 뜻이에요. 그리고 그렇게 할 때, 내려놓으면",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "don't",
+          "start": 186.74,
+          "end": 186.98
+        },
+        {
+          "word": "go",
+          "start": 186.98,
+          "end": 187.12
+        },
+        {
+          "word": "there",
+          "start": 187.12,
+          "end": 187.3
+        },
+        {
+          "word": "I",
+          "start": 187.3,
+          "end": 187.4
+        },
+        {
+          "word": "mean",
+          "start": 187.4,
+          "end": 187.5
+        },
+        {
+          "word": "put",
+          "start": 187.5,
+          "end": 187.8
+        },
+        {
+          "word": "them",
+          "start": 187.8,
+          "end": 187.9
+        },
+        {
+          "word": "down",
+          "start": 187.9,
+          "end": 188.2
+        },
+        {
+          "word": "and",
+          "start": 188.2,
+          "end": 189.82
+        },
+        {
+          "word": "when",
+          "start": 189.82,
+          "end": 189.94
+        },
+        {
+          "word": "you",
+          "start": 189.94,
+          "end": 190.08
+        },
+        {
+          "word": "do",
+          "start": 190.08,
+          "end": 190.26
+        },
+        {
+          "word": "this",
+          "start": 190.26,
+          "end": 190.52
+        },
+        {
+          "word": "when",
+          "start": 190.52,
+          "end": 190.72
+        },
+        {
+          "word": "you",
+          "start": 190.72,
+          "end": 190.84
+        },
+        {
+          "word": "do",
+          "start": 190.84,
+          "end": 190.98
+        },
+        {
+          "word": "put",
+          "start": 190.98,
+          "end": 191.26
+        },
+        {
+          "word": "them",
+          "start": 191.26,
+          "end": 191.38
+        },
+        {
+          "word": "down",
+          "start": 191.38,
+          "end": 191.54
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 191.54,
+      "end": 196.24,
+      "textEn": "You quit going there and you quit giving them your time you inadvertently find",
+      "textKo": "거기 가는 걸 그만두고 시간을 주는 걸 그만두면, 자연스럽게",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "you",
+          "start": 191.54,
+          "end": 191.74
+        },
+        {
+          "word": "quit",
+          "start": 191.74,
+          "end": 191.96
+        },
+        {
+          "word": "going",
+          "start": 191.96,
+          "end": 192.2
+        },
+        {
+          "word": "there",
+          "start": 192.2,
+          "end": 192.5
+        },
+        {
+          "word": "and",
+          "start": 192.5,
+          "end": 193.22
+        },
+        {
+          "word": "you",
+          "start": 193.22,
+          "end": 193.28
+        },
+        {
+          "word": "quit",
+          "start": 193.28,
+          "end": 193.48
+        },
+        {
+          "word": "giving",
+          "start": 193.48,
+          "end": 193.78
+        },
+        {
+          "word": "them",
+          "start": 193.78,
+          "end": 193.94
+        },
+        {
+          "word": "your",
+          "start": 193.94,
+          "end": 194.1
+        },
+        {
+          "word": "time",
+          "start": 194.1,
+          "end": 194.5
+        },
+        {
+          "word": "you",
+          "start": 194.5,
+          "end": 195.14
+        },
+        {
+          "word": "inadvertently",
+          "start": 195.14,
+          "end": 195.9
+        },
+        {
+          "word": "find",
+          "start": 195.9,
+          "end": 196.24
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 196.24,
+      "end": 203.12,
+      "textEn": "Yourself spending more time and in more places that are healthy for you that bring",
+      "textKo": "건강에 좋은 곳에서 더 많은 시간을 보내게 됩니다. 당신에게 기쁨을 주는 곳에서.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "yourself",
+          "start": 196.24,
+          "end": 196.84
+        },
+        {
+          "word": "spending",
+          "start": 196.84,
+          "end": 197.5
+        },
+        {
+          "word": "more",
+          "start": 197.5,
+          "end": 198.04
+        },
+        {
+          "word": "time",
+          "start": 198.04,
+          "end": 198.48
+        },
+        {
+          "word": "and",
+          "start": 198.48,
+          "end": 198.9
+        },
+        {
+          "word": "in",
+          "start": 198.9,
+          "end": 199.1
+        },
+        {
+          "word": "more",
+          "start": 199.1,
+          "end": 199.42
+        },
+        {
+          "word": "places",
+          "start": 199.42,
+          "end": 199.98
+        },
+        {
+          "word": "that",
+          "start": 199.98,
+          "end": 201.44
+        },
+        {
+          "word": "are",
+          "start": 201.44,
+          "end": 201.56
+        },
+        {
+          "word": "healthy",
+          "start": 201.56,
+          "end": 201.88
+        },
+        {
+          "word": "for",
+          "start": 201.88,
+          "end": 202.2
+        },
+        {
+          "word": "you",
+          "start": 202.2,
+          "end": 202.46
+        },
+        {
+          "word": "that",
+          "start": 202.46,
+          "end": 202.84
+        },
+        {
+          "word": "bring",
+          "start": 202.84,
+          "end": 203.12
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 203.12,
+      "end": 208.16,
+      "textEn": "You more joy why because you just eliminated the who's the where's the",
+      "textKo": "더 많은 기쁨을 주는 곳이요. 왜일까요? 당신이 방금 제거했기 때문입니다. 누가, 어디서,",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "you",
+          "start": 203.12,
+          "end": 203.62
+        },
+        {
+          "word": "more",
+          "start": 203.62,
+          "end": 204.14
+        },
+        {
+          "word": "joy",
+          "start": 204.14,
+          "end": 204.52
+        },
+        {
+          "word": "why",
+          "start": 204.52,
+          "end": 205.02
+        },
+        {
+          "word": "because",
+          "start": 205.02,
+          "end": 206.12
+        },
+        {
+          "word": "you",
+          "start": 206.12,
+          "end": 206.24
+        },
+        {
+          "word": "just",
+          "start": 206.24,
+          "end": 206.42
+        },
+        {
+          "word": "eliminated",
+          "start": 206.42,
+          "end": 207.0
+        },
+        {
+          "word": "the",
+          "start": 207.0,
+          "end": 207.24
+        },
+        {
+          "word": "who's",
+          "start": 207.24,
+          "end": 207.6
+        },
+        {
+          "word": "the",
+          "start": 207.6,
+          "end": 207.7
+        },
+        {
+          "word": "where's",
+          "start": 207.7,
+          "end": 208.06
+        },
+        {
+          "word": "the",
+          "start": 208.06,
+          "end": 208.16
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 208.16,
+      "end": 213.44,
+      "textEn": "What's and the wins that were keeping you from your identity trust me too many",
+      "textKo": "무엇이, 그리고 어떤 것이 당신의 정체성을 찾지 못하게 했는지를. 제 말을 믿으세요, 너무 많은",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "what's",
+          "start": 208.16,
+          "end": 208.4
+        },
+        {
+          "word": "and",
+          "start": 208.4,
+          "end": 208.48
+        },
+        {
+          "word": "the",
+          "start": 208.48,
+          "end": 208.56
+        },
+        {
+          "word": "wins",
+          "start": 208.56,
+          "end": 208.76
+        },
+        {
+          "word": "that",
+          "start": 208.76,
+          "end": 209.18
+        },
+        {
+          "word": "were",
+          "start": 209.18,
+          "end": 209.28
+        },
+        {
+          "word": "keeping",
+          "start": 209.28,
+          "end": 209.58
+        },
+        {
+          "word": "you",
+          "start": 209.58,
+          "end": 209.88
+        },
+        {
+          "word": "from",
+          "start": 209.88,
+          "end": 210.52
+        },
+        {
+          "word": "your",
+          "start": 210.52,
+          "end": 210.68
+        },
+        {
+          "word": "identity",
+          "start": 210.68,
+          "end": 211.16
+        },
+        {
+          "word": "trust",
+          "start": 211.16,
+          "end": 212.94
+        },
+        {
+          "word": "me",
+          "start": 212.94,
+          "end": 213.1
+        },
+        {
+          "word": "too",
+          "start": 213.1,
+          "end": 213.28
+        },
+        {
+          "word": "many",
+          "start": 213.28,
+          "end": 213.44
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 213.44,
+      "end": 219.56,
+      "textEn": "Options I promise that too many options will make a tyrant of us all I'm so get",
+      "textKo": "선택지가 문제입니다. 장담하건대, 너무 많은 선택지는 우리 모두를 폭군으로 만듭니다. 그러니",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "options",
+          "start": 213.44,
+          "end": 213.98
+        },
+        {
+          "word": "I",
+          "start": 213.98,
+          "end": 214.88
+        },
+        {
+          "word": "promise",
+          "start": 214.88,
+          "end": 215.24
+        },
+        {
+          "word": "that",
+          "start": 215.24,
+          "end": 215.42
+        },
+        {
+          "word": "too",
+          "start": 215.42,
+          "end": 215.56
+        },
+        {
+          "word": "many",
+          "start": 215.56,
+          "end": 215.72
+        },
+        {
+          "word": "options",
+          "start": 215.72,
+          "end": 216.06
+        },
+        {
+          "word": "will",
+          "start": 216.06,
+          "end": 216.24
+        },
+        {
+          "word": "make",
+          "start": 216.24,
+          "end": 216.38
+        },
+        {
+          "word": "a",
+          "start": 216.38,
+          "end": 216.48
+        },
+        {
+          "word": "tyrant",
+          "start": 216.48,
+          "end": 216.9
+        },
+        {
+          "word": "of",
+          "start": 216.9,
+          "end": 217.88
+        },
+        {
+          "word": "us",
+          "start": 217.88,
+          "end": 218.02
+        },
+        {
+          "word": "all",
+          "start": 218.02,
+          "end": 218.34
+        },
+        {
+          "word": "I'm",
+          "start": 218.34,
+          "end": 219.32
+        },
+        {
+          "word": "so",
+          "start": 219.32,
+          "end": 219.38
+        },
+        {
+          "word": "get",
+          "start": 219.38,
+          "end": 219.56
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 219.56,
+      "end": 226.52,
+      "textEn": "Rid of the excess the wasted time decrease your options if you do this you",
+      "textKo": "불필요한 것을 없애세요. 낭비되는 시간을. 선택지를 줄이세요. 그렇게 하면",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "rid",
+          "start": 219.56,
+          "end": 219.76
+        },
+        {
+          "word": "of",
+          "start": 219.76,
+          "end": 219.9
+        },
+        {
+          "word": "the",
+          "start": 219.9,
+          "end": 220.02
+        },
+        {
+          "word": "excess",
+          "start": 220.02,
+          "end": 220.52
+        },
+        {
+          "word": "the",
+          "start": 220.52,
+          "end": 221.36
+        },
+        {
+          "word": "wasted",
+          "start": 221.36,
+          "end": 221.72
+        },
+        {
+          "word": "time",
+          "start": 221.72,
+          "end": 222.16
+        },
+        {
+          "word": "decrease",
+          "start": 222.16,
+          "end": 222.98
+        },
+        {
+          "word": "your",
+          "start": 222.98,
+          "end": 223.74
+        },
+        {
+          "word": "options",
+          "start": 223.74,
+          "end": 224.2
+        },
+        {
+          "word": "if",
+          "start": 224.2,
+          "end": 225.9
+        },
+        {
+          "word": "you",
+          "start": 225.9,
+          "end": 226.0
+        },
+        {
+          "word": "do",
+          "start": 226.0,
+          "end": 226.14
+        },
+        {
+          "word": "this",
+          "start": 226.14,
+          "end": 226.36
+        },
+        {
+          "word": "you",
+          "start": 226.36,
+          "end": 226.52
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 226.52,
+      "end": 232.14,
+      "textEn": "Will have accidentally almost innocent put in front of you what is important",
+      "textKo": "우연히, 거의 순수하게, 당신 앞에 중요한 것이 놓이게 될 겁니다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "will",
+          "start": 226.52,
+          "end": 226.66
+        },
+        {
+          "word": "have",
+          "start": 226.66,
+          "end": 226.8
+        },
+        {
+          "word": "accidentally",
+          "start": 226.8,
+          "end": 227.36
+        },
+        {
+          "word": "almost",
+          "start": 227.36,
+          "end": 228.82
+        },
+        {
+          "word": "innocent",
+          "start": 228.82,
+          "end": 229.26
+        },
+        {
+          "word": "put",
+          "start": 229.26,
+          "end": 230.06
+        },
+        {
+          "word": "in",
+          "start": 230.06,
+          "end": 230.2
+        },
+        {
+          "word": "front",
+          "start": 230.2,
+          "end": 230.4
+        },
+        {
+          "word": "of",
+          "start": 230.4,
+          "end": 230.58
+        },
+        {
+          "word": "you",
+          "start": 230.58,
+          "end": 230.76
+        },
+        {
+          "word": "what",
+          "start": 230.76,
+          "end": 231.42
+        },
+        {
+          "word": "is",
+          "start": 231.42,
+          "end": 231.74
+        },
+        {
+          "word": "important",
+          "start": 231.74,
+          "end": 232.14
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 233.1,
+      "end": 247.52,
+      "textEn": "I process elimination knowing who we are is hard it's hard give yourself a break eliminate who you are not",
+      "textKo": "소거법으로 우리가 누구인지 아는 건 어렵습니다. 정말 어려워요. 자신에게 여유를 주세요. 먼저 당신이 아닌 것을 없애세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "I",
+          "start": 233.1,
+          "end": 233.62
+        },
+        {
+          "word": "process",
+          "start": 233.62,
+          "end": 234.06
+        },
+        {
+          "word": "elimination",
+          "start": 234.06,
+          "end": 234.82
+        },
+        {
+          "word": "knowing",
+          "start": 239.88,
+          "end": 240.4
+        },
+        {
+          "word": "who",
+          "start": 240.4,
+          "end": 240.58
+        },
+        {
+          "word": "we",
+          "start": 240.58,
+          "end": 240.7
+        },
+        {
+          "word": "are",
+          "start": 240.7,
+          "end": 240.86
+        },
+        {
+          "word": "is",
+          "start": 240.86,
+          "end": 240.98
+        },
+        {
+          "word": "hard",
+          "start": 240.98,
+          "end": 241.34
+        },
+        {
+          "word": "it's",
+          "start": 241.34,
+          "end": 242.88
+        },
+        {
+          "word": "hard",
+          "start": 242.88,
+          "end": 243.14
+        },
+        {
+          "word": "give",
+          "start": 243.14,
+          "end": 244.44
+        },
+        {
+          "word": "yourself",
+          "start": 244.44,
+          "end": 244.7
+        },
+        {
+          "word": "a",
+          "start": 244.7,
+          "end": 244.88
+        },
+        {
+          "word": "break",
+          "start": 244.88,
+          "end": 245.2
+        },
+        {
+          "word": "eliminate",
+          "start": 245.2,
+          "end": 246.44
+        },
+        {
+          "word": "who",
+          "start": 246.44,
+          "end": 246.74
+        },
+        {
+          "word": "you",
+          "start": 246.74,
+          "end": 246.9
+        },
+        {
+          "word": "are",
+          "start": 246.9,
+          "end": 247.08
+        },
+        {
+          "word": "not",
+          "start": 247.08,
+          "end": 247.52
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 247.52,
+      "end": 250.8,
+      "textEn": "First you're gonna find yourself where you need to be",
+      "textKo": "그러면 자신이 있어야 할 곳에 있는 자신을 발견하게 될 겁니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "first",
+          "start": 247.52,
+          "end": 248.34
+        },
+        {
+          "word": "you're",
+          "start": 248.34,
+          "end": 249.52
+        },
+        {
+          "word": "gonna",
+          "start": 249.52,
+          "end": 249.58
+        },
+        {
+          "word": "find",
+          "start": 249.58,
+          "end": 249.82
+        },
+        {
+          "word": "yourself",
+          "start": 249.82,
+          "end": 250.16
+        },
+        {
+          "word": "where",
+          "start": 250.16,
+          "end": 250.34
+        },
+        {
+          "word": "you",
+          "start": 250.34,
+          "end": 250.42
+        },
+        {
+          "word": "need",
+          "start": 250.42,
+          "end": 250.52
+        },
+        {
+          "word": "to",
+          "start": 250.52,
+          "end": 250.64
+        },
+        {
+          "word": "be",
+          "start": 250.64,
+          "end": 250.8
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 253.92,
+      "end": 258.36,
+      "textEn": "Instead of creating outcomes that take from us let's create more outcomes that pay",
+      "textKo": "우리에게서 빼앗는 결과를 만드는 대신, 우리에게 돌려주는 결과를 더 많이 만들어 봅시다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "instead",
+          "start": 253.92,
+          "end": 254.44
+        },
+        {
+          "word": "of",
+          "start": 254.44,
+          "end": 254.56
+        },
+        {
+          "word": "creating",
+          "start": 254.56,
+          "end": 254.82
+        },
+        {
+          "word": "outcomes",
+          "start": 254.82,
+          "end": 255.32
+        },
+        {
+          "word": "that",
+          "start": 255.32,
+          "end": 255.52
+        },
+        {
+          "word": "take",
+          "start": 255.52,
+          "end": 255.72
+        },
+        {
+          "word": "from",
+          "start": 255.72,
+          "end": 256.04
+        },
+        {
+          "word": "us",
+          "start": 256.04,
+          "end": 256.34
+        },
+        {
+          "word": "let's",
+          "start": 256.34,
+          "end": 257.1
+        },
+        {
+          "word": "create",
+          "start": 257.1,
+          "end": 257.32
+        },
+        {
+          "word": "more",
+          "start": 257.32,
+          "end": 257.52
+        },
+        {
+          "word": "outcomes",
+          "start": 257.52,
+          "end": 257.92
+        },
+        {
+          "word": "that",
+          "start": 257.92,
+          "end": 258.12
+        },
+        {
+          "word": "pay",
+          "start": 258.12,
+          "end": 258.36
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 258.36,
+      "end": 265.58,
+      "textEn": "Us back fill us up keep your fire lit turn you on for the most amount of time in",
+      "textKo": "우리를 채워주는 결과를. 열정의 불꽃을 유지하세요. 당신을 가장 오래 살아있게 하는 것으로",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "us",
+          "start": 258.36,
+          "end": 258.64
+        },
+        {
+          "word": "back",
+          "start": 258.64,
+          "end": 258.96
+        },
+        {
+          "word": "fill",
+          "start": 258.96,
+          "end": 260.08
+        },
+        {
+          "word": "us",
+          "start": 260.08,
+          "end": 260.38
+        },
+        {
+          "word": "up",
+          "start": 260.38,
+          "end": 260.72
+        },
+        {
+          "word": "keep",
+          "start": 260.72,
+          "end": 261.7
+        },
+        {
+          "word": "your",
+          "start": 261.7,
+          "end": 262.02
+        },
+        {
+          "word": "fire",
+          "start": 262.02,
+          "end": 262.38
+        },
+        {
+          "word": "lit",
+          "start": 262.38,
+          "end": 262.68
+        },
+        {
+          "word": "turn",
+          "start": 262.68,
+          "end": 263.0
+        },
+        {
+          "word": "you",
+          "start": 263.0,
+          "end": 263.24
+        },
+        {
+          "word": "on",
+          "start": 263.24,
+          "end": 263.72
+        },
+        {
+          "word": "for",
+          "start": 263.72,
+          "end": 264.3
+        },
+        {
+          "word": "the",
+          "start": 264.3,
+          "end": 264.38
+        },
+        {
+          "word": "most",
+          "start": 264.38,
+          "end": 264.6
+        },
+        {
+          "word": "amount",
+          "start": 264.6,
+          "end": 264.88
+        },
+        {
+          "word": "of",
+          "start": 264.88,
+          "end": 265.02
+        },
+        {
+          "word": "time",
+          "start": 265.02,
+          "end": 265.28
+        },
+        {
+          "word": "in",
+          "start": 265.28,
+          "end": 265.58
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 265.58,
+      "end": 271.1,
+      "textEn": "Your future we try our best we don't always do our best",
+      "textKo": "미래를 위해. 우리는 최선을 다하려 하지만, 항상 최선을 다하지는 못합니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "your",
+          "start": 265.58,
+          "end": 265.8
+        },
+        {
+          "word": "future",
+          "start": 265.8,
+          "end": 266.24
+        },
+        {
+          "word": "we",
+          "start": 268.46,
+          "end": 269.06
+        },
+        {
+          "word": "try",
+          "start": 269.06,
+          "end": 269.26
+        },
+        {
+          "word": "our",
+          "start": 269.26,
+          "end": 269.44
+        },
+        {
+          "word": "best",
+          "start": 269.44,
+          "end": 269.74
+        },
+        {
+          "word": "we",
+          "start": 269.74,
+          "end": 270.02
+        },
+        {
+          "word": "don't",
+          "start": 270.02,
+          "end": 270.18
+        },
+        {
+          "word": "always",
+          "start": 270.18,
+          "end": 270.38
+        },
+        {
+          "word": "do",
+          "start": 270.38,
+          "end": 270.58
+        },
+        {
+          "word": "our",
+          "start": 270.58,
+          "end": 270.74
+        },
+        {
+          "word": "best",
+          "start": 270.74,
+          "end": 271.1
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 273.24,
+      "end": 278.98,
+      "textEn": "Architecture is a verb as well since we are the architects of our own lives let's",
+      "textKo": "건축은 동사이기도 합니다. 우리가 자신의 삶의 건축가이니까, 그러니",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "architecture",
+          "start": 273.24,
+          "end": 273.84
+        },
+        {
+          "word": "is",
+          "start": 273.84,
+          "end": 274.44
+        },
+        {
+          "word": "a",
+          "start": 274.44,
+          "end": 274.56
+        },
+        {
+          "word": "verb",
+          "start": 274.56,
+          "end": 274.76
+        },
+        {
+          "word": "as",
+          "start": 274.76,
+          "end": 274.96
+        },
+        {
+          "word": "well",
+          "start": 274.96,
+          "end": 275.22
+        },
+        {
+          "word": "since",
+          "start": 275.22,
+          "end": 276.5
+        },
+        {
+          "word": "we",
+          "start": 276.5,
+          "end": 276.8
+        },
+        {
+          "word": "are",
+          "start": 276.8,
+          "end": 277.02
+        },
+        {
+          "word": "the",
+          "start": 277.02,
+          "end": 277.18
+        },
+        {
+          "word": "architects",
+          "start": 277.18,
+          "end": 277.6
+        },
+        {
+          "word": "of",
+          "start": 277.6,
+          "end": 277.82
+        },
+        {
+          "word": "our",
+          "start": 277.82,
+          "end": 277.94
+        },
+        {
+          "word": "own",
+          "start": 277.94,
+          "end": 278.1
+        },
+        {
+          "word": "lives",
+          "start": 278.1,
+          "end": 278.42
+        },
+        {
+          "word": "let's",
+          "start": 278.42,
+          "end": 278.98
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 278.98,
+      "end": 283.16,
+      "textEn": "Study the habits the practices the routines that we have that lead to and",
+      "textKo": "우리의 습관, 관행, 루틴을 연구합시다. 우리의 성공으로 이끄는 것들을.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "study",
+          "start": 278.98,
+          "end": 279.18
+        },
+        {
+          "word": "the",
+          "start": 279.18,
+          "end": 279.34
+        },
+        {
+          "word": "habits",
+          "start": 279.34,
+          "end": 279.72
+        },
+        {
+          "word": "the",
+          "start": 279.72,
+          "end": 279.88
+        },
+        {
+          "word": "practices",
+          "start": 279.88,
+          "end": 280.34
+        },
+        {
+          "word": "the",
+          "start": 280.34,
+          "end": 280.58
+        },
+        {
+          "word": "routines",
+          "start": 280.58,
+          "end": 280.94
+        },
+        {
+          "word": "that",
+          "start": 280.94,
+          "end": 281.18
+        },
+        {
+          "word": "we",
+          "start": 281.18,
+          "end": 281.3
+        },
+        {
+          "word": "have",
+          "start": 281.3,
+          "end": 281.62
+        },
+        {
+          "word": "that",
+          "start": 281.62,
+          "end": 282.12
+        },
+        {
+          "word": "lead",
+          "start": 282.12,
+          "end": 282.42
+        },
+        {
+          "word": "to",
+          "start": 282.42,
+          "end": 282.84
+        },
+        {
+          "word": "and",
+          "start": 282.84,
+          "end": 283.16
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 283.16,
+      "end": 290.52,
+      "textEn": "Feed our success our joy our honest pain our laughter our earned tears let's dissect",
+      "textKo": "우리의 성공, 기쁨, 진솔한 고통, 웃음, 값진 눈물을 키우는 것들을 분석합시다.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "feed",
+          "start": 283.16,
+          "end": 283.44
+        },
+        {
+          "word": "our",
+          "start": 283.44,
+          "end": 283.74
+        },
+        {
+          "word": "success",
+          "start": 283.74,
+          "end": 284.18
+        },
+        {
+          "word": "our",
+          "start": 284.18,
+          "end": 285.28
+        },
+        {
+          "word": "joy",
+          "start": 285.28,
+          "end": 285.68
+        },
+        {
+          "word": "our",
+          "start": 285.68,
+          "end": 286.64
+        },
+        {
+          "word": "honest",
+          "start": 286.64,
+          "end": 287.0
+        },
+        {
+          "word": "pain",
+          "start": 287.0,
+          "end": 287.32
+        },
+        {
+          "word": "our",
+          "start": 287.32,
+          "end": 287.82
+        },
+        {
+          "word": "laughter",
+          "start": 287.82,
+          "end": 288.28
+        },
+        {
+          "word": "our",
+          "start": 288.28,
+          "end": 288.7
+        },
+        {
+          "word": "earned",
+          "start": 288.7,
+          "end": 289.12
+        },
+        {
+          "word": "tears",
+          "start": 289.12,
+          "end": 289.58
+        },
+        {
+          "word": "let's",
+          "start": 289.58,
+          "end": 290.1
+        },
+        {
+          "word": "dissect",
+          "start": 290.1,
+          "end": 290.52
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "start": 290.52,
+      "end": 296.04,
+      "textEn": "That and give thanks for those things and when we do that guess what happens we get",
+      "textKo": "그것을 분석하고 감사를 표합시다. 그렇게 하면 어떻게 될까요? 우리는",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "that",
+          "start": 290.52,
+          "end": 290.96
+        },
+        {
+          "word": "and",
+          "start": 290.96,
+          "end": 291.6
+        },
+        {
+          "word": "give",
+          "start": 291.6,
+          "end": 291.76
+        },
+        {
+          "word": "thanks",
+          "start": 291.76,
+          "end": 292.04
+        },
+        {
+          "word": "for",
+          "start": 292.04,
+          "end": 292.2
+        },
+        {
+          "word": "those",
+          "start": 292.2,
+          "end": 292.52
+        },
+        {
+          "word": "things",
+          "start": 292.52,
+          "end": 292.82
+        },
+        {
+          "word": "and",
+          "start": 292.82,
+          "end": 293.48
+        },
+        {
+          "word": "when",
+          "start": 293.48,
+          "end": 293.66
+        },
+        {
+          "word": "we",
+          "start": 293.66,
+          "end": 293.8
+        },
+        {
+          "word": "do",
+          "start": 293.8,
+          "end": 293.92
+        },
+        {
+          "word": "that",
+          "start": 293.92,
+          "end": 294.18
+        },
+        {
+          "word": "guess",
+          "start": 294.18,
+          "end": 294.46
+        },
+        {
+          "word": "what",
+          "start": 294.46,
+          "end": 294.62
+        },
+        {
+          "word": "happens",
+          "start": 294.62,
+          "end": 294.98
+        },
+        {
+          "word": "we",
+          "start": 294.98,
+          "end": 295.9
+        },
+        {
+          "word": "get",
+          "start": 295.9,
+          "end": 296.04
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "start": 296.04,
+      "end": 298.96,
+      "textEn": "Better at them and we have more to dissect",
+      "textKo": "그것들을 더 잘하게 되고, 분석할 것도 더 많아집니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "better",
+          "start": 296.04,
+          "end": 296.3
+        },
+        {
+          "word": "at",
+          "start": 296.3,
+          "end": 296.5
+        },
+        {
+          "word": "them",
+          "start": 296.5,
+          "end": 296.62
+        },
+        {
+          "word": "and",
+          "start": 296.62,
+          "end": 297.98
+        },
+        {
+          "word": "we",
+          "start": 297.98,
+          "end": 298.1
+        },
+        {
+          "word": "have",
+          "start": 298.1,
+          "end": 298.28
+        },
+        {
+          "word": "more",
+          "start": 298.28,
+          "end": 298.44
+        },
+        {
+          "word": "to",
+          "start": 298.44,
+          "end": 298.56
+        },
+        {
+          "word": "dissect",
+          "start": 298.56,
+          "end": 298.96
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "start": 302.78,
+      "end": 309.02,
+      "textEn": "Be discerning choose it because you want it do it because you want to",
+      "textKo": "분별력을 가지세요. 원하기 때문에 선택하세요. 원하기 때문에 행동하세요.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "be",
+          "start": 302.78,
+          "end": 303.5
+        },
+        {
+          "word": "discerning",
+          "start": 303.5,
+          "end": 304.08
+        },
+        {
+          "word": "choose",
+          "start": 304.08,
+          "end": 304.96
+        },
+        {
+          "word": "it",
+          "start": 304.96,
+          "end": 305.42
+        },
+        {
+          "word": "because",
+          "start": 305.42,
+          "end": 306.06
+        },
+        {
+          "word": "you",
+          "start": 306.06,
+          "end": 306.4
+        },
+        {
+          "word": "want",
+          "start": 306.4,
+          "end": 306.72
+        },
+        {
+          "word": "it",
+          "start": 306.72,
+          "end": 306.9
+        },
+        {
+          "word": "do",
+          "start": 306.9,
+          "end": 307.26
+        },
+        {
+          "word": "it",
+          "start": 307.26,
+          "end": 307.64
+        },
+        {
+          "word": "because",
+          "start": 307.64,
+          "end": 308.06
+        },
+        {
+          "word": "you",
+          "start": 308.06,
+          "end": 308.46
+        },
+        {
+          "word": "want",
+          "start": 308.46,
+          "end": 308.8
+        },
+        {
+          "word": "to",
+          "start": 308.8,
+          "end": 309.02
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "start": 315.16,
+      "end": 321.56,
+      "textEn": "We're gonna make mistakes you got to own them then you got to make amends and then",
+      "textKo": "실수를 할 겁니다. 인정해야 합니다. 그리고 보상해야 합니다. 그리고",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "we're",
+          "start": 315.16,
+          "end": 315.7
+        },
+        {
+          "word": "gonna",
+          "start": 315.7,
+          "end": 315.78
+        },
+        {
+          "word": "make",
+          "start": 315.78,
+          "end": 315.96
+        },
+        {
+          "word": "mistakes",
+          "start": 315.96,
+          "end": 316.32
+        },
+        {
+          "word": "you",
+          "start": 316.32,
+          "end": 317.86
+        },
+        {
+          "word": "got",
+          "start": 317.86,
+          "end": 317.98
+        },
+        {
+          "word": "to",
+          "start": 317.98,
+          "end": 318.06
+        },
+        {
+          "word": "own",
+          "start": 318.06,
+          "end": 318.24
+        },
+        {
+          "word": "them",
+          "start": 318.24,
+          "end": 318.42
+        },
+        {
+          "word": "then",
+          "start": 318.42,
+          "end": 319.58
+        },
+        {
+          "word": "you",
+          "start": 319.58,
+          "end": 319.68
+        },
+        {
+          "word": "got",
+          "start": 319.68,
+          "end": 319.78
+        },
+        {
+          "word": "to",
+          "start": 319.78,
+          "end": 319.84
+        },
+        {
+          "word": "make",
+          "start": 319.84,
+          "end": 320.0
+        },
+        {
+          "word": "amends",
+          "start": 320.0,
+          "end": 320.46
+        },
+        {
+          "word": "and",
+          "start": 320.46,
+          "end": 321.46
+        },
+        {
+          "word": "then",
+          "start": 321.46,
+          "end": 321.56
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "start": 321.56,
+      "end": 328.52,
+      "textEn": "You got to move on guilt and regret kills many a man before their time so turn the",
+      "textKo": "앞으로 나아가야 합니다. 죄책감과 후회는 제때가 되기도 전에 많은 사람을 죽입니다. 그러니 페이지를 넘기세요.",
+      "listenDifficulty": 2,
+      "words": [
+        {
+          "word": "you",
+          "start": 321.56,
+          "end": 321.7
+        },
+        {
+          "word": "got",
+          "start": 321.7,
+          "end": 321.86
+        },
+        {
+          "word": "to",
+          "start": 321.86,
+          "end": 322.0
+        },
+        {
+          "word": "move",
+          "start": 322.0,
+          "end": 322.2
+        },
+        {
+          "word": "on",
+          "start": 322.2,
+          "end": 322.56
+        },
+        {
+          "word": "guilt",
+          "start": 322.56,
+          "end": 324.0
+        },
+        {
+          "word": "and",
+          "start": 324.0,
+          "end": 324.32
+        },
+        {
+          "word": "regret",
+          "start": 324.32,
+          "end": 324.72
+        },
+        {
+          "word": "kills",
+          "start": 324.72,
+          "end": 325.4
+        },
+        {
+          "word": "many",
+          "start": 325.4,
+          "end": 325.72
+        },
+        {
+          "word": "a",
+          "start": 325.72,
+          "end": 325.88
+        },
+        {
+          "word": "man",
+          "start": 325.88,
+          "end": 326.14
+        },
+        {
+          "word": "before",
+          "start": 326.14,
+          "end": 326.42
+        },
+        {
+          "word": "their",
+          "start": 326.42,
+          "end": 326.62
+        },
+        {
+          "word": "time",
+          "start": 326.62,
+          "end": 326.96
+        },
+        {
+          "word": "so",
+          "start": 326.96,
+          "end": 328.08
+        },
+        {
+          "word": "turn",
+          "start": 328.08,
+          "end": 328.36
+        },
+        {
+          "word": "the",
+          "start": 328.36,
+          "end": 328.52
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "start": 328.52,
+      "end": 333.9,
+      "textEn": "Page get off the ride you are the author of the book of your life",
+      "textKo": "그 놀이기구에서 내리세요. 당신이 당신 인생이라는 책의 저자입니다.",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "page",
+          "start": 328.52,
+          "end": 328.94
+        },
+        {
+          "word": "get",
+          "start": 328.94,
+          "end": 329.5
+        },
+        {
+          "word": "off",
+          "start": 329.5,
+          "end": 329.78
+        },
+        {
+          "word": "the",
+          "start": 329.78,
+          "end": 329.96
+        },
+        {
+          "word": "ride",
+          "start": 329.96,
+          "end": 330.32
+        },
+        {
+          "word": "you",
+          "start": 330.32,
+          "end": 331.34
+        },
+        {
+          "word": "are",
+          "start": 331.34,
+          "end": 331.78
+        },
+        {
+          "word": "the",
+          "start": 331.78,
+          "end": 331.96
+        },
+        {
+          "word": "author",
+          "start": 331.96,
+          "end": 332.38
+        },
+        {
+          "word": "of",
+          "start": 332.38,
+          "end": 333.04
+        },
+        {
+          "word": "the",
+          "start": 333.04,
+          "end": 333.14
+        },
+        {
+          "word": "book",
+          "start": 333.14,
+          "end": 333.36
+        },
+        {
+          "word": "of",
+          "start": 333.36,
+          "end": 333.46
+        },
+        {
+          "word": "your",
+          "start": 333.46,
+          "end": 333.6
+        },
+        {
+          "word": "life",
+          "start": 333.6,
+          "end": 333.9
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "start": 343.16,
+      "end": 347.54,
+      "textEn": "You you",
+      "textKo": "당신, 당신",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "you",
+          "start": 343.16,
+          "end": 344.3
+        },
+        {
+          "word": "you",
+          "start": 346.14,
+          "end": 347.54
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "start": 347.54,
+      "end": 348.32,
+      "textEn": "You",
+      "textKo": "당신",
+      "listenDifficulty": 1,
+      "words": [
+        {
+          "word": "you",
+          "start": 347.54,
+          "end": 348.32
+        }
+      ]
+    }
+  ]
+}

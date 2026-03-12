@@ -1,0 +1,119 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "ain't",
+    "phonetic": "/eɪnt/",
+    "koreanPhonetic": "에인트",
+    "explanationKo": "'ain't'는 'am not', 'is not', 'are not', 'has not', 'have not'의 비표준 축약형입니다. 구어체와 AAVE(아프리카계 미국인 영어)에서 매우 흔하게 사용됩니다.",
+    "practiceGuide": "'이즈 낫' 대신 '에인트'로 한 음절로 빠르게 발음하세요. 격식 없는 대화에서 자주 들리는 표현입니다.",
+    "segmentIndex": 3
+  },
+  {
+    "type": "linking",
+    "originalText": "met in my",
+    "phonetic": "/ˈme.ɾɪn.maɪ/",
+    "koreanPhonetic": "메린마이",
+    "explanationKo": "'met'의 't'가 모음 'in' 앞에서 플랩 /ɾ/으로 변하고, 'in'과 'my'가 매끄럽게 연결됩니다. 세 단어가 하나의 덩어리처럼 들립니다.",
+    "practiceGuide": "'멧 인 마이' 대신 '메린마이'로 끊김 없이 연결해서 발음하세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "reduction",
+    "originalText": "I'm going to",
+    "phonetic": "/aɪm ˈɡʌnə/",
+    "koreanPhonetic": "아임 거나",
+    "explanationKo": "'going to'가 빠른 말에서 'gonna'로 축약됩니다. 가장 흔한 영어 구어체 축약 중 하나입니다.",
+    "practiceGuide": "'고잉 투' 대신 '거나'로 빠르게 발음하세요. 'I'm gonna'를 한 덩어리로 연습하세요.",
+    "segmentIndex": 28
+  },
+  {
+    "type": "linking",
+    "originalText": "what I'm",
+    "phonetic": "/wɒ.ɾaɪm/",
+    "koreanPhonetic": "와라임",
+    "explanationKo": "'what'의 't'가 모음 'I' 앞에서 플랩 /ɾ/으로 변하고, 'I'm'과 자연스럽게 연결됩니다.",
+    "practiceGuide": "'왓 아임' 대신 '와라임'으로 한 호흡에 발음하세요.",
+    "segmentIndex": 8
+  },
+  {
+    "type": "reduction",
+    "originalText": "Y'all",
+    "phonetic": "/jɔːl/",
+    "koreanPhonetic": "욜",
+    "explanationKo": "'you all'의 축약형으로, 미국 남부와 AAVE에서 2인칭 복수 대명사로 널리 사용됩니다. 한 음절로 발음됩니다.",
+    "practiceGuide": "'유 올' 대신 '욜'로 한 음절로 빠르게 발음하세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "elision",
+    "originalText": "just because",
+    "phonetic": "/dʒʌs bɪˈkɒz/",
+    "koreanPhonetic": "저스 비커즈",
+    "explanationKo": "'just'의 마지막 't'가 'because'의 'b' 앞에서 탈락됩니다. 파열음 + 파열음 연속에서 첫 번째 파열음이 생략되는 현상입니다.",
+    "practiceGuide": "'저스트 비커즈' 대신 't'를 빼고 '저스 비커즈'로 발음하세요.",
+    "segmentIndex": 16
+  },
+  {
+    "type": "linking",
+    "originalText": "taught himself",
+    "phonetic": "/tɔːt hɪmˈself/",
+    "koreanPhonetic": "토트 힘셀프",
+    "explanationKo": "'taught'의 마지막 't'가 'himself'의 'h'와 만나며, 'h'가 약화되어 't'가 다음 모음으로 연결되는 경향이 있습니다.",
+    "practiceGuide": "'토트 힘셀프'에서 't'와 'h' 사이를 부드럽게 연결하세요. 빠르게 말하면 '토팀셀프'처럼 들립니다.",
+    "segmentIndex": 18
+  },
+  {
+    "type": "assimilation",
+    "originalText": "don't give",
+    "phonetic": "/doʊŋ ɡɪv/",
+    "koreanPhonetic": "동 기브",
+    "explanationKo": "'don't'의 'n'이 뒤에 오는 'g' 소리의 영향으로 /ŋ/(연구개 비음)으로 변합니다. 이를 역행동화라고 합니다.",
+    "practiceGuide": "'돈트 기브' 대신 'n'을 'ŋ'으로 바꿔 '동 기브'로 발음하세요.",
+    "segmentIndex": 146
+  },
+  {
+    "type": "reduction",
+    "originalText": "a lot of times",
+    "phonetic": "/ə ˈlɒ.ɾə taɪmz/",
+    "koreanPhonetic": "어 라러 타임즈",
+    "explanationKo": "'lot'의 't'가 'of'의 모음 앞에서 플랩 /ɾ/으로 변하고, 'of'는 약한 /ə/로 축약됩니다.",
+    "practiceGuide": "'어 랏 오브 타임즈' 대신 '어 라러 타임즈'로 자연스럽게 연결하세요.",
+    "segmentIndex": 74
+  },
+  {
+    "type": "linking",
+    "originalText": "get up off",
+    "phonetic": "/ɡe.ɾʌ.pɒf/",
+    "koreanPhonetic": "게러팝",
+    "explanationKo": "'get'의 't'가 'up'의 모음 앞에서 플랩 /ɾ/으로 변하고, 'up'의 'p'가 'off'와 연결되어 세 단어가 하나처럼 들립니다.",
+    "practiceGuide": "'겟 업 오프' 대신 '게러팝'으로 한 호흡에 발음하세요.",
+    "segmentIndex": 80
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɒn.ə/",
+    "koreanPhonetic": "워너",
+    "explanationKo": "'want to'가 빠른 말에서 'wanna'로 축약됩니다. 't'가 탈락하고 두 단어가 합쳐집니다.",
+    "practiceGuide": "'원트 투' 대신 '워너'로 두 음절로 빠르게 발음하세요.",
+    "segmentIndex": 58
+  },
+  {
+    "type": "elision",
+    "originalText": "left school",
+    "phonetic": "/lef skuːl/",
+    "koreanPhonetic": "레프 스쿨",
+    "explanationKo": "'left'의 마지막 't'가 's'로 시작하는 'school' 앞에서 탈락됩니다. 자음군 단순화 현상입니다.",
+    "practiceGuide": "'레프트 스쿨' 대신 't'를 빼고 '레프 스쿨'로 발음하세요.",
+    "segmentIndex": 15
+  },
+  {
+    "type": "linking",
+    "originalText": "right behind",
+    "phonetic": "/raɪ.bɪˈhaɪnd/",
+    "koreanPhonetic": "라이 비하인드",
+    "explanationKo": "'right'의 't'가 'behind'의 'b' 앞에서 탈락하며, 미파열음(unreleased stop)이 됩니다. 두 파열음이 연속될 때 첫 번째가 생략됩니다.",
+    "practiceGuide": "'라이트 비하인드' 대신 '라이 비하인드'로 't'를 생략하고 발음하세요.",
+    "segmentIndex": 137
+  }
+]

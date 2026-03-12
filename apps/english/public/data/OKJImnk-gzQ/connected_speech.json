@@ -1,0 +1,119 @@
+[
+  {
+    "type": "reduction",
+    "originalText": "I'm gonna",
+    "phonetic": "/aɪm ˈɡʌnə/",
+    "koreanPhonetic": "아임 거나",
+    "explanationKo": "'going to'가 빠른 말에서 'gonna' /ˈɡʌnə/로 축약됩니다. 미국 영어에서 가장 흔한 축약 중 하나로, 미래 의도를 나타낼 때 거의 항상 이 형태로 발음합니다.",
+    "practiceGuide": "'gonna'를 두 음절로 발음하세요: GUH-nuh. 'going to'의 세 음절과 비교해보세요. 'I'm gonna' 전체를 빠르게 이어서 '아임거나'처럼 연습하세요.",
+    "segmentIndex": 0
+  },
+  {
+    "type": "contraction",
+    "originalText": "life's not fair",
+    "phonetic": "/laɪfs nɑt fɛr/",
+    "koreanPhonetic": "라이프스 낫 페어",
+    "explanationKo": "'life is'가 'life's'로 축약됩니다. 소유격 's와 같은 형태지만, 여기서는 'is'의 축약입니다. 문맥으로 구분해야 합니다.",
+    "practiceGuide": "'life's'를 한 음절로 발음하세요: /laɪfs/. 'life is'라고 따로 발음하지 말고 's'를 바로 붙이세요.",
+    "segmentIndex": 2
+  },
+  {
+    "type": "linking",
+    "originalText": "get over it",
+    "phonetic": "/ɡeɾ ˈoʊvər ɪt/",
+    "koreanPhonetic": "게로버릿",
+    "explanationKo": "'get'의 /t/가 모음 앞에서 플랩(flap) /ɾ/로 변하고, 'over'의 /r/이 'it'의 /ɪ/와 매끄럽게 연결됩니다. 세 단어가 마치 하나의 단어처럼 흘러갑니다.",
+    "practiceGuide": "'게로버릿'처럼 한 덩어리로 연습하세요. 'get'의 t를 'd' 비슷하게 가볍게 터치하며 바로 'over'로 넘어가세요.",
+    "segmentIndex": 4
+  },
+  {
+    "type": "reduction",
+    "originalText": "got to",
+    "phonetic": "/ˈɡɑɾə/",
+    "koreanPhonetic": "가라",
+    "explanationKo": "'got to'가 빠른 말에서 'gotta' /ˈɡɑɾə/로 축약됩니다. 't'가 플랩(flap)으로 변하고 'to'의 모음이 약화됩니다. 의무/필요를 나타내는 구어 표현입니다.",
+    "practiceGuide": "'gotta'를 두 음절로: GAH-duh. 중간의 't'를 부드러운 'd'처럼 발음하세요. 'You gotta' = /jə ˈɡɑɾə/.",
+    "segmentIndex": 5
+  },
+  {
+    "type": "elision",
+    "originalText": "don't choose anything",
+    "phonetic": "/doʊn tʃuːz ˈeniθɪŋ/",
+    "koreanPhonetic": "돈 츄즈 애니씽",
+    "explanationKo": "'don't'에서 /t/가 뒤따르는 /tʃ/ 앞에서 탈락합니다. 두 개의 치경음이 만나면 앞의 것이 생략되는 현상입니다.",
+    "practiceGuide": "'don't choose'에서 't'를 거의 발음하지 마세요. 'don choose'처럼 이어지게 하되, 비음 /n/에서 바로 /tʃ/로 넘어가세요.",
+    "segmentIndex": 11
+  },
+  {
+    "type": "linking",
+    "originalText": "hang out with",
+    "phonetic": "/hæŋ aʊt wɪð/",
+    "koreanPhonetic": "행아웃 위드",
+    "explanationKo": "'hang'의 비음 /ŋ/이 'out'의 모음 /aʊ/와 연결됩니다. 비음 뒤에 모음이 올 때 코를 통한 공기가 자연스럽게 모음으로 이어집니다.",
+    "practiceGuide": "'hang out'을 '행아웃'처럼 끊김 없이 연결하세요. /ŋ/에서 바로 /aʊ/로 넘어가세요.",
+    "segmentIndex": 22
+  },
+  {
+    "type": "reduction",
+    "originalText": "kind of",
+    "phonetic": "/ˈkaɪndə/",
+    "koreanPhonetic": "카인다",
+    "explanationKo": "'kind of'가 빠른 말에서 'kinda' /ˈkaɪndə/로 축약됩니다. 'of'의 /v/가 완전히 탈락하고 모음만 약하게 남습니다.",
+    "practiceGuide": "'kinda'를 두 음절로: KIND-uh. 'of'를 따로 발음하지 마세요. 구어에서 매우 자주 사용되는 축약형입니다.",
+    "segmentIndex": 23
+  },
+  {
+    "type": "assimilation",
+    "originalText": "in a pinch",
+    "phonetic": "/ɪnə pɪntʃ/",
+    "koreanPhonetic": "이나 핀치",
+    "explanationKo": "'in a'에서 'in'의 /n/이 'a'의 약모음 /ə/와 합쳐져 거의 하나의 음절처럼 됩니다. 'pinch'에서 /n/이 /tʃ/ 앞에서 구개음화의 영향을 받습니다.",
+    "practiceGuide": "'in a'를 '이나'처럼 빠르게 하나로 이어서 발음하세요. 전체를 '이나핀치'처럼 리듬감 있게 연습하세요.",
+    "segmentIndex": 24
+  },
+  {
+    "type": "linking",
+    "originalText": "feel like crap",
+    "phonetic": "/fiːl laɪk kræp/",
+    "koreanPhonetic": "필 라이크 크랩",
+    "explanationKo": "'feel'의 /l/이 'like'의 /l/과 만나 하나의 긴 /l/처럼 연결됩니다. 같은 자음이 연속할 때 한 번만 길게 발음하는 현상(gemination)입니다.",
+    "practiceGuide": "'feel like'에서 /l/을 한 번만 길게 발음하세요: 'fee-like'처럼. 두 번 따로 /l/을 치지 마세요.",
+    "segmentIndex": 29
+  },
+  {
+    "type": "elision",
+    "originalText": "and energy",
+    "phonetic": "/ən ˈenərdʒi/",
+    "koreanPhonetic": "언 에너지",
+    "explanationKo": "'and'에서 /d/가 탈락하여 /ən/이 됩니다. 빠른 말에서 'and'의 'd'는 거의 항상 생략됩니다.",
+    "practiceGuide": "'and'를 '언'으로 축약하세요. 'd'를 발음하지 말고 바로 다음 단어로 넘어가세요: '언 에너지'.",
+    "segmentIndex": 30
+  },
+  {
+    "type": "reduction",
+    "originalText": "want to",
+    "phonetic": "/ˈwɑnə/",
+    "koreanPhonetic": "워나",
+    "explanationKo": "'want to'가 빠른 말에서 'wanna' /ˈwɑnə/로 축약됩니다. 미국 영어에서 가장 흔한 축약 중 하나입니다.",
+    "practiceGuide": "'wanna'를 두 음절로: WAN-nuh. 'want to'라고 따로 발음하지 마세요. 'do it because you wanna' = /duː ɪt bɪˈkɑz jə ˈwɑnə/.",
+    "segmentIndex": 49
+  },
+  {
+    "type": "linking",
+    "originalText": "move on",
+    "phonetic": "/muːv ɑn/",
+    "koreanPhonetic": "무반",
+    "explanationKo": "'move'의 /v/가 'on'의 모음 /ɑ/와 매끄럽게 연결됩니다. 자음으로 끝나는 단어 뒤에 모음으로 시작하는 단어가 오면 자연스럽게 연음됩니다.",
+    "practiceGuide": "'move on'을 '무반'처럼 이어서 발음하세요. /v/에서 끊지 말고 바로 /ɑn/으로 넘어가세요.",
+    "segmentIndex": 51
+  },
+  {
+    "type": "elision",
+    "originalText": "guilt and regret",
+    "phonetic": "/ɡɪlt ən rɪˈɡret/",
+    "koreanPhonetic": "길트 언 리그렛",
+    "explanationKo": "'and'의 /d/가 탈락하고, 'guilt'의 마지막 /t/도 'and'의 /ə/ 앞에서 약화됩니다. 자음군이 연속될 때 발음이 단순화되는 현상입니다.",
+    "practiceGuide": "'guilt and'를 '길트언'처럼 빠르게 이어서 발음하세요. 'and'를 완전히 발음하지 말고 '언'으로 축약하세요.",
+    "segmentIndex": 51
+  }
+]

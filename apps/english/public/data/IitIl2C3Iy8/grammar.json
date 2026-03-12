@@ -1,0 +1,307 @@
+[
+  {
+    "pattern": "asked + object + to-infinitive",
+    "explanation": "The verb 'ask' followed by an object pronoun and to-infinitive expresses a request made to someone. It indicates that someone was requested to perform an action.",
+    "explanationKo": "'ask + 목적어 + to부정사' 구조는 누군가에게 어떤 행동을 해달라고 요청하는 것을 나타냅니다. 과거형 'asked'와 함께 사용되어 과거에 요청했음을 표현합니다.",
+    "examples": [
+      {
+        "sentence": "My mom asked me to order a pizza for the family on a Friday night.",
+        "translation": "엄마가 금요일 밤에 가족을 위해 피자를 주문해 달라고 하셨어요."
+      },
+      {
+        "sentence": "I had asked these grown men to change their clothes.",
+        "translation": "저는 이 어른 남성들에게 옷을 갈아입으라고 요청했어요."
+      }
+    ],
+    "examplesKo": [
+      "엄마가 금요일 밤에 가족을 위해 피자를 주문해 달라고 하셨어요.",
+      "저는 이 어른 남성들에게 옷을 갈아입으라고 요청했어요."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "too + adjective + to-infinitive",
+    "explanation": "This pattern expresses that someone or something has an excessive degree of a quality, which prevents a certain action. It implies a negative result.",
+    "explanationKo": "'too + 형용사 + to부정사' 패턴은 어떤 성질이 너무 과해서 특정 행동을 할 수 없음을 나타냅니다. 부정적인 결과를 암시합니다.",
+    "examples": [
+      {
+        "sentence": "I was too shy to talk to a stranger.",
+        "translation": "저는 낯선 사람과 통화하기가 너무 부끄러웠어요."
+      },
+      {
+        "sentence": "Too homesick to partake in early freshman partying.",
+        "translation": "너무 향수병이 심해서 신입생 파티에 참여하지도 못했어요."
+      }
+    ],
+    "examplesKo": [
+      "저는 낯선 사람과 통화하기가 너무 부끄러웠어요.",
+      "너무 향수병이 심해서 신입생 파티에 참여하지도 못했어요."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "needed + to-infinitive (past necessity)",
+    "explanation": "Expresses something that was necessary in the past. Unlike 'had to' which implies obligation, 'needed to' suggests a requirement recognized by the subject.",
+    "explanationKo": "과거에 필요했던 것을 표현합니다. 의무를 암시하는 'had to'와 달리, 'needed to'는 주어 스스로가 인식한 필요성을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "I needed to begin to act more confidently.",
+        "translation": "저는 더 자신감 있게 행동하기 시작해야 했어요."
+      },
+      {
+        "sentence": "She needed to go in, sit down, speak her mind, and get the deal done.",
+        "translation": "들어가서 앉고, 의견을 말하고, 거래를 성사시켜야 했어요."
+      },
+      {
+        "sentence": "I knew that I needed to change.",
+        "translation": "변해야 한다는 것을 알았어요."
+      }
+    ],
+    "examplesKo": [
+      "저는 더 자신감 있게 행동하기 시작해야 했어요.",
+      "들어가서 앉고, 의견을 말하고, 거래를 성사시켜야 했어요.",
+      "변해야 한다는 것을 알았어요."
+    ],
+    "segmentIndex": 17
+  },
+  {
+    "pattern": "in order to + base verb (purpose clause)",
+    "explanation": "A purpose clause that explains the reason or goal behind an action. More formal than simple 'to + verb' and emphasizes intentionality.",
+    "explanationKo": "행동의 이유나 목적을 설명하는 목적절입니다. 단순한 'to + 동사'보다 공식적이며 의도성을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "In order to get people to change, you need to not start with the attitudes, but with the behaviors.",
+        "translation": "사람들을 변화시키려면 태도가 아닌 행동부터 시작해야 합니다."
+      },
+      {
+        "sentence": "In order to achieve this goal, I needed to begin to act more confidently.",
+        "translation": "이 목표를 달성하기 위해, 더 자신감 있게 행동하기 시작해야 했어요."
+      },
+      {
+        "sentence": "The number one skill they've improved in order to earn their spot at the top.",
+        "translation": "최상위에 오르기 위해 향상시킨 가장 중요한 능력."
+      }
+    ],
+    "examplesKo": [
+      "사람들을 변화시키려면 태도가 아닌 행동부터 시작해야 합니다.",
+      "이 목표를 달성하기 위해, 더 자신감 있게 행동하기 시작해야 했어요.",
+      "최상위에 오르기 위해 향상시킨 가장 중요한 능력."
+    ],
+    "segmentIndex": 12
+  },
+  {
+    "pattern": "What if + subject + past simple (hypothetical suggestion)",
+    "explanation": "Used to make suggestions or present hypothetical scenarios in a gentle, inviting way. The past simple creates a softer, more tentative tone.",
+    "explanationKo": "'What if + 주어 + 과거형'은 부드럽고 초대하는 방식으로 제안하거나 가정적 시나리오를 제시할 때 사용됩니다. 과거형이 더 부드럽고 조심스러운 톤을 만듭니다.",
+    "examples": [
+      {
+        "sentence": "What if you didn't? What if you extended a hand back to lead her forward?",
+        "translation": "만약 그러지 않는다면요? 손을 뻗어 그녀를 앞으로 이끌어 준다면요?"
+      },
+      {
+        "sentence": "What if you celebrated the success of a colleague?",
+        "translation": "동료의 성공을 축하한다면 어떨까요?"
+      },
+      {
+        "sentence": "What if you only had to be brave for a total of 20 seconds?",
+        "translation": "만약 단 20초만 용감하면 된다면 어떨까요?"
+      }
+    ],
+    "examplesKo": [
+      "만약 그러지 않는다면요? 손을 뻗어 그녀를 앞으로 이끌어 준다면요?",
+      "동료의 성공을 축하한다면 어떨까요?",
+      "만약 단 20초만 용감하면 된다면 어떨까요?"
+    ],
+    "segmentIndex": 55
+  },
+  {
+    "pattern": "present perfect with experience (have + past participle)",
+    "explanation": "The present perfect tense used to describe experiences or accomplishments up to the present moment. Emphasizes the relevance of past actions to now.",
+    "explanationKo": "현재까지의 경험이나 성취를 설명하는 데 사용되는 현재완료 시제입니다. 과거 행동이 현재와 관련 있음을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "I've interviewed over 90 female executives in sports.",
+        "translation": "저는 90명 이상의 여성 스포츠 임원들을 인터뷰했어요."
+      },
+      {
+        "sentence": "These women have told me that the number one skill they've improved is confidence.",
+        "translation": "이 여성들은 가장 중요한 능력이 자신감이라고 말했어요."
+      },
+      {
+        "sentence": "I have used this technique.",
+        "translation": "저도 이 기법을 사용했어요."
+      }
+    ],
+    "examplesKo": [
+      "저는 90명 이상의 여성 스포츠 임원들을 인터뷰했어요.",
+      "이 여성들은 가장 중요한 능력이 자신감이라고 말했어요.",
+      "저도 이 기법을 사용했어요."
+    ],
+    "segmentIndex": 19
+  },
+  {
+    "pattern": "conditional: How would you + base verb + if clause",
+    "explanation": "A second conditional structure used to ask about imaginary or hypothetical situations. Combines 'would' with 'if' to explore unrealized possibilities.",
+    "explanationKo": "가상의 또는 가정적 상황에 대해 묻는 2차 조건문 구조입니다. 'would'와 'if'를 결합하여 실현되지 않은 가능성을 탐구합니다.",
+    "examples": [
+      {
+        "sentence": "How would you behave or what could you achieve if you were 10 times more confident?",
+        "translation": "만약 10배 더 자신감이 있다면 어떻게 행동하거나 무엇을 성취할 수 있을까요?"
+      },
+      {
+        "sentence": "How many runs could you score if you were 10 times more confident?",
+        "translation": "만약 10배 더 자신감이 있다면 얼마나 많은 점수를 낼 수 있을까요?"
+      }
+    ],
+    "examplesKo": [
+      "만약 10배 더 자신감이 있다면 어떻게 행동하거나 무엇을 성취할 수 있을까요?",
+      "만약 10배 더 자신감이 있다면 얼마나 많은 점수를 낼 수 있을까요?"
+    ],
+    "segmentIndex": 26
+  },
+  {
+    "pattern": "past continuous for background actions (was/were + -ing)",
+    "explanation": "The past continuous tense describes actions that were in progress at a specific past moment. Often used to set the scene or describe background circumstances.",
+    "explanationKo": "과거진행형은 과거의 특정 시점에 진행 중이던 행동을 묘사합니다. 장면을 설정하거나 배경 상황을 설명할 때 자주 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "She was shaking in her heels, standing courtside.",
+        "translation": "그녀는 코트사이드에 서서 하이힐을 신은 채 떨고 있었어요."
+      },
+      {
+        "sentence": "The opposing manager and his team wearing the wrong color uniform.",
+        "translation": "상대팀 감독과 그의 팀이 잘못된 색상의 유니폼을 입고 있었어요."
+      },
+      {
+        "sentence": "She noticed women waiting around the edges of the room.",
+        "translation": "그녀는 여성들이 방 가장자리에서 기다리는 것을 발견했어요."
+      }
+    ],
+    "examplesKo": [
+      "그녀는 코트사이드에 서서 하이힐을 신은 채 떨고 있었어요.",
+      "상대팀 감독과 그의 팀이 잘못된 색상의 유니폼을 입고 있었어요.",
+      "그녀는 여성들이 방 가장자리에서 기다리는 것을 발견했어요."
+    ],
+    "segmentIndex": 28
+  },
+  {
+    "pattern": "rather than + gerund/-ing (contrast/preference)",
+    "explanation": "Used to express a preference or contrast between two options, where one is chosen over the other. 'Rather than' is followed by a gerund or noun.",
+    "explanationKo": "'rather than + 동명사/명사'는 두 선택지 사이에서 하나를 선택하는 선호나 대비를 표현합니다.",
+    "examples": [
+      {
+        "sentence": "Confident people celebrate the success of others rather than feeling threatened.",
+        "translation": "자신감 있는 사람들은 위협감을 느끼기보다 다른 사람의 성공을 축하합니다."
+      },
+      {
+        "sentence": "Rather than feeling sorry for yourself that it was not you accepting the accolades.",
+        "translation": "그게 내가 아니라고 자기연민에 빠지는 대신."
+      }
+    ],
+    "examplesKo": [
+      "자신감 있는 사람들은 위협감을 느끼기보다 다른 사람의 성공을 축하합니다.",
+      "그게 내가 아니라고 자기연민에 빠지는 대신."
+    ],
+    "segmentIndex": 57
+  },
+  {
+    "pattern": "comparative + than (comparison structure)",
+    "explanation": "The comparative form of adjectives/adverbs followed by 'than' to compare two things. Regular comparatives add '-er' while longer words use 'more'.",
+    "explanationKo": "형용사/부사의 비교급 뒤에 'than'을 사용하여 두 대상을 비교합니다. 짧은 단어는 '-er'을 붙이고, 긴 단어는 'more'를 사용합니다.",
+    "examples": [
+      {
+        "sentence": "I was worried others were smarter than me.",
+        "translation": "다른 사람들이 나보다 더 똑똑할까 봐 걱정했어요."
+      },
+      {
+        "sentence": "What is easier today than it was one year ago?",
+        "translation": "1년 전보다 지금 더 쉬워진 건 뭔가요?"
+      },
+      {
+        "sentence": "Wins are so much better celebrated together.",
+        "translation": "승리는 함께 축하할 때 훨씬 더 좋아요."
+      }
+    ],
+    "examplesKo": [
+      "다른 사람들이 나보다 더 똑똑할까 봐 걱정했어요.",
+      "1년 전보다 지금 더 쉬워진 건 뭔가요?",
+      "승리는 함께 축하할 때 훨씬 더 좋아요."
+    ],
+    "segmentIndex": 10
+  },
+  {
+    "pattern": "passive voice (was/were + past participle)",
+    "explanation": "The passive voice shifts focus from the doer of the action to the receiver or result. Common in formal speech and when the agent is unknown or less important.",
+    "explanationKo": "수동태는 행동의 주체가 아닌 행동을 받는 대상이나 결과에 초점을 맞춥니다. 격식체나 행위자가 불분명하거나 덜 중요할 때 자주 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "That was defined as a career as a sports executive.",
+        "translation": "그것은 스포츠 경영인으로서의 커리어를 의미했어요."
+      },
+      {
+        "sentence": "A woman was promoted to chief marketing officer.",
+        "translation": "한 여성이 최고 마케팅 책임자로 승진했어요."
+      },
+      {
+        "sentence": "The podcast grew into what it was meant to be.",
+        "translation": "팟캐스트는 그 자체로 성장해 나갔어요."
+      }
+    ],
+    "examplesKo": [
+      "그것은 스포츠 경영인으로서의 커리어를 의미했어요.",
+      "한 여성이 최고 마케팅 책임자로 승진했어요.",
+      "팟캐스트는 그 자체로 성장해 나갔어요."
+    ],
+    "segmentIndex": 16
+  },
+  {
+    "pattern": "gerund as subject (V-ing as sentence subject)",
+    "explanation": "A gerund (-ing form) used as the subject of a sentence, functioning as a noun. Common in English to talk about activities or behaviors in general terms.",
+    "explanationKo": "동명사(-ing)가 문장의 주어로 사용되어 명사 역할을 합니다. 활동이나 행동을 일반적으로 이야기할 때 영어에서 흔히 사용됩니다.",
+    "examples": [
+      {
+        "sentence": "Crying in my dorm room, shying away from social engagement.",
+        "translation": "기숙사 방에서 울고, 사교 활동을 피하고."
+      },
+      {
+        "sentence": "Counting will get you started and momentum will keep you going.",
+        "translation": "카운팅이 시작하게 해주고, 탄력이 계속 나아가게 해줘요."
+      },
+      {
+        "sentence": "Not showing up for class because I was worried others were smarter than me.",
+        "translation": "다른 사람들이 나보다 더 똑똑할까 봐 수업에 나가지 않았어요."
+      }
+    ],
+    "examplesKo": [
+      "기숙사 방에서 울고, 사교 활동을 피하고.",
+      "카운팅이 시작하게 해주고, 탄력이 계속 나아가게 해줘요.",
+      "다른 사람들이 나보다 더 똑똑할까 봐 수업에 나가지 않았어요."
+    ],
+    "segmentIndex": 9
+  },
+  {
+    "pattern": "relative clause with 'that' (defining relative clause)",
+    "explanation": "A defining relative clause using 'that' to provide essential information about the noun it modifies. It identifies or restricts the noun.",
+    "explanationKo": "'that'을 사용한 관계절로, 수식하는 명사에 대한 필수적인 정보를 제공합니다. 명사를 식별하거나 제한합니다.",
+    "examples": [
+      {
+        "sentence": "A dream that they had set out to achieve.",
+        "translation": "자신이 정한 꿈을 이루기 위해."
+      },
+      {
+        "sentence": "The confidence that she had in the past.",
+        "translation": "과거에 가졌던 자신감."
+      },
+      {
+        "sentence": "The behaviors that led to the success in the first place.",
+        "translation": "처음에 성공을 이끌었던 행동들."
+      }
+    ],
+    "examplesKo": [
+      "자신이 정한 꿈을 이루기 위해.",
+      "과거에 가졌던 자신감.",
+      "처음에 성공을 이끌었던 행동들."
+    ],
+    "segmentIndex": 8
+  }
+]

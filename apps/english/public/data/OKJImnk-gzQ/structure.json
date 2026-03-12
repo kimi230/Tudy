@@ -1,0 +1,78 @@
+{
+  "descriptionKo": "매튜 매커너히가 인생 경험에서 얻은 교훈들을 전달하는 동기부여 연설: 성공의 정의, 자기 정체성 탐구(소거법), 삶의 건축가로서의 태도, 그리고 실수를 받아들이고 앞으로 나아가는 법",
+  "sections": [
+    {
+      "title": "Introduction: Life Is Not Fair",
+      "titleKo": "서론: 인생은 공평하지 않다",
+      "section": "intro",
+      "startSegment": 0,
+      "endSegment": 4,
+      "summary": "McConaughey opens by sharing that he will discuss lessons from his journey — some learned from experience, some heard in passing. He states plainly that life is not easy, not fair, and never will be. He warns against the entitlement trap of feeling like a victim.",
+      "summaryKo": "매커너히는 자신의 여정에서 배운 교훈들에 대해 이야기하겠다고 시작합니다. 일부는 경험에서, 일부는 지나가며 들은 것입니다. 인생은 쉽지 않고, 공평하지 않으며, 앞으로도 그럴 것이라고 단도직입적으로 말합니다. 피해자라는 특권 의식의 함정을 경고합니다.",
+      "keyPoints": [
+        "Life is not easy — don't try to make it that way",
+        "Life is not fair — it never was and never will be",
+        "Avoid the entitlement trap of feeling like a victim"
+      ]
+    },
+    {
+      "title": "Define Success for Yourself",
+      "titleKo": "자신만의 성공을 정의하라",
+      "section": "main",
+      "startSegment": 5,
+      "endSegment": 16,
+      "summary": "McConaughey challenges the audience to define what success means personally — whether it's money, family, marriage, helping others, fame, or spiritual health. He advises not choosing anything that jeopardizes one's character, and to prioritize identity over external achievements. He urges bravery but with self-knowledge: 'Take the hill, but first answer what's my hill.'",
+      "summaryKo": "성공이 자신에게 무엇인지 정의하라고 청중에게 도전합니다 — 돈, 가족, 결혼, 타인을 돕는 것, 명성, 영적 건강 무엇이든. 자신의 인격을 위태롭게 하는 것은 선택하지 말고, 외부 성취보다 정체성을 우선시하라고 조언합니다. 용감하되 자기 인식을 가지라고 합니다: '언덕을 점령하되, 먼저 나의 언덕이 무엇인지 답하라.'",
+      "keyPoints": [
+        "Ask yourself: what is success to you?",
+        "Your answer may change over time — that's fine",
+        "Don't choose anything that jeopardizes your character",
+        "Be brave, take the hill — but first know what your hill is"
+      ]
+    },
+    {
+      "title": "Know Who You Are NOT: Process of Elimination",
+      "titleKo": "당신이 누구가 '아닌지'를 알라: 소거법",
+      "section": "main",
+      "startSegment": 17,
+      "endSegment": 40,
+      "summary": "The central insight: knowing who you are begins with knowing who you are NOT. McConaughey illustrates this through vivid examples — toxic friends who gossip, bars that cause hangovers, screens that isolate us, junk food that makes us lethargic. By eliminating negative people, places, and habits, you inadvertently find yourself in healthier situations. Too many options make tyrants of us all; reduce choices to reveal what truly matters.",
+      "summaryKo": "핵심 통찰: 자신이 누구인지 아는 것은 자신이 누구가 아닌지 아는 것에서 시작됩니다. 험담하는 친구, 숙취를 유발하는 술집, 고립시키는 화면, 무기력하게 만드는 정크푸드 등 생생한 예시로 설명합니다. 부정적인 사람, 장소, 습관을 제거하면 자연스럽게 건강한 상황에 놓이게 됩니다. 너무 많은 선택지는 우리를 폭군으로 만들므로, 선택지를 줄여 진정으로 중요한 것을 드러내라고 합니다.",
+      "keyPoints": [
+        "Identity starts with 'I know who I am NOT'",
+        "Eliminate toxic friends, unhealthy places, bad habits",
+        "By removing the negatives, positives naturally emerge",
+        "Too many options make a tyrant of us all — reduce them"
+      ]
+    },
+    {
+      "title": "Be the Architect of Your Life",
+      "titleKo": "당신 삶의 건축가가 되라",
+      "section": "main",
+      "startSegment": 41,
+      "endSegment": 49,
+      "summary": "McConaughey shifts to creating positive outcomes that 'pay us back' instead of taking from us. He redefines architecture as a verb — since we are the architects of our own lives, we should study our habits, practices, and routines that lead to success, joy, and honest emotion. By dissecting what works and giving thanks, we improve and have even more to be grateful for. He concludes this section with 'Be discerning — choose it because you want it.'",
+      "summaryKo": "우리에게서 빼앗는 대신 돌려주는 긍정적 결과를 만들자고 전환합니다. 건축(architecture)을 동사로 재정의합니다 — 우리가 삶의 건축가이니, 성공과 기쁨으로 이끄는 습관과 루틴을 연구해야 한다고 합니다. 효과적인 것을 분석하고 감사하면, 더 나아지고 감사할 것도 더 많아집니다. '분별력을 가지세요 — 원하기 때문에 선택하세요'로 이 섹션을 마무리합니다.",
+      "keyPoints": [
+        "Create outcomes that pay you back, not take from you",
+        "Architecture is a verb — you are the architect of your life",
+        "Study your successful habits and give thanks for them",
+        "Be discerning: choose because you genuinely want to"
+      ]
+    },
+    {
+      "title": "Conclusion: Own Your Mistakes and Move On",
+      "titleKo": "결론: 실수를 인정하고 앞으로 나아가라",
+      "section": "conclusion",
+      "startSegment": 50,
+      "endSegment": 54,
+      "summary": "McConaughey concludes with advice on handling mistakes: own them, make amends, and move on. Guilt and regret kill many before their time. He uses the powerful metaphor 'turn the page, get off the ride' and ends with the empowering declaration: 'You are the author of the book of your life.'",
+      "summaryKo": "실수에 대처하는 법으로 마무리합니다: 인정하고, 보상하고, 앞으로 나아가라. 죄책감과 후회는 제때가 되기 전에 많은 사람을 죽입니다. '페이지를 넘기세요, 놀이기구에서 내리세요'라는 강렬한 비유를 사용하고, '당신이 당신 인생이라는 책의 저자입니다'라는 힘 있는 선언으로 끝맺습니다.",
+      "keyPoints": [
+        "Own your mistakes, make amends, move on",
+        "Guilt and regret kill many before their time",
+        "You are the author of the book of your life"
+      ]
+    }
+  ]
+}

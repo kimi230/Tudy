@@ -1,0 +1,327 @@
+[
+  {
+    "pattern": "Imperative sentences (명령문)",
+    "explanation": "The imperative mood is used to give commands, advice, or instructions. The subject 'you' is implied and omitted. McConaughey uses imperatives extensively to deliver direct life advice.",
+    "explanationKo": "명령문은 명령, 조언, 지시를 내릴 때 사용합니다. 주어 'you'가 생략됩니다. 매커너히는 삶의 조언을 직접적으로 전달하기 위해 명령문을 광범위하게 사용합니다.",
+    "examples": [
+      {
+        "sentence": "Be brave. Take the hill.",
+        "translation": "용감해지세요. 언덕을 점령하세요."
+      },
+      {
+        "sentence": "Get over it and get on with it.",
+        "translation": "극복하고 앞으로 나아가세요."
+      },
+      {
+        "sentence": "Get rid of the excess, the wasted time, decrease your options.",
+        "translation": "불필요한 것을 없애세요. 낭비되는 시간을. 선택지를 줄이세요."
+      },
+      {
+        "sentence": "Turn the page. Get off the ride.",
+        "translation": "페이지를 넘기세요. 놀이기구에서 내리세요."
+      }
+    ],
+    "examplesKo": [
+      "용감해지세요. 언덕을 점령하세요.",
+      "극복하고 앞으로 나아가세요.",
+      "불필요한 것을 없애세요. 낭비되는 시간을. 선택지를 줄이세요.",
+      "페이지를 넘기세요. 놀이기구에서 내리세요."
+    ],
+    "segmentIndex": 14
+  },
+  {
+    "pattern": "Negative imperative: Don't + base verb (부정 명령문)",
+    "explanation": "Negative imperatives use 'don't' before the base form of the verb to tell someone not to do something. 'Do not' is the emphatic formal version.",
+    "explanationKo": "부정 명령문은 'don't + 동사원형'으로 하지 말라는 것을 표현합니다. 'Do not'은 더 강조적이고 격식적인 형태입니다.",
+    "examples": [
+      {
+        "sentence": "Don't try to make it that way.",
+        "translation": "그렇게 만들려고 하지 마세요."
+      },
+      {
+        "sentence": "Don't choose anything that will jeopardize yourself.",
+        "translation": "자신을 위태롭게 하는 것은 선택하지 마세요."
+      },
+      {
+        "sentence": "Do not fall into the trap.",
+        "translation": "함정에 빠지지 마세요."
+      },
+      {
+        "sentence": "Don't spend time with anything that antagonizes your character.",
+        "translation": "당신의 인격에 반하는 것에 시간을 쓰지 마세요."
+      }
+    ],
+    "examplesKo": [
+      "그렇게 만들려고 하지 마세요.",
+      "자신을 위태롭게 하는 것은 선택하지 마세요.",
+      "함정에 빠지지 마세요.",
+      "당신의 인격에 반하는 것에 시간을 쓰지 마세요."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "Relative clause with 'that' (관계대명사 that절)",
+    "explanation": "Defining relative clauses with 'that' specify which person, thing, or place is being referred to. They are essential to the meaning of the sentence and are not separated by commas.",
+    "explanationKo": "'that'을 사용한 한정 관계절은 어떤 사람, 사물, 장소를 가리키는지 명시합니다. 문장의 의미에 필수적이며 쉼표로 분리하지 않습니다.",
+    "examples": [
+      {
+        "sentence": "The question that we got to ask ourselves is what success is to us.",
+        "translation": "우리가 스스로에게 물어야 할 질문은, 성공이 우리에게 무엇인가 하는 것입니다."
+      },
+      {
+        "sentence": "The computer screen that keeps giving us an excuse not to get out of the house.",
+        "translation": "집 밖으로 나가지 않을 핑계를 계속 제공하는 컴퓨터 화면."
+      },
+      {
+        "sentence": "The habits, the practices, the routines that we have that lead to and feed our success.",
+        "translation": "우리의 성공으로 이끌고 키우는 우리의 습관, 관행, 루틴."
+      }
+    ],
+    "examplesKo": [
+      "우리가 스스로에게 물어야 할 질문은, 성공이 우리에게 무엇인가 하는 것입니다.",
+      "집 밖으로 나가지 않을 핑계를 계속 제공하는 컴퓨터 화면.",
+      "우리의 성공으로 이끌고 키우는 우리의 습관, 관행, 루틴."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Future with 'will' (will을 사용한 미래시제)",
+    "explanation": "'Will' + base verb expresses future predictions, promises, and inevitable consequences. It conveys certainty or strong assertion about the future.",
+    "explanationKo": "'will + 동사원형'은 미래 예측, 약속, 불가피한 결과를 표현합니다. 미래에 대한 확신이나 강한 단언을 전달합니다.",
+    "examples": [
+      {
+        "sentence": "It won't ever be.",
+        "translation": "앞으로도 절대 그러지 않을 겁니다."
+      },
+      {
+        "sentence": "Too many options will make a tyrant of us all.",
+        "translation": "너무 많은 선택지는 우리 모두를 폭군으로 만들 겁니다."
+      },
+      {
+        "sentence": "You will have accidentally, almost innocently, put in front of you what is important.",
+        "translation": "우연히, 거의 순수하게, 당신 앞에 중요한 것이 놓이게 될 겁니다."
+      }
+    ],
+    "examplesKo": [
+      "앞으로도 절대 그러지 않을 겁니다.",
+      "너무 많은 선택지는 우리 모두를 폭군으로 만들 겁니다.",
+      "우연히, 거의 순수하게, 당신 앞에 중요한 것이 놓이게 될 겁니다."
+    ],
+    "segmentIndex": 3
+  },
+  {
+    "pattern": "Conditional with 'if' (if 조건절)",
+    "explanation": "First conditional structures use 'if + present simple' in the condition clause and 'will + base verb' in the result clause to express real, possible future outcomes.",
+    "explanationKo": "제1조건문은 조건절에 'if + 현재시제'를, 결과절에 'will + 동사원형'을 사용하여 실현 가능한 미래 결과를 표현합니다.",
+    "examples": [
+      {
+        "sentence": "If you do this, you will have accidentally put in front of you what is important.",
+        "translation": "이렇게 하면, 우연히 당신 앞에 중요한 것이 놓이게 될 겁니다."
+      },
+      {
+        "sentence": "When we do that, guess what happens? We get better at them.",
+        "translation": "그렇게 하면 어떻게 될까요? 우리는 그것을 더 잘하게 됩니다."
+      }
+    ],
+    "examplesKo": [
+      "이렇게 하면, 우연히 당신 앞에 중요한 것이 놓이게 될 겁니다.",
+      "그렇게 하면 어떻게 될까요? 우리는 그것을 더 잘하게 됩니다."
+    ],
+    "segmentIndex": 37
+  },
+  {
+    "pattern": "'Let's' + base verb (제안/권유의 let's 구문)",
+    "explanation": "'Let's' (let us) + base verb is used to make suggestions or proposals that include the speaker. It creates a sense of shared action and inclusiveness.",
+    "explanationKo": "'Let's + 동사원형'은 화자를 포함한 제안이나 권유를 할 때 사용합니다. 공유된 행동과 포용의 느낌을 만듭니다.",
+    "examples": [
+      {
+        "sentence": "Let's create more outcomes that pay us back, fill us up.",
+        "translation": "우리에게 돌려주고 채워주는 결과를 더 많이 만들어 봅시다."
+      },
+      {
+        "sentence": "Let's study the habits, the practices, the routines that we have.",
+        "translation": "우리의 습관, 관행, 루틴을 연구합시다."
+      },
+      {
+        "sentence": "Let's dissect that and give thanks for those things.",
+        "translation": "그것을 분석하고 감사를 표합시다."
+      }
+    ],
+    "examplesKo": [
+      "우리에게 돌려주고 채워주는 결과를 더 많이 만들어 봅시다.",
+      "우리의 습관, 관행, 루틴을 연구합시다.",
+      "그것을 분석하고 감사를 표합시다."
+    ],
+    "segmentIndex": 41
+  },
+  {
+    "pattern": "'Got to' / 'have got to' (의무/필요 표현)",
+    "explanation": "'Got to' (informal for 'have got to') expresses obligation or necessity, similar to 'must' or 'have to' but more colloquial. Very common in spoken American English.",
+    "explanationKo": "'got to'는 'have got to'의 비격식 표현으로 의무나 필요성을 나타내며, 'must'나 'have to'와 비슷하지만 더 구어적입니다. 미국 영어 구어에서 매우 흔합니다.",
+    "examples": [
+      {
+        "sentence": "The question that we got to ask ourselves is what success is to us.",
+        "translation": "우리가 스스로에게 물어야 할 질문은, 성공이 우리에게 무엇인가 하는 것입니다."
+      },
+      {
+        "sentence": "You got to own them, then you got to make amends.",
+        "translation": "인정해야 합니다. 그리고 보상해야 합니다."
+      },
+      {
+        "sentence": "You got to move on.",
+        "translation": "앞으로 나아가야 합니다."
+      }
+    ],
+    "examplesKo": [
+      "우리가 스스로에게 물어야 할 질문은, 성공이 우리에게 무엇인가 하는 것입니다.",
+      "인정해야 합니다. 그리고 보상해야 합니다.",
+      "앞으로 나아가야 합니다."
+    ],
+    "segmentIndex": 5
+  },
+  {
+    "pattern": "Parallel structure with 'maybe it's...' (병렬 구조)",
+    "explanation": "Parallel structure repeats the same grammatical form to list ideas of equal importance. Using 'maybe it's...' in succession creates rhythm and emphasizes multiple possibilities.",
+    "explanationKo": "병렬 구조는 동일한 문법 형태를 반복하여 같은 중요도의 아이디어를 나열합니다. 'maybe it's...'를 연속으로 사용하여 리듬을 만들고 다양한 가능성을 강조합니다.",
+    "examples": [
+      {
+        "sentence": "Maybe it's a healthy family. Maybe it's a happy marriage. Maybe it's to help others.",
+        "translation": "아마 건강한 가족일 수도, 행복한 결혼일 수도, 다른 사람을 돕는 것일 수도 있습니다."
+      },
+      {
+        "sentence": "Those people, those places, those things — stop giving them your time and energy.",
+        "translation": "그 사람들, 그 장소들, 그것들 — 시간과 에너지를 주는 걸 멈추세요."
+      }
+    ],
+    "examplesKo": [
+      "아마 건강한 가족일 수도, 행복한 결혼일 수도, 다른 사람을 돕는 것일 수도 있습니다.",
+      "그 사람들, 그 장소들, 그것들 — 시간과 에너지를 주는 걸 멈추세요."
+    ],
+    "segmentIndex": 7
+  },
+  {
+    "pattern": "Comparative with 'as...as' (동등비교 구문)",
+    "explanation": "The 'as...as' structure expresses that two things are equal in some quality or degree. It can be used with adjectives or adverbs to show equivalence.",
+    "explanationKo": "'as...as' 구조는 두 가지가 어떤 성질이나 정도에서 동등함을 표현합니다. 형용사나 부사와 함께 사용하여 동등함을 나타냅니다.",
+    "examples": [
+      {
+        "sentence": "Where you are not is as important as where you are.",
+        "translation": "당신이 있지 않은 곳도 당신이 있는 곳만큼 중요합니다."
+      },
+      {
+        "sentence": "It is just as important where we are not as it is where we are.",
+        "translation": "우리가 있지 않은 곳이 우리가 있는 곳만큼 중요합니다."
+      }
+    ],
+    "examplesKo": [
+      "당신이 있지 않은 곳도 당신이 있는 곳만큼 중요합니다.",
+      "우리가 있지 않은 곳이 우리가 있는 곳만큼 중요합니다."
+    ],
+    "segmentIndex": 17
+  },
+  {
+    "pattern": "Present simple for universal truths (보편적 진리의 현재시제)",
+    "explanation": "The present simple tense is used to state facts, general truths, and permanent situations. McConaughey uses it to deliver life truths with authority.",
+    "explanationKo": "현재시제는 사실, 보편적 진리, 영구적인 상황을 진술할 때 사용합니다. 매커너히는 삶의 진리를 권위 있게 전달하기 위해 현재시제를 사용합니다.",
+    "examples": [
+      {
+        "sentence": "Life is not easy.",
+        "translation": "인생은 쉽지 않습니다."
+      },
+      {
+        "sentence": "Life's not fair.",
+        "translation": "인생은 공평하지 않습니다."
+      },
+      {
+        "sentence": "Guilt and regret kills many a man before their time.",
+        "translation": "죄책감과 후회는 제때가 되기도 전에 많은 사람을 죽입니다."
+      },
+      {
+        "sentence": "You are the author of the book of your life.",
+        "translation": "당신이 당신 인생이라는 책의 저자입니다."
+      }
+    ],
+    "examplesKo": [
+      "인생은 쉽지 않습니다.",
+      "인생은 공평하지 않습니다.",
+      "죄책감과 후회는 제때가 되기도 전에 많은 사람을 죽입니다.",
+      "당신이 당신 인생이라는 책의 저자입니다."
+    ],
+    "segmentIndex": 2
+  },
+  {
+    "pattern": "'Keep' + gerund (keep + -ing: 지속/반복 표현)",
+    "explanation": "'Keep' + gerund (-ing form) expresses the continuation or repetition of an action. It implies persistence, often with negative connotation when used for bad habits.",
+    "explanationKo": "'keep + 동명사(-ing)'는 행동의 지속이나 반복을 표현합니다. 나쁜 습관에 사용될 때 부정적 함의를 가지며 끈질기게 계속함을 암시합니다.",
+    "examples": [
+      {
+        "sentence": "The bar that we keep going to.",
+        "translation": "우리가 계속 가는 그 술집."
+      },
+      {
+        "sentence": "The computer screen that keeps giving us an excuse.",
+        "translation": "계속 핑계를 제공하는 컴퓨터 화면."
+      },
+      {
+        "sentence": "That food that we keep eating.",
+        "translation": "우리가 계속 먹는 그 음식."
+      },
+      {
+        "sentence": "We keep putting on weight.",
+        "translation": "계속 살이 찝니다."
+      }
+    ],
+    "examplesKo": [
+      "우리가 계속 가는 그 술집.",
+      "계속 핑계를 제공하는 컴퓨터 화면.",
+      "우리가 계속 먹는 그 음식.",
+      "계속 살이 찝니다."
+    ],
+    "segmentIndex": 25
+  },
+  {
+    "pattern": "'Be going to' / 'gonna' (비격식 미래 표현)",
+    "explanation": "'Going to' (contracted to 'gonna' in speech) + base verb expresses future intentions, plans, or predictions based on present evidence. 'Gonna' is standard in spoken American English.",
+    "explanationKo": "'going to' (구어에서 'gonna'로 축약) + 동사원형은 미래 의도, 계획, 또는 현재 증거에 기반한 예측을 표현합니다. 'Gonna'는 미국 영어 구어에서 표준입니다.",
+    "examples": [
+      {
+        "sentence": "I'm gonna talk to you about some things I've learned.",
+        "translation": "제가 배운 것들에 대해 이야기하려고 합니다."
+      },
+      {
+        "sentence": "They really aren't gonna be there for you in a pinch.",
+        "translation": "정작 어려울 때 곁에 있어주지 않을 거예요."
+      },
+      {
+        "sentence": "You're gonna find yourself where you need to be.",
+        "translation": "자신이 있어야 할 곳에 있는 자신을 발견하게 될 겁니다."
+      },
+      {
+        "sentence": "We're gonna make mistakes.",
+        "translation": "실수를 할 겁니다."
+      }
+    ],
+    "examplesKo": [
+      "제가 배운 것들에 대해 이야기하려고 합니다.",
+      "정작 어려울 때 곁에 있어주지 않을 거예요.",
+      "자신이 있어야 할 곳에 있는 자신을 발견하게 될 겁니다.",
+      "실수를 할 겁니다."
+    ],
+    "segmentIndex": 0
+  },
+  {
+    "pattern": "Noun used as verb (명사의 동사적 활용)",
+    "explanation": "In English, nouns can be converted to verbs (zero derivation/conversion). McConaughey uses 'architecture' as a verb to mean 'to design or build deliberately', emphasizing active creation of one's life.",
+    "explanationKo": "영어에서 명사는 동사로 전환될 수 있습니다(영변환). 매커너히는 'architecture'를 동사로 사용하여 '의도적으로 설계하고 건축하다'라는 뜻으로, 삶의 능동적 창조를 강조합니다.",
+    "examples": [
+      {
+        "sentence": "Architecture is a verb as well.",
+        "translation": "건축은 동사이기도 합니다."
+      }
+    ],
+    "examplesKo": [
+      "건축은 동사이기도 합니다."
+    ],
+    "segmentIndex": 44
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "videoId": "eIho2S0ZahI",
+  "descriptionKo": "Julian Treasure가 사람들이 듣고 싶어하는 말하기 방법을 제시하는 TED 강연. 말하기의 7가지 대죄, HAIL 원칙, 그리고 목소리 도구 상자를 소개합니다.",
+  "sections": [
+    {
+      "title": "The Power of the Human Voice",
+      "titleKo": "인간 목소리의 힘",
+      "section": "opening",
+      "startSegment": 0,
+      "endSegment": 5,
+      "summary": "Julian Treasure opens by establishing the human voice as the most powerful sound in the world, capable of starting wars or expressing love. He poses the central question: why don't people listen, and how can we speak powerfully?",
+      "summaryKo": "Julian Treasure는 인간의 목소리가 전쟁을 시작하거나 사랑을 표현할 수 있는 세상에서 가장 강력한 소리임을 설명하며 시작합니다. 왜 사람들이 듣지 않는지, 어떻게 강력하게 말할 수 있는지라는 핵심 질문을 던집니다.",
+      "keyPoints": [
+        "인간의 목소리는 세상에서 가장 강력한 소리",
+        "많은 사람들이 말할 때 상대가 듣지 않는 경험을 함",
+        "세상을 변화시키는 강력한 말하기 방법에 대한 질문 제기"
+      ],
+      "transitions": ["And yet", "Why is that?", "How can we"]
+    },
+    {
+      "title": "Seven Deadly Sins of Speaking",
+      "titleKo": "말하기의 7가지 대죄",
+      "section": "body",
+      "startSegment": 6,
+      "endSegment": 39,
+      "summary": "Treasure presents seven negative habits that prevent effective communication: gossip, judging, negativity (including complaining), excuses, embroidery/exaggeration, lying, and dogmatism. Each is illustrated with examples showing why people stop listening.",
+      "summaryKo": "효과적인 소통을 방해하는 7가지 부정적 습관을 제시합니다: 험담, 판단, 부정적 태도(불평 포함), 변명, 윤색/과장, 거짓말, 독단주의. 각각의 예시를 통해 사람들이 왜 듣기를 멈추는지 보여줍니다.",
+      "keyPoints": [
+        "험담하는 사람은 5분 후 우리에 대해서도 험담할 것",
+        "불평은 전염되는 불행(viral misery)",
+        "과장은 언어를 격하시키고 거짓말로 이어짐",
+        "사실과 의견을 혼동하는 독단주의"
+      ],
+      "transitions": ["What I'd like to suggest", "First", "Second", "Third", "And another form", "Penultimate", "And finally", "So here they are"]
+    },
+    {
+      "title": "HAIL: Four Cornerstones of Powerful Speaking",
+      "titleKo": "HAIL: 강력한 말하기의 네 가지 초석",
+      "section": "body",
+      "startSegment": 40,
+      "endSegment": 61,
+      "summary": "Treasure introduces the HAIL acronym as the positive framework: Honesty (being true and clear), Authenticity (being yourself), Integrity (doing what you say), and Love (wishing people well). He explains how love tempers honesty and prevents judgment.",
+      "summaryKo": "긍정적 프레임워크로 HAIL 두문자어를 소개합니다: 정직(Honesty), 진정성(Authenticity), 성실함(Integrity), 사랑(Love). 사랑이 어떻게 정직을 절제하고 판단을 방지하는지 설명합니다.",
+      "keyPoints": [
+        "HAIL = 열정적으로 환영하다",
+        "정직: 진실되고, 솔직하고, 명확하게",
+        "진정성: 자신의 진실 위에 서는 것",
+        "성실함: 말한 대로 행동하는 것",
+        "사랑: 절대적 정직을 절제하고 판단을 방지"
+      ],
+      "transitions": ["But is there a positive way", "Yes, there is", "Fortunately", "So what do they stand for", "The H", "The A", "The I", "And the L"]
+    },
+    {
+      "title": "The Voice Toolbox",
+      "titleKo": "목소리 도구 상자",
+      "section": "body",
+      "startSegment": 62,
+      "endSegment": 99,
+      "summary": "Treasure explores the vocal tools available: register (where voice resonates — nose, throat, chest), timbre (voice quality), prosody (melodic patterns and intonation), pace and silence, pitch, and volume. He demonstrates each and warns against monotone speaking and sodcasting.",
+      "summaryKo": "사용 가능한 목소리 도구들을 탐구합니다: 음역대(코, 목, 가슴에서의 공명), 음색, 운율(멜로디 패턴과 억양), 속도와 침묵, 음높이, 음량. 각각을 시연하며 단조로운 말투와 소드캐스팅에 대해 경고합니다.",
+      "keyPoints": [
+        "음역대: 낮은 목소리가 권위와 파워를 전달",
+        "음색: 훈련으로 개선 가능",
+        "운율: 의미 전달의 핵심, 단조로운 말투 주의",
+        "속도와 침묵: 강조를 위한 강력한 도구",
+        "음높이: 같은 문장도 다른 의미 전달 가능",
+        "음량: 조용한 말이 오히려 집중을 끌 수 있음"
+      ],
+      "transitions": ["Also, now that's what you say", "it's also the way that you say it", "Register, for example", "And we have timbre", "Then prosody", "Pace", "And finally, volume"]
+    },
+    {
+      "title": "Vocal Warm-Up Exercises",
+      "titleKo": "발성 워밍업 운동",
+      "section": "body",
+      "startSegment": 100,
+      "endSegment": 121,
+      "summary": "Treasure leads the audience through six vocal warm-up exercises: deep breathing with sighing, lip buzzing (ba-ba-ba), lip trilling (like a child), exaggerated tongue exercises, rolling R's, and the siren (we-or pitch glide). He emphasizes doing these before any important speaking occasion.",
+      "summaryKo": "청중과 함께 여섯 가지 발성 워밍업 운동을 진행합니다: 한숨 쉬기, 입술 진동(바바바), 입술 떨기, 과장된 혀 운동, R 굴리기, 사이렌(위-오 음 높낮이 활주). 중요한 말하기 전에 반드시 할 것을 강조합니다.",
+      "keyPoints": [
+        "6가지 발성 워밍업 운동 시연",
+        "R 굴리기는 혀를 위한 샴페인",
+        "사이렌이 하나만 할 수 있다면 최고의 운동",
+        "중요한 대화 전에 미리 연습할 것"
+      ],
+      "transitions": ["Of course, where this all comes into play", "It might be", "Actually, let me show you", "Would you all like to stand up", "First", "Now", "And then", "Finally"]
+    },
+    {
+      "title": "A Vision for Conscious Sound",
+      "titleKo": "의식적 소리를 위한 비전",
+      "section": "closing",
+      "startSegment": 122,
+      "endSegment": 132,
+      "summary": "Treasure closes with a powerful vision of a world where people speak powerfully, listen consciously, and design environments for sound. He contrasts the current state (poor speaking, inattentive listeners, bad acoustics) with an ideal world of conscious sound creation and consumption.",
+      "summaryKo": "사람들이 강력하게 말하고, 의식적으로 듣고, 소리를 위한 환경을 설계하는 세상의 비전으로 마무리합니다. 현재 상태(서툰 말하기, 집중하지 않는 청취자, 나쁜 음향)와 의식적인 소리 창조와 소비의 이상적 세상을 대비합니다.",
+      "keyPoints": [
+        "현재: 잘 말하지 못하고, 듣지 않고, 음향이 나쁜 환경",
+        "이상: 의식적으로 소리를 만들고 소비하는 세상",
+        "아름답게 들리는 세상이 될 것",
+        "TED 정신: 퍼뜨릴 가치가 있는 아이디어"
+      ],
+      "transitions": ["Now let me just put this in context to close", "This is a serious point", "What would the world be like", "Or to make that a bit larger", "And that is an idea worth spreading"]
+    }
+  ],
+  "signalExpressions": [
+    {
+      "expression": "What I'd like to suggest",
+      "function": "introducing a main idea",
+      "segmentIndex": 6
+    },
+    {
+      "expression": "So here they are",
+      "function": "summarizing before transition",
+      "segmentIndex": 39
+    },
+    {
+      "expression": "But is there a positive way to think about this?",
+      "function": "pivoting to contrasting section",
+      "segmentIndex": 40
+    },
+    {
+      "expression": "Fortunately, these things spell a word",
+      "function": "introducing mnemonic device",
+      "segmentIndex": 43
+    },
+    {
+      "expression": "Now let me just put this in context to close",
+      "function": "signaling conclusion",
+      "segmentIndex": 122
+    },
+    {
+      "expression": "And that is an idea worth spreading",
+      "function": "final closing statement (TED signature)",
+      "segmentIndex": 131
+    }
+  ]
+}

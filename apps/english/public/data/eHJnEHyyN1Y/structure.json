@@ -1,0 +1,183 @@
+{
+  "descriptionKo": "런던 비즈니스 스쿨의 존 멀린스 교수가 성공적인 기업가가 되기 위한 6가지 반통념적 사고방식을 실제 기업 사례를 통해 설명하는 TED 강연",
+  "sections": [
+    {
+      "title": "Opening: Linda Weinman and Lynda.com",
+      "titleKo": "도입: 린다 와인만과 Lynda.com 이야기",
+      "section": "intro",
+      "startSegment": 0,
+      "endSegment": 7,
+      "summary": "John Mullins opens with the story of Linda Weinman, a graphic design teacher who started lynda.com in 1995 as a sandbox for digital tools and student work. The business grew, moved fully online in 2002, and was eventually sold to LinkedIn for $1.5 billion. She exemplifies counter-conventional entrepreneurial mindsets.",
+      "summaryKo": "존 멀린스는 1995년 디지털 도구 실험과 학생 작품 전시를 위해 lynda.com을 시작한 그래픽 디자인 교사 린다 와인만의 이야기로 시작합니다. 사업이 성장하여 2002년 전면 온라인화되었고, 결국 링크드인에 15억 달러에 매각됩니다.",
+      "keyPoints": [
+        "Linda Weinman started lynda.com as a sandbox for digital design tools",
+        "Business evolved and was sold to LinkedIn for $1.5 billion",
+        "She is the poster child for counter-conventional mindsets"
+      ],
+      "transitions": [
+        "Well, she put that website together",
+        "Later,"
+      ]
+    },
+    {
+      "title": "Framing: What Are Counter-Conventional Mindsets?",
+      "titleKo": "프레이밍: 반통념적 사고방식이란 무엇인가?",
+      "section": "main",
+      "startSegment": 8,
+      "endSegment": 15,
+      "summary": "Mullins explains why he calls these mindsets 'counter-conventional' — they run counter to best practices in big companies and contradict much of what is taught at business schools about strategy, marketing, and risk. He defines 'mindset' as attitudes, habits, and mental inclinations that predetermine our response to opportunities.",
+      "summaryKo": "멀린스는 이 사고방식을 '반통념적'이라 부르는 이유를 설명합니다. 대기업의 모범 사례에 반하고, 경영대학원에서 전략, 마케팅, 리스크에 대해 가르치는 것과 모순되기 때문입니다. '사고방식'을 기회에 대한 반응을 미리 결정하는 태도, 습관, 정신적 성향으로 정의합니다.",
+      "keyPoints": [
+        "Six mindsets run counter to big company best practices",
+        "Mindsets are attitudes, habits, and mental inclinations",
+        "They predetermine how we respond to opportunities"
+      ],
+      "transitions": [
+        "So I want to tell you about these mindsets today",
+        "So number one",
+        "Well, first"
+      ]
+    },
+    {
+      "title": "Mindset 1: Yes, We Can",
+      "titleKo": "사고방식 1: 네, 할 수 있습니다",
+      "section": "main",
+      "startSegment": 16,
+      "endSegment": 36,
+      "summary": "The first mindset challenges the business school wisdom of 'stick to your knitting' (core competencies). Brazilian entrepreneur Arnold Correa (Atmo Digital) reinvented his business four times by saying 'yes, we can' to customer requests outside his expertise — from event management to satellite broadcasting to in-store advertising networks.",
+      "summaryKo": "첫 번째 사고방식은 '본업에 충실하라'(핵심 역량)는 경영학 통념에 도전합니다. 브라질 기업가 아르놀드 코헤아(아트모 디지털)는 자신의 전문 분야 밖의 고객 요청에 '네, 할 수 있습니다'로 답하며 사업을 네 번 재창조했습니다.",
+      "keyPoints": [
+        "B-School says stick to core competencies",
+        "Arnold Correa said 'yes, we can' to requests outside his expertise",
+        "He reinvented his business four times — events, satellite, in-store advertising"
+      ],
+      "transitions": [
+        "Now, B-School Strategy 101 says the following",
+        "Well, a Brazilian entrepreneur",
+        "So what did he say?",
+        "Then several years later"
+      ]
+    },
+    {
+      "title": "Mindset 2: Problem First, Not Product First",
+      "titleKo": "사고방식 2: 제품이 아닌 문제 먼저",
+      "section": "main",
+      "startSegment": 37,
+      "endSegment": 59,
+      "summary": "Big companies focus on products (Tide's cosmetic changes, Coca-Cola's endless variants), but entrepreneurs focus on problems. Jonathan Thorne developed a non-stick surgical forceps using a silver-nickel alloy. After slow growth in plastic surgery, he pivoted to neurosurgery where the problem was more critical, and eventually sold the business to Stryker.",
+      "summaryKo": "대기업은 제품에 집중하지만(타이드의 표면적 변화, 코카콜라의 끝없는 변형), 기업가는 문제에 집중합니다. 조나단 손은 은-니켈 합금으로 달라붙지 않는 수술용 겸자를 개발했습니다. 성형외과에서 느린 성장 후 더 절실한 문제가 있는 신경외과로 전환하여 결국 스트라이커에 매각했습니다.",
+      "keyPoints": [
+        "Big companies focus on incremental product changes, not real innovation",
+        "Jonathan Thorne solved the surgical forceps sticking problem",
+        "He pivoted from plastic surgery to neurosurgery for bigger impact"
+      ],
+      "transitions": [
+        "The second one I want to tell you about",
+        "So in big companies today",
+        "But for entrepreneurs",
+        "Well, it turned out"
+      ]
+    },
+    {
+      "title": "Mindset 3: Think Narrow, Not Broad",
+      "titleKo": "사고방식 3: 넓게가 아닌 좁게 생각하라",
+      "section": "main",
+      "startSegment": 60,
+      "endSegment": 80,
+      "summary": "While big companies want large target markets, Phil Knight and Bill Bowerman founded Nike by focusing on a very narrow one: elite distance runners who needed shoes with better lateral stability, cushioning, and lighter weight. Once they mastered this niche, they expanded to tennis (McEnroe), basketball (Jordan), and became the global leader.",
+      "summaryKo": "대기업은 큰 시장을 원하지만, 필 나이트와 빌 바우어만은 아주 좁은 시장—더 나은 측면 안정성, 쿠셔닝, 경량화가 필요한 엘리트 장거리 선수—에 집중하여 나이키를 창업했습니다. 이 니치를 장악한 후 테니스, 농구로 확장하여 글로벌 리더가 되었습니다.",
+      "keyPoints": [
+        "Big companies want broad markets; entrepreneurs start narrow",
+        "Nike started with shoes for elite distance runners only",
+        "After mastering the niche, Nike expanded to tennis, basketball, and beyond"
+      ],
+      "transitions": [
+        "The next one. I call it think narrow, not broad",
+        "Like John Thorne",
+        "But the big company wisdom",
+        "So we know what happened with Nike"
+      ]
+    },
+    {
+      "title": "Mindset 4: Ask for the Cash and Ride the Float",
+      "titleKo": "사고방식 4: 현금을 요청하고 유동성을 활용하라",
+      "section": "main",
+      "startSegment": 81,
+      "endSegment": 103,
+      "summary": "While big companies like Merck have excess cash spent on buybacks, entrepreneurs treat cash as lifeblood. Tesla's team sold 100 Roadsters at $100,000 each before building the first one, raising $10 million upfront. Later, Model 3 pre-orders brought in half a billion dollars in deposits to fund engineering and manufacturing.",
+      "summaryKo": "머크 같은 대기업이 잉여 현금을 자사주 매입에 쓰는 반면, 기업가는 현금을 생명줄로 취급합니다. 테슬라 팀은 1호차를 만들기도 전에 로드스터 100대를 대당 10만 달러에 팔아 선불로 1,000만 달러를 조달했습니다. 이후 모델 3 사전주문으로 5억 달러 예치금을 확보했습니다.",
+      "keyPoints": [
+        "Merck spent excess cash on buybacks instead of innovation",
+        "Tesla sold 100 Roadsters before building one — $10M upfront",
+        "Model 3 pre-orders raised half a billion dollars in deposits"
+      ],
+      "transitions": [
+        "Okay, the next one",
+        "But for entrepreneurs like Elon Musk",
+        "Well, what Musk said is",
+        "Well, that principle has carried Tesla"
+      ]
+    },
+    {
+      "title": "Mindset 5: Beg, Borrow, But Don't Steal",
+      "titleKo": "사고방식 5: 빌리고 구걸하되, 훔치지 마라",
+      "section": "main",
+      "startSegment": 104,
+      "endSegment": 123,
+      "summary": "Instead of traditional ROI analysis, Tristram and Rebecca Mayhew built Go Ape treetop adventures by borrowing most assets — trees, facilities, and parking from the UK Forestry Commission. They secured a 25-year exclusive deal by first proving the concept with 5 sites, and now have 30+ locations across the UK and US.",
+      "summaryKo": "전통적인 ROI 분석 대신, 트리스트람과 레베카 메이휴는 영국 산림위원회로부터 나무, 시설, 주차장 등 대부분의 자산을 빌려 고 에이프 트리탑 어드벤처를 구축했습니다. 5개 시범 운영으로 개념을 입증한 후 25년 독점 계약을 확보했고, 현재 영국과 미국에 30개 이상의 사이트를 운영합니다.",
+      "keyPoints": [
+        "B-School teaches ROI analysis before investing",
+        "Go Ape borrowed trees, loos, and parking lots from the Forestry Commission",
+        "Proved concept with 5 sites, then got 25-year exclusive deal"
+      ],
+      "transitions": [
+        "Okay, the next one",
+        "But for Tristram Mayhew",
+        "They'd seen one in France",
+        "Well, who's got trees in the UK?"
+      ]
+    },
+    {
+      "title": "Mindset 6: Don't Ask for Permission",
+      "titleKo": "사고방식 6: 허가를 구하지 마라",
+      "section": "main",
+      "startSegment": 124,
+      "endSegment": 137,
+      "summary": "In big companies, getting permission for innovation requires passing through legal review, making 'yes' hard and 'no' easy. But entrepreneurs like Travis Kalanick and Garrett Camp (Uber) didn't ask regulators for permission to start a taxi company without taxis. While Mullins doesn't condone Uber's unethical practices, the principle of acting when regulations are ambiguous is key.",
+      "summaryKo": "대기업에서 혁신의 허가를 받으려면 법률 검토를 거쳐야 하므로 '예'는 어렵고 '아니요'는 쉽습니다. 하지만 트래비스 캘러닉과 개럿 캠프(우버)는 택시 없이 택시 회사를 시작해도 되는지 규제 당국에 묻지 않았습니다. 멀린스는 우버의 비윤리적 관행을 옹호하지는 않지만, 규제가 모호할 때 실행하는 원칙이 핵심이라고 합니다.",
+      "keyPoints": [
+        "Big companies need legal approval — 'yes' is hard, 'no' is easy",
+        "Uber founders didn't ask regulators for permission",
+        "Act when regulations are ambiguous, but stay ethical"
+      ],
+      "transitions": [
+        "Now, entrepreneurs and permission are kind of like oil and water",
+        "For entrepreneurs, however",
+        "Now I don't condone many of the things",
+        "That's when you get on with it"
+      ]
+    },
+    {
+      "title": "Closing: Four Questions for the Audience",
+      "titleKo": "마무리: 청중을 위한 네 가지 질문",
+      "section": "conclusion",
+      "startSegment": 138,
+      "endSegment": 145,
+      "summary": "Mullins closes with four reflective questions: (1) Which mindsets do you already embody? (2) Which can you learn? (3) Can you teach them to colleagues? (4) Is there a current challenge where these mindsets could help? He summarizes all six as counter-conventional, rule-breaking mindsets that can help anyone change the world.",
+      "summaryKo": "멀린스는 네 가지 성찰적 질문으로 마무리합니다: (1) 이미 체화한 사고방식은? (2) 배울 수 있는 것은? (3) 동료에게 가르칠 수 있는가? (4) 이 사고방식이 도움이 될 현재의 도전이 있는가? 여섯 가지를 누구나 세상을 바꿀 수 있게 하는 반통념적, 규칙 파괴적 사고방식으로 요약합니다.",
+      "keyPoints": [
+        "Reflect on which mindsets you already have",
+        "These mindsets are learnable and teachable",
+        "Apply them to current challenges you face"
+      ],
+      "transitions": [
+        "Okay, so I want to close with four questions",
+        "Question number one",
+        "Question number two",
+        "Question number three",
+        "Okay, so there we go"
+      ]
+    }
+  ]
+}
