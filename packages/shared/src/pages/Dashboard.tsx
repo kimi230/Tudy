@@ -99,7 +99,10 @@ export default function Dashboard() {
 
   // Video browse
   const countByCategory = (catId: string) => videos.filter((v) => v.categoryId === catId).length;
-  const filteredVideos = selectedCategory ? videos.filter((v) => v.categoryId === selectedCategory) : videos;
+  const sortedVideos = [...videos].sort((a, b) => new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime());
+  const filteredVideos = selectedCategory ? sortedVideos.filter((v) => v.categoryId === selectedCategory) : sortedVideos;
+  const recentCutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const isRecent = (v: VideoEntry) => new Date(v.addedAt).getTime() > recentCutoff;
 
   // Weekly stats helpers
   const formatHours = (sec: number) => {
@@ -373,13 +376,18 @@ export default function Dashboard() {
                 onClick={() => setSelectedVideo(v)}
                 className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow cursor-pointer"
               >
-                <img src={v.thumbnail} alt={v.title} className="w-full aspect-video object-cover" />
-                <div className="p-3">
-                  <h4 className="text-sm font-medium text-gray-900 line-clamp-2">{v.title}</h4>
-                  {v.descriptionKo && (
-                    <p className="text-xs text-gray-500 mt-1">{v.descriptionKo}</p>
+                <div className="relative">
+                  <img src={v.thumbnail} alt={v.title} className="w-full aspect-video object-cover" />
+                  {isRecent(v) && (
+                    <span className={`absolute top-2 left-2 ${t.bg600} text-white text-[10px] font-bold px-1.5 py-0.5 rounded`}>NEW</span>
                   )}
-                  <p className="text-xs text-gray-400 mt-1">{v.channel}</p>
+                </div>
+                <div className="p-3">
+                  <h4 className="text-base font-semibold text-gray-900 line-clamp-2">{v.title}</h4>
+                  {v.descriptionKo && (
+                    <p className="text-sm text-gray-500 mt-1.5 line-clamp-2">{v.descriptionKo}</p>
+                  )}
+                  <p className="text-xs text-gray-400 mt-1.5">{v.channel}</p>
                 </div>
               </div>
             ))}
