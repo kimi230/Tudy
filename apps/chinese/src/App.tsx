@@ -1,10 +1,17 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import {
   AuthProvider, XPToastProvider, Header, ScrollToTop, LoginPage,
-  HomePage, CategoryPage, StudyPage, DictationPage,
+  HomePage, DashboardPage, CategoryPage, StudyPage, DictationPage,
   DailyLearningPage, LibraryPage, VocabularyPage,
   ErrorNotePage, ProfilePage, RequestPage, AboutPage, UpdatesPage, SubscribePage,
+  useAuth,
 } from '@stdylang/shared';
+
+function HomeOrDashboard() {
+  const { user, loading } = useAuth();
+  if (loading) return <div className="flex justify-center mt-20"><div className="animate-spin w-8 h-8 border-4 border-red-600 border-t-transparent rounded-full" /></div>;
+  return user ? <DashboardPage /> : <HomePage />;
+}
 
 export default function App() {
   return (
@@ -19,7 +26,7 @@ export default function App() {
               <Header />
               <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 <Routes>
-                  <Route path="/" element={<HomePage />} />
+                  <Route path="/" element={<HomeOrDashboard />} />
                   <Route path="/category/:categoryId" element={<CategoryPage />} />
                   <Route path="/study/:videoId" element={<StudyPage />} />
                   <Route path="/dictation/:videoId" element={<DictationPage />} />

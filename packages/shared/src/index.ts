@@ -44,6 +44,7 @@ export { useRecording } from './hooks/useRecording.ts';
 export { useRewards, XP_RULES, calcDailySessionXP, calcVocabQuizXP } from './hooks/useRewards.ts';
 export { useYouTubePlayer } from './hooks/useYouTubePlayer.ts';
 export { useDailyLearning } from './hooks/useDailyLearning.ts';
+export { useDashboardStats } from './hooks/useDashboardStats.ts';
 
 // Contexts
 export { AuthProvider, AuthContext } from './contexts/AuthContext.tsx';
@@ -107,6 +108,7 @@ export { default as VocabDetailView } from './components/vocabulary/VocabDetailV
 export { default as VocabPractice } from './components/vocabulary/VocabPractice.tsx';
 
 // Pages
+export { default as DashboardPage } from './pages/Dashboard.tsx';
 export { default as HomePage } from './pages/Home.tsx';
 export { default as CategoryPage } from './pages/Category.tsx';
 export { default as StudyPage } from './pages/Study.tsx';
