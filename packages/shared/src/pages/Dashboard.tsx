@@ -68,7 +68,9 @@ export default function Dashboard() {
   for (const s of studySessions) {
     if (!studyByVideo.has(s.videoId)) studyByVideo.set(s.videoId, s);
   }
-  const studyInProgress = Array.from(studyByVideo.values()).filter((s) => !s.completedAt);
+  const isCompleted = (s: StudySession) => s.completedAt || s.currentStep >= 10;
+  const studyInProgress = Array.from(studyByVideo.values()).filter((s) => !isCompleted(s));
+  const studyCompleted = Array.from(studyByVideo.values()).filter((s) => isCompleted(s));
   const dailyInProgress = dailyProgress.filter((p) => !p.completedAt && p.totalSegments > 0);
 
   const continueItems: { title: string; subtitle: string; linkTo: string; thumbnail?: string; type: string }[] = [];
@@ -245,6 +247,38 @@ export default function Dashboard() {
                   };
                 })}
               />
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Completed Studies */}
+      {!progressLoading && studyCompleted.length > 0 && (
+        <div>
+          <h2 className="text-sm font-bold text-gray-900 mb-2">완료한 학습</h2>
+          <div className="bg-white border border-gray-200 rounded-xl p-3 space-y-2">
+            {studyCompleted.slice(0, 5).map((s) => {
+              const v = videoMap.get(s.videoId);
+              return (
+                <Link
+                  key={s.videoId}
+                  to={`/study/${s.videoId}`}
+                  className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 transition-colors"
+                >
+                  {v?.thumbnail && (
+                    <img src={v.thumbnail} alt="" className="w-12 h-8 rounded object-cover flex-shrink-0" />
+                  )}
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm text-gray-900 truncate">{v?.title ?? s.videoId}</p>
+                  </div>
+                  <span className="text-xs font-medium text-emerald-600 flex-shrink-0">완료</span>
+                </Link>
+              );
+            })}
+            {studyCompleted.length > 5 && (
+              <Link to="/profile" className={`block text-center text-xs ${t.text600} hover:underline pt-1`}>
+                +{studyCompleted.length - 5}개 더보기
+              </Link>
             )}
           </div>
         </div>
@@ -510,6 +544,38 @@ export default function Dashboard() {
                     };
                   })}
                 />
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Completed Studies for mobile */}
+        {!progressLoading && studyCompleted.length > 0 && (
+          <section>
+            <h2 className="text-lg font-bold text-gray-900 mb-3">완료한 학습</h2>
+            <div className="bg-white border border-gray-200 rounded-xl p-4 space-y-2">
+              {studyCompleted.slice(0, 5).map((s) => {
+                const v = videoMap.get(s.videoId);
+                return (
+                  <Link
+                    key={s.videoId}
+                    to={`/study/${s.videoId}`}
+                    className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 transition-colors"
+                  >
+                    {v?.thumbnail && (
+                      <img src={v.thumbnail} alt="" className="w-14 h-9 rounded object-cover flex-shrink-0" />
+                    )}
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm text-gray-900 truncate">{v?.title ?? s.videoId}</p>
+                    </div>
+                    <span className="text-xs font-medium text-emerald-600 flex-shrink-0">완료</span>
+                  </Link>
+                );
+              })}
+              {studyCompleted.length > 5 && (
+                <Link to="/profile" className={`block text-center text-xs ${t.text600} hover:underline pt-1`}>
+                  +{studyCompleted.length - 5}개 더보기
+                </Link>
               )}
             </div>
           </section>
